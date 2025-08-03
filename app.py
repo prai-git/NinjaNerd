@@ -6,7 +6,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 import uuid
 import ssl
@@ -41,6 +41,12 @@ app.logger.setLevel(logging.INFO)
 
 # Database file paths
 CREDENTIALS_FILE = 'data/Credentials.json'
+COLLABORATION_FILE = 'data/Collaboration.json'
+
+# Global storage for active sessions and collaboration data
+active_sessions = {}  # {username: {session_id, last_activity, school_name, current_topic, grade}}
+collaboration_invites = {}  # {invite_id: {from_user, to_user, timestamp, status}}
+chat_sessions = {}  # {session_id: {user1, user2, messages, active}}
 
 def init_credentials_db():
     """Initialize credentials database with default admin user"""
@@ -48,6 +54,7 @@ def init_credentials_db():
         default_data = {
             "admin@gmail.com": {
                 "password": generate_password_hash("adminatgmaildotcom"),
+                "school_name": "NinjaNerd Academy",
                 "history": [],
                 "statistics": {
                     "questions_attempted": 0,
@@ -57,6 +64,17 @@ def init_credentials_db():
             }
         }
         with open(CREDENTIALS_FILE, 'w') as f:
+            json.dump(default_data, f, indent=2)
+
+def init_collaboration_db():
+    """Initialize collaboration database"""
+    if not os.path.exists(COLLABORATION_FILE):
+        default_data = {
+            "invites": {},
+            "chat_sessions": {},
+            "message_counter": 0
+        }
+        with open(COLLABORATION_FILE, 'w') as f:
             json.dump(default_data, f, indent=2)
 
 def load_credentials():
@@ -72,6 +90,37 @@ def save_credentials(data):
     """Save credentials to JSON file"""
     with open(CREDENTIALS_FILE, 'w') as f:
         json.dump(data, f, indent=2)
+
+def load_collaboration_data():
+    """Load collaboration data from JSON file"""
+    try:
+        with open(COLLABORATION_FILE, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        init_collaboration_db()
+        return load_collaboration_data()
+
+def save_collaboration_data(data):
+    """Save collaboration data to JSON file"""
+    with open(COLLABORATION_FILE, 'w') as f:
+        json.dump(data, f, indent=2)
+
+def cleanup_old_sessions():
+    """Remove inactive sessions older than 30 minutes"""
+    cutoff_time = datetime.now() - timedelta(minutes=30)
+    to_remove = []
+    
+    for username, session_data in active_sessions.items():
+        if datetime.fromisoformat(session_data['last_activity']) < cutoff_time:
+            to_remove.append(username)
+    
+    for username in to_remove:
+        del active_sessions[username]
+
+def update_user_activity(username):
+    """Update user's last activity timestamp"""
+    if username in active_sessions:
+        active_sessions[username]['last_activity'] = datetime.now().isoformat()
 
 def log_user_activity(username, activity):
     """Log user activity with timestamp"""
@@ -263,6 +312,15 @@ def login():
             credentials[username]['statistics']['last_login'] = datetime.now().isoformat()
             save_credentials(credentials)
             
+            # Add to active sessions
+            active_sessions[username] = {
+                'session_id': session['session_id'],
+                'last_activity': datetime.now().isoformat(),
+                'school_name': credentials[username].get('school_name', 'Unknown School'),
+                'current_topic': None,
+                'grade': None
+            }
+            
             log_user_activity(username, "Logged in successfully")
             return redirect(url_for('about'))
         else:
@@ -276,6 +334,7 @@ def create_account():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
+        school_name = request.form.get('school_name', '').strip()
         
         credentials = load_credentials()
         
@@ -284,6 +343,7 @@ def create_account():
         else:
             credentials[username] = {
                 "password": generate_password_hash(password),
+                "school_name": school_name if school_name else "Unknown School",
                 "history": [],
                 "statistics": {
                     "questions_attempted": 0,
@@ -320,8 +380,23 @@ def exercise(grade, topic):
     if 'username' not in session:
         return redirect(url_for('login'))
     
-    # Load user history for difficulty adjustment
+    # Update user's current activity
+    update_user_activity(session['username'])
     credentials = load_credentials()
+    if session['username'] in active_sessions:
+        active_sessions[session['username']]['current_topic'] = topic
+        active_sessions[session['username']]['grade'] = grade
+    else:
+        # Add to active sessions
+        active_sessions[session['username']] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[session['username']].get('school_name', 'Unknown School'),
+            'current_topic': topic,
+            'grade': grade
+        }
+    
+    # Load user history for difficulty adjustment
     user_history = credentials[session['username']]['history']
     
     # Load prompt and call LLM
@@ -414,6 +489,19 @@ def submit_answer():
 @app.route('/logout')
 def logout():
     username = session.get('username', 'Unknown')
+    
+    # Remove from active sessions
+    if username in active_sessions:
+        del active_sessions[username]
+    
+    # End any active chat sessions
+    collaboration_data = load_collaboration_data()
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        if (session_data['active'] and 
+            (session_data['user1'] == username or session_data['user2'] == username)):
+            session_data['active'] = False
+    save_collaboration_data(collaboration_data)
+    
     session.clear()
     log_user_activity(username, "Logged out")
     return redirect(url_for('login'))
@@ -488,8 +576,285 @@ def check_answer_with_llm(question, user_answer, correct_explanation):
         # Fallback to basic checking
         return str(user_answer).strip().lower() in correct_explanation.lower()
 
+# Collaboration endpoints
+@app.route('/get_active_users')
+def get_active_users():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    cleanup_old_sessions()
+    update_user_activity(session['username'])
+    
+    current_user = session['username']
+    current_user_session = active_sessions.get(current_user, {})
+    current_school = current_user_session.get('school_name', '')
+    current_grade = current_user_session.get('grade', None)
+    
+    # Only show users if current user has selected a grade
+    if current_grade is None:
+        return jsonify({'users': []})
+    
+    # Get users from same school AND same grade who are currently in exercises
+    active_users = []
+    for username, session_data in active_sessions.items():
+        if (username != current_user and 
+            session_data.get('school_name') == current_school and
+            session_data.get('grade') == current_grade and  # Added grade check
+            session_data.get('current_topic') is not None):
+            active_users.append({
+                'username': username,
+                'topic': session_data.get('current_topic'),
+                'grade': session_data.get('grade')
+            })
+    
+    return jsonify({'users': active_users})
+
+@app.route('/send_collaboration_invite', methods=['POST'])
+def send_collaboration_invite():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    data = request.get_json()
+    target_user = data.get('target_user')
+    from_user = session['username']
+    
+    if not target_user:
+        return jsonify({'error': 'Target user not specified'})
+    
+    if target_user not in active_sessions:
+        return jsonify({'error': 'Target user is not active'})
+    
+    # Check if users are from same school AND same grade
+    from_user_session = active_sessions.get(from_user, {})
+    target_user_session = active_sessions.get(target_user, {})
+    
+    from_school = from_user_session.get('school_name', '')
+    target_school = target_user_session.get('school_name', '')
+    from_grade = from_user_session.get('grade')
+    target_grade = target_user_session.get('grade')
+    
+    if from_school != target_school:
+        return jsonify({'error': 'Can only collaborate with users from same school'})
+    
+    if from_grade != target_grade:
+        return jsonify({'error': 'Can only collaborate with users from same grade'})
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Clean up old invites between these users
+    to_remove = []
+    for invite_id, invite in collaboration_data['invites'].items():
+        if ((invite['from_user'] == from_user and invite['to_user'] == target_user) or
+            (invite['from_user'] == target_user and invite['to_user'] == from_user)):
+            to_remove.append(invite_id)
+    
+    for invite_id in to_remove:
+        del collaboration_data['invites'][invite_id]
+    
+    # Create invite
+    invite_id = str(uuid.uuid4())
+    collaboration_data['invites'][invite_id] = {
+        'from_user': from_user,
+        'to_user': target_user,
+        'timestamp': datetime.now().isoformat(),
+        'status': 'pending'
+    }
+    
+    save_collaboration_data(collaboration_data)
+    
+    log_user_activity(from_user, f"Sent collaboration invite to {target_user}")
+    return jsonify({'success': True})
+
+@app.route('/check_collaboration_invites')
+def check_collaboration_invites():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    update_user_activity(session['username'])
+    username = session['username']
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Check for pending invites for this user
+    for invite_id, invite in collaboration_data['invites'].items():
+        if invite['to_user'] == username and invite['status'] == 'pending':
+            return jsonify({'invite': invite})
+    
+    # Check if any of our sent invites were accepted and we have an active chat session
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        if (session_data['active'] and 
+            (session_data['user1'] == username or session_data['user2'] == username)):
+            # Find the partner
+            partner = session_data['user2'] if session_data['user1'] == username else session_data['user1']
+            return jsonify({'accepted_chat': {'partner': partner}})
+    
+    return jsonify({'invite': None})
+
+@app.route('/respond_collaboration_invite', methods=['POST'])
+def respond_collaboration_invite():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    data = request.get_json()
+    from_user = data.get('from_user')
+    accept = data.get('accept', False)
+    current_user = session['username']
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Find and update the invite
+    invite_found = False
+    for invite_id, invite in collaboration_data['invites'].items():
+        if (invite['from_user'] == from_user and 
+            invite['to_user'] == current_user and 
+            invite['status'] == 'pending'):
+            
+            invite['status'] = 'accepted' if accept else 'declined'
+            invite_found = True
+            
+            if accept:
+                # Create chat session
+                chat_session_id = str(uuid.uuid4())
+                collaboration_data['chat_sessions'][chat_session_id] = {
+                    'user1': from_user,
+                    'user2': current_user,
+                    'messages': [],
+                    'active': True,
+                    'created_at': datetime.now().isoformat()
+                }
+                
+                log_user_activity(current_user, f"Accepted collaboration invite from {from_user}")
+            else:
+                log_user_activity(current_user, f"Declined collaboration invite from {from_user}")
+            
+            break
+    
+    save_collaboration_data(collaboration_data)
+    
+    if not invite_found:
+        return jsonify({'error': 'Invite not found'})
+    
+    return jsonify({'success': True})
+
+@app.route('/send_chat_message', methods=['POST'])
+def send_chat_message():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    data = request.get_json()
+    to_user = data.get('to_user')
+    message = data.get('message', '').strip()
+    from_user = session['username']
+    
+    if not message or len(message) > 200:
+        return jsonify({'error': 'Invalid message length'})
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Find active chat session
+    chat_session = None
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        if (session_data['active'] and 
+            ((session_data['user1'] == from_user and session_data['user2'] == to_user) or
+             (session_data['user1'] == to_user and session_data['user2'] == from_user))):
+            chat_session = session_data
+            break
+    
+    if not chat_session:
+        return jsonify({'error': 'No active chat session'})
+    
+    # Add message
+    collaboration_data['message_counter'] = collaboration_data.get('message_counter', 0) + 1
+    message_data = {
+        'id': collaboration_data['message_counter'],
+        'from_user': from_user,
+        'to_user': to_user,
+        'message': message,
+        'timestamp': datetime.now().isoformat(),
+        'displayed': False
+    }
+    
+    chat_session['messages'].append(message_data)
+    save_collaboration_data(collaboration_data)
+    
+    return jsonify({'success': True})
+
+@app.route('/get_chat_messages')
+def get_chat_messages():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    partner = request.args.get('partner')
+    current_user = session['username']
+    
+    if not partner:
+        return jsonify({'error': 'Partner not specified'})
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Find active chat session
+    messages = []
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        if (session_data['active'] and 
+            ((session_data['user1'] == current_user and session_data['user2'] == partner) or
+             (session_data['user1'] == partner and session_data['user2'] == current_user))):
+            
+            # Get messages for current user
+            for msg in session_data['messages']:
+                if msg['to_user'] == current_user and not msg['displayed']:
+                    messages.append(msg)
+            break
+    
+    return jsonify({'messages': messages})
+
+@app.route('/mark_message_displayed', methods=['POST'])
+def mark_message_displayed():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    data = request.get_json()
+    message_id = data.get('message_id')
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Find and mark message as displayed
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        for msg in session_data['messages']:
+            if msg['id'] == message_id:
+                msg['displayed'] = True
+                save_collaboration_data(collaboration_data)
+                return jsonify({'success': True})
+    
+    return jsonify({'error': 'Message not found'})
+
+@app.route('/end_chat', methods=['POST'])
+def end_chat():
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    data = request.get_json()
+    partner = data.get('partner')
+    current_user = session['username']
+    
+    collaboration_data = load_collaboration_data()
+    
+    # Find and deactivate chat session
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        if (session_data['active'] and 
+            ((session_data['user1'] == current_user and session_data['user2'] == partner) or
+             (session_data['user1'] == partner and session_data['user2'] == current_user))):
+            
+            session_data['active'] = False
+            break
+    
+    save_collaboration_data(collaboration_data)
+    log_user_activity(current_user, f"Ended chat session with {partner}")
+    
+    return jsonify({'success': True})
+
 if __name__ == '__main__':
     init_credentials_db()
+    init_collaboration_db()
 
     # SSL Configuration
     context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)

@@ -67,8 +67,9 @@
         </div>
     </div>
     
-    <!-- Explanation Sidebar - RIGHT SIDE -->
+    <!-- Right Sidebar -->
     <div class="col-lg-4">
+        <!-- Explanation Card - Should appear above Progress when shown -->
         <div id="explanation-card" class="card" style="display: none;">
             <div class="card-header bg-warning text-dark">
                 <h6><i class="fas fa-info-circle me-1"></i>Explanation</h6>
@@ -79,7 +80,7 @@
         </div>
         
         <!-- Progress Card -->
-        <div class="card">
+        <div class="card{% if grade >= 5 %} mt-3{% endif %}" id="progress-card">
             <div class="card-header bg-secondary text-white">
                 <h6><i class="fas fa-chart-pie me-1"></i>Progress</h6>
             </div>
@@ -94,8 +95,70 @@
                 <p id="progress-text" class="mb-0">Question 0 of 0</p>
             </div>
         </div>
+        
+        <!-- Collaboration Panel (Only for Grade 5+) - Below Progress -->
+        {% if grade >= 5 %}
+        <div class="card mt-3">
+            <div class="card-header bg-info text-white">
+                <h6><i class="fas fa-users me-2"></i>Collaborate</h6>
+            </div>
+            <div class="card-body p-3">
+                <!-- Active Users List -->
+                <div id="active-users-panel">
+                    <h6 class="small">Active Classmates:</h6>
+                    <div id="active-users-list" style="max-height: 200px; overflow-y: auto;">
+                        <div class="text-center">
+                            <div class="spinner-border spinner-border-sm text-info" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="small mt-1">Finding classmates...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chat Panel -->
+                <div id="chat-panel" style="display: none;">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h6 class="mb-0 small">Chat with <span id="chat-partner-name"></span></h6>
+                        <button id="end-chat-btn" class="btn btn-sm btn-outline-danger">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div id="chat-messages" style="height: 150px; overflow-y: auto; border: 1px solid #dee2e6; border-radius: 0.375rem; padding: 0.5rem; background-color: #f8f9fa; font-size: 0.8rem;">
+                        <!-- Chat messages will appear here -->
+                    </div>
+                    <div class="input-group mt-2">
+                        <input type="text" id="chat-input" class="form-control form-control-sm" placeholder="Type a message..." maxlength="200">
+                        <button id="send-chat-btn" class="btn btn-sm btn-info">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
     </div>
 </div>
+
+<!-- Collaboration Invite Modal (moved outside all containers) -->
+{% if grade >= 5 %}
+<div class="modal fade" id="collaboration-invite-modal" tabindex="-1">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title">Collaboration Invite</h6>
+            </div>
+            <div class="modal-body">
+                <p class="small"><span id="invite-sender-name"></span> wants to collaborate with you!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" id="decline-invite-btn">Decline</button>
+                <button type="button" class="btn btn-sm btn-success" id="accept-invite-btn">Accept</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 {% endblock %}
 
 {% block scripts %}
@@ -103,12 +166,73 @@
 let currentQuestion = null;
 let questionIndex = 0;
 let totalQuestions = 0;
+{% if grade >= 5 %}
+let currentChatPartner = null;
+let lastInviteFromUser = null; // Track last invite to prevent flickering
+let modalShown = false; // Track modal state
+{% endif %}
 
 document.addEventListener('DOMContentLoaded', function() {
     loadCurrentQuestion();
     
     document.getElementById('submit-btn').addEventListener('click', submitAnswer);
     document.getElementById('next-btn').addEventListener('click', loadCurrentQuestion);
+    
+    {% if grade >= 5 %}
+    // Collaboration event listeners
+    document.getElementById('accept-invite-btn').addEventListener('click', function() {
+        const fromUser = document.getElementById('invite-sender-name').textContent;
+        respondToInvite(fromUser, true);
+        const modalElement = document.getElementById('collaboration-invite-modal');
+        const modalInstance = bootstrap.Modal.getInstance(modalElement);
+        if (modalInstance) modalInstance.hide();
+        modalShown = false;
+    });
+
+    document.getElementById('decline-invite-btn').addEventListener('click', function() {
+        const fromUser = document.getElementById('invite-sender-name').textContent;
+        respondToInvite(fromUser, false);
+        const modalElement = document.getElementById('collaboration-invite-modal');
+        const modalInstance = bootstrap.Modal.getInstance(modalElement);
+        if (modalInstance) modalInstance.hide();
+        modalShown = false;
+    });
+
+    document.getElementById('send-chat-btn').addEventListener('click', sendChatMessage);
+    document.getElementById('chat-input').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            sendChatMessage();
+        }
+    });
+
+    document.getElementById('end-chat-btn').addEventListener('click', function() {
+        if (currentChatPartner) {
+            fetch('/end_chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({partner: currentChatPartner})
+            });
+        }
+        
+        currentChatPartner = null;
+        lastInviteFromUser = null; // Reset invite tracking
+        modalShown = false; // Reset modal state
+        document.getElementById('chat-panel').style.display = 'none';
+        document.getElementById('active-users-panel').style.display = 'block';
+        loadActiveUsers();
+    });
+    
+    // Initialize collaboration features
+    loadActiveUsers();
+    // Poll for active users every 10 seconds
+    setInterval(loadActiveUsers, 10000);
+    // Poll for collaboration invites every 3 seconds
+    setInterval(checkForInvites, 3000);
+    // Poll for chat messages every 2 seconds when in chat
+    setInterval(checkForChatMessages, 2000);
+    {% endif %}
 });
 
 function loadCurrentQuestion() {
@@ -251,5 +375,201 @@ function showFinished() {
     document.getElementById('finish-btn').style.display = 'inline-block';
     document.getElementById('next-btn').style.display = 'none';
 }
+
+{% if grade >= 5 %}
+// Collaboration functionality
+function loadActiveUsers() {
+    if (document.getElementById('chat-panel').style.display !== 'none') {
+        return; // Don't load users when in chat mode
+    }
+    
+    fetch('/get_active_users')
+        .then(response => response.json())
+        .then(data => {
+            const usersList = document.getElementById('active-users-list');
+            if (data.users && data.users.length > 0) {
+                usersList.innerHTML = data.users.map(user => `
+                    <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
+                        <span class="small">${user.username}</span>
+                        <button class="btn btn-xs btn-outline-info" onclick="sendCollaborationInvite('${user.username}')" style="font-size: 0.7rem; padding: 0.1rem 0.3rem;">
+                            <i class="fas fa-handshake"></i>
+                        </button>
+                    </div>
+                `).join('');
+            } else {
+                usersList.innerHTML = '<p class="text-muted small text-center">No active classmates found</p>';
+            }
+        })
+        .catch(error => {
+            console.error('Error loading active users:', error);
+        });
+}
+
+function sendCollaborationInvite(targetUser) {
+    fetch('/send_collaboration_invite', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({target_user: targetUser})
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Collaboration invite sent!');
+        } else {
+            alert('Failed to send invite: ' + (data.error || 'Unknown error'));
+        }
+    })
+    .catch(error => {
+        console.error('Error sending invite:', error);
+    });
+}
+
+function checkForInvites() {
+    // Don't check for invites when in chat mode or modal is already shown
+    if (document.getElementById('chat-panel').style.display !== 'none' || modalShown) {
+        return;
+    }
+    
+    fetch('/check_collaboration_invites')
+        .then(response => response.json())
+        .then(data => {
+            if (data.invite) {
+                // Always show new invites, don't track processed ones
+                lastInviteFromUser = data.invite.from_user;
+                showCollaborationInvite(data.invite.from_user);
+            } else if (data.accepted_chat) {
+                // If our invite was accepted, start chat automatically
+                startChat(data.accepted_chat.partner);
+            }
+        })
+        .catch(error => {
+            console.error('Error checking invites:', error);
+        });
+}
+
+function showCollaborationInvite(fromUser) {
+    if (modalShown) return; // Prevent multiple modals
+    
+    modalShown = true;
+    document.getElementById('invite-sender-name').textContent = fromUser;
+    
+    // Use the single modal instance
+    const modalElement = document.getElementById('collaboration-invite-modal');
+    if (modalElement._bootstrapModal) {
+        modalElement._bootstrapModal.dispose();
+    }
+    
+    const modal = new bootstrap.Modal(modalElement, {
+        backdrop: 'static',
+        keyboard: false
+    });
+    modalElement._bootstrapModal = modal;
+    modal.show();
+    
+    // Reset modal state when hidden (only add listener once)
+    modalElement.addEventListener('hidden.bs.modal', function() {
+        modalShown = false;
+        // Don't reset inviteProcessed here, we want to keep track of processed invites
+    }, { once: true });
+}
+
+function respondToInvite(fromUser, accept) {
+    fetch('/respond_collaboration_invite', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({from_user: fromUser, accept: accept})
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success && accept) {
+            startChat(fromUser);
+        }
+    })
+    .catch(error => {
+        console.error('Error responding to invite:', error);
+    });
+}
+
+function startChat(partnerUser) {
+    currentChatPartner = partnerUser;
+    document.getElementById('active-users-panel').style.display = 'none';
+    document.getElementById('chat-panel').style.display = 'block';
+    document.getElementById('chat-partner-name').textContent = partnerUser;
+    document.getElementById('chat-messages').innerHTML = '';
+    document.getElementById('chat-input').focus();
+}
+
+function sendChatMessage() {
+    const input = document.getElementById('chat-input');
+    const message = input.value.trim();
+    if (!message || !currentChatPartner) return;
+    
+    fetch('/send_chat_message', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            to_user: currentChatPartner,
+            message: message
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            appendChatMessage('You', message, true);
+            input.value = '';
+        }
+    })
+    .catch(error => {
+        console.error('Error sending message:', error);
+    });
+}
+
+function checkForChatMessages() {
+    if (!currentChatPartner) return;
+    
+    fetch('/get_chat_messages?partner=' + encodeURIComponent(currentChatPartner))
+        .then(response => response.json())
+        .then(data => {
+            if (data.messages) {
+                data.messages.forEach(msg => {
+                    if (!msg.displayed) {
+                        appendChatMessage(msg.from_user, msg.message, false);
+                        // Mark as displayed
+                        fetch('/mark_message_displayed', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({message_id: msg.id})
+                        });
+                    }
+                });
+            }
+        })
+        .catch(error => {
+            console.error('Error checking messages:', error);
+        });
+}
+
+function appendChatMessage(sender, message, isOwn) {
+    const messagesDiv = document.getElementById('chat-messages');
+    const messageDiv = document.createElement('div');
+    messageDiv.className = isOwn ? 'text-end mb-1' : 'mb-1';
+    messageDiv.innerHTML = `
+        <div class="d-inline-block p-1 rounded ${isOwn ? 'bg-info text-white' : 'bg-light'}" style="font-size: 0.7rem; max-width: 80%;">
+            <small class="fw-bold">${sender}:</small><br>
+            ${message}
+        </div>
+    `;
+    messagesDiv.appendChild(messageDiv);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
+}
+{% endif %}
 </script>
 {% endblock %}

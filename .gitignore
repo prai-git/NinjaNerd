@@ -16,3 +16,4 @@ flask_session/
 
 # Credentials
 data/Credentials.json
+data/Collaboration.json
