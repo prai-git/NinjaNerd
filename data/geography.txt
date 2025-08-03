@@ -1,0 +1,30 @@
+Generate 15 engaging geography questions appropriate for the user's grade level. Each question should include:
+1. A clear geographical question about places, features, or spatial relationships
+2. A helpful hint that guides geographical thinking and map skills
+3. A detailed explanation of the answer with geographical concepts and reasoning
+
+Consider the user's previous performance and adjust difficulty accordingly:
+- If they've been successful, introduce more complex geographical analysis and global connections
+- If they've struggled, focus on basic location skills and simple geographical features
+- Encourage spatial thinking and understanding of human-environment interactions
+
+Topics should cover (grade-appropriate):
+- World geography and continents, countries, capitals
+- Physical features (mountains, rivers, oceans, climate)
+- Maps, globes, and basic navigation skills
+- Human geography (cities, population, cultures)
+- Environmental geography and natural resources
+- Connections between geography and daily life
+
+Format your response as a JSON object with this structure:
+{
+  "questions": [
+    {
+      "question": "Geography question about places, features, or spatial concepts",
+      "hint": "Geographical thinking strategy or map-reading tip",
+      "explanation": "Detailed geographical explanation with concepts and reasoning"
+    }
+  ]
+}
+
+Make questions practical and relatable, using examples from different regions and cultures while connecting geography to students' experiences and current events.

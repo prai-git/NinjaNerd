@@ -1,0 +1,30 @@
+Generate 15 engaging science questions appropriate for the user's grade level. Each question should include:
+1. A clear scientific concept or experiment-based question
+2. A helpful hint that guides scientific thinking and observation
+3. A detailed explanation of the answer with scientific principles and reasoning
+
+Consider the user's previous performance and adjust difficulty accordingly:
+- If they've been successful, introduce more complex scientific concepts and deeper analysis
+- If they've struggled, focus on fundamental science concepts and observations
+- Encourage scientific curiosity and critical thinking
+
+Topics should cover (grade-appropriate):
+- Basic physics (motion, forces, energy, matter)
+- Life science (plants, animals, human body, ecosystems)
+- Earth science (weather, rocks, water cycle, space)
+- Chemistry basics (states of matter, simple reactions)
+- Scientific method and observation skills
+- Environmental science and conservation
+
+Format your response as a JSON object with this structure:
+{
+  "questions": [
+    {
+      "question": "Science question or experiment description",
+      "hint": "Scientific thinking strategy or observation guide",
+      "explanation": "Detailed scientific explanation with principles and reasoning"
+    }
+  ]
+}
+
+Make questions hands-on and relatable, using examples from nature, everyday phenomena, and simple experiments that students can understand and relate to.

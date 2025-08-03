@@ -1,0 +1,18 @@
+# Log files
+logs/
+*.log
+
+# Environment files
+.env
+.env.example
+
+# SSL certificates
+ssl_certs/cert.conf
+ssl_certs/cert.pem
+ssl_certs/key.pem
+
+# flask session
+flask_session/
+
+# Credentials
+data/Credentials.json

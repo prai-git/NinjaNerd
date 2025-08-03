@@ -1,0 +1,30 @@
+Generate 15 engaging history questions appropriate for the user's grade level. Each question should include:
+1. A clear historical question about events, people, or civilizations
+2. A helpful hint that guides historical thinking and analysis
+3. A detailed explanation of the answer with historical context and significance
+
+Consider the user's previous performance and adjust difficulty accordingly:
+- If they've been successful, introduce more complex historical analysis and connections
+- If they've struggled, focus on basic historical facts and simple timelines
+- Encourage understanding of cause and effect in history
+
+Topics should cover (grade-appropriate):
+- Ancient civilizations and early societies
+- Important historical figures and their contributions
+- Major historical events and their impact
+- Cultural traditions and how societies developed
+- Timeline skills and chronological thinking
+- Connections between past and present
+
+Format your response as a JSON object with this structure:
+{
+  "questions": [
+    {
+      "question": "Historical question about events, people, or cultures",
+      "hint": "Historical thinking strategy or context clue",
+      "explanation": "Detailed historical explanation with context and significance"
+    }
+  ]
+}
+
+Make questions engaging by focusing on interesting stories, diverse cultures, and connections to students' lives and modern world.

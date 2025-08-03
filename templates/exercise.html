@@ -1,0 +1,255 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title() }} Exercise - Grade {{ grade }} - NinjaNerd{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2><i class="fas fa-pencil-alt me-2"></i>{{ topic.title() }} - Grade {{ grade }}</h2>
+            <a href="{{ url_for('topics', grade=grade) }}" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-1"></i>Back to Topics
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Question Area -->
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 id="question-counter">Loading question...</h5>
+            </div>
+            <div class="card-body">
+                <div id="question-content" class="mb-4">
+                    <div class="text-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Generating your personalized question...</p>
+                    </div>
+                </div>
+                
+                <div id="answer-section" style="display: none;">
+                    <label for="user-answer" class="form-label">Your Answer:</label>
+                    <textarea id="user-answer" class="form-control mb-3" rows="4" 
+                              placeholder="Type your answer here..."></textarea>
+                    
+                    <div class="d-grid">
+                        <button id="submit-btn" class="btn btn-success btn-lg">
+                            <i class="fas fa-check me-1"></i>Submit Answer
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="result-section" style="display: none;" class="mt-3">
+                    <div id="result-message" class="alert"></div>
+                    <button id="next-btn" class="btn btn-primary" style="display: none;">
+                        <i class="fas fa-arrow-right me-1"></i>Next Question
+                    </button>
+                    <button id="finish-btn" class="btn btn-success" style="display: none;" 
+                            onclick="location.href='{{ url_for('topics', grade=grade) }}'">
+                        <i class="fas fa-flag-checkered me-1"></i>Finish Exercise
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hint Section -->
+        <div class="card mt-3">
+            <div class="card-header bg-info text-white">
+                <h6><i class="fas fa-lightbulb me-1"></i>Hint</h6>
+            </div>
+            <div class="card-body">
+                <p id="hint-content">Loading hint...</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Explanation Sidebar - RIGHT SIDE -->
+    <div class="col-lg-4">
+        <div id="explanation-card" class="card" style="display: none;">
+            <div class="card-header bg-warning text-dark">
+                <h6><i class="fas fa-info-circle me-1"></i>Explanation</h6>
+            </div>
+            <div class="card-body">
+                <div id="explanation-content"></div>
+            </div>
+        </div>
+        
+        <!-- Progress Card -->
+        <div class="card">
+            <div class="card-header bg-secondary text-white">
+                <h6><i class="fas fa-chart-pie me-1"></i>Progress</h6>
+            </div>
+            <div class="card-body text-center">
+                <div id="progress-circle" class="mb-3">
+                    <div class="progress" style="height: 20px;">
+                        <div id="progress-bar" class="progress-bar bg-success" role="progressbar" 
+                             style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <p id="progress-text" class="mb-0">Question 0 of 0</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let currentQuestion = null;
+let questionIndex = 0;
+let totalQuestions = 0;
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadCurrentQuestion();
+    
+    document.getElementById('submit-btn').addEventListener('click', submitAnswer);
+    document.getElementById('next-btn').addEventListener('click', loadCurrentQuestion);
+});
+
+function loadCurrentQuestion() {
+    fetch('/get_current_question')
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert('Error: ' + data.error);
+                return;
+            }
+            
+            if (data.finished) {
+                showFinished();
+                return;
+            }
+            
+            currentQuestion = data.question;
+            questionIndex = data.index;
+            totalQuestions = data.total;
+            
+            displayQuestion();
+        })
+        .catch(error => {
+            console.error('Error loading question:', error);
+            alert('Error loading question. Please try again.');
+        });
+}
+
+function displayQuestion() {
+    document.getElementById('question-counter').textContent = `Question ${questionIndex} of ${totalQuestions}`;
+    document.getElementById('question-content').innerHTML = `<h5>${currentQuestion.question}</h5>`;
+    document.getElementById('hint-content').textContent = currentQuestion.hint || 'No hint available';
+    
+    // Update progress
+    const progressPercent = (questionIndex / totalQuestions) * 100;
+    document.getElementById('progress-bar').style.width = progressPercent + '%';
+    document.getElementById('progress-bar').setAttribute('aria-valuenow', progressPercent);
+    document.getElementById('progress-text').textContent = `Question ${questionIndex} of ${totalQuestions}`;
+    
+    // Show answer section, hide others
+    document.getElementById('answer-section').style.display = 'block';
+    document.getElementById('result-section').style.display = 'none';
+    document.getElementById('explanation-card').style.display = 'none';
+    
+    // Clear previous answer
+    document.getElementById('user-answer').value = '';
+    document.getElementById('user-answer').focus();
+}
+
+function submitAnswer() {
+    const answer = document.getElementById('user-answer').value.trim();
+    
+    if (!answer) {
+        alert('Please enter an answer before submitting.');
+        return;
+    }
+    
+    // Show loading state
+    const submitBtn = document.getElementById('submit-btn');
+    const originalText = submitBtn.innerHTML;
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i>Checking...';
+    submitBtn.disabled = true;
+    
+    fetch('/submit_answer', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            answer: answer
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            alert('Error: ' + data.error);
+            return;
+        }
+        
+        showResult(data);
+    })
+    .catch(error => {
+        console.error('Error submitting answer:', error);
+        alert('Error submitting answer. Please try again.');
+    })
+    .finally(() => {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+    });
+}
+
+function showResult(data) {
+    const resultSection = document.getElementById('result-section');
+    const resultMessage = document.getElementById('result-message');
+    const nextBtn = document.getElementById('next-btn');
+    const finishBtn = document.getElementById('finish-btn');
+    const explanationCard = document.getElementById('explanation-card');
+    const explanationContent = document.getElementById('explanation-content');
+    
+    // Hide answer section
+    document.getElementById('answer-section').style.display = 'none';
+    
+    // Show result
+    resultSection.style.display = 'block';
+    
+    if (data.correct) {
+        resultMessage.className = 'alert alert-success';
+        resultMessage.innerHTML = '<i class="fas fa-check-circle me-1"></i><strong>Correct!</strong> Well done!';
+        // Hide explanation card for correct answers
+        explanationCard.style.display = 'none';
+    } else {
+        resultMessage.className = 'alert alert-danger';
+        resultMessage.innerHTML = '<i class="fas fa-times-circle me-1"></i><strong>Incorrect.</strong> Let\'s learn from this!';
+        
+        // Show explanation for incorrect answers on the RIGHT SIDE
+        if (data.explanation) {
+            explanationContent.innerHTML = data.explanation;
+            explanationCard.style.display = 'block';
+        }
+    }
+    
+    // Show appropriate button
+    if (data.next_available) {
+        nextBtn.style.display = 'inline-block';
+        finishBtn.style.display = 'none';
+    } else {
+        nextBtn.style.display = 'none';
+        finishBtn.style.display = 'inline-block';
+    }
+}
+
+function showFinished() {
+    document.getElementById('question-content').innerHTML = 
+        '<div class="text-center"><h4><i class="fas fa-trophy text-warning me-2"></i>Exercise Completed!</h4><p>Great job! You have completed all questions in this exercise.</p></div>';
+    
+    document.getElementById('answer-section').style.display = 'none';
+    document.getElementById('result-section').style.display = 'block';
+    document.getElementById('result-message').className = 'alert alert-success';
+    document.getElementById('result-message').innerHTML = '<i class="fas fa-star me-1"></i>Congratulations on completing the exercise!';
+    document.getElementById('finish-btn').style.display = 'inline-block';
+    document.getElementById('next-btn').style.display = 'none';
+}
+</script>
+{% endblock %}

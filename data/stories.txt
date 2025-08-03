@@ -1,0 +1,30 @@
+Generate 5 engaging story-based questions appropriate for the user's grade level. Each question should include:
+1. A short, interesting story or reading passage followed by comprehension questions
+2. A helpful hint that guides reading comprehension strategies
+3. A detailed explanation of the answer with reference to the text
+
+Consider the user's previous performance and adjust difficulty accordingly:
+- If they've been successful, introduce more complex narratives and deeper analysis
+- If they've struggled, provide simpler stories with more direct questions
+- Focus on building reading comprehension and analytical thinking skills
+
+Story types and questions should include:
+- Reading comprehension with main idea identification
+- Character analysis and motivation
+- Plot sequence and story elements
+- Vocabulary in context
+- Making inferences and predictions
+- Creative writing prompts based on story themes
+
+Format your response as a JSON object with this structure:
+{
+  "questions": [
+    {
+      "question": "Story passage followed by comprehension question",
+      "hint": "Reading strategy to help find the answer",
+      "explanation": "Detailed answer with text evidence and reasoning"
+    }
+  ]
+}
+
+Create age-appropriate stories with diverse characters and settings that reflect different cultures and experiences to engage all students. **Stories shall not have any racial slur, profanity or abusive language**.

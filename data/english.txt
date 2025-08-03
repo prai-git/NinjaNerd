@@ -1,0 +1,30 @@
+Generate 15 engaging English language questions appropriate for the user's grade level. Each question should include:
+1. A clear language arts exercise covering grammar, vocabulary, or writing skills
+2. A helpful hint that guides proper language usage and thinking
+3. A detailed explanation of the correct answer with grammar rules or language concepts
+
+Consider the user's previous performance and adjust difficulty accordingly:
+- If they've been successful, introduce more complex grammar concepts and advanced vocabulary
+- If they've struggled, focus on fundamental language skills and basic concepts
+- Build confidence while reinforcing proper English usage
+
+Topics should cover:
+- Grammar (parts of speech, sentence structure, punctuation)
+- Vocabulary building and word meanings
+- Spelling and phonics (for appropriate grades)
+- Writing skills (sentence construction, paragraph development)
+- Reading comprehension strategies
+- Creative expression and storytelling
+
+Format your response as a JSON object with this structure:
+{
+  "questions": [
+    {
+      "question": "English language exercise or prompt",
+      "hint": "Language strategy or grammar tip to guide thinking",
+      "explanation": "Detailed explanation with grammar rules and examples"
+    }
+  ]
+}
+
+Make exercises engaging and practical, using examples that connect to students' everyday experiences and interests.

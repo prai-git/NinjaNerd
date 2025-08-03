@@ -1,0 +1,30 @@
+Generate 5 fun and engaging puzzles appropriate for the user's grade level. Each puzzle should include:
+1. A clear, interesting puzzle or brain teaser
+2. A helpful hint that encourages logical thinking
+3. A detailed explanation of the solution process
+
+Consider the user's previous performance and adjust difficulty accordingly:
+- If they've been successful, introduce more complex logical challenges
+- If they've struggled, provide simpler pattern-based puzzles
+- Focus on developing critical thinking and problem-solving skills
+
+Puzzle types should include:
+- Logic puzzles and riddles
+- Pattern recognition challenges
+- Number sequences and series
+- Visual puzzles and spatial reasoning
+- Word puzzles and brain teasers
+- Simple coding/algorithm problems (for higher grades)
+
+Format your response as a JSON object with this structure:
+{
+  "questions": [
+    {
+      "question": "Puzzle description with clear instructions",
+      "hint": "Guidance to help approach the problem logically",
+      "explanation": "Step-by-step solution with reasoning"
+    }
+  ]
+}
+
+Make puzzles fun and age-appropriate, using themes like animals, adventure, mystery, or fantasy that capture students' imagination.
