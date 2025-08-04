@@ -852,6 +852,47 @@ def end_chat():
     
     return jsonify({'success': True})
 
+@app.route('/games/<int:grade>')
+def games_list(grade):
+    """Display available games for a specific grade"""
+    if 'username' not in session:
+        return redirect(url_for('login'))
+    
+    if grade < 1 or grade > 7:
+        flash('Games are only available for grades 1-7')
+        return redirect(url_for('topics', grade=1))
+    
+    # Simple list of available games (no database needed)
+    games = [
+        {
+            'name': 'TejasThrust',
+            'slug': 'tejas-thrust',
+            'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
+        }
+    ]
+    
+    log_user_activity(session['username'], f"Visited games for grade {grade}")
+    return render_template('games/games_list.html', games=games, grade=grade, logo_path=LOGO_PATH)
+
+@app.route('/games/play/<string:game_slug>')
+def game_detail(game_slug):
+    """Display a specific game"""
+    if 'username' not in session:
+        return redirect(url_for('login'))
+    
+    if game_slug != 'tejas-thrust':
+        flash('Game not found')
+        return redirect(url_for('games_list', grade=1))
+    
+    game = {
+        'name': 'TejasThrust',
+        'slug': 'tejas-thrust',
+        'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
+    }
+    
+    log_user_activity(session['username'], f"Started playing {game_slug}")
+    return render_template('games/game_detail.html', game=game, logo_path=LOGO_PATH)
+
 if __name__ == '__main__':
     init_credentials_db()
     init_collaboration_db()

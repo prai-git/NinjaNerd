@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% block title %}{{ game.name }} - NinjaNerd{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <div>
+                        <h4><i class="fas fa-fighter-jet me-2"></i>{{ game.name }}</h4>
+                    </div>
+                    <div>
+                        <button id="pauseBtn" class="btn btn-warning btn-sm ms-2">
+                            <i class="fas fa-pause"></i> Pause
+                        </button>
+                        <a href="/games/{{ request.args.get('grade', 1) }}" 
+                           class="btn btn-outline-secondary btn-sm ms-2">
+                            <i class="fas fa-arrow-left"></i> Back to Games
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="game-container">
+                        <canvas id="gameCanvas" width="1200" height="800"></canvas>
+                        <div id="gameControls" class="game-controls">
+                            <div class="controls-info">
+                                <h6>Controls:</h6>
+                                <p><i class="fas fa-arrows-alt"></i> Arrow Keys: Move</p>
+                                <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot</p>
+                                <p><i class="fas fa-pause"></i> P: Pause</p>
+                            </div>
+                            <button id="startBtn" class="btn btn-success btn-lg">
+                                <i class="fas fa-play"></i> Start Game
+                            </button>
+                            <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
+                                <i class="fas fa-redo"></i> Restart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.game-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #87CEEB;
+    min-height: 800px;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    background: #87CEEB;
+}
+
+.game-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.controls-info {
+    margin-bottom: 20px;
+}
+
+.controls-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+</style>
+
+<script src="/static/games/tejas_thrust/js/config.js"></script>
+<script src="/static/games/tejas_thrust/js/laser.js"></script>
+<script src="/static/games/tejas_thrust/js/cloud.js"></script>
+<script src="/static/games/tejas_thrust/js/plane.js"></script>
+<script src="/static/games/tejas_thrust/js/game.js"></script>
+
+<script>
+let game = null;
+
+document.getElementById('startBtn').addEventListener('click', function() {
+    startGame();
+});
+
+document.getElementById('restartBtn').addEventListener('click', function() {
+    if (game) {
+        game.stop();
+    }
+    startGame();
+});
+
+document.getElementById('pauseBtn').addEventListener('click', function() {
+    if (game) {
+        game.togglePause();
+        updatePauseButton();
+    }
+});
+
+function updatePauseButton() {
+    const btn = document.getElementById('pauseBtn');
+    if (game && game.paused) {
+        btn.innerHTML = '<i class="fas fa-play"></i> Resume';
+        btn.className = 'btn btn-success btn-sm ms-2';
+    } else {
+        btn.innerHTML = '<i class="fas fa-pause"></i> Pause';
+        btn.className = 'btn btn-warning btn-sm ms-2';
+    }
+}
+
+function startGame() {
+    document.getElementById('gameControls').style.display = 'none';
+    document.getElementById('restartBtn').style.display = 'inline-block';
+    
+    game = new TejasThrust('gameCanvas');
+    game.start();
+}
+
+document.addEventListener('gameOver', function() {
+    document.getElementById('gameControls').style.display = 'block';
+    document.getElementById('startBtn').style.display = 'none';
+    document.getElementById('restartBtn').style.display = 'inline-block';
+});
+
+document.addEventListener('gamePauseToggle', function(e) {
+    updatePauseButton();
+});
+</script>
+{% endblock %}

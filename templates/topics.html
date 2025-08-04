@@ -69,6 +69,19 @@
         </div>
     </div>
     
+    <!-- Games badge for grades 1-7 -->
+    {% if grade <= 7 %}
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card h-100 topic-card" onclick="location.href='/games/{{ grade }}'">
+            <div class="card-body text-center">
+                <i class="fas fa-gamepad fa-4x text-danger mb-3"></i>
+                <h5 class="card-title">Games</h5>
+                <p class="card-text">Fun educational games and activities</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
     <!-- Advanced topics for grades 4-10 -->
     {% if grade >= 4 %}
     <div class="col-lg-3 col-md-4 col-sm-6">

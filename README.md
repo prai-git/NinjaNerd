@@ -13,6 +13,11 @@ An interactive educational platform designed to help students learn and practice
 - **Puzzles**: Logic puzzles and brain teasers
 - **Stories**: Reading comprehension exercises
 
+### 🎮 Interactive Games
+- **Tejas Thrust**: An engaging browser-based game that combines entertainment with learning
+- Game library with detailed game descriptions and previews
+- Interactive gaming experiences to make learning fun and engaging
+
 ### 🤖 AI-Powered Question Generation
 - Integration with DeepSeek R1 LLM for dynamic question creation
 - Adaptive difficulty based on user performance history
