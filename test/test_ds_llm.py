@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Unit test for call_llm_api() function in app.py
+Unit test for LLMService class in ai/llm_service.py
 Tests LLM interaction using math.txt prompt and validates response structure
 """
 
@@ -10,11 +10,13 @@ import time
 import json
 import unittest
 from unittest.mock import patch, MagicMock
+import logging
 
-# Add parent directory to path to import app module
+# Add parent directory to path to import modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from app import call_llm_api, load_prompt, app
+from ai.llm_service import LLMService
+from app import load_prompt, app
 
 class TestDSLLM(unittest.TestCase):
     """Test class for DeepSeek LLM API integration"""
@@ -26,25 +28,36 @@ class TestDSLLM(unittest.TestCase):
         self.app_context = self.app.app_context()
         self.app_context.push()
         
-        # Mock session data to avoid "Working outside of request context" error
-        self.session_patcher = patch('app.session', {
-            'session_id': 'test-session-id',
-            'username': 'test-user'
-        })
-        self.mock_session = self.session_patcher.start()
+        # Create a test logger
+        self.logger = logging.getLogger('test_logger')
+        self.logger.setLevel(logging.INFO)
+        
+        # Initialize LLM service
+        self.llm_service = LLMService(logger=self.logger)
+        
+        # Mock active sessions for the service
+        self.mock_active_sessions = {
+            'test-user': {
+                'session_id': 'test-session-id',
+                'last_activity': '2024-01-01T12:00:00',
+                'school_name': 'Test School',
+                'current_topic': 'math',
+                'grade': 3
+            }
+        }
+        self.llm_service.set_active_sessions_reference(self.mock_active_sessions)
         
         self.math_prompt = load_prompt('math')
         self.expected_question_count = 10  # As specified in math.txt prompt
     
     def tearDown(self):
         """Clean up after tests"""
-        self.session_patcher.stop()
         self.app_context.pop()
         
     def test_call_llm_api_with_math_prompt(self):
-        """Test call_llm_api with math.txt prompt and validate response structure"""
+        """Test LLMService.call_llm_api with math.txt prompt and validate response structure"""
         print("\n" + "="*60)
-        print("Testing call_llm_api() with math.txt prompt")
+        print("Testing LLMService.call_llm_api() with math.txt prompt")
         print("="*60)
         
         # Print the prompt being used
@@ -54,8 +67,13 @@ class TestDSLLM(unittest.TestCase):
         # Measure response time
         start_time = time.time()
         
-        # Call the LLM API
-        response = call_llm_api(self.math_prompt, user_history=[])
+        # Call the LLM API through the service
+        response = self.llm_service.call_llm_api(
+            self.math_prompt, 
+            user_history=[], 
+            session_id='test-session-id', 
+            username='test-user'
+        )
         
         end_time = time.time()
         response_time = end_time - start_time
@@ -176,9 +194,9 @@ class TestDSLLM(unittest.TestCase):
             print(f"\n✅ Math content validated - found relevant mathematical keywords")
     
     def test_call_llm_api_with_user_history(self):
-        """Test call_llm_api with user history for difficulty adjustment"""
+        """Test LLMService.call_llm_api with user history for difficulty adjustment"""
         print("\n" + "="*60)
-        print("Testing call_llm_api() with user history")
+        print("Testing LLMService.call_llm_api() with user history")
         print("="*60)
         
         # Sample user history
@@ -200,7 +218,12 @@ class TestDSLLM(unittest.TestCase):
         ]
         
         start_time = time.time()
-        response = call_llm_api(self.math_prompt, user_history=user_history)
+        response = self.llm_service.call_llm_api(
+            self.math_prompt, 
+            user_history=user_history, 
+            session_id='test-session-id', 
+            username='test-user'
+        )
         end_time = time.time()
         
         response_time = end_time - start_time
@@ -213,6 +236,67 @@ class TestDSLLM(unittest.TestCase):
         
         print(f"✅ History test completed - {len(response['questions'])} questions received")
     
+    def test_check_answer_with_llm(self):
+        """Test LLMService.check_answer_with_llm method"""
+        print("\n" + "="*60)
+        print("Testing LLMService.check_answer_with_llm()")
+        print("="*60)
+        
+        # Test with a simple math question
+        question = "What is 2 + 2?"
+        correct_answer = "4"
+        explanation = "2 + 2 = 4. This is basic addition."
+        
+        # Test correct answer
+        start_time = time.time()
+        is_correct = self.llm_service.check_answer_with_llm(
+            question, 
+            correct_answer, 
+            explanation, 
+            session_id='test-session-id', 
+            username='test-user'
+        )
+        end_time = time.time()
+        
+        print(f"Answer checking time: {end_time - start_time:.2f} seconds")
+        print(f"Question: {question}")
+        print(f"User answer: {correct_answer}")
+        print(f"Result: {'Correct' if is_correct else 'Incorrect'}")
+        
+        # For mock responses, this should work correctly
+        self.assertIsInstance(is_correct, bool, "Answer check should return a boolean")
+        
+        # Test incorrect answer
+        wrong_answer = "5"
+        is_incorrect = self.llm_service.check_answer_with_llm(
+            question, 
+            wrong_answer, 
+            explanation, 
+            session_id='test-session-id', 
+            username='test-user'
+        )
+        
+        print(f"Wrong answer: {wrong_answer}")
+        print(f"Result: {'Correct' if is_incorrect else 'Incorrect'}")
+        
+        self.assertIsInstance(is_incorrect, bool, "Answer check should return a boolean")
+        
+        print("✅ Answer checking test completed")
+    
+    def test_session_cleanup(self):
+        """Test LLMService.cleanup_session_queue_requests method"""
+        print("\n" + "="*60)
+        print("Testing LLMService.cleanup_session_queue_requests()")
+        print("="*60)
+        
+        # Test cleanup functionality
+        test_session_id = 'cleanup-test-session'
+        
+        # This should not raise any errors even if session doesn't exist
+        self.llm_service.cleanup_session_queue_requests(test_session_id)
+        
+        print("✅ Session cleanup test completed")
+    
     def test_error_handling(self):
         """Test error handling with invalid prompts"""
         print("\n" + "="*60)
@@ -220,7 +304,7 @@ class TestDSLLM(unittest.TestCase):
         print("="*60)
         
         # Test with empty prompt
-        response = call_llm_api("", user_history=[])
+        response = self.llm_service.call_llm_api("", user_history=[], session_id='test-session-id', username='test-user')
         self.assertIsInstance(response, dict)
         
         # Should still get some response (mock questions)
@@ -228,6 +312,10 @@ class TestDSLLM(unittest.TestCase):
             print(f"✅ Empty prompt handled gracefully - {len(response['questions'])} questions")
         else:
             print("⚠️ Empty prompt returned error response")
+        
+        # Test with None values
+        response = self.llm_service.call_llm_api("test prompt", user_history=[], session_id=None, username=None)
+        self.assertIsInstance(response, dict)
         
         print("✅ Error handling test completed")
 
@@ -237,7 +325,7 @@ class TestDSLLM(unittest.TestCase):
         print("Testing mock question generation")
         print("="*60)
         
-        # Test different topic prompts - but expect actual LLM responses since API is working
+        # Test different topic prompts
         test_prompts = [
             ("math", "Generate educational questions for math"),
             ("science", "Create science questions for grade 3"),
@@ -249,7 +337,12 @@ class TestDSLLM(unittest.TestCase):
         
         for expected_topic, prompt in test_prompts:
             with self.subTest(topic=expected_topic):
-                response = call_llm_api(prompt, user_history=[])
+                response = self.llm_service.call_llm_api(
+                    prompt, 
+                    user_history=[], 
+                    session_id='test-session-id', 
+                    username='test-user'
+                )
                 
                 self.assertIsInstance(response, dict, f"Response for {expected_topic} should be a dictionary")
                 
@@ -297,7 +390,7 @@ class TestDSLLM(unittest.TestCase):
 
 def main():
     """Main function to run the tests"""
-    print("DeepSeek LLM API Test Suite")
+    print("DeepSeek LLM API Test Suite (Refactored)")
     print("=" * 60)
     
     # Check if math.txt exists

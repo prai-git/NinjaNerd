@@ -10,10 +10,8 @@ from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 import uuid
 import ssl
-import queue
-import threading
-import time
 from functools import wraps
+from ai.llm_service import LLMService
 
 # Load environment variables from .env file
 load_dotenv()
@@ -27,19 +25,7 @@ app.config['SESSION_PERMANENT'] = False
 Session(app)
 
 # Environment variables
-LLM_ENDPOINT = os.getenv('PR_LLM_ENDPOINT', '')
-LLM_API_KEY = os.getenv('PR_LLM_API_KEY', '')
 LOGO_PATH = os.getenv('PR_NIBODH_LOGO', '/static/images/logo.png')
-
-# LLM Queue Configuration
-LLM_REQUEST_QUEUE = queue.Queue()
-LLM_RESPONSE_MAP = {}  # Map of request_id to response
-LLM_SESSION_REQUESTS = {}  # Map of session_id to list of request_ids
-LLM_REQUEST_TIMEOUT = 300  # seconds
-MAX_WORKER_THREADS = 20  # Maximum number of worker threads
-MAX_RETRIES = 3  # Maximum number of retries for failed requests
-WORKER_THREADS = []  # List to keep track of worker threads
-SESSION_PRIORITY_THRESHOLD = 5  # Maximum number of pending requests per session
 
 # Setup logging with circular buffer
 if not os.path.exists('logs'):
@@ -53,6 +39,9 @@ log_handler.setLevel(logging.INFO)
 app.logger.addHandler(log_handler)
 app.logger.setLevel(logging.INFO)
 
+# Initialize LLM service after app setup
+llm_service = LLMService(logger=app.logger)
+
 # Database file paths
 CREDENTIALS_FILE = 'data/Credentials.json'
 COLLABORATION_FILE = 'data/Collaboration.json'
@@ -61,6 +50,9 @@ COLLABORATION_FILE = 'data/Collaboration.json'
 active_sessions = {}  # {username: {session_id, last_activity, school_name, current_topic, grade}}
 collaboration_invites = {}  # {invite_id: {from_user, to_user, timestamp, status}}
 chat_sessions = {}  # {session_id: {user1, user2, messages, active}}
+
+# Set active sessions reference for LLM service
+llm_service.set_active_sessions_reference(active_sessions)
 
 def init_credentials_db():
     """Initialize credentials database with default admin user"""
@@ -148,139 +140,6 @@ def load_prompt(topic):
             return f.read().strip()
     except FileNotFoundError:
         return f"Generate educational questions for {topic}"
-
-def call_llm_api(prompt, user_history=[]):
-    """Call DeepSeek R1 LLM API using queue system for concurrent users"""
-    if not LLM_ENDPOINT or not LLM_API_KEY:
-        # Mock response for development
-        return generate_mock_questions(prompt)
-    
-    # Generate a unique request ID
-    request_id = str(uuid.uuid4())
-    
-    try:
-        # Track the session ID if available
-        session_id = session.get('session_id', None)
-        username = session.get('username', None)
-        
-        # Put request in queue with session context
-        LLM_REQUEST_QUEUE.put((request_id, prompt, user_history, session_id, username))
-        
-        # Register this request with the session if session exists
-        if session_id:
-            if session_id not in LLM_SESSION_REQUESTS:
-                LLM_SESSION_REQUESTS[session_id] = []
-            LLM_SESSION_REQUESTS[session_id].append(request_id)
-        
-        # Wait for response with timeout
-        start_time = time.time()
-        while time.time() - start_time < LLM_REQUEST_TIMEOUT:
-            if request_id in LLM_RESPONSE_MAP:
-                response = LLM_RESPONSE_MAP[request_id]
-                # Clean up
-                del LLM_RESPONSE_MAP[request_id]
-                # Remove from session tracking if session exists
-                if session_id and session_id in LLM_SESSION_REQUESTS:
-                    if request_id in LLM_SESSION_REQUESTS[session_id]:
-                        LLM_SESSION_REQUESTS[session_id].remove(request_id)
-                return response
-            time.sleep(0.1)  # Short sleep to prevent CPU hogging
-        
-        # Timeout occurred
-        app.logger.warning(f"LLM API request timed out after {LLM_REQUEST_TIMEOUT}s")
-        # Clean up session tracking if session exists
-        if session_id and session_id in LLM_SESSION_REQUESTS:
-            if request_id in LLM_SESSION_REQUESTS[session_id]:
-                LLM_SESSION_REQUESTS[session_id].remove(request_id)
-        return generate_mock_questions(prompt)
-        
-    except Exception as e:
-        app.logger.error(f"LLM API queue error: {str(e)}")
-        return generate_mock_questions(prompt)
-
-def generate_mock_questions(prompt):
-    """Generate mock questions when LLM API is unavailable"""
-    # Extract topic from prompt or use generic
-    topic = "general"
-    if "math" in prompt.lower():
-        topic = "math"
-    elif "puzzle" in prompt.lower():
-        topic = "puzzles"
-    elif "story" in prompt.lower() or "reading" in prompt.lower():
-        topic = "stories"
-    elif "english" in prompt.lower() or "grammar" in prompt.lower():
-        topic = "english"
-    elif "science" in prompt.lower():
-        topic = "science"
-    elif "history" in prompt.lower():
-        topic = "history"
-    elif "geography" in prompt.lower():
-        topic = "geography"
-    
-    mock_questions = {
-        "math": [
-            {
-                "question": "If you have 12 apples and give away 5 apples, how many apples do you have left?",
-                "hint": "Subtraction: Start with the total and take away what you gave.",
-                "explanation": "12 - 5 = 7. You started with 12 apples and gave away 5, so you have 7 apples remaining."
-            },
-            {
-                "question": "What is 8 × 7?",
-                "hint": "Think of multiplication as repeated addition: 8 + 8 + 8 + 8 + 8 + 8 + 8",
-                "explanation": "8 × 7 = 56. You can think of this as adding 8 seven times, or 7 eight times."
-            }
-        ],
-        "puzzles": [
-            {
-                "question": "I have keys but no locks. I have space but no room. You can enter but not go outside. What am I?",
-                "hint": "Think about something you use every day that has keys and space.",
-                "explanation": "A keyboard! It has keys (letter keys), space (spacebar), and you can enter (Enter key) but not go outside."
-            },
-            {
-                "question": "What comes next in this pattern: 2, 4, 6, 8, ?",
-                "hint": "Look at the difference between each number.",
-                "explanation": "10. This is a pattern of even numbers, each increasing by 2."
-            }
-        ],
-        "stories": [
-            {
-                "question": "Read this sentence: 'The brave knight saved the princess from the dragon.' Who saved the princess?",
-                "hint": "Look for the subject of the sentence - who performed the action?",
-                "explanation": "The knight saved the princess. The knight is the subject who performed the action of saving."
-            }
-        ],
-        "english": [
-            {
-                "question": "Which word is a noun in this sentence: 'The happy dog ran quickly'?",
-                "hint": "A noun is a person, place, or thing.",
-                "explanation": "'Dog' is the noun. Nouns name people, places, or things. 'Happy' is an adjective, 'ran' is a verb, and 'quickly' is an adverb."
-            }
-        ],
-        "science": [
-            {
-                "question": "What are the three states of matter?",
-                "hint": "Think about ice, water, and steam - what are their different forms?",
-                "explanation": "The three states of matter are solid, liquid, and gas. Ice is solid, water is liquid, and steam is gas."
-            }
-        ],
-        "history": [
-            {
-                "question": "Who was the first President of the United States?",
-                "hint": "This person is often called the 'Father of His Country'.",
-                "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797."
-            }
-        ],
-        "geography": [
-            {
-                "question": "What is the largest ocean on Earth?",
-                "hint": "This ocean borders Asia, Australia, and the Americas.",
-                "explanation": "The Pacific Ocean is the largest ocean on Earth, covering about one-third of the planet's surface."
-            }
-        ]
-    }
-    
-    questions = mock_questions.get(topic, mock_questions["math"])
-    return {"questions": questions[:2]}  # Return 2 questions
 
 @app.route('/')
 def index():
@@ -389,9 +248,9 @@ def exercise(grade, topic):
     # Load user history for difficulty adjustment
     user_history = credentials[session['username']]['history']
     
-    # Load prompt and call LLM
+    # Load prompt and call LLM service
     prompt = load_prompt(topic)
-    llm_response = call_llm_api(prompt, user_history)
+    llm_response = llm_service.call_llm_api(prompt, user_history, session.get('session_id'), session.get('username'))
     
     if 'error' in llm_response:
         flash(f'Error generating questions: {llm_response["error"]}')
@@ -441,8 +300,8 @@ def submit_answer():
     question_text = current_question.get('question', '')
     explanation = current_question.get('explanation', '')
     
-    # Use LLM to check the answer
-    is_correct = check_answer_with_llm(question_text, user_answer, explanation)
+    # Use LLM service to check the answer
+    is_correct = llm_service.check_answer_with_llm(question_text, user_answer, explanation, session.get('session_id'), session.get('username'))
     
     # Save to user history
     credentials = load_credentials()
@@ -483,7 +342,7 @@ def logout():
     
     # Clean up any pending LLM requests for this session
     if session_id:
-        cleanup_session_queue_requests(session_id)
+        llm_service.cleanup_session_queue_requests(session_id)
     
     # Remove from active sessions
     if username in active_sessions:
@@ -509,108 +368,6 @@ def check_session():
     else:
         return jsonify({'valid': False})
 
-def check_answer_with_llm(question, user_answer, correct_explanation):
-    """Use LLM to check if user's answer is correct"""
-    if not LLM_ENDPOINT or not LLM_API_KEY:
-        # For mock questions, do basic comparison
-        # For math problems, try to extract numbers and check
-        if any(word in question.lower() for word in ['stickers', 'apples', 'toys', 'books']):
-            # Try to find the expected answer in the explanation
-            import re
-            numbers = re.findall(r'\d+', correct_explanation)
-            if numbers:
-                expected = numbers[-1]  # Usually the last number is the answer
-                return str(user_answer).strip() == expected
-        return False
-    
-    # Generate a unique request ID
-    request_id = str(uuid.uuid4())
-    
-    try:
-        headers = {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-            'Authorization': f'Bearer {LLM_API_KEY}'
-        }
-        
-        check_prompt = f"""
-        Question: {question}
-        Student's Answer: {user_answer}
-        Correct Answer and Explanation: {correct_explanation}
-        
-        Is the student's answer correct? Respond with only "CORRECT" or "INCORRECT" followed by a brief explanation.
-        Consider partial credit for math problems where the method is right but there might be a small calculation error.
-        """
-        
-        payload = {
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You are an expert teacher evaluating student answers. Be fair but accurate in your assessment."
-                },
-                {
-                    "role": "user", 
-                    "content": check_prompt
-                }
-            ],
-            "model": "deepseek-chat",
-            "max_tokens": 200,
-            "temperature": 0.1,  # Low temperature for consistent evaluation
-            "stream": False
-        }
-        
-        # Track the session ID if available
-        session_id = session.get('session_id', None)
-        username = session.get('username', None)
-        
-        # Use the queue for answer checking with session context
-        LLM_REQUEST_QUEUE.put((request_id, check_prompt, [], session_id, username))
-        
-        # Register this request with the session if session exists
-        if session_id:
-            if session_id not in LLM_SESSION_REQUESTS:
-                LLM_SESSION_REQUESTS[session_id] = []
-            LLM_SESSION_REQUESTS[session_id].append(request_id)
-        
-        # Wait for response with timeout
-        start_time = time.time()
-        while time.time() - start_time < LLM_REQUEST_TIMEOUT:
-            if request_id in LLM_RESPONSE_MAP:
-                response_data = LLM_RESPONSE_MAP[request_id]
-                # Clean up
-                del LLM_RESPONSE_MAP[request_id]
-                
-                # Remove from session tracking if session exists
-                if session_id and session_id in LLM_SESSION_REQUESTS:
-                    if request_id in LLM_SESSION_REQUESTS[session_id]:
-                        LLM_SESSION_REQUESTS[session_id].remove(request_id)
-                
-                if isinstance(response_data, dict) and 'choices' in response_data:
-                    content = response_data['choices'][0]['message']['content'].strip()
-                    # Check if the response indicates correct answer
-                    is_correct = content.upper().startswith('CORRECT')
-                    return is_correct
-                else:
-                    # If we got an unexpected response format, fall back to basic checking
-                    return str(user_answer).strip().lower() in correct_explanation.lower()
-            
-            time.sleep(0.1)  # Short sleep to prevent CPU hogging
-        
-        # Timeout occurred, fall back to basic checking
-        app.logger.warning(f"Answer checking timed out after {LLM_REQUEST_TIMEOUT}s")
-        
-        # Clean up session tracking if session exists
-        if session_id and session_id in LLM_SESSION_REQUESTS:
-            if request_id in LLM_SESSION_REQUESTS[session_id]:
-                LLM_SESSION_REQUESTS[session_id].remove(request_id)
-                
-        return str(user_answer).strip().lower() in correct_explanation.lower()
-        
-    except Exception as e:
-        app.logger.error(f"Answer checking failed: {str(e)}")
-        # Fallback to basic checking
-        return str(user_answer).strip().lower() in correct_explanation.lower()
-
 # Collaboration endpoints
 @app.route('/get_active_users')
 def get_active_users():
@@ -625,23 +382,24 @@ def get_active_users():
     current_school = current_user_session.get('school_name', '')
     current_grade = current_user_session.get('grade', None)
     
-    # Only show users if current user has selected a grade
-    if current_grade is None:
-        return jsonify({'users': []})
-    
-    # Get users from same school AND same grade who are currently in exercises
+    # Always return users array, but filter based on current user's grade and school
     active_users = []
-    for username, session_data in active_sessions.items():
-        if (username != current_user and 
-            session_data.get('school_name') == current_school and
-            session_data.get('grade') == current_grade and  # Added grade check
-            session_data.get('current_topic') is not None):
-            active_users.append({
-                'username': username,
-                'topic': session_data.get('current_topic'),
-                'grade': session_data.get('grade')
-            })
     
+    # Only show users if current user has selected a grade and is in the same school and grade
+    if current_grade is not None:
+        for username, session_data in active_sessions.items():
+            if (username != current_user and 
+                session_data.get('school_name') == current_school and
+                session_data.get('grade') == current_grade and  # Same grade requirement
+                session_data.get('current_topic') is not None):
+                active_users.append({
+                    'username': username,
+                    'topic': session_data.get('current_topic'),
+                    'grade': session_data.get('grade')
+                })
+    
+    # Always return the users array - empty if no matches or user hasn't selected grade
+    # This ensures the collaborate badge always shows with appropriate message
     return jsonify({'users': active_users})
 
 @app.route('/send_collaboration_invite', methods=['POST'])
@@ -928,200 +686,6 @@ def game_detail(game_slug):
     log_user_activity(session['username'], f"Started playing {game_slug}")
     return render_template('games/game_detail.html', game=game, logo_path=LOGO_PATH)
 
-# Worker thread for processing LLM requests
-def llm_worker():
-    while True:
-        try:
-            # Get request from queue
-            request_id, prompt, user_history, session_id, username = LLM_REQUEST_QUEUE.get(timeout=1)
-            
-            # Check if this session is still valid or if user has logged out
-            if session_id and username:
-                session_valid = False
-                for active_username, user_session in active_sessions.items():
-                    if active_username == username and user_session.get('session_id') == session_id:
-                        session_valid = True
-                        break
-                
-                if not session_valid:
-                    app.logger.warning(f"Processing request for expired session: {session_id}")
-                    # Still process but with low priority by briefly yielding
-                    time.sleep(0.1)
-            
-            # Process normal LLM API call or answer check based on prompt content
-            if isinstance(prompt, str) and "Question:" in prompt and "Student's Answer:" in prompt:
-                # This is an answer checking request
-                try:
-                    headers = {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json',
-                        'Authorization': f'Bearer {LLM_API_KEY}'
-                    }
-                    
-                    payload = {
-                        "messages": [
-                            {
-                                "role": "system",
-                                "content": "You are an expert teacher evaluating student answers. Be fair but accurate in your assessment."
-                            },
-                            {
-                                "role": "user", 
-                                "content": prompt
-                            }
-                        ],
-                        "model": "deepseek-chat",
-                        "max_tokens": 200,
-                        "temperature": 0.1,  # Low temperature for consistent evaluation
-                        "stream": False
-                    }
-                    
-                    retry_count = 0
-                    while retry_count < MAX_RETRIES:
-                        try:
-                            response = requests.post(LLM_ENDPOINT, headers=headers, json=payload)
-                            response.raise_for_status()
-                            response_data = response.json()
-                            LLM_RESPONSE_MAP[request_id] = response_data
-                            break
-                        except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
-                            retry_count += 1
-                            if retry_count >= MAX_RETRIES:
-                                app.logger.error(f"Answer check failed after {MAX_RETRIES} retries: {str(e)}")
-                                LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
-                            else:
-                                time.sleep(1)  # Wait before retrying
-                
-                except Exception as e:
-                    app.logger.error(f"Answer check processing error: {str(e)}")
-                    LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
-            else:
-                # This is a regular LLM API call for generating questions
-                try:
-                    headers = {
-                        'Content-Type': 'application/json',
-                        'Accept': 'application/json',
-                        'Authorization': f'Bearer {LLM_API_KEY}'
-                    }
-                    
-                    # Include user history for difficulty adjustment
-                    enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
-                    
-                    payload = {
-                        "messages": [
-                            {
-                                "role": "system",
-                                "content": "You are an expert educational content creator. Always respond with valid JSON only, no additional text or markdown formatting."
-                            },
-                            {
-                                "role": "user", 
-                                "content": enhanced_prompt
-                            }
-                        ],
-                        "model": "deepseek-chat",
-                        "max_tokens": 2048,
-                        "temperature": 0.7,
-                        "stream": False,
-                        "response_format": {
-                            "type": "text"
-                        }
-                    }
-                    
-                    retry_count = 0
-                    while retry_count < MAX_RETRIES:
-                        try:
-                            response = requests.post(LLM_ENDPOINT, headers=headers, json=payload)
-                            response.raise_for_status()
-                            
-                            # Extract content from DeepSeek response format
-                            response_data = response.json()
-                            content = response_data['choices'][0]['message']['content']
-                            
-                            # Clean the content - remove markdown code blocks if present
-                            content = content.strip()
-                            if content.startswith('```json'):
-                                content = content[7:]  # Remove ```json
-                            if content.startswith('```'):
-                                content = content[3:]   # Remove ```
-                            if content.endswith('```'):
-                                content = content[:-3]  # Remove trailing ```
-                            content = content.strip()
-                            
-                            # Try to parse as JSON
-                            try:
-                                parsed_response = json.loads(content)
-                                LLM_RESPONSE_MAP[request_id] = parsed_response
-                            except json.JSONDecodeError as je:
-                                app.logger.warning(f"JSON decode error: {str(je)}. Content: {content[:200]}...")
-                                # Fallback to mock questions
-                                LLM_RESPONSE_MAP[request_id] = generate_mock_questions(prompt)
-                            break
-                        except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
-                            retry_count += 1
-                            if retry_count >= MAX_RETRIES:
-                                app.logger.error(f"LLM API call failed after {MAX_RETRIES} retries: {str(e)}")
-                                LLM_RESPONSE_MAP[request_id] = generate_mock_questions(prompt)
-                            else:
-                                time.sleep(1)  # Wait before retrying
-                
-                except Exception as e:
-                    app.logger.error(f"LLM request processing error: {str(e)}")
-                    LLM_RESPONSE_MAP[request_id] = generate_mock_questions(prompt)
-            
-            LLM_REQUEST_QUEUE.task_done()
-        except queue.Empty:
-            # Queue is empty, just continue
-            continue
-        except Exception as e:
-            app.logger.error(f"LLM worker error: {str(e)}")
-            time.sleep(1)  # Backoff before retrying
-
-def cleanup_session_queue_requests(session_id):
-    """Clean up any pending requests for a specific session"""
-    if session_id in LLM_SESSION_REQUESTS:
-        # Mark the requests as "canceled" so workers don't waste time processing them
-        for request_id in LLM_SESSION_REQUESTS[session_id]:
-            LLM_RESPONSE_MAP[request_id] = {"error": "Session ended", "canceled": True}
-        # Remove session tracking
-        del LLM_SESSION_REQUESTS[session_id]
-        app.logger.info(f"Cleaned up queue requests for session {session_id}")
-
-def periodic_queue_cleanup():
-    """Periodically clean up abandoned queue requests"""
-    while True:
-        try:
-            # Sleep for 5 minutes between cleanups
-            time.sleep(300)
-            
-            # Get current active session IDs
-            active_session_ids = set()
-            for username, user_session in active_sessions.items():
-                active_session_ids.add(user_session.get('session_id'))
-            
-            # Find and clean up abandoned session requests
-            abandoned_sessions = []
-            for session_id in LLM_SESSION_REQUESTS:
-                if session_id not in active_session_ids:
-                    abandoned_sessions.append(session_id)
-            
-            # Clean up abandoned sessions
-            for session_id in abandoned_sessions:
-                cleanup_session_queue_requests(session_id)
-                app.logger.warning(f"Cleaned up abandoned session requests for {session_id}")
-        
-        except Exception as e:
-            app.logger.error(f"Error in periodic queue cleanup: {str(e)}")
-
-# Start worker threads
-for i in range(MAX_WORKER_THREADS):
-    thread = threading.Thread(target=llm_worker, daemon=True)
-    thread.start()
-    WORKER_THREADS.append(thread)
-
-# Start periodic cleanup thread
-cleanup_thread = threading.Thread(target=periodic_queue_cleanup, daemon=True)
-cleanup_thread.start()
-WORKER_THREADS.append(cleanup_thread)
-
 if __name__ == '__main__':
     init_credentials_db()
     init_collaboration_db()
@@ -1135,10 +699,6 @@ if __name__ == '__main__':
 
     try:
         context.load_cert_chain(cert_path, key_path)
-
-        #print("🔒 Starting HTTPS server...")
-        #print("🌐 Access at: https://localhost:8443")
-        #print("⚠️  You'll see a security warning - click 'Advanced' then 'Proceed to localhost'")
 
         app.run(
             host='0.0.0.0',
