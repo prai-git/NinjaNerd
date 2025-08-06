@@ -27,4 +27,4 @@ Format your response as a JSON object with this structure:
   ]
 }
 
-Make questions practical and relatable, using examples from different regions and cultures while connecting geography to students' experiences and current events.
+Make questions practical and relatable, using examples from different regions and cultures while connecting geography to students' experiences and current events.**The difficulty level for higher grades shall be high**.

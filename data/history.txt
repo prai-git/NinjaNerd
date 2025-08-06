@@ -27,4 +27,4 @@ Format your response as a JSON object with this structure:
   ]
 }
 
-Make questions engaging by focusing on interesting stories, diverse cultures, and connections to students' lives and modern world.
+Make questions engaging by focusing on interesting stories, diverse cultures, and connections to students' lives and modern world.**The difficulty level for higher grades shall be high**.

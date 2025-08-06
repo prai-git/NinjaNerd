@@ -10,6 +10,10 @@ from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 import uuid
 import ssl
+import queue
+import threading
+import time
+from functools import wraps
 
 # Load environment variables from .env file
 load_dotenv()
@@ -26,6 +30,16 @@ Session(app)
 LLM_ENDPOINT = os.getenv('PR_LLM_ENDPOINT', '')
 LLM_API_KEY = os.getenv('PR_LLM_API_KEY', '')
 LOGO_PATH = os.getenv('PR_NIBODH_LOGO', '/static/images/logo.png')
+
+# LLM Queue Configuration
+LLM_REQUEST_QUEUE = queue.Queue()
+LLM_RESPONSE_MAP = {}  # Map of request_id to response
+LLM_SESSION_REQUESTS = {}  # Map of session_id to list of request_ids
+LLM_REQUEST_TIMEOUT = 300  # seconds
+MAX_WORKER_THREADS = 20  # Maximum number of worker threads
+MAX_RETRIES = 3  # Maximum number of retries for failed requests
+WORKER_THREADS = []  # List to keep track of worker threads
+SESSION_PRIORITY_THRESHOLD = 5  # Maximum number of pending requests per session
 
 # Setup logging with circular buffer
 if not os.path.exists('logs'):
@@ -136,76 +150,52 @@ def load_prompt(topic):
         return f"Generate educational questions for {topic}"
 
 def call_llm_api(prompt, user_history=[]):
-    """Call DeepSeek R1 LLM API"""
+    """Call DeepSeek R1 LLM API using queue system for concurrent users"""
     if not LLM_ENDPOINT or not LLM_API_KEY:
         # Mock response for development
         return generate_mock_questions(prompt)
     
+    # Generate a unique request ID
+    request_id = str(uuid.uuid4())
+    
     try:
-        headers = {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-            'Authorization': f'Bearer {LLM_API_KEY}'
-        }
+        # Track the session ID if available
+        session_id = session.get('session_id', None)
+        username = session.get('username', None)
         
-        # Include user history for difficulty adjustment
-        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
+        # Put request in queue with session context
+        LLM_REQUEST_QUEUE.put((request_id, prompt, user_history, session_id, username))
         
-        payload = {
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You are an expert educational content creator. Always respond with valid JSON only, no additional text or markdown formatting."
-                },
-                {
-                    "role": "user", 
-                    "content": enhanced_prompt
-                }
-            ],
-            "model": "deepseek-chat",
-            "max_tokens": 2048,
-            "temperature": 0.7,
-            "stream": False,
-            "response_format": {
-                "type": "text"
-            }
-        }
+        # Register this request with the session if session exists
+        if session_id:
+            if session_id not in LLM_SESSION_REQUESTS:
+                LLM_SESSION_REQUESTS[session_id] = []
+            LLM_SESSION_REQUESTS[session_id].append(request_id)
         
-        response = requests.post(LLM_ENDPOINT, headers=headers, json=payload)
-        response.raise_for_status()
+        # Wait for response with timeout
+        start_time = time.time()
+        while time.time() - start_time < LLM_REQUEST_TIMEOUT:
+            if request_id in LLM_RESPONSE_MAP:
+                response = LLM_RESPONSE_MAP[request_id]
+                # Clean up
+                del LLM_RESPONSE_MAP[request_id]
+                # Remove from session tracking if session exists
+                if session_id and session_id in LLM_SESSION_REQUESTS:
+                    if request_id in LLM_SESSION_REQUESTS[session_id]:
+                        LLM_SESSION_REQUESTS[session_id].remove(request_id)
+                return response
+            time.sleep(0.1)  # Short sleep to prevent CPU hogging
         
-        # Extract content from DeepSeek response format
-        response_data = response.json()
-        content = response_data['choices'][0]['message']['content']
+        # Timeout occurred
+        app.logger.warning(f"LLM API request timed out after {LLM_REQUEST_TIMEOUT}s")
+        # Clean up session tracking if session exists
+        if session_id and session_id in LLM_SESSION_REQUESTS:
+            if request_id in LLM_SESSION_REQUESTS[session_id]:
+                LLM_SESSION_REQUESTS[session_id].remove(request_id)
+        return generate_mock_questions(prompt)
         
-        # Clean the content - remove markdown code blocks if present
-        content = content.strip()
-        if content.startswith('```json'):
-            content = content[7:]  # Remove ```json
-        if content.startswith('```'):
-            content = content[3:]   # Remove ```
-        if content.endswith('```'):
-            content = content[:-3]  # Remove trailing ```
-        content = content.strip()
-        
-        # Try to parse as JSON
-        try:
-            parsed_response = json.loads(content)
-            return parsed_response
-        except json.JSONDecodeError as je:
-            app.logger.warning(f"JSON decode error: {str(je)}. Content: {content[:200]}...")
-            # Fallback to mock questions
-            return generate_mock_questions(prompt)
-        
-    except requests.exceptions.HTTPError as e:
-        if e.response.status_code == 402:
-            app.logger.warning("DeepSeek API credits exhausted, falling back to mock questions")
-            return generate_mock_questions(prompt)
-        else:
-            app.logger.error(f"LLM API call failed: {str(e)}")
-            return generate_mock_questions(prompt)
     except Exception as e:
-        app.logger.error(f"LLM API call failed: {str(e)}")
+        app.logger.error(f"LLM API queue error: {str(e)}")
         return generate_mock_questions(prompt)
 
 def generate_mock_questions(prompt):
@@ -489,6 +479,11 @@ def submit_answer():
 @app.route('/logout')
 def logout():
     username = session.get('username', 'Unknown')
+    session_id = session.get('session_id', None)
+    
+    # Clean up any pending LLM requests for this session
+    if session_id:
+        cleanup_session_queue_requests(session_id)
     
     # Remove from active sessions
     if username in active_sessions:
@@ -528,6 +523,9 @@ def check_answer_with_llm(question, user_answer, correct_explanation):
                 return str(user_answer).strip() == expected
         return False
     
+    # Generate a unique request ID
+    request_id = str(uuid.uuid4())
+    
     try:
         headers = {
             'Content-Type': 'application/json',
@@ -561,15 +559,52 @@ def check_answer_with_llm(question, user_answer, correct_explanation):
             "stream": False
         }
         
-        response = requests.post(LLM_ENDPOINT, headers=headers, json=payload)
-        response.raise_for_status()
+        # Track the session ID if available
+        session_id = session.get('session_id', None)
+        username = session.get('username', None)
         
-        response_data = response.json()
-        content = response_data['choices'][0]['message']['content'].strip()
+        # Use the queue for answer checking with session context
+        LLM_REQUEST_QUEUE.put((request_id, check_prompt, [], session_id, username))
         
-        # Check if the response indicates correct answer
-        is_correct = content.upper().startswith('CORRECT')
-        return is_correct
+        # Register this request with the session if session exists
+        if session_id:
+            if session_id not in LLM_SESSION_REQUESTS:
+                LLM_SESSION_REQUESTS[session_id] = []
+            LLM_SESSION_REQUESTS[session_id].append(request_id)
+        
+        # Wait for response with timeout
+        start_time = time.time()
+        while time.time() - start_time < LLM_REQUEST_TIMEOUT:
+            if request_id in LLM_RESPONSE_MAP:
+                response_data = LLM_RESPONSE_MAP[request_id]
+                # Clean up
+                del LLM_RESPONSE_MAP[request_id]
+                
+                # Remove from session tracking if session exists
+                if session_id and session_id in LLM_SESSION_REQUESTS:
+                    if request_id in LLM_SESSION_REQUESTS[session_id]:
+                        LLM_SESSION_REQUESTS[session_id].remove(request_id)
+                
+                if isinstance(response_data, dict) and 'choices' in response_data:
+                    content = response_data['choices'][0]['message']['content'].strip()
+                    # Check if the response indicates correct answer
+                    is_correct = content.upper().startswith('CORRECT')
+                    return is_correct
+                else:
+                    # If we got an unexpected response format, fall back to basic checking
+                    return str(user_answer).strip().lower() in correct_explanation.lower()
+            
+            time.sleep(0.1)  # Short sleep to prevent CPU hogging
+        
+        # Timeout occurred, fall back to basic checking
+        app.logger.warning(f"Answer checking timed out after {LLM_REQUEST_TIMEOUT}s")
+        
+        # Clean up session tracking if session exists
+        if session_id and session_id in LLM_SESSION_REQUESTS:
+            if request_id in LLM_SESSION_REQUESTS[session_id]:
+                LLM_SESSION_REQUESTS[session_id].remove(request_id)
+                
+        return str(user_answer).strip().lower() in correct_explanation.lower()
         
     except Exception as e:
         app.logger.error(f"Answer checking failed: {str(e)}")
@@ -892,6 +927,200 @@ def game_detail(game_slug):
     
     log_user_activity(session['username'], f"Started playing {game_slug}")
     return render_template('games/game_detail.html', game=game, logo_path=LOGO_PATH)
+
+# Worker thread for processing LLM requests
+def llm_worker():
+    while True:
+        try:
+            # Get request from queue
+            request_id, prompt, user_history, session_id, username = LLM_REQUEST_QUEUE.get(timeout=1)
+            
+            # Check if this session is still valid or if user has logged out
+            if session_id and username:
+                session_valid = False
+                for active_username, user_session in active_sessions.items():
+                    if active_username == username and user_session.get('session_id') == session_id:
+                        session_valid = True
+                        break
+                
+                if not session_valid:
+                    app.logger.warning(f"Processing request for expired session: {session_id}")
+                    # Still process but with low priority by briefly yielding
+                    time.sleep(0.1)
+            
+            # Process normal LLM API call or answer check based on prompt content
+            if isinstance(prompt, str) and "Question:" in prompt and "Student's Answer:" in prompt:
+                # This is an answer checking request
+                try:
+                    headers = {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'Authorization': f'Bearer {LLM_API_KEY}'
+                    }
+                    
+                    payload = {
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": "You are an expert teacher evaluating student answers. Be fair but accurate in your assessment."
+                            },
+                            {
+                                "role": "user", 
+                                "content": prompt
+                            }
+                        ],
+                        "model": "deepseek-chat",
+                        "max_tokens": 200,
+                        "temperature": 0.1,  # Low temperature for consistent evaluation
+                        "stream": False
+                    }
+                    
+                    retry_count = 0
+                    while retry_count < MAX_RETRIES:
+                        try:
+                            response = requests.post(LLM_ENDPOINT, headers=headers, json=payload)
+                            response.raise_for_status()
+                            response_data = response.json()
+                            LLM_RESPONSE_MAP[request_id] = response_data
+                            break
+                        except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
+                            retry_count += 1
+                            if retry_count >= MAX_RETRIES:
+                                app.logger.error(f"Answer check failed after {MAX_RETRIES} retries: {str(e)}")
+                                LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
+                            else:
+                                time.sleep(1)  # Wait before retrying
+                
+                except Exception as e:
+                    app.logger.error(f"Answer check processing error: {str(e)}")
+                    LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
+            else:
+                # This is a regular LLM API call for generating questions
+                try:
+                    headers = {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'Authorization': f'Bearer {LLM_API_KEY}'
+                    }
+                    
+                    # Include user history for difficulty adjustment
+                    enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
+                    
+                    payload = {
+                        "messages": [
+                            {
+                                "role": "system",
+                                "content": "You are an expert educational content creator. Always respond with valid JSON only, no additional text or markdown formatting."
+                            },
+                            {
+                                "role": "user", 
+                                "content": enhanced_prompt
+                            }
+                        ],
+                        "model": "deepseek-chat",
+                        "max_tokens": 2048,
+                        "temperature": 0.7,
+                        "stream": False,
+                        "response_format": {
+                            "type": "text"
+                        }
+                    }
+                    
+                    retry_count = 0
+                    while retry_count < MAX_RETRIES:
+                        try:
+                            response = requests.post(LLM_ENDPOINT, headers=headers, json=payload)
+                            response.raise_for_status()
+                            
+                            # Extract content from DeepSeek response format
+                            response_data = response.json()
+                            content = response_data['choices'][0]['message']['content']
+                            
+                            # Clean the content - remove markdown code blocks if present
+                            content = content.strip()
+                            if content.startswith('```json'):
+                                content = content[7:]  # Remove ```json
+                            if content.startswith('```'):
+                                content = content[3:]   # Remove ```
+                            if content.endswith('```'):
+                                content = content[:-3]  # Remove trailing ```
+                            content = content.strip()
+                            
+                            # Try to parse as JSON
+                            try:
+                                parsed_response = json.loads(content)
+                                LLM_RESPONSE_MAP[request_id] = parsed_response
+                            except json.JSONDecodeError as je:
+                                app.logger.warning(f"JSON decode error: {str(je)}. Content: {content[:200]}...")
+                                # Fallback to mock questions
+                                LLM_RESPONSE_MAP[request_id] = generate_mock_questions(prompt)
+                            break
+                        except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
+                            retry_count += 1
+                            if retry_count >= MAX_RETRIES:
+                                app.logger.error(f"LLM API call failed after {MAX_RETRIES} retries: {str(e)}")
+                                LLM_RESPONSE_MAP[request_id] = generate_mock_questions(prompt)
+                            else:
+                                time.sleep(1)  # Wait before retrying
+                
+                except Exception as e:
+                    app.logger.error(f"LLM request processing error: {str(e)}")
+                    LLM_RESPONSE_MAP[request_id] = generate_mock_questions(prompt)
+            
+            LLM_REQUEST_QUEUE.task_done()
+        except queue.Empty:
+            # Queue is empty, just continue
+            continue
+        except Exception as e:
+            app.logger.error(f"LLM worker error: {str(e)}")
+            time.sleep(1)  # Backoff before retrying
+
+def cleanup_session_queue_requests(session_id):
+    """Clean up any pending requests for a specific session"""
+    if session_id in LLM_SESSION_REQUESTS:
+        # Mark the requests as "canceled" so workers don't waste time processing them
+        for request_id in LLM_SESSION_REQUESTS[session_id]:
+            LLM_RESPONSE_MAP[request_id] = {"error": "Session ended", "canceled": True}
+        # Remove session tracking
+        del LLM_SESSION_REQUESTS[session_id]
+        app.logger.info(f"Cleaned up queue requests for session {session_id}")
+
+def periodic_queue_cleanup():
+    """Periodically clean up abandoned queue requests"""
+    while True:
+        try:
+            # Sleep for 5 minutes between cleanups
+            time.sleep(300)
+            
+            # Get current active session IDs
+            active_session_ids = set()
+            for username, user_session in active_sessions.items():
+                active_session_ids.add(user_session.get('session_id'))
+            
+            # Find and clean up abandoned session requests
+            abandoned_sessions = []
+            for session_id in LLM_SESSION_REQUESTS:
+                if session_id not in active_session_ids:
+                    abandoned_sessions.append(session_id)
+            
+            # Clean up abandoned sessions
+            for session_id in abandoned_sessions:
+                cleanup_session_queue_requests(session_id)
+                app.logger.warning(f"Cleaned up abandoned session requests for {session_id}")
+        
+        except Exception as e:
+            app.logger.error(f"Error in periodic queue cleanup: {str(e)}")
+
+# Start worker threads
+for i in range(MAX_WORKER_THREADS):
+    thread = threading.Thread(target=llm_worker, daemon=True)
+    thread.start()
+    WORKER_THREADS.append(thread)
+
+# Start periodic cleanup thread
+cleanup_thread = threading.Thread(target=periodic_queue_cleanup, daemon=True)
+cleanup_thread.start()
+WORKER_THREADS.append(cleanup_thread)
 
 if __name__ == '__main__':
     init_credentials_db()

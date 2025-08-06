@@ -4,7 +4,7 @@ Generate 15 engaging mathematical questions appropriate for the user's grade lev
 3. A detailed step-by-step explanation of the solution
 
 Consider the user's previous performance and adjust difficulty accordingly:
-- If they've been successful, increase complexity slightly
+- If they've been successful, increase complexity and difficulty level
 - If they've struggled, provide more foundational problems
 - Focus on building confidence while challenging appropriately
 
@@ -29,4 +29,4 @@ Format your response as a JSON object with this structure:
   ]
 }
 
-Make questions engaging by using relatable scenarios like games, sports, animals, or everyday situations that students can connect with.
+Make questions engaging by using relatable scenarios like games, sports, animals, or everyday situations that students can connect with.**The difficulty level for higher grades shall be high**.

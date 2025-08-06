@@ -27,4 +27,4 @@ Format your response as a JSON object with this structure:
   ]
 }
 
-Make questions hands-on and relatable, using examples from nature, everyday phenomena, and simple experiments that students can understand and relate to.
+Make questions hands-on and relatable, using examples from nature, everyday phenomena, and simple experiments that students can understand and relate to.**The difficulty level for higher grades shall be high**.

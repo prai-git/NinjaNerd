@@ -27,4 +27,4 @@ Format your response as a JSON object with this structure:
   ]
 }
 
-Make exercises engaging and practical, using examples that connect to students' everyday experiences and interests.
+Make exercises engaging and practical, using examples that connect to students' everyday experiences and interests.**The difficulty level for higher grades shall be high**.
