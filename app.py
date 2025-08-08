@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 import uuid
 import ssl
+import argparse
 from functools import wraps
 from ai.llm_service import LLMService
 
@@ -39,8 +40,11 @@ log_handler.setLevel(logging.INFO)
 app.logger.addHandler(log_handler)
 app.logger.setLevel(logging.INFO)
 
-# Initialize LLM service after app setup
-llm_service = LLMService(logger=app.logger)
+# Global variable to store LLM model choice
+LLM_MODEL_TYPE = 'deepseek'  # Default to deepseek
+
+# Initialize LLM service after app setup (will be properly initialized after argument parsing)
+llm_service = None
 
 # Database file paths
 CREDENTIALS_FILE = 'data/Credentials.json'
@@ -51,8 +55,8 @@ active_sessions = {}  # {username: {session_id, last_activity, school_name, curr
 collaboration_invites = {}  # {invite_id: {from_user, to_user, timestamp, status}}
 chat_sessions = {}  # {session_id: {user1, user2, messages, active}}
 
-# Set active sessions reference for LLM service
-llm_service.set_active_sessions_reference(active_sessions)
+# Set active sessions reference for LLM service (will be set after service initialization)
+# llm_service.set_active_sessions_reference(active_sessions)
 
 def init_credentials_db():
     """Initialize credentials database with default admin user"""
@@ -687,6 +691,33 @@ def game_detail(game_slug):
     return render_template('games/game_detail.html', game=game, logo_path=LOGO_PATH)
 
 if __name__ == '__main__':
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='NinjaNerd Educational Platform')
+    parser.add_argument('-d', '--deepseek', action='store_true', 
+                       help='Use DeepSeek LLM model (default)')
+    parser.add_argument('-o', '--openai', action='store_true', 
+                       help='Use OpenAI LLM model')
+    
+    args = parser.parse_args()
+    
+    # Determine which LLM model to use
+    if args.openai:
+        LLM_MODEL_TYPE = 'openai'
+        print("🤖 Using OpenAI LLM model")
+    elif args.deepseek:
+        LLM_MODEL_TYPE = 'deepseek'
+        print("🤖 Using DeepSeek LLM model")
+    else:
+        # Default to deepseek if neither specified
+        LLM_MODEL_TYPE = 'deepseek'
+        print("🤖 Using DeepSeek LLM model (default)")
+    
+    # Initialize LLM service with the chosen model
+    llm_service = LLMService(logger=app.logger, model_type=LLM_MODEL_TYPE)
+    
+    # Set active sessions reference for LLM service
+    llm_service.set_active_sessions_reference(active_sessions)
+    
     init_credentials_db()
     init_collaboration_db()
 

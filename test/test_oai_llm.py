@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Unit test for LLMService class in ai/llm_service.py
-Tests LLM interaction using math.txt prompt and validates response structure
+Unit test for LLMService class in ai/llm_service.py with OpenAI model
+Tests OpenAI LLM interaction using math.txt prompt and validates response structure
 """
 
 import sys
@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from ai.llm_service import LLMService
 from app import load_prompt, app
 
-class TestDSLLM(unittest.TestCase):
-    """Test class for DeepSeek LLM API integration"""
+class TestOAILLM(unittest.TestCase):
+    """Test class for OpenAI LLM API integration"""
     
     def setUp(self):
         """Set up test fixtures"""
@@ -32,8 +32,8 @@ class TestDSLLM(unittest.TestCase):
         self.logger = logging.getLogger('test_logger')
         self.logger.setLevel(logging.INFO)
         
-        # Initialize LLM service
-        self.llm_service = LLMService(logger=self.logger, model_type='deepseek')
+        # Initialize LLM service with OpenAI model
+        self.llm_service = LLMService(logger=self.logger, model_type='openai')
         
         # Mock active sessions for the service
         self.mock_active_sessions = {
@@ -57,7 +57,7 @@ class TestDSLLM(unittest.TestCase):
     def test_call_llm_api_with_math_prompt(self):
         """Test LLMService.call_llm_api with math.txt prompt and validate response structure"""
         print("\n" + "="*60)
-        print("Testing LLMService.call_llm_api() with math.txt prompt")
+        print("Testing LLMService.call_llm_api() with math.txt prompt (OpenAI)")
         print("="*60)
         
         # Print the prompt being used
@@ -94,7 +94,7 @@ class TestDSLLM(unittest.TestCase):
         # Validate number of questions (allowing some flexibility for mock responses)
         if len(questions) < self.expected_question_count:
             print(f"WARNING: Received fewer questions than expected. This might be due to:")
-            print("1. Mock response being used (LLM API unavailable)")
+            print("1. Mock response being used (OpenAI API unavailable)")
             print("2. API rate limiting")
             print("3. Token limits in LLM response")
         
@@ -196,7 +196,7 @@ class TestDSLLM(unittest.TestCase):
     def test_call_llm_api_with_user_history(self):
         """Test LLMService.call_llm_api with user history for difficulty adjustment"""
         print("\n" + "="*60)
-        print("Testing LLMService.call_llm_api() with user history")
+        print("Testing LLMService.call_llm_api() with user history (OpenAI)")
         print("="*60)
         
         # Sample user history
@@ -239,7 +239,7 @@ class TestDSLLM(unittest.TestCase):
     def test_check_answer_with_llm(self):
         """Test LLMService.check_answer_with_llm method"""
         print("\n" + "="*60)
-        print("Testing LLMService.check_answer_with_llm()")
+        print("Testing LLMService.check_answer_with_llm() (OpenAI)")
         print("="*60)
         
         # Test with a simple math question
@@ -286,7 +286,7 @@ class TestDSLLM(unittest.TestCase):
     def test_session_cleanup(self):
         """Test LLMService.cleanup_session_queue_requests method"""
         print("\n" + "="*60)
-        print("Testing LLMService.cleanup_session_queue_requests()")
+        print("Testing LLMService.cleanup_session_queue_requests() (OpenAI)")
         print("="*60)
         
         # Test cleanup functionality
@@ -300,7 +300,7 @@ class TestDSLLM(unittest.TestCase):
     def test_error_handling(self):
         """Test error handling with invalid prompts"""
         print("\n" + "="*60)
-        print("Testing error handling")
+        print("Testing error handling (OpenAI)")
         print("="*60)
         
         # Test with empty prompt
@@ -322,7 +322,7 @@ class TestDSLLM(unittest.TestCase):
     def test_mock_question_generation(self):
         """Test that mock question generation works properly"""
         print("\n" + "="*60)
-        print("Testing mock question generation")
+        print("Testing mock question generation (OpenAI)")
         print("="*60)
         
         # Test different topic prompts
@@ -387,10 +387,27 @@ class TestDSLLM(unittest.TestCase):
         
         print(f"✅ Mock question generation test completed for all topics")
 
+    def test_model_type_validation(self):
+        """Test that the LLMService correctly identifies as OpenAI model"""
+        print("\n" + "="*60)
+        print("Testing model type validation (OpenAI)")
+        print("="*60)
+        
+        # Verify model type is set correctly
+        self.assertEqual(self.llm_service.model_type, 'openai', "Model type should be 'openai'")
+        
+        # Verify OpenAI client initialization
+        if self.llm_service.OPENAI_API_KEY:
+            self.assertIsNotNone(self.llm_service.openai_client, "OpenAI client should be initialized when API key is available")
+        else:
+            print("⚠️ PR_OPENAI_API_KEY not available - client will be None")
+        
+        print("✅ Model type validation completed")
+
 
 def main():
     """Main function to run the tests"""
-    print("DeepSeek LLM API Test Suite (Refactored)")
+    print("OpenAI LLM API Test Suite")
     print("=" * 60)
     
     # Check if math.txt exists

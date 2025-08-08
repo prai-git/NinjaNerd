@@ -5,7 +5,9 @@ import queue
 import threading
 import time
 import uuid
+import re
 from datetime import datetime
+from openai import OpenAI
 
 
 class LLMService:
@@ -14,18 +16,44 @@ class LLMService:
     answer checking, queue management, and session tracking.
     """
     
-    def __init__(self, logger):
+    def __init__(self, logger, model_type='deepseek'):
         """
         Initialize the LLM service with queue management and worker threads.
         
         Args:
             logger: Logger instance for consistent logging across the application
+            model_type: Type of LLM model to use ('deepseek' or 'openai')
         """
         self.logger = logger
+        self.model_type = model_type.lower()
         
-        # Environment variables
+        # Environment variables for DeepSeek
         self.LLM_ENDPOINT = os.getenv('PR_LLM_ENDPOINT', '')
         self.LLM_API_KEY = os.getenv('PR_LLM_API_KEY', '')
+        
+        # Environment variables for OpenAI
+        self.OPENAI_API_KEY = os.getenv('PR_OPENAI_API_KEY', '')
+        self.OPENAI_ENDPOINT = os.getenv('PR_OPENAI_API_ENDPOINT', '')  # Optional custom endpoint
+        
+        # Initialize OpenAI client if using OpenAI
+        self.openai_client = None
+        if self.model_type == 'openai' and self.OPENAI_API_KEY:
+            try:
+                # Check if custom endpoint is provided
+                if self.OPENAI_ENDPOINT:
+                    # Extract base URL from full endpoint if it contains the full path
+                    if '/chat/completions' in self.OPENAI_ENDPOINT:
+                        base_url = self.OPENAI_ENDPOINT.replace('/chat/completions', '')
+                    else:
+                        base_url = self.OPENAI_ENDPOINT
+                    self.openai_client = OpenAI(api_key=self.OPENAI_API_KEY, base_url=base_url)
+                else:
+                    # Use default OpenAI endpoint
+                    self.openai_client = OpenAI(api_key=self.OPENAI_API_KEY)
+                self.logger.info("OpenAI client initialized successfully")
+            except Exception as e:
+                self.logger.error(f"Failed to initialize OpenAI client: {str(e)}")
+                self.openai_client = None
         
         # LLM Queue Configuration
         self.LLM_REQUEST_QUEUE = queue.Queue()
@@ -55,7 +83,7 @@ class LLMService:
     
     def call_llm_api(self, prompt, user_history=[], session_id=None, username=None):
         """
-        Call DeepSeek R1 LLM API using queue system for concurrent users.
+        Call LLM API (DeepSeek or OpenAI) using queue system for concurrent users.
         
         Args:
             prompt: The prompt to send to the LLM
@@ -66,7 +94,14 @@ class LLMService:
         Returns:
             dict: LLM response or mock questions if API unavailable
         """
-        if not self.LLM_ENDPOINT or not self.LLM_API_KEY:
+        # Check if API is available based on model type
+        api_available = False
+        if self.model_type == 'deepseek':
+            api_available = bool(self.LLM_ENDPOINT and self.LLM_API_KEY)
+        elif self.model_type == 'openai':
+            api_available = bool(self.openai_client and self.OPENAI_API_KEY)
+        
+        if not api_available:
             # Mock response for development
             return self._generate_mock_questions(prompt)
         
@@ -123,12 +158,18 @@ class LLMService:
         Returns:
             bool: True if answer is correct, False otherwise
         """
-        if not self.LLM_ENDPOINT or not self.LLM_API_KEY:
+        # Check if API is available based on model type
+        api_available = False
+        if self.model_type == 'deepseek':
+            api_available = bool(self.LLM_ENDPOINT and self.LLM_API_KEY)
+        elif self.model_type == 'openai':
+            api_available = bool(self.openai_client and self.OPENAI_API_KEY)
+        
+        if not api_available:
             # For mock questions, do basic comparison
             # For math problems, try to extract numbers and check
             if any(word in question.lower() for word in ['stickers', 'apples', 'toys', 'books']):
                 # Try to find the expected answer in the explanation
-                import re
                 numbers = re.findall(r'\d+', correct_explanation)
                 if numbers:
                     expected = numbers[-1]  # Usually the last number is the answer
@@ -339,121 +380,10 @@ class LLMService:
                 # Process normal LLM API call or answer check based on prompt content
                 if isinstance(prompt, str) and "Question:" in prompt and "Student's Answer:" in prompt:
                     # This is an answer checking request
-                    try:
-                        headers = {
-                            'Content-Type': 'application/json',
-                            'Accept': 'application/json',
-                            'Authorization': f'Bearer {self.LLM_API_KEY}'
-                        }
-                        
-                        payload = {
-                            "messages": [
-                                {
-                                    "role": "system",
-                                    "content": "You are an expert teacher evaluating student answers. Be fair but accurate in your assessment."
-                                },
-                                {
-                                    "role": "user", 
-                                    "content": prompt
-                                }
-                            ],
-                            "model": "deepseek-chat",
-                            "max_tokens": 200,
-                            "temperature": 0.1,  # Low temperature for consistent evaluation
-                            "stream": False
-                        }
-                        
-                        retry_count = 0
-                        while retry_count < self.MAX_RETRIES:
-                            try:
-                                response = requests.post(self.LLM_ENDPOINT, headers=headers, json=payload)
-                                response.raise_for_status()
-                                response_data = response.json()
-                                self.LLM_RESPONSE_MAP[request_id] = response_data
-                                break
-                            except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
-                                retry_count += 1
-                                if retry_count >= self.MAX_RETRIES:
-                                    self.logger.error(f"Answer check failed after {self.MAX_RETRIES} retries: {str(e)}")
-                                    self.LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
-                                else:
-                                    time.sleep(1)  # Wait before retrying
-                    
-                    except Exception as e:
-                        self.logger.error(f"Answer check processing error: {str(e)}")
-                        self.LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
+                    self._process_answer_check_request(request_id, prompt)
                 else:
                     # This is a regular LLM API call for generating questions
-                    try:
-                        headers = {
-                            'Content-Type': 'application/json',
-                            'Accept': 'application/json',
-                            'Authorization': f'Bearer {self.LLM_API_KEY}'
-                        }
-                        
-                        # Include user history for difficulty adjustment
-                        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
-                        
-                        payload = {
-                            "messages": [
-                                {
-                                    "role": "system",
-                                    "content": "You are an expert educational content creator. Always respond with valid JSON only, no additional text or markdown formatting."
-                                },
-                                {
-                                    "role": "user", 
-                                    "content": enhanced_prompt
-                                }
-                            ],
-                            "model": "deepseek-chat",
-                            "max_tokens": 2048,
-                            "temperature": 0.7,
-                            "stream": False,
-                            "response_format": {
-                                "type": "text"
-                            }
-                        }
-                        
-                        retry_count = 0
-                        while retry_count < self.MAX_RETRIES:
-                            try:
-                                response = requests.post(self.LLM_ENDPOINT, headers=headers, json=payload)
-                                response.raise_for_status()
-                                
-                                # Extract content from DeepSeek response format
-                                response_data = response.json()
-                                content = response_data['choices'][0]['message']['content']
-                                
-                                # Clean the content - remove markdown code blocks if present
-                                content = content.strip()
-                                if content.startswith('```json'):
-                                    content = content[7:]  # Remove ```json
-                                if content.startswith('```'):
-                                    content = content[3:]   # Remove ```
-                                if content.endswith('```'):
-                                    content = content[:-3]  # Remove trailing ```
-                                content = content.strip()
-                                
-                                # Try to parse as JSON
-                                try:
-                                    parsed_response = json.loads(content)
-                                    self.LLM_RESPONSE_MAP[request_id] = parsed_response
-                                except json.JSONDecodeError as je:
-                                    self.logger.warning(f"JSON decode error: {str(je)}. Content: {content[:200]}...")
-                                    # Fallback to mock questions
-                                    self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
-                                break
-                            except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
-                                retry_count += 1
-                                if retry_count >= self.MAX_RETRIES:
-                                    self.logger.error(f"LLM API call failed after {self.MAX_RETRIES} retries: {str(e)}")
-                                    self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
-                                else:
-                                    time.sleep(1)  # Wait before retrying
-                    
-                    except Exception as e:
-                        self.logger.error(f"LLM request processing error: {str(e)}")
-                        self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+                    self._process_question_generation_request(request_id, prompt, user_history)
                 
                 self.LLM_REQUEST_QUEUE.task_done()
             except queue.Empty:
@@ -488,3 +418,235 @@ class LLMService:
             
             except Exception as e:
                 self.logger.error(f"Error in periodic queue cleanup: {str(e)}")
+    
+    def _process_answer_check_request(self, request_id, prompt):
+        """Process answer checking request for both DeepSeek and OpenAI."""
+        try:
+            if self.model_type == 'deepseek':
+                self._process_deepseek_answer_check(request_id, prompt)
+            elif self.model_type == 'openai':
+                self._process_openai_answer_check(request_id, prompt)
+            else:
+                self.logger.error(f"Unknown model type: {self.model_type}")
+                self.LLM_RESPONSE_MAP[request_id] = {"error": f"Unknown model type: {self.model_type}"}
+        except Exception as e:
+            self.logger.error(f"Answer check processing error: {str(e)}")
+            self.LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
+    
+    def _process_question_generation_request(self, request_id, prompt, user_history):
+        """Process question generation request for both DeepSeek and OpenAI."""
+        try:
+            if self.model_type == 'deepseek':
+                self._process_deepseek_question_generation(request_id, prompt, user_history)
+            elif self.model_type == 'openai':
+                self._process_openai_question_generation(request_id, prompt, user_history)
+            else:
+                self.logger.error(f"Unknown model type: {self.model_type}")
+                self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+        except Exception as e:
+            self.logger.error(f"LLM request processing error: {str(e)}")
+            self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+    
+    def _process_deepseek_answer_check(self, request_id, prompt):
+        """Process answer checking using DeepSeek API."""
+        headers = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'Authorization': f'Bearer {self.LLM_API_KEY}'
+        }
+        
+        payload = {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are an expert teacher evaluating student answers. Be fair but accurate in your assessment."
+                },
+                {
+                    "role": "user", 
+                    "content": prompt
+                }
+            ],
+            "model": "deepseek-chat",
+            "max_tokens": 200,
+            "temperature": 0.1,
+            "stream": False
+        }
+        
+        retry_count = 0
+        while retry_count < self.MAX_RETRIES:
+            try:
+                response = requests.post(self.LLM_ENDPOINT, headers=headers, json=payload)
+                response.raise_for_status()
+                response_data = response.json()
+                self.LLM_RESPONSE_MAP[request_id] = response_data
+                break
+            except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
+                retry_count += 1
+                if retry_count >= self.MAX_RETRIES:
+                    self.logger.error(f"DeepSeek answer check failed after {self.MAX_RETRIES} retries: {str(e)}")
+                    self.LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
+                else:
+                    time.sleep(1)  # Wait before retrying
+    
+    def _process_openai_answer_check(self, request_id, prompt):
+        """Process answer checking using OpenAI API."""
+        retry_count = 0
+        while retry_count < self.MAX_RETRIES:
+            try:
+                completion = self.openai_client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are an expert teacher evaluating student answers. Be fair but accurate in your assessment."
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt
+                        }
+                    ],
+                    max_tokens=200,
+                    temperature=0.1
+                )
+                
+                # Convert OpenAI response format to match DeepSeek format
+                response_data = {
+                    "choices": [
+                        {
+                            "message": {
+                                "content": completion.choices[0].message.content
+                            }
+                        }
+                    ]
+                }
+                self.LLM_RESPONSE_MAP[request_id] = response_data
+                break
+            except Exception as e:
+                retry_count += 1
+                if retry_count >= self.MAX_RETRIES:
+                    self.logger.error(f"OpenAI answer check failed after {self.MAX_RETRIES} retries: {str(e)}")
+                    self.LLM_RESPONSE_MAP[request_id] = {"error": str(e)}
+                else:
+                    time.sleep(1)  # Wait before retrying
+    
+    def _process_deepseek_question_generation(self, request_id, prompt, user_history):
+        """Process question generation using DeepSeek API."""
+        headers = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'Authorization': f'Bearer {self.LLM_API_KEY}'
+        }
+        
+        # Include user history for difficulty adjustment
+        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
+        
+        payload = {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are an expert educational content creator. Always respond with valid JSON only, no additional text or markdown formatting."
+                },
+                {
+                    "role": "user", 
+                    "content": enhanced_prompt
+                }
+            ],
+            "model": "deepseek-chat",
+            "max_tokens": 2048,
+            "temperature": 0.7,
+            "stream": False,
+            "response_format": {
+                "type": "text"
+            }
+        }
+        
+        retry_count = 0
+        while retry_count < self.MAX_RETRIES:
+            try:
+                response = requests.post(self.LLM_ENDPOINT, headers=headers, json=payload)
+                response.raise_for_status()
+                
+                # Extract content from DeepSeek response format
+                response_data = response.json()
+                content = response_data['choices'][0]['message']['content']
+                
+                # Clean the content - remove markdown code blocks if present
+                content = content.strip()
+                if content.startswith('```json'):
+                    content = content[7:]  # Remove ```json
+                if content.startswith('```'):
+                    content = content[3:]   # Remove ```
+                if content.endswith('```'):
+                    content = content[:-3]  # Remove trailing ```
+                content = content.strip()
+                
+                # Try to parse as JSON
+                try:
+                    parsed_response = json.loads(content)
+                    self.LLM_RESPONSE_MAP[request_id] = parsed_response
+                except json.JSONDecodeError as je:
+                    self.logger.warning(f"DeepSeek JSON decode error: {str(je)}. Content: {content[:200]}...")
+                    # Fallback to mock questions
+                    self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+                break
+            except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
+                retry_count += 1
+                if retry_count >= self.MAX_RETRIES:
+                    self.logger.error(f"DeepSeek question generation failed after {self.MAX_RETRIES} retries: {str(e)}")
+                    self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+                else:
+                    time.sleep(1)  # Wait before retrying
+    
+    def _process_openai_question_generation(self, request_id, prompt, user_history):
+        """Process question generation using OpenAI API."""
+        # Include user history for difficulty adjustment
+        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
+        
+        retry_count = 0
+        while retry_count < self.MAX_RETRIES:
+            try:
+                completion = self.openai_client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "You are an expert educational content creator. Always respond with valid JSON only, no additional text or markdown formatting."
+                        },
+                        {
+                            "role": "user",
+                            "content": enhanced_prompt
+                        }
+                    ],
+                    max_tokens=4000,  # Higher token limit for OpenAI to handle question generation
+                    temperature=0.7,
+                    response_format={"type": "json_object"}  # Force JSON response
+                )
+                
+                content = completion.choices[0].message.content
+                
+                # Clean the content - remove markdown code blocks if present
+                content = content.strip()
+                if content.startswith('```json'):
+                    content = content[7:]  # Remove ```json
+                if content.startswith('```'):
+                    content = content[3:]   # Remove ```
+                if content.endswith('```'):
+                    content = content[:-3]  # Remove trailing ```
+                content = content.strip()
+                
+                # Try to parse as JSON
+                try:
+                    parsed_response = json.loads(content)
+                    self.LLM_RESPONSE_MAP[request_id] = parsed_response
+                except json.JSONDecodeError as je:
+                    self.logger.warning(f"OpenAI JSON decode error: {str(je)}. Content: {content[:200]}...")
+                    # Fallback to mock questions
+                    self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+                break
+            except Exception as e:
+                retry_count += 1
+                if retry_count >= self.MAX_RETRIES:
+                    self.logger.error(f"OpenAI question generation failed after {self.MAX_RETRIES} retries: {str(e)}")
+                    self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
+                else:
+                    time.sleep(1)  # Wait before retrying
