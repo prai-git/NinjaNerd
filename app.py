@@ -28,6 +28,115 @@ Session(app)
 # Environment variables
 LOGO_PATH = os.getenv('PR_NIBODH_LOGO', '/static/images/logo.png')
 
+# Subtopic definitions
+SUBTOPICS = {
+    'math': {
+        'grades_5_and_below': [
+            {'id': 'number_sense_basic_operations', 'name': 'Number Sense & Basic Operations', 'description': 'Understanding numbers, place value, addition, subtraction, multiplication, and division', 'icon': 'fa-sort-numeric-up', 'color': 'primary'},
+            {'id': 'fractions_decimals', 'name': 'Fractions & Decimals', 'description': 'Introduction to fractions, equivalent fractions, comparing fractions, decimal concepts, and simple operations with both', 'icon': 'fa-divide', 'color': 'success'},
+            {'id': 'geometry_spatial_concepts', 'name': 'Geometry & Spatial Concepts', 'description': 'Basic shapes, symmetry, patterns, area, perimeter, and simple volume measurements', 'icon': 'fa-shapes', 'color': 'info'},
+            {'id': 'measurement_data', 'name': 'Measurement & Data', 'description': 'Units of measurement (length, weight, capacity, time), collecting and representing data, simple graphs and charts', 'icon': 'fa-ruler', 'color': 'warning'},
+            {'id': 'problem_solving_applications', 'name': 'Problem Solving & Applications', 'description': 'Multi-step word problems, mathematical reasoning, patterns, and practical applications of math concepts', 'icon': 'fa-lightbulb', 'color': 'danger'}
+        ],
+        'grades_above_5': [
+            {'id': 'number_sense_basic_operations', 'name': 'Number Sense & Basic Operations', 'description': 'Understanding numbers, place value, addition, subtraction, multiplication, and division', 'icon': 'fa-sort-numeric-up', 'color': 'primary'},
+            {'id': 'fractions_decimals', 'name': 'Fractions & Decimals', 'description': 'Introduction to fractions, equivalent fractions, comparing fractions, decimal concepts, and simple operations with both', 'icon': 'fa-divide', 'color': 'success'},
+            {'id': 'geometry_spatial_concepts', 'name': 'Geometry & Spatial Concepts', 'description': 'Basic shapes, symmetry, patterns, area, perimeter, and simple volume measurements', 'icon': 'fa-shapes', 'color': 'info'},
+            {'id': 'measurement_data', 'name': 'Measurement & Data', 'description': 'Units of measurement (length, weight, capacity, time), collecting and representing data, simple graphs and charts', 'icon': 'fa-ruler', 'color': 'warning'},
+            {'id': 'problem_solving_applications', 'name': 'Problem Solving & Applications', 'description': 'Multi-step word problems, mathematical reasoning, patterns, and practical applications of math concepts', 'icon': 'fa-lightbulb', 'color': 'danger'},
+            {'id': 'advanced_number_systems', 'name': 'Advanced Number Systems', 'description': 'Integers, rational and irrational numbers, number properties, and operations across number systems', 'icon': 'fa-infinity', 'color': 'dark'},
+            {'id': 'algebraic_concepts', 'name': 'Algebraic Concepts', 'description': 'Variables, expressions, equations, inequalities, functions, and algebraic reasoning', 'icon': 'fa-calculator', 'color': 'secondary'},
+            {'id': 'proportional_reasoning_percentages', 'name': 'Proportional Reasoning & Percentages', 'description': 'Ratios, rates, proportions, percent problems, and applications', 'icon': 'fa-percentage', 'color': 'primary'},
+            {'id': 'advanced_geometry_measurement', 'name': 'Advanced Geometry & Measurement', 'description': 'Area, perimeter, and volume of complex 2D and 3D figures, coordinate geometry, transformations', 'icon': 'fa-cube', 'color': 'success'},
+            {'id': 'data_analysis_functions', 'name': 'Data Analysis & Functions', 'description': 'Statistical concepts, graphs, data representations, function types (linear, quadratic, exponential), and mathematical modeling', 'icon': 'fa-chart-line', 'color': 'info'}
+        ]
+    },
+    'english': {
+        'grades_5_and_below': [
+            {'id': 'reading_fundamentals', 'name': 'Reading Fundamentals', 'description': 'Reading comprehension, author\'s purpose and tone, text structure, story elements, poetry features, and basic literary analysis', 'icon': 'fa-book-open', 'color': 'primary'},
+            {'id': 'writing_essentials', 'name': 'Writing Essentials', 'description': 'Organizing ideas, developing arguments, crafting introductions and conclusions, descriptive writing, research skills, and summarizing', 'icon': 'fa-pen', 'color': 'success'},
+            {'id': 'vocabulary_building', 'name': 'Vocabulary Building', 'description': 'Prefixes and suffixes, synonyms and antonyms, analogies, idioms and adages, Greek and Latin roots, homophones and homonyms', 'icon': 'fa-spell-check', 'color': 'info'},
+            {'id': 'grammar_language_mechanics', 'name': 'Grammar & Language Mechanics', 'description': 'Parts of speech (nouns, verbs, pronouns, adjectives, adverbs), subject-verb agreement, contractions, prepositions, and sentence structure', 'icon': 'fa-language', 'color': 'warning'},
+            {'id': 'written_conventions', 'name': 'Written Conventions', 'description': 'Spelling, capitalization, formatting, abbreviations, basic punctuation, and editing skills', 'icon': 'fa-edit', 'color': 'danger'}
+        ],
+        'grades_above_5': [
+            {'id': 'reading_fundamentals', 'name': 'Reading Fundamentals', 'description': 'Reading comprehension, author\'s purpose and tone, text structure, story elements, poetry features, and basic literary analysis', 'icon': 'fa-book-open', 'color': 'primary'},
+            {'id': 'writing_essentials', 'name': 'Writing Essentials', 'description': 'Organizing ideas, developing arguments, crafting introductions and conclusions, descriptive writing, research skills, and summarizing', 'icon': 'fa-pen', 'color': 'success'},
+            {'id': 'vocabulary_building', 'name': 'Vocabulary Building', 'description': 'Prefixes and suffixes, synonyms and antonyms, analogies, idioms and adages, Greek and Latin roots, homophones and homonyms', 'icon': 'fa-spell-check', 'color': 'info'},
+            {'id': 'grammar_language_mechanics', 'name': 'Grammar & Language Mechanics', 'description': 'Parts of speech (nouns, verbs, pronouns, adjectives, adverbs), subject-verb agreement, contractions, prepositions, and sentence structure', 'icon': 'fa-language', 'color': 'warning'},
+            {'id': 'written_conventions', 'name': 'Written Conventions', 'description': 'Spelling, capitalization, formatting, abbreviations, basic punctuation, and editing skills', 'icon': 'fa-edit', 'color': 'danger'},
+            {'id': 'literary_analysis_comprehension', 'name': 'Literary Analysis & Comprehension', 'description': 'Analyzing literature, novel studies, nonfiction book studies, thematic development, and critical reading strategies', 'icon': 'fa-search', 'color': 'dark'},
+            {'id': 'advanced_writing_styles', 'name': 'Advanced Writing Styles', 'description': 'Expository writing, persuasive and opinion writing, creative writing, research papers, and rhetorical techniques', 'icon': 'fa-feather-alt', 'color': 'secondary'},
+            {'id': 'sentence_craft_structure', 'name': 'Sentence Craft & Structure', 'description': 'Sentences vs. fragments and run-ons, phrases and clauses, direct and indirect objects, active and passive voice, and complex sentences', 'icon': 'fa-link', 'color': 'primary'},
+            {'id': 'advanced_grammar_applications', 'name': 'Advanced Grammar Applications', 'description': 'Conjunctions, misplaced modifiers, complex verb tenses, advanced agreement rules, and grammatical analysis', 'icon': 'fa-cogs', 'color': 'success'},
+            {'id': 'advanced_punctuation_style', 'name': 'Advanced Punctuation & Style', 'description': 'Commas, semicolons, dashes, hyphens, ellipses, citation formats, style variations, and editing for publication', 'icon': 'fa-quote-right', 'color': 'info'}
+        ]
+    },
+    'science': {
+        'grades_5_and_below': [
+            {'id': 'physical_science_basics', 'name': 'Physical Science Basics', 'description': 'Materials, matter and mass, physical and chemical changes, atoms and molecules, heat and thermal energy', 'icon': 'fa-atom', 'color': 'primary'},
+            {'id': 'forces_energy', 'name': 'Forces & Energy', 'description': 'Force and motion, magnetism, electricity, light, simple machines, and energy basics', 'icon': 'fa-bolt', 'color': 'success'},
+            {'id': 'earth_systems', 'name': 'Earth Systems', 'description': 'Rocks, fossils, weather and climate, Earth\'s features, natural resources, and water cycle', 'icon': 'fa-globe', 'color': 'info'},
+            {'id': 'life_science_fundamentals', 'name': 'Life Science Fundamentals', 'description': 'Animals, plants, adaptations, traits and heredity, ecosystems, and basic classification', 'icon': 'fa-leaf', 'color': 'warning'},
+            {'id': 'scientific_investigation_skills', 'name': 'Scientific Investigation Skills', 'description': 'Units and measurement, scientific names, observation methods, basic astronomy, and simple experimentation', 'icon': 'fa-microscope', 'color': 'danger'}
+        ],
+        'grades_above_5': [
+            {'id': 'physical_science_basics', 'name': 'Physical Science Basics', 'description': 'Materials, matter and mass, physical and chemical changes, atoms and molecules, heat and thermal energy', 'icon': 'fa-atom', 'color': 'primary'},
+            {'id': 'forces_energy', 'name': 'Forces & Energy', 'description': 'Force and motion, magnetism, electricity, light, simple machines, and energy basics', 'icon': 'fa-bolt', 'color': 'success'},
+            {'id': 'earth_systems', 'name': 'Earth Systems', 'description': 'Rocks, fossils, weather and climate, Earth\'s features, natural resources, and water cycle', 'icon': 'fa-globe', 'color': 'info'},
+            {'id': 'life_science_fundamentals', 'name': 'Life Science Fundamentals', 'description': 'Animals, plants, adaptations, traits and heredity, ecosystems, and basic classification', 'icon': 'fa-leaf', 'color': 'warning'},
+            {'id': 'scientific_investigation_skills', 'name': 'Scientific Investigation Skills', 'description': 'Units and measurement, scientific names, observation methods, basic astronomy, and simple experimentation', 'icon': 'fa-microscope', 'color': 'danger'},
+            {'id': 'scientific_methods_research', 'name': 'Scientific Methods & Research', 'description': 'Science practices and tools, designing experiments, data analysis, scientific reasoning, and technology applications', 'icon': 'fa-flask', 'color': 'dark'},
+            {'id': 'advanced_biology', 'name': 'Advanced Biology', 'description': 'Anatomy and physiology, cellular biology, genetics, evolution, biodiversity, and complex ecosystems', 'icon': 'fa-dna', 'color': 'secondary'},
+            {'id': 'chemistry_concepts', 'name': 'Chemistry Concepts', 'description': 'Biochemistry, atomic structure, chemical reactions, periodic table, solutions, and chemical equations', 'icon': 'fa-vial', 'color': 'primary'},
+            {'id': 'physics_energy_systems', 'name': 'Physics & Energy Systems', 'description': 'Kinetic and potential energy, waves, electricity and magnetism, motion and forces, and thermodynamics', 'icon': 'fa-wave-square', 'color': 'success'},
+            {'id': 'earth_space_science', 'name': 'Earth & Space Science', 'description': 'Geology, astronomy, climate systems, environmental science, natural resources, and sustainability', 'icon': 'fa-satellite', 'color': 'info'}
+        ]
+    },
+    'geography': {
+        'grades_5_and_below': [
+            {'id': 'map_skills_geography_fundamentals', 'name': 'Map Skills & Geography Fundamentals', 'description': 'Basic map reading, cardinal directions, map legends, globes, and geographic terminology', 'icon': 'fa-map', 'color': 'primary'},
+            {'id': 'physical_geography_basics', 'name': 'Physical Geography Basics', 'description': 'Landforms, bodies of water, weather patterns, seasons, and basic ecosystems', 'icon': 'fa-mountain', 'color': 'success'},
+            {'id': 'us_regions_landscapes', 'name': 'U.S. Regions & Landscapes', 'description': 'Major geographic regions of the United States, distinctive features, and natural resources', 'icon': 'fa-flag-usa', 'color': 'info'},
+            {'id': 'us_states_capitals', 'name': 'U.S. States & Capitals', 'description': 'Location and identification of states, capitals, major landmarks, and regional characteristics', 'icon': 'fa-city', 'color': 'warning'},
+            {'id': 'communities_places_america', 'name': 'Communities & Places in America', 'description': 'Major cities, local geography, urban/rural differences, and community features', 'icon': 'fa-home', 'color': 'danger'}
+        ],
+        'grades_above_5': [
+            {'id': 'map_skills_geography_fundamentals', 'name': 'Map Skills & Geography Fundamentals', 'description': 'Basic map reading, cardinal directions, map legends, globes, and geographic terminology', 'icon': 'fa-map', 'color': 'primary'},
+            {'id': 'physical_geography_basics', 'name': 'Physical Geography Basics', 'description': 'Landforms, bodies of water, weather patterns, seasons, and basic ecosystems', 'icon': 'fa-mountain', 'color': 'success'},
+            {'id': 'us_regions_landscapes', 'name': 'U.S. Regions & Landscapes', 'description': 'Major geographic regions of the United States, distinctive features, and natural resources', 'icon': 'fa-flag-usa', 'color': 'info'},
+            {'id': 'us_states_capitals', 'name': 'U.S. States & Capitals', 'description': 'Location and identification of states, capitals, major landmarks, and regional characteristics', 'icon': 'fa-city', 'color': 'warning'},
+            {'id': 'communities_places_america', 'name': 'Communities & Places in America', 'description': 'Major cities, local geography, urban/rural differences, and community features', 'icon': 'fa-home', 'color': 'danger'},
+            {'id': 'north_south_american_geography', 'name': 'North & South American Geography', 'description': 'Physical features, countries, cultures, economic systems, and historical geography of the Americas', 'icon': 'fa-globe-americas', 'color': 'dark'},
+            {'id': 'european_geography_societies', 'name': 'European Geography & Societies', 'description': 'European nations, physical features, cultural regions, historical development, and political geography', 'icon': 'fa-globe-europe', 'color': 'secondary'},
+            {'id': 'african_landscapes_cultures', 'name': 'African Landscapes & Cultures', 'description': 'African regions, physical geography, resources, cultural diversity, and environmental challenges', 'icon': 'fa-globe-africa', 'color': 'primary'},
+            {'id': 'asia_middle_east_environments_societies', 'name': 'Asia & Middle East: Environments & Societies', 'description': 'Asian geography, cultural systems, environmental relationships, population patterns, and geopolitical issues', 'icon': 'fa-globe-asia', 'color': 'success'},
+            {'id': 'oceania_global_geographic_systems', 'name': 'Oceania & Global Geographic Systems', 'description': 'Australia, New Zealand, Pacific Islands, global climate patterns, human-environment interaction, and sustainability', 'icon': 'fa-water', 'color': 'info'}
+        ]
+    },
+    'history': {
+        'grades_5_and_below': [
+            {'id': 'early_american_settlements', 'name': 'Early American Settlements', 'description': 'The thirteen colonies, early English colonies in North America, colonial life, and indigenous peoples', 'icon': 'fa-ship', 'color': 'primary'},
+            {'id': 'american_revolution_independence', 'name': 'American Revolution & Independence', 'description': 'Causes of the American Revolution, key figures, important events, and the formation of a new nation', 'icon': 'fa-flag', 'color': 'success'},
+            {'id': '19th_century_america', 'name': '19th Century America', 'description': 'Early 19th century American history, westward expansion, pioneers, and development of the young nation', 'icon': 'fa-horse', 'color': 'info'},
+            {'id': 'modern_american_challenges', 'name': 'Modern American Challenges', 'description': 'The Great Depression, World War II, changes in American society, and basic civic understanding', 'icon': 'fa-balance-scale', 'color': 'warning'},
+            {'id': 'historical_thinking_economics', 'name': 'Historical Thinking & Economics', 'description': 'Chronology and causation, basic economic principles, historical evidence, and how people lived in the past', 'icon': 'fa-clock', 'color': 'danger'}
+        ],
+        'grades_above_5': [
+            {'id': 'early_american_settlements', 'name': 'Early American Settlements', 'description': 'The thirteen colonies, early English colonies in North America, colonial life, and indigenous peoples', 'icon': 'fa-ship', 'color': 'primary'},
+            {'id': 'american_revolution_independence', 'name': 'American Revolution & Independence', 'description': 'Causes of the American Revolution, key figures, important events, and the formation of a new nation', 'icon': 'fa-flag', 'color': 'success'},
+            {'id': '19th_century_america', 'name': '19th Century America', 'description': 'Early 19th century American history, westward expansion, pioneers, and development of the young nation', 'icon': 'fa-horse', 'color': 'info'},
+            {'id': 'modern_american_challenges', 'name': 'Modern American Challenges', 'description': 'The Great Depression, World War II, changes in American society, and basic civic understanding', 'icon': 'fa-balance-scale', 'color': 'warning'},
+            {'id': 'historical_thinking_economics', 'name': 'Historical Thinking & Economics', 'description': 'Chronology and causation, basic economic principles, historical evidence, and how people lived in the past', 'icon': 'fa-clock', 'color': 'danger'},
+            {'id': 'american_government_civics', 'name': 'American Government & Civics', 'description': 'The Constitution, branches of government, the legal system, citizenship, rights, and responsibilities', 'icon': 'fa-university', 'color': 'dark'},
+            {'id': 'economic_systems_financial_literacy', 'name': 'Economic Systems & Financial Literacy', 'description': 'Economic principles, financial systems, personal finance, markets, and economic decision-making', 'icon': 'fa-dollar-sign', 'color': 'secondary'},
+            {'id': 'colonial_america_early_republic', 'name': 'Colonial America to Early Republic', 'description': 'Colonial America, American Revolution (deeper analysis), Constitutional era, and early national period', 'icon': 'fa-scroll', 'color': 'primary'},
+            {'id': '19th_century_america_civil_war', 'name': '19th Century America & Civil War', 'description': 'The Jacksonian period, antebellum America, slavery, Civil War causes and consequences, Reconstruction', 'icon': 'fa-monument', 'color': 'success'},
+            {'id': 'global_conflicts_modern_era', 'name': 'Global Conflicts & Modern Era', 'description': 'World War I, World War II (advanced analysis), international relations, Early modern Europe, and global connections', 'icon': 'fa-globe', 'color': 'info'}
+        ]
+    }
+}
+
 # Setup logging with circular buffer
 if not os.path.exists('logs'):
     os.makedirs('logs')
@@ -114,6 +223,18 @@ def save_collaboration_data(data):
     """Save collaboration data to JSON file"""
     with open(COLLABORATION_FILE, 'w') as f:
         json.dump(data, f, indent=2)
+
+def end_all_user_chats(username):
+    """End all active chat sessions for a user when they change grades"""
+    collaboration_data = load_collaboration_data()
+    
+    # Find and deactivate all chat sessions involving this user
+    for session_id, session_data in collaboration_data['chat_sessions'].items():
+        if (session_data['active'] and 
+            (session_data['user1'] == username or session_data['user2'] == username)):
+            session_data['active'] = False
+    
+    save_collaboration_data(collaboration_data)
 
 def cleanup_old_sessions():
     """Remove inactive sessions older than 30 minutes"""
@@ -225,8 +346,81 @@ def topics(grade):
     if 'username' not in session:
         return redirect(url_for('login'))
     
+    # Update user's active session with current grade
+    update_user_activity(session['username'])
+    credentials = load_credentials()
+    
+    # Check if user changed grade and end all chats if so
+    current_user = session['username']
+    old_grade = None
+    if current_user in active_sessions:
+        old_grade = active_sessions[current_user].get('grade')
+    
+    if old_grade is not None and old_grade != grade:
+        # User changed grade, end all active chats
+        end_all_user_chats(current_user)
+    
+    if current_user in active_sessions:
+        active_sessions[current_user]['grade'] = grade
+        active_sessions[current_user]['current_topic'] = None  # Clear current topic when viewing topics
+    else:
+        # Add to active sessions if not exists
+        active_sessions[current_user] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'current_topic': None,
+            'grade': grade
+        }
+    
     log_user_activity(session['username'], f"Visited topics for grade {grade}")
     return render_template('topics.html', grade=grade)
+
+@app.route('/subtopics/<int:grade>/<topic>')
+def subtopics(grade, topic):
+    if 'username' not in session:
+        return redirect(url_for('login'))
+    
+    # Validate topic
+    if topic not in SUBTOPICS:
+        flash(f'Invalid topic: {topic}')
+        return redirect(url_for('topics', grade=grade))
+    
+    # Update user's active session with current grade
+    update_user_activity(session['username'])
+    credentials = load_credentials()
+    
+    # Check if user changed grade and end all chats if so
+    current_user = session['username']
+    old_grade = None
+    if current_user in active_sessions:
+        old_grade = active_sessions[current_user].get('grade')
+    
+    if old_grade is not None and old_grade != grade:
+        # User changed grade, end all active chats
+        end_all_user_chats(current_user)
+    
+    if current_user in active_sessions:
+        active_sessions[current_user]['grade'] = grade
+        active_sessions[current_user]['current_topic'] = topic
+    else:
+        # Add to active sessions if not exists
+        active_sessions[current_user] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'current_topic': topic,
+            'grade': grade
+        }
+    
+    # Get appropriate subtopics based on grade
+    if grade <= 5:
+        subtopic_list = SUBTOPICS[topic]['grades_5_and_below']
+    else:
+        subtopic_list = SUBTOPICS[topic]['grades_above_5']
+    
+    log_user_activity(session['username'], f"Visited subtopics for {topic} grade {grade}")
+    return render_template('subtopics.html', grade=grade, topic=topic, subtopics=subtopic_list)
 
 @app.route('/exercise/<int:grade>/<topic>')
 def exercise(grade, topic):
@@ -236,15 +430,26 @@ def exercise(grade, topic):
     # Update user's current activity
     update_user_activity(session['username'])
     credentials = load_credentials()
-    if session['username'] in active_sessions:
-        active_sessions[session['username']]['current_topic'] = topic
-        active_sessions[session['username']]['grade'] = grade
+    
+    # Check if user changed grade and end all chats if so
+    current_user = session['username']
+    old_grade = None
+    if current_user in active_sessions:
+        old_grade = active_sessions[current_user].get('grade')
+    
+    if old_grade is not None and old_grade != grade:
+        # User changed grade, end all active chats
+        end_all_user_chats(current_user)
+    
+    if current_user in active_sessions:
+        active_sessions[current_user]['current_topic'] = topic
+        active_sessions[current_user]['grade'] = grade
     else:
         # Add to active sessions
-        active_sessions[session['username']] = {
+        active_sessions[current_user] = {
             'session_id': session.get('session_id', str(uuid.uuid4())),
             'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[session['username']].get('school_name', 'Unknown School'),
+            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
             'current_topic': topic,
             'grade': grade
         }
@@ -268,6 +473,87 @@ def exercise(grade, topic):
     
     log_user_activity(session['username'], f"Started exercise for {topic} grade {grade}")
     return render_template('exercise.html', grade=grade, topic=topic)
+
+@app.route('/exercise/<int:grade>/<topic>/<subtopic>')
+def exercise_with_subtopic(grade, topic, subtopic):
+    if 'username' not in session:
+        return redirect(url_for('login'))
+    
+    # Validate topic and subtopic
+    if topic not in SUBTOPICS:
+        flash(f'Invalid topic: {topic}')
+        return redirect(url_for('topics', grade=grade))
+    
+    # Get appropriate subtopics based on grade
+    if grade <= 5:
+        subtopic_list = SUBTOPICS[topic]['grades_5_and_below']
+    else:
+        subtopic_list = SUBTOPICS[topic]['grades_above_5']
+    
+    # Find the subtopic details
+    subtopic_details = None
+    for st in subtopic_list:
+        if st['id'] == subtopic:
+            subtopic_details = st
+            break
+    
+    if not subtopic_details:
+        flash(f'Invalid subtopic: {subtopic}')
+        return redirect(url_for('subtopics', grade=grade, topic=topic))
+    
+    # Update user's current activity
+    update_user_activity(session['username'])
+    credentials = load_credentials()
+    
+    # Check if user changed grade and end all chats if so
+    current_user = session['username']
+    old_grade = None
+    if current_user in active_sessions:
+        old_grade = active_sessions[current_user].get('grade')
+    
+    if old_grade is not None and old_grade != grade:
+        # User changed grade, end all active chats
+        end_all_user_chats(current_user)
+    
+    if current_user in active_sessions:
+        active_sessions[current_user]['current_topic'] = topic
+        active_sessions[current_user]['current_subtopic'] = subtopic
+        active_sessions[current_user]['grade'] = grade
+    else:
+        # Add to active sessions
+        active_sessions[current_user] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'current_topic': topic,
+            'current_subtopic': subtopic,
+            'grade': grade
+        }
+    
+    # Load user history for difficulty adjustment - filter by topic and subtopic
+    user_history = credentials[session['username']]['history']
+    filtered_history = [h for h in user_history if h.get('topic') == topic and h.get('subtopic') == subtopic]
+    
+    # Load prompt and call LLM service with subtopic context
+    prompt = load_prompt(topic)
+    # Add subtopic context to the prompt
+    subtopic_prompt = f"{prompt}\n\nFocus specifically on: {subtopic_details['name']} - {subtopic_details['description']}"
+    
+    llm_response = llm_service.call_llm_api(subtopic_prompt, filtered_history, session.get('session_id'), session.get('username'))
+    
+    if 'error' in llm_response:
+        flash(f'Error generating questions: {llm_response["error"]}')
+        return redirect(url_for('subtopics', grade=grade, topic=topic))
+    
+    # Store questions in session
+    session['current_questions'] = llm_response.get('questions', [])
+    session['current_question_index'] = 0
+    session['current_topic'] = topic
+    session['current_subtopic'] = subtopic
+    session['current_grade'] = grade
+    
+    log_user_activity(session['username'], f"Started exercise for {topic}/{subtopic} grade {grade}")
+    return render_template('exercise.html', grade=grade, topic=topic, subtopic=subtopic, subtopic_name=subtopic_details['name'])
 
 @app.route('/get_current_question')
 def get_current_question():
@@ -316,6 +602,7 @@ def submit_answer():
         'user_answer': user_answer,
         'correct': is_correct,
         'topic': session.get('current_topic'),
+        'subtopic': session.get('current_subtopic'),
         'grade': session.get('current_grade'),
         'timestamp': datetime.now().isoformat()
     }
@@ -390,17 +677,29 @@ def get_active_users():
     active_users = []
     
     # Only show users if current user has selected a grade and is in the same school and grade
-    if current_grade is not None:
+    if current_grade is not None and current_school:
         for username, session_data in active_sessions.items():
+            user_school = session_data.get('school_name', '')
+            user_grade = session_data.get('grade', None)
+            user_topic = session_data.get('current_topic')
+            
+            # Debug log for collaboration filtering
+            app.logger.info(f"Collaboration check - Current user: {current_user} (grade={current_grade}, school='{current_school}'), "
+                          f"Checking user: {username} (grade={user_grade}, school='{user_school}', topic={user_topic})")
+            
             if (username != current_user and 
-                session_data.get('school_name') == current_school and
-                session_data.get('grade') == current_grade and  # Same grade requirement
-                session_data.get('current_topic') is not None):
+                user_school == current_school and
+                user_grade == current_grade and  # Same grade requirement
+                user_topic is not None):  # User must be actively working on a topic
+                
                 active_users.append({
                     'username': username,
-                    'topic': session_data.get('current_topic'),
-                    'grade': session_data.get('grade')
+                    'topic': user_topic,
+                    'grade': user_grade
                 })
+                app.logger.info(f"Collaboration: Added user {username} to active list")
+    else:
+        app.logger.info(f"Collaboration: Current user {current_user} doesn't have grade ({current_grade}) or school ('{current_school}') set")
     
     # Always return the users array - empty if no matches or user hasn't selected grade
     # This ensures the collaborate badge always shows with appropriate message
@@ -546,6 +845,27 @@ def send_chat_message():
     if not message or len(message) > 200:
         return jsonify({'error': 'Invalid message length'})
     
+    # Check if users are in same grade and school before allowing chat
+    current_user_session = active_sessions.get(from_user)
+    if not current_user_session:
+        return jsonify({'error': 'No active exercise session'})
+    
+    current_grade = current_user_session.get('grade')
+    current_school = current_user_session.get('school_name')
+    
+    # Find partner's session
+    partner_session = active_sessions.get(to_user)
+    
+    if not partner_session:
+        return jsonify({'error': 'Partner not in active session'})
+    
+    partner_grade = partner_session.get('grade')
+    partner_school = partner_session.get('school_name')
+    
+    # Validate same grade and school
+    if current_grade != partner_grade or current_school != partner_school:
+        return jsonify({'error': 'Cannot chat with users from different grade or school'})
+    
     collaboration_data = load_collaboration_data()
     
     # Find active chat session
@@ -586,6 +906,27 @@ def get_chat_messages():
     
     if not partner:
         return jsonify({'error': 'Partner not specified'})
+    
+    # Check if users are in same grade and school before allowing chat
+    current_user_session = active_sessions.get(current_user)
+    if not current_user_session:
+        return jsonify({'messages': []})  # Return empty if no active session
+    
+    current_grade = current_user_session.get('grade')
+    current_school = current_user_session.get('school_name')
+    
+    # Find partner's session
+    partner_session = active_sessions.get(partner)
+    
+    if not partner_session:
+        return jsonify({'messages': []})  # Return empty if partner not in session
+    
+    partner_grade = partner_session.get('grade')
+    partner_school = partner_session.get('school_name')
+    
+    # Validate same grade and school
+    if current_grade != partner_grade or current_school != partner_school:
+        return jsonify({'messages': []})  # Return empty if different grade/school
     
     collaboration_data = load_collaboration_data()
     

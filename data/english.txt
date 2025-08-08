@@ -8,13 +8,23 @@ Consider the user's previous performance and adjust difficulty accordingly:
 - If they've struggled, focus on fundamental language skills and basic concepts
 - Build confidence while reinforcing proper English usage
 
-Topics should cover:
-- Grammar (parts of speech, sentence structure, punctuation)
-- Vocabulary building and word meanings
-- Spelling and phonics (for appropriate grades)
-- Writing skills (sentence construction, paragraph development)
-- Reading comprehension strategies
-- Creative expression and storytelling
+Topics should cover the provided topic and subtopic with appropriate emphasis:
+
+For Grades ≤5:
+- Reading Fundamentals (comprehension, author's purpose, text structure, story elements)
+- Writing Essentials (organizing ideas, developing arguments, introductions/conclusions)
+- Vocabulary Building (prefixes/suffixes, synonyms/antonyms, idioms, word roots)
+- Grammar & Language Mechanics (parts of speech, subject-verb agreement, sentence structure)
+- Written Conventions (spelling, capitalization, formatting, basic punctuation)
+
+For Grades >5:
+- Literary Analysis & Comprehension (analyzing literature, novel studies, critical reading)
+- Advanced Writing Styles (expository, persuasive, creative writing, rhetorical techniques)
+- Sentence Craft & Structure (fragments/run-ons, phrases/clauses, active/passive voice)
+- Advanced Grammar Applications (modifiers, complex verb tenses, grammatical analysis)
+- Advanced Punctuation & Style (semicolons, dashes, ellipses, citation formats)
+
+Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
 Format your response as a JSON object with this structure:
 {

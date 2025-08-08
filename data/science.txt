@@ -8,13 +8,23 @@ Consider the user's previous performance and adjust difficulty accordingly:
 - If they've struggled, focus on fundamental science concepts and observations
 - Encourage scientific curiosity and critical thinking
 
-Topics should cover (grade-appropriate):
-- Basic physics (motion, forces, energy, matter)
-- Life science (plants, animals, human body, ecosystems)
-- Earth science (weather, rocks, water cycle, space)
-- Chemistry basics (states of matter, simple reactions)
-- Scientific method and observation skills
-- Environmental science and conservation
+Topics should cover the provided topic and subtopic with appropriate emphasis:
+
+For Grades ≤5:
+- Physical Science Basics (materials, matter, physical/chemical changes, atoms, heat)
+- Forces & Energy (motion, magnetism, electricity, light, simple machines)
+- Earth Systems (rocks, fossils, weather, climate, Earth's features, water cycle)
+- Life Science Fundamentals (animals, plants, adaptations, traits, ecosystems)
+- Scientific Investigation Skills (measurement, observation, basic astronomy, experimentation)
+
+For Grades >5:
+- Scientific Methods & Research (experimental design, data analysis, reasoning)
+- Advanced Biology (anatomy, physiology, cells, genetics, evolution, ecosystems)
+- Chemistry Concepts (biochemistry, atomic structure, chemical reactions, solutions)
+- Physics & Energy Systems (kinetic/potential energy, waves, forces, thermodynamics)
+- Earth & Space Science (geology, astronomy, climate, environmental science, sustainability)
+
+Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
 Format your response as a JSON object with this structure:
 {

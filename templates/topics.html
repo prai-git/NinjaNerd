@@ -50,7 +50,7 @@
     </div>
     
     <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card h-100 topic-card" onclick="startExercise({{ grade }}, 'math')">
+        <div class="card h-100 topic-card" onclick="goToSubtopics({{ grade }}, 'math')">
             <div class="card-body text-center">
                 <i class="fas fa-calculator fa-4x text-primary mb-3"></i>
                 <h5 class="card-title">Math</h5>
@@ -60,7 +60,7 @@
     </div>
     
     <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card h-100 topic-card" onclick="startExercise({{ grade }}, 'english')">
+        <div class="card h-100 topic-card" onclick="goToSubtopics({{ grade }}, 'english')">
             <div class="card-body text-center">
                 <i class="fas fa-language fa-4x text-success mb-3"></i>
                 <h5 class="card-title">English</h5>
@@ -85,7 +85,7 @@
     <!-- Advanced topics for grades 4-10 -->
     {% if grade >= 4 %}
     <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card h-100 topic-card" onclick="startExercise({{ grade }}, 'science')">
+        <div class="card h-100 topic-card" onclick="goToSubtopics({{ grade }}, 'science')">
             <div class="card-body text-center">
                 <i class="fas fa-microscope fa-4x text-danger mb-3"></i>
                 <h5 class="card-title">Science</h5>
@@ -95,7 +95,7 @@
     </div>
     
     <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card h-100 topic-card" onclick="startExercise({{ grade }}, 'history')">
+        <div class="card h-100 topic-card" onclick="goToSubtopics({{ grade }}, 'history')">
             <div class="card-body text-center">
                 <i class="fas fa-landmark fa-4x text-secondary mb-3"></i>
                 <h5 class="card-title">History</h5>
@@ -105,7 +105,7 @@
     </div>
     
     <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card h-100 topic-card" onclick="startExercise({{ grade }}, 'geography')">
+        <div class="card h-100 topic-card" onclick="goToSubtopics({{ grade }}, 'geography')">
             <div class="card-body text-center">
                 <i class="fas fa-globe-americas fa-4x text-success mb-3"></i>
                 <h5 class="card-title">Geography</h5>
@@ -123,6 +123,11 @@ function startExercise(grade, topic) {
     
     // Navigate to exercise
     window.location.href = `/exercise/${grade}/${topic}`;
+}
+
+function goToSubtopics(grade, topic) {
+    // Navigate to subtopics page
+    window.location.href = `/subtopics/${grade}/${topic}`;
 }
 </script>
 

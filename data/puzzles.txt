@@ -27,4 +27,4 @@ Format your response as a JSON object with this structure:
   ]
 }
 
-Make puzzles fun and age-appropriate, using themes like animals, adventure, mystery, or fantasy that capture students' imagination.
+Make puzzles fun and age-appropriate, using themes like animals, adventure, mystery, or fantasy that capture students' imagination.**Ensure the questions are little hard**.

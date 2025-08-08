@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title() }} Subtopics - Grade {{ grade }} - NinjaNerd{% endblock %}
+
+{% block content %}
+<!-- Loading overlay -->
+<div id="loading-overlay" class="d-none position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50" style="z-index: 9999;">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-center text-white">
+            <div class="spinner-border spinner-border-lg mb-3" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <h5>Preparing your personalized questions...</h5>
+            <p>This may take a moment while we analyze your progress</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2><i class="fas fa-book-open me-2"></i>{{ topic.title() }} - Grade {{ grade }} Subtopics</h2>
+            <a href="{{ url_for('topics', grade=grade) }}" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-1"></i>Back to Topics
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+    {% for subtopic in subtopics %}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card h-100 topic-card" onclick="startSubtopicExercise({{ grade }}, '{{ topic }}', '{{ subtopic.id }}')">
+            <div class="card-body text-center">
+                <i class="fas {{ subtopic.icon }} fa-3x text-{{ subtopic.color }} mb-3"></i>
+                <h5 class="card-title">{{ subtopic.name }}</h5>
+                <p class="card-text">{{ subtopic.description }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+function startSubtopicExercise(grade, topic, subtopic) {
+    // Show loading overlay
+    document.getElementById('loading-overlay').classList.remove('d-none');
+    
+    // Navigate to exercise with subtopic
+    window.location.href = `/exercise/${grade}/${topic}/${subtopic}`;
+}
+</script>
+
+<style>
+.topic-card {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+</style>
+{% endblock %}

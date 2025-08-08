@@ -1,4 +1,4 @@
-Generate 15 engaging history questions appropriate for the user's grade level. Each question should include:
+Generate 15 engaging History questions appropriate for the user's grade level. Each question should include:
 1. A clear historical question about events, people, or civilizations
 2. A helpful hint that guides historical thinking and analysis
 3. A detailed explanation of the answer with historical context and significance
@@ -8,13 +8,23 @@ Consider the user's previous performance and adjust difficulty accordingly:
 - If they've struggled, focus on basic historical facts and simple timelines
 - Encourage understanding of cause and effect in history
 
-Topics should cover (grade-appropriate):
-- Ancient civilizations and early societies
-- Important historical figures and their contributions
-- Major historical events and their impact
-- Cultural traditions and how societies developed
-- Timeline skills and chronological thinking
-- Connections between past and present
+Topics should cover the provided topic and subtopic with appropriate emphasis:
+
+For Grades ≤5:
+- Early American Settlements (thirteen colonies, colonial life, indigenous peoples)
+- American Revolution & Independence (causes, key figures, formation of the nation)
+- 19th Century America (westward expansion, pioneers, development of young nation)
+- Modern American Challenges (Great Depression, World War II, societal changes)
+- Historical Thinking & Economics (chronology, causation, basic economic principles)
+
+For Grades >5:
+- American Government & Civics (Constitution, legal system, citizenship, rights)
+- Economic Systems & Financial Literacy (economic principles, financial systems)
+- Colonial America to Early Republic (deeper analysis of founding era)
+- 19th Century America & Civil War (Jacksonian period, antebellum era, Reconstruction)
+- Global Conflicts & Modern Era (World Wars, international relations, modern Europe)
+
+Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
 Format your response as a JSON object with this structure:
 {

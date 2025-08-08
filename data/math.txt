@@ -1,4 +1,4 @@
-Generate 15 engaging mathematical questions appropriate for the user's grade level. Each question should include:
+Generate 15 engaging Mathematical questions appropriate for the user's grade level. Each question should include:
 1. A clear, well-structured mathematical problem
 2. A helpful hint that guides thinking without giving away the answer
 3. A detailed step-by-step explanation of the solution
@@ -8,15 +8,23 @@ Consider the user's previous performance and adjust difficulty accordingly:
 - If they've struggled, provide more foundational problems
 - Focus on building confidence while challenging appropriately
 
-Topics should cover:
-- Basic arithmetic (addition, subtraction, multiplication, division)
-- Word problems with real-world applications
-- Pattern recognition and sequences
-- Basic geometry concepts
-- Multi-step problems involving combination (some or all) of addition, subtraction, multiplication, division and other concepts
-- Area, perimeter and volume of different shapes and objects (for appropriate grades)
-- Leaf, dot and line plots (for appropriate grades)
-- Simple fractions and decimals (for appropriate grades)
+Topics should cover the provided topic and subtopic with appropriate emphasis:
+
+For Grades ≤5:
+- Number Sense & Basic Operations (arithmetic operations, place value)
+- Fractions & Decimals (equivalent fractions, decimal concepts)
+- Geometry & Spatial Concepts (shapes, area, perimeter, basic volume)
+- Measurement & Data (units, graphs, charts, plots)
+- Problem Solving & Applications (multi-step word problems, patterns)
+
+For Grades >5:
+- Advanced Number Systems (integers, rational/irrational numbers)
+- Algebraic Concepts (variables, expressions, equations, functions)
+- Proportional Reasoning & Percentages (ratios, rates, percents)
+- Advanced Geometry & Measurement (area, volume, coordinate geometry)
+- Data Analysis & Functions (statistics, graphs, function types)
+
+Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
 Format your response as a JSON object with this structure:
 {
