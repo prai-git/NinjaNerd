@@ -355,7 +355,23 @@ function showResult(data) {
         
         // Show explanation for incorrect answers on the RIGHT SIDE
         if (data.explanation) {
-            explanationContent.innerHTML = data.explanation;
+            let explanationHTML = '';
+            
+            // Add submitted answer if available
+            if (data.user_answer) {
+                explanationHTML += `<div class="mb-3">
+                    <h6 class="text-muted"><i class="fas fa-edit me-1"></i>Your Answer:</h6>
+                    <div class="bg-light p-2 rounded border">${data.user_answer}</div>
+                </div>`;
+            }
+            
+            // Add explanation
+            explanationHTML += `<div>
+                <h6 class="text-primary"><i class="fas fa-lightbulb me-1"></i>Explanation:</h6>
+                <div>${data.explanation}</div>
+            </div>`;
+            
+            explanationContent.innerHTML = explanationHTML;
             explanationCard.style.display = 'block';
         }
     }

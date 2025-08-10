@@ -23,6 +23,7 @@ app.secret_key = os.urandom(24)
 # Configure session to use filesystem
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = False
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
 Session(app)
 
 # Environment variables
@@ -266,6 +267,74 @@ def load_prompt(topic):
     except FileNotFoundError:
         return f"Generate educational questions for {topic}"
 
+def validate_session():
+    """
+    Validate user session for security and timeout.
+    Returns tuple (is_valid: bool, message: str)
+    """
+    if 'username' not in session:
+        return False, "No active session found"
+    
+    username = session['username']
+    session_id = session.get('session_id')
+    login_time = session.get('login_time')
+    
+    # Check if user exists in active sessions
+    if username not in active_sessions:
+        return False, "Session not found in active sessions"
+    
+    # Check if session ID matches
+    if session_id != active_sessions[username].get('session_id'):
+        return False, "Session ID mismatch"
+    
+    # Check session timeout (30 minutes from login)
+    if login_time:
+        try:
+            login_datetime = datetime.fromisoformat(login_time)
+            if datetime.now() - login_datetime > timedelta(minutes=30):
+                return False, "Session has expired"
+        except (ValueError, TypeError):
+            return False, "Invalid login time format"
+    
+    # Check last activity timeout
+    last_activity = active_sessions[username].get('last_activity')
+    if last_activity:
+        try:
+            last_activity_datetime = datetime.fromisoformat(last_activity)
+            if datetime.now() - last_activity_datetime > timedelta(minutes=30):
+                return False, "Session has expired due to inactivity"
+        except (ValueError, TypeError):
+            return False, "Invalid last activity time format"
+    
+    return True, "Session is valid"
+
+def require_login(f):
+    """
+    Decorator to require user authentication for protected routes.
+    Validates session and redirects to login if invalid.
+    """
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        is_valid, message = validate_session()
+        
+        if not is_valid:
+            # Clear invalid session data
+            username = session.get('username', 'Unknown')
+            if username in active_sessions:
+                del active_sessions[username]
+            session.clear()
+            
+            flash(f"Please log in to access this page. {message}")
+            log_user_activity(username, f"Access denied - {message}")
+            return redirect(url_for('login'))
+        
+        # Update user activity timestamp
+        username = session['username']
+        update_user_activity(username)
+        
+        return f(*args, **kwargs)
+    return decorated_function
+
 @app.route('/')
 def index():
     return redirect(url_for('login'))
@@ -279,8 +348,11 @@ def login():
         credentials = load_credentials()
         
         if username in credentials and check_password_hash(credentials[username]['password'], password):
+            # Enable permanent session with 30-minute timeout
+            session.permanent = True
             session['username'] = username
             session['session_id'] = str(uuid.uuid4())
+            session['login_time'] = datetime.now().isoformat()
             
             # Update last login
             credentials[username]['statistics']['last_login'] = datetime.now().isoformat()
@@ -334,20 +406,15 @@ def create_account():
     return render_template('create_account.html')
 
 @app.route('/about')
+@require_login
 def about():
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     log_user_activity(session['username'], "Visited about page")
     return render_template('about.html', logo_path=LOGO_PATH)
 
 @app.route('/topics/<int:grade>')
+@require_login
 def topics(grade):
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     # Update user's active session with current grade
-    update_user_activity(session['username'])
     credentials = load_credentials()
     
     # Check if user changed grade and end all chats if so
@@ -377,17 +444,14 @@ def topics(grade):
     return render_template('topics.html', grade=grade)
 
 @app.route('/subtopics/<int:grade>/<topic>')
+@require_login
 def subtopics(grade, topic):
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     # Validate topic
     if topic not in SUBTOPICS:
         flash(f'Invalid topic: {topic}')
         return redirect(url_for('topics', grade=grade))
     
     # Update user's active session with current grade
-    update_user_activity(session['username'])
     credentials = load_credentials()
     
     # Check if user changed grade and end all chats if so
@@ -423,12 +487,9 @@ def subtopics(grade, topic):
     return render_template('subtopics.html', grade=grade, topic=topic, subtopics=subtopic_list)
 
 @app.route('/exercise/<int:grade>/<topic>')
+@require_login
 def exercise(grade, topic):
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     # Update user's current activity
-    update_user_activity(session['username'])
     credentials = load_credentials()
     
     # Check if user changed grade and end all chats if so
@@ -475,10 +536,8 @@ def exercise(grade, topic):
     return render_template('exercise.html', grade=grade, topic=topic)
 
 @app.route('/exercise/<int:grade>/<topic>/<subtopic>')
+@require_login
 def exercise_with_subtopic(grade, topic, subtopic):
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     # Validate topic and subtopic
     if topic not in SUBTOPICS:
         flash(f'Invalid topic: {topic}')
@@ -502,7 +561,6 @@ def exercise_with_subtopic(grade, topic, subtopic):
         return redirect(url_for('subtopics', grade=grade, topic=topic))
     
     # Update user's current activity
-    update_user_activity(session['username'])
     credentials = load_credentials()
     
     # Check if user changed grade and end all chats if so
@@ -623,6 +681,7 @@ def submit_answer():
     return jsonify({
         'correct': is_correct,
         'explanation': explanation if not is_correct else '',
+        'user_answer': user_answer if not is_correct else '',
         'next_available': (index + 1) < len(questions)
     })
 
@@ -653,11 +712,20 @@ def logout():
 
 @app.route('/check_session')
 def check_session():
-    """Check if user session is valid"""
-    if 'username' in session:
-        return jsonify({'valid': True})
-    else:
-        return jsonify({'valid': False})
+    """Check if user session is valid using comprehensive validation"""
+    is_valid, message = validate_session()
+    
+    if not is_valid:
+        # Clean up invalid session
+        username = session.get('username', 'Unknown')
+        if username in active_sessions:
+            del active_sessions[username]
+        session.clear()
+        return jsonify({'valid': False, 'message': message})
+    
+    # Update activity timestamp for valid sessions
+    update_user_activity(session['username'])
+    return jsonify({'valid': True, 'message': 'Session is valid'})
 
 # Collaboration endpoints
 @app.route('/get_active_users')
@@ -991,11 +1059,9 @@ def end_chat():
     return jsonify({'success': True})
 
 @app.route('/games/<int:grade>')
+@require_login
 def games_list(grade):
     """Display available games for a specific grade"""
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     if grade < 1 or grade > 7:
         flash('Games are only available for grades 1-7')
         return redirect(url_for('topics', grade=1))
@@ -1013,11 +1079,9 @@ def games_list(grade):
     return render_template('games/games_list.html', games=games, grade=grade, logo_path=LOGO_PATH)
 
 @app.route('/games/play/<string:game_slug>')
+@require_login
 def game_detail(game_slug):
     """Display a specific game"""
-    if 'username' not in session:
-        return redirect(url_for('login'))
-    
     if game_slug != 'tejas-thrust':
         flash('Game not found')
         return redirect(url_for('games_list', grade=1))
