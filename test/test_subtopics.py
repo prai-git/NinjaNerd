@@ -268,7 +268,7 @@ if __name__ == '__main__':
         test_routes_with_app()
         test_specific_subtopic_names()
         test_subtopic_data_structure_comprehensive()
-        test_authenticated_routes()
+        # test_authenticated_routes()  # Temporarily disabled - modifies production data
         test_exercise_subtopic_routes()
         test_grade_based_subtopic_display()
         test_llm_prompt_enhancement()

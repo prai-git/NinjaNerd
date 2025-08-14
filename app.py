@@ -13,6 +13,7 @@ import ssl
 import argparse
 from functools import wraps
 from ai.llm_service import LLMService
+from dbmgr.app_integration import initialize_app_db, get_app_db
 
 # Load environment variables from .env file
 load_dotenv()
@@ -170,9 +171,13 @@ chat_sessions = {}  # {session_id: {user1, user2, messages, active}}
 
 def init_credentials_db():
     """Initialize credentials database with default admin user"""
-    if not os.path.exists(CREDENTIALS_FILE):
-        default_data = {
-            "admin@gmail.com": {
+    try:
+        db = get_app_db()
+        # Check if admin user exists
+        admin_user = db.get_user("admin@gmail.com")
+        if admin_user is None:
+            # Create default admin user
+            default_user_data = {
                 "password": generate_password_hash("adminatgmaildotcom"),
                 "school_name": "NinjaNerd Academy",
                 "history": [],
@@ -182,48 +187,103 @@ def init_credentials_db():
                     "last_login": None
                 }
             }
-        }
-        with open(CREDENTIALS_FILE, 'w') as f:
-            json.dump(default_data, f, indent=2)
+            db.db_manager.create_user("admin@gmail.com", default_user_data)
+    except Exception as e:
+        app.logger.error(f"Error initializing credentials: {e}")
+        # Fallback to original file-based approach
+        if not os.path.exists(CREDENTIALS_FILE):
+            default_data = {
+                "admin@gmail.com": {
+                    "password": generate_password_hash("adminatgmaildotcom"),
+                    "school_name": "NinjaNerd Academy",
+                    "history": [],
+                    "statistics": {
+                        "questions_attempted": 0,
+                        "topics_covered": [],
+                        "last_login": None
+                    }
+                }
+            }
+            with open(CREDENTIALS_FILE, 'w') as f:
+                json.dump(default_data, f, indent=2)
 
 def init_collaboration_db():
     """Initialize collaboration database"""
-    if not os.path.exists(COLLABORATION_FILE):
-        default_data = {
-            "invites": {},
-            "chat_sessions": {},
-            "message_counter": 0
-        }
-        with open(COLLABORATION_FILE, 'w') as f:
-            json.dump(default_data, f, indent=2)
+    try:
+        db = get_app_db()
+        # Check if collaboration data exists
+        collab_data = db.load_collaboration_data()
+        if not collab_data or not collab_data.get("invites"):
+            # Initialize with default structure
+            default_data = {
+                "invites": {},
+                "chat_sessions": {},
+                "message_counter": 0
+            }
+            db.save_collaboration_data(default_data)
+    except Exception as e:
+        app.logger.error(f"Error initializing collaboration: {e}")
+        # Fallback to original file-based approach
+        if not os.path.exists(COLLABORATION_FILE):
+            default_data = {
+                "invites": {},
+                "chat_sessions": {},
+                "message_counter": 0
+            }
+            with open(COLLABORATION_FILE, 'w') as f:
+                json.dump(default_data, f, indent=2)
 
 def load_credentials():
-    """Load credentials from JSON file"""
+    """Load credentials from database"""
     try:
-        with open(CREDENTIALS_FILE, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        init_credentials_db()
-        return load_credentials()
+        db = get_app_db()
+        return db.load_credentials()
+    except Exception as e:
+        app.logger.error(f"Error loading credentials via DBManager: {e}")
+        # Fallback to file-based approach
+        try:
+            with open(CREDENTIALS_FILE, 'r') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            init_credentials_db()
+            return load_credentials()
 
 def save_credentials(data):
-    """Save credentials to JSON file"""
-    with open(CREDENTIALS_FILE, 'w') as f:
-        json.dump(data, f, indent=2)
+    """Save credentials to database"""
+    try:
+        db = get_app_db()
+        db.save_credentials(data)
+    except Exception as e:
+        app.logger.error(f"Error saving credentials via DBManager: {e}")
+        # Fallback to file-based approach
+        with open(CREDENTIALS_FILE, 'w') as f:
+            json.dump(data, f, indent=2)
 
 def load_collaboration_data():
-    """Load collaboration data from JSON file"""
+    """Load collaboration data from database"""
     try:
-        with open(COLLABORATION_FILE, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        init_collaboration_db()
-        return load_collaboration_data()
+        db = get_app_db()
+        return db.load_collaboration_data()
+    except Exception as e:
+        app.logger.error(f"Error loading collaboration data via DBManager: {e}")
+        # Fallback to file-based approach
+        try:
+            with open(COLLABORATION_FILE, 'r') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            init_collaboration_db()
+            return load_collaboration_data()
 
 def save_collaboration_data(data):
-    """Save collaboration data to JSON file"""
-    with open(COLLABORATION_FILE, 'w') as f:
-        json.dump(data, f, indent=2)
+    """Save collaboration data to database"""
+    try:
+        db = get_app_db()
+        db.save_collaboration_data(data)
+    except Exception as e:
+        app.logger.error(f"Error saving collaboration data via DBManager: {e}")
+        # Fallback to file-based approach
+        with open(COLLABORATION_FILE, 'w') as f:
+            json.dump(data, f, indent=2)
 
 def end_all_user_chats(username):
     """End all active chat sessions for a user when they change grades"""
@@ -1122,6 +1182,15 @@ if __name__ == '__main__':
     
     # Set active sessions reference for LLM service
     llm_service.set_active_sessions_reference(active_sessions)
+    
+    # Initialize DBManager
+    try:
+        app.logger.info("Initializing DBManager...")
+        initialize_app_db('data', 'backups')
+        app.logger.info("DBManager initialized successfully")
+    except Exception as e:
+        app.logger.error(f"Failed to initialize DBManager: {e}")
+        app.logger.info("Falling back to file-based database operations")
     
     init_credentials_db()
     init_collaboration_db()

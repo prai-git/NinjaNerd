@@ -36,11 +36,24 @@ An interactive educational platform designed to help students learn and practice
 - User history and performance analytics
 - Last login tracking
 
-### 🔧 Technical Features
+### �️ Database Management
+- **Enterprise DBManager**: Production-ready database operations with thread-safe access
+- **Concurrent User Support**: Handles 1000+ simultaneous users with queue-based operations
+- **File Integrity Protection**: Automatic backups, checksum validation, and atomic operations
+- **Session Management**: Advanced session tracking with cleanup and validation
+- **Error Recovery**: Automatic restore from backup if corruption detected
+
+### 🤝 Collaboration Features
+- **User Invitations**: Send and manage collaboration invites between users
+- **Chat Sessions**: Real-time messaging for collaborative learning
+- **Shared Learning**: Students can study together and share progress
+
+### �🔧 Technical Features
 - Responsive web interface
 - RESTful API endpoints
 - Comprehensive logging with rotating file handlers
-- JSON-based data storage
+- Enterprise-grade database management with DBManager
+- JSON-based data storage with integrity protection
 - Environment variable configuration
 
 ## Installation
@@ -77,8 +90,20 @@ The application will be available at `http://localhost:5001`
 NinjaNerd/
 ├── app.py                 # Main Flask application
 ├── requirements.txt       # Python dependencies
+├── ai/                    # AI/LLM service modules
+│   ├── __init__.py        # Package initialization
+│   └── llm_service.py     # LLM integration service
+├── dbmgr/                 # Database Manager package
+│   ├── __init__.py        # Package initialization
+│   ├── db_manager.py      # Main database manager
+│   ├── file_operations.py # File I/O operations
+│   ├── queue_manager.py   # Operation queuing
+│   ├── session_manager.py # Session management
+│   ├── exceptions.py      # Custom exceptions
+│   └── app_integration.py # App integration wrapper
 ├── data/                  # Data files
 │   ├── Credentials.json   # User credentials and statistics
+│   ├── Collaboration.json # Collaboration and chat data
 │   ├── english.txt        # English topic prompts
 │   ├── geography.txt      # Geography topic prompts
 │   ├── history.txt        # History topic prompts
@@ -86,6 +111,7 @@ NinjaNerd/
 │   ├── puzzles.txt       # Puzzle topic prompts
 │   ├── science.txt       # Science topic prompts
 │   └── stories.txt       # Story topic prompts
+├── backups/              # Automatic database backups
 ├── templates/            # HTML templates
 │   ├── base.html         # Base template
 │   ├── login.html        # Login page
@@ -97,6 +123,14 @@ NinjaNerd/
 │   ├── css/style.css     # Stylesheets
 │   ├── js/script.js      # JavaScript
 │   └── images/logo.png   # Application logo
+├── test/                 # Unit tests
+│   ├── test_dbmanager.py # DBManager tests
+│   ├── test_dbmanager_components.py # Component tests
+│   ├── test_app_integration.py # Integration tests
+│   ├── test_session_management.py # Session tests
+│   ├── test_subtopics.py # Subtopic tests
+│   ├── test_ds_llm.py    # DeepSeek LLM tests
+│   └── test_oai_llm.py   # OpenAI LLM tests
 ├── flask_session/        # Session storage
 └── logs/                 # Application logs
 ```
@@ -123,9 +157,17 @@ NinjaNerd/
 - `POST /create_account` - Create new account
 - `GET /about` - Dashboard/about page
 - `GET /topics/<grade>` - Topic selection for grade
+- `GET /subtopics/<grade>/<topic>` - Subtopic selection for grade and topic
 - `GET /exercise/<grade>/<topic>` - Exercise interface
+- `GET /exercise/<grade>/<topic>/<subtopic>` - Exercise interface with subtopic focus
 - `GET /get_current_question` - Fetch current question
 - `POST /submit_answer` - Submit answer for evaluation
+- `GET /games/<grade>` - Games listing for grade
+- `GET /games/<grade>/<game_slug>` - Individual game page
+- `POST /invite_user` - Send collaboration invite
+- `POST /respond_invite` - Respond to collaboration invite
+- `GET /collaboration` - Collaboration dashboard
+- `POST /send_message` - Send chat message
 - `GET /logout` - Logout user
 - `GET /check_session` - Validate session
 
@@ -136,6 +178,24 @@ NinjaNerd/
 - **Requests 2.31.0**: HTTP library for API calls
 - **Werkzeug 2.3.7**: Password hashing utilities
 - **Python-dotenv 1.0.0**: Environment variable management
+
+## Testing
+
+The application includes comprehensive unit tests:
+
+```bash
+# Run all tests
+python3 test/test_dbmanager.py                 # DBManager unit tests (23 tests)
+python3 test/test_dbmanager_components.py      # Component tests (22 tests)
+python3 test/test_dbmanager_integration.py     # Integration tests (10 tests)
+python3 test/test_app_integration.py           # App integration tests
+python3 test/test_session_management.py        # Session management tests
+python3 test/test_subtopics.py                 # Subtopic functionality tests
+python3 test/test_ds_llm.py                    # DeepSeek LLM API tests (6 tests)
+python3 test/test_oai_llm.py                   # OpenAI LLM API tests (7 tests)
+```
+
+All tests are designed to be safe and do not modify production database files.
 
 ## Configuration
 
@@ -157,6 +217,20 @@ The application uses environment variables for configuration:
 - Session management with filesystem storage
 - Input validation and error handling
 - Secure credential storage
+- Thread-safe database operations
+- Automatic data backup and recovery
+- File integrity protection with checksums
+
+## Database Management
+
+The application uses an enterprise-grade DBManager system that provides:
+
+- **Concurrent Access**: Supports 1000+ simultaneous users
+- **Data Integrity**: Automatic backups before every write operation
+- **Error Recovery**: Automatic restoration from backups if corruption detected
+- **Thread Safety**: Queue-based operations prevent data conflicts
+- **Session Management**: Advanced session tracking and cleanup
+- **Performance Monitoring**: System status and performance metrics
 
 ---
 

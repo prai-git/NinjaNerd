@@ -1,6 +1,7 @@
 # Log files
 logs/
 *.log
+backups/
 
 # Environment files
 .env
