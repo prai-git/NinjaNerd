@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash, jsonify
 from flask_session import Session
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 from dotenv import load_dotenv
 import json
 import os
@@ -26,6 +28,60 @@ app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = False
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
 Session(app)
+
+# Rate limiting configuration
+def get_rate_limit_key():
+    """Get rate limit key based on user session or IP address"""
+    if 'username' in session:
+        return session['username']
+    return get_remote_address()
+
+# Initialize rate limiter with graceful error handling
+try:
+    limiter = Limiter(
+        app=app,
+        key_func=get_rate_limit_key,
+        default_limits=["1000 per hour"],
+        storage_uri="memory://",
+        headers_enabled=True,
+        swallow_errors=True  # Graceful degradation if rate limiting fails
+    )
+except Exception as e:
+    logging.error(f"Failed to initialize rate limiter: {e}")
+    limiter = None
+
+# Rate limit error handler
+@app.errorhandler(429)
+def rate_limit_handler(e):
+    """Handle rate limit exceeded errors"""
+    if request.is_json:
+        return jsonify({
+            'error': 'Rate limit exceeded',
+            'message': 'Too many requests. Please slow down and try again later.',
+            'retry_after': getattr(e, 'retry_after', 60)
+        }), 429
+    else:
+        flash('Too many requests. Please slow down and try again later.')
+        return render_template('error.html', 
+                             error_code=429,
+                             error_message='Rate limit exceeded'), 429
+
+# Rate limiting decorator helpers
+def apply_rate_limit(limit_string):
+    """Apply rate limiting with graceful degradation"""
+    def decorator(f):
+        if limiter:
+            return limiter.limit(limit_string)(f)
+        return f
+    return decorator
+
+def apply_auth_rate_limit(limit_string):
+    """Apply rate limiting for authenticated endpoints"""
+    def decorator(f):
+        if limiter:
+            return limiter.limit(limit_string, key_func=lambda: session.get('username', get_remote_address()))(f)
+        return f
+    return decorator
 
 # Environment variables
 LOGO_PATH = os.getenv('PR_NIBODH_LOGO', '/static/images/logo.png')
@@ -400,6 +456,7 @@ def index():
     return redirect(url_for('login'))
 
 @app.route('/login', methods=['GET', 'POST'])
+@apply_rate_limit("5 per 15 minutes")  # Prevent brute force attacks
 def login():
     if request.method == 'POST':
         username = request.form['username']
@@ -436,6 +493,7 @@ def login():
     return render_template('login.html')
 
 @app.route('/create_account', methods=['GET', 'POST'])
+@apply_rate_limit("3 per 10 minutes")  # Prevent account creation spam
 def create_account():
     if request.method == 'POST':
         username = request.form['username']
@@ -674,6 +732,7 @@ def exercise_with_subtopic(grade, topic, subtopic):
     return render_template('exercise.html', grade=grade, topic=topic, subtopic=subtopic, subtopic_name=subtopic_details['name'])
 
 @app.route('/get_current_question')
+@apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
 def get_current_question():
     if 'username' not in session or 'current_questions' not in session:
         return jsonify({'error': 'No active session'})
@@ -691,6 +750,7 @@ def get_current_question():
     })
 
 @app.route('/submit_answer', methods=['POST'])
+@apply_auth_rate_limit("10 per minute")  # Limit rapid answer submissions
 def submit_answer():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -787,8 +847,32 @@ def check_session():
     update_user_activity(session['username'])
     return jsonify({'valid': True, 'message': 'Session is valid'})
 
+@app.route('/rate_limit_status')
+@apply_auth_rate_limit("60 per minute")
+def rate_limit_status():
+    """Get current rate limit status for the user"""
+    if limiter is None:
+        return jsonify({'rate_limiting_enabled': False})
+    
+    try:
+        key = get_rate_limit_key()
+        return jsonify({
+            'rate_limiting_enabled': True,
+            'key': key if 'username' in session else 'anonymous',
+            'limits': {
+                'global': '1000 per hour',
+                'api': '60 per minute',
+                'chat': '30 per minute',
+                'submit': '10 per minute',
+                'login': '5 per 15 minutes'
+            }
+        })
+    except Exception as e:
+        return jsonify({'error': 'Unable to get rate limit status', 'rate_limiting_enabled': True})
+
 # Collaboration endpoints
 @app.route('/get_active_users')
+@apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
 def get_active_users():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -834,6 +918,7 @@ def get_active_users():
     return jsonify({'users': active_users})
 
 @app.route('/send_collaboration_invite', methods=['POST'])
+@apply_auth_rate_limit("10 per hour")  # Limit collaboration invite spam
 def send_collaboration_invite():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -890,6 +975,7 @@ def send_collaboration_invite():
     return jsonify({'success': True})
 
 @app.route('/check_collaboration_invites')
+@apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
 def check_collaboration_invites():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -915,6 +1001,7 @@ def check_collaboration_invites():
     return jsonify({'invite': None})
 
 @app.route('/respond_collaboration_invite', methods=['POST'])
+@apply_auth_rate_limit("30 per minute")  # Limit invite responses
 def respond_collaboration_invite():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -961,6 +1048,7 @@ def respond_collaboration_invite():
     return jsonify({'success': True})
 
 @app.route('/send_chat_message', methods=['POST'])
+@apply_auth_rate_limit("30 per minute")  # Prevent chat spam
 def send_chat_message():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -1025,6 +1113,7 @@ def send_chat_message():
     return jsonify({'success': True})
 
 @app.route('/get_chat_messages')
+@apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
 def get_chat_messages():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -1074,6 +1163,7 @@ def get_chat_messages():
     return jsonify({'messages': messages})
 
 @app.route('/mark_message_displayed', methods=['POST'])
+@apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
 def mark_message_displayed():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -1094,6 +1184,7 @@ def mark_message_displayed():
     return jsonify({'error': 'Message not found'})
 
 @app.route('/end_chat', methods=['POST'])
+@apply_auth_rate_limit("30 per minute")  # Limit chat management actions
 def end_chat():
     if 'username' not in session:
         return jsonify({'error': 'No active session'})
@@ -1120,6 +1211,7 @@ def end_chat():
 
 @app.route('/games/<int:grade>')
 @require_login
+@apply_auth_rate_limit("30 per minute")  # Limit games access to prevent abuse
 def games_list(grade):
     """Display available games for a specific grade"""
     if grade < 1 or grade > 7:
@@ -1140,6 +1232,7 @@ def games_list(grade):
 
 @app.route('/games/play/<string:game_slug>')
 @require_login
+@apply_auth_rate_limit("20 per minute")  # Limit game play requests
 def game_detail(game_slug):
     """Display a specific game"""
     if game_slug != 'tejas-thrust':
