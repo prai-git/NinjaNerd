@@ -1,11 +1,11 @@
 # Log files
-logs/
 *.log
 backups/
 
 # Environment files
 .env
 .env.example
+.env.template
 nnrpi/
 
 # SSL certificates

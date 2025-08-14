@@ -6,6 +6,7 @@ import threading
 import time
 import uuid
 import re
+import logging
 from datetime import datetime
 from openai import OpenAI
 
@@ -262,6 +263,9 @@ class LLMService:
         Returns:
             dict: Mock questions response in expected format
         """
+        # Log critical message when using mock questions
+        logging.critical("LLM API unavailable - Using mock questions as fallback. This indicates LLM service failure.")
+        
         # Extract topic from prompt or use generic
         topic = "general"
         if "math" in prompt.lower():

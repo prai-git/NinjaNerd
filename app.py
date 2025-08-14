@@ -23,11 +23,72 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
-# Configure session to use filesystem
-app.config['SESSION_TYPE'] = 'filesystem'
-app.config['SESSION_PERMANENT'] = False
-app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
-Session(app)
+# Global logging configuration - will be initialized when app runs
+logging_integration = None
+
+def initialize_production_logging():
+    """Initialize production logging system"""
+    global logging_integration
+    try:
+        from logging_system import init_production_logging, LogConfig
+        
+        # Create production logging configuration
+        logging_config = LogConfig(
+            log_level='INFO',
+            enable_async_logging=True,
+            enable_performance_logging=True,
+            enable_structured_logging=True,
+            enable_request_logging=True,
+            max_log_file_size_mb=50,
+            backup_count=10,
+            log_retention_days=30
+        )
+        
+        # Initialize production logging
+        logging_integration = init_production_logging(app, logging_config)
+        
+        app.logger.info("Production logging system initialized successfully")
+        return logging_integration
+        
+    except Exception as e:
+        # Fallback to basic logging if production logging fails
+        print(f"Failed to initialize production logging, falling back to basic logging: {e}")
+        
+        # Basic logging setup
+        if not os.path.exists('logs'):
+            os.makedirs('logs')
+        
+        log_handler = RotatingFileHandler('logs/ninjnerd.log', maxBytes=10*1024*1024, backupCount=5)
+        log_handler.setFormatter(logging.Formatter(
+            '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
+        ))
+        log_handler.setLevel(logging.INFO)
+        app.logger.addHandler(log_handler)
+        return None
+    app.logger.setLevel(logging.INFO)
+    logging_integration = None
+
+# Production-ready session storage with Redis and filesystem fallback
+try:
+    from session_storage import init_production_sessions, create_production_session_config
+    
+    # Create production session configuration
+    session_config = create_production_session_config()
+    
+    # Initialize production session storage
+    production_sessions = init_production_sessions(app, session_config)
+    
+    app.logger.info("Production session storage initialized successfully")
+    
+except Exception as e:
+    app.logger.warning(f"Failed to initialize production sessions, falling back to basic sessions: {e}")
+    
+    # Fallback to basic filesystem sessions
+    app.config['SESSION_TYPE'] = 'filesystem'
+    app.config['SESSION_PERMANENT'] = False
+    app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
+    Session(app)
+    production_sessions = None
 
 # Rate limiting configuration
 def get_rate_limit_key():
@@ -195,17 +256,7 @@ SUBTOPICS = {
     }
 }
 
-# Setup logging with circular buffer
-if not os.path.exists('logs'):
-    os.makedirs('logs')
 
-log_handler = RotatingFileHandler('logs/ninja_nerd.log', maxBytes=10*1024*1024, backupCount=5)
-log_handler.setFormatter(logging.Formatter(
-    '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
-))
-log_handler.setLevel(logging.INFO)
-app.logger.addHandler(log_handler)
-app.logger.setLevel(logging.INFO)
 
 # Global variable to store LLM model choice
 LLM_MODEL_TYPE = 'deepseek'  # Default to deepseek
@@ -455,6 +506,10 @@ def require_login(f):
 def index():
     return redirect(url_for('login'))
 
+@app.route('/favicon.ico')
+def favicon():
+    return app.send_static_file('favicon.ico')
+
 @app.route('/login', methods=['GET', 'POST'])
 @apply_rate_limit("5 per 15 minutes")  # Prevent brute force attacks
 def login():
@@ -485,10 +540,27 @@ def login():
             }
             
             log_user_activity(username, "Logged in successfully")
+            
+            # Log security event for successful login
+            try:
+                from logging_system import log_audit_event, log_security_event
+                log_audit_event('login', 'user_session', username, 'success')
+                log_security_event('authentication', f'Successful login for user {username}', 'info')
+            except Exception:
+                pass  # Don't break login if logging fails
+            
             return redirect(url_for('about'))
         else:
             flash('Invalid credentials')
             log_user_activity(username, "Failed login attempt")
+            
+            # Log security event for failed login
+            try:
+                from logging_system import log_audit_event, log_security_event
+                log_audit_event('login', 'user_session', username, 'failed')
+                log_security_event('authentication', f'Failed login attempt for user {username}', 'medium')
+            except Exception:
+                pass  # Don't break login if logging fails
     
     return render_template('login.html')
 
@@ -828,6 +900,15 @@ def logout():
     
     session.clear()
     log_user_activity(username, "Logged out")
+    
+    # Log security event for logout
+    try:
+        from logging_system import log_audit_event, log_security_event
+        log_audit_event('logout', 'user_session', username, 'success')
+        log_security_event('authentication', f'User {username} logged out', 'info')
+    except Exception:
+        pass  # Don't break logout if logging fails
+    
     return redirect(url_for('login'))
 
 @app.route('/check_session')
@@ -1248,7 +1329,86 @@ def game_detail(game_slug):
     log_user_activity(session['username'], f"Started playing {game_slug}")
     return render_template('games/game_detail.html', game=game, logo_path=LOGO_PATH)
 
+
+# Production Session Health Endpoints
+@app.route('/health/sessions')
+def session_health():
+    """Get session storage health status."""
+    try:
+        if production_sessions:
+            health_status = production_sessions.get_health_status()
+            return jsonify(health_status)
+        else:
+            return jsonify({
+                'status': 'basic',
+                'message': 'Using basic filesystem sessions',
+                'components': {
+                    'session_storage': {
+                        'status': 'healthy',
+                        'message': 'Basic filesystem sessions active'
+                    }
+                }
+            })
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'message': f'Failed to get session health: {str(e)}'
+        }), 500
+
+
+@app.route('/health/sessions/metrics')
+def session_metrics():
+    """Get session storage metrics."""
+    try:
+        if production_sessions:
+            metrics = production_sessions.get_session_metrics()
+            return jsonify(metrics)
+        else:
+            # Basic metrics for filesystem sessions
+            return jsonify({
+                'total_sessions': len(active_sessions),
+                'active_sessions': len(active_sessions),
+                'session_type': 'filesystem_basic',
+                'redis_available': False
+            })
+    except Exception as e:
+        return jsonify({
+            'error': f'Failed to get session metrics: {str(e)}'
+        }), 500
+
+
+@app.route('/health/sessions/cleanup', methods=['POST'])
+@require_login
+def cleanup_sessions():
+    """Manually trigger session cleanup (admin only)."""
+    try:
+        username = session.get('username')
+        if username != 'admin@gmail.com':  # Only admin can trigger cleanup
+            return jsonify({'error': 'Unauthorized'}), 403
+        
+        if production_sessions:
+            cleaned_count = production_sessions.cleanup_expired_sessions()
+            return jsonify({
+                'success': True,
+                'cleaned_sessions': cleaned_count,
+                'message': f'Cleaned up {cleaned_count} expired sessions'
+            })
+        else:
+            return jsonify({
+                'success': True,
+                'cleaned_sessions': 0,
+                'message': 'Basic session storage does not require cleanup'
+            })
+    except Exception as e:
+        return jsonify({
+            'error': f'Failed to cleanup sessions: {str(e)}'
+        }), 500
+
+
 if __name__ == '__main__':
+    # Initialize production logging system
+    logging_integration = initialize_production_logging()
+    
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='NinjaNerd Educational Platform')
     parser.add_argument('-d', '--deepseek', action='store_true', 
@@ -1287,6 +1447,81 @@ if __name__ == '__main__':
     
     init_credentials_db()
     init_collaboration_db()
+    
+    # Setup cleanup handlers
+    def cleanup_on_exit():
+        """Cleanup function for graceful shutdown"""
+        global logging_integration
+        print("Starting graceful shutdown...")
+        
+        # Shutdown logging system
+        try:
+            if logging_integration:
+                print("Shutting down logging system...")
+                logging_integration.shutdown()
+                print("Logging system shutdown completed")
+        except Exception as e:
+            print(f"Error during logging cleanup: {e}")
+        
+        # Shutdown DBManager
+        try:
+            from dbmgr.app_integration import get_app_db
+            db = get_app_db()
+            if db:
+                print("Shutting down DBManager...")
+                db.shutdown()
+                print("DBManager shutdown completed")
+        except Exception as e:
+            print(f"Error during DBManager cleanup: {e}")
+        
+        # Additional cleanup - check for any remaining threads
+        try:
+            import threading
+            active_threads = threading.active_count()
+            print(f"Active threads after cleanup: {active_threads}")
+            
+            # List all active threads for debugging
+            for thread in threading.enumerate():
+                if thread != threading.current_thread():
+                    print(f"  - Thread: {thread.name} (daemon: {thread.daemon})")
+                    if hasattr(thread, '_stop'):
+                        try:
+                            thread._stop()
+                        except:
+                            pass
+        except Exception as e:
+            print(f"Error during thread cleanup: {e}")
+            
+        print("Graceful shutdown completed")
+    
+    import signal
+    import atexit
+    import sys
+    
+    def signal_handler(signum, frame):
+        """Handle signals for graceful shutdown"""
+        print(f"\nReceived signal {signum}, shutting down gracefully...")
+        try:
+            cleanup_on_exit()
+        except Exception as e:
+            print(f"Error during cleanup: {e}")
+        
+        print("Forcing immediate exit...")
+        import os
+        os._exit(0)  # Use os._exit for immediate termination
+    
+    # Register cleanup function and signal handlers
+    atexit.register(cleanup_on_exit)
+    
+    # Set signal handlers only if we're in the main thread
+    try:
+        signal.signal(signal.SIGINT, signal_handler)
+        signal.signal(signal.SIGTERM, signal_handler)
+        print("Signal handlers registered successfully")
+    except ValueError as e:
+        # This can happen if we're not in the main thread
+        print(f"Could not register signal handlers: {e}")
+        print("Signal handling may not work properly")
 
     # SSL Configuration
     context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
@@ -1302,7 +1537,9 @@ if __name__ == '__main__':
             host='0.0.0.0',
             port=8443,  # Using 8443 to avoid needing sudo
             debug=False,  # Set to False for HTTPS
-            ssl_context=context
+            ssl_context=context,
+            use_reloader=False,  # Disable reloader to prevent signal conflicts
+            threaded=True  # Enable threading for better performance
         )
     except FileNotFoundError as e:
         print("❌ SSL certificates not found!")
@@ -1311,8 +1548,8 @@ if __name__ == '__main__':
         print(f"   - {key_path}")
         print("🔧 Please ensure certificates are generated in ssl_certs folder.")
         print("\n🔄 Falling back to HTTP...")
-        app.run(debug=True, host='0.0.0.0', port=5001)
+        app.run(debug=True, host='0.0.0.0', port=5001, use_reloader=False, threaded=True)
     except Exception as e:
         print(f"❌ SSL Error: {e}")
         print("🔄 Falling back to HTTP...")
-        app.run(debug=True, host='0.0.0.0', port=5001)
+        app.run(debug=True, host='0.0.0.0', port=5001, use_reloader=False, threaded=True)
