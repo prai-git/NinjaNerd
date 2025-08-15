@@ -654,3 +654,190 @@ class LLMService:
                     self.LLM_RESPONSE_MAP[request_id] = self._generate_mock_questions(prompt)
                 else:
                     time.sleep(1)  # Wait before retrying
+    
+    def generate_learning_content(self, topic, subtopic_name, subtopic_description, grade, session_id=None, username=None):
+        """
+        Generate educational learning content with explanations and examples.
+        
+        Args:
+            topic: The main topic (math, english, science, etc.)
+            subtopic_name: Name of the specific subtopic
+            subtopic_description: Description of the subtopic
+            grade: Grade level for age-appropriate content
+            session_id: Current session ID for tracking
+            username: Username for logging and session management
+            
+        Returns:
+            dict: Learning content response with questions, explanations, and examples
+        """
+        # Static prompt for learning content generation
+        learning_prompt = f"""Generate 5 educational questions for {topic} at grade {grade} level focusing on {subtopic_name}: {subtopic_description}.
+
+**Do Not Invent Anything. And Do Not Provide Rude or Abusive Questions or Explanation For Any Topic. Do Not Repeat Same Type Of Questions.**
+
+For each question, provide:
+1. A clear, grade-appropriate question that covers difficult concepts within this subtopic
+2. A detailed explanation that breaks down the concept step-by-step
+3. At least one concrete example that illustrates the concept
+4. Additional context that helps students understand why this concept is important
+
+Ensure questions are educational, age-appropriate, and directly related to the specified grade level and subtopic. Focus on helping students understand challenging aspects of this topic through clear explanations and practical examples.
+
+Format the response as JSON with the following structure:
+{{
+  "questions": [
+    {{
+      "question": "Question text",
+      "explanation": "Detailed explanation with examples",
+      "examples": ["Example 1", "Example 2"],
+      "context": "Why this concept matters"
+    }}
+  ]
+}}"""
+
+        # Check if API is available based on model type
+        api_available = False
+        if self.model_type == 'deepseek':
+            api_available = bool(self.LLM_ENDPOINT and self.LLM_API_KEY)
+        elif self.model_type == 'openai':
+            api_available = bool(self.openai_client and self.OPENAI_API_KEY)
+        
+        if not api_available:
+            # Generate mock learning content for development
+            return self._generate_mock_learning_content(topic, subtopic_name, grade)
+        
+        # Generate a unique request ID
+        request_id = str(uuid.uuid4())
+        
+        try:
+            # Put request in queue with session context
+            self.LLM_REQUEST_QUEUE.put((request_id, learning_prompt, [], session_id, username))
+            
+            # Register this request with the session if session exists
+            if session_id:
+                if session_id not in self.LLM_SESSION_REQUESTS:
+                    self.LLM_SESSION_REQUESTS[session_id] = []
+                self.LLM_SESSION_REQUESTS[session_id].append(request_id)
+            
+            # Wait for response with timeout
+            start_time = time.time()
+            while time.time() - start_time < self.LLM_REQUEST_TIMEOUT:
+                if request_id in self.LLM_RESPONSE_MAP:
+                    response = self.LLM_RESPONSE_MAP[request_id]
+                    # Clean up
+                    del self.LLM_RESPONSE_MAP[request_id]
+                    # Remove from session tracking if session exists
+                    if session_id and session_id in self.LLM_SESSION_REQUESTS:
+                        if request_id in self.LLM_SESSION_REQUESTS[session_id]:
+                            self.LLM_SESSION_REQUESTS[session_id].remove(request_id)
+                    return response
+                time.sleep(0.1)  # Short sleep to prevent CPU hogging
+            
+            # Timeout occurred
+            self.logger.warning(f"Learning content generation timed out after {self.LLM_REQUEST_TIMEOUT}s")
+            # Clean up session tracking if session exists
+            if session_id and session_id in self.LLM_SESSION_REQUESTS:
+                if request_id in self.LLM_SESSION_REQUESTS[session_id]:
+                    self.LLM_SESSION_REQUESTS[session_id].remove(request_id)
+            return self._generate_mock_learning_content(topic, subtopic_name, grade)
+            
+        except Exception as e:
+            self.logger.error(f"Learning content generation error: {str(e)}")
+            return self._generate_mock_learning_content(topic, subtopic_name, grade)
+    
+    def _generate_mock_learning_content(self, topic, subtopic_name, grade):
+        """
+        Generate mock learning content when LLM API is unavailable.
+        
+        Args:
+            topic: The main topic
+            subtopic_name: Name of the specific subtopic
+            grade: Grade level
+            
+        Returns:
+            dict: Mock learning content in expected format
+        """
+        # Log critical message when using mock learning content
+        logging.critical("LLM API unavailable - Using mock learning content as fallback. This indicates LLM service failure.")
+        
+        mock_content_by_topic = {
+            "math": [
+                {
+                    "question": f"What are the key concepts in {subtopic_name} for grade {grade} students?",
+                    "explanation": f"In {subtopic_name}, students learn fundamental mathematical concepts that build upon previous knowledge. This includes understanding number relationships, problem-solving strategies, and practical applications. The key is to break down complex problems into smaller, manageable steps and use visual aids or manipulatives when possible.",
+                    "examples": [
+                        "Example 1: When solving word problems, identify what you know and what you need to find first.",
+                        "Example 2: Use drawings or objects to represent mathematical concepts visually."
+                    ],
+                    "context": f"Understanding {subtopic_name} is important because it provides the foundation for more advanced mathematical concepts and helps develop logical thinking skills that are useful in everyday life."
+                },
+                {
+                    "question": f"How can students practice {subtopic_name} effectively?",
+                    "explanation": f"Effective practice of {subtopic_name} involves regular review, applying concepts to real-world situations, and gradually increasing difficulty. Students should start with concrete examples before moving to abstract concepts, and always check their work by using different methods or reversing operations.",
+                    "examples": [
+                        "Example 1: Practice with everyday objects before using numbers only.",
+                        "Example 2: Check addition problems by using subtraction."
+                    ],
+                    "context": "Regular practice helps build confidence and automaticity, making it easier to tackle more challenging problems in the future."
+                }
+            ],
+            "english": [
+                {
+                    "question": f"What are the essential elements of {subtopic_name} for grade {grade}?",
+                    "explanation": f"In {subtopic_name}, students develop language skills through reading, writing, speaking, and listening activities. This includes vocabulary development, understanding grammar rules, and learning to express ideas clearly and effectively. Students should focus on reading diverse texts and practicing writing in different formats.",
+                    "examples": [
+                        "Example 1: Read books from different genres to expand vocabulary and understanding.",
+                        "Example 2: Practice writing short stories, letters, and reports to develop different writing skills."
+                    ],
+                    "context": f"Mastering {subtopic_name} is crucial for academic success across all subjects and for effective communication in daily life."
+                },
+                {
+                    "question": f"How can students improve their {subtopic_name} skills?",
+                    "explanation": f"Improvement in {subtopic_name} comes through consistent practice, reading widely, and actively using new vocabulary in speaking and writing. Students should also learn to edit their own work and seek feedback from teachers and peers.",
+                    "examples": [
+                        "Example 1: Keep a vocabulary journal with new words and their meanings.",
+                        "Example 2: Read aloud to improve pronunciation and fluency."
+                    ],
+                    "context": "Strong language skills are essential for academic achievement and successful communication throughout life."
+                }
+            ],
+            "science": [
+                {
+                    "question": f"What scientific concepts are covered in {subtopic_name} for grade {grade}?",
+                    "explanation": f"In {subtopic_name}, students explore scientific phenomena through observation, experimentation, and inquiry. This includes understanding scientific methods, making predictions, collecting data, and drawing conclusions. Students learn to think like scientists by asking questions and seeking evidence-based answers.",
+                    "examples": [
+                        "Example 1: Conduct simple experiments to test hypotheses.",
+                        "Example 2: Use scientific tools like magnifying glasses and measuring instruments."
+                    ],
+                    "context": f"Learning {subtopic_name} helps students understand the natural world and develop critical thinking skills essential for scientific literacy."
+                },
+                {
+                    "question": f"How can students apply {subtopic_name} knowledge in real life?",
+                    "explanation": f"Students can apply {subtopic_name} concepts by making connections between classroom learning and everyday experiences. This includes observing patterns in nature, understanding how things work, and making informed decisions based on scientific evidence.",
+                    "examples": [
+                        "Example 1: Observe weather patterns and predict changes.",
+                        "Example 2: Understand how simple machines make work easier in daily life."
+                    ],
+                    "context": "Understanding science helps students make sense of the world around them and prepares them for future learning in STEM fields."
+                }
+            ]
+        }
+        
+        # Get appropriate content based on topic, or use general content
+        content_list = mock_content_by_topic.get(topic.lower(), mock_content_by_topic["math"])
+        
+        # Add more generic content to reach 5 items
+        while len(content_list) < 5:
+            content_list.append({
+                "question": f"What are some study strategies for {subtopic_name}?",
+                "explanation": f"Effective study strategies for {subtopic_name} include breaking down complex topics into smaller parts, using visual aids, practicing regularly, and connecting new learning to previous knowledge. Students should also ask questions when they don't understand something.",
+                "examples": [
+                    "Example 1: Create mind maps or diagrams to organize information.",
+                    "Example 2: Practice explaining concepts to someone else."
+                ],
+                "context": "Good study habits help students learn more effectively and retain information longer."
+            })
+        
+        return {
+            "questions": content_list[:5]  # Return exactly 5 items
+        }

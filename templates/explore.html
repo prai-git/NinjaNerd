@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}Explore {{ topic.title() }} - {{ subtopic_name }} - Grade {{ grade }} - NinjaNerd{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2><i class="fas fa-compass me-2"></i>Explore {{ topic.title() }} - {{ subtopic_name }} - Grade {{ grade }}</h2>
+            <a href="{{ url_for('subtopics', grade=grade, topic=topic) }}" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-1"></i>Back to {{ topic.title() }} Subtopics
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card text-center">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Choose Your Learning Path</h4>
+            </div>
+            <div class="card-body p-5">
+                <p class="lead mb-4">How would you like to explore {{ subtopic_name }}?</p>
+                
+                <div class="row g-4">
+                    <!-- Learn Badge -->
+                    <div class="col-md-6">
+                        <div class="card h-100 explore-option-card" onclick="startLearning()">
+                            <div class="card-body text-center p-4">
+                                <i class="fas fa-book-reader fa-4x text-info mb-3"></i>
+                                <h3 class="text-info">Learn</h3>
+                                <p class="card-text">
+                                    Explore concepts through detailed explanations, examples, and interactive content. 
+                                    Perfect for understanding difficult topics before practice.
+                                </p>
+                                <div class="mt-3">
+                                    <span class="badge bg-info">Explanations</span>
+                                    <span class="badge bg-info">Examples</span>
+                                    <span class="badge bg-info">Concepts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Practice Badge -->
+                    <div class="col-md-6">
+                        <div class="card h-100 explore-option-card" onclick="startPractice()">
+                            <div class="card-body text-center p-4">
+                                <i class="fas fa-dumbbell fa-4x text-success mb-3"></i>
+                                <h3 class="text-success">Practice</h3>
+                                <p class="card-text">
+                                    Test your knowledge with interactive questions and immediate feedback. 
+                                    Perfect for reinforcing what you've learned.
+                                </p>
+                                <div class="mt-3">
+                                    <span class="badge bg-success">Questions</span>
+                                    <span class="badge bg-success">Feedback</span>
+                                    <span class="badge bg-success">Testing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Loading overlay -->
+<div id="loading-overlay" class="d-none position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50" style="z-index: 9999;">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-center text-white">
+            <div class="spinner-border spinner-border-lg mb-3" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <h5 id="loading-text">Preparing your learning experience...</h5>
+            <p id="loading-subtext">This may take a moment while we prepare the content</p>
+        </div>
+    </div>
+</div>
+
+<style>
+.explore-option-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.explore-option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border-color: #007bff;
+}
+
+.explore-option-card:hover .card-body i {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+</style>
+
+<script>
+function startLearning() {
+    // Show loading overlay
+    document.getElementById('loading-overlay').classList.remove('d-none');
+    document.getElementById('loading-text').textContent = 'Preparing learning content...';
+    document.getElementById('loading-subtext').textContent = 'Generating explanations and examples for you';
+    
+    // Navigate to learn mode
+    window.location.href = `/learn/{{ grade }}/{{ topic }}/{{ subtopic }}`;
+}
+
+function startPractice() {
+    // Show loading overlay
+    document.getElementById('loading-overlay').classList.remove('d-none');
+    document.getElementById('loading-text').textContent = 'Preparing practice questions...';
+    document.getElementById('loading-subtext').textContent = 'Analyzing your progress to create personalized questions';
+    
+    // Navigate to exercise mode
+    window.location.href = `/exercise/{{ grade }}/{{ topic }}/{{ subtopic }}`;
+}
+</script>
+{% endblock %}

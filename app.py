@@ -803,6 +803,247 @@ def exercise_with_subtopic(grade, topic, subtopic):
     log_user_activity(session['username'], f"Started exercise for {topic}/{subtopic} grade {grade}")
     return render_template('exercise.html', grade=grade, topic=topic, subtopic=subtopic, subtopic_name=subtopic_details['name'])
 
+@app.route('/explore/<int:grade>/<topic>/<subtopic>')
+@require_login
+@apply_rate_limit("30 per minute")
+def explore_subtopic(grade, topic, subtopic):
+    """Explore page with Learn and Practice options for a specific subtopic."""
+    # Validate topic and subtopic
+    if topic not in SUBTOPICS:
+        flash(f'Invalid topic: {topic}')
+        return redirect(url_for('topics', grade=grade))
+    
+    # Get appropriate subtopics based on grade
+    if grade <= 5:
+        subtopic_list = SUBTOPICS[topic]['grades_5_and_below']
+    else:
+        subtopic_list = SUBTOPICS[topic]['grades_above_5']
+    
+    # Find the subtopic details
+    subtopic_details = None
+    for st in subtopic_list:
+        if st['id'] == subtopic:
+            subtopic_details = st
+            break
+    
+    if not subtopic_details:
+        flash(f'Invalid subtopic: {subtopic}')
+        return redirect(url_for('subtopics', grade=grade, topic=topic))
+    
+    # Update user's current activity
+    credentials = load_credentials()
+    current_user = session['username']
+    
+    # Update active sessions
+    if current_user in active_sessions:
+        active_sessions[current_user]['current_topic'] = topic
+        active_sessions[current_user]['current_subtopic'] = subtopic
+        active_sessions[current_user]['grade'] = grade
+    else:
+        active_sessions[current_user] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'current_topic': topic,
+            'current_subtopic': subtopic,
+            'grade': grade
+        }
+    
+    log_user_activity(session['username'], f"Exploring {topic}/{subtopic} grade {grade}")
+    return render_template('explore.html', grade=grade, topic=topic, subtopic=subtopic, subtopic_name=subtopic_details['name'])
+
+@app.route('/learn/<int:grade>/<topic>/<subtopic>')
+@require_login
+@apply_rate_limit("30 per minute")
+def learn_subtopic(grade, topic, subtopic):
+    """Learn mode - fetch educational content from LLM and render learn page."""
+    # Validate topic and subtopic
+    if topic not in SUBTOPICS:
+        flash(f'Invalid topic: {topic}')
+        return redirect(url_for('topics', grade=grade))
+    
+    # Get appropriate subtopics based on grade
+    if grade <= 5:
+        subtopic_list = SUBTOPICS[topic]['grades_5_and_below']
+    else:
+        subtopic_list = SUBTOPICS[topic]['grades_above_5']
+    
+    # Find the subtopic details
+    subtopic_details = None
+    for st in subtopic_list:
+        if st['id'] == subtopic:
+            subtopic_details = st
+            break
+    
+    if not subtopic_details:
+        flash(f'Invalid subtopic: {subtopic}')
+        return redirect(url_for('subtopics', grade=grade, topic=topic))
+    
+    # Update user's current activity
+    credentials = load_credentials()
+    current_user = session['username']
+    
+    # Update active sessions
+    if current_user in active_sessions:
+        active_sessions[current_user]['current_topic'] = topic
+        active_sessions[current_user]['current_subtopic'] = subtopic
+        active_sessions[current_user]['grade'] = grade
+        active_sessions[current_user]['mode'] = 'learn'
+    else:
+        active_sessions[current_user] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'current_topic': topic,
+            'current_subtopic': subtopic,
+            'grade': grade,
+            'mode': 'learn'
+        }
+    
+    # Initialize learning content in session
+    session['learning_content'] = []
+    session['current_content_index'] = 0
+    session['current_topic'] = topic
+    session['current_subtopic'] = subtopic
+    session['current_grade'] = grade
+    session['learning_mode'] = True
+    
+    log_user_activity(session['username'], f"Started learning mode for {topic}/{subtopic} grade {grade}")
+    return render_template('learn.html', grade=grade, topic=topic, subtopic=subtopic, subtopic_name=subtopic_details['name'])
+
+@app.route('/get_learn_content')
+@require_login
+@apply_auth_rate_limit("60 per minute")
+def get_learn_content():
+    """API endpoint to fetch current learning content."""
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    # Check if we already have learning content in session
+    if 'learning_content' in session and session['learning_content']:
+        content = session['learning_content']
+        index = session.get('current_content_index', 0)
+        
+        if index >= len(content):
+            return jsonify({'finished': True})
+        
+        return jsonify({
+            'content': content,
+            'index': index,
+            'total': len(content)
+        })
+    
+    # Generate new learning content
+    topic = session.get('current_topic')
+    subtopic = session.get('current_subtopic')
+    grade = session.get('current_grade')
+    
+    if not all([topic, subtopic, grade]):
+        return jsonify({'error': 'Missing session data'})
+    
+    # Get subtopic details
+    if grade <= 5:
+        subtopic_list = SUBTOPICS[topic]['grades_5_and_below']
+    else:
+        subtopic_list = SUBTOPICS[topic]['grades_above_5']
+    
+    subtopic_details = None
+    for st in subtopic_list:
+        if st['id'] == subtopic:
+            subtopic_details = st
+            break
+    
+    if not subtopic_details:
+        return jsonify({'error': 'Invalid subtopic'})
+    
+    # Generate learning content using LLM service
+    try:
+        llm_response = llm_service.generate_learning_content(
+            topic=topic,
+            subtopic_name=subtopic_details['name'],
+            subtopic_description=subtopic_details['description'],
+            grade=grade,
+            session_id=session.get('session_id'),
+            username=session.get('username')
+        )
+        
+        if 'error' in llm_response:
+            return jsonify({'error': f'Error generating learning content: {llm_response["error"]}'})
+        
+        # Store learning content in session
+        learning_content = llm_response.get('questions', [])
+        session['learning_content'] = learning_content
+        session['current_content_index'] = 0
+        
+        return jsonify({
+            'content': learning_content,
+            'index': 0,
+            'total': len(learning_content)
+        })
+        
+    except Exception as e:
+        app.logger.error(f"Error generating learning content: {str(e)}")
+        return jsonify({'error': 'Failed to generate learning content'})
+
+@app.route('/fetch_more_learn_content', methods=['POST'])
+@require_login
+@apply_auth_rate_limit("10 per minute")
+def fetch_more_learn_content():
+    """API endpoint to fetch additional learning content."""
+    if 'username' not in session:
+        return jsonify({'error': 'No active session'})
+    
+    topic = session.get('current_topic')
+    subtopic = session.get('current_subtopic')
+    grade = session.get('current_grade')
+    
+    if not all([topic, subtopic, grade]):
+        return jsonify({'error': 'Missing session data'})
+    
+    # Get subtopic details
+    if grade <= 5:
+        subtopic_list = SUBTOPICS[topic]['grades_5_and_below']
+    else:
+        subtopic_list = SUBTOPICS[topic]['grades_above_5']
+    
+    subtopic_details = None
+    for st in subtopic_list:
+        if st['id'] == subtopic:
+            subtopic_details = st
+            break
+    
+    if not subtopic_details:
+        return jsonify({'error': 'Invalid subtopic'})
+    
+    # Generate additional learning content using LLM service
+    try:
+        llm_response = llm_service.generate_learning_content(
+            topic=topic,
+            subtopic_name=subtopic_details['name'],
+            subtopic_description=subtopic_details['description'],
+            grade=grade,
+            session_id=session.get('session_id'),
+            username=session.get('username')
+        )
+        
+        if 'error' in llm_response:
+            return jsonify({'error': f'Error generating additional content: {llm_response["error"]}'})
+        
+        # Get new learning content
+        new_content = llm_response.get('questions', [])
+        
+        if not new_content:
+            return jsonify({'error': 'No additional content available'})
+        
+        return jsonify({
+            'content': new_content,
+            'message': f'Generated {len(new_content)} additional learning items'
+        })
+        
+    except Exception as e:
+        app.logger.error(f"Error generating additional learning content: {str(e)}")
+        return jsonify({'error': 'Failed to generate additional content'})
+
 @app.route('/get_current_question')
 @apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
 def get_current_question():
