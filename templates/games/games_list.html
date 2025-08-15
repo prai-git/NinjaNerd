@@ -19,7 +19,13 @@
     <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="card h-100 topic-card" onclick="location.href='/games/play/{{ game.slug }}?grade={{ grade }}'">
             <div class="card-body text-center">
-                <i class="fas fa-fighter-jet fa-4x text-primary mb-3"></i>
+                {% if game.slug == 'tejas-thrust' %}
+                    <i class="fas fa-fighter-jet fa-4x text-primary mb-3"></i>
+                {% elif game.slug == 'tank-attack' %}
+                    <i class="fas fa-crosshairs fa-4x text-danger mb-3"></i>
+                {% else %}
+                    <i class="fas fa-gamepad fa-4x text-primary mb-3"></i>
+                {% endif %}
                 <h5 class="card-title">{{ game.name }}</h5>
                 <p class="card-text">{{ game.description }}</p>
             </div>

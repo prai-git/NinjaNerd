@@ -22,7 +22,8 @@ An interactive educational platf### 🔧 Technical Features
 - **Stories**: Reading comprehension exercises
 
 ### 🎮 Interactive Games
-- **Tejas Thrust**: An engaging browser-based game that combines entertainment with learning
+- **Tejas Thrust**: An engaging browser-based fighter plane game where you pilot a blue plane and battle enemy aircraft
+- **Tank Attack**: Control a blue tank and defend against enemy red tanks! Collect power boosts to unleash devastating fireballs
 - Game library with detailed game descriptions and previews
 - Interactive gaming experiences to make learning fun and engaging
 
@@ -140,11 +141,29 @@ NinjaNerd/
 │   ├── create_account.html # Registration page
 │   ├── about.html        # About/dashboard page
 │   ├── topics.html       # Topic selection
-│   └── exercise.html     # Exercise interface
+│   ├── exercise.html     # Exercise interface
+│   └── games/            # Game templates
+│       ├── games_list.html # Games listing page
+│       └── game_detail.html # Individual game page
 ├── static/               # Static assets
 │   ├── css/style.css     # Stylesheets
 │   ├── js/script.js      # JavaScript
-│   └── images/logo.png   # Application logo
+│   ├── images/logo.png   # Application logo
+│   └── games/            # Game assets
+│       ├── tejas_thrust/ # Tejas Thrust game files
+│       │   ├── css/      # Game-specific stylesheets
+│       │   └── js/       # Game JavaScript files
+│       └── tank_attack/  # Tank Attack game files
+│           ├── css/
+│           │   └── style.css     # Tank Attack styles
+│           ├── js/
+│           │   ├── config.js     # Game configuration
+│           │   ├── bluedot.js    # Player tank class
+│           │   ├── tank.js       # Enemy tank class
+│           │   ├── powerboost.js # Power boost collectibles
+│           │   └── game.js       # Main game engine
+│           └── assets/
+│               └── KKing_Remix.wav # Background music
 ├── test/                 # Unit tests
 │   ├── test_dbmanager.py # DBManager tests
 │   ├── test_dbmanager_components.py # Component tests

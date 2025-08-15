@@ -9,7 +9,14 @@
             <div class="card">
                 <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
                     <div>
-                        <h4><i class="fas fa-fighter-jet me-2"></i>{{ game.name }}</h4>
+                        <h4>
+                            {% if game.slug == 'tejas-thrust' %}
+                                <i class="fas fa-fighter-jet me-2"></i>
+                            {% elif game.slug == 'tank-attack' %}
+                                <i class="fas fa-crosshairs me-2"></i>
+                            {% endif %}
+                            {{ game.name }}
+                        </h4>
                     </div>
                     <div>
                         <button id="pauseBtn" class="btn btn-warning btn-sm ms-2">
@@ -22,21 +29,32 @@
                     </div>
                 </div>
                 <div class="card-body p-0">
-                    <div class="game-container">
+                    <div class="game-container {% if game.slug == 'tank-attack' %}tank-attack-container{% endif %}">
                         <canvas id="gameCanvas" width="1200" height="800"></canvas>
-                        <div id="gameControls" class="game-controls">
+                        <div id="gameControls" class="game-controls {% if game.slug == 'tank-attack' %}tank-attack-controls{% endif %}">
+                            <h3>{{ game.name }}</h3>
                             <div class="controls-info">
                                 <h6>Controls:</h6>
-                                <p><i class="fas fa-arrows-alt"></i> Arrow Keys: Move</p>
-                                <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot</p>
-                                <p><i class="fas fa-pause"></i> P: Pause</p>
+                                {% if game.slug == 'tejas-thrust' %}
+                                    <p><i class="fas fa-arrows-alt"></i> Arrow Keys: Move</p>
+                                    <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot</p>
+                                    <p><i class="fas fa-pause"></i> P: Pause</p>
+                                {% elif game.slug == 'tank-attack' %}
+                                    <p><i class="fas fa-arrow-up"></i> Up Arrow: Move Up</p>
+                                    <p><i class="fas fa-arrow-down"></i> Down Arrow: Move Down</p>
+                                    <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot Laser</p>
+                                    <p><i class="fas fa-fire"></i> F Key: Shoot Fireball (when available)</p>
+                                    <p><i class="fas fa-pause"></i> P: Pause</p>
+                                {% endif %}
                             </div>
-                            <button id="startBtn" class="btn btn-success btn-lg">
-                                <i class="fas fa-play"></i> Start Game
-                            </button>
-                            <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
-                                <i class="fas fa-redo"></i> Restart
-                            </button>
+                            <div class="tank-attack-game-buttons">
+                                <button id="startBtn" class="btn btn-success btn-lg">
+                                    <i class="fas fa-play"></i> Start Game
+                                </button>
+                                <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
+                                    <i class="fas fa-redo"></i> Restart
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,7 +75,14 @@
 
 #gameCanvas {
     border: 2px solid #333;
+}
+
+.game-container #gameCanvas {
     background: #87CEEB;
+}
+
+.tank-attack-container #gameCanvas {
+    background: #ffffff;
 }
 
 .game-controls {
@@ -80,13 +105,70 @@
     margin: 5px 0;
     font-size: 14px;
 }
+
+/* Tank Attack specific styles */
+.tank-attack-container {
+    background: #f0f0f0;
+}
+
+.tank-attack-controls {
+    max-width: 400px;
+    padding: 30px;
+}
+
+.tank-attack-controls h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tank-attack-controls .controls-info {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.tank-attack-controls .controls-info h6 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.tank-attack-controls .controls-info p {
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.tank-attack-controls .controls-info i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.tank-attack-game-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tank-attack-game-buttons .btn {
+    min-width: 120px;
+}
 </style>
 
+<!-- Load game-specific JavaScript files -->
+{% if game.slug == 'tejas-thrust' %}
 <script src="/static/games/tejas_thrust/js/config.js"></script>
 <script src="/static/games/tejas_thrust/js/laser.js"></script>
 <script src="/static/games/tejas_thrust/js/cloud.js"></script>
 <script src="/static/games/tejas_thrust/js/plane.js"></script>
 <script src="/static/games/tejas_thrust/js/game.js"></script>
+{% elif game.slug == 'tank-attack' %}
+<script src="/static/games/tank_attack/js/config.js"></script>
+<script src="/static/games/tank_attack/js/powerboost.js"></script>
+<script src="/static/games/tank_attack/js/tank.js"></script>
+<script src="/static/games/tank_attack/js/bluedot.js"></script>
+<script src="/static/games/tank_attack/js/game.js"></script>
+{% endif %}
 
 <script>
 let game = null;
@@ -104,7 +186,11 @@ document.getElementById('restartBtn').addEventListener('click', function() {
 
 document.getElementById('pauseBtn').addEventListener('click', function() {
     if (game) {
+        {% if game.slug == 'tejas-thrust' %}
         game.togglePause();
+        {% elif game.slug == 'tank-attack' %}
+        game.pause();
+        {% endif %}
         updatePauseButton();
     }
 });
@@ -124,10 +210,17 @@ function startGame() {
     document.getElementById('gameControls').style.display = 'none';
     document.getElementById('restartBtn').style.display = 'inline-block';
     
+    {% if game.slug == 'tejas-thrust' %}
     game = new TejasThrust('gameCanvas');
+    {% elif game.slug == 'tank-attack' %}
+    game = new TankAttack('gameCanvas');
+    {% endif %}
+    
     game.start();
 }
 
+// Handle game over events
+{% if game.slug == 'tejas-thrust' %}
 document.addEventListener('gameOver', function() {
     document.getElementById('gameControls').style.display = 'block';
     document.getElementById('startBtn').style.display = 'none';
@@ -137,5 +230,15 @@ document.addEventListener('gameOver', function() {
 document.addEventListener('gamePauseToggle', function(e) {
     updatePauseButton();
 });
+{% elif game.slug == 'tank-attack' %}
+// Tank Attack game over handling
+setInterval(function() {
+    if (game && game.gameOver) {
+        document.getElementById('gameControls').style.display = 'block';
+        document.getElementById('startBtn').style.display = 'none';
+        document.getElementById('restartBtn').style.display = 'inline-block';
+    }
+}, 100);
+{% endif %}
 </script>
 {% endblock %}

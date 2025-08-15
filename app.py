@@ -1305,6 +1305,11 @@ def games_list(grade):
             'name': 'TejasThrust',
             'slug': 'tejas-thrust',
             'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
+        },
+        {
+            'name': 'Tank Attack',
+            'slug': 'tank-attack',
+            'description': 'Control a blue dot and defend against enemy tanks! Collect power boosts to unleash devastating fireballs!'
         }
     ]
     
@@ -1316,15 +1321,25 @@ def games_list(grade):
 @apply_auth_rate_limit("20 per minute")  # Limit game play requests
 def game_detail(game_slug):
     """Display a specific game"""
-    if game_slug != 'tejas-thrust':
+    # Define available games
+    available_games = {
+        'tejas-thrust': {
+            'name': 'TejasThrust',
+            'slug': 'tejas-thrust',
+            'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
+        },
+        'tank-attack': {
+            'name': 'Tank Attack',
+            'slug': 'tank-attack',
+            'description': 'Control a blue dot and defend against enemy tanks! Collect power boosts to unleash devastating fireballs!'
+        }
+    }
+    
+    if game_slug not in available_games:
         flash('Game not found')
         return redirect(url_for('games_list', grade=1))
     
-    game = {
-        'name': 'TejasThrust',
-        'slug': 'tejas-thrust',
-        'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
-    }
+    game = available_games[game_slug]
     
     log_user_activity(session['username'], f"Started playing {game_slug}")
     return render_template('games/game_detail.html', game=game, logo_path=LOGO_PATH)
