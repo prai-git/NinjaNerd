@@ -571,13 +571,13 @@ def create_account():
         username = request.form['username']
         password = request.form['password']
         school_name = request.form.get('school_name', '').strip()
-        
-        credentials = load_credentials()
-        
-        if username in credentials:
+        db = get_app_db()
+        user = db.get_user(username)
+        if user is not None:
             flash('Username already exists')
         else:
-            credentials[username] = {
+            from gw.emailgw import EmailHandler
+            user_data = {
                 "password": generate_password_hash(password),
                 "school_name": school_name if school_name else "Unknown School",
                 "history": [],
@@ -585,14 +585,19 @@ def create_account():
                     "questions_attempted": 0,
                     "topics_covered": [],
                     "last_login": None
-                }
+                },
+                "created_at": datetime.now().isoformat()
             }
-            save_credentials(credentials)
-            
+            db.db_manager.create_user(username, user_data)
             log_user_activity(username, "Account created successfully")
+            # Send welcome email
+            try:
+                email_handler = EmailHandler()
+                email_handler.send_account_creation(username, username)
+            except Exception as e:
+                app.logger.warning(f"Failed to send account creation email: {e}")
             flash('Account created successfully')
             return redirect(url_for('login'))
-    
     return render_template('create_account.html')
 
 @app.route('/about')
@@ -1543,7 +1548,7 @@ def games_list(grade):
     # Simple list of available games (no database needed)
     games = [
         {
-            'name': 'TejasThrust',
+            'name': 'AMCA Thrust',
             'slug': 'tejas-thrust',
             'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
         },
@@ -1565,7 +1570,7 @@ def game_detail(game_slug):
     # Define available games
     available_games = {
         'tejas-thrust': {
-            'name': 'TejasThrust',
+            'name': 'AMCA Thrust',
             'slug': 'tejas-thrust',
             'description': 'A kid-friendly fighter plane game where you pilot a blue plane and battle enemy aircraft!'
         },

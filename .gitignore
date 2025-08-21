@@ -1,6 +1,8 @@
 # Log files
 *.log
 backups/
+__pycache__/
+.DS_Store
 
 # Environment files
 .env

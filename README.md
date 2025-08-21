@@ -22,7 +22,7 @@ An interactive educational platf### 🔧 Technical Features
 - **Stories**: Reading comprehension exercises
 
 ### 🎮 Interactive Games
-- **Tejas Thrust**: An engaging browser-based fighter plane game where you pilot a blue plane and battle enemy aircraft
+- **AMCA Thrust**: An engaging browser-based fighter plane game where you pilot a blue plane and battle enemy aircraft
 - **Tank Attack**: Control a blue tank and defend against enemy red tanks! Collect power boosts to unleash devastating fireballs
 - Game library with detailed game descriptions and previews
 - Interactive gaming experiences to make learning fun and engaging
@@ -150,7 +150,7 @@ NinjaNerd/
 │   ├── js/script.js      # JavaScript
 │   ├── images/logo.png   # Application logo
 │   └── games/            # Game assets
-│       ├── tejas_thrust/ # Tejas Thrust game files
+│       ├── tejas_thrust/ # AMCA Thrust game files
 │       │   ├── css/      # Game-specific stylesheets
 │       │   └── js/       # Game JavaScript files
 │       └── tank_attack/  # Tank Attack game files
