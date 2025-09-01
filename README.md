@@ -1,14 +1,18 @@
 # NinjaNerd 🥷📚
 
-An interactive educational platf### 🔧 Technical Features
+An interactive educational platform 🔧 
+
+## Technical Features
+
 - Responsive web interface
 - RESTful API endpoints
+- **Asynchronous Email System**: High-performance email delivery with thread pool management for non-blocking operations
 - **Production Logging System**: 5-module logging architecture with structured logging, performance monitoring, and Flask integration
 - **Rate Limiting**: Intelligent request throttling with session-based and IP-based limits for API protection
 - **Persistence Storage**: Redis-backed session storage with filesystem fallback for high-performance user sessions
 - Enterprise-grade database management with DBManager
 - JSON-based data storage with integrity protection
-- Environment variable configurationigned to help students learn and practice various subjects through AI-powered questions and exercises.
+- Environment variable configuration designed to help students learn and practice various subjects through AI-powered questions and exercises.
 
 ## Features
 
@@ -33,7 +37,15 @@ An interactive educational platf### 🔧 Technical Features
 - Personalized learning experience
 - Fallback mock questions when API is unavailable
 
-### 👤 User Management
+### � Email System
+- **Asynchronous Email Delivery**: Non-blocking email operations with thread pool management
+- **Account Notifications**: Welcome emails for new user registrations
+- **Account Updates**: Email notifications for profile changes
+- **Contact System**: Contact form with email delivery to administrators
+- **Performance Optimized**: Email operations return immediately without blocking user interactions
+- **Backward Compatibility**: Maintains synchronous email methods for existing functionality
+
+### �👤 User Management
 - Secure user registration and authentication
 - Password hashing for security
 - Session management with Flask-Session
@@ -84,6 +96,8 @@ An interactive educational platf### 🔧 Technical Features
    PR_LLM_ENDPOINT=your_deepseek_api_endpoint
    PR_LLM_API_KEY=your_deepseek_api_key
    PR_NIBODH_LOGO=/static/images/logo.png
+   PR_GMAIL_ID=your_gmail_address
+   PR_GMAIL_SECRET=your_gmail_app_password
    ```
 
 4. **Run the application**
@@ -99,6 +113,9 @@ The application will be available at `http://localhost:5001`
 NinjaNerd/
 ├── app.py                 # Main Flask application
 ├── requirements.txt       # Python dependencies
+├── gw/                    # Gateway services
+│   ├── __init__.py        # Package initialization
+│   └── emailgw.py         # Email gateway with async support
 ├── ai/                    # AI/LLM service modules
 │   ├── __init__.py        # Package initialization
 │   └── llm_service.py     # LLM integration service
@@ -171,7 +188,12 @@ NinjaNerd/
 │   ├── test_session_management.py # Session tests
 │   ├── test_subtopics.py # Subtopic tests
 │   ├── test_ds_llm.py    # DeepSeek LLM tests
-│   └── test_oai_llm.py   # OpenAI LLM tests
+│   ├── test_oai_llm.py   # OpenAI LLM tests
+│   ├── test_emailgw.py   # Email gateway tests
+│   ├── test_contact_us.py # Contact form tests
+│   ├── test_account.py   # Account functionality tests
+│   ├── test_statistics.py # Statistics page tests
+│   └── test_async_performance.py # Async email performance tests
 ├── flask_session/        # Session storage
 └── logs/                 # Application logs
     ├── ninjnerd.log          # Main application log
@@ -183,7 +205,6 @@ NinjaNerd/
 ## Usage
 
 1. **Account Creation**: Register a new account or use the default admin account
-   - Default: `admin@gmail.com` / `adminatgmaildotcom`
 
 2. **Login**: Access the platform with your credentials
 
@@ -201,6 +222,11 @@ NinjaNerd/
 - `GET /create_account` - Registration page
 - `POST /create_account` - Create new account
 - `GET /about` - Dashboard/about page
+- `GET /account` - User account management page
+- `POST /account` - Update user account information
+- `GET /statistics` - User statistics and progress page
+- `GET /contact_us` - Contact form page
+- `POST /contact_us` - Submit contact form message
 - `GET /topics/<grade>` - Topic selection for grade
 - `GET /subtopics/<grade>/<topic>` - Subtopic selection for grade and topic
 - `GET /exercise/<grade>/<topic>` - Exercise interface
@@ -238,6 +264,15 @@ python3 test/test_session_management.py        # Session management tests
 python3 test/test_subtopics.py                 # Subtopic functionality tests
 python3 test/test_ds_llm.py                    # DeepSeek LLM API tests (6 tests)
 python3 test/test_oai_llm.py                   # OpenAI LLM API tests (7 tests)
+
+# Email system tests (require environment variables)
+export PR_GMAIL_ID="your_email@gmail.com"
+export PR_GMAIL_SECRET="your_app_password"
+python3 test/test_emailgw.py                   # Email gateway tests (8 tests)
+python3 test/test_contact_us.py                # Contact form tests (6 tests)
+python3 test/test_account.py                   # Account page tests (4 tests)
+python3 test/test_statistics.py               # Statistics page tests (4 tests)
+python3 test/test_async_performance.py         # Async email performance tests (1 test)
 ```
 
 All tests are designed to be safe and do not modify production database files.
@@ -248,6 +283,8 @@ The application uses environment variables for configuration:
 - `PR_LLM_ENDPOINT`: DeepSeek API endpoint
 - `PR_LLM_API_KEY`: DeepSeek API key
 - `PR_NIBODH_LOGO`: Logo path
+- `PR_GMAIL_ID`: Gmail address for email notifications
+- `PR_GMAIL_SECRET`: Gmail app password for SMTP authentication
 
 ## Logging
 
@@ -266,6 +303,7 @@ The application uses environment variables for configuration:
 - **Rotating File Handlers**: 10MB files with 5 backup retention
 - **Critical Alerts**: Automatic critical-level logging when LLM API fails and mock questions are used
 - **Thread-Safe**: Concurrent logging from multiple application components
+- **Email Operations**: Async email performance tracking and error logging
 
 ### Log Analysis:
 ```bash
@@ -275,8 +313,11 @@ tail -50 logs/ninjnerd_errors.log
 # Monitor performance issues
 grep -E "[0-9]{4,}\.[0-9]+ms" logs/ninjnerd_performance.log
 
-# Check LLM failures
-grep -i "mock.*fallback\|critical" logs/ninjnerd_errors.log
+# Check LLM failures and email issues
+grep -i "mock.*fallback\|critical\|email.*failed" logs/ninjnerd_errors.log
+
+# Monitor email performance
+grep -i "email.*sent\|async.*email" logs/ninjnerd.log
 
 # Real-time monitoring
 tail -f logs/ninjnerd.log logs/ninjnerd_errors.log

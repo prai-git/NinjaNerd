@@ -8,6 +8,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 import requests
+import uuid
 from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 import uuid
@@ -93,6 +94,10 @@ except Exception as e:
 # Rate limiting configuration
 def get_rate_limit_key():
     """Get rate limit key based on user session or IP address"""
+    # For login route, always use IP address to avoid session confusion
+    if request.endpoint == 'login':
+        return get_remote_address()
+    # For other routes, use username if available
     if 'username' in session:
         return session['username']
     return get_remote_address()
@@ -141,6 +146,14 @@ def apply_auth_rate_limit(limit_string):
     def decorator(f):
         if limiter:
             return limiter.limit(limit_string, key_func=lambda: session.get('username', get_remote_address()))(f)
+        return f
+    return decorator
+
+def apply_login_rate_limit(limit_string):
+    """Apply rate limiting specifically for login endpoint"""
+    def decorator(f):
+        if limiter:
+            return limiter.limit(limit_string, key_func=lambda: get_remote_address())(f)
         return f
     return decorator
 
@@ -511,7 +524,7 @@ def favicon():
     return app.send_static_file('favicon.ico')
 
 @app.route('/login', methods=['GET', 'POST'])
-@apply_rate_limit("5 per 15 minutes")  # Prevent brute force attacks
+@apply_login_rate_limit("10 per 5 minutes")  # Isolated login rate limiting
 def login():
     if request.method == 'POST':
         username = request.form['username']
@@ -590,12 +603,13 @@ def create_account():
             }
             db.db_manager.create_user(username, user_data)
             log_user_activity(username, "Account created successfully")
-            # Send welcome email
+            # Send welcome email asynchronously
             try:
                 email_handler = EmailHandler()
-                email_handler.send_account_creation(username, username)
+                email_handler.send_account_creation_async(username, username)
+                app.logger.info(f"Account creation email queued for {username}")
             except Exception as e:
-                app.logger.warning(f"Failed to send account creation email: {e}")
+                app.logger.warning(f"Failed to queue account creation email: {e}")
             flash('Account created successfully')
             return redirect(url_for('login'))
     return render_template('create_account.html')
@@ -605,6 +619,180 @@ def create_account():
 def about():
     log_user_activity(session['username'], "Visited about page")
     return render_template('about.html', logo_path=LOGO_PATH)
+
+@app.route('/account', methods=['GET', 'POST'])
+@require_login
+@apply_rate_limit("20 per minute")
+def account():
+    username = session['username']
+    
+    if request.method == 'POST':
+        try:
+            db = get_app_db()
+            user_data = db.get_user(username)
+            
+            if not user_data:
+                flash('User not found')
+                return redirect(url_for('account'))
+            
+            updated = False
+            new_password = request.form.get('password')
+            new_school_name = request.form.get('school_name')
+            
+            # Update password if provided and not the masked placeholder value
+            if new_password and new_password.strip() and new_password != '*****':
+                hashed_password = generate_password_hash(new_password)
+                db.update_user_password(username, hashed_password)
+                updated = True
+            
+            # Update school name if changed
+            if new_school_name and new_school_name != user_data.get('school_name'):
+                db.update_user_school(username, new_school_name)
+                updated = True
+            
+            if updated:
+                # Send email notification asynchronously
+                try:
+                    from gw.emailgw import EmailHandler
+                    email_handler = EmailHandler()
+                    subject = "Account Updated - NinjaNerd"
+                    body = f"Hello {username},\n\nYour account information has been successfully updated.\n\nBest Regards,\nNinjaNerd Team"
+                    email_handler.send_email_async(username, subject, body)
+                    app.logger.info(f"Account update email queued for {username}")
+                except Exception as e:
+                    app.logger.error(f"Failed to queue account update email: {e}")
+                
+                flash('Credentials successfully updated')
+                log_user_activity(username, "Updated account information")
+            
+            return redirect(url_for('account'))
+            
+        except Exception as e:
+            app.logger.error(f"Error updating account for {username}: {e}")
+            flash('Error updating account information')
+            return redirect(url_for('account'))
+    
+    # GET request
+    try:
+        db = get_app_db()
+        user_data = db.get_user(username)
+        
+        if not user_data:
+            flash('User not found')
+            return redirect(url_for('about'))
+        
+        log_user_activity(username, "Visited account page")
+        return render_template('account.html', 
+                             username=username,
+                             school_name=user_data.get('school_name', ''))
+                             
+    except Exception as e:
+        app.logger.error(f"Error loading account page for {username}: {e}")
+        flash('Error loading account information')
+        return redirect(url_for('about'))
+
+@app.route('/statistics')
+@require_login
+@apply_rate_limit("10 per minute")
+def statistics():
+    username = session['username']
+    
+    try:
+        db = get_app_db()
+        user_data = db.get_user(username)
+        
+        if not user_data:
+            flash('User not found')
+            return redirect(url_for('about'))
+        
+        # Get user's history
+        history = user_data.get('history', [])
+        
+        # Find the grade with most math questions
+        grade_math_counts = {}
+        for entry in history:
+            if entry.get('topic') == 'math':
+                grade = entry.get('grade')
+                if grade:
+                    grade_math_counts[grade] = grade_math_counts.get(grade, 0) + 1
+        
+        if not grade_math_counts:
+            # No math questions answered, use grade 1 as default
+            selected_grade = 1
+        else:
+            selected_grade = max(grade_math_counts, key=grade_math_counts.get)
+        
+        # Calculate statistics for the selected grade
+        topics = ['math', 'english', 'science', 'history', 'geography']
+        statistics = {}
+        
+        for topic in topics:
+            topic_questions = [entry for entry in history 
+                             if entry.get('topic') == topic and entry.get('grade') == selected_grade]
+            
+            if topic_questions:
+                correct_count = sum(1 for entry in topic_questions if entry.get('correct'))
+                total_count = len(topic_questions)
+                percentage = (correct_count / total_count) * 100
+                statistics[topic] = percentage
+            else:
+                statistics[topic] = 0
+        
+        log_user_activity(username, f"Viewed statistics for grade {selected_grade}")
+        return render_template('statistics.html', 
+                             statistics=statistics, 
+                             grade=selected_grade)
+                             
+    except Exception as e:
+        app.logger.error(f"Error loading statistics for {username}: {e}")
+        flash('Error loading statistics')
+        return redirect(url_for('about'))
+
+@app.route('/contact_us', methods=['GET', 'POST'])
+@require_login
+@apply_rate_limit("5 per minute")
+def contact_us():
+    username = session['username']
+    
+    if request.method == 'POST':
+        try:
+            subject = request.form.get('subject', '').strip()
+            content = request.form.get('content', '').strip()
+            
+            if not subject or not content:
+                flash('Please fill in all fields')
+                return redirect(url_for('contact_us'))
+            
+            if len(content) > 300:
+                flash('Message content must be 300 characters or less')
+                return redirect(url_for('contact_us'))
+            
+            # Send email to ninjanerdonpi@gmail.com asynchronously
+            try:
+                from gw.emailgw import EmailHandler
+                email_handler = EmailHandler()
+                email_subject = f"Contact Us - {subject}"
+                email_body = f"From: {username}\n\nSubject: {subject}\n\nMessage:\n{content}"
+                
+                email_handler.send_email_async("ninjanerdonpi@gmail.com", email_subject, email_body)
+                flash('Message sent successfully!')
+                log_user_activity(username, f"Sent contact message: {subject}")
+                app.logger.info(f"Contact us email queued from {username}")
+                    
+            except Exception as e:
+                app.logger.error(f"Failed to queue contact email from {username}: {e}")
+                flash('Failed to send message. Please try again.')
+            
+            return redirect(url_for('contact_us'))
+            
+        except Exception as e:
+            app.logger.error(f"Error processing contact form from {username}: {e}")
+            flash('Error processing your message')
+            return redirect(url_for('contact_us'))
+    
+    # GET request
+    log_user_activity(username, "Visited contact us page")
+    return render_template('contact_us.html')
 
 @app.route('/topics/<int:grade>')
 @require_login

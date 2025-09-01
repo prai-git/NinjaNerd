@@ -160,6 +160,48 @@ class AppDBWrapper:
             self.logger.error(f"Error adding history for user {username}: {e}")
             return False
     
+    def update_user_password(self, username: str, hashed_password: str) -> bool:
+        """
+        Update a user's password.
+        
+        Args:
+            username: Username
+            hashed_password: The hashed password
+            
+        Returns:
+            True if successful
+        """
+        try:
+            user_data = self.db_manager.get_user(username)
+            if user_data:
+                user_data['password'] = hashed_password
+                return self.db_manager.update_user(username, user_data)
+            return False
+        except Exception as e:
+            self.logger.error(f"Error updating password for user {username}: {e}")
+            return False
+    
+    def update_user_school(self, username: str, school_name: str) -> bool:
+        """
+        Update a user's school name.
+        
+        Args:
+            username: Username
+            school_name: The new school name
+            
+        Returns:
+            True if successful
+        """
+        try:
+            user_data = self.db_manager.get_user(username)
+            if user_data:
+                user_data['school_name'] = school_name
+                return self.db_manager.update_user(username, user_data)
+            return False
+        except Exception as e:
+            self.logger.error(f"Error updating school for user {username}: {e}")
+            return False
+    
     def create_session(self, username: str, operation_type: str = "web_session") -> str:
         """
         Create a database session for a user.

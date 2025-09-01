@@ -23,3 +23,8 @@ psutil>=5.9.0
 croniter>=1.4.0
 cryptography>=41.0.0
 email-validator
+
+# Email system dependencies (built-in with Python 3.6+)
+# smtplib - Built-in SMTP client
+# email.mime - Built-in MIME message construction
+# concurrent.futures - Built-in threading support for async operations

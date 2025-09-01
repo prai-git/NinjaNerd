@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+
+{% block title %}Account - NinjaNerd{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0">
+                        <i class="fas fa-user-cog"></i> Account Settings
+                    </h3>
+                    <a href="{{ url_for('about') }}" class="btn btn-light btn-sm">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </a>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                {{ messages[0] }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        {% endif %}
+                    {% endwith %}
+
+                    <form id="accountForm" method="POST">
+                        <!-- Username (Email) - Read Only -->
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username (Email)</label>
+                            <input type="email" class="form-control" id="username" name="username" value="{{ username }}" readonly>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="password" name="password" value="*****" readonly>
+                                <button type="button" class="btn btn-outline-secondary" id="editPasswordBtn">
+                                    <i class="fas fa-edit"></i> Edit
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- School Name -->
+                        <div class="mb-3">
+                            <label for="school_name" class="form-label">School Name</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="school_name" name="school_name" value="{{ school_name }}" readonly>
+                                <button type="button" class="btn btn-outline-secondary" id="editSchoolBtn">
+                                    <i class="fas fa-edit"></i> Edit
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Save Button -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success" id="saveBtn" disabled>
+                                <i class="fas fa-save"></i> Save Changes
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const passwordField = document.getElementById('password');
+    const schoolField = document.getElementById('school_name');
+    const editPasswordBtn = document.getElementById('editPasswordBtn');
+    const editSchoolBtn = document.getElementById('editSchoolBtn');
+    const saveBtn = document.getElementById('saveBtn');
+    
+    let passwordEdited = false;
+    let schoolEdited = false;
+
+    // Enable password editing
+    editPasswordBtn.addEventListener('click', function() {
+        if (passwordField.readOnly) {
+            passwordField.readOnly = false;
+            passwordField.type = 'password';
+            passwordField.value = '';
+            passwordField.placeholder = 'Enter new password';
+            passwordField.focus();
+            editPasswordBtn.innerHTML = '<i class="fas fa-times"></i> Cancel';
+        } else {
+            passwordField.readOnly = true;
+            passwordField.type = 'password';
+            passwordField.value = '*****';
+            passwordField.placeholder = '';
+            editPasswordBtn.innerHTML = '<i class="fas fa-edit"></i> Edit';
+            passwordEdited = false;
+            updateSaveButton();
+        }
+    });
+
+    // Enable school name editing
+    editSchoolBtn.addEventListener('click', function() {
+        if (schoolField.readOnly) {
+            schoolField.readOnly = false;
+            schoolField.focus();
+            editSchoolBtn.innerHTML = '<i class="fas fa-times"></i> Cancel';
+        } else {
+            schoolField.readOnly = true;
+            schoolField.value = '{{ school_name }}';
+            editSchoolBtn.innerHTML = '<i class="fas fa-edit"></i> Edit';
+            schoolEdited = false;
+            updateSaveButton();
+        }
+    });
+
+    // Monitor password changes
+    passwordField.addEventListener('input', function() {
+        passwordEdited = passwordField.value.length > 0 && !passwordField.readOnly;
+        updateSaveButton();
+    });
+
+    // Monitor school name changes
+    schoolField.addEventListener('input', function() {
+        schoolEdited = schoolField.value !== '{{ school_name }}' && !schoolField.readOnly;
+        updateSaveButton();
+    });
+
+    function updateSaveButton() {
+        saveBtn.disabled = !(passwordEdited || schoolEdited);
+    }
+});
+</script>
+{% endblock %}
