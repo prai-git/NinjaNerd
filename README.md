@@ -96,8 +96,6 @@ An interactive educational platform 🔧
    PR_LLM_ENDPOINT=your_deepseek_api_endpoint
    PR_LLM_API_KEY=your_deepseek_api_key
    PR_NIBODH_LOGO=/static/images/logo.png
-   PR_GMAIL_ID=your_gmail_address
-   PR_GMAIL_SECRET=your_gmail_app_password
    ```
 
 4. **Run the application**
@@ -266,8 +264,7 @@ python3 test/test_ds_llm.py                    # DeepSeek LLM API tests (6 tests
 python3 test/test_oai_llm.py                   # OpenAI LLM API tests (7 tests)
 
 # Email system tests (require environment variables)
-export PR_GMAIL_ID="your_email@gmail.com"
-export PR_GMAIL_SECRET="your_app_password"
+export <id> && export <key>
 python3 test/test_emailgw.py                   # Email gateway tests (8 tests)
 python3 test/test_contact_us.py                # Contact form tests (6 tests)
 python3 test/test_account.py                   # Account page tests (4 tests)
@@ -283,8 +280,6 @@ The application uses environment variables for configuration:
 - `PR_LLM_ENDPOINT`: DeepSeek API endpoint
 - `PR_LLM_API_KEY`: DeepSeek API key
 - `PR_NIBODH_LOGO`: Logo path
-- `PR_GMAIL_ID`: Gmail address for email notifications
-- `PR_GMAIL_SECRET`: Gmail app password for SMTP authentication
 
 ## Logging
 

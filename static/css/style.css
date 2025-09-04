@@ -207,3 +207,36 @@ textarea.form-control {
         color: #e2e8f0;
     }
 }
+
+/* AI Disclaimer Footer */
+.ai-disclaimer-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 5px 0;
+    z-index: 100;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.ai-disclaimer-footer small {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+/* Adjust body padding to accommodate fixed footer */
+body {
+    padding-bottom: 30px;
+}
+
+/* Dark mode for AI disclaimer */
+@media (prefers-color-scheme: dark) {
+    .ai-disclaimer-footer {
+        background-color: rgba(45, 55, 72, 0.9);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
