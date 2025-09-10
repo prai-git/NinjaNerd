@@ -17,6 +17,7 @@ import argparse
 from functools import wraps
 from ai.llm_service import LLMService
 from dbmgr.app_integration import initialize_app_db, get_app_db
+from data.message_security import obfuscate_message, deobfuscate_message, is_message_obfuscated
 from session_storage.session_expiry import (
     SESSION_TIMEOUT_MINUTES, 
     is_session_expired, 
@@ -1580,13 +1581,13 @@ def send_chat_message():
     if not chat_session:
         return jsonify({'error': 'No active chat session'})
     
-    # Add message
+    # Add message (obfuscate message content for security)
     collaboration_data['message_counter'] = collaboration_data.get('message_counter', 0) + 1
     message_data = {
         'id': collaboration_data['message_counter'],
         'from_user': from_user,
         'to_user': to_user,
-        'message': message,
+        'message': obfuscate_message(message),  # Obfuscate message for security
         'timestamp': datetime.now().isoformat(),
         'displayed': False
     }
@@ -1642,7 +1643,11 @@ def get_chat_messages():
             # Get messages for current user (don't mark as displayed here)
             for msg in session_data['messages']:
                 if msg['to_user'] == current_user and not msg['displayed']:
-                    messages.append(msg)
+                    # Create a copy of the message with deobfuscated content for display
+                    message_copy = msg.copy()
+                    # Deobfuscate message - handles both obfuscated and plain text gracefully
+                    message_copy['message'] = deobfuscate_message(msg['message'])
+                    messages.append(message_copy)
             
             break
     
