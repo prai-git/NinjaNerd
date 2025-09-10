@@ -17,6 +17,11 @@ import argparse
 from functools import wraps
 from ai.llm_service import LLMService
 from dbmgr.app_integration import initialize_app_db, get_app_db
+from session_storage.session_expiry import (
+    SESSION_TIMEOUT_MINUTES, 
+    is_session_expired, 
+    SessionCleanupScheduler
+)
 
 # Load environment variables from .env file
 load_dotenv()
@@ -87,7 +92,7 @@ except Exception as e:
     # Fallback to basic filesystem sessions
     app.config['SESSION_TYPE'] = 'filesystem'
     app.config['SESSION_PERMANENT'] = False
-    app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=30)
+    app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=SESSION_TIMEOUT_MINUTES)
     Session(app)
     production_sessions = None
 
@@ -418,16 +423,21 @@ def end_all_user_chats(username):
     save_collaboration_data(collaboration_data)
 
 def cleanup_old_sessions():
-    """Remove inactive sessions older than 30 minutes"""
-    cutoff_time = datetime.now() - timedelta(minutes=30)
+    """Remove inactive sessions using centralized expiry logic"""
     to_remove = []
     
     for username, session_data in active_sessions.items():
-        if datetime.fromisoformat(session_data['last_activity']) < cutoff_time:
+        if is_session_expired(session_data):
             to_remove.append(username)
     
+    cleaned_count = len(to_remove)
     for username in to_remove:
         del active_sessions[username]
+    
+    if cleaned_count > 0:
+        app.logger.info(f"Cleaned up {cleaned_count} expired sessions")
+    
+    return cleaned_count
 
 def update_user_activity(username):
     """Update user's last activity timestamp"""
@@ -437,6 +447,50 @@ def update_user_activity(username):
 def log_user_activity(username, activity):
     """Log user activity with timestamp"""
     app.logger.info(f"User: {username} | Activity: {activity}")
+
+def enforce_grade_change_rules(username: str, new_grade: int, topic: str = None) -> bool:
+    """
+    Centralized grade change handling to detect grade changes and end chats if necessary.
+    
+    Args:
+        username: Username
+        new_grade: New grade being set
+        topic: Optional topic being accessed
+        
+    Returns:
+        True if grade change was detected and handled, False if no change
+    """
+    old_grade = None
+    if username in active_sessions:
+        old_grade = active_sessions[username].get('grade')
+    
+    # Detect grade change
+    grade_changed = old_grade is not None and old_grade != new_grade
+    
+    if grade_changed:
+        # End all active chats when grade changes
+        end_all_user_chats(username)
+        app.logger.info(f"User {username} changed grade from {old_grade} to {new_grade}, ended all chats")
+    
+    # Update session state
+    credentials = load_credentials()
+    
+    if username in active_sessions:
+        active_sessions[username]['grade'] = new_grade
+        if topic:
+            active_sessions[username]['current_topic'] = topic
+        active_sessions[username]['last_activity'] = datetime.now().isoformat()
+    else:
+        # Create new session entry
+        active_sessions[username] = {
+            'session_id': session.get('session_id', str(uuid.uuid4())),
+            'last_activity': datetime.now().isoformat(),
+            'school_name': credentials[username].get('school_name', 'Unknown School'),
+            'current_topic': topic,
+            'grade': new_grade
+        }
+    
+    return grade_changed
 
 def load_prompt(topic):
     """Load prompt from topic file"""
@@ -457,7 +511,6 @@ def validate_session():
     
     username = session['username']
     session_id = session.get('session_id')
-    login_time = session.get('login_time')
     
     # Check if user exists in active sessions
     if username not in active_sessions:
@@ -467,24 +520,14 @@ def validate_session():
     if session_id != active_sessions[username].get('session_id'):
         return False, "Session ID mismatch"
     
-    # Check session timeout (30 minutes from login)
-    if login_time:
-        try:
-            login_datetime = datetime.fromisoformat(login_time)
-            if datetime.now() - login_datetime > timedelta(minutes=30):
-                return False, "Session has expired"
-        except (ValueError, TypeError):
-            return False, "Invalid login time format"
+    # Use centralized session expiry logic
+    session_data = {
+        'login_time': session.get('login_time'),
+        'last_activity': active_sessions[username].get('last_activity')
+    }
     
-    # Check last activity timeout
-    last_activity = active_sessions[username].get('last_activity')
-    if last_activity:
-        try:
-            last_activity_datetime = datetime.fromisoformat(last_activity)
-            if datetime.now() - last_activity_datetime > timedelta(minutes=30):
-                return False, "Session has expired due to inactivity"
-        except (ValueError, TypeError):
-            return False, "Invalid last activity time format"
+    if is_session_expired(session_data):
+        return False, "Session has expired"
     
     return True, "Session is valid"
 
@@ -533,15 +576,18 @@ def login():
         credentials = load_credentials()
         
         if username in credentials and check_password_hash(credentials[username]['password'], password):
-            # Enable permanent session with 30-minute timeout
+            # Enable permanent session with configurable timeout
             session.permanent = True
             session['username'] = username
             session['session_id'] = str(uuid.uuid4())
             session['login_time'] = datetime.now().isoformat()
             
-            # Update last login
-            credentials[username]['statistics']['last_login'] = datetime.now().isoformat()
-            save_credentials(credentials)
+            # Update last login using centralized approach
+            db = get_app_db()
+            login_stats_update = {
+                'last_login': datetime.now().isoformat()
+            }
+            db.update_user_statistics(username, login_stats_update)
             
             # Add to active sessions
             active_sessions[username] = {
@@ -797,31 +843,9 @@ def contact_us():
 @app.route('/topics/<int:grade>')
 @require_login
 def topics(grade):
-    # Update user's active session with current grade
-    credentials = load_credentials()
-    
-    # Check if user changed grade and end all chats if so
+    # Handle grade change rules centrally
     current_user = session['username']
-    old_grade = None
-    if current_user in active_sessions:
-        old_grade = active_sessions[current_user].get('grade')
-    
-    if old_grade is not None and old_grade != grade:
-        # User changed grade, end all active chats
-        end_all_user_chats(current_user)
-    
-    if current_user in active_sessions:
-        active_sessions[current_user]['grade'] = grade
-        active_sessions[current_user]['current_topic'] = None  # Clear current topic when viewing topics
-    else:
-        # Add to active sessions if not exists
-        active_sessions[current_user] = {
-            'session_id': session.get('session_id', str(uuid.uuid4())),
-            'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
-            'current_topic': None,
-            'grade': grade
-        }
+    enforce_grade_change_rules(current_user, grade)
     
     log_user_activity(session['username'], f"Visited topics for grade {grade}")
     return render_template('topics.html', grade=grade)
@@ -834,31 +858,9 @@ def subtopics(grade, topic):
         flash(f'Invalid topic: {topic}')
         return redirect(url_for('topics', grade=grade))
     
-    # Update user's active session with current grade
-    credentials = load_credentials()
-    
-    # Check if user changed grade and end all chats if so
+    # Handle grade change rules centrally
     current_user = session['username']
-    old_grade = None
-    if current_user in active_sessions:
-        old_grade = active_sessions[current_user].get('grade')
-    
-    if old_grade is not None and old_grade != grade:
-        # User changed grade, end all active chats
-        end_all_user_chats(current_user)
-    
-    if current_user in active_sessions:
-        active_sessions[current_user]['grade'] = grade
-        active_sessions[current_user]['current_topic'] = topic
-    else:
-        # Add to active sessions if not exists
-        active_sessions[current_user] = {
-            'session_id': session.get('session_id', str(uuid.uuid4())),
-            'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
-            'current_topic': topic,
-            'grade': grade
-        }
+    enforce_grade_change_rules(current_user, grade, topic)
     
     # Get appropriate subtopics based on grade
     if grade <= 5:
@@ -872,33 +874,12 @@ def subtopics(grade, topic):
 @app.route('/exercise/<int:grade>/<topic>')
 @require_login
 def exercise(grade, topic):
-    # Update user's current activity
-    credentials = load_credentials()
-    
-    # Check if user changed grade and end all chats if so
+    # Handle grade change rules centrally
     current_user = session['username']
-    old_grade = None
-    if current_user in active_sessions:
-        old_grade = active_sessions[current_user].get('grade')
-    
-    if old_grade is not None and old_grade != grade:
-        # User changed grade, end all active chats
-        end_all_user_chats(current_user)
-    
-    if current_user in active_sessions:
-        active_sessions[current_user]['current_topic'] = topic
-        active_sessions[current_user]['grade'] = grade
-    else:
-        # Add to active sessions
-        active_sessions[current_user] = {
-            'session_id': session.get('session_id', str(uuid.uuid4())),
-            'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
-            'current_topic': topic,
-            'grade': grade
-        }
+    enforce_grade_change_rules(current_user, grade, topic)
     
     # Load user history for difficulty adjustment
+    credentials = load_credentials()
     user_history = credentials[session['username']]['history']
     
     # Load prompt and call LLM service
@@ -943,35 +924,16 @@ def exercise_with_subtopic(grade, topic, subtopic):
         flash(f'Invalid subtopic: {subtopic}')
         return redirect(url_for('subtopics', grade=grade, topic=topic))
     
-    # Update user's current activity
-    credentials = load_credentials()
-    
-    # Check if user changed grade and end all chats if so
+    # Handle grade change rules centrally
     current_user = session['username']
-    old_grade = None
-    if current_user in active_sessions:
-        old_grade = active_sessions[current_user].get('grade')
+    enforce_grade_change_rules(current_user, grade, topic)
     
-    if old_grade is not None and old_grade != grade:
-        # User changed grade, end all active chats
-        end_all_user_chats(current_user)
-    
+    # Update current subtopic in session
     if current_user in active_sessions:
-        active_sessions[current_user]['current_topic'] = topic
         active_sessions[current_user]['current_subtopic'] = subtopic
-        active_sessions[current_user]['grade'] = grade
-    else:
-        # Add to active sessions
-        active_sessions[current_user] = {
-            'session_id': session.get('session_id', str(uuid.uuid4())),
-            'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
-            'current_topic': topic,
-            'current_subtopic': subtopic,
-            'grade': grade
-        }
     
     # Load user history for difficulty adjustment - filter by topic and subtopic
+    credentials = load_credentials()
     user_history = credentials[session['username']]['history']
     filtered_history = [h for h in user_history if h.get('topic') == topic and h.get('subtopic') == subtopic]
     
@@ -1277,10 +1239,8 @@ def submit_answer():
     # Use LLM service to check the answer
     is_correct = llm_service.check_answer_with_llm(question_text, user_answer, explanation, session.get('session_id'), session.get('username'))
     
-    # Save to user history
-    credentials = load_credentials()
+    # Prepare history entry
     username = session['username']
-    
     question_record = {
         'question': question_text,
         'user_answer': user_answer,
@@ -1291,13 +1251,22 @@ def submit_answer():
         'timestamp': datetime.now().isoformat()
     }
     
-    credentials[username]['history'].append(question_record)
-    credentials[username]['statistics']['questions_attempted'] += 1
+    # Prepare statistics updates
+    statistics_updates = {
+        'questions_attempted_increment': 1
+    }
     
-    if session.get('current_topic') not in credentials[username]['statistics']['topics_covered']:
-        credentials[username]['statistics']['topics_covered'].append(session.get('current_topic'))
+    # Add topic to covered topics if not already covered
+    current_topic = session.get('current_topic')
+    if current_topic:
+        statistics_updates['add_topic_covered'] = current_topic
     
-    save_credentials(credentials)
+    # Use DBManager to atomically update both history and statistics
+    db = get_app_db()
+    success = db.update_user_history_and_statistics(username, question_record, statistics_updates)
+    
+    if not success:
+        return jsonify({'error': 'Failed to save answer'})
     
     # Move to next question
     session['current_question_index'] = index + 1
@@ -1664,15 +1633,17 @@ def get_chat_messages():
     
     # Find active chat session
     messages = []
+    
     for session_id, session_data in collaboration_data['chat_sessions'].items():
         if (session_data['active'] and 
             ((session_data['user1'] == current_user and session_data['user2'] == partner) or
              (session_data['user1'] == partner and session_data['user2'] == current_user))):
             
-            # Get messages for current user
+            # Get messages for current user (don't mark as displayed here)
             for msg in session_data['messages']:
                 if msg['to_user'] == current_user and not msg['displayed']:
                     messages.append(msg)
+            
             break
     
     return jsonify({'messages': messages})
@@ -1897,11 +1868,24 @@ if __name__ == '__main__':
     init_credentials_db()
     init_collaboration_db()
     
+    # Initialize session cleanup scheduler
+    session_cleanup_scheduler = SessionCleanupScheduler(cleanup_interval_minutes=5)
+    session_cleanup_scheduler.register_cleanup_function(cleanup_old_sessions)
+    session_cleanup_scheduler.start()
+    
     # Setup cleanup handlers
     def cleanup_on_exit():
         """Cleanup function for graceful shutdown"""
         global logging_integration
         print("Starting graceful shutdown...")
+        
+        # Shutdown session cleanup scheduler
+        try:
+            print("Shutting down session cleanup scheduler...")
+            session_cleanup_scheduler.stop()
+            print("Session cleanup scheduler shutdown completed")
+        except Exception as e:
+            print(f"Error during session cleanup scheduler shutdown: {e}")
         
         # Shutdown logging system
         try:

@@ -10,7 +10,7 @@ import os
 import json
 import time
 from datetime import datetime, timedelta
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 
 # Add the project directory to the path
 sys.path.insert(0, '/Users/praveenrai/Personal/Krishang/NinjaNerd')
@@ -63,40 +63,64 @@ def test_require_login_decorator():
     
     setup_test_credentials()
     
-    # Mock the credentials file path
+    # Mock the database operations
+    mock_credentials = {
+        "testuser@test.com": {
+            "password": generate_password_hash("testpassword"),
+            "school_name": "Test School",
+            "history": [],
+            "statistics": {
+                "questions_attempted": 0,
+                "topics_covered": [],
+                "last_login": None
+            }
+        }
+    }
+    
+    # Mock the credentials file path and database operations
     with patch('app.CREDENTIALS_FILE', TEST_CREDENTIALS_FILE):
-        with app.test_client() as client:
-            # Test 1: Access protected route without login
-            response = client.get('/about')
-            assert response.status_code == 302, "Should redirect when not logged in"
-            assert '/login' in response.headers.get('Location', ''), "Should redirect to login page"
-            
-            # Test 2: Login and access protected route
-            response = client.post('/login', data={
-                'username': 'testuser@test.com',
-                'password': 'testpassword'
-            })
-            assert response.status_code == 302, "Should redirect after successful login"
-            
-            # Test 3: Access protected route after login
-            response = client.get('/about')
-            assert response.status_code == 200, "Should allow access after login"
-            
-            # Test 4: Access other protected routes (avoiding LLM-dependent routes)
-            protected_routes = [
-                '/topics/5',
-                '/subtopics/5/math',
-                '/games/5',
-                '/games/play/tejas-thrust'
-            ]
-            
-            for route in protected_routes:
-                response = client.get(route)
-                # These should either return 200 or redirect to valid pages (not login)
-                assert response.status_code in [200, 302], f"Route {route} should be accessible after login"
-                if response.status_code == 302:
-                    location = response.headers.get('Location', '')
-                    assert '/login' not in location, f"Route {route} should not redirect to login after authentication"
+        with patch('app.load_credentials', return_value=mock_credentials):
+            with patch('app.get_app_db') as mock_db:
+                # Mock the database wrapper
+                mock_db_instance = MagicMock()
+                mock_db.return_value = mock_db_instance
+                mock_db_instance.verify_user.return_value = True
+                mock_db_instance.update_user_login_time.return_value = True
+                
+                with app.test_client() as client:
+                    # Clear active sessions for clean test
+                    active_sessions.clear()
+                    
+                    # Test 1: Access protected route without login
+                    response = client.get('/about')
+                    assert response.status_code == 302, "Should redirect when not logged in"
+                    assert '/login' in response.headers.get('Location', ''), "Should redirect to login page"
+                    
+                    # Test 2: Login and access protected route
+                    response = client.post('/login', data={
+                        'username': 'testuser@test.com',
+                        'password': 'testpassword'
+                    })
+                    assert response.status_code == 302, "Should redirect after successful login"
+                    
+                    # Test 3: Access protected route after login
+                    response = client.get('/about')
+                    assert response.status_code == 200, "Should allow access after login"
+                    
+                    # Test 4: Access other protected routes (avoiding LLM-dependent routes)
+                    protected_routes = [
+                        '/topics/5',
+                        '/games/5',
+                        '/games/play/tejas-thrust'
+                    ]
+                    
+                    for route in protected_routes:
+                        response = client.get(route)
+                        # These should either return 200 or redirect to valid pages (not login)
+                        assert response.status_code in [200, 302], f"Route {route} should be accessible after login"
+                        if response.status_code == 302:
+                            location = response.headers.get('Location', '')
+                            assert '/login' not in location, f"Route {route} should not redirect to login after authentication"
     
     cleanup_test_files()
     print("✅ @require_login decorator test passed!")
@@ -117,20 +141,45 @@ def test_check_session_endpoint():
     
     setup_test_credentials()
     
+    # Mock the database operations  
+    mock_credentials = {
+        "testuser@test.com": {
+            "password": generate_password_hash("testpassword"),
+            "school_name": "Test School",
+            "history": [],
+            "statistics": {
+                "questions_attempted": 0,
+                "topics_covered": [],
+                "last_login": None
+            }
+        }
+    }
+    
     with patch('app.CREDENTIALS_FILE', TEST_CREDENTIALS_FILE):
-        with app.test_client() as client:
-            # Test 1: Check session without login
-            response = client.get('/check_session')
-            assert response.status_code == 200
-            data = json.loads(response.data)
-            assert not data['valid'], "Should return valid=False when not logged in"
-            assert 'message' in data, "Should include message in response"
-            
-            # Test 2: Login and check session
-            client.post('/login', data={
-                'username': 'testuser@test.com',
-                'password': 'testpassword'
-            })
+        with patch('app.load_credentials', return_value=mock_credentials):
+            with patch('app.get_app_db') as mock_db:
+                # Mock the database wrapper
+                mock_db_instance = MagicMock()
+                mock_db.return_value = mock_db_instance
+                mock_db_instance.verify_user.return_value = True
+                mock_db_instance.update_user_login_time.return_value = True
+                
+                with app.test_client() as client:
+                    # Clear active sessions for clean test
+                    active_sessions.clear()
+                    
+                    # Test 1: Check session without login
+                    response = client.get('/check_session')
+                    assert response.status_code == 200
+                    data = json.loads(response.data)
+                    assert not data['valid'], "Should return valid=False when not logged in"
+                    assert 'message' in data, "Should include message in response"
+                    
+                    # Test 2: Login and check session
+                    client.post('/login', data={
+                        'username': 'testuser@test.com',
+                        'password': 'testpassword'
+                    })
             
             response = client.get('/check_session')
             assert response.status_code == 200
@@ -147,13 +196,38 @@ def test_login_session_setup():
     
     setup_test_credentials()
     
+    # Mock the database operations
+    mock_credentials = {
+        "testuser@test.com": {
+            "password": generate_password_hash("testpassword"),
+            "school_name": "Test School",
+            "history": [],
+            "statistics": {
+                "questions_attempted": 0,
+                "topics_covered": [],
+                "last_login": None
+            }
+        }
+    }
+    
     with patch('app.CREDENTIALS_FILE', TEST_CREDENTIALS_FILE):
-        with app.test_client() as client:
-            # Test login
-            response = client.post('/login', data={
-                'username': 'testuser@test.com',
-                'password': 'testpassword'
-            })
+        with patch('app.load_credentials', return_value=mock_credentials):
+            with patch('app.get_app_db') as mock_db:
+                # Mock the database wrapper
+                mock_db_instance = MagicMock()
+                mock_db.return_value = mock_db_instance
+                mock_db_instance.verify_user.return_value = True
+                mock_db_instance.update_user_login_time.return_value = True
+                
+                with app.test_client() as client:
+                    # Clear active sessions for clean test
+                    active_sessions.clear()
+                    
+                    # Test login
+                    response = client.post('/login', data={
+                        'username': 'testuser@test.com',
+                        'password': 'testpassword'
+                    })
             assert response.status_code == 302, "Should redirect after login"
             
             # Check session data

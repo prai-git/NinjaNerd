@@ -160,6 +160,44 @@ class AppDBWrapper:
             self.logger.error(f"Error adding history for user {username}: {e}")
             return False
     
+    def update_user_history_and_statistics(self, username: str, history_entry: Dict[str, Any], 
+                                          statistics_updates: Dict[str, Any]) -> bool:
+        """
+        Add entry to user's history and update statistics atomically.
+        
+        Args:
+            username: Username
+            history_entry: History entry to add
+            statistics_updates: Dictionary of statistics updates to apply
+            
+        Returns:
+            True if both history and statistics were updated successfully
+        """
+        try:
+            return self.db_manager.update_user_history_and_statistics(
+                username, history_entry, statistics_updates
+            )
+        except Exception as e:
+            self.logger.error(f"Error updating history and statistics for user {username}: {e}")
+            return False
+    
+    def update_user_statistics(self, username: str, statistics_updates: Dict[str, Any]) -> bool:
+        """
+        Update user statistics only.
+        
+        Args:
+            username: Username
+            statistics_updates: Dictionary of statistics updates to apply
+            
+        Returns:
+            True if statistics were updated successfully
+        """
+        try:
+            return self.db_manager.update_user_statistics(username, statistics_updates)
+        except Exception as e:
+            self.logger.error(f"Error updating statistics for user {username}: {e}")
+            return False
+    
     def update_user_password(self, username: str, hashed_password: str) -> bool:
         """
         Update a user's password.

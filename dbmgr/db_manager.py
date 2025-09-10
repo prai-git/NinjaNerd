@@ -299,6 +299,121 @@ class DBManager:
             f"update_history:{username}"
         )
     
+    def update_user_history_and_statistics(self, username: str, history_entry: Dict[str, Any], 
+                                          statistics_updates: Dict[str, Any], session_id: Optional[str] = None) -> bool:
+        """
+        Add entry to user's history and update statistics atomically.
+        
+        Args:
+            username: Username
+            history_entry: History entry to add
+            statistics_updates: Dictionary of statistics updates to apply
+            session_id: Optional session ID for tracking
+            
+        Returns:
+            True if history and statistics were updated successfully
+        """
+        def operation():
+            credentials = self.file_ops.atomic_read_json(self.credentials_file)
+            
+            if username not in credentials:
+                raise DatabaseException(f"User {username} does not exist")
+            
+            # Initialize structures if they don't exist
+            if 'history' not in credentials[username]:
+                credentials[username]['history'] = []
+            if 'statistics' not in credentials[username]:
+                credentials[username]['statistics'] = {
+                    'questions_attempted': 0,
+                    'topics_covered': []
+                }
+            
+            # Add timestamp to history entry if not present
+            if 'timestamp' not in history_entry:
+                history_entry['timestamp'] = datetime.now().isoformat()
+            
+            # Update history
+            credentials[username]['history'].append(history_entry)
+            
+            # Limit history size (keep last 1000 entries)
+            if len(credentials[username]['history']) > 1000:
+                credentials[username]['history'] = credentials[username]['history'][-1000:]
+            
+            # Update statistics atomically
+            for stat_key, stat_value in statistics_updates.items():
+                if stat_key == 'questions_attempted_increment':
+                    if 'questions_attempted' not in credentials[username]['statistics']:
+                        credentials[username]['statistics']['questions_attempted'] = 0
+                    credentials[username]['statistics']['questions_attempted'] += stat_value
+                elif stat_key == 'add_topic_covered':
+                    if 'topics_covered' not in credentials[username]['statistics']:
+                        credentials[username]['statistics']['topics_covered'] = []
+                    if stat_value not in credentials[username]['statistics']['topics_covered']:
+                        credentials[username]['statistics']['topics_covered'].append(stat_value)
+                elif stat_key in credentials[username]['statistics']:
+                    # Direct assignment for other statistics
+                    credentials[username]['statistics'][stat_key] = stat_value
+                else:
+                    # For new statistics fields, just assign them
+                    credentials[username]['statistics'][stat_key] = stat_value
+            
+            self.file_ops.atomic_write_json(self.credentials_file, credentials)
+            return True
+        
+        return self._execute_write_operation(
+            operation,
+            Priority.NORMAL,
+            session_id,
+            f"update_history_stats:{username}"
+        )
+    
+    def update_user_statistics(self, username: str, statistics_updates: Dict[str, Any], session_id: Optional[str] = None) -> bool:
+        """
+        Update user statistics.
+        
+        Args:
+            username: Username
+            statistics_updates: Dictionary of statistics updates to apply
+            session_id: Optional session ID for tracking
+            
+        Returns:
+            True if statistics were updated successfully
+        """
+        def operation():
+            credentials = self.file_ops.atomic_read_json(self.credentials_file)
+            
+            if username not in credentials:
+                raise DatabaseException(f"User {username} does not exist")
+            
+            # Initialize statistics if they don't exist
+            if 'statistics' not in credentials[username]:
+                credentials[username]['statistics'] = {}
+            
+            # Update statistics
+            for stat_key, stat_value in statistics_updates.items():
+                if stat_key == 'questions_attempted_increment':
+                    if 'questions_attempted' not in credentials[username]['statistics']:
+                        credentials[username]['statistics']['questions_attempted'] = 0
+                    credentials[username]['statistics']['questions_attempted'] += stat_value
+                elif stat_key == 'add_topic_covered':
+                    if 'topics_covered' not in credentials[username]['statistics']:
+                        credentials[username]['statistics']['topics_covered'] = []
+                    if stat_value not in credentials[username]['statistics']['topics_covered']:
+                        credentials[username]['statistics']['topics_covered'].append(stat_value)
+                else:
+                    # Direct assignment for other statistics
+                    credentials[username]['statistics'][stat_key] = stat_value
+            
+            self.file_ops.atomic_write_json(self.credentials_file, credentials)
+            return True
+        
+        return self._execute_write_operation(
+            operation,
+            Priority.NORMAL,
+            session_id,
+            f"update_stats:{username}"
+        )
+    
     # ===============================
     # Collaboration Operations
     # ===============================

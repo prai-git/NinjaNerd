@@ -10,7 +10,7 @@ import os
 # Add the project directory to the path
 sys.path.insert(0, '/Users/praveenrai/Personal/Krishang/NinjaNerd')
 
-from app import app, SUBTOPICS
+from app import app, SUBTOPICS, active_sessions
 
 def test_subtopics_data():
     """Test that subtopics data is correctly structured"""
@@ -92,37 +92,25 @@ def test_authenticated_routes():
     
     import json
     import os
+    from unittest.mock import patch
+    from datetime import datetime
     
-    # Path to credentials file
-    credentials_path = '/Users/praveenrai/Personal/Krishang/NinjaNerd/data/Credentials.json'
-    
-    # Load existing credentials
-    try:
-        with open(credentials_path, 'r') as f:
-            credentials = json.load(f)
-    except FileNotFoundError:
-        credentials = {}
-    
-    # Store original credentials
-    original_credentials = credentials.copy()
-    
-    # Add test user
-    credentials['test_user'] = {
-        'password': 'test_password',
-        'school_name': 'Test School',
-        'history': [],
-        'statistics': {
-            'questions_attempted': 0,
-            'topics_covered': [],
-            'last_login': None
+    # Create a temporary test credentials file to avoid modifying production data
+    test_credentials = {
+        'test_user': {
+            'password': 'test_password',
+            'school_name': 'Test School',
+            'history': [],
+            'statistics': {
+                'questions_attempted': 0,
+                'topics_covered': [],
+                'last_login': None
+            }
         }
     }
     
-    try:
-        # Write updated credentials
-        with open(credentials_path, 'w') as f:
-            json.dump(credentials, f, indent=2)
-        
+    # Mock credentials loading to avoid file system changes
+    with patch('app.load_credentials', return_value=test_credentials):
         with app.test_client() as client:
             # Test subtopic routes for different grades and topics
             test_cases = [
@@ -134,6 +122,18 @@ def test_authenticated_routes():
             ]
             
             for grade, topic in test_cases:
+                # Clear active sessions before each test
+                active_sessions.clear()
+                
+                # Add user to active sessions (simulating successful login)
+                active_sessions['test_user'] = {
+                    'session_id': 'test_session',
+                    'last_activity': datetime.now().isoformat(),
+                    'school_name': 'Test School',
+                    'grade': grade,
+                    'current_topic': topic
+                }
+                
                 # Create a session for the test
                 with client.session_transaction() as sess:
                     sess['username'] = 'test_user'
@@ -142,14 +142,9 @@ def test_authenticated_routes():
                 
                 # Test subtopic page route
                 response = client.get(f'/subtopics/{grade}/{topic}')
-                assert response.status_code == 200, f"Subtopic route failed for grade {grade}, topic {topic}"
+                assert response.status_code == 200, f"Subtopic route failed for grade {grade}, topic {topic}. Status: {response.status_code}"
                 
                 print(f"   ✅ Route /subtopics/{grade}/{topic}: Working")
-    
-    finally:
-        # Restore original credentials
-        with open(credentials_path, 'w') as f:
-            json.dump(original_credentials, f, indent=2)
     
     print("✅ Authenticated routes test passed!")
 
