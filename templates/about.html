@@ -34,6 +34,11 @@
                 <a href="{{ url_for('contact_us') }}" class="list-group-item list-group-item-action">
                     <i class="fas fa-envelope me-2"></i>Contact Us
                 </a>
+                {% if is_admin %}
+                <a href="{{ url_for('audit') }}" class="list-group-item list-group-item-action">
+                    <i class="fas fa-search me-2"></i>Audit
+                </a>
+                {% endif %}
             </div>
         </div>
     </div>

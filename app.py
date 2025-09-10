@@ -559,6 +559,42 @@ def require_login(f):
         return f(*args, **kwargs)
     return decorated_function
 
+def is_admin_user(username):
+    """Check if the given username is an admin user"""
+    return username == 'admin@gmail.com'
+
+def require_admin(f):
+    """
+    Decorator to require admin authentication for protected admin routes.
+    Validates session and checks if user is admin.
+    """
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        # First check if user is logged in
+        is_valid, message = validate_session()
+        
+        if not is_valid:
+            username = session.get('username', 'Unknown')
+            if username in active_sessions:
+                del active_sessions[username]
+            session.clear()
+            flash(f"Please log in to access this page. {message}")
+            log_user_activity(username, f"Access denied - {message}")
+            return redirect(url_for('login'))
+        
+        # Check if user is admin
+        username = session['username']
+        if not is_admin_user(username):
+            log_user_activity(username, "Attempted to access admin-only feature")
+            flash("Access denied. Admin privileges required.")
+            return redirect(url_for('about'))
+        
+        # Update user activity timestamp
+        update_user_activity(username)
+        
+        return f(*args, **kwargs)
+    return decorated_function
+
 @app.route('/')
 def index():
     return redirect(url_for('login'))
@@ -664,8 +700,9 @@ def create_account():
 @app.route('/about')
 @require_login
 def about():
-    log_user_activity(session['username'], "Visited about page")
-    return render_template('about.html', logo_path=LOGO_PATH)
+    username = session['username']
+    log_user_activity(username, "Visited about page")
+    return render_template('about.html', logo_path=LOGO_PATH, username=username, is_admin=is_admin_user(username))
 
 @app.route('/account', methods=['GET', 'POST'])
 @require_login
@@ -840,6 +877,70 @@ def contact_us():
     # GET request
     log_user_activity(username, "Visited contact us page")
     return render_template('contact_us.html')
+
+@app.route('/audit', methods=['GET', 'POST'])
+@require_admin
+@apply_rate_limit("10 per minute")
+def audit():
+    """Admin audit page to view user login and payment history"""
+    admin_username = session['username']
+    
+    if request.method == 'POST':
+        try:
+            target_username = request.form.get('username', '').strip()
+            
+            if not target_username:
+                flash('Please enter a username')
+                return redirect(url_for('audit'))
+            
+            # Get user data from database with proper session tracking
+            db = get_app_db()
+            session_id = session.get('session_id')
+            user_data = db.get_user(target_username)
+            
+            if not user_data:
+                flash(f'User "{target_username}" not found')
+                log_user_activity(admin_username, f"Audit attempt for non-existent user: {target_username}")
+                return redirect(url_for('audit'))
+            
+            # Extract audit information
+            audit_data = {
+                'username': target_username,
+                'school_name': user_data.get('school_name', 'Not specified'),
+                'history': user_data.get('history', []),
+                'statistics': user_data.get('statistics', {}),
+                'last_login': user_data.get('statistics', {}).get('last_login', 'Never'),
+                'questions_attempted': user_data.get('statistics', {}).get('questions_attempted', 0),
+                'topics_covered': user_data.get('statistics', {}).get('topics_covered', []),
+                'payment_history': [],  # Payment feature not implemented yet
+                'payment_amount': 0.0,  # Payment feature not implemented yet
+                'payment_receipt_link': None  # Payment feature not implemented yet
+            }
+            
+            # Count login events from history (if any contain login activities)
+            login_events = []
+            for entry in audit_data['history']:
+                if 'timestamp' in entry:
+                    login_events.append({
+                        'timestamp': entry['timestamp'],
+                        'activity': entry.get('topic', 'activity'),
+                        'details': f"Grade {entry.get('grade', 'unknown')} - {entry.get('topic', 'unknown')}"
+                    })
+            
+            audit_data['login_history'] = sorted(login_events, key=lambda x: x['timestamp'], reverse=True)
+            
+            log_user_activity(admin_username, f"Performed audit on user: {target_username}")
+            
+            return render_template('audit.html', audit_data=audit_data)
+            
+        except Exception as e:
+            app.logger.error(f"Error processing audit request by {admin_username}: {e}")
+            flash('Error processing audit request')
+            return redirect(url_for('audit'))
+    
+    # GET request
+    log_user_activity(admin_username, "Visited audit page")
+    return render_template('audit.html')
 
 @app.route('/topics/<int:grade>')
 @require_login
