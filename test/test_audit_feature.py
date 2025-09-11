@@ -309,8 +309,9 @@ class TestAuditFeature(unittest.TestCase):
                 }
                 
                 # Submit audit request with empty username
+                # With our new input validation, this should return 400 error due to invalid input
                 response = client.post('/audit', data={'username': ''})
-                self.assertEqual(response.status_code, 302)  # Should redirect back to audit page
+                self.assertEqual(response.status_code, 400)  # Should return bad request due to input validation
                 
                 # Database should not be called
                 mock_get_db.return_value.get_user.assert_not_called()

@@ -12,6 +12,7 @@ import json
 import pytest
 import tempfile
 import shutil
+from datetime import datetime
 from unittest.mock import patch, MagicMock
 
 # Add the parent directory to the path so we can import the app
@@ -49,7 +50,7 @@ def test_submit_answer_atomic_operation():
             with client.session_transaction() as sess:
                 sess['username'] = 'testuser'
                 sess['session_id'] = 'test_session_123'
-                sess['login_time'] = '2023-01-01T00:00:00'
+                sess['login_time'] = datetime.now().isoformat()
                 sess['current_questions'] = [
                     {
                         'question': 'What is 2+2?',
@@ -61,38 +62,59 @@ def test_submit_answer_atomic_operation():
                 sess['current_subtopic'] = 'addition'
                 sess['current_grade'] = 1
             
-            # Mock the LLM service to return a correct answer
-            with patch('app.llm_service') as mock_llm:
-                mock_llm.check_answer_with_llm.return_value = True
-                
-                # Mock log_user_activity to avoid issues
-                with patch('app.log_user_activity'):
-                    # Submit an answer
-                    response = client.post('/submit_answer',
-                                         json={'answer': '4'},
-                                         content_type='application/json')
-                    
-                    assert response.status_code == 200
-                    response_data = response.get_json()
-                    assert response_data['correct'] is True
-                    assert response_data['next_available'] is False  # Only one question
-                    
-                    # Verify that both history and statistics were updated atomically
-                    user_data = db.get_user('testuser')
-                    assert user_data is not None
-                    assert len(user_data['history']) == 1
-                    assert user_data['statistics']['questions_attempted'] == 1
-                    assert 'math' in user_data['statistics']['topics_covered']
-                    
-                    # Verify the history entry contains all expected fields
-                    history_entry = user_data['history'][0]
-                    assert history_entry['question'] == 'What is 2+2?'
-                    assert history_entry['user_answer'] == '4'
-                    assert history_entry['correct'] is True
-                    assert history_entry['topic'] == 'math'
-                    assert history_entry['subtopic'] == 'addition'
-                    assert history_entry['grade'] == 1
-                    assert 'timestamp' in history_entry
+                # Mock active sessions and LLM service
+                with patch('app.active_sessions', {'testuser': {'session_id': 'test_session_123', 'last_activity': datetime.now().isoformat()}}):
+                    with patch('app.safe_llm_service') as mock_safe_llm:
+                        mock_safe_llm.check_answer_with_llm.return_value = True
+                        
+                        # Mock the rate limiter and session validation
+                        with patch('app.limiter') as mock_limiter:
+                            mock_limiter.limit.return_value = lambda f: f  # Return function unchanged
+                            
+                            # Mock session validation to always pass
+                            with patch('app.validate_session', return_value=(True, "Session valid")):
+                                # Mock log_user_activity to avoid issues
+                                with patch('app.log_user_activity'):
+                                    # Submit an answer - ensure all session data is present
+                                    with client.session_transaction() as sess:
+                                        sess['username'] = 'testuser'
+                                        sess['session_id'] = 'test_session_123'
+                                        sess['login_time'] = datetime.now().isoformat()
+                                        sess['current_questions'] = [
+                                            {
+                                                'question': 'What is 2+2?',
+                                                'explanation': 'The sum of 2 and 2 is 4.'
+                                            }
+                                        ]
+                                        sess['current_question_index'] = 0
+                                        sess['current_topic'] = 'math'
+                                        sess['current_subtopic'] = 'addition'
+                                        sess['current_grade'] = 1
+                                    response = client.post('/submit_answer',
+                                                     json={'answer': '4'},
+                                                     content_type='application/json')
+                                
+                                    assert response.status_code == 200
+                                    response_data = response.get_json()
+                                    assert response_data['correct'] is True
+                                    assert response_data['next_available'] is False  # Only one question
+                                    
+                                    # Verify that both history and statistics were updated atomically
+                                    user_data = db.get_user('testuser')
+                                    assert user_data is not None
+                                    assert len(user_data['history']) == 1
+                                    assert user_data['statistics']['questions_attempted'] == 1
+                                    assert 'math' in user_data['statistics']['topics_covered']
+                                    
+                                    # Verify the history entry contains all expected fields
+                                    history_entry = user_data['history'][0]
+                                    assert history_entry['question'] == 'What is 2+2?'
+                                    assert history_entry['user_answer'] == '4'
+                                    assert history_entry['correct'] is True
+                                    assert history_entry['topic'] == 'math'
+                                    assert history_entry['subtopic'] == 'addition'
+                                    assert history_entry['grade'] == 1
+                                    assert 'timestamp' in history_entry
 
 def test_submit_answer_multiple_questions():
     """Test that submit_answer correctly handles multiple questions and increments statistics."""
@@ -126,7 +148,7 @@ def test_submit_answer_multiple_questions():
             with client.session_transaction() as sess:
                 sess['username'] = 'testuser2'
                 sess['session_id'] = 'test_session_456'
-                sess['login_time'] = '2023-01-01T00:00:00'
+                sess['login_time'] = datetime.now().isoformat()
                 sess['current_questions'] = [
                     {'question': 'What is 2+2?', 'explanation': 'The sum of 2 and 2 is 4.'},
                     {'question': 'What is 3+3?', 'explanation': 'The sum of 3 and 3 is 6.'}
@@ -136,36 +158,68 @@ def test_submit_answer_multiple_questions():
                 sess['current_subtopic'] = 'addition'
                 sess['current_grade'] = 1
             
-            # Mock the LLM service
-            with patch('app.llm_service') as mock_llm:
-                mock_llm.check_answer_with_llm.return_value = True
-                
-                with patch('app.log_user_activity'):
-                    # Submit first answer
-                    response = client.post('/submit_answer',
-                                         json={'answer': '4'},
-                                         content_type='application/json')
-                    
-                    assert response.status_code == 200
-                    response_data = response.get_json()
-                    assert response_data['correct'] is True
-                    assert response_data['next_available'] is True  # More questions available
-                    
-                    # Submit second answer
-                    response = client.post('/submit_answer',
-                                         json={'answer': '6'},
-                                         content_type='application/json')
-                    
-                    assert response.status_code == 200
-                    response_data = response.get_json()
-                    assert response_data['correct'] is True
-                    assert response_data['next_available'] is False  # No more questions
-                    
-                    # Verify final state
-                    user_data = db.get_user('testuser2')
-                    assert len(user_data['history']) == 2
-                    assert user_data['statistics']['questions_attempted'] == 2
-                    assert 'math' in user_data['statistics']['topics_covered']
+                # Mock active sessions and LLM service  
+                with patch('app.active_sessions', {'testuser2': {'session_id': 'test_session_456', 'last_activity': datetime.now().isoformat()}}):
+                    with patch('app.safe_llm_service') as mock_safe_llm:
+                        mock_safe_llm.check_answer_with_llm.return_value = True
+                        
+                        # Mock the rate limiter and session validation
+                        with patch('app.limiter') as mock_limiter:
+                            mock_limiter.limit.return_value = lambda f: f  # Return function unchanged
+                            
+                            # Mock session validation to always pass
+                            with patch('app.validate_session', return_value=(True, "Session valid")):
+                                # Mock log_user_activity to avoid issues
+                                with patch('app.log_user_activity'):
+                                    # Submit first answer
+                                    with client.session_transaction() as sess:
+                                        sess['username'] = 'testuser2'
+                                        sess['session_id'] = 'test_session_456'
+                                        sess['login_time'] = datetime.now().isoformat()
+                                        sess['current_questions'] = [
+                                            {'question': 'What is 2+2?', 'explanation': 'The sum of 2 and 2 is 4.'},
+                                            {'question': 'What is 3+3?', 'explanation': 'The sum of 3 and 3 is 6.'}
+                                        ]
+                                        sess['current_question_index'] = 0
+                                        sess['current_topic'] = 'math'
+                                        sess['current_subtopic'] = 'addition'
+                                        sess['current_grade'] = 1
+                                    response = client.post('/submit_answer',
+                                                         json={'answer': '4'},
+                                                         content_type='application/json')
+                                    
+                                    assert response.status_code == 200
+                                    response_data = response.get_json()
+                                    assert response_data['correct'] is True
+                                    assert response_data['next_available'] is True  # More questions available
+                                    
+                                    # Submit second answer
+                                    with client.session_transaction() as sess:
+                                        sess['username'] = 'testuser2'
+                                        sess['session_id'] = 'test_session_456'
+                                        sess['login_time'] = datetime.now().isoformat()
+                                        sess['current_questions'] = [
+                                            {'question': 'What is 2+2?', 'explanation': 'The sum of 2 and 2 is 4.'},
+                                            {'question': 'What is 3+3?', 'explanation': 'The sum of 3 and 3 is 6.'}
+                                        ]
+                                        sess['current_question_index'] = 1  # Now on second question
+                                        sess['current_topic'] = 'math'
+                                        sess['current_subtopic'] = 'addition'
+                                        sess['current_grade'] = 1
+                                    response = client.post('/submit_answer',
+                                                         json={'answer': '6'},
+                                                         content_type='application/json')
+                                    
+                                    assert response.status_code == 200
+                                    response_data = response.get_json()
+                                    assert response_data['correct'] is True
+                                    assert response_data['next_available'] is False  # No more questions
+                                    
+                                    # Verify final state
+                                    user_data = db.get_user('testuser2')
+                                    assert len(user_data['history']) == 2
+                                    assert user_data['statistics']['questions_attempted'] == 2
+                                    assert 'math' in user_data['statistics']['topics_covered']
 
 def test_submit_answer_error_handling():
     """Test error handling when database operations fail."""
@@ -210,8 +264,8 @@ def test_submit_answer_error_handling():
             
             # Mock the database to fail
             with patch.object(db, 'update_user_history_and_statistics', return_value=False):
-                with patch('app.llm_service') as mock_llm:
-                    mock_llm.check_answer_with_llm.return_value = True
+                with patch('app.safe_llm_service') as mock_safe_llm:
+                    mock_safe_llm.check_answer_with_llm.return_value = True
                     
                     with patch('app.log_user_activity'):
                         response = client.post('/submit_answer',

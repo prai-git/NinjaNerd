@@ -68,8 +68,8 @@ class TestExploreFeature(unittest.TestCase):
             ]
         }
         
-        # Mock the LLM service
-        patcher = patch('app.llm_service')
+        # Mock the safe LLM service
+        patcher = patch('app.safe_llm_service')
         self.mock_llm_service = patcher.start()
         self.mock_llm_service.generate_learning_content.return_value = self.mock_learning_content
         self.addCleanup(patcher.stop)

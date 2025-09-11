@@ -84,9 +84,13 @@ def test_comprehensive_refactoring_validation():
                 sess['current_subtopic'] = 'capitals'
                 sess['current_grade'] = 3
             
-            # Mock the LLM service
-            with patch('app.llm_service') as mock_llm:
-                mock_llm.check_answer_with_llm.return_value = True
+            # Mock the LLM service and ensure safe facade uses it
+            from unittest.mock import MagicMock
+            mock_llm = MagicMock()
+            mock_llm.check_answer_with_llm.return_value = True
+            
+            with patch('app.safe_llm_service') as mock_safe_llm:
+                mock_safe_llm.check_answer_with_llm.return_value = True
                 
                 with patch('app.log_user_activity'):
                     # Submit first answer

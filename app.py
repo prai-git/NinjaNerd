@@ -11,9 +11,10 @@ import requests
 import uuid
 from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
-import uuid
 import ssl
 import argparse
+import atexit
+import signal
 from functools import wraps
 from ai.llm_service import LLMService
 from dbmgr.app_integration import initialize_app_db, get_app_db
@@ -22,6 +23,14 @@ from session_storage.session_expiry import (
     SESSION_TIMEOUT_MINUTES, 
     is_session_expired, 
     SessionCleanupScheduler
+)
+# Import concurrency and security utilities from core module
+from core import (
+    initialize_concurrency_manager, synchronized, thread_safe_operation,
+    LOCK_ACTIVE_SESSIONS, LOCK_COLLABORATION_INVITES, LOCK_CHAT_SESSIONS,
+    LOCK_COLLABORATION_DATA, LOCK_MESSAGE_COUNTER, LOCK_CREDENTIALS,
+    get_safe_llm_service, initialize_safe_llm_service,
+    get_input_validator, sanitize_input
 )
 
 # Load environment variables from .env file
@@ -32,6 +41,11 @@ app.secret_key = os.urandom(24)
 
 # Global logging configuration - will be initialized when app runs
 logging_integration = None
+
+# Initialize concurrency management and safe services
+concurrency_manager = None
+input_validator = None
+safe_llm_service = None
 
 def initialize_production_logging():
     """Initialize production logging system"""
@@ -71,9 +85,8 @@ def initialize_production_logging():
         ))
         log_handler.setLevel(logging.INFO)
         app.logger.addHandler(log_handler)
+        app.logger.setLevel(logging.INFO)
         return None
-    app.logger.setLevel(logging.INFO)
-    logging_integration = None
 
 # Production-ready session storage with Redis and filesystem fallback
 try:
@@ -119,7 +132,8 @@ try:
         swallow_errors=True  # Graceful degradation if rate limiting fails
     )
 except Exception as e:
-    logging.error(f"Failed to initialize rate limiter: {e}")
+    # Use print for early initialization errors before app.logger is ready
+    print(f"Failed to initialize rate limiter: {e}")
     limiter = None
 
 # Rate limit error handler
@@ -282,6 +296,8 @@ LLM_MODEL_TYPE = 'deepseek'  # Default to deepseek
 
 # Initialize LLM service after app setup (will be properly initialized after argument parsing)
 llm_service = None
+# Initialize safe LLM service facade - will work even if real service not initialized
+safe_llm_service = get_safe_llm_service()
 
 # Database file paths
 CREDENTIALS_FILE = 'data/Credentials.json'
@@ -360,56 +376,60 @@ def init_collaboration_db():
                 json.dump(default_data, f, indent=2)
 
 def load_credentials():
-    """Load credentials from database"""
-    try:
-        db = get_app_db()
-        return db.load_credentials()
-    except Exception as e:
-        app.logger.error(f"Error loading credentials via DBManager: {e}")
-        # Fallback to file-based approach
+    """Load credentials from database with thread safety"""
+    with synchronized(LOCK_CREDENTIALS):
         try:
-            with open(CREDENTIALS_FILE, 'r') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            init_credentials_db()
-            return load_credentials()
+            db = get_app_db()
+            return db.load_credentials()
+        except Exception as e:
+            app.logger.error(f"Error loading credentials via DBManager: {e}")
+            # Fallback to file-based approach
+            try:
+                with open(CREDENTIALS_FILE, 'r') as f:
+                    return json.load(f)
+            except FileNotFoundError:
+                init_credentials_db()
+                return load_credentials()
 
 def save_credentials(data):
-    """Save credentials to database"""
-    try:
-        db = get_app_db()
-        db.save_credentials(data)
-    except Exception as e:
-        app.logger.error(f"Error saving credentials via DBManager: {e}")
-        # Fallback to file-based approach
-        with open(CREDENTIALS_FILE, 'w') as f:
-            json.dump(data, f, indent=2)
+    """Save credentials to database with thread safety"""
+    with synchronized(LOCK_CREDENTIALS):
+        try:
+            db = get_app_db()
+            db.save_credentials(data)
+        except Exception as e:
+            app.logger.error(f"Error saving credentials via DBManager: {e}")
+            # Fallback to file-based approach
+            with open(CREDENTIALS_FILE, 'w') as f:
+                json.dump(data, f, indent=2)
 
 def load_collaboration_data():
-    """Load collaboration data from database"""
-    try:
-        db = get_app_db()
-        return db.load_collaboration_data()
-    except Exception as e:
-        app.logger.error(f"Error loading collaboration data via DBManager: {e}")
-        # Fallback to file-based approach
+    """Load collaboration data from database with thread safety"""
+    with synchronized(LOCK_COLLABORATION_DATA):
         try:
-            with open(COLLABORATION_FILE, 'r') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            init_collaboration_db()
-            return load_collaboration_data()
+            db = get_app_db()
+            return db.load_collaboration_data()
+        except Exception as e:
+            app.logger.error(f"Error loading collaboration data via DBManager: {e}")
+            # Fallback to file-based approach
+            try:
+                with open(COLLABORATION_FILE, 'r') as f:
+                    return json.load(f)
+            except FileNotFoundError:
+                init_collaboration_db()
+                return load_collaboration_data()
 
 def save_collaboration_data(data):
-    """Save collaboration data to database"""
-    try:
-        db = get_app_db()
-        db.save_collaboration_data(data)
-    except Exception as e:
-        app.logger.error(f"Error saving collaboration data via DBManager: {e}")
-        # Fallback to file-based approach
-        with open(COLLABORATION_FILE, 'w') as f:
-            json.dump(data, f, indent=2)
+    """Save collaboration data to database with thread safety"""
+    with synchronized(LOCK_COLLABORATION_DATA):
+        try:
+            db = get_app_db()
+            db.save_collaboration_data(data)
+        except Exception as e:
+            app.logger.error(f"Error saving collaboration data via DBManager: {e}")
+            # Fallback to file-based approach
+            with open(COLLABORATION_FILE, 'w') as f:
+                json.dump(data, f, indent=2)
 
 def end_all_user_chats(username):
     """End all active chat sessions for a user when they change grades"""
@@ -424,26 +444,28 @@ def end_all_user_chats(username):
     save_collaboration_data(collaboration_data)
 
 def cleanup_old_sessions():
-    """Remove inactive sessions using centralized expiry logic"""
-    to_remove = []
-    
-    for username, session_data in active_sessions.items():
-        if is_session_expired(session_data):
-            to_remove.append(username)
-    
-    cleaned_count = len(to_remove)
-    for username in to_remove:
-        del active_sessions[username]
-    
-    if cleaned_count > 0:
-        app.logger.info(f"Cleaned up {cleaned_count} expired sessions")
-    
-    return cleaned_count
+    """Remove inactive sessions using centralized expiry logic with thread safety"""
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        to_remove = []
+        
+        for username, session_data in active_sessions.items():
+            if is_session_expired(session_data):
+                to_remove.append(username)
+        
+        cleaned_count = len(to_remove)
+        for username in to_remove:
+            del active_sessions[username]
+        
+        if cleaned_count > 0:
+            app.logger.info(f"Cleaned up {cleaned_count} expired sessions")
+        
+        return cleaned_count
 
 def update_user_activity(username):
-    """Update user's last activity timestamp"""
-    if username in active_sessions:
-        active_sessions[username]['last_activity'] = datetime.now().isoformat()
+    """Update user's last activity timestamp with thread safety"""
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        if username in active_sessions:
+            active_sessions[username]['last_activity'] = datetime.now().isoformat()
 
 def log_user_activity(username, activity):
     """Log user activity with timestamp"""
@@ -452,6 +474,7 @@ def log_user_activity(username, activity):
 def enforce_grade_change_rules(username: str, new_grade: int, topic: str = None) -> bool:
     """
     Centralized grade change handling to detect grade changes and end chats if necessary.
+    Thread-safe implementation with proper locking.
     
     Args:
         username: Username
@@ -461,37 +484,38 @@ def enforce_grade_change_rules(username: str, new_grade: int, topic: str = None)
     Returns:
         True if grade change was detected and handled, False if no change
     """
-    old_grade = None
-    if username in active_sessions:
-        old_grade = active_sessions[username].get('grade')
-    
-    # Detect grade change
-    grade_changed = old_grade is not None and old_grade != new_grade
-    
-    if grade_changed:
-        # End all active chats when grade changes
-        end_all_user_chats(username)
-        app.logger.info(f"User {username} changed grade from {old_grade} to {new_grade}, ended all chats")
-    
-    # Update session state
-    credentials = load_credentials()
-    
-    if username in active_sessions:
-        active_sessions[username]['grade'] = new_grade
-        if topic:
-            active_sessions[username]['current_topic'] = topic
-        active_sessions[username]['last_activity'] = datetime.now().isoformat()
-    else:
-        # Create new session entry
-        active_sessions[username] = {
-            'session_id': session.get('session_id', str(uuid.uuid4())),
-            'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[username].get('school_name', 'Unknown School'),
-            'current_topic': topic,
-            'grade': new_grade
-        }
-    
-    return grade_changed
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        old_grade = None
+        if username in active_sessions:
+            old_grade = active_sessions[username].get('grade')
+        
+        # Detect grade change
+        grade_changed = old_grade is not None and old_grade != new_grade
+        
+        if grade_changed:
+            # End all active chats when grade changes
+            end_all_user_chats(username)
+            app.logger.info(f"User {username} changed grade from {old_grade} to {new_grade}, ended all chats")
+        
+        # Update session state
+        credentials = load_credentials()
+        
+        if username in active_sessions:
+            active_sessions[username]['grade'] = new_grade
+            if topic:
+                active_sessions[username]['current_topic'] = topic
+            active_sessions[username]['last_activity'] = datetime.now().isoformat()
+        else:
+            # Create new session entry
+            active_sessions[username] = {
+                'session_id': session.get('session_id', str(uuid.uuid4())),
+                'last_activity': datetime.now().isoformat(),
+                'school_name': credentials[username].get('school_name', 'Unknown School'),
+                'current_topic': topic,
+                'grade': new_grade
+            }
+        
+        return grade_changed
 
 def load_prompt(topic):
     """Load prompt from topic file"""
@@ -607,8 +631,14 @@ def favicon():
 @apply_login_rate_limit("10 per 5 minutes")  # Isolated login rate limiting
 def login():
     if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
+        # Sanitize input fields
+        validator = get_input_validator(app.logger)
+        try:
+            username = validator.sanitize_username(request.form['username'])
+            password = request.form['password']  # Don't sanitize password, just validate it exists
+        except ValueError as e:
+            flash(f"Invalid input: {str(e)}")
+            return render_template('login.html')
         
         credentials = load_credentials()
         
@@ -664,9 +694,15 @@ def login():
 @apply_rate_limit("3 per 10 minutes")  # Prevent account creation spam
 def create_account():
     if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
-        school_name = request.form.get('school_name', '').strip()
+        # Sanitize input fields
+        validator = get_input_validator(app.logger)
+        try:
+            username = validator.sanitize_username(request.form['username'])
+            password = request.form['password']  # Don't sanitize password
+            school_name = validator.sanitize_school_name(request.form.get('school_name', ''))
+        except ValueError as e:
+            flash(f"Invalid input: {str(e)}")
+            return render_template('create_account.html')
         db = get_app_db()
         user = db.get_user(username)
         if user is not None:
@@ -720,11 +756,27 @@ def account():
                 return redirect(url_for('account'))
             
             updated = False
+            # Sanitize inputs
+            validator = get_input_validator(app.logger)
+            
             new_password = request.form.get('password')
-            new_school_name = request.form.get('school_name')
+            raw_school_name = request.form.get('school_name')
+            
+            # Sanitize school name if provided
+            new_school_name = None
+            if raw_school_name:
+                try:
+                    new_school_name = validator.sanitize_school_name(raw_school_name)
+                except ValueError as e:
+                    flash(f"Invalid school name: {str(e)}")
+                    return redirect(url_for('account'))
             
             # Update password if provided and not the masked placeholder value
             if new_password and new_password.strip() and new_password != '*****':
+                # Validate password length and complexity
+                if len(new_password) < 6:
+                    flash("Password must be at least 6 characters long")
+                    return redirect(url_for('account'))
                 hashed_password = generate_password_hash(new_password)
                 db.update_user_password(username, hashed_password)
                 updated = True
@@ -840,8 +892,10 @@ def contact_us():
     
     if request.method == 'POST':
         try:
-            subject = request.form.get('subject', '').strip()
-            content = request.form.get('content', '').strip()
+            # Sanitize form inputs
+            validator = get_input_validator(app.logger)
+            subject = validator.sanitize_subject(request.form.get('subject', ''))
+            content = validator.sanitize_content(request.form.get('content', ''))
             
             if not subject or not content:
                 flash('Please fill in all fields')
@@ -887,7 +941,13 @@ def audit():
     
     if request.method == 'POST':
         try:
-            target_username = request.form.get('username', '').strip()
+            # Sanitize target username input
+            validator = get_input_validator(app.logger)
+            try:
+                target_username = validator.sanitize_username(request.form.get('username', ''))
+            except ValueError as e:
+                flash(f"Invalid username: {str(e)}")
+                return render_template('audit.html'), 400
             
             if not target_username:
                 flash('Please enter a username')
@@ -986,7 +1046,7 @@ def exercise(grade, topic):
     
     # Load prompt and call LLM service
     prompt = load_prompt(topic)
-    llm_response = llm_service.call_llm_api(prompt, user_history, session.get('session_id'), session.get('username'))
+    llm_response = safe_llm_service.call_llm_api(prompt, user_history, session.get('session_id'), session.get('username'))
     
     if 'error' in llm_response:
         flash(f'Error generating questions: {llm_response["error"]}')
@@ -1044,7 +1104,7 @@ def exercise_with_subtopic(grade, topic, subtopic):
     # Add subtopic context to the prompt
     subtopic_prompt = f"{prompt}\n\nFocus specifically on: {subtopic_details['name']} - {subtopic_details['description']}"
     
-    llm_response = llm_service.call_llm_api(subtopic_prompt, filtered_history, session.get('session_id'), session.get('username'))
+    llm_response = safe_llm_service.call_llm_api(subtopic_prompt, filtered_history, session.get('session_id'), session.get('username'))
     
     if 'error' in llm_response:
         flash(f'Error generating questions: {llm_response["error"]}')
@@ -1215,7 +1275,7 @@ def get_learn_content():
     
     # Generate learning content using LLM service
     try:
-        llm_response = llm_service.generate_learning_content(
+        llm_response = safe_llm_service.generate_learning_content(
             topic=topic,
             subtopic_name=subtopic_details['name'],
             subtopic_description=subtopic_details['description'],
@@ -1274,7 +1334,7 @@ def fetch_more_learn_content():
     
     # Generate additional learning content using LLM service
     try:
-        llm_response = llm_service.generate_learning_content(
+        llm_response = safe_llm_service.generate_learning_content(
             topic=topic,
             subtopic_name=subtopic_details['name'],
             subtopic_description=subtopic_details['description'],
@@ -1339,7 +1399,7 @@ def submit_answer():
     explanation = current_question.get('explanation', '')
     
     # Use LLM service to check the answer
-    is_correct = llm_service.check_answer_with_llm(question_text, user_answer, explanation, session.get('session_id'), session.get('username'))
+    is_correct = safe_llm_service.check_answer_with_llm(question_text, user_answer, explanation, session.get('session_id'), session.get('username'))
     
     # Prepare history entry
     username = session['username']
@@ -1389,11 +1449,12 @@ def logout():
     
     # Clean up any pending LLM requests for this session
     if session_id:
-        llm_service.cleanup_session_queue_requests(session_id)
+        safe_llm_service.cleanup_session_queue_requests(session_id)
     
-    # Remove from active sessions
-    if username in active_sessions:
-        del active_sessions[username]
+    # Remove from active sessions with thread safety
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        if username in active_sessions:
+            del active_sessions[username]
     
     # End any active chat sessions
     collaboration_data = load_collaboration_data()
@@ -1510,8 +1571,13 @@ def send_collaboration_invite():
         return jsonify({'error': 'No active session'})
     
     data = request.get_json()
-    target_user = data.get('target_user')
-    from_user = session['username']
+    # Sanitize input
+    validator = get_input_validator(app.logger)
+    try:
+        target_user = validator.sanitize_username(data.get('target_user', ''))
+        from_user = session['username']
+    except ValueError as e:
+        return jsonify({'error': f'Invalid target user: {str(e)}'})
     
     if not target_user:
         return jsonify({'error': 'Target user not specified'})
@@ -1534,28 +1600,30 @@ def send_collaboration_invite():
     if from_grade != target_grade:
         return jsonify({'error': 'Can only collaborate with users from same grade'})
     
-    collaboration_data = load_collaboration_data()
-    
-    # Clean up old invites between these users
-    to_remove = []
-    for invite_id, invite in collaboration_data['invites'].items():
-        if ((invite['from_user'] == from_user and invite['to_user'] == target_user) or
-            (invite['from_user'] == target_user and invite['to_user'] == from_user)):
-            to_remove.append(invite_id)
-    
-    for invite_id in to_remove:
-        del collaboration_data['invites'][invite_id]
-    
-    # Create invite
-    invite_id = str(uuid.uuid4())
-    collaboration_data['invites'][invite_id] = {
-        'from_user': from_user,
-        'to_user': target_user,
-        'timestamp': datetime.now().isoformat(),
-        'status': 'pending'
-    }
-    
-    save_collaboration_data(collaboration_data)
+    # Thread-safe invite sending with atomic operations
+    with synchronized(LOCK_COLLABORATION_DATA):
+        collaboration_data = load_collaboration_data()
+        
+        # Clean up old invites between these users
+        to_remove = []
+        for invite_id, invite in collaboration_data['invites'].items():
+            if ((invite['from_user'] == from_user and invite['to_user'] == target_user) or
+                (invite['from_user'] == target_user and invite['to_user'] == from_user)):
+                to_remove.append(invite_id)
+        
+        for invite_id in to_remove:
+            del collaboration_data['invites'][invite_id]
+        
+        # Create invite
+        invite_id = str(uuid.uuid4())
+        collaboration_data['invites'][invite_id] = {
+            'from_user': from_user,
+            'to_user': target_user,
+            'timestamp': datetime.now().isoformat(),
+            'status': 'pending'
+        }
+        
+        save_collaboration_data(collaboration_data)
     
     log_user_activity(from_user, f"Sent collaboration invite to {target_user}")
     return jsonify({'success': True})
@@ -1640,9 +1708,14 @@ def send_chat_message():
         return jsonify({'error': 'No active session'})
     
     data = request.get_json()
-    to_user = data.get('to_user')
-    message = data.get('message', '').strip()
-    from_user = session['username']
+    # Sanitize input data
+    validator = get_input_validator(app.logger)
+    try:
+        to_user = validator.sanitize_username(data.get('to_user', ''))
+        message = validator.sanitize_chat_message(data.get('message', ''))
+        from_user = session['username']
+    except ValueError as e:
+        return jsonify({'error': f'Invalid input: {str(e)}'})
     
     if not message or len(message) > 200:
         return jsonify({'error': 'Invalid message length'})
@@ -1670,31 +1743,36 @@ def send_chat_message():
     
     collaboration_data = load_collaboration_data()
     
-    # Find active chat session
-    chat_session = None
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        if (session_data['active'] and 
-            ((session_data['user1'] == from_user and session_data['user2'] == to_user) or
-             (session_data['user1'] == to_user and session_data['user2'] == from_user))):
-            chat_session = session_data
-            break
-    
-    if not chat_session:
-        return jsonify({'error': 'No active chat session'})
-    
-    # Add message (obfuscate message content for security)
-    collaboration_data['message_counter'] = collaboration_data.get('message_counter', 0) + 1
-    message_data = {
-        'id': collaboration_data['message_counter'],
-        'from_user': from_user,
-        'to_user': to_user,
-        'message': obfuscate_message(message),  # Obfuscate message for security
-        'timestamp': datetime.now().isoformat(),
-        'displayed': False
-    }
-    
-    chat_session['messages'].append(message_data)
-    save_collaboration_data(collaboration_data)
+    # Thread-safe message sending with atomic operations
+    with synchronized(LOCK_COLLABORATION_DATA):
+        # Reload collaboration data within lock to ensure consistency
+        collaboration_data = load_collaboration_data()
+        
+        # Find active chat session
+        chat_session = None
+        for session_id, session_data in collaboration_data['chat_sessions'].items():
+            if (session_data['active'] and 
+                ((session_data['user1'] == from_user and session_data['user2'] == to_user) or
+                 (session_data['user1'] == to_user and session_data['user2'] == from_user))):
+                chat_session = session_data
+                break
+        
+        if not chat_session:
+            return jsonify({'error': 'No active chat session'})
+        
+        # Atomically increment message counter and add message
+        collaboration_data['message_counter'] = collaboration_data.get('message_counter', 0) + 1
+        message_data = {
+            'id': collaboration_data['message_counter'],
+            'from_user': from_user,
+            'to_user': to_user,
+            'message': obfuscate_message(message),  # Obfuscate message for security
+            'timestamp': datetime.now().isoformat(),
+            'displayed': False
+        }
+        
+        chat_session['messages'].append(message_data)
+        save_collaboration_data(collaboration_data)
     
     return jsonify({'success': True})
 
@@ -1935,6 +2013,12 @@ if __name__ == '__main__':
     # Initialize production logging system
     logging_integration = initialize_production_logging()
     
+    # Initialize concurrency management
+    concurrency_manager = initialize_concurrency_manager(app.logger)
+    
+    # Initialize input validator
+    input_validator = get_input_validator(app.logger)
+    
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='NinjaNerd Educational Platform')
     parser.add_argument('-d', '--deepseek', action='store_true', 
@@ -1958,6 +2042,9 @@ if __name__ == '__main__':
     
     # Initialize LLM service with the chosen model
     llm_service = LLMService(logger=app.logger, model_type=LLM_MODEL_TYPE)
+    
+    # Initialize the safe LLM service facade with the real service
+    safe_llm_service = initialize_safe_llm_service(llm_service, app.logger)
     
     # Set active sessions reference for LLM service
     llm_service.set_active_sessions_reference(active_sessions)
