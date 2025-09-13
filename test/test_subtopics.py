@@ -92,61 +92,84 @@ def test_authenticated_routes():
     
     import json
     import os
+    import tempfile
+    import shutil
     from unittest.mock import patch
     from datetime import datetime
+    from dbmgr.sqlite_app_integration import initialize_app_db, reset_app_db
     
-    # Create a temporary test credentials file to avoid modifying production data
-    test_credentials = {
-        'test_user': {
-            'password': 'test_password',
-            'school_name': 'Test School',
-            'history': [],
-            'statistics': {
-                'questions_attempted': 0,
-                'topics_covered': [],
-                'last_login': None
+    # Create temporary directory for test database
+    temp_dir = tempfile.mkdtemp()
+    db_path = os.path.join(temp_dir, 'test.db')
+    
+    try:
+        # Reset global database state
+        reset_app_db()
+        
+        # Set a proper string secret key for testing
+        app.config['SECRET_KEY'] = 'test-secret-key-for-testing'
+        
+        # Initialize SQLite database for testing
+        initialize_app_db(app, db_path=db_path)
+        
+        # Create a temporary test credentials file to avoid modifying production data
+        test_credentials = {
+            'test_user': {
+                'password': 'test_password',
+                'school_name': 'Test School',
+                'history': [],
+                'statistics': {
+                    'questions_attempted': 0,
+                    'topics_covered': [],
+                    'last_login': None
+                }
             }
         }
-    }
+        
+        # Mock credentials loading to avoid file system changes
+        with patch('app.load_credentials', return_value=test_credentials):
+            with app.test_client() as client:
+                # Test subtopic routes for different grades and topics
+                test_cases = [
+                    (3, 'math'),
+                    (8, 'english'), 
+                    (5, 'science'),
+                    (6, 'geography'),
+                    (4, 'history')
+                ]
+                
+                for grade, topic in test_cases:
+                    # Clear active sessions before each test
+                    active_sessions.clear()
+                    
+                    # Add user to active sessions (simulating successful login)
+                    active_sessions['test_user'] = {
+                        'session_id': 'test_session',
+                        'last_activity': datetime.now().isoformat(),
+                        'school_name': 'Test School',
+                        'grade': grade,
+                        'current_topic': topic
+                    }
+                    
+                    # Create a session for the test
+                    with client.session_transaction() as sess:
+                        sess['username'] = 'test_user'
+                        sess['session_id'] = 'test_session'
+                        sess['current_grade'] = grade
+                    
+                    # Test subtopic page route
+                    response = client.get(f'/subtopics/{grade}/{topic}')
+                    assert response.status_code == 200, f"Subtopic route failed for grade {grade}, topic {topic}. Status: {response.status_code}"
+                    
+                    print(f"   ✅ Route /subtopics/{grade}/{topic}: Working")
+        
+        print("✅ Authenticated routes test passed!")
     
-    # Mock credentials loading to avoid file system changes
-    with patch('app.load_credentials', return_value=test_credentials):
-        with app.test_client() as client:
-            # Test subtopic routes for different grades and topics
-            test_cases = [
-                (3, 'math'),
-                (8, 'english'), 
-                (5, 'science'),
-                (6, 'geography'),
-                (4, 'history')
-            ]
-            
-            for grade, topic in test_cases:
-                # Clear active sessions before each test
-                active_sessions.clear()
-                
-                # Add user to active sessions (simulating successful login)
-                active_sessions['test_user'] = {
-                    'session_id': 'test_session',
-                    'last_activity': datetime.now().isoformat(),
-                    'school_name': 'Test School',
-                    'grade': grade,
-                    'current_topic': topic
-                }
-                
-                # Create a session for the test
-                with client.session_transaction() as sess:
-                    sess['username'] = 'test_user'
-                    sess['session_id'] = 'test_session'
-                    sess['current_grade'] = grade
-                
-                # Test subtopic page route
-                response = client.get(f'/subtopics/{grade}/{topic}')
-                assert response.status_code == 200, f"Subtopic route failed for grade {grade}, topic {topic}. Status: {response.status_code}"
-                
-                print(f"   ✅ Route /subtopics/{grade}/{topic}: Working")
-    
-    print("✅ Authenticated routes test passed!")
+    finally:
+        # Clean up the test database and reset global state
+        reset_app_db()
+        if os.path.exists(temp_dir):
+            shutil.rmtree(temp_dir)
 
 def test_exercise_subtopic_routes():
     """Test that exercise routes work with subtopics"""

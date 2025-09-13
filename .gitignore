@@ -19,8 +19,9 @@ ssl_certs/key.pem
 flask_session/
 
 # Credentials
-data/Credentials.json
-data/Collaboration.json
+data/Credentials.json*
+data/Collaboration.json*
+data/*db*
 
 # Shell script
 run_app.sh

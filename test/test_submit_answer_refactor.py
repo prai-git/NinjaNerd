@@ -18,10 +18,15 @@ from unittest.mock import patch, MagicMock
 # Add the parent directory to the path so we can import the app
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-def test_submit_answer_atomic_operation():
+@patch('app.save_collaboration_data')
+@patch('app.load_collaboration_data')
+@patch('app.active_sessions', {})
+@patch('app.get_app_db')
+def test_submit_answer_atomic_operation(mock_get_db, mock_load_data, mock_save_data):
     """Test that submit_answer performs atomic history and statistics updates."""
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -30,9 +35,15 @@ def test_submit_answer_atomic_operation():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
+        
+        # Mock the collaboration data functions and database
+        mock_load_data.side_effect = lambda: {'invites': {}, 'chat_sessions': {}, 'message_counter': 0}
+        mock_save_data.return_value = None
+        mock_get_db.return_value = db
         
         # Create a test user
         test_user_data = {
@@ -116,10 +127,15 @@ def test_submit_answer_atomic_operation():
                                     assert history_entry['grade'] == 1
                                     assert 'timestamp' in history_entry
 
-def test_submit_answer_multiple_questions():
+@patch('app.save_collaboration_data')
+@patch('app.load_collaboration_data')
+@patch('app.active_sessions', {})
+@patch('app.get_app_db')
+def test_submit_answer_multiple_questions(mock_get_db, mock_load_data, mock_save_data):
     """Test that submit_answer correctly handles multiple questions and increments statistics."""
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -128,9 +144,15 @@ def test_submit_answer_multiple_questions():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
+        
+        # Mock the collaboration data functions and database
+        mock_load_data.side_effect = lambda: {'invites': {}, 'chat_sessions': {}, 'message_counter': 0}
+        mock_save_data.return_value = None
+        mock_get_db.return_value = db
         
         # Create a test user
         test_user_data = {
@@ -221,10 +243,15 @@ def test_submit_answer_multiple_questions():
                                     assert user_data['statistics']['questions_attempted'] == 2
                                     assert 'math' in user_data['statistics']['topics_covered']
 
-def test_submit_answer_error_handling():
+@patch('app.save_collaboration_data')
+@patch('app.load_collaboration_data')
+@patch('app.active_sessions', {})
+@patch('app.get_app_db')
+def test_submit_answer_error_handling(mock_get_db, mock_load_data, mock_save_data):
     """Test error handling when database operations fail."""
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -233,9 +260,15 @@ def test_submit_answer_error_handling():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
+        
+        # Mock the collaboration data functions and database
+        mock_load_data.side_effect = lambda: {'invites': {}, 'chat_sessions': {}, 'message_counter': 0}
+        mock_save_data.return_value = None
+        mock_get_db.return_value = db
         
         # Create a test user
         test_user_data = {

@@ -26,6 +26,7 @@ def test_chat_messages_not_marked_displayed_on_retrieval():
     """
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -34,7 +35,8 @@ def test_chat_messages_not_marked_displayed_on_retrieval():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
         
@@ -100,7 +102,7 @@ def test_chat_messages_not_marked_displayed_on_retrieval():
                 sess['username'] = 'admin@gmail.com'
                 sess['session_id'] = 'test_session_admin'
             
-            # Mock active sessions for both users in same grade/school
+            # Mock active sessions and database functions for both users in same grade/school
             with patch('app.active_sessions', {
                 'admin@gmail.com': {
                     'grade': 5,
@@ -112,7 +114,8 @@ def test_chat_messages_not_marked_displayed_on_retrieval():
                     'school_name': 'Test School',
                     'session_id': 'test_session_praveenrai'
                 }
-            }):
+            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
+               patch('app.save_collaboration_data', db.save_collaboration_data):
                 # admin@gmail.com should get the "Yo" message from praveenrai9@gmail.com
                 response = client.get('/get_chat_messages?partner=praveenrai9@gmail.com')
                 assert response.status_code == 200
@@ -152,6 +155,7 @@ def test_chat_messages_from_other_user():
     """
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -160,7 +164,8 @@ def test_chat_messages_from_other_user():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
         
@@ -219,7 +224,7 @@ def test_chat_messages_from_other_user():
                 sess['username'] = 'praveenrai9@gmail.com'
                 sess['session_id'] = 'test_session_praveenrai'
             
-            # Mock active sessions
+            # Mock active sessions and database functions
             with patch('app.active_sessions', {
                 'admin@gmail.com': {
                     'grade': 5,
@@ -231,7 +236,8 @@ def test_chat_messages_from_other_user():
                     'school_name': 'Test School',
                     'session_id': 'test_session_praveenrai'
                 }
-            }):
+            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
+               patch('app.save_collaboration_data', db.save_collaboration_data):
                 # praveenrai9@gmail.com should get the "hi" message from admin@gmail.com
                 response = client.get('/get_chat_messages?partner=admin@gmail.com')
                 assert response.status_code == 200
@@ -255,12 +261,20 @@ def test_chat_messages_from_other_user():
                     if msg['id'] == 133:
                         assert msg['displayed'] == False, "Message should NOT be marked as displayed after retrieval"
 
-def test_mark_message_displayed_endpoint():
+@patch('app.save_collaboration_data')
+@patch('app.load_collaboration_data')
+@patch('app.active_sessions', {})
+def test_mark_message_displayed_endpoint(mock_load_data, mock_save_data):
     """
     Test that the /mark_message_displayed endpoint works correctly
     """
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
+    
+    # Mock the load_collaboration_data to return test data
+    mock_load_data.side_effect = lambda: db.load_collaboration_data()
+    mock_save_data.side_effect = lambda data: db.save_collaboration_data(data)
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -269,7 +283,8 @@ def test_mark_message_displayed_endpoint():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
         

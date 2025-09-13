@@ -24,7 +24,22 @@ croniter>=1.4.0
 cryptography>=41.0.0
 email-validator
 
+# Database dependencies
+# sqlite3 - Built-in SQLite support (Python 3.x standard library)
+# Note: All required database dependencies are built-in to Python:
+# - sqlite3: SQLite database interface
+# - threading: Thread-based parallelism
+# - queue: Thread-safe queue implementation
+# - concurrent.futures: High-level threading interface
+# - contextlib: Context management utilities
+# - pathlib: Object-oriented filesystem paths
+# - uuid: UUID generation
+# - datetime: Date and time handling
+# - json: JSON encoder/decoder (for configuration only, not data persistence)
+# - logging: Logging facility
+# - os: Operating system interface
+# - time: Time-related functions
+
 # Email system dependencies (built-in with Python 3.6+)
 # smtplib - Built-in SMTP client
 # email.mime - Built-in MIME message construction
-# concurrent.futures - Built-in threading support for async operations

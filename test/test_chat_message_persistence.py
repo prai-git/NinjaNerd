@@ -22,6 +22,7 @@ def test_chat_messages_displayed_flag_persistence():
     """Test that chat messages are NOT automatically marked as displayed when retrieved."""
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -30,7 +31,8 @@ def test_chat_messages_displayed_flag_persistence():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()  # Clear any existing global database
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
         
@@ -101,6 +103,7 @@ def test_chat_messages_displayed_flag_persistence():
                 sess['session_id'] = 'test_session_user2'
             
             # Mock active sessions to include both users with same grade/school
+            # Also patch the app's database functions to use our test database
             with patch('app.active_sessions', {
                 'user1': {
                     'grade': 1,
@@ -112,7 +115,8 @@ def test_chat_messages_displayed_flag_persistence():
                     'school_name': 'Test School',
                     'session_id': 'test_session_user2'
                 }
-            }):
+            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
+               patch('app.save_collaboration_data', db.save_collaboration_data):
                 # First call to get_chat_messages should return 2 messages for user2
                 response = client.get('/get_chat_messages?partner=user1')
                 assert response.status_code == 200
@@ -149,6 +153,7 @@ def test_chat_messages_different_users():
     """Test that users only get their own messages."""
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -157,7 +162,8 @@ def test_chat_messages_different_users():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()  # Clear any existing global database
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
         
@@ -197,18 +203,24 @@ def test_chat_messages_different_users():
         }
         db.save_collaboration_data(collaboration_data)
         
+        # Mock the load_collaboration_data function to return our test data
+        # and test the user isolation logic without Flask context issues
+        def mock_load_collaboration_data():
+            return collaboration_data
+        
         with app.test_client() as client:
             # Set up session for user2 (not in the chat)
             with client.session_transaction() as sess:
                 sess['username'] = 'user2'
                 sess['session_id'] = 'test_session_user2'
             
-            # Mock active sessions
-            with patch('app.active_sessions', {
-                'user0': {'grade': 1, 'school_name': 'Test School'},
-                'user1': {'grade': 1, 'school_name': 'Test School'},
-                'user2': {'grade': 1, 'school_name': 'Test School'}
-            }):
+            # Mock both the collaboration data loading and active sessions
+            with patch('app.load_collaboration_data', side_effect=mock_load_collaboration_data), \
+                 patch('app.active_sessions', {
+                     'user0': {'grade': 1, 'school_name': 'Test School'},
+                     'user1': {'grade': 1, 'school_name': 'Test School'},
+                     'user2': {'grade': 1, 'school_name': 'Test School'}
+                 }):
                 # User2 tries to get messages from user0, but they're not in a chat together
                 response = client.get('/get_chat_messages?partner=user0')
                 assert response.status_code == 200
@@ -220,6 +232,7 @@ def test_chat_messages_grade_school_validation():
     """Test that users from different grades or schools can't access each other's messages."""
     from app import app
     from dbmgr.app_integration import initialize_app_db, get_app_db
+    from dbmgr.sqlite_app_integration import reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -228,7 +241,8 @@ def test_chat_messages_grade_school_validation():
         os.makedirs(data_dir)
         os.makedirs(backup_dir)
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()  # Clear any existing global database
         initialize_app_db(data_dir, backup_dir)
         db = get_app_db()
         

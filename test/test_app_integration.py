@@ -193,13 +193,13 @@ def test_dbmanager_integration():
             logger.info("✅ DBManager shutdown successfully")
             
         logger.info("🎉 All integration tests passed!")
-        return True
+        # Test passed - no need to return value in pytest
         
     except Exception as e:
         logger.error(f"❌ Integration test failed: {e}")
         import traceback
         traceback.print_exc()
-        return False
+        raise  # Re-raise the exception for pytest to catch
         
     finally:
         # Clean up temporary directory
@@ -300,13 +300,13 @@ def test_app_compatibility():
             db.shutdown()
                 
         logger.info("✅ App compatibility test passed!")
-        return True
+        # Test passed - no need to return value in pytest
         
     except Exception as e:
         logger.error(f"❌ App compatibility test failed: {e}")
         import traceback
         traceback.print_exc()
-        return False
+        raise  # Re-raise the exception for pytest to catch
         
     finally:
         # Clean up

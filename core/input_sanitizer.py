@@ -66,8 +66,8 @@ class InputValidator:
         
         original = username
         
-        # Trim and normalize
-        username = username.strip().lower()
+        # Trim whitespace but preserve case
+        username = username.strip()
         
         # Remove any HTML tags first
         username = re.sub(r'<[^>]+>', '', username)

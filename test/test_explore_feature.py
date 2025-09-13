@@ -100,6 +100,28 @@ class TestExploreFeature(unittest.TestCase):
         patcher4 = patch('app.log_user_activity')
         self.mock_log_activity = patcher4.start()
         self.addCleanup(patcher4.stop)
+        
+        # Mock enforce_grade_change_rules to avoid database calls
+        patcher5 = patch('app.enforce_grade_change_rules')
+        self.mock_enforce_grade_change = patcher5.start()
+        self.mock_enforce_grade_change.return_value = None  # No enforcement needed
+        self.addCleanup(patcher5.stop)
+        
+        # Mock get_user to avoid database calls
+        patcher6 = patch('app.get_user')
+        self.mock_get_user = patcher6.start()
+        self.mock_get_user.return_value = {
+            'email': 'testuser@example.com',
+            'grade': 3,
+            'school_name': 'Test School',
+            'history': [],
+            'statistics': {
+                'questions_attempted': 0,
+                'topics_covered': [],
+                'last_login': None
+            }
+        }
+        self.addCleanup(patcher6.stop)
     
     def tearDown(self):
         """Clean up after each test."""

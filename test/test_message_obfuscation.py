@@ -189,8 +189,10 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
         """Test that sent chat messages are obfuscated in storage."""
         from app import app
         from dbmgr.app_integration import initialize_app_db, get_app_db
+        from dbmgr.sqlite_app_integration import reset_app_db
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(self.data_dir, self.backup_dir)
         db = get_app_db()
         
@@ -232,7 +234,7 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
                 sess['username'] = 'user1'
                 sess['session_id'] = 'test_session_user1'
             
-            # Mock active sessions
+            # Mock active sessions and database functions
             with patch('app.active_sessions', {
                 'user1': {
                     'grade': 5,
@@ -244,7 +246,8 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
                     'school_name': 'Test School',
                     'session_id': 'test_session_user2'
                 }
-            }):
+            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
+               patch('app.save_collaboration_data', db.save_collaboration_data):
                 test_message = "Hello, this is a test message!"
                 
                 # Send a chat message
@@ -277,9 +280,11 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
         """Test that retrieved chat messages are properly deobfuscated."""
         from app import app
         from dbmgr.app_integration import initialize_app_db, get_app_db
+        from dbmgr.sqlite_app_integration import reset_app_db
         from data.message_security import obfuscate_message
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(self.data_dir, self.backup_dir)
         db = get_app_db()
         
@@ -341,7 +346,7 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
                 sess['username'] = 'user2'
                 sess['session_id'] = 'test_session_user2'
             
-            # Mock active sessions
+            # Mock active sessions and database functions
             with patch('app.active_sessions', {
                 'user1': {
                     'grade': 5,
@@ -353,7 +358,8 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
                     'school_name': 'Test School',
                     'session_id': 'test_session_user2'
                 }
-            }):
+            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
+               patch('app.save_collaboration_data', db.save_collaboration_data):
                 # Get chat messages
                 response = client.get('/get_chat_messages?partner=user1')
                 self.assertEqual(response.status_code, 200)
@@ -380,8 +386,10 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
         """Test that chat functionality remains completely unchanged for users."""
         from app import app
         from dbmgr.app_integration import initialize_app_db, get_app_db
+        from dbmgr.sqlite_app_integration import reset_app_db
         
-        # Initialize test database
+        # Reset and initialize test database
+        reset_app_db()
         initialize_app_db(self.data_dir, self.backup_dir)
         db = get_app_db()
         
@@ -418,7 +426,7 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
         db.save_collaboration_data(collaboration_data)
         
         with app.test_client() as client:
-            # Mock active sessions for both users
+            # Mock active sessions and database functions for both users
             with patch('app.active_sessions', {
                 'user1': {
                     'grade': 5,
@@ -430,7 +438,8 @@ class TestChatMessageObfuscationIntegration(unittest.TestCase):
                     'school_name': 'Test School',
                     'session_id': 'test_session_user2'
                 }
-            }):
+            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
+               patch('app.save_collaboration_data', db.save_collaboration_data):
                 test_messages = [
                     "Hello user2!",
                     "How are you doing?",

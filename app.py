@@ -5,6 +5,7 @@ from flask_limiter.util import get_remote_address
 from dotenv import load_dotenv
 import json
 import os
+import sys
 import logging
 from logging.handlers import RotatingFileHandler
 import requests
@@ -17,7 +18,8 @@ import atexit
 import signal
 from functools import wraps
 from ai.llm_service import LLMService
-from dbmgr.app_integration import initialize_app_db, get_app_db
+from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db
+from dbmgr.exceptions import DatabaseException
 from data.message_security import obfuscate_message, deobfuscate_message, is_message_obfuscated
 from session_storage.session_expiry import (
     SESSION_TIMEOUT_MINUTES, 
@@ -37,7 +39,8 @@ from core import (
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
+# Use a string secret key instead of bytes to avoid MessageObfuscator issues
+app.secret_key = os.urandom(24).hex()  # Convert bytes to hex string
 
 # Global logging configuration - will be initialized when app runs
 logging_integration = None
@@ -315,39 +318,16 @@ def init_credentials_db():
     """Initialize credentials database with default admin user"""
     try:
         db = get_app_db()
-        # Check if admin user exists
+        # Verify admin user exists (created by SQLite manager during initialization)
         admin_user = db.get_user("admin@gmail.com")
-        if admin_user is None:
-            # Create default admin user
-            default_user_data = {
-                "password": generate_password_hash("adminatgmaildotcom"),
-                "school_name": "NinjaNerd Academy",
-                "history": [],
-                "statistics": {
-                    "questions_attempted": 0,
-                    "topics_covered": [],
-                    "last_login": None
-                }
-            }
-            db.db_manager.create_user("admin@gmail.com", default_user_data)
+        if admin_user is not None:
+            app.logger.info("Admin user verified in database")
+        else:
+            app.logger.warning("Admin user not found in database")
     except Exception as e:
         app.logger.error(f"Error initializing credentials: {e}")
-        # Fallback to original file-based approach
-        if not os.path.exists(CREDENTIALS_FILE):
-            default_data = {
-                "admin@gmail.com": {
-                    "password": generate_password_hash("adminatgmaildotcom"),
-                    "school_name": "NinjaNerd Academy",
-                    "history": [],
-                    "statistics": {
-                        "questions_attempted": 0,
-                        "topics_covered": [],
-                        "last_login": None
-                    }
-                }
-            }
-            with open(CREDENTIALS_FILE, 'w') as f:
-                json.dump(default_data, f, indent=2)
+        # SQLite database is required - no fallback to JSON files
+        raise DatabaseException(f"SQLite database initialization failed: {e}")
 
 def init_collaboration_db():
     """Initialize collaboration database"""
@@ -365,15 +345,8 @@ def init_collaboration_db():
             db.save_collaboration_data(default_data)
     except Exception as e:
         app.logger.error(f"Error initializing collaboration: {e}")
-        # Fallback to original file-based approach
-        if not os.path.exists(COLLABORATION_FILE):
-            default_data = {
-                "invites": {},
-                "chat_sessions": {},
-                "message_counter": 0
-            }
-            with open(COLLABORATION_FILE, 'w') as f:
-                json.dump(default_data, f, indent=2)
+        # SQLite database is required - no fallback to JSON files
+        raise DatabaseException(f"SQLite collaboration initialization failed: {e}")
 
 def load_credentials():
     """Load credentials from database with thread safety"""
@@ -382,14 +355,9 @@ def load_credentials():
             db = get_app_db()
             return db.load_credentials()
         except Exception as e:
-            app.logger.error(f"Error loading credentials via DBManager: {e}")
-            # Fallback to file-based approach
-            try:
-                with open(CREDENTIALS_FILE, 'r') as f:
-                    return json.load(f)
-            except FileNotFoundError:
-                init_credentials_db()
-                return load_credentials()
+            app.logger.error(f"Error loading credentials via SQLite DBManager: {e}")
+            # SQLite database is required - no fallback to JSON files
+            raise DatabaseException(f"Failed to load credentials from SQLite database: {e}")
 
 def save_credentials(data):
     """Save credentials to database with thread safety"""
@@ -398,10 +366,52 @@ def save_credentials(data):
             db = get_app_db()
             db.save_credentials(data)
         except Exception as e:
-            app.logger.error(f"Error saving credentials via DBManager: {e}")
-            # Fallback to file-based approach
-            with open(CREDENTIALS_FILE, 'w') as f:
-                json.dump(data, f, indent=2)
+            app.logger.error(f"Error saving credentials via SQLite DBManager: {e}")
+            # SQLite database is required - no fallback to JSON files
+            raise DatabaseException(f"Failed to save credentials to SQLite database: {e}")
+
+def get_user(username):
+    """Get user data using SQLite database manager"""
+    try:
+        db = get_app_db()
+        return db.get_user(username)
+    except Exception as e:
+        app.logger.error(f"Error getting user {username}: {e}")
+        # SQLite database is required - no fallback to JSON files
+        raise DatabaseException(f"Failed to get user from SQLite database: {e}")
+
+def create_user(username, user_data):
+    """Create user using SQLite database manager"""
+    try:
+        db = get_app_db()
+        # Extract individual parameters from user_data
+        password = user_data.get('password', '')
+        school_name = user_data.get('school_name', '')
+        return db.create_user(username, password, school_name)
+    except Exception as e:
+        app.logger.error(f"Error creating user {username}: {e}")
+        # SQLite database is required - no fallback to JSON files
+        raise DatabaseException(f"Failed to create user in SQLite database: {e}")
+
+def authenticate_user(username, password):
+    """Authenticate user using SQLite database manager"""
+    try:
+        db = get_app_db()
+        return db.authenticate_user(username, password)
+    except Exception as e:
+        app.logger.error(f"Error authenticating user {username}: {e}")
+        # SQLite database is required - no fallback to JSON files
+        raise DatabaseException(f"Failed to authenticate user with SQLite database: {e}")
+
+def update_user_history(username, history_entry):
+    """Update user history using SQLite database manager"""
+    try:
+        db = get_app_db()
+        return db.update_user_history(username, history_entry)
+    except Exception as e:
+        app.logger.error(f"Error updating history for user {username}: {e}")
+        # SQLite database is required - no fallback to JSON files
+        raise DatabaseException(f"Failed to update user history in SQLite database: {e}")
 
 def load_collaboration_data():
     """Load collaboration data from database with thread safety"""
@@ -410,14 +420,9 @@ def load_collaboration_data():
             db = get_app_db()
             return db.load_collaboration_data()
         except Exception as e:
-            app.logger.error(f"Error loading collaboration data via DBManager: {e}")
-            # Fallback to file-based approach
-            try:
-                with open(COLLABORATION_FILE, 'r') as f:
-                    return json.load(f)
-            except FileNotFoundError:
-                init_collaboration_db()
-                return load_collaboration_data()
+            app.logger.error(f"Error loading collaboration data via SQLite DBManager: {e}")
+            # SQLite database is required - no fallback to JSON files
+            raise DatabaseException(f"Failed to load collaboration data from SQLite database: {e}")
 
 def save_collaboration_data(data):
     """Save collaboration data to database with thread safety"""
@@ -426,10 +431,9 @@ def save_collaboration_data(data):
             db = get_app_db()
             db.save_collaboration_data(data)
         except Exception as e:
-            app.logger.error(f"Error saving collaboration data via DBManager: {e}")
-            # Fallback to file-based approach
-            with open(COLLABORATION_FILE, 'w') as f:
-                json.dump(data, f, indent=2)
+            app.logger.error(f"Error saving collaboration data via SQLite DBManager: {e}")
+            # SQLite database is required - no fallback to JSON files
+            raise DatabaseException(f"Failed to save collaboration data to SQLite database: {e}")
 
 def end_all_user_chats(username):
     """End all active chat sessions for a user when they change grades"""
@@ -498,7 +502,7 @@ def enforce_grade_change_rules(username: str, new_grade: int, topic: str = None)
             app.logger.info(f"User {username} changed grade from {old_grade} to {new_grade}, ended all chats")
         
         # Update session state
-        credentials = load_credentials()
+        user_data = get_user(username)
         
         if username in active_sessions:
             active_sessions[username]['grade'] = new_grade
@@ -510,7 +514,7 @@ def enforce_grade_change_rules(username: str, new_grade: int, topic: str = None)
             active_sessions[username] = {
                 'session_id': session.get('session_id', str(uuid.uuid4())),
                 'last_activity': datetime.now().isoformat(),
-                'school_name': credentials[username].get('school_name', 'Unknown School'),
+                'school_name': user_data.get('school_name', 'Unknown School') if user_data else 'Unknown School',
                 'current_topic': topic,
                 'grade': new_grade
             }
@@ -640,9 +644,9 @@ def login():
             flash(f"Invalid input: {str(e)}")
             return render_template('login.html')
         
-        credentials = load_credentials()
-        
-        if username in credentials and check_password_hash(credentials[username]['password'], password):
+        # Authenticate user using database
+        user_data = authenticate_user(username, password)
+        if user_data:
             # Enable permanent session with configurable timeout
             session.permanent = True
             session['username'] = username
@@ -660,7 +664,7 @@ def login():
             active_sessions[username] = {
                 'session_id': session['session_id'],
                 'last_activity': datetime.now().isoformat(),
-                'school_name': credentials[username].get('school_name', 'Unknown School'),
+                'school_name': user_data.get('school_name', 'Unknown School'),
                 'current_topic': None,
                 'grade': None
             }
@@ -709,28 +713,23 @@ def create_account():
             flash('Username already exists')
         else:
             from gw.emailgw import EmailHandler
-            user_data = {
-                "password": generate_password_hash(password),
-                "school_name": school_name if school_name else "Unknown School",
-                "history": [],
-                "statistics": {
-                    "questions_attempted": 0,
-                    "topics_covered": [],
-                    "last_login": None
-                },
-                "created_at": datetime.now().isoformat()
-            }
-            db.db_manager.create_user(username, user_data)
-            log_user_activity(username, "Account created successfully")
-            # Send welcome email asynchronously
-            try:
-                email_handler = EmailHandler()
-                email_handler.send_account_creation_async(username, username)
-                app.logger.info(f"Account creation email queued for {username}")
-            except Exception as e:
-                app.logger.warning(f"Failed to queue account creation email: {e}")
-            flash('Account created successfully')
-            return redirect(url_for('login'))
+            # Create user using the integration layer
+            user_id = db.create_user(username, password, school_name if school_name else "Unknown School")
+            
+            if user_id:
+                log_user_activity(username, "Account created successfully")
+                # Send welcome email asynchronously
+                try:
+                    email_handler = EmailHandler()
+                    email_handler.send_account_creation_async(username, username)
+                    app.logger.info(f"Account creation email queued for {username}")
+                except Exception as e:
+                    app.logger.warning(f"Failed to queue account creation email: {e}")
+                flash('Account created successfully')
+                return redirect(url_for('login'))
+            else:
+                flash('Error creating account. Please try again.')
+                return render_template('create_account.html')
     return render_template('create_account.html')
 
 @app.route('/about')
@@ -1041,8 +1040,8 @@ def exercise(grade, topic):
     enforce_grade_change_rules(current_user, grade, topic)
     
     # Load user history for difficulty adjustment
-    credentials = load_credentials()
-    user_history = credentials[session['username']]['history']
+    user_data = get_user(session['username'])
+    user_history = user_data.get('history', []) if user_data else []
     
     # Load prompt and call LLM service
     prompt = load_prompt(topic)
@@ -1095,8 +1094,8 @@ def exercise_with_subtopic(grade, topic, subtopic):
         active_sessions[current_user]['current_subtopic'] = subtopic
     
     # Load user history for difficulty adjustment - filter by topic and subtopic
-    credentials = load_credentials()
-    user_history = credentials[session['username']]['history']
+    user_data = get_user(session['username'])
+    user_history = user_data.get('history', []) if user_data else []
     filtered_history = [h for h in user_history if h.get('topic') == topic and h.get('subtopic') == subtopic]
     
     # Load prompt and call LLM service with subtopic context
@@ -1157,10 +1156,11 @@ def explore_subtopic(grade, topic, subtopic):
         active_sessions[current_user]['current_subtopic'] = subtopic
         active_sessions[current_user]['grade'] = grade
     else:
+        user_data = get_user(current_user)
         active_sessions[current_user] = {
             'session_id': session.get('session_id', str(uuid.uuid4())),
             'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'school_name': user_data.get('school_name', 'Unknown School') if user_data else 'Unknown School',
             'current_topic': topic,
             'current_subtopic': subtopic,
             'grade': grade
@@ -1207,10 +1207,11 @@ def learn_subtopic(grade, topic, subtopic):
         active_sessions[current_user]['grade'] = grade
         active_sessions[current_user]['mode'] = 'learn'
     else:
+        user_data = get_user(current_user)
         active_sessions[current_user] = {
             'session_id': session.get('session_id', str(uuid.uuid4())),
             'last_activity': datetime.now().isoformat(),
-            'school_name': credentials[current_user].get('school_name', 'Unknown School'),
+            'school_name': user_data.get('school_name', 'Unknown School') if user_data else 'Unknown School',
             'current_topic': topic,
             'current_subtopic': subtopic,
             'grade': grade,
@@ -1763,7 +1764,6 @@ def send_chat_message():
         # Atomically increment message counter and add message
         collaboration_data['message_counter'] = collaboration_data.get('message_counter', 0) + 1
         message_data = {
-            'id': collaboration_data['message_counter'],
             'from_user': from_user,
             'to_user': to_user,
             'message': obfuscate_message(message),  # Obfuscate message for security
@@ -2049,14 +2049,18 @@ if __name__ == '__main__':
     # Set active sessions reference for LLM service
     llm_service.set_active_sessions_reference(active_sessions)
     
-    # Initialize DBManager
+    # Initialize SQLite DBManager (required - no fallback)
     try:
-        app.logger.info("Initializing DBManager...")
-        initialize_app_db('data', 'backups')
-        app.logger.info("DBManager initialized successfully")
+        app.logger.info("Initializing SQLite DBManager...")
+        initialize_app_db(app, db_path='data/ninjanerd.db')
+        app.logger.info("SQLite DBManager initialized successfully")
     except Exception as e:
-        app.logger.error(f"Failed to initialize DBManager: {e}")
-        app.logger.info("Falling back to file-based database operations")
+        app.logger.error(f"Failed to initialize SQLite DBManager: {e}")
+        app.logger.error("SQLite database is required for application operation")
+        print(f"❌ CRITICAL ERROR: SQLite database initialization failed: {e}")
+        print("❌ Application cannot start without SQLite database")
+        print("🔧 Please check database permissions and disk space")
+        sys.exit(1)  # Exit application as SQLite is required
     
     init_credentials_db()
     init_collaboration_db()
@@ -2091,7 +2095,7 @@ if __name__ == '__main__':
         
         # Shutdown DBManager
         try:
-            from dbmgr.app_integration import get_app_db
+            from dbmgr.sqlite_app_integration import get_app_db
             db = get_app_db()
             if db:
                 print("Shutting down DBManager...")
