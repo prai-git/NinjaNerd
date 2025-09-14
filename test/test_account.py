@@ -49,10 +49,18 @@ class TestAccountPage(unittest.TestCase):
     
     def test_account_password_update(self):
         """Test password update functionality"""
-        from dbmgr.app_integration import AppDBWrapper
+        from app import app
+        from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
         
-        # Create database wrapper
-        db = AppDBWrapper(self.data_dir, self.backup_dir)
+        # Reset and initialize test database
+        reset_app_db()
+        db = initialize_app_db(app,
+                             db_path=os.path.join(self.data_dir, 'test_account.db'),
+                             max_connections=5)
+        db = get_app_db()
+        
+        # Create a test user first
+        db.create_user('testuser@example.com', 'hashed_password', 'Test School')
         
         # Test password update directly
         original_user = db.get_user('testuser@example.com')
@@ -70,10 +78,18 @@ class TestAccountPage(unittest.TestCase):
     
     def test_account_school_update(self):
         """Test school name update functionality"""
-        from dbmgr.app_integration import AppDBWrapper
+        from app import app
+        from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
         
-        # Create database wrapper
-        db = AppDBWrapper(self.data_dir, self.backup_dir)
+        # Reset and initialize test database
+        reset_app_db()
+        db = initialize_app_db(app,
+                             db_path=os.path.join(self.data_dir, 'test_account.db'),
+                             max_connections=5)
+        db = get_app_db()
+        
+        # Create a test user first
+        db.create_user('testuser@example.com', 'hashed_password', 'Test School')
         
         # Test school name update directly
         original_user = db.get_user('testuser@example.com')
@@ -91,10 +107,18 @@ class TestAccountPage(unittest.TestCase):
     
     def test_account_both_update(self):
         """Test updating both password and school name"""
-        from dbmgr.app_integration import AppDBWrapper
+        from app import app
+        from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
         
-        # Create database wrapper
-        db = AppDBWrapper(self.data_dir, self.backup_dir)
+        # Reset and initialize test database
+        reset_app_db()
+        db = initialize_app_db(app,
+                             db_path=os.path.join(self.data_dir, 'test_account.db'),
+                             max_connections=5)
+        db = get_app_db()
+        
+        # Create a test user first
+        db.create_user('testuser@example.com', 'hashed_password', 'Test School')
         
         # Test both updates
         original_user = db.get_user('testuser@example.com')
@@ -115,10 +139,15 @@ class TestAccountPage(unittest.TestCase):
     
     def test_account_nonexistent_user(self):
         """Test updating nonexistent user"""
-        from dbmgr.app_integration import AppDBWrapper
+        from app import app
+        from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
         
-        # Create database wrapper
-        db = AppDBWrapper(self.data_dir, self.backup_dir)
+        # Reset and initialize test database
+        reset_app_db()
+        db = initialize_app_db(app,
+                             db_path=os.path.join(self.data_dir, 'test_account.db'),
+                             max_connections=5)
+        db = get_app_db()
         
         # Test updating nonexistent user
         success1 = db.update_user_password('nonexistent@example.com', 'new_password')

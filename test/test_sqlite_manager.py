@@ -225,7 +225,7 @@ class TestSQLiteManager:
         invite_id = self.manager.create_invite(user1_email, user2_email)
         assert invite_id is not None
         
-        # Update invite status
+        # Update invite status using invite_id signature
         success = self.manager.update_invite_status(invite_id, "accepted")
         assert success is True
         
@@ -395,6 +395,53 @@ class TestSQLiteManager:
             finally:
                 # Restore permissions for cleanup
                 os.chmod(os.path.dirname(invalid_path), 0o755)
+
+    def test_get_database_stats(self):
+        """Test the get_database_stats method for initialization verification."""
+        # Create test data
+        self.manager.create_user("stats_test1@example.com", "password123")
+        self.manager.create_user("stats_test2@example.com", "password456")
+        
+        session_id = self.manager.create_chat_session("stats_test1@example.com", "stats_test2@example.com")
+        self.manager.add_message(session_id, "stats_test1@example.com", "stats_test2@example.com", "Test stats message")
+        
+        # Get database stats
+        stats = self.manager.get_database_stats()
+        
+        # Verify stats structure
+        expected_keys = [
+            'total_users', 'total_messages', 'total_chat_sessions', 
+            'active_sessions', 'pending_invites', 'database_size_bytes', 
+            'database_size_mb', 'messages_last_24h'
+        ]
+        
+        for key in expected_keys:
+            assert key in stats, f"Missing key '{key}' in database stats"
+        
+        # Verify stats have reasonable values
+        assert stats['total_users'] >= 2  # At least 2 test users
+        assert stats['total_messages'] >= 1
+        assert stats['total_chat_sessions'] >= 1
+        assert stats['database_size_bytes'] > 0
+        assert stats['database_size_mb'] >= 0
+        assert isinstance(stats['active_sessions'], int)
+        assert isinstance(stats['pending_invites'], int)
+        assert isinstance(stats['messages_last_24h'], int)
+    
+    def test_get_database_stats_empty_database(self):
+        """Test get_database_stats with minimal data."""
+        # Get stats from fresh database
+        stats = self.manager.get_database_stats()
+        
+        # Should still return valid structure with zero/minimal counts
+        assert 'total_users' in stats
+        assert stats['total_users'] >= 0  # Could be 0 users in a fresh test db
+        assert stats['database_size_bytes'] >= 0  # Database file exists
+        
+        # Should not have errors if database is properly initialized
+        if 'error' in stats:
+            # If there are errors, they should be related to missing tables (acceptable for empty DB)
+            assert 'table' in stats['error'].lower() or 'column' in stats['error'].lower()
 
 
 if __name__ == "__main__":

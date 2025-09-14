@@ -18,11 +18,10 @@ from datetime import datetime
 # Add the parent directory to the path so we can import the app
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-def test_chat_messages_displayed_flag_persistence():
-    """Test that chat messages are NOT automatically marked as displayed when retrieved."""
+def test_chat_messages_displayed_flag_persistence_old_interface():
+    """Test that chat messages are NOT automatically marked as displayed when retrieved (compatibility test)."""
     from app import app
-    from dbmgr.app_integration import initialize_app_db, get_app_db
-    from dbmgr.sqlite_app_integration import reset_app_db
+    from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -33,68 +32,23 @@ def test_chat_messages_displayed_flag_persistence():
         
         # Reset and initialize test database
         reset_app_db()  # Clear any existing global database
-        initialize_app_db(data_dir, backup_dir)
-        db = get_app_db()
+        db_path = os.path.join(data_dir, 'test.db')
+        db = initialize_app_db(app, 
+                               db_path=db_path,
+                               data_dir=data_dir,
+                               backup_dir=backup_dir)
         
         # Create test users
-        test_user1_data = {
-            'password': 'test_password_hash',
-            'school_name': 'Test School',
-            'history': [],
-            'statistics': {}
-        }
-        test_user2_data = {
-            'password': 'test_password_hash2',
-            'school_name': 'Test School',
-            'history': [],
-            'statistics': {}
-        }
-        db.db_manager.create_user('user1', test_user1_data)
-        db.db_manager.create_user('user2', test_user2_data)
+        db.create_user('user1', 'test_password_hash', 'Test School')
+        db.create_user('user2', 'test_password_hash2', 'Test School')
         
-        # Create a collaboration data with chat session and messages
-        collaboration_data = {
-            'invites': {},
-            'chat_sessions': {
-                'session_123': {
-                    'active': True,
-                    'user1': 'user1',
-                    'user2': 'user2',
-                    'topic': 'math',
-                    'subtopic': 'addition',
-                    'grade': 1,
-                    'created_at': datetime.now().isoformat(),
-                    'messages': [
-                        {
-                            'id': 'msg_1',
-                            'from_user': 'user1',
-                            'to_user': 'user2',
-                            'message': 'Hello user2!',
-                            'timestamp': datetime.now().isoformat(),
-                            'displayed': False
-                        },
-                        {
-                            'id': 'msg_2',
-                            'from_user': 'user1',
-                            'to_user': 'user2',
-                            'message': 'How are you?',
-                            'timestamp': datetime.now().isoformat(),
-                            'displayed': False
-                        },
-                        {
-                            'id': 'msg_3',
-                            'from_user': 'user2',
-                            'to_user': 'user1',
-                            'message': 'I am fine, thanks!',
-                            'timestamp': datetime.now().isoformat(),
-                            'displayed': False
-                        }
-                    ]
-                }
-            },
-            'message_counter': 3
-        }
-        db.save_collaboration_data(collaboration_data)
+        # Create chat session and add messages using SQLite methods
+        session_id = db.create_chat_session('user1', 'user2')
+        
+        # Add test messages
+        message_id_1 = db.add_message(session_id, 'user1', 'user2', 'Hello user2!')
+        message_id_2 = db.add_message(session_id, 'user1', 'user2', 'How are you?')
+        message_id_3 = db.add_message(session_id, 'user2', 'user1', 'I am fine, thanks!')
         
         with app.test_client() as client:
             # Set up session for user2
@@ -103,7 +57,6 @@ def test_chat_messages_displayed_flag_persistence():
                 sess['session_id'] = 'test_session_user2'
             
             # Mock active sessions to include both users with same grade/school
-            # Also patch the app's database functions to use our test database
             with patch('app.active_sessions', {
                 'user1': {
                     'grade': 1,
@@ -115,8 +68,7 @@ def test_chat_messages_displayed_flag_persistence():
                     'school_name': 'Test School',
                     'session_id': 'test_session_user2'
                 }
-            }), patch('app.load_collaboration_data', db.load_collaboration_data), \
-               patch('app.save_collaboration_data', db.save_collaboration_data):
+            }):
                 # First call to get_chat_messages should return 2 messages for user2
                 response = client.get('/get_chat_messages?partner=user1')
                 assert response.status_code == 200
@@ -125,11 +77,10 @@ def test_chat_messages_displayed_flag_persistence():
                 assert 'messages' in response_data
                 assert len(response_data['messages']) == 2  # 2 messages from user1 to user2
                 
-                # Verify the messages are the correct ones
-                message_ids = [msg['id'] for msg in response_data['messages']]
-                assert 'msg_1' in message_ids
-                assert 'msg_2' in message_ids
-                assert 'msg_3' not in message_ids  # This was from user2 to user1
+                # Verify the messages are from user1 to user2
+                for message in response_data['messages']:
+                    assert message['from_user'] == 'user1'
+                    assert message['displayed'] == False  # Should not be automatically marked as displayed
                 
                 # Second call should return same messages (they are NOT marked as displayed automatically)
                 response = client.get('/get_chat_messages?partner=user1')
@@ -140,20 +91,14 @@ def test_chat_messages_displayed_flag_persistence():
                 assert len(response_data['messages']) == 2  # Same messages returned again
                 
                 # Verify in the database that messages are NOT marked as displayed after retrieval
-                updated_collaboration_data = db.load_collaboration_data()
-                session_data = updated_collaboration_data['chat_sessions']['session_123']
-                
-                for msg in session_data['messages']:
-                    if msg['to_user'] == 'user2':  # Messages to user2 should still be undisplayed
-                        assert msg['displayed'] is False
-                    else:  # Message from user2 to user1 should still be undisplayed
-                        assert msg['displayed'] is False
+                all_messages = db.get_chat_messages('user1', 'user2')
+                for msg in all_messages:
+                    assert msg['displayed'] == False, "Messages should NOT be marked as displayed after retrieval"
 
 def test_chat_messages_different_users():
     """Test that users only get their own messages."""
     from app import app
-    from dbmgr.app_integration import initialize_app_db, get_app_db
-    from dbmgr.sqlite_app_integration import reset_app_db
+    from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -164,65 +109,33 @@ def test_chat_messages_different_users():
         
         # Reset and initialize test database
         reset_app_db()  # Clear any existing global database
-        initialize_app_db(data_dir, backup_dir)
-        db = get_app_db()
+        db = initialize_app_db(app, 
+                             db_path=os.path.join(data_dir, 'test_persistence.db'),
+                             max_connections=5)
         
         # Create test users
         for i in range(3):
-            user_data = {
-                'password': f'test_password_hash_{i}',
-                'school_name': 'Test School',
-                'history': [],
-                'statistics': {}
-            }
-            db.db_manager.create_user(f'user{i}', user_data)
+            user_created = db.create_user(f'user{i}@test.com', f'test_password_hash_{i}', 'Test School')
+            assert user_created
         
-        # Create collaboration data with messages
-        collaboration_data = {
-            'invites': {},
-            'chat_sessions': {
-                'session_123': {
-                    'active': True,
-                    'user1': 'user0',
-                    'user2': 'user1',
-                    'topic': 'math',
-                    'grade': 1,
-                    'messages': [
-                        {
-                            'id': 'msg_1',
-                            'from_user': 'user0',
-                            'to_user': 'user1',
-                            'message': 'Hello user1!',
-                            'timestamp': datetime.now().isoformat(),
-                            'displayed': False
-                        }
-                    ]
-                }
-            },
-            'message_counter': 1
-        }
-        db.save_collaboration_data(collaboration_data)
-        
-        # Mock the load_collaboration_data function to return our test data
-        # and test the user isolation logic without Flask context issues
-        def mock_load_collaboration_data():
-            return collaboration_data
+        # Create a chat session and add test messages
+        session_id = db.create_chat_session('user0@test.com', 'user1@test.com')
+        message_id = db.add_message(session_id, 'user0@test.com', 'user1@test.com', 'Hello user1!')
         
         with app.test_client() as client:
             # Set up session for user2 (not in the chat)
             with client.session_transaction() as sess:
-                sess['username'] = 'user2'
+                sess['username'] = 'user2@test.com'
                 sess['session_id'] = 'test_session_user2'
             
-            # Mock both the collaboration data loading and active sessions
-            with patch('app.load_collaboration_data', side_effect=mock_load_collaboration_data), \
-                 patch('app.active_sessions', {
-                     'user0': {'grade': 1, 'school_name': 'Test School'},
-                     'user1': {'grade': 1, 'school_name': 'Test School'},
-                     'user2': {'grade': 1, 'school_name': 'Test School'}
-                 }):
+            # Mock active sessions and database access
+            with patch('app.active_sessions', {
+                     'user0@test.com': {'grade': 1, 'school_name': 'Test School', 'session_id': 'test_session_user0'},
+                     'user1@test.com': {'grade': 1, 'school_name': 'Test School', 'session_id': 'test_session_user1'},
+                     'user2@test.com': {'grade': 1, 'school_name': 'Test School', 'session_id': 'test_session_user2'}
+                 }), patch('app.get_app_db', return_value=db):
                 # User2 tries to get messages from user0, but they're not in a chat together
-                response = client.get('/get_chat_messages?partner=user0')
+                response = client.get('/get_chat_messages?partner=user0@test.com')
                 assert response.status_code == 200
                 
                 response_data = response.get_json()
@@ -231,8 +144,7 @@ def test_chat_messages_different_users():
 def test_chat_messages_grade_school_validation():
     """Test that users from different grades or schools can't access each other's messages."""
     from app import app
-    from dbmgr.app_integration import initialize_app_db, get_app_db
-    from dbmgr.sqlite_app_integration import reset_app_db
+    from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -243,33 +155,36 @@ def test_chat_messages_grade_school_validation():
         
         # Reset and initialize test database
         reset_app_db()  # Clear any existing global database
-        initialize_app_db(data_dir, backup_dir)
-        db = get_app_db()
+        db = initialize_app_db(app, 
+                             db_path=os.path.join(data_dir, 'test_grade_school.db'),
+                             max_connections=5)
         
         with app.test_client() as client:
             with client.session_transaction() as sess:
                 sess['username'] = 'user1'
                 sess['session_id'] = 'test_session'
             
-            # Test different grades
-            with patch('app.active_sessions', {
-                'user1': {'grade': 1, 'school_name': 'Test School'},
-                'user2': {'grade': 2, 'school_name': 'Test School'}  # Different grade
-            }):
-                response = client.get('/get_chat_messages?partner=user2')
-                assert response.status_code == 200
-                response_data = response.get_json()
-                assert len(response_data['messages']) == 0
-            
-            # Test different schools
-            with patch('app.active_sessions', {
-                'user1': {'grade': 1, 'school_name': 'Test School'},
-                'user2': {'grade': 1, 'school_name': 'Other School'}  # Different school
-            }):
-                response = client.get('/get_chat_messages?partner=user2')
-                assert response.status_code == 200
-                response_data = response.get_json()
-                assert len(response_data['messages']) == 0
+            # Mock database access
+            with patch('app.get_app_db', return_value=db):
+                # Test different grades
+                with patch('app.active_sessions', {
+                    'user1': {'grade': 1, 'school_name': 'Test School'},
+                    'user2': {'grade': 2, 'school_name': 'Test School'}  # Different grade
+                }):
+                    response = client.get('/get_chat_messages?partner=user2')
+                    assert response.status_code == 200
+                    response_data = response.get_json()
+                    assert len(response_data['messages']) == 0
+                
+                # Test different schools
+                with patch('app.active_sessions', {
+                    'user1': {'grade': 1, 'school_name': 'Test School'},
+                    'user2': {'grade': 1, 'school_name': 'Other School'}  # Different school
+                }):
+                    response = client.get('/get_chat_messages?partner=user2')
+                    assert response.status_code == 200
+                    response_data = response.get_json()
+                    assert len(response_data['messages']) == 0
 
 if __name__ == '__main__':
     pytest.main([__file__, '-v'])

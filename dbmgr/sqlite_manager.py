@@ -752,7 +752,7 @@ class SQLiteManager:
                     # Get messages for this session
                     message_rows = conn.execute("""
                         SELECT m.id, uf.email as from_user, ut.email as to_user,
-                               m.message_content as message, m.timestamp, m.displayed
+                               COALESCE(m.obfuscated_content, m.message_content) as message, m.timestamp, m.displayed
                         FROM messages m
                         JOIN users uf ON m.from_user_id = uf.id
                         JOIN users ut ON m.to_user_id = ut.id
@@ -962,6 +962,87 @@ class SQLiteManager:
             
         except Exception as e:
             self._logger.error(f"Failed to update message {message_id} displayed status: {e}")
+            return False
+    
+    def end_all_user_chats(self, username: str) -> bool:
+        """
+        End all active chat sessions for a user.
+        
+        Args:
+            username: User email
+            
+        Returns:
+            True if successful
+        """
+        try:
+            with self.connection_pool.get_connection() as conn:
+                # Get user ID
+                user_row = conn.execute(
+                    "SELECT id FROM users WHERE email = ?",
+                    (username,)
+                ).fetchone()
+                
+                if not user_row:
+                    return False
+                
+                user_id = user_row['id']
+                
+                # Deactivate all chat sessions involving this user
+                cursor = conn.execute("""
+                    UPDATE chat_sessions
+                    SET active = 0
+                    WHERE (user1_id = ? OR user2_id = ?) AND active = 1
+                """, (user_id, user_id))
+                
+                conn.commit()
+                return cursor.rowcount > 0
+                
+        except Exception as e:
+            self._logger.error(f"Failed to end chats for user {username}: {e}")
+            return False
+    
+    def cleanup_invites_between_users(self, user1: str, user2: str) -> bool:
+        """
+        Remove all invites between two users.
+        
+        Args:
+            user1: First user email
+            user2: Second user email
+            
+        Returns:
+            True if successful
+        """
+        try:
+            with self.connection_pool.get_connection() as conn:
+                # Get user IDs
+                user1_row = conn.execute(
+                    "SELECT id FROM users WHERE email = ?",
+                    (user1,)
+                ).fetchone()
+                
+                user2_row = conn.execute(
+                    "SELECT id FROM users WHERE email = ?",
+                    (user2,)
+                ).fetchone()
+                
+                if not user1_row or not user2_row:
+                    return False
+                
+                user1_id = user1_row['id']
+                user2_id = user2_row['id']
+                
+                # Remove invites in both directions
+                cursor = conn.execute("""
+                    DELETE FROM invites
+                    WHERE (from_user_id = ? AND to_user_email = ?)
+                       OR (from_user_id = ? AND to_user_email = ?)
+                """, (user1_id, user2, user2_id, user1))
+                
+                conn.commit()
+                return True
+                
+        except Exception as e:
+            self._logger.error(f"Failed to cleanup invites between {user1} and {user2}: {e}")
             return False
     
     # ===============================
@@ -1223,6 +1304,186 @@ class SQLiteManager:
         """Disable automatic recovery features."""
         self.recovery_manager.disable_auto_recovery()
         self._logger.info("Auto-recovery disabled")
+    
+    def get_pending_invite_for_user(self, username: str):
+        """Get pending invite for a specific user."""
+        try:
+            with self.connection_pool.get_connection() as conn:
+                invite = conn.execute("""
+                    SELECT i.id, u_from.email as from_user, i.to_user_email as to_user, 
+                           i.status, i.created_at
+                    FROM invites i
+                    JOIN users u_from ON i.from_user_id = u_from.id
+                    WHERE i.to_user_email = ? AND i.status = 'pending'
+                    ORDER BY i.created_at DESC
+                    LIMIT 1
+                """, (username,)).fetchone()
+                
+                if invite:
+                    return {
+                        'id': invite['id'],
+                        'from_user': invite['from_user'],
+                        'to_user': invite['to_user'],
+                        'status': invite['status'],
+                        'created_at': invite['created_at']
+                    }
+                return None
+                
+        except Exception as e:
+            self._logger.error(f"Failed to get pending invite for {username}: {e}")
+            return None
+    
+    def update_invite_status_by_users(self, from_user: str, to_user: str, status: str) -> bool:
+        """Update invite status between two users and optionally create chat session."""
+        try:
+            with self.connection_pool.get_connection() as conn:
+                # Find the invite
+                from_user_row = conn.execute(
+                    "SELECT id FROM users WHERE email = ?",
+                    (from_user,)
+                ).fetchone()
+                
+                if not from_user_row:
+                    return False
+                
+                from_user_id = from_user_row['id']
+                
+                # Update the invite status
+                cursor = conn.execute("""
+                    UPDATE invites 
+                    SET status = ?, updated_at = ?
+                    WHERE from_user_id = ? AND to_user_email = ? AND status = 'pending'
+                """, (status, datetime.now().isoformat(), from_user_id, to_user))
+                
+                if cursor.rowcount == 0:
+                    return False
+                
+                # If accepted, create a chat session
+                if status == 'accepted':
+                    # Get to_user ID
+                    to_user_row = conn.execute(
+                        "SELECT id FROM users WHERE email = ?",
+                        (to_user,)
+                    ).fetchone()
+                    
+                    if to_user_row:
+                        to_user_id = to_user_row['id']
+                        
+                        # Create chat session
+                        chat_session_id = str(uuid.uuid4())
+                        conn.execute("""
+                            INSERT INTO chat_sessions (id, user1_id, user2_id, active, created_at)
+                            VALUES (?, ?, ?, 1, ?)
+                        """, (chat_session_id, from_user_id, to_user_id, datetime.now().isoformat()))
+                
+                conn.commit()
+                return True
+                
+        except Exception as e:
+            self._logger.error(f"Failed to update invite status: {e}")
+            return False
+    
+    def get_active_chat_partner(self, username: str) -> Optional[str]:
+        """Get the partner for user's active chat session."""
+        try:
+            with self.connection_pool.get_connection() as conn:
+                # Get user ID
+                user_row = conn.execute(
+                    "SELECT id FROM users WHERE email = ?",
+                    (username,)
+                ).fetchone()
+                
+                if not user_row:
+                    return None
+                
+                user_id = user_row['id']
+                
+                # Find active chat session
+                chat = conn.execute("""
+                    SELECT 
+                        CASE 
+                            WHEN cs.user1_id = ? THEN u2.email
+                            ELSE u1.email
+                        END as partner_email
+                    FROM chat_sessions cs
+                    JOIN users u1 ON cs.user1_id = u1.id
+                    JOIN users u2 ON cs.user2_id = u2.id
+                    WHERE (cs.user1_id = ? OR cs.user2_id = ?) 
+                      AND cs.active = 1
+                    LIMIT 1
+                """, (user_id, user_id, user_id)).fetchone()
+                
+                return chat['partner_email'] if chat else None
+                
+        except Exception as e:
+            self._logger.error(f"Failed to get active chat partner for {username}: {e}")
+            return None
+
+    def get_database_stats(self) -> dict:
+        """
+        Get database statistics for monitoring and debugging.
+        
+        Returns:
+            Dictionary containing database statistics
+        """
+        try:
+            with self.connection_pool.get_connection() as conn:
+                stats = {}
+                
+                # Get table counts (consistent with get_statistics naming)
+                stats['total_users'] = conn.execute("SELECT COUNT(*) FROM users").fetchone()[0]
+                stats['total_messages'] = conn.execute("SELECT COUNT(*) FROM messages").fetchone()[0]
+                stats['total_chat_sessions'] = conn.execute("SELECT COUNT(*) FROM chat_sessions").fetchone()[0]
+                
+                # Get active sessions count (sessions with activity in last hour)
+                stats['active_sessions'] = conn.execute("""
+                    SELECT COUNT(DISTINCT session_id) FROM messages 
+                    WHERE timestamp > datetime('now', '-1 hour')
+                """).fetchone()[0]
+                
+                # Get pending invites (to match existing get_statistics)
+                stats['pending_invites'] = conn.execute("""
+                    SELECT COUNT(*) FROM invites WHERE status = 'pending'
+                """).fetchone()[0] if self._table_exists(conn, 'invites') else 0
+                
+                # Get database file size information (additional monitoring data)
+                page_count = conn.execute("PRAGMA page_count").fetchone()[0]
+                page_size = conn.execute("PRAGMA page_size").fetchone()[0]
+                stats['database_size_bytes'] = page_count * page_size
+                stats['database_size_mb'] = round(stats['database_size_bytes'] / (1024 * 1024), 2)
+                
+                # Get recent activity (additional monitoring data)
+                stats['messages_last_24h'] = conn.execute("""
+                    SELECT COUNT(*) FROM messages 
+                    WHERE timestamp > datetime('now', '-24 hours')
+                """).fetchone()[0]
+                
+                return stats
+                
+        except Exception as e:
+            self._logger.error(f"Error getting database stats: {e}")
+            return {
+                'total_users': 0,
+                'total_messages': 0,
+                'total_chat_sessions': 0,
+                'active_sessions': 0,
+                'pending_invites': 0,
+                'database_size_bytes': 0,
+                'database_size_mb': 0,
+                'messages_last_24h': 0,
+                'error': str(e)
+            }
+    
+    def _table_exists(self, conn, table_name: str) -> bool:
+        """Check if a table exists in the database."""
+        try:
+            result = conn.execute("""
+                SELECT name FROM sqlite_master 
+                WHERE type='table' AND name=?
+            """, (table_name,)).fetchone()
+            return result is not None
+        except Exception:
+            return False
     
     def close(self):
         """Close all database connections and cleanup."""

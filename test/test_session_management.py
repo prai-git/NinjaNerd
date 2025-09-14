@@ -77,17 +77,15 @@ def test_require_login_decorator():
         }
     }
     
-    # Mock the credentials file path and database operations
-    with patch('app.CREDENTIALS_FILE', TEST_CREDENTIALS_FILE):
-        with patch('app.load_credentials', return_value=mock_credentials):
-            with patch('app.get_app_db') as mock_db:
-                # Mock the database wrapper
-                mock_db_instance = MagicMock()
-                mock_db.return_value = mock_db_instance
-                mock_db_instance.verify_user.return_value = True
-                mock_db_instance.update_user_login_time.return_value = True
-                
-                with app.test_client() as client:
+    # Mock the database operations directly with SQLite
+    with patch('app.get_app_db') as mock_db:
+        # Mock the SQLite database wrapper
+        mock_db_instance = MagicMock()
+        mock_db.return_value = mock_db_instance
+        mock_db_instance.authenticate_user.return_value = mock_credentials["testuser@test.com"]
+        mock_db_instance.update_user_statistics.return_value = True
+        
+        with app.test_client() as client:
                     # Clear active sessions for clean test
                     active_sessions.clear()
                     
@@ -141,45 +139,29 @@ def test_check_session_endpoint():
     
     setup_test_credentials()
     
-    # Mock the database operations  
-    mock_credentials = {
-        "testuser@test.com": {
-            "password": generate_password_hash("testpassword"),
-            "school_name": "Test School",
-            "history": [],
-            "statistics": {
-                "questions_attempted": 0,
-                "topics_covered": [],
-                "last_login": None
-            }
-        }
-    }
-    
-    with patch('app.CREDENTIALS_FILE', TEST_CREDENTIALS_FILE):
-        with patch('app.load_credentials', return_value=mock_credentials):
-            with patch('app.get_app_db') as mock_db:
-                # Mock the database wrapper
-                mock_db_instance = MagicMock()
-                mock_db.return_value = mock_db_instance
-                mock_db_instance.verify_user.return_value = True
-                mock_db_instance.update_user_login_time.return_value = True
-                
-                with app.test_client() as client:
-                    # Clear active sessions for clean test
-                    active_sessions.clear()
-                    
-                    # Test 1: Check session without login
-                    response = client.get('/check_session')
-                    assert response.status_code == 200
-                    data = json.loads(response.data)
-                    assert not data['valid'], "Should return valid=False when not logged in"
-                    assert 'message' in data, "Should include message in response"
-                    
-                    # Test 2: Login and check session
-                    client.post('/login', data={
-                        'username': 'testuser@test.com',
-                        'password': 'testpassword'
-                    })
+    with patch('app.get_app_db') as mock_db:
+        # Mock the database wrapper
+        mock_db_instance = MagicMock()
+        mock_db.return_value = mock_db_instance
+        mock_db_instance.verify_user.return_value = True
+        mock_db_instance.update_user_login_time.return_value = True
+        
+        with app.test_client() as client:
+            # Clear active sessions for clean test
+            active_sessions.clear()
+            
+            # Test 1: Check session without login
+            response = client.get('/check_session')
+            assert response.status_code == 200
+            data = json.loads(response.data)
+            assert not data['valid'], "Should return valid=False when not logged in"
+            assert 'message' in data, "Should include message in response"
+            
+            # Test 2: Login and check session
+            client.post('/login', data={
+                'username': 'testuser@test.com',
+                'password': 'testpassword'
+            })
             
             response = client.get('/check_session')
             assert response.status_code == 200
@@ -196,38 +178,22 @@ def test_login_session_setup():
     
     setup_test_credentials()
     
-    # Mock the database operations
-    mock_credentials = {
-        "testuser@test.com": {
-            "password": generate_password_hash("testpassword"),
-            "school_name": "Test School",
-            "history": [],
-            "statistics": {
-                "questions_attempted": 0,
-                "topics_covered": [],
-                "last_login": None
-            }
-        }
-    }
-    
-    with patch('app.CREDENTIALS_FILE', TEST_CREDENTIALS_FILE):
-        with patch('app.load_credentials', return_value=mock_credentials):
-            with patch('app.get_app_db') as mock_db:
-                # Mock the database wrapper
-                mock_db_instance = MagicMock()
-                mock_db.return_value = mock_db_instance
-                mock_db_instance.verify_user.return_value = True
-                mock_db_instance.update_user_login_time.return_value = True
-                
-                with app.test_client() as client:
-                    # Clear active sessions for clean test
-                    active_sessions.clear()
-                    
-                    # Test login
-                    response = client.post('/login', data={
-                        'username': 'testuser@test.com',
-                        'password': 'testpassword'
-                    })
+    with patch('app.get_app_db') as mock_db:
+        # Mock the database wrapper
+        mock_db_instance = MagicMock()
+        mock_db.return_value = mock_db_instance
+        mock_db_instance.verify_user.return_value = True
+        mock_db_instance.update_user_login_time.return_value = True
+        
+        with app.test_client() as client:
+            # Clear active sessions for clean test
+            active_sessions.clear()
+            
+            # Test login
+            response = client.post('/login', data={
+                'username': 'testuser@test.com',
+                'password': 'testpassword'
+            })
             assert response.status_code == 302, "Should redirect after login"
             
             # Check session data

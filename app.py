@@ -20,7 +20,7 @@ from functools import wraps
 from ai.llm_service import LLMService
 from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db
 from dbmgr.exceptions import DatabaseException
-from data.message_security import obfuscate_message, deobfuscate_message, is_message_obfuscated
+from core.message_security import obfuscate_message, deobfuscate_message, is_message_obfuscated
 from session_storage.session_expiry import (
     SESSION_TIMEOUT_MINUTES, 
     is_session_expired, 
@@ -29,8 +29,7 @@ from session_storage.session_expiry import (
 # Import concurrency and security utilities from core module
 from core import (
     initialize_concurrency_manager, synchronized, thread_safe_operation,
-    LOCK_ACTIVE_SESSIONS, LOCK_COLLABORATION_INVITES, LOCK_CHAT_SESSIONS,
-    LOCK_COLLABORATION_DATA, LOCK_MESSAGE_COUNTER, LOCK_CREDENTIALS,
+    LOCK_ACTIVE_SESSIONS, LOCK_COLLABORATION_DATA, LOCK_MESSAGE_COUNTER, LOCK_CREDENTIALS,
     get_safe_llm_service, initialize_safe_llm_service,
     get_input_validator, sanitize_input
 )
@@ -303,13 +302,15 @@ llm_service = None
 safe_llm_service = get_safe_llm_service()
 
 # Database file paths
-CREDENTIALS_FILE = 'data/Credentials.json'
-COLLABORATION_FILE = 'data/Collaboration.json'
+# Legacy JSON file paths (now using SQLite database)
+# CREDENTIALS_FILE = 'data/Credentials.json'  # DEPRECATED - now in SQLite
+# COLLABORATION_FILE = 'data/Collaboration.json'  # DEPRECATED - now in SQLite
 
-# Global storage for active sessions and collaboration data
+# Global storage for active sessions (collaboration data now uses SQLite)
 active_sessions = {}  # {username: {session_id, last_activity, school_name, current_topic, grade}}
-collaboration_invites = {}  # {invite_id: {from_user, to_user, timestamp, status}}
-chat_sessions = {}  # {session_id: {user1, user2, messages, active}}
+# Legacy: collaboration_invites and chat_sessions now stored in SQLite database
+# collaboration_invites = {}  # DEPRECATED - now in SQLite
+# chat_sessions = {}  # DEPRECATED - now in SQLite
 
 # Set active sessions reference for LLM service (will be set after service initialization)
 # llm_service.set_active_sessions_reference(active_sessions)
@@ -333,16 +334,10 @@ def init_collaboration_db():
     """Initialize collaboration database"""
     try:
         db = get_app_db()
-        # Check if collaboration data exists
-        collab_data = db.load_collaboration_data()
-        if not collab_data or not collab_data.get("invites"):
-            # Initialize with default structure
-            default_data = {
-                "invites": {},
-                "chat_sessions": {},
-                "message_counter": 0
-            }
-            db.save_collaboration_data(default_data)
+        # SQLite database schema is already initialized by sqlite_manager
+        # Just verify connection is working
+        db.sqlite_manager.get_database_stats()
+        app.logger.info("Collaboration database initialized successfully")
     except Exception as e:
         app.logger.error(f"Error initializing collaboration: {e}")
         # SQLite database is required - no fallback to JSON files
@@ -414,7 +409,9 @@ def update_user_history(username, history_entry):
         raise DatabaseException(f"Failed to update user history in SQLite database: {e}")
 
 def load_collaboration_data():
-    """Load collaboration data from database with thread safety"""
+    """DEPRECATED: Load collaboration data from database with thread safety"""
+    # This function is deprecated - use direct SQLite operations instead
+    app.logger.warning("load_collaboration_data() is deprecated - use direct SQLite operations")
     with synchronized(LOCK_COLLABORATION_DATA):
         try:
             db = get_app_db()
@@ -425,7 +422,9 @@ def load_collaboration_data():
             raise DatabaseException(f"Failed to load collaboration data from SQLite database: {e}")
 
 def save_collaboration_data(data):
-    """Save collaboration data to database with thread safety"""
+    """DEPRECATED: Save collaboration data to database with thread safety"""
+    # This function is deprecated - use direct SQLite operations instead
+    app.logger.warning("save_collaboration_data() is deprecated - use direct SQLite operations")
     with synchronized(LOCK_COLLABORATION_DATA):
         try:
             db = get_app_db()
@@ -437,15 +436,15 @@ def save_collaboration_data(data):
 
 def end_all_user_chats(username):
     """End all active chat sessions for a user when they change grades"""
-    collaboration_data = load_collaboration_data()
-    
-    # Find and deactivate all chat sessions involving this user
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        if (session_data['active'] and 
-            (session_data['user1'] == username or session_data['user2'] == username)):
-            session_data['active'] = False
-    
-    save_collaboration_data(collaboration_data)
+    try:
+        db = get_app_db()
+        success = db.end_all_user_chats(username)
+        if success:
+            app.logger.info(f"Ended all chat sessions for user {username}")
+        else:
+            app.logger.warning(f"No active chat sessions found for user {username}")
+    except Exception as e:
+        app.logger.error(f"Failed to end chat sessions for user {username}: {e}")
 
 def cleanup_old_sessions():
     """Remove inactive sessions using centralized expiry logic with thread safety"""
@@ -1458,12 +1457,7 @@ def logout():
             del active_sessions[username]
     
     # End any active chat sessions
-    collaboration_data = load_collaboration_data()
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        if (session_data['active'] and 
-            (session_data['user1'] == username or session_data['user2'] == username)):
-            session_data['active'] = False
-    save_collaboration_data(collaboration_data)
+    end_all_user_chats(username)
     
     session.clear()
     log_user_activity(username, "Logged out")
@@ -1602,32 +1596,19 @@ def send_collaboration_invite():
         return jsonify({'error': 'Can only collaborate with users from same grade'})
     
     # Thread-safe invite sending with atomic operations
-    with synchronized(LOCK_COLLABORATION_DATA):
-        collaboration_data = load_collaboration_data()
+    try:
+        db = get_app_db()
+        invite_id = db.create_invite(from_user, target_user)
         
-        # Clean up old invites between these users
-        to_remove = []
-        for invite_id, invite in collaboration_data['invites'].items():
-            if ((invite['from_user'] == from_user and invite['to_user'] == target_user) or
-                (invite['from_user'] == target_user and invite['to_user'] == from_user)):
-                to_remove.append(invite_id)
-        
-        for invite_id in to_remove:
-            del collaboration_data['invites'][invite_id]
-        
-        # Create invite
-        invite_id = str(uuid.uuid4())
-        collaboration_data['invites'][invite_id] = {
-            'from_user': from_user,
-            'to_user': target_user,
-            'timestamp': datetime.now().isoformat(),
-            'status': 'pending'
-        }
-        
-        save_collaboration_data(collaboration_data)
-    
-    log_user_activity(from_user, f"Sent collaboration invite to {target_user}")
-    return jsonify({'success': True})
+        if invite_id:
+            log_user_activity(from_user, f"Sent collaboration invite to {target_user}")
+            return jsonify({'success': True, 'invite_id': invite_id})
+        else:
+            return jsonify({'error': 'Failed to create invite'})
+            
+    except Exception as e:
+        app.logger.error(f"Failed to send invite from {from_user} to {target_user}: {e}")
+        return jsonify({'error': 'Failed to send invite'})
 
 @app.route('/check_collaboration_invites')
 @apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
@@ -1638,22 +1619,24 @@ def check_collaboration_invites():
     update_user_activity(session['username'])
     username = session['username']
     
-    collaboration_data = load_collaboration_data()
-    
-    # Check for pending invites for this user
-    for invite_id, invite in collaboration_data['invites'].items():
-        if invite['to_user'] == username and invite['status'] == 'pending':
-            return jsonify({'invite': invite})
-    
-    # Check if any of our sent invites were accepted and we have an active chat session
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        if (session_data['active'] and 
-            (session_data['user1'] == username or session_data['user2'] == username)):
-            # Find the partner
-            partner = session_data['user2'] if session_data['user1'] == username else session_data['user1']
+    try:
+        db = get_app_db()
+        
+        # Check for pending invites for this user
+        pending_invite = db.get_pending_invite_for_user(username)
+        if pending_invite:
+            return jsonify({'invite': pending_invite})
+        
+        # Check if user has an active chat session
+        partner = db.get_active_chat_partner(username)
+        if partner:
             return jsonify({'accepted_chat': {'partner': partner}})
-    
-    return jsonify({'invite': None})
+        
+        return jsonify({'invite': None})
+        
+    except Exception as e:
+        app.logger.error(f"Failed to check invites for {username}: {e}")
+        return jsonify({'invite': None})
 
 @app.route('/respond_collaboration_invite', methods=['POST'])
 @apply_auth_rate_limit("30 per minute")  # Limit invite responses
@@ -1666,39 +1649,27 @@ def respond_collaboration_invite():
     accept = data.get('accept', False)
     current_user = session['username']
     
-    collaboration_data = load_collaboration_data()
+    # Sanitize inputs
+    if not isinstance(from_user, str) or not from_user.strip():
+        return jsonify({'error': 'Invalid from_user'})
     
-    # Find and update the invite
-    invite_found = False
-    for invite_id, invite in collaboration_data['invites'].items():
-        if (invite['from_user'] == from_user and 
-            invite['to_user'] == current_user and 
-            invite['status'] == 'pending'):
-            
-            invite['status'] = 'accepted' if accept else 'declined'
-            invite_found = True
-            
-            if accept:
-                # Create chat session
-                chat_session_id = str(uuid.uuid4())
-                collaboration_data['chat_sessions'][chat_session_id] = {
-                    'user1': from_user,
-                    'user2': current_user,
-                    'messages': [],
-                    'active': True,
-                    'created_at': datetime.now().isoformat()
-                }
-                
-                log_user_activity(current_user, f"Accepted collaboration invite from {from_user}")
-            else:
-                log_user_activity(current_user, f"Declined collaboration invite from {from_user}")
-            
-            break
+    from_user = from_user.strip()
     
-    save_collaboration_data(collaboration_data)
+    # Get database connection
+    db = get_app_db()
     
-    if not invite_found:
-        return jsonify({'error': 'Invite not found'})
+    # Update invite status in database
+    status = 'accepted' if accept else 'declined'
+    success = db.update_invite_status_by_users(from_user, current_user, status)
+    
+    if not success:
+        return jsonify({'error': 'Invite not found or already processed'})
+    
+    # Log the activity
+    if accept:
+        log_user_activity(current_user, f"Accepted collaboration invite from {from_user}")
+    else:
+        log_user_activity(current_user, f"Declined collaboration invite from {from_user}")
     
     return jsonify({'success': True})
 
@@ -1742,39 +1713,23 @@ def send_chat_message():
     if current_grade != partner_grade or current_school != partner_school:
         return jsonify({'error': 'Cannot chat with users from different grade or school'})
     
-    collaboration_data = load_collaboration_data()
-    
-    # Thread-safe message sending with atomic operations
-    with synchronized(LOCK_COLLABORATION_DATA):
-        # Reload collaboration data within lock to ensure consistency
-        collaboration_data = load_collaboration_data()
+    try:
+        db = get_app_db()
         
-        # Find active chat session
-        chat_session = None
-        for session_id, session_data in collaboration_data['chat_sessions'].items():
-            if (session_data['active'] and 
-                ((session_data['user1'] == from_user and session_data['user2'] == to_user) or
-                 (session_data['user1'] == to_user and session_data['user2'] == from_user))):
-                chat_session = session_data
-                break
+        # Find or create active chat session
+        session_id = db.find_active_chat_session(from_user, to_user)
+        if not session_id:
+            session_id = db.create_chat_session(from_user, to_user)
         
-        if not chat_session:
-            return jsonify({'error': 'No active chat session'})
+        # Add message to database (message will be obfuscated internally)
+        message_id = db.add_message(session_id, from_user, to_user, message)
+        app.logger.info(f"Added message from {from_user} to {to_user} in session {session_id}")
         
-        # Atomically increment message counter and add message
-        collaboration_data['message_counter'] = collaboration_data.get('message_counter', 0) + 1
-        message_data = {
-            'from_user': from_user,
-            'to_user': to_user,
-            'message': obfuscate_message(message),  # Obfuscate message for security
-            'timestamp': datetime.now().isoformat(),
-            'displayed': False
-        }
+        return jsonify({'success': True, 'message_id': message_id})
         
-        chat_session['messages'].append(message_data)
-        save_collaboration_data(collaboration_data)
-    
-    return jsonify({'success': True})
+    except Exception as e:
+        app.logger.error(f"Failed to send message from {from_user} to {to_user}: {e}")
+        return jsonify({'error': 'Failed to send message'})
 
 @app.route('/get_chat_messages')
 @apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
@@ -1809,28 +1764,41 @@ def get_chat_messages():
     if current_grade != partner_grade or current_school != partner_school:
         return jsonify({'messages': []})  # Return empty if different grade/school
     
-    collaboration_data = load_collaboration_data()
-    
-    # Find active chat session
-    messages = []
-    
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        if (session_data['active'] and 
-            ((session_data['user1'] == current_user and session_data['user2'] == partner) or
-             (session_data['user1'] == partner and session_data['user2'] == current_user))):
-            
-            # Get messages for current user (don't mark as displayed here)
-            for msg in session_data['messages']:
-                if msg['to_user'] == current_user and not msg['displayed']:
-                    # Create a copy of the message with deobfuscated content for display
-                    message_copy = msg.copy()
-                    # Deobfuscate message - handles both obfuscated and plain text gracefully
-                    message_copy['message'] = deobfuscate_message(msg['message'])
-                    messages.append(message_copy)
-            
-            break
-    
-    return jsonify({'messages': messages})
+    try:
+        db = get_app_db()
+        
+        # Get messages from database
+        all_messages = db.get_chat_messages(current_user, partner)
+        
+        # Filter messages for current user that haven't been displayed
+        messages = []
+        for msg in all_messages:
+            if msg['to_user'] == current_user and not msg['displayed']:
+                # Create a copy of the message with deobfuscated content for display
+                message_copy = msg.copy()
+                
+                # CRITICAL FIX: Ensure proper deobfuscation with error handling
+                try:
+                    if is_message_obfuscated(msg['message']):
+                        deobfuscated_content = deobfuscate_message(msg['message'])
+                        message_copy['message'] = deobfuscated_content
+                        app.logger.info(f"Deobfuscated message from {msg['from_user']}: '{msg['message'][:20]}...' -> '{deobfuscated_content}'")
+                    else:
+                        # Message is not obfuscated, use as-is
+                        app.logger.warning(f"Message from {msg['from_user']} was not obfuscated: '{msg['message']}'")
+                        message_copy['message'] = msg['message']
+                except Exception as e:
+                    app.logger.error(f"Failed to deobfuscate message from {msg['from_user']}: {e}")
+                    # Fallback: show error message to prevent displaying raw obfuscated text
+                    message_copy['message'] = "[Message decode error]"
+                
+                messages.append(message_copy)
+        
+        return jsonify({'messages': messages})
+        
+    except Exception as e:
+        app.logger.error(f"Failed to get chat messages for {current_user} and {partner}: {e}")
+        return jsonify({'messages': []})
 
 @app.route('/mark_message_displayed', methods=['POST'])
 @apply_auth_rate_limit("60 per minute")  # API endpoint rate limiting
@@ -1841,17 +1809,18 @@ def mark_message_displayed():
     data = request.get_json()
     message_id = data.get('message_id')
     
-    collaboration_data = load_collaboration_data()
-    
-    # Find and mark message as displayed
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        for msg in session_data['messages']:
-            if msg['id'] == message_id:
-                msg['displayed'] = True
-                save_collaboration_data(collaboration_data)
-                return jsonify({'success': True})
-    
-    return jsonify({'error': 'Message not found'})
+    try:
+        db = get_app_db()
+        success = db.update_message_displayed(message_id, True)
+        
+        if success:
+            return jsonify({'success': True})
+        else:
+            return jsonify({'error': 'Message not found'})
+            
+    except Exception as e:
+        app.logger.error(f"Failed to mark message {message_id} as displayed: {e}")
+        return jsonify({'error': 'Failed to update message'})
 
 @app.route('/end_chat', methods=['POST'])
 @apply_auth_rate_limit("30 per minute")  # Limit chat management actions
@@ -1863,21 +1832,23 @@ def end_chat():
     partner = data.get('partner')
     current_user = session['username']
     
-    collaboration_data = load_collaboration_data()
+    # Validate inputs
+    if not isinstance(partner, str) or not partner.strip():
+        return jsonify({'error': 'Invalid partner'})
     
-    # Find and deactivate chat session
-    for session_id, session_data in collaboration_data['chat_sessions'].items():
-        if (session_data['active'] and 
-            ((session_data['user1'] == current_user and session_data['user2'] == partner) or
-             (session_data['user1'] == partner and session_data['user2'] == current_user))):
-            
-            session_data['active'] = False
-            break
+    partner = partner.strip()
     
-    save_collaboration_data(collaboration_data)
-    log_user_activity(current_user, f"Ended chat session with {partner}")
+    # Get database connection
+    db = get_app_db()
     
-    return jsonify({'success': True})
+    # End all chat sessions between the two users
+    success = db.end_all_user_chats(current_user)
+    
+    if success:
+        log_user_activity(current_user, f"Ended chat session with {partner}")
+        return jsonify({'success': True})
+    else:
+        return jsonify({'error': 'Failed to end chat session'})
 
 @app.route('/games/<int:grade>')
 @require_login

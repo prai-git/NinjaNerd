@@ -12,7 +12,7 @@ from unittest.mock import Mock, patch
 from flask import Flask
 
 from dbmgr.sqlite_app_integration import SQLiteAppIntegration, initialize_app_db, get_app_db, reset_app_db
-from data.message_security import MessageObfuscator
+from core.message_security import MessageObfuscator
 
 
 class TestSQLiteAppIntegration:

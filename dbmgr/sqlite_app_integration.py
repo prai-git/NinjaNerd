@@ -10,12 +10,12 @@ import os
 import logging
 import atexit
 from datetime import datetime
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from flask import Flask
 
 from .sqlite_manager import SQLiteManager
 from .exceptions import DatabaseException
-from data.message_security import MessageObfuscator
+from core.message_security import MessageObfuscator
 
 
 class SQLiteAppIntegration:
@@ -78,8 +78,9 @@ class SQLiteAppIntegration:
         
         # Initialize message obfuscator if enabled
         if self.config['enable_message_obfuscation']:
-            secret_key = app.config.get('SECRET_KEY', 'NinjaNerd-Chat-Security-2025')
-            self.message_obfuscator = MessageObfuscator(secret_key)
+            # Use None to let MessageObfuscator use MESSAGE_OBFUSCATION_KEY environment variable
+            # This ensures consistency with core obfuscation functions
+            self.message_obfuscator = MessageObfuscator()
         
         # Store reference in app
         app.extensions = getattr(app, 'extensions', {})
@@ -492,14 +493,17 @@ class SQLiteAppIntegration:
             if self.config['enable_message_obfuscation'] and self.message_obfuscator:
                 for session_id, session_data in collaboration_data['chat_sessions'].items():
                     for message in session_data['messages']:
-                        # Deobfuscate message for display
+                        # Deobfuscate message for display only if it's actually obfuscated
                         if 'message' in message:
                             try:
-                                # Check if message is obfuscated, if so deobfuscate
-                                deobfuscated = self.message_obfuscator.deobfuscate_message(message['message'])
-                                message['message'] = deobfuscated
-                            except:
-                                # Message might not be obfuscated, keep original
+                                # Check if message is obfuscated first
+                                if self.message_obfuscator.is_obfuscated(message['message']):
+                                    deobfuscated = self.message_obfuscator.deobfuscate_message(message['message'])
+                                    message['message'] = deobfuscated
+                                # If not obfuscated, leave as-is
+                            except Exception as e:
+                                # If deobfuscation fails, log and keep original
+                                self._logger.warning(f"Failed to deobfuscate message: {e}")
                                 pass
             
             return collaboration_data
@@ -587,12 +591,29 @@ class SQLiteAppIntegration:
                             ).fetchone()
                             
                             if from_user_row and to_user_row:
-                                message_content = message['message']
-                                obfuscated_content = None
+                                # Check if message is already obfuscated from app.py
+                                incoming_message = message['message']
                                 
-                                # Obfuscate message if enabled
-                                if self.config['enable_message_obfuscation'] and self.message_obfuscator:
-                                    obfuscated_content = self.message_obfuscator.obfuscate_message(message_content)
+                                if self.message_obfuscator and self.message_obfuscator.is_obfuscated(incoming_message):
+                                    # Message is already obfuscated, use it as obfuscated_content
+                                    # and deobfuscate for message_content
+                                    obfuscated_content = incoming_message
+                                    try:
+                                        message_content = self.message_obfuscator.deobfuscate_message(incoming_message)
+                                    except Exception:
+                                        # If deobfuscation fails, store as error message
+                                        message_content = "[Deobfuscation error]"
+                                else:
+                                    # Message is plain text, handle normally
+                                    message_content = incoming_message
+                                    obfuscated_content = None
+                                    
+                                    # Obfuscate message if enabled
+                                    if self.config['enable_message_obfuscation'] and self.message_obfuscator:
+                                        obfuscated_content = self.message_obfuscator.obfuscate_message(message_content)
+                                    else:
+                                        # If obfuscation is disabled, store original message in obfuscated_content too
+                                        obfuscated_content = message_content
                                 
                                 conn.execute("""
                                     INSERT OR IGNORE INTO messages 
@@ -690,6 +711,168 @@ class SQLiteAppIntegration:
             True if updated successfully
         """
         return self.sqlite_manager.update_message_displayed(message_id, displayed)
+    
+    def get_chat_messages(self, user1: str, user2: str) -> List[Dict[str, Any]]:
+        """
+        Get chat messages between two users from active chat session.
+        
+        Args:
+            user1: First user email
+            user2: Second user email
+            
+        Returns:
+            List of messages from active chat session
+        """
+        try:
+            collaboration_data = self.sqlite_manager.get_collaboration_data()
+            
+            # Find active chat session between the two users
+            for session_id, session_data in collaboration_data['chat_sessions'].items():
+                if (session_data['active'] and 
+                    ((session_data['user1'] == user1 and session_data['user2'] == user2) or
+                     (session_data['user1'] == user2 and session_data['user2'] == user1))):
+                    return session_data['messages']
+            
+            return []  # No active session found
+        except Exception as e:
+            self.logger.error(f"Error getting chat messages: {e}")
+            return []
+    
+    def find_active_chat_session(self, user1: str, user2: str) -> Optional[str]:
+        """
+        Find active chat session ID between two users.
+        
+        Args:
+            user1: First user email
+            user2: Second user email
+            
+        Returns:
+            Session ID if found, None otherwise
+        """
+        try:
+            collaboration_data = self.sqlite_manager.get_collaboration_data()
+            
+            for session_id, session_data in collaboration_data['chat_sessions'].items():
+                if (session_data['active'] and 
+                    ((session_data['user1'] == user1 and session_data['user2'] == user2) or
+                     (session_data['user1'] == user2 and session_data['user2'] == user1))):
+                    return session_id
+            
+            return None
+        except Exception as e:
+            self.logger.error(f"Error finding chat session: {e}")
+            return None
+    
+    def end_all_user_chats(self, username: str) -> bool:
+        """
+        End all active chat sessions for a user.
+        
+        Args:
+            username: User email
+            
+        Returns:
+            True if successful
+        """
+        try:
+            return self.sqlite_manager.end_all_user_chats(username)
+        except Exception as e:
+            self.logger.error(f"Error ending chats for user {username}: {e}")
+            return False
+    
+    def create_invite(self, from_user: str, to_user: str) -> str:
+        """
+        Create a new invite between users.
+        
+        Args:
+            from_user: User sending invite
+            to_user: User receiving invite
+            
+        Returns:
+            Invite ID
+        """
+        try:
+            # Clean up old invites between these users first
+            self.sqlite_manager.cleanup_invites_between_users(from_user, to_user)
+            # Create new invite
+            return self.sqlite_manager.create_invite(from_user, to_user)
+        except Exception as e:
+            self.logger.error(f"Error creating invite from {from_user} to {to_user}: {e}")
+            return None
+    
+    def update_invite_status(self, invite_id: str, status: str) -> bool:
+        """
+        Update invite status.
+        
+        Args:
+            invite_id: Invite ID
+            status: New status
+            
+        Returns:
+            True if successful
+        """
+        try:
+            return self.sqlite_manager.update_invite_status(invite_id, status)
+        except Exception as e:
+            self.logger.error(f"Error updating invite {invite_id} status: {e}")
+            return False
+    
+    def get_pending_invite_for_user(self, username: str) -> Optional[Dict[str, Any]]:
+        """
+        Get pending invite for a user.
+        
+        Args:
+            username: User email
+            
+        Returns:
+            Invite data if found, None otherwise
+        """
+        try:
+            collaboration_data = self.sqlite_manager.get_collaboration_data()
+            
+            # Check for pending invites for this user
+            for invite_id, invite in collaboration_data['invites'].items():
+                if invite['to_user'] == username and invite['status'] == 'pending':
+                    invite['id'] = invite_id  # Add the ID to the invite data
+                    return invite
+            
+            return None
+        except Exception as e:
+            self.logger.error(f"Error getting pending invite for user {username}: {e}")
+            return None
+    
+    def update_invite_status_by_users(self, from_user: str, to_user: str, status: str):
+        """
+        Update invite status between two users and optionally create chat session.
+        
+        Args:
+            from_user: Email of user who sent invite
+            to_user: Email of user who received invite
+            status: New status ('accepted' or 'declined')
+            
+        Returns:
+            bool: True if successful, False otherwise
+        """
+        try:
+            return self.sqlite_manager.update_invite_status_by_users(from_user, to_user, status)
+        except Exception as e:
+            self.logger.error(f"Error updating invite status between {from_user} and {to_user}: {e}")
+            return False
+    
+    def get_active_chat_partner(self, username: str) -> Optional[str]:
+        """
+        Get the partner for user's active chat session.
+        
+        Args:
+            username: User email
+            
+        Returns:
+            Partner email if found, None otherwise
+        """
+        try:
+            return self.sqlite_manager.get_active_chat_partner(username)
+        except Exception as e:
+            self.logger.error(f"Error getting active chat partner for {username}: {e}")
+            return None
     
     # ===============================
     # Session Management

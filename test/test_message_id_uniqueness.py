@@ -18,7 +18,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from dbmgr.sqlite_manager import SQLiteManager
 from dbmgr.sqlite_app_integration import SQLiteAppIntegration
-from data.message_security import MessageObfuscator
+from core.message_security import MessageObfuscator
 
 
 class TestMessageIdUniqueness:

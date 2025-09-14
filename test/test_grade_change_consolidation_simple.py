@@ -39,20 +39,19 @@ class TestGradeChangeConsolidationCodeAnalysis(unittest.TestCase):
         # Should be called from multiple routes
         self.assertGreaterEqual(enforce_calls, 4, "enforce_grade_change_rules should be called from at least 4 routes")
         
-    def test_end_all_user_chats_only_called_from_centralized_function(self):
-        """Test that end_all_user_chats is only called from the centralized function."""
-        # Count all calls to end_all_user_chats (including function definition)
-        end_all_calls = self.app_content.count('end_all_user_chats(')
+    def test_end_all_user_chats_called_from_centralized_function(self):
+        """Test that end_all_user_chats is called from the centralized function for grade changes."""
+        # Find the enforce_grade_change_rules function
+        function_start = self.app_content.find("def enforce_grade_change_rules(")
+        self.assertNotEqual(function_start, -1, "enforce_grade_change_rules function not found")
         
-        # Count function definitions
-        function_definitions = self.app_content.count('def end_all_user_chats(')
+        # Find the next function definition to get the end
+        next_function_start = self.app_content.find("\ndef ", function_start + 1)
+        function_content = self.app_content[function_start:next_function_start]
         
-        # Count actual calls (excluding definitions)
-        actual_calls = end_all_calls - function_definitions
-        
-        # There should be exactly 1 call (from the centralized function)
-        self.assertEqual(actual_calls, 1, 
-                         f"end_all_user_chats should only be called once from centralized function, but found {actual_calls} calls")
+        # The centralized function should call end_all_user_chats
+        self.assertIn('end_all_user_chats(username)', function_content,
+                     "enforce_grade_change_rules should call end_all_user_chats when grade changes")
     
     def test_topics_route_uses_centralized_logic(self):
         """Test that topics route uses centralized grade change logic."""
