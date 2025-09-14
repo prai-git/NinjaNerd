@@ -85,12 +85,26 @@ class SQLiteConnectionPool:
                 isolation_level=None  # Autocommit mode
             )
             
-            # Configure connection for optimal performance
-            conn.execute("PRAGMA journal_mode = WAL")  # Write-Ahead Logging
-            conn.execute("PRAGMA synchronous = NORMAL")  # Balance safety/performance
-            conn.execute("PRAGMA cache_size = 10000")  # 10MB cache
+            # Configure connection for optimal performance and concurrency
+            conn.execute("PRAGMA journal_mode = WAL")  # Write-Ahead Logging for concurrency
+            conn.execute("PRAGMA synchronous = NORMAL")  # Balance safety/performance 
+            conn.execute("PRAGMA cache_size = 20000")  # 20MB cache (increased from 10MB)
             conn.execute("PRAGMA temp_store = MEMORY")  # Store temp tables in memory
             conn.execute("PRAGMA foreign_keys = ON")  # Enable foreign key constraints
+            
+            # Enhanced WAL optimizations for high concurrency
+            conn.execute("PRAGMA wal_autocheckpoint = 1000")  # Auto-checkpoint every 1000 pages
+            conn.execute("PRAGMA journal_size_limit = 67108864")  # 64MB WAL size limit
+            conn.execute("PRAGMA mmap_size = 268435456")  # 256MB memory mapping
+            conn.execute("PRAGMA busy_timeout = 5000")  # 5 second busy timeout
+            
+            # Query optimization settings
+            conn.execute("PRAGMA optimize")  # Optimize database statistics
+            conn.execute("PRAGMA analysis_limit = 1000")  # Limit analysis depth
+            
+            # Performance tuning for concurrent access
+            conn.execute("PRAGMA locking_mode = NORMAL")  # Allow multiple connections
+            conn.execute("PRAGMA read_uncommitted = ON")  # Allow dirty reads for better performance
             
             # Set row factory for dict-like access
             conn.row_factory = sqlite3.Row

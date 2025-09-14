@@ -54,36 +54,43 @@ class QueueManager:
     - Performance monitoring
     """
     
-    def __init__(self, max_workers: int = 10, timeout: int = 30):
+    def __init__(self, max_workers: int = 20, timeout: int = 30, enable_write_batching: bool = True):
         """
-        Initialize queue manager.
+        Initialize queue manager with enhanced performance settings.
         
         Args:
-            max_workers: Maximum number of worker threads
+            max_workers: Maximum number of worker threads (increased default)
             timeout: Default operation timeout in seconds
+            enable_write_batching: Enable write operation batching for performance
         """
         self.max_workers = max_workers
         self.timeout = timeout
+        self.enable_write_batching = enable_write_batching
         
-        # Separate executors for read and write operations
+        # Enhanced executors for better concurrency
         self._read_executor = ThreadPoolExecutor(
             max_workers=max_workers,
             thread_name_prefix="db_read"
         )
+        # Increased write workers for better WAL performance
         self._write_executor = ThreadPoolExecutor(
-            max_workers=1,  # Single writer to prevent conflicts
+            max_workers=3,  # Multiple writers work well with WAL mode
             thread_name_prefix="db_write"
         )
         
-        # Priority queues for write operations
+        # Priority queues for write operations with larger capacity
         self._write_queues = {
-            Priority.CRITICAL: queue.PriorityQueue(),
-            Priority.HIGH: queue.PriorityQueue(),
-            Priority.NORMAL: queue.PriorityQueue(),
-            Priority.LOW: queue.PriorityQueue()
+            Priority.CRITICAL: queue.PriorityQueue(maxsize=1000),
+            Priority.HIGH: queue.PriorityQueue(maxsize=5000),
+            Priority.NORMAL: queue.PriorityQueue(maxsize=10000),
+            Priority.LOW: queue.PriorityQueue(maxsize=20000)
         }
         
-        # Statistics tracking
+        # Write batching for performance optimization
+        self._batch_size = 10 if enable_write_batching else 1
+        self._batch_timeout = 0.1  # 100ms batch timeout
+        
+        # Statistics tracking with enhanced metrics
         self._stats = {
             'operations_completed': 0,
             'operations_failed': 0,

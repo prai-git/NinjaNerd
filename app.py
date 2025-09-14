@@ -30,6 +30,7 @@ from session_storage.session_expiry import (
 from core import (
     initialize_concurrency_manager, synchronized, thread_safe_operation,
     LOCK_ACTIVE_SESSIONS, LOCK_COLLABORATION_DATA, LOCK_MESSAGE_COUNTER, LOCK_CREDENTIALS,
+    LOCK_CHAT_SESSIONS,
     get_safe_llm_service, initialize_safe_llm_service,
     get_input_validator, sanitize_input
 )
@@ -540,22 +541,24 @@ def validate_session():
     username = session['username']
     session_id = session.get('session_id')
     
-    # Check if user exists in active sessions
-    if username not in active_sessions:
-        return False, "Session not found in active sessions"
-    
-    # Check if session ID matches
-    if session_id != active_sessions[username].get('session_id'):
-        return False, "Session ID mismatch"
-    
-    # Use centralized session expiry logic
-    session_data = {
-        'login_time': session.get('login_time'),
-        'last_activity': active_sessions[username].get('last_activity')
-    }
-    
-    if is_session_expired(session_data):
-        return False, "Session has expired"
+    # Thread-safe access to active sessions
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        # Check if user exists in active sessions
+        if username not in active_sessions:
+            return False, "Session not found in active sessions"
+        
+        # Check if session ID matches
+        if session_id != active_sessions[username].get('session_id'):
+            return False, "Session ID mismatch"
+        
+        # Use centralized session expiry logic
+        session_data = {
+            'login_time': session.get('login_time'),
+            'last_activity': active_sessions[username].get('last_activity')
+        }
+        
+        if is_session_expired(session_data):
+            return False, "Session has expired"
     
     return True, "Session is valid"
 
@@ -569,10 +572,11 @@ def require_login(f):
         is_valid, message = validate_session()
         
         if not is_valid:
-            # Clear invalid session data
+            # Clear invalid session data with thread safety
             username = session.get('username', 'Unknown')
-            if username in active_sessions:
-                del active_sessions[username]
+            with synchronized(LOCK_ACTIVE_SESSIONS):
+                if username in active_sessions:
+                    del active_sessions[username]
             session.clear()
             
             flash(f"Please log in to access this page. {message}")
@@ -659,14 +663,15 @@ def login():
             }
             db.update_user_statistics(username, login_stats_update)
             
-            # Add to active sessions
-            active_sessions[username] = {
-                'session_id': session['session_id'],
-                'last_activity': datetime.now().isoformat(),
-                'school_name': user_data.get('school_name', 'Unknown School'),
-                'current_topic': None,
-                'grade': None
-            }
+            # Add to active sessions with thread safety
+            with synchronized(LOCK_ACTIVE_SESSIONS):
+                active_sessions[username] = {
+                    'session_id': session['session_id'],
+                    'last_activity': datetime.now().isoformat(),
+                    'school_name': user_data.get('school_name', 'Unknown School'),
+                    'current_topic': None,
+                    'grade': None
+                }
             
             log_user_activity(username, "Logged in successfully")
             
@@ -1088,9 +1093,10 @@ def exercise_with_subtopic(grade, topic, subtopic):
     current_user = session['username']
     enforce_grade_change_rules(current_user, grade, topic)
     
-    # Update current subtopic in session
-    if current_user in active_sessions:
-        active_sessions[current_user]['current_subtopic'] = subtopic
+    # Update current subtopic in session with thread safety
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        if current_user in active_sessions:
+            active_sessions[current_user]['current_subtopic'] = subtopic
     
     # Load user history for difficulty adjustment - filter by topic and subtopic
     user_data = get_user(session['username'])
@@ -1523,37 +1529,40 @@ def get_active_users():
     update_user_activity(session['username'])
     
     current_user = session['username']
-    current_user_session = active_sessions.get(current_user, {})
-    current_school = current_user_session.get('school_name', '')
-    current_grade = current_user_session.get('grade', None)
     
-    # Always return users array, but filter based on current user's grade and school
-    active_users = []
-    
-    # Only show users if current user has selected a grade and is in the same school and grade
-    if current_grade is not None and current_school:
-        for username, session_data in active_sessions.items():
-            user_school = session_data.get('school_name', '')
-            user_grade = session_data.get('grade', None)
-            user_topic = session_data.get('current_topic')
-            
-            # Debug log for collaboration filtering
-            app.logger.info(f"Collaboration check - Current user: {current_user} (grade={current_grade}, school='{current_school}'), "
-                          f"Checking user: {username} (grade={user_grade}, school='{user_school}', topic={user_topic})")
-            
-            if (username != current_user and 
-                user_school == current_school and
-                user_grade == current_grade and  # Same grade requirement
-                user_topic is not None):  # User must be actively working on a topic
+    # Thread-safe access to active sessions
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        current_user_session = active_sessions.get(current_user, {})
+        current_school = current_user_session.get('school_name', '')
+        current_grade = current_user_session.get('grade', None)
+        
+        # Always return users array, but filter based on current user's grade and school
+        active_users = []
+        
+        # Only show users if current user has selected a grade and is in the same school and grade
+        if current_grade is not None and current_school:
+            for username, session_data in active_sessions.items():
+                user_school = session_data.get('school_name', '')
+                user_grade = session_data.get('grade', None)
+                user_topic = session_data.get('current_topic')
                 
-                active_users.append({
-                    'username': username,
-                    'topic': user_topic,
-                    'grade': user_grade
-                })
-                app.logger.info(f"Collaboration: Added user {username} to active list")
-    else:
-        app.logger.info(f"Collaboration: Current user {current_user} doesn't have grade ({current_grade}) or school ('{current_school}') set")
+                # Debug log for collaboration filtering
+                app.logger.info(f"Collaboration check - Current user: {current_user} (grade={current_grade}, school='{current_school}'), "
+                              f"Checking user: {username} (grade={user_grade}, school='{user_school}', topic={user_topic})")
+                
+                if (username != current_user and 
+                    user_school == current_school and
+                    user_grade == current_grade and  # Same grade requirement
+                    user_topic is not None):  # User must be actively working on a topic
+                    
+                    active_users.append({
+                        'username': username,
+                        'topic': user_topic,
+                        'grade': user_grade
+                    })
+                    app.logger.info(f"Collaboration: Added user {username} to active list")
+        else:
+            app.logger.info(f"Collaboration: Current user {current_user} doesn't have grade ({current_grade}) or school ('{current_school}') set")
     
     # Always return the users array - empty if no matches or user hasn't selected grade
     # This ensures the collaborate badge always shows with appropriate message
@@ -1577,23 +1586,25 @@ def send_collaboration_invite():
     if not target_user:
         return jsonify({'error': 'Target user not specified'})
     
-    if target_user not in active_sessions:
-        return jsonify({'error': 'Target user is not active'})
-    
-    # Check if users are from same school AND same grade
-    from_user_session = active_sessions.get(from_user, {})
-    target_user_session = active_sessions.get(target_user, {})
-    
-    from_school = from_user_session.get('school_name', '')
-    target_school = target_user_session.get('school_name', '')
-    from_grade = from_user_session.get('grade')
-    target_grade = target_user_session.get('grade')
-    
-    if from_school != target_school:
-        return jsonify({'error': 'Can only collaborate with users from same school'})
-    
-    if from_grade != target_grade:
-        return jsonify({'error': 'Can only collaborate with users from same grade'})
+    # Thread-safe access to active sessions for validation
+    with synchronized(LOCK_ACTIVE_SESSIONS):
+        if target_user not in active_sessions:
+            return jsonify({'error': 'Target user is not active'})
+        
+        # Check if users are from same school AND same grade
+        from_user_session = active_sessions.get(from_user, {})
+        target_user_session = active_sessions.get(target_user, {})
+        
+        from_school = from_user_session.get('school_name', '')
+        target_school = target_user_session.get('school_name', '')
+        from_grade = from_user_session.get('grade')
+        target_grade = target_user_session.get('grade')
+        
+        if from_school != target_school:
+            return jsonify({'error': 'Can only collaborate with users from same school'})
+        
+        if from_grade != target_grade:
+            return jsonify({'error': 'Can only collaborate with users from same grade'})
     
     # Thread-safe invite sending with atomic operations
     try:
@@ -1939,13 +1950,14 @@ def session_metrics():
             metrics = production_sessions.get_session_metrics()
             return jsonify(metrics)
         else:
-            # Basic metrics for filesystem sessions
-            return jsonify({
-                'total_sessions': len(active_sessions),
-                'active_sessions': len(active_sessions),
-                'session_type': 'filesystem_basic',
-                'redis_available': False
-            })
+            # Basic metrics for filesystem sessions with thread safety
+            with synchronized(LOCK_ACTIVE_SESSIONS):
+                return jsonify({
+                    'total_sessions': len(active_sessions),
+                    'active_sessions': len(active_sessions),
+                    'session_type': 'filesystem_basic',
+                    'redis_available': False
+                })
     except Exception as e:
         return jsonify({
             'error': f'Failed to get session metrics: {str(e)}'

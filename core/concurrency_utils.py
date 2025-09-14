@@ -58,6 +58,15 @@ class NamedLockManager:
             
             # Update statistics
             with self._locks_access_lock:
+                # Ensure stats exist (should be created by get_lock, but safety check)
+                if lock_name not in self._contention_stats:
+                    self._contention_stats[lock_name] = {
+                        'acquisitions': 0,
+                        'contentions': 0,
+                        'max_wait_time': 0.0,
+                        'total_wait_time': 0.0
+                    }
+                
                 stats = self._contention_stats[lock_name]
                 stats['acquisitions'] += 1
                 stats['total_wait_time'] += wait_time
