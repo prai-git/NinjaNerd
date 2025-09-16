@@ -308,20 +308,6 @@ class SQLiteAppIntegration:
         
         return user_data
     
-    def create_user(self, email: str, password: str, school_name: str = None) -> bool:
-        """
-        Create a new user.
-        
-        Args:
-            email: User email
-            password: Hashed password
-            school_name: School name
-            
-        Returns:
-            True if created successfully
-        """
-        return self.sqlite_manager.create_user(email, password, school_name)
-    
     def update_user(self, email: str, updates: Dict[str, Any]) -> bool:
         """
         Update user data.
@@ -474,6 +460,74 @@ class SQLiteAppIntegration:
         except Exception as e:
             self._logger.error(f"Error updating school for user {email}: {e}")
             return False
+    
+    # ===============================
+    # Email Verification Interface
+    # ===============================
+    
+    def create_verification_code(self, email: str, code: str, expires_at) -> bool:
+        """
+        Create a new email verification code.
+        
+        Args:
+            email: Email address
+            code: 4-digit verification code
+            expires_at: Expiration datetime
+            
+        Returns:
+            True if created successfully
+        """
+        try:
+            return self.sqlite_manager.create_verification_code(email, code, expires_at)
+        except Exception as e:
+            self._logger.error(f"Error creating verification code for {email}: {e}")
+            return False
+    
+    def verify_code(self, email: str, code: str) -> bool:
+        """
+        Verify an email verification code.
+        
+        Args:
+            email: Email address
+            code: 4-digit verification code to verify
+            
+        Returns:
+            True if code is valid and not expired
+        """
+        try:
+            return self.sqlite_manager.verify_code(email, code)
+        except Exception as e:
+            self._logger.error(f"Error verifying code for {email}: {e}")
+            return False
+    
+    def cleanup_expired_verification_codes(self) -> int:
+        """
+        Clean up expired verification codes.
+        
+        Returns:
+            Number of codes cleaned up
+        """
+        try:
+            return self.sqlite_manager.cleanup_expired_verification_codes()
+        except Exception as e:
+            self._logger.error(f"Error cleaning up verification codes: {e}")
+            return 0
+    
+    def get_verification_code_info(self, email: str) -> Optional[Dict[str, Any]]:
+        """
+        Get information about the most recent verification code for an email.
+        
+        Args:
+            email: Email address
+            
+        Returns:
+            Dict with verification code info or None
+        """
+        try:
+            return self.sqlite_manager.get_verification_code_info(email)
+        except Exception as e:
+            self._logger.error(f"Error getting verification code info for {email}: {e}")
+            return None
     
     # ===============================
     # Collaboration Interface

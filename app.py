@@ -699,7 +699,7 @@ def login():
     return render_template('login.html')
 
 @app.route('/create_account', methods=['GET', 'POST'])
-@apply_rate_limit("3 per 10 minutes")  # Prevent account creation spam
+@apply_rate_limit("10 per 10 minutes")  # Relaxed for verification code retries
 def create_account():
     if request.method == 'POST':
         # Sanitize input fields
@@ -708,33 +708,124 @@ def create_account():
             username = validator.sanitize_username(request.form['username'])
             password = request.form['password']  # Don't sanitize password
             school_name = validator.sanitize_school_name(request.form.get('school_name', ''))
+            verification_code = request.form.get('verification_code', '').strip()
         except ValueError as e:
             flash(f"Invalid input: {str(e)}")
             return render_template('create_account.html')
+        
+        # Validate verification code
+        if not verification_code:
+            flash('Verification code is required')
+            return render_template('create_account.html')
+        
+        if len(verification_code) != 4 or not verification_code.isdigit():
+            flash('Verification code must be a 4-digit number')
+            return render_template('create_account.html')
+        
         db = get_app_db()
+        
+        # Check if user already exists
         user = db.get_user(username)
         if user is not None:
             flash('Username already exists')
+            return render_template('create_account.html')
+        
+        # Verify the verification code
+        if not db.verify_code(username, verification_code):
+            flash('Invalid or expired verification code. Please request a new code.')
+            return render_template('create_account.html')
+        
+        # Create user using the integration layer
+        from gw.emailgw import EmailHandler
+        user_id = db.create_user(username, password, school_name if school_name else "Unknown School")
+        
+        if user_id:
+            log_user_activity(username, "Account created successfully")
+            # Send welcome email asynchronously
+            try:
+                email_handler = EmailHandler()
+                email_handler.send_account_creation_async(username, username)
+                app.logger.info(f"Account creation email queued for {username}")
+            except Exception as e:
+                app.logger.warning(f"Failed to queue account creation email: {e}")
+            flash('Account created successfully')
+            return redirect(url_for('login'))
         else:
-            from gw.emailgw import EmailHandler
-            # Create user using the integration layer
-            user_id = db.create_user(username, password, school_name if school_name else "Unknown School")
-            
-            if user_id:
-                log_user_activity(username, "Account created successfully")
-                # Send welcome email asynchronously
-                try:
-                    email_handler = EmailHandler()
-                    email_handler.send_account_creation_async(username, username)
-                    app.logger.info(f"Account creation email queued for {username}")
-                except Exception as e:
-                    app.logger.warning(f"Failed to queue account creation email: {e}")
-                flash('Account created successfully')
-                return redirect(url_for('login'))
-            else:
-                flash('Error creating account. Please try again.')
-                return render_template('create_account.html')
+            flash('Error creating account. Please try again.')
+            return render_template('create_account.html')
     return render_template('create_account.html')
+
+@app.route('/send_verification_code', methods=['POST'])
+@apply_rate_limit("3 per 10 minutes")  # Prevent spam - 3 codes per 10 minutes
+def send_verification_code():
+    """Send verification code to user's email."""
+    try:
+        # Get email from request
+        email = request.json.get('email', '').strip().lower()
+        
+        if not email:
+            return jsonify({'success': False, 'message': 'Email is required'}), 400
+        
+        # Validate email format using input validator
+        validator = get_input_validator(app.logger)
+        try:
+            email = validator.sanitize_username(email)
+        except ValueError as e:
+            return jsonify({'success': False, 'message': f'Invalid email format: {str(e)}'}), 400
+        
+        # Check if user already exists
+        db = get_app_db()
+        existing_user = db.get_user(email)
+        if existing_user:
+            return jsonify({'success': False, 'message': 'Email already registered'}), 400
+        
+        # Check if there's a recent verification code (rate limiting)
+        recent_code_info = db.get_verification_code_info(email)
+        if recent_code_info:
+            # Convert string timestamps to datetime objects for comparison
+            if isinstance(recent_code_info['created_at'], str):
+                created_at = datetime.fromisoformat(recent_code_info['created_at'].replace('Z', '+00:00'))
+            else:
+                created_at = recent_code_info['created_at']
+            
+            time_since_last = datetime.utcnow() - created_at.replace(tzinfo=None)
+            if time_since_last < timedelta(minutes=1):  # Prevent rapid requests
+                return jsonify({
+                    'success': False, 
+                    'message': 'Please wait before requesting another code'
+                }), 429
+        
+        # Generate 4-digit verification code
+        import random
+        verification_code = f"{random.randint(1000, 9999)}"
+        
+        # Set expiration time (10 minutes from now)
+        expires_at = datetime.utcnow() + timedelta(minutes=10)
+        
+        # Store verification code in database
+        if not db.create_verification_code(email, verification_code, expires_at):
+            return jsonify({'success': False, 'message': 'Failed to create verification code'}), 500
+        
+        # Send email with verification code
+        from gw.emailgw import EmailHandler
+        try:
+            email_handler = EmailHandler()
+            success = email_handler.send_verification_code_async(email, verification_code)
+            app.logger.info(f"Verification code email queued for {email}")
+            
+            return jsonify({
+                'success': True, 
+                'message': 'Verification code sent to your email',
+                'expires_in_minutes': 10
+            })
+            
+        except Exception as e:
+            app.logger.error(f"Failed to send verification email to {email}: {e}")
+            return jsonify({'success': False, 'message': 'Failed to send verification email'}), 500
+            
+    except Exception as e:
+        app.logger.error(f"Error in send_verification_code: {e}")
+        return jsonify({'success': False, 'message': 'Internal server error'}), 500
 
 @app.route('/about')
 @require_login
@@ -2052,6 +2143,26 @@ if __name__ == '__main__':
     session_cleanup_scheduler = SessionCleanupScheduler(cleanup_interval_minutes=5)
     session_cleanup_scheduler.register_cleanup_function(cleanup_old_sessions)
     session_cleanup_scheduler.start()
+    
+    # Setup verification code cleanup task
+    def cleanup_verification_codes():
+        """Cleanup expired verification codes"""
+        try:
+            db = get_app_db()
+            count = db.cleanup_expired_verification_codes()
+            if count > 0:
+                app.logger.info(f"Cleaned up {count} expired verification codes")
+        except Exception as e:
+            app.logger.error(f"Error cleaning up verification codes: {e}")
+    
+    # Register verification code cleanup to run every 30 minutes
+    import threading
+    def periodic_verification_cleanup():
+        cleanup_verification_codes()
+        threading.Timer(1800, periodic_verification_cleanup).start()  # 30 minutes
+    
+    # Start periodic cleanup after a 5 minute delay
+    threading.Timer(300, periodic_verification_cleanup).start()
     
     # Setup cleanup handlers
     def cleanup_on_exit():

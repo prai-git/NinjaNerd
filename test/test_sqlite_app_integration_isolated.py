@@ -11,6 +11,7 @@ import tempfile
 import os
 import uuid
 from flask import Flask
+from werkzeug.security import check_password_hash
 from dbmgr.sqlite_app_integration import SQLiteAppIntegration
 
 
@@ -34,13 +35,25 @@ class TestSQLiteAppIntegrationIsolated(unittest.TestCase):
             
             # Test user creation with proper parameters
             unique_user = f'test_user_{uuid.uuid4().hex[:8]}'
-            result = integration.create_user(unique_user, 'test_hash', 'Test School')
+            plain_password = 'test_password_123'
+            result = integration.create_user(unique_user, plain_password, 'Test School')
             self.assertTrue(result, "User creation should succeed")
             
             # Test user retrieval
             retrieved_user = integration.get_user(unique_user)
             self.assertIsNotNone(retrieved_user, "User retrieval should return data")
-            self.assertEqual(retrieved_user.get('password'), 'test_hash')
+            
+            # Verify password is properly hashed (not plain text)
+            stored_password = retrieved_user.get('password')
+            self.assertIsNotNone(stored_password, "Password should be stored")
+            self.assertNotEqual(stored_password, plain_password, "Password should be hashed, not plain text")
+            self.assertTrue(stored_password.startswith('pbkdf2:'), "Password should use pbkdf2 hashing")
+            
+            # Verify password can be checked correctly
+            self.assertTrue(check_password_hash(stored_password, plain_password), "Password hash should verify correctly")
+            self.assertFalse(check_password_hash(stored_password, 'wrong_password'), "Wrong password should not verify")
+            
+            # Verify other user data
             self.assertEqual(retrieved_user.get('school_name'), 'Test School')
             
             # Test user history update
@@ -65,8 +78,10 @@ class TestSQLiteAppIntegrationIsolated(unittest.TestCase):
             print(f"✅ Isolated SQLite integration test passed for user: {unique_user}")
             print(f"   - User creation: {result}")
             print(f"   - User retrieval: {retrieved_user is not None}")
+            print(f"   - Password hashing: ✅ (pbkdf2 format)")
+            print(f"   - Password verification: ✅")
             print(f"   - History update: {history_result}")
-            print("   - Statistics update: Skipped (method not available in integration layer)")
+            print("   - Database isolation: ✅ (temporary directory used)")
 
 
 if __name__ == '__main__':

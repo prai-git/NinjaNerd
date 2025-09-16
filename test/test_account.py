@@ -6,6 +6,7 @@ import json
 import tempfile
 import shutil
 from datetime import datetime
+from werkzeug.security import check_password_hash
 
 # Ensure project root is in sys.path for direct test execution
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -89,12 +90,18 @@ class TestAccountPage(unittest.TestCase):
         db = get_app_db()
         
         # Create a test user first
-        db.create_user('testuser@example.com', 'hashed_password', 'Test School')
+        plain_password = 'test_password_123'
+        db.create_user('testuser@example.com', plain_password, 'Test School')
         
         # Test school name update directly
         original_user = db.get_user('testuser@example.com')
         self.assertIsNotNone(original_user)
         self.assertEqual(original_user['school_name'], 'Test School')
+        
+        # Store original password hash for comparison
+        original_password_hash = original_user['password']
+        self.assertTrue(original_password_hash.startswith('pbkdf2:'), "Password should be hashed")
+        self.assertTrue(check_password_hash(original_password_hash, plain_password), "Password hash should verify")
         
         # Update school name
         success = db.update_user_school('testuser@example.com', 'New School')
@@ -103,7 +110,7 @@ class TestAccountPage(unittest.TestCase):
         # Verify school name was updated
         updated_user = db.get_user('testuser@example.com')
         self.assertEqual(updated_user['school_name'], 'New School')
-        self.assertEqual(updated_user['password'], 'hashed_password')  # Should remain unchanged
+        self.assertEqual(updated_user['password'], original_password_hash)  # Password should remain unchanged
     
     def test_account_both_update(self):
         """Test updating both password and school name"""

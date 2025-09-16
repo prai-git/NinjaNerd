@@ -103,6 +103,18 @@ class EmailHandler:
         body = f"Hello {user},\n\nYour payment has been processed successfully. Here are your receipt details:\n\n{receipt_lines}\n\nThank you for your purchase!\n\nBest Regards,\nNinjaNerd Team"
         self.send_email_async(to_email, subject, body)
 
+    def send_verification_code(self, to_email: str, verification_code: str) -> bool:
+        """Synchronous verification code email."""
+        subject = "NinjaNerd Account Verification Code"
+        body = f"Your NinjaNerd account verification code is: {verification_code}\n\nThis code will expire in 10 minutes. Please enter this code to complete your account creation.\n\nIf you did not request this code, please ignore this email.\n\nBest Regards,\nNinjaNerd Team"
+        return self._send_email(to_email, subject, body)
+
+    def send_verification_code_async(self, to_email: str, verification_code: str) -> None:
+        """Asynchronous verification code email."""
+        subject = "NinjaNerd Account Verification Code"
+        body = f"Your NinjaNerd account verification code is: {verification_code}\n\nThis code will expire in 10 minutes. Please enter this code to complete your account creation.\n\nIf you did not request this code, please ignore this email.\n\nBest Regards,\nNinjaNerd Team"
+        self.send_email_async(to_email, subject, body)
+
     def shutdown(self) -> None:
         """Gracefully shutdown the thread pool executor."""
         try:

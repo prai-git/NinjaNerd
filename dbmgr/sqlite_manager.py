@@ -264,6 +264,18 @@ class SQLiteManager:
             )
         """,
         
+        'email_verification_codes': """
+            CREATE TABLE IF NOT EXISTS email_verification_codes (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                email TEXT NOT NULL,
+                code TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                expires_at TIMESTAMP NOT NULL,
+                used BOOLEAN DEFAULT FALSE,
+                attempts INTEGER DEFAULT 0
+            )
+        """,
+        
         'schema_info': """
             CREATE TABLE IF NOT EXISTS schema_info (
                 version INTEGER PRIMARY KEY,
@@ -284,7 +296,10 @@ class SQLiteManager:
         "CREATE INDEX IF NOT EXISTS idx_chat_sessions_active ON chat_sessions (active)",
         "CREATE INDEX IF NOT EXISTS idx_messages_session ON messages (session_id)",
         "CREATE INDEX IF NOT EXISTS idx_messages_timestamp ON messages (timestamp)",
-        "CREATE INDEX IF NOT EXISTS idx_messages_displayed ON messages (displayed)"
+        "CREATE INDEX IF NOT EXISTS idx_messages_displayed ON messages (displayed)",
+        "CREATE INDEX IF NOT EXISTS idx_verification_codes_email ON email_verification_codes (email)",
+        "CREATE INDEX IF NOT EXISTS idx_verification_codes_expires ON email_verification_codes (expires_at)",
+        "CREATE INDEX IF NOT EXISTS idx_verification_codes_used ON email_verification_codes (used)"
     ]
     
     def __init__(self, db_path: str = None, **kwargs):
@@ -800,6 +815,170 @@ class SQLiteManager:
         
         return self._execute_read_operation(operation, session_id, "get_collaboration_data")
     
+    # ===============================
+    # Email Verification Code Management
+    # ===============================
+    
+    def create_verification_code(self, email: str, code: str, expires_at: datetime, session_id: Optional[str] = None) -> bool:
+        """
+        Create a new email verification code.
+        
+        Args:
+            email: Email address
+            code: 4-digit verification code
+            expires_at: Expiration timestamp
+            session_id: Optional session ID for tracking
+            
+        Returns:
+            True if created successfully
+        """
+        def operation():
+            with self.connection_pool.get_connection() as conn:
+                # Clean up any existing codes for this email first
+                conn.execute("""
+                    DELETE FROM email_verification_codes 
+                    WHERE email = ? AND (used = 1 OR expires_at < datetime('now'))
+                """, (email,))
+                
+                # Insert new verification code
+                conn.execute("""
+                    INSERT INTO email_verification_codes (email, code, expires_at)
+                    VALUES (?, ?, ?)
+                """, (email, code, expires_at.isoformat()))
+                
+                conn.commit()
+                return True
+        
+        return self._execute_write_operation(
+            operation,
+            Priority.HIGH,
+            session_id,
+            "create_verification_code"
+        )
+    
+    def verify_code(self, email: str, code: str, session_id: Optional[str] = None) -> bool:
+        """
+        Verify an email verification code.
+        
+        Args:
+            email: Email address
+            code: 4-digit verification code to verify
+            session_id: Optional session ID for tracking
+            
+        Returns:
+            True if code is valid and not expired
+        """
+        def operation():
+            with self.connection_pool.get_connection() as conn:
+                # Get the most recent valid code for this email
+                result = conn.execute("""
+                    SELECT id, code, expires_at, used, attempts 
+                    FROM email_verification_codes 
+                    WHERE email = ? AND used = 0 AND expires_at > datetime('now')
+                    ORDER BY created_at DESC 
+                    LIMIT 1
+                """, (email,)).fetchone()
+                
+                if not result:
+                    return False
+                
+                verification_id, stored_code, expires_at, used, attempts = result
+                
+                # Increment attempts
+                new_attempts = attempts + 1
+                conn.execute("""
+                    UPDATE email_verification_codes 
+                    SET attempts = ? 
+                    WHERE id = ?
+                """, (new_attempts, verification_id))
+                
+                # Check if code matches
+                if stored_code == code:
+                    # Mark as used
+                    conn.execute("""
+                        UPDATE email_verification_codes 
+                        SET used = 1 
+                        WHERE id = ?
+                    """, (verification_id,))
+                    conn.commit()
+                    return True
+                
+                # Check if too many attempts (optional security measure)
+                if new_attempts >= 5:
+                    conn.execute("""
+                        UPDATE email_verification_codes 
+                        SET used = 1 
+                        WHERE id = ?
+                    """, (verification_id,))
+                
+                conn.commit()
+                return False
+        
+        return self._execute_write_operation(
+            operation,
+            Priority.HIGH,
+            session_id,
+            "verify_code"
+        )
+    
+    def cleanup_expired_verification_codes(self, session_id: Optional[str] = None) -> int:
+        """
+        Clean up expired verification codes.
+        
+        Args:
+            session_id: Optional session ID for tracking
+            
+        Returns:
+            Number of codes cleaned up
+        """
+        def operation():
+            with self.connection_pool.get_connection() as conn:
+                cursor = conn.execute("""
+                    DELETE FROM email_verification_codes 
+                    WHERE expires_at < datetime('now') OR used = 1
+                """)
+                conn.commit()
+                return cursor.rowcount
+        
+        return self._execute_write_operation(
+            operation,
+            Priority.LOW,
+            session_id,
+            "cleanup_verification_codes"
+        )
+    
+    def get_verification_code_info(self, email: str, session_id: Optional[str] = None) -> Optional[Dict[str, Any]]:
+        """
+        Get information about the most recent verification code for an email.
+        
+        Args:
+            email: Email address
+            session_id: Optional session ID for tracking
+            
+        Returns:
+            Dict with verification code info or None
+        """
+        def operation():
+            with self.connection_pool.get_connection() as conn:
+                result = conn.execute("""
+                    SELECT created_at, expires_at, used, attempts 
+                    FROM email_verification_codes 
+                    WHERE email = ? 
+                    ORDER BY created_at DESC 
+                    LIMIT 1
+                """, (email,)).fetchone()
+                
+                if result:
+                    return {
+                        'created_at': result['created_at'],
+                        'expires_at': result['expires_at'],
+                        'used': bool(result['used']),
+                        'attempts': result['attempts']
+                    }
+                return None
+        
+        return self._execute_read_operation(operation, session_id, "get_verification_code_info")
+
     def create_invite(self, from_user: str, to_user: str, session_id: Optional[str] = None) -> str:
         """
         Create a new invite.
@@ -1511,6 +1690,10 @@ class SQLiteManager:
             self._logger.info("SQLiteManager closed successfully")
         except Exception as e:
             self._logger.error(f"Error closing SQLiteManager: {e}")
+    
+    def shutdown(self):
+        """Alias for close() to provide shutdown() method for tests."""
+        self.close()
     
     def __del__(self):
         """Destructor to ensure cleanup."""

@@ -246,7 +246,7 @@ class TestSQLiteAppIntegration:
         """Test individual user and collaboration operations."""
         # Test user operations
         success = self.integration.create_user('test@example.com', 'password123', 'Test School')
-        assert success is True
+        assert success == 'test@example.com'  # create_user returns email on success
         
         user = self.integration.get_user('test@example.com')
         assert user is not None
@@ -347,13 +347,13 @@ class TestSQLiteAppIntegration:
         user = self.integration.get_user('nonexistent@example.com')
         assert user is None
         
-        # Test duplicate user creation - should raise ConcurrencyError
+        # Test duplicate user creation - should return None, not raise exception
         success1 = self.integration.create_user('dup@example.com', 'pass1')
-        assert success1 is True
+        assert success1 == 'dup@example.com'  # create_user returns email on success
         
-        from dbmgr.exceptions import ConcurrencyError
-        with pytest.raises(ConcurrencyError):
-            self.integration.create_user('dup@example.com', 'pass2')
+        # Attempting to create duplicate user should return None (fail gracefully)
+        success2 = self.integration.create_user('dup@example.com', 'pass2')
+        assert success2 is None  # Duplicate creation should fail gracefully
     
     def test_flask_app_config_integration(self):
         """Test Flask app configuration integration."""
