@@ -276,6 +276,14 @@ class SQLiteManager:
             )
         """,
         
+        'user_statistics': """
+            CREATE TABLE IF NOT EXISTS user_statistics (
+                user_id INTEGER PRIMARY KEY,
+                last_login TEXT,
+                FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+            )
+        """,
+        
         'schema_info': """
             CREATE TABLE IF NOT EXISTS schema_info (
                 version INTEGER PRIMARY KEY,
@@ -299,7 +307,8 @@ class SQLiteManager:
         "CREATE INDEX IF NOT EXISTS idx_messages_displayed ON messages (displayed)",
         "CREATE INDEX IF NOT EXISTS idx_verification_codes_email ON email_verification_codes (email)",
         "CREATE INDEX IF NOT EXISTS idx_verification_codes_expires ON email_verification_codes (expires_at)",
-        "CREATE INDEX IF NOT EXISTS idx_verification_codes_used ON email_verification_codes (used)"
+        "CREATE INDEX IF NOT EXISTS idx_verification_codes_used ON email_verification_codes (used)",
+        "CREATE INDEX IF NOT EXISTS idx_user_statistics_user_id ON user_statistics (user_id)"
     ]
     
     def __init__(self, db_path: str = None, **kwargs):

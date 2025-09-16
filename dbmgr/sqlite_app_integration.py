@@ -9,6 +9,7 @@ enhanced performance and concurrent user support.
 import os
 import logging
 import atexit
+import sqlite3
 from datetime import datetime
 from typing import Dict, Any, Optional, List
 from flask import Flask
@@ -290,13 +291,28 @@ class SQLiteAppIntegration:
                         
                         if user_row:
                             # Get last_login from user_statistics table
-                            stats_row = conn.execute(
-                                "SELECT last_login FROM user_statistics WHERE user_id = ?",
-                                (user_row['id'],)
-                            ).fetchone()
-                            
-                            if stats_row:
-                                last_login = stats_row['last_login']
+                            try:
+                                stats_row = conn.execute(
+                                    "SELECT last_login FROM user_statistics WHERE user_id = ?",
+                                    (user_row['id'],)
+                                ).fetchone()
+                                
+                                if stats_row:
+                                    last_login = stats_row['last_login']
+                            except sqlite3.OperationalError as e:
+                                if "no such table: user_statistics" in str(e):
+                                    # Table doesn't exist yet, create it (graceful recovery)
+                                    conn.execute("""
+                                        CREATE TABLE IF NOT EXISTS user_statistics (
+                                            user_id INTEGER PRIMARY KEY,
+                                            last_login TEXT,
+                                            FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+                                        )
+                                    """)
+                                    conn.commit()
+                                    self._logger.info("Created missing user_statistics table")
+                                else:
+                                    raise e
                 except Exception as e:
                     self._logger.error(f"Error retrieving last_login for {email}: {e}")
                 

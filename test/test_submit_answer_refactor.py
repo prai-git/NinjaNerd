@@ -25,37 +25,29 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 def test_submit_answer_atomic_operation(mock_get_db, mock_load_data, mock_save_data):
     """Test that submit_answer performs atomic history and statistics updates."""
     from app import app
-    from dbmgr.app_integration import initialize_app_db, get_app_db
-    from dbmgr.sqlite_app_integration import reset_app_db
+    from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
-        data_dir = os.path.join(temp_dir, 'data')
-        backup_dir = os.path.join(temp_dir, 'backups')
-        os.makedirs(data_dir)
-        os.makedirs(backup_dir)
+        test_db_path = os.path.join(temp_dir, 'test_submit_answer.db')
         
         # Reset and initialize test database
         reset_app_db()
-        initialize_app_db(data_dir, backup_dir)
-        db = get_app_db()
+        
+        # Set environment variable to avoid message obfuscation key error
+        os.environ.setdefault('MESSAGE_OBFUSCATION_KEY', 'test-key-for-testing')
+        
+        # Initialize database integration
+        db = initialize_app_db(app, db_path=test_db_path, enable_message_obfuscation=False)
         
         # Mock the collaboration data functions and database
         mock_load_data.side_effect = lambda: {'invites': {}, 'chat_sessions': {}, 'message_counter': 0}
         mock_save_data.return_value = None
         mock_get_db.return_value = db
         
-        # Create a test user
-        test_user_data = {
-            'password': 'test_password_hash',
-            'school_name': 'Test School',
-            'history': [],
-            'statistics': {
-                'questions_attempted': 0,
-                'topics_covered': []
-            }
-        }
-        db.db_manager.create_user('testuser', test_user_data)
+        # Create a test user with SQLite integration method signature
+        result = db.create_user('testuser', 'test_password_hash', 'Test School')
+        assert result == 'testuser', "Failed to create test user"
         
         with app.test_client() as client:
             with client.session_transaction() as sess:
@@ -121,7 +113,8 @@ def test_submit_answer_atomic_operation(mock_get_db, mock_load_data, mock_save_d
                                     history_entry = user_data['history'][0]
                                     assert history_entry['question'] == 'What is 2+2?'
                                     assert history_entry['user_answer'] == '4'
-                                    assert history_entry['correct'] is True
+                                    # SQLite integration stores boolean as integer (1 for True)
+                                    assert history_entry['correct'] in [True, 1]
                                     assert history_entry['topic'] == 'math'
                                     assert history_entry['subtopic'] == 'addition'
                                     assert history_entry['grade'] == 1
@@ -134,37 +127,29 @@ def test_submit_answer_atomic_operation(mock_get_db, mock_load_data, mock_save_d
 def test_submit_answer_multiple_questions(mock_get_db, mock_load_data, mock_save_data):
     """Test that submit_answer correctly handles multiple questions and increments statistics."""
     from app import app
-    from dbmgr.app_integration import initialize_app_db, get_app_db
-    from dbmgr.sqlite_app_integration import reset_app_db
+    from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
-        data_dir = os.path.join(temp_dir, 'data')
-        backup_dir = os.path.join(temp_dir, 'backups')
-        os.makedirs(data_dir)
-        os.makedirs(backup_dir)
+        test_db_path = os.path.join(temp_dir, 'test_submit_multiple.db')
         
         # Reset and initialize test database
         reset_app_db()
-        initialize_app_db(data_dir, backup_dir)
-        db = get_app_db()
+        
+        # Set environment variable to avoid message obfuscation key error
+        os.environ.setdefault('MESSAGE_OBFUSCATION_KEY', 'test-key-for-testing')
+        
+        # Initialize database integration
+        db = initialize_app_db(app, db_path=test_db_path, enable_message_obfuscation=False)
         
         # Mock the collaboration data functions and database
         mock_load_data.side_effect = lambda: {'invites': {}, 'chat_sessions': {}, 'message_counter': 0}
         mock_save_data.return_value = None
         mock_get_db.return_value = db
         
-        # Create a test user
-        test_user_data = {
-            'password': 'test_password_hash',
-            'school_name': 'Test School',
-            'history': [],
-            'statistics': {
-                'questions_attempted': 0,
-                'topics_covered': []
-            }
-        }
-        db.db_manager.create_user('testuser2', test_user_data)
+        # Create a test user with SQLite integration method signature
+        result = db.create_user('testuser2', 'test_password_hash', 'Test School')
+        assert result == 'testuser2', "Failed to create test user"
         
         with app.test_client() as client:
             with client.session_transaction() as sess:
@@ -250,37 +235,29 @@ def test_submit_answer_multiple_questions(mock_get_db, mock_load_data, mock_save
 def test_submit_answer_error_handling(mock_get_db, mock_load_data, mock_save_data):
     """Test error handling when database operations fail."""
     from app import app
-    from dbmgr.app_integration import initialize_app_db, get_app_db
-    from dbmgr.sqlite_app_integration import reset_app_db
+    from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
     
     # Create temporary directories for testing
     with tempfile.TemporaryDirectory() as temp_dir:
-        data_dir = os.path.join(temp_dir, 'data')
-        backup_dir = os.path.join(temp_dir, 'backups')
-        os.makedirs(data_dir)
-        os.makedirs(backup_dir)
+        test_db_path = os.path.join(temp_dir, 'test_submit_error.db')
         
         # Reset and initialize test database
         reset_app_db()
-        initialize_app_db(data_dir, backup_dir)
-        db = get_app_db()
+        
+        # Set environment variable to avoid message obfuscation key error
+        os.environ.setdefault('MESSAGE_OBFUSCATION_KEY', 'test-key-for-testing')
+        
+        # Initialize database integration
+        db = initialize_app_db(app, db_path=test_db_path, enable_message_obfuscation=False)
         
         # Mock the collaboration data functions and database
         mock_load_data.side_effect = lambda: {'invites': {}, 'chat_sessions': {}, 'message_counter': 0}
         mock_save_data.return_value = None
         mock_get_db.return_value = db
         
-        # Create a test user
-        test_user_data = {
-            'password': 'test_password_hash',
-            'school_name': 'Test School',
-            'history': [],
-            'statistics': {
-                'questions_attempted': 0,
-                'topics_covered': []
-            }
-        }
-        db.db_manager.create_user('testuser3', test_user_data)
+        # Create a test user with SQLite integration method signature
+        result = db.create_user('testuser3', 'test_password_hash', 'Test School')
+        assert result == 'testuser3', "Failed to create test user"
         
         with app.test_client() as client:
             with client.session_transaction() as sess:
