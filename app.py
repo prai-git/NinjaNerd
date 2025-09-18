@@ -1972,6 +1972,11 @@ def games_list(grade):
             'name': 'Tank Attack',
             'slug': 'tank-attack',
             'description': 'Control a blue dot and defend against enemy tanks! Collect power boosts to unleash devastating fireballs!'
+        },
+        {
+            'name': 'GeoDash',
+            'slug': 'geodash',
+            'description': 'A geometry dash inspired game! Guide a dragon through obstacles by jumping at the right time!'
         }
     ]
     
@@ -1994,6 +1999,11 @@ def game_detail(game_slug):
             'name': 'Tank Attack',
             'slug': 'tank-attack',
             'description': 'Control a blue dot and defend against enemy tanks! Collect power boosts to unleash devastating fireballs!'
+        },
+        'geodash': {
+            'name': 'GeoDash',
+            'slug': 'geodash',
+            'description': 'A geometry dash inspired game! Guide a dragon through obstacles by jumping at the right time!'
         }
     }
     

@@ -14,6 +14,8 @@
                                 <i class="fas fa-fighter-jet me-2"></i>
                             {% elif game.slug == 'tank-attack' %}
                                 <i class="fas fa-crosshairs me-2"></i>
+                            {% elif game.slug == 'geodash' %}
+                                <i class="fas fa-dragon me-2"></i>
                             {% endif %}
                             {{ game.name }}
                         </h4>
@@ -29,31 +31,49 @@
                     </div>
                 </div>
                 <div class="card-body p-0">
-                    <div class="game-container {% if game.slug == 'tank-attack' %}tank-attack-container{% endif %}">
-                        <canvas id="gameCanvas" width="1200" height="800"></canvas>
-                        <div id="gameControls" class="game-controls {% if game.slug == 'tank-attack' %}tank-attack-controls{% endif %}">
-                            <h3>{{ game.name }}</h3>
-                            <div class="controls-info">
-                                <h6>Controls:</h6>
-                                {% if game.slug == 'tejas-thrust' %}
-                                    <p><i class="fas fa-arrows-alt"></i> Arrow Keys: Move</p>
-                                    <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot</p>
-                                    <p><i class="fas fa-pause"></i> P: Pause</p>
-                                {% elif game.slug == 'tank-attack' %}
-                                    <p><i class="fas fa-arrow-up"></i> Up Arrow: Move Up</p>
-                                    <p><i class="fas fa-arrow-down"></i> Down Arrow: Move Down</p>
-                                    <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot Laser</p>
-                                    <p><i class="fas fa-fire"></i> F Key: Shoot Fireball (when available)</p>
-                                    <p><i class="fas fa-pause"></i> P: Pause</p>
-                                {% endif %}
-                            </div>
-                            <div class="tank-attack-game-buttons">
-                                <button id="startBtn" class="btn btn-success btn-lg">
-                                    <i class="fas fa-play"></i> Start Game
-                                </button>
-                                <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
-                                    <i class="fas fa-redo"></i> Restart
-                                </button>
+                    <div class="game-container {% if game.slug == 'tank-attack' %}tank-attack-container{% elif game.slug == 'geodash' %}geodash-container{% endif %}">
+                        <div class="canvas-wrapper">
+                            <canvas id="gameCanvas" width="1200" height="800"></canvas>
+                            <div id="gameControls" class="game-controls {% if game.slug == 'tank-attack' %}tank-attack-controls{% elif game.slug == 'geodash' %}geodash-controls{% endif %}">
+                                <h3>{{ game.name }}</h3>
+                                <div class="controls-info">
+                                    <h6>Controls:</h6>
+                                    {% if game.slug == 'tejas-thrust' %}
+                                        <p><i class="fas fa-arrows-alt"></i> Arrow Keys: Move</p>
+                                        <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot</p>
+                                        <p><i class="fas fa-pause"></i> P: Pause</p>
+                                    {% elif game.slug == 'tank-attack' %}
+                                        <p><i class="fas fa-arrow-up"></i> Up Arrow: Move Up</p>
+                                        <p><i class="fas fa-arrow-down"></i> Down Arrow: Move Down</p>
+                                        <p><i class="fas fa-space-shuttle"></i> Spacebar: Shoot Laser</p>
+                                        <p><i class="fas fa-fire"></i> F Key: Shoot Fireball (when available)</p>
+                                        <p><i class="fas fa-pause"></i> P: Pause</p>
+                                    {% elif game.slug == 'geodash' %}
+                                        <p><i class="fas fa-space-shuttle"></i> Spacebar: Jump</p>
+                                        <p><i class="fas fa-hand-pointer"></i> Touch: Jump (mobile)</p>
+                                        <p><i class="fas fa-pause"></i> P: Pause</p>
+                                        <p><i class="fas fa-redo"></i> R: Restart (when game over)</p>
+                                    {% endif %}
+                                </div>
+                                <div class="tank-attack-game-buttons">
+                                    {% if game.slug == 'geodash' %}
+                                    <div class="geodash-game-buttons">
+                                        <button id="startBtn" class="btn btn-success btn-lg">
+                                            <i class="fas fa-play"></i> Start Game
+                                        </button>
+                                        <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
+                                            <i class="fas fa-redo"></i> Restart
+                                        </button>
+                                    </div>
+                                    {% else %}
+                                    <button id="startBtn" class="btn btn-success btn-lg">
+                                        <i class="fas fa-play"></i> Start Game
+                                    </button>
+                                    <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
+                                        <i class="fas fa-redo"></i> Restart
+                                    </button>
+                                    {% endif %}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,6 +97,11 @@
     border: 2px solid #333;
 }
 
+.canvas-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
 .game-container #gameCanvas {
     background: #87CEEB;
 }
@@ -95,6 +120,9 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 10;
+    max-width: 380px;
+    max-height: 380px;
 }
 
 .controls-info {
@@ -109,6 +137,49 @@
 /* Tank Attack specific styles */
 .tank-attack-container {
     background: #f0f0f0;
+}
+
+/* GeoDash specific styles */
+.geodash-container {
+    background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%);
+}
+
+.geodash-controls {
+    max-width: 380px;
+}
+
+.geodash-controls h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.geodash-controls .controls-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.geodash-controls .controls-info h6 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.geodash-controls .controls-info p {
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.geodash-controls .controls-info i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.geodash-game-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tank-attack-controls {
@@ -155,6 +226,11 @@
 }
 </style>
 
+<!-- Load game-specific CSS files -->
+{% if game.slug == 'geodash' %}
+<link href="/static/games/geodash/css/geodash.css" rel="stylesheet">
+{% endif %}
+
 <!-- Load game-specific JavaScript files -->
 {% if game.slug == 'tejas-thrust' %}
 <script src="/static/games/tejas_thrust/js/config.js"></script>
@@ -168,6 +244,11 @@
 <script src="/static/games/tank_attack/js/tank.js"></script>
 <script src="/static/games/tank_attack/js/bluedot.js"></script>
 <script src="/static/games/tank_attack/js/game.js"></script>
+{% elif game.slug == 'geodash' %}
+<script src="/static/games/geodash/js/config.js"></script>
+<script src="/static/games/geodash/js/player.js"></script>
+<script src="/static/games/geodash/js/obstacle.js"></script>
+<script src="/static/games/geodash/js/game.js"></script>
 {% endif %}
 
 <script>
@@ -190,6 +271,8 @@ document.getElementById('pauseBtn').addEventListener('click', function() {
         game.togglePause();
         {% elif game.slug == 'tank-attack' %}
         game.pause();
+        {% elif game.slug == 'geodash' %}
+        game.togglePause();
         {% endif %}
         updatePauseButton();
     }
@@ -214,6 +297,8 @@ function startGame() {
     game = new TejasThrust('gameCanvas');
     {% elif game.slug == 'tank-attack' %}
     game = new TankAttack('gameCanvas');
+    {% elif game.slug == 'geodash' %}
+    game = new GeoDash('gameCanvas');
     {% endif %}
     
     game.start();
@@ -239,6 +324,23 @@ setInterval(function() {
         document.getElementById('restartBtn').style.display = 'inline-block';
     }
 }, 100);
+
+document.addEventListener('gamePauseToggle', function(e) {
+    updatePauseButton();
+});
+{% elif game.slug == 'geodash' %}
+// GeoDash game over handling
+setInterval(function() {
+    if (game && game.gameOver) {
+        document.getElementById('gameControls').style.display = 'block';
+        document.getElementById('startBtn').style.display = 'none';
+        document.getElementById('restartBtn').style.display = 'inline-block';
+    }
+}, 100);
+
+document.addEventListener('gamePauseToggle', function(e) {
+    updatePauseButton();
+});
 {% endif %}
 </script>
 {% endblock %}

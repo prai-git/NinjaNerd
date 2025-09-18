@@ -127,17 +127,21 @@ class TankAttack {
                 this.backgroundMusic.play().catch(e => console.log('Music resume failed:', e));
             }
         }
+        
+        // Dispatch event to update pause button
+        const event = new CustomEvent('gamePauseToggle', { detail: { paused: this.paused } });
+        document.dispatchEvent(event);
     }
     
     handleInput() {
-        // Safeguard: Only handle input if game is running and not paused
-        if (!this.running || this.paused || this.gameOver) {
-            return;
-        }
-        
         // Validate keys object exists and has valid state
         if (!this.keys || typeof this.keys !== 'object') {
             this.keys = {};
+            return;
+        }
+        
+        // Safeguard: Only handle other inputs if game is running and not paused
+        if (!this.running || this.paused || this.gameOver) {
             return;
         }
         
@@ -152,10 +156,6 @@ class TankAttack {
         }
         if (this.keys['KeyF'] === true) {
             this.blueDot.shootFireball();
-        }
-        if (this.keys['KeyP'] === true) {
-            this.pause();
-            this.keys['KeyP'] = false; // Prevent multiple toggles
         }
     }
     
@@ -349,9 +349,25 @@ class TankAttack {
     
     gameLoop() {
         if (this.running) {
+            // Always check for pause key, even when paused
+            this.handlePauseInput();
+            
             this.update();
             this.draw();
             requestAnimationFrame(this.gameLoop);
+        }
+    }
+    
+    handlePauseInput() {
+        // Validate keys object exists and has valid state
+        if (!this.keys || typeof this.keys !== 'object') {
+            return;
+        }
+        
+        // Handle pause key regardless of game state
+        if (this.keys['KeyP'] === true) {
+            this.pause();
+            this.keys['KeyP'] = false; // Prevent multiple toggles
         }
     }
 }
