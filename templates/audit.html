@@ -68,38 +68,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="card">
-                                <div class="card-header bg-success text-white">
-                                    <h6 class="mb-0"><i class="fas fa-credit-card me-2"></i>Payment Information</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p><strong>Total Amount:</strong> 
-                                        {% if audit_data.payment_amount > 0 %}
-                                            ${{ "%.2f"|format(audit_data.payment_amount) }}
-                                        {% else %}
-                                            <span class="text-muted">No payments recorded</span>
-                                        {% endif %}
-                                    </p>
-                                    <p><strong>Payment History:</strong> 
-                                        {% if audit_data.payment_history %}
-                                            {{ audit_data.payment_history | length }} transaction(s)
-                                        {% else %}
-                                            <span class="text-muted">No payment history</span>
-                                        {% endif %}
-                                    </p>
-                                    <p><strong>Receipt Link:</strong> 
-                                        {% if audit_data.payment_receipt_link %}
-                                            <a href="{{ audit_data.payment_receipt_link }}" target="_blank" class="btn btn-sm btn-outline-primary">
-                                                <i class="fas fa-external-link-alt me-1"></i>View Receipt
-                                            </a>
-                                        {% else %}
-                                            <span class="text-muted">No receipt available</span>
-                                        {% endif %}
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     <!-- Activity History -->
@@ -186,8 +154,8 @@
                                             </td>
                                             <td>
                                                 {% if payment.receipt_url %}
-                                                <a href="{{ payment.receipt_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
-                                                    <i class="fas fa-download"></i>
+                                                <a href="{{ payment.receipt_url }}" class="btn btn-sm btn-outline-primary">
+                                                    <i class="fas fa-receipt"></i> View
                                                 </a>
                                                 {% else %}
                                                 N/A

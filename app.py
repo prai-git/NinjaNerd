@@ -1065,11 +1065,45 @@ def audit():
                 'statistics': user_data.get('statistics', {}),
                 'last_login': user_data.get('statistics', {}).get('last_login', 'Never'),
                 'questions_attempted': user_data.get('statistics', {}).get('questions_attempted', 0),
-                'topics_covered': user_data.get('statistics', {}).get('topics_covered', []),
-                'payment_history': [],  # Payment feature not implemented yet
-                'payment_amount': 0.0,  # Payment feature not implemented yet
-                'payment_receipt_link': None  # Payment feature not implemented yet
+                'topics_covered': user_data.get('statistics', {}).get('topics_covered', [])
             }
+            
+            # Get payment information
+            try:
+                payments = db.get_user_payments(target_username)
+                audit_data['payment_history'] = []
+                audit_data['payment_amount'] = 0.0
+                audit_data['payment_receipt_link'] = None
+                
+                if payments:
+                    # Convert payment data for audit display
+                    for payment in payments:
+                        # Create proper receipt link for completed payments
+                        receipt_link = None
+                        if payment['status'] == 'completed' and payment['paypal_order_id']:
+                            receipt_link = url_for('payment_success', order_id=payment['paypal_order_id'])
+                        
+                        audit_data['payment_history'].append({
+                            'date': payment['payment_timestamp'][:10] if payment['payment_timestamp'] else 'N/A',
+                            'amount': payment['amount'],
+                            'method': payment['payment_method'],
+                            'status': payment['status'],
+                            'receipt_url': receipt_link
+                        })
+                    
+                    # Calculate total amount from completed payments
+                    audit_data['payment_amount'] = sum(
+                        payment['amount'] for payment in payments 
+                        if payment['status'] == 'completed'
+                    )
+                else:
+                    audit_data['payment_history'] = []
+                    audit_data['payment_amount'] = 0.0
+                    
+            except Exception as e:
+                app.logger.error(f"Error retrieving payment data for audit: {e}")
+                audit_data['payment_history'] = []
+                audit_data['payment_amount'] = 0.0
             
             # Count login events from history (if any contain login activities)
             login_events = []
@@ -1568,6 +1602,433 @@ def logout():
         pass  # Don't break logout if logging fails
     
     return redirect(url_for('login'))
+
+# ===============================
+# Payment Routes
+# ===============================
+
+@app.route('/payment')
+@require_login
+@apply_rate_limit("20 per minute")
+def payment():
+    """Display payment management page"""
+    try:
+        username = session['username']
+        
+        # Admin users don't need payment features, redirect to about
+        if is_admin_user(username):
+            return redirect(url_for('about'))
+        
+        db = get_app_db()
+        
+        # Get user's payment information
+        payments = db.get_user_payments(username)
+        active_payment = db.get_active_payment(username)
+        can_make_payment = db.can_make_payment(username)
+        
+        log_user_activity(username, "Viewed payment page")
+        
+        return render_template('payment/payment.html',
+                             username=username,
+                             is_admin=is_admin_user(username),
+                             payments=payments,
+                             active_payment=active_payment,
+                             can_make_payment=can_make_payment)
+                             
+    except Exception as e:
+        app.logger.error(f"Error in payment route: {str(e)}")
+        flash('Unable to load payment information', 'error')
+        return redirect(url_for('about'))
+
+@app.route('/payment/history')
+@require_login
+@apply_rate_limit("20 per minute")
+def payment_history():
+    """Display payment history for the user"""
+    try:
+        username = session['username']
+        
+        # Admin users don't need payment features, redirect to about
+        if is_admin_user(username):
+            return redirect(url_for('about'))
+        
+        db = get_app_db()
+        payments = db.get_user_payments(username)
+        
+        log_user_activity(username, "Viewed payment history")
+        
+        return render_template('payment/payment_history.html',
+                             username=username,
+                             is_admin=is_admin_user(username),
+                             payments=payments)
+                             
+    except Exception as e:
+        app.logger.error(f"Error in payment history route: {str(e)}")
+        flash('Unable to load payment history', 'error')
+        return redirect(url_for('payment'))
+
+@app.route('/checkout')
+@require_login
+@apply_rate_limit("10 per minute")
+def checkout():
+    """Display PayPal checkout page"""
+    try:
+        username = session['username']
+        
+        # Admin users don't need payment features
+        if is_admin_user(username):
+            flash('Admin users do not need to make payments', 'info')
+            return redirect(url_for('about'))
+        
+        db = get_app_db()
+        
+        # Check if user can make payment
+        if not db.can_make_payment(username):
+            flash('You already have an active subscription', 'warning')
+            return redirect(url_for('payment'))
+        
+        # Get payment details
+        amount = '15.10'  # Fixed amount
+        product_name = 'NinjaNerd Monthly Subscription'
+        description = 'One month access to NinjaNerd premium features'
+        currency = 'USD'
+        
+        # Get PayPal client ID for frontend
+        client_id = os.getenv('PR_PP_CLIENT_ID')
+        
+        if not client_id:
+            flash('Payment system configuration error', 'error')
+            return redirect(url_for('payment'))
+        
+        log_user_activity(username, "Accessed checkout page")
+        
+        return render_template('payment/checkout.html',
+                             amount=amount,
+                             product_name=product_name,
+                             description=description,
+                             currency=currency,
+                             client_id=client_id,
+                             username=username,
+                             is_admin=is_admin_user(username))
+                             
+    except Exception as e:
+        app.logger.error(f"Error in checkout route: {str(e)}")
+        flash('Unable to process checkout', 'error')
+        return redirect(url_for('payment'))
+
+@app.route('/create-order', methods=['POST'])
+@require_login
+@apply_rate_limit("5 per minute")
+def create_order():
+    """Create PayPal order (called by frontend JavaScript)"""
+    try:
+        username = session['username']
+        
+        # Admin users can't make payments
+        if is_admin_user(username):
+            return jsonify({
+                'success': False,
+                'error': 'Admin users cannot make payments'
+            }), 403
+        
+        # Get request data
+        data = request.get_json()
+        
+        if not data:
+            return jsonify({
+                'success': False,
+                'error': 'No data provided'
+            }), 400
+        
+        amount = data.get('amount')
+        currency = data.get('currency', 'USD')
+        description = data.get('description', 'NinjaNerd Monthly Subscription')
+        
+        # Validate required fields
+        if not amount:
+            return jsonify({
+                'success': False,
+                'error': 'Amount is required'
+            }), 400
+        
+        # Validate amount (must be exactly 15.10)
+        try:
+            float_amount = float(amount)
+            if abs(float_amount - 15.10) > 0.01:  # Allow small floating point differences
+                return jsonify({
+                    'success': False,
+                    'error': 'Invalid payment amount. Amount must be $15.10'
+                }), 400
+        except ValueError:
+            return jsonify({
+                'success': False,
+                'error': 'Invalid amount format'
+            }), 400
+        
+        # Check if user can make payment
+        db = get_app_db()
+        if not db.can_make_payment(username):
+            return jsonify({
+                'success': False,
+                'error': 'You already have an active subscription'
+            }), 400
+        
+        # Create order using PayPal gateway
+        from gw.ppgw import PayPalGateway
+        
+        paypal_gateway = PayPalGateway(mode="sandbox")  # Change to "live" for production
+        result = paypal_gateway.create_order(
+            amount=str(float_amount),
+            currency=currency,
+            description=description
+        )
+        
+        if result['success']:
+            # Save order to database
+            db.create_payment_record(username, result['order_id'], float_amount, currency)
+            
+            app.logger.info(f"Order created successfully for user {username}: {result['order_id']}")
+            log_user_activity(username, f"Created payment order: {result['order_id']}")
+            
+            return jsonify({
+                'success': True,
+                'order_id': result['order_id'],
+                'status': result['status']
+            })
+        else:
+            app.logger.error(f"Order creation failed for user {username}: {result['error']}")
+            return jsonify({
+                'success': False,
+                'error': result['error']
+            }), 400
+            
+    except Exception as e:
+        app.logger.error(f"Error creating order for user {session.get('username', 'Unknown')}: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': 'Internal server error'
+        }), 500
+
+@app.route('/capture-order', methods=['POST'])
+@require_login
+@apply_rate_limit("5 per minute")
+def capture_order():
+    """Capture PayPal order after user approval (called by frontend JavaScript)"""
+    try:
+        username = session['username']
+        
+        # Admin users can't make payments
+        if is_admin_user(username):
+            return jsonify({
+                'success': False,
+                'error': 'Admin users cannot make payments'
+            }), 403
+        
+        # Get request data
+        data = request.get_json()
+        
+        if not data:
+            return jsonify({
+                'success': False,
+                'error': 'No data provided'
+            }), 400
+        
+        order_id = data.get('order_id')
+        
+        if not order_id:
+            return jsonify({
+                'success': False,
+                'error': 'Order ID is required'
+            }), 400
+        
+        # Capture order using PayPal gateway
+        from gw.ppgw import PayPalGateway
+        
+        paypal_gateway = PayPalGateway(mode="sandbox")  # Change to "live" for production
+        result = paypal_gateway.capture_order(order_id)
+        
+        if result['success']:
+            # Update order status in database
+            db = get_app_db()
+            db.update_payment_status(order_id, 'completed', result['capture_id'])
+            
+            app.logger.info(f"Order captured successfully for user {username}: {order_id}")
+            log_user_activity(username, f"Completed payment: {order_id}")
+            
+            # Send email notification (if email system is available)
+            try:
+                from gw.emailgw import EmailHandler
+                email_handler = EmailHandler()
+                subject = "Payment Confirmation - NinjaNerd"
+                body = f"""Hello {username},
+
+Your payment has been successfully processed!
+
+Order ID: {order_id}
+Amount: $15.10 USD
+Status: Completed
+
+Your subscription is now active for 30 days.
+
+Thank you for choosing NinjaNerd!
+
+Best Regards,
+NinjaNerd Team"""
+                email_handler.send_email_async(username, subject, body)
+                app.logger.info(f"Payment confirmation email queued for {username}")
+            except Exception as e:
+                app.logger.error(f"Failed to queue payment confirmation email: {e}")
+            
+            return jsonify({
+                'success': True,
+                'order_id': result['order_id'],
+                'capture_id': result['capture_id'],
+                'status': result['status']
+            })
+        else:
+            # Update order status to failed
+            db = get_app_db()
+            db.update_payment_status(order_id, 'failed')
+            
+            app.logger.error(f"Order capture failed for user {username}: {result['error']}")
+            return jsonify({
+                'success': False,
+                'error': result['error']
+            }), 400
+            
+    except Exception as e:
+        app.logger.error(f"Error capturing order for user {session.get('username', 'Unknown')}: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': 'Internal server error'
+        }), 500
+
+@app.route('/payment/success')
+@require_login
+@apply_rate_limit("10 per minute")
+def payment_success():
+    """Payment success page"""
+    try:
+        username = session['username']
+        order_id = request.args.get('order_id')
+        
+        if not order_id:
+            flash('Invalid payment reference', 'error')
+            return redirect(url_for('payment'))
+        
+        # Get order details for display
+        from gw.ppgw import PayPalGateway
+        
+        paypal_gateway = PayPalGateway(mode="sandbox")  # Change to "live" for production
+        order_details = paypal_gateway.get_order_details(order_id)
+        
+        log_user_activity(username, f"Viewed payment success page: {order_id}")
+        
+        if order_details['success']:
+            return render_template('payment/success.html',
+                                 order_id=order_id,
+                                 amount=order_details['total'],
+                                 currency=order_details['currency'],
+                                 status=order_details['status'])
+        else:
+            # Still show success page even if details fetch fails
+            return render_template('payment/success.html',
+                                 order_id=order_id)
+                                 
+    except Exception as e:
+        app.logger.error(f"Error in payment success route: {str(e)}")
+        flash('Unable to display payment confirmation', 'error')
+        return redirect(url_for('payment'))
+
+@app.route('/payment/cancel')
+@require_login
+@apply_rate_limit("10 per minute")
+def payment_cancel():
+    """Payment cancelled page"""
+    try:
+        username = session['username']
+        log_user_activity(username, "Payment cancelled by user")
+        return render_template('payment/cancel.html')
+    except Exception as e:
+        app.logger.error(f"Error in payment cancel route: {str(e)}")
+        return redirect(url_for('payment'))
+
+@app.route('/payment/error')
+@require_login
+@apply_rate_limit("10 per minute")
+def payment_error():
+    """Payment error page"""
+    try:
+        username = session['username']
+        error_message = request.args.get('error', 'An unknown error occurred')
+        log_user_activity(username, f"Payment error: {error_message}")
+        return render_template('payment/error.html', error_message=error_message)
+    except Exception as e:
+        app.logger.error(f"Error in payment error route: {str(e)}")
+        return redirect(url_for('payment'))
+
+@app.route('/terms-and-conditions')
+@apply_rate_limit("30 per minute")
+def terms_and_conditions():
+    """Display terms and conditions page"""
+    try:
+        # Read terms and conditions from file
+        terms_file_path = os.path.join('data', 'terms_and_conditions.txt')
+        
+        if os.path.exists(terms_file_path):
+            with open(terms_file_path, 'r', encoding='utf-8') as f:
+                terms_content = f.read()
+        else:
+            terms_content = "Terms and conditions file not found."
+        
+        return render_template('payment/terms_and_conditions.html',
+                             terms_content=terms_content)
+                             
+    except Exception as e:
+        app.logger.error(f"Error loading terms and conditions: {str(e)}")
+        flash('Unable to load terms and conditions', 'error')
+        return redirect(url_for('about'))
+
+@app.route('/api/terms-and-conditions')
+@apply_rate_limit("60 per minute")
+def api_terms_and_conditions():
+    """API endpoint to get terms and conditions text"""
+    try:
+        # Read terms and conditions from file
+        terms_file_path = os.path.join('data', 'terms_and_conditions.txt')
+        
+        if os.path.exists(terms_file_path):
+            with open(terms_file_path, 'r', encoding='utf-8') as f:
+                terms_content = f.read()
+            return terms_content, 200, {'Content-Type': 'text/plain; charset=utf-8'}
+        else:
+            return "Terms and conditions file not found.", 404
+                             
+    except Exception as e:
+        app.logger.error(f"Error loading terms and conditions via API: {str(e)}")
+        return "Error loading terms and conditions.", 500
+
+@app.route('/privacy')
+@apply_rate_limit("30 per minute")
+def privacy_policy():
+    """Display privacy policy page"""
+    try:
+        # Read privacy policy from file
+        privacy_file_path = os.path.join('data', 'privacy_policy.txt')
+        
+        if os.path.exists(privacy_file_path):
+            with open(privacy_file_path, 'r', encoding='utf-8') as f:
+                privacy_content = f.read()
+        else:
+            privacy_content = "Privacy policy file not found."
+        
+        return render_template('payment/privacy_policy.html',
+                             privacy_content=privacy_content)
+                             
+    except Exception as e:
+        app.logger.error(f"Error loading privacy policy: {str(e)}")
+        flash('Unable to load privacy policy', 'error')
+        return redirect(url_for('about'))
 
 @app.route('/check_session')
 def check_session():

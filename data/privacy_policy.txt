@@ -1,0 +1,99 @@
+NINJANERD PRIVACY POLICY
+
+Last Updated: September 22, 2025
+
+1. INFORMATION WE COLLECT
+
+1.1 Personal Information
+We collect information you provide directly to us, such as:
+- Account registration details (email address, username)
+- Educational progress and performance data
+- Communication preferences
+- Payment information (processed securely through PayPal)
+
+1.2 Automatically Collected Information
+- Usage data and learning patterns
+- Device and browser information
+- IP address and general location
+- Session and interaction data
+
+2. HOW WE USE YOUR INFORMATION
+
+We use collected information to:
+- Provide and improve our educational services
+- Personalize your learning experience
+- Process payments and manage subscriptions
+- Send important account and service updates
+- Analyze usage patterns to enhance our platform
+- Ensure security and prevent fraud
+
+3. INFORMATION SHARING
+
+We do not sell, trade, or rent your personal information to third parties.
+We may share information only in these circumstances:
+- With payment processors (PayPal) for transaction processing
+- With service providers who assist in platform operations
+- When required by law or to protect our rights
+- In connection with business transfers (mergers, acquisitions)
+
+4. DATA SECURITY
+
+We implement appropriate security measures to protect your information:
+- Encryption of sensitive data in transit and at rest
+- Secure payment processing through PayPal
+- Regular security audits and updates
+- Access controls and authentication systems
+
+5. YOUR RIGHTS AND CHOICES
+
+You have the right to:
+- Access and update your personal information
+- Delete your account and associated data
+- Opt out of non-essential communications
+- Request data portability
+- File complaints with relevant authorities
+
+6. COOKIES AND TRACKING
+
+We use cookies and similar technologies to:
+- Remember your preferences and settings
+- Analyze platform usage and performance
+- Provide personalized content and features
+You can control cookie settings through your browser.
+
+7. CHILDREN'S PRIVACY
+
+Our service is designed for educational use by children under parental supervision.
+We comply with applicable children's privacy laws and:
+- Obtain parental consent where required
+- Limit data collection to educational purposes
+- Provide parents with access and deletion rights
+- Do not allow children to publicly disclose personal information
+
+8. DATA RETENTION
+
+We retain personal information for as long as necessary to:
+- Provide our services and support your account
+- Comply with legal obligations
+- Resolve disputes and enforce agreements
+Account data is typically deleted within 30 days of account closure.
+
+9. INTERNATIONAL TRANSFERS
+
+If you access our service from outside the United States, your information may be transferred to and processed in countries with different privacy laws. We ensure appropriate safeguards are in place.
+
+10. UPDATES TO THIS POLICY
+
+We may update this privacy policy periodically. We will notify you of significant changes through:
+- Email notifications to registered users
+- Prominent notices on our website
+- In-app notifications
+
+11. CONTACT INFORMATION
+
+For privacy-related questions or concerns, contact us at:
+Email: privacy@ninjanerd.com
+Address: NinjaNerd Privacy Officer
+[Your Business Address]
+
+By using NinjaNerd, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of information as described herein.

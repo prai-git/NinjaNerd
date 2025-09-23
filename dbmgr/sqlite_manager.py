@@ -289,6 +289,24 @@ class SQLiteManager:
                 version INTEGER PRIMARY KEY,
                 applied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
+        """,
+        
+        'user_payments': """
+            CREATE TABLE IF NOT EXISTS user_payments (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                paypal_order_id TEXT UNIQUE NOT NULL,
+                paypal_capture_id TEXT,
+                amount DECIMAL(10,2) NOT NULL,
+                currency TEXT DEFAULT 'USD',
+                status TEXT NOT NULL DEFAULT 'pending',
+                payment_method TEXT DEFAULT 'paypal',
+                payment_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                expiry_timestamp TIMESTAMP,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+            )
         """
     }
     
@@ -300,6 +318,10 @@ class SQLiteManager:
         "CREATE INDEX IF NOT EXISTS idx_invites_from_user ON invites (from_user_id)",
         "CREATE INDEX IF NOT EXISTS idx_invites_to_user ON invites (to_user_email)",
         "CREATE INDEX IF NOT EXISTS idx_invites_status ON invites (status)",
+        "CREATE INDEX IF NOT EXISTS idx_user_payments_user_id ON user_payments (user_id)",
+        "CREATE INDEX IF NOT EXISTS idx_user_payments_paypal_order_id ON user_payments (paypal_order_id)",
+        "CREATE INDEX IF NOT EXISTS idx_user_payments_status ON user_payments (status)",
+        "CREATE INDEX IF NOT EXISTS idx_user_payments_expiry ON user_payments (expiry_timestamp)",
         "CREATE INDEX IF NOT EXISTS idx_chat_sessions_users ON chat_sessions (user1_id, user2_id)",
         "CREATE INDEX IF NOT EXISTS idx_chat_sessions_active ON chat_sessions (active)",
         "CREATE INDEX IF NOT EXISTS idx_messages_session ON messages (session_id)",

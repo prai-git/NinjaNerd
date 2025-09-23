@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Payment Successful - NinjaNerd{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">
+                    <i class="fas fa-receipt me-2"></i>Payment Receipt
+                </h4>
+                <button onclick="history.back()" class="btn btn-light btn-sm">
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+            </div>
+            <div class="card-body text-center py-5">
+                <div class="mb-4">
+                    <i class="fas fa-check-circle fa-5x text-success"></i>
+                </div>
+                
+                <h2 class="text-success mb-3">Payment Successful!</h2>
+                <p class="lead mb-4">Thank you for your subscription to NinjaNerd.</p>
+                
+                {% if order_id %}
+                <div class="alert alert-info">
+                    <h6><i class="fas fa-receipt me-2"></i>Transaction Details</h6>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Order ID:</strong></p>
+                            <code class="small">{{ order_id }}</code>
+                        </div>
+                        {% if amount and currency %}
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Amount:</strong></p>
+                            <span class="h6 text-success">${{ amount }} {{ currency }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% if status %}
+                    <div class="mt-2">
+                        <p class="mb-1"><strong>Status:</strong></p>
+                        <span class="badge bg-success">{{ status|title }}</span>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+                
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card bg-light h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-calendar-check fa-2x text-primary mb-2"></i>
+                                <h6>30 Days Access</h6>
+                                <p class="small text-muted">Your subscription is now active</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-graduation-cap fa-2x text-info mb-2"></i>
+                                <h6>All Features</h6>
+                                <p class="small text-muted">Access to premium content</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope fa-2x text-success mb-2"></i>
+                                <h6>Email Confirmation</h6>
+                                <p class="small text-muted">Receipt sent to your email</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <small class="text-muted">
+                        Questions about your payment? 
+                        <a href="{{ url_for('contact_us') }}">Contact our support team</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

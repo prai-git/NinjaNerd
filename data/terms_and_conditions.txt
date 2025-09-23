@@ -1,0 +1,110 @@
+NINJNERD EDUCATIONAL PLATFORM
+TERMS AND CONDITIONS OF SERVICE
+
+LAST UPDATED: September 22, 2025
+
+PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THE NINJNERD EDUCATIONAL PLATFORM.
+
+1. ACCEPTANCE OF TERMS
+By accessing or using the NinjaNerd educational platform (the "Service"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, please do not use the Service.
+
+2. DESCRIPTION OF SERVICE
+NinjaNerd is an educational platform that provides personalized practice questions, adaptive learning content, and educational games for students across different grade levels. The Service includes both free and paid features.
+
+3. SUBSCRIPTION AND PAYMENT TERMS
+
+3.1 Monthly Subscription
+- Paid access to the Service is provided on a monthly subscription basis only.
+- Each payment grants access for exactly one (1) month from the date of successful payment completion.
+- Subscription fees are charged in advance for each monthly period.
+- The current monthly subscription fee is $15.10 USD.
+
+3.2 Payment Processing
+- All payments are processed securely through PayPal's payment gateway.
+- Users may pay using PayPal accounts or credit/debit cards (via PayPal's guest checkout).
+- Payment confirmation and receipt will be provided upon successful transaction completion.
+
+3.3 Non-Refundable Policy
+- ALL PAYMENTS ARE STRICTLY NON-REFUNDABLE.
+- No refunds will be provided for any reason, including but not limited to:
+  * Unused subscription time
+  * Dissatisfaction with the Service
+  * Technical difficulties or service interruptions
+  * Account termination or suspension
+  * Changes to the Service or these Terms
+
+3.4 Automatic Renewal Restrictions
+- Subscriptions DO NOT automatically renew.
+- Users must manually renew their subscription before expiration to continue accessing paid features.
+- No payments will be accepted until the current subscription period has fully expired.
+
+4. USER RESPONSIBILITIES
+
+4.1 Account Management
+- Users are responsible for maintaining the confidentiality of their account credentials.
+- Users must provide accurate and current information during registration and payment.
+- Users must notify us immediately of any unauthorized use of their account.
+
+4.2 Acceptable Use
+- The Service is intended for educational purposes only.
+- Users must not misuse, abuse, or attempt to exploit the Service.
+- Users must comply with all applicable laws and regulations.
+
+5. SERVICE AVAILABILITY AND LIMITATIONS
+
+5.1 No Guarantee of Uninterrupted Service
+- The Service is provided "AS IS" and "AS AVAILABLE."
+- WE DO NOT GUARANTEE that the Service will be available at all times or free from interruptions.
+- Service may be temporarily unavailable due to maintenance, updates, technical issues, or factors beyond our control.
+
+5.2 Service Limitations
+- We reserve the right to modify, suspend, or discontinue any part of the Service at any time.
+- We may impose limits on certain features or restrict access to parts of the Service.
+
+6. LIMITATION OF LIABILITY
+
+6.1 Disclaimer of Warranties
+- THE SERVICE IS PROVIDED WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED.
+- WE DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6.2 Limitation of Damages
+- TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE OWNER/CREATOR OF NINJNERD SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+- IN NO EVENT SHALL OUR TOTAL LIABILITY EXCEED THE AMOUNT PAID BY YOU FOR THE SERVICE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+6.3 Service Interruptions
+- YOU ACKNOWLEDGE AND AGREE THAT SERVICE INTERRUPTIONS, DOWNTIME, OR TECHNICAL DIFFICULTIES MAY OCCUR.
+- THE OWNER/CREATOR SHALL NOT BE LIABLE FOR ANY LOSSES, DAMAGES, OR INCONVENIENCE RESULTING FROM SERVICE INTERRUPTIONS OR DOWNTIME.
+- BY USING THE SERVICE, YOU EXPRESSLY WAIVE ANY CLAIMS AGAINST THE OWNER/CREATOR FOR DAMAGES RELATED TO SERVICE AVAILABILITY.
+
+7. INDEMNIFICATION
+You agree to indemnify, defend, and hold harmless the owner/creator of NinjaNerd and its affiliates from any claims, damages, losses, or expenses arising from your use of the Service or violation of these Terms.
+
+8. INTELLECTUAL PROPERTY
+All content, features, and functionality of the Service are owned by the creator and are protected by copyright, trademark, and other intellectual property laws.
+
+9. PRIVACY AND DATA PROTECTION
+Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal information.
+
+10. MODIFICATIONS TO TERMS
+We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting. Your continued use of the Service constitutes acceptance of the modified Terms.
+
+11. TERMINATION
+We may terminate or suspend your access to the Service at any time, with or without cause, and without refund of any fees paid.
+
+12. GOVERNING LAW
+These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where the Service is operated, without regard to conflict of law principles.
+
+13. SEVERABILITY
+If any provision of these Terms is found to be unenforceable, the remaining provisions will remain in full force and effect.
+
+14. ENTIRE AGREEMENT
+These Terms constitute the entire agreement between you and NinjaNerd regarding the Service and supersede all prior agreements and understandings.
+
+15. CONTACT INFORMATION
+If you have questions about these Terms, please contact us through the contact form available on the platform.
+
+BY CLICKING "I AGREE" OR USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS.
+
+---
+
+© 2025 All rights reserved.

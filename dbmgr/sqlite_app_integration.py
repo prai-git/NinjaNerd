@@ -975,6 +975,191 @@ class SQLiteAppIntegration:
             return None
     
     # ===============================
+    # Payment Management Interface
+    # ===============================
+    
+    def create_payment_record(self, email: str, paypal_order_id: str, amount: float, currency: str = "USD") -> bool:
+        """
+        Create a payment record for a user.
+        
+        Args:
+            email: User email
+            paypal_order_id: PayPal order ID
+            amount: Payment amount
+            currency: Currency code
+            
+        Returns:
+            True if created successfully
+        """
+        try:
+            with self.sqlite_manager.connection_pool.get_connection() as conn:
+                # Get user ID
+                user = conn.execute("SELECT id FROM users WHERE email = ?", (email,)).fetchone()
+                if not user:
+                    return False
+                
+                # Insert payment record
+                conn.execute("""
+                    INSERT INTO user_payments 
+                    (user_id, paypal_order_id, amount, currency, status)
+                    VALUES (?, ?, ?, ?, 'pending')
+                """, (user['id'], paypal_order_id, amount, currency))
+                
+                self._logger.info(f"Payment record created for user {email}: {paypal_order_id}")
+                return True
+                
+        except Exception as e:
+            self._logger.error(f"Failed to create payment record for user {email}: {e}")
+            return False
+    
+    def update_payment_status(self, paypal_order_id: str, status: str, paypal_capture_id: str = None) -> bool:
+        """
+        Update payment status and capture details.
+        
+        Args:
+            paypal_order_id: PayPal order ID
+            status: Payment status ('completed', 'failed', etc.)
+            paypal_capture_id: PayPal capture ID
+            
+        Returns:
+            True if updated successfully
+        """
+        try:
+            with self.sqlite_manager.connection_pool.get_connection() as conn:
+                # Calculate expiry timestamp if payment is completed
+                expiry_timestamp = None
+                if status.lower() == 'completed':
+                    from datetime import datetime, timedelta
+                    expiry_timestamp = (datetime.now() + timedelta(days=30)).isoformat()
+                
+                # Update payment record
+                if paypal_capture_id:
+                    conn.execute("""
+                        UPDATE user_payments 
+                        SET status = ?, paypal_capture_id = ?, expiry_timestamp = ?, updated_at = CURRENT_TIMESTAMP
+                        WHERE paypal_order_id = ?
+                    """, (status, paypal_capture_id, expiry_timestamp, paypal_order_id))
+                else:
+                    conn.execute("""
+                        UPDATE user_payments 
+                        SET status = ?, expiry_timestamp = ?, updated_at = CURRENT_TIMESTAMP
+                        WHERE paypal_order_id = ?
+                    """, (status, expiry_timestamp, paypal_order_id))
+                
+                self._logger.info(f"Payment status updated for order {paypal_order_id}: {status}")
+                return True
+                
+        except Exception as e:
+            self._logger.error(f"Failed to update payment status for order {paypal_order_id}: {e}")
+            return False
+    
+    def get_user_payments(self, email: str) -> List[Dict[str, Any]]:
+        """
+        Get all payment records for a user.
+        
+        Args:
+            email: User email
+            
+        Returns:
+            List of payment records
+        """
+        try:
+            with self.sqlite_manager.connection_pool.get_connection() as conn:
+                payments = conn.execute("""
+                    SELECT p.paypal_order_id, p.paypal_capture_id, p.amount, p.currency, 
+                           p.status, p.payment_method, p.payment_timestamp, p.expiry_timestamp,
+                           p.created_at, p.updated_at
+                    FROM user_payments p
+                    JOIN users u ON p.user_id = u.id
+                    WHERE u.email = ?
+                    ORDER BY p.payment_timestamp DESC
+                """, (email,)).fetchall()
+                
+                return [
+                    {
+                        'paypal_order_id': payment['paypal_order_id'],
+                        'paypal_capture_id': payment['paypal_capture_id'],
+                        'amount': float(payment['amount']) if payment['amount'] else 0.0,
+                        'currency': payment['currency'],
+                        'status': payment['status'],
+                        'payment_method': payment['payment_method'],
+                        'payment_timestamp': payment['payment_timestamp'],
+                        'expiry_timestamp': payment['expiry_timestamp'],
+                        'created_at': payment['created_at'],
+                        'updated_at': payment['updated_at']
+                    }
+                    for payment in payments
+                ]
+                
+        except Exception as e:
+            self._logger.error(f"Failed to get payments for user {email}: {e}")
+            return []
+    
+    def get_active_payment(self, email: str) -> Optional[Dict[str, Any]]:
+        """
+        Get the current active payment for a user (if not expired).
+        
+        Args:
+            email: User email
+            
+        Returns:
+            Active payment record or None
+        """
+        try:
+            with self.sqlite_manager.connection_pool.get_connection() as conn:
+                from datetime import datetime
+                now = datetime.now().isoformat()
+                
+                payment = conn.execute("""
+                    SELECT p.paypal_order_id, p.paypal_capture_id, p.amount, p.currency, 
+                           p.status, p.payment_method, p.payment_timestamp, p.expiry_timestamp,
+                           p.created_at, p.updated_at
+                    FROM user_payments p
+                    JOIN users u ON p.user_id = u.id
+                    WHERE u.email = ? AND p.status = 'completed' 
+                          AND p.expiry_timestamp > ?
+                    ORDER BY p.expiry_timestamp DESC
+                    LIMIT 1
+                """, (email, now)).fetchone()
+                
+                if payment:
+                    return {
+                        'paypal_order_id': payment['paypal_order_id'],
+                        'paypal_capture_id': payment['paypal_capture_id'],
+                        'amount': float(payment['amount']) if payment['amount'] else 0.0,
+                        'currency': payment['currency'],
+                        'status': payment['status'],
+                        'payment_method': payment['payment_method'],
+                        'payment_timestamp': payment['payment_timestamp'],
+                        'expiry_timestamp': payment['expiry_timestamp'],
+                        'created_at': payment['created_at'],
+                        'updated_at': payment['updated_at']
+                    }
+                
+                return None
+                
+        except Exception as e:
+            self._logger.error(f"Failed to get active payment for user {email}: {e}")
+            return None
+    
+    def can_make_payment(self, email: str) -> bool:
+        """
+        Check if user can make a new payment (no active subscription).
+        
+        Args:
+            email: User email
+            
+        Returns:
+            True if user can make payment, False if active subscription exists
+        """
+        try:
+            active_payment = self.get_active_payment(email)
+            return active_payment is None
+        except Exception as e:
+            self._logger.error(f"Failed to check payment eligibility for user {email}: {e}")
+            return False
+
+    # ===============================
     # System Management
     # ===============================
     

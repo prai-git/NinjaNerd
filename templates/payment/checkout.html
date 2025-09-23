@@ -1,0 +1,357 @@
+{% extends "base.html" %}
+
+{% block title %}Checkout - NinjaNerd{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <div>
+                    <h4 class="mb-0"><i class="fas fa-shopping-cart me-2"></i>Complete Your Payment</h4>
+                    <p class="mb-0 mt-1"><small>Secure checkout powered by PayPal</small></p>
+                </div>
+                <a href="{{ url_for('payment') }}" class="btn btn-light btn-sm">
+                    <i class="fas fa-arrow-left"></i> Back
+                </a>
+            </div>
+            <div class="card-body">
+                
+                <!-- Order Summary -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5><i class="fas fa-receipt me-2"></i>Order Summary</h5>
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-1">{{ product_name }}</h6>
+                                        <small class="text-muted">{{ description }}</small>
+                                    </div>
+                                    <div class="text-end">
+                                        <span class="h5 text-success">${{ amount }}</span>
+                                        <small class="text-muted d-block">{{ currency }}</small>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <strong>Total:</strong>
+                                    <strong class="text-success">${{ amount }} {{ currency }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Features Included -->
+                        <div class="mt-3">
+                            <h6><i class="fas fa-star me-2"></i>What's Included:</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>30 days of premium access</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Unlimited practice questions</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Personalized learning paths</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Progress tracking and analytics</li>
+                                <li><i class="fas fa-check text-success me-2"></i>All educational games and activities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!-- Payment Security -->
+                        <div class="card border-success">
+                            <div class="card-body text-center">
+                                <i class="fas fa-shield-alt fa-2x text-success mb-2"></i>
+                                <h6>Secure Payment</h6>
+                                <p class="small text-muted mb-2">
+                                    Your payment is processed securely through PayPal. 
+                                    We never store your payment information.
+                                </p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <i class="fab fa-paypal fa-lg text-primary"></i>
+                                    <i class="fab fa-cc-visa fa-lg text-info"></i>
+                                    <i class="fab fa-cc-mastercard fa-lg text-warning"></i>
+                                    <i class="fab fa-cc-amex fa-lg text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terms and Conditions -->
+                <div class="mt-4">
+                    <div class="card border-warning">
+                        <div class="card-body">
+                            <h6><i class="fas fa-file-contract me-2"></i>Terms and Conditions</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="termsCheckbox" required>
+                                <label class="form-check-label" for="termsCheckbox">
+                                    I have read and agree to the 
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms and Conditions</a>
+                                </label>
+                            </div>
+                            <div class="mt-2 small text-muted">
+                                <i class="fas fa-info-circle me-1"></i>
+                                <strong>Important:</strong> All payments are non-refundable and valid for 30 days only.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Section -->
+                <div class="mt-4">
+                    <h5><i class="fas fa-credit-card me-2"></i>Payment Options</h5>
+                    <div class="payment-info mb-3">
+                        <div class="alert alert-info">
+                            <ul class="mb-0">
+                                <li>Pay with your PayPal account</li>
+                                <li>Pay with debit or credit card (no PayPal account needed)</li>
+                                <li>Secure, encrypted payment processing</li>
+                                <li>Buyer protection included</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- PayPal Button Container -->
+                    <div id="paypal-button-container" class="paypal-buttons" style="min-height: 60px;"></div>
+                    
+                    <!-- Loading and Status Messages -->
+                    <div id="payment-status" class="payment-status mt-3" style="display: none;">
+                        <div id="loading-message" class="text-center">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2">Processing your payment...</p>
+                        </div>
+                        <div id="success-message" class="alert alert-success" style="display: none;">
+                            <div class="text-center">
+                                <i class="fas fa-check-circle fa-3x text-success mb-2"></i>
+                                <h4>Payment Successful!</h4>
+                                <p>Your transaction has been completed successfully.</p>
+                                <a href="{{ url_for('payment') }}" class="btn btn-success">Continue</a>
+                            </div>
+                        </div>
+                        <div id="error-message" class="alert alert-danger" style="display: none;">
+                            <div class="text-center">
+                                <i class="fas fa-exclamation-circle fa-3x text-danger mb-2"></i>
+                                <h4>Payment Failed</h4>
+                                <p id="error-text">An error occurred while processing your payment.</p>
+                                <button id="retry-button" class="btn btn-primary" onclick="location.reload()">Try Again</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Help Links -->
+                <div class="mt-4 text-center">
+                    <small class="text-muted">
+                        Need help? 
+                        <a href="{{ url_for('contact_us') }}">Contact Support</a> | 
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms & Conditions</a> | 
+                        <a href="/privacy" target="_blank">Privacy Policy</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Terms and Conditions Modal -->
+<div class="modal fade" id="termsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="fas fa-file-contract me-2"></i>Terms and Conditions</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+                <div id="terms-content">
+                    Loading terms and conditions...
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="acceptTerms()">I Agree</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden data for JavaScript -->
+<script id="checkout-data" type="application/json">
+{
+    "amount": "{{ amount }}",
+    "currency": "{{ currency }}",
+    "description": "{{ description }}",
+    "client_id": "{{ client_id }}"
+}
+</script>
+{% endblock %}
+
+{% block scripts %}
+<!-- PayPal JavaScript SDK -->
+<script src="https://www.paypal.com/sdk/js?client-id={{ client_id }}&currency={{ currency }}&intent=capture&components=buttons"></script>
+
+<script>
+let checkoutData;
+let paypalButtons;
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Parse checkout data
+    checkoutData = JSON.parse(document.getElementById('checkout-data').textContent);
+    
+    // Load terms and conditions when modal is shown
+    const termsModal = document.getElementById('termsModal');
+    if (termsModal) {
+        termsModal.addEventListener('show.bs.modal', loadTermsAndConditions);
+    }
+    
+    // Initialize PayPal buttons when terms are accepted
+    updatePayPalButtons();
+});
+
+function loadTermsAndConditions() {
+    fetch('/api/terms-and-conditions')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('terms-content').innerHTML = '<pre class="small">' + text + '</pre>';
+        })
+        .catch(error => {
+            document.getElementById('terms-content').innerHTML = '<p class="text-danger">Failed to load terms and conditions. Please try again.</p>';
+        });
+}
+
+function acceptTerms() {
+    document.getElementById('termsCheckbox').checked = true;
+    const modal = bootstrap.Modal.getInstance(document.getElementById('termsModal'));
+    modal.hide();
+    updatePayPalButtons();
+}
+
+function updatePayPalButtons() {
+    const termsAccepted = document.getElementById('termsCheckbox').checked;
+    const container = document.getElementById('paypal-button-container');
+    
+    if (termsAccepted) {
+        // Enable PayPal buttons
+        if (paypalButtons) {
+            paypalButtons.close();
+        }
+        
+        paypalButtons = paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'blue',
+                shape: 'rect',
+                label: 'paypal'
+            },
+            
+            createOrder: function(data, actions) {
+                // Show loading
+                showStatus('loading');
+                
+                return fetch('/create-order', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCSRFToken()
+                    },
+                    body: JSON.stringify({
+                        amount: checkoutData.amount,
+                        currency: checkoutData.currency,
+                        description: checkoutData.description
+                    })
+                }).then(function(response) {
+                    return response.json();
+                }).then(function(data) {
+                    hideStatus();
+                    if (data.success) {
+                        return data.order_id;
+                    } else {
+                        throw new Error(data.error || 'Failed to create order');
+                    }
+                }).catch(function(error) {
+                    showStatus('error', error.message);
+                    throw error;
+                });
+            },
+            
+            onApprove: function(data, actions) {
+                // Show loading
+                showStatus('loading');
+                
+                return fetch('/capture-order', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': getCSRFToken()
+                    },
+                    body: JSON.stringify({
+                        order_id: data.orderID
+                    })
+                }).then(function(response) {
+                    return response.json();
+                }).then(function(data) {
+                    if (data.success) {
+                        showStatus('success');
+                    } else {
+                        showStatus('error', data.error || 'Payment failed');
+                    }
+                }).catch(function(error) {
+                    showStatus('error', error.message);
+                });
+            },
+            
+            onError: function(err) {
+                showStatus('error', 'PayPal error: ' + err);
+            },
+            
+            onCancel: function(data) {
+                hideStatus();
+                // User cancelled - could show a message or redirect
+            }
+        });
+        
+        paypalButtons.render('#paypal-button-container');
+    } else {
+        // Disable PayPal buttons
+        container.innerHTML = '<div class="alert alert-warning text-center"><i class="fas fa-exclamation-triangle me-2"></i>Please accept the Terms and Conditions to proceed with payment.</div>';
+    }
+}
+
+function showStatus(type, message = '') {
+    const statusDiv = document.getElementById('payment-status');
+    const loadingDiv = document.getElementById('loading-message');
+    const successDiv = document.getElementById('success-message');
+    const errorDiv = document.getElementById('error-message');
+    const errorText = document.getElementById('error-text');
+    
+    // Hide all status messages
+    loadingDiv.style.display = 'none';
+    successDiv.style.display = 'none';
+    errorDiv.style.display = 'none';
+    
+    if (type === 'loading') {
+        loadingDiv.style.display = 'block';
+        statusDiv.style.display = 'block';
+    } else if (type === 'success') {
+        successDiv.style.display = 'block';
+        statusDiv.style.display = 'block';
+    } else if (type === 'error') {
+        errorText.textContent = message || 'An error occurred while processing your payment.';
+        errorDiv.style.display = 'block';
+        statusDiv.style.display = 'block';
+    }
+}
+
+function hideStatus() {
+    document.getElementById('payment-status').style.display = 'none';
+}
+
+function getCSRFToken() {
+    // Get CSRF token from meta tag or cookie if available
+    const token = document.querySelector('meta[name="csrf-token"]');
+    return token ? token.getAttribute('content') : '';
+}
+
+// Update PayPal buttons when terms checkbox changes
+document.getElementById('termsCheckbox').addEventListener('change', updatePayPalButtons);
+</script>
+{% endblock %}

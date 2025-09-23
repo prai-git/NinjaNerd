@@ -31,6 +31,11 @@
                 <a href="{{ url_for('statistics') }}" class="list-group-item list-group-item-action">
                     <i class="fas fa-chart-bar me-2"></i>Statistics
                 </a>
+                {% if not is_admin %}
+                <a href="{{ url_for('payment') }}" class="list-group-item list-group-item-action">
+                    <i class="fas fa-credit-card me-2"></i>Payment
+                </a>
+                {% endif %}
                 <a href="{{ url_for('contact_us') }}" class="list-group-item list-group-item-action">
                     <i class="fas fa-envelope me-2"></i>Contact Us
                 </a>
