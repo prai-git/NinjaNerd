@@ -475,6 +475,28 @@ def log_user_activity(username, activity):
     """Log user activity with timestamp"""
     app.logger.info(f"User: {username} | Activity: {activity}")
 
+def check_free_trial_access(username: str) -> bool:
+    """
+    Check if user has access to grade selection based on free trial and payment status.
+    
+    Args:
+        username: Username to check
+        
+    Returns:
+        True if user has access, False otherwise
+    """
+    # Admin users bypass all restrictions
+    if is_admin_user(username):
+        return True
+    
+    try:
+        db = get_app_db()
+        return not db.requires_payment_for_access(username)
+    except Exception as e:
+        app.logger.error(f"Error checking trial access for {username}: {e}")
+        # Allow access if check fails to avoid blocking users
+        return True
+
 def enforce_grade_change_rules(username: str, new_grade: int, topic: str = None) -> bool:
     """
     Centralized grade change handling to detect grade changes and end chats if necessary.
@@ -1133,8 +1155,13 @@ def audit():
 @app.route('/topics/<int:grade>')
 @require_login
 def topics(grade):
-    # Handle grade change rules centrally
+    # Check free trial and payment access
     current_user = session['username']
+    if not check_free_trial_access(current_user):
+        flash('Your free trial has expired. Please activate your subscription to continue learning.', 'warning')
+        return redirect(url_for('payment'))
+    
+    # Handle grade change rules centrally
     enforce_grade_change_rules(current_user, grade)
     
     log_user_activity(session['username'], f"Visited topics for grade {grade}")
@@ -1148,8 +1175,13 @@ def subtopics(grade, topic):
         flash(f'Invalid topic: {topic}')
         return redirect(url_for('topics', grade=grade))
     
-    # Handle grade change rules centrally
+    # Check free trial and payment access
     current_user = session['username']
+    if not check_free_trial_access(current_user):
+        flash('Your free trial has expired. Please activate your subscription to continue learning.', 'warning')
+        return redirect(url_for('payment'))
+    
+    # Handle grade change rules centrally
     enforce_grade_change_rules(current_user, grade, topic)
     
     # Get appropriate subtopics based on grade
@@ -1164,8 +1196,13 @@ def subtopics(grade, topic):
 @app.route('/exercise/<int:grade>/<topic>')
 @require_login
 def exercise(grade, topic):
-    # Handle grade change rules centrally
+    # Check free trial and payment access
     current_user = session['username']
+    if not check_free_trial_access(current_user):
+        flash('Your free trial has expired. Please activate your subscription to continue learning.', 'warning')
+        return redirect(url_for('payment'))
+    
+    # Handle grade change rules centrally
     enforce_grade_change_rules(current_user, grade, topic)
     
     # Load user history for difficulty adjustment
@@ -1214,8 +1251,13 @@ def exercise_with_subtopic(grade, topic, subtopic):
         flash(f'Invalid subtopic: {subtopic}')
         return redirect(url_for('subtopics', grade=grade, topic=topic))
     
-    # Handle grade change rules centrally
+    # Check free trial and payment access
     current_user = session['username']
+    if not check_free_trial_access(current_user):
+        flash('Your free trial has expired. Please activate your subscription to continue learning.', 'warning')
+        return redirect(url_for('payment'))
+    
+    # Handle grade change rules centrally
     enforce_grade_change_rules(current_user, grade, topic)
     
     # Update current subtopic in session with thread safety
@@ -1276,9 +1318,14 @@ def explore_subtopic(grade, topic, subtopic):
         flash(f'Invalid subtopic: {subtopic}')
         return redirect(url_for('subtopics', grade=grade, topic=topic))
     
+    # Check free trial and payment access
+    current_user = session['username']
+    if not check_free_trial_access(current_user):
+        flash('Your free trial has expired. Please activate your subscription to continue learning.', 'warning')
+        return redirect(url_for('payment'))
+    
     # Update user's current activity
     credentials = load_credentials()
-    current_user = session['username']
     
     # Update active sessions
     if current_user in active_sessions:
@@ -1326,9 +1373,14 @@ def learn_subtopic(grade, topic, subtopic):
         flash(f'Invalid subtopic: {subtopic}')
         return redirect(url_for('subtopics', grade=grade, topic=topic))
     
+    # Check free trial and payment access
+    current_user = session['username']
+    if not check_free_trial_access(current_user):
+        flash('Your free trial has expired. Please activate your subscription to continue learning.', 'warning')
+        return redirect(url_for('payment'))
+    
     # Update user's current activity
     credentials = load_credentials()
-    current_user = session['username']
     
     # Update active sessions
     if current_user in active_sessions:
@@ -1626,6 +1678,10 @@ def payment():
         active_payment = db.get_active_payment(username)
         can_make_payment = db.can_make_payment(username)
         
+        # Get free trial information
+        is_in_trial = db.is_in_free_trial(username)
+        trial_days_remaining = db.get_free_trial_days_remaining(username)
+        
         log_user_activity(username, "Viewed payment page")
         
         return render_template('payment/payment.html',
@@ -1633,7 +1689,9 @@ def payment():
                              is_admin=is_admin_user(username),
                              payments=payments,
                              active_payment=active_payment,
-                             can_make_payment=can_make_payment)
+                             can_make_payment=can_make_payment,
+                             is_in_trial=is_in_trial,
+                             trial_days_remaining=trial_days_remaining)
                              
     except Exception as e:
         app.logger.error(f"Error in payment route: {str(e)}")
@@ -1682,9 +1740,12 @@ def checkout():
         
         db = get_app_db()
         
-        # Check if user can make payment
+        # Check if user can make payment (includes free trial check)
         if not db.can_make_payment(username):
-            flash('You already have an active subscription', 'warning')
+            if db.is_in_free_trial(username):
+                flash('You cannot make payments during your free trial period. Enjoy your trial!', 'info')
+            else:
+                flash('You already have an active subscription', 'warning')
             return redirect(url_for('payment'))
         
         # Get payment details
@@ -2007,6 +2068,25 @@ def api_terms_and_conditions():
     except Exception as e:
         app.logger.error(f"Error loading terms and conditions via API: {str(e)}")
         return "Error loading terms and conditions.", 500
+
+@app.route('/api/privacy-policy')
+@apply_rate_limit("60 per minute")
+def api_privacy_policy():
+    """API endpoint to get privacy policy text"""
+    try:
+        # Read privacy policy from file
+        privacy_file_path = os.path.join('data', 'privacy_policy.txt')
+        
+        if os.path.exists(privacy_file_path):
+            with open(privacy_file_path, 'r', encoding='utf-8') as f:
+                privacy_content = f.read()
+            return privacy_content, 200, {'Content-Type': 'text/plain; charset=utf-8'}
+        else:
+            return "Privacy policy file not found.", 404
+                             
+    except Exception as e:
+        app.logger.error(f"Error loading privacy policy via API: {str(e)}")
+        return "Error loading privacy policy.", 500
 
 @app.route('/privacy')
 @apply_rate_limit("30 per minute")

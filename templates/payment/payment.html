@@ -16,8 +16,19 @@
                     </a>
                 </div>
                 <div class="card-body">
+                    <!-- Free Trial Status -->
+                    {% if is_in_trial %}
+                    <div class="alert alert-info">
+                        <h5><i class="fas fa-gift me-2"></i>Free Trial Active</h5>
+                        <p class="mb-1">You are currently enjoying your 15-day free trial!</p>
+                        <p class="mb-0"><strong>Days Remaining:</strong> {{ trial_days_remaining }} day{{ "s" if trial_days_remaining != 1 else "" }}</p>
+                        {% if trial_days_remaining <= 3 %}
+                        <hr>
+                        <p class="mb-0 text-warning"><small><i class="fas fa-clock me-1"></i>Your trial is expiring soon. Subscribe now to continue accessing all features!</small></p>
+                        {% endif %}
+                    </div>
+                    {% elif active_payment %}
                     <!-- Subscription Status -->
-                    {% if active_payment %}
                     <div class="alert alert-success">
                         <h5><i class="fas fa-check-circle me-2"></i>Active Subscription</h5>
                         <p class="mb-1"><strong>Status:</strong> {{ active_payment.status|title }}</p>
@@ -27,7 +38,8 @@
                     {% else %}
                     <div class="alert alert-warning">
                         <h5><i class="fas fa-exclamation-triangle me-2"></i>No Active Subscription</h5>
-                        <p class="mb-0">You don't have an active subscription. Make a payment to access premium features.</p>
+                        <p class="mb-1">Your free trial has expired and you don't have an active subscription.</p>
+                        <p class="mb-0">Make a payment to continue accessing premium features.</p>
                     </div>
                     {% endif %}
 
@@ -50,12 +62,21 @@
                                 <div class="card-body text-center">
                                     <i class="fas fa-shopping-cart fa-3x text-success mb-3"></i>
                                     <h5>Make Payment</h5>
+                                    {% if is_in_trial %}
+                                    <p>Enjoy your free trial! Payment will be available when trial expires.</p>
+                                    <button class="btn btn-primary" disabled>
+                                        <i class="fas fa-gift me-2"></i>Free Trial Active
+                                    </button>
+                                    <small class="text-muted d-block mt-2">
+                                        {{ trial_days_remaining }} day{{ "s" if trial_days_remaining != 1 else "" }} remaining in your trial
+                                    </small>
+                                    {% elif can_make_payment %}
                                     <p>Subscribe for one month access to all premium features.</p>
-                                    {% if can_make_payment %}
                                     <a href="{{ url_for('checkout') }}" class="btn btn-success">
                                         <i class="fas fa-credit-card me-2"></i>Subscribe Now
                                     </a>
                                     {% else %}
+                                    <p>Subscribe for one month access to all premium features.</p>
                                     <button class="btn btn-secondary" disabled>
                                         <i class="fas fa-ban me-2"></i>Active Subscription
                                     </button>

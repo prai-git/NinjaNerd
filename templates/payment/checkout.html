@@ -142,10 +142,8 @@
                 <!-- Help Links -->
                 <div class="mt-4 text-center">
                     <small class="text-muted">
-                        Need help? 
-                        <a href="{{ url_for('contact_us') }}">Contact Support</a> | 
                         <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms & Conditions</a> | 
-                        <a href="/privacy" target="_blank">Privacy Policy</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
                     </small>
                 </div>
             </div>
@@ -169,6 +167,26 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary" onclick="acceptTerms()">I Agree</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Privacy Policy Modal -->
+<div class="modal fade" id="privacyModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="fas fa-shield-alt me-2"></i>Privacy Policy</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+                <div id="privacy-content">
+                    Loading privacy policy...
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -203,6 +221,12 @@ document.addEventListener('DOMContentLoaded', function() {
         termsModal.addEventListener('show.bs.modal', loadTermsAndConditions);
     }
     
+    // Load privacy policy when modal is shown
+    const privacyModal = document.getElementById('privacyModal');
+    if (privacyModal) {
+        privacyModal.addEventListener('show.bs.modal', loadPrivacyPolicy);
+    }
+    
     // Initialize PayPal buttons when terms are accepted
     updatePayPalButtons();
 });
@@ -218,6 +242,17 @@ function loadTermsAndConditions() {
         });
 }
 
+function loadPrivacyPolicy() {
+    fetch('/api/privacy-policy')
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById('privacy-content').innerHTML = '<pre class="small">' + text + '</pre>';
+        })
+        .catch(error => {
+            document.getElementById('privacy-content').innerHTML = '<p class="text-danger">Failed to load privacy policy. Please try again.</p>';
+        });
+}
+
 function acceptTerms() {
     document.getElementById('termsCheckbox').checked = true;
     const modal = bootstrap.Modal.getInstance(document.getElementById('termsModal'));
@@ -229,10 +264,17 @@ function updatePayPalButtons() {
     const termsAccepted = document.getElementById('termsCheckbox').checked;
     const container = document.getElementById('paypal-button-container');
     
+    container.innerHTML = '';
+
     if (termsAccepted) {
         // Enable PayPal buttons
         if (paypalButtons) {
-            paypalButtons.close();
+            try {
+                paypalButtons.close();
+            } catch (e) {
+                console.log('PayPal buttons cleanup warning:', e);
+            }
+            paypalButtons = null;
         }
         
         paypalButtons = paypal.Buttons({
@@ -309,7 +351,12 @@ function updatePayPalButtons() {
             }
         });
         
-        paypalButtons.render('#paypal-button-container');
+        if (container.innerHTML === '') {
+            paypalButtons.render('#paypal-button-container').catch(function(err) {
+                console.error('PayPal render error:', err);
+                container.innerHTML = '<div class="alert alert-danger">Failed to load PayPal buttons. Please refresh the page.</div>';
+            });
+        }
     } else {
         // Disable PayPal buttons
         container.innerHTML = '<div class="alert alert-warning text-center"><i class="fas fa-exclamation-triangle me-2"></i>Please accept the Terms and Conditions to proceed with payment.</div>';

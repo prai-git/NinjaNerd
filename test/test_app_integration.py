@@ -20,32 +20,31 @@ sys.path.insert(0, project_root)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+@patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
 def test_dbmanager_integration():
     """Test SQLite DBManager integration with app.py"""
-    
+
     # Create temporary directories for testing
     temp_dir = tempfile.mkdtemp()
     data_dir = os.path.join(temp_dir, 'data')
     backup_dir = os.path.join(temp_dir, 'backups')
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(backup_dir, exist_ok=True)
-    
+
     try:
         # Mock Flask app and environment
         with patch.dict(os.environ, {'PYTHONPATH': project_root}):
             # Import and initialize SQLite DBManager integration
             from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
             from app import app
-            
+
             # Reset and initialize with test directories
             logger.info("Initializing SQLite DBManager with test data...")
             reset_app_db()
-            app_db = initialize_app_db(app, 
+            app_db = initialize_app_db(app,
                                       db_path=os.path.join(data_dir, 'test.db'),
                                       max_connections=10,
-                                      max_workers=5)
-            
-            # Test 1: Create test users
+                                      max_workers=5)            # Test 1: Create test users
             logger.info("Test 1: Creating test users...")
             user1_created = app_db.create_user("test@example.com", "hashed_password", "Test School")
             user2_created = app_db.create_user("user2@example.com", "hashed_password2", "Test School 2")
@@ -149,37 +148,36 @@ def test_dbmanager_integration():
             logger.warning(f"Could not clean up temp directory: {e}")
 
 
+@patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
 def test_app_compatibility():
     """Test that app.py functions work with SQLite DBManager integration"""
     
     logger.info("Testing app.py compatibility with SQLite...")
-    
+
     # Create temporary directories
     temp_dir = tempfile.mkdtemp()
     data_dir = os.path.join(temp_dir, 'data')
     backup_dir = os.path.join(temp_dir, 'backups')
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(backup_dir, exist_ok=True)
-    
+
     try:
         # Mock Flask app components
         mock_app = MagicMock()
         mock_app.logger = logger
         mock_app.config = {}
-        
+
         # Patch app module components
         with patch.dict('sys.modules'):
             # Import integration after mocking
             from dbmgr.sqlite_app_integration import initialize_app_db, get_app_db, reset_app_db
             from app import app
-            
+
             # Initialize SQLite DBManager
             reset_app_db()
-            initialize_app_db(app, 
+            initialize_app_db(app,
                             db_path=os.path.join(data_dir, 'test_compat.db'),
-                            max_connections=5)
-            
-            # Test that the wrapper functions work as expected
+                            max_connections=5)            # Test that the wrapper functions work as expected
             db = get_app_db()
             
             # Test creating users - use unique emails for this test

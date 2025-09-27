@@ -68,13 +68,13 @@ class EmailHandler:
     def send_account_creation(self, to_email: str, username: str) -> bool:
         """Synchronous account creation email (for backwards compatibility)."""
         subject = "Welcome to NinjaNerd! Your Account Has Been Created"
-        body = f"Hello {username},\n\nYour account has been successfully created. Welcome to NinjaNerd!\n\nBest Regards,\nNinjaNerd Team"
+        body = f"Hello {username},\n\nYour account has been successfully created. Welcome to NinjaNerd!\n\nYou now have access to a FREE 15-day trial with full access to all premium features including:\n- All grade levels and subjects\n- Learning and practice modes\n- Personalized content\n- Progress tracking\n\nEnjoy exploring and learning with NinjaNerd during your trial period!\n\nBest Regards,\nNinjaNerd Team"
         return self._send_email(to_email, subject, body)
 
     def send_account_creation_async(self, to_email: str, username: str) -> None:
         """Asynchronous account creation email."""
         subject = "Welcome to NinjaNerd! Your Account Has Been Created"
-        body = f"Hello {username},\n\nYour account has been successfully created. Welcome to NinjaNerd!\n\nBest Regards,\nNinjaNerd Team"
+        body = f"Hello {username},\n\nYour account has been successfully created. Welcome to NinjaNerd!\n\nYou now have access to a FREE 15-day trial with full access to all premium features including:\n- All grade levels and subjects\n- Learning and practice modes\n- Personalized content\n- Progress tracking\n\nEnjoy exploring and learning with NinjaNerd during your trial period!\n\nBest Regards,\nNinjaNerd Team"
         self.send_email_async(to_email, subject, body)
 
     def send_feedback(self, to_email: str, user: str, feedback: str) -> bool:

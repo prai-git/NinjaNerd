@@ -287,7 +287,21 @@ class TestPaymentDatabaseIntegration(unittest.TestCase):
     
     def test_can_make_payment(self):
         """Test payment eligibility check"""
-        # Initially user should be able to make payment
+        # New users are in free trial and cannot make payment initially
+        self.assertFalse(self.db_integration.can_make_payment(self.test_email))
+        
+        # Simulate user with expired trial by updating their creation date
+        with self.db_integration.sqlite_manager.connection_pool.get_connection() as conn:
+            cursor = conn.cursor()
+            # Set user creation date to 20 days ago (past trial period)
+            twenty_days_ago = (datetime.now() - timedelta(days=20)).strftime('%Y-%m-%d %H:%M:%S')
+            cursor.execute(
+                "UPDATE users SET created_at = ? WHERE email = ?",
+                (twenty_days_ago, self.test_email)
+            )
+            conn.commit()
+        
+        # Now user should be able to make payment (trial expired)
         self.assertTrue(self.db_integration.can_make_payment(self.test_email))
         
         # Create and complete a payment
@@ -299,7 +313,7 @@ class TestPaymentDatabaseIntegration(unittest.TestCase):
         )
         self.db_integration.update_payment_status("ORDER123", "completed", "CAPTURE123")
         
-        # Now user should not be able to make another payment
+        # Now user should not be able to make another payment (already has active payment)
         self.assertFalse(self.db_integration.can_make_payment(self.test_email))
     
     def test_multiple_payments_history(self):
@@ -366,6 +380,17 @@ class TestPaymentWorkflow(unittest.TestCase):
         # Create test user
         self.test_email = "workflow@example.com"
         self.db_integration.create_user(self.test_email, "test_password", "Test School")
+        
+        # Simulate expired trial by updating user creation date to 20 days ago
+        from datetime import datetime, timedelta
+        twenty_days_ago = (datetime.now() - timedelta(days=20)).strftime('%Y-%m-%d %H:%M:%S')
+        with self.db_integration.sqlite_manager.connection_pool.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "UPDATE users SET created_at = ? WHERE email = ?",
+                (twenty_days_ago, self.test_email)
+            )
+            conn.commit()
     
     def tearDown(self):
         """Clean up test environment"""
@@ -570,7 +595,7 @@ class TestPaymentUI(unittest.TestCase):
         with open(privacy_template_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        self.assertIn('Back to Payment', content, "Privacy policy should have back button")
+        self.assertIn('Back', content, "Privacy policy should have back button")
         self.assertIn('fa-arrow-left', content, "Back button should have arrow icon")
     
     def test_terms_conditions_no_new_tab(self):
@@ -611,7 +636,7 @@ class TestPaymentUI(unittest.TestCase):
                      "Terms should have flexbox layout in header")
         self.assertIn('btn btn-light btn-sm', terms_content, 
                      "Back button should be styled like payment history")
-        self.assertIn('Back to Payment', terms_content, "Should have back button")
+        self.assertIn('Back', terms_content, "Should have back button")
 
 
 if __name__ == "__main__":

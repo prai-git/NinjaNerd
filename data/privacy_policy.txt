@@ -1,4 +1,4 @@
-NINJANERD PRIVACY POLICY
+NINJANERD.AI PRIVACY POLICY
 
 Last Updated: September 22, 2025
 
@@ -8,7 +8,6 @@ Last Updated: September 22, 2025
 We collect information you provide directly to us, such as:
 - Account registration details (email address, username)
 - Educational progress and performance data
-- Communication preferences
 - Payment information (processed securely through PayPal)
 
 1.2 Automatically Collected Information
@@ -48,9 +47,6 @@ We implement appropriate security measures to protect your information:
 
 You have the right to:
 - Access and update your personal information
-- Delete your account and associated data
-- Opt out of non-essential communications
-- Request data portability
 - File complaints with relevant authorities
 
 6. COOKIES AND TRACKING
@@ -91,9 +87,6 @@ We may update this privacy policy periodically. We will notify you of significan
 
 11. CONTACT INFORMATION
 
-For privacy-related questions or concerns, contact us at:
-Email: privacy@ninjanerd.com
-Address: NinjaNerd Privacy Officer
-[Your Business Address]
+For privacy-related questions or concerns, go to contact us and send us an eamil.
 
-By using NinjaNerd, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of information as described herein.
+By using NinjaNerd.ai, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of information as described herein.

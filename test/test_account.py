@@ -48,6 +48,7 @@ class TestAccountPage(unittest.TestCase):
         """Clean up test environment"""
         shutil.rmtree(self.test_dir, ignore_errors=True)
     
+    @patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
     def test_account_password_update(self):
         """Test password update functionality"""
         from app import app
@@ -77,6 +78,7 @@ class TestAccountPage(unittest.TestCase):
         self.assertEqual(updated_user['password'], 'new_hashed_password')
         self.assertEqual(updated_user['school_name'], 'Test School')  # Should remain unchanged
     
+    @patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
     def test_account_school_update(self):
         """Test school name update functionality"""
         from app import app
@@ -112,6 +114,7 @@ class TestAccountPage(unittest.TestCase):
         self.assertEqual(updated_user['school_name'], 'New School')
         self.assertEqual(updated_user['password'], original_password_hash)  # Password should remain unchanged
     
+    @patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
     def test_account_both_update(self):
         """Test updating both password and school name"""
         from app import app
@@ -144,6 +147,7 @@ class TestAccountPage(unittest.TestCase):
         self.assertEqual(updated_user['password'], 'new_hashed_password')
         self.assertEqual(updated_user['school_name'], 'New School')
     
+    @patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
     def test_account_nonexistent_user(self):
         """Test updating nonexistent user"""
         from app import app

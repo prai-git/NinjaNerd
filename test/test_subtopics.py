@@ -6,6 +6,7 @@ Test script to verify the new subtopic functionality works correctly
 
 import sys
 import os
+from unittest.mock import patch
 
 # Add the project directory to the path
 sys.path.insert(0, '/Users/praveenrai/Personal/Krishang/NinjaNerd')
@@ -86,6 +87,7 @@ def test_subtopic_data_structure_comprehensive():
     
     print("✅ Comprehensive data structure test passed!")
 
+@patch.dict(os.environ, {'MESSAGE_OBFUSCATION_KEY': 'test_key'})
 def test_authenticated_routes():
     """Test subtopic routes with authenticated session"""
     print("Testing authenticated subtopic routes...")
@@ -126,8 +128,9 @@ def test_authenticated_routes():
             }
         }
         
-        # Mock credentials loading to avoid file system changes
-        with patch('app.load_credentials', return_value=test_credentials):
+        # Mock credentials loading and free trial function to avoid database changes
+        with patch('app.load_credentials', return_value=test_credentials), \
+             patch('app.check_free_trial_access', return_value=True):
             with app.test_client() as client:
                 # Test subtopic routes for different grades and topics
                 test_cases = [

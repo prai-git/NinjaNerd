@@ -1142,6 +1142,18 @@ class SQLiteAppIntegration:
             self._logger.error(f"Failed to get active payment for user {email}: {e}")
             return None
     
+    def _is_admin_user(self, email: str) -> bool:
+        """
+        Check if the given email belongs to an admin user.
+        
+        Args:
+            email: User email to check
+            
+        Returns:
+            True if user is admin, False otherwise
+        """
+        return email == 'admin@gmail.com'
+    
     def can_make_payment(self, email: str) -> bool:
         """
         Check if user can make a new payment (no active subscription).
@@ -1150,14 +1162,109 @@ class SQLiteAppIntegration:
             email: User email
             
         Returns:
-            True if user can make payment, False if active subscription exists
+            True if user can make payment, False if active subscription exists or in free trial
         """
         try:
+            # Admin users don't need to make payments (everything is free for them)
+            if self._is_admin_user(email):
+                return False
+                
+            # Check if user is in free trial period (cannot make payment during free trial)
+            if self.is_in_free_trial(email):
+                return False
+                
             active_payment = self.get_active_payment(email)
             return active_payment is None
         except Exception as e:
             self._logger.error(f"Failed to check payment eligibility for user {email}: {e}")
             return False
+    
+    def is_in_free_trial(self, email: str) -> bool:
+        """
+        Check if user is within the 15-day free trial period.
+        
+        Args:
+            email: User email
+            
+        Returns:
+            True if user is in free trial period, False otherwise
+        """
+        try:
+            # Admin users are never in "free trial" - they have permanent free access
+            if self._is_admin_user(email):
+                return False
+                
+            user = self.get_user(email)
+            if not user or not user.get('created_at'):
+                return False
+            
+            from datetime import datetime, timedelta
+            created_at = datetime.fromisoformat(user['created_at'])
+            trial_end = created_at + timedelta(days=15)
+            
+            return datetime.now() < trial_end
+        except Exception as e:
+            self._logger.error(f"Failed to check free trial status for user {email}: {e}")
+            return False
+    
+    def get_free_trial_days_remaining(self, email: str) -> int:
+        """
+        Get the number of days remaining in the free trial period.
+        
+        Args:
+            email: User email
+            
+        Returns:
+            Number of days remaining (0 if trial expired or error, or if admin user)
+        """
+        try:
+            # Admin users don't have a trial period concept (they have permanent free access)
+            if self._is_admin_user(email):
+                return 0
+                
+            user = self.get_user(email)
+            if not user or not user.get('created_at'):
+                return 0
+            
+            from datetime import datetime, timedelta
+            created_at = datetime.fromisoformat(user['created_at'])
+            trial_end = created_at + timedelta(days=15)
+            now = datetime.now()
+            
+            if now >= trial_end:
+                return 0
+                
+            remaining = (trial_end - now).days
+            return max(0, remaining)
+        except Exception as e:
+            self._logger.error(f"Failed to get trial days remaining for user {email}: {e}")
+            return 0
+    
+    def requires_payment_for_access(self, email: str) -> bool:
+        """
+        Check if user requires payment to access grade selection (free trial expired and no active payment).
+        
+        Args:
+            email: User email
+            
+        Returns:
+            True if payment required, False if user can access (in trial or has active payment)
+        """
+        try:
+            # Admin users never require payment (everything is free for them)
+            if self._is_admin_user(email):
+                return False
+                
+            # If in free trial, no payment required
+            if self.is_in_free_trial(email):
+                return False
+            
+            # If has active payment, no additional payment required  
+            active_payment = self.get_active_payment(email)
+            return active_payment is None
+        except Exception as e:
+            self._logger.error(f"Failed to check payment requirement for user {email}: {e}")
+            return True  # Err on the side of requiring payment
 
     # ===============================
     # System Management

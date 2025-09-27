@@ -216,6 +216,8 @@ class TestAuditFeature(unittest.TestCase):
                 "last_login": "2025-09-08T14:00:00.000000"
             }
         }
+        # Mock empty payment history
+        mock_db.get_user_payments.return_value = None
         mock_get_db.return_value = mock_db
         
         app.config['TESTING'] = True
@@ -247,7 +249,8 @@ class TestAuditFeature(unittest.TestCase):
                 self.assertIn('10', response_text)  # questions attempted
                 self.assertIn('2025-09-08T14:00:00.000000', response_text)  # last login
                 self.assertIn('What is 2+2?', response_text)  # question in history
-                self.assertIn('No payments recorded', response_text)  # payment info
+                # Payment section should not appear when no payments exist (check for actual header, not comment)
+                self.assertNotIn('<i class="fas fa-receipt me-2"></i>Payment History', response_text)
                 
                 # Verify database was called correctly
                 mock_db.get_user.assert_called_once_with('testuser@example.com')
