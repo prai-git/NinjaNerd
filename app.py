@@ -37,6 +37,7 @@ from core import (
 
 # Load environment variables from .env file
 load_dotenv()
+PR_PAYPAL_MODE = os.getenv('PR_PP_MODE', 'sandbox')
 
 app = Flask(__name__)
 # Use a string secret key instead of bytes to avoid MessageObfuscator issues
@@ -1837,7 +1838,7 @@ def create_order():
         # Create order using PayPal gateway
         from gw.ppgw import PayPalGateway
         
-        paypal_gateway = PayPalGateway(mode="sandbox")  # Change to "live" for production
+        paypal_gateway = PayPalGateway(mode=PR_PAYPAL_MODE)  # Change to "live" for production
         result = paypal_gateway.create_order(
             amount=str(float_amount),
             currency=currency,
@@ -1905,7 +1906,7 @@ def capture_order():
         # Capture order using PayPal gateway
         from gw.ppgw import PayPalGateway
         
-        paypal_gateway = PayPalGateway(mode="sandbox")  # Change to "live" for production
+        paypal_gateway = PayPalGateway(mode=PR_PAYPAL_MODE)  # Change to "live" for production
         result = paypal_gateway.capture_order(order_id)
         
         if result['success']:
@@ -1980,7 +1981,7 @@ def payment_success():
         # Get order details for display
         from gw.ppgw import PayPalGateway
         
-        paypal_gateway = PayPalGateway(mode="sandbox")  # Change to "live" for production
+        paypal_gateway = PayPalGateway(mode=PR_PAYPAL_MODE)  # Change to "live" for production
         order_details = paypal_gateway.get_order_details(order_id)
         
         log_user_activity(username, f"Viewed payment success page: {order_id}")
