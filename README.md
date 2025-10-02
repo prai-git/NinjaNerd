@@ -274,6 +274,417 @@ python3 test/test_async_performance.py         # Async email performance tests (
 
 All tests are designed to be safe and do not modify production database files.
 
+## Domain Setup and SSL Certificate Management
+
+**Complete guide for custom domain deployment with HTTPS certificates:**
+
+### Prerequisites
+- Custom domain registered with DNS provider (e.g., Porkbun, Namecheap, etc.)
+- Server with public IP address
+- Root/sudo access to server
+
+### Step 1: Get Public IP Address
+```bash
+# Get your server's public IP address
+curl ifconfig.me
+```
+
+### Step 2: DNS Configuration
+1. **Login to your domain registrar** (e.g., Porkbun)
+2. **Navigate to DNS Management** for your domain
+3. **Add/Update A Record**:
+   - **Type**: A
+   - **Host**: @ (for root domain) or subdomain name
+   - **Value**: Your public IP address from Step 1
+   - **TTL**: 300 (5 minutes) or default
+
+4. **Add CNAME Record** (optional for www):
+   - **Type**: CNAME
+   - **Host**: www
+   - **Value**: yourdomain.com
+   - **TTL**: 300 or default
+
+### Step 3: Network Configuration
+```bash
+# Router Port Forwarding (if behind router/firewall)
+# Forward these ports to your server's local IP:
+# Port 80 (HTTP) → Server IP:80
+# Port 443 (HTTPS) → Server IP:443
+
+# Server Firewall (if applicable)
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+```
+
+### Step 4: Install Certbot
+```bash
+# Install certbot for SSL certificate management
+sudo apt update
+sudo apt install certbot
+```
+
+### Step 5: SSL Certificate Generation
+
+#### Option A: Standalone Method (Preferred for VPS/Cloud)
+```bash
+# Stop any web server temporarily
+sudo systemctl stop nginx  # if nginx is running
+
+# Generate certificate using standalone method
+sudo certbot certonly --standalone -d yourdomain.com -d www.yourdomain.com
+
+# Restart web server
+sudo systemctl start nginx
+```
+
+#### Option B: Manual DNS Challenge (For Complex Network Setups)
+```bash
+# Use manual DNS challenge if standalone fails
+sudo certbot certonly --manual --preferred-challenges dns -d yourdomain.com
+
+# Follow the prompts to add TXT records to your DNS:
+# 1. Certbot will provide a TXT record name and value
+# 2. Add this TXT record to your DNS management panel:
+#    - Type: TXT
+#    - Host: _acme-challenge
+#    - Value: [provided by certbot]
+#    - TTL: 300
+# 3. Wait for DNS propagation (2-10 minutes)
+# 4. Press Enter in certbot to continue verification
+```
+
+### Step 6: Certificate File Management
+
+#### Issue: Direct Certificate Access
+```bash
+# Problem: Application can't access Let's Encrypt certificates directly
+# Solution: Proper permissions setup
+
+# Add application user to ssl-cert group
+sudo usermod -a -G ssl-cert yourusername
+
+# Change certificate directory group ownership
+sudo chgrp -R ssl-cert /etc/letsencrypt/live/
+sudo chgrp -R ssl-cert /etc/letsencrypt/archive/
+
+# Grant read permissions to ssl-cert group
+sudo chmod -R g+rx /etc/letsencrypt/live/
+sudo chmod -R g+rx /etc/letsencrypt/archive/
+```
+
+#### Alternative: Symbolic Links (Not Recommended)
+```bash
+# Create local certificate directory
+mkdir -p ssl_certs
+
+# Create symbolic links (requires proper permissions as above)
+sudo ln -sf /etc/letsencrypt/live/yourdomain.com/fullchain.pem ssl_certs/cert.pem
+sudo ln -sf /etc/letsencrypt/live/yourdomain.com/privkey.pem ssl_certs/key.pem
+```
+
+### Step 7: Systemd Service Configuration
+```bash
+# Create service file for your application
+sudo nano /etc/systemd/system/yourapp.service
+```
+
+**Basic Service Template:**
+```ini
+[Unit]
+Description=Your Web Application
+After=network.target
+
+[Service]
+Type=simple
+User=yourusername
+Group=yourusername
+WorkingDirectory=/path/to/your/application
+Environment=PATH=/path/to/your/venv/bin
+ExecStart=/path/to/your/venv/bin/python app.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**Enable and Start Service:**
+```bash
+# Reload systemd and enable service
+sudo systemctl daemon-reload
+sudo systemctl enable yourapp.service
+sudo systemctl start yourapp.service
+
+# Check service status
+sudo systemctl status yourapp.service
+```
+
+### Step 8: Certificate Auto-Renewal Setup
+
+#### Issue: Auto-renewal May Fail
+```bash
+# Test auto-renewal
+sudo certbot renew --dry-run
+
+# Manual renewal (if auto-renewal fails)
+sudo certbot renew
+
+# Create renewal hook for application restart
+sudo mkdir -p /etc/letsencrypt/renewal-hooks/deploy
+sudo nano /etc/letsencrypt/renewal-hooks/deploy/restart-app.sh
+```
+
+**Renewal Hook Script:**
+```bash
+#!/bin/bash
+# Restart application after certificate renewal
+systemctl restart yourapp.service
+systemctl restart nginx
+```
+
+**Make Hook Executable:**
+```bash
+sudo chmod +x /etc/letsencrypt/renewal-hooks/deploy/restart-app.sh
+```
+
+### Step 9: DNS Verification and Troubleshooting
+```bash
+# Check DNS propagation
+nslookup yourdomain.com
+dig yourdomain.com
+
+# Test certificate
+openssl s_client -connect yourdomain.com:443 -servername yourdomain.com
+
+# Check certificate expiry
+sudo certbot certificates
+
+# View certificate details
+openssl x509 -in /etc/letsencrypt/live/yourdomain.com/fullchain.pem -text -noout
+```
+
+### Common Issues and Solutions
+
+1. **Port Forwarding Not Working**
+   - Verify router configuration
+   - Check if ISP blocks ports 80/443
+   - Consider using alternative ports with proxy
+
+2. **DNS TXT Record for Manual Challenge**
+   - Add TXT record: `_acme-challenge.yourdomain.com`
+   - Wait for DNS propagation (use online DNS checker tools)
+   - TTL should be low (300 seconds) for faster updates
+
+3. **Certificate Permission Issues**
+   - Use ssl-cert group method instead of symbolic links
+   - Ensure application user is in ssl-cert group
+   - Restart application after permission changes
+
+4. **Auto-renewal Failures**
+   - Set up manual renewal cron job as backup
+   - Monitor certificate expiry dates
+   - Use renewal hooks to restart services
+
+### Future Project Checklist
+- [ ] Register domain and configure DNS A records
+- [ ] Set up port forwarding (if needed)
+- [ ] Install certbot
+- [ ] Generate SSL certificates (try standalone first, use DNS challenge if needed)
+- [ ] Configure proper certificate permissions (ssl-cert group method)
+- [ ] Create systemd service file
+- [ ] Set up renewal hooks
+- [ ] Test certificate renewal process
+
+This comprehensive setup ensures secure HTTPS deployment for any web application with proper certificate management.
+
+## Nginx Reverse Proxy Setup
+
+**Production-Ready Reverse Proxy Configuration** for HTTPS deployment:
+
+### Why Use Nginx Reverse Proxy?
+- ✅ **Security**: Flask runs as non-root user while nginx handles privileged port 443
+- ✅ **Performance**: SSL termination, compression, and static file serving
+- ✅ **Scalability**: Easy load balancing and multiple backend support
+- ✅ **Industry Standard**: Production best practice for web applications
+
+### Installation Steps
+
+1. **Install Nginx**
+   ```bash
+   sudo apt update
+   sudo apt install -y nginx
+   ```
+
+2. **Configure Flask Application**
+   - Update Flask app to run on non-privileged port (8443)
+   - Ensure SSL certificates are available for Flask backend
+
+3. **Create Nginx Site Configuration**
+   ```bash
+   sudo nano /etc/nginx/sites-available/yourdomain.com
+   ```
+
+4. **Basic Nginx Configuration Template**
+   ```nginx
+   server {
+       listen 80;
+       server_name yourdomain.com www.yourdomain.com;
+       
+       # Redirect HTTP to HTTPS
+       return 301 https://$server_name$request_uri;
+   }
+
+   server {
+       listen 443 ssl http2;
+       server_name yourdomain.com www.yourdomain.com;
+
+       # SSL Configuration (Let's Encrypt certificates)
+       ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+       ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
+       
+       # SSL Security Settings
+       ssl_protocols TLSv1.2 TLSv1.3;
+       ssl_prefer_server_ciphers on;
+       ssl_session_cache shared:SSL:10m;
+       ssl_session_timeout 10m;
+       
+       # Security Headers
+       add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+       add_header X-Frame-Options DENY always;
+       add_header X-Content-Type-Options nosniff always;
+       add_header X-XSS-Protection "1; mode=block" always;
+       
+       # Gzip Compression
+       gzip on;
+       gzip_vary on;
+       gzip_min_length 1024;
+       gzip_types text/plain text/css text/xml text/javascript application/javascript application/xml+rss application/json;
+       
+       # Proxy to Flask application
+       location / {
+           proxy_pass https://127.0.0.1:8443;
+           proxy_set_header Host $host;
+           proxy_set_header X-Real-IP $remote_addr;
+           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+           proxy_set_header X-Forwarded-Proto $scheme;
+           proxy_set_header X-Forwarded-Host $server_name;
+           
+           # Proxy SSL settings
+           proxy_ssl_verify off;
+           proxy_ssl_session_reuse on;
+           
+           # Timeout settings
+           proxy_connect_timeout 30s;
+           proxy_send_timeout 30s;
+           proxy_read_timeout 30s;
+           
+           # Buffer settings
+           proxy_buffering on;
+           proxy_buffer_size 8k;
+           proxy_buffers 8 8k;
+       }
+       
+       # Static files optimization
+       location /static/ {
+           proxy_pass https://127.0.0.1:8443/static/;
+           proxy_set_header Host $host;
+           proxy_ssl_verify off;
+           expires 1y;
+           add_header Cache-Control "public, immutable";
+       }
+   }
+   ```
+
+5. **Enable Site and Test Configuration**
+   ```bash
+   # Enable the site
+   sudo ln -sf /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/
+   
+   # Disable default site
+   sudo rm -f /etc/nginx/sites-enabled/default
+   
+   # Test configuration
+   sudo nginx -t
+   
+   # Start and enable nginx
+   sudo systemctl start nginx
+   sudo systemctl enable nginx
+   ```
+
+6. **SSL Certificate Setup (Let's Encrypt)**
+   ```bash
+   # Install certbot
+   sudo apt install certbot
+   
+   # Generate certificates (manual DNS challenge for this setup)
+   sudo certbot certonly --manual --preferred-challenges dns -d yourdomain.com
+   
+   # Follow DNS verification instructions
+   ```
+
+7. **Flask Application Updates**
+   - Change Flask port from 443 to 8443 in application code
+   - Ensure application runs as non-root user
+   - Configure systemd service for automatic startup
+
+### Service Management
+
+```bash
+# Restart nginx after configuration changes
+sudo systemctl restart nginx
+
+# Check nginx status
+sudo systemctl status nginx
+
+# View nginx logs
+sudo tail -f /var/log/nginx/error.log
+sudo tail -f /var/log/nginx/access.log
+
+# Test configuration
+sudo nginx -t
+```
+
+### Architecture Overview
+
+```
+Internet → nginx (port 443, SSL) → Flask app (port 8443, internal)
+```
+
+### Benefits Achieved
+- **Port 443 Access**: Standard HTTPS port accessible to users
+- **SSL Termination**: nginx handles SSL/TLS encryption
+- **Static File Serving**: nginx serves static assets efficiently
+- **Security Headers**: Automatic security header injection
+- **Compression**: Gzip compression for faster loading
+- **Load Balancing Ready**: Easy to add multiple Flask backends
+
+### Troubleshooting
+
+```bash
+# Check if ports are listening
+sudo ss -tlnp | grep -E "(443|8443|80)"
+
+# Test SSL certificates
+openssl s_client -connect yourdomain.com:443
+
+# Check nginx configuration syntax
+sudo nginx -t
+
+# Reload nginx without downtime
+sudo nginx -s reload
+```
+
+### Future Project Replication
+
+For future web-based projects:
+1. Install nginx using the steps above
+2. Modify the nginx configuration template with your domain
+3. Update your web application to run on a non-privileged port
+4. Obtain SSL certificates with Let's Encrypt
+5. Enable and test the configuration
+
+This setup provides a production-ready, scalable foundation for any web application requiring HTTPS deployment.
+
 ## Configuration
 
 The application uses environment variables for configuration:

@@ -11,9 +11,9 @@ __pycache__/
 nnrpi/
 
 # SSL certificates
-ssl_certs/cert.conf
-ssl_certs/cert.pem
-ssl_certs/key.pem
+ssl_certs/*cert.conf
+ssl_certs/*cert.pem
+ssl_certs/*key.pem
 
 # flask session
 flask_session/

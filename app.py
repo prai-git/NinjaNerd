@@ -2811,7 +2811,7 @@ if __name__ == '__main__':
 
         app.run(
             host='0.0.0.0',
-            port=8443,  # Using 8443 to avoid needing sudo
+            port=8443,  # Using 8443 (non-privileged port) with nginx reverse proxy
             debug=False,  # Set to False for HTTPS
             ssl_context=context,
             use_reloader=False,  # Disable reloader to prevent signal conflicts

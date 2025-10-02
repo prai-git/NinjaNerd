@@ -28,6 +28,7 @@ psutil>=5.9.0
 croniter>=1.4.0
 cryptography>=41.0.0
 email-validator
+certbot
 
 # Database dependencies
 # sqlite3 - Built-in SQLite support (Python 3.x standard library)
