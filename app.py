@@ -2813,7 +2813,7 @@ if __name__ == '__main__':
             host='0.0.0.0',
             port=8443,  # Using 8443 (non-privileged port) with nginx reverse proxy
             debug=False,  # Set to False for HTTPS
-            ssl_context=context,
+            ssl_context=None, # No SSL context needed - nginx handles SSL
             use_reloader=False,  # Disable reloader to prevent signal conflicts
             threaded=True  # Enable threading for better performance
         )
