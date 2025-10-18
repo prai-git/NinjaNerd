@@ -68,13 +68,14 @@ class SafeLLMServiceFacade:
             self.logger.error(f"LLM API call failed: {str(e)}")
             return self._get_mock_response(f"LLM API call failed: {str(e)}")
     
-    def generate_learning_content(self, topic: str, subtopic: str, grade: str, session_id: str = None, username: str = None) -> Dict[str, Any]:
+    def generate_learning_content(self, topic: str, subtopic_name: str, subtopic_description: str, grade: str, session_id: str = None, username: str = None) -> Dict[str, Any]:
         """
         Safely generate learning content with graceful degradation.
         
         Args:
             topic: Learning topic
-            subtopic: Specific subtopic
+            subtopic_name: Name of the specific subtopic
+            subtopic_description: Description of the subtopic
             grade: Grade level
             session_id: Session identifier
             username: User identifier
@@ -87,7 +88,7 @@ class SafeLLMServiceFacade:
             return self._get_mock_response("Learning content generation not available")
         
         try:
-            return self.real_service.generate_learning_content(topic, subtopic, grade, session_id, username)
+            return self.real_service.generate_learning_content(topic, subtopic_name, subtopic_description, grade, session_id, username)
         except Exception as e:
             self.logger.error(f"Learning content generation failed: {str(e)}")
             return self._get_mock_response(f"Learning content generation failed: {str(e)}")

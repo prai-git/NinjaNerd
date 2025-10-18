@@ -108,7 +108,7 @@ class TestSafeLLMFacade(unittest.TestCase):
         self.assertIn('questions', result)
         
         # Test generate_learning_content
-        result = self.facade.generate_learning_content("math", "algebra", "5")
+        result = self.facade.generate_learning_content("math", "algebra", "Basic algebraic concepts", "5")
         self.assertEqual(result['status'], 'error')
         
         # Test check_answer_with_llm (should return False for safety)
@@ -132,7 +132,7 @@ class TestSafeLLMFacade(unittest.TestCase):
         self.assertEqual(result['status'], 'success')
         mock_service.call_llm_api.assert_called_once()
         
-        result = self.facade.generate_learning_content("math", "algebra", "5")
+        result = self.facade.generate_learning_content("math", "algebra", "Basic algebraic concepts", "5")
         self.assertEqual(result['status'], 'success')
         mock_service.generate_learning_content.assert_called_once()
         
