@@ -2716,6 +2716,16 @@ if __name__ == '__main__':
     # Start periodic cleanup after a 5 minute delay
     threading.Timer(300, periodic_verification_cleanup).start()
     
+    # Update DNS records on startup
+    try:
+        from gw.pbgw import compare_and_update_dns
+        print("🌐 Checking and updating DNS records...")
+        compare_and_update_dns()
+        print("✅ DNS check completed")
+    except Exception as e:
+        print(f"⚠️ DNS update failed: {e}")
+        app.logger.error(f"DNS update on startup failed: {e}")
+    
     # Setup cleanup handlers
     def cleanup_on_exit():
         """Cleanup function for graceful shutdown"""

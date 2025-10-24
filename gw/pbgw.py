@@ -154,13 +154,14 @@ def home_public_ip_check():
     print()
 
 
-def update_dns_record(record_id, domain, new_ip, api_key, secret_key):
+def update_dns_record(record_id, domain, subdomain, new_ip, api_key, secret_key):
     """
     Update a DNS A record with a new IP address
     
     Args:
         record_id (str): DNS record ID to update
         domain (str): Domain name
+        subdomain (str): Subdomain name ('' for root, 'www' for www)
         new_ip (str): New IP address to set
         api_key (str): Porkbun API key
         secret_key (str): Porkbun secret key
@@ -174,13 +175,14 @@ def update_dns_record(record_id, domain, new_ip, api_key, secret_key):
     payload = {
         "secretapikey": secret_key,
         "apikey": api_key,
+        "name": subdomain,
         "content": new_ip,
         "type": "A"
     }
     
     try:
-        logger.info(f"Attempting to update DNS record {record_id} for domain {domain} to IP {new_ip}")
-        
+        logger.info(f"Attempting to update DNS record {record_id} for domain {domain} subdomain {subdomain} to IP {new_ip}")
+
         response = requests.post(url, json=payload, timeout=30)
         response.raise_for_status()
         data = response.json()
@@ -330,9 +332,19 @@ def compare_and_update_dns():
     for update in updates_needed:
         print(f"\nUpdating {update['display_name']} from {update['current_ip']} to {update['new_ip']}...")
         
+        # Extract subdomain for update function
+        
+        subdomain = ''
+        if update['display_name'] == domain:
+            subdomain = ''
+        elif update['display_name'] == f'www.{domain}':
+            subdomain = 'www'
+            print(f"Subdomain extracted: {subdomain}")
+            
         result = update_dns_record(
             record_id=update['record_id'],
             domain=domain,
+            subdomain=subdomain,
             new_ip=update['new_ip'],
             api_key=api_key,
             secret_key=secret_key
