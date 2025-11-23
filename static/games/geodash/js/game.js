@@ -33,8 +33,12 @@ class GeoDash {
         this.backgroundImage = new Image();
         this.backgroundImage.src = GEODASH_CONFIG.ASSETS.BACKGROUND;
         this.backgroundLoaded = false;
+        this.backgroundX1 = 0; // First background position
+        this.backgroundX2 = 0; // Second background position for seamless scrolling
         this.backgroundImage.onload = () => {
             this.backgroundLoaded = true;
+            // Set up seamless scrolling - second background starts right after first
+            this.backgroundX2 = this.canvas.width;
         };
         
         // Audio
@@ -133,11 +137,13 @@ class GeoDash {
         
         this.score = 0;
         this.obstacles = [];
-        this.player = new Player(
-            GEODASH_CONFIG.PLAYER_X, 
-            GEODASH_CONFIG.SCREEN_HEIGHT - GEODASH_CONFIG.PLAYER_SIZE
-        );
+        this.player.resetPosition(); // Reset dragon to starting position
         this.lastObstacleSpawn = 0;
+        
+        // Reset background positions
+        this.backgroundX1 = 0;
+        this.backgroundX2 = this.canvas.width;
+        
         this.gameOver = false;
         this.start();
     }
@@ -170,8 +176,14 @@ class GeoDash {
     update(deltaTime) {
         if (this.paused || this.gameOver) return;
         
+        // Update scrolling background
+        this.updateBackground();
+        
         // Update player
         this.player.update();
+        
+        // Keep player within screen bounds by shifting world position
+        this.adjustWorldPosition();
         
         // Spawn obstacles
         const currentTime = Date.now();
@@ -229,9 +241,15 @@ class GeoDash {
         // Clear canvas
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         
-        // Draw background
+        // Draw scrolling background
         if (this.backgroundLoaded) {
-            this.ctx.drawImage(this.backgroundImage, 0, 0, this.canvas.width, this.canvas.height);
+            // Draw the current background
+            this.ctx.drawImage(this.backgroundImage, this.backgroundX1, 0, this.canvas.width, this.canvas.height);
+            
+            // Draw the next background only if part of it is visible
+            if (this.backgroundX1 < 0) {
+                this.ctx.drawImage(this.backgroundImage, this.backgroundX2, 0, this.canvas.width, this.canvas.height);
+            }
         } else {
             this.ctx.fillStyle = GEODASH_CONFIG.WHITE;
             this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
@@ -301,6 +319,35 @@ class GeoDash {
         
         if (!this.paused && !this.gameOver) {
             requestAnimationFrame(() => this.gameLoop());
+        }
+    }
+    
+    updateBackground() {
+        // Scroll the background offset
+        this.backgroundX1 -= GEODASH_CONFIG.BACKGROUND_SCROLL_SPEED;
+        
+        // Keep the offset within one background width for seamless looping
+        if (this.backgroundX1 <= -this.canvas.width) {
+            this.backgroundX1 = 0;
+        }
+        
+        // Second background position is always one screen width ahead
+        this.backgroundX2 = this.backgroundX1 + this.canvas.width;
+    }
+    
+    adjustWorldPosition() {
+        // When dragon moves too far forward, shift everything back to create continuous movement illusion
+        const targetX = GEODASH_CONFIG.PLAYER_X + 50; // Allow some forward movement
+        if (this.player.x > targetX) {
+            const shift = this.player.x - targetX;
+            
+            // Move player back
+            this.player.x = targetX;
+            
+            // Move all obstacles back by the same amount to maintain relative positions
+            this.obstacles.forEach(obstacle => {
+                obstacle.x -= shift;
+            });
         }
     }
 }

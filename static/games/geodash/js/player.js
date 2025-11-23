@@ -2,9 +2,11 @@ class Player {
     constructor(x, y) {
         this.x = x;
         this.y = y;
+        this.initialX = x; // Remember starting position
         this.size = GEODASH_CONFIG.PLAYER_SIZE;
         this.yVelocity = 0;
         this.isJumping = false;
+        this.forwardSpeed = GEODASH_CONFIG.PLAYER_FORWARD_SPEED;
         this.image = new Image();
         this.image.src = GEODASH_CONFIG.ASSETS.PLAYER;
         this.imageLoaded = false;
@@ -18,6 +20,9 @@ class Player {
         // Apply gravity
         this.yVelocity += GEODASH_CONFIG.GRAVITY;
         this.y += this.yVelocity;
+        
+        // Move forward slowly (continuous movement)
+        this.x += this.forwardSpeed;
         
         // Ground collision
         const groundY = GEODASH_CONFIG.SCREEN_HEIGHT - this.size;
@@ -52,5 +57,12 @@ class Player {
             width: this.size,
             height: this.size
         };
+    }
+    
+    resetPosition() {
+        this.x = this.initialX;
+        this.y = GEODASH_CONFIG.SCREEN_HEIGHT - this.size;
+        this.yVelocity = 0;
+        this.isJumping = false;
     }
 }

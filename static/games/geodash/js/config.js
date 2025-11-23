@@ -6,6 +6,8 @@ const GEODASH_CONFIG = {
     // Player settings
     PLAYER_SIZE: 75,
     PLAYER_X: 100,
+    PLAYER_FORWARD_SPEED: 2, // Dragon moves forward slowly
+    BACKGROUND_SCROLL_SPEED: 2, // Background scrolls to create movement illusion
     GRAVITY: 1,
     JUMP_STRENGTH: -17,
     JUMP_INCREASE: -5,
