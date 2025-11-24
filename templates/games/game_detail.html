@@ -16,6 +16,8 @@
                                 <i class="fas fa-crosshairs me-2"></i>
                             {% elif game.slug == 'geodash' %}
                                 <i class="fas fa-dragon me-2"></i>
+                            {% elif game.slug == 'mmh' %}
+                                <i class="fas fa-motorcycle me-2"></i>
                             {% endif %}
                             {{ game.name }}
                         </h4>
@@ -31,10 +33,10 @@
                     </div>
                 </div>
                 <div class="card-body p-0">
-                    <div class="game-container {% if game.slug == 'tank-attack' %}tank-attack-container{% elif game.slug == 'geodash' %}geodash-container{% endif %}">
+                    <div class="game-container {% if game.slug == 'tank-attack' %}tank-attack-container{% elif game.slug == 'geodash' %}geodash-container{% elif game.slug == 'mmh' %}mmh-container{% endif %}">
                         <div class="canvas-wrapper">
                             <canvas id="gameCanvas" width="1200" height="800"></canvas>
-                            <div id="gameControls" class="game-controls {% if game.slug == 'tank-attack' %}tank-attack-controls{% elif game.slug == 'geodash' %}geodash-controls{% endif %}">
+                            <div id="gameControls" class="game-controls {% if game.slug == 'tank-attack' %}tank-attack-controls{% elif game.slug == 'geodash' %}geodash-controls{% elif game.slug == 'mmh' %}mmh-controls{% endif %}">
                                 <h3>{{ game.name }}</h3>
                                 <div class="controls-info">
                                     <h6>Controls:</h6>
@@ -53,9 +55,15 @@
                                         <p><i class="fas fa-hand-pointer"></i> Touch: Jump (mobile)</p>
                                         <p><i class="fas fa-pause"></i> P: Pause</p>
                                         <p><i class="fas fa-redo"></i> R: Restart (when game over)</p>
+                                    {% elif game.slug == 'mmh' %}
+                                        <p><i class="fas fa-arrow-left"></i><i class="fas fa-arrow-right"></i> Arrow Keys: Move Left/Right</p>
+                                        <p><i class="fas fa-rocket"></i> Spacebar: Accelerate</p>
+                                        <p><i class="fas fa-hand-pointer"></i> Touch: Move & Accelerate (mobile)</p>
+                                        <p><i class="fas fa-pause"></i> P: Pause</p>
+                                        <p><i class="fas fa-redo"></i> R: Restart (when game over)</p>
                                     {% endif %}
                                 </div>
-                                <div class="tank-attack-game-buttons">
+                                <div class="{% if game.slug == 'geodash' %}geodash-game-buttons{% elif game.slug == 'mmh' %}mmh-game-buttons{% else %}tank-attack-game-buttons{% endif %}">
                                     {% if game.slug == 'geodash' %}
                                     <div class="geodash-game-buttons">
                                         <button id="startBtn" class="btn btn-success btn-lg">
@@ -229,6 +237,8 @@
 <!-- Load game-specific CSS files -->
 {% if game.slug == 'geodash' %}
 <link href="/static/games/geodash/css/geodash.css" rel="stylesheet">
+{% elif game.slug == 'mmh' %}
+<link href="/static/games/mmh/css/mmh.css" rel="stylesheet">
 {% endif %}
 
 <!-- Load game-specific JavaScript files -->
@@ -249,6 +259,12 @@
 <script src="/static/games/geodash/js/player.js"></script>
 <script src="/static/games/geodash/js/obstacle.js"></script>
 <script src="/static/games/geodash/js/game.js"></script>
+{% elif game.slug == 'mmh' %}
+<script src="/static/games/mmh/js/config.js"></script>
+<script src="/static/games/mmh/js/road.js"></script>
+<script src="/static/games/mmh/js/player.js"></script>
+<script src="/static/games/mmh/js/obstacle.js"></script>
+<script src="/static/games/mmh/js/game.js"></script>
 {% endif %}
 
 <script>
@@ -272,6 +288,8 @@ document.getElementById('pauseBtn').addEventListener('click', function() {
         {% elif game.slug == 'tank-attack' %}
         game.pause();
         {% elif game.slug == 'geodash' %}
+        game.togglePause();
+        {% elif game.slug == 'mmh' %}
         game.togglePause();
         {% endif %}
         updatePauseButton();
@@ -299,6 +317,8 @@ function startGame() {
     game = new TankAttack('gameCanvas');
     {% elif game.slug == 'geodash' %}
     game = new GeoDash('gameCanvas');
+    {% elif game.slug == 'mmh' %}
+    game = new MotorcycleMayhem('gameCanvas');
     {% endif %}
     
     game.start();

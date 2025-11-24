@@ -2519,6 +2519,11 @@ def games_list(grade):
             'name': 'GeoDash',
             'slug': 'geodash',
             'description': 'A geometry dash inspired game! Guide a dragon through obstacles by jumping at the right time!'
+        },
+        {
+            'name': 'Motorcycle Mayhem',
+            'slug': 'mmh',
+            'description': 'Race your motorcycle down the highway! Dodge traffic and see how far you can go!'
         }
     ]
     
@@ -2546,6 +2551,11 @@ def game_detail(game_slug):
             'name': 'GeoDash',
             'slug': 'geodash',
             'description': 'A geometry dash inspired game! Guide a dragon through obstacles by jumping at the right time!'
+        },
+        'mmh': {
+            'name': 'Motorcycle Mayhem',
+            'slug': 'mmh',
+            'description': 'Race your motorcycle down the highway! Dodge traffic and see how far you can go!'
         }
     }
     
