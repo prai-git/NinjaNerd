@@ -64,23 +64,12 @@
                                     {% endif %}
                                 </div>
                                 <div class="{% if game.slug == 'geodash' %}geodash-game-buttons{% elif game.slug == 'mmh' %}mmh-game-buttons{% else %}tank-attack-game-buttons{% endif %}">
-                                    {% if game.slug == 'geodash' %}
-                                    <div class="geodash-game-buttons">
-                                        <button id="startBtn" class="btn btn-success btn-lg">
-                                            <i class="fas fa-play"></i> Start Game
-                                        </button>
-                                        <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
-                                            <i class="fas fa-redo"></i> Restart
-                                        </button>
-                                    </div>
-                                    {% else %}
                                     <button id="startBtn" class="btn btn-success btn-lg">
                                         <i class="fas fa-play"></i> Start Game
                                     </button>
                                     <button id="restartBtn" class="btn btn-primary btn-lg" style="display: none;">
                                         <i class="fas fa-redo"></i> Restart
                                     </button>
-                                    {% endif %}
                                 </div>
                             </div>
                         </div>

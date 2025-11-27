@@ -10,6 +10,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import requests
 import uuid
+import re
 from datetime import datetime, timedelta
 from werkzeug.security import generate_password_hash, check_password_hash
 import ssl
@@ -34,6 +35,7 @@ from core import (
     get_safe_llm_service, initialize_safe_llm_service,
     get_input_validator, sanitize_input
 )
+from core.question_processor import shuffle_questions_for_topic
 
 # Load environment variables from .env file
 load_dotenv()
@@ -1217,9 +1219,13 @@ def exercise(grade, topic):
     if 'error' in llm_response:
         flash(f'Error generating questions: {llm_response["error"]}')
         return redirect(url_for('topics', grade=grade))
+
+    # Shuffle multiple choice options for enhanced randomization
+    questions = llm_response.get('questions', [])
+    shuffled_questions = shuffle_questions_for_topic(questions, topic, app.logger)
     
     # Store questions in session
-    session['current_questions'] = llm_response.get('questions', [])
+    session['current_questions'] = shuffled_questions
     session['current_question_index'] = 0
     session['current_topic'] = topic
     session['current_grade'] = grade
@@ -1281,9 +1287,13 @@ def exercise_with_subtopic(grade, topic, subtopic):
     if 'error' in llm_response:
         flash(f'Error generating questions: {llm_response["error"]}')
         return redirect(url_for('subtopics', grade=grade, topic=topic))
+
+    # Shuffle multiple choice options for enhanced randomization
+    questions = llm_response.get('questions', [])
+    shuffled_questions = shuffle_questions_for_topic(questions, topic, app.logger)
     
     # Store questions in session
-    session['current_questions'] = llm_response.get('questions', [])
+    session['current_questions'] = shuffled_questions
     session['current_question_index'] = 0
     session['current_topic'] = topic
     session['current_subtopic'] = subtopic
@@ -1564,6 +1574,7 @@ def get_current_question():
     })
 
 @app.route('/submit_answer', methods=['POST'])
+@require_login
 @apply_auth_rate_limit("10 per minute")  # Limit rapid answer submissions
 def submit_answer():
     if 'username' not in session:
@@ -1571,6 +1582,7 @@ def submit_answer():
     
     data = request.get_json()
     user_answer = data.get('answer', '')
+    is_multiple_choice = data.get('is_multiple_choice', False)
     
     questions = session['current_questions']
     index = session.get('current_question_index', 0)
@@ -1582,14 +1594,99 @@ def submit_answer():
     question_text = current_question.get('question', '')
     explanation = current_question.get('explanation', '')
     
-    # Use LLM service to check the answer
-    is_correct = safe_llm_service.check_answer_with_llm(question_text, user_answer, explanation, session.get('session_id'), session.get('username'))
+    # Check the answer based on question type
+    if is_multiple_choice and 'options' in current_question and 'correct_answer' in current_question:
+        # Multiple choice question - check if selected option index matches correct answer
+        try:
+            selected_index = int(user_answer)
+            correct_index = current_question.get('correct_answer', -1)
+            
+            # Get the actual text of the selected option for logging
+            if 0 <= selected_index < len(current_question.get('options', [])):
+                user_answer_text = current_question['options'][selected_index]
+            else:
+                user_answer_text = f"Option {selected_index}"
+            
+            # Primary check: index-based comparison
+            is_correct = selected_index == correct_index
+            
+            # Enhanced validation: if primary check fails, validate the actual answer content
+            if not is_correct:
+                # First, try fallback LLM validation if explanation is available
+                fallback_correct = False
+                if explanation:
+                    fallback_correct = safe_llm_service.check_answer_with_llm(
+                        question_text, user_answer_text, explanation, 
+                        session.get('session_id'), session.get('username')
+                    )
+                
+                if fallback_correct:
+                    # Log the discrepancy but accept the answer as correct
+                    app.logger.warning(f"Multiple choice answer validation discrepancy detected. "
+                                     f"Question: {question_text[:100]}... "
+                                     f"Selected option ({selected_index}): {user_answer_text} "
+                                     f"Stored correct_answer index: {correct_index} "
+                                     f"LLM fallback validation confirms answer is correct.")
+                    is_correct = True
+                    
+        except (ValueError, TypeError):
+            # Multiple choice parsing failed - user likely sent option text instead of index
+            app.logger.warning(f"Multiple choice answer parsing failed. Question: {question_text[:100]}... User answer: {user_answer}")
+            
+            # PROPER FIX: Check if user answer matches any option text
+            user_answer_text = str(user_answer)
+            is_correct = False
+            matched_option_index = None
+            
+            # Try to match user answer against option texts
+            options = current_question.get('options', [])
+            correct_index = current_question.get('correct_answer', -1)
+            
+            for idx, option_text in enumerate(options):
+                # Clean both the user answer and option text for comparison
+                clean_user_answer = user_answer_text.strip().lower()
+                clean_option_text = str(option_text).strip().lower()
+                
+                # Remove common prefixes like "Option A:", "Option B:", etc.
+                clean_user_answer = re.sub(r'^option\s+[a-c]\s*:?\s*', '', clean_user_answer)
+                clean_option_text = re.sub(r'^option\s+[a-c]\s*:?\s*', '', clean_option_text)
+                
+                # Check for exact match or if user answer contains the option text
+                if (clean_user_answer == clean_option_text or 
+                    clean_option_text in clean_user_answer or
+                    clean_user_answer in clean_option_text):
+                    matched_option_index = idx
+                    break
+            
+            if matched_option_index is not None:
+                # User answer matched an option - check if it's the correct one
+                is_correct = matched_option_index == correct_index
+                user_answer_text = f"{user_answer} [matched option {matched_option_index}]"
+                app.logger.info(f"Multiple choice text answer matched option {matched_option_index}. "
+                              f"Question: {question_text[:100]}... "
+                              f"User: '{user_answer}' -> Option {matched_option_index}: '{options[matched_option_index]}' "
+                              f"Correct: {is_correct}")
+            else:
+                # No option match found - this might be a genuinely text-based question
+                # that was incorrectly flagged as multiple choice, so use LLM validation
+                app.logger.warning(f"Multiple choice text answer did not match any option. "
+                                 f"Question: {question_text[:100]}... "
+                                 f"User answer: '{user_answer}' "
+                                 f"Available options: {options}")
+                is_correct = safe_llm_service.check_answer_with_llm(
+                    question_text, user_answer_text, explanation, 
+                    session.get('session_id'), session.get('username')
+                )
+    else:
+        # Text-based question (puzzles, stories, games) - use LLM service to check
+        is_correct = safe_llm_service.check_answer_with_llm(question_text, user_answer, explanation, session.get('session_id'), session.get('username'))
+        user_answer_text = user_answer
     
     # Prepare history entry
     username = session['username']
     question_record = {
         'question': question_text,
-        'user_answer': user_answer,
+        'user_answer': user_answer_text,
         'correct': is_correct,
         'topic': session.get('current_topic'),
         'subtopic': session.get('current_subtopic'),
@@ -1617,12 +1714,12 @@ def submit_answer():
     # Move to next question
     session['current_question_index'] = index + 1
     
-    log_user_activity(username, f"Submitted answer '{user_answer}' for question {index + 1} - {'Correct' if is_correct else 'Incorrect'}")
+    log_user_activity(username, f"Submitted answer '{user_answer_text}' for question {index + 1} - {'Correct' if is_correct else 'Incorrect'}")
     
     return jsonify({
         'correct': is_correct,
         'explanation': explanation if not is_correct else '',
-        'user_answer': user_answer if not is_correct else '',
+        'user_answer': user_answer_text if not is_correct else '',
         'next_available': (index + 1) < len(questions)
     })
 
@@ -2493,6 +2590,23 @@ def end_chat():
         return jsonify({'success': True})
     else:
         return jsonify({'error': 'Failed to end chat session'})
+
+@app.route('/games')
+@require_login
+@apply_auth_rate_limit("30 per minute")  # Consistent with games_list rate limiting
+def games_fallback():
+    """Fallback route for /games without grade parameter - graceful handling of template rendering issues"""
+    # Try to get the user's last used grade from active sessions
+    username = session.get('username')
+    default_grade = 1  # Default fallback grade
+    
+    if username and username in active_sessions:
+        last_grade = active_sessions[username].get('grade')
+        if last_grade and 1 <= last_grade <= 7:
+            default_grade = last_grade
+    
+    # Redirect to games with appropriate grade
+    return redirect(url_for('games_list', grade=default_grade))
 
 @app.route('/games/<int:grade>')
 @require_login

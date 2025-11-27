@@ -38,9 +38,20 @@
                 </div>
                 
                 <div id="answer-section" style="display: none;">
-                    <label for="user-answer" class="form-label">Your Answer:</label>
-                    <textarea id="user-answer" class="form-control mb-3" rows="4" 
-                              placeholder="Type your answer here..."></textarea>
+                    <!-- Multiple Choice Section -->
+                    <div id="multiple-choice-section" style="display: none;">
+                        <label class="form-label">Choose the correct answer:</label>
+                        <div id="options-container" class="mb-3">
+                            <!-- Options will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Text Answer Section (for puzzles, stories, games) -->
+                    <div id="text-answer-section" style="display: none;">
+                        <label for="user-answer" class="form-label">Your Answer:</label>
+                        <textarea id="user-answer" class="form-control mb-3" rows="4" 
+                                  placeholder="Type your answer here..."></textarea>
+                    </div>
                     
                     <div class="d-grid">
                         <button id="submit-btn" class="btn btn-success btn-lg">
@@ -283,17 +294,95 @@ function displayQuestion() {
     document.getElementById('result-section').style.display = 'none';
     document.getElementById('explanation-card').style.display = 'none';
     
-    // Clear previous answer
-    document.getElementById('user-answer').value = '';
-    document.getElementById('user-answer').focus();
+    // Determine if this is a multiple choice question or text answer
+    const isMultipleChoice = currentQuestion.options && Array.isArray(currentQuestion.options);
+    const multipleChoiceSection = document.getElementById('multiple-choice-section');
+    const textAnswerSection = document.getElementById('text-answer-section');
+    
+    if (isMultipleChoice) {
+        // Show multiple choice interface
+        multipleChoiceSection.style.display = 'block';
+        textAnswerSection.style.display = 'none';
+        
+        // Generate radio button options
+        const optionsContainer = document.getElementById('options-container');
+        optionsContainer.innerHTML = '';
+        
+        currentQuestion.options.forEach((option, index) => {
+            const optionDiv = document.createElement('div');
+            optionDiv.className = 'form-check';
+            
+            // Minimal cleaning - only remove curly braces and option labels
+            let cleanOption = option;
+            if (typeof option === 'string') {
+                // Remove curly braces only if they wrap the entire option (malformed JSON)
+                if (cleanOption.startsWith('{') && cleanOption.endsWith('}')) {
+                    cleanOption = cleanOption.slice(1, -1);
+                }
+                
+                // Remove option labels like "Option A", "Option B", "Option C" at the start
+                cleanOption = cleanOption.replace(/^Option\s+[A-C]\s*:?\s*/, '');
+                
+                // Clean up whitespace
+                cleanOption = cleanOption.replace(/\s+/g, ' ').trim();
+                
+                // ONLY if the option still contains JSON field names, then it's truly malformed
+                if (cleanOption.includes('correct_answer') || cleanOption.includes('hint') || cleanOption.includes('explanation')) {
+                    // Extract the first meaningful sentence that doesn't contain JSON field names
+                    const sentences = cleanOption.split('.').filter(s => 
+                        s.length > 5 && 
+                        !s.includes('correct_answer') && 
+                        !s.includes('hint') && 
+                        !s.includes('explanation')
+                    );
+                    if (sentences.length > 0) {
+                        cleanOption = sentences[0].trim();
+                    }
+                }
+            }
+            
+            optionDiv.innerHTML = `
+                <input class="form-check-input" type="radio" name="answer-option" id="option-${index}" value="${index}">
+                <label class="form-check-label" for="option-${index}">
+                    ${cleanOption}
+                </label>
+            `;
+            optionsContainer.appendChild(optionDiv);
+        });
+    } else {
+        // Show text answer interface for puzzles, stories, games
+        multipleChoiceSection.style.display = 'none';
+        textAnswerSection.style.display = 'block';
+        
+        // Clear previous answer and focus
+        document.getElementById('user-answer').value = '';
+        document.getElementById('user-answer').focus();
+    }
 }
 
 function submitAnswer() {
-    const answer = document.getElementById('user-answer').value.trim();
+    let answer = '';
+    let isMultipleChoice = false;
     
-    if (!answer) {
-        alert('Please enter an answer before submitting.');
-        return;
+    // Check if this is a multiple choice question
+    const multipleChoiceSection = document.getElementById('multiple-choice-section');
+    if (multipleChoiceSection.style.display !== 'none') {
+        // Multiple choice question
+        const selectedOption = document.querySelector('input[name="answer-option"]:checked');
+        if (!selectedOption) {
+            alert('Please select an answer before submitting.');
+            return;
+        }
+        answer = selectedOption.value; // This will be the index
+        isMultipleChoice = true;
+    } else {
+        // Text answer question
+        answer = document.getElementById('user-answer').value.trim();
+        if (!answer) {
+            alert('Please enter an answer before submitting.');
+            return;
+        }
+        isMultipleChoice = false;
     }
     
     // Show loading state
@@ -308,7 +397,8 @@ function submitAnswer() {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-            answer: answer
+            answer: answer,
+            is_multiple_choice: isMultipleChoice
         })
     })
     .then(response => response.json())

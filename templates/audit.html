@@ -90,7 +90,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {% for entry in audit_data.history[-50:] %}
+                                        {% for entry in audit_data.history[:50] %}
                                         <tr>
                                             <td>{{ entry.get('timestamp', 'N/A') }}</td>
                                             <td>{{ entry.get('topic', 'N/A') }}</td>

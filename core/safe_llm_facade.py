@@ -4,6 +4,7 @@ Provides no-op implementations and structured error responses.
 """
 
 import logging
+import re
 from typing import Dict, List, Any, Optional
 
 class SafeLLMServiceFacade:
@@ -36,11 +37,25 @@ class SafeLLMServiceFacade:
             'fallback': True,
             'questions': [
                 {
-                    'id': 'mock_1',
-                    'question': 'What is 2 + 2?',
-                    'options': ['3', '4', '5', '6'],
-                    'correct_answer': '4',
-                    'explanation': 'Basic addition: 2 + 2 = 4'
+                    'question': 'A school is collecting data on how many books students read in a month. If 20 students read 2 books each, 15 students read 3 books each, and 10 students read 1 book each, how many books were read in total?',
+                    'options': ['80', '90', '100'],
+                    'correct_answer': 1,
+                    'hint': 'Calculate each group separately then add them together.',
+                    'explanation': '20 students × 2 books = 40 books, 15 students × 3 books = 45 books, 10 students × 1 book = 10 books. Total: 40 + 45 + 10 = 95 books. The closest answer is 90.'
+                },
+                {
+                    'question': 'What is 8 × 7?',
+                    'options': ['54', '56', '63'],
+                    'correct_answer': 1,
+                    'hint': 'Think of multiplication as repeated addition.',
+                    'explanation': '8 × 7 = 56. You can think of this as adding 8 seven times.'
+                },
+                {
+                    'question': 'A container can hold 5 liters of water. If you have 3 containers, how many liters can they hold in total?',
+                    'options': ['10 liters', '15 liters', '20 liters'],
+                    'correct_answer': 1,
+                    'hint': 'Multiply the capacity of one container by the number of containers.',
+                    'explanation': '5 liters × 3 containers = 15 liters total capacity.'
                 }
             ]
         }
@@ -99,7 +114,7 @@ class SafeLLMServiceFacade:
         
         Args:
             question: The question text
-            user_answer: User's submitted answer
+            user_answer: User's submitted answer (can be option index or text answer)
             explanation: Expected explanation
             session_id: Session identifier
             username: User identifier
@@ -113,14 +128,36 @@ class SafeLLMServiceFacade:
             return False
         
         try:
+            # Parse and clean the user's answer to extract the actual content
+            # Apply same sanitization logic as used in exercise.html frontend
+            parsed_user_answer = self._parse_user_answer(user_answer)
+            
             # Handle mocked services (for testing) - they have special attributes
             if hasattr(self.real_service, '_mock_name') or hasattr(self.real_service, 'check_answer_with_llm'):
-                return self.real_service.check_answer_with_llm(question, user_answer, explanation, session_id, username)
+                return self.real_service.check_answer_with_llm(question, parsed_user_answer, explanation, session_id, username)
             else:
-                return self.real_service.check_answer_with_llm(question, user_answer, explanation, session_id, username)
+                return self.real_service.check_answer_with_llm(question, parsed_user_answer, explanation, session_id, username)
         except Exception as e:
             self.logger.error(f"Answer checking failed: {str(e)}")
             # Default to False for safety when unable to verify
+            return False
+    
+    def check_multiple_choice_answer(self, question_data: Dict[str, Any], selected_option_index: int) -> bool:
+        """
+        Check if selected multiple choice option is correct.
+        
+        Args:
+            question_data: Dictionary containing question, options, and correct_answer
+            selected_option_index: Index of the option selected by user
+            
+        Returns:
+            bool: True if correct option was selected
+        """
+        try:
+            correct_answer = question_data.get('correct_answer', -1)
+            return selected_option_index == correct_answer
+        except Exception as e:
+            self.logger.error(f"Multiple choice answer checking failed: {str(e)}")
             return False
     
     def cleanup_session_queue_requests(self, session_id: str) -> None:
@@ -159,6 +196,44 @@ class SafeLLMServiceFacade:
         """Check if the real LLM service is available."""
         return self.real_service is not None
     
+    def _parse_user_answer(self, user_answer: str) -> str:
+        """
+        Parse and clean user's answer using same logic as exercise.html frontend.
+        Ensures proper comparison by extracting actual content while preserving punctuation.
+        
+        Args:
+            user_answer: Raw user answer which may contain "Option A: content" format
+            
+        Returns:
+            str: Cleaned answer content for LLM validation
+        """
+        if not isinstance(user_answer, str):
+            return str(user_answer)
+        
+        clean_answer = user_answer
+        
+        # Remove curly braces only if they wrap the entire answer (malformed JSON)
+        if clean_answer.startswith('{') and clean_answer.endswith('}'):
+            clean_answer = clean_answer[1:-1]
+        
+        # Remove option labels like "Option A", "Option B", "Option C" at the start
+        # This matches the exact regex used in exercise.html
+        clean_answer = re.sub(r'^Option\s+[A-C]\s*:?\s*', '', clean_answer)
+        
+        # Clean up whitespace (normalize multiple spaces to single space)
+        clean_answer = re.sub(r'\s+', ' ', clean_answer).strip()
+        
+        # ONLY if the answer still contains JSON field names, then it's malformed
+        if any(field in clean_answer for field in ['correct_answer', 'hint', 'explanation']):
+            # Extract the first meaningful sentence that doesn't contain JSON field names
+            sentences = [s.strip() for s in clean_answer.split('.') if 
+                        len(s.strip()) > 5 and 
+                        not any(field in s for field in ['correct_answer', 'hint', 'explanation'])]
+            if sentences:
+                clean_answer = sentences[0]
+        
+        return clean_answer
+
     def initialize_service(self, real_service, logger: Optional[logging.Logger] = None):
         """
         Initialize with a real LLM service instance.

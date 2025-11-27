@@ -1,25 +1,43 @@
-Generate 15 engaging English language questions appropriate for the user's grade level. Each question should include:
-1. A clear language arts exercise covering grammar, vocabulary, or writing skills
-2. A helpful hint that guides proper language usage and thinking
-3. A detailed explanation of the correct answer with grammar rules or language concepts
+## CORE OBJECTIVE
+Generate 7 high-quality, engaging English language questions tailored to the user's grade level and performance history. Each question must demonstrate clear pedagogical value and linguistic accuracy.
 
-For questions requiring reading comprehension, text analysis, or story elements, always include the complete text, passage, or story within the question itself before asking about it.
+## QUESTION REQUIREMENTS
 
-Consider the user's previous performance and adjust difficulty accordingly:
-- If they've been successful, introduce more complex grammar concepts and advanced vocabulary
-- If they've struggled, focus on fundamental language skills and basic concepts
-- Build confidence while reinforcing proper English usage
+### Essential Components (All Required):
+1. **Clear Learning Objective**: Each question targets a specific language arts skill
+2. **Three Multiple Choice Options**: 
+   - ONE linguistically correct answer
+   - TWO plausible but incorrect distractors
+3. **Strategic Hint**: Guides thinking without giving away the answer
+4. **Comprehensive Explanation**: Includes grammar rules, examples, and reasoning
 
-Topics should cover the provided topic and subtopic with appropriate emphasis:
+### Critical Quality Controls:
+- **MANDATORY VERIFICATION**: Before finalizing, verify the option at the correct_answer index is 100% linguistically accurate
+- **Answer Distribution**: Randomize correct_answer indices (0, 1, 2) - ensure roughly equal distribution across all 7 questions
+- **Authenticity**: Use only real text excerpts, established grammar rules, and verified language concepts
+- **Accessibility**: Include content that accommodates diverse learning styles and backgrounds
 
-For Grades ≤5:
+## ADAPTIVE DIFFICULTY SYSTEM
+
+### Core Principle:
+**Consider the user's previous performance and adjust difficulty accordingly**
+
+### Performance-Based Adjustments:
+- **High Performance**: Introduce nuanced grammar concepts, complex sentence structures, advanced vocabulary, literary analysis
+- **Moderate Performance**: Balanced mix of review and new concepts with supportive scaffolding
+- **Developing Performance**: Focus on foundational skills with clear examples and simplified explanations
+- **Build Confidence**: Always include achievable challenges that reinforce success
+
+## GRADE-SPECIFIC CONTENT FRAMEWORKS
+
+### For Grades ≤5:
 - Reading Fundamentals (comprehension, author's purpose, text structure, story elements) - Include complete short stories, passages, or poems
 - Writing Essentials (organizing ideas, developing arguments, introductions/conclusions)
 - Vocabulary Building (prefixes/suffixes, synonyms/antonyms, idioms, word roots)
 - Grammar & Language Mechanics (parts of speech, subject-verb agreement, sentence structure)
 - Written Conventions (spelling, capitalization, formatting, basic punctuation)
 
-For Grades >5:
+### For Grades >5:
 - Literary Analysis & Comprehension (analyzing literature, novel studies, critical reading) - Include complete excerpts, passages, or full short texts
 - Advanced Writing Styles (expository, persuasive, creative writing, rhetorical techniques)
 - Sentence Craft & Structure (fragments/run-ons, phrases/clauses, active/passive voice)
@@ -28,15 +46,56 @@ For Grades >5:
 
 Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
-Format your response as a JSON object with this structure:
+## ENGAGEMENT STRATEGIES
+
+### Content Connection:
+- Use contemporary, relatable scenarios
+- Include diverse characters and settings
+- Reference current (appropriate) cultural touchstones
+- Connect language skills to real-world applications
+
+### Question Variety:
+- Error identification and correction
+- Best revision selection
+- Meaning analysis
+- Style comparison
+- Application in new contexts
+
+## OUTPUT FORMAT
+
+**Format your response as a JSON object with this structure:**
 {
   "questions": [
     {
-      "question": "English language exercise or prompt (include full text/passage/story if needed for comprehension)",
-      "hint": "Language strategy or grammar tip to guide thinking",
-      "explanation": "Detailed explanation with grammar rules and examples"
+      "question": "[Complete exercise with any necessary reading material included]",
+      "options": [
+        "First choice",
+        "Second choice", 
+        "Third choice"
+      ],
+      "correct_answer": [0, 1, or 2],
+      "hint": "[Strategic guidance without revealing answer]",
+      "explanation": "[Detailed reasoning with grammar rules, examples, and broader application]"
     }
   ]
 }
 
-Make exercises engaging and practical, using examples that connect to students' everyday experiences and interests.**Do not invent anything. The difficulty level for higher grades shall be high**.
+## FINAL QUALITY CHECKLIST
+
+Before submitting, verify each question meets ALL criteria:
+- [ ] Learning objective is clear and measurable
+- [ ] All three options are grammatically constructed (even if incorrect)
+- [ ] Correct answer is definitively accurate per established language rules
+- [ ] Distractors are plausible but clearly incorrect
+- [ ] Hint provides genuine guidance without being leading
+- [ ] Explanation teaches the concept thoroughly
+- [ ] Content is engaging and grade-appropriate
+- [ ] Answer indices are distributed across 0, 1, and 2
+
+## CRITICAL REMINDERS:
+1. **NEVER INVENT** language rules or create fictional grammar concepts
+2. **ALWAYS INCLUDE** complete texts for comprehension questions
+3. **RANDOMIZE** correct answer positions - avoid patterns
+4. **VERIFY** linguistic accuracy before finalizing
+5. **ENGAGE** with relevant, interesting content that connects to student experiences
+6. **DIFFICULTY LEVEL** shall be high for grades at or above 5

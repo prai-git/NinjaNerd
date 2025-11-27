@@ -1,23 +1,45 @@
-Generate 15 engaging science questions appropriate for the user's grade level. Each question should include:
-1. A clear scientific concept or experiment-based question
-2. A helpful hint that guides scientific thinking and observation
-3. A detailed explanation of the answer with scientific principles and reasoning
+## CORE OBJECTIVE
+Generate 7 high-quality, engaging Science questions tailored to the user's grade level and performance history. Each question must demonstrate clear pedagogical value, scientific accuracy, and promote scientific thinking.
 
-Consider the user's previous performance and adjust difficulty accordingly:
-- If they've been successful, introduce more complex scientific concepts and deeper analysis
-- If they've struggled, focus on fundamental science concepts and observations
-- Encourage scientific curiosity and critical thinking
+## QUESTION REQUIREMENTS
 
-Topics should cover the provided topic and subtopic with appropriate emphasis:
+### Essential Components (All Required):
+1. **Clear Learning Objective**: Each question targets a specific scientific concept, principle, or investigation skill
+2. **Three Multiple Choice Options**: 
+   - ONE scientifically accurate answer
+   - TWO plausible but incorrect distractors
+3. **Strategic Hint**: Guides scientific thinking, observation, or experimental reasoning
+4. **Comprehensive Explanation**: Includes detailed scientific principles, reasoning, and real-world connections
 
-For Grades ≤5:
+### Critical Quality Controls:
+- **MANDATORY FACT VERIFICATION**: Check scientific facts, principles, and data before finalizing any option
+- **SCIENTIFIC ACCURACY**: Before finalizing, verify the option at the correct_answer index is 100% scientifically accurate
+- **Answer Distribution**: Randomize correct_answer indices (0, 1, 2) - ensure roughly equal distribution across all 7 questions
+- **Evidence-Based Distractors**: Create plausible incorrect answers based on common scientific misconceptions
+- **Safety Considerations**: Ensure any mentioned experiments or activities are age-appropriate and safe
+- **Current Scientific Understanding**: Base content on established scientific consensus and current knowledge
+
+## ADAPTIVE DIFFICULTY SYSTEM
+
+### Core Principle:
+**Consider the user's previous performance and adjust difficulty accordingly**
+
+### Performance-Based Adjustments:
+- **High Performance**: Introduce complex scientific concepts, multi-variable analysis, abstract thinking, and advanced scientific reasoning
+- **Moderate Performance**: Balanced mix of foundational review and new concepts with guided scientific inquiry
+- **Developing Performance**: Focus on fundamental scientific observations, concrete examples, and hands-on conceptual understanding
+- **Build Confidence**: Always include achievable challenges that reinforce scientific curiosity and successful discovery
+
+## GRADE-SPECIFIC CONTENT FRAMEWORKS
+
+### For Grades ≤5:
 - Physical Science Basics (materials, matter, physical/chemical changes, atoms, heat)
 - Forces & Energy (motion, magnetism, electricity, light, simple machines)
 - Earth Systems (rocks, fossils, weather, climate, Earth's features, water cycle)
 - Life Science Fundamentals (animals, plants, adaptations, traits, ecosystems)
 - Scientific Investigation Skills (measurement, observation, basic astronomy, experimentation)
 
-For Grades >5:
+### For Grades >5:
 - Scientific Methods & Research (experimental design, data analysis, reasoning)
 - Advanced Biology (anatomy, physiology, cells, genetics, evolution, ecosystems)
 - Chemistry Concepts (biochemistry, atomic structure, chemical reactions, solutions)
@@ -26,15 +48,68 @@ For Grades >5:
 
 Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
-Format your response as a JSON object with this structure:
+## ENGAGEMENT STRATEGIES
+
+### Real-World Connection:
+- Use observable phenomena from nature and everyday life
+- Include hands-on experiments and investigations students can relate to
+- Connect scientific concepts to current events, technology, and environmental issues
+- Reference diverse ecosystems, organisms, and scientific discoveries
+- Use examples from cooking, sports, weather, space, and animal behavior
+
+### Scientific Thinking Development:
+- Observation and prediction-based questions
+- Hypothesis formation and testing scenarios
+- Data interpretation and analysis challenges
+- Cause-and-effect relationship exploration
+- Pattern recognition in natural phenomena
+
+### Inquiry-Based Learning:
+- "What would happen if..." scenarios
+- Investigation and evidence evaluation
+- Scientific method application
+- Critical thinking about scientific claims
+- Problem-solving through scientific reasoning
+
+## OUTPUT FORMAT
+
+**Format your response as a JSON object with this structure:**
 {
   "questions": [
     {
-      "question": "Science question or experiment description",
-      "hint": "Scientific thinking strategy or observation guide",
-      "explanation": "Detailed scientific explanation with principles and reasoning"
+      "question": "[Complete scientific investigation or concept question with clear context]",
+      "options": [
+        "First choice",
+        "Second choice", 
+        "Third choice"
+      ],
+      "correct_answer": [0, 1, or 2],
+      "hint": "[Scientific thinking strategy or observation guidance without revealing answer]",
+      "explanation": "[Detailed scientific explanation with principles, reasoning, and real-world connections]"
     }
   ]
 }
 
-Make questions hands-on and relatable, using examples from nature, everyday phenomena, and simple experiments that students can understand and relate to.**Do not invent anything. The difficulty level for higher grades shall be high**.
+## FINAL QUALITY CHECKLIST
+
+Before submitting, verify each question meets ALL criteria:
+- [ ] Learning objective targets specific scientific concept or skill
+- [ ] Scientific facts and principles have been verified for accuracy
+- [ ] Correct answer is definitively accurate per current scientific understanding
+- [ ] Distractors represent common misconceptions or logical-but-incorrect thinking
+- [ ] Hint encourages scientific reasoning without being leading
+- [ ] Explanation teaches the concept with clear scientific principles
+- [ ] Content promotes scientific curiosity and critical thinking
+- [ ] Any mentioned activities or experiments are safe and age-appropriate
+- [ ] Answer indices are distributed across 0, 1, and 2
+- [ ] Scientific terminology is appropriate for grade level
+
+## CRITICAL REMINDERS:
+1. **VERIFY SCIENCE**: Always check scientific facts against reliable sources before finalizing
+2. **SAFETY FIRST**: Ensure any experiments or activities mentioned are appropriate and safe
+3. **RANDOMIZE POSITIONS**: Distribute correct answers equally across all three indices
+4. **OBSERVABLE PHENOMENA**: Use examples students can see, experience, or investigate
+5. **ENCOURAGE INQUIRY**: Foster scientific curiosity and evidence-based thinking
+6. **DIFFICULTY LEVEL** shall be high for grades at or above 5
+7. **MISCONCEPTION AWARENESS**: Base incorrect options on common student misconceptions in science
+8. **CURRENT SCIENCE**: Ensure content reflects current scientific understanding and consensus

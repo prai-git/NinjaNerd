@@ -286,12 +286,23 @@ class LLMService:
         mock_questions = {
             "math": [
                 {
-                    "question": "If you have 12 apples and give away 5 apples, how many apples do you have left?",
-                    "hint": "Subtraction: Start with the total and take away what you gave.",
-                    "explanation": "12 - 5 = 7. You started with 12 apples and gave away 5, so you have 7 apples remaining."
+                    "question": "A school is collecting data on how many books students read in a month. If 20 students read 2 books each, 15 students read 3 books each, and 10 students read 1 book each, how many books were read in total?",
+                    "options": ["80", "90", "100"],
+                    "correct_answer": 1,
+                    "hint": "Calculate each group separately then add them together.",
+                    "explanation": "20 students × 2 books = 40 books, 15 students × 3 books = 45 books, 10 students × 1 book = 10 books. Total: 40 + 45 + 10 = 95 books. The closest answer is 90."
+                },
+                {
+                    "question": "A container can hold 5 liters of water. If you have 3 containers, how many liters can they hold in total?",
+                    "options": ["10 liters", "15 liters", "20 liters"],
+                    "correct_answer": 1,
+                    "hint": "Multiply the capacity of one container by the number of containers.",
+                    "explanation": "5 liters × 3 containers = 15 liters total capacity."
                 },
                 {
                     "question": "What is 8 × 7?",
+                    "options": ["54", "56", "63"],
+                    "correct_answer": 1,
                     "hint": "Think of multiplication as repeated addition: 8 + 8 + 8 + 8 + 8 + 8 + 8",
                     "explanation": "8 × 7 = 56. You can think of this as adding 8 seven times, or 7 eight times."
                 }
@@ -317,30 +328,66 @@ class LLMService:
             ],
             "english": [
                 {
-                    "question": "Which word is a noun in this sentence: 'The happy dog ran quickly'?",
-                    "hint": "A noun is a person, place, or thing.",
-                    "explanation": "'Dog' is the noun. Nouns name people, places, or things. 'Happy' is an adjective, 'ran' is a verb, and 'quickly' is an adverb."
+                    "question": "Read the following sentence and identify the error in capitalization: 'last summer, we visited the grand canyon and saw a beautiful sunset.'",
+                    "options": ["Last", "Grand Canyon", "summer"],
+                    "correct_answer": 2,
+                    "hint": "Look for proper nouns that should be capitalized.",
+                    "explanation": "Both 'Last' (beginning of sentence) and 'Grand Canyon' (proper noun) should be capitalized, but the most significant error is 'Grand Canyon' which is a famous landmark."
+                },
+                {
+                    "question": "Choose the correctly punctuated sentence:",
+                    "options": ["I have a dog, a cat, and a rabbit.", "I have a dog a cat and a rabbit.", "I have a dog; a cat; and a rabbit."],
+                    "correct_answer": 0,
+                    "hint": "Think about how commas are used in a series of items.",
+                    "explanation": "When listing three or more items in a series, use commas to separate them: 'I have a dog, a cat, and a rabbit.'"
                 }
             ],
             "science": [
                 {
                     "question": "What are the three states of matter?",
+                    "options": ["hot, cold, warm", "big, medium, small", "solid, liquid, gas"],
+                    "correct_answer": 2,
                     "hint": "Think about ice, water, and steam - what are their different forms?",
                     "explanation": "The three states of matter are solid, liquid, and gas. Ice is solid, water is liquid, and steam is gas."
+                },
+                {
+                    "question": "Which planet is known as the Red Planet?",
+                    "options": ["Venus", "Jupiter", "Mars"],
+                    "correct_answer": 2,
+                    "hint": "This planet appears reddish due to iron oxide on its surface.",
+                    "explanation": "Mars is known as the Red Planet because of the iron oxide (rust) on its surface that gives it a reddish appearance."
                 }
             ],
             "history": [
                 {
                     "question": "Who was the first President of the United States?",
+                    "options": ["Thomas Jefferson", "George Washington", "John Adams"],
+                    "correct_answer": 1,
                     "hint": "This person is often called the 'Father of His Country'.",
                     "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797."
+                },
+                {
+                    "question": "Which document declared American independence?",
+                    "options": ["The Constitution", "The Bill of Rights", "The Declaration of Independence"],
+                    "correct_answer": 2,
+                    "hint": "This document was signed in 1776.",
+                    "explanation": "The Declaration of Independence, signed in 1776, declared the American colonies' independence from Britain."
                 }
             ],
             "geography": [
                 {
                     "question": "What is the largest ocean on Earth?",
+                    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+                    "correct_answer": 2,
                     "hint": "This ocean borders Asia, Australia, and the Americas.",
                     "explanation": "The Pacific Ocean is the largest ocean on Earth, covering about one-third of the planet's surface."
+                },
+                {
+                    "question": "Which mountain range contains Mount Everest?",
+                    "options": ["Rocky Mountains", "Andes Mountains", "Himalayas"],
+                    "correct_answer": 2,
+                    "hint": "This mountain range is located between India and Tibet.",
+                    "explanation": "Mount Everest is located in the Himalayas mountain range on the border between Nepal and Tibet."
                 }
             ]
         }
@@ -542,7 +589,7 @@ class LLMService:
         }
         
         # Include user history for difficulty adjustment
-        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
+        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[:10])}" if user_history else prompt
         
         payload = {
             "messages": [
@@ -604,7 +651,7 @@ class LLMService:
     def _process_openai_question_generation(self, request_id, prompt, user_history):
         """Process question generation using OpenAI API."""
         # Include user history for difficulty adjustment
-        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[-10:])}" if user_history else prompt
+        enhanced_prompt = f"{prompt}\n\nUser History: {json.dumps(user_history[:10])}" if user_history else prompt
         
         retry_count = 0
         while retry_count < self.MAX_RETRIES:

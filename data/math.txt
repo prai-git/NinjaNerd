@@ -1,23 +1,44 @@
-Generate 15 engaging Mathematical questions appropriate for the user's grade level. Each question should include:
-1. A clear, well-structured mathematical problem
-2. A helpful hint that guides thinking without giving away the answer
-3. A detailed step-by-step explanation of the solution
+## CORE OBJECTIVE
+Generate 7 high-quality, engaging Mathematical questions tailored to the user's grade level and performance history. Each question must demonstrate clear pedagogical value and mathematical accuracy.
 
-Consider the user's previous performance and adjust difficulty accordingly:
-- If they've been successful, increase complexity and difficulty level
-- If they've struggled, provide more foundational problems
-- Focus on building confidence while challenging appropriately
+## QUESTION REQUIREMENTS
 
-Topics should cover the provided topic and subtopic with appropriate emphasis:
+### Essential Components (All Required):
+1. **Clear Learning Objective**: Each question targets a specific mathematical skill or concept
+2. **Three Multiple Choice Options**: 
+   - ONE mathematically correct answer
+   - TWO plausible but incorrect distractors
+3. **Strategic Hint**: Guides mathematical thinking without revealing the solution
+4. **Comprehensive Explanation**: Includes step-by-step solution with mathematical reasoning
 
-For Grades ≤5:
+### Critical Quality Controls:
+- **MANDATORY CALCULATION**: Calculate the correct answer first, then include it as one of the options
+- **MATHEMATICAL VERIFICATION**: Before finalizing, verify the option at the correct_answer index is 100% mathematically accurate
+- **Answer Distribution**: Randomize correct_answer indices (0, 1, 2) - ensure roughly equal distribution across all 7 questions
+- **Realistic Distractors**: Create plausible incorrect answers based on common mathematical errors
+- **Accessibility**: Include content that accommodates diverse learning styles and mathematical backgrounds
+
+## ADAPTIVE DIFFICULTY SYSTEM
+
+### Core Principle:
+**Consider the user's previous performance and adjust difficulty accordingly**
+
+### Performance-Based Adjustments:
+- **High Performance**: Increase complexity, introduce multi-step problems, advanced concepts, and abstract mathematical thinking
+- **Moderate Performance**: Balanced mix of review and new concepts with structured problem-solving support
+- **Developing Performance**: Focus on foundational skills with clear examples, visual aids, and simplified computational steps
+- **Build Confidence**: Always include achievable challenges that reinforce mathematical success and understanding
+
+## GRADE-SPECIFIC CONTENT FRAMEWORKS
+
+### For Grades ≤5:
 - Number Sense & Basic Operations (arithmetic operations, place value)
 - Fractions & Decimals (equivalent fractions, decimal concepts)
 - Geometry & Spatial Concepts (shapes, area, perimeter, basic volume)
 - Measurement & Data (units, graphs, charts, plots)
 - Problem Solving & Applications (multi-step word problems, patterns)
 
-For Grades >5:
+### For Grades >5:
 - Advanced Number Systems (integers, rational/irrational numbers)
 - Algebraic Concepts (variables, expressions, equations, functions)
 - Proportional Reasoning & Percentages (ratios, rates, percents)
@@ -26,15 +47,65 @@ For Grades >5:
 
 Focus specifically on the provided subtopic while incorporating grade-appropriate content.
 
-Format your response as a JSON object with this structure:
+## ENGAGEMENT STRATEGIES
+
+### Context Connection:
+- Use relatable scenarios from games, sports, cooking, shopping, and entertainment
+- Include diverse characters and real-world applications
+- Connect mathematical concepts to students' everyday experiences and interests
+- Reference age-appropriate technology, hobbies, and cultural elements
+
+### Problem Variety:
+- Word problems with contextual scenarios
+- Visual problems with diagrams or patterns
+- Computational problems with strategic thinking
+- Application problems connecting math to real situations
+- Estimation and reasoning challenges
+
+### Mathematical Authenticity:
+- Base problems on realistic data and situations
+- Use appropriate mathematical language and notation
+- Ensure mathematical relationships are accurate and meaningful
+- Connect to broader mathematical concepts and patterns
+
+## OUTPUT FORMAT
+
+**Format your response as a JSON object with this structure:**
 {
   "questions": [
     {
-      "question": "Mathematical problem statement",
-      "hint": "Helpful guidance without revealing the answer",
-      "explanation": "Step-by-step solution with reasoning"
+      "question": "[Complete mathematical problem with context and clear instructions]",
+      "options": [
+        "First choice",
+        "Second choice", 
+        "Third choice"
+      ],
+      "correct_answer": [0, 1, or 2],
+      "hint": "[Strategic mathematical guidance without revealing solution]",
+      "explanation": "[Detailed step-by-step solution with mathematical reasoning and broader concept connections]"
     }
   ]
 }
 
-Make questions engaging by using relatable scenarios like games, sports, animals, or everyday situations that students can connect with.**Do not invent anything. The difficulty level for higher grades shall be high**.
+## FINAL QUALITY CHECKLIST
+
+Before submitting, verify each question meets ALL criteria:
+- [ ] Learning objective is clear and mathematically sound
+- [ ] Correct answer has been calculated and verified independently
+- [ ] All three options use consistent units and formatting
+- [ ] Correct answer is definitively accurate per mathematical principles
+- [ ] Distractors represent common errors or misconceptions
+- [ ] Hint provides genuine mathematical guidance without being leading
+- [ ] Explanation teaches the concept thoroughly with clear steps
+- [ ] Content is engaging and grade-appropriate
+- [ ] Answer indices are distributed across 0, 1, and 2
+- [ ] Mathematical notation and language are appropriate for grade level
+
+## CRITICAL REMINDERS:
+1. **CALCULATE FIRST**: Always solve the problem completely before creating answer choices
+2. **VERIFY MATHEMATICS**: Double-check all calculations and mathematical reasoning
+3. **RANDOMIZE POSITIONS**: Avoid patterns in correct answer placement
+4. **REALISTIC SCENARIOS**: Use authentic, relatable contexts that make mathematical sense
+5. **BUILD UNDERSTANDING**: Focus on conceptual learning alongside computational skills
+6. **DIFFICULTY LEVEL** shall be high for grades at or above 5
+7. **COMMON ERROR ANALYSIS**: Base incorrect options on typical student mistakes or misconceptions
