@@ -1,0 +1,125 @@
+/* NinjaNerd site styles — ports the legacy look & feel (static/css/style.css) so the
+   static site matches the old Flask app: gradient background, rounded cards, and the
+   topic-card / explore-option-card hover treatments. Shell (nav/footer) from prompt 02. */
+
+:root {
+  --nn-primary: #2c3e50;
+  --nn-accent: #e67e22;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.brand-title {
+  color: var(--nn-primary);
+  font-weight: 700;
+}
+
+.brand-title .fa-user-ninja {
+  color: var(--nn-accent);
+}
+
+/* Cards — rounded with a soft lift on hover (legacy). */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Selection cards (grades, subjects, subtopics) — legacy `topic-card`. */
+.topic-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+}
+
+.topic-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+}
+
+.topic-card .card-body {
+  padding: 2rem;
+}
+
+.topic-card i {
+  transition: all 0.3s ease;
+}
+
+.topic-card:hover i {
+  transform: scale(1.1);
+}
+
+/* Learn/Practice chooser cards — legacy `explore-option-card`. */
+.explore-option-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.explore-option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #007bff;
+}
+
+.explore-option-card:hover .card-body i {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.progress {
+  border-radius: 10px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  border-radius: 10px;
+  transition: width 0.6s ease;
+}
+
+.alert {
+  border-radius: 10px;
+  border: none;
+}
+
+/* Responsive tweaks (legacy). */
+@media (max-width: 768px) {
+  .topic-card .card-body {
+    padding: 1.5rem;
+  }
+  .topic-card i {
+    font-size: 2.5rem !important;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+}

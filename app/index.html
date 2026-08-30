@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - NinjaNerd</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+  <div id="nn-header" data-nn-header></div>
+
+  <!-- Landing = the legacy About page. Mirrors obs_templates/about.html exactly:
+       a left sidebar (Select Grade + Profile cards) and a right white welcome card
+       (logo, welcome title, lead paragraph, three feature icons).
+       Static-site adaptations (per the working rules — flagged, not invented):
+       - Grades limited to 1-6 (project scope) rather than legacy 1-8.
+       - Payment is dropped, so its Profile link is removed (legacy showed it to non-admins).
+       - Audit stays admin-only (legacy admin = fixed user admin@gmail.com); the link is
+         revealed client-side only when the signed-in user is the admin.
+       - Welcome copy: "trim only the false claims" — kept legacy structure/tone but the
+         subject list is our English/Math/Science (+games) and the first feature card no
+         longer claims LLM-style adaptivity (there is no runtime LLM on the static site).
+       - Profile targets (account/statistics/contact_us/audit) are built in later prompts;
+         they 404 until then. -->
+  <main class="container-fluid py-4">
+    <div class="row">
+      <!-- Grade Tabs Sidebar -->
+      <div class="col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header bg-info text-white">
+            <h5 class="mb-0"><i class="fas fa-layer-group me-2"></i>Select Grade</h5>
+          </div>
+          <div class="list-group list-group-flush">
+            <a href="/pages/topics.html?grade=1" class="list-group-item list-group-item-action"><i class="fas fa-book me-2"></i>Grade 1</a>
+            <a href="/pages/topics.html?grade=2" class="list-group-item list-group-item-action"><i class="fas fa-book me-2"></i>Grade 2</a>
+            <a href="/pages/topics.html?grade=3" class="list-group-item list-group-item-action"><i class="fas fa-book me-2"></i>Grade 3</a>
+            <a href="/pages/topics.html?grade=4" class="list-group-item list-group-item-action"><i class="fas fa-book me-2"></i>Grade 4</a>
+            <a href="/pages/topics.html?grade=5" class="list-group-item list-group-item-action"><i class="fas fa-book me-2"></i>Grade 5</a>
+            <a href="/pages/topics.html?grade=6" class="list-group-item list-group-item-action"><i class="fas fa-book me-2"></i>Grade 6</a>
+          </div>
+        </div>
+
+        <!-- Profile Box -->
+        <div class="card mt-3">
+          <div class="card-header bg-info text-white">
+            <h5 class="mb-0"><i class="fas fa-user me-2"></i>Profile</h5>
+          </div>
+          <div class="list-group list-group-flush">
+            <a href="/pages/account.html" class="list-group-item list-group-item-action"><i class="fas fa-user-cog me-2"></i>Account</a>
+            <a href="/pages/statistics.html" class="list-group-item list-group-item-action"><i class="fas fa-chart-bar me-2"></i>Statistics</a>
+            <a href="/pages/contact_us.html" class="list-group-item list-group-item-action"><i class="fas fa-envelope me-2"></i>Contact Us</a>
+            <a id="nn-audit-link" href="/pages/audit.html" class="list-group-item list-group-item-action" style="display:none;"><i class="fas fa-search me-2"></i>Audit</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-lg-9 col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center mb-4">
+              <img src="/assets/img/logo.png" alt="NinjaNerd Logo" class="img-fluid mb-3" style="max-height: 150px;" />
+            </div>
+
+            <h2 class="card-title text-center mb-4">Welcome to NINJANERD.AI<sup>&copy;</sup></h2>
+            <p class="lead text-justify">
+              NinjaNerd is an innovative educational platform designed to provide practice
+              questions for students across different grades. Whether you're working on English,
+              Mathematics, or Science, NinjaNerd helps you master each subtopic in two modes:
+              Learn it first, then Practice it. The platform also features interactive games that
+              combine entertainment with learning, making education more engaging and fun. The
+              system tracks your progress as you work through each topic. Start your educational
+              journey by selecting your grade level from the sidebar and exploring the diverse
+              range of topics and games available for practice.
+            </p>
+
+            <div class="row mt-4">
+              <div class="col-md-4 text-center">
+                <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                <h5>Learn &amp; Practice</h5>
+                <p> Build understanding then practice</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <i class="fas fa-chart-line fa-3x text-success mb-3"></i>
+                <h5>Progress Tracking</h5>
+                <p>Monitor your learning journey</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <i class="fas fa-users fa-3x text-info mb-3"></i>
+                <h5>Multi-User Support</h5>
+                <p>Separate progress for each student</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="nn-footer" data-nn-footer></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/auth-state.js"></script>
+  <script src="/assets/js/toast.js"></script>
+  <script src="/assets/js/layout.js"></script>
+  <!-- Reveal the admin-only Audit link, mirroring legacy {% if is_admin %} (admin = admin@gmail.com). -->
+  <script>
+    (function () {
+      var user = window.NNAuth && window.NNAuth.getUser();
+      if (user && user.username === 'admin@gmail.com') {
+        var link = document.getElementById('nn-audit-link');
+        if (link) link.style.display = '';
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -25,3 +25,14 @@ data/*db*
 
 # Shell script
 run_app.sh
+
+# Static migration planning artifacts (never commit)
+doc/static-migration-plan.md
+doc/prompt/
+doc/changelog.md
+
+# Authored Q&A source. The build (npm run build:content) converts these into
+# app/content/questions/en/**.json, which IS committed — we keep one copy of the
+# Q&A in the repo, not two. Note the JSON is a lossy derivative: items with no
+# A-D options (STAAR griddables, free-response) are not carried over.
+doc/questionnaire/

@@ -1,0 +1,11 @@
+{
+  "name": "ninjanerd-static",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NinjaNerd static site (GitHub Pages) — educational practice for grades 1-6.",
+  "scripts": {
+    "test": "node --test",
+    "build:content": "node tools/build-content.mjs"
+  }
+}
