@@ -1,0 +1,104 @@
+[
+  {
+    "id": "math_g5_2026-04-05_15-00_q31",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Decimal Representation",
+    "question": "— Expanded Notation of Decimals\nWhich expression shows **324.507** written in expanded notation?",
+    "options": [
+      "$300 + 20 + 4 + 0.5 + 0.007$",
+      "$300 + 20 + 4 + 0.5 + 0.07$",
+      "$300 + 20 + 4 + 0.05 + 0.007$",
+      "$324 + 0.5 + 0.07$"
+    ],
+    "correctIndex": 0,
+    "explanation": "In 324.507, the digits represent 3 hundreds, 2 tens, 4 ones, 5 tenths, 0 hundredths, and 7 thousandths, which equals 300 + 20 + 4 + 0.5 + 0.007.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q32",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Decimal Representation",
+    "question": "— Comparing and Ordering Decimals  **[Readiness]**\nWhich list shows the decimals in order from **least to greatest**?\n\n**5.083, 5.8, 5.38, 5.308**",
+    "options": [
+      "5.8, 5.38, 5.308, 5.083",
+      "5.083, 5.308, 5.38, 5.8",
+      "5.083, 5.38, 5.308, 5.8",
+      "5.308, 5.083, 5.38, 5.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Line up decimal places and compare: 5.083 < 5.308 < 5.380 < 5.800, so the correct order from least to greatest is 5.083, 5.308, 5.38, 5.8.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q33",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Decimal Representation",
+    "question": "— Rounding Decimals\nWhat is **17.846** rounded to the nearest **hundredth**?",
+    "options": [
+      "17.8",
+      "17.84",
+      "17.85",
+      "17.9"
+    ],
+    "correctIndex": 2,
+    "explanation": "To round 17.846 to the nearest hundredth, look at the thousandths digit (6); since 6 ≥ 5, round the hundredths digit 4 up to 5, giving 17.85.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q1",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Decimal Representation",
+    "question": "— Expanded Notation for Decimals\nWhich expression shows **246.813** written in expanded notation?",
+    "options": [
+      "200 + 40 + 6 + 0.8 + 0.01 + 0.003",
+      "200 + 40 + 6 + 0.8 + 0.1 + 0.03",
+      "200 + 40 + 6 + 0.08 + 0.001 + 0.0003",
+      "246 + 0.8 + 0.01 + 0.003"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A**\n\n**Step-by-step:**\nBreak 246.813 by place value:\n- 2 is in the hundreds place → **200**\n- 4 is in the tens place → **40**\n- 6 is in the ones place → **6**\n- 8 is in the tenths place → **0.8**\n- 1 is in the hundredths place → **0.01**\n- 3 is in the thousandths place → **0.003**\n\n**Expanded notation: 200 + 40 + 6 + 0.8 + 0.01 + 0.003**\n\n**Why other answers are wrong:**\n- B) Uses 0.1 and 0.03 — wrong place values for tenths/hundredths digits\n- C) Uses 0.08, 0.001, 0.0003 — shifts all decimal digits one place to the right\n- D) Keeps 246 as a single number instead of expanding it\n\n**Key concept:** Each digit must be written as its place value, including decimal digits going to tenths (÷10), hundredths (÷100), and thousandths (÷1,000).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q2",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Decimal Representation",
+    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **greatest to least**?\n\n**3.045,  3.5,  3.405,  3.054**",
+    "options": [
+      "3.045, 3.054, 3.405, 3.5",
+      "3.5, 3.405, 3.054, 3.045",
+      "3.5, 3.054, 3.045, 3.405",
+      "3.405, 3.5, 3.054, 3.045"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 3.5, 3.405, 3.054, 3.045\n\n**Step-by-step:**\nLine up digits by place value and compare:\n\n| Decimal | Tenths | Hundredths | Thousandths |\n|---------|--------|------------|-------------|\n| 3.5     | 5      | 0          | 0           |\n| 3.405   | 4      | 0          | 5           |\n| 3.054   | 0      | 5          | 4           |\n| 3.045   | 0      | 4          | 5           |\n\nCompare tenths digit first:\n- 3.5 has 5 in tenths → **greatest**\n- 3.405 has 4 in tenths → **second**\n- 3.054 and 3.045 both have 0 in tenths → compare hundredths:\n  - 3.054 has 5 in hundredths → third\n  - 3.045 has 4 in hundredths → least\n\n**Order greatest to least: 3.5 > 3.405 > 3.054 > 3.045**\n\n**Why other answers are wrong:**\n- A) This is least to greatest, not greatest to least\n- C) Incorrectly places 3.054 before 3.045 but also incorrectly orders 3.405 last\n- D) Swaps 3.5 and 3.405\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q3",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Decimal Representation",
+    "question": "— Rounding Decimals\nWhat is **9.473** rounded to the nearest **tenth**?",
+    "options": [
+      "9.4",
+      "9.47",
+      "9.5",
+      "10.0"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 9.5\n\n**Step-by-step:**\nRound 9.473 to the nearest **tenth** (one decimal place).\n- Look at the tenths digit: **4**\n- Look at the hundredths digit (the rounding digit): **7**\n- Since 7 ≥ 5, round the tenths digit **up**: 4 → 5\n- Drop digits after the tenths place\n\n**9.473 rounded to the nearest tenth = 9.5**\n\n**Why other answers are wrong:**\n- A) 9.4 — would be correct only if the hundredths digit were 0–4; here it is 7\n- B) 9.47 — this rounds to the nearest hundredth, not tenth\n- D) 10.0 — this rounds to the nearest whole number\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "math_g5_2026-04-05_15-00_q34",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Prime and Composite Numbers",
+    "question": "— Prime vs. Composite Numbers\nWhich of the following numbers is a **prime** number?",
+    "options": [
+      "21",
+      "27",
+      "29",
+      "33"
+    ],
+    "correctIndex": 2,
+    "explanation": "A prime number has exactly two factors (1 and itself); 29 has only the factors 1 and 29, while 21, 27, and 33 each have additional factors.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q14",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Prime and Composite Numbers",
+    "question": "— Prime vs. Composite\nWhich of the following numbers is a **composite** number?",
+    "options": [
+      "23",
+      "31",
+      "37",
+      "39"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D** → 39\n\n**Step-by-step:**\n- 23: factors are 1 and 23 only → **prime**\n- 31: factors are 1 and 31 only → **prime**\n- 37: factors are 1 and 37 only → **prime**\n- 39: 39 = **3 × 13** → has more than two factors → **composite** ✓\n\nA **prime number** has exactly 2 factors: 1 and itself.\nA **composite number** has more than 2 factors.\n\n**Quick check for 39:** 39 ÷ 3 = 13 (divides evenly, so 39 is composite).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q16",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Prime and Composite Numbers",
+    "question": "— Identifying Composite Numbers\nWhich of the following statements is **TRUE**?",
+    "options": [
+      "51 is a prime number because it ends in 1.",
+      "57 is a prime number because it is an odd number.",
+      "91 is a composite number.",
+      "89 is a composite number."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 91 is a composite number.\n\n**Step-by-step:**\nA **composite number** has more than 2 factors (can be divided evenly by something other than 1 and itself).\n\n- 51 = **3 × 17** → composite (but the statement says it's prime — FALSE)\n- 57 = **3 × 19** → composite (but the statement says it's prime — FALSE)\n- **91 = 7 × 13** → composite → statement is TRUE ✓\n- 89 → test divisibility: not divisible by 2, 3, 5, 7 (7² = 49 < 89 < 100 = 10²) → **89 is prime** → statement D is FALSE\n\n**Answer: C**\n\n**Key concept:** Being odd does NOT make a number prime. Many odd numbers (like 9, 15, 21, 25, 51, 57, 91) are composite.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

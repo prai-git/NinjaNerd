@@ -1,0 +1,70 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q19",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry and Measurement — Volume",
+    "question": "— Volume\nA shipping box has a length of 16 inches, a width of 9 inches, and a height of 5 inches. What is the volume of the box?",
+    "options": [
+      "150 cubic inches",
+      "480 cubic inches",
+      "720 cubic inches",
+      "810 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apply the volume formula V = l × w × h: 16 × 9 × 5 = **720 cubic inches**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q20",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry and Measurement — Volume",
+    "question": "— Volume / Multi-step\nA rectangular container is 25 cm long, 15 cm wide, and 12 cm tall. It is filled with sand to **3/4 of its total capacity**. How many cubic centimeters of sand are in the container?",
+    "options": [
+      "1,125 cubic cm",
+      "3,375 cubic cm",
+      "4,500 cubic cm",
+      "3,500 cubic cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Find the total volume (25 × 15 × 12 = 4,500 cubic cm), then multiply by 3/4: 4,500 × 3/4 = **3,375 cubic cm**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q18",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry and Measurement — Volume",
+    "question": "— Volume of a Rectangular Prism\nWhat is the volume of a rectangular prism with a length of 9 cm, a width of 7 cm, and a height of 4 cm?",
+    "options": [
+      "20 cm³",
+      "63 cm³",
+      "252 cm³",
+      "504 cm³"
+    ],
+    "correctIndex": 2,
+    "explanation": "Volume of a rectangular prism = l × w × h = 9 × 7 × 4 = 252 cubic centimeters.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q19",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry and Measurement — Volume",
+    "question": "— Volume Multi-Step\nA rectangular fish tank measures 24 inches long, 12 inches wide, and 15 inches tall. The tank is filled with water to 4/5 of its total volume. What is the volume of the water in the tank?",
+    "options": [
+      "2,880 in³",
+      "3,240 in³",
+      "3,456 in³",
+      "4,320 in³"
+    ],
+    "correctIndex": 2,
+    "explanation": "Total volume = 24 × 12 × 15 = 4,320 in³; water fills 4/5 of that: 4/5 × 4,320 = 3,456 in³.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

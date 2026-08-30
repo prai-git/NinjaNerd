@@ -1,0 +1,53 @@
+[
+  {
+    "id": "english_g6_2026-08-23_11-02_q11",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "What the Stray Dog Knows",
+    "question": "From whose **point of view** is this poem told, and how do you know?",
+    "options": [
+      "A stray dog; the speaker describes knowing the town \"by nose\" and being \"ribs and quick eyes and a coat full of rain.\"",
+      "A city worker; the speaker keeps a map of the town.",
+      "The kind woman; the speaker sits on the cold iron bench.",
+      "A squirrel; the speaker circles the town looking for food."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7 · MAP: Literary Text**\n**Correct:** The speaker knows the town \"by nose,\" is \"not a name on a shining brass tag,\" and is \"ribs and quick eyes and a coat full of rain\" — clearly a **stray dog**.\n**Why others are wrong:** B, C, and D name other figures mentioned in the poem but not the speaker; the details point to the dog.\n**Key concept:** Identifying the speaker/point of view using textual clues.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q12",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "What the Stray Dog Knows",
+    "question": "Read this line from the poem.\n\n> But hope, like a squirrel, keeps circling again.\n\nWhat does this **simile** suggest about the dog's hope?",
+    "options": [
+      "The dog's hope is foolish and should be given up.",
+      "The dog's hope keeps returning no matter how often it is disappointed.",
+      "The dog is afraid of squirrels in the town.",
+      "The dog hopes to catch a squirrel to eat."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9E · MAP: Literary Text**\n**Correct:** Hope \"like a squirrel, keeps circling again\" means the dog's hope **keeps returning despite disappointment** (it has \"counted more doors that have closed than have opened\").\n**Why others are wrong:** A misreads the tone (the poem is hopeful). C and D take \"squirrel\" literally.\n**Key concept:** Interpreting a simile in context.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q13",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "What the Stray Dog Knows",
+    "question": "**[stretch]**\nHow does the poet's **word choice** in the final stanza (\"I will not run. I will hold very still.\") mainly affect the poem's **mood**?",
+    "options": [
+      "It creates a tense, frightening mood, as if danger is near.",
+      "It creates a hopeful, tender mood, as if a small chance is worth trusting.",
+      "It creates a humorous mood, poking fun at the dog.",
+      "It creates an angry mood, blaming people for ignoring the dog."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9D · MAP: Literary Text · [stretch]**\n**Correct:** \"I will not run. I will hold very still\" creates a **hopeful, tender mood** — the dog risks trusting a small chance (\"maybe this doorway was waiting for me\").\n**Why others are wrong:** A (frightening), C (humorous), and D (angry) do not match the gentle, longing tone of the final stanza.\n**Key concept:** Analyzing how word choice shapes mood.\n\n---\n\n# Instructional Area: Informational Text",
+    "source": "authored",
+    "needsReview": false
+  }
+]

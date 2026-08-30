@@ -1,0 +1,70 @@
+[
+  {
+    "id": "english_g6_2026-08-23_11-02_q20",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "question": "What is the **central idea** of Passage 1?",
+    "options": [
+      "Sea turtles use the Earth's magnetic field to navigate and return to their home beach.",
+      "Sea turtle hatchlings are only a few hours old when they enter the ocean.",
+      "A sea turtle's brain is smaller than a walnut.",
+      "Scientists still have many unanswered questions about the ocean."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5G · MAP: Informational Text**\n**Correct:** Passage 1's central idea is that **sea turtles use the Earth's magnetic field to navigate back to their home beach**.\n**Why others are wrong:** B, C, and D are supporting details, not the main point.\n**Key concept:** Central idea of an informational text.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q21",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "question": "How does the **purpose** of Passage 2 MOST differ from the purpose of Passage 1?",
+    "options": [
+      "Passage 2 mainly shares a personal, emotional experience, while Passage 1 mainly explains scientific facts.",
+      "Passage 2 mainly persuades readers to donate money, while Passage 1 mainly tells a story.",
+      "Passage 2 mainly lists steps in an experiment, while Passage 1 mainly entertains with a poem.",
+      "Both passages have exactly the same purpose and tone."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9A · MAP: Informational Text (purpose across genres)**\n**Correct:** Passage 2 (a journal) **shares a personal, emotional experience**, while Passage 1 **explains scientific facts**.\n**Why others are wrong:** B (donations), C (experiment steps/poem), and D (identical purpose) misdescribe one or both passages.\n**Key concept:** Comparing author's purpose across paired texts.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q22",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "question": "**[stretch]**\nThe biologist in Passage 2 says, \"They have to make the crawl. That journey is how they learn the beach.\" How does information in **Passage 1** help explain **why** that crawl matters?",
+    "options": [
+      "The crawl lets the hatchlings record the magnetic signature of their home beach so they can return to nest one day.",
+      "The crawl helps the hatchlings grow larger before they reach the water.",
+      "The crawl teaches the hatchlings to avoid flashlights in the future.",
+      "The crawl allows scientists to count how many turtles survive."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5H · MAP: Informational Text (synthesis) · [stretch]**\n**Correct:** Passage 1 explains that a hatchling \"record[s] the magnetic signature of its home beach\" — so the crawl matters because it is **how the turtle records that signature to return one day**.\n**Why others are wrong:** B (growing larger), C (avoiding flashlights), and D (counting survivors) are not supported by Passage 1's explanation of navigation.\n**Key concept:** Synthesizing one text to explain a statement in another.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q23",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "question": "**[stretch]**\nWhich conclusion is BEST supported by **both** passages together?",
+    "options": [
+      "A sea turtle's survival depends on an instinct that is remarkable but leaves the odds heavily against each hatchling.",
+      "Sea turtles cannot survive without human volunteers to carry them to the water.",
+      "Scientists have completely solved the mystery of how sea turtles navigate.",
+      "Most sea turtle hatchlings return to their home beach within a single year."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5H / 6.6C · MAP: Informational Text (synthesis) · [stretch]**\n**Correct:** Passage 1 shows the **remarkable instinct** (\"brain smaller than a walnut\"), and Passage 2 shows the **odds against each hatchling** (\"how few of them would ever come back\"). Together they support that survival relies on a remarkable instinct but the odds are heavily against each turtle.\n**Why others are wrong:** B is contradicted (the biologist stops the volunteer from carrying them). C is contradicted (\"much... remains a mystery\"). D is unsupported — return happens over \"years... sometimes decades.\"\n**Key concept:** Drawing a conclusion supported by both texts.\n\n---\n\n# Instructional Area: Language / Foundational & Inquiry",
+    "source": "authored",
+    "needsReview": false
+  }
+]

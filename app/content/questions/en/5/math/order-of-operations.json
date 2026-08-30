@@ -1,0 +1,53 @@
+[
+  {
+    "id": "math_g5_2026-04-05_15-00_q35",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Order of Operations",
+    "question": "— Simplifying Numerical Expressions  **[Readiness]**\nEvaluate the expression using the correct order of operations.\n\n**24 − (3 + 5) × 2 + 6 = ?**",
+    "options": [
+      "12",
+      "14",
+      "22",
+      "38"
+    ],
+    "correctIndex": 1,
+    "explanation": "Follow order of operations (parentheses first, then multiplication, then left-to-right addition/subtraction): 24 − (3 + 5) × 2 + 6 = 24 − 8 × 2 + 6 = 24 − 16 + 6 = 14.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q17",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Order of Operations",
+    "question": "— Order of Operations: Two Levels of Grouping [R]\nEvaluate the expression using the correct order of operations.\n\n**45 ÷ [9 − (2 × 3)] + 7 = ?**",
+    "options": [
+      "12",
+      "17",
+      "22",
+      "52"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 22\n\n**Step-by-step:**\n**45 ÷ [9 − (2 × 3)] + 7**\n\nStep 1 — Innermost parentheses first:\n- (2 × 3) = **6**\n- Expression: 45 ÷ [9 − 6] + 7\n\nStep 2 — Brackets next:\n- [9 − 6] = **3**\n- Expression: 45 ÷ 3 + 7\n\nStep 3 — Division (left to right before addition):\n- 45 ÷ 3 = **15**\n- Expression: 15 + 7\n\nStep 4 — Addition:\n- 15 + 7 = **22**\n\n**Why other answers are wrong:**\n- A) 12 — divides 45 by [9−2×3+7] (combines too many terms inside bracket)\n- B) 17 — correctly reaches 45 ÷ 3 = 15, then subtracts 7 instead of adding\n- D) 52 — adds 7 before dividing: (45 + 7) ÷ [9 − 6] = 52 ÷ 3 = ... or ignores grouping symbols\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q18",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Order of Operations",
+    "question": "— Selecting the Correct Expression  [R]\nA classroom has **6 tables**. Each table has **4 students**. The teacher adds **3 more students** to the class. Which expression correctly represents the total number of students?",
+    "options": [
+      "6 + 4 × 3",
+      "6 × (4 + 3)",
+      "(6 × 4) + 3",
+      "6 + (4 + 3)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → (6 × 4) + 3\n\n**Step-by-step:**\nSituation: 6 tables, 4 students each, then 3 more added.\n\nStep 1 — Find students before adding more:\n- 6 tables × 4 students = 24 students\n\nStep 2 — Add the 3 new students:\n- 24 + 3 = **27 students**\n\nExpression: **(6 × 4) + 3**\n\n**Why other answers are wrong:**\n- A) 6 + 4 × 3 — by order of operations, multiplication happens first: 6 + 12 = 18 (wrong: doesn't multiply tables × students per table)\n- B) 6 × (4 + 3) = 6 × 7 = 42 — as if each table added 3 students (not just the class)\n- D) 6 + (4 + 3) = 6 + 7 = 13 — adds instead of multiplying tables by students\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

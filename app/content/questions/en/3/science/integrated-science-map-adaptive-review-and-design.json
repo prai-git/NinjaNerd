@@ -1,0 +1,87 @@
+[
+  {
+    "id": "science_g3_2026-08-29_23-09_q46",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "question": "Three equal-sized cubes are tested in a tub of water. The table shows their masses and results.\n\n| Cube | Mass | Result in water |\n|---|---:|---|\n| A | 18 g | floats |\n| B | 42 g | sinks |\n| C | 26 g | floats |\n\nWhich pattern is supported by this test of equal-sized cubes?",
+    "options": [
+      "The heaviest cube in this test sank, while the lighter two floated.",
+      "Every object with a mass over 18 g always sinks in every liquid.",
+      "Floating objects have no mass.",
+      "Cube B became a liquid when it sank."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. The heaviest cube in this test sank, while the lighter two floated.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.2B, 3.2C, 3.6A.  \n**Explanation:** Because the cubes are equal in size, their masses can be compared directly. In this test, the 42 g cube sank and the 18 g and 26 g cubes floated.  \n**Why the other answers are wrong:** B makes an unsupported rule for every liquid; C is false because floating cubes have mass; D confuses sinking with a change of state.  \n**Key concept:** Using measured physical properties to identify a pattern.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q47",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "question": "A team designs a ramp to move a box into a shed. They test two ramps using the same box and record how hard each ramp feels to push the box up.\n\n| Ramp | Length | Push needed |\n|---|---:|---|\n| P | 1 meter | hard |\n| Q | 2 meters | easier |\n\nWhich design decision is best supported by the test?",
+    "options": [
+      "Turn the box into a liquid before using either ramp.",
+      "Use Ramp P because it is longer.",
+      "Use neither ramp because boxes cannot be moved by pushes.",
+      "Use Ramp Q when reducing the needed push is most important."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Use Ramp Q when reducing the needed push is most important.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.2D, 3.7B.  \n**Explanation:** The test kept the box the same and showed that the 2-meter ramp required an easier push. Ramp Q best meets the stated criterion.  \n**Why the other answers are wrong:** A is impossible and irrelevant; B is false because P is shorter; C ignores the test evidence that pushes moved the box.  \n**Key concept:** Evaluating a design using force-test data.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q48",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "question": "On a sunny day, a child stands beside a flagpole. The flagpole blocks some sunlight, and a dark shape appears on the ground. What is the best explanation for the dark shape?",
+    "options": [
+      "Gravity changes the flagpole into a magnet.",
+      "The flagpole blocks light energy, making a shadow.",
+      "The ground turns into a gas near the flagpole.",
+      "The flagpole creates a new source of sound energy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. The flagpole blocks light energy, making a shadow.  \n**MAP area / TEKS:** Chemistry & Physics / 3.8A.  \n**Explanation:** A shadow forms where an object blocks light from reaching a surface. The dark shape follows the flagpole’s blocked-light area.  \n**Why the other answers are wrong:** A changes neither gravity nor magnetism; C is not a state change caused by a shadow; D does not explain the dark shape.  \n**Key concept:** Light energy and shadows.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q49",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "question": "A student says, “A cricket's chirp is an example of sound energy.” Which observation is the best evidence for the claim?",
+    "options": [
+      "The cricket has six legs.",
+      "The cricket rests on a green leaf.",
+      "A listener hears the chirp after the cricket rubs its wings together.",
+      "The cricket is smaller than a frog."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. A listener hears the chirp after the cricket rubs its wings together.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.3C, 3.8A.  \n**Explanation:** Hearing a chirp after the wings move is relevant evidence that the cricket’s action produces sound energy.  \n**Why the other answers are wrong:** A, B, and D are observations about the cricket but provide no evidence about a sound being produced.  \n**Key concept:** Selecting relevant evidence for a sound-energy claim.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q50",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "question": "A school wants a cover for a compost bin that keeps out rain but lets air enter through small holes. Four prototype covers are tested during a rain shower.\n\n| Cover | Rain found inside | Air holes |\n|---|---|---:|\n| W | none | 0 |\n| X | none | 6 |\n| Y | a little | 6 |\n| Z | a lot | 12 |\n\nWhich prototype best meets **both** design criteria?",
+    "options": [
+      "Cover W",
+      "Cover X",
+      "Cover Y",
+      "Cover Z"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Cover X.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1B, 3.1G, 3.2D.  \n**Explanation:** Cover X kept all rain out and had six air holes, so it meets both stated criteria.  \n**Why the other answers are wrong:** A keeps rain out but has no holes for air; C lets some rain in; D lets in a lot of rain.  \n**Key concept:** Testing prototypes against multiple criteria.\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Instructional area | Grade 3 TEKS topic | Question numbers |\n|---|---|---|\n| Scientific & Engineering Practices / Recurring Themes | Questions, investigations, safety, tools, evidence, data organizers, and models (3.1A–G) | 1–7, 23, 50 |\n| Scientific & Engineering Practices / Recurring Themes | Model limitations; patterns/errors; calculations; design evaluation (3.2A–D) | 8–10, 46–47, 50 |\n| Scientific & Engineering Practices / Recurring Themes | Evidence-based explanations and communication (3.3A–C) | 7, 11, 45, 49 |\n| Scientific & Engineering Practices / Recurring Themes | Science/society connection and exploring STEM careers (3.4A–B) | 11 |\n| Scientific & Engineering Practices / Recurring Themes | Patterns, cause/effect, quantity, systems, energy/matter, structure/function, stability/change (3.5A–G) | 8, 22, 34, 36, 38, 41, 46 |\n| Chemistry & Physics | Measurable properties; solids, liquids, gases; heating/cooling; combining materials (3.6A–D) | 16–20, 46 |\n| Chemistry & Physics | Contact/distance forces; push/pull motion; light, sound, thermal, and mechanical energy; speed/mechanical energy (3.7A–B, 3.8A–B) | 21–25, 47–49 |\n| Earth & Space Science | Sun-Earth-Moon orbits and planet order (3.9A–B) | 7, 12–13, 26–27 |\n| Earth & Space Science | Weather; soil formation; rapid Earth-surface change (3.10A–C) | 4, 28–30 |\n| Earth & Space Science | Natural-resource uses, conservation, reduce/reuse/recycle (3.11A–C) | 31–33 |\n| Biology/Life Science | Temperature/precipitation responses; food chains; environmental changes; fossils (3.12A–D) | 35–39, 45 |\n| Biology/Life Science | Animal structures/functions and life cycles (3.13A–B) | 40–44 |\n| MAP vertical-alignment review | Day/night, Moon phases, seasons, inherited/learned traits; identified as review rather than standalone Grade 3 TEKS | 12–15, 44 |",
+    "source": "authored",
+    "needsReview": false
+  }
+]

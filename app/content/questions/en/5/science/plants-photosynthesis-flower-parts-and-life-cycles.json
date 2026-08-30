@@ -1,0 +1,70 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q12",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Plants — Photosynthesis, Flower Parts, and Life Cycles",
+    "question": "Which organelle in a **plant cell** is responsible for producing food through photosynthesis?",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Chloroplast",
+      "Vacuole"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.13 | Topic: Photosynthesis**\n\n**Correct Answer:** C) Chloroplast\n\n**Explanation:**\nChloroplasts are organelles found in plant cells (and algae) that contain a green pigment called **chlorophyll**. Chlorophyll absorbs light energy from the sun. During photosynthesis, chloroplasts use:\n- Light energy (from the sun)\n- Water (absorbed from soil through roots)\n- Carbon dioxide (absorbed from the air through tiny pores called stomata)\n\n...to produce **glucose** (sugar/food) and **oxygen**.\n\n**Photosynthesis equation:**\n> Carbon dioxide + Water + Light energy → Glucose + Oxygen\n\n**Why the other answers are wrong:**\n- **A) Nucleus** — The nucleus controls the cell's activities and contains DNA. It does not perform photosynthesis.\n- **B) Mitochondria** — Mitochondria produce energy through cellular respiration (the opposite process). They are found in both plant AND animal cells.\n- **D) Vacuole** — The vacuole stores water, nutrients, and waste products inside the cell.\n\n**Key concept:** Chloroplast = green organelle = performs photosynthesis = makes food for the plant\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q13",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Plants — Photosynthesis, Flower Parts, and Life Cycles",
+    "question": "A student is studying the parts of a flower. The **anther** is located at the top of the stamen. What is the function of the anther?",
+    "options": [
+      "It receives pollen during pollination",
+      "It produces and releases pollen grains",
+      "It protects the seed after fertilization",
+      "It attracts pollinators with bright colors"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.13 | Topic: Flower Parts and Functions**\n\n**Correct Answer:** B) It produces and releases pollen grains\n\n**Explanation:**\nThe stamen is the **male** reproductive part of the flower. The anther is the top part of the stamen and is responsible for producing and releasing pollen grains, which contain the male sex cells (sperm).\n\nParts of the stamen:\n- **Anther** (top) — produces pollen\n- **Filament** (stalk) — supports the anther\n\n**Why the other answers are wrong:**\n- **A) Receives pollen** — The part that receives pollen is the **stigma**, which is at the top of the pistil (the female part of the flower).\n- **C) Protects the seed** — The **ovary** (part of the pistil) develops into the fruit that protects seeds after fertilization.\n- **D) Attracts pollinators** — Petals attract pollinators with bright colors and sometimes scent. The anther does not attract pollinators.\n\n**Key concept:**\n- Stamen (male part): anther (makes pollen) + filament\n- Pistil (female part): stigma (receives pollen) + style + ovary (contains eggs → becomes fruit)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q14",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Plants — Photosynthesis, Flower Parts, and Life Cycles",
+    "question": "How does a **conifer** reproduce differently from a **flowering plant**?",
+    "options": [
+      "Conifers use spores; flowering plants use seeds",
+      "Conifers produce seeds inside cones; flowering plants produce seeds inside fruits",
+      "Conifers produce seeds enclosed in fruits; flowering plants produce seeds in cones",
+      "Conifers are pollinated only by animals; flowering plants are pollinated only by wind"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.13 | Topic: Plant Life Cycles — Conifer vs. Flowering Plant**\n\n**Correct Answer:** B) Conifers produce seeds inside cones; flowering plants produce seeds inside fruits\n\n**Explanation:**\nBoth conifers and flowering plants reproduce using seeds, but they differ in how seeds are enclosed:\n- **Flowering plants (angiosperms):** Seeds are enclosed inside a **fruit** (the developed ovary). Examples: apples, tomatoes, sunflowers.\n- **Conifers (gymnosperms):** Seeds are **not** enclosed in a fruit. Instead, seeds develop on the scales of **cones**. Examples: pine trees, cedar, spruce.\n\nThe term \"gymnosperm\" means \"naked seed\" — the seeds are exposed on the cone scales, not protected in a fruit.\n\n**Why the other answers are wrong:**\n- **A) Conifers use spores** — Neither conifers nor flowering plants use spores. Spores are used by mosses and ferns.\n- **C) Reversed** — This describes flowering plants (seeds in fruits) as conifers and conifers (seeds in cones) as flowering plants — it is backwards.\n- **D) Pollination method** — Both conifers and flowering plants can be pollinated by wind. Flowering plants may also be pollinated by animals (bees, butterflies), but conifers are typically wind-pollinated.\n\n**Key concept:** Conifer = cones = gymnosperm | Flowering plant = fruit = angiosperm\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q15",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Plants — Photosynthesis, Flower Parts, and Life Cycles",
+    "question": "Ferns and mosses are non-flowering plants. Which structure do ferns and mosses use to reproduce?",
+    "options": [
+      "Seeds",
+      "Pollen",
+      "Spores",
+      "Cones"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.13 | Topic: Moss and Fern Life Cycles**\n\n**Correct Answer:** C) Spores\n\n**Explanation:**\nMosses and ferns are non-vascular and vascular plants, respectively, that reproduce using **spores** instead of seeds. Spores are tiny, single-celled reproductive structures that can grow into a new plant under the right conditions. In ferns, spores are produced in small brown clusters called **sori** found on the underside of fern fronds (leaves).\n\nLife cycle of a fern:\n1. Mature fern produces spores in sori\n2. Spores fall and germinate into a small, heart-shaped structure (gametophyte)\n3. Gametophyte produces egg and sperm\n4. Fertilized egg grows into a new fern (sporophyte)\n\n**Why the other answers are wrong:**\n- **A) Seeds** — Seeds are produced by conifers and flowering plants, not by ferns or mosses.\n- **B) Pollen** — Pollen is produced by seed plants (conifers and flowering plants). Ferns and mosses do not produce pollen.\n- **D) Cones** — Cones are produced by conifers (like pine trees), not by ferns or mosses.\n\n**Key concept:** Mosses and ferns = spores (NOT seeds or pollen). Spores are on the UNDERSIDE of fern leaves.\n\n---\n\n---\n\n## Section 4: Animal Adaptations\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

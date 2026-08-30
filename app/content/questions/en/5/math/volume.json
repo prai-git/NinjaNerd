@@ -1,0 +1,87 @@
+[
+  {
+    "id": "math_g5_2026-04-18_09-00_q26",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Volume",
+    "question": "— Volume using Unit Cubes\nA figure is built from unit cubes. It has **2 layers**, each layer has **6 rows**, and each row has **4 unit cubes**. What is the volume of the figure in cubic units?",
+    "options": [
+      "12 cubic units",
+      "24 cubic units",
+      "48 cubic units",
+      "96 cubic units"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 48 cubic units\n\n**Step-by-step:**\n**Volume = layers × rows × cubes per row**\n- V = 2 × 6 × 4\n- V = 2 × 24\n- V = **48 cubic units**\n\n*(Each unit cube = 1 cubic unit, so count total cubes)*\n\n**Why other answers are wrong:**\n- A) 12 = 2 + 6 + 4 (adds instead of multiplies)\n- B) 24 = 1 layer × 6 rows × 4 cubes (uses only 1 layer)\n- D) 96 = 4 layers × 6 × 4 (uses double the number of layers)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q27",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Volume",
+    "question": "— Volume of a Rectangular Prism\nA storage box has a length of **15 inches**, a width of **10 inches**, and a height of **6 inches**. What is the volume of the storage box?",
+    "options": [
+      "186 cubic inches",
+      "600 cubic inches",
+      "900 cubic inches",
+      "1,800 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 900 cubic inches\n\n**Step-by-step:**\n**V = l × w × h**\n- V = 15 × 10 × 6\n- V = 150 × 6\n- V = **900 cubic inches**\n\n**Why other answers are wrong:**\n- A) 186 = 15 + 10 + 6 + ... (adds dimensions instead of multiplying)\n- B) 600 = 15 × 10 × 4 (uses 4 instead of 6)\n- D) 1,800 = 15 × 10 × 12 (doubles the height)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q34",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Volume",
+    "question": "— Finding a Missing Dimension from Volume\nA rectangular box has a **volume of 360 cubic centimeters**. Its **length is 12 cm** and its **height is 5 cm**. What is the **width** of the box?",
+    "options": [
+      "3 cm",
+      "6 cm",
+      "30 cm",
+      "72 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 6 cm\n\n**Step-by-step:**\nUse **V = l × w × h**:\n\n- 360 = 12 × w × 5\n- 360 = 60 × w\n- w = 360 ÷ 60 = **6 cm**\n\n**Verification:** 12 × 6 × 5 = 72 × 5 = 360 ✓\n\n**Why other answers are wrong:**\n- A) 3 cm → 12 × 3 × 5 = 180 ≠ 360\n- C) 30 cm — divides 360 by 12 only (forgets to also divide by 5)\n- D) 72 cm — multiplies 360 ÷ 5 = 72 instead of dividing by both l and h\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q35",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Volume",
+    "question": "— Volume of a Composite Prism  [R]\nA fish tank is made of **two rectangular prisms** stacked together.\n- **Bottom prism:** length = 18 in, width = 10 in, height = 8 in\n- **Top prism:** length = 18 in, width = 10 in, height = 4 in\n\nWhat is the **total volume** of the fish tank?",
+    "options": [
+      "1,440 cubic inches",
+      "1,800 cubic inches",
+      "2,160 cubic inches",
+      "2,880 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 2,160 cubic inches\n\n**Step-by-step:**\nCalculate each prism's volume separately, then add.\n\n**Bottom prism:** V = 18 × 10 × 8 = **1,440 cubic inches**\n\n**Top prism:** V = 18 × 10 × 4 = **720 cubic inches**\n\n**Total volume:** 1,440 + 720 = **2,160 cubic inches**\n\n**Why other answers are wrong:**\n- A) 1,440 — volume of the bottom prism only\n- B) 1,800 — uses height of 5 instead of 8 for bottom prism (18 × 10 × 10 = 1800)\n- D) 2,880 = 18 × 10 × 16 (adds heights: 8 + 4 = 12... wait 18×10×16=2880, uses wrong combined height)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q36",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Volume",
+    "question": "— Volume with Decimal Dimensions  [R]\nA box for storing craft supplies has a **length of 14.5 cm**, a **width of 8 cm**, and a **height of 6.5 cm**. What is the **volume** of the box?",
+    "options": [
+      "29 cm³",
+      "464 cm³",
+      "754 cm³",
+      "1,508 cm³"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 754 cm³\n\n**Step-by-step:**\n**V = l × w × h = 14.5 × 8 × 6.5**\n\nStep 1: 14.5 × 8 = **116**\n\nStep 2: 116 × 6.5\n- 116 × 6 = 696\n- 116 × 0.5 = 58\n- 696 + 58 = **754**\n\n**V = 754 cm³**\n\n**Why other answers are wrong:**\n- A) 29 = 14.5 + 8 + 6.5 (adds dimensions instead of multiplying)\n- B) 464 = 14.5 × 8 × 4 (uses 4 instead of 6.5 for height)\n- D) 1,508 = 754 × 2 (doubles the correct volume)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "id": "english_g5_2026-04-09_22-19_q33",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 1?",
+    "options": [
+      "Change \"worlds\" to \"world's\"",
+      "Change \"oceans\" to \"ocean's\"",
+      "Add a comma after \"worlds\"",
+      "No change is needed"
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-09_22-19_q34",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "Read this sentence from the student draft:\n\n*\"Pollution from plastic waste has entered the seas and harmed millions of marine animals each year.\"*\n\nThe phrase \"each year\" suggests this is an ongoing situation. Which verb form makes the sentence MOST consistent with this ongoing meaning?",
+    "options": [
+      "\"Pollution from plastic waste had entered the seas and harmed millions of marine animals each year.\"",
+      "\"Pollution from plastic waste enters the seas and harms millions of marine animals each year.\"",
+      "\"Pollution from plastic waste will enter the seas and harm millions of marine animals each year.\"",
+      "The sentence is correct as written."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-09_22-19_q35",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made to sentence 4?\n\n*\"They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal.\"*",
+    "options": [
+      "Change \"has\" to \"have\"",
+      "Change \"They\" to \"He\"",
+      "Change \"proposed\" to \"proposing\"",
+      "No change is needed"
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-09_22-19_q36",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 6?\n\n*\"After all the future of our planet depends on the health of the sea.\"*",
+    "options": [
+      "Add a comma after \"future\"",
+      "Add a comma after \"all\"",
+      "Add a comma after \"planet\"",
+      "No change is needed"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-09_22-19_q37",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 5?\n\n*\"Its important that everyone, not just governments, takes responsibility for protecting our oceans.\"*\n\n\n\n*Answer questions 38–39 based on your knowledge of grammar and writing.*",
+    "options": [
+      "Change \"Its\" to \"It's\"",
+      "Change \"everyone\" to \"every one\"",
+      "Add a comma after \"important\"",
+      "No change is needed"
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-09_22-19_q38",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "Which word is spelled INCORRECTLY?",
+    "options": [
+      "necessary",
+      "environment",
+      "responsibilty",
+      "guarantee"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-09_22-19_q39",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "A student is writing an essay about why reading books is important. She wants to add a sentence that shows a contrast with the idea that \"watching educational videos can help students learn.\" Which transition word would BEST introduce that contrasting idea?",
+    "options": [
+      "Furthermore",
+      "Similarly",
+      "For instance",
+      "However"
+    ],
+    "correctIndex": 3,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-10_10-00_q34",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "A student is writing a paragraph about the benefits of volunteering. She wants to connect these two sentences:\n\n*\"Volunteering teaches young people important skills such as teamwork and problem-solving. It also builds character and a sense of community responsibility.\"*\n\nWhich transition word or phrase BEST begins the second sentence to show that a second benefit is being added?",
+    "options": [
+      "Furthermore",
+      "However",
+      "Instead",
+      "Nevertheless"
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-10_10-00_q35",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "Read this sentence:\n\n*\"Rosa sat on top from the porch steps and looked out at the garden.\"*\n\nWhat change should be made to correct the error?\n\n\n\n*Answer questions 36–39 based on the student draft above.*",
+    "options": [
+      "Change \"sat\" to \"sit\"",
+      "Change \"on top from\" to \"on top of\"",
+      "Change \"looked out\" to \"looked for\"",
+      "No change is needed"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-10_10-00_q36",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 3 of the student draft?\n\n*\"mr. Kim, the science teacher, helped them design the garden beds.\"*",
+    "options": [
+      "Change \"science\" to \"Science.\"",
+      "Change \"teacher\" to \"Teacher.\"",
+      "Change \"mr.\" to \"Mr.\"",
+      "No change is needed."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-10_10-00_q37",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made to sentence 5 of the student draft?\n\n*\"The garden is a place to explore, to learn, and growing vegetables.\"*",
+    "options": [
+      "Change \"explore\" to \"exploring.\"",
+      "Change \"learn\" to \"learning.\"",
+      "Change \"is\" to \"was.\"",
+      "Change \"growing\" to \"to grow.\""
+    ],
+    "correctIndex": 3,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-10_10-00_q38",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made to sentence 6 of the student draft?\n\n*\"Everyone agree that the project has made the school a better place.\"*",
+    "options": [
+      "Change \"agree\" to \"agrees.\"",
+      "Change \"has made\" to \"have made.\"",
+      "Change \"Everyone\" to \"All.\"",
+      "No change is needed."
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-10_10-00_q39",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "options": [
+      "although",
+      "argument",
+      "separate",
+      "imediately"
+    ],
+    "correctIndex": 3,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-12_15-30_q34",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 2 of the student draft?\n\n*\"Buses and trains make city travel more faster and more convenient for everyone.\"*",
+    "options": [
+      "Change \"make\" to \"makes\"",
+      "Change \"more faster\" to \"faster\"",
+      "Change \"convenient\" to \"conveniently\"",
+      "No change is needed."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-12_15-30_q35",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 3 of the student draft?\n\n*\"Many city leaders works hard every year to expand bus and rail routes.\"*",
+    "options": [
+      "Change \"leaders\" to \"leader\"",
+      "Change \"works\" to \"work\"",
+      "Change \"every year\" to \"every years\"",
+      "No change is needed."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-12_15-30_q36",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 5 of the student draft?\n\n*\"Without a doubt public transportation benefits people of all incomes and backgrounds.\"*",
+    "options": [
+      "Add a comma after \"transportation\"",
+      "Add a comma after \"doubt\"",
+      "Change \"benefits\" to \"benefit\"",
+      "No change is needed."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-12_15-30_q37",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "What change should be made in sentence 6 of the student draft?\n\n*\"Commuters who use public transit save money, protecting the environment, and reduce road congestion.\"*\n\n\n\n*Answer questions 38 and 39 based on your knowledge of grammar and writing.*",
+    "options": [
+      "Change \"save money\" to \"saving money\"",
+      "Change \"reduce\" to \"reducing\"",
+      "Change \"protecting\" to \"protect\"",
+      "No change is needed."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-12_15-30_q38",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "Which sentence uses correct capitalization?",
+    "options": [
+      "Last july, our family visited the houston museum of Natural Science.",
+      "My teacher, mr. Torres, is very patient with all of his students.",
+      "We studied the Civil War and the Reconstruction period in history class.",
+      "The pacific Ocean is the largest ocean on the planet."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-12_15-30_q39",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Writing and Grammar",
+    "question": "Which word is spelled INCORRECTLY?",
+    "options": [
+      "recommend",
+      "necessary",
+      "rhythm",
+      "recieve"
+    ],
+    "correctIndex": 3,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

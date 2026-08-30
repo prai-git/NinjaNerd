@@ -1,0 +1,308 @@
+[
+  {
+    "id": "math_g5_2026-03-12_10-30_q20",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "- Coordinate Plane Attributes\nOn a coordinate plane, which point represents the origin?",
+    "options": [
+      "(1, 0)",
+      "(0, 1)",
+      "(0, 0)",
+      "(1, 1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Topic:** Coordinate Plane Attributes\n**TEKS:** 5.8\n\n**Explanation:**\nThe origin is the point where the x-axis and y-axis intersect. This point is always located at coordinates (0, 0).\n\n**Key Concept:** Understanding the coordinate plane:\n- Origin: (0, 0)\n- X-axis: horizontal line\n- Y-axis: vertical line\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q21",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "- Coordinate Plane\nWhich ordered pair describes a point that is 5 units to the right of the origin and 3 units up?",
+    "options": [
+      "(3, 5)",
+      "(5, 3)",
+      "(8, 0)",
+      "(0, 8)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Coordinate Plane\n**TEKS:** 5.8\n\n**Explanation:**\n- The x-coordinate tells how far right (or left) from the origin\n- The y-coordinate tells how far up (or down) from the origin\n- 5 units right = x-value of 5\n- 3 units up = y-value of 3\n- Ordered pair: (5, 3)\n\n**Key Concept:** In an ordered pair (x, y), x comes first (horizontal), y comes second (vertical).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q22",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "- Graphing Patterns\nThe equation y = 4x describes a pattern. Which table shows the correct ordered pairs for this equation?\n\n| Table A | Table B | Table C | Table D |\n|---------|---------|---------|---------|\n| x=1, y=5 | x=1, y=4 | x=1, y=4 | x=1, y=3 |\n| x=2, y=6 | x=2, y=6 | x=2, y=8 | x=2, y=6 |\n| x=3, y=7 | x=3, y=9 | x=3, y=12 | x=3, y=9 |",
+    "options": [
+      "Table A",
+      "Table B",
+      "Table C",
+      "Table D"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Topic:** Graphing Patterns (y = ax)\n**TEKS:** 5.8\n\n**Step-by-Step Solution:**\nUsing y = 4x:\n- When x = 1: y = 4(1) = 4\n- When x = 2: y = 4(2) = 8\n- When x = 3: y = 4(3) = 12\n\n**Check each table:**\n- Table A: 5, 6, 7 (adds 4 instead of multiplies)\n- Table B: 4, 6, 9 (incorrect pattern)\n- Table C: 4, 8, 12 ✓ (correct!)\n- Table D: 3, 6, 9 (y = 3x, not 4x)\n\n**Key Concept:** Substituting values into an equation to generate ordered pairs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q19",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "- Coordinate Plane\nWhich statement correctly describes the x-axis on a coordinate plane?",
+    "options": [
+      "The x-axis is the vertical line that passes through the origin.",
+      "The x-axis is the horizontal line that passes through the origin.",
+      "The x-axis is located in the second quadrant.",
+      "The x-axis shows negative numbers only."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) The x-axis is the horizontal line that passes through the origin.**\n\n**Explanation:**\n- The x-axis is the horizontal (left-right) number line\n- It passes through the origin (0, 0)\n- The y-axis is the vertical line\n\n**Why other answers are incorrect:**\n- A) Vertical line: This describes the y-axis, not x-axis\n- C) Second quadrant: Axes are not \"in\" quadrants; they separate quadrants\n- D) Negative numbers only: The x-axis has both positive and negative values\n\n**Key Concept:** Coordinate plane vocabulary and structure.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q20",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "- Graphing Patterns\nThe equation y = 3x describes the relationship between hours worked (x) and money earned (y) in dollars. Complete the table and identify which ordered pair is NOT on the graph of this equation.\n\n| x (hours) | y (dollars) |\n|-----------|-------------|\n| 1         | 3           |\n| 2         | 6           |\n| 3         | 9           |\n| 4         | ?           |",
+    "options": [
+      "(4, 12)",
+      "(5, 15)",
+      "(6, 18)",
+      "(7, 20)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Answer: D) (7, 20)**\n\n**Step-by-step solution:**\n1. Equation: y = 3x\n2. Check each ordered pair:\n   - (4, 12): y = 3 × 4 = 12 ✓\n   - (5, 15): y = 3 × 5 = 15 ✓\n   - (6, 18): y = 3 × 6 = 18 ✓\n   - (7, 20): y = 3 × 7 = 21, NOT 20 ✗\n3. The pair (7, 20) does NOT satisfy y = 3x\n\n**Key Concept:** Verifying ordered pairs in linear equations.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q24",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Graphing Patterns\nThe following points are plotted on a coordinate plane: (1, 5), (2, 10), (3, 15), (4, 20). Which equation **best describes** the relationship between x and y?",
+    "options": [
+      "y = x + 4",
+      "y = 4x",
+      "y = 5x",
+      "y = x + 5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each y-value equals exactly 5 times the x-value (e.g., 5 × 1 = 5, 5 × 2 = 10), so the equation is **y = 5x**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q25",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Coordinate Plane / Income\nA parking lot charges $6 per hour. The equation **y = 6x** represents the total cost (y) in dollars for parking x hours. How much would it cost to park for 8 hours?",
+    "options": [
+      "$42",
+      "$48",
+      "$54",
+      "$56"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute x = 8 into the equation y = 6x: y = 6 × 8 = **$48**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q26",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Graphing Patterns\nWhich ordered pair is a solution to the equation **y = 3x**?",
+    "options": [
+      "(4, 11)",
+      "(5, 14)",
+      "(6, 18)",
+      "(7, 20)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substituting into y = 3x: 3 × 6 = 18, confirming that **(6, 18) is a solution**; the other pairs do not satisfy the equation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q27",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Graphing Patterns / Tables\nThe table below shows values from a pattern.\n\n| x | y  |\n|---|----|\n| 2 | 10 |\n| 4 | 20 |\n| 6 | 30 |\n| 8 | 40 |\n\nWhich equation represents this pattern?",
+    "options": [
+      "y = 2x",
+      "y = 4x",
+      "y = 5x",
+      "y = 8x"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each y-value equals exactly 5 times its x-value (e.g., 5 × 2 = 10, 5 × 4 = 20), so the equation is **y = 5x**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q28",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Coordinate Plane Attributes\nPoint M is located on a coordinate plane. It is 7 units to the **right** of the origin and 4 units **above** the x-axis. What is the ordered pair for Point M?",
+    "options": [
+      "(4, 7)",
+      "(7, 0)",
+      "(0, 4)",
+      "(7, 4)"
+    ],
+    "correctIndex": 3,
+    "explanation": "In an ordered pair, the x-value (horizontal distance) comes first and the y-value (vertical distance) comes second, so 7 units right and 4 units up = **(7, 4)**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q23",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Coordinate Plane Attributes\nWhich statement about the coordinate plane is **TRUE**?",
+    "options": [
+      "The origin is located at the point (1, 1).",
+      "The x-axis is the vertical number line.",
+      "In Quadrant I, both the x-coordinate and the y-coordinate are positive.",
+      "Ordered pairs are written in the form (y, x)."
+    ],
+    "correctIndex": 2,
+    "explanation": "Quadrant I is the upper-right region where every point has a positive x-value and a positive y-value; the origin is (0,0), the x-axis is horizontal, and ordered pairs are written (x, y).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q24",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Graphing Patterns from y = ax\nThe equation y = 7x describes the relationship between the number of hours Jake rides his bicycle (x) and the total number of miles he travels (y). Which ordered pair lies on the graph of this equation?",
+    "options": [
+      "(2, 9)",
+      "(3, 10)",
+      "(4, 28)",
+      "(5, 30)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute x = 4 into y = 7x: y = 7 × 4 = 28, so (4, 28) lies on the graph.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q25",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Generating a Pattern from y = 8x\nThe table below shows values generated from the equation y = 8x.\n\n| x | y |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 16 |\n| 3 | 24 |\n\nWhich ordered pair would **NOT** belong on this graph?",
+    "options": [
+      "(0, 0)",
+      "(2, 16)",
+      "(4, 32)",
+      "(5, 45)"
+    ],
+    "correctIndex": 3,
+    "explanation": "For y = 8x, when x = 5, y should equal 8 × 5 = 40, not 45, so (5, 45) does not belong on the graph.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q31",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Coordinate Plane Attributes\nA student plots Point A at **(4, 0)** on a coordinate plane. Which statement **BEST** describes where Point A is located?",
+    "options": [
+      "On the y-axis",
+      "On the x-axis",
+      "In Quadrant I",
+      "At the origin"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → On the x-axis\n\n**Step-by-step:**\nPoint A is at **(4, 0)**.\n- x-coordinate = 4 (moves 4 units to the right)\n- y-coordinate = 0 (does not move up or down)\n\nWhen the y-coordinate is 0, the point lies on the **x-axis** (the horizontal number line).\n\n**Why other answers are wrong:**\n- A) On the y-axis — a point on the y-axis has x = 0 (e.g., (0, 4)); here x = 4\n- C) In Quadrant I — Quadrant I requires BOTH x > 0 AND y > 0; here y = 0\n- D) At the origin — the origin is (0, 0), not (4, 0)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q32",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Graphing Ordered Pairs from a Pattern  [R]\nMia earns **$3 for every magazine** she sells. The table shows her earnings.\n\n| Magazines Sold (x) | Earnings in dollars (y) |\n|--------------------|--------------------------|\n| 1                  | 3                        |\n| 2                  | 6                        |\n| 3                  | 9                        |\n| 4                  | ?                        |\n\nWhat is the missing value, and what ordered pair represents selling **4 magazines**?",
+    "options": [
+      "(4, 9)",
+      "(4, 12)",
+      "(4, 15)",
+      "(4, 16)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → (4, 12)\n\n**Step-by-step:**\nThe pattern is y = 3x (Mia earns $3 per magazine).\n\nWhen x = 4:\n- y = 3 × 4 = **12**\n- Ordered pair: **(4, 12)**\n\n| x | y = 3x |\n|---|--------|\n| 1 | 3      |\n| 2 | 6      |\n| 3 | 9      |\n| 4 | **12** |\n\n**Why other answers are wrong:**\n- A) (4, 9) — uses x = 3's value (y = 9) with x = 4\n- C) (4, 15) — adds 3 to 12 again (as if x = 5)\n- D) (4, 16) — uses y = 4x instead of y = 3x\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q33",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Graphing Patterns from y = x + a [R]\nThe equation **y = x + 5** represents the relationship between *x* and *y*. Which ordered pair is a solution to this equation?",
+    "options": [
+      "(2, 6)",
+      "(3, 8)",
+      "(4, 8)",
+      "(5, 9)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → (3, 8)\n\n**Step-by-step:**\nCheck each ordered pair in **y = x + 5**:\n\n| Ordered Pair | x + 5 = y? | Check |\n|--------------|-----------|-------|\n| (2, 6)       | 2 + 5 = 7 ≠ 6 | ✗ |\n| **(3, 8)**   | 3 + 5 = 8 ✓ | **✓** |\n| (4, 8)       | 4 + 5 = 9 ≠ 8 | ✗ |\n| (5, 9)       | 5 + 5 = 10 ≠ 9 | ✗ |\n\n**Correct pair: (3, 8)**\n\n**Why other answers are wrong:**\n- A) (2, 6) — 2 + 5 = 7, not 6\n- C) (4, 8) — 4 + 5 = 9, not 8\n- D) (5, 9) — 5 + 5 = 10, not 9\n\n**Key concept:** A solution to y = x + 5 must satisfy the equation. Only (3, 8) works.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q41",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Identify the Equation from a Table [R]\nThe table below shows pairs of *x* and *y* values. Which equation represents this relationship?\n\n| x | y  |\n|---|----|\n| 3 | 17 |\n| 5 | 19 |\n| 7 | 21 |\n| 9 | 23 |",
+    "options": [
+      "y = 5x + 2",
+      "y = x + 14",
+      "y = 2x + 11",
+      "y = x + 10"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → y = x + 14\n\n**Step-by-step:**\nTest y = x + 14 with each row:\n\n| x | x + 14 | y (given) | Match? |\n|---|--------|-----------|--------|\n| 3 | 17     | 17        | ✓      |\n| 5 | 19     | 19        | ✓      |\n| 7 | 21     | 21        | ✓      |\n| 9 | 23     | 23        | ✓      |\n\nAll rows match. The rule is **y = x + 14** (additive pattern — x increases by 2, y increases by 2).\n\n**Why other answers are wrong:**\n- A) y = 5x + 2: when x = 3: 5(3) + 2 = 17 ✓, but when x = 5: 5(5) + 2 = 27 ≠ 19 ✗\n- C) y = 2x + 11: when x = 3: 2(3) + 11 = 17 ✓, but when x = 5: 2(5) + 11 = 21 ≠ 19 ✗\n- D) y = x + 10: when x = 3: 3 + 10 = 13 ≠ 17 ✗\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q42",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Coordinate Plane and Graphing",
+    "question": "— Two Patterns Compared on a Coordinate Plane [R]\nPriya saves money using the rule **y = 5x** (saves $5 per week). Kevin uses the rule **y = x + 20** (started with $20 and saves $1 per week). After how many weeks will they have saved the **same amount**?\n\n| Weeks (x) | Priya y = 5x | Kevin y = x + 20 |\n|-----------|--------------|-----------------|\n| 1         | 5            | 21              |\n| 2         | 10           | 22              |\n| 3         | 15           | 23              |\n| 4         | 20           | 24              |\n| 5         | ?            | ?               |",
+    "options": [
+      "3 weeks",
+      "4 weeks",
+      "5 weeks",
+      "6 weeks"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 5 weeks\n\n**Step-by-step:**\nSet the two equations equal to find when savings match:\n\n- Priya: y = 5x\n- Kevin: y = x + 20\n\nSet equal: **5x = x + 20**\n- 5x − x = 20\n- 4x = 20\n- x = **5**\n\n**Verify at x = 5:**\n- Priya: 5 × 5 = $25\n- Kevin: 5 + 20 = $25 ✓\n\nThey both have $25 after **5 weeks**.\n\n**Why other answers are wrong:**\n- A) x = 3: Priya = $15, Kevin = $23 (not equal)\n- B) x = 4: Priya = $20, Kevin = $24 (not equal)\n- D) x = 6: Priya = $30, Kevin = $26 (Priya now has more)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

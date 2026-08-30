@@ -1,0 +1,223 @@
+[
+  {
+    "id": "science_g6_2026-08-23_11-02_q16",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A student reads that when the Northern Hemisphere has summer, the Southern Hemisphere has winter **at the same time**. Which statement best explains why the two hemispheres have opposite seasons?",
+    "options": [
+      "The Earth is closer to the Sun in the hemisphere having summer",
+      "Because Earth's axis is tilted, the hemisphere tilted toward the Sun receives more direct sunlight while the other is tilted away",
+      "The Sun gives off more energy to one hemisphere than the other",
+      "The Moon blocks sunlight from reaching one hemisphere at a time"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.11 (seasons) | MAP: Earth & Space Science | Theme: cause & effect**\n\n**Step-by-step:** Earth's axis is tilted ~23.5°. The hemisphere tilted **toward** the Sun gets more direct (concentrated) sunlight and longer days → summer; the other hemisphere is tilted **away** → winter. This is why the hemispheres have opposite seasons simultaneously.\n\n**Why the others are wrong:** A is the common misconception — distance is not the cause (Earth is actually slightly closer to the Sun during Northern-Hemisphere winter). C — the Sun's output does not change by hemisphere. D — the Moon does not cause seasons.\n\n**Key concept:** Seasons result from Earth's axial tilt changing the directness of sunlight, not from distance to the Sun.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q17",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "Coastal towns experience a regular pattern of high tides and low tides each day. What is the **primary cause** of Earth's ocean tides?",
+    "options": [
+      "The tilt of Earth's axis as it orbits the Sun",
+      "The gravitational pull of the Moon (and, to a lesser degree, the Sun) on Earth's oceans",
+      "Winds blowing water toward and away from the shore",
+      "The rotation of the Moon on its own axis"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.11 (tides) | MAP: Earth & Space Science**\n\n**Step-by-step:** Tides are caused mainly by the **Moon's gravitational pull** on Earth's oceans (the Sun contributes a smaller effect). This produces the daily pattern of high and low tides.\n\n**Why the others are wrong:** A causes seasons, not tides. C — wind affects waves/local water levels but not the regular daily tidal cycle. D — the Moon's rotation does not drive tides.\n\n**Key concept:** Ocean tides are driven by gravitational interactions between the Moon (and Sun) and Earth.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q18",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A river erodes rock from a mountainside and carries the sediment downstream, where plants later take root in the new soil. This example **best** shows an interaction among which of Earth's systems?",
+    "options": [
+      "The hydrosphere, geosphere, and biosphere",
+      "The atmosphere and biosphere only",
+      "The geosphere and atmosphere only",
+      "The hydrosphere and atmosphere only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10 (Earth's spheres) | MAP: Earth & Space Science | Theme: systems & system models**\n\n**Step-by-step:** Trace the interacting systems: the **river/water = hydrosphere**; the **rock and soil = geosphere**; the **plants = biosphere**. All three interact in this example.\n\n**Why the others are wrong:** B, C, and D each leave out at least one of the three spheres clearly involved (water, rock/soil, and living plants).\n\n**Key concept:** Earth's spheres (geosphere, hydrosphere, atmosphere, biosphere) constantly interact as a system.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q19",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A rock forms when layers of sand and shell fragments settle at the bottom of a lake and are pressed and cemented together over time. Later, this same rock is buried deep in the crust, where intense heat and pressure change it into a new rock **without melting it**. What two rock types are described, **in order**?",
+    "options": [
+      "Igneous, then sedimentary",
+      "Sedimentary, then metamorphic",
+      "Metamorphic, then igneous",
+      "Igneous, then metamorphic"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.10 (rock cycle) | MAP: Earth & Space Science | Theme: stability & change**\n\n**Step-by-step:** Sand/shell settling and being pressed and cemented = **sedimentary** rock. Then heat and pressure **without melting** change it into **metamorphic** rock. Order: sedimentary → metamorphic.\n\n**Why the others are wrong:** Any option including **igneous** is wrong because igneous rock requires **melting and cooling**, which the passage explicitly rules out (\"without melting it\").\n\n**Key concept:** Sedimentary = compaction/cementation; metamorphic = heat + pressure without melting; igneous = melting then cooling.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q20",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A town's energy manager compares four resources for a new power plant. The town wants a resource that will **not run out** over many generations.\n\n| Resource | Naturally replaced within a human lifetime? |\n|----------|---------------------------------------------|\n| Natural gas | No |\n| Solar | Yes |\n| Coal | No |\n| Uranium | No |\n\nWhich resource should the manager choose, and why?",
+    "options": [
+      "Natural gas, because it burns cleanly",
+      "Coal, because there is a large supply underground",
+      "Solar, because it is renewable and is naturally replaced",
+      "Uranium, because it is renewable like sunlight"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.11 (resource management) | MAP: Earth & Space Science | SEP 6.2**\n\n**Step-by-step:** A **renewable** resource is naturally replaced within a human lifetime. From the table, only **solar** is naturally replaced, so it will not run out over generations.\n\n**Why the others are wrong:** A, B, and D (natural gas, coal, uranium) are all marked \"No\" — they are **nonrenewable**. D also wrongly calls uranium renewable.\n\n**Key concept:** Renewable resources (solar, wind, water) are naturally replenished; fossil fuels and uranium are nonrenewable.\n\n---\n\n# Instructional Area: Life Science",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q10",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "During summer in the Northern Hemisphere, the Sun's rays strike the ground more **directly** (closer to straight down) than during winter. Which statement **best** explains why more direct sunlight leads to warmer temperatures?",
+    "options": [
+      "Direct rays spread their energy over a smaller area, so the ground heats more",
+      "Direct rays spread their energy over a larger area, so the ground heats less",
+      "The Sun is physically much closer to Earth in the summer",
+      "Direct sunlight contains more total energy than the Sun produces in winter"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9A** — Seasons and Earth's tilt (recurring theme: cause & effect)\n\n**Explanation:** When rays hit the ground **directly** (near vertical), their energy is concentrated over a **smaller area**, so that area heats up more. In winter, the tilt makes rays strike at a slant, spreading the same energy over a larger area and heating less. This is the correct cause of warmer summers — **not** distance from the Sun.\n\n**Why the others are wrong:**\n- **B.** Direct rays cover a **smaller** area (concentrated), not larger.\n- **C.** Earth's distance from the Sun is **not** the cause of seasons (Earth is actually slightly farther in Northern-Hemisphere summer).\n- **D.** The Sun's total output doesn't change with our seasons; the **angle** of sunlight does.\n\n**Key concept:** Seasons are caused by Earth's axial tilt, which changes the **directness** (angle) of incoming sunlight.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q11",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A model of Earth's interior lists four layers by their properties.\n\n| Layer | Description |\n|-------|-------------|\n| W | Thin, solid, outermost rocky layer |\n| X | Thick layer of hot, slowly flowing solid rock |\n| Y | Liquid layer of molten iron and nickel |\n| Z | Solid, densest sphere at the very center |\n\nWhich layer is the **outer core**?",
+    "options": [
+      "Layer W",
+      "Layer X",
+      "Layer Y",
+      "Layer Z"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.10B** — Modeling Earth's layers (SEP 6.2 data interpretation)\n\n**Explanation:** Earth's layers, from outside in: **crust** (W — thin solid outer layer), **mantle** (X — thick, hot, slowly flowing solid rock), **outer core** (Y — **liquid** molten iron and nickel), and **inner core** (Z — solid, densest center). Layer **Y** is the **liquid outer core**.\n\n**Why the others are wrong:**\n- **A.** Layer W is the crust.\n- **B.** Layer X is the mantle.\n- **D.** Layer Z is the solid inner core.\n\n**Key concept:** Earth's structure is layered by composition and physical state — the outer core is the only **liquid** layer.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q12",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A city launches a program that recycles used aluminum cans into new cans instead of mining fresh aluminum ore. Which statement **best** describes the environmental benefit of this choice?",
+    "options": [
+      "It turns aluminum into a nonrenewable resource",
+      "It conserves natural resources and reduces the need to extract new ore",
+      "It has no effect because aluminum cannot be reused",
+      "It increases mining because more cans must be produced"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.11A** — Resource management (recurring theme: stability & change)\n\n**Explanation:** Recycling aluminum reuses metal that already exists, so the city needs to **mine less new ore**. This **conserves natural resources** and reduces the energy and environmental damage of extracting and processing fresh aluminum.\n\n**Why the others are wrong:**\n- **A.** Recycling does not change whether aluminum is renewable; it conserves the existing supply.\n- **C.** Aluminum is highly recyclable and can be reused many times.\n- **D.** Recycling reduces, not increases, the demand for new mining.\n\n**Key concept:** Reducing, reusing, and recycling conserve nonrenewable natural resources and reduce environmental impact.\n\n---\n\n# Instructional Area: Life Science",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q13",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "Every day, coastal areas experience a regular rise and fall of the ocean called **tides**. Which statement **best** explains the main cause of Earth's ocean tides?",
+    "options": [
+      "The gravitational pull of the Moon (with help from the Sun) on Earth's oceans",
+      "The heat of the Sun boiling the ocean water each afternoon",
+      "Strong winds pushing all of the ocean water toward the shore",
+      "Earth's daily rotation slowing the water down until it piles up"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.11 — Tides.**\n**Explanation:** Tides are caused mainly by the **Moon's gravitational pull** on Earth's oceans (the Sun contributes too). This pull creates bulges of water that produce the regular rise and fall of tides.\n**Why others are wrong:** B — the Sun's heat does not \"boil\" the ocean daily. C — wind produces waves, not the daily tide cycle. D — rotation affects timing but is not the cause of the pull.\n**Key concept:** Gravity from the Moon (and Sun) drives ocean tides.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q14",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "Over many years, the roots of a large tree grow into a crack in a granite boulder and slowly split the rock apart. Which **two** of Earth's systems (spheres) are interacting in this example?",
+    "options": [
+      "the hydrosphere and the atmosphere",
+      "the biosphere (the tree) and the geosphere (the rock)",
+      "the atmosphere and the geosphere",
+      "the hydrosphere and the biosphere"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.10A — Interacting Earth systems (spheres).**\n**Explanation:** The living **tree = biosphere**; the solid **rock = geosphere**. The tree's roots physically breaking the rock is a biosphere–geosphere interaction (a form of biological weathering).\n**Why others are wrong:** A, C, D each name at least one sphere (hydrosphere = water, atmosphere = air) that is not the main actor here.\n**Key concept:** Earth's spheres interact; living roots (biosphere) can break rock (geosphere).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q15",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "**[stretch]**\nDeep beneath a mountain range, an existing rock is exposed to intense **heat and pressure** over millions of years. The rock does **not** melt, but its minerals are squeezed into new bands and layers, forming a harder rock. Which type of rock has formed?",
+    "options": [
+      "an igneous rock",
+      "a sedimentary rock",
+      "a metamorphic rock",
+      "a liquid magma"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.10 — Rock cycle.**\n**Explanation:** Heat and pressure that change an existing rock **without melting it** produce a **metamorphic** rock; the squeezed mineral bands are a classic clue.\n**Why others are wrong:** A — igneous rock forms when melted magma/lava cools. B — sedimentary rock forms from compacted, cemented sediments. D — the rock did not melt into magma.\n**Key concept:** Metamorphic rock forms from heat + pressure without melting.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q16",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "When it is **summer** in the Northern Hemisphere, it is **winter** in the Southern Hemisphere at the same time. Which statement **best** explains why the two hemispheres have opposite seasons?",
+    "options": [
+      "Earth is much closer to the Sun for the Northern Hemisphere than for the Southern Hemisphere",
+      "Earth's tilt causes the hemisphere leaning toward the Sun to receive more direct sunlight while the other leans away",
+      "The Sun produces far more energy during the northern summer than during the southern winter",
+      "The two hemispheres are made of different materials that heat at different rates"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.11 — Seasons & Earth's tilt.**\n**Explanation:** Earth's **axial tilt** means that at any time one hemisphere leans toward the Sun (receiving more direct rays = summer) while the other leans away (indirect rays = winter). That is why the seasons are opposite.\n**Why others are wrong:** A — distance to the Sun is nearly the same for both hemispheres and is *not* the cause of seasons. C — the Sun's output does not swing with our seasons. D — both hemispheres are made of the same Earth materials.\n**Key concept:** Seasons result from Earth's tilt, not its distance from the Sun.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q17",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Earth & Space Science",
+    "question": "A student sorts four energy sources into a table.\n\n| Energy source | Can it be replaced quickly by nature? |\n|---------------|----------------------------------------|\n| Solar (sunlight) | Yes |\n| Coal | No — takes millions of years to form |\n| Wind | Yes |\n| Natural gas | No — takes millions of years to form |\n\nWhich row-pair lists **only nonrenewable** resources?",
+    "options": [
+      "Solar and wind",
+      "Coal and natural gas",
+      "Solar and coal",
+      "Wind and natural gas"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.11 — Natural resources / resource management.**\n**Explanation:** **Nonrenewable** resources cannot be replaced quickly by nature. Coal and natural gas each take millions of years to form, so **coal and natural gas** are the nonrenewable pair. Solar and wind are renewable.\n**Why others are wrong:** A lists two renewables; C and D each include a renewable (solar or wind).\n**Key concept:** Renewable resources replenish quickly; nonrenewable ones do not.\n\n---\n\n# Instructional Area: Life Science",
+    "source": "authored",
+    "needsReview": false
+  }
+]

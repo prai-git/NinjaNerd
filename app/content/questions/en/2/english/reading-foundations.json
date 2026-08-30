@@ -1,0 +1,172 @@
+[
+  {
+    "id": "english_g2_2026-08-29_23-09_q1",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Change the first sound in **chain** from /ch/ to /r/. Which word do you make?",
+    "options": [
+      "rain",
+      "ranch",
+      "train",
+      "reach"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. rain  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** **chain** is /ch/ /ā/ /n/. Replacing /ch/ with /r/ makes /r/ /ā/ /n/, or **rain**.  \n**Why the other answers are wrong:** B. ranch — it does not fit because **chain** is /ch/ /ā/ /n/. Replacing /ch/ with /r/ makes /r/ /ā/ /n/, or **rain**. C. train — it does not fit because **chain** is /ch/ /ā/ /n/. Replacing /ch/ with /r/ makes /r/ /ā/ /n/, or **rain**. D. reach — it does not fit because **chain** is /ch/ /ā/ /n/. Replacing /ch/ with /r/ makes /r/ /ā/ /n/, or **rain**.  \n**Key concept:** phoneme substitution  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q2",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word has a beginning blend and a trigraph?",
+    "options": [
+      "scratch",
+      "shout",
+      "bright",
+      "coach"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. scratch  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** **scratch** begins with the /s/ /k/ blend and ends with **tch**, a trigraph for /ch/.  \n**Why the other answers are wrong:** B. shout — it does not fit because **scratch** begins with the /s/ /k/ blend and ends with **tch**, a trigraph for /ch/. C. bright — it does not fit because **scratch** begins with the /s/ /k/ blend and ends with **tch**, a trigraph for /ch/. D. coach — it does not fit because **scratch** begins with the /s/ /k/ blend and ends with **tch**, a trigraph for /ch/.  \n**Key concept:** blends and trigraphs  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q3",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word has a short **u** sound?",
+    "options": [
+      "tune",
+      "cloud",
+      "lunch",
+      "fruit"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. lunch  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** In **lunch**, u says /ŭ/.  \n**Why the other answers are wrong:** A. tune — it does not fit because In **lunch**, u says /ŭ/. B. cloud — it does not fit because In **lunch**, u says /ŭ/. D. fruit — it does not fit because In **lunch**, u says /ŭ/.  \n**Key concept:** short-vowel decoding  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q4",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word is divided correctly into two closed syllables?",
+    "options": [
+      "rab/bit",
+      "ra/bbit",
+      "rabb/it",
+      "ra/bbi/t"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. rab/bit  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** **rabbit** divides as **rab/bit**; each part ends in a consonant.  \n**Why the other answers are wrong:** B. ra/bbit — it does not fit because **rabbit** divides as **rab/bit**; each part ends in a consonant. C. rabb/it — it does not fit because **rabbit** divides as **rab/bit**; each part ends in a consonant. D. ra/bbi/t — it does not fit because **rabbit** divides as **rab/bit**; each part ends in a consonant.  \n**Key concept:** closed syllables  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q5",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word has a vowel team with the long **e** sound?",
+    "options": [
+      "chief",
+      "bread",
+      "steak",
+      "wear"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. chief  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** The **ie** in **chief** spells long e.  \n**Why the other answers are wrong:** B. bread — it does not fit because The **ie** in **chief** spells long e. C. steak — it does not fit because The **ie** in **chief** spells long e. D. wear — it does not fit because The **ie** in **chief** spells long e.  \n**Key concept:** vowel teams  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q6",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word begins with a silent letter?",
+    "options": [
+      "gnome",
+      "giant",
+      "gather",
+      "guitar"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. gnome  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** The g in **gnome** is silent, so the word begins with /n/.  \n**Why the other answers are wrong:** B. giant — it does not fit because The g in **gnome** is silent, so the word begins with /n/. C. gather — it does not fit because The g in **gnome** is silent, so the word begins with /n/. D. guitar — it does not fit because The g in **gnome** is silent, so the word begins with /n/.  \n**Key concept:** silent letters  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q7",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word is a contraction for **they are**?",
+    "options": [
+      "their",
+      "there",
+      "they’re",
+      "theirs"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. they’re  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** The apostrophe in **they’re** replaces the missing a in **they are**.  \n**Why the other answers are wrong:** A. their — it does not fit because The apostrophe in **they’re** replaces the missing a in **they are**. B. there — it does not fit because The apostrophe in **they’re** replaces the missing a in **they are**. D. theirs — it does not fit because The apostrophe in **they’re** replaces the missing a in **they are**.  \n**Key concept:** contractions  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q8",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "What does **repack** mean?",
+    "options": [
+      "to pack again",
+      "to pack quickly",
+      "not to pack",
+      "a person who packs"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. to pack again  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** The prefix **re-** means “again,” so **repack** means pack again.  \n**Why the other answers are wrong:** B. to pack quickly — it does not fit because The prefix **re-** means “again,” so **repack** means pack again. C. not to pack — it does not fit because The prefix **re-** means “again,” so **repack** means pack again. D. a person who packs — it does not fit because The prefix **re-** means “again,” so **repack** means pack again.  \n**Key concept:** prefixes  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q9",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which list is in alphabetical order?",
+    "options": [
+      "acorn, apron, attic",
+      "apron, acorn, attic",
+      "attic, apron, acorn",
+      "acorn, attic, apron"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. acorn, apron, attic  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** After the first a, **ac** comes before **ap**, which comes before **at**.  \n**Why the other answers are wrong:** B. apron, acorn, attic — it does not fit because After the first a, **ac** comes before **ap**, which comes before **at**. C. attic, apron, acorn — it does not fit because After the first a, **ac** comes before **ap**, which comes before **at**. D. acorn, attic, apron — it does not fit because After the first a, **ac** comes before **ap**, which comes before **at**.  \n**Key concept:** alphabetizing  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q10",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "tomorow",
+      "tommorrow",
+      "tomorrow",
+      "tomorroe"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. tomorrow  \n**MAP area / TEKS:** Reading Foundations; 2.2A–D  \n**Explanation:** **tomorrow** has one m, two r letters, and ends in ow.  \n**Why the other answers are wrong:** A. tomorow — it does not fit because **tomorrow** has one m, two r letters, and ends in ow. B. tommorrow — it does not fit because **tomorrow** has one m, two r letters, and ends in ow. D. tomorroe — it does not fit because **tomorrow** has one m, two r letters, and ends in ow.  \n**Key concept:** spelling  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

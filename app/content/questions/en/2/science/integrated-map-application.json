@@ -1,0 +1,104 @@
+[
+  {
+    "id": "science_g2_2026-08-29_23-09_q45",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Integrated MAP Application",
+    "question": "*MAP Instructional Area: Integrated Science / Engineering | TEKS 2.6C,2.3A*\n\nA toy-animal bridge must not bend much. Which choice is best?",
+    "options": [
+      "Use stiff craft sticks for supports",
+      "Use wet tissue only",
+      "Use liquid supports",
+      "Choose only by color"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Use stiff craft sticks for supports  \n**MAP instructional area / TEKS:** Integrated Science / Engineering — TEKS 2.6C,2.3A  \n**Explanation:** The question tests **materials design**. The given evidence or condition supports “Use stiff craft sticks for supports,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “Use wet tissue only” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Use liquid supports” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Choose only by color” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Materials design.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q46",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Integrated MAP Application",
+    "question": "*MAP Instructional Area: Integrated Physical Science | TEKS 2.7A,2.5B*\n\nA soccer ball rolls into an empty box and the box slides. Why?",
+    "options": [
+      "The floor erased the box",
+      "The ball pushed the box and changed its position",
+      "The box pulled without touching",
+      "The ball turned into sound"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. The ball pushed the box and changed its position  \n**MAP instructional area / TEKS:** Integrated Physical Science — TEKS 2.7A,2.5B  \n**Explanation:** The question tests **forces motion**. The given evidence or condition supports “The ball pushed the box and changed its position,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “The floor erased the box” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “The box pulled without touching” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “The ball turned into sound” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Forces motion.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q47",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Integrated MAP Application",
+    "question": "*MAP Instructional Area: Integrated Physical Science | TEKS 2.8A,2.3A*\n\nA student feels a speaker buzzing while music plays. What evidence is this?",
+    "options": [
+      "Sound happens only when nothing moves",
+      "The speaker stopped",
+      "The speaker vibrates while making sound",
+      "Music turns hands into speakers"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. The speaker vibrates while making sound  \n**MAP instructional area / TEKS:** Integrated Physical Science — TEKS 2.8A,2.3A  \n**Explanation:** The question tests **evidence sound**. The given evidence or condition supports “The speaker vibrates while making sound,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Sound happens only when nothing moves” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “The speaker stopped” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “Music turns hands into speakers” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Evidence sound.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q48",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Integrated MAP Application",
+    "question": "*MAP Instructional Area: Integrated Engineering / Data | TEKS 2.2D,2.6C*\n\nWindbreaks keep P 5 leaves, Q 8 leaves, R 10 leaves. They work at 8 or more. Which meet it?\n\n| Prototype | Leaves kept |\n|---|---:|\n| P | 5 |\n| Q | 8 |\n| R | 10 |",
+    "options": [
+      "P only",
+      "P and Q",
+      "All three",
+      "Q and R"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Q and R  \n**MAP instructional area / TEKS:** Integrated Engineering / Data — TEKS 2.2D,2.6C  \n**Explanation:** The question tests **design evaluation**. The given evidence or condition supports “Q and R,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “P only” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “P and Q” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “All three” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Design evaluation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q49",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Integrated MAP Application",
+    "question": "*MAP Instructional Area: Integrated Science: Innovation | TEKS 2.4A-B*\n\nA scientist improves a filter before water reaches a garden. Why is this important?",
+    "options": [
+      "It may help people use cleaner water for plants",
+      "It proves all water is clean",
+      "It makes soil alive",
+      "Plants need no water"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. It may help people use cleaner water for plants  \n**MAP instructional area / TEKS:** Integrated Science: Innovation — TEKS 2.4A-B  \n**Explanation:** The question tests **scientists engineers**. The given evidence or condition supports “It may help people use cleaner water for plants,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “It proves all water is clean” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “It makes soil alive” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Plants need no water” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Scientists engineers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q50",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Integrated MAP Application",
+    "question": "*MAP Instructional Area: Integrated Science: Systems | TEKS 2.3A,2.5B,D,G*\n\nAfter rain, leaves block a drain and water collects near a garden. What explains this?",
+    "options": [
+      "The drain turned leaves to rocks",
+      "One changed part caused water to collect elsewhere",
+      "Leaves turned rain into sunlight",
+      "The garden needs no water"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. One changed part caused water to collect elsewhere  \n**MAP instructional area / TEKS:** Integrated Science: Systems — TEKS 2.3A,2.5B,D,G  \n**Explanation:** The question tests **systems explanation**. The given evidence or condition supports “One changed part caused water to collect elsewhere,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “The drain turned leaves to rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Leaves turned rain into sunlight” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “The garden needs no water” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Systems explanation.\n\n---\n\n# TEKS / Instructional-Area Coverage Summary\n\n| Required Grade 2 topic | MAP instructional area | TEKS | Question numbers |\n|---|---|---|---|\n| Safe tools, planning fair tests, observations/inferences, data, models, explanations, and designs | Scientific & Engineering Practices / Recurring Themes | 2.1A–G, 2.2A–D, 2.3A–C, 2.5A–G | 1–10, 14, 17, 47–48, 50 |\n| Scientists, engineers, innovation, and community benefit | Scientific & Engineering Practices | 2.4A–B | 8, 49 |\n| Matter properties and states; gas/magnet MAP foundations; mixtures; changes; materials/reassembly | Physical Science / Engineering | 2.6A–C; 2.1B/2.5E foundations | 11–15, 21–22, 45, 48 |\n| Pushes, pulls, collisions, shape, and motion | Physical Science | 2.7A–B | 16–17, 46 |\n| Sound vibrations, sound levels, and sound communication design | Physical Science | 2.8A–C | 18–20, 47 |\n| Sun light/heat, Moon reflection, and sky observation tools | Earth & Space Science | 2.9A–B | 23–24 |\n| Wind/water moving land; weather tables/graphs; severe weather | Earth & Space Science | 2.10A–C | 25–29 |\n| Natural/manmade resources and conservation | Earth & Space Science | 2.11A–B | 30–31 |\n| Rainfall, habitats, ecosystems, food chains, producers, and consumers | Life Science | 2.12A–B | 32–34, 44 |\n| Pollination and seed dispersal | Life Science | 2.12C | 35–36 |\n| Plant structures/functions; animal structures/behaviors; animal groups; frog/butterfly life cycles | Life Science | 2.13A–D | 37–43 |",
+    "source": "authored",
+    "needsReview": false
+  }
+]

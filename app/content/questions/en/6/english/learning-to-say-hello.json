@@ -1,0 +1,36 @@
+[
+  {
+    "id": "english_g6_2026-08-23_11-02_q18",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Learning to Say Hello",
+    "question": "Which feature BEST identifies \"Learning to Say Hello\" as a **memoir** rather than fiction?",
+    "options": [
+      "It is told by a first-person narrator describing a real, meaningful experience from the writer's own life.",
+      "It contains talking animals and imaginary events.",
+      "It uses headings, captions, and a diagram to organize facts.",
+      "It states a claim and tries to persuade the reader to agree."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8 · MAP: Literary Text**\n**Correct:** A memoir is **first-person nonfiction recounting a real, meaningful experience** from the writer's life — exactly what this essay does (learning ASL to connect with cousin Daniel).\n**Why others are wrong:** B describes fantasy fiction, C describes informational text, and D describes argumentative text.\n**Key concept:** Identifying genre characteristics of memoir/literary nonfiction.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q19",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Learning to Say Hello",
+    "question": "**[stretch]**\nThe narrator says the real reason they became friends was \"not because I learned his language perfectly, but because I was willing to be a beginner in front of him.\" This suggests the narrator learned that friendship grows most from —",
+    "options": [
+      "natural talent for languages",
+      "the willingness to keep trying and risk making mistakes",
+      "teaching others the right way to do things",
+      "spending an entire summer studying alone"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.5F · MAP: Literary Text · [stretch]**\n**Correct:** The narrator became friends \"not because I learned his language perfectly, but because I was willing to be a beginner\" — friendship grew from the **willingness to keep trying and risk mistakes**.\n**Why others are wrong:** A contradicts the text (it was not talent). C reverses the idea (the narrator was the learner). D ignores that the bond was with Daniel, not from solo study.\n**Key concept:** Drawing an inference from an author's reflective statement.\n\n---\n\n# Instructional Area: Informational & Argumentative — Paired Passages",
+    "source": "authored",
+    "needsReview": false
+  }
+]

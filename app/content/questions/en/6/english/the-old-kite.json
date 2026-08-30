@@ -1,0 +1,53 @@
+[
+  {
+    "id": "english_g6_2026-08-14_17-56_q8",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Old Kite",
+    "question": "Read these lines from the poem.\n\n> **The wind came knocking. The kite awoke.**\n\nThe poet uses **personification** in these lines mainly to —",
+    "options": [
+      "make the moment feel alive and signal that the kite is ready to fly",
+      "explain how wind is created in nature",
+      "warn the reader that a storm is coming",
+      "show that the kite is broken and cannot fly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Identifying personification and its effect.\n**Explanation:** Giving the wind the human action of \"knocking\" and the kite the ability to \"awoke\" makes the scene feel **alive** and signals the kite is about to fly.\n**Why others are wrong:** B, C, and D read the lines literally and miss the poetic effect.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q9",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Old Kite",
+    "question": "Which statement BEST describes the **central message** of the poem?",
+    "options": [
+      "Sometimes we hold on to the things we love, even when they long to be free.",
+      "Kites are dangerous to fly on windy days.",
+      "Winter is a better season than spring.",
+      "Flying kites is a waste of a person's time."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Determining the central message/theme of a poem.\n**Explanation:** The kite whispers \"*Let go, let go*,\" but the speaker \"held the line and would not let it go.\" The poem is about **holding on to something we love even when it longs to be free**.\n**Why others are wrong:** B, C, and D are literal or off-topic details never supported by the poem.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q10",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Old Kite",
+    "question": "The poet describes the kite as **\"a red diamond stitched to the width of the sky.\"** This description mainly helps the reader —",
+    "options": [
+      "picture how small and bright the kite looks against the huge sky",
+      "understand that the kite is made of real jewels",
+      "realize that the sky has turned red",
+      "learn that the kite has been torn"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** How imagery/metaphor creates a picture.\n**Explanation:** Calling the kite \"a red diamond stitched to the width of the sky\" helps the reader **picture how small and bright the kite looks** against the vast sky.\n**Why others are wrong:** B, C, and D take the image literally (real jewels, a red sky, a torn kite).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

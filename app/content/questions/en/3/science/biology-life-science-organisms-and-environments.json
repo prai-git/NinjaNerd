@@ -1,0 +1,189 @@
+[
+  {
+    "id": "science_g3_2026-08-29_23-09_q35",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A pond has much less rainfall than usual for several months. Which change is most likely to help a heron find enough food and water?",
+    "options": [
+      "Make sunlight disappear.",
+      "Turn into a rock until it rains.",
+      "Grow roots into the pond bottom.",
+      "Move to a wetter area with more fish."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Move to a wetter area with more fish.  \n**MAP area / TEKS:** Biology/Life Science / 3.12A.  \n**Explanation:** Less rainfall can lower pond water and reduce fish. Moving to a wetter place is a behavior that can help the heron find resources.  \n**Why the other answers are wrong:** A removes a needed energy source; B and C describe impossible changes for a heron.  \n**Key concept:** Effects of precipitation on animal behavior.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q36",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A meadow food chain is shown below.\n\n> grass → grasshopper → toad → hawk\n\nWhat do the arrows show?",
+    "options": [
+      "Hawks make grass grow by shining light on it.",
+      "Energy moves from the grass to the grasshopper and then to the other organisms.",
+      "Each organism turns into the next organism as it grows.",
+      "Toads give energy back to the grass by eating it."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Energy moves from the grass to the grasshopper and then to the other organisms.  \n**MAP area / TEKS:** Biology/Life Science / 3.12B, 3.5E.  \n**Explanation:** Food-chain arrows show energy moving from the organism eaten to the organism that eats it.  \n**Why the other answers are wrong:** A gives hawks an incorrect role; C confuses feeding with a life cycle; D reverses the energy direction.  \n**Key concept:** Energy flow in a food chain.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q37",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "In a field, bees pollinate flowering plants. Fewer bees remain after a disease spreads through the bee population. What is the most likely effect on the field ecosystem?",
+    "options": [
+      "Every animal in the field will hibernate.",
+      "The Sun will stop giving light to the field.",
+      "Some flowering plants may make fewer seeds because fewer flowers are pollinated.",
+      "All plants will immediately become insects."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Some flowering plants may make fewer seeds because fewer flowers are pollinated.  \n**MAP area / TEKS:** Biology/Life Science / 3.12B.  \n**Explanation:** Bees help many flowering plants reproduce by moving pollen. Fewer bees can lead to fewer pollinated flowers and fewer seeds.  \n**Why the other answers are wrong:** A is not caused by fewer bees; B does not follow from disease in bees; D describes an impossible immediate change.  \n**Key concept:** Predicting ecosystem effects when a food-chain or interaction changes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q38",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A flood covers a low forest area for two weeks. Which statement best explains why some organisms may thrive while others move away or perish?",
+    "options": [
+      "Flooding changes available shelter, food, and living conditions.",
+      "Flooding prevents water from affecting habitats.",
+      "Flooding changes an animal's species in one day.",
+      "Flooding makes all organisms identical."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Flooding changes available shelter, food, and living conditions.  \n**MAP area / TEKS:** Biology/Life Science / 3.12C, 3.5G.  \n**Explanation:** A flood changes habitat conditions. Organisms suited to wet conditions may do well, while others lose food or shelter and must move or may die.  \n**Why the other answers are wrong:** B denies the flood’s effect; C wrongly says a species changes in one day; D wrongly says all organisms become alike.  \n**Key concept:** Stability and change in environments.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q39",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A class finds a shell-shaped fossil in a dry Texas rock layer far from today's ocean. What is the best evidence-based conclusion?",
+    "options": [
+      "The shell grew in the rock yesterday.",
+      "Every rock layer on Earth was once an ocean.",
+      "The fossil proves that modern oceans have disappeared.",
+      "The area may have had an ocean or other water environment long ago."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. The area may have had an ocean or other water environment long ago.  \n**MAP area / TEKS:** Biology/Life Science / 3.12D.  \n**Explanation:** A shell fossil is evidence that a shell-producing organism lived there in the past, suggesting a former water environment.  \n**Why the other answers are wrong:** A ignores fossil formation; B overgeneralizes from one rock layer; C makes a claim about modern oceans that the fossil cannot prove.  \n**Key concept:** Fossils as evidence of past organisms and environments.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q40",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A desert owl has large ears that help it hear small animals moving under sand at night. How do the ears help the owl survive?",
+    "options": [
+      "They help the owl make sand.",
+      "They help the owl find food.",
+      "They help the owl grow roots.",
+      "They help the owl produce sunlight."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. They help the owl find food.  \n**MAP area / TEKS:** Biology/Life Science / 3.13A.  \n**Explanation:** Hearing small animals helps the owl locate prey, so its large ears are an external structure that supports survival.  \n**Why the other answers are wrong:** A, C, and D describe functions that owl ears cannot perform.  \n**Key concept:** Structure and function in animal survival.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q41",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A mangrove tree grows near salty coastal water. Its roots spread widely and hold the tree in soft mud. Which statement best connects structure and function?",
+    "options": [
+      "The roots let the tree hunt fish.",
+      "The roots change saltwater into rocks.",
+      "The wide roots help anchor the tree in its habitat.",
+      "The roots make the tree able to fly away from storms."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. The wide roots help anchor the tree in its habitat.  \n**MAP area / TEKS:** Biology/Life Science / 3.13A, 3.5F.  \n**Explanation:** The stated root structure spreads through soft mud, helping the mangrove remain upright in its coastal habitat.  \n**Why the other answers are wrong:** A describes animal behavior; B claims an impossible material change; D claims trees can fly.  \n**Key concept:** Relating an organism’s structure to its function.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q42",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "Which sequence correctly shows the life cycle of a beetle?",
+    "options": [
+      "egg → larva → pupa → adult",
+      "adult → egg → pupa → larva",
+      "larva → egg → adult → pupa",
+      "egg → pupa → larva → adult"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. egg → larva → pupa → adult.  \n**MAP area / TEKS:** Biology/Life Science / 3.13B.  \n**Explanation:** A beetle begins as an egg, becomes a larva, changes into a pupa, and then emerges as an adult.  \n**Why the other answers are wrong:** B, C, and D put the life stages out of their biological order.  \n**Key concept:** Comparing and sequencing organism life cycles.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q43",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "A lima bean seed is planted, sprouts, grows into a mature plant, and produces new seeds. What makes this a life cycle?",
+    "options": [
+      "The plant changes directly into an animal.",
+      "The mature plant never makes any new seeds.",
+      "The plant stays a seed for its whole life.",
+      "The stages repeat when new seeds begin growing."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. The stages repeat when new seeds begin growing.  \n**MAP area / TEKS:** Biology/Life Science / 3.13B.  \n**Explanation:** The mature plant makes seeds that can begin the sequence again, which is why the stages form a cycle.  \n**Why the other answers are wrong:** A is impossible; B and C deny key stages of the described plant cycle.  \n**Key concept:** Repeating stages in a plant life cycle.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q44",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "**MAP vertical-alignment review:** A young fox has thicker fur than another fox in the same habitat. During a cold winter, the thicker-furred fox stays warmer. Which statement best explains the difference?",
+    "options": [
+      "Winter causes a fox to become a different kind of organism.",
+      "A body trait can affect how well an animal survives in an environment.",
+      "Thick fur stops the fox from needing food and water.",
+      "Fur is a learned behavior that every fox chooses each morning."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. A body trait can affect how well an animal survives in an environment.  \n**MAP area / TEKS:** Biology/Life Science / MAP vertical-alignment review; related to 3.13A.  \n**Explanation:** The thicker fur helps the fox stay warm during cold weather, showing that a body trait can affect survival.  \n**Why the other answers are wrong:** A claims an instant species change; C ignores basic needs; D falsely says fur is a daily learned choice.  \n**Key concept:** Trait variation and survival.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q45",
+    "grade": 3,
+    "subject": "science",
+    "subtopic": "Biology/Life Science — Organisms and Environments",
+    "question": "Students observe a pond after a long hot, dry period. They count fewer tadpoles, less pond water, and more birds drinking at the remaining edge. Which explanation uses the strongest evidence from the observations?",
+    "options": [
+      "Tadpoles changed the weather by choosing to leave.",
+      "Birds created the drought by drinking pond water.",
+      "Lower water changed the pond conditions, affecting several organisms.",
+      "The pond ecosystem did not change because birds were present."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Lower water changed the pond conditions, affecting several organisms.  \n**MAP area / TEKS:** Biology/Life Science; Scientific & Engineering Practices / 3.12C, 3.3A.  \n**Explanation:** The observations connect less water with fewer tadpoles and changed bird behavior. This explanation uses several pieces of evidence rather than one unsupported claim.  \n**Why the other answers are wrong:** A reverses cause and effect; B gives birds power over weather; D ignores the observed changes.  \n**Key concept:** Constructing an evidence-based ecosystem explanation.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

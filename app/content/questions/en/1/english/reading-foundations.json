@@ -1,0 +1,172 @@
+[
+  {
+    "id": "english_g1_2026-08-29_20-26_q1",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word begins with the same sound as **sun**?",
+    "options": [
+      "map",
+      "sock",
+      "top",
+      "rug"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. sock**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(ii).  \n**Explanation:** *Sun* and *sock* begin with the /s/ sound.  \n**Why the other answers are wrong:** A *map* begins /m/; C *top* begins /t/; D *rug* begins /r/.  \n**Key concept:** Initial phoneme.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q2",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Say the sounds `/s/ /t/ /o/ /p/` slowly. Which word do the sounds make?",
+    "options": [
+      "spot",
+      "step",
+      "stop",
+      "stone"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. stop**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(v).  \n**Explanation:** Blend the four sounds in order: /s/ /t/ /o/ /p/ = *stop*.  \n**Why the other answers are wrong:** A has an extra /p/ sound; B has /e/ rather than /o/; D has extra sounds.  \n**Key concept:** Blending phonemes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q3",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word rhymes with **train**?",
+    "options": [
+      "chain",
+      "trim",
+      "trunk",
+      "bright"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. chain**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(i).  \n**Explanation:** *Train* and *chain* end with the same /ān/ sound.  \n**Why the other answers are wrong:** B ends /im/; C ends /unk/; D ends /īt/.  \n**Key concept:** Rhyme.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q4",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word has a **short a** sound?",
+    "options": [
+      "cake",
+      "rain",
+      "lamp",
+      "play"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. lamp**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(iii).  \n**Explanation:** The *a* in *lamp* says its short sound, /ă/.  \n**Why the other answers are wrong:** A, B, and D each have a long *a* sound, not a short *a* sound.  \n**Key concept:** Short-vowel recognition.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q5",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word has a **long i** sound spelled with a silent *e*?",
+    "options": [
+      "kit",
+      "kite",
+      "kick",
+      "kind"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. kite**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(iii).  \n**Explanation:** In *kite*, the final silent *e* makes *i* say /ī/.  \n**Why the other answers are wrong:** A has short i; C has short i; D has short i in this word.  \n**Key concept:** VCe long-vowel pattern.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q6",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word begins with the **sh** sound and rhymes with **hop**?",
+    "options": [
+      "ship",
+      "chip",
+      "shop",
+      "whip"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. shop**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(ii).  \n**Explanation:** *Shop* begins /sh/ and rhymes with *hop*.  \n**Why the other answers are wrong:** A begins /sh/ but does not rhyme; B begins /ch/; D begins /wh/.  \n**Key concept:** Digraph decoding and rhyme.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q7",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which word has a beginning blend?",
+    "options": [
+      "frog",
+      "fan",
+      "fig",
+      "fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. frog**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(ii).  \n**Explanation:** *Frog* starts with /f/ and /r/ together, a consonant blend.  \n**Why the other answers are wrong:** B, C, and D each begin with one consonant sound.  \n**Key concept:** Initial consonant blends.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q8",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Read the sentence.\n\n> The small bird **hopped** onto the fence.\n\nWhat does **hopped** mean?",
+    "options": [
+      "will hop later",
+      "is hopping now",
+      "hopped before now",
+      "cannot hop"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. hopped before now**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(v).  \n**Explanation:** The ending *-ed* shows the bird hopped in the past.  \n**Why the other answers are wrong:** A is future tense; B is present-progressive; D changes the meaning.  \n**Key concept:** Inflectional ending *-ed*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q9",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which two words make the compound word **sunset**?",
+    "options": [
+      "sun + set",
+      "sunny + set",
+      "sun + sit",
+      "summer + set"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. sun + set**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(iv).  \n**Explanation:** Joining *sun* and *set* makes the compound word *sunset*.  \n**Why the other answers are wrong:** B, C, and D do not join to spell *sunset*.  \n**Key concept:** Compound words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q10",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Reading Foundations",
+    "question": "Which list is in alphabetical order?",
+    "options": [
+      "ant, ape, bat",
+      "bat, ant, ape",
+      "ape, bat, ant",
+      "ant, bat, ape"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. ant, ape, bat**  \n**MAP area / TEKS:** Reading Foundations; 1.2E.  \n**Explanation:** *Ant* comes before *ape* because *n* comes before *p*; both come before *bat*.  \n**Why the other answers are wrong:** B, C, and D place at least one word out of alphabetical order.  \n**Key concept:** Alphabetizing to the second letter.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

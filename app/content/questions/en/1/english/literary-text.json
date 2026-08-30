@@ -1,0 +1,206 @@
+[
+  {
+    "id": "english_g1_2026-08-29_20-26_q18",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Why did Mina put the jar outside?",
+    "options": [
+      "She wanted to catch a bug.",
+      "She wanted to measure rain.",
+      "She wanted to make lemonade.",
+      "She wanted to water a plant."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. She wanted to measure rain.**  \n**MAP area / TEKS:** Literary Text; 1.8B.  \n**Explanation:** The first sentence says Mina wanted to know how much rain fell.  \n**Why the other answers are wrong:** A, C, and D are never given as Mina's purpose.  \n**Key concept:** Character motivation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q19",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Which action shows that Mina is careful?",
+    "options": [
+      "She went to sleep.",
+      "She smiled at Grandad.",
+      "She marked the water line before pouring.",
+      "She put the jar outside."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. She marked the water line before pouring.**  \n**MAP area / TEKS:** Literary Text; 1.8B.  \n**Explanation:** Marking the level preserves information so Mina can compare rain.  \n**Why the other answers are wrong:** A and D are ordinary events; B does not show careful measuring.  \n**Key concept:** Character action and trait.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q20",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "What was Mina's problem in the story?",
+    "options": [
+      "She did not know how to use her notes.",
+      "She wanted to learn how much rain had fallen.",
+      "She could not find a jar.",
+      "She wanted the next day to be rainy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. She wanted to learn how much rain had fallen.**  \n**MAP area / TEKS:** Literary Text; 1.8C.  \n**Explanation:** This goal starts the story and Mina solves it by marking the water line.  \n**Why the other answers are wrong:** A is untrue; C is not a problem; D is not Mina's stated goal.  \n**Key concept:** Story problem.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q21",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Which event happened **last**?",
+    "options": [
+      "Mina made a line on the jar.",
+      "Mina put out a jar.",
+      "Mina saw water in the jar.",
+      "Mina checked the jar on the sunny day."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer: D. Mina checked the jar on the sunny day.**  \n**MAP area / TEKS:** Literary Text; 1.8C.  \n**Explanation:** The sunny-day check happens after Mina set out and marked the jar.  \n**Why the other answers are wrong:** A, B, and C occurred the night before or the following morning.  \n**Key concept:** Sequence of events.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q22",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "What can the reader infer about Grandad?",
+    "options": [
+      "He helps Mina learn from her observations.",
+      "He does not like rainy days.",
+      "He wants Mina to throw away the jar.",
+      "He forgot why Mina put out the jar."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. He helps Mina learn from her observations.**  \n**MAP area / TEKS:** Literary Text; 1.6F.  \n**Explanation:** Grandad tells Mina to mark the line, which makes her observation useful.  \n**Why the other answers are wrong:** B, C, and D are not supported by what he says or does.  \n**Key concept:** Inference with text evidence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q23",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "What is the setting at the beginning of the story?\n\n\n\n### Read the original poem. Then answer Questions 24–26.\n\n### Puddle Parade\n\nBoots go **splash** on the sidewalk gray.  \nSmall clouds scoot, then drift away.  \nA puddle holds a silver sky.  \nMy red umbrella marches by.",
+    "options": [
+      "inside a library during lunch",
+      "outside Mina's home before bedtime",
+      "at a zoo in the afternoon",
+      "in a classroom during a snowstorm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. outside Mina's home before bedtime**  \n**MAP area / TEKS:** Literary Text; 1.8D.  \n**Explanation:** Mina puts the jar outside “before bedtime,” establishing place and time.  \n**Why the other answers are wrong:** A, C, and D are settings not found in the story.  \n**Key concept:** Setting.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q24",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Which two words rhyme in the poem?",
+    "options": [
+      "boots and clouds",
+      "gray and away",
+      "puddle and silver",
+      "red and my"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. gray and away**  \n**MAP area / TEKS:** Literary Text; 1.9B.  \n**Explanation:** Both words end with the /ā/ sound.  \n**Why the other answers are wrong:** A, C, and D do not have matching ending sounds.  \n**Key concept:** Rhyme in poetry.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q25",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "What does the word **splash** help the reader imagine?",
+    "options": [
+      "the sound boots make in water",
+      "the color of the umbrella",
+      "the size of the sidewalk",
+      "the time of day"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. the sound boots make in water**  \n**MAP area / TEKS:** Literary Text; 1.9B.  \n**Explanation:** *Splash* is a sound word for stepping in a puddle.  \n**Why the other answers are wrong:** B, C, and D are not sounds suggested by *splash*.  \n**Key concept:** Sound words in poetry.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q26",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "What does the poet mean by “My red umbrella **marches** by”?\n\n\n\n### Read this practical reading material. Then answer Questions 27–29.\n\n### Library Book Return Tag\n\n**Book:** *Moon Mice*  \n**Return by:** Friday, October 9  \n**Put the book:** In the blue return slot  \n**If the book is wet:** Give it to the librarian",
+    "options": [
+      "The umbrella is in a parade by itself.",
+      "The umbrella moves along as the speaker walks.",
+      "The umbrella is made of soldiers.",
+      "The umbrella is standing still."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. The umbrella moves along as the speaker walks.**  \n**MAP area / TEKS:** Literary Text; 1.10D.  \n**Explanation:** The poet uses *marches* to make the moving umbrella vivid.  \n**Why the other answers are wrong:** A and C take the words literally; D contradicts “marches.”  \n**Key concept:** Visualizing an author's word choice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q27",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Where should a dry copy of *Moon Mice* be returned?",
+    "options": [
+      "on a red table",
+      "in the blue return slot",
+      "at a bookstore",
+      "under a chair"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. in the blue return slot**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** The tag directly gives this location for the book.  \n**Why the other answers are wrong:** A, C, and D are not return locations on the tag.  \n**Key concept:** Locating information in a practical text.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q28",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Why is “If the book is wet” printed on the tag?",
+    "options": [
+      "to tell how to get a library card",
+      "to explain what to do in a special case",
+      "to give the book's title",
+      "to show the book's author"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. to explain what to do in a special case**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** The tag gives a different action if the book is wet.  \n**Why the other answers are wrong:** A is not discussed; C is elsewhere; D is not included.  \n**Key concept:** Purpose of a text feature.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q29",
+    "grade": 1,
+    "subject": "english",
+    "subtopic": "Literary Text",
+    "question": "Which task must happen before the due date?",
+    "options": [
+      "Return *Moon Mice*.",
+      "Buy a blue slot.",
+      "Make the book wet.",
+      "Change the librarian's name."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. Return *Moon Mice*.**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** “Return by Friday, October 9” gives a required deadline.  \n**Why the other answers are wrong:** B, C, and D are not directions on the tag.  \n**Key concept:** Using a due-date detail.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

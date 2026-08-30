@@ -1,0 +1,87 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q7",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Human Body Systems",
+    "question": "What is the **primary function** of the heart in the circulatory system?",
+    "options": [
+      "To filter waste products from the blood",
+      "To exchange oxygen and carbon dioxide with the air",
+      "To pump blood throughout the body",
+      "To produce red blood cells"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.13 | Topic: Circulatory System**\n\n**Correct Answer:** C) To pump blood throughout the body\n\n**Explanation:**\nThe heart is a muscular organ that acts as the pump of the circulatory system. It contracts rhythmically to push blood through the blood vessels (arteries, veins, and capillaries) to deliver oxygen and nutrients to all cells in the body and to carry away carbon dioxide and waste.\n\n**Why the other answers are wrong:**\n- **A) Filter waste** — The kidneys filter waste from the blood; this is the excretory system.\n- **B) Exchange oxygen and carbon dioxide** — This is done by the lungs in the respiratory system.\n- **D) Produce red blood cells** — Red blood cells are produced in the bone marrow, which is part of the skeletal system.\n\n**Key concept:** Heart → pumps blood → circulatory system → delivers oxygen and nutrients\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q8",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Human Body Systems",
+    "question": "In the human lungs, gas exchange between air and blood takes place in tiny, sac-like structures. What are these structures called?",
+    "options": [
+      "Bronchi",
+      "Trachea",
+      "Alveoli",
+      "Capillaries"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.13 | Topic: Respiratory System**\n\n**Correct Answer:** C) Alveoli\n\n**Explanation:**\nAlveoli are tiny, balloon-like air sacs at the end of the smallest airways in the lungs. The walls of alveoli are extremely thin and surrounded by capillaries (tiny blood vessels). This is where:\n- Oxygen passes from the air INTO the blood\n- Carbon dioxide passes from the blood INTO the air (to be exhaled)\n\nAn adult human has approximately 300 million alveoli, providing a huge surface area for gas exchange.\n\n**Why the other answers are wrong:**\n- **A) Bronchi** — The bronchi are larger tubes that carry air from the trachea into each lung. They do not perform gas exchange.\n- **B) Trachea** — The trachea (windpipe) is the tube that carries air from the throat to the bronchi.\n- **D) Capillaries** — Capillaries are tiny blood vessels that surround the alveoli, but the gas exchange itself happens AT the alveoli walls.\n\n**Key concept:** Alveoli = tiny air sacs in lungs = location of gas exchange (oxygen in, carbon dioxide out)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q9",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Human Body Systems",
+    "question": "After food is broken down, where does **most** nutrient absorption take place?",
+    "options": [
+      "Stomach",
+      "Large intestine",
+      "Esophagus",
+      "Small intestine"
+    ],
+    "correctIndex": 3,
+    "explanation": "**TEKS 5.13 | Topic: Digestive System**\n\n**Correct Answer:** D) Small intestine\n\n**Explanation:**\nAfter food is broken down in the stomach into a liquid mixture, it moves into the small intestine. The small intestine is about 20 feet long and has millions of tiny finger-like projections called **villi** that increase the surface area for absorbing nutrients (sugars, amino acids, fatty acids, vitamins, minerals) into the bloodstream.\n\n**Why the other answers are wrong:**\n- **A) Stomach** — The stomach breaks food down using acid and enzymes into a thick liquid called chyme, but absorbs very little.\n- **B) Large intestine** — The large intestine absorbs water and forms solid waste (feces), but does NOT absorb the main nutrients from food.\n- **C) Esophagus** — The esophagus is a muscular tube that moves food from the mouth to the stomach; it does not absorb anything.\n\n**Key concept:** Small intestine = nutrient absorption (despite its name, it is very long and is the main absorber)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q10",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Human Body Systems",
+    "question": "Which organ is part of the **excretory system** and filters waste from the blood to produce urine?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Pancreas",
+      "Stomach"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.13 | Topic: Excretory System**\n\n**Correct Answer:** B) Kidney\n\n**Explanation:**\nThe kidneys are bean-shaped organs in the excretory system. They filter the blood to remove waste products (such as urea, which is produced when the body breaks down proteins) and excess water. The filtered waste becomes urine, which travels to the bladder through tubes called ureters, and is eventually eliminated from the body.\n\n**Why the other answers are wrong:**\n- **A) Liver** — The liver detoxifies chemicals and produces bile for digestion, but the kidneys produce urine.\n- **C) Pancreas** — The pancreas produces digestive enzymes and insulin (a hormone that regulates blood sugar). It does not filter blood to produce urine.\n- **D) Stomach** — The stomach is part of the digestive system and breaks down food using acid. It does not filter blood.\n\n**Key concept:** Kidneys → filter blood → produce urine → excretory system\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q11",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Human Body Systems",
+    "question": "A student is researching which body systems work together to allow movement. Which **two** systems work together to allow the human body to move?",
+    "options": [
+      "Digestive and circulatory systems",
+      "Muscular and skeletal systems",
+      "Respiratory and nervous systems",
+      "Endocrine and excretory systems"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.13 | Topic: Body System — Locomotion**\n\n**Correct Answer:** B) Muscular and skeletal systems\n\n**Explanation:**\nMovement in the human body requires two systems working together:\n- **Skeletal system** — provides the rigid framework (bones and joints) that acts as levers\n- **Muscular system** — muscles attach to bones via tendons and contract/relax to pull the bones and create movement\n\nTogether, these systems allow you to walk, run, write, and perform any physical motion.\n\n**Why the other answers are wrong:**\n- **A) Digestive and circulatory** — These systems process food and deliver nutrients; they do not directly cause body movement.\n- **C) Respiratory and nervous** — While the nervous system sends signals to muscles, the respiratory system (lungs) does not cause movement. Movement itself requires muscles AND bones.\n- **D) Endocrine and excretory** — These systems deal with hormones and waste removal, not movement.\n\n**Key concept:** Muscles + Bones = Movement (muscular system pulls the bones of the skeletal system)\n\n---\n\n---\n\n## Section 3: Plants — Photosynthesis, Flower Parts, and Life Cycles\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

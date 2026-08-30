@@ -1,0 +1,70 @@
+[
+  {
+    "id": "english_g6_2026-08-14_17-56_q4",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The First Bowl",
+    "question": "Which statement BEST expresses the **theme** of \"The First Bowl\"?",
+    "options": [
+      "Learning a new skill takes patience and practice.",
+      "Grandmothers always know how to fix any problem.",
+      "Making pottery is easier than it looks.",
+      "It is better to give up than to keep failing."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Determining the theme (central message) of a story.\n**Explanation:** Marcus fails at first, his grandmother reminds him she \"ruined forty bowls,\" and by the end he slows down and the clay steadies. The message is that learning a skill takes **patience and practice**.\n**Why others are wrong:** B overstates Grandma's role; C is contradicted by how hard the task is; D is the opposite of the story's message.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q5",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The First Bowl",
+    "question": "How does Marcus MOST change from the beginning of the passage to the end?",
+    "options": [
+      "He goes from frustrated and impatient to calmer and more patient.",
+      "He goes from confident to fearful.",
+      "He goes from bored to angry.",
+      "He goes from proud to embarrassed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Analyzing how a character changes.\n**Explanation:** Marcus starts frustrated (\"I'll never get it,\" his \"face grew hot\") but ends calmer — he \"took a breath and started again, slower this time.\" He becomes **more patient**.\n**Why others are wrong:** He was never confident (B) or bored (C) at the start; his change is toward calm, not embarrassment (D).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q6",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The First Bowl",
+    "question": "Read this sentence from the passage.\n\n> He pressed the wet lump down the way she had shown him, but it **wobbled and slid to one side like a small gray boat caught in a current.**\n\nWhat does this **simile** help the reader understand?",
+    "options": [
+      "The clay was unsteady and hard for Marcus to control.",
+      "Marcus was working near a river.",
+      "The clay was shaped exactly like a boat.",
+      "The clay was cold and wet."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Interpreting a simile (a comparison using *like* or *as*).\n**Explanation:** Comparing the clay to \"a small gray boat caught in a current\" shows the clay was **unsteady and hard to control**, slipping and sliding.\n**Why others are wrong:** B and D take the comparison literally; C confuses the comparison with the clay's actual shape.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q7",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The First Bowl",
+    "question": "Which sentence from the passage BEST shows that Grandma wants Marcus to learn **on his own**?\n\n\n\n*Read the poem below and answer questions 8–10.*",
+    "options": [
+      "\"'Center it first,' Grandma said quietly, not reaching to help.\"",
+      "\"Grandma picked up the fallen clay and set it back in his hands.\"",
+      "\"'I ruined forty bowls before I made one worth keeping,' she said.\"",
+      "\"It was still warm from his grip.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Citing text evidence for an idea.\n**Explanation:** \"not reaching to help\" directly shows Grandma is letting Marcus work it out **on his own**.\n**Why others are wrong:** B shows her helping physically; C is encouragement, not independence; D is a sensory detail unrelated to the idea.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

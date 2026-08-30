@@ -1,0 +1,70 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q33",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Forces, Motion, and Energy",
+    "question": "A book rests on a table. Gravity pulls the book **downward** with 12 Newtons of force. The table pushes the book **upward** with 12 Newtons. Which statement **best** describes what will happen to the book?",
+    "options": [
+      "The book will accelerate downward because gravity is pulling it",
+      "The book will remain at rest because the forces are balanced",
+      "The book will accelerate upward because the table is pushing it",
+      "The book will slide sideways as the equal forces cancel each other"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.7 | Topic: Balanced Forces**\n\n**Correct Answer:** B) The book will remain at rest because the forces are balanced\n\n**Explanation:**\nWhen forces acting on an object are **equal in size and opposite in direction**, they are called **balanced forces**. Balanced forces do NOT cause a change in motion — an object at rest stays at rest, and a moving object continues at the same speed and direction.\n\nIn this case:\n- Gravity pulls DOWN with 12 N\n- Table pushes UP with 12 N (this is called the \"normal force\")\n- Net force = 12 N - 12 N = **0 N**\n- Result: The book stays at rest\n\n**Why the other answers are wrong:**\n- **A) Accelerates downward** — The upward force from the table exactly cancels gravity. There is no net downward force.\n- **C) Accelerates upward** — The table's force exactly matches gravity; there is no net upward force.\n- **D) Moves sideways** — There are no sideways forces acting on the book.\n\n**Key concept:** Balanced forces = equal and opposite = NO change in motion = object stays still (or keeps moving at same speed)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q34",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Forces, Motion, and Energy",
+    "question": "Two students push a cart from opposite sides. Student A pushes with **15 Newtons** to the right and Student B pushes with **25 Newtons** to the left. What will happen to the cart?",
+    "options": [
+      "The cart will stay still because both students are pushing it",
+      "The cart will move to the right because Student A pushed first",
+      "The cart will move to the left because the forces are unbalanced",
+      "The cart will move to the right because the net force acts to the right"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.7 | Topic: Unbalanced Forces**\n\n**Correct Answer:** C) The cart will move to the left because the forces are unbalanced\n\n**Explanation:**\nWhen forces are **unbalanced** (unequal), the object will move in the direction of the **greater force**.\n\n- Student A pushes RIGHT with 15 N\n- Student B pushes LEFT with 25 N\n- Net force = 25 N - 15 N = **10 N to the LEFT**\n\nSince there is a net force of 10 N to the left, the cart will accelerate to the left.\n\n**Why the other answers are wrong:**\n- **A) Stays still** — Forces are NOT equal (15 N ≠ 25 N), so they are not balanced. The cart will move.\n- **B) Moves right because Student A pushed first** — Direction and timing of who pushed first don't matter. The cart moves in the direction of the greater net force.\n- **D) Moves right because forces are balanced** — The forces are NOT balanced (25 N > 15 N), and the net force is to the LEFT, not the right.\n\n**Key concept:** Unbalanced forces → object moves in direction of the LARGER force. Net force = difference in opposing forces.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q35",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Forces, Motion, and Energy",
+    "question": "A student applies the **same amount of force** to two different carts. Cart A has a mass of **3 kg** and Cart B has a mass of **9 kg**. Which cart will have **greater acceleration**?",
+    "options": [
+      "Cart B, because heavier objects always move faster",
+      "Cart A, because with the same force, less mass results in greater acceleration",
+      "Both carts will accelerate at exactly the same rate",
+      "Cart B, because it has more momentum stored in its mass"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.7 | Topic: Mass and Acceleration**\n\n**Correct Answer:** B) Cart A, because with the same force, less mass results in greater acceleration\n\n**Explanation:**\nThis is Newton's Second Law of Motion: **Force = Mass × Acceleration**, or rearranged: **Acceleration = Force ÷ Mass**\n\nIf the same force is applied to both carts:\n- Cart A (3 kg): Acceleration = Force ÷ 3 → **more** acceleration\n- Cart B (9 kg): Acceleration = Force ÷ 9 → **less** acceleration\n\nThe cart with **less mass** (Cart A) will accelerate more when the same force is applied.\n\nThink of it this way: it's easier to push an empty shopping cart than a full one with the same amount of effort.\n\n**Why the other answers are wrong:**\n- **A) Cart B accelerates more** — Greater mass with the same force means LESS acceleration, not more.\n- **C) Both accelerate equally** — The masses are different (3 kg vs 9 kg), so they accelerate differently.\n- **D) Cart B has more momentum** — Even if Cart B eventually builds more momentum, it will accelerate more SLOWLY than Cart A.\n\n**Key concept:** Same force, less mass → MORE acceleration. Same force, more mass → LESS acceleration.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q36",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Forces, Motion, and Energy",
+    "question": "Two identical balls are rolled down a ramp. Ball A reaches a speed of **2 m/s** and Ball B reaches a speed of **4 m/s**. Which statement about **kinetic energy** is correct?",
+    "options": [
+      "Ball A has more kinetic energy because slower speed means more stored energy",
+      "Ball B has more kinetic energy because it is moving at a greater speed",
+      "Both balls have equal kinetic energy because they have the same mass",
+      "Ball A has more kinetic energy because it is more stable at a slower speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.7 | Topic: Speed and Kinetic Energy**\n\n**Correct Answer:** B) Ball B has more kinetic energy because it is moving at a greater speed\n\n**Explanation:**\n**Kinetic energy** is the energy of motion. It depends on both mass and speed:\n> Kinetic Energy = ½ × mass × speed²\n\nSince both balls have the SAME mass, the ball moving FASTER will have MORE kinetic energy.\n- Ball A (2 m/s): KE = ½ × m × 4 = 2m units\n- Ball B (4 m/s): KE = ½ × m × 16 = 8m units\n\nBall B has **4 times more** kinetic energy than Ball A (because speed is squared in the formula).\n\nReal-world example: A car moving at 60 mph has MUCH more kinetic energy (and causes more damage in a crash) than the same car moving at 30 mph.\n\n**Why the other answers are wrong:**\n- **A) Slower = more energy** — This is wrong. Slower speed = LESS kinetic energy.\n- **C) Equal kinetic energy** — Equal mass does NOT mean equal kinetic energy if speeds are different.\n- **D) Speed doesn't affect energy** — Speed is a critical factor in kinetic energy. Doubling speed quadruples kinetic energy.\n\n**Key concept:** Greater speed → Greater kinetic energy (for objects of the same mass)\n\n---\n\n---\n\n## Section 10: Waves, Magnetism, and Electricity\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

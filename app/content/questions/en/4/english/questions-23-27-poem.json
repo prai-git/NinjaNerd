@@ -1,0 +1,87 @@
+[
+  {
+    "id": "english_g4_2026-08-29_23-09_q23",
+    "grade": 4,
+    "subject": "english",
+    "subtopic": "Questions 23–27 — Poem",
+    "question": "**TEKS 4.9D [R]**  \n“The hallway yawns” suggests the hall is—",
+    "options": [
+      "quiet before school",
+      "hungry",
+      "angry",
+      "falling down"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. quiet before school  \n**TEKS:** 4.9D [R]  \n**Text-evidence-based explanation:** Personification makes the empty hall seem sleepy. **Evidence:** P4 line 1.  \n**Why other answers are wrong:** B (“hungry”) is not supported by the cited text or does not answer the skill asked; C (“angry”) is not supported by the cited text or does not answer the skill asked; D (“falling down”) is not supported by the cited text or does not answer the skill asked.  \n**Key concept:** personification.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-08-29_23-09_q24",
+    "grade": 4,
+    "subject": "english",
+    "subtopic": "Questions 23–27 — Poem",
+    "question": "**TEKS 4.9D**  \nWhich phrase has alliteration?",
+    "options": [
+      "laughter skips",
+      "paper plane",
+      "door to door",
+      "wakes to start"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. paper plane  \n**TEKS:** 4.9D  \n**Text-evidence-based explanation:** Paper and plane repeat the initial /p/ sound. **Evidence:** P4 line 6.  \n**Why other answers are wrong:** A (“laughter skips”) is not supported by the cited text or does not answer the skill asked; C (“door to door”) is not supported by the cited text or does not answer the skill asked; D (“wakes to start”) is not supported by the cited text or does not answer the skill asked.  \n**Key concept:** alliteration.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-08-29_23-09_q25",
+    "grade": 4,
+    "subject": "english",
+    "subtopic": "Questions 23–27 — Poem",
+    "question": "**TEKS 4.8B**  \nWhat is the rhyme scheme of stanza 1?",
+    "options": [
+      "AABB",
+      "ABAB",
+      "ABBA",
+      "AAAA"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. AABB  \n**TEKS:** 4.8B  \n**Text-evidence-based explanation:** light/tight rhyme, then beat/feet rhyme. **Evidence:** P4 lines 1–4.  \n**Why other answers are wrong:** B (“ABAB”) is not supported by the cited text or does not answer the skill asked; C (“ABBA”) is not supported by the cited text or does not answer the skill asked; D (“AAAA”) is not supported by the cited text or does not answer the skill asked.  \n**Key concept:** rhyme scheme.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-08-29_23-09_q26",
+    "grade": 4,
+    "subject": "english",
+    "subtopic": "Questions 23–27 — Poem",
+    "question": "**TEKS 4.9D [R]**  \n“The quiet folds its wings away” shows that—",
+    "options": [
+      "silence disappears as activity begins.",
+      "A bird is trapped.",
+      "Students are afraid.",
+      "School closes early."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. silence disappears as activity begins.  \n**TEKS:** 4.9D [R]  \n**Text-evidence-based explanation:** Quiet is figuratively leaving as laughter begins. **Evidence:** P4 lines 5–8.  \n**Why other answers are wrong:** B (“A bird is trapped.”) is not supported by the cited text or does not answer the skill asked; C (“Students are afraid.”) is not supported by the cited text or does not answer the skill asked; D (“School closes early.”) is not supported by the cited text or does not answer the skill asked.  \n**Key concept:** imagery.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-08-29_23-09_q27",
+    "grade": 4,
+    "subject": "english",
+    "subtopic": "Questions 23–27 — Poem",
+    "question": "**TEKS 4.8B**  \nThe poem’s central message is—",
+    "options": [
+      "A place can change from stillness to energy as people arrive.",
+      "Schools need lockers.",
+      "Planes are dangerous.",
+      "Morning stays silent."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. A place can change from stillness to energy as people arrive.  \n**TEKS:** 4.8B  \n**Text-evidence-based explanation:** The poem moves from a quiet hall to a lively school. **Evidence:** P4.  \n**Why other answers are wrong:** B (“Schools need lockers.”) is not supported by the cited text or does not answer the skill asked; C (“Planes are dangerous.”) is not supported by the cited text or does not answer the skill asked; D (“Morning stays silent.”) is not supported by the cited text or does not answer the skill asked.  \n**Key concept:** poetry theme.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

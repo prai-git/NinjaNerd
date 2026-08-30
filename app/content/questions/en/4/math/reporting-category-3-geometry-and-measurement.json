@@ -1,0 +1,257 @@
+[
+  {
+    "id": "math_g4_2026-08-29_23-09_q26",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.5A [R]**  \nRosa buys 4 packs of 18 stickers and gives away 15. Which equation gives $n$ left?",
+    "options": [
+      "$4\\times18-15=n$",
+      "$4+18-15=n$",
+      "$18\\div4+15=n$",
+      "$15\\times4-18=n$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $4\\times18-15=n$  \n**TEKS:** 4.5A [R]  \n**Step-by-step solution:** Four groups of 18 are multiplied, then 15 are removed.  \n**Why other answers are wrong:** B (“$4+18-15=n$”) uses a different operation, place, or interpretation than the evidence requires; C (“$18\\div4+15=n$”) uses a different operation, place, or interpretation than the evidence requires; D (“$15\\times4-18=n$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** equations for situations.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q28",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.5C**  \nWhat rule describes $3,9,27,81,\\ldots$?",
+    "options": [
+      "multiply by 3",
+      "add 6",
+      "multiply by 2 then add 3",
+      "add 18"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. multiply by 3  \n**TEKS:** 4.5C  \n**Step-by-step solution:** Every term is three times the preceding term.  \n**Why other answers are wrong:** B (“add 6”) uses a different operation, place, or interpretation than the evidence requires; C (“multiply by 2 then add 3”) uses a different operation, place, or interpretation than the evidence requires; D (“add 18”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** multiplicative patterns.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q29",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.5C**  \nA table has $(1,7),(2,10),(3,13)$. Which rule works?",
+    "options": [
+      "$y=3x+4$",
+      "$y=x+6$",
+      "$y=4x+3$",
+      "$y=3x$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $y=3x+4$  \n**TEKS:** 4.5C  \n**Step-by-step solution:** The outputs rise by 3; $3(1)+4=7$ and the rule fits all pairs.  \n**Why other answers are wrong:** B (“$y=x+6$”) uses a different operation, place, or interpretation than the evidence requires; C (“$y=4x+3$”) uses a different operation, place, or interpretation than the evidence requires; D (“$y=3x$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** table patterns.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q30",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.5D**  \nWhich unit measures the volume of a storage box?",
+    "options": [
+      "cubic centimeters",
+      "centimeters",
+      "square centimeters",
+      "degrees"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. cubic centimeters  \n**TEKS:** 4.5D  \n**Step-by-step solution:** Volume measures three-dimensional space, so it uses cubic units.  \n**Why other answers are wrong:** B (“centimeters”) uses a different operation, place, or interpretation than the evidence requires; C (“square centimeters”) uses a different operation, place, or interpretation than the evidence requires; D (“degrees”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** volume units.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q31",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.6A [R]**  \nWhich statement about every square is true?",
+    "options": [
+      "It has two pairs of parallel sides and adjacent perpendicular sides.",
+      "It has exactly one pair of parallel sides.",
+      "It has no right angles.",
+      "It has three sides."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. It has two pairs of parallel sides and adjacent perpendicular sides.  \n**TEKS:** 4.6A [R]  \n**Step-by-step solution:** Opposite sides are parallel and adjacent sides meet at right angles.  \n**Why other answers are wrong:** B (“It has exactly one pair of parallel sides.”) uses a different operation, place, or interpretation than the evidence requires; C (“It has no right angles.”) uses a different operation, place, or interpretation than the evidence requires; D (“It has three sides.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** classify figures.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q32",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.6B**  \nWhich description defines a ray?",
+    "options": [
+      "one endpoint and continues forever one way",
+      "two endpoints",
+      "continues forever both ways",
+      "three connected segments"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. one endpoint and continues forever one way  \n**TEKS:** 4.6B  \n**Step-by-step solution:** A ray starts at one endpoint and extends in one direction.  \n**Why other answers are wrong:** B (“two endpoints”) uses a different operation, place, or interpretation than the evidence requires; C (“continues forever both ways”) uses a different operation, place, or interpretation than the evidence requires; D (“three connected segments”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** lines and rays.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q33",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.6D [R]**  \nHow many lines of symmetry does a regular hexagon have?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 6  \n**TEKS:** 4.6D [R]  \n**Step-by-step solution:** It has three lines through opposite vertices and three through opposite sides.  \n**Why other answers are wrong:** B (“3”) uses a different operation, place, or interpretation than the evidence requires; C (“4”) uses a different operation, place, or interpretation than the evidence requires; D (“0”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** symmetry.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q34",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.7A**  \nAn angle begins at $0^\\circ$ and crosses $135^\\circ$ on a protractor. Its measure is—",
+    "options": [
+      "$135^\\circ$",
+      "$45^\\circ$",
+      "$225^\\circ$",
+      "$315^\\circ$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $135^\\circ$  \n**TEKS:** 4.7A  \n**Step-by-step solution:** Read from the zero ray to the other ray: 135 degrees.  \n**Why other answers are wrong:** B (“$45^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; C (“$225^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; D (“$315^\\circ$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** protractor measurement.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q35",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.7B**  \nA quarter turn is what part of a full circle and how many degrees?",
+    "options": [
+      "$\\frac14$ and $90^\\circ$",
+      "$\\frac12$ and $90^\\circ$",
+      "$\\frac14$ and $45^\\circ$",
+      "$\\frac34$ and $270^\\circ$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $\\frac14$ and $90^\\circ$  \n**TEKS:** 4.7B  \n**Step-by-step solution:** $360\\div4=90$, so one quarter is 90 degrees.  \n**Why other answers are wrong:** B (“$\\frac12$ and $90^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac14$ and $45^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac34$ and $270^\\circ$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** fractional turns.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q37",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.8C [R]**  \nA ribbon is 5 yards 2 feet. How many feet?",
+    "options": [
+      "17",
+      "7",
+      "15",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 17  \n**TEKS:** 4.8C [R]  \n**Step-by-step solution:** Five yards is 15 feet; $15+2=17$.  \n**Why other answers are wrong:** B (“7”) uses a different operation, place, or interpretation than the evidence requires; C (“15”) uses a different operation, place, or interpretation than the evidence requires; D (“16”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** customary conversion.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q38",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.8C**  \nWhat is 3 kilograms 450 grams in grams?",
+    "options": [
+      "3,450",
+      "3,045",
+      "3,500",
+      "345"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 3,450  \n**TEKS:** 4.8C  \n**Step-by-step solution:** $3\\text{ kg}=3,000\\text{ g}$; add 450 g.  \n**Why other answers are wrong:** B (“3,045”) uses a different operation, place, or interpretation than the evidence requires; C (“3,500”) uses a different operation, place, or interpretation than the evidence requires; D (“345”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** metric conversion.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q39",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.8A**  \nA meeting runs from 8:35 a.m. to 11:20 a.m. How long?",
+    "options": [
+      "2 h 45 min",
+      "2 h 55 min",
+      "3 h 15 min",
+      "3 h 45 min"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 2 h 45 min  \n**TEKS:** 4.8A  \n**Step-by-step solution:** 8:35 to 10:35 is 2 hours; 10:35 to 11:20 is 45 minutes.  \n**Why other answers are wrong:** B (“2 h 55 min”) uses a different operation, place, or interpretation than the evidence requires; C (“3 h 15 min”) uses a different operation, place, or interpretation than the evidence requires; D (“3 h 45 min”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** elapsed time.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q40",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.8B**  \nA dispenser holds 6 quarts. How many gallons?",
+    "options": [
+      "$1\\frac12$",
+      "1",
+      "2",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $1\\frac12$  \n**TEKS:** 4.8B  \n**Step-by-step solution:** Four quarts make a gallon, so $6\\div4=1\\frac12$.  \n**Why other answers are wrong:** B (“1”) uses a different operation, place, or interpretation than the evidence requires; C (“2”) uses a different operation, place, or interpretation than the evidence requires; D (“6”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** capacity conversion.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q41",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.8C**  \nNico buys $6.75 and $3.48 items and pays $20.00$. What change?",
+    "options": [
+      "$9.77$",
+      "$10.23$",
+      "$9.23$",
+      "$10.77$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $9.77$  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Cost $=6.75+3.48=10.23$; $20.00-10.23=9.77$.  \n**Why other answers are wrong:** B (“$10.23$”) uses a different operation, place, or interpretation than the evidence requires; C (“$9.23$”) uses a different operation, place, or interpretation than the evidence requires; D (“$10.77$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** money.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q42",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 3 — Geometry & Measurement",
+    "question": "**TEKS 4.8C**  \nWhat is 4 pounds 6 ounces in ounces?",
+    "options": [
+      "70",
+      "46",
+      "64",
+      "86"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 70  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Four pounds is 64 ounces; $64+6=70$.  \n**Why other answers are wrong:** B (“46”) uses a different operation, place, or interpretation than the evidence requires; C (“64”) uses a different operation, place, or interpretation than the evidence requires; D (“86”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** mass conversion.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

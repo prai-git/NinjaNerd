@@ -1,0 +1,70 @@
+[
+  {
+    "id": "math_g5_2026-04-18_11-00_q10",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Decimal Operations",
+    "question": "— Multiplying Two Decimals [R]\nWhat is the product?\n\n**12.4 × 3.25 = ?**",
+    "options": [
+      "39.8",
+      "40.3",
+      "40.8",
+      "403"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 40.3\n\n**Step-by-step:**\n**12.4 × 3.25**\n\nMultiply as whole numbers: 124 × 325\n\n```\n    124\n  × 325\n  -----\n    620   (124 × 5)\n   2480   (124 × 20)\n+ 37200   (124 × 300)\n-------\n  40300\n```\n\nCount decimal places: 12.4 has **1** decimal place; 3.25 has **2** → total **3** decimal places.\n\nPlace decimal: 40300 → **40.300 = 40.3**\n\n**Verification:** 12 × 3 = 36; 12 × 0.25 = 3; 0.4 × 3.25 = 1.3 → 36 + 3 + 1.3 = 40.3 ✓\n\n**Why other answers are wrong:**\n- A) 39.8 — arithmetic error in partial products\n- C) 40.8 — off by 0.5 (likely counts decimal places incorrectly)\n- D) 403 — places decimal 1 place too far right (2 decimal places instead of 3)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q11",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Decimal Operations",
+    "question": "— Dividing by a Decimal [R]\nA container holds **31.5 liters** of juice. It is poured into cups that each hold **0.75 liters**. How many cups can be completely filled?",
+    "options": [
+      "23.625",
+      "42",
+      "420",
+      "4.2"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 42\n\n**Step-by-step:**\n**31.5 ÷ 0.75**\n\nEliminate the decimal in the divisor by multiplying both numbers by 100:\n- 31.5 × 100 = 3,150\n- 0.75 × 100 = 75\n\nNow divide: **3,150 ÷ 75**\n- 75 × 40 = 3,000\n- 3,150 − 3,000 = 150\n- 75 × 2 = 150\n\nQuotient: **42**\n\n**Verification:** 42 × 0.75 = 42 × 3/4 = 126/4 = 31.5 ✓\n\n**Why other answers are wrong:**\n- A) 23.625 = 31.5 ÷ 1.33 (arithmetic error, likely divides by wrong number)\n- C) 420 — places decimal incorrectly (off by factor of 10)\n- D) 4.2 — off by factor of 10 in the other direction\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q12",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Decimal Operations",
+    "question": "— Multi-Step Decimal Word Problem  [R]\nXavier bought **3 notebooks** for **$1.85 each** and **2 highlighters** for **$0.99 each**. He also used a coupon for **$1.50 off** his total. How much did Xavier pay in all?",
+    "options": [
+      "$5.53",
+      "$6.03",
+      "$6.53",
+      "$7.53"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $6.03\n\n**Step-by-step:**\nStep 1 — Cost of notebooks:\n- 3 × $1.85 = **$5.55**\n\nStep 2 — Cost of highlighters:\n- 2 × $0.99 = **$1.98**\n\nStep 3 — Total before coupon:\n- $5.55 + $1.98 = **$7.53**\n\nStep 4 — Apply coupon:\n- $7.53 − $1.50 = **$6.03**\n\n**Why other answers are wrong:**\n- A) $5.53 — forgets to add highlighters; $5.55 − $1.50 = $4.05... actually $5.53 suggests another error\n- C) $6.53 — subtracts only $1.00 instead of $1.50\n- D) $7.53 — forgets to apply the coupon\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q13",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Decimal Operations",
+    "question": "— Rounding to the Nearest Hundredth\nWhat is **34.8573** rounded to the nearest **hundredth**?",
+    "options": [
+      "34.857",
+      "34.85",
+      "34.86",
+      "34.9"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 34.86\n\n**Step-by-step:**\nRound **34.8573** to the nearest **hundredth** (2 decimal places).\n\n- Hundredths digit: **5**\n- Look at the thousandths digit (the deciding digit): **7**\n- Since 7 ≥ 5, round the hundredths digit **UP**: 5 → **6**\n- Drop all digits after hundredths\n\n**34.8573 → 34.86**\n\n**Why other answers are wrong:**\n- A) 34.857 — rounds to 3 decimal places (thousandths), not 2\n- B) 34.85 — incorrectly rounds DOWN (ignores the 7 in thousandths)\n- D) 34.9 — rounds to 1 decimal place (tenths), not 2\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

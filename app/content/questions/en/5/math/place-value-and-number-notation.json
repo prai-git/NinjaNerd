@@ -1,0 +1,70 @@
+[
+  {
+    "id": "math_g5_2026-04-18_11-00_q1",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Number Notation",
+    "question": "— Expanded Notation: Zeros as Placeholders\nWhich expression shows **709.045** written in expanded notation?\n\n*(Note: Zeros that hold a place are NOT written as addends.)*",
+    "options": [
+      "700 + 9 + 0.04 + 0.005",
+      "700 + 0 + 9 + 0.0 + 0.04 + 0.005",
+      "700 + 9 + 0.4 + 0.05",
+      "700 + 90 + 0.04 + 0.005"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 700 + 9 + 0.04 + 0.005\n\n**Step-by-step:**\nIdentify each non-zero digit and its place value in **709.045**:\n\n| Digit | Place | Value |\n|-------|-------|-------|\n| 7 | Hundreds | 700 |\n| 0 | Tens | skip (zero contributes nothing) |\n| 9 | Ones | 9 |\n| 0 | Tenths | skip |\n| 4 | Hundredths | 0.04 |\n| 5 | Thousandths | 0.005 |\n\n**Expanded form = 700 + 9 + 0.04 + 0.005**\n\n**Why other answers are wrong:**\n- B) Includes \"0\" and \"0.0\" as addends — zeros are place holders and should not be written as addends\n- C) Uses 0.4 (tenths) and 0.05 (hundredths) — wrong decimal place values for the 4 and 5\n- D) Uses 90 instead of skip + 9 — confuses tens and ones place\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q2",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Number Notation",
+    "question": "— Expanded Notation to Standard Form\nWhich number is represented by the expression below?\n\n**400 + 80 + 3 + 0.6 + 0.007**",
+    "options": [
+      "483.607",
+      "483.67",
+      "4,836.07",
+      "4,830.607"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 483.607\n\n**Step-by-step:**\nAdd each part:\n- 400 + 80 + 3 = 483 (whole number part)\n- 0.6 = 6 tenths\n- 0.007 = 7 thousandths (note: no hundredths digit → 0 in hundredths place)\n\nStandard form: **483.607**\n\n**Why other answers are wrong:**\n- B) 483.67 — skips the zero in the hundredths place (makes it 6 hundredths + 7 thousandths instead of 6 tenths + 0 hundredths + 7 thousandths)\n- C) 4,836.07 — misplaces the decimal, treating 400 as 4,000\n- D) 4,830.607 — errors in both the whole number and decimal parts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q3",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Number Notation",
+    "question": "— Word Form to Standard Form\nWhich number represents **\"five hundred two and thirty-six thousandths\"**?",
+    "options": [
+      "502.36",
+      "502.036",
+      "5,020.36",
+      "502.306"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 502.036\n\n**Step-by-step:**\nParse the number name:\n- \"five hundred two\" = **502** (whole number part)\n- \"and\" → decimal point\n- \"thirty-six thousandths\" = **0.036** (36 in the thousandths position)\n  - 0 in tenths, 3 in hundredths, 6 in thousandths\n\nStandard form: **502.036**\n\n**Why other answers are wrong:**\n- A) 502.36 = \"five hundred two and thirty-six hundredths\" — wrong: 36 is in hundredths, not thousandths\n- C) 5,020.36 = misreads \"five hundred two\" as \"five thousand twenty\"\n- D) 502.306 = swaps the 3 and 6 in the decimal places (thirty-six thousandths ≠ three hundred six thousandths)\n\n**Key concept:** \"Thousandths\" means the last digit is in the third decimal place. 36 thousandths = 0.036.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q4",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Place Value and Number Notation",
+    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **least to greatest**?\n\n**12.304,  12.034,  12.34,  12.043**",
+    "options": [
+      "12.034, 12.043, 12.304, 12.34",
+      "12.034, 12.043, 12.34, 12.304",
+      "12.043, 12.034, 12.304, 12.34",
+      "12.304, 12.34, 12.043, 12.034"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 12.034, 12.043, 12.304, 12.34\n\n**Step-by-step:**\nLine up by place value (pad with zeros to 3 decimal places):\n\n| Number | Tenths | Hundredths | Thousandths |\n|--------|--------|------------|-------------|\n| 12.034 | 0      | 3          | 4           |\n| 12.043 | 0      | 4          | 3           |\n| 12.304 | 3      | 0          | 4           |\n| 12.340 | 3      | 4          | 0           |\n\nStep 1 — Compare tenths: 12.034 and 12.043 both have **0** → need to compare further. 12.304 and 12.340 both have **3** → need to compare further.\n\nStep 2 — Compare hundredths within each group:\n- 12.034: 3 hundredths < 12.043: 4 hundredths → **12.034 < 12.043**\n- 12.304: 0 hundredths < 12.340: 4 hundredths → **12.304 < 12.34**\n\nStep 3 — Compare across groups: all values with tenths digit 0 < all values with tenths digit 3.\n\n**Least to greatest: 12.034 < 12.043 < 12.304 < 12.34**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

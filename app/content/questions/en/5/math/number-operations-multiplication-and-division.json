@@ -1,0 +1,36 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q5",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Multiplication and Division",
+    "question": "— Multi-digit Multiplication / Income\nA company earns $5,475 per day. How much money does the company earn in 18 days?",
+    "options": [
+      "$88,400",
+      "$98,550",
+      "$99,550",
+      "$97,050"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply daily earnings by the number of days: $5,475 × 18 = **$98,550**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q6",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Multiplication and Division",
+    "question": "— Multi-digit Division\nA warehouse receives 6,528 items to be divided equally among 24 stores. How many items will each store receive?",
+    "options": [
+      "252 items",
+      "262 items",
+      "272 items",
+      "282 items"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide total items by the number of stores: 6,528 ÷ 24 = **272 items per store**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

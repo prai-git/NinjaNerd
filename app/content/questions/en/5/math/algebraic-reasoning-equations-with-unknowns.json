@@ -1,0 +1,36 @@
+[
+  {
+    "id": "math_g5_2026-04-18_11-00_q19",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning: Equations with Unknowns",
+    "question": "— Writing a Multi-Step Equation [R]\nA number is **multiplied by 6**, then **14 is subtracted** from the product. The result is **46**. Which equation can be used to find the number *n*?",
+    "options": [
+      "6 + n − 14 = 46",
+      "6n − 14 = 46",
+      "6n + 14 = 46",
+      "n ÷ 6 − 14 = 46"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 6n − 14 = 46\n\n**Step-by-step:**\nTranslate the description into an equation:\n- \"A number multiplied by 6\" → 6n\n- \"Then 14 is subtracted\" → 6n − 14\n- \"The result is 46\" → 6n − 14 = **46**\n\n**Solve to verify:**\n- 6n = 46 + 14 = 60\n- n = 60 ÷ 6 = **10**\n\n**Check:** 6(10) − 14 = 60 − 14 = 46 ✓\n\n**Why other answers are wrong:**\n- A) 6 + n − 14 = 46 — adds 6 instead of multiplying\n- C) 6n + 14 = 46 → 6n = 32 → n = 5.33... (subtracts when it should add 14 to check)\n- D) n ÷ 6 − 14 = 46 — divides instead of multiplies\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q20",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning: Equations with Unknowns",
+    "question": "— Multi-Step Real-World Equation [R]\nA school cafeteria serves lunch in **3 equal shifts**. On Monday, **48 extra students** from a field trip ate during shift 2, making the total for the day **174 students**. How many students **normally** eat in each shift?",
+    "options": [
+      "36 students",
+      "38 students",
+      "42 students",
+      "46 students"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 42 students\n\n**Step-by-step:**\nLet *s* = students normally eating in each shift.\n\n- Shift 1 = s students\n- Shift 2 = s + 48 students (48 extras from field trip)\n- Shift 3 = s students\n- Total: s + (s + 48) + s = 174\n\nSimplify:\n- 3s + 48 = 174\n- 3s = 126\n- s = **42**\n\n**Check:** 42 + (42 + 48) + 42 = 42 + 90 + 42 = 174 ✓\n\n**Why other answers are wrong:**\n- A) 36 → 3(36) + 48 = 108 + 48 = 156 ≠ 174\n- B) 38 → 3(38) + 48 = 114 + 48 = 162 ≠ 174\n- D) 46 → 3(46) + 48 = 138 + 48 = 186 ≠ 174\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "english_g5_2026-05-02_20-14_q27",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "MAP Language Skills",
+    "question": "Read the four sentences below. In which sentence does the word *bank* have a DIFFERENT meaning than in the other three?",
+    "options": [
+      "The fisherman stood on the **bank** of the river and cast his line.",
+      "The hikers rested on the grassy **bank** beside the trail.",
+      "Maria deposited her birthday money at the **bank** before the weekend.",
+      "They sat on the muddy **bank** and watched the ducks paddle by."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q28",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "MAP Language Skills",
+    "question": "Which word is MOST NEARLY OPPOSITE in meaning to the word *cautious*?",
+    "options": [
+      "careful",
+      "reckless",
+      "patient",
+      "nervous"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q29",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "MAP Language Skills",
+    "question": "Read the following sentence:\n\n*After winning the science fair, Deja was on cloud nine for the rest of the week.*\n\nWhat does the idiom **\"on cloud nine\"** mean in this sentence?",
+    "options": [
+      "Deja was distracted and daydreaming instead of paying attention in class.",
+      "Deja felt extremely happy and excited about her accomplishment.",
+      "Deja was exhausted and needed rest after working so hard on her project.",
+      "Deja was nervous about what would happen at the next science fair."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q30",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "MAP Language Skills",
+    "question": "Complete the analogy:\n\n**Author is to novel as composer is to ____.**",
+    "options": [
+      "concert",
+      "musician",
+      "symphony",
+      "stage"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "math_g5_2026-04-18_09-00_q24",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Area and Perimeter",
+    "question": "— Area of a Rectangle [R]\nA rectangular basketball court has a **length of 28 meters** and a **width of 15 meters**. What is the total **area** of the basketball court?",
+    "options": [
+      "86 sq meters",
+      "420 sq meters",
+      "630 sq meters",
+      "840 sq meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 420 sq meters\n\n**Step-by-step:**\n**Area = length × width**\n- A = 28 × 15\n\nCalculate:\n- 28 × 10 = 280\n- 28 × 5 = 140\n- 280 + 140 = **420 square meters**\n\n**Why other answers are wrong:**\n- A) 86 sq meters — this is the perimeter: 2(28 + 15) = 2(43) = 86\n- C) 630 sq meters — uses 28 × 22.5 or other arithmetic error\n- D) 840 sq meters — doubles the area (28 × 30 = 840)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q25",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Area and Perimeter",
+    "question": "— Perimeter of a Triangle with Decimals\nA triangular garden has three sides measuring **7.5 feet**, **9.2 feet**, and **6.3 feet**. What is the **perimeter** of the garden?",
+    "options": [
+      "22.7 feet",
+      "23.0 feet",
+      "23.5 feet",
+      "69.0 feet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 23.0 feet\n\n**Step-by-step:**\n**Perimeter = sum of all sides**\n\n```\n  7.5\n  9.2\n+ 6.3\n-----\n 23.0\n```\n\n- Tenths: 5 + 2 + 3 = 10 → write 0, carry 1\n- Ones: 7 + 9 + 6 + 1 (carry) = 23 → write 3, carry 2\n- Tens: 2\n\n**Perimeter = 23.0 feet**\n\n**Why other answers are wrong:**\n- A) 22.7 — arithmetic error (possibly 7.5 + 9.2 = 16.7, then 16.7 + 6.0)\n- C) 23.5 — adds incorrectly in tenths column (5+2+3=10, but places 5 instead of 0)\n- D) 69.0 — multiplies instead of adds (7.5 × 9.2 × ... )\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

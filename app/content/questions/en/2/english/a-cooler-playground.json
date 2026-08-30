@@ -1,0 +1,53 @@
+[
+  {
+    "id": "english_g2_2026-08-29_23-09_q38",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "A Cooler Playground",
+    "question": "### Read the two notices.\n\n**Notice 1: Window Feeder**  \nFill the feeder with seeds. Clean spilled seeds every week so birds can eat safely.\n\n**Notice 2: Pollinator Patch**  \nPlant flowers that bloom in spring and summer. Leave a shallow dish of water nearby, and do not spray the flowers.\n\nHow are the notices alike?",
+    "options": [
+      "Both give steps to help animals visit a yard.",
+      "Both explain how birds migrate.",
+      "Both ask readers to build a cage.",
+      "Both tell readers to spray flowers."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Both give steps to help animals visit a yard.  \n**MAP area / TEKS:** Informational Text; 2.6–2.10  \n**Explanation:** Each notice gives actions that offer food, water, or a safer place for animals.  \n**Why the other answers are wrong:** B. Both explain how birds migrate. — it does not fit because Each notice gives actions that offer food, water, or a safer place for animals. C. Both ask readers to build a cage. — it does not fit because Each notice gives actions that offer food, water, or a safer place for animals. D. Both tell readers to spray flowers. — it does not fit because Each notice gives actions that offer food, water, or a safer place for animals.  \n**Key concept:** compare and contrast  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q39",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "A Cooler Playground",
+    "question": "### Read the two notices.\n\n**Notice 1: Window Feeder**  \nFill the feeder with seeds. Clean spilled seeds every week so birds can eat safely.\n\n**Notice 2: Pollinator Patch**  \nPlant flowers that bloom in spring and summer. Leave a shallow dish of water nearby, and do not spray the flowers.\n\nWhich action is only in Notice 2?",
+    "options": [
+      "Plant flowers that bloom in two seasons.",
+      "Fill a feeder with seeds.",
+      "Clean spilled seeds weekly.",
+      "Hang a feeder."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Plant flowers that bloom in two seasons.  \n**MAP area / TEKS:** Informational Text; 2.6–2.10  \n**Explanation:** Only the pollinator notice tells readers to plant blooming flowers.  \n**Why the other answers are wrong:** B. Fill a feeder with seeds. — it does not fit because Only the pollinator notice tells readers to plant blooming flowers. C. Clean spilled seeds weekly. — it does not fit because Only the pollinator notice tells readers to plant blooming flowers. D. Hang a feeder. — it does not fit because Only the pollinator notice tells readers to plant blooming flowers.  \n**Key concept:** locating information  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-08-29_23-09_q40",
+    "grade": 2,
+    "subject": "english",
+    "subtopic": "A Cooler Playground",
+    "question": "### Read the two notices.\n\n**Notice 1: Window Feeder**  \nFill the feeder with seeds. Clean spilled seeds every week so birds can eat safely.\n\n**Notice 2: Pollinator Patch**  \nPlant flowers that bloom in spring and summer. Leave a shallow dish of water nearby, and do not spray the flowers.\n\nWhich sentence is an opinion?",
+    "options": [
+      "A pollinator patch is the prettiest part of any yard.",
+      "Birds can eat seeds from feeders.",
+      "Flowers can bloom in spring.",
+      "Insects may be harmed by spray."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. A pollinator patch is the prettiest part of any yard.  \n**MAP area / TEKS:** Informational Text; 2.6–2.10  \n**Explanation:** “Prettiest” is a personal judgment that cannot be proved for every yard.  \n**Why the other answers are wrong:** B. Birds can eat seeds from feeders. — it does not fit because “Prettiest” is a personal judgment that cannot be proved for every yard. C. Flowers can bloom in spring. — it does not fit because “Prettiest” is a personal judgment that cannot be proved for every yard. D. Insects may be harmed by spray. — it does not fit because “Prettiest” is a personal judgment that cannot be proved for every yard.  \n**Key concept:** fact and opinion  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

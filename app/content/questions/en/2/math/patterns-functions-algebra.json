@@ -1,0 +1,172 @@
+[
+  {
+    "id": "math_g2_2026-08-29_23-09_q41",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "Which number is even?",
+    "options": [
+      "$27$",
+      "$35$",
+      "$38$",
+      "$39$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. $38$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** $38$ can be paired with no leftovers; the others leave one.  \n**Why the other answers are wrong:** A. $27$ — it does not fit because $38$ can be paired with no leftovers; the others leave one. B. $35$ — it does not fit because $38$ can be paired with no leftovers; the others leave one. D. $39$ — it does not fit because $38$ can be paired with no leftovers; the others leave one.  \n**Key concept:** even numbers  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q42",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "What number is $10$ more than $697$?",
+    "options": [
+      "$687$",
+      "$697$",
+      "$707$",
+      "$797$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. $707$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Adding one ten gives $697+10=707$.  \n**Why the other answers are wrong:** A. $687$ — it does not fit because Adding one ten gives $697+10=707$. B. $697$ — it does not fit because Adding one ten gives $697+10=707$. D. $797$ — it does not fit because Adding one ten gives $697+10=707$.  \n**Key concept:** ten more  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q43",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "What number is $100$ more than $948$?",
+    "options": [
+      "$858$",
+      "$958$",
+      "$1{,}048$",
+      "$1{,}848$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. $1{,}048$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** $948+100=1{,}048$.  \n**Why the other answers are wrong:** A. $858$ — it does not fit because $948+100=1{,}048$. B. $958$ — it does not fit because $948+100=1{,}048$. D. $1{,}848$ — it does not fit because $948+100=1{,}048$.  \n**Key concept:** hundred more  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q44",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "Find $\\Box+286=700$.",
+    "options": [
+      "$314$",
+      "$414$",
+      "$424$",
+      "$986$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. $414$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Subtract to find the missing addend: $700-286=414$.  \n**Why the other answers are wrong:** A. $314$ — it does not fit because Subtract to find the missing addend: $700-286=414$. C. $424$ — it does not fit because Subtract to find the missing addend: $700-286=414$. D. $986$ — it does not fit because Subtract to find the missing addend: $700-286=414$.  \n**Key concept:** unknown addend  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q45",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "There are $63$ markers. Some go in a drawer and $28$ stay on the table. Which equation finds the drawer amount?",
+    "options": [
+      "$63+28=\\Box$",
+      "$63-28=\\Box$",
+      "$28-63=\\Box$",
+      "$63\\div28=\\Box$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. $63-28=\\Box$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** The total is $63$ and one part is $28$, so subtract: $63-28=\\Box$.  \n**Why the other answers are wrong:** A. $63+28=\\Box$ — it does not fit because The total is $63$ and one part is $28$, so subtract: $63-28=\\Box$. C. $28-63=\\Box$ — it does not fit because The total is $63$ and one part is $28$, so subtract: $63-28=\\Box$. D. $63\\div28=\\Box$ — it does not fit because The total is $63$ and one part is $28$, so subtract: $63-28=\\Box$.  \n**Key concept:** unknown part  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q46",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "What comes next: $125,135,145,155,\\ldots$?",
+    "options": [
+      "$156$",
+      "$160$",
+      "$165$",
+      "$255$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. $165$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** The pattern adds $10$ each time, so $155+10=165$.  \n**Why the other answers are wrong:** A. $156$ — it does not fit because The pattern adds $10$ each time, so $155+10=165$. B. $160$ — it does not fit because The pattern adds $10$ each time, so $155+10=165$. D. $255$ — it does not fit because The pattern adds $10$ each time, so $155+10=165$.  \n**Key concept:** number patterns  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q47",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "The pattern is $6,12,18,24,\\ldots$. What is the seventh number?",
+    "options": [
+      "$30$",
+      "$36$",
+      "$42$",
+      "$48$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. $42$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Counting by $6$: fifth $30$, sixth $36$, seventh $42$.  \n**Why the other answers are wrong:** A. $30$ — it does not fit because Counting by $6$: fifth $30$, sixth $36$, seventh $42$. B. $36$ — it does not fit because Counting by $6$: fifth $30$, sixth $36$, seventh $42$. D. $48$ — it does not fit because Counting by $6$: fifth $30$, sixth $36$, seventh $42$.  \n**Key concept:** skip counting  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q48",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "Which equation is true?",
+    "options": [
+      "$46+27=63$",
+      "$46+27=73$",
+      "$46-27=29$",
+      "$46-27=18$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. $46+27=73$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** $46+27=73$ because $40+20=60$ and $6+7=13$.  \n**Why the other answers are wrong:** A. $46+27=63$ — it does not fit because $46+27=73$ because $40+20=60$ and $6+7=13$. C. $46-27=29$ — it does not fit because $46+27=73$ because $40+20=60$ and $6+7=13$. D. $46-27=18$ — it does not fit because $46+27=73$ because $40+20=60$ and $6+7=13$.  \n**Key concept:** equality  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q49",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "A frog jumps $14$ cm then $9$ cm and stops $5$ cm before a $30$ cm mark. Which equation checks this?",
+    "options": [
+      "$14+9+5=30$",
+      "$14+9-5=30$",
+      "$30-14=9$",
+      "$30+5=14+9$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. $14+9+5=30$  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** The jumps plus the remaining distance make the whole: $14+9+5=30$.  \n**Why the other answers are wrong:** B. $14+9-5=30$ — it does not fit because The jumps plus the remaining distance make the whole: $14+9+5=30$. C. $30-14=9$ — it does not fit because The jumps plus the remaining distance make the whole: $14+9+5=30$. D. $30+5=14+9$ — it does not fit because The jumps plus the remaining distance make the whole: $14+9+5=30$.  \n**Key concept:** equation reasoning  \n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-29_23-09_q50",
+    "grade": 2,
+    "subject": "math",
+    "subtopic": "Patterns/Functions/Algebra",
+    "question": "Which tool best shows why $58+37=95$?",
+    "options": [
+      "Base-ten blocks",
+      "A globe",
+      "A thermometer",
+      "A calendar"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Base-ten blocks  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Base-ten blocks show tens and ones and the regrouping of $15$ ones into a ten and $5$ ones.  \n**Why the other answers are wrong:** B. A globe — it does not fit because Base-ten blocks show tens and ones and the regrouping of $15$ ones into a ten and $5$ ones. C. A thermometer — it does not fit because Base-ten blocks show tens and ones and the regrouping of $15$ ones into a ten and $5$ ones. D. A calendar — it does not fit because Base-ten blocks show tens and ones and the regrouping of $15$ ones into a ten and $5$ ones.  \n**Key concept:** mathematical tools  \n\n---\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Required Grade 2 topic / strand | MAP instructional area | Questions |\n|---|---|---|\n| Mathematical process: problems, tools, representations, explanations (2.1A–G) | All MAP areas | 1, 11, 22, 34, 49–50 |\n| Place value, forms, compare/order, number line (2.2A–F) | Number & Number Sense | 1–7 |\n| Halves, fourths, eighths, and equal parts (2.3A–D) | Number & Number Sense / Measurement & Geometry | 8–10, 29 |\n| Addition/subtraction facts, strategies, and problems (2.4A–D) | Computation & Estimation | 11–16 |\n| Coins and monetary transactions (2.5A–B) | Computation & Estimation | 19–20 |\n| Equal-group multiplication and division contexts (2.6A–B) | Computation & Estimation | 17–18 |\n| Odd/even, 10/100 more/less, unknowns (2.7A–C) | Patterns/Functions/Algebra | 41–45 |\n| 2D/3D attributes; compose/decompose (2.8A–E) | Measurement & Geometry | 25–29 |\n| Length, area, number-line distances, time (2.9A–G) | Measurement & Geometry | 21–24, 30 |\n| Pictographs/bar graphs, questions, conclusions/predictions (2.10A–D) | Probability & Statistics | 31–35 |\n| Saving/spending, deposit/withdrawal, borrowing/lending, producers/consumers (2.11A–F) | Probability & Statistics | 20, 36–40 |\n\n## Research Sources Consulted\n\n- Texas Administrative Code, §111.4 Grade 2 Mathematics: https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-4\n- NWEA MAP Growth Learning Continuum: https://teach.mapnwea.org/impl/maphelp/Content/Data/SampleReports/LearningContinuumRef.htm",
+    "source": "authored",
+    "needsReview": false
+  }
+]

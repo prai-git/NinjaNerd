@@ -1,0 +1,121 @@
+[
+  {
+    "id": "math_g4_2026-08-29_23-09_q43",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9A [R]**  \nTable: 20 pages—4 students; 30—7; 40—5; 50—2. How many read at least 40?",
+    "options": [
+      "7",
+      "5",
+      "9",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 7  \n**TEKS:** 4.9A [R]  \n**Step-by-step solution:** At least 40 includes 40 and 50 pages: $5+2=7$.  \n**Why other answers are wrong:** B (“5”) uses a different operation, place, or interpretation than the evidence requires; C (“9”) uses a different operation, place, or interpretation than the evidence requires; D (“18”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** frequency table.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q45",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9A**  \nStem-leaf: $1|2,5,8$; $2|0,3,7,9$; $3|1,4$; key $2|3=23$. What is the range?",
+    "options": [
+      "22",
+      "19",
+      "34",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 22  \n**TEKS:** 4.9A  \n**Step-by-step solution:** Least $=12$, greatest $=34$, and $34-12=22$.  \n**Why other answers are wrong:** B (“19”) uses a different operation, place, or interpretation than the evidence requires; C (“34”) uses a different operation, place, or interpretation than the evidence requires; D (“12”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** stem-and-leaf range.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q46",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9B**  \nData are $2,2,3,3,3,4,4,5$. How many more students ran 3 laps than 5?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 2  \n**TEKS:** 4.9B  \n**Step-by-step solution:** Three students ran 3 laps and one ran 5; $3-1=2$.  \n**Why other answers are wrong:** B (“3”) uses a different operation, place, or interpretation than the evidence requires; C (“1”) uses a different operation, place, or interpretation than the evidence requires; D (“5”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** dot plot comparison.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q47",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9B**  \nA dot plot has 3 at $\\frac14$, 4 at $\\frac12$, and 2 at $\\frac34$. How many values are at least $\\frac12$?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 6  \n**TEKS:** 4.9B  \n**Step-by-step solution:** Count half and three-fourths: $4+2=6$.  \n**Why other answers are wrong:** B (“4”) uses a different operation, place, or interpretation than the evidence requires; C (“5”) uses a different operation, place, or interpretation than the evidence requires; D (“9”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** fraction dot plots.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q48",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9A**  \nSurvey: Drawing—9, Building—12, Reading—8, Running—5. Which conclusion is supported?",
+    "options": [
+      "Building was preferred most.",
+      "Drawing and reading tied.",
+      "Running exceeded drawing.",
+      "Half chose reading."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. Building was preferred most.  \n**TEKS:** 4.9A  \n**Step-by-step solution:** 12 is the largest frequency.  \n**Why other answers are wrong:** B (“Drawing and reading tied.”) uses a different operation, place, or interpretation than the evidence requires; C (“Running exceeded drawing.”) uses a different operation, place, or interpretation than the evidence requires; D (“Half chose reading.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** draw conclusions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q49",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9B**  \nClass A scores: 12,14,15,16. Class B: 10,14,16,20. Which is true?",
+    "options": [
+      "Class B has greater range.",
+      "Class A has greater range.",
+      "Ranges are equal.",
+      "Neither has a range."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. Class B has greater range.  \n**TEKS:** 4.9B  \n**Step-by-step solution:** A has range $16-12=4$; B has range $20-10=10$.  \n**Why other answers are wrong:** B (“Class A has greater range.”) uses a different operation, place, or interpretation than the evidence requires; C (“Ranges are equal.”) uses a different operation, place, or interpretation than the evidence requires; D (“Neither has a range.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** compare distributions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q50",
+    "grade": 4,
+    "subject": "math",
+    "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
+    "question": "**TEKS 4.9A [R]**  \nFrequencies for 1, 2, 3, and 4 markers are 3, 5, 4, and 2. How many students are represented?",
+    "options": [
+      "14",
+      "10",
+      "12",
+      "28"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** 14  \n**TEKS:** 4.9A [R]  \n**Step-by-step solution:** Add frequencies: $3+5+4+2=14$.  \n**Why other answers are wrong:** There are no answer choices. Common errors use the wrong operation, unit, or place value instead of the required relationship..  \n**Key concept:** frequency totals.\n\n---\n\n## TEKS / Readiness-Standard Coverage Summary\n\n| Topic | Questions | Priority [R] questions |\n|---|---|---|\n| 4.2 Place value, decimals, rounding, decimal-fraction links | 1–8, 14 | 3, 6 |\n| 4.3 Equivalent, comparing, decomposing, and operating with fractions | 9–13 | 10 |\n| 4.4 Operations, estimation, two-step problems, remainders | 15–25 | 15–18, 21, 23 |\n| 4.5 Equations, tables, patterns, measurement formulas | 26–30 | 26 |\n| 4.6 Figure classification, lines/rays, symmetry | 31–33 | 31, 33 |\n| 4.7 Measuring and finding angles | 34–36 | 36 |\n| 4.8 Conversions, time, capacity, mass, money | 37–42 | 37 |\n| 4.9 Tables, dot plots, stem-and-leaf plots, data comparisons | 43–50 | 43, 44, 50 |\n\n**Format check:** 40 multiple-choice and 10 griddable questions (5, 8, 12, 15, 17, 19, 23, 27, 36, 44).",
+    "source": "authored",
+    "needsReview": false
+  }
+]

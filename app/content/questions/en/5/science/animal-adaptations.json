@@ -1,0 +1,53 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q16",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Animal Adaptations",
+    "question": "A hummingbird has a long, thin, curved beak. For which type of food is this beak **most** adapted?",
+    "options": [
+      "Cracking open hard seeds",
+      "Tearing apart meat from prey",
+      "Drinking nectar from deep flowers",
+      "Catching insects on the surface of water"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.13 | Topic: Animal Adaptations — Beaks**\n\n**Correct Answer:** C) Drinking nectar from deep flowers\n\n**Explanation:**\nA hummingbird's long, thin, curved beak is a structural adaptation perfectly suited for accessing nectar deep inside tubular or trumpet-shaped flowers. The beak reaches deep into the flower, and the hummingbird's long tongue laps up the nectar. This is an example of coevolution — the hummingbird and certain flowers evolved together.\n\n**Why the other answers are wrong:**\n- **A) Cracking seeds** — Birds that crack seeds (like cardinals and sparrows) have thick, cone-shaped, powerful beaks for cracking hard shells.\n- **B) Tearing meat** — Birds of prey (eagles, hawks, owls) have short, hooked, sharp beaks for tearing flesh.\n- **D) Catching insects on water** — Ducks and herons that catch aquatic prey have flat, broad beaks or long, spear-like beaks.\n\n**Key concept:** Long + thin + curved beak = nectar drinker (hummingbird)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q17",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Animal Adaptations",
+    "question": "A student compares the feet of different birds. A duck has **webbed feet**, while a hawk has **sharp talons**. How do these adaptations help each bird survive?",
+    "options": [
+      "Both adaptations help the bird attract mates",
+      "Webbed feet help the duck swim; talons help the hawk catch prey",
+      "Both adaptations help with swimming in deep water",
+      "Webbed feet help catch prey; talons help with swimming"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.13 | Topic: Animal Adaptations — Feet and Limbs**\n\n**Correct Answer:** B) Webbed feet help the duck swim; talons help the hawk catch prey\n\n**Explanation:**\n- **Duck's webbed feet:** The skin between the toes acts like a paddle, providing a larger surface area to push against water. This makes ducks efficient swimmers and allows them to thrive in aquatic environments.\n- **Hawk's sharp talons:** These powerful, curved claws are used to grip and pierce prey (like mice and rabbits) during a hunt. Talons provide the hawk with a secure hold on struggling prey.\n\nBoth are **structural adaptations** — physical features that help an organism survive in its environment.\n\n**Why the other answers are wrong:**\n- **A) To attract mates** — Neither webbed feet nor talons are primarily used to attract mates. Feather colors and displays are used for that.\n- **C) Both for swimming** — Talons are not used for swimming.\n- **D) Reversed** — Webbed feet are not for catching prey; talons are not for swimming.\n\n**Key concept:** Adaptation matches the organism's environment and lifestyle. Aquatic animals → webbed feet. Aerial predators → sharp talons.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q18",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Animal Adaptations",
+    "question": "A desert lizard has **dry, scaly skin**. How does this body covering help the lizard survive in a hot, dry environment?",
+    "options": [
+      "It helps the lizard swim in desert oases",
+      "It prevents the lizard from losing water through its skin",
+      "It helps attract prey by reflecting sunlight",
+      "It keeps the lizard cool by allowing sweat to pass through"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.13 | Topic: Animal Adaptations — Skin and Body Coverings**\n\n**Correct Answer:** B) It prevents the lizard from losing water through its skin\n\n**Explanation:**\nDesert lizards have dry, scaly skin made of keratin (the same protein in human fingernails). This adaptation is critical for survival in hot, dry deserts because:\n- The thick, waterproof scales form a barrier that prevents water from evaporating through the skin\n- This allows the lizard to conserve body water in an environment where water is scarce\n\nThis is why reptiles can thrive in deserts while amphibians (which have moist, permeable skin) cannot.\n\n**Why the other answers are wrong:**\n- **A) Swim in oases** — Desert lizards do not typically swim. The scales are not an adaptation for swimming.\n- **C) Attract prey** — Scales do not reflect sunlight to attract prey. Lizards catch prey by sight and speed, not attraction.\n- **D) Sweating** — Reptiles do NOT sweat. Scales prevent water loss, including sweat.\n\n**Key concept:** Scales on reptiles = waterproof barrier = prevents water loss = key desert adaptation\n\n---\n\n---\n\n## Section 5: Inherited and Acquired Traits\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

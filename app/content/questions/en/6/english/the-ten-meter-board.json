@@ -1,0 +1,87 @@
+[
+  {
+    "id": "english_g6_2026-08-23_11-02_q6",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Ten-Meter Board",
+    "question": "Which statement BEST expresses a **theme** of \"The Ten-Meter Board\"?",
+    "options": [
+      "Courage means acting despite fear rather than waiting for it to disappear.",
+      "Competitive diving is more dangerous than most sports.",
+      "A good coach should always encourage athletes out loud.",
+      "Practicing a skill many times guarantees a perfect result."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7A · MAP: Literary Text**\n**Correct:** Nadia dives \"before the fear could grab the controls\" and laughs \"because she had finally stopped waiting.\" The theme is that **courage means acting despite fear**, not waiting for fear to vanish.\n**Why others are wrong:** B and C are not the passage's message. D is contradicted — she succeeds even though the dive \"had [not] been perfect.\"\n**Key concept:** Inferring theme from character actions and the ending.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q7",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Ten-Meter Board",
+    "question": "The passage makes clear that Nadia's main struggle is —",
+    "options": [
+      "external, between Nadia and Coach Ellis",
+      "internal, between Nadia's trained ability and her own fear",
+      "external, between Nadia and the younger diver on the ladder",
+      "internal, between Nadia's wish to win and her dislike of diving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.7C · MAP: Literary Text**\n**Correct:** The conflict is **internal**: \"Her body knew the tuck... Only her mind refused to believe the height.\" Her trained ability battles her own fear.\n**Why others are wrong:** A — the coach is silent and supportive, not an opponent. C — the younger diver is only \"patient and quiet.\" D — nothing shows she dislikes diving; she loves the skill but fears the height.\n**Key concept:** Distinguishing internal from external conflict.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q8",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Ten-Meter Board",
+    "question": "Reread this sentence: *\"Then, before the fear could grab the controls, she stepped off the edge.\"* The phrase **\"grab the controls\"** suggests that fear —",
+    "options": [
+      "can take over a person's actions if allowed to",
+      "is a physical object Nadia is holding",
+      "helps Nadia make a careful decision",
+      "belongs to Coach Ellis rather than to Nadia"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9E · MAP: Literary Text**\n**Correct:** \"Grab the controls\" is figurative — it means fear **can take over a person's actions** if allowed to, like a pilot seizing control.\n**Why others are wrong:** B takes the phrase literally. C reverses the meaning (fear hinders, not helps). D misassigns the fear to the coach.\n**Key concept:** Interpreting an author's figurative word choice.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q9",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Ten-Meter Board",
+    "question": "The narrator describes the pool from the platform as *\"a blue rectangle no bigger than a bath mat.\"* This comparison mainly helps the reader understand —",
+    "options": [
+      "how clean and well-kept the pool is",
+      "how far away and frighteningly small the water looks from the height",
+      "that the pool is actually very shallow",
+      "that Nadia prefers swimming to diving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9D · MAP: Literary Text**\n**Correct:** Comparing the pool to \"a blue rectangle no bigger than a bath mat\" (seen from the platform) shows **how far away and frighteningly small the water looks** from the height.\n**Why others are wrong:** A (cleanliness), C (depth), and D (preference) are not what the comparison conveys.\n**Key concept:** Analyzing how a comparison creates meaning and supports mood.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q10",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Ten-Meter Board",
+    "question": "Which sentence from the passage BEST shows that Nadia's fear was **in her mind**, not in her lack of skill?\n\n\n\n*Read the poem below and answer questions 11–13.*",
+    "options": [
+      "\"Her body knew the tuck, the roll, the clean slice of entry. Only her mind refused to believe the height.\"",
+      "\"A younger diver waited on the ladder behind her, patient and quiet.\"",
+      "\"Coach Ellis stood far below, arms crossed, saying nothing.\"",
+      "\"The fall lasted less than two seconds.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6C · MAP: Literary Text**\n**Correct:** \"Her body knew the tuck, the roll... Only her mind refused to believe the height\" directly shows the fear was **mental**, not a lack of skill.\n**Why others are wrong:** B, C, and D describe the setting and events but do not address the source of her fear.\n**Key concept:** Selecting the text evidence that supports a specific inference.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

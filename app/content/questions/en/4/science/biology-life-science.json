@@ -1,0 +1,172 @@
+[
+  {
+    "id": "science_g4_2026-08-29_23-09_q41",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A green plant is placed in sunlight and has water and carbon dioxide available. Which process best explains how the plant gets the material for much of its food?",
+    "options": [
+      "The plant uses sunlight to make food from water and carbon dioxide.",
+      "The plant eats soil and changes it directly into leaves.",
+      "The plant gets all of its food from insects that land on it.",
+      "The plant makes sunlight by using oxygen."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12A, 4.5E  \n**Explanation:** Most producers use sunlight, water, and carbon dioxide to make food; this process cycles matter through living systems.  \n**Why the other answers are wrong:** B and C are not how a typical green plant gets most food; D reverses the relationship with sunlight.  \n**Key concept:** Producers make food using sunlight, water, and carbon dioxide.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q42",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "In a marsh food web, arrows show the direction energy moves: algae → shrimp → redfish, and algae → mussel → redfish. What is the main role of the algae in this food web?",
+    "options": [
+      "It is a producer that captures energy from sunlight.",
+      "It is a consumer that eats redfish.",
+      "It is a decomposer that breaks down mussels.",
+      "It is a predator that hunts shrimp."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12B  \n**Explanation:** Algae are producers. They capture energy from sunlight and provide energy to shrimp and mussels.  \n**Why the other answers are wrong:** B and D describe consumers/predators; C describes decomposers.  \n**Key concept:** Food webs show energy flow from producers to consumers.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q43",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A disease greatly reduces the shrimp population in the marsh food web from Question 42. Which change is most likely at first?",
+    "options": [
+      "Redfish may have less food available from shrimp.",
+      "Algae will immediately stop using sunlight.",
+      "Mussels will become producers.",
+      "Decomposers will no longer break down dead material."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12B, 4.5D  \n**Explanation:** Shrimp are one food source for redfish, so fewer shrimp can reduce food available to redfish.  \n**Why the other answers are wrong:** B does not follow from shrimp numbers, C does not change mussels' role, and D ignores decomposers' role.  \n**Key concept:** Changes in one food-web population can affect connected populations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q44",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A scientist finds many shell fossils in rock far from today's coast. Which conclusion is best supported by this evidence?",
+    "options": [
+      "The area may once have been covered by or near a body of water where shell organisms lived.",
+      "Shells can form only in deserts.",
+      "The rock must have been made by a volcano yesterday.",
+      "All fossils are living organisms."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12C  \n**Explanation:** Shell fossils are evidence that shell organisms lived there in the past, supporting a past water environment.  \n**Why the other answers are wrong:** B is false, C is not supported, and D confuses fossils with living organisms.  \n**Key concept:** Fossils provide evidence about past environments.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q45",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A prairie plant has a waxy coating on its leaves and roots that grow deeply into the ground. How do these structures most likely help the plant survive a dry period?",
+    "options": [
+      "The waxy coating reduces water loss, and deep roots can reach water deeper in the soil.",
+      "The waxy coating helps the plant fly, and deep roots make sunlight.",
+      "The waxy coating turns water into soil, and deep roots produce wind.",
+      "The waxy coating makes the leaves magnetic, and deep roots attract rain."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A, 4.5F  \n**Explanation:** A waxy surface reduces water loss, while deep roots help the plant reach water below the dry surface.  \n**Why the other answers are wrong:** B, C, and D give functions that plant structures cannot perform.  \n**Key concept:** Plant structures help plants survive in particular environments.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q46",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "Which pair correctly matches a trait with its type?",
+    "options": [
+      "A rabbit's fur color inherited from its parents — inherited physical trait",
+      "A scar made after a scrape — inherited physical trait",
+      "A plant's wilted leaf after too little water — inherited physical trait",
+      "A clipped bird wing — trait passed unchanged to all offspring"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13B  \n**Explanation:** Fur color can be passed from parents to offspring, so it is an inherited physical trait. Scars, wilting, and clipped wings are acquired changes.  \n**Why the other answers are wrong:** B, C, and D label acquired changes as inherited.  \n**Key concept:** Inherited physical traits differ from traits acquired during life.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q47",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A bean seed is planted in moist soil. Which sequence best represents a plant life cycle?",
+    "options": [
+      "Seed germinates → seedling grows → adult plant produces seeds",
+      "Adult plant produces seeds → seed changes directly into an adult plant without growing",
+      "Seedling produces rocks → rocks become flowers → flowers become seeds",
+      "Adult plant becomes a seedling → seedling becomes a seed → seed germinates"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A (life-process extension)  \n**Explanation:** A seed germinates, grows into a seedling and then an adult plant; an adult plant can produce new seeds.  \n**Why the other answers are wrong:** B removes the needed growth stages; C is impossible; D reverses the life-cycle order.  \n**Key concept:** Living things have ordered growth and reproduction stages.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q48",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A mangrove tree grows along a muddy coast. Its roots spread widely above and below the muddy surface. Which explanation best connects the structure of the roots to the tree's survival?",
+    "options": [
+      "The roots can help anchor the tree in soft soil and take in needed water and minerals.",
+      "The roots allow the tree to hunt fish for food.",
+      "The roots cause the Moon to change shape.",
+      "The roots make the tree a nonliving part of the ecosystem."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A, 4.5F  \n**Explanation:** Wide roots can stabilize a tree in soft coastal mud and absorb water and minerals needed for life.  \n**Why the other answers are wrong:** B, C, and D do not describe root function or a living tree.  \n**Key concept:** Structure and function are connected in organisms.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q49",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "In a pond, herons have long legs that let them stand in shallow water while searching for fish. Which statement best explains why this structure is an adaptation?",
+    "options": [
+      "It helps the herons get food in their environment, improving their chance to survive.",
+      "It changes herons into producers that make food from sunlight.",
+      "It prevents herons from needing water.",
+      "It makes every pond organism have long legs."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A, 4.5F  \n**Explanation:** Long legs help a heron reach fish while standing in shallow water, aiding survival in its habitat.  \n**Why the other answers are wrong:** B assigns a consumer a producer role, C is false, and D wrongly says all organisms gain the same trait.  \n**Key concept:** Adaptations are structures that help an organism survive in an environment.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q50",
+    "grade": 4,
+    "subject": "science",
+    "subtopic": "Biology / Life Science",
+    "question": "A young dog has fur that matches its parents' fur color. The dog is later taught to sit when it hears a whistle. Which statement correctly compares these characteristics?",
+    "options": [
+      "Fur color is an inherited physical trait; sitting for the whistle is a learned behavior.",
+      "Fur color is a learned behavior; sitting for the whistle is inherited.",
+      "Both characteristics are inherited physical traits.",
+      "Neither characteristic is affected by parents or experience."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13B (plus MAP learned-behavior extension)  \n**Explanation:** Fur color is a physical trait that can be inherited from parents. Responding to a whistle is learned through training and experience.  \n**Why the other answers are wrong:** B reverses the types; C incorrectly calls training inherited; D ignores heredity and learning.  \n**Key concept:** Inherited physical traits and learned behaviors have different sources.\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Instructional area | Grade 4 TEKS topics represented | Questions |\n|---|---|---:|\n| Scientific & Engineering Practices / Recurring Themes | Questions and investigations; safe/appropriate tools and data organizers; models; data patterns/calculations; evidence-based explanations; engineering design/evaluation; science and society; patterns, cause/effect, systems, energy/matter, structure/function | 1–10 |\n| Chemistry & Physics—Matter | Observable physical properties; relative density; states; liquid-liquid and solid-liquid mixtures/solutions; separation; conservation of matter; changes caused by cooling/heating | 11–21 |\n| Chemistry & Physics—Forces, Energy, and Waves | Gravity, friction, and magnetism; simple-machine force pattern; motion comparison; energy transfer by collisions, water waves, and sound; thermal/electrical conductors and insulators; closed circuits | 22–31 |\n| Earth & Space Science | Seasons and Moon patterns; water cycle; weathering, erosion, deposition; weather data/tools; renewable/nonrenewable resources; conservation/recycling; rock properties and soil formation | 32–40 |\n| Biology / Life Science | Producer food making; food-web energy and matter; ecosystem effects; fossils/past environments; plant structures/adaptations; inherited versus acquired traits; plant life cycle; learned behavior extension | 41–50 |\n\n**Phase balance:** BOY 17 questions (1–17); MOY 17 questions (18–34); EOY 16 questions (35–50).",
+    "source": "authored",
+    "needsReview": false
+  }
+]

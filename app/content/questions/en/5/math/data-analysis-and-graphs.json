@@ -1,0 +1,53 @@
+[
+  {
+    "id": "math_g5_2026-03-12_10-30_q23",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Data Analysis and Graphs",
+    "question": "- Stem-and-Leaf Plot\nUse the stem-and-leaf plot below to answer the question.\n\n```\nStem | Leaf\n  2  | 3, 5, 7, 8\n  3  | 1, 4, 4, 6, 9\n  4  | 0, 2, 5\n\nKey: 2|3 = 23\n```\n\nWhat is the median of the data shown?",
+    "options": [
+      "34",
+      "35",
+      "36",
+      "31"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Topic:** Stem-and-Leaf Plots\n**TEKS:** 5.9\n\n**Step-by-Step Solution:**\n1. List all values: 23, 25, 27, 28, 31, 34, 34, 36, 39, 40, 42, 45\n2. Count total values: 12 values\n3. Find middle position: For 12 values, median is average of 6th and 7th values\n4. 6th value: 34\n5. 7th value: 34\n6. Median: (34 + 34) ÷ 2 = 34\n\n**Key Concept:** The median is the middle value. For even number of data points, average the two middle values.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q24",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Data Analysis and Graphs",
+    "question": "- Bar Graph Interpretation\nThe bar graph below shows the number of books read by students during summer break.\n\n```\nBooks Read During Summer\n\nMaya    |████████████████| 16\nJordan  |████████████| 12\nTyler   |████████| 8\nSofia   |██████████████████████| 22\n```\n\nHow many more books did Sofia read than Jordan and Tyler combined?",
+    "options": [
+      "2 books",
+      "4 books",
+      "10 books",
+      "6 books"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Topic:** Bar Graph Interpretation\n**TEKS:** 5.9\n\n**Step-by-Step Solution:**\n1. Sofia read: 22 books\n2. Jordan read: 12 books\n3. Tyler read: 8 books\n4. Jordan + Tyler: 12 + 8 = 20 books\n5. Difference: 22 - 20 = 2 books\n\n**Key Concept:** Reading data from bar graphs and performing calculations to compare values.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q25",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Data Analysis and Graphs",
+    "question": "- Multi-step Word Problem\nA school is ordering supplies. They need 15 boxes of pencils at $3.50 per box and 8 boxes of markers at $6.25 per box. The school has a budget of $125. How much money will be left over after the purchase?",
+    "options": [
+      "$22.50",
+      "$20.50",
+      "$21.50",
+      "$22.00"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Topic:** Multi-step Word Problem\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Cost of pencils: 15 × $3.50 = $52.50\n2. Cost of markers: 8 × $6.25 = $50.00\n3. Total cost: $52.50 + $50.00 = $102.50\n4. Budget: $125.00\n5. Leftover: $125.00 - $102.50 = $22.50\n\n**Verification:**\n- 15 × $3.50 = $52.50 ✓\n- 8 × $6.25 = $50.00 ✓\n- Total: $52.50 + $50.00 = $102.50\n- Leftover: $125.00 - $102.50 = $22.50 ✓\n\n**Answer: A ($22.50)**\n\n**Key Concept:** Multi-step problems requiring multiple operations (multiplication, addition, subtraction).\n\n---\n\n## Topics Covered Summary\n\n| Topic Area | Questions | TEKS Standard |\n|------------|-----------|---------------|\n| Fractions | 1, 2, 3 | 5.3 |\n| Decimals | 4, 5 | 5.3 |\n| Multi-digit Operations | 6 | 5.3 |\n| Percentages | 7, 8 | 5.4 |\n| Word Problems | 9, 25 | 5.4 |\n| Inequalities | 10, 11 | 5.4 |\n| Area & Perimeter | 12, 15 | 5.5 |\n| Volume | 13, 14 | 5.5 |\n| Length Conversions | 16, 17 | 5.7 |\n| Capacity Conversions | 18 | 5.7 |\n| Weight Conversions | 19 | 5.7 |\n| Coordinate Plane | 20, 21 | 5.8 |\n| Graphing Patterns | 22 | 5.8 |\n| Data Analysis | 23, 24 | 5.9 |\n\n---\n\n*Answer key aligned with Texas STAAR test standards and TEKS for 5th Grade Mathematics*\n\n**Reference Sources:**\n- [STAAR Released Test Questions - TEA](https://tea.texas.gov/student-assessment/staar/staar-released-test-questions)\n- [Texas Assessment Practice Tests](https://www.texasassessment.gov/practice-tests.html)",
+    "source": "authored",
+    "needsReview": false
+  }
+]

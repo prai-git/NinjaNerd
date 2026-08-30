@@ -1,0 +1,104 @@
+[
+  {
+    "id": "english_g3_2026-08-29_23-09_q31",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "question": "**TEKS 3.9E(i) [R] — claim**\n\nWhat is the author’s main claim?",
+    "options": [
+      "Students should vote on one Friday recess game.",
+      "Morning meeting should last all day.",
+      "The principal should choose every game alone.",
+      "Recess should be canceled on Fridays."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9E(i) [R]\n\n**Explanation and text evidence:** The first sentence directly states that students should vote on one Friday recess game.\n\n**Why other answers are wrong:** B is a supporting detail; C is the opposite claim; D is not argued.\n\n**Key concept:** Claim\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q32",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "question": "**TEKS 3.9E(ii) [R] — reasons and evidence**\n\nWhich reason does the author give to support the claim?",
+    "options": [
+      "A vote can help students share ideas.",
+      "Every game needs new equipment.",
+      "Morning meeting should be longer.",
+      "Students do not like recess."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9E(ii) [R]\n\n**Explanation and text evidence:** The author supports voting by saying students can share ideas and try unfamiliar games.\n\n**Why other answers are wrong:** B is not required, C is not argued, and D contradicts the author.\n\n**Key concept:** Reasons and evidence\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q33",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "question": "**TEKS 3.9E(iii) [R] — counterargument and response**\n\nHow does the author respond to the idea that voting would take too much time?",
+    "options": [
+      "The author says recess should be shorter.",
+      "The author gives a quick tally-mark plan.",
+      "The author says students should not vote.",
+      "The author changes the topic to lunch."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.9E(iii) [R]\n\n**Explanation and text evidence:** The author responds to the time concern by proposing a quick tally-mark plan.\n\n**Why other answers are wrong:** A changes the plan, C gives the opposite response, and D ignores the concern.\n\n**Key concept:** Counterargument/rebuttal\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q34",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "question": "**TEKS 3.9E(iv) — fact and opinion**\n\nWhich sentence from the selection is an opinion?",
+    "options": [
+      "“A vote would give students a chance to share ideas.”",
+      "“Each class could place one tally mark beside its choice.”",
+      "“The principal could announce the game before lunch.”",
+      "“Adults should still make sure the game is safe.”"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.9E(iv)\n\n**Explanation and text evidence:** Calling the vote “fair” is a judgment people can disagree about, so it is an opinion.\n\n**Why other answers are wrong:** A and B are calendar facts; D is a checkable definition.\n\n**Key concept:** Fact versus opinion\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q35",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "question": "**TEKS 3.10B [R] — transitions and organization**\n\nWhy does the author use the word **However** at the start of the second paragraph?",
+    "options": [
+      "To show a contrast with a concern",
+      "To list the first step in order",
+      "To tell when recess begins",
+      "To define a difficult word"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.10B [R]\n\n**Explanation and text evidence:** **However** signals a contrast between the time concern and the author’s response.\n\n**Why other answers are wrong:** B signals order, C signals time, and D signals definition.\n\n**Key concept:** Transition words\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q36",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "question": "**TEKS 3.10A — composition: effective conclusion**\n\nWhich conclusion best supports the author’s argument?",
+    "options": [
+      "Friday is a day that comes after Thursday.",
+      "A short, safe voting plan can give students a fair say in a recess game.",
+      "Many schools have buildings and hallways.",
+      "Tally marks look like lines on paper."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10A\n\n**Explanation and text evidence:** B restates the claim and brings together safety, fairness, and the short plan.\n\n**Why other answers are wrong:** A and C are irrelevant; D is a minor detail, not a conclusion.\n\n**Key concept:** Effective conclusion\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

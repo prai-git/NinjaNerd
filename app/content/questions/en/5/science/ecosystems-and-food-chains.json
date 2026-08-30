@@ -1,0 +1,53 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q25",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Ecosystems and Food Chains",
+    "question": "In a forest ecosystem, a student identifies oak trees, deer, wolves, and mushrooms. What role do the **mushrooms** most likely play in this ecosystem?",
+    "options": [
+      "Producer — they make their own food using sunlight",
+      "Primary consumer — they eat plants for energy",
+      "Decomposer — they break down dead organisms and return nutrients to the soil",
+      "Predator — they hunt and consume other organisms"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.12 | Topic: Ecosystem Roles — Decomposers**\n\n**Correct Answer:** C) Decomposer — they break down dead organisms and return nutrients to the soil\n\n**Explanation:**\nMushrooms (fungi) are **decomposers**. They secrete enzymes that break down dead and decaying organic matter (dead animals, dead plants, fallen leaves). This process releases nutrients back into the soil, making them available for plants to absorb and use for growth.\n\n**Ecosystem roles:**\n- **Producers:** Make their own food using sunlight (plants, algae)\n- **Consumers:** Eat other organisms (animals)\n  - Primary consumers: eat producers (deer eat plants)\n  - Secondary consumers: eat primary consumers (wolves eat deer)\n- **Decomposers:** Break down dead matter (fungi, bacteria)\n\n**Why the other answers are wrong:**\n- **A) Producer** — Mushrooms do NOT perform photosynthesis. They do not make food using sunlight.\n- **B) Primary consumer** — Fungi do not eat whole plants. They break down dead matter.\n- **D) Predator** — Predators are animals that hunt living prey. Fungi decompose dead matter.\n\n**Key concept:** Decomposers (fungi, bacteria) = nature's recyclers. They break down dead matter and return nutrients to the soil.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q26",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Ecosystems and Food Chains",
+    "question": "A student studies the following food chain:\n\n**Algae → Water flea → Small fish → Large fish → Heron**\n\nAs energy moves from one level to the next, what happens to the amount of energy **available**?",
+    "options": [
+      "It increases at each level because organisms become larger",
+      "It stays the same because energy cannot be created or destroyed",
+      "It decreases at each level because energy is used up by each organism",
+      "It doubles at each level because each organism takes in more food"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.12 | Topic: Energy Flow in Food Chains**\n\n**Correct Answer:** C) It decreases at each level because energy is used up by each organism\n\n**Explanation:**\nAs energy moves through a food chain, it is LOST at each level. Only about **10%** of the energy from one level is passed on to the next level. The other 90% is used by the organism for its own life processes (movement, growth, body heat) or is lost as heat.\n\n**Example from the food chain (Algae → Water flea → Small fish → Large fish → Heron):**\n- Algae captures: 1,000 units of energy\n- Water flea gets: 100 units (10%)\n- Small fish gets: 10 units (10%)\n- Large fish gets: 1 unit (10%)\n- Heron gets: 0.1 unit (10%)\n\nThis is why there are always fewer top predators than prey, and why ecosystems can support many more plants than animals.\n\n**Why the other answers are wrong:**\n- **A) Increases** — Energy does NOT increase as it moves through a food chain.\n- **B) Stays the same** — Energy is always lost at each level; it cannot be perfectly transferred.\n- **D) Doubles** — Energy halves, it doesn't double.\n\n**Key concept:** Energy decreases (~10% is passed on) at each level of a food chain. Top of food chain = least energy available.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q27",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Ecosystems and Food Chains",
+    "question": "A student is studying a grassland ecosystem. She identifies the following factors: sunlight, temperature, amount of rainfall, and type of soil. What do **all** of these factors have in common?",
+    "options": [
+      "They are all biotic (living) factors in the ecosystem",
+      "They are all produced by the organisms living in the ecosystem",
+      "They are all abiotic (nonliving) factors in the ecosystem",
+      "They are all examples of producers in the ecosystem"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.12 | Topic: Abiotic vs. Biotic Factors**\n\n**Correct Answer:** C) They are all abiotic (nonliving) factors in the ecosystem\n\n**Explanation:**\n**Abiotic factors** are the nonliving components of an ecosystem. They include:\n- Sunlight (energy source)\n- Temperature (affects organism metabolism)\n- Rainfall/precipitation (water availability)\n- Type of soil (affects plant growth)\n- Wind, humidity, altitude, pH\n\nAll the factors listed — sunlight, temperature, rainfall, and type of soil — are **nonliving**, making them abiotic.\n\n**Biotic factors** are the LIVING components: all organisms (plants, animals, fungi, bacteria).\n\n**Why the other answers are wrong:**\n- **A) Biotic (living) factors** — None of the listed factors (sunlight, temperature, rainfall, soil) are living organisms.\n- **B) Produced by organisms** — These factors exist independently of organisms. Sunlight comes from the sun; rainfall is part of the water cycle.\n- **D) Producers** — Producers are living organisms (plants) that make food. None of the listed factors are organisms.\n\n**Key concept:** Abiotic = nonliving (sun, water, air, soil, temperature). Biotic = living (plants, animals, fungi, bacteria).\n\n---\n\n---\n\n## Section 8: Matter and Physical Science\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

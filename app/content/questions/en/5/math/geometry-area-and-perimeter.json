@@ -1,0 +1,53 @@
+[
+  {
+    "id": "math_g5_2026-04-18_11-00_q31",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry: Area and Perimeter",
+    "question": "— Finding a Missing Dimension from Area [R]\nThe area of a rectangular swimming pool is **252 square feet**. The **width** of the pool is **14 feet**. What is the **length** of the pool?",
+    "options": [
+      "14 feet",
+      "18 feet",
+      "24 feet",
+      "238 feet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 18 feet\n\n**Step-by-step:**\nUse the area formula: **A = l × w**\n\n- 252 = l × 14\n- l = 252 ÷ 14\n\nDivide: 14 × 18 = 252 → **l = 18 feet**\n\n**Verification:** 18 × 14 = 252 ✓\n\n**Why other answers are wrong:**\n- A) 14 feet — this is the width, not the length\n- C) 24 feet → 24 × 14 = 336 ≠ 252\n- D) 238 feet → subtracts instead of divides: 252 − 14 = 238 (wrong operation)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q32",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry: Area and Perimeter",
+    "question": "— Area of a Composite Figure [R]\nA park has an L-shaped playground. The full rectangle would be **20 meters × 15 meters**. A square section of **8 meters × 8 meters** is removed from one corner to make room for a fountain. What is the **area of the playground**?",
+    "options": [
+      "172 sq meters",
+      "236 sq meters",
+      "256 sq meters",
+      "300 sq meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 236 sq meters\n\n**Step-by-step:**\n**Method: Full rectangle area − Removed square area**\n\nStep 1 — Full rectangle area:\n- 20 m × 15 m = **300 sq meters**\n\nStep 2 — Removed square area:\n- 8 m × 8 m = **64 sq meters**\n\nStep 3 — Playground area:\n- 300 − 64 = **236 sq meters**\n\n**Why other answers are wrong:**\n- A) 172 — subtracts 20 × 8 = 160 from 300 instead of 8 × 8 = 64 (uses width of square × rectangle length)\n- C) 256 — computes 8 × 8 = 64 but then subtracts from 320 instead of 300 (uses 20 × 16)\n- D) 300 — the area of the full rectangle before the square is removed\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q33",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry: Area and Perimeter",
+    "question": "— Perimeter to Find Area  [R]\nThe **perimeter** of a rectangle is **54 feet**. One side measures **8 feet**. What is the **area** of the rectangle?",
+    "options": [
+      "54 sq feet",
+      "144 sq feet",
+      "152 sq feet",
+      "304 sq feet"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 152 sq feet\n\n**Step-by-step:**\nStep 1 — Use perimeter formula to find the missing side:\n- P = 2l + 2w\n- 54 = 2l + 2(8)\n- 54 = 2l + 16\n- 2l = 38\n- l = **19 feet**\n\nStep 2 — Calculate area:\n- A = l × w = 19 × 8 = **152 sq feet**\n\n**Verification:** Perimeter check: 2(19) + 2(8) = 38 + 16 = 54 ✓\n\n**Why other answers are wrong:**\n- A) 54 sq feet — uses the perimeter value as the area\n- B) 144 sq feet = 12 × 12 (assumes a square with side 12, which is half of 24)\n- D) 304 sq feet = 19 × 16 (doubles the width incorrectly)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

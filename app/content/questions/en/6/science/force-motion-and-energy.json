@@ -1,0 +1,172 @@
+[
+  {
+    "id": "science_g6_2026-08-19_10-30_q6",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "Two teams play tug-of-war. The team on the left pulls with **300 N** and the team on the right pulls with **250 N**. What will happen to the rope?",
+    "options": [
+      "It stays still because the forces cancel out",
+      "It moves to the left because the net force is toward the left",
+      "It moves to the right because the right team pulled last",
+      "It spins in a circle"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 5.7 — Unbalanced forces.*\nThe forces are **unbalanced** (300 N left vs. 250 N right). The net force is $300 - 250 = 50$ N to the **left**, so the rope moves left.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-19_10-30_q7",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "A student pulls back the elastic band of a slingshot but does **not** release it. The stretched band mainly stores —",
+    "options": [
+      "kinetic energy",
+      "potential energy",
+      "thermal energy",
+      "sound energy"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.8 — Potential vs. kinetic energy.*\nA stretched elastic band stores **potential energy** (stored energy of position/condition). It becomes **kinetic** energy (energy of motion) only when released.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-19_10-30_q8",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "When you turn on a battery-powered flashlight, energy changes form. Which energy transformation takes place?",
+    "options": [
+      "Light energy → chemical energy",
+      "Sound energy → electrical energy",
+      "Chemical energy → electrical energy → light energy",
+      "Thermal energy → sound energy"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.8 — Energy transformations.*\nThe battery stores **chemical** energy, which becomes **electrical** energy flowing through the circuit, which the bulb turns into **light** energy.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-19_10-30_q9",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "A metal spoon is placed in a bowl of hot soup. After a few minutes, the handle of the spoon feels hot. Heat traveled through the solid metal spoon by —",
+    "options": [
+      "convection",
+      "radiation",
+      "conduction",
+      "evaporation"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.8 — Thermal energy transfer.*\nHeat moving through a **solid** by direct contact (particle to particle) is **conduction**. Convection happens in liquids/gases; radiation travels as waves without matter.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-19_10-30_q10",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "A student wants to build a wire that carries electricity well in a circuit. Which material is the **best electrical conductor**?",
+    "options": [
+      "Rubber",
+      "Copper",
+      "Plastic",
+      "Wood"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.8 — Conductors and insulators.*\n**Copper** (a metal) is an excellent **electrical conductor**, which is why wires are made of it. Rubber, plastic, and wood are **insulators**.\n\n---\n\n# Earth and Space",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-20_19-02_q6",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "A cyclist travels **300 meters** in **60 seconds**. What is the cyclist's **speed**?\n*(Speed = distance ÷ time)*",
+    "options": [
+      "5 m/s",
+      "50 m/s",
+      "240 m/s",
+      "360 m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Instructional Area:** Force, Motion, and Energy | **TEKS 6.8**\nSpeed = distance ÷ time = 300 m ÷ 60 s = **5 m/s**.\n**Why others are wrong:** B divides incorrectly; C and D use the wrong operation (subtracting or adding).\n**Key concept:** Calculating speed from distance and time.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-20_19-02_q7",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "Two identical toy cars roll across the same floor. Car 1 moves at **2 m/s** and Car 2 moves at **5 m/s**. Which statement is **true**?",
+    "options": [
+      "Car 1 has more kinetic energy because it is slower",
+      "Car 2 has more kinetic energy because it moves faster",
+      "Both cars have the same kinetic energy",
+      "Neither car has kinetic energy while moving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Force, Motion, and Energy | **TEKS 6.8**\nKinetic energy is the energy of motion. For identical masses, the **faster** object has more kinetic energy, so Car 2 (5 m/s) has more than Car 1 (2 m/s).\n**Key concept:** Kinetic energy increases with speed.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-20_19-02_q8",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "A student pedals a stationary bike that is connected to a **generator**, which powers a **light bulb**. Which sequence shows the energy transformation?",
+    "options": [
+      "Light energy → mechanical energy → electrical energy",
+      "Mechanical energy → electrical energy → light energy",
+      "Electrical energy → sound energy → thermal energy",
+      "Thermal energy → mechanical energy → chemical energy"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Force, Motion, and Energy | **TEKS 6.9**\nThe rider's motion (mechanical energy) turns the generator, producing **electrical energy**, which the bulb turns into **light energy**: mechanical → electrical → light.\n**Why others are wrong:** They list the transformations out of order or in reverse.\n**Key concept:** Tracing energy transformations through a system.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-20_19-02_q9",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "A heavy book rests on a table and does not move. Which statement **best** describes the forces acting on the book?",
+    "options": [
+      "There are no forces acting on the book",
+      "The forces are unbalanced, so the book will soon move",
+      "The forces are balanced, so the net force is zero",
+      "Gravity is the only force acting on the book"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Force, Motion, and Energy | **TEKS 6.8**\nThe book is still, so the downward pull of gravity is balanced by the upward support (normal) force from the table. Balanced forces mean a **net force of zero**.\n**Why others are wrong:** A ignores gravity; B describes motion that is not happening; D forgets the table's upward force.\n**Key concept:** Balanced forces and net force.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-20_19-02_q10",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Force, Motion, and Energy",
+    "question": "According to the **Law of Conservation of Energy**, when a roller-coaster car speeds down a hill, energy is —",
+    "options": [
+      "created out of nothing as the car speeds up",
+      "destroyed as the car slows down",
+      "transformed from one form to another, never created or destroyed",
+      "only stored and never changes form"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Force, Motion, and Energy | **TEKS 6.9**\nThe Law of Conservation of Energy says energy is **never created or destroyed** — it only **changes form** (here, stored/potential energy transforms into energy of motion).\n**Key concept:** Conservation of energy.\n\n---\n\n# Earth and Space",
+    "source": "authored",
+    "needsReview": false
+  }
+]

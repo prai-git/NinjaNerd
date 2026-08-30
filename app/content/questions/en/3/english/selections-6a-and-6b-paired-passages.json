@@ -1,0 +1,104 @@
+[
+  {
+    "id": "english_g3_2026-08-29_23-09_q37",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selections 6A and 6B — Paired Passages",
+    "question": "**TEKS 3.6H [R] — compare texts**\n\nWhat idea is shared by both passages?",
+    "options": [
+      "People can share books through a small book box.",
+      "All book boxes must be blue.",
+      "Only adults may use book boxes.",
+      "Book boxes should be kept inside buses."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.6H [R]\n\n**Explanation and text evidence:** Both selections describe neighbors sharing books through a small outdoor book box.\n\n**Why other answers are wrong:** B is only in Passage B; C and D are unsupported.\n\n**Key concept:** Compare texts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q38",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selections 6A and 6B — Paired Passages",
+    "question": "**TEKS 3.8B — text structure/genre**\n\nHow is Passage B different from Passage A?",
+    "options": [
+      "Passage B tells a personal experience in letter form.",
+      "Passage B gives only facts in a chart.",
+      "Passage B is a poem with rhyme.",
+      "Passage B is a drama with stage directions."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.8B\n\n**Explanation and text evidence:** Passage B has a greeting and closing and tells Imani’s personal experience, so it is a letter.\n\n**Why other answers are wrong:** B describes a chart, C a poem, and D a drama.\n\n**Key concept:** Genre characteristics\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q39",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selections 6A and 6B — Paired Passages",
+    "question": "**TEKS 3.6G [R] — synthesize information**\n\nWhat can a reader conclude from both passages?",
+    "options": [
+      "A book box can grow its collection when neighbors participate.",
+      "Book boxes should contain only mystery books.",
+      "Walkers cannot use books from a box.",
+      "All books in a box belong to one person."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.6G [R]\n\n**Explanation and text evidence:** Passage A explains sharing, and Passage B shows the box gaining many books; together, these show participation can grow the collection.\n\n**Why other answers are wrong:** B is too narrow, C is false, and D contradicts the sharing rule.\n\n**Key concept:** Synthesis\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q40",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selections 6A and 6B — Paired Passages",
+    "question": "**TEKS 3.3C — word parts**\n\nThe prefix **re-** means “again.” What does **reuse** mean?",
+    "options": [
+      "to use something again",
+      "to stop using something",
+      "to make something smaller",
+      "to use something for the first time"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.3C\n\n**Explanation and text evidence:** The prefix **re-** means “again,” so **reuse** means to use something again. Reusing a book box or an item keeps it in use.\n\n**Why other answers are wrong:** B means stop using, C means make smaller, and D means use for the first time; none matches the meaning of **re-**.\n\n**Key concept:** Prefix meaning\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q41",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selections 6A and 6B — Paired Passages",
+    "question": "**TEKS 3.11A [R] — research question**\n\nWhich question would be best for researching whether a tiny free library is useful in a neighborhood?",
+    "options": [
+      "How many books are borrowed or shared each month?",
+      "What is the funniest book title ever?",
+      "Which neighbor has the longest name?",
+      "What color is the bus stop?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.11A [R]\n\n**Explanation and text evidence:** Borrowing/sharing counts provide evidence about whether the library is useful.\n\n**Why other answers are wrong:** B is an opinion question; C and D are irrelevant.\n\n**Key concept:** Research question\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q42",
+    "grade": 3,
+    "subject": "english",
+    "subtopic": "Selections 6A and 6B — Paired Passages",
+    "question": "**TEKS 3.11D [R] — paraphrase and sources**\n\nWhich sentence best paraphrases Passage A without copying it?",
+    "options": [
+      "A tiny free library lets neighbors exchange books in a small outdoor box.",
+      "“Take a book; share a book.”",
+      "A tiny free library is a weatherproof box where people may take a book or leave a book.",
+      "Books travel from one reader to another."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.11D [R]\n\n**Explanation and text evidence:** A states Passage A’s main idea in new words without copying its sentence.\n\n**Why other answers are wrong:** B, C, and D copy wording from the passage.\n\n**Key concept:** Paraphrasing\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

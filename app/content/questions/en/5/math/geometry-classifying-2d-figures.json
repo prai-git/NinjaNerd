@@ -1,0 +1,53 @@
+[
+  {
+    "id": "math_g5_2026-04-05_15-00_q36",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry — Classifying 2D Figures",
+    "question": "— Hierarchy of Quadrilaterals  **[Readiness]**\nWhich statement about quadrilaterals is **TRUE**?",
+    "options": [
+      "All parallelograms are squares.",
+      "All rectangles are parallelograms.",
+      "All trapezoids are rectangles.",
+      "All rhombuses are rectangles."
+    ],
+    "correctIndex": 1,
+    "explanation": "A parallelogram is any quadrilateral with two pairs of parallel sides, and every rectangle has two pairs of parallel sides, so all rectangles fit the definition of a parallelogram.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q23",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry: Classifying 2D Figures",
+    "question": "— Hierarchy of 2D Figures [R]\nWhich statement about the relationship between two-dimensional figures is **TRUE**?",
+    "options": [
+      "All squares are rhombuses.",
+      "All rhombuses are squares.",
+      "All parallelograms are rectangles.",
+      "All quadrilaterals are parallelograms."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → All squares are rhombuses.\n\n**Step-by-step:**\nUnderstanding the hierarchy of quadrilaterals:\n- **Rhombus**: A parallelogram with all 4 sides equal\n- **Square**: A rectangle AND a rhombus — all 4 sides equal AND all 4 angles are 90°\n\nSince a square has all 4 sides equal, it meets the definition of a rhombus. Therefore, **every square IS a rhombus**. ✓\n\n**Why other answers are wrong:**\n- B) All rhombuses are squares — FALSE. A rhombus only needs equal sides, not right angles. A diamond shape (tilted rhombus) has equal sides but no right angles → it is a rhombus but NOT a square.\n- C) All parallelograms are rectangles — FALSE. Parallelograms only need two pairs of parallel sides. Rectangles require 90° angles, which parallelograms do not always have.\n- D) All quadrilaterals are parallelograms — FALSE. A trapezoid is a quadrilateral with only ONE pair of parallel sides, so it is NOT a parallelogram.\n\n**Hierarchy:** Quadrilateral → Parallelogram → Rectangle → Square\n                                         → Rhombus → Square\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q43",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Geometry: Classifying 2D Figures",
+    "question": "— Hierarchy of Quadrilaterals [R]\nA student describes a shape: *\"It has 4 sides. All sides are equal in length. All angles measure 90°.\"*\n\nWhich answer lists **ALL** of the correct classifications for this shape?",
+    "options": [
+      "Rhombus only",
+      "Square only",
+      "Square and rectangle only",
+      "Square, rectangle, rhombus, and parallelogram"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D** → Square, rectangle, rhombus, and parallelogram\n\n**Step-by-step:**\nThe shape described: 4 equal sides + all angles = 90°\n\n| Classification | Required Properties | Does the shape qualify? |\n|---------------|--------------------|-----------------------|\n| Square | 4 equal sides + 4 right angles | Yes ✓ |\n| Rectangle | 4 right angles (opposite sides equal) | Yes (all sides equal, all angles 90°) ✓ |\n| Rhombus | 4 equal sides | Yes ✓ |\n| Parallelogram | 2 pairs of parallel sides | Yes (a square has 2 pairs of parallel sides) ✓ |\n| Quadrilateral | 4 sides | Yes ✓ |\n\nA square is **all** of the above simultaneously. The question asks for ALL correct classifications, so the answer includes square, rectangle, rhombus, AND parallelogram.\n\n**Why other answers are wrong:**\n- A) Rhombus only — a rhombus only requires 4 equal sides; this shape also has right angles (qualifying as more)\n- B) Square only — technically correct as the most specific, but misses all the broader categories it also belongs to\n- C) Square and rectangle only — correct but incomplete; also misses rhombus and parallelogram\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

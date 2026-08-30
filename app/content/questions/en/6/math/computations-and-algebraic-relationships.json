@@ -1,0 +1,733 @@
+[
+  {
+    "id": "math_g6_2026-08-14_17-35_q5",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Find the quotient:\n\n$$\\frac{3}{4} \\div \\frac{1}{8}$$",
+    "options": [
+      "6",
+      "$\\frac{3}{32}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{3}{8}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Dividing fractions — multiply by the reciprocal.\n\n**Steps:** $\\dfrac{3}{4} \\div \\dfrac{1}{8} = \\dfrac{3}{4} \\times \\dfrac{8}{1} = \\dfrac{24}{4} = 6$.\n\n**Why others are wrong:** B multiplied instead of dividing ($\\frac34 \\times \\frac18$); C flipped the wrong fraction; D forgot to invert.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q6",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Multiply:\n\n$$3.4 \\times 2.5$$",
+    "options": [
+      "8.5",
+      "85",
+      "0.85",
+      "6.8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Multiplying decimals — multiply as whole numbers, then place the decimal.\n\n**Steps:** $34 \\times 25 = 850$. There are 2 decimal places total (one in each factor), so $3.4 \\times 2.5 = 8.50 = 8.5$.\n\n**Why others are wrong:** B and C misplace the decimal point; D adds the numbers ($3.4 + 2.5$).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q7",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A jacket regularly costs **\\$60**. During a sale, it is marked **25% off**. What is the **sale price** of the jacket (before tax)?",
+    "options": [
+      "\\$15",
+      "\\$45",
+      "\\$75",
+      "\\$35"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Key concept:** Finding a percent of a number; discount problems.\n\n**Steps:** Discount $= 0.25 \\times 60 = \\$15$. Sale price $= 60 - 15 = \\$45$.\n\n**Why others are wrong:** A is only the discount; C adds instead of subtracting; D uses the wrong percent.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q8",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A car travels **288 miles** using **12 gallons** of gas. What is the car's fuel efficiency as a **unit rate**?",
+    "options": [
+      "24 miles per gallon",
+      "12 miles per gallon",
+      "300 miles per gallon",
+      "2.4 miles per gallon"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** A unit rate compares a quantity to **one** unit.\n\n**Steps:** $288 \\div 12 = 24$ → **24 miles per gallon**.\n\n**Why others are wrong:** B is the gallons; C and D come from incorrect operations.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q9",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Which expression is **equivalent** to $3(x + 4)$?",
+    "options": [
+      "$3x + 12$",
+      "$3x + 4$",
+      "$x + 12$",
+      "$3x + 7$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** The distributive property.\n\n**Steps:** $3(x + 4) = 3 \\cdot x + 3 \\cdot 4 = 3x + 12$.\n\n**Why others are wrong:** B distributes only to the $x$; C forgets to multiply the $x$ by 3; D adds incorrectly.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q10",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Maria bought **4 notebooks** and one pen that cost **\\$6**. She spent a total of **\\$22**. Each notebook cost the same amount and can be modeled by $4n + 6 = 22$.\n\nWhat is the cost of **one notebook**?",
+    "options": [
+      "\\$4",
+      "\\$7",
+      "\\$16",
+      "\\$5.50"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Solving a one-variable equation.\n\n**Steps:** $4n + 6 = 22 \\Rightarrow 4n = 16 \\Rightarrow n = 4$. **Check:** $4(4) + 6 = 22$ ✓\n\n**Why others are wrong:** B skips subtracting the \\$6; C is $4n$, not $n$; D divides 22 by 4 without removing the pen cost.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q11",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "The table below shows the relationship between $x$ and $y$.\n\n| $x$ | 1 | 2 | 3 | 4 |\n|-----|---|---|---|---|\n| $y$ | 3 | 6 | 9 | 12 |\n\nWhich equation represents the relationship shown in the table?",
+    "options": [
+      "$y = 3x$",
+      "$y = x + 2$",
+      "$y = x + 3$",
+      "$y = \\dfrac{x}{3}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Multiplicative (proportional) relationship $y = kx$.\n\n**Steps:** For every row, $y$ is $3$ times $x$ ($1\\to3$, $2\\to6$, $3\\to9$, $4\\to12$), so $y = 3x$.\n\n**Why others are wrong:** B ($y=x+2$) works for $x=1$ but fails at $x=2$; C fails similarly; D is the inverse.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q7",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A factory packs **4,896 markers** into boxes that each hold **24 markers**. How many boxes are needed to pack all the markers?",
+    "options": [
+      "202",
+      "204",
+      "214",
+      "240"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Concept:** Multi-digit whole-number division.\n$4{,}896 \\div 24 = 204$.\nCheck: $204 \\times 24 = 204 \\times 24 = 4{,}896$. ✓ **Answer B.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q8",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Find the difference:\n\n$$\\frac{5}{6} - \\frac{1}{4}$$",
+    "options": [
+      "$\\frac{4}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{7}{12}$",
+      "$\\frac{4}{10}$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Concept:** Subtracting fractions with unlike denominators.\nCommon denominator of 6 and 4 is 12:\n$$\\frac{5}{6} = \\frac{10}{12}, \\qquad \\frac{1}{4} = \\frac{3}{12}$$\n$$\\frac{10}{12} - \\frac{3}{12} = \\frac{7}{12}$$\n**Answer C.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q9",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A recipe calls for $\\dfrac{3}{4}$ cup of sugar. If Priya makes only $\\dfrac{1}{3}$ of the recipe, how much sugar does she need?",
+    "options": [
+      "$\\frac{1}{4}$ cup",
+      "$\\frac{3}{7}$ cup",
+      "$\\frac{1}{3}$ cup",
+      "$\\frac{9}{4}$ cups"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Concept:** Multiplying fractions (\"of\" means multiply).\n$$\\frac{3}{4} \\times \\frac{1}{3} = \\frac{3}{12} = \\frac{1}{4} \\text{ cup}$$\n**Answer A.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q10",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Six friends share the cost of a gift equally. The gift costs **\\$37.50**. If each friend pays the same amount, how much does each friend pay?",
+    "options": [
+      "\\$6.25",
+      "\\$6.75",
+      "\\$5.25",
+      "\\$7.50"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Concept:** Dividing a decimal by a whole number.\n$$\\$37.50 \\div 6 = \\$6.25$$\nCheck: $6.25 \\times 6 = 37.50$. ✓ **Answer A.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q11",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Which expression is **equivalent** to $2(3x + 5)$?",
+    "options": [
+      "$6x + 5$",
+      "$5x + 7$",
+      "$6x + 10$",
+      "$6x + 7$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Concept:** Distributive property.\n$$2(3x + 5) = (2 \\times 3x) + (2 \\times 5) = 6x + 10$$\n**Answer C.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q12",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A number **$m$** multiplied by 8 equals 96. The situation is modeled by $8m = 96$. What is the value of **$m$**?",
+    "options": [
+      "12",
+      "88",
+      "104",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Concept:** Solving a one-step multiplication equation.\n$$8m = 96 \\ \\Rightarrow \\ m = 96 \\div 8 = 12$$\nCheck: $8 \\times 12 = 96$. ✓ **Answer A.**\n\n---\n\n# Instructional Area: Geometry & Measurement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q7",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A school orders **236 boxes** of pencils. Each box contains **14 pencils**. How many pencils did the school order in all?",
+    "options": [
+      "3,304",
+      "3,204",
+      "2,596",
+      "3,314"
+    ],
+    "correctIndex": 0,
+    "explanation": "*TEKS 5.3B — Multi-digit multiplication.*\n$236 \\times 14 = 236 \\times 10 + 236 \\times 4 = 2{,}360 + 944 = \\mathbf{3{,}304}$.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q8",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Find the sum:\n\n$$\\frac{2}{3} + \\frac{1}{4}$$",
+    "options": [
+      "$\\frac{3}{7}$",
+      "$\\frac{11}{12}$",
+      "$\\frac{3}{12}$",
+      "$\\frac{2}{7}$"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.3E — Adding fractions with unlike denominators.*\nCommon denominator 12: $\\frac{2}{3} = \\frac{8}{12}$ and $\\frac{1}{4} = \\frac{3}{12}$. Sum: $\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q9",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "How many $\\dfrac{1}{3}$-cup scoops are in $\\dfrac{5}{6}$ of a cup?\n\n$$\\frac{5}{6} \\div \\frac{1}{3}$$",
+    "options": [
+      "$\\frac{5}{18}$",
+      "$\\frac{1}{2}$",
+      "$2\\frac{1}{2}$",
+      "$\\frac{5}{9}$"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.3E — Dividing fractions.*\nDivide by multiplying by the reciprocal: $\\frac{5}{6} \\div \\frac{1}{3} = \\frac{5}{6} \\times \\frac{3}{1} = \\frac{15}{6} = \\frac{5}{2} = 2\\frac{1}{2}$. There are 2½ one-third-cup scoops.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q10",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Multiply:\n\n$$3.2 \\times 0.5$$",
+    "options": [
+      "1.6",
+      "16",
+      "0.16",
+      "3.7"
+    ],
+    "correctIndex": 0,
+    "explanation": "*TEKS 6.3E — Multiplying decimals.*\n$32 \\times 5 = 160$. There is a total of **2 decimal places** (one in 3.2, one in 0.5), so place the decimal two spots from the right: **1.60 = 1.6**.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q11",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Simplify the expression:\n\n$$4 + 3 \\times (8 - 2)$$",
+    "options": [
+      "42",
+      "22",
+      "25",
+      "18"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.7A — Order of operations.*\nParentheses first: $(8 - 2) = 6$. Then multiply: $3 \\times 6 = 18$. Then add: $4 + 18 = \\mathbf{22}$.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q12",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "The equation $x + 9 = 24$ models a situation. What is the value of **$x$**?",
+    "options": [
+      "33",
+      "15",
+      "3",
+      "216"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.10A — One-step equations.*\n$x + 9 = 24$. Subtract 9 from both sides: $x = 24 - 9 = \\mathbf{15}$.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q13",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "There are **12 boys** and **18 girls** in a class. What is the ratio of **boys to girls** written in **simplest form**?",
+    "options": [
+      "$12 : 18$",
+      "$3 : 2$",
+      "$2 : 3$",
+      "$6 : 9$"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.4B — Ratios in simplest form.*\nBoys : girls $= 12 : 18$. Divide both parts by the GCF, 6: $12 \\div 6 = 2$, $18 \\div 6 = 3$, giving **2 : 3**.\n\n---\n\n# Geometry & Measurement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q7",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A factory packs **1,344 batteries** equally into boxes of **16**. How many boxes are filled?",
+    "options": [
+      "74",
+      "84",
+      "86",
+      "94"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 5.3C**\n1,344 ÷ 16. Since 16 × 80 = 1,280 and 16 × 4 = 64, then 16 × 84 = 1,344. So 84 boxes.\n**Why others are wrong:** They come from small multiplication/subtraction slips in long division.\n**Key concept:** Multi-digit whole-number division.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q8",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Find the difference:\n\n$$\\frac{5}{6} - \\frac{1}{4}$$",
+    "options": [
+      "$\\frac{4}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{7}{12}$",
+      "$\\frac{4}{10}$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 6.3E**\nCommon denominator is 12: 5/6 = 10/12 and 1/4 = 3/12. Then 10/12 − 3/12 = **7/12**.\n**Why others are wrong:** A/D come from subtracting numerators and denominators separately. B is not equal to 7/12.\n**Key concept:** Subtracting fractions with unlike denominators.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q9",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A ribbon is $\\dfrac{3}{4}$ of a meter long. It is cut into pieces that are each $\\dfrac{1}{8}$ of a meter long. How many pieces are made?\n\n$$\\frac{3}{4} \\div \\frac{1}{8}$$",
+    "options": [
+      "6",
+      "3",
+      "$\\frac{3}{32}$",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 6.3E**\nDividing by a fraction means multiplying by its reciprocal: 3/4 ÷ 1/8 = 3/4 × 8/1 = 24/4 = **6**.\n**Why others are wrong:** C multiplies instead of dividing. D doubles the correct answer. B is a partial result.\n**Key concept:** Dividing by a unit fraction (how many small pieces fit).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q10",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Divide:\n\n$$12.6 \\div 0.3$$",
+    "options": [
+      "4.2",
+      "42",
+      "0.42",
+      "420"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 6.3E**\nMultiply both numbers by 10 to clear the divisor's decimal: 12.6 ÷ 0.3 = 126 ÷ 3 = **42**.\n**Why others are wrong:** A, C, D come from misplacing the decimal point.\n**Key concept:** Dividing decimals by shifting the decimal to make a whole-number divisor.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q11",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Simplify the expression:\n\n$$2^3 + 5 \\times 4$$",
+    "options": [
+      "28",
+      "44",
+      "52",
+      "34"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 6.7A**\nOrder of operations: exponents first, 2³ = 8. Then multiply, 5 × 4 = 20. Then add: 8 + 20 = **28**.\n**Why others are wrong:** B adds before multiplying. C/D evaluate the exponent incorrectly (e.g., 2 × 3).\n**Key concept:** Order of operations including exponents.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q12",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Four friends split the cost of a gift equally. Each friend pays **\\$13**. If $4m = 52$ represents the total cost, what does **$m$** equal?",
+    "options": [
+      "\\$208",
+      "\\$56",
+      "\\$13",
+      "\\$48"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 6.9A / 6.10A**\nSolve 4m = 52 by dividing both sides by 4: m = 52 ÷ 4 = **13**. Each friend's share is \\$13. (Read carefully: m is each share, and the problem states each pays \\$13.)\n**Why others are wrong:** A multiplies instead of dividing. B and D use wrong operations.\n**Key concept:** Solving one-step multiplication equations.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q13",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A grocery store sells **3 pounds** of apples for **\\$6.00**. At the same rate, how much would **5 pounds** of apples cost?",
+    "options": [
+      "\\$9.00",
+      "\\$18.00",
+      "\\$10.00",
+      "\\$11.00"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Computations & Algebraic Relationships | **TEKS 6.4B / 6.5A**\nUnit rate: \\$6.00 ÷ 3 lb = \\$2.00 per pound. For 5 lb: 5 × \\$2.00 = **\\$10.00**.\n**Why others are wrong:** A adds \\$3 for two extra pounds incorrectly. B doubles the price. D is not proportional.\n**Key concept:** Unit rate and proportional reasoning.\n\n---\n\n# Geometry & Measurement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q8",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A length of wire is $\\dfrac{7}{8}$ of a meter long. It is cut into pieces that are each $\\dfrac{1}{16}$ of a meter long. How many pieces are made?\n\n$$\\frac{7}{8} \\div \\frac{1}{16}$$",
+    "options": [
+      "7",
+      "14",
+      "2",
+      "$\\frac{7}{128}$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.3E | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** $\\frac{7}{8} \\div \\frac{1}{16} = \\frac{7}{8} \\times \\frac{16}{1} = \\frac{112}{8} = 14$.\n\n**Why others are wrong:** A (7) divides denominators only. C (2) inverts the wrong fraction. D multiplied straight across instead of using the reciprocal.\n\n**Key concept:** Dividing by a fraction = multiplying by its reciprocal.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q9",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A runner completes laps that are each **0.25 miles** long. If she ran a total of **4.75 miles**, how many laps did she complete?",
+    "options": [
+      "15 laps",
+      "19 laps",
+      "21 laps",
+      "1.19 laps"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.3E | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** $4.75 \\div 0.25$. Multiply both by 100: $475 \\div 25 = 19$ laps.\n\n**Why others are wrong:** A (15) and C (21) are arithmetic slips. D ($1.19$) divides in the wrong order ($0.25 \\div 4.75$-type error).\n\n**Key concept:** Dividing decimals; scaling both numbers by a power of 10 to make a whole-number division.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q10",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Simplify:\n\n$$3 \\times (10 - 6)^2 \\div 4 + 5$$",
+    "options": [
+      "17",
+      "12",
+      "41",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7A | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** Grouping first: $(10-6) = 4$. Exponent: $4^2 = 16$. Then $3 \\times 16 = 48$; $48 \\div 4 = 12$; $12 + 5 = 17$.\n\n**Why others are wrong:** B (12) forgets the \"+5.\" C (41) mishandles order of the ×/÷. D (14) squares wrong or adds early.\n\n**Key concept:** Order of operations — parentheses, exponents, multiply/divide left-to-right, then add/subtract.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q11",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Which expression is **equivalent** to $4(2x - 3) + 5x$?",
+    "options": [
+      "$13x - 3$",
+      "$8x - 12 + 5x$",
+      "$13x - 12$",
+      "$8x - 3 + 5x$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.7D | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** Distribute: $4(2x - 3) = 8x - 12$. Combine like terms: $8x + 5x - 12 = 13x - 12$.\n\n**Why others are wrong:** A drops the constant. B and D are only partially simplified (not fully combined).\n\n**Key concept:** Distributive property and combining like terms to write equivalent expressions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q12",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Solve for $n$:\n\n$$3n - 7 = 20$$",
+    "options": [
+      "$n = 9$",
+      "$n = \\frac{13}{3}$",
+      "$n = 4$",
+      "$n = 27$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.10 / 7.11 (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** $3n - 7 = 20 \\Rightarrow 3n = 27 \\Rightarrow n = 9$.\n\n**Why others are wrong:** B divides before adding 7. C subtracts instead of adds ($20-7$ then something). D forgets to divide by 3.\n\n**Key concept:** Solving two-step equations using inverse operations (undo subtraction, then multiplication).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q13",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "The table shows the total cost $y$ for buying $x$ notebooks.\n\n| Notebooks ($x$) | 3 | 5 | 8 |\n|---|---|---|---|\n| Cost in dollars ($y$) | 7.50 | 12.50 | 20.00 |\n\nWhat is the **constant of proportionality** $k$ (cost per notebook)?",
+    "options": [
+      "$k = 3.00$",
+      "$k = 2.50$",
+      "$k = 2.00$",
+      "$k = 12.50$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 7.4A / 7.4C (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** $k = \\frac{y}{x}$. Check: $\\frac{7.50}{3} = 2.50$; $\\frac{12.50}{5} = 2.50$; $\\frac{20.00}{8} = 2.50$. Constant is \\$2.50 per notebook.\n\n**Why others are wrong:** A and C are arithmetic errors. D is a single $y$-value, not the ratio.\n\n**Key concept:** Constant of proportionality $k = y/x$ is the same for every point in a proportional relationship.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q14",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A line passes through the points $(2, 3)$ and $(6, 15)$. Using $m = \\dfrac{y_2 - y_1}{x_2 - x_1}$, what is the **slope** of the line?",
+    "options": [
+      "$m = \\frac{1}{3}$",
+      "$m = 4$",
+      "$m = 3$",
+      "$m = 12$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 8.4B / 8.4C (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** $m = \\frac{15 - 3}{6 - 2} = \\frac{12}{4} = 3$.\n\n**Why others are wrong:** A inverts the ratio ($\\frac{4}{12}$). B uses only the run's number. D uses only the rise.\n\n**Key concept:** Slope = change in $y$ ÷ change in $x$ (rise over run).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q15",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A gym charges a **\\$25 sign-up fee** plus **\\$15 per month**. If $y$ is the total cost after $x$ months, which equation in the form $y = mx + b$ models this situation?",
+    "options": [
+      "$y = 25x + 15$",
+      "$y = 15x + 25$",
+      "$y = 40x$",
+      "$y = 15x - 25$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 8.5B / 8.5I (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** The **per-month rate** \\$15 is the slope $m$; the **one-time fee** \\$25 is the y-intercept $b$. So $y = 15x + 25$.\n\n**Why others are wrong:** A swaps slope and intercept. C treats it as proportional (ignores the fixed fee). D makes the fee negative.\n\n**Key concept:** In $y = mx + b$, the constant rate is the slope and the fixed starting amount is the y-intercept.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q16",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A store buys a jacket for **\\$40** and marks up the price by **35%**. What is the **selling price** of the jacket?",
+    "options": [
+      "\\$54.00",
+      "\\$14.00",
+      "\\$75.00",
+      "\\$40.35"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.4D (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** Markup $= 35\\%$ of \\$40 $= 0.35 \\times 40 = \\$14$. Selling price $= 40 + 14 = \\$54$.\n\n**Why others are wrong:** B is only the markup amount, not the price. C uses the wrong percent basis. D adds 35 cents (misread percent as a decimal add-on).\n\n**Key concept:** Percent increase — find the percent of the base, then add it to the original.\n\n---\n\n# Instructional Area: Geometry & Measurement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q6",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "The table shows the wall area $y$ that can be covered with $x$ gallons of paint.\n\n| Paint (gallons, $x$) | 2 | 3 | 5 |\n|---|---|---|---|\n| Area (sq ft, $y$) | 350 | 525 | 875 |\n\nWhat is the **constant of proportionality** $k$ (square feet per gallon)?",
+    "options": [
+      "$k = 150$",
+      "$k = 175$",
+      "$k = 200$",
+      "$k = 87.5$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 7.4A/7.4C — Constant of proportionality.**\n**Solution:** $k = \\frac{y}{x}$: $\\frac{350}{2} = 175$, $\\frac{525}{3} = 175$, $\\frac{875}{5} = 175$. The rate is constant at **175 sq ft per gallon**.\n**Why others are wrong:** A and C are not equal to any $\\frac{y}{x}$ ratio. D halves one entry ($\\frac{175}{2}$).\n**Key concept:** In a proportional relationship, $k = \\frac{y}{x}$ is the same for every pair.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q7",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A bicycle originally priced at **\\$260** is on sale for **15% off**. What is the **sale price**?",
+    "options": [
+      "\\$221.00",
+      "\\$245.00",
+      "\\$299.00",
+      "\\$39.00"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.4D — Percent decrease / discount.**\n**Solution:** Discount $= 0.15 \\times 260 = 39$. Sale price $= 260 - 39 = \\$221$. (Or $0.85 \\times 260 = 221$.)\n**Why others are wrong:** B subtracts the wrong amount. C **adds** 15%. D gives only the discount, not the sale price.\n**Key concept:** A 15%-off price is $85\\%$ of the original.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q8",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Solve for $x$:\n\n$$-2x + 5 = 17$$",
+    "options": [
+      "$x = -6$",
+      "$x = 6$",
+      "$x = -11$",
+      "$x = 11$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.10/7.11 — Two-step equation.**\n**Solution:** $-2x + 5 = 17 \\Rightarrow -2x = 12 \\Rightarrow x = -6$.\n**Why others are wrong:** B drops the negative sign. C subtracts before isolating the variable term. D has a sign error.\n**Key concept:** Undo addition first, then division — watch the negative coefficient.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q9",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Maria has **\\$50**. She buys one ticket for **\\$14** and wants to spend the rest on snacks that cost **\\$4 each**. Which inequality shows the number of snacks $s$ she can buy?",
+    "options": [
+      "$4s + 14 \\le 50$",
+      "$4s + 14 \\ge 50$",
+      "$14s + 4 \\le 50$",
+      "$4s - 14 \\le 50$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.10A/7.11A — Writing an inequality.**\n**Solution:** Cost = ticket + snacks $= 14 + 4s$, and this must be at most \\$50: $4s + 14 \\le 50$.\n**Why others are wrong:** B uses $\\ge$ (she can't exceed \\$50). C swaps the price and count. D subtracts the ticket cost.\n**Key concept:** \"At most / no more than\" means $\\le$; translate each cost into a term.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q10",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "Solve for $x$:\n\n$$5x - 3 = 2x + 12$$",
+    "options": [
+      "$x = 5$",
+      "$x = 3$",
+      "$x = 15$",
+      "$x = \\frac{9}{7}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 8.8A/8.8C — Variables on both sides.**\n**Solution:** $5x - 3 = 2x + 12 \\Rightarrow 3x - 3 = 12 \\Rightarrow 3x = 15 \\Rightarrow x = 5$.\n**Why others are wrong:** B forgets to move the constant. C is $3x = 15$ left unsolved. D divides incorrectly.\n**Key concept:** Collect variable terms on one side, constants on the other, then divide.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q11",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "A taxi charges a **\\$3.00 base fee** plus **\\$2.50 per mile**, modeled by $y = 2.5x + 3$, where $y$ is the total cost for $x$ miles. What does the **slope** of this line represent?",
+    "options": [
+      "the \\$3.00 base fee",
+      "the cost of \\$2.50 per mile",
+      "the total cost of the ride",
+      "the number of miles traveled"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 8.5B/8.5I — Interpreting slope.**\n**Solution:** In $y = mx + b$, the **slope** $m = 2.5$ is the **rate of change** — here, \\$2.50 per mile. The intercept $b = 3$ is the base fee.\n**Why others are wrong:** A describes the y-intercept, not the slope. C is $y$ itself. D is $x$.\n**Key concept:** Slope is the per-unit rate; the y-intercept is the starting/fixed amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q12",
+    "grade": 6,
+    "subject": "math",
+    "subtopic": "Computations & Algebraic Relationships",
+    "question": "At a school fair, **adult tickets cost \\$8** and **student tickets cost \\$5**. A group buys **9 tickets** for a total of **\\$57**. The situation is modeled by the system below, where $x$ = adult tickets and $y$ = student tickets:\n\n$$x + y = 9 \\qquad 8x + 5y = 57$$\n\nThe **solution** is the pair $(x, y)$ that makes **both** equations true. How many **adult tickets** were bought?",
+    "options": [
+      "4 adult tickets",
+      "5 adult tickets",
+      "9 adult tickets",
+      "3 adult tickets"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 8.9 — Systems of two linear equations.**\n**Solution:** From $x + y = 9$, $y = 9 - x$. Substitute: $8x + 5(9 - x) = 57 \\Rightarrow 8x + 45 - 5x = 57 \\Rightarrow 3x = 12 \\Rightarrow x = 4$ (and $y = 5$). Check: $8(4) + 5(5) = 32 + 25 = 57$. ✓ **4 adult tickets.**\n**Why others are wrong:** B is the number of student tickets. C is the total tickets. D fails the cost equation ($8(3)+5(6)=54 \\neq 57$).\n**Key concept:** The solution to a system is the pair that satisfies **both** equations (the intersection point).\n\n---\n\n# Instructional Area: Geometry & Measurement",
+    "source": "authored",
+    "needsReview": false
+  }
+]

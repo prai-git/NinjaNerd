@@ -1,0 +1,70 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q15",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Inequalities",
+    "question": "— Inequalities / Income and Expense\nSofia wants to buy a tablet that costs $245. She already has $80 saved and earns $15 per hour babysitting. Which inequality shows the **minimum number of hours (h)** Sofia needs to babysit to afford the tablet?",
+    "options": [
+      "15h ≥ 245",
+      "80 + 15h ≤ 245",
+      "80 + 15h ≥ 245",
+      "15h + 245 ≥ 80"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sofia's total savings (what she has plus what she earns) must be **at least** $245, giving the inequality **80 + 15h ≥ 245**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q16",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Inequalities",
+    "question": "— Inequalities\nA delivery truck can carry **at most** 4,200 pounds. The driver and equipment together weigh 650 pounds. Each box being loaded weighs 55 pounds. Which inequality represents the maximum number of boxes (b) that can be safely loaded?",
+    "options": [
+      "55b ≤ 4,200",
+      "650 + 55b ≤ 4,200",
+      "55b + 4,200 ≤ 650",
+      "650 + 55b ≥ 4,200"
+    ],
+    "correctIndex": 1,
+    "explanation": "The total weight of the driver/equipment plus all boxes must not exceed 4,200 pounds, giving the inequality **650 + 55b ≤ 4,200**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q14",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Inequalities",
+    "question": "— Writing an Inequality\nWhich inequality best represents the phrase \"a number m is **no more than** 28\"?",
+    "options": [
+      "m < 28",
+      "m > 28",
+      "m ≥ 28",
+      "m ≤ 28"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"No more than 28\" means the number can be 28 or any value less than 28, which is written as m ≤ 28.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q15",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Inequalities",
+    "question": "— Interpreting an Inequality\nLola needs to save **more than** $80 to buy her mother a birthday gift. Let s represent the amount Lola must save. Which inequality represents this situation?",
+    "options": [
+      "s ≥ 80",
+      "s > 80",
+      "s < 80",
+      "s ≤ 80"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"More than $80\" does not include $80 itself, so the inequality uses the strict greater-than symbol: s > 80.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

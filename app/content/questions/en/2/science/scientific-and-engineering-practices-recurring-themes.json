@@ -1,0 +1,172 @@
+[
+  {
+    "id": "science_g2_2026-08-29_23-09_q1",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.1C-D*\n\nStudents compare water temperatures. Which action is safest?",
+    "options": [
+      "Ask the teacher how to use the thermometer and carry it on a tray",
+      "Hold its bulb while reading",
+      "Stir water with it",
+      "Point it at a classmate"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Ask the teacher how to use the thermometer and carry it on a tray  \n**MAP instructional area / TEKS:** SEP — TEKS 2.1C-D  \n**Explanation:** The question tests **safe tool use**. The given evidence or condition supports “Ask the teacher how to use the thermometer and carry it on a tray,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “Hold its bulb while reading” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Stir water with it” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Point it at a classmate” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Safe tool use.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q2",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.1A,E*\n\nNoor sees a puddle become smaller after lunch. Which question can be measured?",
+    "options": [
+      "Is sunshine better than rain?",
+      "How does its water level change during a sunny afternoon?",
+      "Which puddle is prettiest?",
+      "Why does it want to disappear?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. How does its water level change during a sunny afternoon?  \n**MAP instructional area / TEKS:** SEP — TEKS 2.1A,E  \n**Explanation:** The question tests **testable question**. The given evidence or condition supports “How does its water level change during a sunny afternoon?,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Is sunshine better than rain?” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Which puddle is prettiest?” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Why does it want to disappear?” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Testable question.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q3",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.1B*\n\nWhich plan fairly tests paper that holds pennies?",
+    "options": [
+      "Test one and guess about others",
+      "Wet only some papers",
+      "Use equal-sized paper and add pennies one at a time",
+      "Use a large tissue and small cardboard"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Use equal-sized paper and add pennies one at a time  \n**MAP instructional area / TEKS:** SEP — TEKS 2.1B  \n**Explanation:** The question tests **fair test**. The given evidence or condition supports “Use equal-sized paper and add pennies one at a time,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Test one and guess about others” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Wet only some papers” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “Use a large tissue and small cardboard” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Fair test.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q4",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.1F,2.2B*\n\nCounts are puffy clouds 6, thin 3, dark 2. What is supported?\n\n| Cloud kind | Number seen |\n|---|---:|\n| Puffy | 6 |\n| Thin | 3 |\n| Dark | 2 |",
+    "options": [
+      "Thin clouds were seen most often",
+      "Dark clouds always bring rain",
+      "Eleven clouds will appear tomorrow",
+      "Puffy clouds were seen most often"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Puffy clouds were seen most often  \n**MAP instructional area / TEKS:** SEP — TEKS 2.1F,2.2B  \n**Explanation:** The question tests **data table**. The given evidence or condition supports “Puffy clouds were seen most often,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Thin clouds were seen most often” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Dark clouds always bring rain” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Eleven clouds will appear tomorrow” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Data table.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q5",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.1E,2.3A*\n\nA student says, “The sidewalk is wet, so it probably rained.” Which words are an inference?",
+    "options": [
+      "it probably rained",
+      "The sidewalk",
+      "is wet",
+      "student says"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. it probably rained  \n**MAP instructional area / TEKS:** SEP — TEKS 2.1E,2.3A  \n**Explanation:** The question tests **inference**. The given evidence or condition supports “it probably rained,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “The sidewalk” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “is wet” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “student says” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Inference.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q6",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.1G,2.2A*\n\nA tray model shows water flowing down a hill. What is a limitation?",
+    "options": [
+      "It replaces outdoor observations",
+      "The model hill is much smaller than a real hill",
+      "It cannot show moving water",
+      "It stops real streams"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. The model hill is much smaller than a real hill  \n**MAP instructional area / TEKS:** SEP — TEKS 2.1G,2.2A  \n**Explanation:** The question tests **model limitation**. The given evidence or condition supports “The model hill is much smaller than a real hill,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “It replaces outdoor observations” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “It cannot show moving water” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “It stops real streams” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Model limitation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q7",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.2D*\n\nA holder must keep a library book dry in rain. Which test is best?",
+    "options": [
+      "Ask which is softest",
+      "Measure an empty holder",
+      "Put a dry book inside, spray each holder equally, then check it",
+      "Choose the brightest holder"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Put a dry book inside, spray each holder equally, then check it  \n**MAP instructional area / TEKS:** SEP — TEKS 2.2D  \n**Explanation:** The question tests **design criteria**. The given evidence or condition supports “Put a dry book inside, spray each holder equally, then check it,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Ask which is softest” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Measure an empty holder” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “Choose the brightest holder” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Design criteria.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q8",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: SEP | TEKS 2.4A-B*\n\nWhy can a storm-warning device help a community?",
+    "options": [
+      "It makes storms vanish",
+      "It changes the Moon",
+      "It makes rain fall only at night",
+      "It helps people know when to prepare"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. It helps people know when to prepare  \n**MAP instructional area / TEKS:** SEP — TEKS 2.4A-B  \n**Explanation:** The question tests **innovation**. The given evidence or condition supports “It helps people know when to prepare,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “It makes storms vanish” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “It changes the Moon” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “It makes rain fall only at night” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Innovation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q9",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: Recurring Themes | TEKS 2.5A-B,G*\n\nA ball rolls farther on a smooth ramp than on a rough ramp. What claim uses the pattern?",
+    "options": [
+      "Surface condition can cause motion to change",
+      "Ramp color makes a ball grow",
+      "All balls stop in one place",
+      "Rolling balls are not objects"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Surface condition can cause motion to change  \n**MAP instructional area / TEKS:** Recurring Themes — TEKS 2.5A-B,G  \n**Explanation:** The question tests **cause and effect**. The given evidence or condition supports “Surface condition can cause motion to change,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “Ramp color makes a ball grow” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “All balls stop in one place” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Rolling balls are not objects” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Cause and effect.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q10",
+    "grade": 2,
+    "subject": "science",
+    "subtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "question": "*MAP Instructional Area: Recurring Themes | TEKS 2.5D,G*\n\nLeaves block a drain and water collects by a garden. What changed?",
+    "options": [
+      "Leaves became rocks",
+      "One changed part caused water flow to change",
+      "Rain became sunlight",
+      "The garden stopped needing water"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. One changed part caused water flow to change  \n**MAP instructional area / TEKS:** Recurring Themes — TEKS 2.5D,G  \n**Explanation:** The question tests **systems**. The given evidence or condition supports “One changed part caused water flow to change,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Leaves became rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Rain became sunlight” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “The garden stopped needing water” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Systems.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

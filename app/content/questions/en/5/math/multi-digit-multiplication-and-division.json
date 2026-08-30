@@ -1,0 +1,104 @@
+[
+  {
+    "id": "math_g5_2026-04-05_15-00_q8",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Multi-Digit Multiplication and Division",
+    "question": "— Multi-Digit Whole Number Multiplication\nA delivery warehouse receives 348 boxes every day. How many boxes does the warehouse receive in 26 days?",
+    "options": [
+      "8,696",
+      "8,748",
+      "9,048",
+      "9,148"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply 348 × 26: 348 × 25 = 8,700 and 8,700 + 348 = 9,048.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q9",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Multi-Digit Multiplication and Division",
+    "question": "— Multi-Digit Whole Number Division\nA factory produced 4,536 water bottles. The bottles were packed equally into 18 crates. How many water bottles were placed in each crate?",
+    "options": [
+      "242",
+      "250",
+      "252",
+      "262"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide 4,536 ÷ 18 = 252 (check: 18 × 252 = 4,536).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q12",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Multi-Digit Multiplication and Division",
+    "question": "— Multi-Digit Multiplication\nA school is ordering **475 books** for each of its **32 classrooms**. How many total books are being ordered?",
+    "options": [
+      "14,400",
+      "15,000",
+      "15,200",
+      "15,700"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 15,200\n\n**Step-by-step:**\n**475 × 32**\n\n- 475 × 30 = 14,250\n- 475 × 2 = 950\n- 14,250 + 950 = **15,200**\n\n**Verification (column method):**\n```\n    475\n  ×  32\n  -----\n    950   (475 × 2)\n+14250    (475 × 30)\n-------\n  15200\n```\n\n**Why other answers are wrong:**\n- A) 14,400 — error in partial product (uses 480 instead of 475)\n- B) 15,000 — rounds 475 to 500; an estimate, not exact\n- D) 15,700 — arithmetic error in addition of partial products\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q13",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Multi-Digit Multiplication and Division",
+    "question": "— Multi-Digit Division\nA baker made **2,856 muffins** over one week and packaged them equally into boxes of **24**. How many full boxes did he fill?",
+    "options": [
+      "117",
+      "118",
+      "119",
+      "121"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 119\n\n**Step-by-step:**\n**2,856 ÷ 24**\n\n- 24 × 100 = 2,400\n- 2,856 − 2,400 = 456\n- 24 × 10 = 240\n- 456 − 240 = 216\n- 24 × 9 = 216\n- 216 − 216 = 0\n\nQuotient: 100 + 10 + 9 = **119** (no remainder)\n\n**Verification:** 119 × 24 = (120 × 24) − (1 × 24) = 2,880 − 24 = 2,856 ✓\n\n**Why other answers are wrong:**\n- A) 117 → 117 × 24 = 2,808 ≠ 2,856\n- B) 118 → 118 × 24 = 2,832 ≠ 2,856\n- D) 121 → 121 × 24 = 2,904 ≠ 2,856\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q14",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Multi-Digit Multiplication and Division",
+    "question": "— Multi-Digit Multiplication\nA warehouse receives **1,248 crates** of goods each week. How many crates does the warehouse receive in **36 weeks**?",
+    "options": [
+      "43,728",
+      "44,128",
+      "44,928",
+      "45,128"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 44,928\n\n**Step-by-step:**\n**1,248 × 36**\n\n- 1,248 × 30 = 37,440\n- 1,248 × 6 = 7,488\n- Total = 37,440 + 7,488 = **44,928**\n\n**Verification:** 1,248 × 36 = 1,248 × (40 − 4) = 49,920 − 4,992 = 44,928 ✓\n\n**Why other answers are wrong:**\n- A) 43,728 — arithmetic error in partial products\n- B) 44,128 — error in 1,248 × 30 calculation\n- D) 45,128 — adds partial products incorrectly\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q15",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Multi-Digit Multiplication and Division",
+    "question": "— Division with Remainder Interpretation\nA school has **547 students** who need to be seated in rows of **24** for an assembly. How many **complete rows** can be filled, and how many students will be in the **incomplete last row**?",
+    "options": [
+      "22 complete rows, with 15 students left over",
+      "22 complete rows, with 19 students left over",
+      "23 complete rows, with 5 students left over",
+      "23 complete rows, with 0 students left over"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 22 complete rows, with 19 students left over\n\n**Step-by-step:**\n**547 ÷ 24**\n\n- 24 × 20 = 480\n- 547 − 480 = 67\n- 24 × 2 = 48\n- 67 − 48 = 19\n\nQuotient = 22, Remainder = **19**\n\n**Verification:** 22 × 24 = 528; 528 + 19 = 547 ✓\n\nSo 22 complete rows of 24 are filled, and 19 students need a partial row.\n\n**Why other answers are wrong:**\n- A) 22 rows with 15 left over — incorrect remainder (would give 22 × 24 + 15 = 543 ≠ 547)\n- C) 23 rows with 5 left over — 23 × 24 = 552 > 547, so 23 full rows cannot fit\n- D) 23 rows with 0 left over — same problem; 547 is not divisible by 24\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

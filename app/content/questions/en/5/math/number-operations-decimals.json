@@ -1,0 +1,138 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q3",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Decimals",
+    "question": "— Decimals\nA car travels 215.6 miles on 9.8 gallons of gas. How many miles per gallon does the car get?",
+    "options": [
+      "20.8 mpg",
+      "21.5 mpg",
+      "22.0 mpg",
+      "23.2 mpg"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide total miles by gallons used: 215.6 ÷ 9.8 = **22.0 miles per gallon**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q4",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Decimals",
+    "question": "— Decimals / Income and Expense\nA store buys T-shirts for $8.75 each and sells them for $14.50 each. What is the profit made on **each** T-shirt sold?",
+    "options": [
+      "$4.25",
+      "$5.25",
+      "$5.75",
+      "$6.25"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract the cost from the selling price: $14.50 − $8.75 = **$5.75 profit per T-shirt**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q5",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Decimals",
+    "question": "— Adding and Subtracting Decimals\nMia had $24.75. She spent $8.49 on a book and $3.20 on a pen. How much money does Mia have left?",
+    "options": [
+      "$12.06",
+      "$13.06",
+      "$13.16",
+      "$16.26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add the two purchases then subtract from her starting amount: $8.49 + $3.20 = $11.69, and $24.75 − $11.69 = $13.06.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q6",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Decimals",
+    "question": "— Multiplying Decimals\nWhat is the product?\n\n**4.6 × 3.7 = ?**",
+    "options": [
+      "12.42",
+      "16.92",
+      "17.02",
+      "170.2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply as whole numbers 46 × 37 = 1702; since the two factors have a total of 2 decimal places, the product is 17.02.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q7",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations — Decimals",
+    "question": "— Dividing Decimals\nWhat is the quotient?\n\n**18.72 ÷ 0.6 = ?**",
+    "options": [
+      "3.12",
+      "11.232",
+      "31.2",
+      "312"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply divisor and dividend by 10 to remove the decimal in the divisor, giving 187.2 ÷ 6 = 31.2.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q9",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations: Decimals",
+    "question": "— Multiplying Decimals [R]\nWhat is the product?\n\n**3.8 × 5.6 = ?**",
+    "options": [
+      "20.48",
+      "21.28",
+      "21.8",
+      "212.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 21.28\n\n**Step-by-step:**\n**3.8 × 5.6**\n\nMultiply as whole numbers first:\n- 38 × 56:\n  - 38 × 50 = 1,900\n  - 38 × 6 = 228\n  - 1,900 + 228 = 2,128\n\nCount decimal places: 3.8 has 1 decimal place; 5.6 has 1 decimal place → 2 decimal places total.\n\nPlace the decimal point: 2128 → **21.28**\n\n**Why other answers are wrong:**\n- A) 20.48 — arithmetic error in partial products\n- C) 21.8 — only 1 decimal place in the product (miscounting)\n- D) 212.8 — misplaces the decimal (only 1 place instead of 2)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q10",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations: Decimals",
+    "question": "— Dividing Decimals [R]\nA piece of fabric is **24.36 meters** long and is cut into **12 equal pieces**. How long is each piece?",
+    "options": [
+      "2.3 meters",
+      "2.03 meters",
+      "20.3 meters",
+      "0.203 meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 2.03 meters\n\n**Step-by-step:**\n**24.36 ÷ 12**\n\nDivide:\n- 24 ÷ 12 = 2\n- 0.36 ÷ 12 = 0.03\n- Result: **2.03**\n\n**Verification:** 2.03 × 12 = 24.36 ✓\n\n**Why other answers are wrong:**\n- A) 2.3 — drops the zero in the hundredths place (2.03 ≠ 2.3)\n- C) 20.3 — misplaces decimal 10 times too large\n- D) 0.203 — misplaces decimal 10 times too small\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q11",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Number Operations: Decimals",
+    "question": "— Adding Decimals  [R]\nA track athlete ran **3.45 kilometers** on Monday, **2.8 kilometers** on Tuesday, and **4.17 kilometers** on Wednesday. How many total kilometers did she run over those three days?",
+    "options": [
+      "10.42 km",
+      "9.42 km",
+      "10.32 km",
+      "10.52 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 10.42 km\n\n**Step-by-step:**\n**3.45 + 2.80 + 4.17**\n\nLine up decimal points and add:\n```\n  3.45\n  2.80\n+ 4.17\n------\n 10.42\n```\n\n- Hundredths: 5 + 0 + 7 = 12 → write 2, carry 1\n- Tenths: 4 + 8 + 1 + 1 (carry) = 14 → write 4, carry 1\n- Ones: 3 + 2 + 4 + 1 (carry) = 10 → write 0, carry 1\n- Tens: 0 + 0 + 0 + 1 (carry) = 1\n\n**Total = 10.42 km**\n\n**Why other answers are wrong:**\n- B) 9.42 — drops the tens carry; 3+2+4=9 (forgets the carry from tenths)\n- C) 10.32 — arithmetic error in hundredths column\n- D) 10.52 — arithmetic error in hundredths column\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

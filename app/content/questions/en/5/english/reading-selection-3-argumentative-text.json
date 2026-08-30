@@ -1,0 +1,104 @@
+[
+  {
+    "id": "english_g5_2026-03-25_14-30_q16",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 3: Argumentative Text",
+    "question": "What is the author's MAIN claim in this essay?",
+    "options": [
+      "Public libraries are better than school libraries.",
+      "School libraries are essential and should continue to be supported.",
+      "Students prefer reading on electronic devices.",
+      "Librarians should teach more technology classes."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q17",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 3: Argumentative Text",
+    "question": "Which sentence from the passage provides evidence that supports the author's claim about equal access?",
+    "options": [
+      "\"Some people argue that school libraries have become unnecessary in the digital age.\"",
+      "\"While some families can afford computers, tablets, and high-speed internet at home, many cannot.\"",
+      "\"Critics might argue that students can simply use public libraries or their smartphones.\"",
+      "\"The evidence clearly demonstrates that school libraries are not relics of the past.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q18",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 3: Argumentative Text",
+    "question": "In paragraph 3, the author addresses a counterclaim by —",
+    "options": [
+      "ignoring the opposing viewpoint entirely",
+      "agreeing that public libraries are the best option",
+      "explaining why alternatives like public libraries and smartphones are not ideal solutions",
+      "suggesting that students should not use technology"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q19",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 3: Argumentative Text",
+    "question": "What does the phrase *information-saturated world* in paragraph 2 suggest?",
+    "options": [
+      "People have access to a large amount of information.",
+      "Information is becoming harder to find.",
+      "Books are no longer being published.",
+      "Students are not interested in learning."
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q20",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 3: Argumentative Text",
+    "question": "Which piece of evidence does the author use to support the idea that libraries encourage reading?",
+    "options": [
+      "Libraries have comfortable seating.",
+      "Research shows students with library access read more and have better comprehension.",
+      "Libraries are open during school hours.",
+      "Librarians are trained professionals."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q21",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 3: Argumentative Text",
+    "question": "The author's use of the phrase \"relics of the past\" in the final paragraph suggests that some people view school libraries as —",
+    "options": [
+      "valuable historical resources",
+      "modern and up-to-date",
+      "outdated and no longer useful",
+      "expensive to maintain"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q46",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Scientific Investigation and Engineering Design",
+    "question": "A student wants to measure the **volume** of a liquid in a science lab. Which tool should the student use?",
+    "options": [
+      "Balance scale",
+      "Ruler",
+      "Thermometer",
+      "Graduated cylinder"
+    ],
+    "correctIndex": 3,
+    "explanation": "**TEKS 5.1 | Topic: Laboratory Tools**\n\n**Correct Answer:** D) Graduated cylinder\n\n**Explanation:**\nA **graduated cylinder** is the correct tool for measuring the volume of a liquid. It is a tall, cylindrical container with markings (graduations) on the side, showing volume in milliliters (mL). To read a graduated cylinder accurately, you read the bottom of the curved surface of the liquid (called the **meniscus**) at eye level.\n\n**Matching tools to measurements:**\n| Tool | What It Measures |\n|------|-----------------|\n| Balance scale | Mass (grams, kg) |\n| Ruler / meterstick | Length (cm, mm, m) |\n| Thermometer | Temperature (°C or °F) |\n| **Graduated cylinder** | **Volume of liquid (mL, L)** |\n| Beaker | Approximate volume (less precise than graduated cylinder) |\n| Spring scale | Force / weight (Newtons) |\n\n**Why the other answers are wrong:**\n- **A) Balance scale** — A balance scale measures mass, not volume.\n- **B) Ruler** — A ruler measures length and distance.\n- **C) Thermometer** — A thermometer measures temperature.\n\n**Key concept:** Graduated cylinder = liquid volume measurement tool. Read at the bottom of the meniscus.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q47",
+    "grade": 5,
+    "subject": "science",
+    "subtopic": "Scientific Investigation and Engineering Design",
+    "question": "A student measures the length of an insect and records it as **32 mm**. What do the letters **mm** stand for?",
+    "options": [
+      "Meters",
+      "Millimeters",
+      "Megameters",
+      "Milligrams"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.1 | Topic: Measurement Units and Abbreviations**\n\n**Correct Answer:** B) Millimeters\n\n**Explanation:**\n**mm** is the standard abbreviation for **millimeters**, a unit of length in the metric system.\n\n**Metric length units (from largest to smallest):**\n| Unit | Abbreviation | Relationship |\n|------|-------------|-------------|\n| Kilometer | km | 1 km = 1,000 m |\n| Meter | m | base unit |\n| Centimeter | cm | 1 m = 100 cm |\n| **Millimeter** | **mm** | **1 cm = 10 mm** |\n\nMillimeters are very small units — useful for measuring small objects like insects, seeds, or the width of a pencil.\n\n**Why the other answers are wrong:**\n- **A) Meters** — Meters are abbreviated as **m** (lowercase), not mm.\n- **C) Megameters** — Megameters (Mm) are an extremely large unit (1 Mm = 1,000 km). They are not used in 5th grade science.\n- **D) Milligrams** — Milligrams are abbreviated **mg** and measure mass (weight), not length.\n\n**Key concept:** mm = millimeters (length). mg = milligrams (mass). mL = milliliters (volume). These are commonly confused — know the difference!\n\n---\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "english_g5_2026-05-02_20-14_q19",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "What is the MAIN idea of Passage A?",
+    "options": [
+      "Gray wolves are the most dangerous predators in Yellowstone National Park.",
+      "The return of wolves to Yellowstone triggered a chain of positive ecological changes that spread across the entire park.",
+      "Scientists were wrong to reintroduce wolves because it caused the elk population to drop too sharply.",
+      "Beavers and fish are the most important animals for maintaining Yellowstone's ecosystem."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q20",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "What is the MAIN idea of Passage B?",
+    "options": [
+      "Ranching in the valley has become too difficult and unprofitable since wolves were reintroduced.",
+      "The rancher believes wolves should be removed from Yellowstone immediately.",
+      "Although wolf reintroduction brought real challenges to ranchers, the author has also witnessed unexpected improvements in the land and now sees the issue as more complex than she once did.",
+      "The rancher has become a wildlife scientist who studies ecological changes in the valley."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q21",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "What is ONE important difference between the PURPOSE of Passage A and the PURPOSE of Passage B?",
+    "options": [
+      "Passage A entertains readers with a dramatic story, while Passage B teaches scientific facts about wolves.",
+      "Passage A presents factual, scientific information about the effects of wolf reintroduction, while Passage B shares one person's lived experience and personal perspective on the same topic.",
+      "Passage A argues that wolves should be removed from Yellowstone, while Passage B argues that they should stay.",
+      "Both passages have the same purpose: to persuade readers to support wolf conservation programs."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q22",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "Both Passage A and Passage B describe changes to waterways and vegetation after wolves were reintroduced to Yellowstone. How are the descriptions DIFFERENT?",
+    "options": [
+      "Passage A says vegetation disappeared after the wolves arrived, while Passage B says it grew back.",
+      "Passage A uses scientific terms and data to explain the changes, while Passage B describes similar changes through personal observation on the author's own ranch.",
+      "Passage A focuses only on elk behavior, while Passage B focuses only on the creek on the author's property.",
+      "Passage A concludes the changes were harmful, while Passage B concludes they were helpful."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q23",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "Based on BOTH passages, which statement would BOTH authors most likely agree with?",
+    "options": [
+      "The wolf reintroduction program has been entirely positive, with no negative consequences for anyone.",
+      "The wolf reintroduction program caused real disruption but also led to observable improvements in the natural environment.",
+      "The government should have asked ranchers for permission before reintroducing wolves to Yellowstone.",
+      "Wolves and elk cannot coexist in the same ecosystem without constant human management."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q24",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "Read this sentence from Passage B:\n\n*\"There are real costs that don't always make it into the newspaper articles written by people who don't live here.\"*\n\nThis statement is BEST described as —",
+    "options": [
+      "a fact, because it describes something that can be measured and verified with data",
+      "a fact, because it contains specific numbers about economic losses caused by wolves",
+      "an opinion, because it expresses the author's personal belief that media coverage of the issue is incomplete or unfair",
+      "an opinion, because it directly contradicts the scientific information provided in Passage A"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q25",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "Which passage provides STRONGER scientific evidence for the claim that wolf reintroduction improved Yellowstone's ecosystem?",
+    "options": [
+      "Passage B, because the rancher personally observed changes on the land over thirty-one years",
+      "Passage A, because it explains the trophic cascade using specific, observable scientific data—including vegetation recovery, the return of beavers, and changes to river paths",
+      "Passage B, because it uses emotional and personal language that helps readers understand the importance of nature",
+      "Both passages are equally strong; personal experience and scientific data are always equally valid forms of evidence"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-05-02_20-14_q26",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Passage 3 — Paired Passages",
+    "question": "At the end of Passage B, the author writes: *\"What I do have is a creek with willows along it, and a heron that has claimed it as home.\"*\n\nWhat is the MOST LIKELY reason the author chose to end with this image?",
+    "options": [
+      "To prove scientifically that the wolf reintroduction program was a complete and total success",
+      "To show that the rancher has abandoned cattle farming and become a professional wildlife biologist",
+      "To leave the reader with a concrete, sensory image that quietly captures how the land has come back to life, even amid the ongoing challenges the author described",
+      "To argue that herons and willows are more economically valuable than cattle ranching"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

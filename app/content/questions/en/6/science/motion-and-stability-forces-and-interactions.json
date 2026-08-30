@@ -1,0 +1,155 @@
+[
+  {
+    "id": "science_g6_2026-08-23_11-02_q7",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A wooden crate is being pushed and pulled by four horizontal forces at the same time, as shown:\n\n| Direction | Force |\n|-----------|-------|\n| Right | 40 N |\n| Right | 15 N |\n| Left | 25 N |\n| Left | 10 N |\n\nWhat is the **net force** on the crate, and which way will it accelerate?",
+    "options": [
+      "20 N to the right",
+      "20 N to the left",
+      "90 N to the right",
+      "0 N; the crate stays balanced"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8A (net force) | MAP: Motion & Stability: Forces & Interactions | SEP 6.2**\n\n**Step-by-step:** Add forces by direction.\n- Right total: $40 + 15 = 55$ N\n- Left total: $25 + 10 = 35$ N\n- Net force: $55 - 35 = 20$ N to the **right**.\n\nThe crate accelerates in the direction of the net force (right).\n\n**Why the others are wrong:** B has the correct size but wrong direction. C adds only the two rightward forces and ignores the leftward ones. D would require balanced forces (net 0), which is not the case here.\n\n**Key concept:** Net force is the vector sum of all forces; opposite directions subtract, same directions add.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q8",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A hot-air balloon is rising straight up at a **constant speed**. Which statement best describes the forces acting on the balloon?",
+    "options": [
+      "The upward force is greater than the downward force",
+      "The upward and downward forces are balanced, so the net force is zero",
+      "There are no forces acting on the balloon while it moves",
+      "The downward force is greater, which is why it keeps moving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.8A (balanced vs. unbalanced forces) | MAP: Forces & Interactions | Theme: stability & change**\n\n**Step-by-step:** **Constant speed in a straight line** means **no acceleration**, which means the net force is **zero** — the upward buoyant/lift force balances the downward weight.\n\n**Why the others are wrong:** A would cause the balloon to speed up (accelerate upward). C is false — gravity always acts. D confuses a larger downward force (which would slow/reverse the rise) with steady motion.\n\n**Key concept:** Balanced forces (net force = 0) produce constant velocity, not necessarily rest.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q9",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A swimmer pushes backward against the water with her hands and feet, and her body moves forward. Which statement best explains her forward motion using **Newton's Third Law**?",
+    "options": [
+      "The water pushes forward on the swimmer with a force equal and opposite to the backward push",
+      "There is only one force involved, so no reaction force exists",
+      "The swimmer's forward force is larger than the water's backward force",
+      "Gravity pushes the swimmer forward through the water"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8B (Newton's Third Law) | MAP: Forces & Interactions**\n\n**Step-by-step:** For every action force there is an equal and opposite reaction force. The swimmer pushes **back** on the water; the water pushes **forward** on the swimmer with an equal force, propelling her ahead.\n\n**Why the others are wrong:** B denies the reaction force (there is always a pair). C is wrong — the paired forces are **equal** in size, not unequal. D misidentifies gravity, which acts vertically, as the forward push.\n\n**Key concept:** Newton's Third Law — forces come in equal, opposite pairs acting on two different objects.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q10",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A student claims, \"In every action–reaction pair, the two forces are equal in size but act on **different** objects.\" A rocket launches upward by pushing exhaust gases downward. Which pair correctly matches the student's claim?",
+    "options": [
+      "The rocket pushes the gases down; the gases push the rocket up",
+      "Gravity pulls the rocket down; the rocket pulls the gases down",
+      "The rocket pushes the gases down; gravity pushes the rocket down",
+      "Air resistance pushes down; the gases push down"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8B (action–reaction pairs) | MAP: Forces & Interactions | Theme: cause & effect**\n\n**Step-by-step:** A true action–reaction pair involves the **same two objects** exchanging equal, opposite forces. The rocket pushes the gases **down**; the gases push the rocket **up**. These act on different objects (rocket ↔ gases) and are equal and opposite.\n\n**Why the others are wrong:** B and C mix in **gravity**, which is a separate force from a different interaction (Earth ↔ rocket), not the reaction to the rocket's push on the gases. D lists two downward forces, which are not an opposite pair.\n\n**Key concept:** An action–reaction pair is the two forces of a single interaction, equal and opposite, on two different objects.\n\n---\n\n# Instructional Area: Energy & Waves",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q5",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "In a tug-of-war, two teams pull on a rope in opposite directions. The forces are shown below.\n\n| Team | Direction | Total force |\n|------|-----------|-------------|\n| Red team | Left | 320 N |\n| Blue team | Right | 275 N |\n\nWhat is the **net force** on the rope, and which team wins?",
+    "options": [
+      "45 N to the left; the Red team wins",
+      "45 N to the right; the Blue team wins",
+      "595 N to the left; the Red team wins",
+      "0 N; the rope stays perfectly still"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7B** — Net force (SEP 6.2 data interpretation)\n\n**Explanation:** Forces in opposite directions **subtract**. Net force $= 320\\text{ N (left)} - 275\\text{ N (right)} = 45\\text{ N to the left}$. Because the net force points left, the **Red team wins**.\n\n**Why the others are wrong:**\n- **B.** The larger force (320 N) is to the left, so the net force is to the left.\n- **C.** Opposite forces subtract, not add; 595 N would be if they pulled the same direction.\n- **D.** The forces are unequal, so the net force is not zero.\n\n**Key concept:** Net force = the vector sum of all forces; unbalanced forces cause a change in motion.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q6",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A student standing on a skateboard throws a heavy medicine ball forward. The student and skateboard roll **backward** as a result. Which statement **best** explains this using Newton's Third Law?",
+    "options": [
+      "The ball pushes the student backward with a force equal and opposite to the forward push on the ball",
+      "Only the ball experiences a force, so the student should stay still",
+      "The student's backward motion is caused by gravity pulling on the skateboard",
+      "The forward force on the ball is larger than the backward force on the student"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7C** — Newton's Third Law of Motion\n\n**Explanation:** Newton's Third Law says every action has an equal and opposite reaction on a **different** object. When the student pushes the ball **forward** (action), the ball pushes the student **backward** with an equal force (reaction), rolling the student and skateboard backward.\n\n**Why the others are wrong:**\n- **B.** Forces always come in pairs; the student experiences the reaction force.\n- **C.** Gravity acts downward, not backward; it doesn't cause the horizontal recoil.\n- **D.** Action–reaction forces are **equal** in size, not unequal.\n\n**Key concept:** Action–reaction pairs are equal in magnitude, opposite in direction, and act on two different objects.\n\n---\n\n# Instructional Area: Energy & Waves",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q7",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A hanging store sign stays perfectly still. The forces acting on it are shown below.\n\n| Force | Direction | Size |\n|-------|-----------|------|\n| Weight (gravity) | Down | 45 N |\n| Tension (cable) | Up | 45 N |\n\nWhich statement **best** describes the forces on the sign?",
+    "options": [
+      "The forces are unbalanced, so the sign will begin to fall",
+      "The forces are balanced, so the net force is 0 N and the sign stays still",
+      "The net force is 90 N downward",
+      "There is no gravity acting on the sign because it does not move"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.7A/6.7B — Balanced forces & net force.**\n**Explanation:** Up 45 N and down 45 N are equal and opposite, so they cancel: net force = **0 N**. With zero net force, the still sign stays still (balanced forces).\n**Why others are wrong:** A — balanced forces do not cause motion. C — equal opposite forces subtract to 0, not add to 90. D — gravity still acts; it is simply balanced by tension.\n**Key concept:** Equal and opposite forces produce a net force of zero (balanced).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q8",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A student pulls a loaded wagon to the **right** with a force of **30 N**. Friction acts on the wagon toward the **left** with a force of **12 N**. What is the **net force** on the wagon, and how will its motion change?",
+    "options": [
+      "42 N to the right; the wagon speeds up to the right",
+      "18 N to the right; the wagon speeds up to the right",
+      "18 N to the left; the wagon speeds up to the left",
+      "0 N; the wagon stays at a constant speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.7B — Net force & motion.**\n**Explanation:** Forces in opposite directions subtract: 30 N right − 12 N left = **18 N to the right**. Because the net force points right, the wagon **speeds up to the right**.\n**Why others are wrong:** A adds instead of subtracting. C has the direction backward. D wrongly claims zero net force.\n**Key concept:** Net force = difference of opposing forces; motion changes in the direction of the net force.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q9",
+    "grade": 6,
+    "subject": "science",
+    "subtopic": "Motion & Stability — Forces & Interactions",
+    "question": "A swimmer pushes **backward** against the pool wall with her feet, and she glides **forward** through the water. Which statement **best** uses Newton's Third Law to explain her forward motion?",
+    "options": [
+      "The water in front of her pulls her forward",
+      "The wall pushes her forward with a force equal in size and opposite in direction to the force her feet apply to the wall",
+      "Only her feet experience a force, so she should not move at all",
+      "Gravity pushes her forward because the pool is flat"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.7C — Newton's Third Law.**\n**Explanation:** For every action force there is an equal and opposite reaction. The swimmer's feet push the wall backward; the **wall pushes the swimmer forward** with an equal-size, opposite-direction force, moving her ahead.\n**Why others are wrong:** A — water in front does not pull her. C — both objects in an interaction feel a force. D — gravity acts downward, not forward.\n**Key concept:** Forces come in equal, opposite action–reaction pairs.\n\n---\n\n# Instructional Area: Energy & Waves",
+    "source": "authored",
+    "needsReview": false
+  }
+]

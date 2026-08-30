@@ -1,0 +1,70 @@
+[
+  {
+    "id": "english_g6_2026-08-23_11-02_q14",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Nose That Digs",
+    "question": "Which sentence BEST states the **central idea** of \"The Nose That Digs\"?",
+    "options": [
+      "Trained rescue dogs use their powerful sense of smell to find people buried by avalanches.",
+      "German shepherds and Labradors are the most popular dog breeds in mountain towns.",
+      "Avalanches are among the most dangerous events in snowy regions.",
+      "Training a puppy requires games, rewards, and a great deal of patience."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5G · MAP: Informational Text**\n**Correct:** The whole passage centers on how **trained rescue dogs use their powerful sense of smell to find avalanche victims**.\n**Why others are wrong:** B, C, and D are supporting details or side facts, not the overarching central idea.\n**Key concept:** Distinguishing central idea from supporting details.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q15",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Nose That Digs",
+    "question": "How is the **second paragraph** MAINLY organized?",
+    "options": [
+      "by comparing two different dog breeds",
+      "by describing the training process in order, from easy to hard",
+      "by listing the causes of avalanches",
+      "by presenting a problem and then arguing for a solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9C · MAP: Informational Text**\n**Correct:** Paragraph 2 describes the training **in order, from easy to hard** (\"At first... Little by little... farther away, then lightly covered, then buried deep\").\n**Why others are wrong:** A — only one breed comparison appears, not the paragraph's structure. C — causes of avalanches are not listed here. D — no problem/solution argument in this paragraph.\n**Key concept:** Recognizing sequential/process text structure.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q16",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Nose That Digs",
+    "question": "Read this sentence from the passage.\n\n> It follows a rising **cone** of scent that drifts up through the snow from the buried victim, growing stronger as the dog gets closer.\n\nAs used in this sentence, the word **cone** most nearly refers to —",
+    "options": [
+      "a container for holding ice cream",
+      "a spreading, widening shape of scent in the air",
+      "a warning sign placed on a road",
+      "the fruit of a pine tree"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.2B · MAP: Vocabulary Acquisition & Use (in informational context)**\n**Correct:** A \"rising cone of scent that drifts up... growing stronger as the dog gets closer\" describes a **spreading, widening shape of scent** in the air.\n**Why others are wrong:** A (ice cream), C (road sign), and D (pine cone) are literal meanings of *cone* that do not fit scent in the air.\n**Key concept:** Multiple-meaning word interpreted through context.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q17",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Nose That Digs",
+    "question": "**[stretch]**\nWhich detail BEST supports the idea that rescue dogs are **faster** than human search methods?",
+    "options": [
+      "\"Their training begins when they are puppies and can take up to two years.\"",
+      "\"A trained avalanche dog can search an area in minutes that would take a human team with probes several hours.\"",
+      "\"The dog learns to trust its nose above everything else.\"",
+      "\"These dogs are not machines, and they are not magic.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6C · MAP: Informational Text · [stretch]**\n**Correct:** \"A trained avalanche dog can search an area in minutes that would take a human team with probes several hours\" directly proves the dogs are **faster**.\n**Why others are wrong:** A (training length), C (trusting its nose), and D (not magic) are true statements but do not compare speed.\n**Key concept:** Matching evidence to a specific claim.\n\n---\n\n# Instructional Area: Literary Text — Literary Nonfiction (Memoir)",
+    "source": "authored",
+    "needsReview": false
+  }
+]

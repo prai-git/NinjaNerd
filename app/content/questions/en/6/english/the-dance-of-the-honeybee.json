@@ -1,0 +1,53 @@
+[
+  {
+    "id": "english_g6_2026-08-29_11-30_q11",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Dance of the Honeybee",
+    "question": "Which sentence BEST states the **central idea** of \"The Dance of the Honeybee\"?",
+    "options": [
+      "Honeybees use a precise \"waggle dance\" to tell other bees the direction and distance to food.",
+      "The inside of a beehive is completely dark, so bees cannot see one another.",
+      "Scientists doubted the waggle dance for many years before accepting it.",
+      "Honeybees have brains smaller than a grain of rice."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5G — Central idea.**\n**Explanation:** The passage centers on how the **waggle dance communicates direction and distance** to food. Every paragraph develops that idea.\n**Why others are wrong:** B, C, and D are true supporting *details*, not the overall central idea.\n**Key concept:** The central idea is the point all details support.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q12",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Dance of the Honeybee",
+    "question": "The **second paragraph** is organized mainly by —",
+    "options": [
+      "comparing honeybees to other insects",
+      "explaining how each part of the dance carries a specific piece of information",
+      "listing events in the order they happened in history",
+      "describing a problem and then arguing for a solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9C — Text structure.**\n**Explanation:** Paragraph two explains **how each part of the dance carries specific information** — the straight run's *direction* gives the angle to the Sun; its *length* gives the distance.\n**Why others are wrong:** A (comparison), C (chronological history), and D (problem/solution argument) do not match the paragraph's how-it-works organization.\n**Key concept:** Recognize organizational patterns (here, cause/how-it-works description).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q13",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "The Dance of the Honeybee",
+    "question": "**[stretch]**\nWhich detail BEST supports the idea that the waggle dance is a **highly accurate** form of communication?",
+    "options": [
+      "\"Honeybees cannot speak, and the inside of the hive is completely dark.\"",
+      "\"Other bees crowd around the dancer, touching her with their antennae.\"",
+      "\"Within minutes, they leave the hive and fly, with surprising accuracy, toward flowers they have never seen.\"",
+      "\"Scientists once found this behavior so hard to believe that many doubted it for years.\""
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.5F / 6.6C — Inference & evidence.**\n**Explanation:** \"Fly, with surprising **accuracy**, toward flowers they have never seen\" directly supports the dance being highly accurate.\n**Why others are wrong:** A explains the *challenge*, B describes *how* bees read the dance, and D describes scientists' *doubt* — none prove accuracy.\n**Key concept:** Match the evidence to the exact claim (accuracy).\n\n---\n\n# Instructional Area: Paired Passages — Yellowstone Wolves",
+    "source": "authored",
+    "needsReview": false
+  }
+]

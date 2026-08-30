@@ -1,0 +1,121 @@
+[
+  {
+    "id": "english_g5_2026-03-25_14-30_q9",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "What is the MAIN idea of this article?",
+    "options": [
+      "Monarch butterflies are the most beautiful insects in the world.",
+      "Monarch butterflies make an incredible migration but face serious threats.",
+      "Scientists have recently discovered how butterflies navigate.",
+      "Mexico has many forests that are home to different animals."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q10",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "According to the article, what makes the \"super generation\" of monarchs different from summer monarchs?",
+    "options": [
+      "They are larger in size.",
+      "They have different colored wings.",
+      "They live much longer.",
+      "They cannot fly as far."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q11",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "The author includes the detail about monarchs weighing \"less than a gram\" MOST LIKELY to —",
+    "options": [
+      "emphasize how remarkable their long journey is",
+      "explain why they cluster on trees",
+      "show that they are easy to catch",
+      "describe their eating habits"
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q12",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "Based on the article, which statement BEST explains why monarchs cluster together on trees in Mexico?",
+    "options": [
+      "They are searching for food.",
+      "They are protecting themselves from predators.",
+      "The cool temperatures help them save energy for winter.",
+      "They are waiting for their offspring to hatch."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q13",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "What does the word *scarce* mean as used in paragraph 6?",
+    "options": [
+      "Plentiful and abundant",
+      "Difficult to find",
+      "Growing rapidly",
+      "Extremely large"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q14",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "Which of the following is NOT mentioned as a cause of the decline in monarch populations?",
+    "options": [
+      "Habitat loss",
+      "Climate change",
+      "Disease outbreaks",
+      "Pesticide use"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q15",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Reading Selection 2: Informational Text",
+    "question": "How is the information in this article MAINLY organized?",
+    "options": [
+      "Problem and solution only",
+      "Chronological order of the migration followed by discussion of threats and solutions",
+      "Comparison of different butterfly species",
+      "A series of unrelated facts about butterflies"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

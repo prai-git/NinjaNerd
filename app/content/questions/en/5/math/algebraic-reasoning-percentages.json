@@ -1,0 +1,70 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q13",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Percentages",
+    "question": "— Percentages / Expense\nA store sells a video game for $48, which is 60% more than the store paid for it. How much did the store originally pay for the game?",
+    "options": [
+      "$19.20",
+      "$28.80",
+      "$30.00",
+      "$32.00"
+    ],
+    "correctIndex": 2,
+    "explanation": "If the selling price ($48) is 160% of the wholesale cost, divide by 1.60: $48 ÷ 1.60 = **$30.00**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q14",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Percentages",
+    "question": "— Percentages\nA student answered 36 out of 45 questions correctly on a science test. What percentage of questions did the student answer correctly?",
+    "options": [
+      "75%",
+      "78%",
+      "80%",
+      "82%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide correct answers by total questions and multiply by 100: (36 ÷ 45) × 100 = **80%**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q10",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Percentages",
+    "question": "— Discount / Sale Price\nA bicycle that normally costs $240 is on sale for 30% off. What is the sale price of the bicycle?",
+    "options": [
+      "$72",
+      "$168",
+      "$180",
+      "$210"
+    ],
+    "correctIndex": 1,
+    "explanation": "Find the discount: 30% of $240 = 0.30 × $240 = $72; subtract from the original price: $240 − $72 = $168.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q11",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Algebraic Reasoning — Percentages",
+    "question": "— Percent of a Number\nIn a survey of 180 fifth graders, 45% of the students said pizza was their favorite school lunch. How many students chose pizza?",
+    "options": [
+      "72",
+      "75",
+      "81",
+      "90"
+    ],
+    "correctIndex": 2,
+    "explanation": "45% of 180 = 0.45 × 180 = 81 students.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

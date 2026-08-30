@@ -1,0 +1,53 @@
+[
+  {
+    "id": "english_g5_2026-03-25_14-30_q22",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Grammar and Writing Questions",
+    "question": "Read this sentence:\n\n*The students finished their science projects early, _______ they were able to present them to the class before the deadline.*\n\nWhich word or phrase BEST completes this sentence?",
+    "options": [
+      "however",
+      "although",
+      "therefore",
+      "instead"
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q23",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Grammar and Writing Questions",
+    "question": "Read these sentences:\n\n*Sarah and Emma went to the museum. She thought the dinosaur exhibit was the best part.*\n\nWhat is the problem with the underlined word?",
+    "options": [
+      "It should be capitalized.",
+      "It is unclear which person \"she\" refers to.",
+      "It should be replaced with \"they.\"",
+      "It is spelled incorrectly."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-25_14-30_q24",
+    "grade": 5,
+    "subject": "english",
+    "subtopic": "Grammar and Writing Questions",
+    "question": "Read this sentence:\n\n*The team played good during the first half, but they played even better in the second half.*\n\nWhich revision corrects the error in this sentence?",
+    "options": [
+      "Change \"good\" to \"well\"",
+      "Change \"better\" to \"more better\"",
+      "Change \"played\" to \"plays\"",
+      "Change \"but\" to \"because\""
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

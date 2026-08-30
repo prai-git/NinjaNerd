@@ -1,0 +1,53 @@
+[
+  {
+    "id": "english_g6_2026-08-29_11-30_q14",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: Predators Belong Here (Argumentative)",
+    "question": "How does the **purpose** of Passage 2 MOST differ from the purpose of Passage 1?",
+    "options": [
+      "Passage 2 mainly argues for a position (that we should protect predators), while Passage 1 mainly explains what scientists observed.",
+      "Passage 2 mainly tells a fictional story, while Passage 1 mainly lists dates.",
+      "Passage 2 mainly gives step-by-step instructions, while Passage 1 mainly entertains.",
+      "Both passages have exactly the same purpose and tone."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8 / 6.9A — Genre & author's purpose.**\n**Explanation:** Passage 1 **informs/explains** what scientists observed (a trophic cascade); Passage 2 **argues** a position (\"we should protect them\"), using \"I believe,\" a claim, and persuasive reasoning.\n**Why others are wrong:** B, C, and D misidentify the genres or claim the purposes are identical.\n**Key concept:** Informational texts explain; argumentative texts persuade.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q15",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: Predators Belong Here (Argumentative)",
+    "question": "In Passage 2, how does the writer respond to the **counterclaim** that \"wolves are too dangerous\"?",
+    "options": [
+      "The writer ignores the concern completely.",
+      "The writer agrees that wolves should be removed for safety.",
+      "The writer acknowledges the fear but argues that wolf attacks on humans are extremely rare and outweighed by the benefits.",
+      "The writer claims that wolves have never harmed any living thing."
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.8 / 6.9 — Argument: claim, evidence, counterclaim.**\n**Explanation:** The writer names the counterclaim (\"Critics worry about the rare risk to hikers\") and rebuts it: attacks are \"extraordinarily uncommon\" and outweighed by \"a proven benefit.\"\n**Why others are wrong:** A (ignores) and B (agrees to remove) contradict the text. D overstates — the writer says attacks are *rare*, not that wolves never harm anything.\n**Key concept:** A strong argument acknowledges and answers the opposing view.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q16",
+    "grade": 6,
+    "subject": "english",
+    "subtopic": "Passage 2: Predators Belong Here (Argumentative)",
+    "question": "**[stretch]**\nHow does the scientific information in **Passage 1** most strengthen the argument made in **Passage 2**?",
+    "options": [
+      "It provides real evidence of a \"trophic cascade,\" showing that returning wolves restored the ecosystem—support for the claim that parks need predators.",
+      "It proves that wolves are dangerous to park visitors.",
+      "It suggests that elk are more important to the park than wolves.",
+      "It shows that the two passages actually disagree about what happened in Yellowstone."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5H — Synthesis across paired texts.**\n**Explanation:** Passage 1's evidence of a **trophic cascade** (willows, beavers, songbirds, streams recovering) gives real proof for Passage 2's claim that \"parks need their predators.\"\n**Why others are wrong:** B and C misread Passage 1 (it does not show danger to visitors or elevate elk). D is false — the passages agree on the events.\n**Key concept:** Synthesis uses one text's information to support or extend another's.\n\n---\n\n# Instructional Area: Language / Foundational & Inquiry",
+    "source": "authored",
+    "needsReview": false
+  }
+]

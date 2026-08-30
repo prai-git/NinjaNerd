@@ -1,0 +1,19 @@
+[
+  {
+    "id": "math_g5_2026-04-18_11-00_q49",
+    "grade": 5,
+    "subject": "math",
+    "subtopic": "Mixed Number × Whole Number",
+    "question": "— Multiplying a Mixed Number by a Whole Number  [R]\nA recipe uses **2 1/3 cups of oats**. A chef makes **6 batches** of the recipe. How many **total cups of oats** does the chef need?",
+    "options": [
+      "8 1/3 cups",
+      "12 cups",
+      "13 cups",
+      "14 cups"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D** → 14 cups\n\n**Step-by-step:**\n**2 1/3 × 6**\n\nStep 1 — Convert 2 1/3 to an improper fraction:\n- 2 1/3 = (2 × 3 + 1)/3 = **7/3**\n\nStep 2 — Multiply:\n- 7/3 × 6 = 42/3\n\nStep 3 — Simplify:\n- 42 ÷ 3 = **14**\n\n**Verification:** 2 × 6 = 12 cups, plus 1/3 × 6 = 2 cups → 12 + 2 = 14 ✓\n\n**Why other answers are wrong:**\n- A) 8 1/3 — multiplies only the whole number part by 6: 1 1/3 × 6 = 8 (error)\n- B) 12 — multiplies only the whole number 2 × 6 = 12 (ignores the 1/3)\n- C) 13 — arithmetic error; 2 1/3 × 6 rounds incorrectly\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]
