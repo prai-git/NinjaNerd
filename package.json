@@ -6,6 +6,12 @@
   "description": "NinjaNerd static site (GitHub Pages) — educational practice for grades 1-6.",
   "scripts": {
     "test": "node --test",
-    "build:content": "node tools/build-content.mjs"
+    "build:content": "node tools/build-content.mjs",
+    "emulator": "firebase emulators:start --only auth,firestore --project ninjanerd-emulator",
+    "test:rules": "firebase emulators:exec --only auth,firestore --project ninjanerd-emulator \"node --test test/test_firestore_rules.test.js\""
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^4.0.1",
+    "firebase-tools": "^14.0.0"
   }
 }

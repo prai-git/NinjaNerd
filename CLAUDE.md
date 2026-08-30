@@ -21,14 +21,24 @@ The migration is planned and executed prompt-by-prompt; see the git-ignored
   URL prefix): `index.html` (About landing), `pages/`, `assets/{css,js,img}/`, `js/`,
   `content/questions/<lang>/<grade>/<subject>/<subtopic>.json`, `i18n/<lang>.json`,
   `CNAME`, `.nojekyll`.
-- **`static/`** — existing game/logo/css/js assets, reused by the site.
+- **`static/`** — existing game/logo/css/js assets, reused by the site. The games subtree is
+  copied to `app/static/games/` because the game sources hardcode absolute
+  `/static/games/...` paths and only `app/` is published.
+- **`dbmgr/`** — the database layer. Holds the **current** Firestore config
+  (`firestore.rules`, `firestore.indexes.json`) alongside the **retired** SQLite/Flask
+  modules, which are prefixed per file (`obs_*.py`) since the folder name itself was
+  reclaimed. `firebase.json` stays at the **repo root** (the Firebase CLI searches upward
+  from the working directory, so it would never find it in a subfolder) and points at
+  `dbmgr/firestore.rules`. **Never served.**
 - **`tools/`** — dev-time Node scripts (content build, translations). **Never served, never
   run at runtime.**
 - **`test/`** — JS `node:test` suites (`*.test.js`). **Not served.**
 - **`.github/workflows/pages.yml`** — deploys `app/` to GitHub Pages (native branch-folder
   only allows `/` or `/docs`, so a custom `/app` folder is published via Actions).
-- **`doc/`** — entirely git-ignored: planning (plan, prompts, changelog) **and**
-  `doc/questionnaire/` (authored question/answer source for the content build). The
+- **`doc/`** — git-ignored working docs: planning (plan, prompts, changelog) **and**
+  `doc/questionnaire/` (authored question/answer source for the content build).
+  **Exception:** `doc/firebase-setup.md` **is committed** — it holds the Firestore data model
+  and the owner's do-once console checklist, which the repo needs long-term. The
   build's committed output — `app/content/questions/en/**.json` — is the repo's single
   copy of the Q&A; the source stays local so the same questions aren't stored twice.
   Keep a backup of `doc/questionnaire/` outside the repo: it is the only place the
@@ -57,10 +67,15 @@ unit/mock test as part of its done-criteria.
 
 Nothing is deleted during the migration. Superseded files/folders are retired by
 prepending **`obs_`** (via `git mv`, preserving history). Current `obs_` items: `obs_app.py`
-and the packages `obs_ai/`, `obs_core/`, `obs_dbmgr/`, `obs_gw/`, `obs_logging_system/`,
+and the packages `obs_ai/`, `obs_core/`, `obs_gw/`, `obs_logging_system/`,
 `obs_session_storage/`, `obs_templates/`, the LLM prompt texts `data/obs_*.txt`, and the
 legacy Python tests `test/obs_*.py`. These describe the **old Flask app** and are kept only
 as a conversion reference. Do not import from, run, or build on them.
+
+**`dbmgr/` is the exception**: the folder name was reclaimed for the *current* database layer
+(Firestore rules + indexes), so the retirement happens **per file** instead — every legacy
+Python file inside it carries the prefix (`dbmgr/obs_db_manager.py`, `dbmgr/obs___init__.py`,
+…). Same rule applies: `obs_`-prefixed means retired, whatever the folder is called.
 
 `data/privacy_policy.txt` and `data/terms_and_conditions.txt` are intentionally **not**
 `obs_`-prefixed — they are the content source for the static privacy/terms pages (prompt 02).
@@ -69,7 +84,7 @@ as a conversion reference. Do not import from, run, or build on them.
 
 The `obs_*` tree is the former Flask monolith: `obs_app.py` (~3000-line app, ~49 routes)
 wired the LLM pipeline (`obs_ai/llm_service.py`, `obs_core/safe_llm_facade.py`,
-`obs_core/question_processor.py` option-shuffling), SQLite storage (`obs_dbmgr/`), Redis/
+`obs_core/question_processor.py` option-shuffling), SQLite storage (`dbmgr/obs_*.py`), Redis/
 filesystem sessions (`obs_session_storage/`), production logging (`obs_logging_system/`),
 gateways (`obs_gw/`: Gmail SMTP, PayPal, Porkbun), and Jinja templates (`obs_templates/`).
 Its behavior is authoritative history for how features worked, but it is **not** part of

@@ -1,0 +1,96 @@
+rules_version = '2';
+
+/* NinjaNerd Firestore Security Rules (prompt 06).
+
+   These rules ARE the security boundary. The Firebase web config in app/js/firebase-config.js
+   is public and grants nothing on its own; everything below decides who may read or write.
+
+   Model:
+     users/{uid}                       a signed-in user, and only that user
+     users/{uid}/attempts/{autoId}     one answered question
+     users/{uid}/stats/{grade_subject} aggregate counters
+     users/{uid}/history/{autoId}      completed practice runs
+     collaboration/{roomId}            participants[] decides access
+     collaboration/{roomId}/messages/{autoId}
+
+   The app serves children (grades 1-6), so the default is deny and every allow is explicit. */
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // ---- Per-user data: readable and writable only by that user -------------------------
+    match /users/{uid} {
+      allow read: if isOwner(uid);
+      // A user may not change their own uid, and role is set once at creation.
+      allow create: if isOwner(uid)
+                    && request.resource.data.role in ['parent', 'child'];
+      allow update: if isOwner(uid)
+                    && request.resource.data.role == resource.data.role;
+      allow delete: if isOwner(uid);
+
+      // Every subcollection (attempts, stats, history) inherits the same owner-only rule.
+      match /{subcollection}/{docId} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+
+    // ---- Collaboration rooms: participants only ----------------------------------------
+    match /collaboration/{roomId} {
+
+      function isParticipant() {
+        return isSignedIn()
+               && resource != null
+               && request.auth.uid in resource.data.participants;
+      }
+
+      allow read: if isParticipant();
+
+      // The creator must be one of the participants, so a room can never be created that
+      // nobody (or somebody else) owns.
+      allow create: if isSignedIn()
+                    && request.auth.uid == request.resource.data.createdBy
+                    && request.auth.uid in request.resource.data.participants;
+
+      // A participant may update the room but may not remove themselves from participants
+      // and may not reassign ownership.
+      allow update: if isParticipant()
+                    && request.auth.uid in request.resource.data.participants
+                    && request.resource.data.createdBy == resource.data.createdBy;
+
+      allow delete: if isSignedIn() && resource.data.createdBy == request.auth.uid;
+
+      match /messages/{messageId} {
+
+        function roomParticipant() {
+          return isSignedIn()
+                 && request.auth.uid in
+                    get(/databases/$(database)/documents/collaboration/$(roomId)).data.participants;
+        }
+
+        allow read: if roomParticipant();
+
+        // You may only post as yourself.
+        allow create: if roomParticipant()
+                      && request.auth.uid == request.resource.data.senderUid;
+
+        // Messages are immutable: no edits, no deletes. Keeps a child-facing chat auditable.
+        allow update, delete: if false;
+      }
+    }
+
+    // ---- Everything else is denied ------------------------------------------------------
+    // Firestore evaluates rules as an OR of all matches, so this cannot override the allows
+    // above; it exists to make the default explicit and to cover any future collection.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
