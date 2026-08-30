@@ -1,0 +1,140 @@
+/* GeoDash Game Styles */
+.geodash-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.geodash-container canvas {
+    border: 3px solid #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    background: #87CEEB;
+    max-width: 100%;
+    height: auto;
+}
+
+.geodash-controls {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    right: auto !important;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    z-index: 10;
+}
+
+.geodash-controls h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.geodash-controls .controls-info {
+    margin-bottom: 20px;
+}
+
+.geodash-controls .controls-info h6 {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.geodash-controls .controls-info p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.geodash-game-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.geodash-game-buttons .btn {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.geodash-game-buttons .btn-success {
+    background-color: #27ae60;
+    color: white;
+}
+
+.geodash-game-buttons .btn-success:hover {
+    background-color: #229954;
+    transform: translateY(-1px);
+}
+
+.geodash-game-buttons .btn-warning {
+    background-color: #f39c12;
+    color: white;
+}
+
+.geodash-game-buttons .btn-warning:hover {
+    background-color: #e67e22;
+    transform: translateY(-1px);
+}
+
+.geodash-game-buttons .btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.geodash-game-buttons .btn-danger:hover {
+    background-color: #c0392b;
+    transform: translateY(-1px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .geodash-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .geodash-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .geodash-container canvas {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .geodash-controls {
+        padding: 15px;
+        min-width: auto;
+    }
+    
+    .geodash-controls h3 {
+        font-size: 1.1em;
+    }
+    
+    .geodash-controls .controls-info p {
+        font-size: 0.8em;
+    }
+}
