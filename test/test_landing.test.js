@@ -21,16 +21,16 @@ test('landing mirrors the two-column About layout', () => {
 
 test('Select Grade lists grades 1-6 only (scope), linking to topics', () => {
   for (let g = 1; g <= 6; g++) {
-    assert.ok(html.includes(`/pages/topics.html?grade=${g}`), `grade ${g} link`);
+    assert.ok(html.includes(`pages/topics.html?grade=${g}`), `grade ${g} link`);
     assert.ok(html.includes(`>Grade ${g}</a>`), `grade ${g} label`);
   }
   assert.ok(!html.includes('Grade 7') && !html.includes('Grade 8'), 'no grades 7-8');
 });
 
 test('Profile card: Account/Statistics/Contact Us always; Audit admin-only; no Payment', () => {
-  assert.ok(html.includes('/pages/account.html'), 'Account link');
-  assert.ok(html.includes('/pages/statistics.html'), 'Statistics link');
-  assert.ok(html.includes('/pages/contact_us.html'), 'Contact Us link');
+  assert.ok(html.includes('pages/account.html'), 'Account link');
+  assert.ok(html.includes('pages/statistics.html'), 'Statistics link');
+  assert.ok(html.includes('pages/contact_us.html'), 'Contact Us link');
   // Audit present but hidden until the admin (admin@gmail.com) is signed in.
   assert.match(html, /id="nn-audit-link"[^>]*style="display:none;"/, 'Audit link hidden by default');
   assert.ok(html.includes("user.username === 'admin@gmail.com'"), 'admin gate for Audit');
@@ -39,7 +39,7 @@ test('Profile card: Account/Statistics/Contact Us always; Audit admin-only; no P
 });
 
 test('welcome card: logo, welcome title, three feature icons; no false adaptivity/dropped subjects', () => {
-  assert.ok(html.includes('/assets/img/logo.png'), 'logo image');
+  assert.ok(html.includes('assets/img/logo.png'), 'logo image');
   assert.ok(existsSync(join(appDir, 'assets/img/logo.png')), 'logo file present in served tree');
   assert.match(html, /Welcome to NINJANERD\.AI/, 'welcome title');
   // Three legacy feature icons retained.

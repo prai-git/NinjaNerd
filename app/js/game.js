@@ -97,14 +97,14 @@ function startGame() {
 async function init() {
   meta = gameBySlug(param('game'));
   const grade = Number(param('grade'));
-  if (!meta) { location.replace(`/pages/games.html?grade=${grade >= 1 && grade <= 6 ? grade : 1}`); return; }
+  if (!meta) { location.replace(`pages/games.html?grade=${grade >= 1 && grade <= 6 ? grade : 1}`); return; }
 
   document.title = `${meta.name} - NinjaNerd`;
   document.getElementById('nn-game-name').textContent = meta.name;
   document.getElementById('nn-controls-title').textContent = meta.name;
   document.getElementById('nn-game-icon').className = `fas ${meta.icon} me-2`;
   document.getElementById('nn-back-games').href =
-    `/pages/games.html?grade=${grade >= 1 && grade <= 6 ? grade : 1}`;
+    `pages/games.html?grade=${grade >= 1 && grade <= 6 ? grade : 1}`;
 
   // Per-slug modifier classes, exactly as game_detail.html applied them.
   if (meta.className) {

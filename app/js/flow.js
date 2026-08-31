@@ -28,7 +28,7 @@ export function param(name) {
 export function requireLogin(returnUrl = location.pathname + location.search) {
   const user = window.NNAuth && window.NNAuth.getUser();
   if (user) return true;
-  location.href = `/pages/login.html?next=${encodeURIComponent(returnUrl)}`;
+  location.href = `pages/login.html?next=${encodeURIComponent(returnUrl)}`;
   return false;
 }
 

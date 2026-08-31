@@ -38,7 +38,7 @@ class TankAttack {
     initAudio() {
         try {
             // Initialize background music
-            this.backgroundMusic = new Audio('/static/games/tank_attack/assets/KKing_Remix.wav');
+            this.backgroundMusic = new Audio('static/games/tank_attack/assets/KKing_Remix.wav');
             this.backgroundMusic.loop = true;
             this.backgroundMusic.volume = 0.3; // Set volume to 30%
         } catch (e) {

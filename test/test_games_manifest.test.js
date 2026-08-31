@@ -7,7 +7,8 @@ import { GAMES, gameBySlug } from '../app/js/games-data.js';
 
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const appRoot = join(repoRoot, 'app');
-// Site paths are absolute from the published root, which is app/.
+// Site paths are relative to the published root (app/), resolved in the browser via the
+// <base> tag each page carries -- see doc/prompt/00_base_path_prompt.md.
 const served = (p) => join(appRoot, p.replace(/^\//, ''));
 const read = (p) => readFileSync(join(repoRoot, p), 'utf8');
 
@@ -29,20 +30,20 @@ test('every referenced CSS and JS path exists under the published root', () => {
   for (const g of GAMES) {
     assert.ok(g.scripts.length > 0, `${g.slug} has no scripts`);
     for (const p of [...g.css, ...g.scripts]) {
-      assert.ok(p.startsWith('/static/games/'), `${g.slug}: ${p} must be an absolute served path`);
+      assert.ok(p.startsWith('static/games/'), `${g.slug}: ${p} must be a root-relative served path`);
       assert.ok(existsSync(served(p)), `${g.slug}: missing file ${p} (expected app${p})`);
     }
   }
 });
 
 test('image and audio assets referenced by game config exist under the published root', () => {
-  // The game internals are unchanged and hardcode absolute /static/games/... paths, so the
-  // tree must be copied into app/. Pull every such path straight out of the game sources.
+  // The game internals hardcode static/games/... paths, so the tree must be copied into app/.
+  // Pull every such path straight out of the game sources.
   const seen = new Set();
   for (const g of GAMES) {
     for (const src of g.scripts) {
       const code = readFileSync(served(src), 'utf8');
-      for (const m of code.matchAll(/['"](\/static\/games\/[^'"]+\.(?:png|wav|jpg|jpeg|gif|mp3|ogg))['"]/g)) {
+      for (const m of code.matchAll(/['"](static\/games\/[^'"]+\.(?:png|wav|jpg|jpeg|gif|mp3|ogg))['"]/g)) {
         seen.add(m[1]);
       }
     }
@@ -122,7 +123,7 @@ test('player page resolves constructors by identifier, not off window', () => {
 test('games list and player pages exist and wire up their scripts', () => {
   const list = read('app/pages/games.html');
   assert.match(list, /id="nn-games-grid"/);
-  assert.match(list, /\/js\/games\.js/);
+  assert.match(list, /src="js\/games\.js"/);
   assert.match(list, /fa-gamepad/);
   assert.match(list, /Back to Topics/);
 
@@ -132,11 +133,11 @@ test('games list and player pages exist and wire up their scripts', () => {
   assert.match(player, /id="restartBtn"/);
   assert.match(player, /id="pauseBtn"/);
   assert.match(player, /Back to Games/);
-  assert.match(player, /\/js\/game\.js/);
+  assert.match(player, /src="js\/game\.js"/);
 });
 
 test('topics page links to the games list', () => {
-  assert.match(read('app/js/topics.js'), /\/pages\/games\.html\?grade=/);
+  assert.match(read('app/js/topics.js'), /`pages\/games\.html\?grade=/);
 });
 
 test('legacy game templates are retired via obs_', () => {

@@ -20,7 +20,7 @@ function card({ icon, color, title, desc }, onclick) {
 
 async function init(root) {
   const grade = Number(param('grade'));
-  if (!(grade >= 1 && grade <= 6)) { location.replace('/index.html'); return; }
+  if (!(grade >= 1 && grade <= 6)) { location.replace('index.html'); return; }
 
   document.getElementById('nn-grade-label').textContent = `Grade ${grade}`;
   const manifest = await loadManifest();
@@ -32,13 +32,13 @@ async function init(root) {
     const meta = SUBJECTS[subject] || { label: subject, icon: 'fa-book', color: 'secondary', desc: '' };
     grid.appendChild(card(
       { icon: meta.icon, color: meta.color, title: meta.label, desc: meta.desc },
-      () => { location.href = `/pages/subtopics.html?grade=${grade}&subject=${subject}`; },
+      () => { location.href = `pages/subtopics.html?grade=${grade}&subject=${subject}`; },
     ));
   }
   // Games card (kept from the legacy app; icon/color/copy mirror topics.html).
   grid.appendChild(card(
     { icon: 'fa-gamepad', color: 'danger', title: 'Games', desc: 'Fun educational games and activities' },
-    () => { location.href = `/pages/games.html?grade=${grade}`; },
+    () => { location.href = `pages/games.html?grade=${grade}`; },
   ));
 
   if (subjects.length === 0) {

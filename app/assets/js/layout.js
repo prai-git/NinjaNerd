@@ -16,13 +16,13 @@
         '<i class="fas fa-sign-out-alt"></i> Exit</button>';
     } else {
       authSlot =
-        '<a class="btn btn-outline-light btn-sm me-2" href="/pages/login.html">Login</a>' +
-        '<a class="btn btn-light btn-sm" href="/pages/signup.html">Sign up</a>';
+        '<a class="btn btn-outline-light btn-sm me-2" href="pages/login.html">Login</a>' +
+        '<a class="btn btn-light btn-sm" href="pages/signup.html">Sign up</a>';
     }
     return (
       '<nav class="navbar navbar-expand-lg navbar-dark bg-primary">' +
       '  <div class="container">' +
-      '    <a class="navbar-brand brand-title text-white" href="/index.html">' +
+      '    <a class="navbar-brand brand-title text-white" href="index.html">' +
       '      <i class="fas fa-user-ninja"></i> NINJANERD.AI<sup>&copy;</sup></a>' +
       '    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"' +
       '      data-bs-target="#nnNav" aria-controls="nnNav" aria-expanded="false"' +
@@ -42,8 +42,8 @@
       '  <div class="container text-center small text-muted">' +
       '    <p class="mb-1"><i class="fas fa-robot"></i> AI-generated content may not always be accurate.</p>' +
       '    <p class="mb-0">' +
-      '      <a href="/pages/privacy.html">Privacy Policy</a> &middot; ' +
-      '      <a href="/pages/terms.html">Terms &amp; Conditions</a> &middot; ' +
+      '      <a href="pages/privacy.html">Privacy Policy</a> &middot; ' +
+      '      <a href="pages/terms.html">Terms &amp; Conditions</a> &middot; ' +
       '      &copy; ' + year + ' NINJANERD.AI. All rights reserved.' +
       '    </p>' +
       '  </div>' +

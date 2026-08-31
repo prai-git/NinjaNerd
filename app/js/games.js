@@ -19,17 +19,17 @@ function card(game, grade) {
   col.querySelector('.card-title').textContent = game.name;
   col.querySelector('.card-text').textContent = game.description;
   col.querySelector('.card').addEventListener('click', () => {
-    location.href = `/pages/game.html?game=${encodeURIComponent(game.slug)}&grade=${grade}`;
+    location.href = `pages/game.html?game=${encodeURIComponent(game.slug)}&grade=${grade}`;
   });
   return col;
 }
 
 function init(root) {
   const grade = Number(param('grade'));
-  if (!(grade >= 1 && grade <= 6)) { location.replace('/index.html'); return; }
+  if (!(grade >= 1 && grade <= 6)) { location.replace('index.html'); return; }
 
   document.getElementById('nn-games-title').textContent = `Grade ${grade} - Select a Game`;
-  document.getElementById('nn-back-topics').href = `/pages/topics.html?grade=${grade}`;
+  document.getElementById('nn-back-topics').href = `pages/topics.html?grade=${grade}`;
 
   const grid = root.querySelector('#nn-games-grid');
   grid.innerHTML = '';

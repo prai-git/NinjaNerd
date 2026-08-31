@@ -9,14 +9,14 @@ async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
   const subtopic = param('subtopic');
-  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('/index.html'); return; }
+  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('index.html'); return; }
 
   const q = `grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(subtopic)}`;
-  if (!requireLogin(`/pages/learn.html?${q}`)) return;
+  if (!requireLogin(`pages/learn.html?${q}`)) return;
 
   document.getElementById('nn-learn-title').textContent = `Learn · Grade ${grade} · ${subjectLabel(subject)}`;
-  document.getElementById('nn-back-explore').href = `/pages/explore.html?${q}`;
-  document.getElementById('nn-start-practice').href = `/pages/practice.html?${q}`;
+  document.getElementById('nn-back-explore').href = `pages/explore.html?${q}`;
+  document.getElementById('nn-start-practice').href = `pages/practice.html?${q}`;
 
   const items = await loadSubtopic({ grade, subject, slug: subtopic });
   const contentEl = root.querySelector('#nn-learn-content');
@@ -34,7 +34,7 @@ async function init(root) {
   const prev = root.querySelector('#nn-prev');
   const next = root.querySelector('#nn-next');
   const practice = root.querySelector('#nn-start-practice');
-  practice.href = `/pages/practice.html?${q}`;
+  practice.href = `pages/practice.html?${q}`;
   nav.style.display = 'flex';
 
   function show() {

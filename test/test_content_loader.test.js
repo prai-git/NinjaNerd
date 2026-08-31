@@ -34,10 +34,10 @@ function fakeFetch(routes) {
 }
 
 test('path builders produce the static site layout', () => {
-  assert.equal(manifestPath(), '/content/questions/en/manifest.json');
+  assert.equal(manifestPath(), 'content/questions/en/manifest.json');
   assert.equal(
     contentPath({ grade: 3, subject: 'math', slug: 'fractions' }),
-    '/content/questions/en/3/math/fractions.json',
+    'content/questions/en/3/math/fractions.json',
   );
 });
 
@@ -62,13 +62,13 @@ test('loadJson returns null on a missing/failed response instead of throwing', a
 });
 
 test('loadManifest reads the manifest path', async () => {
-  const fetchImpl = fakeFetch({ '/content/questions/en/manifest.json': MANIFEST });
+  const fetchImpl = fakeFetch({ 'content/questions/en/manifest.json': MANIFEST });
   const m = await loadManifest(fetchImpl);
   assert.equal(m.grades[3].math.length, 2);
 });
 
 test('loadSubtopic loads items, and returns [] for a missing file', async () => {
-  const path = '/content/questions/en/3/math/fractions.json';
+  const path = 'content/questions/en/3/math/fractions.json';
   const fetchImpl = fakeFetch({ [path]: ITEMS });
   const items = await loadSubtopic({ grade: 3, subject: 'math', slug: 'fractions' }, fetchImpl);
   assert.deepEqual(items.map((i) => i.id), ['q1', 'q2', 'q3']);

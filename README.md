@@ -25,13 +25,17 @@ games — delivered as a **static site on GitHub Pages** at **ninjanerd.ai**.
 - **Email**: Firebase Auth built-in emails (verification/reset) + **EmailJS** for the
   contact form. **No payments.**
 - **i18n**: English → French → Hindi (dev-time translations, human-reviewed; never runtime).
-- **Games**: existing JS/canvas games under `static/games/`, ported to static pages.
+- **Games**: JS/canvas games under `app/static/games/`, ported to static pages.
+- **Paths**: every page carries a `<base>` tag and all same-origin paths are written
+  **without a leading slash**, so the identical files serve correctly both from the
+  GitHub Pages sub-path (`/NinjaNerd/`) and from the domain root. Enforced by
+  `test/test_base_path.test.js`.
 
 ## Layout
 
 ```
 app/                     # published site root (served at ninjanerd.ai/)
-static/                  # reused game/logo/css/js assets
+obs_static/              # retired: former shared asset tree (games live in app/static/)
 tools/                   # dev-time build/translation scripts (not served)
 test/                    # JS node:test suites (not served)
 .github/workflows/       # GitHub Pages deploy of app/

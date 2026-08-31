@@ -28,9 +28,9 @@ const GEODASH_CONFIG = {
     
     // Asset paths
     ASSETS: {
-        PLAYER: '/static/games/geodash/assets/dragon.png',
-        OBSTACLE: '/static/games/geodash/assets/brick_wall.png',
-        BACKGROUND: '/static/games/geodash/assets/forest_background.png',
-        MUSIC: '/static/games/geodash/assets/KPOP5.0.wav'
+        PLAYER: 'static/games/geodash/assets/dragon.png',
+        OBSTACLE: 'static/games/geodash/assets/brick_wall.png',
+        BACKGROUND: 'static/games/geodash/assets/forest_background.png',
+        MUSIC: 'static/games/geodash/assets/KPOP5.0.wav'
     }
 };

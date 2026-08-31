@@ -15,15 +15,35 @@ payments.** Auth, per-user progress/stats, and collaboration/chat run on **Fireb
 The migration is planned and executed prompt-by-prompt; see the git-ignored
 `doc/static-migration-plan.md`, `doc/prompt/NN_*.md`, and `doc/changelog.md`.
 
+## Paths inside `app/` — never root-absolute
+
+The site is served from **two different mount points**: `https://prai-git.github.io/NinjaNerd/`
+(pre-launch verification) and `https://ninjanerd.ai/` (live). A path beginning with `/`
+resolves from the host root, so it works only on the second and 404s silently on the first.
+
+Every served page therefore carries a **`<base>` tag** — `./` in `app/index.html`, `../` in
+`app/pages/*.html`, placed right after `<meta charset>` and before any `<link>`/`<script>` —
+and **every same-origin path is written without a leading slash** (`assets/css/site.css`,
+`pages/topics.html`, `content/questions/...`, `static/games/...`). This covers JS too:
+`fetch()`, `location.href`, and dynamically-created `src`/`href` all resolve against
+`document.baseURI`, which `<base>` sets. `app/assets/js/layout.js` is why a `<base>` is needed
+rather than plain relative paths — it injects one fixed nav/footer string into pages at two
+different depths.
+
+`test/test_base_path.test.js` enforces this and **will fail the build** on any reintroduced
+`href="/`, `src="/`, or quoted `'/pages/...'`-style path under `app/` (`obs_*` excluded).
+See `doc/prompt/00_base_path_prompt.md`.
+
 ## Repository layout
 
 - **`app/`** — the **published site root** (served at `https://ninjanerd.ai/`, no `/app`
   URL prefix): `index.html` (About landing), `pages/`, `assets/{css,js,img}/`, `js/`,
   `content/questions/<lang>/<grade>/<subject>/<subtopic>.json`, `i18n/<lang>.json`,
   `CNAME`, `.nojekyll`.
-- **`static/`** — existing game/logo/css/js assets, reused by the site. The games subtree is
-  copied to `app/static/games/` because the game sources hardcode absolute
-  `/static/games/...` paths and only `app/` is published.
+- **`obs_static/`** — **retired.** Was the shared game/logo/css/js asset tree. The games
+  subtree was copied to `app/static/games/` (only `app/` is published), and the served copy
+  is now the only one maintained, so this reference duplicate was retired rather than kept
+  in sync. Removed with the rest of the `obs_` tree.
 - **`dbmgr/`** — the database layer. Holds the **current** Firestore config
   (`firestore.rules`, `firestore.indexes.json`) alongside the **retired** SQLite/Flask
   modules, which are prefixed per file (`obs_*.py`) since the folder name itself was

@@ -8,11 +8,11 @@ async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
   const subtopic = param('subtopic');
-  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('/index.html'); return; }
+  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('index.html'); return; }
 
   const q = `grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(subtopic)}`;
   document.getElementById('nn-back-subtopics').href =
-    `/pages/subtopics.html?grade=${grade}&subject=${subject}`;
+    `pages/subtopics.html?grade=${grade}&subject=${subject}`;
 
   // Resolve the friendly subtopic name from the manifest (falls back to the slug).
   const manifest = await loadManifest();
@@ -25,7 +25,7 @@ async function init(root) {
   // Gate the activity: if not signed in, requireLogin redirects to login with a
   // next= back to the chosen activity so the student lands where they intended.
   const go = (page) => {
-    const target = `/pages/${page}.html?${q}`;
+    const target = `pages/${page}.html?${q}`;
     if (requireLogin(target)) location.href = target;
   };
   root.querySelector('#nn-learn-card').addEventListener('click', () => go('learn'));

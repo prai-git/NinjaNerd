@@ -17,13 +17,13 @@ async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
   const subtopic = param('subtopic');
-  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('/index.html'); return; }
+  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('index.html'); return; }
 
   const q = `grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(subtopic)}`;
-  if (!requireLogin(`/pages/practice.html?${q}`)) return;
+  if (!requireLogin(`pages/practice.html?${q}`)) return;
 
   document.getElementById('nn-practice-title').textContent = `Practice · Grade ${grade} · ${subjectLabel(subject)}`;
-  document.getElementById('nn-back-explore').href = `/pages/explore.html?${q}`;
+  document.getElementById('nn-back-explore').href = `pages/explore.html?${q}`;
 
   const source = await loadSubtopic({ grade, subject, slug: subtopic });
   const content = root.querySelector('#nn-question-content');
@@ -52,7 +52,7 @@ function runQuiz(root, deck, meta) {
   let i = 0; let score = 0;
 
   // Back to Explore acts as the exit; Finish returns the student to the subtopic list.
-  const topicsHref = `/pages/subtopics.html?grade=${meta.grade}&subject=${meta.subject}`;
+  const topicsHref = `pages/subtopics.html?grade=${meta.grade}&subject=${meta.subject}`;
 
   function displayQuestion() {
     const item = deck[i];

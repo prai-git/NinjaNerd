@@ -6,7 +6,7 @@
    modes over the SAME items, so there is no tier filtering. Every function takes
    an optional fetchImpl so tests can run without a network. */
 
-const ROOT = '/content/questions';
+const ROOT = 'content/questions';
 const LANG = 'en'; // English only.
 
 export function manifestPath() {

@@ -6,12 +6,12 @@ import { param, subjectLabel } from './flow.js';
 async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
-  if (!(grade >= 1 && grade <= 6) || !subject) { location.replace('/index.html'); return; }
+  if (!(grade >= 1 && grade <= 6) || !subject) { location.replace('index.html'); return; }
 
   // Mirror legacy subtopics.html header: "{Subject} - Grade {N} Subtopics".
   document.getElementById('nn-subtopics-title').textContent =
     `${subjectLabel(subject)} - Grade ${grade} Subtopics`;
-  document.getElementById('nn-back-topics').href = `/pages/topics.html?grade=${grade}`;
+  document.getElementById('nn-back-topics').href = `pages/topics.html?grade=${grade}`;
 
   const manifest = await loadManifest();
   const subs = manifest ? subtopicsFor(manifest, grade, subject) : [];
@@ -37,7 +37,7 @@ async function init(root) {
         </div>
       </div>`;
     col.querySelector('.card').addEventListener('click', () => {
-      location.href = `/pages/explore.html?grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(s.slug)}`;
+      location.href = `pages/explore.html?grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(s.slug)}`;
     });
     grid.appendChild(col);
   }

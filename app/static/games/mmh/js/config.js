@@ -46,10 +46,10 @@ const MMH_CONFIG = {
     
     // Asset paths
     ASSETS: {
-        PLAYER: '/static/games/mmh/assets/motorcycle.png',
-        CAR1: '/static/games/mmh/assets/car1.png',
-        CAR2: '/static/games/mmh/assets/car2.png',
-        BUS: '/static/games/mmh/assets/bus.png',
-        MUSIC: '/static/games/mmh/assets/backgroundmusic.wav'
+        PLAYER: 'static/games/mmh/assets/motorcycle.png',
+        CAR1: 'static/games/mmh/assets/car1.png',
+        CAR2: 'static/games/mmh/assets/car2.png',
+        BUS: 'static/games/mmh/assets/bus.png',
+        MUSIC: 'static/games/mmh/assets/backgroundmusic.wav'
     }
 };

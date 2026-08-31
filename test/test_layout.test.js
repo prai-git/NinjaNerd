@@ -46,7 +46,7 @@ test('nav brand links back to the landing (index.html)', () => {
   // Mirroring the legacy base.html nav: no About/Grades tabs — the brand itself
   // links to the landing (which IS the About page). Auth actions sit on the right.
   const layout = readFileSync(join(appDir, 'assets/js/layout.js'), 'utf8');
-  assert.match(layout, /navbar-brand[^>]*href="\/index\.html"/, 'brand should link to /index.html');
+  assert.match(layout, /navbar-brand[^>]*href="index\.html"/, 'brand should link to index.html');
   assert.ok(!/nav-link[^>]*>About</.test(layout), 'nav should not contain an About tab');
   assert.ok(!/>Grades</.test(layout), 'nav should not contain a Grades tab');
 });
