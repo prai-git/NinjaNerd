@@ -64,65 +64,104 @@ Rules are **not** deployed from here. Publishing them to production is part of p
 
 ## 2. Firestore data model
 
+The model **mirrors the legacy SQLite schema** (`dbmgr/obs_sqlite_manager.py`) so Audit,
+Statistics and progress tracking behave exactly as they did in the Flask app. Legacy table
+names are shown against each collection.
+
 ```
-users/{uid}
-  displayName : string
-  role        : "parent" | "child"      # set at creation, immutable afterwards
-  createdAt   : timestamp
+users/{uid}                             <- users
+  email                    : string     # also the login identifier
+  school_name              : string     # optional, from the signup form
+  is_admin                 : boolean    # IMMUTABLE from the client; granted in the console
+  created_at               : timestamp
+  updated_at               : timestamp
+  # `password` is gone: Firebase Auth owns credentials.
 
-users/{uid}/attempts/{autoId}           # one answered question
-  questionId  : string                  # e.g. "math_g4_2026-08-29_23-09_q26"
-  correct     : boolean
-  grade       : number                  # 1-6
-  subject     : string                  # "english" | "math" | "science"
-  subtopic    : string
-  ts          : timestamp
+users/{uid}/history/{autoId}            <- user_history
+  question                 : string     # the question text, as the legacy column stored it
+  user_answer              : string
+  correct                  : boolean
+  topic                    : string     # "math" | "english" | "science"
+  subtopic                 : string
+  grade                    : number     # 1-6
+  timestamp                : timestamp
 
-users/{uid}/stats/{grade_subject}       # doc id e.g. "4_math"
-  attempted   : number
-  correct     : number
-  updatedAt   : timestamp
+users/{uid}/statistics/summary          <- user_statistics + JSON store
+  last_login               : timestamp   # from the SQLite user_statistics table
+  questions_attempted      : number      # NOT in SQLite; from obs_db_manager.py JSON store
+  topics_covered           : string[]    # NOT in SQLite; from obs_db_manager.py JSON store
 
-users/{uid}/history/{autoId}            # one completed practice run
-  grade, subject, subtopic : as above
-  score       : number
-  total       : number
-  ts          : timestamp
+invites/{inviteId}                      <- invites
+  from_user_id                 : string     # was from_user_id
+  to_user_email            : string     # recipient identified by email
+  status                   : string     # "pending" | "accepted" | "declined"
+  timestamp, created_at, updated_at : timestamp
 
-collaboration/{roomId}
-  participants : string[]               # uids; membership IS the access control
-  createdBy    : string                 # uid, immutable
-  createdAt    : timestamp
+chat_sessions/{sessionId}               <- chat_sessions
+  user1_id, user2_id       : string     # uids
+  active                   : boolean
+  created_at, updated_at   : timestamp
 
-collaboration/{roomId}/messages/{autoId}
-  senderUid   : string                  # must equal request.auth.uid on write
-  text        : string
-  ts          : timestamp
+chat_sessions/{sessionId}/messages/{autoId}   <- messages
+  from_user_id, to_user_id : string     # uids
+  message_content          : string
+  obfuscated_content       : string     # see obs_core/message_security.py
+  displayed                : boolean    # per-message read flag
+  timestamp                : timestamp
 ```
+
+**On `statistics`:** the legacy app had **two** storage backends. The SQLite
+`user_statistics` table holds only `user_id` + `last_login`, while the JSON store
+(`dbmgr/obs_db_manager.py`) holds `questions_attempted` and `topics_covered[]`. The Audit page
+reads **all three**, so this single document is the union of both — it is not a copy of the
+SQLite table alone.
+
+**Two deliberate adaptations** (flagged, not invented):
+- Integer `user_id` foreign keys become Firebase Auth **uid** strings.
+- `messages` was a top-level table keyed by `session_id`; here it is a **subcollection** of the
+  session. Same relationship, and it lets the rules scope messages to their session.
+
+**Dropped:** `user_payments` (no payments on the static site) and `email_verification_codes`
+(Firebase Auth handles verification). `schema_info` is not needed: Firestore is schemaless.
 
 ### Access summary (enforced by `dbmgr/firestore.rules`)
-- `users/{uid}` and **all** its subcollections: read/write only when `request.auth.uid == uid`.
-- `collaboration/{roomId}`: readable/updatable only by uids listed in `participants`; the
-  creator must include themselves; `createdBy` cannot be reassigned; only the creator deletes.
-- `collaboration/{roomId}/messages`: readable and creatable only by room participants, and you
-  may only post as yourself. **Messages are immutable** (no update, no delete) so a
-  child-facing chat stays auditable.
+- `users/{uid}`, its `history` and its `statistics`: the owner always; **an admin may read any
+  user**, because the legacy Audit page looks a user up by email and displays their history and
+  statistics. Admin read covers both `get` and `list` so that email query works.
+- **`is_admin` and `email` cannot be changed by the client, and a new account cannot create
+  itself as admin.** Admin is granted only from the Firebase console. Without this, any account
+  could promote itself and read every child's history.
+- `history` entries are **append-only** (no client update or delete) since Audit treats them as
+  a trail.
+- `invites`: readable by sender, by the recipient (matched on `request.auth.token.email`), and
+  by an admin. Neither party can rewrite who the invite is from or to.
+- `chat_sessions`: readable and updatable only by `user1_id`/`user2_id`; the pairing itself is
+  fixed once created.
+- `messages`: readable and creatable only by the two session members, and you may only send as
+  yourself. `message_content`, `from_user_id` and `to_user_id` are immutable, so only the
+  `displayed` read-flag can change. **No deletes.**
 - Everything else: denied. Unauthenticated requests are denied everywhere.
 
-### Composite indexes
-`dbmgr/firestore.indexes.json` is intentionally **empty**. Firestore creates single-field indexes
-automatically, which covers the simple queries planned so far. Composite indexes are only
-needed for a filter plus a sort on different fields, for example:
+### How admin works without a server
+Legacy admin was the hard-coded account `admin@gmail.com` (`obs_app.py:is_admin_user`), with an
+`is_admin` column on `users`. A static site has no server able to mint Firebase custom claims,
+so the rules read `is_admin` from the requester's own user document. That is only safe because
+the field is immutable from the client. **To make someone an admin:** open the Firestore console
+and set `is_admin: true` on their `users/{uid}` document by hand.
 
-- `attempts` where `subject == X` ordered by `ts` (likely in prompt 08 stats)
-- `attempts` where `grade == N && subject == X` ordered by `ts`
-- `collaboration` where `participants array-contains uid` ordered by `createdAt` (prompt 09)
+### Composite indexes
+`dbmgr/firestore.indexes.json` is intentionally **empty**. Firestore creates single-field
+indexes automatically, which covers the simple queries planned so far. Composite indexes are
+only needed for a filter plus a sort on different fields, for example:
+
+- `history` where `topic == X && grade == N` ordered by `timestamp` (the Statistics page
+  computes percent-correct per topic for one grade, so this is likely)
+- `invites` where `to_user_email == X && status == "pending"`
+- `chat_sessions` where `user1_id == uid` / `user2_id == uid` ordered by `updated_at`
 
 **TODO:** add these when the queries in prompts 08/09 are actually written. Firestore fails a
 query that needs a missing composite index and prints a console link that creates it, so it is
 better to add them from real queries than to guess now.
-
----
 
 ## 3. What is deliberately not here
 - **Auth UI** (login/signup wiring): prompt 07.

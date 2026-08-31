@@ -4,6 +4,14 @@ backups/
 __pycache__/
 .DS_Store
 
+# Dev-time only, never deployed. GitHub Pages serves static files from app/ and runs
+# nothing, so these exist purely to build content and to test the Firestore rules locally.
+node_modules/
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
 # Environment files
 .env
 .env.example

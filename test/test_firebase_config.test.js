@@ -71,21 +71,44 @@ test('firestore.rules locks down user data and defaults to deny', () => {
   // Owner-only access to per-user data.
   assert.match(rules, /function isOwner\(uid\)/);
   assert.match(rules, /request\.auth\.uid == uid/);
-  // Subcollections must be covered, not just the parent doc.
-  assert.match(rules, /match \/\{subcollection\}\/\{docId\}/);
-  // Collaboration is participant-scoped.
-  assert.match(rules, /request\.auth\.uid in resource\.data\.participants/);
-  // Messages cannot be rewritten.
-  assert.match(rules, /allow update, delete: if false/);
+  // Legacy-schema collections must all be covered.
+  for (const path of [/match \/users\/\{uid\}/, /match \/history\/\{entryId\}/,
+    /match \/statistics\/\{docId\}/, /match \/invites\/\{inviteId\}/,
+    /match \/chat_sessions\/\{sessionId\}/, /match \/messages\/\{messageId\}/]) {
+    assert.match(rules, path, `rules must cover ${path}`);
+  }
+  // Chat is scoped by the legacy user1_id/user2_id pairing.
+  assert.match(rules, /resource\.data\.user1_id/);
+  assert.match(rules, /resource\.data\.user2_id/);
   // Explicit deny-all catch-all.
   assert.match(rules, /match \/\{document=\*\*\} \{\s*\n\s*allow read, write: if false;/);
 });
 
-test('rules never grant blanket access', () => {
+/* The legacy Audit page reads ANOTHER user's profile, history and statistics
+   (obs_app.py: db.get_user(target_username)). Owner-only rules would break it, so admins get
+   cross-user READ. That is only safe while is_admin cannot be set by the client. */
+test('admin can read any user, and is_admin is not client-settable', () => {
   const rules = read('dbmgr/firestore.rules');
-  // A bare `allow read, write: if true` would defeat everything above.
-  assert.doesNotMatch(rules, /allow\s+(read|write|read, write)\s*:\s*if\s+true\s*;/);
-  assert.doesNotMatch(rules, /allow\s+(read|write|read, write)\s*;/, 'unconditional allow');
+  assert.match(rules, /function isAdmin\(\)/);
+  assert.match(rules, /is_admin == true/);
+  // Audit needs cross-user read on the profile and both subcollections.
+  const adminReads = rules.match(/allow read: if isOwner\(uid\) \|\| isAdmin\(\)/g) || [];
+  assert.ok(adminReads.length >= 3,
+    `expected admin read on users, history and statistics; found ${adminReads.length}`);
+  // Self-promotion guards.
+  assert.match(rules, /request\.resource\.data\.is_admin == false/,
+    'a new account must not be able to create itself as admin');
+  assert.match(rules, /request\.resource\.data\.is_admin == resource\.data\.is_admin/,
+    'is_admin must be immutable on update');
+});
+
+// Audit treats history as a trail, and a child-facing chat must stay reviewable.
+test('history is append-only and messages cannot be deleted or rewritten', () => {
+  const rules = read('dbmgr/firestore.rules');
+  assert.match(rules, /allow update, delete: if false;/, 'history entries must be immutable');
+  assert.match(rules, /allow delete: if false;/, 'messages must not be deletable');
+  assert.match(rules, /request\.resource\.data\.message_content == resource\.data\.message_content/,
+    'message text must be immutable so only the displayed flag can change');
 });
 
 test('firebase.json and indexes exist and emulator config is complete', () => {
@@ -109,7 +132,14 @@ test('the owner setup doc exists and covers the do-once console steps', () => {
   assert.ok(existsSync(join(repoRoot, 'doc/firebase-setup.md')));
   const d = read('doc/firebase-setup.md');
   for (const needle of [/Email\/Password/i, /Authorized domains/i, /ninjanerd\.ai/, /localhost/,
-    /production mode/i, /PUBLIC, not a secret/i, /users\/\{uid\}/, /collaboration\/\{roomId\}/]) {
+    /production mode/i, /PUBLIC, not a secret/i, /users\/\{uid\}/, /chat_sessions\/\{sessionId\}/]) {
     assert.match(d, needle, `setup doc should mention ${needle}`);
   }
+  // The model is meant to mirror the legacy SQLite tables, so the doc must say which is which.
+  for (const table of ['user_history', 'user_statistics', 'invites', 'chat_sessions', 'messages']) {
+    assert.ok(d.includes(table), `setup doc should map the legacy ${table} table`);
+  }
+  // And it must explain how admin is granted, since rules read is_admin off the user doc.
+  assert.match(d, /is_admin/);
+  assert.match(d, /console/i);
 });

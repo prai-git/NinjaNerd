@@ -1,17 +1,29 @@
 rules_version = '2';
 
-/* NinjaNerd Firestore Security Rules (prompt 06).
+/* NinjaNerd Firestore Security Rules.
 
    These rules ARE the security boundary. The Firebase web config in app/js/firebase-config.js
    is public and grants nothing on its own; everything below decides who may read or write.
 
-   Model:
-     users/{uid}                       a signed-in user, and only that user
-     users/{uid}/attempts/{autoId}     one answered question
-     users/{uid}/stats/{grade_subject} aggregate counters
-     users/{uid}/history/{autoId}      completed practice runs
-     collaboration/{roomId}            participants[] decides access
-     collaboration/{roomId}/messages/{autoId}
+   The document model mirrors the legacy SQLite schema (dbmgr/obs_sqlite_manager.py) so that
+   Audit, Statistics and progress tracking keep working the way they did in the Flask app:
+
+     users/{uid}                      <- users            (email, school_name, is_admin, ...)
+     users/{uid}/history/{autoId}     <- user_history     (question, user_answer, correct,
+                                                           topic, subtopic, grade, timestamp)
+     users/{uid}/statistics/summary   <- user_statistics  (last_login, questions_attempted,
+                                                           topics_covered[])
+     invites/{inviteId}               <- invites
+     chat_sessions/{sessionId}        <- chat_sessions    (user1_id, user2_id, active)
+     chat_sessions/{sessionId}/messages/{autoId}
+                                      <- messages         (from_user_id, to_user_id,
+                                                           message_content, obfuscated_content,
+                                                           displayed, timestamp)
+
+   Two deliberate adaptations, flagged rather than invented:
+   - Integer user_id foreign keys become Firebase Auth **uid** strings.
+   - `messages` was a top-level table keyed by session_id; here it is a subcollection of the
+     session, which is the same relationship and lets the rules scope messages to the session.
 
    The app serves children (grades 1-6), so the default is deny and every allow is explicit. */
 
@@ -26,63 +38,119 @@ service cloud.firestore {
       return isSignedIn() && request.auth.uid == uid;
     }
 
-    // ---- Per-user data: readable and writable only by that user -------------------------
+    /* Legacy admin was the fixed account admin@gmail.com (obs_app.py is_admin_user), and the
+       users table carried an is_admin flag. A static site has no server able to mint custom
+       claims, so admin status is read from the requester's own user document. That is only
+       safe because is_admin is immutable from the client (see the users rules below) -- it can
+       be granted solely from the Firebase console. */
+    function isAdmin() {
+      return isSignedIn()
+             && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+             && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.is_admin == true;
+    }
+
+    // ---- users -------------------------------------------------------------------------
     match /users/{uid} {
-      allow read: if isOwner(uid);
-      // A user may not change their own uid, and role is set once at creation.
+      // Owner reads their own profile. Admin reads ANY profile: the Audit page looks a user up
+      // by email, which needs both get and list over this collection.
+      allow read: if isOwner(uid) || isAdmin();
+
+      // A new account can never create itself as an admin.
       allow create: if isOwner(uid)
-                    && request.resource.data.role in ['parent', 'child'];
+                    && request.resource.data.is_admin == false;
+
+      // is_admin and email cannot be changed by the client. Removing this makes every account
+      // able to promote itself and read every child's history.
       allow update: if isOwner(uid)
-                    && request.resource.data.role == resource.data.role;
+                    && request.resource.data.is_admin == resource.data.is_admin
+                    && request.resource.data.email == resource.data.email;
+
       allow delete: if isOwner(uid);
 
-      // Every subcollection (attempts, stats, history) inherits the same owner-only rule.
-      match /{subcollection}/{docId} {
-        allow read, write: if isOwner(uid);
+      // user_history: the record Statistics and Audit are both computed from.
+      match /history/{entryId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow create: if isOwner(uid);
+        // History is an audit trail: entries are not rewritten or removed by the client.
+        allow update, delete: if false;
+      }
+
+      // user_statistics: last_login, questions_attempted, topics_covered[].
+      match /statistics/{docId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow write: if isOwner(uid);
       }
     }
 
-    // ---- Collaboration rooms: participants only ----------------------------------------
-    match /collaboration/{roomId} {
-
-      function isParticipant() {
-        return isSignedIn()
-               && resource != null
-               && request.auth.uid in resource.data.participants;
+    // ---- invites -----------------------------------------------------------------------
+    match /invites/{inviteId} {
+      function isSender() {
+        return isSignedIn() && resource.data.from_user_id == request.auth.uid;
+      }
+      // The recipient is identified by email, exactly as the legacy to_user_email column.
+      function isRecipient() {
+        return isSignedIn() && request.auth.token.email == resource.data.to_user_email;
       }
 
-      allow read: if isParticipant();
-
-      // The creator must be one of the participants, so a room can never be created that
-      // nobody (or somebody else) owns.
+      allow read: if isSender() || isRecipient() || isAdmin();
       allow create: if isSignedIn()
-                    && request.auth.uid == request.resource.data.createdBy
-                    && request.auth.uid in request.resource.data.participants;
+                    && request.resource.data.from_user_id == request.auth.uid
+                    && request.resource.data.status == 'pending';
+      // Either party may move the invite along (accept/decline), but neither may rewrite who
+      // it is from or to.
+      allow update: if (isSender() || isRecipient())
+                    && request.resource.data.from_user_id == resource.data.from_user_id
+                    && request.resource.data.to_user_email == resource.data.to_user_email;
+      allow delete: if isSender();
+    }
 
-      // A participant may update the room but may not remove themselves from participants
-      // and may not reassign ownership.
-      allow update: if isParticipant()
-                    && request.auth.uid in request.resource.data.participants
-                    && request.resource.data.createdBy == resource.data.createdBy;
+    // ---- chat_sessions -----------------------------------------------------------------
+    match /chat_sessions/{sessionId} {
+      function isChatMember() {
+        return isSignedIn()
+               && resource != null
+               && (request.auth.uid == resource.data.user1_id
+                   || request.auth.uid == resource.data.user2_id);
+      }
 
-      allow delete: if isSignedIn() && resource.data.createdBy == request.auth.uid;
+      allow read: if isChatMember() || isAdmin();
+
+      // The creator must be one of the two participants.
+      allow create: if isSignedIn()
+                    && (request.auth.uid == request.resource.data.user1_id
+                        || request.auth.uid == request.resource.data.user2_id);
+
+      // Participants may toggle `active`, but the pairing itself is fixed.
+      allow update: if isChatMember()
+                    && request.resource.data.user1_id == resource.data.user1_id
+                    && request.resource.data.user2_id == resource.data.user2_id;
+
+      allow delete: if isChatMember();
 
       match /messages/{messageId} {
-
-        function roomParticipant() {
+        function inSession() {
           return isSignedIn()
-                 && request.auth.uid in
-                    get(/databases/$(database)/documents/collaboration/$(roomId)).data.participants;
+                 && (request.auth.uid ==
+                       get(/databases/$(database)/documents/chat_sessions/$(sessionId)).data.user1_id
+                     || request.auth.uid ==
+                       get(/databases/$(database)/documents/chat_sessions/$(sessionId)).data.user2_id);
         }
 
-        allow read: if roomParticipant();
+        allow read: if inSession() || isAdmin();
 
-        // You may only post as yourself.
-        allow create: if roomParticipant()
-                      && request.auth.uid == request.resource.data.senderUid;
+        // You may only send as yourself.
+        allow create: if inSession()
+                      && request.auth.uid == request.resource.data.from_user_id;
 
-        // Messages are immutable: no edits, no deletes. Keeps a child-facing chat auditable.
-        allow update, delete: if false;
+        /* Legacy `displayed` is a per-message read flag, so the recipient must be able to flip
+           it -- but nothing else. Message text stays immutable, which keeps a child-facing
+           chat auditable. */
+        allow update: if inSession()
+                      && request.resource.data.message_content == resource.data.message_content
+                      && request.resource.data.from_user_id == resource.data.from_user_id
+                      && request.resource.data.to_user_id == resource.data.to_user_id;
+
+        allow delete: if false;
       }
     }
 

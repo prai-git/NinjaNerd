@@ -23,6 +23,8 @@ const PROJECT_ID = 'ninjanerd-emulator';
 
 const ALICE = 'uid_alice';
 const BOB = 'uid_bob';
+const CAROL = 'uid_carol';
+const ADMIN = 'uid_admin';
 
 async function emulatorRunning() {
   try {
@@ -63,88 +65,201 @@ describe('firestore security rules', { skip }, () => {
         port: FIRESTORE_PORT,
       },
     });
-    firestore = await import('https://www.gstatic.com/firebasejs/12.18.0/firebase-firestore.js')
-      .catch(() => import('firebase/firestore'));
+    // Must be the npm package: Node cannot import an https:// URL, so the CDN build used by
+    // the browser (app/js/firebase-init.js) is not usable here. `firebase` is a devDependency
+    // pinned to the same 12.x line as that CDN URL.
+    firestore = await import('firebase/firestore');
   });
 
   after(async () => { if (env) await env.cleanup(); });
 
   const { assertSucceeds, assertFails } = rulesTesting ?? {};
 
-  test('a user can write and read their own attempts', async () => {
+  // Seed a profile for each actor. ADMIN carries is_admin so the Audit path can be exercised.
+  async function seedUsers() {
+    await env.withSecurityRulesDisabled(async (ctx) => {
+      const { doc, setDoc } = firestore;
+      const db = ctx.firestore();
+      await setDoc(doc(db, `users/${ALICE}`), {
+        email: 'alice@example.com', school_name: 'PS1', is_admin: false,
+        created_at: new Date(), updated_at: new Date(),
+      });
+      await setDoc(doc(db, `users/${BOB}`), {
+        email: 'bob@example.com', school_name: 'PS2', is_admin: false,
+        created_at: new Date(), updated_at: new Date(),
+      });
+      await setDoc(doc(db, `users/${ADMIN}`), {
+        email: 'admin@gmail.com', school_name: '', is_admin: true,
+        created_at: new Date(), updated_at: new Date(),
+      });
+      await setDoc(doc(db, `users/${BOB}/history/h1`), {
+        question: 'What is 2+2?', user_answer: '4', correct: true,
+        topic: 'math', subtopic: 'Addition', grade: 1, timestamp: new Date(),
+      });
+      await setDoc(doc(db, `users/${BOB}/statistics/summary`), {
+        last_login: new Date(), questions_attempted: 1, topics_covered: ['math'],
+      });
+    });
+  }
+
+  test('a user can append their own history and read it back', async () => {
+    await seedUsers();
     const db = env.authenticatedContext(ALICE).firestore();
     const { doc, setDoc, getDoc } = firestore;
-    const ref = doc(db, `users/${ALICE}/attempts/a1`);
+    const ref = doc(db, `users/${ALICE}/history/h1`);
     await assertSucceeds(setDoc(ref, {
-      questionId: 'math_g4_x_q1', correct: true, grade: 4, subject: 'math',
-      subtopic: 'Fractions', ts: new Date(),
+      question: 'What is 3+3?', user_answer: '6', correct: true,
+      topic: 'math', subtopic: 'Addition', grade: 1, timestamp: new Date(),
     }));
     await assertSucceeds(getDoc(ref));
   });
 
-  test('a user cannot read another user\'s data', async () => {
-    await env.withSecurityRulesDisabled(async (ctx) => {
-      const { doc, setDoc } = firestore;
-      await setDoc(doc(ctx.firestore(), `users/${BOB}/attempts/b1`), { correct: true });
-    });
+  test('history is append-only: no rewriting or deleting an entry', async () => {
+    await seedUsers();
     const db = env.authenticatedContext(ALICE).firestore();
-    const { doc, getDoc } = firestore;
-    await assertFails(getDoc(doc(db, `users/${BOB}/attempts/b1`)));
+    const { doc, setDoc, updateDoc, deleteDoc } = firestore;
+    const ref = doc(db, `users/${ALICE}/history/h2`);
+    await assertSucceeds(setDoc(ref, {
+      question: 'q', user_answer: 'a', correct: false,
+      topic: 'science', subtopic: 'Cells', grade: 5, timestamp: new Date(),
+    }));
+    await assertFails(updateDoc(ref, { correct: true }));
+    await assertFails(deleteDoc(ref));
   });
 
-  test('a user cannot write into another user\'s data', async () => {
+  test('a user cannot read another user\'s profile, history or statistics', async () => {
+    await seedUsers();
     const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, getDoc, setDoc } = firestore;
+    await assertFails(getDoc(doc(db, `users/${BOB}`)));
+    await assertFails(getDoc(doc(db, `users/${BOB}/history/h1`)));
+    await assertFails(getDoc(doc(db, `users/${BOB}/statistics/summary`)));
+    await assertFails(setDoc(doc(db, `users/${BOB}/history/x`), { correct: false }));
+  });
+
+  // The legacy Audit page reads another user's record, so this MUST succeed for an admin.
+  test('an admin can read any user profile, history and statistics (Audit)', async () => {
+    await seedUsers();
+    const db = env.authenticatedContext(ADMIN).firestore();
+    const { doc, getDoc } = firestore;
+    await assertSucceeds(getDoc(doc(db, `users/${BOB}`)));
+    await assertSucceeds(getDoc(doc(db, `users/${BOB}/history/h1`)));
+    await assertSucceeds(getDoc(doc(db, `users/${BOB}/statistics/summary`)));
+  });
+
+  test('a normal user cannot promote themselves to admin', async () => {
+    await seedUsers();
+    const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, updateDoc, setDoc } = firestore;
+    await assertFails(updateDoc(doc(db, `users/${ALICE}`), { is_admin: true }));
+    // Nor by rewriting the whole document.
+    await assertFails(setDoc(doc(db, `users/${ALICE}`), {
+      email: 'alice@example.com', school_name: 'PS1', is_admin: true,
+      created_at: new Date(), updated_at: new Date(),
+    }));
+  });
+
+  test('a new account cannot create itself as admin', async () => {
+    const db = env.authenticatedContext('uid_fresh').firestore();
     const { doc, setDoc } = firestore;
-    await assertFails(setDoc(doc(db, `users/${BOB}/attempts/x`), { correct: false }));
+    await assertFails(setDoc(doc(db, 'users/uid_fresh'), {
+      email: 'fresh@example.com', is_admin: true,
+      created_at: new Date(), updated_at: new Date(),
+    }));
+    await assertSucceeds(setDoc(doc(db, 'users/uid_fresh'), {
+      email: 'fresh@example.com', school_name: '', is_admin: false,
+      created_at: new Date(), updated_at: new Date(),
+    }));
   });
 
   test('unauthenticated requests are denied', async () => {
+    await seedUsers();
     const db = env.unauthenticatedContext().firestore();
     const { doc, getDoc, setDoc } = firestore;
-    await assertFails(getDoc(doc(db, `users/${ALICE}/attempts/a1`)));
-    await assertFails(setDoc(doc(db, `users/${ALICE}/attempts/a2`), { correct: true }));
+    await assertFails(getDoc(doc(db, `users/${ALICE}`)));
+    await assertFails(setDoc(doc(db, `users/${ALICE}/history/x`), { correct: true }));
+    await assertFails(getDoc(doc(db, 'chat_sessions/s1')));
   });
 
-  test('a non-participant is denied a collaboration room and its messages', async () => {
+  // ---- chat (confirmed in launch scope) ------------------------------------------------
+  async function seedChat() {
     await env.withSecurityRulesDisabled(async (ctx) => {
       const { doc, setDoc } = firestore;
-      await setDoc(doc(ctx.firestore(), 'collaboration/room1'), {
-        participants: [BOB], createdBy: BOB, createdAt: new Date(),
+      await setDoc(doc(ctx.firestore(), 'chat_sessions/s1'), {
+        user1_id: ALICE, user2_id: BOB, active: true,
+        created_at: new Date(), updated_at: new Date(),
       });
-      await setDoc(doc(ctx.firestore(), 'collaboration/room1/messages/m1'), {
-        senderUid: BOB, text: 'hi', ts: new Date(),
-      });
-    });
-    const db = env.authenticatedContext(ALICE).firestore();
-    const { doc, getDoc, setDoc } = firestore;
-    await assertFails(getDoc(doc(db, 'collaboration/room1')));
-    await assertFails(getDoc(doc(db, 'collaboration/room1/messages/m1')));
-    await assertFails(setDoc(doc(db, 'collaboration/room1/messages/m2'),
-      { senderUid: ALICE, text: 'let me in', ts: new Date() }));
-  });
-
-  test('a participant can read the room and post as themselves only', async () => {
-    await env.withSecurityRulesDisabled(async (ctx) => {
-      const { doc, setDoc } = firestore;
-      await setDoc(doc(ctx.firestore(), 'collaboration/room2'), {
-        participants: [ALICE, BOB], createdBy: BOB, createdAt: new Date(),
+      await setDoc(doc(ctx.firestore(), 'chat_sessions/s1/messages/m1'), {
+        from_user_id: BOB, to_user_id: ALICE, message_content: 'hi',
+        obfuscated_content: 'h*', displayed: false, timestamp: new Date(),
       });
     });
+  }
+
+  test('a chat member reads the session and posts as themselves only', async () => {
+    await seedUsers(); await seedChat();
     const db = env.authenticatedContext(ALICE).firestore();
     const { doc, getDoc, setDoc } = firestore;
-    await assertSucceeds(getDoc(doc(db, 'collaboration/room2')));
-    await assertSucceeds(setDoc(doc(db, 'collaboration/room2/messages/m1'),
-      { senderUid: ALICE, text: 'hello', ts: new Date() }));
-    // Impersonating another participant must fail.
-    await assertFails(setDoc(doc(db, 'collaboration/room2/messages/m2'),
-      { senderUid: BOB, text: 'not me', ts: new Date() }));
+    await assertSucceeds(getDoc(doc(db, 'chat_sessions/s1')));
+    await assertSucceeds(getDoc(doc(db, 'chat_sessions/s1/messages/m1')));
+    await assertSucceeds(setDoc(doc(db, 'chat_sessions/s1/messages/m2'), {
+      from_user_id: ALICE, to_user_id: BOB, message_content: 'hello',
+      obfuscated_content: 'h****', displayed: false, timestamp: new Date(),
+    }));
+    // Impersonating the other member must fail.
+    await assertFails(setDoc(doc(db, 'chat_sessions/s1/messages/m3'), {
+      from_user_id: BOB, to_user_id: ALICE, message_content: 'not me',
+      obfuscated_content: '', displayed: false, timestamp: new Date(),
+    }));
   });
 
-  test('messages are immutable', async () => {
+  test('an outsider is denied the session and its messages', async () => {
+    await seedUsers(); await seedChat();
+    const db = env.authenticatedContext(CAROL).firestore();
+    const { doc, getDoc, setDoc } = firestore;
+    await assertFails(getDoc(doc(db, 'chat_sessions/s1')));
+    await assertFails(getDoc(doc(db, 'chat_sessions/s1/messages/m1')));
+    await assertFails(setDoc(doc(db, 'chat_sessions/s1/messages/x'), {
+      from_user_id: CAROL, to_user_id: ALICE, message_content: 'let me in',
+      obfuscated_content: '', displayed: false, timestamp: new Date(),
+    }));
+  });
+
+  test('message text is immutable but the displayed flag can be set', async () => {
+    await seedUsers(); await seedChat();
     const db = env.authenticatedContext(ALICE).firestore();
     const { doc, updateDoc, deleteDoc } = firestore;
-    await assertFails(updateDoc(doc(db, 'collaboration/room2/messages/m1'), { text: 'edited' }));
-    await assertFails(deleteDoc(doc(db, 'collaboration/room2/messages/m1')));
+    await assertSucceeds(updateDoc(doc(db, 'chat_sessions/s1/messages/m1'), { displayed: true }));
+    await assertFails(updateDoc(doc(db, 'chat_sessions/s1/messages/m1'), { message_content: 'edited' }));
+    await assertFails(deleteDoc(doc(db, 'chat_sessions/s1/messages/m1')));
+  });
+
+  test('the chat pairing cannot be reassigned', async () => {
+    await seedUsers(); await seedChat();
+    const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, updateDoc } = firestore;
+    await assertSucceeds(updateDoc(doc(db, 'chat_sessions/s1'), { active: false }));
+    await assertFails(updateDoc(doc(db, 'chat_sessions/s1'), { user2_id: CAROL }));
+  });
+
+  // ---- invites ---------------------------------------------------------------------------
+  test('invites are visible to sender and recipient, and to nobody else', async () => {
+    await env.withSecurityRulesDisabled(async (ctx) => {
+      const { doc, setDoc } = firestore;
+      await setDoc(doc(ctx.firestore(), 'invites/i1'), {
+        from_user_id: ALICE, to_user_email: 'bob@example.com', status: 'pending',
+        timestamp: new Date(), created_at: new Date(), updated_at: new Date(),
+      });
+    });
+    const { doc, getDoc, updateDoc } = firestore;
+    await assertSucceeds(getDoc(doc(env.authenticatedContext(ALICE).firestore(), 'invites/i1')));
+    const bobDb = env.authenticatedContext(BOB, { email: 'bob@example.com' }).firestore();
+    await assertSucceeds(getDoc(doc(bobDb, 'invites/i1')));
+    await assertSucceeds(updateDoc(doc(bobDb, 'invites/i1'), { status: 'accepted' }));
+    // An unrelated signed-in user sees nothing.
+    await assertFails(getDoc(doc(env.authenticatedContext(CAROL, { email: 'carol@example.com' }).firestore(), 'invites/i1')));
+    // Neither party may rewrite who the invite is from.
+    await assertFails(updateDoc(doc(bobDb, 'invites/i1'), { from_user_id: BOB }));
   });
 
   test('an unrelated top-level collection is denied', async () => {
