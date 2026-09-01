@@ -1,0 +1,162 @@
+[
+  {
+    "id": "english_g2_2026-09-01_00-25_q1",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> ______ They chase strings for hours. They pounce on paper balls. They even play with their\n> own tails.\n\nWhich sentence best begins this paragraph?",
+    "options": [
+      "Kittens love to play with almost anything.",
+      "My grandmother has a garden.",
+      "Cats sleep for most of the day.",
+      "Dogs need to be walked every day."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12B | Topic: Topic Sentence**\n\n**Correct Answer:** A) Kittens love to play with almost anything.\n\n**Explanation:**\nEvery following sentence gives an example of kittens playing, so the topic sentence must\nintroduce that idea.\n\n**Why the other answers are wrong:**\n- **B** is unrelated.\n- **C** is about sleeping, which the details contradict.\n- **D** is about dogs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q2",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> (1) Bees are important to farmers. (2) They carry pollen from flower to flower. (3) This helps\n> plants make fruit. (4) My uncle drives a red truck.\n\nWhich sentence should be removed?",
+    "options": [
+      "Sentence 4",
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12B | Topic: Relevance**\n\n**Correct Answer:** A) Sentence 4\n\n**Explanation:**\nThe paragraph explains why bees matter to farmers. A red truck has nothing to do with it.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each build the explanation about bees and pollen.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q3",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word best fills the blank?\n\n> I wanted to play outside. ______, it was raining hard.",
+    "options": [
+      "However",
+      "Also",
+      "Because",
+      "First"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12C | Topic: Transitions**\n\n**Correct Answer:** A) However\n\n**Explanation:**\nWanting to play outside and it raining hard are in opposition, so a contrast word is needed.\n\n**Why the other answers are wrong:**\n- **B** *Also* adds a similar idea.\n- **C** *Because* gives a reason, and the order here is wrong for that.\n- **D** *First* signals sequence.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q4",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is explaining how to plant a seed. Which step comes **last**?",
+    "options": [
+      "Water the soil and wait for a sprout.",
+      "Dig a small hole in the soil.",
+      "Drop the seed into the hole.",
+      "Cover the seed with soil."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12B | Topic: Procedural Order**\n\n**Correct Answer:** A) Water the soil and wait for a sprout.\n\n**Explanation:**\nDig, drop the seed, cover, then water and wait. Watering and waiting come after the seed is\nplanted.\n\n**Why the other answers are wrong:**\n- **B** is first, **C** second and **D** third.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q5",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best combines these three?\n\n> The dog barked. The dog ran. The dog jumped.",
+    "options": [
+      "The dog barked, ran, and jumped.",
+      "The dog barked the dog ran the dog jumped.",
+      "The dog barked but ran and jumped.",
+      "The dog barked because ran jumped."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12B | Topic: Combining Sentences**\n\n**Correct Answer:** A) The dog barked, ran, and jumped.\n\n**Explanation:**\nThree actions by one subject can share that subject in a list, which removes the repetition.\n\n**Why the other answers are wrong:**\n- **B** is a run-on.\n- **C** *but* signals contrast that is not there.\n- **D** *because* signals a reason and leaves the sentence ungrammatical.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q6",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: **\"Winter is my favourite season.\"** Which sentence best supports it?",
+    "options": [
+      "I love building snow forts with my brother.",
+      "Summer lasts about three months.",
+      "My birthday is in the spring.",
+      "Leaves change colour in autumn."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12B | Topic: Supporting Details**\n\n**Correct Answer:** A) I love building snow forts with my brother.\n\n**Explanation:**\nA supporting sentence gives a reason for the opinion. Snow forts are a reason to love winter.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are about other seasons and support nothing.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q7",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **strongest** verb?",
+    "options": [
+      "The wind rattled the shutters all night.",
+      "The wind was on the shutters all night.",
+      "The wind did something to the shutters.",
+      "The wind went by the shutters."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12B | Topic: Strong Verbs**\n\n**Correct Answer:** A) The wind rattled the shutters all night.\n\n**Explanation:**\n*Rattled* names the exact action and lets the reader hear it.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** use vague verbs — *was*, *did something*, *went* — that describe\n  nothing.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-01_00-25_q8",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wrote about helping at an animal shelter. Which is the best **closing** sentence?",
+    "options": [
+      "Helping the animals made me proud to volunteer.",
+      "The shelter is on Third Street.",
+      "There were twelve dogs there.",
+      "I woke up at seven that morning."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.12C | Topic: Concluding Sentence**\n\n**Correct Answer:** A) Helping the animals made me proud to volunteer.\n\n**Explanation:**\nA closing sentence reflects on the experience as a whole rather than adding a new fact.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are details that belong earlier.\n\n---\n\n## Grammar and Language Mechanics",
+    "source": "authored",
+    "needsReview": false
+  }
+]

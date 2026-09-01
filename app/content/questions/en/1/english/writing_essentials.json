@@ -1,0 +1,162 @@
+[
+  {
+    "id": "english_g1_2026-09-01_00-10_q1",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence belongs **first** in a story about making a sandwich?",
+    "options": [
+      "First, I got the bread out of the bag.",
+      "Then I put on the peanut butter.",
+      "Last, I cut the sandwich in half.",
+      "I ate the whole sandwich quickly."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11B | Topic: Sequencing**\n\n**Correct Answer:** A) First, I got the bread out of the bag.\n\n**Explanation:**\nThe word *First* signals the opening step, and you cannot spread peanut butter before the bread\nis out.\n\n**Why the other answers are wrong:**\n- **B** *Then* is a middle step.\n- **C** *Last* signals the end.\n- **D** eating happens after the sandwich is made.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q2",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: **\"Dogs make good pets.\"** Which sentence best supports that idea?",
+    "options": [
+      "They are loyal and love to play with people.",
+      "My cousin has a goldfish in a bowl.",
+      "I rode my bike to the park today.",
+      "Some birds can learn to say words."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11B | Topic: Supporting Details**\n\n**Correct Answer:** A) They are loyal and love to play with people.\n\n**Explanation:**\nA supporting sentence gives a reason for the main idea. Loyalty and playfulness are reasons dogs\nmake good pets.\n\n**Why the other answers are wrong:**\n- **B** is about a goldfish, not dogs.\n- **C** is unrelated to pets entirely.\n- **D** is about birds.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q3",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> (1) Our class planted seeds in cups. (2) We watered them every day. (3) My favourite colour is\n> green. (4) After two weeks, small leaves appeared.\n\nWhich sentence does **not** belong?",
+    "options": [
+      "Sentence 3",
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11B | Topic: Relevance**\n\n**Correct Answer:** A) Sentence 3\n\n**Explanation:**\nThe paragraph is about planting and growing seeds. A favourite colour has nothing to do with it.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** all describe steps in growing the seeds.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q4",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word best fills the blank?\n\n> I put on my coat. ______, I went outside.",
+    "options": [
+      "Then",
+      "Because",
+      "But",
+      "Under"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11C | Topic: Transitions**\n\n**Correct Answer:** A) Then\n\n**Explanation:**\n*Then* shows one action following another in time, which matches putting on a coat and going\noutside.\n\n**Why the other answers are wrong:**\n- **B** *Because* signals a reason, not a sequence.\n- **C** *But* signals a contrast.\n- **D** *Under* is a position word, not a transition.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q5",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wrote about a trip to the zoo. Which sentence is the best **ending**?",
+    "options": [
+      "It was the best day I had all year.",
+      "We saw a lion at the zoo.",
+      "My sister is seven years old.",
+      "The zoo opens at nine o'clock."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11B | Topic: Concluding Sentence**\n\n**Correct Answer:** A) It was the best day I had all year.\n\n**Explanation:**\nA good ending sums up how the whole experience felt rather than adding a new fact.\n\n**Why the other answers are wrong:**\n- **B** is a detail from the middle.\n- **C** is unrelated.\n- **D** is a fact that belongs near the beginning.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q6",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **most exact** words?",
+    "options": [
+      "The puppy chewed my blue slipper.",
+      "The thing chewed my stuff.",
+      "It did something to my shoe.",
+      "Some animal got some clothes."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11B | Topic: Precise Word Choice**\n\n**Correct Answer:** A) The puppy chewed my blue slipper.\n\n**Explanation:**\nExact nouns and adjectives — *puppy*, *blue slipper* — let the reader picture what happened.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** rely on vague words like *thing*, *stuff*, *something* and *some\n  animal*.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q7",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to tell a friend **how** to make a paper aeroplane. Which sentence should come\n**second**?",
+    "options": [
+      "Next, fold the two top corners to the middle.",
+      "Start with one sheet of paper.",
+      "Finally, throw it gently.",
+      "Paper aeroplanes are fun to make."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11A | Topic: Procedural Order**\n\n**Correct Answer:** A) Next, fold the two top corners to the middle.\n\n**Explanation:**\n*Start with one sheet of paper* is first, so *Next…* is the second step.\n\n**Why the other answers are wrong:**\n- **B** is the first step.\n- **C** *Finally* is the last step.\n- **D** is an opening comment, not a step.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q8",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best combines these two?\n\n> I have a red hat. I have a blue scarf.",
+    "options": [
+      "I have a red hat and a blue scarf.",
+      "I have a red hat I have a blue scarf.",
+      "I have a red hat but a blue scarf.",
+      "I have a red hat because a blue scarf."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11B | Topic: Combining Sentences**\n\n**Correct Answer:** A) I have a red hat and a blue scarf.\n\n**Explanation:**\n*And* joins two things the writer has, without repeating \"I have\".\n\n**Why the other answers are wrong:**\n- **B** is a run-on with no joining word.\n- **C** *but* signals contrast, and there is none.\n- **D** *because* signals a reason, and there is none.\n\n---\n\n## Grammar and Language Mechanics",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "english_g1_2026-09-01_00-10_q9",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "The bird sings in the tree.",
+      "The bird sing in the tree.",
+      "The birds sings in the tree.",
+      "The bird singing in the tree."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Subject-Verb Agreement**\n\n**Correct Answer:** A) The bird sings in the tree.\n\n**Explanation:**\nA singular subject takes the *-s* form of the verb: *the bird sings*.\n\n**Why the other answers are wrong:**\n- **B** *bird sing* does not agree.\n- **C** plural *birds* needs *sing*, not *sings*.\n- **D** *singing* alone is not a complete verb here.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q10",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "Sam and I went to the library.",
+      "Sam and me went to the library.",
+      "Me and Sam went to the library.",
+      "I and me went to the library."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Pronoun Case**\n\n**Correct Answer:** A) Sam and I went to the library.\n\n**Explanation:**\n*I* is used as the subject. A quick check: remove the other person — \"**I** went\" sounds right,\n\"**me** went\" does not.\n\n**Why the other answers are wrong:**\n- **B** and **C** use *me* as a subject.\n- **D** uses two pronouns for one person.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q11",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses capital letters correctly?",
+    "options": [
+      "My friend Lila lives on Oak Street.",
+      "my friend Lila lives on Oak Street.",
+      "My friend lila lives on oak street.",
+      "My Friend Lila Lives On Oak Street."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Capitalisation**\n\n**Correct Answer:** A) My friend Lila lives on Oak Street.\n\n**Explanation:**\nCapitalise the first word of a sentence and proper nouns — a person's name and a street name.\n\n**Why the other answers are wrong:**\n- **B** misses the capital at the start.\n- **C** misses the capitals on *Lila* and *Oak Street*.\n- **D** capitalises ordinary words that need no capital.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q12",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence needs a **question mark**?",
+    "options": [
+      "Where did you put my book",
+      "I put the book on the shelf",
+      "Please hand me the book",
+      "What a heavy book that is"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: End Punctuation**\n\n**Correct Answer:** A) Where did you put my book\n\n**Explanation:**\nIt asks something, so it needs a question mark. *Where* is a question word.\n\n**Why the other answers are wrong:**\n- **B** is a statement and takes a full stop.\n- **C** is a command and takes a full stop.\n- **D** is an exclamation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q13",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the plural correctly?",
+    "options": [
+      "Three children played in the yard.",
+      "Three childs played in the yard.",
+      "Three childrens played in the yard.",
+      "Three child played in the yard."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Irregular Plurals**\n\n**Correct Answer:** A) Three children played in the yard.\n\n**Explanation:**\n*Child* becomes *children* — an irregular plural that does not take *-s*.\n\n**Why the other answers are wrong:**\n- **B** and **C** add *-s* to an irregular plural.\n- **D** uses the singular after *three*.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q14",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of words is a **complete sentence**?",
+    "options": [
+      "The cat slept on the warm rug.",
+      "The small grey cat.",
+      "Slept on the rug.",
+      "On the warm rug near the door."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Complete Sentences**\n\n**Correct Answer:** A) The cat slept on the warm rug.\n\n**Explanation:**\nA complete sentence needs a subject and a verb. *The cat* is the subject and *slept* is the\nverb.\n\n**Why the other answers are wrong:**\n- **B** has a subject but no verb.\n- **C** has a verb but no subject.\n- **D** is only a phrase.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q15",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence tells about something that happened **yesterday**?",
+    "options": [
+      "We walked to school in the rain.",
+      "We walk to school in the rain.",
+      "We are walking to school in the rain.",
+      "We will walk to school in the rain."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Past Tense**\n\n**Correct Answer:** A) We walked to school in the rain.\n\n**Explanation:**\n*Walked* is the past tense, so it describes something already finished.\n\n**Why the other answers are wrong:**\n- **B** is present tense.\n- **C** is happening now.\n- **D** is future tense.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_00-10_q16",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly?",
+    "options": [
+      "I packed apples, grapes, and cheese.",
+      "I packed apples grapes and cheese.",
+      "I packed, apples grapes and cheese.",
+      "I, packed apples, grapes and, cheese."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.11D | Topic: Commas in a Series**\n\n**Correct Answer:** A) I packed apples, grapes, and cheese.\n\n**Explanation:**\nCommas separate three or more items in a list.\n\n**Why the other answers are wrong:**\n- **B** has no commas at all.\n- **C** and **D** place commas where they do not belong.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

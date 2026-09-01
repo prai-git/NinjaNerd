@@ -1,8 +1,13 @@
 {
-  "generatedAt": "2026-09-01T04:21:58.788Z",
+  "generatedAt": "2026-09-01T04:24:54.493Z",
   "grades": {
     "1": {
       "english": [
+        {
+          "subtopic": "grammar_language_mechanics",
+          "slug": "grammar_language_mechanics",
+          "count": 8
+        },
         {
           "subtopic": "reading_fundamentals",
           "slug": "reading_fundamentals",
@@ -12,6 +17,11 @@
           "subtopic": "vocabulary_building",
           "slug": "vocabulary_building",
           "count": 7
+        },
+        {
+          "subtopic": "writing_essentials",
+          "slug": "writing_essentials",
+          "count": 8
         },
         {
           "subtopic": "written_conventions",
@@ -87,6 +97,11 @@
     "2": {
       "english": [
         {
+          "subtopic": "grammar_language_mechanics",
+          "slug": "grammar_language_mechanics",
+          "count": 8
+        },
+        {
           "subtopic": "reading_fundamentals",
           "slug": "reading_fundamentals",
           "count": 25
@@ -94,6 +109,11 @@
         {
           "subtopic": "vocabulary_building",
           "slug": "vocabulary_building",
+          "count": 8
+        },
+        {
+          "subtopic": "writing_essentials",
+          "slug": "writing_essentials",
           "count": 8
         },
         {
