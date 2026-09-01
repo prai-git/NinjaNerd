@@ -20,9 +20,11 @@ import { fileURLToPath } from 'node:url';
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const appRoot = join(repoRoot, 'app');
 
-/* obs_ files are retired and never extended (see CLAUDE.md); they are excluded here and are
-   removed wholesale in the obs_ purge. app/pages/obs_dashboard.html is the only one under
-   app/, it is unlinked, and it keeps its absolute paths. */
+/* The obs_ purge (2026-09-01) removed the retired tree, and app/pages/obs_dashboard.html --
+   the only obs_ file that was ever SERVED -- went with it. Nothing is excluded by this filter
+   today, and that is the point: it stays so that if an obs_-prefixed file ever reappears under
+   app/, it is skipped rather than silently failing the path rule for everyone else. Retired
+   files are never extended (see CLAUDE.md), so holding one to the rule would be noise. */
 const isRetired = (name) => name.startsWith('obs_');
 
 function walk(dir, out = []) {

@@ -18,18 +18,35 @@ const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => readFileSync(join(repoRoot, p), 'utf8');
 
 /* The number is not a preference — it is what the legacy app did. If someone changes it, they
-   should have to change this test and read why. */
+   should have to change this test and read why.
+
+   This test used to READ the legacy files to prove the 30 was sourced rather than invented.
+   They were deleted in the obs_ purge (2026-09-01), so the three lines that mattered are
+   quoted below instead, verbatim. That loses nothing: the legacy source is frozen and can no
+   longer drift, so the only half of the assertion that could ever fail again is OUR constant
+   drifting away from it — which is exactly what is still checked.
+
+   Verify the quotes against the last commit that contained the tree:
+     git show 104c466:obs_session_storage/session_expiry.py   # line 15
+     git show 104c466:obs_app.py                              # lines 115, 679 */
+const LEGACY_TIMEOUT = [
+  // obs_session_storage/session_expiry.py:15  ("Single source of truth for session timeout")
+  'SESSION_TIMEOUT_MINUTES = 30',
+  // obs_app.py:115 — the timeout applied to the login session lifetime
+  "app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=SESSION_TIMEOUT_MINUTES)",
+  // obs_app.py:679 — permanent + lifetime is what made legacy ROLLING rather than absolute
+  'session.permanent = True',
+];
+
 test('the limit is the legacy 30 minutes, and legacy really said 30', () => {
   assert.equal(IDLE_LIMIT_MS, 30 * 60 * 1000);
 
-  const legacy = read('obs_session_storage/session_expiry.py');
-  assert.match(legacy, /SESSION_TIMEOUT_MINUTES\s*=\s*30/,
-    'legacy source of the 30 minutes moved or changed');
-  const app = read('obs_app.py');
-  assert.match(app, /PERMANENT_SESSION_LIFETIME.*SESSION_TIMEOUT_MINUTES/,
-    'legacy applied the timeout to the login session lifetime');
-  assert.match(app, /session\.permanent = True/,
-    'permanent + lifetime is what made legacy rolling rather than absolute');
+  // The quoted legacy lines still say 30, and our constant still agrees with them.
+  const minutes = Number(LEGACY_TIMEOUT[0].match(/=\s*(\d+)/)[1]);
+  assert.equal(minutes, 30, 'the quoted legacy constant must be the one we implement');
+  assert.equal(IDLE_LIMIT_MS, minutes * 60 * 1000);
+  assert.ok(LEGACY_TIMEOUT[1].includes('PERMANENT_SESSION_LIFETIME'));
+  assert.ok(LEGACY_TIMEOUT[2].includes('session.permanent = True'));
 });
 
 /* The warning is carved out of the 30 minutes, not added to it. Adding it would quietly make

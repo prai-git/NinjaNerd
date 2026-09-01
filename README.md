@@ -1,97 +1,97 @@
 # NinjaNerd 🥷📚
 
-An educational practice platform for **grades 1–6** (English, Math, Science), plus browser
-games — delivered as a **static site on GitHub Pages** at **ninjanerd.ai**.
+An educational practice platform for **grades 1–6** — English, Math and Science — plus browser
+games. Students browse freely and sign in only when they start practising.
 
-> **Migration in progress: Flask backend → static site.** The former Flask app, its
-> production docs (nginx/SSL/systemd) and the JSON/SQLite storage design are **superseded**
-> and live under `obs_`-prefixed paths. This README describes the **static architecture**.
+Delivered as a **static site on GitHub Pages** at **[ninjanerd.ai](https://ninjanerd.ai)**.
 
-**Current state (2026-09-01)**
+## Overview
+
+- **1,622 questions** across 3 subjects × 6 grades, covering all 115 subtopics.
+- **Learn and Practice** are two modes over the same material; every grade has both.
+- Questions are authored offline and compiled to JSON at **dev time**. The browser loads the
+  JSON, shuffles question and option order, and marks answers **client-side** — there is no
+  runtime LLM and no server.
+- **Firebase** provides the only backend: Auth (email/password) for sign-in, and Firestore for
+  each student's progress, statistics and history. Access is governed by Firestore Security
+  Rules; the web config is public by design and grants nothing on its own.
+- **EmailJS** sends the contact form. There are no payments.
+- Four canvas games ship alongside the practice content.
+
+## Folder structure
+
+```
+app/                  # the published site — the ONLY folder served
+├── index.html        #   landing page (public)
+├── pages/            #   login, topics, subtopics, learn, practice, statistics, …
+├── js/               #   page logic (ES modules)
+├── assets/           #   css, img, shared js
+├── content/          #   compiled question JSON + manifest
+└── static/games/     #   geodash · mmh · tank_attack · tejas_thrust
+
+dbmgr/                # Firestore security rules + indexes
+tools/                # dev-time content build scripts
+test/                 # node:test suites
+.github/workflows/    # pages.yml (deploy) · rules.yml (rules tests in CI)
+firebase.json         # must stay at the repo root — the CLI searches upward
+```
+
+Every page carries a `<base>` tag and writes same-origin paths **without a leading slash**, so
+the same files work from a GitHub Pages sub-path and from the domain root alike.
+
+## Getting started
+
+Requires **Node.js 18+** (uses the built-in test runner).
+
+```bash
+npm ci                   # install (use ci, not install — it catches peer conflicts)
+npm test                 # run the test suite
+npm run build:content    # recompile question JSON from the authored source
+```
+
+To preview the site locally:
+
+```bash
+cd app && python3 -m http.server 8000    # then open http://localhost:8000
+```
+
+### Testing
+
+`npm test` runs every suite under `test/`. No test touches the network — OpenAI and EmailJS
+calls are mocked.
+
+Firestore rules are verified against the Firebase emulator, which runs **in CI only**
+(`.github/workflows/rules.yml`). Those cases skip locally so `npm test` stays green without a
+Java install:
+
+```bash
+npm run emulator      # start the auth + firestore emulators
+npm run test:rules    # run the rules tests against them
+```
+
+## Dependencies
+
+No runtime npm dependencies — the browser loads everything from a CDN, pinned by version:
 
 | | |
 |---|---|
-| Live (pre-launch) | **https://prai-git.github.io/NinjaNerd/** — a sub-path, not the root |
-| Branch | `ninjanerd-static` (the only branch that deploys). `main` is frozen at the legacy Flask app |
-| Firebase | Project `ninjanerd-32030` — Email/Password auth, Firestore (Standard, Production mode, `nam7`), **security rules deployed and verified** |
-| Content | 1622 questions across grades 1–6 · **all 115 subtopics filled** |
-| Tests | `npm test` → 157 pass, 0 fail, 0 todo (the release gate below is enforced) |
-| Not yet built | account/audit/contact pages, custom domain |
-| Dropped | **collaboration/chat** — cut 2026-09-01; child-to-child messaging is out of scope for launch |
+| Firebase Web SDK 12.18.0 | Auth + Firestore |
+| Bootstrap 5.3.3 | layout and components |
+| Font Awesome 6.5.2 | icons |
+| KaTeX 0.16.22 | maths rendering |
+| EmailJS 4.4.1 | contact form |
 
-## Architecture
+Dev-only (`devDependencies`): `firebase`, `firebase-tools`, `@firebase/rules-unit-testing`.
 
-- **Static frontend** served by GitHub Pages from **`app/`**. Bootstrap + FontAwesome via CDN.
-  Landing page is **About** (public); login is required only when a student starts **Learn or
-  Practice** — browsing is open.
-- **Questions**: authored `.md`/answer files in `doc/questionnaire/` are converted **at dev
-  time** (`tools/`, optional OpenAI for free-response → MCQ) into normalized JSON under
-  `app/content/questions/en/<grade>/<subject>/<legacy_subtopic_id>.json`. The browser loads
-  the JSON, randomizes question **and** option order, and checks answers **client-side**.
-  **No runtime LLM.**
-- **Learn and Practice are two modes over the same items** — every grade has both. There are
-  no content tiers.
-- **Subtopics come from the legacy app**, not from the content: the fixed taxonomy in
-  `obs_app.py SUBTOPICS`, ported by AST parse into `app/js/subtopics-data.js` with its
-  original names, descriptions, icons and colours. Authored headings are *mapped* onto it.
-  Subtopics with no questions render greyed out and unclickable.
-- **Firebase** (client Web SDK): **Auth** (email/password) and **Firestore** (per-user
-  progress/stats/history), secured by **Security Rules**. The
-  document model mirrors the legacy SQLite schema column-for-column so Audit, Statistics and
-  progress tracking behave as they did. Config is public by design; there is no server secret.
-- **Email**: Firebase Auth built-in mail (verification/reset) + **EmailJS** for the contact
-  form. **No payments.**
-- **English only.** French/Hindi were dropped; the `en` path segment remains so a language
-  could be added later without moving content. (`app/i18n/` exists but is an empty
-  placeholder — no strings, no framework, nothing references it.)
-- **Games**: JS/canvas games under `app/static/games/`, ported to static pages.
-- **Paths are never root-absolute.** Every page carries a `<base>` tag and same-origin paths
-  omit the leading slash, so the identical files work from the Pages sub-path (`/NinjaNerd/`)
-  **and** the domain root. Enforced by `test/test_base_path.test.js`.
+## Deploying
 
-## Layout
+Pushing to the `ninjanerd-static` branch triggers `.github/workflows/pages.yml`, which
+publishes `app/`. It is the only branch permitted to deploy.
 
-```
-app/                     # published site root — the ONLY folder served
-dbmgr/                   # firestore.rules + indexes (current); obs_*.py (retired SQLite)
-tools/                   # dev-time build scripts (not served)
-test/                    # node:test suites (not served)
-.github/workflows/       # pages.yml (deploy app/) · rules.yml (Firestore rules in CI)
-firebase.json            # repo root — the CLI searches upward, so it cannot move
-.firebaserc              # repo root — pins project ninjanerd-32030
-doc/                     # ENTIRELY git-ignored: plan, prompts, changelog, questionnaire
-obs_*                    # retired Flask backend + obs_static/ (reference only, not served)
-```
+## Author
 
-> `doc/` is not in version control, so the plan, prompts and the authored question source
-> exist only on the author's machine. **Back it up separately.**
+**Praveen Rai**
 
-## Develop & test
+## License
 
-```bash
-npm ci          # use ci, not install — it catches peer conflicts that break CI
-npm test        # node --test — runs test/*.test.js
-npm run build:content   # rebuild question JSON from doc/questionnaire/
-```
-
-**Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
-13 cases). Those tests skip locally so `npm test` stays green without Java. OpenAI/EmailJS
-calls are mocked; no test touches the network.
-
-## Deploy
-
-Push to `ninjanerd-static`; `.github/workflows/pages.yml` publishes `app/`. Only that branch
-is permitted to deploy. Custom domain (Porkbun DNS + HTTPS) is the final step before launch.
-
-**Release gate:** the site must not launch with an empty subtopic. A student choosing a
-subject and meeting a wall of dead cards is a broken product. Tracked by the `todo` test
-*"no subtopic is empty at any grade"*.
-
-## The `obs_` convention
-
-Superseded files are retired by prepending `obs_` (via `git mv`, preserving history) rather
-than deleted. `obs_`-prefixed means **retired — do not run, do not extend**. See `CLAUDE.md`.
-
----
-
-**Author**: Praveen Rai
+Released under the **MIT License** — see [LICENSE](LICENSE).

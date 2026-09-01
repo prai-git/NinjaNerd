@@ -101,10 +101,22 @@ test('school name validation matches the rules cap', () => {
   assert.match(accountHtml, /id="nn-acct-school"[^>]*maxlength="200"/);
 });
 
+/* obs_app.py:895-897, quoted verbatim. The file was deleted in the obs_ purge (2026-09-01);
+   read it at `git show 104c466:obs_app.py`. The quote is what makes the 6 sourced rather than
+   chosen — the legacy app is frozen and cannot drift, so the only thing left to catch is our
+   own constant drifting away from it, which is still asserted below. */
+const LEGACY_PASSWORD_FLOOR = [
+  '                # Validate password length and complexity',
+  '                if len(new_password) < 6:',
+  '                    flash("Password must be at least 6 characters long")',
+].join('\n');
+
 test('password minimum matches legacy', () => {
   assert.match(accountJs, /MIN_PASSWORD = 6/);
-  assert.match(read('obs_app.py'), /Password must be at least 6 characters long/,
+  assert.match(LEGACY_PASSWORD_FLOOR, /Password must be at least 6 characters long/,
     'legacy source of the 6-character minimum moved or changed');
+  // The number in the quote and the number we implement must be the same number.
+  assert.equal(Number(LEGACY_PASSWORD_FLOOR.match(/< (\d+):/)[1]), 6);
 });
 
 // ---- Audit ---------------------------------------------------------------------------------

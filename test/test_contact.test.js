@@ -26,6 +26,34 @@ function stripComments(src) {
     .split('\n').filter((l) => !/^\s*\/\//.test(l)).join('\n');
 }
 
+/* THE LEGACY SOURCE, QUOTED.
+
+   These assertions used to read obs_templates/contact_us.html and obs_app.py directly, to
+   prove every number and string below came from the old app rather than from someone's taste.
+   Those files were deleted in the obs_ purge (2026-09-01), so the lines that carried the
+   evidence are quoted here verbatim instead.
+
+   This loses nothing real. The legacy app is frozen; it cannot drift. The only half of each
+   assertion that could ever fail again is OUR code drifting away from it, and that is still
+   what is checked. Verify any quote against the last commit that contained the tree:
+     git show 104c466:obs_templates/contact_us.html
+     git show 104c466:obs_app.py */
+const LEGACY = {
+  // obs_templates/contact_us.html:38 — the cap lived on the textarea itself.
+  textarea: '<textarea class="form-control" id="content" name="content" rows="8" '
+    + 'maxlength="300" required></textarea>',
+  // obs_templates/contact_us.html:72,74 — the counter's two colour thresholds.
+  counter: ['if (length > 250) {', "charCount.style.color = 'red';",
+    '} else if (length > 200) {', "charCount.style.color = 'orange';"].join('\n'),
+  // obs_app.py:1031,1034 — the subject line and the fixed recipient.
+  subjectLine: 'email_subject = f"Contact Us - {subject}"',
+  recipient: 'email_handler.send_email_async("ninjanerdonpi@gmail.com", email_subject, '
+    + 'email_body)',
+  // obs_app.py:1006-1008 — the route was login-gated and rate-limited at 5/minute.
+  route: ["@app.route('/contact_us', methods=['GET', 'POST'])", '@require_login',
+    '@apply_rate_limit("5 per minute")'].join('\n'),
+};
+
 // ---- legacy shape --------------------------------------------------------------------------
 
 test('the form is subject + message, as legacy was — not name/email/message', () => {
@@ -48,10 +76,9 @@ test('the 300-character cap and its counter thresholds match legacy', () => {
   assert.match(contactHtml, /maxlength="300"/);
   assert.match(contactHtml, /id="nn-contact-count"/);
   // Legacy's own numbers, so a change here is visible against the source.
-  const legacy = read('obs_templates/contact_us.html');
-  assert.match(legacy, /maxlength="300"/);
-  assert.match(legacy, /length > 250/);
-  assert.match(legacy, /length > 200/);
+  assert.match(LEGACY.textarea, /maxlength="300"/);
+  assert.match(LEGACY.counter, /length > 250/);
+  assert.match(LEGACY.counter, /length > 200/);
 });
 
 test('send is disabled until the message has content, as legacy was', () => {
@@ -62,14 +89,14 @@ test('send is disabled until the message has content, as legacy was', () => {
 test('the mail matches legacy\'s subject line and body', () => {
   // Legacy: subject "Contact Us - {subject}", body "From/Subject/Message".
   assert.match(contactJs, /`Contact Us - \$\{subject\}`/);
-  assert.match(read('obs_app.py'), /Contact Us - \{subject\}/,
+  assert.match(LEGACY.subjectLine, /Contact Us - \{subject\}/,
     'legacy source of the subject line moved or changed');
   assert.match(contactJs, /From: \$\{from\}\\n\\nSubject: \$\{subject\}\\n\\nMessage:\\n\$\{content\}/);
 });
 
 test('it goes to the address legacy sent to', () => {
   assert.equal(CONTACT_TO, 'ninjanerdonpi@gmail.com');
-  assert.match(read('obs_app.py'), /send_email_async\("ninjanerdonpi@gmail\.com"/);
+  assert.match(LEGACY.recipient, /send_email_async\("ninjanerdonpi@gmail\.com"/);
 });
 
 /* The recipient must be pinned INSIDE the EmailJS template, never sent from here. The Public
@@ -201,7 +228,7 @@ test('the SDK is pinned and loaded on demand', () => {
 
 test('sign-in is required, as legacy required it', () => {
   // obs_app.py: @require_login. The sender identity IS the signed-in user.
-  assert.match(read('obs_app.py'), /@app\.route\('\/contact_us'[\s\S]{0,80}@require_login/);
+  assert.match(LEGACY.route, /@app\.route\('\/contact_us'[\s\S]{0,80}@require_login/);
   assert.match(contactJs, /if \(!user\)/);
   assert.match(contactJs, /Please sign in/);
 });

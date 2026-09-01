@@ -11,6 +11,10 @@
        PERMANENT_SESSION_LIFETIME = timedelta(minutes=30)            (obs_app.py:115)
        SESSION_TIMEOUT_MINUTES = 30       (obs_session_storage/session_expiry.py:15)
 
+   Those files were deleted in the obs_ purge (2026-09-01); read them at `git show 104c466:<path>`.
+   The three lines are also quoted verbatim in test/test_idle_timeout.test.js, which still
+   asserts our constant matches them.
+
    and Flask refreshes a permanent session on every request by default, so what a student
    actually experienced was a ROLLING 30-minute idle timeout. Same number here, same
    behaviour. (30 minutes is also the ordinary figure for education platforms, so matching

@@ -9,9 +9,17 @@ rules_version = '2';
    plan or checklist there cannot be relied on; the model lives here because this file is a
    deployed artifact and cannot drift out of the repo.
 
-   The document model mirrors the legacy SQLite schema (dbmgr/obs_sqlite_manager.py) so that
-   Audit, Statistics and progress tracking keep working the way they did in the Flask app.
-   Legacy table names are shown against each collection.
+   The document model mirrors the legacy SQLite schema (obs_sqlite_manager.py) so that Audit,
+   Statistics and progress tracking keep working the way they did in the Flask app. Legacy
+   table names are shown against each collection.
+
+   ON THE obs_* NAMES BELOW: they are the retired Flask app, DELETED from the working tree in
+   the obs_ purge (2026-09-01) and recoverable only from git history -- `git log --all --
+   <name>`, or browse the tree at the commit before the purge. They are cited here as
+   PROVENANCE, not as paths you can open: each one records where a field or a decision came
+   from, which is the evidence that this schema was derived from the old app rather than
+   invented. Do not delete these citations because the files are gone; that is exactly when
+   they start earning their keep.
 
      users/{uid}                             <- users
        email                : string           # also the login identifier
@@ -33,10 +41,10 @@ rules_version = '2';
      users/{uid}/statistics/summary          <- user_statistics + JSON store
        last_login           : timestamp        # from the SQLite user_statistics table
        questions_attempted  : number           # NOT in SQLite; from obs_db_manager.py
-       topics_covered       : string[]         # NOT in SQLite; from obs_db_manager.py
+       topics_covered       : string[]         # NOT in SQLite; from obs_db_manager.py (both retired)
 
    On `statistics`: the legacy app had TWO storage backends. The SQLite user_statistics table
-   holds only user_id + last_login, while the JSON store (dbmgr/obs_db_manager.py) holds
+   holds only user_id + last_login, while the JSON store (obs_db_manager.py) holds
    questions_attempted and topics_covered[]. Audit reads all three, so this single document is
    the union of both — not a copy of the SQLite table alone.
 
