@@ -78,5 +78,465 @@
     "explanation": "**Explanation:**\nReflecting across the **y-axis** changes the sign of the x-coordinate and leaves y unchanged:\n\\((-3, 4) \\rightarrow (3, 4)\\).",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A parallelogram has a base of 15 cm and a height of 8 cm. What is its area?",
+    "options": [
+      "\\(120\\) cm²",
+      "\\(60\\) cm²",
+      "\\(46\\) cm²",
+      "\\(23\\) cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(A = bh = 15 \\times 8 = 120\\) cm². A parallelogram uses the full base times height — halving it (60) is the triangle formula.\n\n**Key concept:** Parallelogram area is \\(bh\\), not \\(\\frac{1}{2}bh\\).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A trapezoid has parallel sides of 10 cm and 6 cm and a height of 9 cm. What is its area?",
+    "options": [
+      "\\(72\\) cm²",
+      "\\(144\\) cm²",
+      "\\(54\\) cm²",
+      "\\(80\\) cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(A = \\frac{1}{2}(b_1 + b_2)h = \\frac{1}{2}(10 + 6)(9) = \\frac{1}{2}(16)(9) = 72\\) cm². Forgetting the one-half gives 144.\n\n**Key concept:** Average the parallel sides, then multiply by the height.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle 12 m by 8 m has a triangular section of base 6 m and height 8 m removed from one corner. What area remains?",
+    "options": [
+      "\\(72\\) m²",
+      "\\(96\\) m²",
+      "\\(48\\) m²",
+      "\\(24\\) m²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Rectangle: \\(12 \\times 8 = 96\\) m²\n- Triangle removed: \\(\\frac{1}{2}(6)(8) = 24\\) m²\n- Remaining: \\(96 - 24 = 72\\) m²\n\n**Key concept:** For a composite figure, find each region then add or subtract.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangular prism has a volume of \\(180\\) cm³ and a base area of \\(30\\) cm². What is its height?",
+    "options": [
+      "\\(6\\) cm",
+      "\\(150\\) cm",
+      "\\(5400\\) cm",
+      "\\(12\\) cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(V = Bh\\), so \\(h = V \\div B = 180 \\div 30 = 6\\) cm.\n\n**Key concept:** Rearranging \\(V = Bh\\) finds any one of the three quantities.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has an area of \\(84\\) cm² and a base of \\(24\\) cm. What is its height?",
+    "options": [
+      "\\(7\\) cm",
+      "\\(3.5\\) cm",
+      "\\(14\\) cm",
+      "\\(60\\) cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(A = \\frac{1}{2}bh\\), so \\(84 = \\frac{1}{2}(24)h = 12h\\), giving \\(h = 7\\) cm.\n\n**Key concept:** Substitute into the formula and solve for the unknown.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle has vertices at \\((-3, 2)\\), \\((5, 2)\\), \\((5, -4)\\) and \\((-3, -4)\\). What is its area?",
+    "options": [
+      "\\(48\\) square units",
+      "\\(28\\) square units",
+      "\\(14\\) square units",
+      "\\(24\\) square units"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Width: from \\(x = -3\\) to \\(x = 5\\) is 8 units\n- Height: from \\(y = -4\\) to \\(y = 2\\) is 6 units\n- Area: \\(8 \\times 6 = 48\\)\n\n**Key concept:** Side lengths on a coordinate grid come from the difference of coordinates.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q7",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A net is made of two identical circles and one rectangle. Which solid does it form?",
+    "options": [
+      "A cone",
+      "A cylinder",
+      "A rectangular prism",
+      "A sphere"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTwo congruent circles form the top and bottom faces, and the rectangle wraps around as the curved surface. A cone would need one circle and a sector.\n\n**Key concept:** A net shows every face of a solid laid flat.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q8",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cube has a volume of \\(125\\) cm³. What is the length of one edge?",
+    "options": [
+      "\\(5\\) cm",
+      "\\(25\\) cm",
+      "\\(12.5\\) cm",
+      "\\(15\\) cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA cube's volume is \\(s^3\\), so \\(s = \\sqrt[3]{125} = 5\\) cm, since \\(5 \\times 5 \\times 5 = 125\\).\n\n**Key concept:** Reverse a cube by finding the cube root.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q9",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the **surface area** of a rectangular prism measuring 4 cm by 3 cm by 2 cm?",
+    "options": [
+      "\\(52\\) cm²",
+      "\\(24\\) cm²",
+      "\\(26\\) cm²",
+      "\\(48\\) cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(SA = 2(lw + lh + wh) = 2(12 + 8 + 6) = 2(26) = 52\\) cm². The value 24 is the volume, not the surface area.\n\n**Key concept:** Surface area sums all six faces; volume multiplies three dimensions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q10",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Point \\((-2, 5)\\) is reflected across the \\(x\\)-axis. What are the new coordinates?",
+    "options": [
+      "\\((-2, -5)\\)",
+      "\\((2, 5)\\)",
+      "\\((2, -5)\\)",
+      "\\((5, -2)\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nReflecting across the \\(x\\)-axis negates the \\(y\\)-coordinate and leaves \\(x\\) unchanged.\n\n**Key concept:** Across the \\(x\\)-axis, \\(y\\) flips; across the \\(y\\)-axis, \\(x\\) flips.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q11",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two triangles have the same base. The second has twice the height of the first. How do their areas compare?",
+    "options": [
+      "The second has twice the area.",
+      "The second has four times the area.",
+      "The areas are equal.",
+      "The second has half the area."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nArea is \\(\\frac{1}{2}bh\\). With the base fixed, doubling \\(h\\) doubles the area. Four times would require doubling both dimensions.\n\n**Key concept:** Area scales directly with each dimension separately.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q12",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A composite figure is a 10 cm by 6 cm rectangle with a semicircle of diameter 6 cm attached to one short side. Using \\(\\pi \\approx 3.14\\), what is the total area to the nearest whole number?",
+    "options": [
+      "\\(74\\) cm²",
+      "\\(60\\) cm²",
+      "\\(88\\) cm²",
+      "\\(116\\) cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Rectangle: \\(10 \\times 6 = 60\\) cm²\n- Semicircle, radius 3: \\(\\frac{1}{2}\\pi r^2 = \\frac{1}{2}(3.14)(9) = 14.13\\) cm²\n- Total: \\(74.13 \\approx 74\\) cm²\n\n**Key concept:** The diameter is 6, so the radius is 3 — halve it before squaring.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q13",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the distance between \\((3, -2)\\) and \\((3, 6)\\)?",
+    "options": [
+      "\\(8\\) units",
+      "\\(4\\) units",
+      "\\(6\\) units",
+      "\\(10\\) units"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBoth points share \\(x = 3\\), so the segment is vertical and its length is the difference in \\(y\\): \\(6 - (-2) = 8\\).\n\n**Key concept:** For a vertical or horizontal segment, subtract the coordinates that differ.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q14",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box measures 8 in by 5 in by 4 in. How many 1-inch cubes fit inside?",
+    "options": [
+      "\\(160\\)",
+      "\\(17\\)",
+      "\\(80\\)",
+      "\\(184\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe number of unit cubes equals the volume: \\(8 \\times 5 \\times 4 = 160\\) cubic inches.\n\n**Key concept:** Volume in cubic units counts unit cubes directly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q15",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A circle has a radius of 7 cm. Using \\(\\pi \\approx 3.14\\), what is its **circumference** to the nearest whole number?",
+    "options": [
+      "\\(44\\) cm",
+      "\\(22\\) cm",
+      "\\(154\\) cm",
+      "\\(88\\) cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(C = 2\\pi r = 2(3.14)(7) = 43.96 \\approx 44\\) cm. Using \\(\\pi r^2\\) instead gives 154, which is the area.\n\n**Key concept:** Circumference uses \\(2\\pi r\\); area uses \\(\\pi r^2\\).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q16",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A circle has a diameter of 10 m. Using \\(\\pi \\approx 3.14\\), what is its **area** to the nearest whole number?",
+    "options": [
+      "\\(79\\) m²",
+      "\\(314\\) m²",
+      "\\(31\\) m²",
+      "\\(157\\) m²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDiameter 10 means radius 5, so \\(A = \\pi r^2 = 3.14(25) = 78.5 \\approx 79\\) m². Squaring the diameter instead gives 314.\n\n**Key concept:** Halve the diameter before applying \\(\\pi r^2\\).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q17",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of angles must add to \\(180°\\)?",
+    "options": [
+      "Complementary angles",
+      "Supplementary angles",
+      "Vertical angles",
+      "Adjacent angles"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSupplementary angles sum to \\(180°\\); complementary angles sum to \\(90°\\). Vertical angles are equal, and adjacent angles simply share a side.\n\n**Key concept:** Complementary = 90°, supplementary = 180°.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles of a triangle measure \\(47°\\) and \\(68°\\). What is the third angle?",
+    "options": [
+      "\\(65°\\)",
+      "\\(115°\\)",
+      "\\(75°\\)",
+      "\\(45°\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe angles of a triangle sum to \\(180°\\): \\(180 - 47 - 68 = 65°\\).\n\n**Key concept:** Triangle angle sum is always \\(180°\\).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which quadrilateral has four right angles and four congruent sides?",
+    "options": [
+      "Rhombus",
+      "Square",
+      "Parallelogram",
+      "Trapezoid"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA square has both four right angles and four congruent sides. A rhombus has congruent sides but not necessarily right angles; a parallelogram has neither guaranteed.\n\n**Key concept:** A square is both a rectangle and a rhombus.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cylindrical tank has a base area of \\(50\\) cm² and a height of \\(14\\) cm. What is its volume?",
+    "options": [
+      "\\(700\\) cm³",
+      "\\(64\\) cm³",
+      "\\(350\\) cm³",
+      "\\(175\\) cm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(V = Bh = 50 \\times 14 = 700\\) cm³. The formula \\(V = Bh\\) applies to any prism or cylinder.\n\n**Key concept:** Base area times height gives the volume of a prism or cylinder.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q21",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A parallelogram and a triangle have the same base and the same height. The triangle's area is —",
+    "options": [
+      "half the parallelogram's",
+      "equal to the parallelogram's",
+      "twice the parallelogram's",
+      "one quarter of the parallelogram's"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nParallelogram area is \\(bh\\) and triangle area is \\(\\frac{1}{2}bh\\), so with the same base and height the triangle is exactly half.\n\n**Key concept:** Two congruent triangles make a parallelogram.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q22",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square has vertices at \\((0,0)\\), \\((0,7)\\), \\((7,7)\\) and \\((7,0)\\). What is its **perimeter**?",
+    "options": [
+      "\\(28\\) units",
+      "\\(49\\) units",
+      "\\(14\\) units",
+      "\\(21\\) units"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEach side is 7 units, so \\(P = 4 \\times 7 = 28\\). The value 49 is the area.\n\n**Key concept:** Perimeter adds side lengths; area multiplies them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q23",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangular pool 12 m by 5 m is surrounded by a walkway 2 m wide. What is the area of the **walkway alone**?",
+    "options": [
+      "\\(76\\) m²",
+      "\\(144\\) m²",
+      "\\(60\\) m²",
+      "\\(84\\) m²"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:**\nThe walkway adds 2 m on **each** side, so the outer rectangle is \\((12 + 4)\\) by \\((5 + 4)\\):\n- Outer area: \\(16 \\times 9 = 144\\) m²\n- Pool area: \\(12 \\times 5 = 60\\) m²\n- Walkway alone: \\(144 - 60 = 84\\) m²\n\nAdding only 2 m per dimension instead of 4 gives 76, which is the common error.\n\n**Key concept:** A surrounding border adds twice its width to each dimension.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

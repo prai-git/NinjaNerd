@@ -118,5 +118,465 @@
     "explanation": "**Explanation:**\nTax: \\(48 \\times 0.08 = 3.84\\). Total: \\(48 + 3.84 = 51.84\\). Or directly, \\(48 \\times 1.08\\).",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q24",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A car uses 9 litres of fuel to travel 108 km. What is the fuel consumption in km per litre?",
+    "options": [
+      "\\(12\\) km/L",
+      "\\(9\\) km/L",
+      "\\(972\\) km/L",
+      "\\(0.083\\) km/L"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(108 \\div 9 = 12\\) km per litre. Dividing the other way gives litres per km.\n\n**Key concept:** The unit named last is the one you divide by.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q25",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which ratio is **not** equivalent to \\(4:10\\)?",
+    "options": [
+      "\\(2:5\\)",
+      "\\(6:15\\)",
+      "\\(8:20\\)",
+      "\\(6:16\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:**\n\\(4:10 = 0.4\\). Also \\(2:5 = 0.4\\), \\(6:15 = 0.4\\) and \\(8:20 = 0.4\\), but \\(6:16 = 0.375\\).\n\n**Key concept:** Equivalent ratios reduce to the same value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q26",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs \\($85\\). Sales tax is \\(8\\%\\). What is the total cost?",
+    "options": [
+      "\\($91.80\\)",
+      "\\($6.80\\)",
+      "\\($93.50\\)",
+      "\\($78.20\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(85 \\times 1.08 = 91.80\\). The value $6.80 is the tax alone.\n\n**Key concept:** Multiply by \\(1 + r\\) to add a percent in one step.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q27",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A price rises from \\($40\\) to \\($52\\). What is the percent increase?",
+    "options": [
+      "\\(30\\%\\)",
+      "\\(12\\%\\)",
+      "\\(23\\%\\)",
+      "\\(130\\%\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIncrease is \\(52 - 40 = 12\\), and \\(\\frac{12}{40} = 0.30 = 30\\%\\). Dividing by 52 instead gives about 23%.\n\n**Key concept:** Percent change divides by the ORIGINAL value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q28",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "If 5 workers build a wall in 12 days, how long will 15 workers take, assuming the same rate?",
+    "options": [
+      "\\(4\\) days",
+      "\\(36\\) days",
+      "\\(9\\) days",
+      "\\(60\\) days"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe total work is \\(5 \\times 12 = 60\\) worker-days. With 15 workers: \\(60 \\div 15 = 4\\) days. More workers means fewer days — an inverse relationship.\n\n**Key concept:** Some rate problems are inversely proportional, not directly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q29",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Express \\(0.375\\) as a fraction in lowest terms.",
+    "options": [
+      "\\(\\frac{3}{8}\\)",
+      "\\(\\frac{375}{100}\\)",
+      "\\(\\frac{3}{4}\\)",
+      "\\(\\frac{1}{3}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(0.375 = \\frac{375}{1000}\\), and dividing both by 125 gives \\(\\frac{3}{8}\\).\n\n**Key concept:** Write the decimal over its place value, then reduce.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q30",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A population of \\(12{,}000\\) grows by \\(5\\%\\). What is the new population?",
+    "options": [
+      "\\(12{,}600\\)",
+      "\\(12{,}005\\)",
+      "\\(17{,}000\\)",
+      "\\(11{,}400\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(12{,}000 \\times 1.05 = 12{,}600\\). The increase alone is 600.\n\n**Key concept:** Growth of \\(r\\)% multiplies by \\(1 + r\\).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q31",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a scale drawing, 1 cm represents 4 m. A room is 7.5 cm long on the drawing. How long is the real room?",
+    "options": [
+      "\\(30\\) m",
+      "\\(1.875\\) m",
+      "\\(11.5\\) m",
+      "\\(3\\) m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(7.5 \\times 4 = 30\\) m. Dividing instead of multiplying gives 1.875.\n\n**Key concept:** Multiply the drawing length by the scale to get the real length.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q32",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "\\(18\\) is \\(30\\%\\) of what number?",
+    "options": [
+      "\\(60\\)",
+      "\\(5.4\\)",
+      "\\(54\\)",
+      "\\(600\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIf \\(0.30n = 18\\) then \\(n = 18 \\div 0.30 = 60\\). Multiplying instead gives 5.4.\n\n**Key concept:** \"Is what percent of\" problems divide to find the whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q33",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A printer prints 45 pages in 3 minutes. How many pages in 11 minutes?",
+    "options": [
+      "\\(165\\)",
+      "\\(135\\)",
+      "\\(15\\)",
+      "\\(495\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Unit rate: \\(45 \\div 3 = 15\\) pages per minute\n- \\(15 \\times 11 = 165\\) pages\n\n**Key concept:** Find the unit rate, then multiply.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q34",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A \\($250\\) item is discounted \\(40\\%\\), then a further \\(10\\%\\) is taken off the reduced price. What is the final price?",
+    "options": [
+      "\\($135\\)",
+      "\\($125\\)",
+      "\\($150\\)",
+      "\\($140\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- After 40% off: \\(250 \\times 0.60 = 150\\)\n- After a further 10% off: \\(150 \\times 0.90 = 135\\)\n\nTreating it as a single 50% discount gives 125, which is wrong because the second discount applies to the reduced price.\n\n**Key concept:** Successive discounts multiply; they do not add.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q35",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A recipe has flour to sugar in the ratio \\(5:2\\). If 350 g of flour is used, how much sugar is needed?",
+    "options": [
+      "\\(140\\) g",
+      "\\(875\\) g",
+      "\\(175\\) g",
+      "\\(70\\) g"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFlour scales from 5 to 350, a factor of 70. Sugar scales the same way: \\(2 \\times 70 = 140\\) g.\n\n**Key concept:** Both parts of a ratio scale by the same factor.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q36",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is greatest: \\(\\frac{3}{5}\\), \\(0.62\\), or \\(58\\%\\)?",
+    "options": [
+      "\\(0.62\\)",
+      "\\(\\frac{3}{5}\\)",
+      "\\(58\\%\\)",
+      "They are equal."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nConvert to decimals: \\(\\frac{3}{5} = 0.60\\), \\(0.62\\), and \\(58\\% = 0.58\\). The largest is 0.62.\n\n**Key concept:** Convert to a common form before comparing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q37",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two shops sell rice. Shop A: 3 kg for \\($7.50\\). Shop B: 5 kg for \\($12.00\\). Which is the better unit price?",
+    "options": [
+      "Shop A",
+      "Shop B",
+      "They are the same.",
+      "Cannot be determined."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n- Shop A: \\(7.50 \\div 3 = $2.50\\) per kg\n- Shop B: \\(12.00 \\div 5 = $2.40\\) per kg\n\n**Key concept:** Comparing prices requires a common unit.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q38",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A test has 40 questions. A student answers \\(85\\%\\) correctly. How many did they get **wrong**?",
+    "options": [
+      "\\(6\\)",
+      "\\(34\\)",
+      "\\(15\\)",
+      "\\(8\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n85% correct means 15% wrong: \\(40 \\times 0.15 = 6\\). The value 34 is the number correct.\n\n**Key concept:** Read carefully whether the question asks for the part or its complement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q39",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a class of 30, the ratio of students who walk to those who cycle is \\(3:2\\). How many walk?",
+    "options": [
+      "\\(18\\)",
+      "\\(12\\)",
+      "\\(20\\)",
+      "\\(15\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe ratio \\(3:2\\) has \\(3 + 2 = 5\\) parts, so one part is \\(30 \\div 5 = 6\\) students. Walkers take 3 parts: \\(3 \\times 6 = 18\\).\n\n**Key concept:** Divide the total by the sum of the ratio parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q40",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A proportional relationship passes through \\((4, 10)\\). What is the constant of proportionality \\(k\\)?",
+    "options": [
+      "\\(2.5\\)",
+      "\\(0.4\\)",
+      "\\(40\\)",
+      "\\(6\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(k = \\frac{y}{x} = \\frac{10}{4} = 2.5\\). Dividing the other way gives 0.4.\n\n**Key concept:** The constant of proportionality is \\(y \\div x\\).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q41",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A price falls from \\($80\\) to \\($68\\). What is the percent decrease?",
+    "options": [
+      "\\(15\\%\\)",
+      "\\(12\\%\\)",
+      "\\(17.6\\%\\)",
+      "\\(85\\%\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDecrease is \\(80 - 68 = 12\\), and \\(\\frac{12}{80} = 0.15 = 15\\%\\).\n\n**Key concept:** Percent decrease divides by the original value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q42",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A machine fills 240 bottles in 8 minutes. At the same rate, how long to fill 900 bottles?",
+    "options": [
+      "\\(30\\) minutes",
+      "\\(27\\) minutes",
+      "\\(37.5\\) minutes",
+      "\\(112.5\\) minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Rate: \\(240 \\div 8 = 30\\) bottles per minute\n- \\(900 \\div 30 = 30\\) minutes\n\n**Key concept:** Find the rate, then divide the target by it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q43",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list is ordered from **least to greatest**?",
+    "options": [
+      "\\(\\frac{2}{5}\\), \\(0.45\\), \\(48\\%\\)",
+      "\\(0.45\\), \\(\\frac{2}{5}\\), \\(48\\%\\)",
+      "\\(48\\%\\), \\(0.45\\), \\(\\frac{2}{5}\\)",
+      "\\(\\frac{2}{5}\\), \\(48\\%\\), \\(0.45\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAs decimals: \\(\\frac{2}{5} = 0.40\\), \\(0.45\\), \\(48\\% = 0.48\\) — already in increasing order.\n\n**Key concept:** Convert everything to decimals before ordering.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q44",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop marks up cost by \\(60\\%\\), then offers \\(25\\%\\) off the marked price. An item costs the shop \\($40\\). What does a customer pay?",
+    "options": [
+      "\\($48\\)",
+      "\\($64\\)",
+      "\\($54\\)",
+      "\\($42\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Marked price: \\(40 \\times 1.60 = 64\\)\n- After 25% off: \\(64 \\times 0.75 = 48\\)\n\nThe shop still makes $8 on the sale, which is why markup-then-discount is a common retail pattern.\n\n**Key concept:** Apply markup and discount in sequence, each to the current price.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q45",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A model car is built at a scale of \\(1:24\\). The real car is 4.8 m long. How long is the model, in centimetres?",
+    "options": [
+      "\\(20\\) cm",
+      "\\(115.2\\) cm",
+      "\\(2\\) cm",
+      "\\(200\\) cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Real length in cm: \\(4.8 \\times 100 = 480\\) cm\n- Model: \\(480 \\div 24 = 20\\) cm\n\n**Key concept:** Convert to a common unit before applying the scale.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-32_q46",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Three identical pumps fill a tank in 40 minutes. How long would five such pumps take?",
+    "options": [
+      "\\(24\\) minutes",
+      "\\(66.7\\) minutes",
+      "\\(8\\) minutes",
+      "\\(120\\) minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTotal work is \\(3 \\times 40 = 120\\) pump-minutes. With five pumps: \\(120 \\div 5 = 24\\) minutes.\n\n**Key concept:** More pumps means less time — inverse proportion.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

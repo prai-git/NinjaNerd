@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:26:04.349Z",
+  "generatedAt": "2026-09-01T23:32:52.629Z",
   "grades": {
     "1": {
       "english": [
@@ -548,7 +548,7 @@
         {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
-          "count": 4
+          "count": 27
         },
         {
           "subtopic": "measurement_data",
@@ -568,7 +568,7 @@
         {
           "subtopic": "proportional_reasoning_percentages",
           "slug": "proportional_reasoning_percentages",
-          "count": 6
+          "count": 29
         }
       ],
       "science": [
