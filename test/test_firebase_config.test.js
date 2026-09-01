@@ -20,12 +20,27 @@ test('firebase config exposes the expected keys', () => {
   }
 });
 
-test('isConfigured is false while placeholders remain, true once filled', () => {
-  assert.equal(isConfigured(), false, 'placeholders should not count as configured');
+test('the real project config is present, and placeholders would not pass for it', () => {
+  /* This assertion was inverted on 2026-09-01. It used to require isConfigured() === false,
+     which was correct while the file held TODO_REPLACE_ME. The owner has since created
+     project ninjanerd-32030 and the real values are in, so the guard now runs the other way:
+     the shipped config must stay filled, and a regression to placeholders must fail here
+     rather than surfacing as a silent no-op in the browser. */
+  assert.equal(isConfigured(), true, 'the shipped config must hold real values');
+  assert.equal(firebaseConfig.projectId, 'ninjanerd-32030');
+  assert.doesNotMatch(JSON.stringify(firebaseConfig), /TODO_REPLACE_ME/);
+  // authDomain and storageBucket are derived from the project id; a mismatch means a paste error.
+  assert.equal(firebaseConfig.authDomain, `${firebaseConfig.projectId}.firebaseapp.com`);
+  assert.ok(firebaseConfig.storageBucket.startsWith(`${firebaseConfig.projectId}.`));
+  // The sender id is embedded in the app id; if they disagree, the values came from two projects.
+  assert.ok(firebaseConfig.appId.includes(`:${firebaseConfig.messagingSenderId}:`));
+
+  // The predicate itself still discriminates correctly.
   assert.equal(isConfigured({
     apiKey: 'a', authDomain: 'b', projectId: 'c',
     storageBucket: 'd', messagingSenderId: 'e', appId: 'f',
   }), true);
+  assert.equal(isConfigured({ apiKey: 'TODO_REPLACE_ME' }), false, 'placeholders are not configured');
   assert.equal(isConfigured({ apiKey: '', authDomain: 'b' }), false, 'empty values are not configured');
 });
 

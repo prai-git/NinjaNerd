@@ -14,12 +14,12 @@
    dbmgr/firestore.rules. */
 
 export const firebaseConfig = {
-  apiKey: 'TODO_REPLACE_ME',
-  authDomain: 'TODO_REPLACE_ME.firebaseapp.com',
-  projectId: 'TODO_REPLACE_ME',
-  storageBucket: 'TODO_REPLACE_ME.firebasestorage.app',
-  messagingSenderId: 'TODO_REPLACE_ME',
-  appId: 'TODO_REPLACE_ME',
+  apiKey: 'AIzaSyAVsPqTtXeXUlfggF6sy_r4DblFVkm_lGo',
+  authDomain: 'ninjanerd-32030.firebaseapp.com',
+  projectId: 'ninjanerd-32030',
+  storageBucket: 'ninjanerd-32030.firebasestorage.app',
+  messagingSenderId: '356454798469',
+  appId: '1:356454798469:web:b8bf2c238ca3cd2f15c5ec',
 };
 
 // The emulator suite works with any non-empty projectId, so tests and local runs can swap
