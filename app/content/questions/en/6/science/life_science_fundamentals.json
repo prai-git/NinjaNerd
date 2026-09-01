@@ -98,5 +98,465 @@
     "explanation": "**Explanation:**\nOn dark bark, dark beetles are less likely to be eaten, so more survive to reproduce and the\ntrait becomes more common over generations.\n\n shifts, not the individual.\n- **D** the scenario states birds hunt by sight, so colour matters.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement is part of **cell theory**?",
+    "options": [
+      "All cells contain chloroplasts.",
+      "All living things are composed of one or more cells.",
+      "Cells are the largest structures in an organism.",
+      "Cells form only in laboratories."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nCell theory has three parts: all living things are made of cells, the cell is the basic unit of life, and cells come from existing cells. Chloroplasts occur only in some cells, and cells are microscopic rather than the largest structures.\n\n**Key concept:** Cell theory applies to every living organism.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Place these in order from smallest to largest: community, organism, ecosystem, population.",
+    "options": [
+      "organism → population → community → ecosystem",
+      "population → organism → ecosystem → community",
+      "ecosystem → community → population → organism",
+      "organism → community → population → ecosystem"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne organism belongs to a population of its own species; several populations form a community; the community plus its non-living surroundings forms an ecosystem.\n\n**Key concept:** Each level of organisation contains the one before it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is an **abiotic** factor in a pond ecosystem?",
+    "options": [
+      "Frogs",
+      "Algae",
+      "Water temperature",
+      "Insect larvae"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nAbiotic factors are the non-living parts of an ecosystem. Frogs, algae and insect larvae are all living.\n\n**Key concept:** Abiotic = non-living; biotic = living or once-living.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the food chain grass → grasshopper → frog → snake, what is the frog?",
+    "options": [
+      "Producer",
+      "Primary consumer",
+      "Secondary consumer",
+      "Decomposer"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe grasshopper eats the producer, making it the primary consumer. The frog eats the grasshopper, so it is the secondary consumer.\n\n**Key concept:** Consumer level is counted by steps away from the producer.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q5",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "If the grasshopper population in that chain suddenly declined, what is the **most likely** immediate effect?",
+    "options": [
+      "The grass population would decrease.",
+      "The frog population would decrease.",
+      "The snake population would increase.",
+      "The grass would become a consumer."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nFrogs feed directly on grasshoppers, so losing that food source affects them first. Grass would likely increase without grazers, and snakes would decline only later as frogs became scarce.\n\n**Key concept:** A change moves up the food chain to the level that feeds directly on it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q6",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure is found in **plant** cells but not animal cells?",
+    "options": [
+      "Cell membrane",
+      "Nucleus",
+      "Cell wall",
+      "Cytoplasm"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nPlant cells have a rigid cell wall outside the membrane; animal cells do not. Membrane, nucleus and cytoplasm occur in both.\n\n**Key concept:** Cell wall and chloroplasts distinguish plant cells from animal cells.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q7",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two species of birds on one island eat the same seeds and nest in the same trees. This relationship is —",
+    "options": [
+      "competition",
+      "mutualism",
+      "predation",
+      "decomposition"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo species using the same limited resources — food and nesting sites — are in competition. Neither benefits from the other, so it is not mutualism, and neither eats the other.\n\n**Key concept:** Competition arises when species need the same limited resource.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q8",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Within one population of rabbits, fur colour ranges from light brown to dark brown. This is an example of —",
+    "options": [
+      "variation of traits",
+      "a food web",
+      "an abiotic factor",
+      "cell theory"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDifferences among individuals of the same species are variation. Variation is the raw material on which natural selection acts.\n\n**Key concept:** Members of one population differ in inherited traits.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q9",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What role do decomposers play in an ecosystem?",
+    "options": [
+      "They produce their own food using sunlight.",
+      "They break down dead material, returning nutrients to the soil.",
+      "They hunt primary consumers.",
+      "They provide oxygen to producers."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nDecomposers such as fungi and bacteria recycle matter so producers can reuse the nutrients. Without them, nutrients would remain locked in dead material.\n\n**Key concept:** Decomposers close the matter cycle in an ecosystem.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q10",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool made the development of cell theory possible?",
+    "options": [
+      "The telescope",
+      "The microscope",
+      "The barometer",
+      "The seismograph"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nCells are far too small to see unaided. Improved microscopes in the 1600s and 1800s let scientists observe cells in many organisms, which is what made cell theory possible.\n\n**Key concept:** New instruments open new observations, which reshape theory.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q11",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In an energy pyramid, why does each higher level contain **less** energy?",
+    "options": [
+      "Organisms at higher levels are smaller.",
+      "Energy is lost as heat at each transfer.",
+      "Producers store no energy.",
+      "Higher levels have fewer species names."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nOrganisms use most of the energy they take in for life processes and release it as heat, so only a fraction is available to the next level. This is why food chains are short.\n\n**Key concept:** Energy transfer between trophic levels is inefficient.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q12",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A drought reduces the water in a grassland. Which is the **most likely** chain of effects?",
+    "options": [
+      "Producers decline, then herbivores decline, then predators decline.",
+      "Predators decline first, then producers increase.",
+      "Only abiotic factors change; organisms are unaffected.",
+      "Decomposers stop functioning permanently."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWater is a limiting abiotic factor for plants. Fewer plants means less food for herbivores, and fewer herbivores means less food for predators — the effect moves up the chain.\n\n**Key concept:** A change in an abiotic factor propagates through the biotic community.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q13",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the function of the **nucleus** in a cell?",
+    "options": [
+      "It produces energy from sunlight.",
+      "It contains the genetic material that directs cell activities.",
+      "It gives the cell a rigid shape.",
+      "It transports material out of the cell."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe nucleus houses DNA, which carries the instructions the cell uses. Energy conversion happens in mitochondria and chloroplasts; shape comes from the cell wall.\n\n**Key concept:** Structure relates to function — the nucleus stores and directs information.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q14",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Bees pollinate flowers while collecting nectar. Both species benefit. This relationship is —",
+    "options": [
+      "mutualism",
+      "competition",
+      "predation",
+      "parasitism"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe bee gains nectar and the flower gains pollination, so both benefit. In parasitism one benefits at the other's cost; in predation one consumes the other.\n\n**Key concept:** Mutualism benefits both species.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q15",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a beetle population, a few individuals have colouring that blends with tree bark. Predators are common. What is the **most likely** long-term outcome?",
+    "options": [
+      "All beetles become brightly coloured.",
+      "The bark-coloured trait becomes more common in the population.",
+      "The beetles stop reproducing.",
+      "Predators change their diet permanently."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nCamouflaged beetles are less likely to be eaten, so more of them survive to reproduce and pass the trait on. Individuals do not change colour; the proportion in the population shifts over generations.\n\n**Key concept:** Traits that improve survival become more common over generations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q16",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "All the largemouth bass living in one lake make up a —",
+    "options": [
+      "community",
+      "population",
+      "ecosystem",
+      "biosphere"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA population is all members of one species in one area. Several populations together form a community.\n\n**Key concept:** Population = one species; community = many species.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q17",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which organelle captures light energy for photosynthesis?",
+    "options": [
+      "Mitochondrion",
+      "Chloroplast",
+      "Nucleus",
+      "Cell wall"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nChloroplasts contain chlorophyll, which absorbs light energy for photosynthesis. Mitochondria release energy from food rather than capturing light.\n\n**Key concept:** Chloroplasts capture light energy; mitochondria release stored energy.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q18",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which best describes the flow of **energy** through an ecosystem?",
+    "options": [
+      "Energy cycles endlessly between organisms.",
+      "Energy flows one way from the Sun through producers to consumers.",
+      "Energy is created by decomposers.",
+      "Energy moves from consumers to producers."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nEnergy enters as sunlight, passes through the food chain, and leaves as heat. Matter cycles within an ecosystem, but energy does not — it must be continually resupplied.\n\n**Key concept:** Matter cycles; energy flows one way.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q19",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list contains **only biotic** factors?",
+    "options": [
+      "Sunlight, soil, bacteria",
+      "Fungi, earthworms, oak trees",
+      "Rainfall, temperature, wind",
+      "Rocks, water, minerals"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAll three are living organisms. The other lists mix in non-living factors such as sunlight, rainfall, rocks and minerals.\n\n**Key concept:** Biotic factors are living or were once living.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q20",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why are cells described as the **basic unit** of life?",
+    "options": [
+      "They are the smallest structures that carry out all life processes.",
+      "They are visible without any tools.",
+      "They exist only in animals.",
+      "They are the largest part of any organism."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA cell can take in materials, release energy, respond and reproduce. Nothing smaller does all of these, which is what makes the cell the basic unit of life.\n\n**Key concept:** The basic unit of life is the smallest thing that is itself alive.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q21",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "All the living organisms interacting in a forest — trees, deer, fungi, insects — form a —",
+    "options": [
+      "population",
+      "community",
+      "single species",
+      "biome only"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA community is all the interacting populations in an area. Adding the non-living surroundings would make it an ecosystem.\n\n**Key concept:** Community = all living populations; ecosystem = community + abiotic factors.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q22",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An invasive plant with no local predators is introduced to a meadow. What is the **most likely** result?",
+    "options": [
+      "It spreads rapidly and outcompetes native plants.",
+      "It dies out within a season.",
+      "Native plants immediately increase.",
+      "Decomposers stop working."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWithout predators or diseases that normally limit it, an invasive species reproduces unchecked and takes resources that native species depend on.\n\n**Key concept:** Removing a limiting factor allows a population to expand rapidly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q23",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which trait would most likely be **inherited** rather than acquired?",
+    "options": [
+      "A scar from an injury",
+      "Eye colour",
+      "A learned skill",
+      "Muscle gained from exercise"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nEye colour is determined by genes passed from parents. Scars, learned skills and exercise-built muscle are acquired during an organism's lifetime and are not inherited.\n\n**Key concept:** Inherited traits come from genes; acquired traits come from experience.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

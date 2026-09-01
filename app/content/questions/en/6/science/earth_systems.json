@@ -118,5 +118,465 @@
     "explanation": "**Explanation:**\nPetrol comes from a nonrenewable fossil resource. Using sunlight instead conserves it.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q24",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of Earth's spheres includes all of the planet's liquid and frozen water?",
+    "options": [
+      "Geosphere",
+      "Hydrosphere",
+      "Atmosphere",
+      "Biosphere"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe hydrosphere includes all of Earth's water — oceans, lakes, rivers, groundwater and ice. The geosphere is rock and soil, the atmosphere is gases, and the biosphere is living things.\n\n**Key concept:** Each sphere is defined by what it is made of.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q25",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which correctly orders Earth's layers from the surface inward?",
+    "options": [
+      "Crust, mantle, outer core, inner core",
+      "Mantle, crust, inner core, outer core",
+      "Crust, outer core, mantle, inner core",
+      "Inner core, outer core, mantle, crust"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe crust is the thin outer shell, the mantle lies beneath it, then the liquid outer core, and the solid inner core at the centre.\n\n**Key concept:** Earth's layers are ordered by depth and differ in composition and state.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q26",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Igneous rock forms when —",
+    "options": [
+      "sediments are compacted and cemented",
+      "molten rock cools and solidifies",
+      "existing rock is changed by heat and pressure without melting",
+      "rock is worn away by wind"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIgneous rock crystallises from magma or lava. Compaction and cementation form sedimentary rock; heat and pressure form metamorphic rock.\n\n**Key concept:** Igneous rock records cooling from a molten state.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q27",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Metamorphic rock forms when existing rock is changed by —",
+    "options": [
+      "cooling from magma",
+      "heat and pressure without melting completely",
+      "deposition of sediment in layers",
+      "dissolving in rainwater"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nMetamorphism changes a rock's minerals and texture while it stays solid. Complete melting would produce magma and, on cooling, igneous rock instead.\n\n**Key concept:** Metamorphic change happens in the solid state.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q28",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A landslide carries soil and trees into a river. Which spheres are interacting?",
+    "options": [
+      "Geosphere, hydrosphere and biosphere",
+      "Atmosphere and biosphere only",
+      "Hydrosphere only",
+      "Atmosphere and geosphere only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSoil is geosphere, the river is hydrosphere, and the trees are biosphere. All three interact in one event.\n\n**Key concept:** Single events commonly couple several of Earth's spheres.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q29",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which layer of Earth is liquid?",
+    "options": [
+      "Crust",
+      "Inner core",
+      "Outer core",
+      "Upper crust only"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe outer core is molten iron and nickel; its motion generates Earth's magnetic field. The inner core is solid despite being hotter, because of the immense pressure.\n\n**Key concept:** Pressure as well as temperature determines a layer's state.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q30",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sedimentary rock often contains fossils because —",
+    "options": [
+      "it forms at very high temperatures that preserve bone",
+      "it forms as layers of sediment bury remains without melting them",
+      "it forms deep in the mantle",
+      "it forms only from volcanic ash"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSediment accumulates gently and at low temperature, so remains can be preserved. Igneous and metamorphic processes involve heat that destroys fossils.\n\n**Key concept:** Fossils survive only where rock forms without destructive heat.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q31",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **renewable** resource?",
+    "options": [
+      "Coal",
+      "Natural gas",
+      "Wind",
+      "Petroleum"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nWind is continuously replenished by solar heating of the atmosphere. Coal, natural gas and petroleum are fossil fuels that form over millions of years.\n\n**Key concept:** Renewable resources are replaced on a human timescale.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q32",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why are fossil fuels classified as **nonrenewable**?",
+    "options": [
+      "They are found only underground.",
+      "They form over millions of years, far more slowly than they are used.",
+      "They cannot be burned.",
+      "They are made from rock."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nFossil fuels do re-form, but at a rate so slow compared with consumption that the supply is effectively fixed.\n\n**Key concept:** \"Nonrenewable\" is about the rate of replacement, not impossibility.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q33",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which describes an interaction between the **atmosphere** and the **hydrosphere**?",
+    "options": [
+      "Water evaporates from the ocean and forms clouds.",
+      "Roots break apart bedrock.",
+      "Magma cools into igneous rock.",
+      "A rabbit eats grass."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWater moves from the hydrosphere into the atmosphere and condenses there. The other options involve the geosphere or biosphere instead.\n\n**Key concept:** Identify which sphere each material starts in and moves to.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q34",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action best represents **reducing** rather than recycling?",
+    "options": [
+      "Sorting cans into a recycling bin",
+      "Buying a refillable bottle instead of single-use bottles",
+      "Melting scrap metal into new products",
+      "Composting food scraps"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nReducing means using less material in the first place. Recycling and composting both process material after it has already been used.\n\n**Key concept:** Reduce comes before reuse and recycle because it prevents the waste.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q35",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the rock cycle, which process turns sedimentary rock into magma?",
+    "options": [
+      "Weathering and erosion",
+      "Melting",
+      "Compaction",
+      "Cementation"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAny rock type becomes magma by melting, usually when carried deep enough for high temperature and pressure. Weathering breaks rock into sediment instead.\n\n**Key concept:** Melting is the pathway from any rock type back to magma.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q36",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The crust and the uppermost mantle together form a rigid layer called the —",
+    "options": [
+      "lithosphere",
+      "hydrosphere",
+      "outer core",
+      "atmosphere"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe lithosphere is the rigid outer shell made of the crust plus the uppermost mantle, and it is broken into the tectonic plates.\n\n**Key concept:** The lithosphere is defined by rigidity, not by a single layer.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q37",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which practice best supports **sustainable** use of groundwater?",
+    "options": [
+      "Withdrawing water faster than it is naturally replaced",
+      "Withdrawing water at or below the rate of natural recharge",
+      "Diverting all rainfall away from the aquifer",
+      "Sealing the ground surface above the aquifer"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSustainable use means not taking more than is replaced. Withdrawing faster depletes the aquifer, and blocking recharge prevents replacement entirely.\n\n**Key concept:** Sustainability balances withdrawal against replenishment.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q38",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Plant roots growing into a crack split a boulder apart. Which spheres interact?",
+    "options": [
+      "Biosphere and geosphere",
+      "Atmosphere and hydrosphere",
+      "Hydrosphere and biosphere only",
+      "Atmosphere only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLiving roots (biosphere) physically break rock (geosphere). This is biological weathering.\n\n**Key concept:** Living things reshape rock as well as being shaped by it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q39",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence describes how sedimentary rock forms?",
+    "options": [
+      "Melting → cooling → crystallising",
+      "Weathering → erosion → deposition → compaction → cementation",
+      "Heat → pressure → recrystallisation",
+      "Evaporation → condensation → precipitation"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nRock is broken down, carried away, deposited in layers, pressed together by the weight above, and finally cemented by minerals into solid rock.\n\n**Key concept:** Sedimentary rock forms through a sequence of surface processes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q40",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A town replaces a coal power station with a solar farm. The **most significant** long-term benefit is —",
+    "options": [
+      "the solar farm is quieter",
+      "sunlight is renewable, so the resource is not depleted",
+      "solar panels are smaller than a power station",
+      "coal is difficult to transport"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe lasting benefit is that solar energy is continuously replenished, so it does not draw down a finite supply. Size and noise are minor by comparison.\n\n**Key concept:** Renewable sources can be used indefinitely without exhausting them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q41",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property increases as you move from Earth's crust toward its core?",
+    "options": [
+      "Temperature and pressure",
+      "Only the amount of water",
+      "Oxygen concentration",
+      "Wind speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBoth rise steadily with depth — pressure because of the weight of overlying rock, temperature because of heat from the core and radioactive decay.\n\n**Key concept:** Depth increases both temperature and pressure inside Earth.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q42",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which example shows the **biosphere** affecting the **atmosphere**?",
+    "options": [
+      "Trees release oxygen through photosynthesis.",
+      "A volcano erupts lava.",
+      "A river erodes a canyon.",
+      "Ice forms on a lake surface."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLiving trees (biosphere) add oxygen to the air (atmosphere). The other options involve the geosphere or hydrosphere.\n\n**Key concept:** Living organisms change the composition of the atmosphere.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q43",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Groundwater is best described as a resource that is —",
+    "options": [
+      "renewable, but only if used at a sustainable rate",
+      "never replaced once used",
+      "entirely nonrenewable",
+      "unlimited in all regions"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAquifers refill from rainfall, but recharge can take decades to centuries. Pumped faster than it recharges, groundwater behaves like a nonrenewable resource.\n\n**Key concept:** Whether a resource is renewable in practice depends on the rate of use.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q44",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement about the rock cycle is true?",
+    "options": [
+      "Rock always moves through the cycle in the same fixed order.",
+      "Any rock type can become any other type given the right conditions.",
+      "Igneous rock cannot change once formed.",
+      "The cycle stops once sedimentary rock forms."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe rock cycle has many pathways: sedimentary rock can melt, igneous rock can weather into sediment, and any rock can be metamorphosed. There is no fixed order and no end point.\n\n**Key concept:** The rock cycle is a network of pathways, not a single loop.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q45",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the **greatest** advantage of recycling aluminium rather than mining new ore?",
+    "options": [
+      "Recycled aluminium is a different colour.",
+      "Recycling uses far less energy and conserves the ore deposit.",
+      "Aluminium cannot be mined any more.",
+      "Recycled cans weigh less."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nProducing aluminium from ore requires very large amounts of electricity; recycling avoids most of it and leaves the ore in the ground for later use.\n\n**Key concept:** Recycling conserves both energy and the raw resource.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-16_q46",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A hurricane forms over warm ocean water and floods a coastal forest. Which spheres are involved?",
+    "options": [
+      "Atmosphere, hydrosphere, geosphere and biosphere",
+      "Atmosphere only",
+      "Hydrosphere and geosphere only",
+      "Biosphere only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe storm is atmospheric, it draws energy from ocean water and delivers floodwater (hydrosphere), the flood moves soil and sediment (geosphere), and it affects the forest's living things (biosphere).\n\n**Key concept:** Large-scale events couple all four spheres at once.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

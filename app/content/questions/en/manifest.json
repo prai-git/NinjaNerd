@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:16:22.972Z",
+  "generatedAt": "2026-09-01T20:19:09.482Z",
   "grades": {
     "1": {
       "english": [
@@ -590,7 +590,7 @@
         {
           "subtopic": "earth_systems",
           "slug": "earth_systems",
-          "count": 6
+          "count": 29
         },
         {
           "subtopic": "forces_energy",
@@ -600,7 +600,7 @@
         {
           "subtopic": "life_science_fundamentals",
           "slug": "life_science_fundamentals",
-          "count": 5
+          "count": 28
         },
         {
           "subtopic": "physical_science_basics",
