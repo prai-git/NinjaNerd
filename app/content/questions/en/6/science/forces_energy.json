@@ -1,0 +1,122 @@
+[
+  {
+    "id": "science_g6_2026-08-31_23-50_q7",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two students push a crate in the same direction with forces of 40 N and 25 N. Friction opposes\nthe motion with 15 N. What is the net force on the crate?",
+    "options": [
+      "50 N in the direction of the push",
+      "80 N in the direction of the push",
+      "30 N opposite the push",
+      "0 N"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8B | Topic: Net Force**\n\n**Correct Answer:** A) 50 N in the direction of the push\n\n**Explanation:**\nForces in the same direction add: 40 + 25 = 65 N. Friction opposes, so subtract:\n65 − 15 = **50 N** in the direction of the push.\n\n**Why the other answers are wrong:**\n- **B** adds the two pushes and ignores friction.\n- **C** has the direction reversed.\n- **D** would mean balanced forces, but the pushes exceed friction.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q8",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A book rests on a table without moving. Which statement describes the forces on it?",
+    "options": [
+      "Gravity pulls down and the table pushes up with an equal force.",
+      "No forces act on the book at all.",
+      "Gravity is stronger than the table's push.",
+      "The table's push is stronger than gravity."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8B | Topic: Balanced Forces**\n\n**Correct Answer:** A) Gravity pulls down and the table pushes up with an equal force.\n\n**Explanation:**\n\"Not moving\" means the forces are **balanced**, not absent. The table exerts an upward normal\nforce equal to the book's weight.\n\n**Why the other answers are wrong:**\n- **B** is the central misconception — forces still act, they cancel.\n- **C** and **D** would produce motion, since unbalanced forces cause acceleration.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q9",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A swimmer pushes backward against the water and moves forward. This is best explained by —",
+    "options": [
+      "the water pushing forward on the swimmer with equal force",
+      "the swimmer being lighter than the water",
+      "gravity pulling the swimmer forward",
+      "friction disappearing underwater"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8C | Topic: Newton's Third Law**\n\n**Correct Answer:** A) the water pushing forward on the swimmer with equal force\n\n**Explanation:**\nForces come in pairs: the swimmer pushes the water backward, and the water pushes the swimmer\nforward with equal strength in the opposite direction.\n\n**Why the other answers are wrong:**\n- **B** relative weight does not explain the forward motion.\n- **C** gravity acts downward, not forward.\n- **D** friction does not disappear in water.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q10",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A roller-coaster car is highest at the top of the first hill and fastest at the bottom. As it\ndescends, energy is —",
+    "options": [
+      "transformed from potential energy into kinetic energy",
+      "created by the motion of the car",
+      "destroyed as the car speeds up",
+      "transformed from kinetic energy into potential energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9A | Topic: Energy Transformation**\n\n**Correct Answer:** A) transformed from potential energy into kinetic energy\n\n**Explanation:**\nHeight stores gravitational potential energy. As the car descends, that store converts into\nenergy of motion.\n\n**Why the other answers are wrong:**\n- **B** and **C** energy is neither created nor destroyed.\n- **D** reverses the direction of the transformation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q11",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bouncing ball returns to a lower height after each bounce. Where has the \"missing\" energy\ngone?",
+    "options": [
+      "It has transferred to heat and sound during each bounce.",
+      "It has been destroyed by the floor.",
+      "It has turned into extra mass in the ball.",
+      "It was never there to begin with."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9B | Topic: Conservation of Energy**\n\n**Correct Answer:** A) It has transferred to heat and sound during each bounce.\n\n**Explanation:**\nEnergy is conserved, but not all of it stays as useful mechanical energy. Some becomes thermal\nenergy and sound at each impact, so less remains to lift the ball.\n\n**Why the other answers are wrong:**\n- **B** energy cannot be destroyed.\n- **C** energy does not become mass here.\n- **D** the ball clearly had energy — it was bouncing.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q12",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation shows that a sound wave transfers **energy**?",
+    "options": [
+      "A loud speaker makes a nearby window rattle.",
+      "A speaker looks the same whether it is on or off.",
+      "Sound travels faster in warm air.",
+      "A microphone is smaller than a speaker."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9C | Topic: Waves Transfer Energy**\n\n**Correct Answer:** A) A loud speaker makes a nearby window rattle.\n\n**Explanation:**\nThe window moves, so work was done on it. Waves transfer energy without transferring matter.\n\n**Why the other answers are wrong:**\n- **B** describes appearance, not energy.\n- **C** is about wave speed, not energy transfer.\n- **D** is about size and irrelevant.\n\n---\n\n## Earth Systems",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:15:43.103Z",
+  "generatedAt": "2026-09-01T04:21:58.788Z",
   "grades": {
     "1": {
       "english": [
@@ -438,9 +438,34 @@
           "count": 22
         },
         {
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
+          "count": 6
+        },
+        {
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
+          "count": 6
+        },
+        {
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
+          "count": 5
+        },
+        {
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
+          "count": 6
+        },
+        {
           "subtopic": "physics_energy_systems",
           "slug": "physics_energy_systems",
           "count": 40
+        },
+        {
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
+          "count": 2
         },
         {
           "subtopic": "scientific_methods_research",

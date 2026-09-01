@@ -100,6 +100,38 @@ const SCIENCE = [
     (g) => (G6(g) ? 'chemistry_concepts' : 'physical_science_basics')],
 ];
 
+/* An authored heading that names a legacy subtopic outright means exactly that.
+
+   The keyword rules below are grade-aware and route grade 6 to the ADVANCED variants, which
+   is right for content authored under STAAR/MAP category names. But it makes the five base
+   subtopics grade 6 also offers unreachable: a set written specifically to fill
+   "Number Sense & Basic Operations" at grade 6 would land in "Advanced Number Systems".
+
+   So a heading matching a subtopic's own name wins, before any keyword rule. Authoring to
+   fill a named gap then hits that gap by intent rather than by luck. */
+import { SUBTOPICS, subtopicsForGrade } from '../../app/js/subtopics-data.js';
+
+const key = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+const CANONICAL = new Map();
+for (const subj of Object.keys(SUBTOPICS)) {
+  for (const grp of Object.keys(SUBTOPICS[subj])) {
+    for (const s of SUBTOPICS[subj][grp]) CANONICAL.set(`${subj}|${key(s.name)}`, s.id);
+  }
+}
+
+/* Only honour the name if that subtopic is actually OFFERED at this grade.
+
+   Without the grade check, existing grade 1-4 content headed "Earth & Space Science" mapped to
+   `earth_space_science`, which is a GRADE 6 subtopic — the grades 1-5 equivalent is
+   `earth_systems`. Those items landed in a bucket their grade does not have, emptying Earth
+   Systems at four grades at once. */
+function canonicalId(subject, grade, heading) {
+  const id = CANONICAL.get(`${subject}|${key(heading)}`);
+  if (!id) return null;
+  return subtopicsForGrade(subject, grade).some((s) => s.id === id) ? id : null;
+}
+
 const RULES = { math: MATH, english: ENGLISH, science: SCIENCE };
 
 /* Fallback when no rule matches.
@@ -119,8 +151,11 @@ const FALLBACK = {
 };
 
 export function mapSubtopic(subject, grade, heading) {
-  const rules = RULES[subject] || [];
   const text = String(heading || '');
+  // A heading that names a subtopic outright wins over every keyword rule.
+  const exact = canonicalId(subject, grade, text);
+  if (exact) return { id: exact, confident: true, matched: 'canonical-name' };
+  const rules = RULES[subject] || [];
   for (const [re, pick, confident = true] of rules) {
     if (re.test(text)) return { id: pick(grade), confident, matched: String(re) };
   }

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "science_g6_2026-08-31_23-50_q19",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list contains **only abiotic** factors in a pond ecosystem?",
+    "options": [
+      "Water temperature, sunlight, dissolved oxygen",
+      "Algae, water temperature, sunlight",
+      "Fish, insects, water plants",
+      "Sunlight, frogs, dissolved oxygen"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12A | Topic: Biotic and Abiotic Factors**\n\n**Correct Answer:** A) Water temperature, sunlight, dissolved oxygen\n\n**Explanation:**\nAbiotic factors are the non-living parts of an ecosystem.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each include at least one living thing — algae, fish, insects, plants\n  or frogs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q20",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the food chain grass → grasshopper → frog → snake, what happens to available energy at each\nstep?",
+    "options": [
+      "Most energy is lost as heat, so less is available at each higher level.",
+      "Energy increases at each level because predators are larger.",
+      "Energy stays exactly the same at every level.",
+      "Energy is created by each organism."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12B | Topic: Energy Flow**\n\n**Correct Answer:** A) Most energy is lost as heat, so less is available at each higher level.\n\n**Explanation:**\nOnly a small fraction of energy at one level is stored in the next. The rest is used for life\nprocesses and released as heat, which is why food chains are short.\n\n**Why the other answers are wrong:**\n- **B** body size does not increase available energy.\n- **C** contradicts energy loss at each transfer.\n- **D** organisms transform energy; they do not create it.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q21",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence is ordered from **smallest** to **largest**?",
+    "options": [
+      "Organism, population, community, ecosystem",
+      "Population, organism, ecosystem, community",
+      "Ecosystem, community, population, organism",
+      "Community, ecosystem, organism, population"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12C | Topic: Levels of Organization**\n\n**Correct Answer:** A) Organism, population, community, ecosystem\n\n**Explanation:**\nOne organism, then all of its species in an area, then all species together, then those species\nplus their non-living surroundings.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** break the nesting order; **C** is the correct order reversed.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q22",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement is part of the **cell theory**?",
+    "options": [
+      "All living things are made of one or more cells.",
+      "All cells contain a nucleus.",
+      "Cells are only found in animals.",
+      "Cells form spontaneously from non-living matter."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.13A | Topic: Cell Theory**\n\n**Correct Answer:** A) All living things are made of one or more cells.\n\n**Explanation:**\nCell theory states that all living things are made of cells, the cell is the basic unit of\nlife, and cells come from existing cells.\n\n**Why the other answers are wrong:**\n- **B** bacterial cells have no nucleus.\n- **C** plants, fungi and bacteria are made of cells too.\n- **D** contradicts the theory — cells arise from other cells.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-31_23-50_q23",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A population of beetles lives on dark tree bark. Beetles vary in colour from light to dark.\nBirds hunt by sight. Over many generations, what is most likely?",
+    "options": [
+      "Dark beetles become more common because they are harder to see.",
+      "All beetles become light coloured.",
+      "Beetles change colour during their own lifetime to hide.",
+      "Colour has no effect on survival."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.13B | Topic: Variation and Survival**\n\n**Correct Answer:** A) Dark beetles become more common because they are harder to see.\n\n**Explanation:**\nOn dark bark, dark beetles are less likely to be eaten, so more survive to reproduce and the\ntrait becomes more common over generations.\n\n**Why the other answers are wrong:**\n- **B** light beetles are more visible to predators.\n- **C** an individual beetle does not change colour to suit its surroundings — the population\n  shifts, not the individual.\n- **D** the scenario states birds hunt by sight, so colour matters.\n\n---\n\n## Scientific Investigation Skills",
+    "source": "authored",
+    "needsReview": false
+  }
+]
