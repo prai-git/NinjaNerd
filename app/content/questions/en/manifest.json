@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:03:15.890Z",
+  "generatedAt": "2026-09-01T20:07:57.973Z",
   "grades": {
     "1": {
       "english": [
@@ -615,12 +615,12 @@
         {
           "subtopic": "scientific_investigation_skills",
           "slug": "scientific_investigation_skills",
-          "count": 2
+          "count": 25
         },
         {
           "subtopic": "scientific_methods_research",
           "slug": "scientific_methods_research",
-          "count": 3
+          "count": 26
         }
       ]
     }

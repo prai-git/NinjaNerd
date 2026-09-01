@@ -38,5 +38,465 @@
     "explanation": "**Explanation:**\nThe drops per interval are 12, 8, 5 and 3 °C — shrinking each time. Cooling slows as the water\napproaches room temperature.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student heats a liquid in a test tube over a flame. Which practice is **most** important for safety?",
+    "options": [
+      "Point the mouth of the test tube away from all people.",
+      "Hold the test tube tightly at its base with bare fingers.",
+      "Fill the test tube nearly to the top before heating.",
+      "Look directly into the mouth of the tube to watch for bubbles."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHeated liquid can boil suddenly and spray out of the tube. Directing the opening away from everyone protects both the student and others nearby. Filling the tube nearly full makes boil-over more likely, bare fingers risk burns, and looking into the mouth puts the eyes directly in the path.\n\n**Key concept:** Anticipating the direction of a hazard is the core of lab safety.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student tests how fertiliser amount affects plant height. Which variable should be the **independent** variable?",
+    "options": [
+      "The height of the plants after four weeks",
+      "The mass of fertiliser given to each plant",
+      "The amount of sunlight each plant receives",
+      "The type of soil in each pot"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe independent variable is the one the investigator deliberately changes. Here that is the amount of fertiliser. Plant height is the outcome measured, and sunlight and soil type must be held constant.\n\n**Key concept:** Independent variable = the cause being tested.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the fertiliser investigation above, which is a **controlled** variable?",
+    "options": [
+      "The mass of fertiliser applied",
+      "The final plant height",
+      "The volume of water each plant receives",
+      "The number of leaves counted"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nA controlled variable is held the same across all groups so it cannot explain the results. Water volume must be identical, or a height difference might be caused by water rather than fertiliser.\n\n**Key concept:** Controls remove alternative explanations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student measures the mass of an object four times: 24.1 g, 24.3 g, 24.2 g, 24.2 g. What does this repetition **most** improve?",
+    "options": [
+      "The accuracy of the balance itself",
+      "The reliability of the measurement",
+      "The number of variables tested",
+      "The independent variable"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nRepeating a measurement shows how consistent the readings are and reduces the effect of a single random error. It cannot make a poorly calibrated balance more accurate — accuracy depends on the instrument, reliability on repetition.\n\n**Key concept:** Repetition improves reliability; calibration improves accuracy.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q5",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool is most appropriate for measuring the volume of an irregularly shaped rock?",
+    "options": [
+      "A metre stick",
+      "A triple-beam balance",
+      "A graduated cylinder with water",
+      "A thermometer"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nAn irregular solid has no formula for its volume. Submerging it and measuring how much the water level rises (displacement) gives the volume directly.\n\n**Key concept:** Water displacement measures the volume of irregular solids.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q6",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A group records the temperature of cooling water every two minutes. Which graph type best displays this data?",
+    "options": [
+      "Pie chart",
+      "Line graph",
+      "Bar graph of categories",
+      "Venn diagram"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTemperature is measured repeatedly over continuous time, so a line graph shows the trend and rate of cooling. Bar graphs compare separate categories and pie charts show parts of a whole.\n\n**Key concept:** Continuous data over time is displayed with a line graph.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q7",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student concludes that a fertiliser works because the treated plant grew taller than the untreated one. What is the **greatest** weakness in this conclusion?",
+    "options": [
+      "Only one plant was used in each group.",
+      "The plants were measured in centimetres.",
+      "The investigation lasted four weeks.",
+      "Fertiliser was the independent variable."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWith a single plant per group, a difference could easily come from natural variation between two individual plants rather than the fertiliser. More plants per group would let the average reveal a real effect.\n\n**Key concept:** Sample size protects a conclusion from individual variation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q8",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A chemical splashes into a student's eye. What is the **first** action?",
+    "options": [
+      "Report to the teacher and wait for instructions.",
+      "Rinse the eye at the eyewash station immediately.",
+      "Rub the eye with a clean paper towel.",
+      "Find the safety data sheet for the chemical."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nChemical damage to the eye increases with contact time, so flushing must begin at once — the teacher is told while rinsing continues. Rubbing spreads the chemical and can scratch the cornea.\n\n**Key concept:** For eye exposure, immediate flushing comes before every other step.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q9",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The table shows distance travelled by a cart.\n\n| Time (s) | Distance (cm) |\n|---|---|\n| 1 | 12 |\n| 2 | 24 |\n| 3 | 36 |\n| 4 | 48 |\n\nWhat pattern does the data show?",
+    "options": [
+      "The cart speeds up steadily.",
+      "The cart travels at a constant speed.",
+      "The cart slows down steadily.",
+      "The cart stops after 2 seconds."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nDistance increases by exactly 12 cm each second. Equal distances in equal times means constant speed. Speeding up would show growing increments; slowing down, shrinking ones.\n\n**Key concept:** A constant rate of change in a data table means constant speed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q10",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why should an investigation include a **control** group?",
+    "options": [
+      "To increase the number of trials",
+      "To provide a comparison against which the treated group is judged",
+      "To make the independent variable easier to measure",
+      "To guarantee the hypothesis is correct"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nWithout an untreated group there is nothing to compare the result to, so any change could be from the treatment or from ordinary conditions.\n\n**Key concept:** A control is the baseline that makes a comparison meaningful.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q11",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student needs to measure 25 mL of liquid as precisely as possible. Which should be used?",
+    "options": [
+      "A 1,000 mL beaker",
+      "A 50 mL graduated cylinder",
+      "A 500 mL flask",
+      "A spoon"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA container sized close to the volume being measured gives finer graduations and less uncertainty. Measuring 25 mL in a 1,000 mL beaker would be very imprecise.\n\n**Key concept:** Choose an instrument whose range closely matches the quantity measured.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q12",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two students measure the same block's mass and get 15.2 g and 15.3 g. What is the best next step?",
+    "options": [
+      "Use the average and note the small difference.",
+      "Discard both measurements.",
+      "Report only the larger value.",
+      "Change the balance for a metre stick."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA 0.1 g spread is normal measurement variation. Averaging uses both readings, and recording the spread is honest about the uncertainty. Discarding data or keeping only the larger value biases the result.\n\n**Key concept:** Small disagreements are handled by averaging and reporting uncertainty, not by discarding data.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q13",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to know whether water temperature affects how fast sugar dissolves. Which measurement is the **dependent** variable?",
+    "options": [
+      "The temperature of the water",
+      "The mass of sugar used",
+      "The time taken for the sugar to dissolve completely",
+      "The volume of water used"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe dependent variable is the outcome that responds to the change. Temperature is deliberately varied; dissolving time is measured in response. Sugar mass and water volume are controlled.\n\n**Key concept:** Dependent variable = the effect being measured.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q14",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which piece of safety equipment should be worn whenever glassware is heated?",
+    "options": [
+      "Goggles",
+      "Headphones",
+      "Gloves made of paper",
+      "A lab coat only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHeated glassware can crack or spatter, and eyes cannot be repaired. Goggles are required whenever heating occurs, regardless of what else is worn.\n\n**Key concept:** Eye protection is mandatory around heat and chemicals.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q15",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student's graph shows temperature on the x-axis and volume on the y-axis. What does the y-axis represent?",
+    "options": [
+      "The independent variable",
+      "The controlled variable",
+      "The dependent variable",
+      "The hypothesis"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nBy convention the independent variable goes on the x-axis and the dependent variable on the y-axis. Here temperature is on x, so volume on y is the dependent variable.\n\n**Key concept:** Axis placement encodes which variable depends on which.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q16",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would **most** improve an investigation that used only one trial?",
+    "options": [
+      "Repeating the investigation several times",
+      "Using a larger container",
+      "Writing a longer hypothesis",
+      "Recording results in a different colour"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne trial cannot distinguish a real effect from chance. Repeating shows whether the result is consistent. The other options change presentation, not evidence.\n\n**Key concept:** Repeated trials turn a single observation into evidence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q17",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is appropriate for reporting the density of a solid?",
+    "options": [
+      "g/cm³",
+      "cm³",
+      "g",
+      "°C"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDensity is mass divided by volume, so its unit combines a mass unit with a volume unit. Grams alone measure mass and cm³ alone measures volume.\n\n**Key concept:** A derived quantity carries a derived unit.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q18",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student's data shows a steady increase followed by a flat line. What does the flat portion indicate?",
+    "options": [
+      "The measurement stopped changing.",
+      "The measurement decreased rapidly.",
+      "An error occurred in every trial.",
+      "The independent variable was removed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA horizontal section of a graph means the y-value is no longer changing as x increases — the quantity has levelled off, often because the system reached equilibrium or a limit.\n\n**Key concept:** A flat line means zero rate of change, not zero value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q19",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question can be answered by a scientific investigation?",
+    "options": [
+      "Which colour of paint is the prettiest?",
+      "Does salt water freeze at a lower temperature than fresh water?",
+      "Should students be allowed to choose lab partners?",
+      "Is chemistry more interesting than biology?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA scientific question must be answerable by measurement. Freezing temperatures can be measured and compared. The others ask for opinions or policy preferences, which no measurement can settle.\n\n**Key concept:** Testable questions can be answered with evidence, not preference.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q20",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student reports a plant grew \"a lot\". How should this be improved?",
+    "options": [
+      "Record the height in centimetres at set intervals.",
+      "Describe the colour of the leaves instead.",
+      "Ask another student to agree.",
+      "Repeat the phrase in the conclusion."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\"A lot\" is qualitative and cannot be compared or repeated. Numerical measurements at fixed times allow other investigators to check the claim.\n\n**Key concept:** Quantitative data makes results comparable and repeatable.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q21",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why must long hair be tied back during a lab with open flames?",
+    "options": [
+      "To keep it clean",
+      "To prevent it from catching fire",
+      "To improve measurement accuracy",
+      "To make goggles fit better"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nLoose hair can fall into an open flame, which ignites quickly and close to the face. Tying it back removes the hazard.\n\n**Key concept:** Remove the hazard rather than relying on care alone.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q22",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A hypothesis states: \"If the light intensity increases, then the rate of photosynthesis will increase.\" Which result would **not** support this hypothesis?",
+    "options": [
+      "Bubble production rises as the lamp moves closer.",
+      "Bubble production stays the same at all distances.",
+      "Bubble production doubles when intensity doubles.",
+      "Bubble production falls as the lamp moves away."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe hypothesis predicts that photosynthesis rate rises with light intensity. If the rate is unchanged as intensity changes, the prediction fails. The other three results are consistent with the hypothesis.\n\n**Key concept:** Evidence that contradicts a prediction does not support the hypothesis.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q23",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the **best** reason to display data in a table before graphing?",
+    "options": [
+      "Tables look more scientific.",
+      "Tables organise measurements so patterns and errors are easier to spot.",
+      "Graphs cannot show numbers.",
+      "Tables replace the need for units."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA table lines up values with their units and trial numbers, which makes an outlier or a trend visible before graphing and helps choose the right graph.\n\n**Key concept:** Organising data is a step in analysis, not just presentation.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

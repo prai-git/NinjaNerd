@@ -58,5 +58,465 @@
     "explanation": "The temperature rises 20 → 40 → 60 → 80 °C, an increase of **20 °C for each 2-minute interval** — a steady increase.\n**Why others are wrong:** A, B, and D do not match the upward, constant pattern in the table.\n**Key concept:** Identifying patterns and trends in data tables.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q24",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student builds a model of the water cycle in a sealed container. What is the **main** limitation of this model?",
+    "options": [
+      "It cannot show evaporation.",
+      "It is much smaller and simpler than the real system.",
+      "It uses water instead of another liquid.",
+      "It requires sunlight."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA container model can show evaporation and condensation, but it omits scale, atmospheric circulation, and the vast reservoirs of the real cycle. Every model simplifies, and knowing what it leaves out is part of using it.\n\n**Key concept:** Models are useful simplifications with known limits.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q25",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement is an **explanation** rather than an observation?",
+    "options": [
+      "The metal rod felt warm after five minutes.",
+      "The thermometer read 32 °C.",
+      "Heat moved through the rod by conduction.",
+      "Bubbles formed on the surface."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nObservations report what was sensed or measured. An explanation gives the mechanism behind an observation — here, naming conduction as the process.\n\n**Key concept:** Observation records what happened; explanation says why.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q26",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two students measure the same reaction and get different results. What is the **most** scientific response?",
+    "options": [
+      "Choose the result that matches the hypothesis.",
+      "Repeat the measurement and examine the procedure for differences.",
+      "Average the two and stop.",
+      "Report neither result."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nDisagreement is information: it may reveal a procedural difference or a measurement error. Choosing the result that fits the hypothesis is confirmation bias.\n\n**Key concept:** Investigate discrepancies rather than selecting the convenient result.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q27",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A model of Earth's layers is made from coloured clay. Which property does the model represent **well**?",
+    "options": [
+      "The relative thickness of the layers",
+      "The temperature of the core",
+      "The pressure inside the mantle",
+      "The speed of seismic waves"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA clay model can show the order and relative thickness of crust, mantle and core. It cannot represent temperature, pressure, or wave speed, which are not physical dimensions of the model.\n\n**Key concept:** A model represents some properties of a system and not others.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q28",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which describes a **system**?",
+    "options": [
+      "A single measurement taken once",
+      "A set of interacting parts that work together as a whole",
+      "A tool used to measure mass",
+      "A conclusion drawn from data"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSystems thinking treats the interactions between parts as the object of study — as in an ecosystem, a circuit, or Earth's spheres.\n\n**Key concept:** A system is defined by its interacting components.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q29",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An engineer designs a bridge and tests a scale model in a wind tunnel. Why test a model first?",
+    "options": [
+      "Models always behave identically to the real structure.",
+      "Testing a model is safer and cheaper than testing the full structure.",
+      "Models remove the need for calculations.",
+      "Models cannot fail."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nScale models let engineers find failures before committing to full-size construction. Models do not behave identically to the real structure, which is why full-scale testing and calculation still follow.\n\n**Key concept:** Modelling reduces risk and cost during design.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q30",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student notices that plants near a streetlight flower earlier than plants in darkness. This is an example of which recurring theme?",
+    "options": [
+      "Cause and effect",
+      "Scale and proportion",
+      "Structure and function",
+      "Stability only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe observation links a condition (extra light at night) to an outcome (earlier flowering), which is a cause-and-effect relationship — though further investigation would be needed to confirm the cause.\n\n**Key concept:** Cause and effect is a recurring theme used to explain observed patterns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q31",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which conclusion is best supported by evidence?",
+    "options": [
+      "\"The plants grew because they wanted to.\"",
+      "\"The plants in the higher-light group grew 4 cm taller on average over four weeks.\"",
+      "\"Plants always grow faster in light.\"",
+      "\"Light is the only thing plants need.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThis statement reports a measured quantity, a comparison group and a time frame. The others assign intent, overgeneralise, or claim something the data cannot show.\n\n**Key concept:** A supported conclusion states what was measured and under what conditions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q32",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do scientists use standard units such as grams and metres?",
+    "options": [
+      "They are easier to spell.",
+      "They allow results to be compared and repeated by others.",
+      "They make numbers smaller.",
+      "They eliminate the need for tools."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nStandard units mean a gram measured in one lab equals a gram in another, which is what makes replication and comparison possible.\n\n**Key concept:** Standard units make science communicable.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q33",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A computer simulation predicts how a population of deer changes over 20 years. What makes the simulation useful?",
+    "options": [
+      "It is guaranteed to be correct.",
+      "It lets scientists test conditions that would take decades to observe.",
+      "It removes the need for field data.",
+      "It proves the hypothesis."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSimulations compress time and allow conditions to be varied safely. They are only as good as the data and assumptions behind them, so they do not replace field observation or guarantee correctness.\n\n**Key concept:** Simulations extend what can be investigated; they do not prove.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q34",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a closed terrarium, which describes the **matter** and **energy**?",
+    "options": [
+      "Both matter and energy are recycled within the container.",
+      "Matter is largely recycled; energy enters as light and leaves as heat.",
+      "Both matter and energy enter continuously from outside.",
+      "Neither matter nor energy changes form."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA sealed terrarium cycles water, carbon and nutrients internally, but it is not energetically closed: light enters and heat escapes. Matter cycles, energy flows through.\n\n**Key concept:** In ecosystems matter cycles and energy flows one way.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q35",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which career would most likely involve analysing water samples for contaminants?",
+    "options": [
+      "Environmental scientist",
+      "Architect",
+      "Software designer",
+      "Historian"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEnvironmental scientists collect and analyse samples of water, soil and air to assess quality and contamination.\n\n**Key concept:** Science careers apply investigation skills to real problems.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q36",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pattern in data is best described as —",
+    "options": [
+      "a single unexpected result",
+      "a repeated relationship observed across many measurements",
+      "the title of a graph",
+      "an error in the procedure"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA pattern is a regularity that appears consistently across data. A single unusual value is an outlier, not a pattern.\n\n**Key concept:** Patterns emerge from repetition, not from single results.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q37",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the **strongest** evidence that a chemical change occurred?",
+    "options": [
+      "The liquid changed shape to fit the container.",
+      "A new gas was produced that did not exist before.",
+      "The sample was cut into smaller pieces.",
+      "The sample was cooled."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nForming a new substance signals a chemical change. Changing shape, being cut, or being cooled alter physical properties while the substance stays the same.\n\n**Key concept:** Chemical change produces new substances; physical change does not.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q38",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A model of the solar system shows planets much closer together than they really are. Why might a scientist still use it?",
+    "options": [
+      "Because distance does not matter in science",
+      "Because the model still shows the correct order and relative sizes",
+      "Because it is easier to draw",
+      "Because scale is unimportant in models"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA model can be accurate in some respects while distorting others. A solar-system model that compresses distance still teaches sequence and relative size, provided the distortion is understood.\n\n**Key concept:** Knowing which aspects a model distorts is part of using it correctly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q39",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair shows **structure and function**?",
+    "options": [
+      "A bird's hollow bones and its ability to fly",
+      "The number of trials in an experiment",
+      "The colour of a beaker",
+      "The date of an investigation"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nStructure and function links a physical feature to what it enables — hollow bones reduce mass, which supports flight.\n\n**Key concept:** Form relates to function throughout the natural world.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q40",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do scientists publish their methods along with their results?",
+    "options": [
+      "To make the report longer",
+      "So other scientists can repeat the investigation and check the findings",
+      "To protect the data from being used",
+      "To avoid using standard units"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nReplication is how science tests itself. Methods must be detailed enough for an independent group to follow them exactly.\n\n**Key concept:** Reproducibility depends on published methods.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q41",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which best describes **stability and change** in an ecosystem?",
+    "options": [
+      "Ecosystems never change.",
+      "Ecosystems can remain balanced while individual populations rise and fall.",
+      "Ecosystems change only when humans interfere.",
+      "Ecosystems change completely every year."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nStability at the system level coexists with change at the component level — predator and prey numbers oscillate while the ecosystem persists.\n\n**Key concept:** Stability and change operate at different scales within one system.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q42",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student claims a result is significant because it happened once. What is the **main** flaw?",
+    "options": [
+      "A single occurrence may be due to chance rather than a real effect.",
+      "The result was measured in metric units.",
+      "The student used a graph.",
+      "The investigation had a control group."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne result cannot separate a genuine effect from random variation. Repetition is what establishes that a result is dependable.\n\n**Key concept:** Significance comes from repetition, not from a single striking result.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q43",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **testable** prediction?",
+    "options": [
+      "Plants are beautiful in spring.",
+      "If soil pH decreases, then bean plant height after 3 weeks will decrease.",
+      "Soil is important.",
+      "Everyone should garden."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThis names a variable to change, an outcome to measure, and a time frame — so it can be tested and could be shown false. The others state opinions or vague claims.\n\n**Key concept:** A testable prediction specifies what changes, what is measured, and when.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q44",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Engineers redesign a product after testing shows it fails under load. This step is part of —",
+    "options": [
+      "the engineering design process",
+      "a controlled variable",
+      "a scientific law",
+      "the metric system"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTesting, identifying failure, and redesigning is the iterative cycle at the heart of engineering design.\n\n**Key concept:** Engineering design improves a solution through repeated testing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q45",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two measurements of the same object differ by 0.1 g on a balance that reads to 0.1 g. This difference is best described as —",
+    "options": [
+      "proof the object changed mass",
+      "within the precision limit of the instrument",
+      "a chemical change",
+      "a controlled variable"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA balance reading to 0.1 g cannot resolve differences smaller than 0.1 g, so a 0.1 g difference is at the edge of what it can distinguish — not evidence that the object changed.\n\n**Key concept:** A measured difference is only meaningful if it exceeds the instrument's precision.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_15-05_q46",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Methods & Research",
+    "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A physical model, a diagram, and a computer simulation are all —",
+    "options": [
+      "exact copies of the real system",
+      "representations used to explain or predict a system's behaviour",
+      "types of measurement tools",
+      "controlled variables"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nPhysical models, diagrams and simulations all stand in for a system to help explain or predict it. None is an exact copy, and none is a measuring tool.\n\n**Key concept:** Models are representations, chosen for what they help you see.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
