@@ -15,7 +15,7 @@
       "$65"
     ],
     "correctIndex": 2,
-    "explanation": "**Topic:** Finding Percent Discount\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Original price: $80\n2. Discount: 25%\n3. Find 25% of $80: 0.25 × 80 = $20\n4. Sale price: $80 - $20 = $60\n\n**Alternative method:** If 25% off, you pay 75%\n- 0.75 × $80 = $60\n\n**Key Concept:** Percent means \"per hundred.\" Finding a percent of a number and subtracting to find sale price.\n\n---",
+    "explanation": "**Topic:** Finding Percent Discount\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Original price: $80\n2. Discount: 25%\n3. Find 25% of \\(80: 0.25 × 80 = \\)20\n4. Sale price: \\(80 - \\)20 = $60\n\n**Alternative method:** If 25% off, you pay 75%\n- 0.75 × \\(80 = \\)60\n\n**Key Concept:** Percent means \"per hundred.\" Finding a percent of a number and subtracting to find sale price.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "$112"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Multi-step Word Problem\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Total apples: 156\n2. Apples per box: 12\n3. Number of full boxes: 156 ÷ 12 = 13 boxes\n4. Price per box: $8\n5. Total money: 13 × $8 = $104\n\n**Key Concept:** Division to find number of groups, then multiplication to find total value.\n\n---",
+    "explanation": "**Topic:** Multi-step Word Problem\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Total apples: 156\n2. Apples per box: 12\n3. Number of full boxes: 156 ÷ 12 = 13 boxes\n4. Price per box: $8\n5. Total money: 13 × \\(8 = \\)104\n\n**Key Concept:** Division to find number of groups, then multiplication to find total value.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "$250.00"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) $312.50**\n\n**Step-by-step solution:**\n1. Total raised: $1,250\n2. Animal shelters: 40% of $1,250 = 0.40 × $1,250 = $500\n3. Food banks: 35% of $1,250 = 0.35 × $1,250 = $437.50\n4. Total distributed: $500 + $437.50 = $937.50\n5. Remaining: $1,250 - $937.50 = $312.50\n\n**Key Concept:** Finding percentages and using multi-step reasoning.\n\n---",
+    "explanation": "**Answer: A) $312.50**\n\n**Step-by-step solution:**\n1. Total raised: $1,250\n2. Animal shelters: 40% of \\(1,250 = 0.40 × \\)1,250 = $500\n3. Food banks: 35% of \\(1,250 = 0.35 × \\)1,250 = $437.50\n4. Total distributed: \\(500 + \\)437.50 = $937.50\n5. Remaining: \\(1,250 - \\)937.50 = $312.50\n\n**Key Concept:** Finding percentages and using multi-step reasoning.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "12c + 6 ≤ 50"
     ],
     "correctIndex": 1,
-    "explanation": "**Answer: B) 6c + 12 ≤ 50**\n\n**Explanation:**\n- Gift card: $50 total\n- Poster: $12 (must buy one)\n- Comic books: $6 each, buying c comics = 6c dollars\n- Total spending: 6c + 12\n- Must stay within budget: 6c + 12 ≤ 50\n\n**Why other answers are incorrect:**\n- A) 6c + 12 ≥ 50: This means spending at least $50 (opposite of budget limit)\n- C) 6c - 12 ≤ 50: Wrong operation (should add poster cost, not subtract)\n- D) 12c + 6 ≤ 50: Switched the values (comics are $6 each, not $12)\n\n**Key Concept:** Budget constraints use ≤ since spending must not exceed available money.\n\n---",
+    "explanation": "**Answer: B) 6c + 12 ≤ 50**\n\n**Explanation:**\n- Gift card: $50 total\n- Poster: $12 (must buy one)\n- Comic books: $6 each, buying c comics = 6c dollars\n- Total spending: 6c + 12\n- Must stay within budget: 6c + 12 ≤ 50\n\n**Why other answers are incorrect:**\n- A) 6c + 12 ≥ 50: This means spending at least $50 (opposite of budget limit)\n- C) 6c - 12 ≤ 50: Wrong operation (should add poster cost, not subtract)\n- D) 12c + 6 ≤ 50: Switched the values (comics are \\(6 each, not \\)12)\n\n**Key Concept:** Budget constraints use ≤ since spending must not exceed available money.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "$70"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → $68\n\n**Step-by-step:**\nOriginal price = $85. Discount = 20%.\n\nStep 1 — Find the discount amount:\n- 20% of $85 = 0.20 × $85 = **$17**\n\nStep 2 — Subtract the discount:\n- $85 − $17 = **$68**\n\n**Why other answers are wrong:**\n- A) $17 — this is only the discount amount, not the sale price\n- B) $65 — uses 25% off: $85 × 0.75 = $63.75... or arithmetic error\n- D) $70 — uses an incorrect discount of $15 (≈17.6% off)\n\n---",
+    "explanation": "**Correct Answer: C** → $68\n\n**Step-by-step:**\nOriginal price = $85. Discount = 20%.\n\nStep 1 — Find the discount amount:\n- 20% of \\(85 = 0.20 × \\)85 = **$17**\n\nStep 2 — Subtract the discount:\n- \\(85 − \\)17 = **$68**\n\n**Why other answers are wrong:**\n- A) $17 — this is only the discount amount, not the sale price\n- B) \\(65 — uses 25% off: \\)85 × 0.75 = $63.75... or arithmetic error\n- D) $70 — uses an incorrect discount of $15 (≈17.6% off)\n\n---",
     "source": "authored",
     "needsReview": false
   },

@@ -935,7 +935,7 @@
       "6 weeks"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 5 weeks\n\n**Step-by-step:**\nSet the two equations equal to find when savings match:\n\n- Priya: y = 5x\n- Kevin: y = x + 20\n\nSet equal: **5x = x + 20**\n- 5x − x = 20\n- 4x = 20\n- x = **5**\n\n**Verify at x = 5:**\n- Priya: 5 × 5 = $25\n- Kevin: 5 + 20 = $25 ✓\n\nThey both have $25 after **5 weeks**.\n\n**Why other answers are wrong:**\n- A) x = 3: Priya = $15, Kevin = $23 (not equal)\n- B) x = 4: Priya = $20, Kevin = $24 (not equal)\n- D) x = 6: Priya = $30, Kevin = $26 (Priya now has more)\n\n---",
+    "explanation": "**Correct Answer: C** → 5 weeks\n\n**Step-by-step:**\nSet the two equations equal to find when savings match:\n\n- Priya: y = 5x\n- Kevin: y = x + 20\n\nSet equal: **5x = x + 20**\n- 5x − x = 20\n- 4x = 20\n- x = **5**\n\n**Verify at x = 5:**\n- Priya: 5 × 5 = $25\n- Kevin: 5 + 20 = $25 ✓\n\nThey both have $25 after **5 weeks**.\n\n**Why other answers are wrong:**\n- A) x = 3: Priya = \\(15, Kevin = \\)23 (not equal)\n- B) x = 4: Priya = \\(20, Kevin = \\)24 (not equal)\n- D) x = 6: Priya = \\(30, Kevin = \\)26 (Priya now has more)\n\n---",
     "source": "authored",
     "needsReview": false
   },

@@ -75,7 +75,7 @@
       "0.25 g/cm³"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.5 — Density.*\nDensity = mass ÷ volume = $20 \\text{ g} \\div 5 \\text{ cm}^3 = \\mathbf{4 \\text{ g/cm}^3}$.",
+    "explanation": "*TEKS 6.5 — Density.*\nDensity = mass ÷ volume = \\(20 \\text{ g} \\div 5 \\text{ cm}^3 = \\mathbf{4 \\text{ g/cm}^3}\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "It spins in a circle"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 5.7 — Unbalanced forces.*\nThe forces are **unbalanced** (300 N left vs. 250 N right). The net force is $300 - 250 = 50$ N to the **left**, so the rope moves left.",
+    "explanation": "*TEKS 5.7 — Unbalanced forces.*\nThe forces are **unbalanced** (300 N left vs. 250 N right). The net force is \\(300 - 250 = 50\\) N to the **left**, so the rope moves left.",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "0 N; the crate stays balanced"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.8A (net force) | MAP: Motion & Stability: Forces & Interactions | SEP 6.2**\n\n**Step-by-step:** Add forces by direction.\n- Right total: $40 + 15 = 55$ N\n- Left total: $25 + 10 = 35$ N\n- Net force: $55 - 35 = 20$ N to the **right**.\n\nThe crate accelerates in the direction of the net force (right).\n\n**Why the others are wrong:** B has the correct size but wrong direction. C adds only the two rightward forces and ignores the leftward ones. D would require balanced forces (net 0), which is not the case here.\n\n**Key concept:** Net force is the vector sum of all forces; opposite directions subtract, same directions add.\n\n---",
+    "explanation": "**TEKS 6.8A (net force) | MAP: Motion & Stability: Forces & Interactions | SEP 6.2**\n\n**Step-by-step:** Add forces by direction.\n- Right total: \\(40 + 15 = 55\\) N\n- Left total: \\(25 + 10 = 35\\) N\n- Net force: \\(55 - 35 = 20\\) N to the **right**.\n\nThe crate accelerates in the direction of the net force (right).\n\n**Why the others are wrong:** B has the correct size but wrong direction. C adds only the two rightward forces and ignores the leftward ones. D would require balanced forces (net 0), which is not the case here.\n\n**Key concept:** Net force is the vector sum of all forces; opposite directions subtract, same directions add.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -595,7 +595,7 @@
       "0 N; the rope stays perfectly still"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7B** — Net force (SEP 6.2 data interpretation)\n\n**Explanation:** Forces in opposite directions **subtract**. Net force $= 320\\text{ N (left)} - 275\\text{ N (right)} = 45\\text{ N to the left}$. Because the net force points left, the **Red team wins**.\n\n**Why the others are wrong:**\n- **B.** The larger force (320 N) is to the left, so the net force is to the left.\n- **C.** Opposite forces subtract, not add; 595 N would be if they pulled the same direction.\n- **D.** The forces are unequal, so the net force is not zero.\n\n**Key concept:** Net force = the vector sum of all forces; unbalanced forces cause a change in motion.\n\n---",
+    "explanation": "**TEKS 6.7B** — Net force (SEP 6.2 data interpretation)\n\n**Explanation:** Forces in opposite directions **subtract**. Net force \\(= 320\\text{ N (left)} - 275\\text{ N (right)} = 45\\text{ N to the left}\\). Because the net force points left, the **Red team wins**.\n\n**Why the others are wrong:**\n- **B.** The larger force (320 N) is to the left, so the net force is to the left.\n- **C.** Opposite forces subtract, not add; 595 N would be if they pulled the same direction.\n- **D.** The forces are unequal, so the net force is not zero.\n\n**Key concept:** Net force = the vector sum of all forces; unbalanced forces cause a change in motion.\n\n---",
     "source": "authored",
     "needsReview": false
   },

@@ -7,7 +7,7 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Four solid mineral samples were massed and their volumes measured by water displacement. Recall that $D = \\dfrac{m}{V}$ and that a sample will **sink** in water (density of water = 1.0 g/cm³) if its density is greater than 1.0 g/cm³.\n\n| Sample | Mass (g) | Volume (cm³) |\n|--------|----------|--------------|\n| J | 48 | 6 |\n| K | 27 | 30 |\n| L | 90 | 45 |\n| M | 21 | 3 |\n\nWhich sample has the **greatest density**?",
+    "question": "Four solid mineral samples were massed and their volumes measured by water displacement. Recall that \\(D = \\dfrac{m}{V}\\) and that a sample will **sink** in water (density of water = 1.0 g/cm³) if its density is greater than 1.0 g/cm³.\n\n| Sample | Mass (g) | Volume (cm³) |\n|--------|----------|--------------|\n| J | 48 | 6 |\n| K | 27 | 30 |\n| L | 90 | 45 |\n| M | 21 | 3 |\n\nWhich sample has the **greatest density**?",
     "options": [
       "Sample J",
       "Sample K",
@@ -15,7 +15,7 @@
       "Sample M"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7A (density) | MAP: Matter and Its Interactions | SEP 6.2 (data analysis)**\n\n**Step-by-step:** Density $D = \\dfrac{m}{V}$. Compute each:\n- J: $48 \\div 6 = 8.0$ g/cm³\n- K: $27 \\div 30 = 0.9$ g/cm³\n- L: $90 \\div 45 = 2.0$ g/cm³\n- M: $21 \\div 3 = 7.0$ g/cm³\n\nThe greatest density is **Sample J at 8.0 g/cm³**.\n\n**Why the others are wrong:** M = 7.0 g/cm³ (second highest — a strong distractor); L = 2.0 g/cm³; K = 0.9 g/cm³ (the only sample that would float in water). A student who forgets to divide and just picks the largest mass (L, 90 g) is misled.\n\n**Key concept:** Density is a ratio of mass to volume; the largest mass does not mean the largest density.\n\n---",
+    "explanation": "**TEKS 6.7A (density) | MAP: Matter and Its Interactions | SEP 6.2 (data analysis)**\n\n**Step-by-step:** Density \\(D = \\dfrac{m}{V}\\). Compute each:\n- J: \\(48 \\div 6 = 8.0\\) g/cm³\n- K: \\(27 \\div 30 = 0.9\\) g/cm³\n- L: \\(90 \\div 45 = 2.0\\) g/cm³\n- M: \\(21 \\div 3 = 7.0\\) g/cm³\n\nThe greatest density is **Sample J at 8.0 g/cm³**.\n\n**Why the others are wrong:** M = 7.0 g/cm³ (second highest — a strong distractor); L = 2.0 g/cm³; K = 0.9 g/cm³ (the only sample that would float in water). A student who forgets to divide and just picks the largest mass (L, 90 g) is misled.\n\n**Key concept:** Density is a ratio of mass to volume; the largest mass does not mean the largest density.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "impossible to evaluate without knowing the ring's color"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7A (density as an identifying property) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** $D = \\dfrac{m}{V} = \\dfrac{57.9\\text{ g}}{3.0\\text{ cm}^3} = 19.3$ g/cm³.\n\nThis exactly matches pure gold's density (19.3 g/cm³), so the ring **is most likely pure gold**.\n\n**Why the others are wrong:** B is wrong because the calculated density **does** match gold. C compares the mass and volume numbers directly, which is not how density identification works. D is wrong because density (a physical property) can identify a material regardless of its color.\n\n**Key concept:** Density is an intensive property used to identify substances; calculate it and compare to a known value.\n\n---",
+    "explanation": "**TEKS 6.7A (density as an identifying property) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** \\(D = \\dfrac{m}{V} = \\dfrac{57.9\\text{ g}}{3.0\\text{ cm}^3} = 19.3\\) g/cm³.\n\nThis exactly matches pure gold's density (19.3 g/cm³), so the ring **is most likely pure gold**.\n\n**Why the others are wrong:** B is wrong because the calculated density **does** match gold. C compares the mass and volume numbers directly, which is not how density identification works. D is wrong because density (a physical property) can identify a material regardless of its color.\n\n**Key concept:** Density is an intensive property used to identify substances; calculate it and compare to a known value.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "All three will mix evenly, so there is no bottom layer"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 6.6D** — Comparing density (SEP 6.2 data analysis)\n\n**Explanation:** In a stack of liquids that don't mix, the **densest** liquid sinks to the bottom and the **least dense** floats on top. Comparing densities: corn syrup (1.33) > water (1.00) > vegetable oil (0.92). Corn syrup is densest, so it settles on the **bottom**; oil floats on top.\n\n**Why the others are wrong:**\n- **A.** Oil is least dense, so it floats on **top**, not the bottom.\n- **B.** Position in a list is irrelevant; density determines layering.\n- **D.** The liquids are described as not mixing, so they form distinct layers.\n\n**Key concept:** Density ($D=\\frac{m}{V}$) determines whether a material floats or sinks relative to another.\n\n---",
+    "explanation": "**TEKS 6.6D** — Comparing density (SEP 6.2 data analysis)\n\n**Explanation:** In a stack of liquids that don't mix, the **densest** liquid sinks to the bottom and the **least dense** floats on top. Comparing densities: corn syrup (1.33) > water (1.00) > vegetable oil (0.92). Corn syrup is densest, so it settles on the **bottom**; oil floats on top.\n\n**Why the others are wrong:**\n- **A.** Oil is least dense, so it floats on **top**, not the bottom.\n- **B.** Position in a list is irrelevant; density determines layering.\n- **D.** The liquids are described as not mixing, so they form distinct layers.\n\n**Key concept:** Density (\\(D=\\frac{m}{V}\\)) determines whether a material floats or sinks relative to another.\n\n---",
     "source": "authored",
     "needsReview": false
   },

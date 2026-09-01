@@ -7,15 +7,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.5A [R]**  \nRosa buys 4 packs of 18 stickers and gives away 15. Which equation gives $n$ left?",
+    "question": "**TEKS 4.5A [R]**  \nRosa buys 4 packs of 18 stickers and gives away 15. Which equation gives \\(n\\) left?",
     "options": [
-      "$4\\times18-15=n$",
-      "$4+18-15=n$",
-      "$18\\div4+15=n$",
-      "$15\\times4-18=n$"
+      "\\(4\\times18-15=n\\)",
+      "\\(4+18-15=n\\)",
+      "\\(18\\div4+15=n\\)",
+      "\\(15\\times4-18=n\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. $4\\times18-15=n$  \n**TEKS:** 4.5A [R]  \n**Step-by-step solution:** Four groups of 18 are multiplied, then 15 are removed.  \n**Why other answers are wrong:** B (“$4+18-15=n$”) uses a different operation, place, or interpretation than the evidence requires; C (“$18\\div4+15=n$”) uses a different operation, place, or interpretation than the evidence requires; D (“$15\\times4-18=n$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** equations for situations.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(4\\times18-15=n\\)  \n**TEKS:** 4.5A [R]  \n**Step-by-step solution:** Four groups of 18 are multiplied, then 15 are removed.  \n**Why other answers are wrong:** B (“\\(4+18-15=n\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(18\\div4+15=n\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(15\\times4-18=n\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** equations for situations.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -27,7 +27,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.5C**  \nWhat rule describes $3,9,27,81,\\ldots$?",
+    "question": "**TEKS 4.5C**  \nWhat rule describes \\(3,9,27,81,\\ldots\\)?",
     "options": [
       "multiply by 3",
       "add 6",
@@ -47,15 +47,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.5C**  \nA table has $(1,7),(2,10),(3,13)$. Which rule works?",
+    "question": "**TEKS 4.5C**  \nA table has \\((1,7),(2,10),(3,13)\\). Which rule works?",
     "options": [
-      "$y=3x+4$",
-      "$y=x+6$",
-      "$y=4x+3$",
-      "$y=3x$"
+      "\\(y=3x+4\\)",
+      "\\(y=x+6\\)",
+      "\\(y=4x+3\\)",
+      "\\(y=3x\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. $y=3x+4$  \n**TEKS:** 4.5C  \n**Step-by-step solution:** The outputs rise by 3; $3(1)+4=7$ and the rule fits all pairs.  \n**Why other answers are wrong:** B (“$y=x+6$”) uses a different operation, place, or interpretation than the evidence requires; C (“$y=4x+3$”) uses a different operation, place, or interpretation than the evidence requires; D (“$y=3x$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** table patterns.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(y=3x+4\\)  \n**TEKS:** 4.5C  \n**Step-by-step solution:** The outputs rise by 3; \\(3(1)+4=7\\) and the rule fits all pairs.  \n**Why other answers are wrong:** B (“\\(y=x+6\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(y=4x+3\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(y=3x\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** table patterns.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.7A**  \nAn angle begins at $0^\\circ$ and crosses $135^\\circ$ on a protractor. Its measure is—",
+    "question": "**TEKS 4.7A**  \nAn angle begins at \\(0^\\circ\\) and crosses \\(135^\\circ\\) on a protractor. Its measure is—",
     "options": [
-      "$135^\\circ$",
-      "$45^\\circ$",
-      "$225^\\circ$",
-      "$315^\\circ$"
+      "\\(135^\\circ\\)",
+      "\\(45^\\circ\\)",
+      "\\(225^\\circ\\)",
+      "\\(315^\\circ\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. $135^\\circ$  \n**TEKS:** 4.7A  \n**Step-by-step solution:** Read from the zero ray to the other ray: 135 degrees.  \n**Why other answers are wrong:** B (“$45^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; C (“$225^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; D (“$315^\\circ$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** protractor measurement.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(135^\\circ\\)  \n**TEKS:** 4.7A  \n**Step-by-step solution:** Read from the zero ray to the other ray: 135 degrees.  \n**Why other answers are wrong:** B (“\\(45^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(225^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(315^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** protractor measurement.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -169,13 +169,13 @@
     "passageTitle": null,
     "question": "**TEKS 4.7B**  \nA quarter turn is what part of a full circle and how many degrees?",
     "options": [
-      "$\\frac14$ and $90^\\circ$",
-      "$\\frac12$ and $90^\\circ$",
-      "$\\frac14$ and $45^\\circ$",
-      "$\\frac34$ and $270^\\circ$"
+      "\\(\\frac14\\) and \\(90^\\circ\\)",
+      "\\(\\frac12\\) and \\(90^\\circ\\)",
+      "\\(\\frac14\\) and \\(45^\\circ\\)",
+      "\\(\\frac34\\) and \\(270^\\circ\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. $\\frac14$ and $90^\\circ$  \n**TEKS:** 4.7B  \n**Step-by-step solution:** $360\\div4=90$, so one quarter is 90 degrees.  \n**Why other answers are wrong:** B (“$\\frac12$ and $90^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac14$ and $45^\\circ$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac34$ and $270^\\circ$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** fractional turns.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(\\frac14\\) and \\(90^\\circ\\)  \n**TEKS:** 4.7B  \n**Step-by-step solution:** \\(360\\div4=90\\), so one quarter is 90 degrees.  \n**Why other answers are wrong:** B (“\\(\\frac12\\) and \\(90^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac14\\) and \\(45^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac34\\) and \\(270^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** fractional turns.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "16"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 17  \n**TEKS:** 4.8C [R]  \n**Step-by-step solution:** Five yards is 15 feet; $15+2=17$.  \n**Why other answers are wrong:** B (“7”) uses a different operation, place, or interpretation than the evidence requires; C (“15”) uses a different operation, place, or interpretation than the evidence requires; D (“16”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** customary conversion.\n\n---",
+    "explanation": "**Correct answer/value:** A. 17  \n**TEKS:** 4.8C [R]  \n**Step-by-step solution:** Five yards is 15 feet; \\(15+2=17\\).  \n**Why other answers are wrong:** B (“7”) uses a different operation, place, or interpretation than the evidence requires; C (“15”) uses a different operation, place, or interpretation than the evidence requires; D (“16”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** customary conversion.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "345"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 3,450  \n**TEKS:** 4.8C  \n**Step-by-step solution:** $3\\text{ kg}=3,000\\text{ g}$; add 450 g.  \n**Why other answers are wrong:** B (“3,045”) uses a different operation, place, or interpretation than the evidence requires; C (“3,500”) uses a different operation, place, or interpretation than the evidence requires; D (“345”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** metric conversion.\n\n---",
+    "explanation": "**Correct answer/value:** A. 3,450  \n**TEKS:** 4.8C  \n**Step-by-step solution:** \\(3\\text{ kg}=3,000\\text{ g}\\); add 450 g.  \n**Why other answers are wrong:** B (“3,045”) uses a different operation, place, or interpretation than the evidence requires; C (“3,500”) uses a different operation, place, or interpretation than the evidence requires; D (“345”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** metric conversion.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -249,13 +249,13 @@
     "passageTitle": null,
     "question": "**TEKS 4.8B**  \nA dispenser holds 6 quarts. How many gallons?",
     "options": [
-      "$1\\frac12$",
+      "\\(1\\frac12\\)",
       "1",
       "2",
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. $1\\frac12$  \n**TEKS:** 4.8B  \n**Step-by-step solution:** Four quarts make a gallon, so $6\\div4=1\\frac12$.  \n**Why other answers are wrong:** B (“1”) uses a different operation, place, or interpretation than the evidence requires; C (“2”) uses a different operation, place, or interpretation than the evidence requires; D (“6”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** capacity conversion.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(1\\frac12\\)  \n**TEKS:** 4.8B  \n**Step-by-step solution:** Four quarts make a gallon, so \\(6\\div4=1\\frac12\\).  \n**Why other answers are wrong:** B (“1”) uses a different operation, place, or interpretation than the evidence requires; C (“2”) uses a different operation, place, or interpretation than the evidence requires; D (“6”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** capacity conversion.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.8C**  \nNico buys $6.75 and $3.48 items and pays $20.00$. What change?",
+    "question": "**TEKS 4.8C**  \nNico buys \\(6.75 and \\)3.48 items and pays \\(20.00\\). What change?",
     "options": [
-      "$9.77$",
-      "$10.23$",
-      "$9.23$",
-      "$10.77$"
+      "\\(9.77\\)",
+      "\\(10.23\\)",
+      "\\(9.23\\)",
+      "\\(10.77\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. $9.77$  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Cost $=6.75+3.48=10.23$; $20.00-10.23=9.77$.  \n**Why other answers are wrong:** B (“$10.23$”) uses a different operation, place, or interpretation than the evidence requires; C (“$9.23$”) uses a different operation, place, or interpretation than the evidence requires; D (“$10.77$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** money.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(9.77\\)  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Cost \\(=6.75+3.48=10.23\\); \\(20.00-10.23=9.77\\).  \n**Why other answers are wrong:** B (“\\(10.23\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(9.23\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(10.77\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** money.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "86"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 70  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Four pounds is 64 ounces; $64+6=70$.  \n**Why other answers are wrong:** B (“46”) uses a different operation, place, or interpretation than the evidence requires; C (“64”) uses a different operation, place, or interpretation than the evidence requires; D (“86”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** mass conversion.\n\n---",
+    "explanation": "**Correct answer/value:** A. 70  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Four pounds is 64 ounces; \\(64+6=70\\).  \n**Why other answers are wrong:** B (“46”) uses a different operation, place, or interpretation than the evidence requires; C (“64”) uses a different operation, place, or interpretation than the evidence requires; D (“86”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** mass conversion.\n\n---",
     "source": "authored",
     "needsReview": false
   }

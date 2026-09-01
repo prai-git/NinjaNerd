@@ -12,6 +12,7 @@
 import { loadSubtopic } from './content-loader.js';
 import { param, subjectLabel, requireLogin, renderInline, emitAttempt } from './flow.js';
 import { buildAttempt } from './quiz.js';
+import { renderMath } from './math-render.js';
 
 async function init(root) {
   const grade = Number(param('grade'));
@@ -57,7 +58,20 @@ function runQuiz(root, deck, meta) {
   function displayQuestion() {
     const item = deck[i];
     counter.textContent = `Question ${i + 1} of ${deck.length}`;
-    content.innerHTML = `<h5>${renderInline(item.question)}</h5>`;
+    /* The reading passage above the question. Practice items that ask "According to the
+       passage..." are unanswerable without it. Collapsible because a long passage would push
+       the options off screen, and the student re-reads it per question in the same set. */
+    const passageHtml = item.passage ? `
+      <details class="nn-passage-details mb-3" open>
+        <summary class="fw-semibold text-secondary">
+          <i class="fas fa-book-open me-2"></i>${item.passageTitle
+            ? renderInline(item.passageTitle) : 'Read the passage'}
+        </summary>
+        <div class="nn-passage bg-light border-start border-4 border-secondary p-3 rounded mt-2">
+          ${renderInline(item.passage)}
+        </div>
+      </details>` : '';
+    content.innerHTML = `${passageHtml}<h5>${renderInline(item.question)}</h5>`;
 
     const pct = (i / deck.length) * 100;
     bar.style.width = `${pct}%`;
@@ -87,6 +101,9 @@ function runQuiz(root, deck, meta) {
     explanationCard.style.display = 'none';
     submitBtn.disabled = false;
     submitBtn.innerHTML = '<i class="fas fa-check me-1"></i>Submit Answer';
+    // Typeset the question, passage and options together, after they are in the DOM.
+    renderMath(content);
+    renderMath(optionsContainer);
   }
 
   function submitAnswer() {
@@ -139,6 +156,7 @@ function runQuiz(root, deck, meta) {
         </div>`;
       }
       explanationContent.innerHTML = html;
+      renderMath(explanationContent);
       explanationCard.style.display = 'block';
     }
 

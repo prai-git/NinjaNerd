@@ -35,7 +35,7 @@
       "30¢"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 13¢**  \n**MAP area / TEKS:** Financial Literacy; 1.4.  \n**Work:** One dime is 10¢ and three pennies are 3¢: $10+3=13$¢.  \n**Why the other answers are wrong:** A counts only pennies; B counts only the dime; D treats pennies like dimes.  \n**Key concept:** Combining coin values.",
+    "explanation": "**Correct answer: C. 13¢**  \n**MAP area / TEKS:** Financial Literacy; 1.4.  \n**Work:** One dime is 10¢ and three pennies are 3¢: \\(10+3=13\\)¢.  \n**Why the other answers are wrong:** A counts only pennies; B counts only the dime; D treats pennies like dimes.  \n**Key concept:** Combining coin values.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "say the pencil costs 25¢"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. save 15¢ more**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** $40-25=15$¢ more is needed.  \n**Why the other answers are wrong:** A does not have enough money; C loses savings; D changes the price.  \n**Key concept:** Saving toward a goal.",
+    "explanation": "**Correct answer: B. save 15¢ more**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** \\(40-25=15\\)¢ more is needed.  \n**Why the other answers are wrong:** A does not have enough money; C loses savings; D changes the price.  \n**Key concept:** Saving toward a goal.",
     "source": "authored",
     "needsReview": false
   },
@@ -127,7 +127,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Zoe has $5. A notebook costs $3, and a snack costs $4. Which choice stays within Zoe's $5?",
+    "question": "Zoe has \\(5. A notebook costs \\)3, and a snack costs $4. Which choice stays within Zoe's $5?",
     "options": [
       "buy both items",
       "buy the notebook only",
@@ -135,7 +135,7 @@
       "buy neither because $5 is not money"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. buy the notebook only**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** The notebook costs $3, which is no more than $5; both cost $7.  \n**Why the other answers are wrong:** A costs $7; C costs $4 but cannot save $2 from $5; D is false.  \n**Key concept:** Budgeting.",
+    "explanation": "**Correct answer: B. buy the notebook only**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** The notebook costs $3, which is no more than $5; both cost $7.  \n**Why the other answers are wrong:** A costs \\(7; C costs \\)4 but cannot save \\(2 from \\)5; D is false.  \n**Key concept:** Budgeting.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "Give away $10."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. Save $2 and plan how to use the other $4.**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** $2+$4=$6$, so the whole amount is planned.  \n**Why the other answers are wrong:** A and D spend more than earned; C gives no usable plan.  \n**Key concept:** Saving and planning spending.\n\n## Coverage Summary\n\n| Grade 1 TEKS / MAP instructional area | Questions |\n|---|---|\n| Operations & Algebraic Thinking — addition, subtraction, unknowns, equations, patterns/equality (1.3, 1.5) | 1–16 |\n| Number & Operations — counting, place value, comparisons, ten more/less, numbers to 120 (1.2) | 17–27 |\n| Measurement & Data — length, capacity, time, tables and graph features (1.7–1.8) | 28–34 |\n| Geometry — two- and three-dimensional attributes, composing/partitioning shapes, position (1.6) | 35–42 |\n| Financial Literacy — coins, needs/wants, earning, saving, trade, budgeting (1.4, 1.9) | 43–50 |\n\n**Combined-term balance:** BOY 1–17; MOY 18–34; EOY 35–50.",
+    "explanation": "**Correct answer: B. Save $2 and plan how to use the other $4.**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** \\(2+\\)4=\\(6\\), so the whole amount is planned.  \n**Why the other answers are wrong:** A and D spend more than earned; C gives no usable plan.  \n**Key concept:** Saving and planning spending.\n\n## Coverage Summary\n\n| Grade 1 TEKS / MAP instructional area | Questions |\n|---|---|\n| Operations & Algebraic Thinking — addition, subtraction, unknowns, equations, patterns/equality (1.3, 1.5) | 1–16 |\n| Number & Operations — counting, place value, comparisons, ten more/less, numbers to 120 (1.2) | 17–27 |\n| Measurement & Data — length, capacity, time, tables and graph features (1.7–1.8) | 28–34 |\n| Geometry — two- and three-dimensional attributes, composing/partitioning shapes, position (1.6) | 35–42 |\n| Financial Literacy — coins, needs/wants, earning, saving, trade, budgeting (1.4, 1.9) | 43–50 |\n\n**Combined-term balance:** BOY 1–17; MOY 18–34; EOY 35–50.",
     "source": "authored",
     "needsReview": false
   }

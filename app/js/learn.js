@@ -3,6 +3,7 @@
    explanations — each item is shown as Question → Correct answer → Explanation,
    navigable with prev/next, then "Start Practice". Login required. */
 import { loadSubtopic } from './content-loader.js';
+import { renderMath } from './math-render.js';
 import { param, subjectLabel, requireLogin, renderInline } from './flow.js';
 
 async function init(root) {
@@ -43,13 +44,47 @@ async function init(root) {
     // Mirrors legacy learn.html: "Learning Question N", the question as a lead, then the
     // explanation in a light panel. (Legacy also showed LLM Examples + "Why this matters";
     // the static site has no runtime LLM, so those sections are absent.)
+    /* The reading passage the question asks about. Without it, items like "How does Marcus
+       MOST change from the beginning of the passage to the end?" are unanswerable — 175 of
+       them shipped that way before the parser learned to keep passages. */
+    const passageHtml = it.passage ? `
+      <div class="passage-section mb-4">
+        <h5><i class="fas fa-book-open me-2 text-secondary"></i>${it.passageTitle
+          ? renderInline(it.passageTitle) : 'Read the passage'}</h5>
+        <div class="nn-passage bg-light border-start border-4 border-secondary p-3 rounded">
+          ${renderInline(it.passage)}
+        </div>
+      </div>` : '';
+
+    /* Legacy Learn showed LLM-written teaching prose, so it never needed answer choices.
+       Ours is derived from MCQs, and an item like "Which word begins with the same sound as
+       sun?" is meaningless without them — the correct answer alone reads as a non-sequitur.
+       A deliberate divergence from obs_templates/learn.html, forced by the no-runtime-LLM
+       constraint. The correct one is marked rather than hidden: this is study mode. */
+    const choicesHtml = (it.options && it.options.length) ? `
+      <div class="choices-section mb-4">
+        <h5><i class="fas fa-list-ul me-2 text-secondary"></i>Choices:</h5>
+        <ul class="list-group">
+          ${it.options.map((opt, n) => {
+            const right = n === it.correctIndex;
+            return `<li class="list-group-item ${right ? 'list-group-item-success fw-semibold' : ''}">
+              <span class="badge ${right ? 'bg-success' : 'bg-secondary'} me-2">${'ABCD'[n] || n + 1}</span>
+              ${renderInline(opt)}
+              ${right ? '<i class="fas fa-check text-success ms-2"></i>' : ''}
+            </li>`;
+          }).join('')}
+        </ul>
+      </div>` : '';
+
     contentEl.innerHTML = `
       <div class="learning-item">
         <h4 class="text-info mb-3"><i class="fas fa-question-circle me-2"></i>Learning Question ${i + 1}</h4>
+        ${passageHtml}
         <div class="question-section mb-4">
           <h5>Question:</h5>
           <p class="lead">${renderInline(it.question)}</p>
         </div>
+        ${choicesHtml}
         ${answer ? `<div class="answer-section mb-4">
           <h5><i class="fas fa-check-circle me-2 text-success"></i>Correct Answer:</h5>
           <div class="bg-success bg-opacity-10 p-3 rounded">${renderInline(answer)}</div>
@@ -59,6 +94,8 @@ async function init(root) {
           <div class="bg-light p-3 rounded">${renderInline(it.explanation)}</div>
         </div>` : ''}
       </div>`;
+    // Typeset after injection: KaTeX walks the live DOM, not a string.
+    renderMath(contentEl);
     counter.textContent = `Learning Content ${i + 1} of ${items.length}`;
     badge.textContent = `${i + 1}/${items.length}`;
     bar.style.width = `${((i + 1) / items.length) * 100}%`;

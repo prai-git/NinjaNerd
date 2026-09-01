@@ -15,7 +15,7 @@
       "16"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. 10**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $8+5=13$ beads; $13-3=10$ beads left.  \n**Why the other answers are wrong:** B forgets one bead used; C is before using beads; D adds instead of subtracting.  \n**Key concept:** Two-step addition and subtraction.",
+    "explanation": "**Correct answer: A. 10**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(8+5=13\\) beads; \\(13-3=10\\) beads left.  \n**Why the other answers are wrong:** B forgets one bead used; C is before using beads; D adds instead of subtracting.  \n**Key concept:** Two-step addition and subtraction.",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which equation has the same value as $9 + 6$?",
+    "question": "Which equation has the same value as \\(9 + 6\\)?",
     "options": [
-      "$10 + 5$",
-      "$8 + 5$",
-      "$9 + 5$",
-      "$10 + 6$"
+      "\\(10 + 5\\)",
+      "\\(8 + 5\\)",
+      "\\(9 + 5\\)",
+      "\\(10 + 6\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. $10+5$**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $9+6=15$, and $10+5=15$.  \n**Why the other answers are wrong:** B is 13; C is 14; D is 16.  \n**Key concept:** Equivalent sums.",
+    "explanation": "**Correct answer: A. \\(10+5\\)**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(9+6=15\\), and \\(10+5=15\\).  \n**Why the other answers are wrong:** B is 13; C is 14; D is 16.  \n**Key concept:** Equivalent sums.",
     "source": "authored",
     "needsReview": false
   },
@@ -47,7 +47,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Fill in the box: $7 + \\Box = 15$.",
+    "question": "Fill in the box: \\(7 + \\Box = 15\\).",
     "options": [
       "6",
       "7",
@@ -55,7 +55,7 @@
       "9"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 8**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Count from 7 to 15: 8 more. $7+8=15$.  \n**Why the other answers are wrong:** A gives 13; B gives 14; D gives 16.  \n**Key concept:** Missing addend.",
+    "explanation": "**Correct answer: C. 8**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Count from 7 to 15: 8 more. \\(7+8=15\\).  \n**Why the other answers are wrong:** A gives 13; B gives 14; D gives 16.  \n**Key concept:** Missing addend.",
     "source": "authored",
     "needsReview": false
   },
@@ -69,13 +69,13 @@
     "passageTitle": null,
     "question": "There are 14 frogs near a pond. Then 6 frogs hop away. Which equation shows how many frogs are left?",
     "options": [
-      "$14 + 6 = 20$",
-      "$14 - 6 = 8$",
-      "$6 - 14 = 8$",
-      "$14 - 8 = 6$"
+      "\\(14 + 6 = 20\\)",
+      "\\(14 - 6 = 8\\)",
+      "\\(6 - 14 = 8\\)",
+      "\\(14 - 8 = 6\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. $14-6=8$**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** “Hop away” means take 6 from 14: $14-6=8$.  \n**Why the other answers are wrong:** A adds; C starts with the smaller number; D has the subtraction backward for the story.  \n**Key concept:** Representing a take-away story.",
+    "explanation": "**Correct answer: B. \\(14-6=8\\)**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** “Hop away” means take 6 from 14: \\(14-6=8\\).  \n**Why the other answers are wrong:** A adds; C starts with the smaller number; D has the subtraction backward for the story.  \n**Key concept:** Representing a take-away story.",
     "source": "authored",
     "needsReview": false
   },
@@ -87,7 +87,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which number makes the equation true? $12 = 5 + \\Box$",
+    "question": "Which number makes the equation true? \\(12 = 5 + \\Box\\)",
     "options": [
       "5",
       "6",
@@ -95,7 +95,7 @@
       "17"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 7**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $12-5=7$, so $5+7=12$.  \n**Why the other answers are wrong:** A totals 10; B totals 11; D totals 22.  \n**Key concept:** Unknown addend.",
+    "explanation": "**Correct answer: C. 7**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(12-5=7\\), so \\(5+7=12\\).  \n**Why the other answers are wrong:** A totals 10; B totals 11; D totals 22.  \n**Key concept:** Unknown addend.",
     "source": "authored",
     "needsReview": false
   },
@@ -107,7 +107,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Omar solves $8 + 7$ by thinking, “$8 + 2 = 10$, then $10 + 5 = 15$.” What is the value of $8 + 7$?",
+    "question": "Omar solves \\(8 + 7\\) by thinking, “\\(8 + 2 = 10\\), then \\(10 + 5 = 15\\).” What is the value of \\(8 + 7\\)?",
     "options": [
       "10",
       "13",
@@ -115,7 +115,7 @@
       "17"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 15**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Split 7 into 2 and 5: $8+2=10$ and $10+5=15$.  \n**Why the other answers are wrong:** A stops after making 10; B omits 2; D adds 2 too many.  \n**Key concept:** Making a ten.",
+    "explanation": "**Correct answer: C. 15**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Split 7 into 2 and 5: \\(8+2=10\\) and \\(10+5=15\\).  \n**Why the other answers are wrong:** A stops after making 10; B omits 2; D adds 2 too many.  \n**Key concept:** Making a ten.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "27"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 9**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $18-9=9$.  \n**Why the other answers are wrong:** A and B are too small; D adds the groups.  \n**Key concept:** Subtraction within 20.",
+    "explanation": "**Correct answer: C. 9**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(18-9=9\\).  \n**Why the other answers are wrong:** A and B are too small; D adds the groups.  \n**Key concept:** Subtraction within 20.",
     "source": "authored",
     "needsReview": false
   },
@@ -147,7 +147,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which story matches $11 + 4 = 15$?",
+    "question": "Which story matches \\(11 + 4 = 15\\)?",
     "options": [
       "Eleven ducks swim away and four stay.",
       "Eleven shells are in a pail, and four more shells are added.",
@@ -169,13 +169,13 @@
     "passageTitle": null,
     "question": "Which equation is true?",
     "options": [
-      "$6 + 8 = 13$",
-      "$9 + 4 = 14$",
-      "$7 + 7 = 14$",
-      "$15 - 6 = 8$"
+      "\\(6 + 8 = 13\\)",
+      "\\(9 + 4 = 14\\)",
+      "\\(7 + 7 = 14\\)",
+      "\\(15 - 6 = 8\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. $7+7=14$**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Double 7 is 14.  \n**Why the other answers are wrong:** A is 14, not 13; B is 13, not 14; D is 9, not 8.  \n**Key concept:** Checking equations.",
+    "explanation": "**Correct answer: C. \\(7+7=14\\)**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Double 7 is 14.  \n**Why the other answers are wrong:** A is 14, not 13; B is 13, not 14; D is 9, not 8.  \n**Key concept:** Checking equations.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "20"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 12**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $10-4=6$; then $6+6=12$.  \n**Why the other answers are wrong:** A subtracts all the stickers; B stops after giving 4 away; D adds before subtracting.  \n**Key concept:** Two-step addition and subtraction.",
+    "explanation": "**Correct answer: C. 12**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(10-4=6\\); then \\(6+6=12\\).  \n**Why the other answers are wrong:** A subtracts all the stickers; B stops after giving 4 away; D adds before subtracting.  \n**Key concept:** Two-step addition and subtraction.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "18"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 15**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.5.  \n**Work:** Each number is 3 more: $12+3=15$.  \n**Why the other answers are wrong:** A and B add too little; D adds 6.  \n**Key concept:** Repeating number pattern.",
+    "explanation": "**Correct answer: C. 15**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.5.  \n**Work:** Each number is 3 more: \\(12+3=15\\).  \n**Why the other answers are wrong:** A and B add too little; D adds 6.  \n**Key concept:** Repeating number pattern.",
     "source": "authored",
     "needsReview": false
   },
@@ -229,13 +229,13 @@
     "passageTitle": null,
     "question": "Which number sentence shows that two groups are equal?",
     "options": [
-      "$4 + 6 = 11$",
-      "$9 = 5 + 4$",
-      "$12 - 3 = 8$",
-      "$7 + 2 = 10$"
+      "\\(4 + 6 = 11\\)",
+      "\\(9 = 5 + 4\\)",
+      "\\(12 - 3 = 8\\)",
+      "\\(7 + 2 = 10\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. $9=5+4$**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.5.  \n**Work:** Both sides equal 9.  \n**Why the other answers are wrong:** A is 10, C is 9 not 8, and D is 9 not 10.  \n**Key concept:** Meaning of the equal sign.",
+    "explanation": "**Correct answer: B. \\(9=5+4\\)**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.5.  \n**Work:** Both sides equal 9.  \n**Why the other answers are wrong:** A is 10, C is 9 not 8, and D is 9 not 10.  \n**Key concept:** Meaning of the equal sign.",
     "source": "authored",
     "needsReview": false
   },
@@ -249,13 +249,13 @@
     "passageTitle": null,
     "question": "A ten-frame has 10 counters. Five more counters are beside it. Which equation matches the counters?",
     "options": [
-      "$10 + 5 = 15$",
-      "$10 - 5 = 5$",
-      "$5 + 5 = 5$",
-      "$15 - 10 = 10$"
+      "\\(10 + 5 = 15\\)",
+      "\\(10 - 5 = 5\\)",
+      "\\(5 + 5 = 5\\)",
+      "\\(15 - 10 = 10\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. $10+5=15$**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** One full ten-frame is 10; add 5 counters to get 15.  \n**Why the other answers are wrong:** B subtracts; C totals 5; D has an incorrect difference.  \n**Key concept:** Tens and ones in an addition model.",
+    "explanation": "**Correct answer: A. \\(10+5=15\\)**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** One full ten-frame is 10; add 5 counters to get 15.  \n**Why the other answers are wrong:** B subtracts; C totals 5; D has an incorrect difference.  \n**Key concept:** Tens and ones in an addition model.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "26"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 8**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $17-9=8$, or count up 8 from 9 to 17.  \n**Why the other answers are wrong:** A and B are too few; D adds the quantities.  \n**Key concept:** Finding an unknown addend.",
+    "explanation": "**Correct answer: C. 8**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(17-9=8\\), or count up 8 from 9 to 17.  \n**Why the other answers are wrong:** A and B are too few; D adds the quantities.  \n**Key concept:** Finding an unknown addend.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "11 and 4"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. 9 and 7**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** $9+7=16$.  \n**Why the other answers are wrong:** A is 15; C is 15; D is 15.  \n**Key concept:** Composing 16.",
+    "explanation": "**Correct answer: B. 9 and 7**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** \\(9+7=16\\).  \n**Why the other answers are wrong:** A is 15; C is 15; D is 15.  \n**Key concept:** Composing 16.",
     "source": "authored",
     "needsReview": false
   },
@@ -309,13 +309,13 @@
     "passageTitle": null,
     "question": "There are 13 apples. Some are green and 5 are red. Which equation can find the number of green apples?",
     "options": [
-      "$13 + 5 = \\Box$",
-      "$13 - 5 = \\Box$",
-      "$5 - 13 = \\Box$",
-      "$13 + \\Box = 5$"
+      "\\(13 + 5 = \\Box\\)",
+      "\\(13 - 5 = \\Box\\)",
+      "\\(5 - 13 = \\Box\\)",
+      "\\(13 + \\Box = 5\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. $13-5=\\Box$**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Take the 5 red apples away from 13 total apples to find green apples.  \n**Why the other answers are wrong:** A adds; C reverses the subtraction; D cannot represent a total of 13.  \n**Key concept:** Part-part-whole subtraction.",
+    "explanation": "**Correct answer: B. \\(13-5=\\Box\\)**  \n**MAP area / TEKS:** Operations & Algebraic Thinking; 1.3.  \n**Work:** Take the 5 red apples away from 13 total apples to find green apples.  \n**Why the other answers are wrong:** A adds; C reverses the subtraction; D cannot represent a total of 13.  \n**Key concept:** Part-part-whole subtraction.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "80"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 18**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $8+10=18$.  \n**Why the other answers are wrong:** A is 6 less; B is only 2 more; D changes the digit's place value.  \n**Key concept:** Ten more.",
+    "explanation": "**Correct answer: C. 18**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** \\(8+10=18\\).  \n**Why the other answers are wrong:** A is 6 less; B is only 2 more; D changes the digit's place value.  \n**Key concept:** Ten more.",
     "source": "authored",
     "needsReview": false
   }

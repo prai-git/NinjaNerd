@@ -7,15 +7,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "The table shows books read.\n\n| Team | Books |\n|---|---:|\n| Cedar | $8$ |\n| Maple | $11$ |\n| Oak | $6$ |\n| Pine | $9$ |\n\nHow many more books did Maple read than Oak?",
+    "question": "The table shows books read.\n\n| Team | Books |\n|---|---:|\n| Cedar | \\(8\\) |\n| Maple | \\(11\\) |\n| Oak | \\(6\\) |\n| Pine | \\(9\\) |\n\nHow many more books did Maple read than Oak?",
     "options": [
-      "$3$",
-      "$5$",
-      "$17$",
-      "$19$"
+      "\\(3\\)",
+      "\\(5\\)",
+      "\\(17\\)",
+      "\\(19\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. $5$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Compare the data: $11-6=5$.  \n**Why the other answers are wrong:** A. $3$ — it does not fit because Compare the data: $11-6=5$. C. $17$ — it does not fit because Compare the data: $11-6=5$. D. $19$ — it does not fit because Compare the data: $11-6=5$.  \n**Key concept:** data tables  \n\n---",
+    "explanation": "**Correct answer:** B. \\(5\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Compare the data: \\(11-6=5\\).  \n**Why the other answers are wrong:** A. \\(3\\) — it does not fit because Compare the data: \\(11-6=5\\). C. \\(17\\) — it does not fit because Compare the data: \\(11-6=5\\). D. \\(19\\) — it does not fit because Compare the data: \\(11-6=5\\).  \n**Key concept:** data tables  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "In a picture graph, each ★ stands for $2$ lunches. Soup has ★★★★. How many chose soup?",
+    "question": "In a picture graph, each ★ stands for \\(2\\) lunches. Soup has ★★★★. How many chose soup?",
     "options": [
-      "$4$",
-      "$6$",
-      "$8$",
-      "$16$"
+      "\\(4\\)",
+      "\\(6\\)",
+      "\\(8\\)",
+      "\\(16\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $8$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Four symbols at $2$ each represent $4\times2=8$.  \n**Why the other answers are wrong:** A. $4$ — it does not fit because Four symbols at $2$ each represent $4\times2=8$. B. $6$ — it does not fit because Four symbols at $2$ each represent $4\times2=8$. D. $16$ — it does not fit because Four symbols at $2$ each represent $4\times2=8$.  \n**Key concept:** pictographs  \n\n---",
+    "explanation": "**Correct answer:** C. \\(8\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Four symbols at \\(2\\) each represent \\(4\times2=8\\).  \n**Why the other answers are wrong:** A. \\(4\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\times2=8\\). B. \\(6\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\times2=8\\). D. \\(16\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\times2=8\\).  \n**Key concept:** pictographs  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A bar graph shows Art Club $20$ and Music Club $35$. How many more are in Music Club?",
+    "question": "A bar graph shows Art Club \\(20\\) and Music Club \\(35\\). How many more are in Music Club?",
     "options": [
-      "$5$",
-      "$10$",
-      "$15$",
-      "$55$"
+      "\\(5\\)",
+      "\\(10\\)",
+      "\\(15\\)",
+      "\\(55\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $15$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** $35-20=15$ students.  \n**Why the other answers are wrong:** A. $5$ — it does not fit because $35-20=15$ students. B. $10$ — it does not fit because $35-20=15$ students. D. $55$ — it does not fit because $35-20=15$ students.  \n**Key concept:** bar graphs  \n\n---",
+    "explanation": "**Correct answer:** C. \\(15\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** \\(35-20=15\\) students.  \n**Why the other answers are wrong:** A. \\(5\\) — it does not fit because \\(35-20=15\\) students. B. \\(10\\) — it does not fit because \\(35-20=15\\) students. D. \\(55\\) — it does not fit because \\(35-20=15\\) students.  \n**Key concept:** bar graphs  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A survey has $14$ apples, $9$ bananas, and $7$ pears. How many chose apples or pears?",
+    "question": "A survey has \\(14\\) apples, \\(9\\) bananas, and \\(7\\) pears. How many chose apples or pears?",
     "options": [
-      "$7$",
-      "$14$",
-      "$16$",
-      "$21$"
+      "\\(7\\)",
+      "\\(14\\)",
+      "\\(16\\)",
+      "\\(21\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. $21$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Add the named categories: $14+7=21$.  \n**Why the other answers are wrong:** A. $7$ — it does not fit because Add the named categories: $14+7=21$. B. $14$ — it does not fit because Add the named categories: $14+7=21$. C. $16$ — it does not fit because Add the named categories: $14+7=21$.  \n**Key concept:** graph problems  \n\n---",
+    "explanation": "**Correct answer:** D. \\(21\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Add the named categories: \\(14+7=21\\).  \n**Why the other answers are wrong:** A. \\(7\\) — it does not fit because Add the named categories: \\(14+7=21\\). B. \\(14\\) — it does not fit because Add the named categories: \\(14+7=21\\). C. \\(16\\) — it does not fit because Add the named categories: \\(14+7=21\\).  \n**Key concept:** graph problems  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "Library visitors were $12$, $16$, then $20$ on three days. What is a reasonable next number?",
+    "question": "Library visitors were \\(12\\), \\(16\\), then \\(20\\) on three days. What is a reasonable next number?",
     "options": [
-      "$18$",
-      "$22$",
-      "$24$",
-      "$32$"
+      "\\(18\\)",
+      "\\(22\\)",
+      "\\(24\\)",
+      "\\(32\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $24$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** The pattern adds $4$, so $20+4=24$.  \n**Why the other answers are wrong:** A. $18$ — it does not fit because The pattern adds $4$, so $20+4=24$. B. $22$ — it does not fit because The pattern adds $4$, so $20+4=24$. D. $32$ — it does not fit because The pattern adds $4$, so $20+4=24$.  \n**Key concept:** predictions  \n\n---",
+    "explanation": "**Correct answer:** C. \\(24\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** The pattern adds \\(4\\), so \\(20+4=24\\).  \n**Why the other answers are wrong:** A. \\(18\\) — it does not fit because The pattern adds \\(4\\), so \\(20+4=24\\). B. \\(22\\) — it does not fit because The pattern adds \\(4\\), so \\(20+4=24\\). D. \\(32\\) — it does not fit because The pattern adds \\(4\\), so \\(20+4=24\\).  \n**Key concept:** predictions  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -107,7 +107,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is a responsible reason to borrow $8$?",
+    "question": "Which is a responsible reason to borrow \\(8\\)?",
     "options": [
       "To replace a lost library book and repay after allowance.",
       "To buy a toy with no repayment plan.",
@@ -127,15 +127,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "Milo sells $10$ key chains for $\\$2$ each. Supplies cost $\\$12$. What remains after costs?",
+    "question": "Milo sells \\(10\\) key chains for \\($2\\) each. Supplies cost \\($12\\). What remains after costs?",
     "options": [
-      "$\\$8$",
-      "$\\$10$",
-      "$\\$12$",
-      "$\\$20$"
+      "\\($8\\)",
+      "\\($10\\)",
+      "\\($12\\)",
+      "\\($20\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. $\\$8$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Sales are $10\times2=20$ dollars; $20-12=8$ dollars remain.  \n**Why the other answers are wrong:** B. $\\$10$ — it does not fit because Sales are $10\times2=20$ dollars; $20-12=8$ dollars remain. C. $\\$12$ — it does not fit because Sales are $10\times2=20$ dollars; $20-12=8$ dollars remain. D. $\\$20$ — it does not fit because Sales are $10\times2=20$ dollars; $20-12=8$ dollars remain.  \n**Key concept:** producer costs  \n\n---",
+    "explanation": "**Correct answer:** A. \\($8\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain.  \n**Why the other answers are wrong:** B. \\($10\\) — it does not fit because Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain. C. \\($12\\) — it does not fit because Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain. D. \\($20\\) — it does not fit because Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain.  \n**Key concept:** producer costs  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A jar has $\\$4$ saved. Each week, $\\$2$ is added for $3$ weeks. How much is saved?",
+    "question": "A jar has \\($4\\) saved. Each week, \\($2\\) is added for \\(3\\) weeks. How much is saved?",
     "options": [
-      "$\\$5$",
-      "$\\$6$",
-      "$\\$8$",
-      "$\\$10$"
+      "\\($5\\)",
+      "\\($6\\)",
+      "\\($8\\)",
+      "\\($10\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. $\\$10$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Three additions of $\\$2$ make $\\$6$; $\\$4+\\$6=\\$10$.  \n**Why the other answers are wrong:** A. $\\$5$ — it does not fit because Three additions of $\\$2$ make $\\$6$; $\\$4+\\$6=\\$10$. B. $\\$6$ — it does not fit because Three additions of $\\$2$ make $\\$6$; $\\$4+\\$6=\\$10$. C. $\\$8$ — it does not fit because Three additions of $\\$2$ make $\\$6$; $\\$4+\\$6=\\$10$.  \n**Key concept:** saving  \n\n---",
+    "explanation": "**Correct answer:** D. \\($10\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$.  \n**Why the other answers are wrong:** A. \\($5\\) — it does not fit because Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$. B. \\($6\\) — it does not fit because Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$. C. \\($8\\) — it does not fit because Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$.  \n**Key concept:** saving  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -167,7 +167,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A snack cart sold this many fruit cups.\n\n| Flavor | Cups |\n|---|---:|\n| Peach | $13$ |\n| Berry | $16$ |\n| Mango | $13$ |\n| Apple | $9$ |\n\nWhich flavors have the same frequency?",
+    "question": "A snack cart sold this many fruit cups.\n\n| Flavor | Cups |\n|---|---:|\n| Peach | \\(13\\) |\n| Berry | \\(16\\) |\n| Mango | \\(13\\) |\n| Apple | \\(9\\) |\n\nWhich flavors have the same frequency?",
     "options": [
       "Peach and Mango",
       "Berry and Apple",
@@ -175,7 +175,7 @@
       "Mango and Apple"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. Peach and Mango  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** The table shows $13$ cups for both Peach and Mango.  \n**Why the other answers are wrong:** B. Berry and Apple — it does not fit because The table shows $13$ cups for both Peach and Mango. C. Peach and Berry — it does not fit because The table shows $13$ cups for both Peach and Mango. D. Mango and Apple — it does not fit because The table shows $13$ cups for both Peach and Mango.  \n**Key concept:** frequency tables  \n\n---",
+    "explanation": "**Correct answer:** A. Peach and Mango  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** The table shows \\(13\\) cups for both Peach and Mango.  \n**Why the other answers are wrong:** B. Berry and Apple — it does not fit because The table shows \\(13\\) cups for both Peach and Mango. C. Peach and Berry — it does not fit because The table shows \\(13\\) cups for both Peach and Mango. D. Mango and Apple — it does not fit because The table shows \\(13\\) cups for both Peach and Mango.  \n**Key concept:** frequency tables  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is the best estimate for $478+243$ by rounding each number to the nearest hundred?",
+    "question": "Which is the best estimate for \\(478+243\\) by rounding each number to the nearest hundred?",
     "options": [
-      "$500$",
-      "$600$",
-      "$700$",
-      "$800$"
+      "\\(500\\)",
+      "\\(600\\)",
+      "\\(700\\)",
+      "\\(800\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $700$  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** $478$ rounds to $500$ and $243$ rounds to $200$; $500+200=700$.  \n**Why the other answers are wrong:** A. $500$ — it does not fit because $478$ rounds to $500$ and $243$ rounds to $200$; $500+200=700$. B. $600$ — it does not fit because $478$ rounds to $500$ and $243$ rounds to $200$; $500+200=700$. D. $800$ — it does not fit because $478$ rounds to $500$ and $243$ rounds to $200$; $500+200=700$.  \n**Key concept:** estimation  \n\n---",
+    "explanation": "**Correct answer:** C. \\(700\\)  \n**MAP area / TEKS:** Probability & Statistics; 2.9–2.11  \n**Explanation:** \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\).  \n**Why the other answers are wrong:** A. \\(500\\) — it does not fit because \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\). B. \\(600\\) — it does not fit because \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\). D. \\(800\\) — it does not fit because \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\).  \n**Key concept:** estimation  \n\n---",
     "source": "authored",
     "needsReview": false
   }

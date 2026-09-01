@@ -75,7 +75,7 @@
       "$6.25"
     ],
     "correctIndex": 2,
-    "explanation": "Subtract the cost from the selling price: $14.50 − $8.75 = **$5.75 profit per T-shirt**.\n\n---",
+    "explanation": "Subtract the cost from the selling price: \\(14.50 − \\)8.75 = **$5.75 profit per T-shirt**.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -207,7 +207,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Adding and Subtracting Decimals\nMia had $24.75. She spent $8.49 on a book and $3.20 on a pen. How much money does Mia have left?",
+    "question": "— Adding and Subtracting Decimals\nMia had \\(24.75. She spent \\)8.49 on a book and $3.20 on a pen. How much money does Mia have left?",
     "options": [
       "$12.06",
       "$13.06",
@@ -215,7 +215,7 @@
       "$16.26"
     ],
     "correctIndex": 1,
-    "explanation": "Add the two purchases then subtract from her starting amount: $8.49 + $3.20 = $11.69, and $24.75 − $11.69 = $13.06.\n\n---",
+    "explanation": "Add the two purchases then subtract from her starting amount: \\(8.49 + \\)3.20 = \\(11.69, and \\)24.75 − \\(11.69 = \\)13.06.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "$210"
     ],
     "correctIndex": 1,
-    "explanation": "Find the discount: 30% of $240 = 0.30 × $240 = $72; subtract from the original price: $240 − $72 = $168.\n\n---",
+    "explanation": "Find the discount: 30% of \\(240 = 0.30 × \\)240 = $72; subtract from the original price: $240 − \\(72 = \\)168.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -309,10 +309,10 @@
     "passageTitle": null,
     "question": "— Expanded Notation of Decimals\nWhich expression shows **324.507** written in expanded notation?",
     "options": [
-      "$300 + 20 + 4 + 0.5 + 0.007$",
-      "$300 + 20 + 4 + 0.5 + 0.07$",
-      "$300 + 20 + 4 + 0.05 + 0.007$",
-      "$324 + 0.5 + 0.07$"
+      "\\(300 + 20 + 4 + 0.5 + 0.007\\)",
+      "\\(300 + 20 + 4 + 0.5 + 0.07\\)",
+      "\\(300 + 20 + 4 + 0.05 + 0.007\\)",
+      "\\(324 + 0.5 + 0.07\\)"
     ],
     "correctIndex": 0,
     "explanation": "In 324.507, the digits represent 3 hundreds, 2 tens, 4 ones, 5 tenths, 0 hundredths, and 7 thousandths, which equals 300 + 20 + 4 + 0.5 + 0.007.\n\n---",
@@ -755,7 +755,7 @@
       "$7.53"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → $6.03\n\n**Step-by-step:**\nStep 1 — Cost of notebooks:\n- 3 × $1.85 = **$5.55**\n\nStep 2 — Cost of highlighters:\n- 2 × $0.99 = **$1.98**\n\nStep 3 — Total before coupon:\n- $5.55 + $1.98 = **$7.53**\n\nStep 4 — Apply coupon:\n- $7.53 − $1.50 = **$6.03**\n\n**Why other answers are wrong:**\n- A) $5.53 — forgets to add highlighters; $5.55 − $1.50 = $4.05... actually $5.53 suggests another error\n- C) $6.53 — subtracts only $1.00 instead of $1.50\n- D) $7.53 — forgets to apply the coupon\n\n---",
+    "explanation": "**Correct Answer: B** → $6.03\n\n**Step-by-step:**\nStep 1 — Cost of notebooks:\n- 3 × \\(1.85 = **\\)5.55**\n\nStep 2 — Cost of highlighters:\n- 2 × \\(0.99 = **\\)1.98**\n\nStep 3 — Total before coupon:\n- \\(5.55 + \\)1.98 = **$7.53**\n\nStep 4 — Apply coupon:\n- \\(7.53 − \\)1.50 = **$6.03**\n\n**Why other answers are wrong:**\n- A) $5.53 — forgets to add highlighters; $5.55 − \\(1.50 = \\)4.05... actually $5.53 suggests another error\n- C) \\(6.53 — subtracts only \\)1.00 instead of $1.50\n- D) $7.53 — forgets to apply the coupon\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -795,7 +795,7 @@
       "$85"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → $80\n\n**Step-by-step:**\nThe sale price ($60) is **75% of** the original price (because 25% off = 75% remaining).\n\n- Sale price = 75% × Original\n- $60 = 0.75 × Original\n- Original = $60 ÷ 0.75 = **$80**\n\n**Verification:** $80 × 25% = $20 discount; $80 − $20 = $60 ✓\n\n**Why other answers are wrong:**\n- A) $72 — computes $60 + 20% = $60 × 1.2 = $72 (wrong direction: adds rather than reverses)\n- B) $75 — adds $15 to $60 ($60 + $15 = $75), likely using $60 × 0.25 = $15 incorrectly\n- D) $85 — adds $25 to $60 (wrong: doesn't account for percentage correctly)\n\n**Key concept:** If a sale price is (100% − discount%) of original, reverse it: Original = Sale Price ÷ (100% − discount%).\n\n---",
+    "explanation": "**Correct Answer: C** → $80\n\n**Step-by-step:**\nThe sale price ($60) is **75% of** the original price (because 25% off = 75% remaining).\n\n- Sale price = 75% × Original\n- $60 = 0.75 × Original\n- Original = \\(60 ÷ 0.75 = **\\)80**\n\n**Verification:** \\(80 × 25% = \\)20 discount; \\(80 − \\)20 = $60 ✓\n\n**Why other answers are wrong:**\n- A) \\(72 — computes \\)60 + 20% = \\(60 × 1.2 = \\)72 (wrong direction: adds rather than reverses)\n- B) \\(75 — adds \\)15 to \\(60 (\\)60 + \\(15 = \\)75), likely using \\(60 × 0.25 = \\)15 incorrectly\n- D) \\(85 — adds \\)25 to $60 (wrong: doesn't account for percentage correctly)\n\n**Key concept:** If a sale price is (100% − discount%) of original, reverse it: Original = Sale Price ÷ (100% − discount%).\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -815,7 +815,7 @@
       "$80.64"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → $78.84\n\n**Step-by-step:**\nStep 1 — Total before tax:\n- $45 + $28 = **$73.00**\n\nStep 2 — Calculate 8% sales tax:\n- 8% of $73 = 0.08 × $73 = **$5.84**\n\nStep 3 — Total with tax:\n- $73.00 + $5.84 = **$78.84**\n\n**Verification:** $73 × 1.08 = $78.84 ✓\n\n**Why other answers are wrong:**\n- A) $73.00 — the pretax amount; tax not added\n- B) $75.84 — uses 4% tax instead of 8%: $73 × 0.04 = $2.92; $73 + $2.92 = $75.92 (close but not this)\n- D) $80.64 — uses 10.5% tax (arithmetic error)\n\n---",
+    "explanation": "**Correct Answer: C** → $78.84\n\n**Step-by-step:**\nStep 1 — Total before tax:\n- \\(45 + \\)28 = **$73.00**\n\nStep 2 — Calculate 8% sales tax:\n- 8% of \\(73 = 0.08 × \\)73 = **$5.84**\n\nStep 3 — Total with tax:\n- \\(73.00 + \\)5.84 = **$78.84**\n\n**Verification:** \\(73 × 1.08 = \\)78.84 ✓\n\n**Why other answers are wrong:**\n- A) $73.00 — the pretax amount; tax not added\n- B) $75.84 — uses 4% tax instead of 8%: $73 × 0.04 = \\(2.92; \\)73 + \\(2.92 = \\)75.92 (close but not this)\n- D) $80.64 — uses 10.5% tax (arithmetic error)\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -855,7 +855,7 @@
       "$55.25"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → $9.75\n\n**Step-by-step:**\nStep 1 — Total original price:\n- $40 + $25 = **$65**\n\nStep 2 — Calculate 15% discount (savings):\n- 15% of $65 = 0.15 × $65\n\nCompute: 0.15 × 65 = 0.10 × 65 + 0.05 × 65 = 6.50 + 3.25 = **$9.75**\n\n**Verification:** Sale price = $65 − $9.75 = $55.25; $65 × 0.85 = $55.25 ✓\n\n**Why other answers are wrong:**\n- A) $6.00 — uses 10% of $60 (underestimates total and wrong percentage)\n- C) $10.25 — arithmetic error\n- D) $55.25 — this is the sale PRICE paid, not the money saved\n\n---",
+    "explanation": "**Correct Answer: B** → $9.75\n\n**Step-by-step:**\nStep 1 — Total original price:\n- \\(40 + \\)25 = **$65**\n\nStep 2 — Calculate 15% discount (savings):\n- 15% of \\(65 = 0.15 × \\)65\n\nCompute: 0.15 × 65 = 0.10 × 65 + 0.05 × 65 = 6.50 + 3.25 = **$9.75**\n\n**Verification:** Sale price = \\(65 − \\)9.75 = \\(55.25; \\)65 × 0.85 = $55.25 ✓\n\n**Why other answers are wrong:**\n- A) \\(6.00 — uses 10% of \\)60 (underestimates total and wrong percentage)\n- C) $10.25 — arithmetic error\n- D) $55.25 — this is the sale PRICE paid, not the money saved\n\n---",
     "source": "authored",
     "needsReview": false
   },

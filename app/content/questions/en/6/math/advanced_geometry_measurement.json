@@ -15,7 +15,7 @@
       "540 inches"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Converting units within the customary system.\n\n**Steps:** $4.5 \\text{ ft} \\times 12 \\tfrac{\\text{in}}{\\text{ft}} = 54$ inches.\n\n**Why others are wrong:** B and C use wrong multipliers; D multiplies by 120.\n\n---",
+    "explanation": "**Key concept:** Converting units within the customary system.\n\n**Steps:** \\(4.5 \\text{ ft} \\times 12 \\tfrac{\\text{in}}{\\text{ft}} = 54\\) inches.\n\n**Why others are wrong:** B and C use wrong multipliers; D multiplies by 120.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "46 cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Area of a triangle, $A = \\frac{1}{2} b h$.\n\n**Steps:** $A = \\frac{1}{2} \\times 14 \\times 9 = 7 \\times 9 = 63$ cm².\n\n**Why others are wrong:** B forgets the $\\frac12$ (that's the rectangle); C adds the dimensions; D is a random error.\n\n---",
+    "explanation": "**Key concept:** Area of a triangle, \\(A = \\frac{1}{2} b h\\).\n\n**Steps:** \\(A = \\frac{1}{2} \\times 14 \\times 9 = 7 \\times 9 = 63\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\frac12\\) (that's the rectangle); C adds the dimensions; D is a random error.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -47,7 +47,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "In which **quadrant** is the point $(-2, 5)$ located?",
+    "question": "In which **quadrant** is the point \\((-2, 5)\\) located?",
     "options": [
       "Quadrant II",
       "Quadrant I",
@@ -55,7 +55,7 @@
       "Quadrant IV"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Identifying quadrants on the coordinate plane.\n\n**Steps:** $x = -2$ (negative → left) and $y = 5$ (positive → up). Left-and-up is **Quadrant II**.\n\n**Why others are wrong:** Quadrant I has both positive; Quadrant III both negative; Quadrant IV is positive-x, negative-y.\n\n---",
+    "explanation": "**Key concept:** Identifying quadrants on the coordinate plane.\n\n**Steps:** \\(x = -2\\) (negative → left) and \\(y = 5\\) (positive → up). Left-and-up is **Quadrant II**.\n\n**Why others are wrong:** Quadrant I has both positive; Quadrant III both negative; Quadrant IV is positive-x, negative-y.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "24 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**Concept:** Volume of a rectangular prism, $V = l \\times w \\times h$.\n$$V = 5 \\times 4 \\times 3 = 60 \\text{ cm}^3$$\n**Answer B.**\n\n---",
+    "explanation": "**Concept:** Volume of a rectangular prism, \\(V = l \\times w \\times h\\).\n$$V = 5 \\times 4 \\times 3 = 60 \\text{ cm}^3$$\n**Answer B.**\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "38 in²"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Area of a parallelogram, $A = b \\times h$.\n$$A = 12 \\times 7 = 84 \\text{ in}^2$$\n**Answer C.** (Choice A adds instead of multiplies.)\n\n---",
+    "explanation": "**Concept:** Area of a parallelogram, \\(A = b \\times h\\).\n$$A = 12 \\times 7 = 84 \\text{ in}^2$$\n**Answer C.** (Choice A adds instead of multiplies.)\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "35,000 grams"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Metric conversion — kilograms to grams.\nMultiply by 1,000: $3.5 \\times 1{,}000 = 3{,}500$ grams. **Answer C.**\n\n---",
+    "explanation": "**Concept:** Metric conversion — kilograms to grams.\nMultiply by 1,000: \\(3.5 \\times 1{,}000 = 3{,}500\\) grams. **Answer C.**\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "On a coordinate grid, point $P$ is located at $(3, 5)$. Point $P$ is **reflected across the $x$-axis**. What are the coordinates of the new point?",
+    "question": "On a coordinate grid, point \\(P\\) is located at \\((3, 5)\\). Point \\(P\\) is **reflected across the \\(x\\)-axis**. What are the coordinates of the new point?",
     "options": [
-      "$(-3, 5)$",
-      "$(3, -5)$",
-      "$(-3, -5)$",
-      "$(5, 3)$"
+      "\\((-3, 5)\\)",
+      "\\((3, -5)\\)",
+      "\\((-3, -5)\\)",
+      "\\((5, 3)\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Concept:** Reflecting a point across the $x$-axis.\nReflecting across the $x$-axis keeps the $x$-coordinate the same and changes the sign of the $y$-coordinate: $(3, 5) \\rightarrow (3, -5)$. **Answer B.**\n- Choice A reflects across the $y$-axis; Choice C reflects across the origin.\n\n---",
+    "explanation": "**Concept:** Reflecting a point across the \\(x\\)-axis.\nReflecting across the \\(x\\)-axis keeps the \\(x\\)-coordinate the same and changes the sign of the \\(y\\)-coordinate: \\((3, 5) \\rightarrow (3, -5)\\). **Answer B.**\n- Choice A reflects across the \\(y\\)-axis; Choice C reflects across the origin.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "48 m²"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Area of a rectangle with decimal dimensions, $A = l \\times w$.\n$$A = 8.5 \\times 6 = 51 \\text{ m}^2$$\n**Answer C.** (Choice B, 29, is the *perimeter*, not the area.)\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
+    "explanation": "**Concept:** Area of a rectangle with decimal dimensions, \\(A = l \\times w\\).\n$$A = 8.5 \\times 6 = 51 \\text{ m}^2$$\n**Answer C.** (Choice B, 29, is the *perimeter*, not the area.)\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "32 cm²"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.8D — Area of a triangle.*\n$A = \\frac{1}{2} \\times b \\times h = \\frac{1}{2} \\times 10 \\times 6 = \\frac{1}{2} \\times 60 = \\mathbf{30}$ cm².",
+    "explanation": "*TEKS 6.8D — Area of a triangle.*\n\\(A = \\frac{1}{2} \\times b \\times h = \\frac{1}{2} \\times 10 \\times 6 = \\frac{1}{2} \\times 60 = \\mathbf{30}\\) cm².",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "65 m"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 5.4H — Perimeter of a rectangle.*\n$P = 2(l + w) = 2(25 + 15) = 2 \\times 40 = \\mathbf{80}$ m.",
+    "explanation": "*TEKS 5.4H — Perimeter of a rectangle.*\n\\(P = 2(l + w) = 2(25 + 15) = 2 \\times 40 = \\mathbf{80}\\) m.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "24 inches"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.4H — Customary unit conversion.*\n$4 \\text{ feet} \\times 12 \\frac{\\text{in}}{\\text{ft}} = \\mathbf{48}$ inches.",
+    "explanation": "*TEKS 6.4H — Customary unit conversion.*\n\\(4 \\text{ feet} \\times 12 \\frac{\\text{in}}{\\text{ft}} = \\mathbf{48}\\) inches.",
     "source": "authored",
     "needsReview": false
   },
@@ -227,7 +227,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "In which **quadrant** is the point $(-3, 4)$ located?",
+    "question": "In which **quadrant** is the point \\((-3, 4)\\) located?",
     "options": [
       "Quadrant I",
       "Quadrant II",
@@ -235,7 +235,7 @@
       "Quadrant IV"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.11A — Coordinate plane.*\nThe point $(-3, 4)$ has a **negative x** and a **positive y**. Negative-x, positive-y places it in the **upper-left**, which is **Quadrant II**.\n\n---\n\n# Data Analysis & Personal Financial Literacy",
+    "explanation": "*TEKS 6.11A — Coordinate plane.*\nThe point \\((-3, 4)\\) has a **negative x** and a **positive y**. Negative-x, positive-y places it in the **upper-left**, which is **Quadrant II**.\n\n---\n\n# Data Analysis & Personal Financial Literacy",
     "source": "authored",
     "needsReview": false
   },
@@ -307,12 +307,12 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "The point **$(4, -2)$** is reflected **across the x-axis**. What are the coordinates of the new point?",
+    "question": "The point **\\((4, -2)\\)** is reflected **across the x-axis**. What are the coordinates of the new point?",
     "options": [
-      "$(-4, -2)$",
-      "$(4, 2)$",
-      "$(-4, 2)$",
-      "$(-2, 4)$"
+      "\\((-4, -2)\\)",
+      "\\((4, 2)\\)",
+      "\\((-4, 2)\\)",
+      "\\((-2, 4)\\)"
     ],
     "correctIndex": 1,
     "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.11A**\nReflecting across the **x-axis** keeps the x-coordinate the same and changes the sign of the y-coordinate: (4, −2) → **(4, 2)**.\n**Why others are wrong:** A reflects across the y-axis. C reflects across both axes. D swaps the coordinates.\n**Key concept:** Reflections on the coordinate plane.\n\n---\n\n# Data Analysis & Personal Financial Literacy",
@@ -327,7 +327,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A trapezoid has parallel bases of **10 cm** and **6 cm** and a height of **4 cm**. Using $A = \\tfrac{1}{2}(b_1 + b_2)h$, what is its **area**?",
+    "question": "A trapezoid has parallel bases of **10 cm** and **6 cm** and a height of **4 cm**. Using \\(A = \\tfrac{1}{2}(b_1 + b_2)h\\), what is its **area**?",
     "options": [
       "32 cm²",
       "64 cm²",
@@ -335,7 +335,7 @@
       "20 cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.8D | MAP Area: Geometry & Measurement**\n\n**Work:** $A = \\tfrac{1}{2}(b_1 + b_2)h = \\tfrac{1}{2}(10 + 6)(4) = \\tfrac{1}{2}(16)(4) = \\tfrac{1}{2}(64) = 32$ cm².\n\n**Why others are wrong:** B forgets the $\\tfrac{1}{2}$. C adds bases without the height factor correctly. D uses only one base.\n\n**Key concept:** Trapezoid area uses the average of the two parallel bases times the height.\n\n---",
+    "explanation": "**TEKS 6.8D | MAP Area: Geometry & Measurement**\n\n**Work:** \\(A = \\tfrac{1}{2}(b_1 + b_2)h = \\tfrac{1}{2}(10 + 6)(4) = \\tfrac{1}{2}(16)(4) = \\tfrac{1}{2}(64) = 32\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\tfrac{1}{2}\\). C adds bases without the height factor correctly. D uses only one base.\n\n**Key concept:** Trapezoid area uses the average of the two parallel bases times the height.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -347,7 +347,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A circular garden has a **radius of 7 meters**. Using $C = 2\\pi r$ and $\\pi \\approx 3.14$, which is closest to the **circumference**?",
+    "question": "A circular garden has a **radius of 7 meters**. Using \\(C = 2\\pi r\\) and \\(\\pi \\approx 3.14\\), which is closest to the **circumference**?",
     "options": [
       "21.98 m",
       "43.96 m",
@@ -355,7 +355,7 @@
       "14 m"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.9B / 7.5B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** $C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96$ m.\n\n**Why others are wrong:** A uses $\\pi r$ (only one radius). C uses $\\pi r^2$ (that is area, not circumference). D forgets $\\pi$ entirely.\n\n**Key concept:** Circumference $C = 2\\pi r = \\pi d$; do not confuse it with area.\n\n---",
+    "explanation": "**TEKS 7.9B / 7.5B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) m.\n\n**Why others are wrong:** A uses \\(\\pi r\\) (only one radius). C uses \\(\\pi r^2\\) (that is area, not circumference). D forgets \\(\\pi\\) entirely.\n\n**Key concept:** Circumference \\(C = 2\\pi r = \\pi d\\); do not confuse it with area.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -367,7 +367,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A circular tabletop has a **diameter of 10 inches**. Using $A = \\pi r^2$ with $\\pi \\approx 3.14$, which is closest to the **area** of the tabletop?",
+    "question": "A circular tabletop has a **diameter of 10 inches**. Using \\(A = \\pi r^2\\) with \\(\\pi \\approx 3.14\\), which is closest to the **area** of the tabletop?",
     "options": [
       "31.4 in²",
       "78.5 in²",
@@ -375,7 +375,7 @@
       "157 in²"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.9B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** Diameter 10 → radius $r = 5$. $A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 = 78.5$ in².\n\n**Why others are wrong:** A uses $\\pi r$ (circumference-style). C uses $r = 10$ (used the diameter). D used $r=5$ but doubled instead of squaring in a way that gives $157$ (used $\\pi \\cdot 2r^2$/circumference of diameter error).\n\n**Key concept:** Area of a circle $A = \\pi r^2$; remember to halve the diameter first, then square the radius.\n\n---",
+    "explanation": "**TEKS 7.9B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** Diameter 10 → radius \\(r = 5\\). \\(A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 = 78.5\\) in².\n\n**Why others are wrong:** A uses \\(\\pi r\\) (circumference-style). C uses \\(r = 10\\) (used the diameter). D used \\(r=5\\) but doubled instead of squaring in a way that gives \\(157\\) (used \\(\\pi \\cdot 2r^2\\)/circumference of diameter error).\n\n**Key concept:** Area of a circle \\(A = \\pi r^2\\); remember to halve the diameter first, then square the radius.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -387,7 +387,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A right triangle has legs of **9 cm** and **12 cm**. Using $a^2 + b^2 = c^2$, what is the length of the **hypotenuse**?",
+    "question": "A right triangle has legs of **9 cm** and **12 cm**. Using \\(a^2 + b^2 = c^2\\), what is the length of the **hypotenuse**?",
     "options": [
       "15 cm",
       "21 cm",
@@ -395,7 +395,7 @@
       "10.5 cm"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.7C (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** $c^2 = 9^2 + 12^2 = 81 + 144 = 225$; $c = \\sqrt{225} = 15$ cm.\n\n**Why others are wrong:** B adds the legs ($9+12$). C forgets to take the square root. D averages the legs.\n\n**Key concept:** Pythagorean theorem $a^2 + b^2 = c^2$; the hypotenuse is the square root of the sum of the squared legs.\n\n---",
+    "explanation": "**TEKS 8.7C (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\); \\(c = \\sqrt{225} = 15\\) cm.\n\n**Why others are wrong:** B adds the legs (\\(9+12\\)). C forgets to take the square root. D averages the legs.\n\n**Key concept:** Pythagorean theorem \\(a^2 + b^2 = c^2\\); the hypotenuse is the square root of the sum of the squared legs.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -407,7 +407,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A cylindrical can has a **radius of 3 cm** and a **height of 10 cm**. Using $V = \\pi r^2 h$ with $\\pi \\approx 3.14$, which is closest to the **volume**?",
+    "question": "A cylindrical can has a **radius of 3 cm** and a **height of 10 cm**. Using \\(V = \\pi r^2 h\\) with \\(\\pi \\approx 3.14\\), which is closest to the **volume**?",
     "options": [
       "94.2 cm³",
       "282.6 cm³",
@@ -415,7 +415,7 @@
       "90 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.6A / 8.7A (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** $V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10 = 3.14 \\times 9 \\times 10 = 3.14 \\times 90 = 282.6$ cm³.\n\n**Why others are wrong:** A uses $r$ but forgets to square (or drops a factor). C forgets to square the radius ($3.14 \\times 6 \\times 10$-type). D drops $\\pi$.\n\n**Key concept:** Volume of a cylinder $V = Bh = \\pi r^2 h$; the base is a circle, so square the radius.\n\n---",
+    "explanation": "**TEKS 8.6A / 8.7A (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10 = 3.14 \\times 9 \\times 10 = 3.14 \\times 90 = 282.6\\) cm³.\n\n**Why others are wrong:** A uses \\(r\\) but forgets to square (or drops a factor). C forgets to square the radius (\\(3.14 \\times 6 \\times 10\\)-type). D drops \\(\\pi\\).\n\n**Key concept:** Volume of a cylinder \\(V = Bh = \\pi r^2 h\\); the base is a circle, so square the radius.\n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "5 cups"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.4H (multi-step conversion) | MAP Area: Geometry & Measurement**\n\n**Work:** $2.5$ L $= 2.5 \\times 1000 = 2500$ mL. $2500 \\div 250 = 10$ full cups.\n\n**Why others are wrong:** A divides by 100 instead of 250. C converts but forgets to divide by the cup size. D divides liters by cups without converting units.\n\n**Key concept:** Convert to a common unit first, then divide; multi-step measurement reasoning.\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
+    "explanation": "**TEKS 6.4H (multi-step conversion) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(2.5\\) L \\(= 2.5 \\times 1000 = 2500\\) mL. \\(2500 \\div 250 = 10\\) full cups.\n\n**Why others are wrong:** A divides by 100 instead of 250. C converts but forgets to divide by the cup size. D divides liters by cups without converting units.\n\n**Key concept:** Convert to a common unit first, then divide; multi-step measurement reasoning.\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
     "source": "authored",
     "needsReview": false
   },
@@ -447,7 +447,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A circular pizza has a **diameter of 16 inches**. Using $A = \\pi r^2$ with $\\pi \\approx 3.14$, which is closest to the **area** of the pizza?",
+    "question": "A circular pizza has a **diameter of 16 inches**. Using \\(A = \\pi r^2\\) with \\(\\pi \\approx 3.14\\), which is closest to the **area** of the pizza?",
     "options": [
       "200.96 in²",
       "50.24 in²",
@@ -455,7 +455,7 @@
       "100.48 in²"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.9B — Area of a circle.**\n**Solution:** Radius $= \\frac{16}{2} = 8$ in. $A = \\pi r^2 \\approx 3.14 \\times 8^2 = 3.14 \\times 64 = 200.96$ in².\n**Why others are wrong:** B is the circumference $\\pi d$. C uses the diameter as the radius ($3.14 \\times 16^2$). D is half the correct area.\n**Key concept:** Use the **radius** (half the diameter) and square it before multiplying by $\\pi$.",
+    "explanation": "**TEKS 7.9B — Area of a circle.**\n**Solution:** Radius \\(= \\frac{16}{2} = 8\\) in. \\(A = \\pi r^2 \\approx 3.14 \\times 8^2 = 3.14 \\times 64 = 200.96\\) in².\n**Why others are wrong:** B is the circumference \\(\\pi d\\). C uses the diameter as the radius (\\(3.14 \\times 16^2\\)). D is half the correct area.\n**Key concept:** Use the **radius** (half the diameter) and square it before multiplying by \\(\\pi\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "72 ft²"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.9C — Composite area.**\n**Solution:** Rectangle $= 12 \\times 5 = 60$ ft². Triangle $= \\frac{1}{2} \\times 12 \\times 4 = 24$ ft². Total $= 60 + 24 = 84$ ft².\n**Why others are wrong:** B is only the rectangle. C uses $\\frac{1}{2}$ incorrectly (adds a 48 triangle). D miscounts the triangle.\n**Key concept:** Break composite figures into known shapes and add their areas.",
+    "explanation": "**TEKS 7.9C — Composite area.**\n**Solution:** Rectangle \\(= 12 \\times 5 = 60\\) ft². Triangle \\(= \\frac{1}{2} \\times 12 \\times 4 = 24\\) ft². Total \\(= 60 + 24 = 84\\) ft².\n**Why others are wrong:** B is only the rectangle. C uses \\(\\frac{1}{2}\\) incorrectly (adds a 48 triangle). D miscounts the triangle.\n**Key concept:** Break composite figures into known shapes and add their areas.",
     "source": "authored",
     "needsReview": false
   },
@@ -487,7 +487,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A cone-shaped paper cup has a **radius of 3 cm** and a **height of 8 cm**. Using $V = \\tfrac{1}{3}\\pi r^2 h$ with $\\pi \\approx 3.14$, which is closest to the **volume**?",
+    "question": "A cone-shaped paper cup has a **radius of 3 cm** and a **height of 8 cm**. Using \\(V = \\tfrac{1}{3}\\pi r^2 h\\) with \\(\\pi \\approx 3.14\\), which is closest to the **volume**?",
     "options": [
       "75.36 cm³",
       "226.08 cm³",
@@ -495,7 +495,7 @@
       "150.72 cm³"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.6A/8.7A — Volume of a cone.**\n**Solution:** $V = \\frac{1}{3}\\pi r^2 h \\approx \\frac{1}{3} \\times 3.14 \\times 3^2 \\times 8 = \\frac{1}{3} \\times 3.14 \\times 72 = \\frac{1}{3} \\times 226.08 = 75.36$ cm³.\n**Why others are wrong:** B forgets the $\\frac{1}{3}$ (that is a cylinder). C uses $r$ without squaring/height. D is double the answer.\n**Key concept:** A cone's volume is $\\frac{1}{3}$ of the cylinder with the same base and height.",
+    "explanation": "**TEKS 8.6A/8.7A — Volume of a cone.**\n**Solution:** \\(V = \\frac{1}{3}\\pi r^2 h \\approx \\frac{1}{3} \\times 3.14 \\times 3^2 \\times 8 = \\frac{1}{3} \\times 3.14 \\times 72 = \\frac{1}{3} \\times 226.08 = 75.36\\) cm³.\n**Why others are wrong:** B forgets the \\(\\frac{1}{3}\\) (that is a cylinder). C uses \\(r\\) without squaring/height. D is double the answer.\n**Key concept:** A cone's volume is \\(\\frac{1}{3}\\) of the cylinder with the same base and height.",
     "source": "authored",
     "needsReview": false
   },
@@ -527,7 +527,7 @@
     "subtopic": "advanced_geometry_measurement",
     "passage": null,
     "passageTitle": null,
-    "question": "A ladder leans against a wall. The base of the ladder is **5 feet** from the wall, and the top reaches **12 feet** up the wall. Using $a^2 + b^2 = c^2$, how long is the **ladder**?",
+    "question": "A ladder leans against a wall. The base of the ladder is **5 feet** from the wall, and the top reaches **12 feet** up the wall. Using \\(a^2 + b^2 = c^2\\), how long is the **ladder**?",
     "options": [
       "13 feet",
       "17 feet",
@@ -535,7 +535,7 @@
       "8.5 feet"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.7C — Pythagorean Theorem.**\n**Solution:** The ladder is the hypotenuse: $c^2 = 5^2 + 12^2 = 25 + 144 = 169$, so $c = \\sqrt{169} = 13$ ft.\n**Why others are wrong:** B adds the legs. C is $c^2$, not $c$. D halves incorrectly.\n**Key concept:** $a^2 + b^2 = c^2$ — take the square root to find the hypotenuse.\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
+    "explanation": "**TEKS 8.7C — Pythagorean Theorem.**\n**Solution:** The ladder is the hypotenuse: \\(c^2 = 5^2 + 12^2 = 25 + 144 = 169\\), so \\(c = \\sqrt{169} = 13\\) ft.\n**Why others are wrong:** B adds the legs. C is \\(c^2\\), not \\(c\\). D halves incorrectly.\n**Key concept:** \\(a^2 + b^2 = c^2\\) — take the square root to find the hypotenuse.\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
     "source": "authored",
     "needsReview": false
   }

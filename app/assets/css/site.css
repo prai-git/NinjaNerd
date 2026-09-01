@@ -142,3 +142,24 @@ main {
     font-size: 1.1rem;
   }
 }
+
+/* Reading passages (prompt 08 fix, 2026-09-01).
+
+   Questions in a reading set refer to a passage printed above them. 175 shipped without one
+   because the parser discarded it. The passage is visually set apart from the question so a
+   child can tell what to read from what to answer, and constrained in height so a long
+   passage cannot push the answer options off the screen. */
+.nn-passage {
+  max-height: 22rem;
+  overflow-y: auto;
+  line-height: 1.7;
+  white-space: pre-line;   /* authored paragraphs keep their line breaks */
+}
+
+.nn-passage-details > summary {
+  cursor: pointer;
+  list-style: revert;
+}
+
+/* KaTeX sets its own font size; keep inline maths from disturbing the line rhythm. */
+.katex { font-size: 1.05em; }

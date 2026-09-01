@@ -11,6 +11,7 @@ import {
 } from './lib/parse.mjs';
 import { buildItem, splitMultiPart } from './lib/mcq.mjs';
 import { mapSubtopic } from './lib/subtopic-map.mjs';
+import { normaliseItemMath } from './lib/mathnorm.mjs';
 import { createLLM } from './lib/llm.mjs';
 
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -59,7 +60,9 @@ export async function buildFile({ filename, questionsMd, answersMd, llm }) {
         source: built.source,
         needsReview: built.needsReview,
       };
-      items.push(item);
+      /* Resolve the $-is-maths-or-currency ambiguity once, here, rather than in every
+         browser: genuine maths becomes \(...\), currency stays literal. See lib/mathnorm.mjs. */
+      items.push(normaliseItemMath(item));
       if (built.needsReview) {
         review.push({ id: item.id, grade, subject, reason: built.reviewReason || 'flagged' });
       }

@@ -15,7 +15,7 @@
       "27 cubes"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 12 cubes**  \n**MAP area / TEKS:** Measurement & Data; 1.7.  \n**Work:** $9+3=12$ cubes.  \n**Why the other answers are wrong:** A subtracts; B ignores the extra cubes; D multiplies.  \n**Key concept:** Comparing length with units.",
+    "explanation": "**Correct answer: C. 12 cubes**  \n**MAP area / TEKS:** Measurement & Data; 1.7.  \n**Work:** \\(9+3=12\\) cubes.  \n**Why the other answers are wrong:** A subtracts; B ignores the extra cubes; D multiplies.  \n**Key concept:** Comparing length with units.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "12"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. 6**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** $9-3=6$.  \n**Why the other answers are wrong:** B and C are too small; D does not show the difference.  \n**Key concept:** Interpreting a data table.",
+    "explanation": "**Correct answer: A. 6**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** \\(9-3=6\\).  \n**Why the other answers are wrong:** B and C are too small; D does not show the difference.  \n**Key concept:** Interpreting a data table.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "fish and birds"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. cats and birds**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** $6+7=13$.  \n**Why the other answers are wrong:** A totals 9; C totals 12; D totals 10.  \n**Key concept:** Adding table values.",
+    "explanation": "**Correct answer: B. cats and birds**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** \\(6+7=13\\).  \n**Why the other answers are wrong:** A totals 9; C totals 12; D totals 10.  \n**Key concept:** Adding table values.",
     "source": "authored",
     "needsReview": false
   },

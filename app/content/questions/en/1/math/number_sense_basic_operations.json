@@ -35,7 +35,7 @@
       "11"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. 74**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** 7 tens = 70 and 4 ones = 4; $70+4=74$.  \n**Why the other answers are wrong:** A reverses the digits; C is not the intended two-digit number; D has one ten.  \n**Key concept:** Place value.",
+    "explanation": "**Correct answer: B. 74**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** 7 tens = 70 and 4 ones = 4; \\(70+4=74\\).  \n**Why the other answers are wrong:** A reverses the digits; C is not the intended two-digit number; D has one ten.  \n**Key concept:** Place value.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "6 ones and 3 tens"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. 6 tens and 3 ones**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $60+3=63$.  \n**Why the other answers are wrong:** B and D show 36; C is 630.  \n**Key concept:** Tens and ones.",
+    "explanation": "**Correct answer: A. 6 tens and 3 ones**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** \\(60+3=63\\).  \n**Why the other answers are wrong:** B and D show 36; C is 630.  \n**Key concept:** Tens and ones.",
     "source": "authored",
     "needsReview": false
   },
@@ -69,13 +69,13 @@
     "passageTitle": null,
     "question": "Which comparison is true?",
     "options": [
-      "$58 > 85$",
-      "$91 < 89$",
-      "$76 = 67$",
-      "$104 > 99$"
+      "\\(58 > 85\\)",
+      "\\(91 < 89\\)",
+      "\\(76 = 67\\)",
+      "\\(104 > 99\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer: D. $104>99$**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** A number with 1 hundred is greater than any two-digit number.  \n**Why the other answers are wrong:** A and B use the wrong comparison; C switches the digits.  \n**Key concept:** Comparing numbers to 120.",
+    "explanation": "**Correct answer: D. \\(104>99\\)**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** A number with 1 hundred is greater than any two-digit number.  \n**Why the other answers are wrong:** A and B use the wrong comparison; C switches the digits.  \n**Key concept:** Comparing numbers to 120.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "106"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. 86**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $96-10=86$.  \n**Why the other answers are wrong:** B is 9 less; C is 1 less; D is 10 more.  \n**Key concept:** Ten less.",
+    "explanation": "**Correct answer: A. 86**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** \\(96-10=86\\).  \n**Why the other answers are wrong:** B is 9 less; C is 1 less; D is 10 more.  \n**Key concept:** Ten less.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "117"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer: D. 117**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $100+10+7=117$.  \n**Why the other answers are wrong:** A and B have no hundred; C has no ten.  \n**Key concept:** Hundreds, tens, and ones.",
+    "explanation": "**Correct answer: D. 117**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** \\(100+10+7=117\\).  \n**Why the other answers are wrong:** A and B have no hundred; C has no ten.  \n**Key concept:** Hundreds, tens, and ones.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "92 objects"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 29 objects**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $20+9=29$.  \n**Why the other answers are wrong:** A has one ten; B has two tens and one one; D reverses digits.  \n**Key concept:** Representing tens and ones.",
+    "explanation": "**Correct answer: C. 29 objects**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** \\(20+9=29\\).  \n**Why the other answers are wrong:** A has one ten; B has two tens and one one; D reverses digits.  \n**Key concept:** Representing tens and ones.",
     "source": "authored",
     "needsReview": false
   }

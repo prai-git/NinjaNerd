@@ -27,15 +27,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A ribbon measures $6$ large blocks. Which could measure the same ribbon with smaller cubes?",
+    "question": "A ribbon measures \\(6\\) large blocks. Which could measure the same ribbon with smaller cubes?",
     "options": [
-      "$3$ cubes",
-      "$6$ cubes",
-      "$12$ cubes",
-      "$1$ cube"
+      "\\(3\\) cubes",
+      "\\(6\\) cubes",
+      "\\(12\\) cubes",
+      "\\(1\\) cube"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $12$ cubes  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** Smaller units need more pieces for the same length, so $12$ is reasonable.  \n**Why the other answers are wrong:** A. $3$ cubes — it does not fit because Smaller units need more pieces for the same length, so $12$ is reasonable. B. $6$ cubes — it does not fit because Smaller units need more pieces for the same length, so $12$ is reasonable. D. $1$ cube — it does not fit because Smaller units need more pieces for the same length, so $12$ is reasonable.  \n**Key concept:** unit relationship  \n\n---",
+    "explanation": "**Correct answer:** C. \\(12\\) cubes  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** Smaller units need more pieces for the same length, so \\(12\\) is reasonable.  \n**Why the other answers are wrong:** A. \\(3\\) cubes — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable. B. \\(6\\) cubes — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable. D. \\(1\\) cube — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable.  \n**Key concept:** unit relationship  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A pencil is $18$ centimeters. A crayon is $7$ centimeters shorter. How long is the crayon?",
+    "question": "A pencil is \\(18\\) centimeters. A crayon is \\(7\\) centimeters shorter. How long is the crayon?",
     "options": [
-      "$10$ cm",
-      "$11$ cm",
-      "$12$ cm",
-      "$25$ cm"
+      "\\(10\\) cm",
+      "\\(11\\) cm",
+      "\\(12\\) cm",
+      "\\(25\\) cm"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. $11$ cm  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** $18-7=11$, so the crayon is $11$ cm.  \n**Why the other answers are wrong:** A. $10$ cm — it does not fit because $18-7=11$, so the crayon is $11$ cm. C. $12$ cm — it does not fit because $18-7=11$, so the crayon is $11$ cm. D. $25$ cm — it does not fit because $18-7=11$, so the crayon is $11$ cm.  \n**Key concept:** length problems  \n\n---",
+    "explanation": "**Correct answer:** B. \\(11\\) cm  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** \\(18-7=11\\), so the crayon is \\(11\\) cm.  \n**Why the other answers are wrong:** A. \\(10\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm. C. \\(12\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm. D. \\(25\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm.  \n**Key concept:** length problems  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A show begins at $2{:}35\text{ p.m.}$ and lasts $40$ minutes. When does it end?",
+    "question": "A show begins at \\(2{:}35\text{ p.m.}\\) and lasts \\(40\\) minutes. When does it end?",
     "options": [
-      "$2{:}65\text{ p.m.}$",
-      "$3{:}05\text{ p.m.}$",
-      "$3{:}15\text{ p.m.}$",
-      "$4{:}15\text{ p.m.}$"
+      "\\(2{:}65\text{ p.m.}\\)",
+      "\\(3{:}05\text{ p.m.}\\)",
+      "\\(3{:}15\text{ p.m.}\\)",
+      "\\(4{:}15\text{ p.m.}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $3{:}15\text{ p.m.}$  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** $25$ minutes reaches $3{:}00$; $15$ more reaches $3{:}15\text{ p.m.}$.  \n**Why the other answers are wrong:** A. $2{:}65\text{ p.m.}$ — it does not fit because $25$ minutes reaches $3{:}00$; $15$ more reaches $3{:}15\text{ p.m.}$. B. $3{:}05\text{ p.m.}$ — it does not fit because $25$ minutes reaches $3{:}00$; $15$ more reaches $3{:}15\text{ p.m.}$. D. $4{:}15\text{ p.m.}$ — it does not fit because $25$ minutes reaches $3{:}00$; $15$ more reaches $3{:}15\text{ p.m.}$.  \n**Key concept:** elapsed time  \n\n---",
+    "explanation": "**Correct answer:** C. \\(3{:}15\text{ p.m.}\\)  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).  \n**Why the other answers are wrong:** A. \\(2{:}65\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). B. \\(3{:}05\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). D. \\(4{:}15\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).  \n**Key concept:** elapsed time  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -87,7 +87,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which shape has $5$ sides and $5$ vertices?",
+    "question": "Which shape has \\(5\\) sides and \\(5\\) vertices?",
     "options": [
       "triangle",
       "quadrilateral",
@@ -147,15 +147,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A $6$ by $4$ rectangle has a $2$ by $2$ square cut out. How many square units remain?",
+    "question": "A \\(6\\) by \\(4\\) rectangle has a \\(2\\) by \\(2\\) square cut out. How many square units remain?",
     "options": [
-      "$8$",
-      "$16$",
-      "$20$",
-      "$24$"
+      "\\(8\\)",
+      "\\(16\\)",
+      "\\(20\\)",
+      "\\(24\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $20$  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** Whole area: $6\times4=24$. Cut-out: $2\times2=4$. Remaining: $24-4=20$.  \n**Why the other answers are wrong:** A. $8$ — it does not fit because Whole area: $6\times4=24$. Cut-out: $2\times2=4$. Remaining: $24-4=20$. B. $16$ — it does not fit because Whole area: $6\times4=24$. Cut-out: $2\times2=4$. Remaining: $24-4=20$. D. $24$ — it does not fit because Whole area: $6\times4=24$. Cut-out: $2\times2=4$. Remaining: $24-4=20$.  \n**Key concept:** decomposing area  \n\n---",
+    "explanation": "**Correct answer:** C. \\(20\\)  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).  \n**Why the other answers are wrong:** A. \\(8\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). B. \\(16\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). D. \\(24\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).  \n**Key concept:** decomposing area  \n\n---",
     "source": "authored",
     "needsReview": false
   },
@@ -167,7 +167,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A square has $4$ equal small squares. What fraction is one small square?",
+    "question": "A square has \\(4\\) equal small squares. What fraction is one small square?",
     "options": [
       "one half",
       "one fourth",
@@ -187,15 +187,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangle has $5$ rows of $3$ square tiles. What is its area?",
+    "question": "A rectangle has \\(5\\) rows of \\(3\\) square tiles. What is its area?",
     "options": [
-      "$8$ square units",
-      "$12$ square units",
-      "$15$ square units",
-      "$30$ square units"
+      "\\(8\\) square units",
+      "\\(12\\) square units",
+      "\\(15\\) square units",
+      "\\(30\\) square units"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. $15$ square units  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** $5\times3=15$ tiles cover the rectangle with no gaps.  \n**Why the other answers are wrong:** A. $8$ square units — it does not fit because $5\times3=15$ tiles cover the rectangle with no gaps. B. $12$ square units — it does not fit because $5\times3=15$ tiles cover the rectangle with no gaps. D. $30$ square units — it does not fit because $5\times3=15$ tiles cover the rectangle with no gaps.  \n**Key concept:** area  \n\n---",
+    "explanation": "**Correct answer:** C. \\(15\\) square units  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** \\(5\times3=15\\) tiles cover the rectangle with no gaps.  \n**Why the other answers are wrong:** A. \\(8\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. B. \\(12\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. D. \\(30\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps.  \n**Key concept:** area  \n\n---",
     "source": "authored",
     "needsReview": false
   }

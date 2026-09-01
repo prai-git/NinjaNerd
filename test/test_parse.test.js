@@ -9,6 +9,7 @@ import {
 } from '../tools/lib/parse.mjs';
 
 const fx = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
+const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (f) => readFileSync(join(fx, f), 'utf8');
 
 const MAP_Q = 'practice_questions_math_map_boy_2026-08-29_11-55.md';
@@ -322,4 +323,30 @@ test('passages listed up front are found by back-reference', () => {
   const [q] = parseQuestions(md);
   assert.match(q.passageTitle, /Passage 1/);
   assert.ok(q.passage.startsWith('a'), 'must attach Passage 1, not the most recent passage');
+});
+
+test('the built content carries passages through to the JSON', () => {
+  /* End-to-end guard: the parser can be right while the build drops the field. 175 questions
+     shipped unanswerable, so this asserts the served JSON actually has them. */
+  const manifest = JSON.parse(readFileSync(
+    join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
+  let total = 0; let withPassage = 0; let orphaned = 0;
+  const refersToText =
+    /\b(the passage|the story|the poem|the excerpt|according to the|the author|in passage \d)\b/i;
+  for (const [g, subs] of Object.entries(manifest.grades)) {
+    for (const [subj, entries] of Object.entries(subs)) {
+      for (const e of entries) {
+        const items = JSON.parse(readFileSync(
+          join(repoRoot, `app/content/questions/en/${g}/${subj}/${e.slug}.json`), 'utf8'));
+        for (const it of items) {
+          total++;
+          if (it.passage) withPassage++;
+          else if (refersToText.test(it.question || '')) orphaned++;
+        }
+      }
+    }
+  }
+  assert.equal(total, 1368, 'no items lost');
+  assert.ok(withPassage > 300, `expected 300+ items with passages, got ${withPassage}`);
+  assert.ok(orphaned <= 10, `${orphaned} questions still refer to a passage they do not have`);
 });
