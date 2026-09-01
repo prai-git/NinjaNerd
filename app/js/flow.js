@@ -27,9 +27,27 @@ export function param(name) {
 // otherwise redirects to login with a return URL and returns false.
 export function requireLogin(returnUrl = location.pathname + location.search) {
   const user = window.NNAuth && window.NNAuth.getUser();
-  if (user) return true;
-  location.href = `pages/login.html?next=${encodeURIComponent(returnUrl)}`;
-  return false;
+  if (!user) {
+    location.href = `pages/login.html?next=${encodeURIComponent(returnUrl)}`;
+    return false;
+  }
+  /* Verification gate. Legacy checked a 4-digit code BEFORE writing the user row, so an
+     unverified account could not exist; Firebase creates first and verifies after, so the
+     check has to live here instead. Signed-in-but-unverified may browse, but not start an
+     activity — same end state as legacy, enforced at a different point.
+
+     This is a UX gate, not a security boundary: it reads the display cache, which anyone can
+     edit. Nothing here protects data; the Firestore rules do that. Prompt 08 must ALSO refuse
+     to write history for an unverified user rather than relying on this. */
+  if (user.emailVerified === false) {
+    if (window.NNToast) {
+      window.NNToast.show(
+        'Please verify your email before starting. Check your inbox for the link.', 'warning',
+      );
+    }
+    return false;
+  }
+  return true;
 }
 
 // Minimal, safe inline renderer: escape HTML, then **bold**/*italic*/`code` and

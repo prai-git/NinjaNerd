@@ -31,9 +31,20 @@ test('Profile card: Account/Statistics/Contact Us always; Audit admin-only; no P
   assert.ok(html.includes('pages/account.html'), 'Account link');
   assert.ok(html.includes('pages/statistics.html'), 'Statistics link');
   assert.ok(html.includes('pages/contact_us.html'), 'Contact Us link');
-  // Audit present but hidden until the admin (admin@gmail.com) is signed in.
+  // Audit present but hidden until an admin is signed in.
   assert.match(html, /id="nn-audit-link"[^>]*style="display:none;"/, 'Audit link hidden by default');
-  assert.ok(html.includes("user.username === 'admin@gmail.com'"), 'admin gate for Audit');
+  /* The gate reads is_admin from the user's profile document, NOT a hardcoded address.
+     Legacy compared the username to 'admin@gmail.com' (obs_app.py is_admin_user); since our
+     admin is ninjanerdonpi@gmail.com and the rules already carry an is_admin flag, matching a
+     string literal would mean two sources of truth for who is admin. Assert the literal is
+     gone, so it cannot creep back. */
+  assert.ok(html.includes('user.is_admin'), 'Audit gate should read is_admin from the profile');
+  /* Forbid the COMPARISON, not the string: the comments deliberately record what legacy did
+     (`is_admin_user(username) == 'admin@gmail.com'`) and that provenance is worth keeping. */
+  assert.doesNotMatch(html, /===\s*['"]admin@gmail\.com['"]/,
+    'the admin check must not compare against a hardcoded address');
+  // Firebase resolves auth asynchronously, so the gate must re-run when the real state lands.
+  assert.ok(html.includes('nn-auth-changed'), 'Audit gate should re-sync on the auth-changed event');
   // Payment is dropped entirely — no payment link/target on the page.
   assert.ok(!/href="[^"]*payment[^"]*"/i.test(html), 'no payment link');
 });

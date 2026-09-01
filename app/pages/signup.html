@@ -58,11 +58,49 @@
   <script src="assets/js/auth-state.js"></script>
   <script src="assets/js/toast.js"></script>
   <script src="assets/js/layout.js"></script>
+  <script type="module" src="js/auth.js"></script>
   <script>
-    // Prompt-02 stub: account creation is wired to Firebase in prompt 07.
+    /* Create account (prompt 07).
+
+       Legacy required a 4-digit code emailed to the address and checked BEFORE the user row
+       was written (obs_app.py create_account), so an unverified account could never exist.
+       Firebase has no verify-before-create for email/password without a backend, so the code
+       field is gone: the account is created, a verification link is emailed, and flow.js
+       refuses Learn/Practice until emailVerified is true. Same end state, different order.
+
+       On success we redirect to login, mirroring legacy's redirect(url_for('login')). */
+
+    function friendly(code) {
+      switch (code) {
+        case 'auth/email-already-in-use': return 'An account with that email already exists.';
+        case 'auth/invalid-email':        return 'That does not look like an email address.';
+        case 'auth/weak-password':        return 'Password must be at least 6 characters.';
+        case 'auth/too-many-requests':    return 'Too many attempts. Please wait a few minutes.';
+        case 'auth/network-request-failed': return 'Network problem — check your connection.';
+        default:                          return 'Could not create the account. Please try again.';
+      }
+    }
+
     document.getElementById('nn-signup-form').addEventListener('submit', function (e) {
       e.preventDefault();
-      NNToast.show('Account creation is coming soon.', 'info');
+      var email = document.getElementById('nn-email').value.trim();
+      var password = document.getElementById('nn-password').value;
+      var school = document.getElementById('nn-school').value.trim();
+      if (!email || !password) { NNToast.show('Enter an email and password.', 'warning'); return; }
+      if (!window.NNAuthApi) { NNToast.show('Still loading — try again in a moment.', 'info'); return; }
+
+      var btn = e.target.querySelector('button[type="submit"]');
+      if (btn) btn.disabled = true;
+
+      window.NNAuthApi.signup({ email: email, password: password, schoolName: school })
+        .then(function () {
+          NNToast.show('Account created. Check your email for the verification link.', 'success');
+          setTimeout(function () { location.href = 'pages/login.html'; }, 1500);
+        })
+        .catch(function (err) {
+          NNToast.show(friendly(err && err.code), 'danger');
+          if (btn) btn.disabled = false;
+        });
     });
   </script>
 </body>

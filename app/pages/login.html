@@ -44,6 +44,14 @@
                 </div>
               </div>
             </form>
+            <!-- NOT in the legacy app: legacy obs_templates/login.html had no password
+                 recovery at all, so a forgotten password was unrecoverable from the UI.
+                 Added at the owner's request (2026-09-01) as a genuine gap in the original. -->
+            <div class="text-center mt-3">
+              <a href="#" id="nn-forgot-password" class="small text-decoration-none">
+                <i class="fas fa-key me-1"></i>Forgot your password?
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -56,11 +64,14 @@
   <script src="assets/js/auth-state.js"></script>
   <script src="assets/js/toast.js"></script>
   <script src="assets/js/layout.js"></script>
+  <script type="module" src="js/auth.js"></script>
   <script>
-    // Prompt-02 stub: no real auth yet. Sign in locally so the shell can be tested.
-    // The login gate (flow.js requireLogin) passes ?next= so we can return the
-    // student to the Learn/Practice activity they picked. Only same-origin
-    // relative paths are honored, to avoid open-redirects.
+    /* Login (prompt 07). Real Firebase Auth via window.NNAuthApi, which js/auth.js sets.
+       That module script is deferred, so NNAuthApi does not exist while this inline script
+       runs -- it is only referenced inside the submit handler, by which time it does. */
+
+    // The login gate (flow.js requireLogin) passes ?next= so we can return the student to the
+    // Learn/Practice activity they picked.
     function safeNext() {
       var raw = new URLSearchParams(location.search).get('next') || '';
       if (!raw) return 'index.html';
@@ -77,17 +88,88 @@
         return 'index.html';
       }
     }
+
     // Preserve next through the Create Account link too.
     var create = document.getElementById('nn-create-account');
     if (create) create.href = 'pages/signup.html?next=' + encodeURIComponent(safeNext());
 
+    /* Firebase error codes are precise but unreadable. Never say which of email/password was
+       wrong -- that turns the form into an account-existence oracle. Firebase itself returns a
+       single INVALID_LOGIN_CREDENTIALS for both, and we keep that. */
+    function friendly(code) {
+      switch (code) {
+        case 'auth/invalid-email':        return 'That does not look like an email address.';
+        case 'auth/user-disabled':        return 'This account has been disabled.';
+        case 'auth/too-many-requests':    return 'Too many attempts. Please wait a few minutes.';
+        case 'auth/network-request-failed': return 'Network problem — check your connection.';
+        default:                          return 'Email or password is incorrect.';
+      }
+    }
+
+    /* Password reset. Uses whatever is already typed in the email box.
+
+       The confirmation is deliberately the SAME whether or not an account exists. Firebase's
+       email enumeration protection makes sendPasswordResetEmail succeed silently for unknown
+       addresses, and echoing "no such account" here would hand back exactly the information
+       that protection exists to withhold. */
+    var forgot = document.getElementById('nn-forgot-password');
+    if (forgot) forgot.addEventListener('click', function (e) {
+      e.preventDefault();
+      var emailEl = document.getElementById('nn-email');
+      var email = emailEl.value.trim();
+      if (!email) {
+        NNToast.show('Type your email above first, then click again.', 'info');
+        emailEl.focus();
+        return;
+      }
+      if (!window.NNAuthApi) { NNToast.show('Still loading — try again in a moment.', 'info'); return; }
+
+      forgot.classList.add('disabled');
+      window.NNAuthApi.resetPassword(email).then(function () {
+        NNToast.show(
+          'If an account exists for ' + email + ', a reset link is on its way. Check your inbox.',
+          'success');
+      }).catch(function (err) {
+        // Only genuinely actionable failures are reported; anything else gets the neutral
+        // message above, so a bad address cannot be told apart from an unknown one.
+        var code = err && err.code;
+        if (code === 'auth/invalid-email') {
+          NNToast.show('That does not look like an email address.', 'warning');
+        } else if (code === 'auth/too-many-requests') {
+          NNToast.show('Too many attempts. Please wait a few minutes.', 'warning');
+        } else {
+          NNToast.show(
+            'If an account exists for ' + email + ', a reset link is on its way. Check your inbox.',
+            'success');
+        }
+      }).finally(function () {
+        forgot.classList.remove('disabled');
+      });
+    });
+
     document.getElementById('nn-login-form').addEventListener('submit', function (e) {
       e.preventDefault();
       var email = document.getElementById('nn-email').value.trim();
-      if (!email) { NNToast.show('Enter your email.', 'warning'); return; }
-      NNAuth.signIn(email);
-      NNToast.show('Signed in (stub).', 'success');
-      location.href = safeNext();
+      var password = document.getElementById('nn-password').value;
+      if (!email || !password) { NNToast.show('Enter your email and password.', 'warning'); return; }
+      if (!window.NNAuthApi) { NNToast.show('Still loading — try again in a moment.', 'info'); return; }
+
+      var btn = e.target.querySelector('button[type="submit"]');
+      if (btn) btn.disabled = true;
+
+      window.NNAuthApi.login({ email: email, password: password }).then(function (user) {
+        if (!user.emailVerified) {
+          // Legacy verified BEFORE the account existed; Firebase verifies after. Signing in is
+          // allowed, but flow.js refuses Learn/Practice until the address is confirmed.
+          NNToast.show('Signed in. Please verify your email to start practising — check your inbox.', 'warning');
+        } else {
+          NNToast.show('Welcome back!', 'success');
+        }
+        location.href = safeNext();
+      }).catch(function (err) {
+        NNToast.show(friendly(err && err.code), 'danger');
+        if (btn) btn.disabled = false;
+      });
     });
   </script>
 </body>

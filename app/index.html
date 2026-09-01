@@ -106,14 +106,27 @@
   <script src="assets/js/auth-state.js"></script>
   <script src="assets/js/toast.js"></script>
   <script src="assets/js/layout.js"></script>
-  <!-- Reveal the admin-only Audit link, mirroring legacy {% if is_admin %} (admin = admin@gmail.com). -->
+  <script type="module" src="js/auth.js"></script>
+  <!-- Reveal the admin-only Audit link, mirroring legacy {% if is_admin %}. -->
   <script>
+    /* Legacy compared the username to a hardcoded 'admin@gmail.com' (obs_app.py
+       is_admin_user). We read is_admin from the user's own profile document instead, so the
+       admin identity is data rather than a string literal. Our admin is
+       ninjanerdonpi@gmail.com; the flag is set by hand in the Firestore console, which is the
+       only route, because the rules make is_admin immutable from the client.
+
+       This only shows or hides a link. It is not a security boundary -- anyone can edit the
+       display cache. The Audit page's data is protected by the rules, which check is_admin on
+       the server side. */
     (function () {
-      var user = window.NNAuth && window.NNAuth.getUser();
-      if (user && user.username === 'admin@gmail.com') {
+      function sync() {
+        var user = window.NNAuth && window.NNAuth.getUser();
         var link = document.getElementById('nn-audit-link');
-        if (link) link.style.display = '';
+        if (link) link.style.display = (user && user.is_admin) ? '' : 'none';
       }
+      sync();
+      // Firebase resolves auth asynchronously, so re-sync once the real state lands.
+      document.addEventListener('nn-auth-changed', sync);
     })();
   </script>
 </body>
