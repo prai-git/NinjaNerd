@@ -437,7 +437,11 @@ export function parseAnswers(md) {
         number: cur.number,
         letter: cur.letter || null,
         text: cur.text || null,
-        explanation: stripDocumentFooter(body),
+        /* Same provenance strip as the question text. All 475 occurrences sit on the first
+           line, which is exactly what stripStandardsAnnotation touches, and no explanation
+           opens with an emphasised line that is NOT a standards annotation -- so unlike the
+           question case there is nothing here it could take by mistake. */
+        explanation: stripStandardsAnnotation(stripDocumentFooter(body)),
       };
     }
     cur = null;

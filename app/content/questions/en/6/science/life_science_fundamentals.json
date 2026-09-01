@@ -15,7 +15,7 @@
       "Sunlight, frogs, dissolved oxygen"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.12A | Topic: Biotic and Abiotic Factors**\n\n**Correct Answer:** A) Water temperature, sunlight, dissolved oxygen\n\n**Explanation:**\nAbiotic factors are the non-living parts of an ecosystem.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each include at least one living thing — algae, fish, insects, plants\n  or frogs.",
+    "explanation": "**Correct Answer:** A) Water temperature, sunlight, dissolved oxygen\n\n**Explanation:**\nAbiotic factors are the non-living parts of an ecosystem.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each include at least one living thing — algae, fish, insects, plants\n  or frogs.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Energy is created by each organism."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.12B | Topic: Energy Flow**\n\n**Correct Answer:** A) Most energy is lost as heat, so less is available at each higher level.\n\n**Explanation:**\nOnly a small fraction of energy at one level is stored in the next. The rest is used for life\nprocesses and released as heat, which is why food chains are short.\n\n**Why the other answers are wrong:**\n- **B** body size does not increase available energy.\n- **C** contradicts energy loss at each transfer.\n- **D** organisms transform energy; they do not create it.",
+    "explanation": "**Correct Answer:** A) Most energy is lost as heat, so less is available at each higher level.\n\n**Explanation:**\nOnly a small fraction of energy at one level is stored in the next. The rest is used for life\nprocesses and released as heat, which is why food chains are short.\n\n**Why the other answers are wrong:**\n- **B** body size does not increase available energy.\n- **C** contradicts energy loss at each transfer.\n- **D** organisms transform energy; they do not create it.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Community, ecosystem, organism, population"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.12C | Topic: Levels of Organization**\n\n**Correct Answer:** A) Organism, population, community, ecosystem\n\n**Explanation:**\nOne organism, then all of its species in an area, then all species together, then those species\nplus their non-living surroundings.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** break the nesting order; **C** is the correct order reversed.",
+    "explanation": "**Correct Answer:** A) Organism, population, community, ecosystem\n\n**Explanation:**\nOne organism, then all of its species in an area, then all species together, then those species\nplus their non-living surroundings.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** break the nesting order; **C** is the correct order reversed.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Cells form spontaneously from non-living matter."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.13A | Topic: Cell Theory**\n\n**Correct Answer:** A) All living things are made of one or more cells.\n\n**Explanation:**\nCell theory states that all living things are made of cells, the cell is the basic unit of\nlife, and cells come from existing cells.\n\n**Why the other answers are wrong:**\n- **B** bacterial cells have no nucleus.\n- **C** plants, fungi and bacteria are made of cells too.\n- **D** contradicts the theory — cells arise from other cells.",
+    "explanation": "**Correct Answer:** A) All living things are made of one or more cells.\n\n**Explanation:**\nCell theory states that all living things are made of cells, the cell is the basic unit of\nlife, and cells come from existing cells.\n\n**Why the other answers are wrong:**\n- **B** bacterial cells have no nucleus.\n- **C** plants, fungi and bacteria are made of cells too.\n- **D** contradicts the theory — cells arise from other cells.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Colour has no effect on survival."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.13B | Topic: Variation and Survival**\n\n**Correct Answer:** A) Dark beetles become more common because they are harder to see.\n\n**Explanation:**\nOn dark bark, dark beetles are less likely to be eaten, so more survive to reproduce and the\ntrait becomes more common over generations.\n\n**Why the other answers are wrong:**\n- **B** light beetles are more visible to predators.\n- **C** an individual beetle does not change colour to suit its surroundings — the population\n  shifts, not the individual.\n- **D** the scenario states birds hunt by sight, so colour matters.",
+    "explanation": "**Correct Answer:** A) Dark beetles become more common because they are harder to see.\n\n**Explanation:**\nOn dark bark, dark beetles are less likely to be eaten, so more survive to reproduce and the\ntrait becomes more common over generations.\n\n**Why the other answers are wrong:**\n- **B** light beetles are more visible to predators.\n- **C** an individual beetle does not change colour to suit its surroundings — the population\n  shifts, not the individual.\n- **D** the scenario states birds hunt by sight, so colour matters.",
     "source": "authored",
     "needsReview": false
   }

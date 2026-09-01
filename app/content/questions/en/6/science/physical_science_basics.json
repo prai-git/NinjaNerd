@@ -15,7 +15,7 @@
       "108 g/cm³, and it will sink"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6A | Topic: Density**\n\n**Correct Answer:** A) 8 g/cm³, and it will sink\n\n**Explanation:**\nDensity = mass ÷ volume = 96 g ÷ 12 cm³ = **8 g/cm³**. Anything denser than water (1 g/cm³)\nsinks in it.\n\n**Why the other answers are wrong:**\n- **B** has the right density but the wrong prediction — 8 is greater than 1, so it sinks.\n- **C** divides volume by mass instead of mass by volume.\n- **D** adds mass and volume, which is not a density calculation.",
+    "explanation": "**Correct Answer:** A) 8 g/cm³, and it will sink\n\n**Explanation:**\nDensity = mass ÷ volume = 96 g ÷ 12 cm³ = **8 g/cm³**. Anything denser than water (1 g/cm³)\nsinks in it.\n\n**Why the other answers are wrong:**\n- **B** has the right density but the wrong prediction — 8 is greater than 1, so it sinks.\n- **C** divides volume by mass instead of mass by volume.\n- **D** adds mass and volume, which is not a density calculation.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Density cannot be compared without knowing the material."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6A | Topic: Comparing Density**\n\n**Correct Answer:** A) Block X has twice the density of block Y.\n\n**Explanation:**\nDensity is mass per unit volume. With volume held constant, doubling the mass doubles the\ndensity.\n\n**Why the other answers are wrong:**\n- **B** ignores the difference in mass.\n- **C** reverses the relationship.\n- **D** density can be compared directly from mass and volume; the material need not be named.",
+    "explanation": "**Correct Answer:** A) Block X has twice the density of block Y.\n\n**Explanation:**\nDensity is mass per unit volume. With volume held constant, doubling the mass doubles the\ndensity.\n\n**Why the other answers are wrong:**\n- **B** ignores the difference in mass.\n- **C** reverses the relationship.\n- **D** density can be compared directly from mass and volume; the material need not be named.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Solid carbon dioxide"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6B | Topic: Mixtures**\n\n**Correct Answer:** A) Sand stirred into water\n\n**Explanation:**\nA mixture combines substances physically, without forming new ones, and can be separated by\nphysical means such as filtering.\n\n**Why the other answers are wrong:**\n- **B** copper is an element — a pure substance.\n- **C** distilled water is a pure compound.\n- **D** solid carbon dioxide is a pure compound.",
+    "explanation": "**Correct Answer:** A) Sand stirred into water\n\n**Explanation:**\nA mixture combines substances physically, without forming new ones, and can be separated by\nphysical means such as filtering.\n\n**Why the other answers are wrong:**\n- **B** copper is an element — a pure substance.\n- **C** distilled water is a pure compound.\n- **D** solid carbon dioxide is a pure compound.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "metalloid"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6C | Topic: The Periodic Table**\n\n**Correct Answer:** A) metal\n\n**Explanation:**\nMetals sit on the left and centre of the periodic table and are typically shiny, conductive and\nmalleable.\n\n**Why the other answers are wrong:**\n- **B** nonmetals are on the right and conduct poorly.\n- **C** noble gases are the far-right column and are unreactive gases.\n- **D** metalloids lie along the staircase between metals and nonmetals.",
+    "explanation": "**Correct Answer:** A) metal\n\n**Explanation:**\nMetals sit on the left and centre of the periodic table and are typically shiny, conductive and\nmalleable.\n\n**Why the other answers are wrong:**\n- **B** nonmetals are on the right and conduct poorly.\n- **C** noble gases are the far-right column and are unreactive gases.\n- **D** metalloids lie along the staircase between metals and nonmetals.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Ice melts into water"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7A | Topic: Chemical Change**\n\n**Correct Answer:** A) A new gas is produced that was not present before\n\n**Explanation:**\nA chemical change forms a **new substance**. Gas production, a colour change, a precipitate or\nan unexpected temperature change are the standard evidence.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all physical changes: crushing, pouring and melting change form or\n  state, but the substance itself is unchanged.",
+    "explanation": "**Correct Answer:** A) A new gas is produced that was not present before\n\n**Explanation:**\nA chemical change forms a **new substance**. Gas production, a colour change, a precipitate or\nan unexpected temperature change are the standard evidence.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all physical changes: crushing, pouring and melting change form or\n  state, but the substance itself is unchanged.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "They stop moving."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6A | Topic: Particle Model of Gases**\n\n**Correct Answer:** A) They move closer together but do not change in number or size.\n\n**Explanation:**\nA gas is mostly empty space between particles. Compressing it reduces that spacing. The\nparticles themselves are unchanged.\n\n**Why the other answers are wrong:**\n- **B** particles do not shrink — a very common misconception.\n- **C** the syringe is sealed, so none can escape.\n- **D** gas particles are always in motion.",
+    "explanation": "**Correct Answer:** A) They move closer together but do not change in number or size.\n\n**Explanation:**\nA gas is mostly empty space between particles. Compressing it reduces that spacing. The\nparticles themselves are unchanged.\n\n**Why the other answers are wrong:**\n- **B** particles do not shrink — a very common misconception.\n- **C** the syringe is sealed, so none can escape.\n- **D** gas particles are always in motion.",
     "source": "authored",
     "needsReview": false
   }

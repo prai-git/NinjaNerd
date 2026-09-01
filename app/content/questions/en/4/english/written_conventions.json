@@ -15,7 +15,7 @@
       "The storm passed quickly but the power, stayed off for hours."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.11D | Topic: Commas in Compound Sentences**\n\n**Correct Answer:** A) The storm passed quickly, but the power stayed off for hours.\n\n**Explanation:**\nWhen a conjunction joins two complete sentences, the comma goes **before** the conjunction.\n\n**Why the other answers are wrong:**\n- **B** puts the comma after *but*.\n- **C** is a comma splice with no conjunction.\n- **D** separates the subject from its verb.",
+    "explanation": "**Correct Answer:** A) The storm passed quickly, but the power stayed off for hours.\n\n**Explanation:**\nWhen a conjunction joins two complete sentences, the comma goes **before** the conjunction.\n\n**Why the other answers are wrong:**\n- **B** puts the comma after *but*.\n- **C** is a comma splice with no conjunction.\n- **D** separates the subject from its verb.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\"Where did you find it\"? asked Elena."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.11D | Topic: Quotation Marks**\n\n**Correct Answer:** A) \"Where did you find it?\" asked Elena.\n\n**Explanation:**\nThe spoken words sit inside the quotation marks, and the question mark belongs inside them\nbecause the quoted words form the question.\n\n**Why the other answers are wrong:**\n- **B** encloses the speaker tag in the quotation.\n- **C** has no quotation marks.\n- **D** places the question mark outside the closing mark.",
+    "explanation": "**Correct Answer:** A) \"Where did you find it?\" asked Elena.\n\n**Explanation:**\nThe spoken words sit inside the quotation marks, and the question mark belongs inside them\nbecause the quoted words form the question.\n\n**Why the other answers are wrong:**\n- **B** encloses the speaker tag in the quotation.\n- **C** has no quotation marks.\n- **D** places the question mark outside the closing mark.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Its cold outside, so the dog stayed in its kennel."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.11D | Topic: Its vs It's**\n\n**Correct Answer:** A) It's cold outside, so the dog stayed in its kennel.\n\n**Explanation:**\n*It's* is the contraction of *it is*; *its* shows possession and takes no apostrophe. Test by\nexpanding: \"It **is** cold\" works, \"the dog stayed in **it is** kennel\" does not.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each use at least one of the two forms the wrong way round.",
+    "explanation": "**Correct Answer:** A) It's cold outside, so the dog stayed in its kennel.\n\n**Explanation:**\n*It's* is the contraction of *it is*; *its* shows possession and takes no apostrophe. Test by\nexpanding: \"It **is** cold\" works, \"the dog stayed in **it is** kennel\" does not.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each use at least one of the two forms the wrong way round.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "After the long drive we were, glad to arrive."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.11D | Topic: Introductory Elements**\n\n**Correct Answer:** A) After the long drive, we were glad to arrive.\n\n**Explanation:**\nAn introductory phrase is followed by a comma before the main clause begins.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** place the comma inside the phrase or inside the main clause, breaking\n  it apart.",
+    "explanation": "**Correct Answer:** A) After the long drive, we were glad to arrive.\n\n**Explanation:**\nAn introductory phrase is followed by a comma before the main clause begins.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** place the comma inside the phrase or inside the main clause, breaking\n  it apart.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "we read *The Secret Garden* In Class This Term."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.11D | Topic: Capitalising Titles**\n\n**Correct Answer:** A) We read *The Secret Garden* in class this term.\n\n**Explanation:**\nIn a title, capitalise the first word and all important words. Ordinary sentence words around\nit stay lowercase.\n\n**Why the other answers are wrong:**\n- **B** and **C** leave title words lowercase.\n- **D** capitalises ordinary sentence words and misses the sentence's own capital.",
+    "explanation": "**Correct Answer:** A) We read *The Secret Garden* in class this term.\n\n**Explanation:**\nIn a title, capitalise the first word and all important words. Ordinary sentence words around\nit stay lowercase.\n\n**Why the other answers are wrong:**\n- **B** and **C** leave title words lowercase.\n- **D** capitalises ordinary sentence words and misses the sentence's own capital.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "The bell rang, students, packed their bags."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.11D | Topic: Joining Independent Clauses**\n\n**Correct Answer:** A) The bell rang; the students packed their bags.\n\n**Explanation:**\nTwo complete sentences may be joined by a semicolon, or by a comma **plus** a conjunction.\n\n**Why the other answers are wrong:**\n- **B** is a comma splice — a comma alone cannot join two sentences.\n- **C** is a run-on.\n- **D** scatters commas without joining anything.",
+    "explanation": "**Correct Answer:** A) The bell rang; the students packed their bags.\n\n**Explanation:**\nTwo complete sentences may be joined by a semicolon, or by a comma **plus** a conjunction.\n\n**Why the other answers are wrong:**\n- **B** is a comma splice — a comma alone cannot join two sentences.\n- **C** is a run-on.\n- **D** scatters commas without joining anything.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "I beleive the weather will be separate from the forcast."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.2A | Topic: Spelling**\n\n**Correct Answer:** A) I believe the weather will be separate from the forecast.\n\n**Explanation:**\n*believe* (i before e after b), *weather* (the climate, not *whether*), *separate* (there is *a\nrat* in separate), and *forecast* are all correct.\n\n**Why the other answers are wrong:**\n- **B** misspells *beleive*, *wether* and *seperate*.\n- **C** misspells *wether* and *seperate*.\n- **D** misspells *beleive* and *forcast*.",
+    "explanation": "**Correct Answer:** A) I believe the weather will be separate from the forecast.\n\n**Explanation:**\n*believe* (i before e after b), *weather* (the climate, not *whether*), *separate* (there is *a\nrat* in separate), and *forecast* are all correct.\n\n**Why the other answers are wrong:**\n- **B** misspells *beleive*, *wether* and *seperate*.\n- **C** misspells *wether* and *seperate*.\n- **D** misspells *beleive* and *forcast*.",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "I ate the whole sandwich quickly."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11B | Topic: Sequencing**\n\n**Correct Answer:** A) First, I got the bread out of the bag.\n\n**Explanation:**\nThe word *First* signals the opening step, and you cannot spread peanut butter before the bread\nis out.\n\n**Why the other answers are wrong:**\n- **B** *Then* is a middle step.\n- **C** *Last* signals the end.\n- **D** eating happens after the sandwich is made.",
+    "explanation": "**Correct Answer:** A) First, I got the bread out of the bag.\n\n**Explanation:**\nThe word *First* signals the opening step, and you cannot spread peanut butter before the bread\nis out.\n\n**Why the other answers are wrong:**\n- **B** *Then* is a middle step.\n- **C** *Last* signals the end.\n- **D** eating happens after the sandwich is made.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Some birds can learn to say words."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11B | Topic: Supporting Details**\n\n**Correct Answer:** A) They are loyal and love to play with people.\n\n**Explanation:**\nA supporting sentence gives a reason for the main idea. Loyalty and playfulness are reasons dogs\nmake good pets.\n\n**Why the other answers are wrong:**\n- **B** is about a goldfish, not dogs.\n- **C** is unrelated to pets entirely.\n- **D** is about birds.",
+    "explanation": "**Correct Answer:** A) They are loyal and love to play with people.\n\n**Explanation:**\nA supporting sentence gives a reason for the main idea. Loyalty and playfulness are reasons dogs\nmake good pets.\n\n**Why the other answers are wrong:**\n- **B** is about a goldfish, not dogs.\n- **C** is unrelated to pets entirely.\n- **D** is about birds.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Sentence 4"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11B | Topic: Relevance**\n\n**Correct Answer:** A) Sentence 3\n\n**Explanation:**\nThe paragraph is about planting and growing seeds. A favourite colour has nothing to do with it.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** all describe steps in growing the seeds.",
+    "explanation": "**Correct Answer:** A) Sentence 3\n\n**Explanation:**\nThe paragraph is about planting and growing seeds. A favourite colour has nothing to do with it.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** all describe steps in growing the seeds.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Under"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11C | Topic: Transitions**\n\n**Correct Answer:** A) Then\n\n**Explanation:**\n*Then* shows one action following another in time, which matches putting on a coat and going\noutside.\n\n**Why the other answers are wrong:**\n- **B** *Because* signals a reason, not a sequence.\n- **C** *But* signals a contrast.\n- **D** *Under* is a position word, not a transition.",
+    "explanation": "**Correct Answer:** A) Then\n\n**Explanation:**\n*Then* shows one action following another in time, which matches putting on a coat and going\noutside.\n\n**Why the other answers are wrong:**\n- **B** *Because* signals a reason, not a sequence.\n- **C** *But* signals a contrast.\n- **D** *Under* is a position word, not a transition.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "The zoo opens at nine o'clock."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11B | Topic: Concluding Sentence**\n\n**Correct Answer:** A) It was the best day I had all year.\n\n**Explanation:**\nA good ending sums up how the whole experience felt rather than adding a new fact.\n\n**Why the other answers are wrong:**\n- **B** is a detail from the middle.\n- **C** is unrelated.\n- **D** is a fact that belongs near the beginning.",
+    "explanation": "**Correct Answer:** A) It was the best day I had all year.\n\n**Explanation:**\nA good ending sums up how the whole experience felt rather than adding a new fact.\n\n**Why the other answers are wrong:**\n- **B** is a detail from the middle.\n- **C** is unrelated.\n- **D** is a fact that belongs near the beginning.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Some animal got some clothes."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11B | Topic: Precise Word Choice**\n\n**Correct Answer:** A) The puppy chewed my blue slipper.\n\n**Explanation:**\nExact nouns and adjectives — *puppy*, *blue slipper* — let the reader picture what happened.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** rely on vague words like *thing*, *stuff*, *something* and *some\n  animal*.",
+    "explanation": "**Correct Answer:** A) The puppy chewed my blue slipper.\n\n**Explanation:**\nExact nouns and adjectives — *puppy*, *blue slipper* — let the reader picture what happened.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** rely on vague words like *thing*, *stuff*, *something* and *some\n  animal*.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Paper aeroplanes are fun to make."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11A | Topic: Procedural Order**\n\n**Correct Answer:** A) Next, fold the two top corners to the middle.\n\n**Explanation:**\n*Start with one sheet of paper* is first, so *Next…* is the second step.\n\n**Why the other answers are wrong:**\n- **B** is the first step.\n- **C** *Finally* is the last step.\n- **D** is an opening comment, not a step.",
+    "explanation": "**Correct Answer:** A) Next, fold the two top corners to the middle.\n\n**Explanation:**\n*Start with one sheet of paper* is first, so *Next…* is the second step.\n\n**Why the other answers are wrong:**\n- **B** is the first step.\n- **C** *Finally* is the last step.\n- **D** is an opening comment, not a step.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "I have a red hat because a blue scarf."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11B | Topic: Combining Sentences**\n\n**Correct Answer:** A) I have a red hat and a blue scarf.\n\n**Explanation:**\n*And* joins two things the writer has, without repeating \"I have\".\n\n**Why the other answers are wrong:**\n- **B** is a run-on with no joining word.\n- **C** *but* signals contrast, and there is none.\n- **D** *because* signals a reason, and there is none.",
+    "explanation": "**Correct Answer:** A) I have a red hat and a blue scarf.\n\n**Explanation:**\n*And* joins two things the writer has, without repeating \"I have\".\n\n**Why the other answers are wrong:**\n- **B** is a run-on with no joining word.\n- **C** *but* signals contrast, and there is none.\n- **D** *because* signals a reason, and there is none.",
     "source": "authored",
     "needsReview": false
   }

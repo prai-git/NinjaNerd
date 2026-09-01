@@ -264,6 +264,48 @@ test('every table in the corpus renders as a table, with no rows left as text', 
 
 // ---- authoring provenance must not reach children -----------------------------------------
 
+test('no explanation opens with a curriculum-standard annotation either', () => {
+  /* Owner decision, 2026-09-01: strip these from explanations as well as questions. All 475
+     occurrences sat on the first line, and no explanation opened with an emphasised line that
+     was NOT a standards annotation, so unlike the question case there was nothing here the
+     rule could take by mistake. */
+  const bad = [];
+  everyItem((it, p) => {
+    const first = (it.explanation || '').split('\n')[0].trim();
+    if (/^\*{1,2}[^*\n]*\b(TEKS|MAP|NWEA|STAAR|Readiness|Instructional Area)\b[^*\n]*\*{1,2}$/
+      .test(first)) {
+      bad.push(`${p} ${it.id}: ${first}`);
+    }
+  });
+  assert.deepEqual(bad, [],
+    `${bad.length} explanations still show provenance:\n${bad.slice(0, 5).join('\n')}`);
+});
+
+test('stripping provenance did not empty any explanation', () => {
+  /* The strip removes a leading line. If an explanation consisted ONLY of that line, it would
+     silently become blank and the child would get no explanation at all. 200 items have no
+     explanation, but that count was identical before this change -- they come from sets whose
+     answers were given only as a summary key table, which is a separate content gap. */
+  let empty = 0;
+  everyItem((it) => { if (!(it.explanation || '').trim()) empty++; });
+  assert.equal(empty, 200,
+    `expected the 200 pre-existing empty explanations, found ${empty} — the strip took content`);
+});
+
+test('an explanation that is only an annotation is not silently blanked', () => {
+  // The failure mode the count above guards against, pinned directly on the function.
+  assert.equal(stripStandardsAnnotation('**TEKS 5.9 | Topic: Eclipses**\n\nEarth blocks it.'),
+    'Earth blocks it.');
+  // Nothing but the annotation -> genuinely empty, and both views already render no card.
+  assert.equal(stripStandardsAnnotation('**TEKS 5.9 | Topic: Eclipses**'), '');
+  const practice = readFileSync(join(repoRoot, 'app/js/practice.js'), 'utf8');
+  assert.match(practice, /if \(item\.explanation\) \{/,
+    'practice must not render an empty Explanation card');
+  const learn = readFileSync(join(repoRoot, 'app/js/learn.js'), 'utf8');
+  assert.match(learn, /\$\{it\.explanation \? `/,
+    'learn must not render an empty Explanation card');
+});
+
 test('no question opens with a curriculum-standard annotation', () => {
   /* 222 questions began with authoring provenance shown as the first line a child reads:
        *MAP Instructional Area: Earth & Space Science | TEKS 2.10B,2.1F*

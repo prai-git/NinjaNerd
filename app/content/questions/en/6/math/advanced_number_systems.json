@@ -215,7 +215,7 @@
       "62.50"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 5.2C — Rounding decimals.*\nThe hundredths digit is **8** (62.4**8**7). Look at the next digit (thousandths = **7**). Since 7 ≥ 5, round the hundredths digit up: 8 → 9. Result: **62.49**.",
+    "explanation": "The hundredths digit is **8** (62.4**8**7). Look at the next digit (thousandths = **7**). Since 7 ≥ 5, round the hundredths digit up: 8 → 9. Result: **62.49**.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "\\(2, \\ -1, \\ 0, \\ -5\\)"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.2D — Ordering rational numbers.*\nOn a number line, larger numbers are farther right. Greatest to least: **2 > 0 > −1 > −5**. (Remember: −1 is greater than −5.)",
+    "explanation": "On a number line, larger numbers are farther right. Greatest to least: **2 > 0 > −1 > −5**. (Remember: −1 is greater than −5.)",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "The absolute value of \\(-9\\) is \\(0\\)"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.2B — Opposites and absolute value.*\nThe **opposite** of −9 is +9 (same distance from 0, other side). The **absolute value** |−9| is the distance from 0, which is always non-negative: **9**.",
+    "explanation": "The **opposite** of −9 is +9 (same distance from 0, other side). The **absolute value** |−9| is the distance from 0, which is always non-negative: **9**.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "\\(3.5\\) and \\(350\\%\\)"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.4G — Fraction/decimal/percent equivalence.*\n\\(\\frac{3}{5} = 3 \\div 5 = 0.6\\). To make a percent, multiply by 100: \\(0.6 \\times 100 = 60\\%\\).",
+    "explanation": "\\(\\frac{3}{5} = 3 \\div 5 = 0.6\\). To make a percent, multiply by 100: \\(0.6 \\times 100 = 60\\%\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "\\(-0.25\\)"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.2A — Classifying numbers.*\nWhole numbers are 0, 1, 2, 3, … **7** is a whole number and is not negative. (−8 is a negative integer; ½ and −0.25 are not whole numbers.)",
+    "explanation": "Whole numbers are 0, 1, 2, 3, … **7** is a whole number and is not negative. (−8 is a negative integer; ½ and −0.25 are not whole numbers.)",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "2"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.7A — Least common multiple.*\nMultiples of 6: 6, 12, 18, **24**… Multiples of 8: 8, 16, **24**… The smallest number in both lists is **24**. (48 is a common multiple but not the *least*.)",
+    "explanation": "Multiples of 6: 6, 12, 18, **24**… Multiples of 8: 8, 16, **24**… The smallest number in both lists is **24**. (48 is a common multiple but not the *least*.)",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "\\(0.7, \\ \\frac{3}{10}, \\ -\\frac{2}{5}, \\ -1.25\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.2D | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Convert all to decimals: \\(-\\frac{2}{5} = -0.4\\), \\(\\frac{3}{10} = 0.3\\). Values: \\(-0.4,\\ 0.7,\\ -1.25,\\ 0.3\\). Ordering least → greatest: \\(-1.25 < -0.4 < 0.3 < 0.7\\), i.e. \\(-1.25,\\ -\\frac{2}{5},\\ \\frac{3}{10},\\ 0.7\\).\n\n**Why others are wrong:** B places \\(-\\frac{2}{5}\\) before \\(-1.25\\) (treats the more-negative number as larger). C misplaces \\(\\frac{3}{10}\\) ahead of \\(-\\frac{2}{5}\\). D is greatest → least (reversed).\n\n**Key concept:** Comparing/ordering positive and negative rational numbers; on a number line, more-negative = smaller.",
+    "explanation": "**Work:** Convert all to decimals: \\(-\\frac{2}{5} = -0.4\\), \\(\\frac{3}{10} = 0.3\\). Values: \\(-0.4,\\ 0.7,\\ -1.25,\\ 0.3\\). Ordering least → greatest: \\(-1.25 < -0.4 < 0.3 < 0.7\\), i.e. \\(-1.25,\\ -\\frac{2}{5},\\ \\frac{3}{10},\\ 0.7\\).\n\n**Why others are wrong:** B places \\(-\\frac{2}{5}\\) before \\(-1.25\\) (treats the more-negative number as larger). C misplaces \\(\\frac{3}{10}\\) ahead of \\(-\\frac{2}{5}\\). D is greatest → least (reversed).\n\n**Key concept:** Comparing/ordering positive and negative rational numbers; on a number line, more-negative = smaller.",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "The submarine is closer to sea level because \\(-240\\) is a negative number."
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.2B | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Distance from sea level is the absolute value. \\(|-240| = 240\\) and \\(|180| = 180\\). Since \\(240 > 180\\), the submarine is farther from sea level.\n\n**Why others are wrong:** A compares signed values, not distances. C is false (\\(240 \\neq 180\\)). D confuses \"negative\" with \"closer.\"\n\n**Key concept:** Absolute value = distance from zero, regardless of sign.",
+    "explanation": "**Work:** Distance from sea level is the absolute value. \\(|-240| = 240\\) and \\(|180| = 180\\). Since \\(240 > 180\\), the submarine is farther from sea level.\n\n**Why others are wrong:** A compares signed values, not distances. C is false (\\(240 \\neq 180\\)). D confuses \"negative\" with \"closer.\"\n\n**Key concept:** Absolute value = distance from zero, regardless of sign.",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "\\(1.6\\) and \\(160\\%\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.4G | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(\\frac{5}{8} = 5 \\div 8 = 0.625\\). As a percent, \\(0.625 \\times 100 = 62.5\\%\\).\n\n**Why others are wrong:** A (\\(0.58\\)) is a rounding/guess error. C moves the decimal wrong for the percent. D (\\(1.6\\)) inverts the fraction (\\(8 \\div 5\\)).\n\n**Key concept:** Fraction → decimal by division; decimal → percent by multiplying by 100.",
+    "explanation": "**Work:** \\(\\frac{5}{8} = 5 \\div 8 = 0.625\\). As a percent, \\(0.625 \\times 100 = 62.5\\%\\).\n\n**Why others are wrong:** A (\\(0.58\\)) is a rounding/guess error. C moves the decimal wrong for the percent. D (\\(1.6\\)) inverts the fraction (\\(8 \\div 5\\)).\n\n**Key concept:** Fraction → decimal by division; decimal → percent by multiplying by 100.",
     "source": "authored",
     "needsReview": false
   },
@@ -515,7 +515,7 @@
       "\\(\\sqrt{50}\\) is rational and \\(\\sqrt{49}\\) is irrational."
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.2A / 8.2B (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(\\sqrt{49} = 7\\) exactly, so it is **rational**. \\(50\\) is not a perfect square, so \\(\\sqrt{50} \\approx 7.07\\ldots\\) is a non-terminating, non-repeating decimal — **irrational**.\n\n**Why others are wrong:** A and C misclassify one or both. D reverses which is rational.\n\n**Key concept:** Perfect-square roots are rational; roots of non-perfect squares are irrational.",
+    "explanation": "**Work:** \\(\\sqrt{49} = 7\\) exactly, so it is **rational**. \\(50\\) is not a perfect square, so \\(\\sqrt{50} \\approx 7.07\\ldots\\) is a non-terminating, non-repeating decimal — **irrational**.\n\n**Why others are wrong:** A and C misclassify one or both. D reverses which is rational.\n\n**Key concept:** Perfect-square roots are rational; roots of non-perfect squares are irrational.",
     "source": "authored",
     "needsReview": false
   },
@@ -535,7 +535,7 @@
       "\\(2{,}500\\) grams"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.2C / 8.2D (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(2.5 \\times 10^{-3}\\) means move the decimal point **3 places left**: \\(2.5 \\to 0.0025\\).\n\n**Why others are wrong:** A and D treat the exponent as positive. C moves only 2 places.\n\n**Key concept:** A negative exponent in scientific notation means a small number; shift the decimal left by the exponent's magnitude.",
+    "explanation": "**Work:** \\(2.5 \\times 10^{-3}\\) means move the decimal point **3 places left**: \\(2.5 \\to 0.0025\\).\n\n**Why others are wrong:** A and D treat the exponent as positive. C moves only 2 places.\n\n**Key concept:** A negative exponent in scientific notation means a small number; shift the decimal left by the exponent's magnitude.",
     "source": "authored",
     "needsReview": false
   },
@@ -555,7 +555,7 @@
       "240"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 6.7A / foundational | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(48 = 2^4 \\times 3\\); \\(60 = 2^2 \\times 3 \\times 5\\). Common factors: \\(2^2 \\times 3 = 12\\).\n\n**Why others are wrong:** A (6) is a common factor but not the greatest. B (24) does not divide 60. D (240) is the LCM, not the GCF.\n\n**Key concept:** GCF = product of shared prime factors at their lowest powers.",
+    "explanation": "**Work:** \\(48 = 2^4 \\times 3\\); \\(60 = 2^2 \\times 3 \\times 5\\). Common factors: \\(2^2 \\times 3 = 12\\).\n\n**Why others are wrong:** A (6) is a common factor but not the greatest. B (24) does not divide 60. D (240) is the LCM, not the GCF.\n\n**Key concept:** GCF = product of shared prime factors at their lowest powers.",
     "source": "authored",
     "needsReview": false
   },
@@ -575,7 +575,7 @@
       "\\(-11\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.3A (accelerated) | MAP Area: Numerical Representations & Relationships / Computations**\n\n**Work:** Order of operations: multiply first. \\((-3) \\times 4 = -12\\). Then \\(-8 + (-12) = -20\\).\n\n**Why others are wrong:** A adds before multiplying: \\((-8 + -3) \\times 4 = -44\\). C drops the sign. D forgets to multiply by 4.\n\n**Key concept:** Order of operations with signed numbers; multiply/divide before add/subtract.",
+    "explanation": "**Work:** Order of operations: multiply first. \\((-3) \\times 4 = -12\\). Then \\(-8 + (-12) = -20\\).\n\n**Why others are wrong:** A adds before multiplying: \\((-8 + -3) \\times 4 = -44\\). C drops the sign. D forgets to multiply by 4.\n\n**Key concept:** Order of operations with signed numbers; multiply/divide before add/subtract.",
     "source": "authored",
     "needsReview": false
   },
@@ -595,7 +595,7 @@
       "\\(0.6, \\ \\frac{2}{5}, \\ -\\frac{3}{8}, \\ -1.5\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.2D — Ordering rational numbers.**\n**Solution:** Convert to decimals: \\(-1.5 = -1.5\\); \\(-\\frac{3}{8} = -0.375\\); \\(\\frac{2}{5} = 0.4\\); \\(0.6 = 0.6\\). From least to greatest: \\(-1.5, \\ -\\frac{3}{8}, \\ \\frac{2}{5}, \\ 0.6\\).\n**Why others are wrong:** B places \\(-1.5\\) after \\(-\\frac{3}{8}\\) (but \\(-1.5 < -0.375\\)). C misorders the two negatives and \\(\\frac{2}{5}\\). D is greatest-to-least.\n**Key concept:** On a number line, more-negative numbers are smaller; compare using a common form.",
+    "explanation": "**Solution:** Convert to decimals: \\(-1.5 = -1.5\\); \\(-\\frac{3}{8} = -0.375\\); \\(\\frac{2}{5} = 0.4\\); \\(0.6 = 0.6\\). From least to greatest: \\(-1.5, \\ -\\frac{3}{8}, \\ \\frac{2}{5}, \\ 0.6\\).\n**Why others are wrong:** B places \\(-1.5\\) after \\(-\\frac{3}{8}\\) (but \\(-1.5 < -0.375\\)). C misorders the two negatives and \\(\\frac{2}{5}\\). D is greatest-to-least.\n**Key concept:** On a number line, more-negative numbers are smaller; compare using a common form.",
     "source": "authored",
     "needsReview": false
   },
@@ -615,7 +615,7 @@
       "The explorer is closer to sea level because \\(-120\\) is negative."
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.2B — Absolute value / distance from zero.**\n**Solution:** Distance from sea level is the **absolute value**: \\(|-120| = 120\\) and \\(|95| = 95\\). Since \\(120 > 95\\), the explorer is farther.\n**Why others are wrong:** A compares signed values, not distance. C is false (\\(120 \\neq 95\\)). D confuses \"negative\" with \"closer.\"\n**Key concept:** Absolute value gives distance from zero regardless of sign.",
+    "explanation": "**Solution:** Distance from sea level is the **absolute value**: \\(|-120| = 120\\) and \\(|95| = 95\\). Since \\(120 > 95\\), the explorer is farther.\n**Why others are wrong:** A compares signed values, not distance. C is false (\\(120 \\neq 95\\)). D confuses \"negative\" with \"closer.\"\n**Key concept:** Absolute value gives distance from zero regardless of sign.",
     "source": "authored",
     "needsReview": false
   },
@@ -635,7 +635,7 @@
       "\\(\\sqrt{70}\\) is rational and \\(\\sqrt{64}\\) is irrational."
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.2A — Rational vs. irrational numbers.**\n**Solution:** \\(\\sqrt{64} = 8\\) exactly, so it is **rational**. \\(70\\) is not a perfect square, so \\(\\sqrt{70} \\approx 8.37\\) is a non-terminating, non-repeating decimal — **irrational**.\n**Why others are wrong:** A and C misclassify a perfect-square root. D reverses the two.\n**Key concept:** A square root is rational only when the radicand is a perfect square.",
+    "explanation": "**Solution:** \\(\\sqrt{64} = 8\\) exactly, so it is **rational**. \\(70\\) is not a perfect square, so \\(\\sqrt{70} \\approx 8.37\\) is a non-terminating, non-repeating decimal — **irrational**.\n**Why others are wrong:** A and C misclassify a perfect-square root. D reverses the two.\n**Key concept:** A square root is rational only when the radicand is a perfect square.",
     "source": "authored",
     "needsReview": false
   },
@@ -655,7 +655,7 @@
       "\\(6 \\times 10^{1}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.2C/8.2D — Operations in scientific notation.**\n**Solution:** Multiply the coefficients and add the exponents: \\((3 \\times 2) \\times 10^{4+3} = 6 \\times 10^{7}\\).\n**Why others are wrong:** B multiplies the exponents (\\(4 \\times 3\\)) instead of adding. C multiplies \\(3 \\times 2\\) incorrectly as 5. D uses \\(10^{1}\\).\n**Key concept:** \\((a \\times 10^m)(b \\times 10^n) = (ab) \\times 10^{m+n}\\).",
+    "explanation": "**Solution:** Multiply the coefficients and add the exponents: \\((3 \\times 2) \\times 10^{4+3} = 6 \\times 10^{7}\\).\n**Why others are wrong:** B multiplies the exponents (\\(4 \\times 3\\)) instead of adding. C multiplies \\(3 \\times 2\\) incorrectly as 5. D uses \\(10^{1}\\).\n**Key concept:** \\((a \\times 10^m)(b \\times 10^n) = (ab) \\times 10^{m+n}\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -675,7 +675,7 @@
       "\\(\\frac{15}{4}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.3A — Operations with negative rational numbers.**\n**Solution:** Order of operations — multiply first: \\(\\frac{1}{2} \\times (-6) = -3\\). Then \\(-\\frac{3}{4} + (-3) = -\\frac{3}{4} - \\frac{12}{4} = -\\frac{15}{4}\\).\n**Why others are wrong:** B adds before multiplying (\\(-\\frac14 \\times -6\\)). C and D make sign or arithmetic errors.\n**Key concept:** Apply order of operations; adding a negative moves left on the number line.",
+    "explanation": "**Solution:** Order of operations — multiply first: \\(\\frac{1}{2} \\times (-6) = -3\\). Then \\(-\\frac{3}{4} + (-3) = -\\frac{3}{4} - \\frac{12}{4} = -\\frac{15}{4}\\).\n**Why others are wrong:** B adds before multiplying (\\(-\\frac14 \\times -6\\)). C and D make sign or arithmetic errors.\n**Key concept:** Apply order of operations; adding a negative moves left on the number line.",
     "source": "authored",
     "needsReview": false
   }

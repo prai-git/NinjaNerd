@@ -15,7 +15,7 @@
       "a virus"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.12B — Prokaryotic vs. eukaryotic cells.*\nA cell that **lacks a nucleus** (like a bacterium) is **prokaryotic**. Cells with a nucleus (plants, animals, fungi) are **eukaryotic**.",
+    "explanation": "A cell that **lacks a nucleus** (like a bacterium) is **prokaryotic**. Cells with a nucleus (plants, animals, fungi) are **eukaryotic**.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Ribosomes and nucleus"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.12 — Comparing plant and animal cells.*\nPlant cells have a **cell wall** (for support) and **chloroplasts** (for photosynthesis) that animal cells do not have. Both cell types share the nucleus, membrane, mitochondria, cytoplasm, and ribosomes.",
+    "explanation": "Plant cells have a **cell wall** (for support) and **chloroplasts** (for photosynthesis) that animal cells do not have. Both cell types share the nucleus, membrane, mitochondria, cytoplasm, and ribosomes.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Community → ecosystem → organism → population"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.12C — Levels of organization.*\nSmallest to largest: a single **organism**, then a **population** (same species), then a **community** (all species together), then an **ecosystem** (living + nonliving parts).",
+    "explanation": "Smallest to largest: a single **organism**, then a **population** (same species), then a **community** (all species together), then an **ecosystem** (living + nonliving parts).",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "disappears completely after the first level"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.12 — Energy flow in a food web.*\nEnergy is **lost as heat** and used for life processes at each step, so only a small part passes to the next level. Usable energy **decreases** up the food chain.",
+    "explanation": "Energy is **lost as heat** and used for life processes at each step, so only a small part passes to the next level. Usable energy **decreases** up the food chain.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "All five factors are biotic because they are all part of the pond"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12 (biotic vs. abiotic factors) | MAP: Life Science — Ecosystems**\n\n**Step-by-step:** **Abiotic** = nonliving (sunlight, dissolved oxygen, water temperature). **Biotic** = living or once-living (cattail plants, mosquito larvae). Option B sorts them correctly.\n\n**Why the others are wrong:** A reverses the two categories. C misplaces cattail plants (living) into abiotic. D wrongly calls everything biotic.\n\n**Key concept:** Ecosystems contain interacting biotic (living) and abiotic (nonliving) factors.",
+    "explanation": "**Step-by-step:** **Abiotic** = nonliving (sunlight, dissolved oxygen, water temperature). **Biotic** = living or once-living (cattail plants, mosquito larvae). Option B sorts them correctly.\n\n**Why the others are wrong:** A reverses the two categories. C misplaces cattail plants (living) into abiotic. D wrongly calls everything biotic.\n\n**Key concept:** Ecosystems contain interacting biotic (living) and abiotic (nonliving) factors.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "The grass will gain energy by having fewer rabbits eat it"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12 (energy flow / food web) | MAP: Life Science — Ecosystems | SEP 6.3 (modeling)**\n\n**Step-by-step:** Energy flows grass → rabbit → hawk. Less grass means less food/energy for rabbits, so the rabbit population likely **declines**; with fewer rabbits, hawks have less prey, so the hawk population may **also decline**.\n\n**Why the others are wrong:** A reverses the effect (less prey would not increase hawks). C ignores the linked dependency. D misapplies energy flow — grass does not \"gain energy\" from being eaten less; it makes its own energy via photosynthesis.\n\n**Key concept:** In a food web, a change at one level ripples through connected populations because energy flows from producers to consumers.",
+    "explanation": "**Step-by-step:** Energy flows grass → rabbit → hawk. Less grass means less food/energy for rabbits, so the rabbit population likely **declines**; with fewer rabbits, hawks have less prey, so the hawk population may **also decline**.\n\n**Why the others are wrong:** A reverses the effect (less prey would not increase hawks). C ignores the linked dependency. D misapplies energy flow — grass does not \"gain energy\" from being eaten less; it makes its own energy via photosynthesis.\n\n**Key concept:** In a food web, a change at one level ripples through connected populations because energy flows from producers to consumers.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "Ecosystem, then organism"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12 (levels of organization) | MAP: Life Science — Ecosystems | Theme: scale**\n\n**Step-by-step:** All deer of one kind in one area = a **population**. All the interacting populations together = a **community**. Order studied: population → community.\n\n**Why the others are wrong:** A reverses the order. C and D bring in organism/ecosystem levels that do not match \"all deer\" and \"all living populations.\"\n\n**Key concept:** Hierarchy: organism → population → community → ecosystem.",
+    "explanation": "**Step-by-step:** All deer of one kind in one area = a **population**. All the interacting populations together = a **community**. Order studied: population → community.\n\n**Why the others are wrong:** A reverses the order. C and D bring in organism/ecosystem levels that do not match \"all deer\" and \"all living populations.\"\n\n**Key concept:** Hierarchy: organism → population → community → ecosystem.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "New cells appear spontaneously from nonliving material"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.13 (cell theory) | MAP: Life Science — From Molecules to Organisms**\n\n**Step-by-step:** The cell theory states: (1) all living things are made of one or more cells, (2) the cell is the basic unit of life, and (3) all cells come from pre-existing cells. Option A captures principles 1 and 3.\n\n**Why the others are wrong:** B is false — plants and bacteria are cellular too. C is false — the cell is the **smallest** (basic) unit of life. D describes spontaneous generation, which the cell theory **disproved**.\n\n**Key concept:** Cell theory: all organisms are cellular, cells are the basic unit of life, and cells come only from existing cells.",
+    "explanation": "**Step-by-step:** The cell theory states: (1) all living things are made of one or more cells, (2) the cell is the basic unit of life, and (3) all cells come from pre-existing cells. Option A captures principles 1 and 3.\n\n**Why the others are wrong:** B is false — plants and bacteria are cellular too. C is false — the cell is the **smallest** (basic) unit of life. D describes spontaneous generation, which the cell theory **disproved**.\n\n**Key concept:** Cell theory: all organisms are cellular, cells are the basic unit of life, and cells come only from existing cells.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "The finches with 10 mm beaks, because that group is the second largest"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.13 (variation of traits / survival) | MAP: Life Science — Heredity & Variation | SEP 6.2**\n\n**Step-by-step:** During a drought leaving only large, hard seeds, only **deeper-beaked** finches can crack them open. The finches with 14 mm and 16 mm beaks have the advantageous trait, so they are most likely to survive and reproduce, passing on deeper-beak genes.\n\n**Why the others are wrong:** A and D pick groups based on how **common** the trait is, not on the survival advantage. C ignores that beak depth clearly affects the ability to eat the available food.\n\n**Key concept:** Trait variation within a population allows some individuals to survive changing conditions; advantageous inherited traits become more common (natural selection).",
+    "explanation": "**Step-by-step:** During a drought leaving only large, hard seeds, only **deeper-beaked** finches can crack them open. The finches with 14 mm and 16 mm beaks have the advantageous trait, so they are most likely to survive and reproduce, passing on deeper-beak genes.\n\n**Why the others are wrong:** A and D pick groups based on how **common** the trait is, not on the survival advantage. C ignores that beak depth clearly affects the ability to eat the available food.\n\n**Key concept:** Trait variation within a population allows some individuals to survive changing conditions; advantageous inherited traits become more common (natural selection).",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "pond weeds and a snail"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12A — Biotic vs. abiotic factors.**\n**Explanation:** **Abiotic** = nonliving. **Water temperature** and **dissolved oxygen** are both nonliving physical factors of the pond.\n**Why others are wrong:** A, C, and D each contain living (biotic) organisms — algae, minnow, tadpole, dragonfly, pond weeds, snail.\n**Key concept:** Ecosystems include living (biotic) and nonliving (abiotic) factors.",
+    "explanation": "**Explanation:** **Abiotic** = nonliving. **Water temperature** and **dissolved oxygen** are both nonliving physical factors of the pond.\n**Why others are wrong:** A, C, and D each contain living (biotic) organisms — algae, minnow, tadpole, dragonfly, pond weeds, snail.\n**Key concept:** Ecosystems include living (biotic) and nonliving (abiotic) factors.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "Nothing in the food chain will change, because each species is independent"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.12B — Interactions & energy flow.**\n**Explanation:** Trace the chain: grass → grasshopper → frog → snake → hawk. If **frogs decline**, fewer predators eat grasshoppers, so **grasshoppers increase**. Snakes lose their main food (frogs), so **snakes decrease**. This is multi-step cause-and-effect reasoning.\n**Why others are wrong:** B reverses both effects. C overstates the impact (\"disappear immediately\"). D is wrong because food chains are interconnected, not independent.\n**Key concept:** A change at one level of a food chain ripples up and down the chain.",
+    "explanation": "**Explanation:** Trace the chain: grass → grasshopper → frog → snake → hawk. If **frogs decline**, fewer predators eat grasshoppers, so **grasshoppers increase**. Snakes lose their main food (frogs), so **snakes decrease**. This is multi-step cause-and-effect reasoning.\n**Why others are wrong:** B reverses both effects. C overstates the impact (\"disappear immediately\"). D is wrong because food chains are interconnected, not independent.\n**Key concept:** A change at one level of a food chain ripples up and down the chain.",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "A single cell is always larger than the whole organism"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.13A — Cell theory.**\n**Explanation:** A core principle of the **cell theory** is that **all living things are made of one or more cells** (other principles: the cell is the basic unit of life, and cells come from existing cells).\n**Why others are wrong:** B — plants have cells too. C — living things are made of cells, not rock/water/air alone. D — a single cell is part of the organism, not larger than it.\n**Key concept:** The cell theory — all living things are composed of cells.",
+    "explanation": "**Explanation:** A core principle of the **cell theory** is that **all living things are made of one or more cells** (other principles: the cell is the basic unit of life, and cells come from existing cells).\n**Why others are wrong:** B — plants have cells too. C — living things are made of cells, not rock/water/air alone. D — a single cell is part of the organism, not larger than it.\n**Key concept:** The cell theory — all living things are composed of cells.",
     "source": "authored",
     "needsReview": false
   }

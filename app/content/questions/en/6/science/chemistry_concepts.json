@@ -15,7 +15,7 @@
       "Sample M"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7A (density) | MAP: Matter and Its Interactions | SEP 6.2 (data analysis)**\n\n**Step-by-step:** Density \\(D = \\dfrac{m}{V}\\). Compute each:\n- J: \\(48 \\div 6 = 8.0\\) g/cm³\n- K: \\(27 \\div 30 = 0.9\\) g/cm³\n- L: \\(90 \\div 45 = 2.0\\) g/cm³\n- M: \\(21 \\div 3 = 7.0\\) g/cm³\n\nThe greatest density is **Sample J at 8.0 g/cm³**.\n\n**Why the others are wrong:** M = 7.0 g/cm³ (second highest — a strong distractor); L = 2.0 g/cm³; K = 0.9 g/cm³ (the only sample that would float in water). A student who forgets to divide and just picks the largest mass (L, 90 g) is misled.\n\n**Key concept:** Density is a ratio of mass to volume; the largest mass does not mean the largest density.",
+    "explanation": "**Step-by-step:** Density \\(D = \\dfrac{m}{V}\\). Compute each:\n- J: \\(48 \\div 6 = 8.0\\) g/cm³\n- K: \\(27 \\div 30 = 0.9\\) g/cm³\n- L: \\(90 \\div 45 = 2.0\\) g/cm³\n- M: \\(21 \\div 3 = 7.0\\) g/cm³\n\nThe greatest density is **Sample J at 8.0 g/cm³**.\n\n**Why the others are wrong:** M = 7.0 g/cm³ (second highest — a strong distractor); L = 2.0 g/cm³; K = 0.9 g/cm³ (the only sample that would float in water). A student who forgets to divide and just picks the largest mass (L, 90 g) is misled.\n\n**Key concept:** Density is a ratio of mass to volume; the largest mass does not mean the largest density.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "impossible to evaluate without knowing the ring's color"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7A (density as an identifying property) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** \\(D = \\dfrac{m}{V} = \\dfrac{57.9\\text{ g}}{3.0\\text{ cm}^3} = 19.3\\) g/cm³.\n\nThis exactly matches pure gold's density (19.3 g/cm³), so the ring **is most likely pure gold**.\n\n**Why the others are wrong:** B is wrong because the calculated density **does** match gold. C compares the mass and volume numbers directly, which is not how density identification works. D is wrong because density (a physical property) can identify a material regardless of its color.\n\n**Key concept:** Density is an intensive property used to identify substances; calculate it and compare to a known value.",
+    "explanation": "**Step-by-step:** \\(D = \\dfrac{m}{V} = \\dfrac{57.9\\text{ g}}{3.0\\text{ cm}^3} = 19.3\\) g/cm³.\n\nThis exactly matches pure gold's density (19.3 g/cm³), so the ring **is most likely pure gold**.\n\n**Why the others are wrong:** B is wrong because the calculated density **does** match gold. C compares the mass and volume numbers directly, which is not how density identification works. D is wrong because density (a physical property) can identify a material regardless of its color.\n\n**Key concept:** Density is an intensive property used to identify substances; calculate it and compare to a known value.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Sample S"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6A (classifying matter) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** A **compound** is two or more **different** kinds of atoms **chemically bonded** in a fixed ratio. Sample Q shows identical ○–● units, all chemically bonded — that is a compound.\n\n**Why the others are wrong:** P is only one kind of atom bonded in pairs → a diatomic **element** (like O₂). R is a **mixture** of two separate substances that are not bonded to each other. S is single identical atoms → an **element**.\n\n**Key concept:** Element = one kind of atom; compound = different atoms chemically bonded; mixture = substances physically combined, not bonded.",
+    "explanation": "**Step-by-step:** A **compound** is two or more **different** kinds of atoms **chemically bonded** in a fixed ratio. Sample Q shows identical ○–● units, all chemically bonded — that is a compound.\n\n**Why the others are wrong:** P is only one kind of atom bonded in pairs → a diatomic **element** (like O₂). R is a **mixture** of two separate substances that are not bonded to each other. S is single identical atoms → an **element**.\n\n**Key concept:** Element = one kind of atom; compound = different atoms chemically bonded; mixture = substances physically combined, not bonded.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "These three elements are all nonmetals"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6A (periodic table organization) | MAP: Matter and Its Interactions | Theme: patterns**\n\n**Step-by-step:** Elements in the same **group (column)** show similar chemical behavior. Lithium, sodium, and potassium all react vigorously with water, a shared behavior that points to the same group (these are the alkali metals, Group 1).\n\n**Why the others are wrong:** B — they are solids, not gases. C — every element has a **unique** atomic number. D — they are reactive **metals**, not nonmetals.\n\n**Key concept:** The periodic table's columns group elements with similar properties; shared reactivity is a clue to group placement.",
+    "explanation": "**Step-by-step:** Elements in the same **group (column)** show similar chemical behavior. Lithium, sodium, and potassium all react vigorously with water, a shared behavior that points to the same group (these are the alkali metals, Group 1).\n\n**Why the others are wrong:** B — they are solids, not gases. C — every element has a **unique** atomic number. D — they are reactive **metals**, not nonmetals.\n\n**Key concept:** The periodic table's columns group elements with similar properties; shared reactivity is a clue to group placement.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "The mixture can be poured from one container into another"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6B (evidence of chemical change) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** Signs of a chemical change include a **new substance forming** (precipitate), color change, gas production, light, odor, or an unexpected **temperature change**. A cloudy precipitate plus a temperature rise are two strong indicators together.\n\n**Why the others are wrong:** A, C, and D all describe **physical** behaviors (shape, volume, pourability) that occur without forming a new substance.\n\n**Key concept:** Chemical changes produce new substances; look for precipitates, gas, color change, odor, light, or heat released/absorbed.",
+    "explanation": "**Step-by-step:** Signs of a chemical change include a **new substance forming** (precipitate), color change, gas production, light, odor, or an unexpected **temperature change**. A cloudy precipitate plus a temperature rise are two strong indicators together.\n\n**Why the others are wrong:** A, C, and D all describe **physical** behaviors (shape, volume, pourability) that occur without forming a new substance.\n\n**Key concept:** Chemical changes produce new substances; look for precipitates, gas, color change, odor, light, or heat released/absorbed.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Heat the mixture until the sand and salt both melt into the iron"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6A (separating mixtures by physical properties) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** Use each material's physical property in sequence:\n1. **Magnet** removes iron (magnetic).\n2. Add **water** → salt dissolves, sand does not; **filter** to catch sand.\n3. **Evaporate** the salt water → salt crystals remain.\n\nAll three are recovered without any chemical change.\n\n**Why the others are wrong:** A burns the mixture (a chemical change that destroys materials). C is false — the three do not spontaneously separate. D melts materials, changing them and not separating salt from iron.\n\n**Key concept:** Mixtures can be separated using differences in physical properties (magnetism, solubility, particle size).",
+    "explanation": "**Step-by-step:** Use each material's physical property in sequence:\n1. **Magnet** removes iron (magnetic).\n2. Add **water** → salt dissolves, sand does not; **filter** to catch sand.\n3. **Evaporate** the salt water → salt crystals remain.\n\nAll three are recovered without any chemical change.\n\n**Why the others are wrong:** A burns the mixture (a chemical change that destroys materials). C is false — the three do not spontaneously separate. D melts materials, changing them and not separating salt from iron.\n\n**Key concept:** Mixtures can be separated using differences in physical properties (magnetism, solubility, particle size).",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "J = solid, K = gas, L = liquid"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6A — States of matter / particle model.**\n**Explanation:** In a **solid** (Sample J) particles are locked in a fixed pattern and only vibrate. In a **liquid** (Sample K) particles stay close but slide past one another, so a liquid takes the container's shape but keeps its volume. In a **gas** (Sample L) particles are far apart and move rapidly to fill any container.\n**Why others are wrong:** A, C, and D mismatch at least one description — e.g., a gas cannot have tightly packed, fixed particles.\n**Key concept:** Particle arrangement and motion define the state of matter.",
+    "explanation": "**Explanation:** In a **solid** (Sample J) particles are locked in a fixed pattern and only vibrate. In a **liquid** (Sample K) particles stay close but slide past one another, so a liquid takes the container's shape but keeps its volume. In a **gas** (Sample L) particles are far apart and move rapidly to fill any container.\n**Why others are wrong:** A, C, and D mismatch at least one description — e.g., a gas cannot have tightly packed, fixed particles.\n**Key concept:** Particle arrangement and motion define the state of matter.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "Pure substances: trail mix only; Mixtures: the other three"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6B/6.6C — Pure substances vs. mixtures.**\n**Explanation:** A **pure substance** has one kind of particle throughout: table salt (a compound, NaCl) and oxygen gas (an element) qualify. **Mixtures** contain two or more substances physically combined: ocean water (salt + water + more) and trail mix (nuts, raisins, etc.).\n**Why others are wrong:** B reverses the two groups. C ignores that ocean water and trail mix are clearly mixtures. D wrongly calls two pure substances mixtures.\n**Key concept:** Pure substances = elements or compounds; mixtures = physically combined substances.",
+    "explanation": "**Explanation:** A **pure substance** has one kind of particle throughout: table salt (a compound, NaCl) and oxygen gas (an element) qualify. **Mixtures** contain two or more substances physically combined: ocean water (salt + water + more) and trail mix (nuts, raisins, etc.).\n**Why others are wrong:** B reverses the two groups. C ignores that ocean water and trail mix are clearly mixtures. D wrongly calls two pure substances mixtures.\n**Key concept:** Pure substances = elements or compounds; mixtures = physically combined substances.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "Helium (He) and oxygen (O) must be the same element because both are gases"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6 — Elements & the periodic table.**\n**Explanation:** The passage states iron and sodium are metals. Metals sit in the left and center of the periodic table, so **Fe and Na** are in the metal region.\n**Why others are wrong:** A — a chemical symbol does not make an element a metal. C — the length of a symbol says nothing about metal/nonmetal. D — oxygen and helium are different elements even though both are gases.\n**Key concept:** The periodic table organizes elements; position indicates metal vs. nonmetal.",
+    "explanation": "**Explanation:** The passage states iron and sodium are metals. Metals sit in the left and center of the periodic table, so **Fe and Na** are in the metal region.\n**Why others are wrong:** A — a chemical symbol does not make an element a metal. C — the length of a symbol says nothing about metal/nonmetal. D — oxygen and helium are different elements even though both are gases.\n**Key concept:** The periodic table organizes elements; position indicates metal vs. nonmetal.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "None of the objects will float"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.6D — Density (calculation).**\n**Explanation:** Density = mass ÷ volume.\n- P: 20 ÷ 25 = **0.8 g/cm³** → less than 1.0 → **floats**\n- Q: 54 ÷ 6 = 9.0 g/cm³ → sinks\n- R: 30 ÷ 30 = 1.0 g/cm³ → neither (stays suspended)\nOnly Object P has a density below water's, so it floats.\n**Why others are wrong:** Q (9.0) and R (1.0) are not less than 1.0. D is wrong because P does float.\n**Key concept:** Objects less dense than a fluid float in it.",
+    "explanation": "**Explanation:** Density = mass ÷ volume.\n- P: 20 ÷ 25 = **0.8 g/cm³** → less than 1.0 → **floats**\n- Q: 54 ÷ 6 = 9.0 g/cm³ → sinks\n- R: 30 ÷ 30 = 1.0 g/cm³ → neither (stays suspended)\nOnly Object P has a density below water's, so it floats.\n**Why others are wrong:** Q (9.0) and R (1.0) are not less than 1.0. D is wrong because P does float.\n**Key concept:** Objects less dense than a fluid float in it.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "No change occurred because the nail is still made of iron"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6E — Evidence of chemical change.**\n**Explanation:** Rust is a **new substance** (iron oxide) with properties different from shiny iron — reddish-brown, flaky, brittle. Forming a new substance is the signature of a chemical change.\n**Why others are wrong:** A — a shape change would be physical, but this is more than shape. C — the nail did not evaporate. D — although iron atoms remain, they have chemically combined with oxygen to form a new compound.\n**Key concept:** Formation of a new substance = chemical change.",
+    "explanation": "**Explanation:** Rust is a **new substance** (iron oxide) with properties different from shiny iron — reddish-brown, flaky, brittle. Forming a new substance is the signature of a chemical change.\n**Why others are wrong:** A — a shape change would be physical, but this is more than shape. C — the nail did not evaporate. D — although iron atoms remain, they have chemically combined with oxygen to form a new compound.\n**Key concept:** Formation of a new substance = chemical change.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "Pour the dry mixture through a fine screen to catch the salt"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.6 — Separating mixtures by physical properties.**\n**Explanation:** Salt **dissolves** in water; sand does **not**. Stir the mixture into water, **filter** out the undissolved sand, then **evaporate** the water to recover the dissolved salt. This uses differences in physical properties (solubility) to separate the two.\n**Why others are wrong:** A — a magnet does not attract salt or sand. C — melting would not cleanly separate them and requires enormous heat. D — a screen cannot separate two fine solids reliably, and salt is not larger than sand.\n**Key concept:** Physical properties like solubility allow mixtures to be separated without chemical change.",
+    "explanation": "**Explanation:** Salt **dissolves** in water; sand does **not**. Stir the mixture into water, **filter** out the undissolved sand, then **evaporate** the water to recover the dissolved salt. This uses differences in physical properties (solubility) to separate the two.\n**Why others are wrong:** A — a magnet does not attract salt or sand. C — melting would not cleanly separate them and requires enormous heat. D — a screen cannot separate two fine solids reliably, and salt is not larger than sand.\n**Key concept:** Physical properties like solubility allow mixtures to be separated without chemical change.",
     "source": "authored",
     "needsReview": false
   }

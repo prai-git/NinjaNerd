@@ -95,7 +95,7 @@
       "9"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.12C — Median.*\nOrder the data: 2, 3, 5, **6**, 7, 8, 9. With 7 values, the median is the **4th (middle) value**: **6**.",
+    "explanation": "Order the data: 2, 3, 5, **6**, 7, 8, 9. With 7 values, the median is the **4th (middle) value**: **6**.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "90"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.13A — Interpreting a bar graph.*\nRoom 102 = 60 cans; Room 103 = 30 cans. Difference: \\(60 - 30 = \\mathbf{30}\\) more cans.",
+    "explanation": "Room 102 = 60 cans; Room 103 = 30 cans. Difference: \\(60 - 30 = \\mathbf{30}\\) more cans.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "The cost of movie tickets, which she only buys sometimes"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.14A — Fixed vs. variable expenses.*\nA **fixed expense** stays the **same amount** each period (like rent). The other choices change from time to time, so they are **variable expenses**.",
+    "explanation": "A **fixed expense** stays the **same amount** each period (like rent). The other choices change from time to time, so they are **variable expenses**.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "27"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.12C / 8.11A | MAP Area: Data Analysis & Personal Financial Literacy**\n\n**Work:** The data in order: 13, 15, 18, 20, 22, 22, 27, 31, 34 (9 values). The median is the **5th** value = **20**.\n\n**Why others are wrong:** B (22) counts to the wrong middle position. C (21) averages two middle values as if there were an even count. D (27) is a value farther up the list.\n\n**Key concept:** Reading a stem-and-leaf plot and locating the median (middle value) of an ordered data set.",
+    "explanation": "**Work:** The data in order: 13, 15, 18, 20, 22, 22, 27, 31, 34 (9 values). The median is the **5th** value = **20**.\n\n**Why others are wrong:** B (22) counts to the wrong middle position. C (21) averages two middle values as if there were an even count. D (27) is a value farther up the list.\n\n**Key concept:** Reading a stem-and-leaf plot and locating the median (middle value) of an ordered data set.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "A single outlier with no pattern"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 8.11A (accelerated) | MAP Area: Data Analysis & Personal Financial Literacy**\n\n**Work:** When one variable increases and the other also increases, the scatter plot shows a **positive association** (points trend upward left-to-right).\n\n**Why others are wrong:** A describes a downward trend. B means no pattern. D describes a lone outlier, which is not the overall trend here.\n\n**Key concept:** Interpreting association/trend in a scatter plot: positive (up), negative (down), or none.",
+    "explanation": "**Work:** When one variable increases and the other also increases, the scatter plot shows a **positive association** (points trend upward left-to-right).\n\n**Why others are wrong:** A describes a downward trend. B means no pattern. D describes a lone outlier, which is not the overall trend here.\n\n**Key concept:** Interpreting association/trend in a scatter plot: positive (up), negative (down), or none.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "$540"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.12D / 7.13E (accelerated) | MAP Area: Data Analysis & Personal Financial Literacy**\n\n**Work:** \\(I = Prt = 500 \\times 0.04 \\times 3 = 500 \\times 0.12 = $60\\).\n\n**Why others are wrong:** B computes only 1 year (\\(500 \\times 0.04 = 20\\)). C (\\(600\\)) confuses interest with a total or misplaces the decimal. D (\\(540\\)) is principal + one year's interest, not 3 years of interest.\n\n**Key concept:** Simple interest \\(I = Prt\\) (principal × rate × time); interest is separate from the principal.",
+    "explanation": "**Work:** \\(I = Prt = 500 \\times 0.04 \\times 3 = 500 \\times 0.12 = $60\\).\n\n**Why others are wrong:** B computes only 1 year (\\(500 \\times 0.04 = 20\\)). C (\\(600\\)) confuses interest with a total or misplaces the decimal. D (\\(540\\)) is principal + one year's interest, not 3 years of interest.\n\n**Key concept:** Simple interest \\(I = Prt\\) (principal × rate × time); interest is separate from the principal.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "a standard number cube, where rolling a 1 = prize"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.6B/7.6C — Designing a probability simulation.**\n**Solution:** A prize appears \\(\\frac{1}{4}\\) of the time. A model must have **4 equally likely outcomes with exactly 1 = prize** — a spinner with 4 equal sections, 1 marked \"prize\" (P = \\(\\frac14\\)).\n**Why others are wrong:** B gives P = 1. C (coin) gives P = \\(\\frac12\\). D (number cube) gives P = \\(\\frac16\\). Neither matches \\(\\frac14\\).\n**Key concept:** A valid simulation must reproduce the same theoretical probability as the real event.",
+    "explanation": "**Solution:** A prize appears \\(\\frac{1}{4}\\) of the time. A model must have **4 equally likely outcomes with exactly 1 = prize** — a spinner with 4 equal sections, 1 marked \"prize\" (P = \\(\\frac14\\)).\n**Why others are wrong:** B gives P = 1. C (coin) gives P = \\(\\frac12\\). D (number cube) gives P = \\(\\frac16\\). Neither matches \\(\\frac14\\).\n**Key concept:** A valid simulation must reproduce the same theoretical probability as the real event.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "$2,442"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.12D/7.13E — Compound interest.**\n**Solution:** \\(A = P(1 + r)^t = 2000(1 + 0.10)^2 = 2000(1.21) = $2{,}420\\).\n**Why others are wrong:** B is **simple** interest (\\(2000 + 2000\\cdot0.1\\cdot2 = 2400\\)). C adds only one year of interest incorrectly. D miscomputes \\((1.1)^2\\).\n**Key concept:** Compound interest earns interest on previous interest: multiply by \\((1+r)\\) each year.",
+    "explanation": "**Solution:** \\(A = P(1 + r)^t = 2000(1 + 0.10)^2 = 2000(1.21) = $2{,}420\\).\n**Why others are wrong:** B is **simple** interest (\\(2000 + 2000\\cdot0.1\\cdot2 = 2400\\)). C adds only one year of interest incorrectly. D miscomputes \\((1.1)^2\\).\n**Key concept:** Compound interest earns interest on previous interest: multiply by \\((1+r)\\) each year.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "3"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.11A/7.12A — Mean absolute deviation.**\n**Solution:** Mean \\(= \\frac{4+6+8+10+12}{5} = \\frac{40}{5} = 8\\). Absolute deviations from 8: \\(4, 2, 0, 2, 4\\); sum \\(= 12\\). MAD \\(= \\frac{12}{5} = 2.4\\).\n**Why others are wrong:** B is the mean. C is the sum of deviations (and the range). D is an incorrect average of deviations.\n**Key concept:** MAD = average distance of the data values from the mean.",
+    "explanation": "**Solution:** Mean \\(= \\frac{4+6+8+10+12}{5} = \\frac{40}{5} = 8\\). Absolute deviations from 8: \\(4, 2, 0, 2, 4\\); sum \\(= 12\\). MAD \\(= \\frac{12}{5} = 2.4\\).\n**Why others are wrong:** B is the mean. C is the sum of deviations (and the range). D is an incorrect average of deviations.\n**Key concept:** MAD = average distance of the data values from the mean.",
     "source": "authored",
     "needsReview": false
   }

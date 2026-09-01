@@ -15,7 +15,7 @@
       "Two plants given different amounts of fertiliser **and** different amounts of water"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.1A | Topic: Controlling Variables**\n\n**Correct Answer:** A) Two identical plants in the same light and soil, one given fertiliser\n\n**Explanation:**\nA valid test changes **one** variable and holds everything else constant, so any difference can\nbe attributed to the fertiliser.\n\n**Why the other answers are wrong:**\n- **B** has no unfertilised control and changes species as well.\n- **C** changes light at the same time as fertiliser.\n- **D** changes two variables at once, so the cause cannot be isolated.",
+    "explanation": "**Correct Answer:** A) Two identical plants in the same light and soil, one given fertiliser\n\n**Explanation:**\nA valid test changes **one** variable and holds everything else constant, so any difference can\nbe attributed to the fertiliser.\n\n**Why the other answers are wrong:**\n- **B** has no unfertilised control and changes species as well.\n- **C** changes light at the same time as fertiliser.\n- **D** changes two variables at once, so the cause cannot be isolated.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "The water stops cooling after 4 minutes."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.2B | Topic: Interpreting Data**\n\n**Correct Answer:** A) The water cools quickly at first and then more slowly.\n\n**Explanation:**\nThe drops per interval are 12, 8, 5 and 3 °C — shrinking each time. Cooling slows as the water\napproaches room temperature.\n\n**Why the other answers are wrong:**\n- **B** a steady rate would show equal drops.\n- **C** reverses the pattern.\n- **D** the temperature is still falling after 4 minutes.",
+    "explanation": "**Correct Answer:** A) The water cools quickly at first and then more slowly.\n\n**Explanation:**\nThe drops per interval are 12, 8, 5 and 3 °C — shrinking each time. Cooling slows as the water\napproaches room temperature.\n\n**Why the other answers are wrong:**\n- **B** a steady rate would show equal drops.\n- **C** reverses the pattern.\n- **D** the temperature is still falling after 4 minutes.",
     "source": "authored",
     "needsReview": false
   }

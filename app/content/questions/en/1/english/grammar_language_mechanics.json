@@ -15,7 +15,7 @@
       "The bird singing in the tree."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Subject-Verb Agreement**\n\n**Correct Answer:** A) The bird sings in the tree.\n\n**Explanation:**\nA singular subject takes the *-s* form of the verb: *the bird sings*.\n\n**Why the other answers are wrong:**\n- **B** *bird sing* does not agree.\n- **C** plural *birds* needs *sing*, not *sings*.\n- **D** *singing* alone is not a complete verb here.",
+    "explanation": "**Correct Answer:** A) The bird sings in the tree.\n\n**Explanation:**\nA singular subject takes the *-s* form of the verb: *the bird sings*.\n\n**Why the other answers are wrong:**\n- **B** *bird sing* does not agree.\n- **C** plural *birds* needs *sing*, not *sings*.\n- **D** *singing* alone is not a complete verb here.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "I and me went to the library."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Pronoun Case**\n\n**Correct Answer:** A) Sam and I went to the library.\n\n**Explanation:**\n*I* is used as the subject. A quick check: remove the other person — \"**I** went\" sounds right,\n\"**me** went\" does not.\n\n**Why the other answers are wrong:**\n- **B** and **C** use *me* as a subject.\n- **D** uses two pronouns for one person.",
+    "explanation": "**Correct Answer:** A) Sam and I went to the library.\n\n**Explanation:**\n*I* is used as the subject. A quick check: remove the other person — \"**I** went\" sounds right,\n\"**me** went\" does not.\n\n**Why the other answers are wrong:**\n- **B** and **C** use *me* as a subject.\n- **D** uses two pronouns for one person.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "My Friend Lila Lives On Oak Street."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Capitalisation**\n\n**Correct Answer:** A) My friend Lila lives on Oak Street.\n\n**Explanation:**\nCapitalise the first word of a sentence and proper nouns — a person's name and a street name.\n\n**Why the other answers are wrong:**\n- **B** misses the capital at the start.\n- **C** misses the capitals on *Lila* and *Oak Street*.\n- **D** capitalises ordinary words that need no capital.",
+    "explanation": "**Correct Answer:** A) My friend Lila lives on Oak Street.\n\n**Explanation:**\nCapitalise the first word of a sentence and proper nouns — a person's name and a street name.\n\n**Why the other answers are wrong:**\n- **B** misses the capital at the start.\n- **C** misses the capitals on *Lila* and *Oak Street*.\n- **D** capitalises ordinary words that need no capital.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "What a heavy book that is"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: End Punctuation**\n\n**Correct Answer:** A) Where did you put my book\n\n**Explanation:**\nIt asks something, so it needs a question mark. *Where* is a question word.\n\n**Why the other answers are wrong:**\n- **B** is a statement and takes a full stop.\n- **C** is a command and takes a full stop.\n- **D** is an exclamation.",
+    "explanation": "**Correct Answer:** A) Where did you put my book\n\n**Explanation:**\nIt asks something, so it needs a question mark. *Where* is a question word.\n\n**Why the other answers are wrong:**\n- **B** is a statement and takes a full stop.\n- **C** is a command and takes a full stop.\n- **D** is an exclamation.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Three child played in the yard."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Irregular Plurals**\n\n**Correct Answer:** A) Three children played in the yard.\n\n**Explanation:**\n*Child* becomes *children* — an irregular plural that does not take *-s*.\n\n**Why the other answers are wrong:**\n- **B** and **C** add *-s* to an irregular plural.\n- **D** uses the singular after *three*.",
+    "explanation": "**Correct Answer:** A) Three children played in the yard.\n\n**Explanation:**\n*Child* becomes *children* — an irregular plural that does not take *-s*.\n\n**Why the other answers are wrong:**\n- **B** and **C** add *-s* to an irregular plural.\n- **D** uses the singular after *three*.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "On the warm rug near the door."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Complete Sentences**\n\n**Correct Answer:** A) The cat slept on the warm rug.\n\n**Explanation:**\nA complete sentence needs a subject and a verb. *The cat* is the subject and *slept* is the\nverb.\n\n**Why the other answers are wrong:**\n- **B** has a subject but no verb.\n- **C** has a verb but no subject.\n- **D** is only a phrase.",
+    "explanation": "**Correct Answer:** A) The cat slept on the warm rug.\n\n**Explanation:**\nA complete sentence needs a subject and a verb. *The cat* is the subject and *slept* is the\nverb.\n\n**Why the other answers are wrong:**\n- **B** has a subject but no verb.\n- **C** has a verb but no subject.\n- **D** is only a phrase.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "We will walk to school in the rain."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Past Tense**\n\n**Correct Answer:** A) We walked to school in the rain.\n\n**Explanation:**\n*Walked* is the past tense, so it describes something already finished.\n\n**Why the other answers are wrong:**\n- **B** is present tense.\n- **C** is happening now.\n- **D** is future tense.",
+    "explanation": "**Correct Answer:** A) We walked to school in the rain.\n\n**Explanation:**\n*Walked* is the past tense, so it describes something already finished.\n\n**Why the other answers are wrong:**\n- **B** is present tense.\n- **C** is happening now.\n- **D** is future tense.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "I, packed apples, grapes and, cheese."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.11D | Topic: Commas in a Series**\n\n**Correct Answer:** A) I packed apples, grapes, and cheese.\n\n**Explanation:**\nCommas separate three or more items in a list.\n\n**Why the other answers are wrong:**\n- **B** has no commas at all.\n- **C** and **D** place commas where they do not belong.",
+    "explanation": "**Correct Answer:** A) I packed apples, grapes, and cheese.\n\n**Explanation:**\nCommas separate three or more items in a list.\n\n**Why the other answers are wrong:**\n- **B** has no commas at all.\n- **C** and **D** place commas where they do not belong.",
     "source": "authored",
     "needsReview": false
   }

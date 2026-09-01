@@ -15,7 +15,7 @@
       "One half"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3A | Topic: Naming Fractional Parts**\n\n**Correct Answer:** A) One eighth\n\n**Explanation:**\nWhen a whole is split into 8 equal parts, each part is one eighth. The name of the part comes\nfrom how many equal parts the whole was split into.\n\n**Why the other answers are wrong:**\n- **B** a fourth comes from 4 parts.\n- **C** the parts are pieces of one whole, not eight wholes.\n- **D** a half comes from 2 parts.",
+    "explanation": "**Correct Answer:** A) One eighth\n\n**Explanation:**\nWhen a whole is split into 8 equal parts, each part is one eighth. The name of the part comes\nfrom how many equal parts the whole was split into.\n\n**Why the other answers are wrong:**\n- **B** a fourth comes from 4 parts.\n- **C** the parts are pieces of one whole, not eight wholes.\n- **D** a half comes from 2 parts.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "No, because he needed 4 parts."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3B | Topic: Equal Parts**\n\n**Correct Answer:** A) No, because thirds must be equal in size.\n\n**Explanation:**\nFraction names describe **equal** shares. Three unequal pieces are not thirds, however neatly\nthey were folded.\n\n**Why the other answers are wrong:**\n- **B** counts parts without checking they match — the classic error.\n- **C** who folded it makes no difference.\n- **D** thirds need 3 parts, not 4.",
+    "explanation": "**Correct Answer:** A) No, because thirds must be equal in size.\n\n**Explanation:**\nFraction names describe **equal** shares. Three unequal pieces are not thirds, however neatly\nthey were folded.\n\n**Why the other answers are wrong:**\n- **B** counts parts without checking they match — the classic error.\n- **C** who folded it makes no difference.\n- **D** thirds need 3 parts, not 4.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "The whole pie"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3C | Topic: Equivalent Amounts**\n\n**Correct Answer:** A) One half\n\n**Explanation:**\nFour of eight equal slices is half the pie, because 4 is half of 8.\n\n**Why the other answers are wrong:**\n- **B** one fourth would be 2 of the 8 slices.\n- **C** one eighth is a single slice.\n- **D** half remains uneaten.",
+    "explanation": "**Correct Answer:** A) One half\n\n**Explanation:**\nFour of eight equal slices is half the pie, because 4 is half of 8.\n\n**Why the other answers are wrong:**\n- **B** one fourth would be 2 of the 8 slices.\n- **C** one eighth is a single slice.\n- **D** half remains uneaten.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "It cannot be decided"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3D | Topic: Comparing Unit Fractions**\n\n**Correct Answer:** A) Each of the 3 children\n\n**Explanation:**\nThe same whole shared among fewer people gives each person more. A third is bigger than a\nsixth, even though 6 is the bigger number.\n\n**Why the other answers are wrong:**\n- **B** more sharers means smaller pieces — the usual mistake.\n- **C** the group sizes differ, so the shares differ.\n- **D** the bars are the same size, so it can be decided.",
+    "explanation": "**Correct Answer:** A) Each of the 3 children\n\n**Explanation:**\nThe same whole shared among fewer people gives each person more. A third is bigger than a\nsixth, even though 6 is the bigger number.\n\n**Why the other answers are wrong:**\n- **B** more sharers means smaller pieces — the usual mistake.\n- **C** the group sizes differ, so the shares differ.\n- **D** the bars are the same size, so it can be decided.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "4 parts, which is the whole orange"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3C | Topic: Parts Remaining**\n\n**Correct Answer:** A) 1 part, which is one fourth\n\n**Explanation:**\n4 equal parts, 3 eaten, leaves 1 part — one fourth of the orange.\n\n**Why the other answers are wrong:**\n- **B** 3 parts is what was eaten, not what is left.\n- **C** one half would be 2 of the 4 parts.\n- **D** some was eaten, so the whole is not left.",
+    "explanation": "**Correct Answer:** A) 1 part, which is one fourth\n\n**Explanation:**\n4 equal parts, 3 eaten, leaves 1 part — one fourth of the orange.\n\n**Why the other answers are wrong:**\n- **B** 3 parts is what was eaten, not what is left.\n- **C** one half would be 2 of the 4 parts.\n- **D** some was eaten, so the whole is not left.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "A circle with 4 dots drawn on it"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3B | Topic: Recognising Fourths**\n\n**Correct Answer:** A) A circle cut into 4 slices that are all the same size\n\n**Explanation:**\nFourths are four equal parts. Only A shows parts of equal size.\n\n**Why the other answers are wrong:**\n- **B** unequal slices are not fourths.\n- **C** two equal slices are halves.\n- **D** dots drawn on a circle do not divide it at all.",
+    "explanation": "**Correct Answer:** A) A circle cut into 4 slices that are all the same size\n\n**Explanation:**\nFourths are four equal parts. Only A shows parts of equal size.\n\n**Why the other answers are wrong:**\n- **B** unequal slices are not fourths.\n- **C** two equal slices are halves.\n- **D** dots drawn on a circle do not divide it at all.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "One eighth"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 2.3D | Topic: Ordering Unit Fractions**\n\n**Correct Answer:** A) One half\n\n**Explanation:**\nThe fewer the equal parts, the larger each part is. Halves are the largest of these shares.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** split the pizza into more pieces, so each piece is smaller. Reading\n  the larger number as the larger share is the standard error here.",
+    "explanation": "**Correct Answer:** A) One half\n\n**Explanation:**\nThe fewer the equal parts, the larger each part is. Halves are the largest of these shares.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** split the pizza into more pieces, so each piece is smaller. Reading\n  the larger number as the larger share is the standard error here.",
     "source": "authored",
     "needsReview": false
   }

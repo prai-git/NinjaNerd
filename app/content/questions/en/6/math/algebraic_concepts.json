@@ -275,7 +275,7 @@
       "3,314"
     ],
     "correctIndex": 0,
-    "explanation": "*TEKS 5.3B — Multi-digit multiplication.*\n\\(236 \\times 14 = 236 \\times 10 + 236 \\times 4 = 2{,}360 + 944 = \\mathbf{3{,}304}\\).",
+    "explanation": "\\(236 \\times 14 = 236 \\times 10 + 236 \\times 4 = 2{,}360 + 944 = \\mathbf{3{,}304}\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "\\(\\frac{2}{7}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.3E — Adding fractions with unlike denominators.*\nCommon denominator 12: \\(\\frac{2}{3} = \\frac{8}{12}\\) and \\(\\frac{1}{4} = \\frac{3}{12}\\). Sum: \\(\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}\\).",
+    "explanation": "Common denominator 12: \\(\\frac{2}{3} = \\frac{8}{12}\\) and \\(\\frac{1}{4} = \\frac{3}{12}\\). Sum: \\(\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "\\(\\frac{5}{9}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.3E — Dividing fractions.*\nDivide by multiplying by the reciprocal: \\(\\frac{5}{6} \\div \\frac{1}{3} = \\frac{5}{6} \\times \\frac{3}{1} = \\frac{15}{6} = \\frac{5}{2} = 2\\frac{1}{2}\\). There are 2½ one-third-cup scoops.",
+    "explanation": "Divide by multiplying by the reciprocal: \\(\\frac{5}{6} \\div \\frac{1}{3} = \\frac{5}{6} \\times \\frac{3}{1} = \\frac{15}{6} = \\frac{5}{2} = 2\\frac{1}{2}\\). There are 2½ one-third-cup scoops.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "3.7"
     ],
     "correctIndex": 0,
-    "explanation": "*TEKS 6.3E — Multiplying decimals.*\n\\(32 \\times 5 = 160\\). There is a total of **2 decimal places** (one in 3.2, one in 0.5), so place the decimal two spots from the right: **1.60 = 1.6**.",
+    "explanation": "\\(32 \\times 5 = 160\\). There is a total of **2 decimal places** (one in 3.2, one in 0.5), so place the decimal two spots from the right: **1.60 = 1.6**.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "18"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.7A — Order of operations.*\nParentheses first: \\((8 - 2) = 6\\). Then multiply: \\(3 \\times 6 = 18\\). Then add: \\(4 + 18 = \\mathbf{22}\\).",
+    "explanation": "Parentheses first: \\((8 - 2) = 6\\). Then multiply: \\(3 \\times 6 = 18\\). Then add: \\(4 + 18 = \\mathbf{22}\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "216"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.10A — One-step equations.*\n\\(x + 9 = 24\\). Subtract 9 from both sides: \\(x = 24 - 9 = \\mathbf{15}\\).",
+    "explanation": "\\(x + 9 = 24\\). Subtract 9 from both sides: \\(x = 24 - 9 = \\mathbf{15}\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "\\(6 : 9\\)"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.4B — Ratios in simplest form.*\nBoys : girls \\(= 12 : 18\\). Divide both parts by the GCF, 6: \\(12 \\div 6 = 2\\), \\(18 \\div 6 = 3\\), giving **2 : 3**.",
+    "explanation": "Boys : girls \\(= 12 : 18\\). Divide both parts by the GCF, 6: \\(12 \\div 6 = 2\\), \\(18 \\div 6 = 3\\), giving **2 : 3**.",
     "source": "authored",
     "needsReview": false
   },
@@ -555,7 +555,7 @@
       "\\(\\frac{7}{128}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.3E | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** \\(\\frac{7}{8} \\div \\frac{1}{16} = \\frac{7}{8} \\times \\frac{16}{1} = \\frac{112}{8} = 14\\).\n\n**Why others are wrong:** A (7) divides denominators only. C (2) inverts the wrong fraction. D multiplied straight across instead of using the reciprocal.\n\n**Key concept:** Dividing by a fraction = multiplying by its reciprocal.",
+    "explanation": "**Work:** \\(\\frac{7}{8} \\div \\frac{1}{16} = \\frac{7}{8} \\times \\frac{16}{1} = \\frac{112}{8} = 14\\).\n\n**Why others are wrong:** A (7) divides denominators only. C (2) inverts the wrong fraction. D multiplied straight across instead of using the reciprocal.\n\n**Key concept:** Dividing by a fraction = multiplying by its reciprocal.",
     "source": "authored",
     "needsReview": false
   },
@@ -575,7 +575,7 @@
       "1.19 laps"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.3E | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** \\(4.75 \\div 0.25\\). Multiply both by 100: \\(475 \\div 25 = 19\\) laps.\n\n**Why others are wrong:** A (15) and C (21) are arithmetic slips. D (\\(1.19\\)) divides in the wrong order (\\(0.25 \\div 4.75\\)-type error).\n\n**Key concept:** Dividing decimals; scaling both numbers by a power of 10 to make a whole-number division.",
+    "explanation": "**Work:** \\(4.75 \\div 0.25\\). Multiply both by 100: \\(475 \\div 25 = 19\\) laps.\n\n**Why others are wrong:** A (15) and C (21) are arithmetic slips. D (\\(1.19\\)) divides in the wrong order (\\(0.25 \\div 4.75\\)-type error).\n\n**Key concept:** Dividing decimals; scaling both numbers by a power of 10 to make a whole-number division.",
     "source": "authored",
     "needsReview": false
   },
@@ -595,7 +595,7 @@
       "14"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.7A | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** Grouping first: \\((10-6) = 4\\). Exponent: \\(4^2 = 16\\). Then \\(3 \\times 16 = 48\\); \\(48 \\div 4 = 12\\); \\(12 + 5 = 17\\).\n\n**Why others are wrong:** B (12) forgets the \"+5.\" C (41) mishandles order of the ×/÷. D (14) squares wrong or adds early.\n\n**Key concept:** Order of operations — parentheses, exponents, multiply/divide left-to-right, then add/subtract.",
+    "explanation": "**Work:** Grouping first: \\((10-6) = 4\\). Exponent: \\(4^2 = 16\\). Then \\(3 \\times 16 = 48\\); \\(48 \\div 4 = 12\\); \\(12 + 5 = 17\\).\n\n**Why others are wrong:** B (12) forgets the \"+5.\" C (41) mishandles order of the ×/÷. D (14) squares wrong or adds early.\n\n**Key concept:** Order of operations — parentheses, exponents, multiply/divide left-to-right, then add/subtract.",
     "source": "authored",
     "needsReview": false
   },
@@ -615,7 +615,7 @@
       "\\(8x - 3 + 5x\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 6.7D | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** Distribute: \\(4(2x - 3) = 8x - 12\\). Combine like terms: \\(8x + 5x - 12 = 13x - 12\\).\n\n**Why others are wrong:** A drops the constant. B and D are only partially simplified (not fully combined).\n\n**Key concept:** Distributive property and combining like terms to write equivalent expressions.",
+    "explanation": "**Work:** Distribute: \\(4(2x - 3) = 8x - 12\\). Combine like terms: \\(8x + 5x - 12 = 13x - 12\\).\n\n**Why others are wrong:** A drops the constant. B and D are only partially simplified (not fully combined).\n\n**Key concept:** Distributive property and combining like terms to write equivalent expressions.",
     "source": "authored",
     "needsReview": false
   },
@@ -635,7 +635,7 @@
       "\\(n = 27\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.10 / 7.11 (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** \\(3n - 7 = 20 \\Rightarrow 3n = 27 \\Rightarrow n = 9\\).\n\n**Why others are wrong:** B divides before adding 7. C subtracts instead of adds (\\(20-7\\) then something). D forgets to divide by 3.\n\n**Key concept:** Solving two-step equations using inverse operations (undo subtraction, then multiplication).",
+    "explanation": "**Work:** \\(3n - 7 = 20 \\Rightarrow 3n = 27 \\Rightarrow n = 9\\).\n\n**Why others are wrong:** B divides before adding 7. C subtracts instead of adds (\\(20-7\\) then something). D forgets to divide by 3.\n\n**Key concept:** Solving two-step equations using inverse operations (undo subtraction, then multiplication).",
     "source": "authored",
     "needsReview": false
   },
@@ -655,7 +655,7 @@
       "\\(k = 12.50\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.4A / 7.4C (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** \\(k = \\frac{y}{x}\\). Check: \\(\\frac{7.50}{3} = 2.50\\); \\(\\frac{12.50}{5} = 2.50\\); \\(\\frac{20.00}{8} = 2.50\\). Constant is $2.50 per notebook.\n\n**Why others are wrong:** A and C are arithmetic errors. D is a single \\(y\\)-value, not the ratio.\n\n**Key concept:** Constant of proportionality \\(k = y/x\\) is the same for every point in a proportional relationship.",
+    "explanation": "**Work:** \\(k = \\frac{y}{x}\\). Check: \\(\\frac{7.50}{3} = 2.50\\); \\(\\frac{12.50}{5} = 2.50\\); \\(\\frac{20.00}{8} = 2.50\\). Constant is $2.50 per notebook.\n\n**Why others are wrong:** A and C are arithmetic errors. D is a single \\(y\\)-value, not the ratio.\n\n**Key concept:** Constant of proportionality \\(k = y/x\\) is the same for every point in a proportional relationship.",
     "source": "authored",
     "needsReview": false
   },
@@ -675,7 +675,7 @@
       "\\(m = 12\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 8.4B / 8.4C (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** \\(m = \\frac{15 - 3}{6 - 2} = \\frac{12}{4} = 3\\).\n\n**Why others are wrong:** A inverts the ratio (\\(\\frac{4}{12}\\)). B uses only the run's number. D uses only the rise.\n\n**Key concept:** Slope = change in \\(y\\) ÷ change in \\(x\\) (rise over run).",
+    "explanation": "**Work:** \\(m = \\frac{15 - 3}{6 - 2} = \\frac{12}{4} = 3\\).\n\n**Why others are wrong:** A inverts the ratio (\\(\\frac{4}{12}\\)). B uses only the run's number. D uses only the rise.\n\n**Key concept:** Slope = change in \\(y\\) ÷ change in \\(x\\) (rise over run).",
     "source": "authored",
     "needsReview": false
   },
@@ -695,7 +695,7 @@
       "\\(y = 15x - 25\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.5B / 8.5I (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** The **per-month rate** $15 is the slope \\(m\\); the **one-time fee** $25 is the y-intercept \\(b\\). So \\(y = 15x + 25\\).\n\n**Why others are wrong:** A swaps slope and intercept. C treats it as proportional (ignores the fixed fee). D makes the fee negative.\n\n**Key concept:** In \\(y = mx + b\\), the constant rate is the slope and the fixed starting amount is the y-intercept.",
+    "explanation": "**Work:** The **per-month rate** $15 is the slope \\(m\\); the **one-time fee** $25 is the y-intercept \\(b\\). So \\(y = 15x + 25\\).\n\n**Why others are wrong:** A swaps slope and intercept. C treats it as proportional (ignores the fixed fee). D makes the fee negative.\n\n**Key concept:** In \\(y = mx + b\\), the constant rate is the slope and the fixed starting amount is the y-intercept.",
     "source": "authored",
     "needsReview": false
   },
@@ -715,7 +715,7 @@
       "$40.35"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.4D (accelerated) | MAP Area: Computations & Algebraic Relationships**\n\n**Work:** Markup \\(= 35\\%\\) of $40 \\(= 0.35 \\times 40 = $14\\). Selling price \\(= 40 + 14 = $54\\).\n\n**Why others are wrong:** B is only the markup amount, not the price. C uses the wrong percent basis. D adds 35 cents (misread percent as a decimal add-on).\n\n**Key concept:** Percent increase — find the percent of the base, then add it to the original.",
+    "explanation": "**Work:** Markup \\(= 35\\%\\) of $40 \\(= 0.35 \\times 40 = $14\\). Selling price \\(= 40 + 14 = $54\\).\n\n**Why others are wrong:** B is only the markup amount, not the price. C uses the wrong percent basis. D adds 35 cents (misread percent as a decimal add-on).\n\n**Key concept:** Percent increase — find the percent of the base, then add it to the original.",
     "source": "authored",
     "needsReview": false
   },
@@ -735,7 +735,7 @@
       "\\(k = 87.5\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.4A/7.4C — Constant of proportionality.**\n**Solution:** \\(k = \\frac{y}{x}\\): \\(\\frac{350}{2} = 175\\), \\(\\frac{525}{3} = 175\\), \\(\\frac{875}{5} = 175\\). The rate is constant at **175 sq ft per gallon**.\n**Why others are wrong:** A and C are not equal to any \\(\\frac{y}{x}\\) ratio. D halves one entry (\\(\\frac{175}{2}\\)).\n**Key concept:** In a proportional relationship, \\(k = \\frac{y}{x}\\) is the same for every pair.",
+    "explanation": "**Solution:** \\(k = \\frac{y}{x}\\): \\(\\frac{350}{2} = 175\\), \\(\\frac{525}{3} = 175\\), \\(\\frac{875}{5} = 175\\). The rate is constant at **175 sq ft per gallon**.\n**Why others are wrong:** A and C are not equal to any \\(\\frac{y}{x}\\) ratio. D halves one entry (\\(\\frac{175}{2}\\)).\n**Key concept:** In a proportional relationship, \\(k = \\frac{y}{x}\\) is the same for every pair.",
     "source": "authored",
     "needsReview": false
   },
@@ -755,7 +755,7 @@
       "$39.00"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.4D — Percent decrease / discount.**\n**Solution:** Discount \\(= 0.15 \\times 260 = 39\\). Sale price \\(= 260 - 39 = $221\\). (Or \\(0.85 \\times 260 = 221\\).)\n**Why others are wrong:** B subtracts the wrong amount. C **adds** 15%. D gives only the discount, not the sale price.\n**Key concept:** A 15%-off price is \\(85\\%\\) of the original.",
+    "explanation": "**Solution:** Discount \\(= 0.15 \\times 260 = 39\\). Sale price \\(= 260 - 39 = $221\\). (Or \\(0.85 \\times 260 = 221\\).)\n**Why others are wrong:** B subtracts the wrong amount. C **adds** 15%. D gives only the discount, not the sale price.\n**Key concept:** A 15%-off price is \\(85\\%\\) of the original.",
     "source": "authored",
     "needsReview": false
   },
@@ -775,7 +775,7 @@
       "\\(x = 11\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.10/7.11 — Two-step equation.**\n**Solution:** \\(-2x + 5 = 17 \\Rightarrow -2x = 12 \\Rightarrow x = -6\\).\n**Why others are wrong:** B drops the negative sign. C subtracts before isolating the variable term. D has a sign error.\n**Key concept:** Undo addition first, then division — watch the negative coefficient.",
+    "explanation": "**Solution:** \\(-2x + 5 = 17 \\Rightarrow -2x = 12 \\Rightarrow x = -6\\).\n**Why others are wrong:** B drops the negative sign. C subtracts before isolating the variable term. D has a sign error.\n**Key concept:** Undo addition first, then division — watch the negative coefficient.",
     "source": "authored",
     "needsReview": false
   },
@@ -795,7 +795,7 @@
       "\\(4s - 14 \\le 50\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.10A/7.11A — Writing an inequality.**\n**Solution:** Cost = ticket + snacks \\(= 14 + 4s\\), and this must be at most $50: \\(4s + 14 \\le 50\\).\n**Why others are wrong:** B uses \\(\\ge\\) (she can't exceed $50). C swaps the price and count. D subtracts the ticket cost.\n**Key concept:** \"At most / no more than\" means \\(\\le\\); translate each cost into a term.",
+    "explanation": "**Solution:** Cost = ticket + snacks \\(= 14 + 4s\\), and this must be at most $50: \\(4s + 14 \\le 50\\).\n**Why others are wrong:** B uses \\(\\ge\\) (she can't exceed $50). C swaps the price and count. D subtracts the ticket cost.\n**Key concept:** \"At most / no more than\" means \\(\\le\\); translate each cost into a term.",
     "source": "authored",
     "needsReview": false
   },
@@ -815,7 +815,7 @@
       "\\(x = \\frac{9}{7}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.8A/8.8C — Variables on both sides.**\n**Solution:** \\(5x - 3 = 2x + 12 \\Rightarrow 3x - 3 = 12 \\Rightarrow 3x = 15 \\Rightarrow x = 5\\).\n**Why others are wrong:** B forgets to move the constant. C is \\(3x = 15\\) left unsolved. D divides incorrectly.\n**Key concept:** Collect variable terms on one side, constants on the other, then divide.",
+    "explanation": "**Solution:** \\(5x - 3 = 2x + 12 \\Rightarrow 3x - 3 = 12 \\Rightarrow 3x = 15 \\Rightarrow x = 5\\).\n**Why others are wrong:** B forgets to move the constant. C is \\(3x = 15\\) left unsolved. D divides incorrectly.\n**Key concept:** Collect variable terms on one side, constants on the other, then divide.",
     "source": "authored",
     "needsReview": false
   },
@@ -835,7 +835,7 @@
       "the number of miles traveled"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.5B/8.5I — Interpreting slope.**\n**Solution:** In \\(y = mx + b\\), the **slope** \\(m = 2.5\\) is the **rate of change** — here, $2.50 per mile. The intercept \\(b = 3\\) is the base fee.\n**Why others are wrong:** A describes the y-intercept, not the slope. C is \\(y\\) itself. D is \\(x\\).\n**Key concept:** Slope is the per-unit rate; the y-intercept is the starting/fixed amount.",
+    "explanation": "**Solution:** In \\(y = mx + b\\), the **slope** \\(m = 2.5\\) is the **rate of change** — here, $2.50 per mile. The intercept \\(b = 3\\) is the base fee.\n**Why others are wrong:** A describes the y-intercept, not the slope. C is \\(y\\) itself. D is \\(x\\).\n**Key concept:** Slope is the per-unit rate; the y-intercept is the starting/fixed amount.",
     "source": "authored",
     "needsReview": false
   },
@@ -855,7 +855,7 @@
       "3 adult tickets"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.9 — Systems of two linear equations.**\n**Solution:** From \\(x + y = 9\\), \\(y = 9 - x\\). Substitute: \\(8x + 5(9 - x) = 57 \\Rightarrow 8x + 45 - 5x = 57 \\Rightarrow 3x = 12 \\Rightarrow x = 4\\) (and \\(y = 5\\)). Check: \\(8(4) + 5(5) = 32 + 25 = 57\\). ✓ **4 adult tickets.**\n**Why others are wrong:** B is the number of student tickets. C is the total tickets. D fails the cost equation (\\(8(3)+5(6)=54 \\neq 57\\)).\n**Key concept:** The solution to a system is the pair that satisfies **both** equations (the intersection point).",
+    "explanation": "**Solution:** From \\(x + y = 9\\), \\(y = 9 - x\\). Substitute: \\(8x + 5(9 - x) = 57 \\Rightarrow 8x + 45 - 5x = 57 \\Rightarrow 3x = 12 \\Rightarrow x = 4\\) (and \\(y = 5\\)). Check: \\(8(4) + 5(5) = 32 + 25 = 57\\). ✓ **4 adult tickets.**\n**Why others are wrong:** B is the number of student tickets. C is the total tickets. D fails the cost equation (\\(8(3)+5(6)=54 \\neq 57\\)).\n**Key concept:** The solution to a system is the pair that satisfies **both** equations (the intersection point).",
     "source": "authored",
     "needsReview": false
   }

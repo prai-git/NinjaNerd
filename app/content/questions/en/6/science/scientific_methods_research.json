@@ -15,7 +15,7 @@
       "the amount of water given to each plant"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.1 / 6.2 — Experimental variables.*\nThe **independent variable** is the factor the scientist **changes on purpose** — here, the amount of sunlight. The plant height is the **dependent variable** (what is measured), and soil and water are kept the same as **controlled variables**.",
+    "explanation": "The **independent variable** is the factor the scientist **changes on purpose** — here, the amount of sunlight. The plant height is the **dependent variable** (what is measured), and soil and water are kept the same as **controlled variables**.",
     "source": "authored",
     "needsReview": false
   },

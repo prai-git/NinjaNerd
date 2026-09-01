@@ -15,7 +15,7 @@
       "1/2 > 3/4"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3F [R] | Topic: Comparing Fractions**\n\n**Correct Answer:** A) 3/4 > 3/8\n\n**Explanation:**\nWith the **same numerator**, the fraction with the smaller denominator is larger, because the\nwhole is split into fewer, bigger pieces. Fourths are bigger than eighths.\n\n**Why the other answers are wrong:**\n- **B** reverses it — the classic \"bigger denominator means bigger fraction\" error.\n- **C** they are not equal.\n- **D** 1/2 is less than 3/4.",
+    "explanation": "**Correct Answer:** A) 3/4 > 3/8\n\n**Explanation:**\nWith the **same numerator**, the fraction with the smaller denominator is larger, because the\nwhole is split into fewer, bigger pieces. Fourths are bigger than eighths.\n\n**Why the other answers are wrong:**\n- **B** reverses it — the classic \"bigger denominator means bigger fraction\" error.\n- **C** they are not equal.\n- **D** 1/2 is less than 3/4.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "1/4"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3G | Topic: Equivalent Fractions**\n\n**Correct Answer:** A) 1/2\n\n**Explanation:**\n2/4 means two of four equal parts, which is half the whole. Dividing top and bottom by 2 gives\n1/2.\n\n**Why the other answers are wrong:**\n- **B** 2/8 is one quarter.\n- **C** 4/2 is two wholes.\n- **D** 1/4 is half of 2/4.",
+    "explanation": "**Correct Answer:** A) 1/2\n\n**Explanation:**\n2/4 means two of four equal parts, which is half the whole. Dividing top and bottom by 2 gives\n1/2.\n\n**Why the other answers are wrong:**\n- **B** 2/8 is one quarter.\n- **C** 4/2 is two wholes.\n- **D** 1/4 is half of 2/4.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Exactly halfway between 0 and 1"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3B | Topic: Fractions on a Number Line**\n\n**Correct Answer:** A) The fourth mark after 0\n\n**Explanation:**\nThe denominator 6 tells you the line is split into 6 equal parts; the numerator 4 tells you to\ncount 4 of them from 0.\n\n**Why the other answers are wrong:**\n- **B** the sixth mark is 6/6, or 1.\n- **C** the second mark is 2/6.\n- **D** halfway is 3/6, not 4/6.",
+    "explanation": "**Correct Answer:** A) The fourth mark after 0\n\n**Explanation:**\nThe denominator 6 tells you the line is split into 6 equal parts; the numerator 4 tells you to\ncount 4 of them from 0.\n\n**Why the other answers are wrong:**\n- **B** the sixth mark is 6/6, or 1.\n- **C** the second mark is 2/6.\n- **D** halfway is 3/6, not 4/6.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "There is not enough information"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3H | Topic: Comparing Unit Fractions**\n\n**Correct Answer:** A) Maya, because thirds are larger than fifths\n\n**Explanation:**\nThe same whole split into 3 parts gives bigger pieces than split into 5. So 1/3 > 1/5.\n\n**Why the other answers are wrong:**\n- **B** treats the larger denominator as the larger share — the standard misconception.\n- **C** the fractions differ.\n- **D** the pizzas are the same size, so it can be decided.",
+    "explanation": "**Correct Answer:** A) Maya, because thirds are larger than fifths\n\n**Explanation:**\nThe same whole split into 3 parts gives bigger pieces than split into 5. So 1/3 > 1/5.\n\n**Why the other answers are wrong:**\n- **B** treats the larger denominator as the larger share — the standard misconception.\n- **C** the fractions differ.\n- **D** the pizzas are the same size, so it can be decided.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "1/8"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3E | Topic: Adding Like Denominators**\n\n**Correct Answer:** A) 5/8\n\n**Explanation:**\nWith the same denominator, add the numerators only: 3 + 2 = 5, so 5/8. The size of the pieces\ndoes not change.\n\n**Why the other answers are wrong:**\n- **B** 5/16 adds the denominators too, which is the most common error here.\n- **C** 6/8 adds wrongly.\n- **D** 1/8 subtracts.",
+    "explanation": "**Correct Answer:** A) 5/8\n\n**Explanation:**\nWith the same denominator, add the numerators only: 3 + 2 = 5, so 5/8. The size of the pieces\ndoes not change.\n\n**Why the other answers are wrong:**\n- **B** 5/16 adds the denominators too, which is the most common error here.\n- **C** 6/8 adds wrongly.\n- **D** 1/8 subtracts.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "12/6"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3F | Topic: Fractions Equal to One**\n\n**Correct Answer:** A) 6/6\n\n**Explanation:**\nWhen the numerator equals the denominator, every part is counted, so the fraction equals one\nwhole.\n\n**Why the other answers are wrong:**\n- **B** 6/12 is one half.\n- **C** 1/6 is a single part.\n- **D** 12/6 is two wholes.",
+    "explanation": "**Correct Answer:** A) 6/6\n\n**Explanation:**\nWhen the numerator equals the denominator, every part is counted, so the fraction equals one\nwhole.\n\n**Why the other answers are wrong:**\n- **B** 6/12 is one half.\n- **C** 1/6 is a single part.\n- **D** 12/6 is two wholes.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "It cannot be determined"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 3.3H | Topic: Denominator Reasoning**\n\n**Correct Answer:** A) The 12-slice pie, because more pieces means smaller pieces\n\n**Explanation:**\nSplitting the same whole into more parts makes each part smaller: 1/12 < 1/8.\n\n**Why the other answers are wrong:**\n- **B** confuses the size of the number with the size of the piece.\n- **C** the pies are equal but the slices are not.\n- **D** the information given is sufficient.",
+    "explanation": "**Correct Answer:** A) The 12-slice pie, because more pieces means smaller pieces\n\n**Explanation:**\nSplitting the same whole into more parts makes each part smaller: 1/12 < 1/8.\n\n**Why the other answers are wrong:**\n- **B** confuses the size of the number with the size of the piece.\n- **C** the pies are equal but the slices are not.\n- **D** the information given is sufficient.",
     "source": "authored",
     "needsReview": false
   }

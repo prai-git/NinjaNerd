@@ -15,7 +15,7 @@
       "3.4"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.2G | Topic: Fractions to Decimals**\n\n**Correct Answer:** A) 0.75\n\n**Explanation:**\n3/4 means 3 ÷ 4 = 0.75. It also helps to know 1/4 = 0.25, so three of them is 0.75.\n\n**Why the other answers are wrong:**\n- **B** and **C** simply rearrange the digits 3 and 4 after a decimal point.\n- **D** 3.4 is more than three wholes.",
+    "explanation": "**Correct Answer:** A) 0.75\n\n**Explanation:**\n3/4 means 3 ÷ 4 = 0.75. It also helps to know 1/4 = 0.25, so three of them is 0.75.\n\n**Why the other answers are wrong:**\n- **B** and **C** simply rearrange the digits 3 and 4 after a decimal point.\n- **D** 3.4 is more than three wholes.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "2/3 > 5/6"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.3D [R] | Topic: Comparing Fractions**\n\n**Correct Answer:** A) 5/6 > 5/8\n\n**Explanation:**\nWith the **same numerator**, a smaller denominator means larger pieces. Sixths are bigger than\neighths, so 5/6 is the larger amount.\n\n**Why the other answers are wrong:**\n- **B** reverses it — reading the larger denominator as the larger fraction.\n- **C** they are not equal.\n- **D** 2/3 = 4/6, which is less than 5/6.",
+    "explanation": "**Correct Answer:** A) 5/6 > 5/8\n\n**Explanation:**\nWith the **same numerator**, a smaller denominator means larger pieces. Sixths are bigger than\neighths, so 5/6 is the larger amount.\n\n**Why the other answers are wrong:**\n- **B** reverses it — reading the larger denominator as the larger fraction.\n- **C** they are not equal.\n- **D** 2/3 = 4/6, which is less than 5/6.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "1/8 cup"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.3E [R] | Topic: Adding Like Denominators**\n\n**Correct Answer:** A) 5/8 cup\n\n**Explanation:**\nThe denominators match, so add only the numerators: 2 + 3 = 5, giving 5/8.\n\n**Why the other answers are wrong:**\n- **B** 5/16 adds the denominators too — the most common error.\n- **C** 6/8 adds incorrectly.\n- **D** 1/8 subtracts.",
+    "explanation": "**Correct Answer:** A) 5/8 cup\n\n**Explanation:**\nThe denominators match, so add only the numerators: 2 + 3 = 5, giving 5/8.\n\n**Why the other answers are wrong:**\n- **B** 5/16 adds the denominators too — the most common error.\n- **C** 6/8 adds incorrectly.\n- **D** 1/8 subtracts.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "0.5, 0.45, 0.4, 0.09"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.2B | Topic: Ordering Decimals**\n\n**Correct Answer:** A) 0.09, 0.4, 0.45, 0.5\n\n**Explanation:**\nCompare tenths first: 0.09 has 0 tenths, then 0.4 and 0.45 have 4, then 0.5 has 5. Between 0.4\nand 0.45, the hundredths decide. Writing 0.4 as 0.40 makes the comparison clearer.\n\n**Why the other answers are wrong:**\n- **B** puts the smallest value last.\n- **C** places 0.45 before 0.4.\n- **D** is greatest to least.",
+    "explanation": "**Correct Answer:** A) 0.09, 0.4, 0.45, 0.5\n\n**Explanation:**\nCompare tenths first: 0.09 has 0 tenths, then 0.4 and 0.45 have 4, then 0.5 has 5. Between 0.4\nand 0.45, the hundredths decide. Writing 0.4 as 0.40 makes the comparison clearer.\n\n**Why the other answers are wrong:**\n- **B** puts the smallest value last.\n- **C** places 0.45 before 0.4.\n- **D** is greatest to least.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "1/2"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.3B | Topic: Equivalent Fractions**\n\n**Correct Answer:** A) 3/4\n\n**Explanation:**\nDivide both numerator and denominator by 2: 6 ÷ 2 = 3 and 8 ÷ 2 = 4.\n\n**Why the other answers are wrong:**\n- **B** 6/4 is greater than one whole.\n- **C** 2/8 is one quarter.\n- **D** 1/2 equals 4/8, not 6/8.",
+    "explanation": "**Correct Answer:** A) 3/4\n\n**Explanation:**\nDivide both numerator and denominator by 2: 6 ÷ 2 = 3 and 8 ÷ 2 = 4.\n\n**Why the other answers are wrong:**\n- **B** 6/4 is greater than one whole.\n- **C** 2/8 is one quarter.\n- **D** 1/2 equals 4/8, not 6/8.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "4/10 metre"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.3F | Topic: Subtracting Like Denominators**\n\n**Correct Answer:** A) 3/10 metre\n\n**Explanation:**\n7/10 − 4/10 = 3/10. The denominator stays the same because the piece size has not changed.\n\n**Why the other answers are wrong:**\n- **B** 11/10 adds instead of subtracting.\n- **C** 3/20 subtracts the denominators as well.\n- **D** 4/10 is the piece that was cut off.",
+    "explanation": "**Correct Answer:** A) 3/10 metre\n\n**Explanation:**\n7/10 − 4/10 = 3/10. The denominator stays the same because the piece size has not changed.\n\n**Why the other answers are wrong:**\n- **B** 11/10 adds instead of subtracting.\n- **C** 3/20 subtracts the denominators as well.\n- **D** 4/10 is the piece that was cut off.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Seven ones"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.2H | Topic: Decimal Place Value**\n\n**Correct Answer:** A) Seven hundredths\n\n**Explanation:**\nIn 5.472 the places after the point are tenths (4), hundredths (7), thousandths (2). So the 7\nis worth seven hundredths, or 0.07.\n\n**Why the other answers are wrong:**\n- **B** the tenths digit is 4.\n- **C** the thousandths digit is 2.\n- **D** the ones digit is 5.",
+    "explanation": "**Correct Answer:** A) Seven hundredths\n\n**Explanation:**\nIn 5.472 the places after the point are tenths (4), hundredths (7), thousandths (2). So the 7\nis worth seven hundredths, or 0.07.\n\n**Why the other answers are wrong:**\n- **B** the tenths digit is 4.\n- **C** the thousandths digit is 2.\n- **D** the ones digit is 5.",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "runoff"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 5.8 — Water cycle.*\nWhen water vapor cools and turns back into tiny liquid droplets (forming clouds), the process is **condensation**. Evaporation is liquid → gas; precipitation is water falling as rain/snow.",
+    "explanation": "When water vapor cools and turns back into tiny liquid droplets (forming clouds), the process is **condensation**. Evaporation is liquid → gas; precipitation is water falling as rain/snow.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Inner core"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.10 — Layers of the Earth.*\nThe **outer core** is the **liquid** layer of molten iron and nickel. The inner core is solid (due to extreme pressure), while the crust and mantle are mostly solid rock.",
+    "explanation": "The **outer core** is the **liquid** layer of molten iron and nickel. The inner core is solid (due to extreme pressure), while the crust and mantle are mostly solid rock.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "in the center of large continents"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.10 — Plate tectonics.*\nEarthquakes and volcanoes are concentrated along **plate boundaries**, where tectonic plates push, pull, or slide against each other.",
+    "explanation": "Earthquakes and volcanoes are concentrated along **plate boundaries**, where tectonic plates push, pull, or slide against each other.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Oil"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.9 — Natural resources.*\n**Wind** is **renewable** — it is naturally replaced and does not run out. Coal, natural gas, and oil are **nonrenewable** fossil fuels that take millions of years to form.",
+    "explanation": "**Wind** is **renewable** — it is naturally replaced and does not run out. Coal, natural gas, and oil are **nonrenewable** fossil fuels that take millions of years to form.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Electricity"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.11 — Gravity in the solar system.*\nThe Sun's **gravity** pulls on the planets and keeps them in their orbits.",
+    "explanation": "The Sun's **gravity** pulls on the planets and keeps them in their orbits.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "The Moon blocks sunlight from reaching one hemisphere at a time"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.11 (seasons) | MAP: Earth & Space Science | Theme: cause & effect**\n\n**Step-by-step:** Earth's axis is tilted ~23.5°. The hemisphere tilted **toward** the Sun gets more direct (concentrated) sunlight and longer days → summer; the other hemisphere is tilted **away** → winter. This is why the hemispheres have opposite seasons simultaneously.\n\n**Why the others are wrong:** A is the common misconception — distance is not the cause (Earth is actually slightly closer to the Sun during Northern-Hemisphere winter). C — the Sun's output does not change by hemisphere. D — the Moon does not cause seasons.\n\n**Key concept:** Seasons result from Earth's axial tilt changing the directness of sunlight, not from distance to the Sun.",
+    "explanation": "**Step-by-step:** Earth's axis is tilted ~23.5°. The hemisphere tilted **toward** the Sun gets more direct (concentrated) sunlight and longer days → summer; the other hemisphere is tilted **away** → winter. This is why the hemispheres have opposite seasons simultaneously.\n\n**Why the others are wrong:** A is the common misconception — distance is not the cause (Earth is actually slightly closer to the Sun during Northern-Hemisphere winter). C — the Sun's output does not change by hemisphere. D — the Moon does not cause seasons.\n\n**Key concept:** Seasons result from Earth's axial tilt changing the directness of sunlight, not from distance to the Sun.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "The rotation of the Moon on its own axis"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.11 (tides) | MAP: Earth & Space Science**\n\n**Step-by-step:** Tides are caused mainly by the **Moon's gravitational pull** on Earth's oceans (the Sun contributes a smaller effect). This produces the daily pattern of high and low tides.\n\n**Why the others are wrong:** A causes seasons, not tides. C — wind affects waves/local water levels but not the regular daily tidal cycle. D — the Moon's rotation does not drive tides.\n\n**Key concept:** Ocean tides are driven by gravitational interactions between the Moon (and Sun) and Earth.",
+    "explanation": "**Step-by-step:** Tides are caused mainly by the **Moon's gravitational pull** on Earth's oceans (the Sun contributes a smaller effect). This produces the daily pattern of high and low tides.\n\n**Why the others are wrong:** A causes seasons, not tides. C — wind affects waves/local water levels but not the regular daily tidal cycle. D — the Moon's rotation does not drive tides.\n\n**Key concept:** Ocean tides are driven by gravitational interactions between the Moon (and Sun) and Earth.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "The hydrosphere and atmosphere only"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.10 (Earth's spheres) | MAP: Earth & Space Science | Theme: systems & system models**\n\n**Step-by-step:** Trace the interacting systems: the **river/water = hydrosphere**; the **rock and soil = geosphere**; the **plants = biosphere**. All three interact in this example.\n\n**Why the others are wrong:** B, C, and D each leave out at least one of the three spheres clearly involved (water, rock/soil, and living plants).\n\n**Key concept:** Earth's spheres (geosphere, hydrosphere, atmosphere, biosphere) constantly interact as a system.",
+    "explanation": "**Step-by-step:** Trace the interacting systems: the **river/water = hydrosphere**; the **rock and soil = geosphere**; the **plants = biosphere**. All three interact in this example.\n\n**Why the others are wrong:** B, C, and D each leave out at least one of the three spheres clearly involved (water, rock/soil, and living plants).\n\n**Key concept:** Earth's spheres (geosphere, hydrosphere, atmosphere, biosphere) constantly interact as a system.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "Igneous, then metamorphic"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.10 (rock cycle) | MAP: Earth & Space Science | Theme: stability & change**\n\n**Step-by-step:** Sand/shell settling and being pressed and cemented = **sedimentary** rock. Then heat and pressure **without melting** change it into **metamorphic** rock. Order: sedimentary → metamorphic.\n\n**Why the others are wrong:** Any option including **igneous** is wrong because igneous rock requires **melting and cooling**, which the passage explicitly rules out (\"without melting it\").\n\n**Key concept:** Sedimentary = compaction/cementation; metamorphic = heat + pressure without melting; igneous = melting then cooling.",
+    "explanation": "**Step-by-step:** Sand/shell settling and being pressed and cemented = **sedimentary** rock. Then heat and pressure **without melting** change it into **metamorphic** rock. Order: sedimentary → metamorphic.\n\n**Why the others are wrong:** Any option including **igneous** is wrong because igneous rock requires **melting and cooling**, which the passage explicitly rules out (\"without melting it\").\n\n**Key concept:** Sedimentary = compaction/cementation; metamorphic = heat + pressure without melting; igneous = melting then cooling.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "Uranium, because it is renewable like sunlight"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 6.11 (resource management) | MAP: Earth & Space Science | SEP 6.2**\n\n**Step-by-step:** A **renewable** resource is naturally replaced within a human lifetime. From the table, only **solar** is naturally replaced, so it will not run out over generations.\n\n**Why the others are wrong:** A, B, and D (natural gas, coal, uranium) are all marked \"No\" — they are **nonrenewable**. D also wrongly calls uranium renewable.\n\n**Key concept:** Renewable resources (solar, wind, water) are naturally replenished; fossil fuels and uranium are nonrenewable.",
+    "explanation": "**Step-by-step:** A **renewable** resource is naturally replaced within a human lifetime. From the table, only **solar** is naturally replaced, so it will not run out over generations.\n\n**Why the others are wrong:** A, B, and D (natural gas, coal, uranium) are all marked \"No\" — they are **nonrenewable**. D also wrongly calls uranium renewable.\n\n**Key concept:** Renewable resources (solar, wind, water) are naturally replenished; fossil fuels and uranium are nonrenewable.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "Earth's daily rotation slowing the water down until it piles up"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.11 — Tides.**\n**Explanation:** Tides are caused mainly by the **Moon's gravitational pull** on Earth's oceans (the Sun contributes too). This pull creates bulges of water that produce the regular rise and fall of tides.\n**Why others are wrong:** B — the Sun's heat does not \"boil\" the ocean daily. C — wind produces waves, not the daily tide cycle. D — rotation affects timing but is not the cause of the pull.\n**Key concept:** Gravity from the Moon (and Sun) drives ocean tides.",
+    "explanation": "**Explanation:** Tides are caused mainly by the **Moon's gravitational pull** on Earth's oceans (the Sun contributes too). This pull creates bulges of water that produce the regular rise and fall of tides.\n**Why others are wrong:** B — the Sun's heat does not \"boil\" the ocean daily. C — wind produces waves, not the daily tide cycle. D — rotation affects timing but is not the cause of the pull.\n**Key concept:** Gravity from the Moon (and Sun) drives ocean tides.",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "the hydrosphere and the biosphere"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.10A — Interacting Earth systems (spheres).**\n**Explanation:** The living **tree = biosphere**; the solid **rock = geosphere**. The tree's roots physically breaking the rock is a biosphere–geosphere interaction (a form of biological weathering).\n**Why others are wrong:** A, C, D each name at least one sphere (hydrosphere = water, atmosphere = air) that is not the main actor here.\n**Key concept:** Earth's spheres interact; living roots (biosphere) can break rock (geosphere).",
+    "explanation": "**Explanation:** The living **tree = biosphere**; the solid **rock = geosphere**. The tree's roots physically breaking the rock is a biosphere–geosphere interaction (a form of biological weathering).\n**Why others are wrong:** A, C, D each name at least one sphere (hydrosphere = water, atmosphere = air) that is not the main actor here.\n**Key concept:** Earth's spheres interact; living roots (biosphere) can break rock (geosphere).",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "a liquid magma"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 6.10 — Rock cycle.**\n**Explanation:** Heat and pressure that change an existing rock **without melting it** produce a **metamorphic** rock; the squeezed mineral bands are a classic clue.\n**Why others are wrong:** A — igneous rock forms when melted magma/lava cools. B — sedimentary rock forms from compacted, cemented sediments. D — the rock did not melt into magma.\n**Key concept:** Metamorphic rock forms from heat + pressure without melting.",
+    "explanation": "**Explanation:** Heat and pressure that change an existing rock **without melting it** produce a **metamorphic** rock; the squeezed mineral bands are a classic clue.\n**Why others are wrong:** A — igneous rock forms when melted magma/lava cools. B — sedimentary rock forms from compacted, cemented sediments. D — the rock did not melt into magma.\n**Key concept:** Metamorphic rock forms from heat + pressure without melting.",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "The two hemispheres are made of different materials that heat at different rates"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.11 — Seasons & Earth's tilt.**\n**Explanation:** Earth's **axial tilt** means that at any time one hemisphere leans toward the Sun (receiving more direct rays = summer) while the other leans away (indirect rays = winter). That is why the seasons are opposite.\n**Why others are wrong:** A — distance to the Sun is nearly the same for both hemispheres and is *not* the cause of seasons. C — the Sun's output does not swing with our seasons. D — both hemispheres are made of the same Earth materials.\n**Key concept:** Seasons result from Earth's tilt, not its distance from the Sun.",
+    "explanation": "**Explanation:** Earth's **axial tilt** means that at any time one hemisphere leans toward the Sun (receiving more direct rays = summer) while the other leans away (indirect rays = winter). That is why the seasons are opposite.\n**Why others are wrong:** A — distance to the Sun is nearly the same for both hemispheres and is *not* the cause of seasons. C — the Sun's output does not swing with our seasons. D — both hemispheres are made of the same Earth materials.\n**Key concept:** Seasons result from Earth's tilt, not its distance from the Sun.",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "Wind and natural gas"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.11 — Natural resources / resource management.**\n**Explanation:** **Nonrenewable** resources cannot be replaced quickly by nature. Coal and natural gas each take millions of years to form, so **coal and natural gas** are the nonrenewable pair. Solar and wind are renewable.\n**Why others are wrong:** A lists two renewables; C and D each include a renewable (solar or wind).\n**Key concept:** Renewable resources replenish quickly; nonrenewable ones do not.",
+    "explanation": "**Explanation:** **Nonrenewable** resources cannot be replaced quickly by nature. Coal and natural gas each take millions of years to form, so **coal and natural gas** are the nonrenewable pair. Solar and wind are renewable.\n**Why others are wrong:** A lists two renewables; C and D each include a renewable (solar or wind).\n**Key concept:** Renewable resources replenish quickly; nonrenewable ones do not.",
     "source": "authored",
     "needsReview": false
   }
