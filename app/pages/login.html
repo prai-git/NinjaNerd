@@ -52,6 +52,15 @@
                 <i class="fas fa-key me-1"></i>Forgot your password?
               </a>
             </div>
+            <!-- Shown only when a signed-in account has not confirmed its address. Without
+                 this, an unverified user is told to check an inbox with no way to ask again
+                 if the mail was lost or filtered as spam. -->
+            <div id="nn-verify-notice" class="alert alert-warning mt-3 mb-0 small" style="display:none;">
+              <i class="fas fa-envelope me-1"></i>
+              Your email is not verified yet, so practice is locked.
+              Check your Spam and Promotions folders, or
+              <a href="#" id="nn-resend-verification" class="alert-link">resend the link</a>.
+            </div>
           </div>
         </div>
       </div>
@@ -147,6 +156,32 @@
       });
     });
 
+    /* Reveal the resend prompt whenever the resolved auth state is signed-in-but-unverified.
+       auth.js broadcasts nn-auth-changed once Firebase finishes restoring the session. */
+    function syncVerifyNotice() {
+      var user = window.NNAuth && window.NNAuth.getUser();
+      var box = document.getElementById('nn-verify-notice');
+      if (box) box.style.display = (user && user.emailVerified === false) ? '' : 'none';
+    }
+    syncVerifyNotice();
+    document.addEventListener('nn-auth-changed', syncVerifyNotice);
+
+    var resend = document.getElementById('nn-resend-verification');
+    if (resend) resend.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (!window.NNAuthApi) { NNToast.show('Still loading — try again in a moment.', 'info'); return; }
+      window.NNAuthApi.resendVerification().then(function () {
+        NNToast.show('Verification email sent. Check Spam and Promotions too.', 'success');
+      }).catch(function (err) {
+        var code = err && err.code;
+        NNToast.show(
+          code === 'auth/too-many-requests'
+            ? 'Too many requests. Please wait a few minutes.'
+            : 'Could not resend right now. Sign in first, then try again.',
+          'warning');
+      });
+    });
+
     document.getElementById('nn-login-form').addEventListener('submit', function (e) {
       e.preventDefault();
       var email = document.getElementById('nn-email').value.trim();
@@ -161,7 +196,7 @@
         if (!user.emailVerified) {
           // Legacy verified BEFORE the account existed; Firebase verifies after. Signing in is
           // allowed, but flow.js refuses Learn/Practice until the address is confirmed.
-          NNToast.show('Signed in. Please verify your email to start practising — check your inbox.', 'warning');
+          NNToast.show('Signed in. Verify your email to start practising — check Spam and Promotions too.', 'warning');
         } else {
           NNToast.show('Welcome back!', 'success');
         }

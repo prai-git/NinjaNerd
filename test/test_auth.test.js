@@ -126,3 +126,33 @@ test('password reset does not disclose whether an account exists', () => {
   assert.match(html, /If an account exists for/,
     'the confirmation must be neutral about existence');
 });
+
+test('signup reports whether the verification email was actually sent', () => {
+  /* The mail is non-fatal by design, so a mail outage cannot leave a half-created account.
+     But an unconditional "check your email" sends the user hunting for a message that was
+     never sent — which is exactly what happened on 2026-09-01. signup() must return the
+     outcome and the page must branch on it. */
+  assert.match(auth, /verificationSent/, 'signup must report whether the mail went');
+  assert.match(auth, /return \{ user: cred\.user, verificationSent/,
+    'and return it to the caller, not just log it');
+  const html = read('app/pages/signup.html');
+  assert.match(html, /res\.verificationSent/, 'signup page must branch on the outcome');
+  assert.match(html, /could not be sent/, 'and say so plainly when it failed');
+});
+
+test('an unverified user can ask for the verification link again', () => {
+  /* resendVerification() existed from the start but nothing called it, so a user whose mail
+     was lost or filtered had no way forward. The first real signup landed in Gmail spam. */
+  const html = read('app/pages/login.html');
+  assert.match(html, /id="nn-resend-verification"/, 'login must offer a resend control');
+  assert.match(html, /NNAuthApi\.resendVerification\(/, 'wired to the real API');
+  assert.match(html, /id="nn-verify-notice"/, 'and surface the unverified state');
+  assert.match(html, /nn-auth-changed/, 're-synced once Firebase resolves the session');
+});
+
+test('verification messages mention spam, because that is where mail lands', () => {
+  // Firebase sends from noreply@<project>.firebaseapp.com, which Gmail routinely filters.
+  const login = read('app/pages/login.html');
+  const signup = read('app/pages/signup.html');
+  assert.match(login + signup, /Spam/i, 'tell the user where to look');
+});

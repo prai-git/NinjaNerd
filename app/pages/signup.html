@@ -93,9 +93,20 @@
       if (btn) btn.disabled = true;
 
       window.NNAuthApi.signup({ email: email, password: password, schoolName: school })
-        .then(function () {
-          NNToast.show('Account created. Check your email for the verification link.', 'success');
-          setTimeout(function () { location.href = 'pages/login.html'; }, 1500);
+        .then(function (res) {
+          /* Report what actually happened. The verification mail is non-fatal by design, so
+             an unconditional "check your email" would send the user hunting for a message
+             that was never sent -- which is exactly what happened on 2026-09-01. */
+          if (res && res.verificationSent) {
+            NNToast.show(
+              'Account created. Check your email for the verification link — ' +
+              'it may land in your Spam or Promotions folder.', 'success');
+          } else {
+            NNToast.show(
+              'Account created, but the verification email could not be sent. ' +
+              'Sign in and use "Resend verification email".', 'warning');
+          }
+          setTimeout(function () { location.href = 'pages/login.html'; }, 3000);
         })
         .catch(function (err) {
           NNToast.show(friendly(err && err.code), 'danger');

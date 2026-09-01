@@ -75,12 +75,21 @@ async function loadProfile(user) {
    so the failure is surfaced rather than swallowed. */
 export async function signup({ email, password, schoolName }) {
   const cred = await createUserWithEmailAndPassword(auth, email, password);
+
+  /* The verification mail is deliberately non-fatal: a mail outage must not leave a
+     half-created account. But the caller has to KNOW whether it went, or the UI cheerfully
+     reports success while the user waits for an email that was never sent. That happened on
+     2026-09-01, so the outcome is returned rather than only logged. */
+  let verificationSent = false;
+  let verificationError = null;
   try {
     await sendEmailVerification(cred.user);
+    verificationSent = true;
   } catch (e) {
-    // Non-fatal: the account exists and the link can be resent from the login page.
-    console.warn('[NinjaNerd] verification email failed:', e && e.code);
+    verificationError = (e && e.code) || 'unknown';
+    console.warn('[NinjaNerd] verification email failed:', verificationError);
   }
+
   await setDoc(userRef(cred.user.uid), {
     email,
     // Legacy defaulted a blank school to "Unknown School" (obs_app.py create_account).
@@ -89,7 +98,7 @@ export async function signup({ email, password, schoolName }) {
     created_at: serverTimestamp(),
     updated_at: serverTimestamp(),
   });
-  return cred.user;
+  return { user: cred.user, verificationSent, verificationError };
 }
 
 export async function login({ email, password }) {
