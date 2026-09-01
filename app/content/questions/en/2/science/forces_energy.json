@@ -1,0 +1,202 @@
+[
+  {
+    "id": "science_g2_2026-09-01_00-40_q1",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The same ball is rolled down two ramps with the same push. Ramp A is steep and Ramp B is\ngentle. What will most likely happen?",
+    "options": [
+      "The ball on the steep ramp will travel faster.",
+      "The ball on the gentle ramp will travel faster.",
+      "Both balls will travel at exactly the same speed.",
+      "Neither ball will move."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6C | Topic: Slope and Speed**\n\n**Correct Answer:** A) The ball on the steep ramp will travel faster.\n\n**Explanation:**\nA steeper ramp lets gravity pull the ball down a sharper slope, so it speeds up more.\n\n**Why the other answers are wrong:**\n- **B** reverses the relationship.\n- **C** ignores the difference in steepness, which is the only thing that changed.\n- **D** a ball on a ramp does roll.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q2",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A toy car is pushed the same way across carpet and across a wooden floor. It goes farther on\nthe wood. Why?",
+    "options": [
+      "The carpet rubs against the wheels more than the wood does.",
+      "The wooden floor pushes the car forward.",
+      "The car is heavier on the carpet.",
+      "The carpet is closer to the ground."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6C | Topic: Friction**\n\n**Correct Answer:** A) The carpet rubs against the wheels more than the wood does.\n\n**Explanation:**\nRougher surfaces create more friction, which slows motion sooner.\n\n**Why the other answers are wrong:**\n- **B** the floor does not push the car along.\n- **C** the same car has the same weight on both surfaces.\n- **D** nearness to the ground does not slow a car.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q3",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball rolls east across the floor. A student wants it to roll north instead. What must happen?",
+    "options": [
+      "A force must push the ball toward the north.",
+      "The ball must be made heavier.",
+      "The floor must be made smoother.",
+      "The ball will turn north on its own."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6C | Topic: Direction of Force**\n\n**Correct Answer:** A) A force must push the ball toward the north.\n\n**Explanation:**\nAn object keeps moving the way it is going until a force acts on it. Changing direction\nrequires a push or pull in the new direction.\n\n**Why the other answers are wrong:**\n- **B** weight does not steer.\n- **C** a smoother floor changes speed, not direction.\n- **D** objects do not change direction on their own.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q4",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object would a magnet attract?",
+    "options": [
+      "An iron nail",
+      "A copper penny",
+      "An aluminium can",
+      "A plastic ruler"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6A | Topic: Magnetic Materials**\n\n**Correct Answer:** A) An iron nail\n\n**Explanation:**\nMagnets attract iron and steel. **Not every metal is magnetic** — that is the point of this\nitem.\n\n**Why the other answers are wrong:**\n- **B** copper is a metal but is not attracted to magnets.\n- **C** aluminium is also a non-magnetic metal.\n- **D** plastic is not a metal at all.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q5",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A magnet moved slowly toward a paper clip makes the clip slide across the table before they\ntouch. This shows that —",
+    "options": [
+      "a magnet can pull an object without touching it",
+      "the table is slippery",
+      "the paper clip is very light",
+      "air pushed the paper clip"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6A | Topic: Force Without Contact**\n\n**Correct Answer:** A) a magnet can pull an object without touching it\n\n**Explanation:**\nThe magnetic pull reaches across a gap, which is why the clip moves before contact.\n\n**Why the other answers are wrong:**\n- **B** a slippery table would not start the motion.\n- **C** weight does not explain why it moved toward the magnet.\n- **D** air did not move it.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q6",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two identical rubber bands are stretched across a box. One is plucked gently and one is plucked\nhard. What is the difference?",
+    "options": [
+      "The one plucked hard makes a louder sound.",
+      "The one plucked gently makes a louder sound.",
+      "Both make exactly the same sound.",
+      "Neither one makes any sound."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6B | Topic: Loudness and Vibration**\n\n**Correct Answer:** A) The one plucked hard makes a louder sound.\n\n**Explanation:**\nA harder pluck makes a bigger vibration, and bigger vibrations make louder sounds.\n\n**Why the other answers are wrong:**\n- **B** reverses the relationship.\n- **C** ignores the difference in the pluck.\n- **D** both bands vibrate, so both make sound.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q7",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A drum makes no sound while it sits still. What must happen for it to make a sound?",
+    "options": [
+      "The drum head must vibrate.",
+      "The drum must be painted a bright colour.",
+      "The room must be made warmer.",
+      "The drum must be made smaller."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6B | Topic: Sound Needs Vibration**\n\n**Correct Answer:** A) The drum head must vibrate.\n\n**Explanation:**\nSound is produced by vibration. No vibration means no sound.\n\n**Why the other answers are wrong:**\n- **B** colour has nothing to do with sound.\n- **C** room temperature does not create sound.\n- **D** size affects pitch, not whether a sound happens.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q8",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student stands between a lamp and a wall. When she steps closer to the lamp, her shadow on\nthe wall becomes —",
+    "options": [
+      "larger",
+      "smaller",
+      "exactly the same size",
+      "brighter than the wall"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6B | Topic: Shadows**\n\n**Correct Answer:** A) larger\n\n**Explanation:**\nMoving closer to the light blocks a wider spread of it, so the shadow cast on the wall grows.\n\n**Why the other answers are wrong:**\n- **B** the shadow shrinks when she moves **away** from the lamp.\n- **C** the distance changed, so the shadow must change.\n- **D** a shadow is where light is blocked, so it cannot be brighter than the lit wall.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q9",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A metal spoon is left in a bowl of hot soup. After a few minutes the handle feels warm. Why?",
+    "options": [
+      "Heat moved from the hot soup through the metal spoon.",
+      "The spoon made its own heat.",
+      "The air cooled the soup and warmed the spoon.",
+      "Metal is always warm."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6B | Topic: Heat Transfer**\n\n**Correct Answer:** A) Heat moved from the hot soup through the metal spoon.\n\n**Explanation:**\nHeat travels from warmer to cooler places, and metal carries it well.\n\n**Why the other answers are wrong:**\n- **B** the spoon does not produce heat.\n- **C** air did not warm the handle; the soup did.\n- **D** a spoon left in a cold place feels cold.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-01_00-40_q10",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student pushes an empty wagon easily. Then three heavy books are added. To move the wagon the\nsame way, the student must —",
+    "options": [
+      "push harder than before",
+      "push more gently than before",
+      "push exactly as before",
+      "wait for the wagon to move by itself"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.6C | Topic: Mass and Force**\n\n**Correct Answer:** A) push harder than before\n\n**Explanation:**\nAdding books makes the wagon heavier, and a heavier object needs a larger force to move it the\nsame way.\n\n**Why the other answers are wrong:**\n- **B** a gentler push moves it less.\n- **C** the same push moves the heavier wagon less.\n- **D** nothing moves without a force.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

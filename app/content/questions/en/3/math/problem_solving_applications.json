@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g3_2026-09-01_00-55_q15",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop has 8 boxes with 6 markers in each. 15 markers are sold. How many markers are left?",
+    "options": [
+      "33",
+      "48",
+      "23",
+      "63"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.4K [R] | Topic: Two-Step Problem**\n\n**Correct Answer:** A) 33\n\n**Explanation:**\n8 × 6 = 48 markers, then 48 − 15 = 33.\n\n**Why the other answers are wrong:**\n- **B** 48 stops after the multiplication.\n- **C** 23 subtracts incorrectly.\n- **D** 63 adds the 15.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q16",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "144 students are split evenly among 6 buses. Which sentence finds how many are on each bus?",
+    "options": [
+      "144 ÷ 6 = ?",
+      "144 × 6 = ?",
+      "144 + 6 = ?",
+      "144 − 6 = ?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.5B | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 144 ÷ 6 = ?\n\n**Explanation:**\nSplitting a total evenly among equal groups is division.\n\n**Why the other answers are wrong:**\n- **B** multiplying gives far more students than exist.\n- **C** and **D** adding or subtracting does not share a total into groups.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q17",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 50 chairs to arrange in rows of 8. How many rows are **completely full**, and how many\nchairs are left over?",
+    "options": [
+      "6 full rows with 2 chairs left over",
+      "7 full rows with 6 chairs left over",
+      "6 full rows with 8 chairs left over",
+      "8 full rows with 2 chairs left over"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.4K | Topic: Interpreting a Remainder**\n\n**Correct Answer:** A) 6 full rows with 2 chairs left over\n\n**Explanation:**\n50 ÷ 8 = 6 remainder 2. Six rows are complete and 2 chairs remain, not enough for a seventh\nfull row.\n\n**Why the other answers are wrong:**\n- **B** 7 rows would need 56 chairs.\n- **C** a remainder of 8 would make another full row.\n- **D** 8 rows would need 64 chairs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q18",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Kim saves $7 each week. After 5 weeks she spends $12 on a book. How much does she have left?",
+    "options": [
+      "$23",
+      "$35",
+      "$47",
+      "$19"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.5A | Topic: Multi-Step Reasoning**\n\n**Correct Answer:** A) $23\n\n**Explanation:**\n5 weeks × \\(7 = \\)35 saved, then \\(35 − \\)12 = $23.\n\n**Why the other answers are wrong:**\n- **B** $35 stops before the spending.\n- **C** \\(47 adds the \\)12.\n- **D** $19 uses the wrong number of weeks.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q19",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A library has 240 fiction books, 180 non-fiction books and 12 librarians. How many **books** are\nthere?",
+    "options": [
+      "420",
+      "432",
+      "252",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.4K | Topic: Ignoring Extra Information**\n\n**Correct Answer:** A) 420\n\n**Explanation:**\nOnly books are asked for: 240 + 180 = 420. The 12 librarians are deliberately irrelevant.\n\n**Why the other answers are wrong:**\n- **B** adds the librarians.\n- **C** and **D** use the wrong pair of numbers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q20",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "After giving 24 stickers away, Noah has 57 left. How many did he start with?",
+    "options": [
+      "81",
+      "33",
+      "57",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.5B | Topic: Working Backwards**\n\n**Correct Answer:** A) 81\n\n**Explanation:**\nHe has 57 after giving away 24, so he began with 57 + 24 = 81. Undo the action to work\nbackwards.\n\n**Why the other answers are wrong:**\n- **B** subtracts instead of adding.\n- **C** and **D** repeat numbers from the problem.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q21",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cinema has 30 rows of 12 seats. 280 tickets are sold. How many seats are **empty**?",
+    "options": [
+      "80",
+      "360",
+      "280",
+      "250"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.4K | Topic: Answering the Right Question**\n\n**Correct Answer:** A) 80\n\n**Explanation:**\n30 × 12 = 360 seats. 360 − 280 = 80 empty. The question asks for empty seats, not total seats\nor tickets.\n\n**Why the other answers are wrong:**\n- **B** 360 is the total number of seats.\n- **C** 280 is the tickets sold.\n- **D** 250 subtracts the wrong numbers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

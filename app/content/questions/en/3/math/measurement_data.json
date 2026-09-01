@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g3_2026-09-01_00-55_q8",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A film starts at 2:45 p.m. and runs for 1 hour 40 minutes. When does it end?",
+    "options": [
+      "4:25 p.m.",
+      "4:15 p.m.",
+      "3:85 p.m.",
+      "4:05 p.m."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.7B | Topic: Elapsed Time**\n\n**Correct Answer:** A) 4:25 p.m.\n\n**Explanation:**\n2:45 + 1 hour = 3:45. 3:45 + 40 minutes = 4:25, because 45 + 40 = 85 minutes, which is 1 hour\n25 minutes.\n\n**Why the other answers are wrong:**\n- **B** adds only 30 minutes.\n- **C** \"3:85\" is not a valid time — 85 minutes must be regrouped into an hour.\n- **D** adds 20 minutes.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q9",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jug holds 2 litres of juice. A glass holds 250 millilitres. How many full glasses can be\npoured from the jug?",
+    "options": [
+      "8",
+      "4",
+      "20",
+      "500"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.7D | Topic: Liquid Volume Conversion**\n\n**Correct Answer:** A) 8\n\n**Explanation:**\n2 litres = 2,000 millilitres. 2,000 ÷ 250 = 8 glasses. The conversion must happen before the\ndivision.\n\n**Why the other answers are wrong:**\n- **B** divides 1,000 by 250 and forgets the second litre.\n- **C** divides 2,000 by 100.\n- **D** subtracts instead of dividing.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q10",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bar graph shows books read, where each grid square represents **5 books**. Ravi's bar reaches\nthe 7th square. How many books did Ravi read?",
+    "options": [
+      "35",
+      "7",
+      "12",
+      "70"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.7E | Topic: Scaled Bar Graphs**\n\n**Correct Answer:** A) 35\n\n**Explanation:**\nEach square is 5 books, so 7 squares is 7 × 5 = 35. Always read the scale first.\n\n**Why the other answers are wrong:**\n- **B** counts squares as single books — the error the scale is designed to catch.\n- **C** and **D** use the wrong scale.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q11",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangular garden is 9 metres long and 4 metres wide. What is its area?",
+    "options": [
+      "36 square metres",
+      "26 square metres",
+      "13 square metres",
+      "18 square metres"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.6C | Topic: Area of a Rectangle**\n\n**Correct Answer:** A) 36 square metres\n\n**Explanation:**\nArea = length × width = 9 × 4 = 36 square metres.\n\n**Why the other answers are wrong:**\n- **B** 26 is the perimeter.\n- **C** 13 adds the two sides.\n- **D** 18 doubles only one side.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q12",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square tile has sides of 6 cm. What is its **perimeter**?",
+    "options": [
+      "24 cm",
+      "36 cm",
+      "12 cm",
+      "30 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.7B | Topic: Perimeter**\n\n**Correct Answer:** A) 24 cm\n\n**Explanation:**\nPerimeter is the distance around: 6 + 6 + 6 + 6 = 24 cm.\n\n**Why the other answers are wrong:**\n- **B** 36 is the area (6 × 6).\n- **C** 12 adds only two sides.\n- **D** 30 adds five sides.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q13",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A dot plot of pets owned shows: 0 pets — 4 students, 1 pet — 7 students, 2 pets — 5 students,\n3 pets — 2 students. How many students were surveyed?",
+    "options": [
+      "18",
+      "12",
+      "6",
+      "22"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.8A | Topic: Interpreting a Dot Plot**\n\n**Correct Answer:** A) 18\n\n**Explanation:**\nTotal students = 4 + 7 + 5 + 2 = 18. Each dot is one student, regardless of how many pets.\n\n**Why the other answers are wrong:**\n- **B** and **C** count only some categories.\n- **D** adds the pet numbers as well as the students.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-01_00-55_q14",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement and Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bag of rice has a mass of 3 kilograms. A bag of flour has a mass of 2,500 grams. Which is\nheavier, and by how much?",
+    "options": [
+      "The rice, by 500 grams",
+      "The flour, by 500 grams",
+      "The rice, by 2,497 grams",
+      "They are equal"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.7D | Topic: Mass Conversion**\n\n**Correct Answer:** A) The rice, by 500 grams\n\n**Explanation:**\n3 kilograms = 3,000 grams. 3,000 − 2,500 = 500 grams more than the flour. Convert to the same\nunit before comparing.\n\n**Why the other answers are wrong:**\n- **B** reverses which is heavier.\n- **C** subtracts 3 from 2,500 without converting.\n- **D** they are not equal.\n\n---\n\n## Problem Solving and Applications",
+    "source": "authored",
+    "needsReview": false
+  }
+]

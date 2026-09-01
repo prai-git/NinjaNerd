@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:24:54.493Z",
+  "generatedAt": "2026-09-01T04:27:35.468Z",
   "grades": {
     "1": {
       "english": [
@@ -166,6 +166,11 @@
           "count": 9
         },
         {
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
+          "count": 10
+        },
+        {
           "subtopic": "life_science_fundamentals",
           "slug": "life_science_fundamentals",
           "count": 13
@@ -207,13 +212,28 @@
           "count": 9
         },
         {
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 7
+        },
+        {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
           "count": 8
         },
         {
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
+          "count": 7
+        },
+        {
           "subtopic": "number_sense_basic_operations",
           "slug": "number_sense_basic_operations",
+          "count": 7
+        },
+        {
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
           "count": 7
         }
       ],
