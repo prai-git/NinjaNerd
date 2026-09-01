@@ -35,6 +35,7 @@ import {
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-firestore.js';
 
 import { auth, db } from './firebase-init.js';
+import { setSignedIn } from './idle-timeout.js';
 
 const listeners = [];
 let profile = null; // users/{uid} for the signed-in user, or null
@@ -146,6 +147,10 @@ onAuthStateChanged(auth, async (user) => {
   const nnUser = toNNUser(user, profile);
   if (window.NNAuth && window.NNAuth._set) window.NNAuth._set(nnUser);
   if (window.NNLayout && window.NNLayout.render) window.NNLayout.render();
+  /* Arm the idle timeout for a signed-in student, disarm on sign-out. Hooked here, rather
+     than added as a <script> to every page, because every page already loads this module —
+     a per-page tag would mean the next page someone writes silently has no timeout. */
+  setSignedIn(!!user);
   /* Classic inline scripts (the Audit link on index.html) cannot import this module, so the
      resolved state is broadcast as a DOM event they can listen for. */
   document.dispatchEvent(new CustomEvent('nn-auth-changed', { detail: nnUser }));

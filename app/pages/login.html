@@ -52,6 +52,14 @@
                 <i class="fas fa-key me-1"></i>Forgot your password?
               </a>
             </div>
+            <!-- Shown when the idle timeout signed the student out (?timeout=1). Without a
+                 message here, a child who stepped away just finds themselves logged out and
+                 assumes the site broke or lost their work. -->
+            <div id="nn-timeout-notice" class="alert alert-info mt-3 mb-0 small" style="display:none;">
+              <i class="fas fa-clock me-1"></i>
+              You were signed out after 30 minutes of no activity, to keep your account safe.
+              Sign in again to carry on — your answers were saved as you went.
+            </div>
             <!-- Shown only when a signed-in account has not confirmed its address. Without
                  this, an unverified user is told to check an inbox with no way to ask again
                  if the mail was lost or filtered as spam. -->
@@ -96,6 +104,14 @@
       } catch (e) {
         return 'index.html';
       }
+    }
+
+    /* Explain an idle sign-out. Read as a strict "1" rather than truthiness so a stray
+       ?timeout=0 (the modal's own "Sign out now" button, which is not a timeout) says
+       nothing. */
+    if (new URLSearchParams(location.search).get('timeout') === '1') {
+      var tn = document.getElementById('nn-timeout-notice');
+      if (tn) tn.style.display = '';
     }
 
     // Preserve next through the Create Account link too.
