@@ -78,5 +78,465 @@
     "explanation": "**Explanation:**\nBrackets first: \\(10 - 6 = 4\\). Then the exponent: \\(4^2 = 16\\). Then multiply and divide left\nto right: \\(3 \\times 16 = 48\\), \\(48 \\div 8 = 6\\). Finally add: \\(4 + 6 = 10\\).",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q24",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list contains **only** irrational numbers?",
+    "options": [
+      "\\(\\sqrt{16}\\), \\(\\pi\\), \\(0.\\overline{3}\\)",
+      "\\(\\sqrt{7}\\), \\(\\pi\\), \\(\\sqrt{20}\\)",
+      "\\(\\sqrt{9}\\), \\(\\frac{22}{7}\\), \\(1.41\\)",
+      "\\(\\sqrt{2}\\), \\(\\frac{1}{3}\\), \\(\\sqrt{25}\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n\\(\\sqrt{7}\\) and \\(\\sqrt{20}\\) are not perfect squares, so both are irrational, and \\(\\pi\\) is irrational.\nThe other lists all contain a rational value: \\(\\sqrt{16}=4\\), \\(0.\\overline{3}=\\frac{1}{3}\\), \\(\\sqrt{9}=3\\), \\(\\frac{22}{7}\\), \\(1.41\\), \\(\\frac{1}{3}\\), \\(\\sqrt{25}=5\\).\n\n**Key concept:** A square root is irrational only when the radicand is not a perfect square.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q25",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Evaluate: \\(\\dfrac{3^5 \\cdot 3^{-2}}{3^4}\\)",
+    "options": [
+      "\\(3^{-1}\\)",
+      "\\(3\\)",
+      "\\(3^{7}\\)",
+      "\\(3^{-3}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(3^5 \\cdot 3^{-2} = 3^{3}\\)\n- \\(\\frac{3^{3}}{3^{4}} = 3^{3-4} = 3^{-1}\\)\n\n**Key concept:** Add exponents when multiplying, subtract when dividing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q26",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The mass of a dust particle is \\(7.5 \\times 10^{-7}\\) grams. The mass of a grain of sand is \\(3 \\times 10^{-4}\\) grams. How many times heavier is the grain of sand?",
+    "options": [
+      "\\(400\\)",
+      "\\(40\\)",
+      "\\(2.5 \\times 10^{-11}\\)",
+      "\\(4{,}000\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(\\frac{3 \\times 10^{-4}}{7.5 \\times 10^{-7}} = \\frac{3}{7.5} \\times 10^{3} = 0.4 \\times 10^{3} = 400\\)\n\n**Key concept:** Divide the coefficients and subtract the exponents.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q27",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Between which two consecutive integers does \\(\\sqrt{58}\\) lie?",
+    "options": [
+      "\\(6\\) and \\(7\\)",
+      "\\(7\\) and \\(8\\)",
+      "\\(8\\) and \\(9\\)",
+      "\\(28\\) and \\(29\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n- \\(7^2 = 49\\) and \\(8^2 = 64\\), and \\(49 < 58 < 64\\)\n- \\(\\sqrt{58} \\approx 7.62\\)\n\n**Key concept:** Locating an irrational square root between consecutive perfect squares.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q28",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Evaluate: \\(-3^2 + (-4)^2 - 2(-5)\\)",
+    "options": [
+      "\\(17\\)",
+      "\\(-3\\)",
+      "\\(33\\)",
+      "\\(15\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(-3^2 = -9\\) (the exponent binds before the negative sign)\n- \\((-4)^2 = 16\\)\n- \\(-2(-5) = +10\\)\n- \\(-9 + 16 + 10 = 17\\)\n\n**Key concept:** \\(-3^2\\) and \\((-3)^2\\) are not the same.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q29",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which expression is equivalent to \\(\\left(2^{-3}\\right)^{2}\\)?",
+    "options": [
+      "\\(\\frac{1}{64}\\)",
+      "\\(-64\\)",
+      "\\(\\frac{1}{12}\\)",
+      "\\(64\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(\\left(2^{-3}\\right)^{2} = 2^{-6} = \\frac{1}{2^{6}} = \\frac{1}{64}\\)\n\n**Key concept:** A negative exponent gives a reciprocal, never a negative value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q30",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Light travels about \\(3 \\times 10^{8}\\) metres per second. How far does it travel in \\(2.5 \\times 10^{3}\\) seconds, in scientific notation?",
+    "options": [
+      "\\(7.5 \\times 10^{11}\\) m",
+      "\\(7.5 \\times 10^{24}\\) m",
+      "\\(5.5 \\times 10^{11}\\) m",
+      "\\(0.75 \\times 10^{12}\\) m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\((3 \\times 2.5) \\times 10^{8+3} = 7.5 \\times 10^{11}\\)\n\n**Key concept:** Multiply coefficients, add exponents.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q31",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comparison is true?",
+    "options": [
+      "\\(|-9| < |6|\\)",
+      "\\(-|-9| > -|6|\\)",
+      "\\(|-9| > |-6|\\)",
+      "\\(-9 > -6\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\n- \\(|-9| = 9\\) and \\(|-6| = 6\\), so \\(9 > 6\\) is true.\n- \\(|-9| < |6|\\) is false (\\(9 > 6\\)); \\(-|-9| > -|6|\\) is false (\\(-9 < -6\\)); \\(-9 > -6\\) is false.\n\n**Key concept:** Absolute value is distance from zero and is never negative.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q32",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A number is rational **and** its decimal expansion terminates. Which number fits?",
+    "options": [
+      "\\(\\sqrt{3}\\)",
+      "\\(\\frac{5}{8}\\)",
+      "\\(\\frac{2}{7}\\)",
+      "\\(\\pi\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n\\(8 = 2^3\\), and a denominator whose only prime factor is 2 (or 5) gives a terminating decimal: \\(\\frac{5}{8} = 0.625\\).\n\\(\\frac{2}{7}\\) repeats, and \\(\\sqrt{3}\\) and \\(\\pi\\) are irrational.\n\n**Key concept:** Denominators of the form \\(2^a 5^b\\) terminate.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q33",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Simplify: \\(\\left(\\dfrac{x^{4}}{x^{-2}}\\right)^{2}\\) for \\(x \\neq 0\\)",
+    "options": [
+      "\\(x^{12}\\)",
+      "\\(x^{4}\\)",
+      "\\(x^{8}\\)",
+      "\\(x^{16}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Inside: \\(\\frac{x^{4}}{x^{-2}} = x^{4-(-2)} = x^{6}\\)\n- Then: \\(\\left(x^{6}\\right)^{2} = x^{12}\\)\n\n**Key concept:** Subtracting a negative exponent adds.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q34",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Add and express in scientific notation: \\((4.2 \\times 10^{5}) + (3.6 \\times 10^{6})\\)",
+    "options": [
+      "\\(7.8 \\times 10^{11}\\)",
+      "\\(4.02 \\times 10^{6}\\)",
+      "\\(7.8 \\times 10^{6}\\)",
+      "\\(4.02 \\times 10^{5}\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n- Rewrite with a common exponent: \\(4.2 \\times 10^{5} = 0.42 \\times 10^{6}\\)\n- \\(0.42 \\times 10^{6} + 3.6 \\times 10^{6} = 4.02 \\times 10^{6}\\)\n\n**Key concept:** Exponents must match before adding; only multiplication lets you combine them directly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q35",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The elevation of a valley floor is \\(-86\\) feet. A ridge is \\(412\\) feet above the valley floor. What is the ridge's elevation?",
+    "options": [
+      "\\(326\\) feet",
+      "\\(498\\) feet",
+      "\\(-498\\) feet",
+      "\\(-326\\) feet"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(-86 + 412 = 326\\)\n\n**Key concept:** \"Above the valley floor\" means adding to the floor's elevation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q36",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number lies between \\(\\pi\\) and \\(\\sqrt{11}\\) on a number line?",
+    "options": [
+      "\\(3.05\\)",
+      "\\(3.25\\)",
+      "\\(3.40\\)",
+      "\\(3.14\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n- \\(\\pi \\approx 3.1416\\) and \\(\\sqrt{11} \\approx 3.3166\\)\n- \\(3.25\\) lies between them; \\(3.05\\) and \\(3.14\\) are below \\(\\pi\\), and \\(3.40\\) is above \\(\\sqrt{11}\\).\n\n**Key concept:** Approximating an irrational number to place it on a number line.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q37",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Evaluate: \\(5^0 + 5^{-1}\\)",
+    "options": [
+      "\\(1.2\\)",
+      "\\(0.2\\)",
+      "\\(6\\)",
+      "\\(5.2\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(5^0 = 1\\)\n- \\(5^{-1} = \\frac{1}{5} = 0.2\\)\n- \\(1 + 0.2 = 1.2\\)\n\n**Key concept:** Any non-zero base to the power 0 equals 1.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q38",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A submarine at \\(-240\\) feet rises at \\(18\\) feet per minute. What is its depth after \\(7\\) minutes?",
+    "options": [
+      "\\(-114\\) feet",
+      "\\(-366\\) feet",
+      "\\(114\\) feet",
+      "\\(-126\\) feet"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Rising is positive: \\(-240 + (18 \\times 7) = -240 + 126 = -114\\)\n\n**Key concept:** Rising from a negative depth adds toward zero.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q39",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A city's budget is \\($4.8 \\times 10^{8}\\). It is divided equally among \\(1.2 \\times 10^{5}\\) residents. How much per resident?",
+    "options": [
+      "\\($4{,}000\\)",
+      "\\($400\\)",
+      "\\($40{,}000\\)",
+      "\\($5.76 \\times 10^{13}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(\\frac{4.8 \\times 10^{8}}{1.2 \\times 10^{5}} = 4 \\times 10^{3} = 4000\\)\n\n**Key concept:** Divide coefficients, subtract exponents.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q40",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement is **always** true?",
+    "options": [
+      "Every square root is irrational.",
+      "Every integer is a rational number.",
+      "Every rational number is an integer.",
+      "Every repeating decimal is irrational."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAny integer \\(n\\) can be written \\(\\frac{n}{1}\\), so it is rational.\n\\(\\sqrt{9}=3\\) is rational, so not every square root is irrational; \\(\\frac{1}{2}\\) is rational but not an integer; a repeating decimal is rational.\n\n**Key concept:** The integers are a subset of the rationals.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q41",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which expression equals \\(\\dfrac{1}{81}\\)?",
+    "options": [
+      "\\(3^{-4}\\)",
+      "\\(3^{4}\\)",
+      "\\((-3)^{4}\\)",
+      "\\(-3^{4}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(3^{-4} = \\frac{1}{3^{4}} = \\frac{1}{81}\\)\n- \\(3^4 = 81\\), \\((-3)^4 = 81\\), and \\(-3^4 = -81\\).\n\n**Key concept:** A negative exponent inverts; it does not make the value negative.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q42",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Evaluate: \\(\\dfrac{-24 + 6 \\times 3}{-2}\\)",
+    "options": [
+      "\\(3\\)",
+      "\\(-3\\)",
+      "\\(21\\)",
+      "\\(9\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Numerator first: \\(-24 + 18 = -6\\)\n- \\(\\frac{-6}{-2} = 3\\)\n\n**Key concept:** Multiplication before addition; a negative divided by a negative is positive.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q43",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Order from least to greatest: \\(2.3 \\times 10^{-3}\\), \\(9.1 \\times 10^{-4}\\), \\(1.5 \\times 10^{-2}\\)",
+    "options": [
+      "\\(9.1 \\times 10^{-4}\\), \\(2.3 \\times 10^{-3}\\), \\(1.5 \\times 10^{-2}\\)",
+      "\\(1.5 \\times 10^{-2}\\), \\(2.3 \\times 10^{-3}\\), \\(9.1 \\times 10^{-4}\\)",
+      "\\(2.3 \\times 10^{-3}\\), \\(9.1 \\times 10^{-4}\\), \\(1.5 \\times 10^{-2}\\)",
+      "\\(9.1 \\times 10^{-4}\\), \\(1.5 \\times 10^{-2}\\), \\(2.3 \\times 10^{-3}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAs decimals: \\(0.00091\\), \\(0.0023\\), \\(0.015\\).\nWith negative exponents, the MORE negative the exponent the smaller the number.\n\n**Key concept:** Compare exponents first, coefficients only as a tie-break.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q44",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Approximate \\(\\sqrt{40}\\) to the nearest tenth.",
+    "options": [
+      "\\(6.3\\)",
+      "\\(6.5\\)",
+      "\\(20.0\\)",
+      "\\(6.0\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(6^2 = 36\\), \\(7^2 = 49\\), so \\(\\sqrt{40}\\) is between 6 and 7\n- \\(6.3^2 = 39.69\\) and \\(6.4^2 = 40.96\\), so \\(\\sqrt{40} \\approx 6.32\\)\n\n**Key concept:** Approximating a square root by squaring candidate values.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q45",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is equivalent to \\(\\left(4^{3}\\right)^{-1} \\cdot 4^{5}\\)?",
+    "options": [
+      "\\(4^{2}\\)",
+      "\\(4^{-2}\\)",
+      "\\(4^{8}\\)",
+      "\\(4^{15}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(\\left(4^{3}\\right)^{-1} = 4^{-3}\\)\n- \\(4^{-3} \\cdot 4^{5} = 4^{2} = 16\\)\n\n**Key concept:** Multiply powers of the same base by adding exponents.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_14-59_q46",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bank account starts at \\($120\\). Six withdrawals of \\($34.50\\) each are made, and one deposit of \\($95\\). What is the final balance?",
+    "options": [
+      "\\($8.00\\)",
+      "\\(-$8.00\\)",
+      "\\($122.00\\)",
+      "\\(-$52.00\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Withdrawals: \\(6 \\times 34.50 = 207\\)\n- \\(120 - 207 + 95 = 8\\)\n\n**Key concept:** Order matters only for reading the problem; the net is the signed sum.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
