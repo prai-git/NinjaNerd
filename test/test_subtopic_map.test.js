@@ -189,6 +189,16 @@ test('no subtopic is empty at any grade', () => {
    Subtopics with 3 and 4 questions were reported as broken from ninjanerd.ai itself, which is
    the right call -- the 20 gate was a launch compromise chosen before the site was live.
 
+   50 is a FLOOR, not a target ("we can always have more than 50 questions"). Nothing here
+   caps a bucket, and richer buckets are strictly better now that a correctly-answered question
+   is retired until the whole subtopic has been worked through.
+
+   GRADE 6 IS A MIX (owner, 2026-09-01): on-level 6.x content alongside the accelerated
+   7.x/8.x maths and Honors ELAR items already in the corpus. The earlier decision to keep the
+   accelerated material stands; this adds on-level beside it rather than replacing it, so a
+   general grade-6 student meets work at their level and a student on the accelerated track
+   still finds the stretch.
+
    Why a minimum exists at all, beyond "more is better": practice now retires a question once
    the child answers it correctly, and serves the subtopic again only when the whole list has
    been worked through (see test_data.test.js). With a 10-question bucket a child exhausts a

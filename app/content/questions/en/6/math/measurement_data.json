@@ -58,5 +58,465 @@
     "explanation": "**Explanation:**\nRange = highest − lowest = \\(27 - 18 = 9\\) °C.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class records these quiz scores: 8, 6, 9, 7, 6, 10, 6. What is the **mode**?",
+    "options": [
+      "6",
+      "7",
+      "7.4",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe mode is the value that appears most often. In 8, 6, 9, 7, 6, 10, 6 the value 6 appears three times; every other value appears once.\n\n**Key concept:** Mode = most frequent value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Using the same scores — 8, 6, 9, 7, 6, 10, 6 — what is the **median**?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nOrder the data: 6, 6, 6, 7, 8, 9, 10. With seven values the middle one is the fourth, which is 7.\n\n**Key concept:** The median requires ordering the data first.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The mean of five numbers is 14. Four of them are 11, 15, 12 and 18. What is the fifth?",
+    "options": [
+      "14",
+      "70",
+      "56",
+      "13"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Total needed: \\(14 \\times 5 = 70\\)\n- Sum of the four known: \\(11 + 15 + 12 + 18 = 56\\)\n- Missing value: \\(70 - 56 = 14\\)\n\n**Key concept:** Mean × count gives the total, which lets you work backwards to a missing value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **statistical question**?",
+    "options": [
+      "How tall is the school flagpole?",
+      "How many minutes did I sleep last night?",
+      "How many minutes do students in my class sleep each night?",
+      "What is the date today?"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nA statistical question anticipates variability — different students give different answers. The others have a single fixed answer.\n\n**Key concept:** Statistical questions expect a spread of answers, not one value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A dot plot shows 3 dots above 4, 5 dots above 5, and 2 dots above 6. How many data values are there?",
+    "options": [
+      "3",
+      "10",
+      "15",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nEach dot represents one data value: \\(3 + 5 + 2 = 10\\).\n\n**Key concept:** On a dot plot the total number of dots is the number of data values.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "For the data 12, 15, 15, 18, 22, 30, what is the **range**?",
+    "options": [
+      "15",
+      "18",
+      "12",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nRange = maximum − minimum = \\(30 - 12 = 18\\).\n\n**Key concept:** Range measures total spread, not centre.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q7",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box plot shows a median of 24, a lower quartile of 18 and an upper quartile of 31. What is the **interquartile range**?",
+    "options": [
+      "13",
+      "6",
+      "7",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIQR = upper quartile − lower quartile = \\(31 - 18 = 13\\). The median is not used in this calculation.\n\n**Key concept:** IQR describes the spread of the middle half of the data.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q8",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Adding a value much larger than the rest of a data set affects which measure **most**?",
+    "options": [
+      "The mode",
+      "The median",
+      "The mean",
+      "The minimum"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe mean uses every value in its sum, so one extreme value shifts it noticeably. The median depends only on position, and the mode on frequency.\n\n**Key concept:** The mean is sensitive to outliers; the median is resistant.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q9",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A histogram groups ages into intervals 0–9, 10–19, 20–29. Why are intervals used instead of individual values?",
+    "options": [
+      "To hide the exact data",
+      "To display a large range of numerical data in a readable way",
+      "Because histograms cannot show numbers",
+      "To make every bar the same height"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIntervals group continuous numerical data so the overall shape of the distribution is visible instead of dozens of single-value bars.\n\n**Key concept:** Histograms summarise continuous data into intervals.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q10",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Seven students' heights in cm: 142, 138, 151, 149, 138, 155, 147. What is the **median**?",
+    "options": [
+      "147",
+      "149",
+      "138",
+      "151"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOrdered: 138, 138, 142, 147, 149, 151, 155. With seven values the median is the fourth: 147.\n\n**Key concept:** Order first, then find the middle position.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q11",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A survey asks only members of the swim team how much they enjoy swimming. Why is this sample **biased**?",
+    "options": [
+      "The sample is too old.",
+      "The sample is not representative of all students.",
+      "The question is too short.",
+      "Swimmers cannot answer surveys."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSwim-team members are more likely than average to enjoy swimming, so the sample is chosen in a way that guarantees a particular answer.\n\n**Key concept:** A biased sample systematically over-represents one group.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q12",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The mean daily temperature for a week was 21 °C. What was the **total** of the seven readings?",
+    "options": [
+      "3 °C",
+      "147 °C",
+      "21 °C",
+      "28 °C"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTotal = mean × number of values = \\(21 \\times 7 = 147\\).\n\n**Key concept:** The mean is the total shared equally, so total = mean × count.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q13",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which display best shows how a single set of numerical data is spread across quartiles?",
+    "options": [
+      "Pie chart",
+      "Box plot",
+      "Bar graph of categories",
+      "Pictograph"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA box plot displays the minimum, lower quartile, median, upper quartile and maximum, which is exactly a quartile-based summary of spread.\n\n**Key concept:** Box plots show the five-number summary.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q14",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "For the data 4, 4, 5, 9, 13, which statement is true?",
+    "options": [
+      "The mean is greater than the median.",
+      "The mean equals the median.",
+      "The median is greater than the mean.",
+      "The mode is greater than the mean."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Mean: \\((4+4+5+9+13) \\div 5 = 35 \\div 5 = 7\\)\n- Median: the middle value of 4, 4, 5, 9, 13 is 5\n\nSince \\(7 > 5\\), the mean is larger — the value 13 pulls it up.\n\n**Key concept:** A high value pulls the mean above the median.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q15",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A data set has a median of 50 and a mean of 62. What does this suggest?",
+    "options": [
+      "The data is symmetric.",
+      "There are values well above 50 pulling the mean upward.",
+      "All values equal 50.",
+      "The range is zero."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nWhen the mean exceeds the median, the distribution has a tail on the high side. If the data were symmetric the two would be close together.\n\n**Key concept:** Comparing mean and median reveals skew.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q16",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Removing the largest value from a data set will always —",
+    "options": [
+      "increase the mean",
+      "decrease or keep the mean the same",
+      "leave the median unchanged",
+      "increase the range"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nRemoving the largest value removes a value at or above the mean, so the mean cannot rise. It stays the same only when every value is identical.\n\n**Key concept:** Removing a high value cannot increase the mean.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q17",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A stem-and-leaf plot has stem 3 with leaves 2, 5, 5, 8. What are the data values?",
+    "options": [
+      "3, 2, 5, 5, 8",
+      "32, 35, 35, 38",
+      "320, 350, 350, 380",
+      "3.2, 3.5, 3.5, 3.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe stem gives the tens digit and each leaf gives a units digit, so stem 3 with leaves 2, 5, 5, 8 represents 32, 35, 35 and 38.\n\n**Key concept:** Stem and leaf combine to form each data value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which measure of centre is **most** appropriate for the data 10, 11, 12, 12, 13, 200?",
+    "options": [
+      "Mean, because it uses every value",
+      "Median, because one extreme value distorts the mean",
+      "Range, because it shows the spread",
+      "Mode, because it is easiest"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe value 200 is far from the rest. The mean would be about 43, higher than every value except the outlier, which describes no typical case. The median of 12 does.\n\n**Key concept:** Use the median when an outlier would distort the mean.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The mean of 8 numbers is 12. If one number is removed and the mean of the remaining 7 is 13, what number was removed?",
+    "options": [
+      "5",
+      "12",
+      "1",
+      "13"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Original total: \\(12 \\times 8 = 96\\)\n- Remaining total: \\(13 \\times 7 = 91\\)\n- Removed value: \\(96 - 91 = 5\\)\n\nRemoving a value below the mean raises the mean of the rest, which is consistent.\n\n**Key concept:** Work with totals, not means, when values are added or removed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a dot plot, a **gap** in the data means —",
+    "options": [
+      "an interval where no values occur",
+      "the mean of the data",
+      "a mistake in recording",
+      "the total number of values"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA gap is a stretch of the number line with no dots, showing that no data value fell in that range.\n\n**Key concept:** Gaps and clusters describe the shape of a distribution.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q21",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "To estimate the average number of books read by students in a school, which sample is **best**?",
+    "options": [
+      "Students leaving the library",
+      "Students randomly selected from every grade",
+      "Members of the book club",
+      "Students in one advanced English class"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nRandom selection across all grades gives every student a chance of being chosen, so the sample reflects the school. Library users and book-club members read more than average.\n\n**Key concept:** Random sampling from the whole population avoids bias.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q22",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Data set A: 5, 5, 5, 5. Data set B: 2, 4, 6, 8. Both have a mean of 5. What differs?",
+    "options": [
+      "The spread — set B is more variable.",
+      "The mean — set B is larger.",
+      "Nothing differs.",
+      "The number of values."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBoth means are 5, but set A has a range of 0 and set B a range of 6. Centre alone does not describe a data set.\n\n**Key concept:** Two data sets can share a mean and differ entirely in spread.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_15-13_q23",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bar graph compares favourite sports by category. Why would a histogram be inappropriate here?",
+    "options": [
+      "Histograms display continuous numerical intervals, not separate categories.",
+      "Histograms cannot have more than three bars.",
+      "Bar graphs are always more accurate.",
+      "Histograms require a pie chart alongside."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFavourite sports are categories with no numerical order, so there are no intervals to form. Bar graphs are the correct display, with gaps between the bars.\n\n**Key concept:** Histograms are for numerical intervals; bar graphs are for categories.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

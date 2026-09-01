@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:11:06.950Z",
+  "generatedAt": "2026-09-01T20:16:22.972Z",
   "grades": {
     "1": {
       "english": [
@@ -553,7 +553,7 @@
         {
           "subtopic": "measurement_data",
           "slug": "measurement_data",
-          "count": 3
+          "count": 26
         },
         {
           "subtopic": "number_sense_basic_operations",
@@ -563,7 +563,7 @@
         {
           "subtopic": "problem_solving_applications",
           "slug": "problem_solving_applications",
-          "count": 3
+          "count": 26
         },
         {
           "subtopic": "proportional_reasoning_percentages",
