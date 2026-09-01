@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
-  parseFilename, parseGrade, parseQuestions, parseAnswers, slug,
+  parseFilename, parseGrade, parseQuestions, parseAnswers, slug, cleanExplanation,
 } from './lib/parse.mjs';
 import { buildItem, splitMultiPart } from './lib/mcq.mjs';
 import { mapSubtopic } from './lib/subtopic-map.mjs';
@@ -56,7 +56,11 @@ export async function buildFile({ filename, questionsMd, answersMd, llm }) {
         question: part.text,
         options: built.options,
         correctIndex: built.correctIndex,
-        explanation: answer ? answer.explanation || '' : '',
+        /* Cleaned at BUILD time, not in the browser: the authoring format leaks the answer
+           key, standards codes and option letters into text a child reads after answering
+           wrongly, and the letters are meaningless once practice shuffles the options.
+           See cleanExplanation in lib/parse.mjs for what goes and why. */
+        explanation: answer ? cleanExplanation(answer.explanation || '') : '',
         source: built.source,
         needsReview: built.needsReview,
       };

@@ -15,7 +15,7 @@
       "a trapezoid"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6A [R]\n\n**Worked solution:** A square has 4 equal sides and 4 right angles.\n\n**Why other answers are wrong:** A may have unequal adjacent side lengths; C has 3 sides; D does not require four equal sides or four right angles.\n\n**Key concept:** Classifying plane figures",
+    "explanation": "**Worked solution:** A square has 4 equal sides and 4 right angles.\n\n**Key concept:** Classifying plane figures",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "sphere"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6A [R]\n\n**Worked solution:** A cylinder has two flat circular bases and one curved side surface.\n\n**Why other answers are wrong:** A cone has one circular base and a point; C has rectangular faces; D has no flat bases.\n\n**Key concept:** Classifying solid figures",
+    "explanation": "**Worked solution:** A cylinder has two flat circular bases and one curved side surface.\n\n**Key concept:** Classifying solid figures",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "It has one pair of parallel sides."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6B\n\n**Worked solution:** A rhombus is a quadrilateral with four sides of equal length.\n\n**Why other answers are wrong:** A describes a triangle; C is true for squares/rectangles but not all rhombuses; D does not describe every rhombus.\n\n**Key concept:** Attributes of a rhombus",
+    "explanation": "**Worked solution:** A rhombus is a quadrilateral with four sides of equal length.\n\n**Key concept:** Attributes of a rhombus",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(8\\div5\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6C [R]\n\n**Worked solution:** A rectangle’s covering is found by rows times columns: \\(8\times5=40\\) squares.\n\n**Why other answers are wrong:** A is a sum, C is a difference, and D is a quotient; none find the number of unit squares covering the rectangle.\n\n**Key concept:** Area formula",
+    "explanation": "**Worked solution:** A rectangle’s covering is found by rows times columns: \\(8\times5=40\\) squares.\n\n**Key concept:** Area formula",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "\\(84\\) meters"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.6D\n\n**Worked solution:** Perimeter is all sides: \\(12+7+12+7=38\\) meters, or \\(2\times(12+7)\\).\n\n**Why other answers are wrong:** A adds only one length and one width; B doubles only 12; D is the area.\n\n**Key concept:** Perimeter of a rectangle",
+    "explanation": "**Worked solution:** Perimeter is all sides: \\(12+7+12+7=38\\) meters, or \\(2\times(12+7)\\).\n\n**Key concept:** Perimeter of a rectangle",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "\\(6\times7+3=45\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6E\n\n**Worked solution:** The two smaller rectangles have areas \\(6\times3=18\\) and \\(6\times4=24\\). \\(18+24=42\\), equal to \\(6\times7\\).\n\n**Why other answers are wrong:** A adds lengths only; C finds only part of the area; D incorrectly adds an extra 3 to the full area.\n\n**Key concept:** Decomposing area",
+    "explanation": "**Worked solution:** The two smaller rectangles have areas \\(6\times3=18\\) and \\(6\times4=24\\). \\(18+24=42\\), equal to \\(6\times7\\).\n\n**Key concept:** Decomposing area",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "\\(32\\) liters"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.7\n\n**Worked solution:** Add the full containers: \\(3+2=5\\) liters.\n\n**Why other answers are wrong:** A subtracts; C multiplies; D treats the digits as a two-digit number.\n\n**Key concept:** Liquid volume",
+    "explanation": "**Worked solution:** Add the full containers: \\(3+2=5\\) liters.\n\n**Key concept:** Liquid volume",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "\\(75^\\circ\\!F\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.7\n\n**Worked solution:** The temperature rises, so add: \\(48+17=65\\).\n\n**Why other answers are wrong:** A subtracts; B adds only 7; D adds too much.\n\n**Key concept:** Temperature change",
+    "explanation": "**Worked solution:** The temperature rises, so add: \\(48+17=65\\).\n\n**Key concept:** Temperature change",
     "source": "authored",
     "needsReview": false
   }

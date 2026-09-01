@@ -15,7 +15,7 @@
       "Daylight hours are unrelated to seasons."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.9A, 4.2B  \n**Explanation:** The data show daylight increasing from March to June. Early July is likely to remain near the summer maximum, after which daylight begins to decrease.  \n**Why the other answers are wrong:** B and C contradict the data; D denies the seasonal pattern.  \n**Key concept:** Seasonal data can be used to identify and predict patterns.",
+    "explanation": "**Explanation:** The data show daylight increasing from March to June. Early July is likely to remain near the summer maximum, after which daylight begins to decrease.\n**Key concept:** Seasonal data can be used to identify and predict patterns.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "A full Moon that is becoming larger each night"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.9B  \n**Explanation:** After the full Moon, the visible lighted part begins decreasing, producing a waning gibbous Moon.  \n**Why the other answers are wrong:** B occurs later, C is before the full Moon, and D incorrectly says a full Moon grows larger.  \n**Key concept:** The Moon's observable appearance follows a repeating sequence.",
+    "explanation": "**Explanation:** After the full Moon, the visible lighted part begins decreasing, producing a waning gibbous Moon.\n**Key concept:** The Moon's observable appearance follows a repeating sequence.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Clouds absorb rocks → rocks melt → vapor freezes in the lake → sunlight falls"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.10A  \n**Explanation:** Solar energy causes evaporation; vapor cools and condenses into clouds; precipitation returns water to Earth's surface.  \n**Why the other answers are wrong:** B, C, and D include impossible changes and incorrect water-cycle order.  \n**Key concept:** The Sun is a major energy source for the water cycle.",
+    "explanation": "**Explanation:** Solar energy causes evaporation; vapor cools and condenses into clouds; precipitation returns water to Earth's surface.\n**Why the other answers are wrong:** B, C, and D include impossible changes and incorrect water-cycle order.\n**Key concept:** The Sun is a major energy source for the water cycle.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Condensation, erosion, weathering"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.10B  \n**Explanation:** Freezing water breaks rock apart (weathering), the stream transports pieces (erosion), and settling occurs when water slows (deposition).  \n**Why the other answers are wrong:** B, C, and D put the processes in the wrong order or include unrelated changes.  \n**Key concept:** Water and ice can weather, erode, and deposit Earth materials.",
+    "explanation": "**Explanation:** Freezing water breaks rock apart (weathering), the stream transports pieces (erosion), and settling occurs when water slows (deposition).\n**Why the other answers are wrong:** B, C, and D put the processes in the wrong order or include unrelated changes.\n**Key concept:** Water and ice can weather, erode, and deposit Earth materials.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Use a hand lens to count grains of sand in a flowerpot."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.1D, 4.2B, 4.10C  \n**Explanation:** Temperature, rainfall, and wind observations collected consistently are relevant short-term weather evidence that can reveal a pattern.  \n**Why the other answers are wrong:** B is an opinion; C and D collect unrelated data.  \n**Key concept:** Weather data and appropriate tools support predictions.",
+    "explanation": "**Explanation:** Temperature, rainfall, and wind observations collected consistently are relevant short-term weather evidence that can reveal a pattern.\n**Key concept:** Weather data and appropriate tools support predictions.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Natural gas; it is unlimited because it is stored underground."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.11A  \n**Explanation:** Sunlight is naturally replenished, unlike fossil fuels that take extremely long times to form and require extraction.  \n**Why the other answers are wrong:** B, C, and D are nonrenewable fuels and are not quickly replaced.  \n**Key concept:** Renewable and nonrenewable resources have different availability and impacts.",
+    "explanation": "**Explanation:** Sunlight is naturally replenished, unlike fossil fuels that take extremely long times to form and require extraction.\n**Why the other answers are wrong:** B, C, and D are nonrenewable fuels and are not quickly replaced.\n**Key concept:** Renewable and nonrenewable resources have different availability and impacts.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Recycling requires the city to mine more ore for each can."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.11B  \n**Explanation:** Recycling cans reuses aluminum already obtained from ore, reducing the need to extract new ore from Earth.  \n**Why the other answers are wrong:** B confuses recycling with renewability, C is false, and D is the opposite of the conservation benefit.  \n**Key concept:** Recycling can conserve natural resources and reduce environmental impact.",
+    "explanation": "**Explanation:** Recycling cans reuses aluminum already obtained from ore, reducing the need to extract new ore from Earth.\n**Key concept:** Recycling can conserve natural resources and reduce environmental impact.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "The rock cannot be changed by pressure."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.11C  \n**Explanation:** Pores are small connected openings in rock that can hold water, oil, or natural gas.  \n**Why the other answers are wrong:** B is impossible, C is unnecessary, and D is not the relevant storage property.  \n**Key concept:** Rock physical properties affect how natural resources are stored.",
+    "explanation": "**Explanation:** Pores are small connected openings in rock that can hold water, oil, or natural gas.\n**Key concept:** Rock physical properties affect how natural resources are stored.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "Rock pieces cannot become part of soil."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Earth & Space Science / 4.10B, 4.5E  \n**Explanation:** Weathering creates rock pieces, decayed material contributes to soil, and moving rainwater can erode loose soil downslope.  \n**Why the other answers are wrong:** B and C name impossible changes; D denies a key source of soil material.  \n**Key concept:** Soil and land surfaces change through connected Earth processes.",
+    "explanation": "**Explanation:** Weathering creates rock pieces, decayed material contributes to soil, and moving rainwater can erode loose soil downslope.\n**Key concept:** Soil and land surfaces change through connected Earth processes.",
     "source": "authored",
     "needsReview": false
   }

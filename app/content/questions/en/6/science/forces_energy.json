@@ -15,7 +15,7 @@
       "0 N"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 50 N in the direction of the push\n\n**Explanation:**\nForces in the same direction add: 40 + 25 = 65 N. Friction opposes, so subtract:\n65 − 15 = **50 N** in the direction of the push.\n\n**Why the other answers are wrong:**\n- **B** adds the two pushes and ignores friction.\n- **C** has the direction reversed.\n- **D** would mean balanced forces, but the pushes exceed friction.",
+    "explanation": "**Explanation:**\nForces in the same direction add: 40 + 25 = 65 N. Friction opposes, so subtract:\n65 − 15 = **50 N** in the direction of the push.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "The table's push is stronger than gravity."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Gravity pulls down and the table pushes up with an equal force.\n\n**Explanation:**\n\"Not moving\" means the forces are **balanced**, not absent. The table exerts an upward normal\nforce equal to the book's weight.\n\n**Why the other answers are wrong:**\n- **B** is the central misconception — forces still act, they cancel.\n- **C** and **D** would produce motion, since unbalanced forces cause acceleration.",
+    "explanation": "**Explanation:**\n\"Not moving\" means the forces are **balanced**, not absent. The table exerts an upward normal\nforce equal to the book's weight.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "friction disappearing underwater"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) the water pushing forward on the swimmer with equal force\n\n**Explanation:**\nForces come in pairs: the swimmer pushes the water backward, and the water pushes the swimmer\nforward with equal strength in the opposite direction.\n\n**Why the other answers are wrong:**\n- **B** relative weight does not explain the forward motion.\n- **C** gravity acts downward, not forward.\n- **D** friction does not disappear in water.",
+    "explanation": "**Explanation:**\nForces come in pairs: the swimmer pushes the water backward, and the water pushes the swimmer\nforward with equal strength in the opposite direction.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "transformed from kinetic energy into potential energy"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) transformed from potential energy into kinetic energy\n\n**Explanation:**\nHeight stores gravitational potential energy. As the car descends, that store converts into\nenergy of motion.\n\n**Why the other answers are wrong:**\n- **B** and **C** energy is neither created nor destroyed.\n- **D** reverses the direction of the transformation.",
+    "explanation": "**Explanation:**\nHeight stores gravitational potential energy. As the car descends, that store converts into\nenergy of motion.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "It was never there to begin with."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) It has transferred to heat and sound during each bounce.\n\n**Explanation:**\nEnergy is conserved, but not all of it stays as useful mechanical energy. Some becomes thermal\nenergy and sound at each impact, so less remains to lift the ball.\n\n**Why the other answers are wrong:**\n- **B** energy cannot be destroyed.\n- **C** energy does not become mass here.\n- **D** the ball clearly had energy — it was bouncing.",
+    "explanation": "**Explanation:**\nEnergy is conserved, but not all of it stays as useful mechanical energy. Some becomes thermal\nenergy and sound at each impact, so less remains to lift the ball.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "A microphone is smaller than a speaker."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) A loud speaker makes a nearby window rattle.\n\n**Explanation:**\nThe window moves, so work was done on it. Waves transfer energy without transferring matter.\n\n**Why the other answers are wrong:**\n- **B** describes appearance, not energy.\n- **C** is about wave speed, not energy transfer.\n- **D** is about size and irrelevant.",
+    "explanation": "**Explanation:**\nThe window moves, so work was done on it. Waves transfer energy without transferring matter.",
     "source": "authored",
     "needsReview": false
   }

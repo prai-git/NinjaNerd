@@ -15,7 +15,7 @@
       "\\(15\\times4-18=n\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(4\\times18-15=n\\)  \n**TEKS:** 4.5A [R]  \n**Step-by-step solution:** Four groups of 18 are multiplied, then 15 are removed.  \n**Why other answers are wrong:** B (“\\(4+18-15=n\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(18\\div4+15=n\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(15\\times4-18=n\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** equations for situations.",
+    "explanation": "**Step-by-step solution:** Four groups of 18 are multiplied, then 15 are removed.\n**Why other answers are wrong:** (“\\(4+18-15=n\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(18\\div4+15=n\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(15\\times4-18=n\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** equations for situations.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "add 18"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. multiply by 3  \n**TEKS:** 4.5C  \n**Step-by-step solution:** Every term is three times the preceding term.  \n**Why other answers are wrong:** B (“add 6”) uses a different operation, place, or interpretation than the evidence requires; C (“multiply by 2 then add 3”) uses a different operation, place, or interpretation than the evidence requires; D (“add 18”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** multiplicative patterns.",
+    "explanation": "**Step-by-step solution:** Every term is three times the preceding term.\n**Why other answers are wrong:** (“add 6”) uses a different operation, place, or interpretation than the evidence requires; (“multiply by 2 then add 3”) uses a different operation, place, or interpretation than the evidence requires; (“add 18”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** multiplicative patterns.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(y=3x\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(y=3x+4\\)  \n**TEKS:** 4.5C  \n**Step-by-step solution:** The outputs rise by 3; \\(3(1)+4=7\\) and the rule fits all pairs.  \n**Why other answers are wrong:** B (“\\(y=x+6\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(y=4x+3\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(y=3x\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** table patterns.",
+    "explanation": "**Step-by-step solution:** The outputs rise by 3; \\(3(1)+4=7\\) and the rule fits all pairs.\n**Why other answers are wrong:** (“\\(y=x+6\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(y=4x+3\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(y=3x\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** table patterns.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "degrees"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. cubic centimeters  \n**TEKS:** 4.5D  \n**Step-by-step solution:** Volume measures three-dimensional space, so it uses cubic units.  \n**Why other answers are wrong:** B (“centimeters”) uses a different operation, place, or interpretation than the evidence requires; C (“square centimeters”) uses a different operation, place, or interpretation than the evidence requires; D (“degrees”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** volume units.",
+    "explanation": "**Step-by-step solution:** Volume measures three-dimensional space, so it uses cubic units.\n**Why other answers are wrong:** (“centimeters”) uses a different operation, place, or interpretation than the evidence requires; (“square centimeters”) uses a different operation, place, or interpretation than the evidence requires; (“degrees”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** volume units.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "It has three sides."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. It has two pairs of parallel sides and adjacent perpendicular sides.  \n**TEKS:** 4.6A [R]  \n**Step-by-step solution:** Opposite sides are parallel and adjacent sides meet at right angles.  \n**Why other answers are wrong:** B (“It has exactly one pair of parallel sides.”) uses a different operation, place, or interpretation than the evidence requires; C (“It has no right angles.”) uses a different operation, place, or interpretation than the evidence requires; D (“It has three sides.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** classify figures.",
+    "explanation": "**Step-by-step solution:** Opposite sides are parallel and adjacent sides meet at right angles.\n**Why other answers are wrong:** (“It has exactly one pair of parallel sides.”) uses a different operation, place, or interpretation than the evidence requires; (“It has no right angles.”) uses a different operation, place, or interpretation than the evidence requires; (“It has three sides.”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** classify figures.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "three connected segments"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. one endpoint and continues forever one way  \n**TEKS:** 4.6B  \n**Step-by-step solution:** A ray starts at one endpoint and extends in one direction.  \n**Why other answers are wrong:** B (“two endpoints”) uses a different operation, place, or interpretation than the evidence requires; C (“continues forever both ways”) uses a different operation, place, or interpretation than the evidence requires; D (“three connected segments”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** lines and rays.",
+    "explanation": "**Step-by-step solution:** A ray starts at one endpoint and extends in one direction.\n**Why other answers are wrong:** (“two endpoints”) uses a different operation, place, or interpretation than the evidence requires; (“continues forever both ways”) uses a different operation, place, or interpretation than the evidence requires; (“three connected segments”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** lines and rays.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "0"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 6  \n**TEKS:** 4.6D [R]  \n**Step-by-step solution:** It has three lines through opposite vertices and three through opposite sides.  \n**Why other answers are wrong:** B (“3”) uses a different operation, place, or interpretation than the evidence requires; C (“4”) uses a different operation, place, or interpretation than the evidence requires; D (“0”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** symmetry.",
+    "explanation": "**Step-by-step solution:** It has three lines through opposite vertices and three through opposite sides.\n**Why other answers are wrong:** (“3”) uses a different operation, place, or interpretation than the evidence requires; (“4”) uses a different operation, place, or interpretation than the evidence requires; (“0”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** symmetry.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "\\(315^\\circ\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(135^\\circ\\)  \n**TEKS:** 4.7A  \n**Step-by-step solution:** Read from the zero ray to the other ray: 135 degrees.  \n**Why other answers are wrong:** B (“\\(45^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(225^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(315^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** protractor measurement.",
+    "explanation": "**Step-by-step solution:** Read from the zero ray to the other ray: 135 degrees.\n**Why other answers are wrong:** (“\\(45^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(225^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(315^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** protractor measurement.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "\\(\\frac34\\) and \\(270^\\circ\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(\\frac14\\) and \\(90^\\circ\\)  \n**TEKS:** 4.7B  \n**Step-by-step solution:** \\(360\\div4=90\\), so one quarter is 90 degrees.  \n**Why other answers are wrong:** B (“\\(\\frac12\\) and \\(90^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac14\\) and \\(45^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac34\\) and \\(270^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** fractional turns.",
+    "explanation": "**Step-by-step solution:** \\(360\\div4=90\\), so one quarter is 90 degrees.\n**Why other answers are wrong:** (“\\(\\frac12\\) and \\(90^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac14\\) and \\(45^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac34\\) and \\(270^\\circ\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** fractional turns.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "16"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 17  \n**TEKS:** 4.8C [R]  \n**Step-by-step solution:** Five yards is 15 feet; \\(15+2=17\\).  \n**Why other answers are wrong:** B (“7”) uses a different operation, place, or interpretation than the evidence requires; C (“15”) uses a different operation, place, or interpretation than the evidence requires; D (“16”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** customary conversion.",
+    "explanation": "**Step-by-step solution:** Five yards is 15 feet; \\(15+2=17\\).\n**Why other answers are wrong:** (“7”) uses a different operation, place, or interpretation than the evidence requires; (“15”) uses a different operation, place, or interpretation than the evidence requires; (“16”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** customary conversion.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "345"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 3,450  \n**TEKS:** 4.8C  \n**Step-by-step solution:** \\(3\\text{ kg}=3,000\\text{ g}\\); add 450 g.  \n**Why other answers are wrong:** B (“3,045”) uses a different operation, place, or interpretation than the evidence requires; C (“3,500”) uses a different operation, place, or interpretation than the evidence requires; D (“345”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** metric conversion.",
+    "explanation": "**Step-by-step solution:** \\(3\\text{ kg}=3,000\\text{ g}\\); add 450 g.\n**Why other answers are wrong:** (“3,045”) uses a different operation, place, or interpretation than the evidence requires; (“3,500”) uses a different operation, place, or interpretation than the evidence requires; (“345”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** metric conversion.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "3 h 45 min"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 2 h 45 min  \n**TEKS:** 4.8A  \n**Step-by-step solution:** 8:35 to 10:35 is 2 hours; 10:35 to 11:20 is 45 minutes.  \n**Why other answers are wrong:** B (“2 h 55 min”) uses a different operation, place, or interpretation than the evidence requires; C (“3 h 15 min”) uses a different operation, place, or interpretation than the evidence requires; D (“3 h 45 min”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** elapsed time.",
+    "explanation": "**Step-by-step solution:** 8:35 to 10:35 is 2 hours; 10:35 to 11:20 is 45 minutes.\n**Why other answers are wrong:** (“2 h 55 min”) uses a different operation, place, or interpretation than the evidence requires; (“3 h 15 min”) uses a different operation, place, or interpretation than the evidence requires; (“3 h 45 min”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** elapsed time.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(1\\frac12\\)  \n**TEKS:** 4.8B  \n**Step-by-step solution:** Four quarts make a gallon, so \\(6\\div4=1\\frac12\\).  \n**Why other answers are wrong:** B (“1”) uses a different operation, place, or interpretation than the evidence requires; C (“2”) uses a different operation, place, or interpretation than the evidence requires; D (“6”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** capacity conversion.",
+    "explanation": "**Step-by-step solution:** Four quarts make a gallon, so \\(6\\div4=1\\frac12\\).\n**Why other answers are wrong:** (“1”) uses a different operation, place, or interpretation than the evidence requires; (“2”) uses a different operation, place, or interpretation than the evidence requires; (“6”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** capacity conversion.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "\\(10.77\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(9.77\\)  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Cost \\(=6.75+3.48=10.23\\); \\(20.00-10.23=9.77\\).  \n**Why other answers are wrong:** B (“\\(10.23\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(9.23\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(10.77\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** money.",
+    "explanation": "**Step-by-step solution:** Cost \\(=6.75+3.48=10.23\\); \\(20.00-10.23=9.77\\).\n**Why other answers are wrong:** (“\\(10.23\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(9.23\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(10.77\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** money.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "86"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 70  \n**TEKS:** 4.8C  \n**Step-by-step solution:** Four pounds is 64 ounces; \\(64+6=70\\).  \n**Why other answers are wrong:** B (“46”) uses a different operation, place, or interpretation than the evidence requires; C (“64”) uses a different operation, place, or interpretation than the evidence requires; D (“86”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** mass conversion.",
+    "explanation": "**Step-by-step solution:** Four pounds is 64 ounces; \\(64+6=70\\).\n**Why other answers are wrong:** (“46”) uses a different operation, place, or interpretation than the evidence requires; (“64”) uses a different operation, place, or interpretation than the evidence requires; (“86”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** mass conversion.",
     "source": "authored",
     "needsReview": false
   }

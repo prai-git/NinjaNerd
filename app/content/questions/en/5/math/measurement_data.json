@@ -15,7 +15,7 @@
       "57 inches"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Length Conversion (Customary)\n**TEKS:** 5.7\n\n**Step-by-Step Solution:**\n1. 1 foot = 12 inches\n2. 4 feet = 4 × 12 = 48 inches\n3. 4 feet 7 inches = 48 + 7 = 55 inches\n\n**Key Concept:** Converting feet to inches using the relationship 1 ft = 12 in.",
+    "explanation": "**Topic:** Length Conversion (Customary)\n\n**Step-by-Step Solution:**\n1. 1 foot = 12 inches\n2. 4 feet = 4 × 12 = 48 inches\n3. 4 feet 7 inches = 48 + 7 = 55 inches\n\n**Key Concept:** Converting feet to inches using the relationship 1 ft = 12 in.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "0.35 meters"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Length Conversion (Metric)\n**TEKS:** 5.7\n\n**Step-by-Step Solution:**\n1. 1 kilometer = 1,000 meters\n2. 3.5 kilometers = 3.5 × 1,000 = 3,500 meters\n\n**Key Concept:** In the metric system, \"kilo\" means 1,000.",
+    "explanation": "**Topic:** Length Conversion (Metric)\n\n**Step-by-Step Solution:**\n1. 1 kilometer = 1,000 meters\n2. 3.5 kilometers = 3.5 × 1,000 = 3,500 meters\n\n**Key Concept:** In the metric system, \"kilo\" means 1,000.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "48 cups"
     ],
     "correctIndex": 3,
-    "explanation": "**Topic:** Capacity Conversion (Customary)\n**TEKS:** 5.7\n\n**Step-by-Step Solution:**\n1. 1 gallon = 16 cups\n2. 3 gallons = 3 × 16 = 48 cups\n\n**Conversion chain:** 1 gallon = 4 quarts = 8 pints = 16 cups\n\n**Key Concept:** Memorizing customary capacity conversions.",
+    "explanation": "**Topic:** Capacity Conversion (Customary)\n\n**Step-by-Step Solution:**\n1. 1 gallon = 16 cups\n2. 3 gallons = 3 × 16 = 48 cups\n\n**Conversion chain:** 1 gallon = 4 quarts = 8 pints = 16 cups\n\n**Key Concept:** Memorizing customary capacity conversions.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "15,625 ounces"
     ],
     "correctIndex": 0,
-    "explanation": "**Topic:** Weight Conversion (Customary)\n**TEKS:** 5.7\n\n**Step-by-Step Solution:**\n1. 1 pound = 16 ounces\n2. 250 pounds = 250 × 16 = 4,000 ounces\n\n**Key Concept:** Converting between pounds and ounces using 1 lb = 16 oz.",
+    "explanation": "**Topic:** Weight Conversion (Customary)\n\n**Step-by-Step Solution:**\n1. 1 pound = 16 ounces\n2. 250 pounds = 250 × 16 = 4,000 ounces\n\n**Key Concept:** Converting between pounds and ounces using 1 lb = 16 oz.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "31"
     ],
     "correctIndex": 0,
-    "explanation": "**Topic:** Stem-and-Leaf Plots\n**TEKS:** 5.9\n\n**Step-by-Step Solution:**\n1. List all values: 23, 25, 27, 28, 31, 34, 34, 36, 39, 40, 42, 45\n2. Count total values: 12 values\n3. Find middle position: For 12 values, median is average of 6th and 7th values\n4. 6th value: 34\n5. 7th value: 34\n6. Median: (34 + 34) ÷ 2 = 34\n\n**Key Concept:** The median is the middle value. For even number of data points, average the two middle values.",
+    "explanation": "**Topic:** Stem-and-Leaf Plots\n\n**Step-by-Step Solution:**\n1. List all values: 23, 25, 27, 28, 31, 34, 34, 36, 39, 40, 42, 45\n2. Count total values: 12 values\n3. Find middle position: For 12 values, median is average of 6th and 7th values\n4. 6th value: 34\n5. 7th value: 34\n6. Median: (34 + 34) ÷ 2 = 34\n\n**Key Concept:** The median is the middle value. For even number of data points, average the two middle values.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "6 books"
     ],
     "correctIndex": 0,
-    "explanation": "**Topic:** Bar Graph Interpretation\n**TEKS:** 5.9\n\n**Step-by-Step Solution:**\n1. Sofia read: 22 books\n2. Jordan read: 12 books\n3. Tyler read: 8 books\n4. Jordan + Tyler: 12 + 8 = 20 books\n5. Difference: 22 - 20 = 2 books\n\n**Key Concept:** Reading data from bar graphs and performing calculations to compare values.",
+    "explanation": "**Topic:** Bar Graph Interpretation\n\n**Step-by-Step Solution:**\n1. Sofia read: 22 books\n2. Jordan read: 12 books\n3. Tyler read: 8 books\n4. Jordan + Tyler: 12 + 8 = 20 books\n5. Difference: 22 - 20 = 2 books\n\n**Key Concept:** Reading data from bar graphs and performing calculations to compare values.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "$22.00"
     ],
     "correctIndex": 0,
-    "explanation": "**Topic:** Multi-step Word Problem\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Cost of pencils: 15 × \\(3.50 = \\)52.50\n2. Cost of markers: 8 × \\(6.25 = \\)50.00\n3. Total cost: \\(52.50 + \\)50.00 = $102.50\n4. Budget: $125.00\n5. Leftover: \\(125.00 - \\)102.50 = $22.50\n\n**Verification:**\n- 15 × \\(3.50 = \\)52.50 ✓\n- 8 × \\(6.25 = \\)50.00 ✓\n- Total: \\(52.50 + \\)50.00 = $102.50\n- Leftover: \\(125.00 - \\)102.50 = $22.50 ✓\n\n**Answer: A ($22.50)**\n\n**Key Concept:** Multi-step problems requiring multiple operations (multiplication, addition, subtraction).",
+    "explanation": "**Topic:** Multi-step Word Problem\n\n**Step-by-Step Solution:**\n1. Cost of pencils: 15 × \\(3.50 = \\)52.50\n2. Cost of markers: 8 × \\(6.25 = \\)50.00\n3. Total cost: \\(52.50 + \\)50.00 = $102.50\n4. Budget: $125.00\n5. Leftover: \\(125.00 - \\)102.50 = $22.50\n\n**Verification:**\n- 15 × \\(3.50 = \\)52.50 ✓\n- 8 × \\(6.25 = \\)50.00 ✓\n- Total: \\(52.50 + \\)50.00 = $102.50\n- Leftover: \\(125.00 - \\)102.50 = $22.50 ✓\n\n**Answer: A ($22.50)**\n\n**Key Concept:** Multi-step problems requiring multiple operations (multiplication, addition, subtraction).",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "Bars and scale only"
     ],
     "correctIndex": 2,
-    "explanation": "**Answer: C) Title, x-axis label, y-axis label with scale, and bars**\n\n**Explanation:**\nA complete and properly labeled bar graph MUST include:\n- **Title:** Describes what the graph shows\n- **X-axis label:** Names the categories being compared\n- **Y-axis label with scale:** Shows what is being measured and the units\n- **Bars:** The visual representation of data\n\n**Why other answers are incorrect:**\n- A) Title only: Missing axis labels and bars\n- B) Title and bars: Missing axis labels\n- D) Bars and scale only: Missing title and labels\n\n**Key Concept:** Essential components of a properly constructed bar graph.",
+    "explanation": "**Answer: C) Title, x-axis label, y-axis label with scale, and bars**\n\n**Explanation:**\nA complete and properly labeled bar graph MUST include:\n- **Title:** Describes what the graph shows\n- **X-axis label:** Names the categories being compared\n- **Y-axis label with scale:** Shows what is being measured and the units\n- **Bars:** The visual representation of data\n\n**Key Concept:** Essential components of a properly constructed bar graph.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "\"Soccer, Basketball, Swimming, Baseball\""
     ],
     "correctIndex": 1,
-    "explanation": "**Answer: B) \"Students' Favorite Sports\"**\n\n**Explanation:**\nA good title should:\n- Clearly describe what the data represents\n- Be specific and informative\n- Tell the reader exactly what the graph shows\n\n**Why other answers are incorrect:**\n- A) \"Sports\": Too vague, doesn't explain what about sports\n- C) \"Number of Students\": This is what the y-axis should show, not the title\n- D) List of sports: This is category information, not a descriptive title\n\n**Key Concept:** Creating appropriate titles for data displays.",
+    "explanation": "**Answer: B) \"Students' Favorite Sports\"**\n\n**Explanation:**\nA good title should:\n- Clearly describe what the data represents\n- Be specific and informative\n- Tell the reader exactly what the graph shows\n\n**Key Concept:** Creating appropriate titles for data displays.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "\"Teachers\""
     ],
     "correctIndex": 1,
-    "explanation": "**Answer: B) \"Number of Books Read\"**\n\n**Explanation:**\n- The y-axis (vertical axis) shows the values being measured\n- In this case, we're measuring how many books each class read\n- The y-axis label should clearly state what the bars' heights represent\n\n**Why other answers are incorrect:**\n- A) \"5th Grade Classes\": This is the x-axis label (categories)\n- C) \"Reading Challenge\": This would be part of the title\n- D) \"Teachers\": This describes the categories, not the measurements\n\n**Key Concept:** Understanding the difference between x-axis labels (categories) and y-axis labels (values).",
+    "explanation": "**Answer: B) \"Number of Books Read\"**\n\n**Explanation:**\n- The y-axis (vertical axis) shows the values being measured\n- In this case, we're measuring how many books each class read\n- The y-axis label should clearly state what the bars' heights represent\n\n**Key Concept:** Understanding the difference between x-axis labels (categories) and y-axis labels (values).",
     "source": "authored",
     "needsReview": false
   },
@@ -615,7 +615,7 @@
       "24,000 meters"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 2,400 meters\n\n**Step-by-step:**\n**1 kilometer = 1,000 meters**\n\nConvert 2.4 km to meters:\n- 2.4 × 1,000 = **2,400 meters**\n\n**Why other answers are wrong:**\n- A) 24 — divides by 100 instead of multiplying by 1,000\n- B) 240 — multiplies by 100 instead of 1,000\n- D) 24,000 — multiplies by 10,000 instead of 1,000",
+    "explanation": "**Step-by-step:**\n**1 kilometer = 1,000 meters**\n\nConvert 2.4 km to meters:\n- 2.4 × 1,000 = **2,400 meters**",
     "source": "authored",
     "needsReview": false
   },
@@ -635,7 +635,7 @@
       "96 pints"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 48 pints\n\n**Step-by-step:**\n**1 gallon = 4 quarts = 8 pints**\n\nConvert 6 gallons to pints:\n- 6 gallons × 8 pints per gallon = **48 pints**\n\n**Why other answers are wrong:**\n- A) 12 = 6 × 2 (uses 2 pints per gallon; that's quarts per gallon confused with pints per quart)\n- B) 24 = 6 × 4 (uses 4 quarts per gallon instead of 8 pints per gallon)\n- D) 96 = 6 × 16 (uses 16 cups per gallon instead of 8 pints per gallon)",
+    "explanation": "**Step-by-step:**\n**1 gallon = 4 quarts = 8 pints**\n\nConvert 6 gallons to pints:\n- 6 gallons × 8 pints per gallon = **48 pints**",
     "source": "authored",
     "needsReview": false
   },
@@ -655,7 +655,7 @@
       "25,000 grams"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 2,500 grams\n\n**Step-by-step:**\n**1 kilogram = 1,000 grams**\n\nConvert 2.5 kg to grams:\n- 2.5 × 1,000 = **2,500 grams**\n\n**Why other answers are wrong:**\n- A) 25 — divides by 100 instead of multiplying by 1,000\n- B) 250 — multiplies by 100 instead of 1,000\n- D) 25,000 — multiplies by 10,000 instead of 1,000",
+    "explanation": "**Step-by-step:**\n**1 kilogram = 1,000 grams**\n\nConvert 2.5 kg to grams:\n- 2.5 × 1,000 = **2,500 grams**",
     "source": "authored",
     "needsReview": false
   },
@@ -675,7 +675,7 @@
       "12 students"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 9 students\n\n**Step-by-step:**\nFrom the dot plot:\n| Score | Students |\n|-------|---------|\n| 6     | 1       |\n| 7     | 2       |\n| 8     | 4       |\n| 9     | 3       |\n| 10    | 2       |\n| **Total** | **12** |\n\nStudents who scored **8 or higher** (8, 9, or 10):\n- Score 8: 4 students\n- Score 9: 3 students\n- Score 10: 2 students\n- **Total = 4 + 3 + 2 = 9 students**\n\n**Why other answers are wrong:**\n- A) 5 = students with score 9 + 10 only (misses score 8)\n- B) 7 = students scoring 8 and 9 only (misses score 10)\n- D) 12 = ALL students in the class (not just those scoring ≥ 8)",
+    "explanation": "**Step-by-step:**\nFrom the dot plot:\n| Score | Students |\n|-------|---------|\n| 6     | 1       |\n| 7     | 2       |\n| 8     | 4       |\n| 9     | 3       |\n| 10    | 2       |\n| **Total** | **12** |\n\nStudents who scored **8 or higher** (8, 9, or 10):\n- Score 8: 4 students\n- Score 9: 3 students\n- Score 10: 2 students\n- **Total = 4 + 3 + 2 = 9 students**",
     "source": "authored",
     "needsReview": false
   },
@@ -695,7 +695,7 @@
       "56"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 33\n\n**Step-by-step:**\nRead the data from the stem-and-leaf plot:\n- Stem 2: 23, 25, 27\n- Stem 3: 31, 34, 34, 36\n- Stem 4: 40, 42, 48\n- Stem 5: 53, 56\n\n**Minimum value = 23** (first leaf in stem 2)\n**Maximum value = 56** (last leaf in stem 5)\n\n**Range = Maximum − Minimum = 56 − 23 = 33**\n\n**Why other answers are wrong:**\n- A) 23 — this is the minimum value, not the range\n- C) 36 — subtracts 56 − 20 (uses stem only, not full minimum value)\n- D) 56 — this is the maximum value, not the range\n\n**Key concept:** Range = largest value − smallest value. Use the KEY to read each full data value (stem × 10 + leaf).",
+    "explanation": "**Step-by-step:**\nRead the data from the stem-and-leaf plot:\n- Stem 2: 23, 25, 27\n- Stem 3: 31, 34, 34, 36\n- Stem 4: 40, 42, 48\n- Stem 5: 53, 56\n\n**Minimum value = 23** (first leaf in stem 2)\n**Maximum value = 56** (last leaf in stem 5)\n\n**Range = Maximum − Minimum = 56 − 23 = 33**\n\n**Key concept:** Range = largest value − smallest value. Use the KEY to read each full data value (stem × 10 + leaf).",
     "source": "authored",
     "needsReview": false
   },
@@ -715,7 +715,7 @@
       "Test scores decrease as study hours increase."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → There is a positive relationship.\n\n**Step-by-step:**\nWhen two variables **increase together**, the scatter plot shows points trending **upward from left to right** → **positive relationship**.\n\nHere: as study hours increase ↑, test scores also increase ↑. This is a **positive relationship**.\n\n**Why other answers are wrong:**\n- A) Negative relationship — this describes variables that move in **opposite directions** (one goes up, other goes down)\n- B) No relationship — this describes scattered points with no pattern\n- D) Test scores decrease as study hours increase — this is the opposite of what is described",
+    "explanation": "**Step-by-step:**\nWhen two variables **increase together**, the scatter plot shows points trending **upward from left to right** → **positive relationship**.\n\nHere: as study hours increase ↑, test scores also increase ↑. This is a **positive relationship**.",
     "source": "authored",
     "needsReview": false
   },
@@ -735,7 +735,7 @@
       "1,210"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 890\n\n**Step-by-step:**\nRead the values from the bar graph:\n- July: **480 visitors**\n- August: **410 visitors**\n\n**Combined total = 480 + 410 = 890 visitors**\n\n**Why other answers are wrong:**\n- A) 730 = 480 + 250 (July + September, not July + August)\n- C) 930 = 480 + 450 (arithmetic error; treats August as 450)\n- D) 1,210 = all 5 months combined (320 + 480 + 410 = 1,210 is partial; all 5 = 1,640)",
+    "explanation": "**Step-by-step:**\nRead the values from the bar graph:\n- July: **480 visitors**\n- August: **410 visitors**\n\n**Combined total = 480 + 410 = 890 visitors**",
     "source": "authored",
     "needsReview": false
   },
@@ -755,7 +755,7 @@
       "15,840 feet"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct Answer: D** → 15,840 feet\n\n**Step-by-step:**\n**1 mile = 5,280 feet**\n\nConvert 3 miles to feet:\n- 3 × 5,280 = ?\n- 3 × 5,000 = 15,000\n- 3 × 280 = 840\n- 15,000 + 840 = **15,840 feet**\n\n**Why other answers are wrong:**\n- A) 1,760 feet = 1 mile × 1,760 yards (confuses yards and feet; 1 mile = 1,760 yards, not feet)\n- B) 5,280 feet = only 1 mile (does not multiply by 3)\n- C) 10,560 feet = 5,280 × 2 (computes 2 miles instead of 3)\n\n**Key customary conversions to memorize:**\n- 1 mile = 5,280 feet = 1,760 yards\n- 1 yard = 3 feet\n- 1 foot = 12 inches",
+    "explanation": "**Step-by-step:**\n**1 mile = 5,280 feet**\n\nConvert 3 miles to feet:\n- 3 × 5,280 = ?\n- 3 × 5,000 = 15,000\n- 3 × 280 = 840\n- 15,000 + 840 = **15,840 feet**\n\n**Key customary conversions to memorize:**\n- 1 mile = 5,280 feet = 1,760 yards\n- 1 yard = 3 feet\n- 1 foot = 12 inches",
     "source": "authored",
     "needsReview": false
   },
@@ -775,7 +775,7 @@
       "17,280 feet"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 1,440 feet\n\n**Step-by-step:**\n**1 yard = 3 feet**\n\nConvert 480 yards to feet:\n- 480 × 3 = **1,440 feet**\n\n**Why other answers are wrong:**\n- A) 160 = 480 ÷ 3 (divides instead of multiplies — converts feet TO yards)\n- B) 480 — the original measure in yards (no conversion performed)\n- D) 17,280 = 480 × 36 (converts yards to inches, not feet: 1 yard = 36 inches)",
+    "explanation": "**Step-by-step:**\n**1 yard = 3 feet**\n\nConvert 480 yards to feet:\n- 480 × 3 = **1,440 feet**",
     "source": "authored",
     "needsReview": false
   },
@@ -795,7 +795,7 @@
       "20 quarts"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 14 quarts\n\n**Step-by-step:**\n**1 gallon = 4 quarts**\n\nStep 1 — Convert gallons to quarts:\n- 3 gallons × 4 = **12 quarts**\n\nStep 2 — Add the extra quarts:\n- 12 + 2 = **14 quarts**\n\n**Why other answers are wrong:**\n- A) 10 quarts — uses 1 gallon = 2 quarts (wrong conversion rate)\n- B) 12 quarts — converts the 3 gallons but forgets to add the 2 extra quarts\n- D) 20 quarts — uses 1 gallon = 6 quarts (wrong rate)",
+    "explanation": "**Step-by-step:**\n**1 gallon = 4 quarts**\n\nStep 1 — Convert gallons to quarts:\n- 3 gallons × 4 = **12 quarts**\n\nStep 2 — Add the extra quarts:\n- 12 + 2 = **14 quarts**",
     "source": "authored",
     "needsReview": false
   },
@@ -815,7 +815,7 @@
       "5,000,000 milligrams"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct Answer: D** → 5,000,000 milligrams\n\n**Step-by-step:**\nConvert 5 kilograms → milligrams using **two steps**:\n\nStep 1 — Kilograms to grams:\n- 5 kg × 1,000 g/kg = **5,000 grams**\n\nStep 2 — Grams to milligrams:\n- 5,000 g × 1,000 mg/g = **5,000,000 milligrams**\n\n**Why other answers are wrong:**\n- A) 5,000 mg — converts kg → g (only 1 step; skips g → mg)\n- B) 50,000 mg — multiplies by 10,000 instead of 1,000,000\n- C) 500,000 mg — multiplies by 100,000 instead of 1,000,000\n\n**Key chain:** kg × 1,000 = g; g × 1,000 = mg; therefore kg × 1,000,000 = mg",
+    "explanation": "**Step-by-step:**\nConvert 5 kilograms → milligrams using **two steps**:\n\nStep 1 — Kilograms to grams:\n- 5 kg × 1,000 g/kg = **5,000 grams**\n\nStep 2 — Grams to milligrams:\n- 5,000 g × 1,000 mg/g = **5,000,000 milligrams**\n\n**Key chain:** kg × 1,000 = g; g × 1,000 = mg; therefore kg × 1,000,000 = mg",
     "source": "authored",
     "needsReview": false
   },
@@ -835,7 +835,7 @@
       "1,800 gallons"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 450 gallons\n\n**Step-by-step:**\n**1 gallon = 16 cups**\n\nConvert cups to gallons by DIVIDING:\n- 7,200 ÷ 16 = ?\n\n16 × 400 = 6,400\n7,200 − 6,400 = 800\n16 × 50 = 800\n\nQuotient: 400 + 50 = **450 gallons**\n\n**Verification:** 450 × 16 = 7,200 ✓\n\n**Why other answers are wrong:**\n- A) 225 = 7,200 ÷ 32 (divides by 32 instead of 16)\n- C) 900 = 7,200 ÷ 8 (confuses cups per gallon with pints per gallon)\n- D) 1,800 = 7,200 ÷ 4 (uses quarts per gallon instead of cups per gallon)",
+    "explanation": "**Step-by-step:**\n**1 gallon = 16 cups**\n\nConvert cups to gallons by DIVIDING:\n- 7,200 ÷ 16 = ?\n\n16 × 400 = 6,400\n7,200 − 6,400 = 800\n16 × 50 = 800\n\nQuotient: 400 + 50 = **450 gallons**\n\n**Verification:** 450 × 16 = 7,200 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -855,7 +855,7 @@
       "71 inches"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 67 inches\n\n**Step-by-step:**\nList all values in order from the stem-and-leaf plot:\n\n58, 59, 60, 62, 64, 66, **67**, 71, 73, 75, 78, 80, 82\n\nCount: **13 values**\n\nFor an odd number of values, the median is the **middle value**:\n- Middle position = (13 + 1) ÷ 2 = **7th value**\n- Counting: 58(1), 59(2), 60(3), 62(4), 64(5), 66(6), **67(7)**\n\n**Median = 67 inches**\n\n**Why other answers are wrong:**\n- A) 64 inches = the 5th value, not the 7th\n- B) 66 inches = the 6th value, not the 7th\n- D) 71 inches = the 8th value, not the 7th",
+    "explanation": "**Step-by-step:**\nList all values in order from the stem-and-leaf plot:\n\n58, 59, 60, 62, 64, 66, **67**, 71, 73, 75, 78, 80, 82\n\nCount: **13 values**\n\nFor an odd number of values, the median is the **middle value**:\n- Middle position = (13 + 1) ÷ 2 = **7th value**\n- Counting: 58(1), 59(2), 60(3), 62(4), 64(5), 66(6), **67(7)**\n\n**Median = 67 inches**",
     "source": "authored",
     "needsReview": false
   },
@@ -875,7 +875,7 @@
       "7"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 5 ribbons\n\n**Step-by-step:**\nCount ribbons that are **at least 1 foot** (≥ 1 foot):\n\n| Length | Count | ≥ 1 foot? |\n|--------|-------|-----------|\n| 1/4 ft | 2     | No        |\n| 1/2 ft | 3     | No        |\n| 3/4 ft | 2     | No        |\n| 1 ft   | 4     | Yes ✓     |\n| 1 1/4 ft | 1   | Yes ✓     |\n\nRibbons ≥ 1 foot: 4 + 1 = **5 ribbons**\n\nTotal ribbons: 2 + 3 + 2 + 4 + 1 = 12 ✓\n\n**Why other answers are wrong:**\n- A) 1 — only counts ribbons longer than 1 foot (1 1/4 ft only), misses ribbons that equal exactly 1 foot\n- B) 4 — only counts ribbons that are exactly 1 foot long\n- D) 7 — counts ribbons that are 3/4 foot or longer (includes 3/4 ft which is less than 1 foot)",
+    "explanation": "**Step-by-step:**\nCount ribbons that are **at least 1 foot** (≥ 1 foot):\n\n| Length | Count | ≥ 1 foot? |\n|--------|-------|-----------|\n| 1/4 ft | 2     | No        |\n| 1/2 ft | 3     | No        |\n| 3/4 ft | 2     | No        |\n| 1 ft   | 4     | Yes ✓     |\n| 1 1/4 ft | 1   | Yes ✓     |\n\nRibbons ≥ 1 foot: 4 + 1 = **5 ribbons**\n\nTotal ribbons: 2 + 3 + 2 + 4 + 1 = 12 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -895,7 +895,7 @@
       "12 days"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 10 days\n\n**Step-by-step:**\nIdentify the pattern from the given data points:\n\n| Pages | Days |\n|-------|------|\n| 80    | 4    |\n| 160   | 8    |\n\nPattern: Days = Pages ÷ 20 (or 20 pages per day)\n\n**Check:** 80 ÷ 20 = 4 ✓; 160 ÷ 20 = 8 ✓\n\n**Predict for 200 pages:**\n- 200 ÷ 20 = **10 days**\n\n**Why other answers are wrong:**\n- A) 8 days — this is for a 160-page book (does not extend the pattern to 200 pages)\n- B) 9 days — arithmetic error in extending the trend\n- D) 12 days — uses rate of 16-17 pages per day instead of 20",
+    "explanation": "**Step-by-step:**\nIdentify the pattern from the given data points:\n\n| Pages | Days |\n|-------|------|\n| 80    | 4    |\n| 160   | 8    |\n\nPattern: Days = Pages ÷ 20 (or 20 pages per day)\n\n**Check:** 80 ÷ 20 = 4 ✓; 160 ÷ 20 = 8 ✓\n\n**Predict for 200 pages:**\n- 200 ÷ 20 = **10 days**",
     "source": "authored",
     "needsReview": false
   },
@@ -915,7 +915,7 @@
       "115 more"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 80 more\n\n**Step-by-step:**\nStep 1 — 5th + 7th grade combined:\n- 280 + 310 = **590 students**\n\nStep 2 — 6th + 8th grade combined:\n- 245 + 265 = **510 students**\n\nStep 3 — Difference:\n- 590 − 510 = **80 more students**\n\n**Why other answers are wrong:**\n- A) 45 more — compares only 7th grade (310) to 6th grade (265): 310 − 265 = 45 (single grade comparison, not combined)\n- C) 100 more — arithmetic error in sums\n- D) 115 more — compares different pairs of grades",
+    "explanation": "**Step-by-step:**\nStep 1 — 5th + 7th grade combined:\n- 280 + 310 = **590 students**\n\nStep 2 — 6th + 8th grade combined:\n- 245 + 265 = **510 students**\n\nStep 3 — Difference:\n- 590 − 510 = **80 more students**",
     "source": "authored",
     "needsReview": false
   },
@@ -935,7 +935,7 @@
       "80%"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 60%\n\n**Step-by-step:**\nStep 1 — Total students:\n- 2 + 6 + 8 + 3 + 1 = **20 students**\n\nStep 2 — Students with **2 or more** pets:\n- 2 pets: 8\n- 3 pets: 3\n- 4 pets: 1\n- Total = **12 students**\n\nStep 3 — Calculate percentage:\n- 12 ÷ 20 = 0.60 = **60%**\n\n**Why other answers are wrong:**\n- A) 40% = 8/20 (only students with exactly 2 pets, not \"2 or more\")\n- B) 50% = 10/20 (students with 1 or 2 pets combined, not the right group)\n- D) 80% = 16/20 (students with 1 or more pets — includes those with exactly 1)",
+    "explanation": "**Step-by-step:**\nStep 1 — Total students:\n- 2 + 6 + 8 + 3 + 1 = **20 students**\n\nStep 2 — Students with **2 or more** pets:\n- 2 pets: 8\n- 3 pets: 3\n- 4 pets: 1\n- Total = **12 students**\n\nStep 3 — Calculate percentage:\n- 12 ÷ 20 = 0.60 = **60%**",
     "source": "authored",
     "needsReview": false
   }

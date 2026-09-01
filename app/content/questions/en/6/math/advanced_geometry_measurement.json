@@ -15,7 +15,7 @@
       "540 inches"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Converting units within the customary system.\n\n**Steps:** \\(4.5 \\text{ ft} \\times 12 \\tfrac{\\text{in}}{\\text{ft}} = 54\\) inches.\n\n**Why others are wrong:** B and C use wrong multipliers; D multiplies by 120.",
+    "explanation": "**Key concept:** Converting units within the customary system.\n\n**Steps:** \\(4.5 \\text{ ft} \\times 12 \\tfrac{\\text{in}}{\\text{ft}} = 54\\) inches.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "46 cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Area of a triangle, \\(A = \\frac{1}{2} b h\\).\n\n**Steps:** \\(A = \\frac{1}{2} \\times 14 \\times 9 = 7 \\times 9 = 63\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\frac12\\) (that's the rectangle); C adds the dimensions; D is a random error.",
+    "explanation": "**Key concept:** Area of a triangle, \\(A = \\frac{1}{2} b h\\).\n\n**Steps:** \\(A = \\frac{1}{2} \\times 14 \\times 9 = 7 \\times 9 = 63\\) cm².",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "30 in²"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.8C / 6.8D**\nArea of a parallelogram = base × height = 12 × 5 = **60 in²**.\n**Why others are wrong:** A adds base and height. B halves the product (that is the triangle formula). D uses a wrong height.\n**Key concept:** Area of a parallelogram (A = bh).",
+    "explanation": "Area of a parallelogram = base × height = 12 × 5 = **60 in²**.\n**Key concept:** Area of a parallelogram (A = bh).",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "108 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.8B / 6.8C**\nVolume = length × width × height = 8 × 4 × 3 = **96 cm³**.\n**Why others are wrong:** A adds the dimensions. C multiplies only two of them. D is a miscalculation.\n**Key concept:** Volume of a rectangular prism (V = lwh).",
+    "explanation": "Volume = length × width × height = 8 × 4 × 3 = **96 cm³**.\n**Key concept:** Volume of a rectangular prism (V = lwh).",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "35,000 meters"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.4H**\nTo go from kilometers to meters, multiply by 1,000: 3.5 × 1,000 = **3,500 m**.\n**Why others are wrong:** A and B move the decimal the wrong number of places. D multiplies by 10,000.\n**Key concept:** Metric length conversion.",
+    "explanation": "To go from kilometers to meters, multiply by 1,000: 3.5 × 1,000 = **3,500 m**.\n**Key concept:** Metric length conversion.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "\\((-2, 4)\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.11A**\nReflecting across the **x-axis** keeps the x-coordinate the same and changes the sign of the y-coordinate: (4, −2) → **(4, 2)**.\n**Why others are wrong:** A reflects across the y-axis. C reflects across both axes. D swaps the coordinates.\n**Key concept:** Reflections on the coordinate plane.",
+    "explanation": "Reflecting across the **x-axis** keeps the x-coordinate the same and changes the sign of the y-coordinate: (4, −2) → **(4, 2)**.\n**Key concept:** Reflections on the coordinate plane.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "20 cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**Work:** \\(A = \\tfrac{1}{2}(b_1 + b_2)h = \\tfrac{1}{2}(10 + 6)(4) = \\tfrac{1}{2}(16)(4) = \\tfrac{1}{2}(64) = 32\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\tfrac{1}{2}\\). C adds bases without the height factor correctly. D uses only one base.\n\n**Key concept:** Trapezoid area uses the average of the two parallel bases times the height.",
+    "explanation": "**Work:** \\(A = \\tfrac{1}{2}(b_1 + b_2)h = \\tfrac{1}{2}(10 + 6)(4) = \\tfrac{1}{2}(16)(4) = \\tfrac{1}{2}(64) = 32\\) cm².\n\n**Key concept:** Trapezoid area uses the average of the two parallel bases times the height.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "14 m"
     ],
     "correctIndex": 1,
-    "explanation": "**Work:** \\(C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) m.\n\n**Why others are wrong:** A uses \\(\\pi r\\) (only one radius). C uses \\(\\pi r^2\\) (that is area, not circumference). D forgets \\(\\pi\\) entirely.\n\n**Key concept:** Circumference \\(C = 2\\pi r = \\pi d\\); do not confuse it with area.",
+    "explanation": "**Work:** \\(C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) m.\n\n**Key concept:** Circumference \\(C = 2\\pi r = \\pi d\\); do not confuse it with area.",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "157 in²"
     ],
     "correctIndex": 1,
-    "explanation": "**Work:** Diameter 10 → radius \\(r = 5\\). \\(A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 = 78.5\\) in².\n\n**Why others are wrong:** A uses \\(\\pi r\\) (circumference-style). C uses \\(r = 10\\) (used the diameter). D used \\(r=5\\) but doubled instead of squaring in a way that gives \\(157\\) (used \\(\\pi \\cdot 2r^2\\)/circumference of diameter error).\n\n**Key concept:** Area of a circle \\(A = \\pi r^2\\); remember to halve the diameter first, then square the radius.",
+    "explanation": "**Work:** Diameter 10 → radius \\(r = 5\\). \\(A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 = 78.5\\) in².\n\n**Key concept:** Area of a circle \\(A = \\pi r^2\\); remember to halve the diameter first, then square the radius.",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "10.5 cm"
     ],
     "correctIndex": 0,
-    "explanation": "**Work:** \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\); \\(c = \\sqrt{225} = 15\\) cm.\n\n**Why others are wrong:** B adds the legs (\\(9+12\\)). C forgets to take the square root. D averages the legs.\n\n**Key concept:** Pythagorean theorem \\(a^2 + b^2 = c^2\\); the hypotenuse is the square root of the sum of the squared legs.",
+    "explanation": "**Work:** \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\); \\(c = \\sqrt{225} = 15\\) cm.\n\n**Key concept:** Pythagorean theorem \\(a^2 + b^2 = c^2\\); the hypotenuse is the square root of the sum of the squared legs.",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "90 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**Work:** \\(V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10 = 3.14 \\times 9 \\times 10 = 3.14 \\times 90 = 282.6\\) cm³.\n\n**Why others are wrong:** A uses \\(r\\) but forgets to square (or drops a factor). C forgets to square the radius (\\(3.14 \\times 6 \\times 10\\)-type). D drops \\(\\pi\\).\n\n**Key concept:** Volume of a cylinder \\(V = Bh = \\pi r^2 h\\); the base is a circle, so square the radius.",
+    "explanation": "**Work:** \\(V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10 = 3.14 \\times 9 \\times 10 = 3.14 \\times 90 = 282.6\\) cm³.\n\n**Key concept:** Volume of a cylinder \\(V = Bh = \\pi r^2 h\\); the base is a circle, so square the radius.",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "5 cups"
     ],
     "correctIndex": 1,
-    "explanation": "**Work:** \\(2.5\\) L \\(= 2.5 \\times 1000 = 2500\\) mL. \\(2500 \\div 250 = 10\\) full cups.\n\n**Why others are wrong:** A divides by 100 instead of 250. C converts but forgets to divide by the cup size. D divides liters by cups without converting units.\n\n**Key concept:** Convert to a common unit first, then divide; multi-step measurement reasoning.",
+    "explanation": "**Work:** \\(2.5\\) L \\(= 2.5 \\times 1000 = 2500\\) mL. \\(2500 \\div 250 = 10\\) full cups.\n\n**Key concept:** Convert to a common unit first, then divide; multi-step measurement reasoning.",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "100.48 in²"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** Radius \\(= \\frac{16}{2} = 8\\) in. \\(A = \\pi r^2 \\approx 3.14 \\times 8^2 = 3.14 \\times 64 = 200.96\\) in².\n**Why others are wrong:** B is the circumference \\(\\pi d\\). C uses the diameter as the radius (\\(3.14 \\times 16^2\\)). D is half the correct area.\n**Key concept:** Use the **radius** (half the diameter) and square it before multiplying by \\(\\pi\\).",
+    "explanation": "**Solution:** Radius \\(= \\frac{16}{2} = 8\\) in. \\(A = \\pi r^2 \\approx 3.14 \\times 8^2 = 3.14 \\times 64 = 200.96\\) in².\n**Key concept:** Use the **radius** (half the diameter) and square it before multiplying by \\(\\pi\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "72 ft²"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** Rectangle \\(= 12 \\times 5 = 60\\) ft². Triangle \\(= \\frac{1}{2} \\times 12 \\times 4 = 24\\) ft². Total \\(= 60 + 24 = 84\\) ft².\n**Why others are wrong:** B is only the rectangle. C uses \\(\\frac{1}{2}\\) incorrectly (adds a 48 triangle). D miscounts the triangle.\n**Key concept:** Break composite figures into known shapes and add their areas.",
+    "explanation": "**Solution:** Rectangle \\(= 12 \\times 5 = 60\\) ft². Triangle \\(= \\frac{1}{2} \\times 12 \\times 4 = 24\\) ft². Total \\(= 60 + 24 = 84\\) ft².\n**Key concept:** Break composite figures into known shapes and add their areas.",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "150.72 cm³"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** \\(V = \\frac{1}{3}\\pi r^2 h \\approx \\frac{1}{3} \\times 3.14 \\times 3^2 \\times 8 = \\frac{1}{3} \\times 3.14 \\times 72 = \\frac{1}{3} \\times 226.08 = 75.36\\) cm³.\n**Why others are wrong:** B forgets the \\(\\frac{1}{3}\\) (that is a cylinder). C uses \\(r\\) without squaring/height. D is double the answer.\n**Key concept:** A cone's volume is \\(\\frac{1}{3}\\) of the cylinder with the same base and height.",
+    "explanation": "**Solution:** \\(V = \\frac{1}{3}\\pi r^2 h \\approx \\frac{1}{3} \\times 3.14 \\times 3^2 \\times 8 = \\frac{1}{3} \\times 3.14 \\times 72 = \\frac{1}{3} \\times 226.08 = 75.36\\) cm³.\n**Key concept:** A cone's volume is \\(\\frac{1}{3}\\) of the cylinder with the same base and height.",
     "source": "authored",
     "needsReview": false
   },
@@ -515,7 +515,7 @@
       "an oval (ellipse)"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** Slicing a cylinder **perpendicular to the bases, through the axis**, exposes a flat face whose height equals the cylinder's height and whose width equals the diameter — a **rectangle**.\n**Why others are wrong:** B results from a cut **parallel** to the bases. C and D don't occur from a straight vertical slice of a cylinder.\n**Key concept:** The orientation of the slicing plane determines the cross-section shape.",
+    "explanation": "**Solution:** Slicing a cylinder **perpendicular to the bases, through the axis**, exposes a flat face whose height equals the cylinder's height and whose width equals the diameter — a **rectangle**.\n**Key concept:** The orientation of the slicing plane determines the cross-section shape.",
     "source": "authored",
     "needsReview": false
   },
@@ -535,7 +535,7 @@
       "8.5 feet"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** The ladder is the hypotenuse: \\(c^2 = 5^2 + 12^2 = 25 + 144 = 169\\), so \\(c = \\sqrt{169} = 13\\) ft.\n**Why others are wrong:** B adds the legs. C is \\(c^2\\), not \\(c\\). D halves incorrectly.\n**Key concept:** \\(a^2 + b^2 = c^2\\) — take the square root to find the hypotenuse.",
+    "explanation": "**Solution:** The ladder is the hypotenuse: \\(c^2 = 5^2 + 12^2 = 25 + 144 = 169\\), so \\(c = \\sqrt{169} = 13\\) ft.\n**Key concept:** \\(a^2 + b^2 = c^2\\) — take the square root to find the hypotenuse.",
     "source": "authored",
     "needsReview": false
   }

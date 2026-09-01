@@ -15,7 +15,7 @@
       "4:05 p.m."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 4:25 p.m.\n\n**Explanation:**\n2:45 + 1 hour = 3:45. 3:45 + 40 minutes = 4:25, because 45 + 40 = 85 minutes, which is 1 hour\n25 minutes.\n\n**Why the other answers are wrong:**\n- **B** adds only 30 minutes.\n- **C** \"3:85\" is not a valid time — 85 minutes must be regrouped into an hour.\n- **D** adds 20 minutes.",
+    "explanation": "**Explanation:**\n2:45 + 1 hour = 3:45. 3:45 + 40 minutes = 4:25, because 45 + 40 = 85 minutes, which is 1 hour\n25 minutes.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "500"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 8\n\n**Explanation:**\n2 litres = 2,000 millilitres. 2,000 ÷ 250 = 8 glasses. The conversion must happen before the\ndivision.\n\n**Why the other answers are wrong:**\n- **B** divides 1,000 by 250 and forgets the second litre.\n- **C** divides 2,000 by 100.\n- **D** subtracts instead of dividing.",
+    "explanation": "**Explanation:**\n2 litres = 2,000 millilitres. 2,000 ÷ 250 = 8 glasses. The conversion must happen before the\ndivision.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "70"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 35\n\n**Explanation:**\nEach square is 5 books, so 7 squares is 7 × 5 = 35. Always read the scale first.\n\n**Why the other answers are wrong:**\n- **B** counts squares as single books — the error the scale is designed to catch.\n- **C** and **D** use the wrong scale.",
+    "explanation": "**Explanation:**\nEach square is 5 books, so 7 squares is 7 × 5 = 35. Always read the scale first.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "18 square metres"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 36 square metres\n\n**Explanation:**\nArea = length × width = 9 × 4 = 36 square metres.\n\n**Why the other answers are wrong:**\n- **B** 26 is the perimeter.\n- **C** 13 adds the two sides.\n- **D** 18 doubles only one side.",
+    "explanation": "**Explanation:**\nArea = length × width = 9 × 4 = 36 square metres.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "30 cm"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 24 cm\n\n**Explanation:**\nPerimeter is the distance around: 6 + 6 + 6 + 6 = 24 cm.\n\n**Why the other answers are wrong:**\n- **B** 36 is the area (6 × 6).\n- **C** 12 adds only two sides.\n- **D** 30 adds five sides.",
+    "explanation": "**Explanation:**\nPerimeter is the distance around: 6 + 6 + 6 + 6 = 24 cm.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "22"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 18\n\n**Explanation:**\nTotal students = 4 + 7 + 5 + 2 = 18. Each dot is one student, regardless of how many pets.\n\n**Why the other answers are wrong:**\n- **B** and **C** count only some categories.\n- **D** adds the pet numbers as well as the students.",
+    "explanation": "**Explanation:**\nTotal students = 4 + 7 + 5 + 2 = 18. Each dot is one student, regardless of how many pets.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "They are equal"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The rice, by 500 grams\n\n**Explanation:**\n3 kilograms = 3,000 grams. 3,000 − 2,500 = 500 grams more than the flour. Convert to the same\nunit before comparing.\n\n**Why the other answers are wrong:**\n- **B** reverses which is heavier.\n- **C** subtracts 3 from 2,500 without converting.\n- **D** they are not equal.",
+    "explanation": "**Explanation:**\n3 kilograms = 3,000 grams. 3,000 − 2,500 = 500 grams more than the flour. Convert to the same\nunit before comparing.",
     "source": "authored",
     "needsReview": false
   }

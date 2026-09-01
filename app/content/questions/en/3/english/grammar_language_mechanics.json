@@ -15,7 +15,7 @@
       "The box of crayons are belongs to Mia."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The box of crayons belongs to Mia.\n\n**Explanation:**\nThe subject is *box*, which is singular, so the verb is *belongs*. *Of crayons* is a\nprepositional phrase and does not change the subject — the classic trap.\n\n**Why the other answers are wrong:**\n- **B** matches the verb to *crayons*.\n- **C** makes *crayon* singular and still disagrees.\n- **D** stacks two verbs.",
+    "explanation": "**Explanation:**\nThe subject is *box*, which is singular, so the verb is *belongs*. *Of crayons* is a\nprepositional phrase and does not change the subject — the classic trap.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "She will open the door and switched on the light."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) She opened the door and switched on the light.\n\n**Explanation:**\nBoth verbs are past tense, so the sentence stays in one time frame.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each mix two tenses in a single sentence.",
+    "explanation": "**Explanation:**\nBoth verbs are past tense, so the sentence stays in one time frame.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Each of the boys bring his own lunch."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Each of the boys brought his own lunch.\n\n**Explanation:**\n*Each* is singular, so it takes a singular pronoun and a singular verb.\n\n**Why the other answers are wrong:**\n- **B** uses the plural *their* with singular *each*.\n- **C** *its* refers to a thing, not a person.\n- **D** *bring* does not agree with *each*.",
+    "explanation": "**Explanation:**\n*Each* is singular, so it takes a singular pronoun and a singular verb.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "We visited, the zoo, the aquarium and, the museum."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) We visited the zoo, the aquarium, and the museum.\n\n**Explanation:**\nCommas separate three or more items in a list.\n\n**Why the other answers are wrong:**\n- **B** has no commas.\n- **C** and **D** place commas where they do not belong, separating the subject from its verb.",
+    "explanation": "**Explanation:**\nCommas separate three or more items in a list.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Stopping before noon yesterday."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The rain stopped before noon.\n\n**Explanation:**\nIt has a subject (*the rain*) and a verb (*stopped*) and expresses a complete thought.\n\n**Why the other answers are wrong:**\n- **B** and **D** are phrases with no subject-verb pair expressing a complete thought.\n- **C** begins with *because*, which leaves the thought unfinished.",
+    "explanation": "**Explanation:**\nIt has a subject (*the rain*) and a verb (*stopped*) and expresses a complete thought.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "The teachers' desk is covered with students paper's."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The teacher's desk is covered with students' papers.\n\n**Explanation:**\nOne teacher takes *'s*; more than one student takes *s'*. The apostrophe goes after the *s* for\na plural possessive.\n\n**Why the other answers are wrong:**\n- **B** omits both apostrophes.\n- **C** and **D** add apostrophes to plain plurals — the most common apostrophe error.",
+    "explanation": "**Explanation:**\nOne teacher takes *'s*; more than one student takes *s'*. The apostrophe goes after the *s* for\na plural possessive.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "in March, we read a Book by Ruth Park."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) In March, we read a book by Ruth Park.\n\n**Explanation:**\nCapitalise the first word, the month, and a person's name — and nothing else.\n\n**Why the other answers are wrong:**\n- **B** leaves the month and the name lowercase.\n- **C** capitalises ordinary words.\n- **D** misses the capital at the start and adds one to *Book*.",
+    "explanation": "**Explanation:**\nCapitalise the first word, the month, and a person's name — and nothing else.",
     "source": "authored",
     "needsReview": false
   }

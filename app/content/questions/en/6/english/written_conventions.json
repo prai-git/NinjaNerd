@@ -15,7 +15,7 @@
       "Rosa who manages a hardware shop walks the shore, at every low tide."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Rosa, who manages a hardware shop, walks the shore at every low tide.\n\n**Explanation:**\nA nonessential clause is enclosed by a **pair** of commas. Removing it leaves a complete\nsentence.\n\n**Why the other answers are wrong:**\n- **B** and **C** use only one of the two commas.\n- **D** omits both and adds a comma that separates the verb from its phrase.",
+    "explanation": "**Explanation:**\nA nonessential clause is enclosed by a **pair** of commas. Removing it leaves a complete\nsentence.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "The students's notebooks were stored in the archive's basement."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The students' notebooks were stored in the archive's basement.\n\n**Explanation:**\n*Students'* is a plural possessive, so the apostrophe follows the *s*. *Archive's* is a singular\npossessive.\n\n**Why the other answers are wrong:**\n- **B** omits both apostrophes.\n- **C** adds one to a plain plural (*notebook's*).\n- **D** *students's* is not a standard form.",
+    "explanation": "**Explanation:**\n*Students'* is a plural possessive, so the apostrophe follows the *s*. *Archive's* is a singular\npossessive.",
     "source": "authored",
     "needsReview": false
   }

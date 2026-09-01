@@ -15,7 +15,7 @@
       "Borrowing money from a friend"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Walking a neighbour's dog for pay\n\n**Explanation:**\nEarning means receiving money in exchange for work.\n\n**Why the other answers are wrong:**\n- **B** a gift is received, not earned.\n- **C** finding money involves no work.\n- **D** borrowed money must be paid back and is not income.",
+    "explanation": "**Explanation:**\nEarning means receiving money in exchange for work.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Borrow $12 and buy two books"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Save her money until she has enough for the book\n\n**Explanation:**\nWhen you cannot afford something yet, saving until you can is the sound choice.\n\n**Why the other answers are wrong:**\n- **B** $10 is not enough for a $12 book.\n- **C** abandons her goal without needing to.\n- **D** borrowing creates a debt and buys more than she wanted.",
+    "explanation": "**Explanation:**\nWhen you cannot afford something yet, saving until you can is the sound choice.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "One quarter, two nickels"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) One quarter, one dime, one dime\n\n**Explanation:**\n25 + 10 + 10 = 45 cents.\n\n**Why the other answers are wrong:**\n- **B** one quarter, one dime and one nickel is 25 + 10 + 5 = 40 cents.\n- **C** four dimes plus one dime is 50 cents.\n- **D** one quarter and two nickels is 25 + 5 + 5 = 35 cents.",
+    "explanation": "**Explanation:**\n25 + 10 + 10 = 45 cents.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "32 cents"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 40 cents\n\n**Explanation:**\n3 dimes = 30 cents, 2 nickels = 10 cents, total 40 cents.\n\n**Why the other answers are wrong:**\n- **B** 35 counts only one nickel.\n- **C** 50 treats the nickels as dimes.\n- **D** 32 counts the nickels as one cent each.",
+    "explanation": "**Explanation:**\n3 dimes = 30 cents, 2 nickels = 10 cents, total 40 cents.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "25 cents"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 20 cents\n\n**Explanation:**\nTwo quarters is 50 cents. 50 − 30 = 20 cents change.\n\n**Why the other answers are wrong:**\n- **B** 30 is the price, not the change.\n- **C** 50 is what she paid.\n- **D** 25 is one quarter.",
+    "explanation": "**Explanation:**\nTwo quarters is 50 cents. 50 − 30 = 20 cents change.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Stickers for a collection"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Food for dinner\n\n**Explanation:**\nA need is something required to live. Food is a need; the rest are wants.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all enjoyable but not necessary to live.",
+    "explanation": "**Explanation:**\nA need is something required to live. Food is a need; the rest are wants.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "56 cents"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 30 cents\n\n**Explanation:**\n5 cents a day for 6 days is 5 × 6 = 30 cents.\n\n**Why the other answers are wrong:**\n- **B** 11 adds 5 and 6.\n- **C** 25 counts only five days.\n- **D** 56 writes the two digits side by side.",
+    "explanation": "**Explanation:**\n5 cents a day for 6 days is 5 × 6 = 30 cents.",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "18"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 7  \n**TEKS:** 4.9A [R]  \n**Step-by-step solution:** At least 40 includes 40 and 50 pages: \\(5+2=7\\).  \n**Why other answers are wrong:** B (“5”) uses a different operation, place, or interpretation than the evidence requires; C (“9”) uses a different operation, place, or interpretation than the evidence requires; D (“18”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** frequency table.",
+    "explanation": "**Step-by-step solution:** At least 40 includes 40 and 50 pages: \\(5+2=7\\).\n**Why other answers are wrong:** (“5”) uses a different operation, place, or interpretation than the evidence requires; (“9”) uses a different operation, place, or interpretation than the evidence requires; (“18”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** frequency table.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "12"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 22  \n**TEKS:** 4.9A  \n**Step-by-step solution:** Least \\(=12\\), greatest \\(=34\\), and \\(34-12=22\\).  \n**Why other answers are wrong:** B (“19”) uses a different operation, place, or interpretation than the evidence requires; C (“34”) uses a different operation, place, or interpretation than the evidence requires; D (“12”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** stem-and-leaf range.",
+    "explanation": "**Step-by-step solution:** Least \\(=12\\), greatest \\(=34\\), and \\(34-12=22\\).\n**Why other answers are wrong:** (“19”) uses a different operation, place, or interpretation than the evidence requires; (“34”) uses a different operation, place, or interpretation than the evidence requires; (“12”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** stem-and-leaf range.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "5"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 2  \n**TEKS:** 4.9B  \n**Step-by-step solution:** Three students ran 3 laps and one ran 5; \\(3-1=2\\).  \n**Why other answers are wrong:** B (“3”) uses a different operation, place, or interpretation than the evidence requires; C (“1”) uses a different operation, place, or interpretation than the evidence requires; D (“5”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** dot plot comparison.",
+    "explanation": "**Step-by-step solution:** Three students ran 3 laps and one ran 5; \\(3-1=2\\).\n**Why other answers are wrong:** (“3”) uses a different operation, place, or interpretation than the evidence requires; (“1”) uses a different operation, place, or interpretation than the evidence requires; (“5”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** dot plot comparison.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "9"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 6  \n**TEKS:** 4.9B  \n**Step-by-step solution:** Count half and three-fourths: \\(4+2=6\\).  \n**Why other answers are wrong:** B (“4”) uses a different operation, place, or interpretation than the evidence requires; C (“5”) uses a different operation, place, or interpretation than the evidence requires; D (“9”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** fraction dot plots.",
+    "explanation": "**Step-by-step solution:** Count half and three-fourths: \\(4+2=6\\).\n**Why other answers are wrong:** (“4”) uses a different operation, place, or interpretation than the evidence requires; (“5”) uses a different operation, place, or interpretation than the evidence requires; (“9”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** fraction dot plots.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Half chose reading."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. Building was preferred most.  \n**TEKS:** 4.9A  \n**Step-by-step solution:** 12 is the largest frequency.  \n**Why other answers are wrong:** B (“Drawing and reading tied.”) uses a different operation, place, or interpretation than the evidence requires; C (“Running exceeded drawing.”) uses a different operation, place, or interpretation than the evidence requires; D (“Half chose reading.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** draw conclusions.",
+    "explanation": "**Step-by-step solution:** 12 is the largest frequency.\n**Why other answers are wrong:** (“Drawing and reading tied.”) uses a different operation, place, or interpretation than the evidence requires; (“Running exceeded drawing.”) uses a different operation, place, or interpretation than the evidence requires; (“Half chose reading.”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** draw conclusions.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Neither has a range."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. Class B has greater range.  \n**TEKS:** 4.9B  \n**Step-by-step solution:** A has range \\(16-12=4\\); B has range \\(20-10=10\\).  \n**Why other answers are wrong:** B (“Class A has greater range.”) uses a different operation, place, or interpretation than the evidence requires; C (“Ranges are equal.”) uses a different operation, place, or interpretation than the evidence requires; D (“Neither has a range.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** compare distributions.",
+    "explanation": "**Step-by-step solution:** A has range \\(16-12=4\\); B has range \\(20-10=10\\).\n**Why other answers are wrong:** (“Class A has greater range.”) uses a different operation, place, or interpretation than the evidence requires; (“Ranges are equal.”) uses a different operation, place, or interpretation than the evidence requires; (“Neither has a range.”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** compare distributions.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "28"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** 14  \n**TEKS:** 4.9A [R]  \n**Step-by-step solution:** Add frequencies: \\(3+5+4+2=14\\).  \n**Why other answers are wrong:** There are no answer choices. Common errors use the wrong operation, unit, or place value instead of the required relationship..  \n**Key concept:** frequency totals.",
+    "explanation": "**Step-by-step solution:** Add frequencies: \\(3+5+4+2=14\\).\n**Why other answers are wrong:** There are no answer choices. Common errors use the wrong operation, unit, or place value instead of the required relationship..\n**Key concept:** frequency totals.",
     "source": "authored",
     "needsReview": false
   }

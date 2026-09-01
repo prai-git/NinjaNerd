@@ -15,7 +15,7 @@
       "\\(\\frac{8}{7}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(7\\)\n\n**Explanation:**\n\\(\\frac{7}{8} \\div \\frac{1}{8} = \\frac{7}{8} \\times \\frac{8}{1} = 7\\). Ask \"how many eighths are\nin seven eighths?\" — seven.\n\n**Why the other answers are wrong:**\n- **B** multiplies instead of dividing.\n- **C** and **D** invert the wrong fraction.",
+    "explanation": "**Explanation:**\n\\(\\frac{7}{8} \\div \\frac{1}{8} = \\frac{7}{8} \\times \\frac{8}{1} = 7\\). Ask \"how many eighths are\nin seven eighths?\" — seven.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(\\frac{15}{8}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(\\frac{3}{10}\\)\n\n**Explanation:**\nMultiply across: \\(\\frac{3 \\times 2}{4 \\times 5} = \\frac{6}{20} = \\frac{3}{10}\\).\n\n**Why the other answers are wrong:**\n- **B** adds numerators and denominators.\n- **C** and **D** invert one of the fractions, which is the rule for division, not\n  multiplication.",
+    "explanation": "**Explanation:**\nMultiply across: \\(\\frac{3 \\times 2}{4 \\times 5} = \\frac{6}{20} = \\frac{3}{10}\\).\n\n  multiplication.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(0.799\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(\\frac{7}{8}\\)\n\n**Explanation:**\nConvert everything to decimals: \\(\\frac{7}{8} = 0.875\\), \\(0.85\\), \\(\\frac{4}{5} = 0.8\\),\n\\(0.799\\). The largest is \\(0.875\\).\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all smaller once written in the same form. Comparing mixed\n  notation without converting is the trap.",
+    "explanation": "**Explanation:**\nConvert everything to decimals: \\(\\frac{7}{8} = 0.875\\), \\(0.85\\), \\(\\frac{4}{5} = 0.8\\),\n\\(0.799\\). The largest is \\(0.875\\).\n\n  notation without converting is the trap.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(5\\) cups"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(4\\frac{1}{2}\\) cups\n\n**Explanation:**\n\\(2\\frac{1}{4} = \\frac{9}{4}\\). Doubling gives \\(\\frac{18}{4} = \\frac{9}{2} = 4\\frac{1}{2}\\).\n\n**Why the other answers are wrong:**\n- **B** doubles only the whole number.\n- **C** doubles only the fraction.\n- **D** rounds instead of calculating.",
+    "explanation": "**Explanation:**\n\\(2\\frac{1}{4} = \\frac{9}{4}\\). Doubling gives \\(\\frac{18}{4} = \\frac{9}{2} = 4\\frac{1}{2}\\).",
     "source": "authored",
     "needsReview": false
   }

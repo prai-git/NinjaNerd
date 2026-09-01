@@ -15,7 +15,7 @@
       "Touch the hot plate quickly to see whether it is warm."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Put on safety goggles and keep loose sleeves away from the hot plate.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1C.  \n**Explanation:** Goggles protect eyes, and secured sleeves reduce the chance of contact with a hot surface. Both actions make the investigation safer.  \n**Why the other answers are wrong:** A risks spilling hot water; C creates a tripping hazard; D risks a burn.  \n**Key concept:** Safe practices and safety equipment.",
+    "explanation": "**Explanation:** Goggles protect eyes, and secured sleeves reduce the chance of contact with a hot surface. Both actions make the investigation safer.\n**Key concept:** Safe practices and safety equipment.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Are snails happier than all other animals?"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. Which side of the planter has more snails, the damp side or the dry side?  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1A.  \n**Explanation:** The question can be answered by counting snails on both sides over several days. It is based on Mina's observation and can be investigated.  \n**Why the other answers are wrong:** A is a preference; B asks about something snails cannot report or that observations cannot test; D is an unmeasurable opinion.  \n**Key concept:** Asking testable questions from observations.",
+    "explanation": "**Explanation:** The question can be answered by counting snails on both sides over several days. It is based on Mina's observation and can be investigated.\n**Key concept:** Asking testable questions from observations.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Use a large cup of sand, a small cup of clay, and different amounts of water."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Put the same amount of each soil into equal cups and pour the same amount of water into each cup.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1B.  \n**Explanation:** Equal cups, equal amounts of soil, and equal water make soil type the one important difference. The class can then compare drainage fairly.  \n**Why the other answers are wrong:** A provides no comparison; C changes how the soils are treated; D changes cup size and water amount as well as soil type.  \n**Key concept:** Planning a fair comparative investigation.",
+    "explanation": "**Explanation:** Equal cups, equal amounts of soil, and equal water make soil type the one important difference. The class can then compare drainage fairly.\n**Key concept:** Planning a fair comparative investigation.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "rain gauge"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. rain gauge.  \n**MAP area / TEKS:** Earth & Space Science; Scientific & Engineering Practices / 3.1D, 3.10A.  \n**Explanation:** A rain gauge collects and measures precipitation, so two gauges allow a rainfall comparison.  \n**Why the other answers are wrong:** A tests magnetism; B magnifies objects; C measures mass. None measures rain.  \n**Key concept:** Choosing the appropriate measurement tool.",
+    "explanation": "**Explanation:** A rain gauge collects and measures precipitation, so two gauges allow a rainfall comparison.\n**Key concept:** Choosing the appropriate measurement tool.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Cotton balls are the only material that takes up space."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Pebbles had the greatest mass in these equal cups.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.1E, 3.2B.  \n**Explanation:** The scale data show 245 g for pebbles, which is greater than 220 g, 180 g, and 35 g. The equal cups make the comparison meaningful.  \n**Why the other answers are wrong:** A is not shown by the data; C makes a claim about floating that was not tested; D wrongly says the other materials do not take up space.  \n**Key concept:** Using measurements as evidence.",
+    "explanation": "**Explanation:** The scale data show 245 g for pebbles, which is greater than 220 g, 180 g, and 35 g. The equal cups make the comparison meaningful.\n**Key concept:** Using measurements as evidence.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "A map showing countries of the world"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. A bar graph with one bar for each plot.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1F.  \n**Explanation:** A bar graph displays the number of earthworms in each plot side by side, making comparisons easy.  \n**Why the other answers are wrong:** A is not organized numerical data; B is unrelated; D shows locations but not the counts.  \n**Key concept:** Selecting a graphic organizer for data.",
+    "explanation": "**Explanation:** A bar graph displays the number of earthworms in each plot side by side, making comparisons easy.\n**Key concept:** Selecting a graphic organizer for data.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Use the model to measure the actual distance to the Sun with a ruler."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. Move the Earth around the Sun and the Moon around the Earth to show their paths.  \n**MAP area / TEKS:** Earth & Space Science; Scientific & Engineering Practices / 3.1G, 3.3A, 3.9A.  \n**Explanation:** Moving the model parts represents the orbital relationships that the model is meant to explain. Models help show processes that are too large or slow to observe directly.  \n**Why the other answers are wrong:** B cannot change the actual classroom lighting cycle; C is not true and may not be to scale; D cannot measure real space distances.  \n**Key concept:** Using a model to represent orbital motion.",
+    "explanation": "**Explanation:** Moving the model parts represents the orbital relationships that the model is meant to explain. Models help show processes that are too large or slow to observe directly.\n**Key concept:** Using a model to represent orbital motion.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "18°C on the first morning"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. 42°C on the fourth morning.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.2B, 3.5A.  \n**Explanation:** Four readings cluster between 18°C and 19°C, while 42°C is very different. The unusual value should be checked for a recording or tool error.  \n**Why the other answers are wrong:** A, B, and D fit the repeated 18–19°C pattern.  \n**Key concept:** Identifying an outlier and a possible source of error.",
+    "explanation": "**Explanation:** Four readings cluster between 18°C and 19°C, while 42°C is very different. The unusual value should be checked for a recording or tool error.\n**Why the other answers are wrong:** A, B, and D fit the repeated 18–19°C pattern.\n**Key concept:** Identifying an outlier and a possible source of error.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "Its size is not the same as the real pond's size."
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. Its size is not the same as the real pond's size.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.2A.  \n**Explanation:** The stated difference between the drawing and the real pond is scale. A model can be useful even when it is much smaller than what it represents.  \n**Why the other answers are wrong:** A is not a limitation; B is unnecessary because a model need not contain living things; C is false because maps can show location.  \n**Key concept:** Advantages and limitations of models.",
+    "explanation": "**Explanation:** The stated difference between the drawing and the real pond is scale. A model can be useful even when it is much smaller than what it represents.\n**Key concept:** Advantages and limitations of models.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "Measure how loudly the tray can be tapped."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Put six seedlings in the tray and carry it along the planned path without spilling soil.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.2D.  \n**Explanation:** This test directly checks both needed criteria: carrying six seedlings and preventing spills along the real route.  \n**Why the other answers are wrong:** A tests appearance, not function; C tests nothing while empty; D measures an irrelevant sound.  \n**Key concept:** Evaluating a prototype against design criteria.",
+    "explanation": "**Explanation:** This test directly checks both needed criteria: carrying six seedlings and preventing spills along the real route.\n**Key concept:** Evaluating a prototype against design criteria.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "It shows that a forecast makes a storm disappear."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. It shows how a scientist uses weather information to help people prepare and make safer choices.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.3B, 3.4A–B.  \n**Explanation:** Interviewing a meteorologist introduces a STEM career. The warning also communicates scientific findings that people can use to seek shelter, protect property, or change travel plans.  \n**Why the other answers are wrong:** B and D falsely claim a forecast controls weather; C has no scientific connection to rain or meteorology.  \n**Key concept:** STEM careers and how scientific information benefits society.",
+    "explanation": "**Explanation:** Interviewing a meteorologist introduces a STEM career. The warning also communicates scientific findings that people can use to seek shelter, protect property, or change travel plans.\n**Key concept:** STEM careers and how scientific information benefits society.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "Earth rotates, so different parts face the Sun at different times."
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. Earth rotates, so different parts face the Sun at different times.  \n**MAP area / TEKS:** Earth & Space Science / MAP vertical-alignment review; related to 3.9A.  \n**Explanation:** As Earth rotates, the side facing the Sun has daylight while the opposite side has night.  \n**Why the other answers are wrong:** A is not the cause of daily night; B reverses the observed Earth-Sun relationship; C does not happen each day.  \n**Key concept:** Earth’s rotation and the day-night pattern.",
+    "explanation": "**Explanation:** As Earth rotates, the side facing the Sun has daylight while the opposite side has night.\n**Key concept:** Earth’s rotation and the day-night pattern.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "The Moon's rocky surface changes its shape each week."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. The part of the Moon's sunlit half that can be seen from Earth.  \n**MAP area / TEKS:** Earth & Space Science / MAP vertical-alignment review; related to 3.9A orbital modeling.  \n**Explanation:** The Moon stays round. As it moves in relation to Earth and the Sun, observers see different portions of its sunlit half.  \n**Why the other answers are wrong:** A is false because the Moon reflects sunlight; B does not make the repeating monthly pattern; D falsely says the Moon’s rock changes shape.  \n**Key concept:** Moon-phase pattern.",
+    "explanation": "**Explanation:** The Moon stays round. As it moves in relation to Earth and the Sun, observers see different portions of its sunlit half.\n**Key concept:** Moon-phase pattern.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "Seasons happen because the Moon changes shape."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Seasons are repeating changes in weather that happen over a year.  \n**MAP area / TEKS:** Earth & Space Science / MAP vertical-alignment review.  \n**Explanation:** Seasonal patterns occur over months and repeat each year, unlike short-term daily weather changes.  \n**Why the other answers are wrong:** A describes one weather event; C gives the wrong time scale; D gives an incorrect cause.  \n**Key concept:** Distinguishing seasons from daily weather.",
+    "explanation": "**Explanation:** Seasonal patterns occur over months and repeat each year, unlike short-term daily weather changes.\n**Key concept:** Distinguishing seasons from daily weather.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "Both traits are inherited because dogs have them."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. Curly fur is inherited, and sitting for a bell is learned.  \n**MAP area / TEKS:** Biology/Life Science / MAP vertical-alignment review; related to 3.13A.  \n**Explanation:** Fur type is a body trait passed from parent to offspring, while responding to a bell is taught through training.  \n**Why the other answers are wrong:** B ignores inheritance; C reverses the two kinds of traits; D incorrectly calls a learned behavior inherited.  \n**Key concept:** Inherited traits versus learned behaviors.",
+    "explanation": "**Explanation:** Fur type is a body trait passed from parent to offspring, while responding to a bell is taught through training.\n**Key concept:** Inherited traits versus learned behaviors.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "Cube B became a liquid when it sank."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. The heaviest cube in this test sank, while the lighter two floated.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.2B, 3.2C, 3.6A.  \n**Explanation:** Because the cubes are equal in size, their masses can be compared directly. In this test, the 42 g cube sank and the 18 g and 26 g cubes floated.  \n**Why the other answers are wrong:** B makes an unsupported rule for every liquid; C is false because floating cubes have mass; D confuses sinking with a change of state.  \n**Key concept:** Using measured physical properties to identify a pattern.",
+    "explanation": "**Explanation:** Because the cubes are equal in size, their masses can be compared directly. In this test, the 42 g cube sank and the 18 g and 26 g cubes floated.\n**Key concept:** Using measured physical properties to identify a pattern.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "Use Ramp Q when reducing the needed push is most important."
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. Use Ramp Q when reducing the needed push is most important.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.2D, 3.7B.  \n**Explanation:** The test kept the box the same and showed that the 2-meter ramp required an easier push. Ramp Q best meets the stated criterion.  \n**Why the other answers are wrong:** A is impossible and irrelevant; B is false because P is shorter; C ignores the test evidence that pushes moved the box.  \n**Key concept:** Evaluating a design using force-test data.",
+    "explanation": "**Explanation:** The test kept the box the same and showed that the 2-meter ramp required an easier push. Ramp Q best meets the stated criterion.\n**Key concept:** Evaluating a design using force-test data.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "The flagpole creates a new source of sound energy."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. The flagpole blocks light energy, making a shadow.  \n**MAP area / TEKS:** Chemistry & Physics / 3.8A.  \n**Explanation:** A shadow forms where an object blocks light from reaching a surface. The dark shape follows the flagpole’s blocked-light area.  \n**Why the other answers are wrong:** A changes neither gravity nor magnetism; C is not a state change caused by a shadow; D does not explain the dark shape.  \n**Key concept:** Light energy and shadows.",
+    "explanation": "**Explanation:** A shadow forms where an object blocks light from reaching a surface. The dark shape follows the flagpole’s blocked-light area.\n**Key concept:** Light energy and shadows.",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "The cricket is smaller than a frog."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. A listener hears the chirp after the cricket rubs its wings together.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.3C, 3.8A.  \n**Explanation:** Hearing a chirp after the wings move is relevant evidence that the cricket’s action produces sound energy.  \n**Why the other answers are wrong:** A, B, and D are observations about the cricket but provide no evidence about a sound being produced.  \n**Key concept:** Selecting relevant evidence for a sound-energy claim.",
+    "explanation": "**Explanation:** Hearing a chirp after the wings move is relevant evidence that the cricket’s action produces sound energy.\n**Why the other answers are wrong:** A, B, and D are observations about the cricket but provide no evidence about a sound being produced.\n**Key concept:** Selecting relevant evidence for a sound-energy claim.",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "Cover Z"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Cover X.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1B, 3.1G, 3.2D.  \n**Explanation:** Cover X kept all rain out and had six air holes, so it meets both stated criteria.  \n**Why the other answers are wrong:** A keeps rain out but has no holes for air; C lets some rain in; D lets in a lot of rain.  \n**Key concept:** Testing prototypes against multiple criteria.",
+    "explanation": "**Explanation:** Cover X kept all rain out and had six air holes, so it meets both stated criteria.\n**Key concept:** Testing prototypes against multiple criteria.",
     "source": "authored",
     "needsReview": false
   }

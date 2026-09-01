@@ -15,7 +15,7 @@
       "\\(-\\frac{3}{4}\\), \\(0.25\\), \\(-0.5\\), \\(\\frac{2}{3}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(-\\frac{3}{4}\\), \\(-0.5\\), \\(0.25\\), \\(\\frac{2}{3}\\)\n\n**Explanation:**\nAs decimals: \\(-0.75\\), \\(-0.5\\), \\(0.25\\), \\(0.667\\). On a number line, \\(-0.75\\) sits furthest\nleft. Among negatives, the one with the **larger** absolute value is smaller.\n\n**Why the other answers are wrong:**\n- **B** places \\(-0.5\\) before \\(-0.75\\), the usual mistake with negatives.\n- **C** is greatest to least.\n- **D** puts a positive between two negatives.",
+    "explanation": "**Explanation:**\nAs decimals: \\(-0.75\\), \\(-0.5\\), \\(0.25\\), \\(0.667\\). On a number line, \\(-0.75\\) sits furthest\nleft. Among negatives, the one with the **larger** absolute value is smaller.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(105\\) metres"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(-105\\) metres\n\n**Explanation:**\n\\(-120 + 45 = -75\\), then \\(-75 - 30 = -105\\) metres.\n\n**Why the other answers are wrong:**\n- **B** subtracts the rise instead of adding it.\n- **C** adds both changes as rises.\n- **D** loses the negative sign entirely.",
+    "explanation": "**Explanation:**\n\\(-120 + 45 = -75\\), then \\(-75 - 30 = -105\\) metres.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(|5| = -5\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(|-8| > |5|\\)\n\n**Explanation:**\nAbsolute value is distance from zero, so \\(|-8| = 8\\) and \\(|5| = 5\\). Since \\(8 > 5\\), the\nstatement holds.\n\n**Why the other answers are wrong:**\n- **B** reverses it.\n- **C** and **D** treat absolute value as if it could be negative; it never is.",
+    "explanation": "**Explanation:**\nAbsolute value is distance from zero, so \\(|-8| = 8\\) and \\(|5| = 5\\). Since \\(8 > 5\\), the\nstatement holds.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(88\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(10\\)\n\n**Explanation:**\nBrackets first: \\(10 - 6 = 4\\). Then the exponent: \\(4^2 = 16\\). Then multiply and divide left\nto right: \\(3 \\times 16 = 48\\), \\(48 \\div 8 = 6\\). Finally add: \\(4 + 6 = 10\\).\n\n**Why the other answers are wrong:**\n- **B** adds before multiplying.\n- **C** divides before multiplying incorrectly.\n- **D** ignores the division.",
+    "explanation": "**Explanation:**\nBrackets first: \\(10 - 6 = 4\\). Then the exponent: \\(4^2 = 16\\). Then multiply and divide left\nto right: \\(3 \\times 16 = 48\\), \\(48 \\div 8 = 6\\). Finally add: \\(4 + 6 = 10\\).",
     "source": "authored",
     "needsReview": false
   }

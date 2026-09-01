@@ -15,7 +15,7 @@
       "Neither ball will move."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The ball on the steep ramp will travel faster.\n\n**Explanation:**\nA steeper ramp lets gravity pull the ball down a sharper slope, so it speeds up more.\n\n**Why the other answers are wrong:**\n- **B** reverses the relationship.\n- **C** ignores the difference in steepness, which is the only thing that changed.\n- **D** a ball on a ramp does roll.",
+    "explanation": "**Explanation:**\nA steeper ramp lets gravity pull the ball down a sharper slope, so it speeds up more.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "The carpet is closer to the ground."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The carpet rubs against the wheels more than the wood does.\n\n**Explanation:**\nRougher surfaces create more friction, which slows motion sooner.\n\n**Why the other answers are wrong:**\n- **B** the floor does not push the car along.\n- **C** the same car has the same weight on both surfaces.\n- **D** nearness to the ground does not slow a car.",
+    "explanation": "**Explanation:**\nRougher surfaces create more friction, which slows motion sooner.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "The ball will turn north on its own."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) A force must push the ball toward the north.\n\n**Explanation:**\nAn object keeps moving the way it is going until a force acts on it. Changing direction\nrequires a push or pull in the new direction.\n\n**Why the other answers are wrong:**\n- **B** weight does not steer.\n- **C** a smoother floor changes speed, not direction.\n- **D** objects do not change direction on their own.",
+    "explanation": "**Explanation:**\nAn object keeps moving the way it is going until a force acts on it. Changing direction\nrequires a push or pull in the new direction.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "A plastic ruler"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) An iron nail\n\n**Explanation:**\nMagnets attract iron and steel. **Not every metal is magnetic** — that is the point of this\nitem.\n\n**Why the other answers are wrong:**\n- **B** copper is a metal but is not attracted to magnets.\n- **C** aluminium is also a non-magnetic metal.\n- **D** plastic is not a metal at all.",
+    "explanation": "**Explanation:**\nMagnets attract iron and steel. **Not every metal is magnetic** — that is the point of this\nitem.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "air pushed the paper clip"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) a magnet can pull an object without touching it\n\n**Explanation:**\nThe magnetic pull reaches across a gap, which is why the clip moves before contact.\n\n**Why the other answers are wrong:**\n- **B** a slippery table would not start the motion.\n- **C** weight does not explain why it moved toward the magnet.\n- **D** air did not move it.",
+    "explanation": "**Explanation:**\nThe magnetic pull reaches across a gap, which is why the clip moves before contact.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Neither one makes any sound."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The one plucked hard makes a louder sound.\n\n**Explanation:**\nA harder pluck makes a bigger vibration, and bigger vibrations make louder sounds.\n\n**Why the other answers are wrong:**\n- **B** reverses the relationship.\n- **C** ignores the difference in the pluck.\n- **D** both bands vibrate, so both make sound.",
+    "explanation": "**Explanation:**\nA harder pluck makes a bigger vibration, and bigger vibrations make louder sounds.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "The drum must be made smaller."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The drum head must vibrate.\n\n**Explanation:**\nSound is produced by vibration. No vibration means no sound.\n\n**Why the other answers are wrong:**\n- **B** colour has nothing to do with sound.\n- **C** room temperature does not create sound.\n- **D** size affects pitch, not whether a sound happens.",
+    "explanation": "**Explanation:**\nSound is produced by vibration. No vibration means no sound.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "brighter than the wall"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) larger\n\n**Explanation:**\nMoving closer to the light blocks a wider spread of it, so the shadow cast on the wall grows.\n\n**Why the other answers are wrong:**\n- **B** the shadow shrinks when she moves **away** from the lamp.\n- **C** the distance changed, so the shadow must change.\n- **D** a shadow is where light is blocked, so it cannot be brighter than the lit wall.",
+    "explanation": "**Explanation:**\nMoving closer to the light blocks a wider spread of it, so the shadow cast on the wall grows.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "Metal is always warm."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Heat moved from the hot soup through the metal spoon.\n\n**Explanation:**\nHeat travels from warmer to cooler places, and metal carries it well.\n\n**Why the other answers are wrong:**\n- **B** the spoon does not produce heat.\n- **C** air did not warm the handle; the soup did.\n- **D** a spoon left in a cold place feels cold.",
+    "explanation": "**Explanation:**\nHeat travels from warmer to cooler places, and metal carries it well.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "wait for the wagon to move by itself"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) push harder than before\n\n**Explanation:**\nAdding books makes the wagon heavier, and a heavier object needs a larger force to move it the\nsame way.\n\n**Why the other answers are wrong:**\n- **B** a gentler push moves it less.\n- **C** the same push moves the heavier wagon less.\n- **D** nothing moves without a force.",
+    "explanation": "**Explanation:**\nAdding books makes the wagon heavier, and a heavier object needs a larger force to move it the\nsame way.",
     "source": "authored",
     "needsReview": false
   }

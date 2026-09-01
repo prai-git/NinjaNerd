@@ -35,7 +35,7 @@
       "hungry"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Context clues.\n**Explanation:** The phrase \"after climbing for six hours\" and \"stopped to rest their aching legs\" signals that the hikers were **tired**.\n**Why others are wrong:** Nothing suggests excitement (B), being lost (C), or hunger (D); the clues point only to exhaustion.",
+    "explanation": "**Key concept:** Context clues.\n**Explanation:** The phrase \"after climbing for six hours\" and \"stopped to rest their aching legs\" signals that the hikers were **tired**.\n**Why others are wrong:** Nothing suggests excitement, being lost, or hunger; the clues point only to exhaustion.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "ruined"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Antonym relationship in an analogy.\n**Explanation:** **timid** is the opposite of **bold**, so **ancient** must pair with its opposite: **modern**.\n**Why others are wrong:** \"old\" (B) and \"historic\" (C) are synonyms of *ancient*, not antonyms; \"ruined\" (D) is unrelated.",
+    "explanation": "**Key concept:** Antonym relationship in an analogy.\n**Explanation:** **timid** is the opposite of **bold**, so **ancient** must pair with its opposite: **modern**.\n**Why others are wrong:** \"old\" and \"historic\" are synonyms of *ancient*, not antonyms; \"ruined\" is unrelated.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "dishonest or unfair"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct:** *Low* is a multiple-meaning word. The context (\"after the long drought,\" \"shrinking water,\" fence posts rising above it) shows the water was **reduced in amount or level**.\n**Why others are wrong:** A (sound), B (mood), and D (dishonest) are real meanings of *low* but do not fit a shrinking reservoir.\n**Key concept:** Choosing the correct meaning of a multiple-meaning word from context.",
+    "explanation": "**Correct:** *Low* is a multiple-meaning word. The context (\"after the long drought,\" \"shrinking water,\" fence posts rising above it) shows the water was **reduced in amount or level**.\n**Why others are wrong:** (sound), (mood), and D (dishonest) are real meanings of *low* but do not fit a shrinking reservoir.\n**Key concept:** Choosing the correct meaning of a multiple-meaning word from context.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "helpful"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct:** The analogy is **antonyms**: cautious is the opposite of reckless, so generous pairs with its opposite, **stingy**.\n**Why others are wrong:** A (kind), B (wealthy), and D (helpful) are synonyms or loosely related words, not opposites of *generous*.\n**Key concept:** Identifying an antonym relationship in an analogy.",
+    "explanation": "**Correct:** The analogy is **antonyms**: cautious is the opposite of reckless, so generous pairs with its opposite, **stingy**.\n**Why others are wrong:** (kind), (wealthy), and D (helpful) are synonyms or loosely related words, not opposites of *generous*.\n**Key concept:** Identifying an antonym relationship in an analogy.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "It was easy and required no real work."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct:** *Herculean* alludes to Hercules' superhuman strength, so it means the cleanup took a **huge, almost superhuman amount of effort**.\n**Why others are wrong:** A and D describe easy or careless work — the opposite of the allusion. C ignores the meaning of the allusion entirely.\n**Key concept:** Interpreting a mythological allusion.",
+    "explanation": "**Correct:** *Herculean* alludes to Hercules' superhuman strength, so it means the cleanup took a **huge, almost superhuman amount of effort**.\n**Key concept:** Interpreting a mythological allusion.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "moves very quickly from place to place"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** *circum-* (\"around\") + *spect* (\"to look\") = literally \"to look around.\" A **circumspect** person looks around carefully before acting — that is, is cautious.\n**Why others are wrong:** B contradicts the \"look\" root. C (\"speaks loudly\") and D (\"moves quickly\") ignore both word parts.\n**Key concept:** Combining root and prefix meanings unlocks unfamiliar words.",
+    "explanation": "**Explanation:** *circum-* (\"around\") + *spect* (\"to look\") = literally \"to look around.\" A **circumspect** person looks around carefully before acting — that is, is cautious.\n**Key concept:** Combining root and prefix meanings unlocks unfamiliar words.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "dangerous or risky"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The phrase \"one that had never been tried on the disease before\" signals that **novel** means **brand-new / original**, not the book meaning.\n**Why others are wrong:** A is the common \"book\" meaning, which the context rules out. C and D add ideas (cost, danger) the sentence never states.\n**Key concept:** Context determines which meaning of a multiple-meaning word applies.",
+    "explanation": "**Explanation:** The phrase \"one that had never been tried on the disease before\" signals that **novel** means **brand-new / original**, not the book meaning.\n**Key concept:** Context determines which meaning of a multiple-meaning word applies.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "exercise"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A **chapter** is a section of a **novel**; a **movement** is a section of a **symphony**. The relationship is part-to-whole.\n**Why others are wrong:** A \"dance,\" C \"motion,\" and D \"exercise\" do not name a whole work made of \"movements\" in the same part/whole way.\n**Key concept:** Solve analogies by naming the exact relationship, then matching it.",
+    "explanation": "**Explanation:** A **chapter** is a section of a **novel**; a **movement** is a section of a **symphony**. The relationship is part-to-whole.\n**Why others are wrong:** \"dance,\" C \"motion,\" and D \"exercise\" do not name a whole work made of \"movements\" in the same part/whole way.\n**Key concept:** Solve analogies by naming the exact relationship, then matching it.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "a lucky habit that brings success"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** An **Achilles' heel** alludes to the hero's one vulnerable spot; it means a **single serious weakness** in an otherwise strong person — here, the goalie's left-foot panic.\n**Why others are wrong:** A is the opposite (a strength). C takes the phrase too literally as a foot injury. D wrongly makes it a lucky habit.\n**Key concept:** Allusions carry meaning from a well-known story into new contexts.",
+    "explanation": "**Explanation:** An **Achilles' heel** alludes to the hero's one vulnerable spot; it means a **single serious weakness** in an otherwise strong person — here, the goalie's left-foot panic.\n**Key concept:** Allusions carry meaning from a well-known story into new contexts.",
     "source": "authored",
     "needsReview": false
   }

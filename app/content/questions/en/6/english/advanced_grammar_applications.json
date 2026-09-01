@@ -15,7 +15,7 @@
       "A trained avalanche dog can cover in minutes an area that a human probe line would need many hours to search (Mountain Rescue Assoc., 2025)."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct:** A restates the idea in **fresh wording** (\"far more quickly,\" \"team of people using probes\") **and** includes a citation — a proper paraphrase.\n**Why others are wrong:** B copies the source nearly verbatim (plagiarism). C adds an unsupported opinion and no citation. D is copied almost word-for-word (only \"several\" → \"many\") and merely tacking on a citation to copied wording is still plagiarism.\n**Key concept:** Paraphrasing vs. plagiarism; citing borrowed ideas.",
+    "explanation": "**Correct:** A restates the idea in **fresh wording** (\"far more quickly,\" \"team of people using probes\") **and** includes a citation — a proper paraphrase.\n**Key concept:** Paraphrasing vs. plagiarism; citing borrowed ideas.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Nadia had practiced the dive from the lower boards many times, so she still felt afraid at the top of the ten-meter platform."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct:** \"**Although** Nadia had practiced... she still felt afraid\" uses a subordinating conjunction to correctly show **contrast**.\n**Why others are wrong:** B uses \"and\" (addition, not contrast). C is a run-on (comma splice/fused sentence). D uses \"so,\" which shows cause-effect, the wrong relationship.\n**Key concept:** Combining sentences with the correct conjunction to show contrast; avoiding run-ons.",
+    "explanation": "**Correct:** \"**Although** Nadia had practiced... she still felt afraid\" uses a subordinating conjunction to correctly show **contrast**.\n**Key concept:** Combining sentences with the correct conjunction to show contrast; avoiding run-ons.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Each of the robotics teams were submitting a design."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The subject is **\"Each,\"** an indefinite pronoun that is always **singular**, so it takes the singular verb **\"has submitted.\"** (The plural \"teams\" is inside a prepositional phrase and does not control the verb.)\n**Why others are wrong:** A \"have,\" C \"are,\" and D \"were\" all treat the subject as plural.\n**Key concept:** \"Each,\" \"every,\" and \"one\" are singular regardless of a nearby plural noun.",
+    "explanation": "**Explanation:** The subject is **\"Each,\"** an indefinite pronoun that is always **singular**, so it takes the singular verb **\"has submitted.\"** (The plural \"teams\" is inside a prepositional phrase and does not control the verb.)\n**Why others are wrong:** \"have,\" C \"are,\" and D \"were\" all treat the subject as plural.\n**Key concept:** \"Each,\" \"every,\" and \"one\" are singular regardless of a nearby plural noun.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "As Priya will reheat the solder joint, she notices that the two wires were crossed."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence begins in the past (\"reheated,\" \"were crossed\"), so the middle verb must also be past: **\"noticed.\"** Option B keeps every verb in the past tense.\n**Why others are wrong:** A and C switch some verbs to present (\"reheats,\" \"notices,\" \"are\"); D adds a future \"will reheat.\" Each creates an inconsistent shift.\n**Key concept:** Keep verb tense consistent within a sentence unless the time actually changes.",
+    "explanation": "**Explanation:** The sentence begins in the past (\"reheated,\" \"were crossed\"), so the middle verb must also be past: **\"noticed.\"** Option B keeps every verb in the past tense.\n**Key concept:** Keep verb tense consistent within a sentence unless the time actually changes.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "A personal blog post titled \"Ten Animals I Think Are Scary\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A **peer-reviewed article by wildlife biologists** in a research journal is written by experts, checked by other experts, and directly about the topic — the most credible and relevant source.\n**Why others are wrong:** B (anonymous comment), C (an ad with a sales motive), and D (an unrelated personal opinion blog) are unreliable or off-topic.\n**Key concept:** Judge sources by author expertise, review process, purpose, and relevance.",
+    "explanation": "**Explanation:** A **peer-reviewed article by wildlife biologists** in a research journal is written by experts, checked by other experts, and directly about the topic — the most credible and relevant source.\n**Why others are wrong:** (anonymous comment), (an ad with a sales motive), and D (an unrelated personal opinion blog) are unreliable or off-topic.\n**Key concept:** Judge sources by author expertise, review process, purpose, and relevance.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "In contrast"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The trees growing back is the **result** of the elk no longer overgrazing, so a cause/result transition — **\"As a result\"** — fits.\n**Why others are wrong:** A \"However\" and D \"In contrast\" signal opposition; C \"For example\" signals an illustration, not a result.\n**Key concept:** Choose transitions that match the logical relationship (here, cause → result).",
+    "explanation": "**Explanation:** The trees growing back is the **result** of the elk no longer overgrazing, so a cause/result transition — **\"As a result\"** — fits.\n**Why others are wrong:** \"However\" and D \"In contrast\" signal opposition; \"For example\" signals an illustration, not a result.\n**Key concept:** Choose transitions that match the logical relationship (here, cause → result).",
     "source": "authored",
     "needsReview": false
   }

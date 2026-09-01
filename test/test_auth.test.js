@@ -156,3 +156,50 @@ test('verification messages mention spam, because that is where mail lands', () 
   const signup = read('app/pages/signup.html');
   assert.match(login + signup, /Spam/i, 'tell the user where to look');
 });
+
+/* REGRESSION (2026-09-01): every account showed "Last Login: Never" in Audit.
+
+   login() stamped last_login through an un-awaited dynamic import, and the login page
+   redirects with location.href the moment login() resolves. The navigation killed the
+   in-flight import before the write left the browser. It was not flaky — fetching data.js
+   plus the Firestore SDK chunk is far slower than a same-page redirect, so it failed
+   essentially always.
+
+   The stamp must therefore be AWAITED inside login(), and it must stay non-fatal: bounded by
+   a timeout, with failures swallowed, so a slow or refused write can never turn a successful
+   sign-in into an error. Legacy stamped it in the login route — obs_app.py:687,
+   `git show 104c466:obs_app.py`. */
+test('login awaits the last_login stamp, so the redirect cannot cancel it', () => {
+  const src = read('app/js/auth.js');
+  const body = src.slice(src.indexOf('export async function login'));
+  const fn = body.slice(0, body.indexOf('\n}'));
+
+  assert.match(fn, /await stampLastLogin\(\)/,
+    'login() must await the stamp; a fire-and-forget write loses the race to location.href');
+  /* Comments stripped first: the block above this function QUOTES the old broken pattern to
+     explain it, and matching on prose would fail on the explanation rather than on code. */
+  const code = fn.replace(/\/\*[\s\S]*?\*\//g, '');
+  assert.doesNotMatch(code, /import\('\.\/data\.js'\)\s*\n?\s*\.then/,
+    'the un-awaited import is exactly the bug — it must not come back');
+});
+
+test('the last_login stamp is bounded and never fatal to signing in', () => {
+  const src = read('app/js/auth.js');
+  assert.match(src, /LAST_LOGIN_TIMEOUT_MS = \d+/, 'the wait must be bounded');
+  const fn = src.slice(src.indexOf('async function stampLastLogin'));
+  assert.match(fn, /Promise\.race/, 'bounded by racing a timeout');
+  assert.match(fn, /catch/, 'a failed stamp must not surface as a login error');
+});
+
+/* Legacy did NOT stamp last_login at account creation — create_account redirected to the
+   login route, and the stamp happened there. Our signup redirects to login.html the same way,
+   so the login fix covers new accounts too and signup() must not grow its own stamp. */
+test('signup does not stamp last_login, as legacy did not', () => {
+  const src = read('app/js/auth.js');
+  const fn = src.slice(src.indexOf('export async function signup'));
+  const body = fn.slice(0, fn.indexOf('\n}'));
+  assert.doesNotMatch(body, /last_login|stampLastLogin/,
+    'legacy stamped on login, not on create_account');
+  assert.match(read('app/pages/signup.html'), /location\.href = 'pages\/login\.html'/,
+    'signup must still route through login, which is where the stamp happens');
+});

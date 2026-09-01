@@ -15,7 +15,7 @@
       "Some school libraries are open late and some are not."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) School libraries should stay open after the final bell because access,\nnot interest, is what limits student reading.\n\n**Explanation:**\nA claim takes a debatable position **and** signals the reasoning. This one does both.\n\n**Why the other answers are wrong:**\n- **B** and **D** state facts nobody disputes.\n- **C** is a personal preference, not an arguable position.",
+    "explanation": "not interest, is what limits student reading.\n\n**Explanation:**\nA claim takes a debatable position **and** signals the reasoning. This one does both.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Some people disagree with later start times."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Critics note that a later start complicates bus scheduling, though\ndistricts have solved this by staggering routes.\n\n**Explanation:**\nA real counterargument names the opposing point fairly and then answers it.\n\n**Why the other answers are wrong:**\n- **B** and **C** assert rather than engage.\n- **D** acknowledges disagreement without naming or answering it.",
+    "explanation": "districts have solved this by staggering routes.\n\n**Explanation:**\nA real counterargument names the opposing point fairly and then answers it.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "A personal story unrelated to the topic"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) A clear statement of what the essay will explain, with enough context to\norient the reader\n\n**Explanation:**\nAn introduction establishes topic, purpose and enough background for the body to make sense.\n\n**Why the other answers are wrong:**\n- **B** technical detail without context loses the reader.\n- **C** summarising everything leaves the body redundant.\n- **D** an unrelated story does not orient anyone.",
+    "explanation": "orient the reader\n\n**Explanation:**\nAn introduction establishes topic, purpose and enough background for the body to make sense.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "An advertisement for a weather app"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) A dataset published by a national meteorological agency\n\n**Explanation:**\nIt is authoritative, attributable and methodologically transparent.\n\n**Why the other answers are wrong:**\n- **B** anonymous and uncited.\n- **C** summarises a study it will not name, so nothing can be checked.\n- **D** advertising exists to sell, not to inform.",
+    "explanation": "**Explanation:**\nIt is authoritative, attributable and methodologically transparent.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Bleaching is when coral expels algae."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) When coral is under stress, it forces out the algae in its tissue, which\nis what causes bleaching (Reef Institute, 2025).\n\n**Explanation:**\nA true paraphrase restates the idea in genuinely different wording **and** credits the source.\n\n**Why the other answers are wrong:**\n- **B** copies the original word for word.\n- **C** changes one word — patchwriting, still plagiarism.\n- **D** drops essential meaning and cites nothing.",
+    "explanation": "is what causes bleaching (Reef Institute, 2025).\n\n**Explanation:**\nA true paraphrase restates the idea in genuinely different wording **and** credits the source.",
     "source": "authored",
     "needsReview": false
   }

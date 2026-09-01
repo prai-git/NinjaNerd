@@ -15,7 +15,7 @@
       "27 cubes"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 12 cubes**  \n**MAP area / TEKS:** Measurement & Data; 1.7.  \n**Work:** \\(9+3=12\\) cubes.  \n**Why the other answers are wrong:** A subtracts; B ignores the extra cubes; D multiplies.  \n**Key concept:** Comparing length with units.",
+    "explanation": "**Work:** \\(9+3=12\\) cubes.\n**Key concept:** Comparing length with units.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "a coin"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. a ruler**  \n**MAP area / TEKS:** Measurement & Data; 1.7.  \n**Work:** A ruler is a tool for measuring length.  \n**Why the other answers are wrong:** B measures time; C measures temperature; D is money.  \n**Key concept:** Selecting a measurement tool.",
+    "explanation": "**Work:** A ruler is a tool for measuring length.\n**Key concept:** Selecting a measurement tool.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "spoon"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. bucket**  \n**MAP area / TEKS:** Measurement & Data; 1.7.  \n**Work:** The bottle holds less than the bucket, so the bucket holds the most.  \n**Why the other answers are wrong:** A and D hold less; B is explicitly less than the bucket.  \n**Key concept:** Comparing capacity.",
+    "explanation": "**Work:** The bottle holds less than the bucket, so the bucket holds the most.\n**Key concept:** Comparing capacity.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "half past 12"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. 4 o'clock**  \n**MAP area / TEKS:** Measurement & Data; 1.7.  \n**Work:** The long hand at 12 means “o'clock”; the short hand gives 4.  \n**Why the other answers are wrong:** B uses the long hand as the hour; C and D require the long hand at 6.  \n**Key concept:** Telling time to the hour.",
+    "explanation": "**Work:** The long hand at 12 means “o'clock”; the short hand gives 4.\n**Key concept:** Telling time to the hour.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "12"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. 6**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** \\(9-3=6\\).  \n**Why the other answers are wrong:** B and C are too small; D does not show the difference.  \n**Key concept:** Interpreting a data table.",
+    "explanation": "**Work:** \\(9-3=6\\).\n**Key concept:** Interpreting a data table.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "fish and birds"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. cats and birds**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** \\(6+7=13\\).  \n**Why the other answers are wrong:** A totals 9; C totals 12; D totals 10.  \n**Key concept:** Adding table values.",
+    "explanation": "**Work:** \\(6+7=13\\).\n**Key concept:** Adding table values.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "the days of the week only"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. kinds of books**  \n**MAP area / TEKS:** Measurement & Data; 1.8.  \n**Work:** A graph about books should name its book categories along the bottom.  \n**Why the other answers are wrong:** B is not data; C is a different topic; D is not necessarily a category of books.  \n**Key concept:** Graph labels.",
+    "explanation": "**Work:** A graph about books should name its book categories along the bottom.\n**Key concept:** Graph labels.",
     "source": "authored",
     "needsReview": false
   }

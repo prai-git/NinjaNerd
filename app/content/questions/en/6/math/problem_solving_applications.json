@@ -15,7 +15,7 @@
       "\\(10\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(7\\)\n\n**Explanation:**\n\\(30 + 18m = 156\\), so \\(18m = 126\\) and \\(m = 7\\) months. Subtract the one-off fee before\ndividing.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** result from dividing 156 by 18 without removing the joining fee, or\n  from arithmetic slips.",
+    "explanation": "**Explanation:**\n\\(30 + 18m = 156\\), so \\(18m = 126\\) and \\(m = 7\\) months. Subtract the one-off fee before\ndividing.\n\n  from arithmetic slips.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "9:45 p.m."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) 9:45 a.m.\n\n**Explanation:**\n\\(1{,}080 \\div 24 = 45\\) minutes. Starting at 9:00, it finishes at 9:45 a.m.\n\n**Why the other answers are wrong:**\n- **B** treats the rate as the elapsed time.\n- **C** rounds up to the hour.\n- **D** confuses a.m. with p.m.",
+    "explanation": "**Explanation:**\n\\(1{,}080 \\div 24 = 45\\) minutes. Starting at 9:00, it finishes at 9:45 a.m.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "$50.40"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) $210\n\n**Explanation:**\nSpending 40% leaves 60%, so \\(0.6 \\times \\text{original} = 126\\), giving\n\\(126 \\div 0.6 = 210\\).\n\n**Why the other answers are wrong:**\n- **B** adds 40% of 126 instead of dividing.\n- **C** divides by 0.4 rather than 0.6.\n- **D** takes 40% of 126 — the amount spent is not the answer either.",
+    "explanation": "**Explanation:**\nSpending 40% leaves 60%, so \\(0.6 \\times \\text{original} = 126\\), giving\n\\(126 \\div 0.6 = 210\\).",
     "source": "authored",
     "needsReview": false
   }

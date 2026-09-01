@@ -182,3 +182,44 @@ test('no subtopic is empty at any grade', () => {
   }
   assert.deepEqual(empty, [], `${empty.length} subtopics have no questions:\n${empty.join('\n')}`);
 });
+
+/* RELEASE GATE — minimum questions per subtopic.
+
+   Owner decision, 2026-09-01: **20 at launch, 50 afterwards.** 50 is the real target, but it
+   needs 4,241 new questions against 1,622 today; 20 needs 1,101 and does not hold the launch.
+
+   Why a minimum exists at all, beyond "more is better": practice now retires a question once
+   the child answers it correctly, and serves the subtopic again only when the whole list has
+   been worked through (see test_data.test.js). With a 10-question bucket a child exhausts a
+   subtopic in one sitting and immediately meets the "starting again" banner. Twenty is the
+   point at which a session feels like practice rather than a loop.
+
+   `todo` rather than failing: 93 of 115 buckets are short today, and a permanently red suite
+   stops carrying signal. Remove the flag when the authoring is done — then a regression fails
+   the build, exactly as the "no subtopic is empty" gate does now. */
+const MIN_QUESTIONS_PER_SUBTOPIC = 20;
+
+test('every subtopic has at least 20 questions', { todo: true }, () => {
+  const man = JSON.parse(
+    readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
+  const short = [];
+  for (const subj of SUBJECTS) {
+    for (const g of [1, 2, 3, 4, 5, 6]) {
+      const counts = {};
+      for (const e of (man.grades?.[String(g)]?.[subj] || [])) counts[e.subtopic] = e.count || 0;
+      for (const s of subtopicsForGrade(subj, g)) {
+        const n = counts[s.id] || 0;
+        if (n < MIN_QUESTIONS_PER_SUBTOPIC) short.push(`g${g} ${subj}: ${s.name} (${n})`);
+      }
+    }
+  }
+  assert.deepEqual(short, [],
+    `${short.length} subtopics are under ${MIN_QUESTIONS_PER_SUBTOPIC}:\n${short.join('\n')}`);
+});
+
+/* The 50 target is recorded here so it is not lost when the 20 gate goes green. It is not a
+   second `todo` — one red-but-expected gate at a time is enough to stay meaningful. */
+test('the eventual target of 50 per subtopic is recorded, not forgotten', () => {
+  assert.equal(MIN_QUESTIONS_PER_SUBTOPIC, 20,
+    'launch gate is 20; raise to 50 once the post-launch authoring is done');
+});

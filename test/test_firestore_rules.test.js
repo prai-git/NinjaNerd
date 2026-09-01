@@ -423,6 +423,82 @@ describe('firestore security rules', { skip }, () => {
     await assertFails(getDoc(doc(adminDb, 'invites/i1')));
   });
 
+  /* ---- MASTERY: users/{uid}/progress/{key} (2026-09-01) --------------------------------- */
+
+  test('a user owns their mastery document, and nobody else can read it', async () => {
+    await seedUsers();
+    const { doc, setDoc, getDoc, deleteDoc } = firestore;
+    const aliceDb = env.authenticatedContext(ALICE).firestore();
+    const ref = doc(aliceDb, `users/${ALICE}/progress/g5_math_financial_literacy`);
+
+    await assertSucceeds(setDoc(ref, {
+      mastered: ['math_g5_q1', 'math_g5_q2'], updated_at: firestore.serverTimestamp(),
+    }));
+    await assertSucceeds(getDoc(ref));
+
+    // Another child cannot see what this one has mastered.
+    const bobDb = env.authenticatedContext(BOB).firestore();
+    await assertFails(getDoc(doc(bobDb, `users/${ALICE}/progress/g5_math_financial_literacy`)));
+
+    /* Nor can an admin. Audit renders profile, history and statistics; it does not render
+       mastery, so this collection deliberately does NOT widen to isAdmin(). */
+    const adminDb = env.authenticatedContext(ADMIN, { email: 'admin@example.com' }).firestore();
+    await assertFails(getDoc(doc(adminDb, `users/${ALICE}/progress/g5_math_financial_literacy`)));
+
+    // Progress is never deleted by the client; a reset writes an empty list instead.
+    await assertFails(deleteDoc(ref));
+  });
+
+  test('a mastery document cannot be bloated or given unexpected fields', async () => {
+    await seedUsers();
+    const { doc, setDoc } = firestore;
+    const db = env.authenticatedContext(ALICE).firestore();
+    const ref = doc(db, `users/${ALICE}/progress/g1_english_reading_comprehension`);
+
+    // Unknown fields are refused: this document is read on every practice start.
+    await assertFails(setDoc(ref, {
+      mastered: [], updated_at: firestore.serverTimestamp(), sneaky: 'x'.repeat(100),
+    }));
+    // mastered must be a list.
+    await assertFails(setDoc(ref, {
+      mastered: 'not-a-list', updated_at: firestore.serverTimestamp(),
+    }));
+    // And it is capped, so it cannot be grown without limit.
+    await assertFails(setDoc(ref, {
+      mastered: Array.from({ length: 1001 }, (_, i) => `q${i}`),
+      updated_at: firestore.serverTimestamp(),
+    }));
+    // An empty list is valid -- that is what a reset writes.
+    await assertSucceeds(setDoc(ref, {
+      mastered: [], updated_at: firestore.serverTimestamp(),
+    }));
+  });
+
+  test('history accepts question_id, and still accepts records without one', async () => {
+    await seedUsers();
+    const { doc, setDoc } = firestore;
+    const db = env.authenticatedContext(ALICE).firestore();
+
+    await assertSucceeds(setDoc(doc(db, `users/${ALICE}/history/h_with_id`), {
+      question: 'What is 3+3?', question_id: 'math_g1_2026-03-07_10-15_q4',
+      user_answer: '6', correct: true, topic: 'math', subtopic: 'Addition', grade: 1,
+      timestamp: firestore.serverTimestamp(),
+    }));
+
+    // Optional: rows written before question_id existed must remain valid.
+    await assertSucceeds(setDoc(doc(db, `users/${ALICE}/history/h_without_id`), {
+      question: 'What is 4+4?', user_answer: '8', correct: true,
+      topic: 'math', subtopic: 'Addition', grade: 1,
+      timestamp: firestore.serverTimestamp(),
+    }));
+
+    // But it is still bounded and typed.
+    await assertFails(setDoc(doc(db, `users/${ALICE}/history/h_bad_id`), {
+      question: 'q', question_id: 'x'.repeat(201), user_answer: 'a', correct: true,
+      topic: 'math', grade: 1, timestamp: firestore.serverTimestamp(),
+    }));
+  });
+
   test('an unrelated top-level collection is denied', async () => {
     const db = env.authenticatedContext(ALICE).firestore();
     const { doc, setDoc } = firestore;

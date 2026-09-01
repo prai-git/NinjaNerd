@@ -29,10 +29,15 @@ import {
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-firestore.js';
 
 import { auth, db } from './firebase-init.js';
-import { TOPICS } from './stats-calc.js';
+import { TOPICS, progressKeyFor } from './stats-calc.js';
 
 const historyCol = (uid) => collection(db, 'users', uid, 'history');
 const summaryRef = (uid) => doc(db, 'users', uid, 'statistics', 'summary');
+const progressRef = (uid, key) => doc(db, 'users', uid, 'progress', key);
+
+/* MASTERY KEY: defined in stats-calc.js, which imports nothing and is therefore unit-testable
+   in Node. Re-exported here so callers have one place to look. */
+export { progressKeyFor as progressKey } from './stats-calc.js';
 
 /* The UI gate in flow.js reads the display cache, which anyone can edit, so it decides what is
    drawn and nothing more. Writes check the Firebase user directly. `auth.currentUser` is the
@@ -50,7 +55,9 @@ function writableUser() {
    failures are logged and reported through the return value. Deliberately no localStorage
    replay queue: an offline queue nobody asked for is somewhere for stale answers to hide and
    resurface out of order. */
-export async function recordAttempt({ question, userAnswer, correct, topic, subtopic, grade }) {
+export async function recordAttempt({
+  question, questionId, userAnswer, correct, topic, subtopic, grade,
+}) {
   const user = writableUser();
   if (!user) {
     return { saved: false, reason: auth.currentUser ? 'unverified' : 'signed-out' };
@@ -65,6 +72,11 @@ export async function recordAttempt({ question, userAnswer, correct, topic, subt
     const batch = writeBatch(db);
     batch.set(doc(historyCol(user.uid)), {
       question: String(question ?? ''),
+      /* The compiled item's stable id. Recorded alongside the question TEXT, not instead of
+         it: Audit renders what the child actually saw without loading the content JSON, and
+         an id alone would break older rows if a question is ever reworded. Practice does not
+         read history to decide what to serve -- see the progress document below. */
+      ...(questionId ? { question_id: String(questionId) } : {}),
       user_answer: String(userAnswer ?? ''),
       correct: !!correct,
       topic: topic || null,
@@ -88,6 +100,20 @@ export async function recordAttempt({ question, userAnswer, correct, topic, subt
       } : {}),
       updated_at: serverTimestamp(),
     }, { merge: true });
+
+    /* MASTERY. A CORRECT answer retires that question from the child's pool for this subtopic
+       until the whole subtopic is worked through. Written in the SAME batch, so it costs no
+       extra round trip and can never disagree with the history row beside it.
+
+       Only on a correct answer, and only arrayUnion — a wrong answer must leave the question
+       in the pool, and re-answering something already mastered must not duplicate the id. */
+    const pKey = (correct && questionId) ? progressKeyFor(grade, topic, subtopic) : null;
+    if (pKey) {
+      batch.set(progressRef(user.uid, pKey), {
+        mastered: arrayUnion(String(questionId ?? '')),
+        updated_at: serverTimestamp(),
+      }, { merge: true });
+    }
 
     await commitWithOneRetry(batch);
     return { saved: true };
@@ -133,6 +159,46 @@ async function commitWithOneRetry(batch) {
 }
 
 /* Legacy set last_login on the user_statistics row at sign-in. */
+/* MASTERY, read side. ONE document read when practice starts.
+
+   Returns a Set of item ids the child has already answered correctly in this subtopic. An
+   unreadable or missing document yields an EMPTY set, never an error: the worst case is that
+   a child sees a question they had already mastered, which is a far better failure than a
+   practice page that will not open. */
+export async function getMastered({ grade, subject, subtopic }) {
+  const user = auth.currentUser;
+  const key = progressKeyFor(grade, subject, subtopic);
+  if (!user || !key) return new Set();
+  try {
+    const snap = await getDoc(progressRef(user.uid, key));
+    const list = snap.exists() ? snap.data().mastered : null;
+    return new Set(Array.isArray(list) ? list.filter((x) => typeof x === 'string') : []);
+  } catch (e) {
+    console.warn('[NinjaNerd] could not read mastery:', e && e.code);
+    return new Set();
+  }
+}
+
+/* Clear the mastered list so the subtopic can be practised again.
+
+   Called when the child has answered EVERY question in the subtopic correctly — the owner's
+   rule: "the questions can repeat if he or she has gone through the entire list". Writes an
+   empty list rather than deleting the document, because the rules forbid delete and an empty
+   list is the same thing to every reader. */
+export async function resetMastered({ grade, subject, subtopic }) {
+  const user = auth.currentUser;
+  const key = progressKeyFor(grade, subject, subtopic);
+  if (!user || !key) return false;
+  try {
+    await setDoc(progressRef(user.uid, key),
+      { mastered: [], updated_at: serverTimestamp() });
+    return true;
+  } catch (e) {
+    console.warn('[NinjaNerd] could not reset mastery:', e && e.code);
+    return false;
+  }
+}
+
 export async function touchLastLogin() {
   const user = auth.currentUser;
   if (!user) return false;

@@ -15,7 +15,7 @@
       "The plant makes sunlight by using oxygen."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12A, 4.5E  \n**Explanation:** Most producers use sunlight, water, and carbon dioxide to make food; this process cycles matter through living systems.  \n**Why the other answers are wrong:** B and C are not how a typical green plant gets most food; D reverses the relationship with sunlight.  \n**Key concept:** Producers make food using sunlight, water, and carbon dioxide.",
+    "explanation": "**Explanation:** Most producers use sunlight, water, and carbon dioxide to make food; this process cycles matter through living systems.\n**Key concept:** Producers make food using sunlight, water, and carbon dioxide.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "It is a predator that hunts shrimp."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12B  \n**Explanation:** Algae are producers. They capture energy from sunlight and provide energy to shrimp and mussels.  \n**Why the other answers are wrong:** B and D describe consumers/predators; C describes decomposers.  \n**Key concept:** Food webs show energy flow from producers to consumers.",
+    "explanation": "**Explanation:** Algae are producers. They capture energy from sunlight and provide energy to shrimp and mussels.\n**Key concept:** Food webs show energy flow from producers to consumers.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Decomposers will no longer break down dead material."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12B, 4.5D  \n**Explanation:** Shrimp are one food source for redfish, so fewer shrimp can reduce food available to redfish.  \n**Why the other answers are wrong:** B does not follow from shrimp numbers, C does not change mussels' role, and D ignores decomposers' role.  \n**Key concept:** Changes in one food-web population can affect connected populations.",
+    "explanation": "**Explanation:** Shrimp are one food source for redfish, so fewer shrimp can reduce food available to redfish.\n**Key concept:** Changes in one food-web population can affect connected populations.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "All fossils are living organisms."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.12C  \n**Explanation:** Shell fossils are evidence that shell organisms lived there in the past, supporting a past water environment.  \n**Why the other answers are wrong:** B is false, C is not supported, and D confuses fossils with living organisms.  \n**Key concept:** Fossils provide evidence about past environments.",
+    "explanation": "**Explanation:** Shell fossils are evidence that shell organisms lived there in the past, supporting a past water environment.\n**Key concept:** Fossils provide evidence about past environments.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "The waxy coating makes the leaves magnetic, and deep roots attract rain."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A, 4.5F  \n**Explanation:** A waxy surface reduces water loss, while deep roots help the plant reach water below the dry surface.  \n**Why the other answers are wrong:** B, C, and D give functions that plant structures cannot perform.  \n**Key concept:** Plant structures help plants survive in particular environments.",
+    "explanation": "**Explanation:** A waxy surface reduces water loss, while deep roots help the plant reach water below the dry surface.\n**Why the other answers are wrong:** B, C, and D give functions that plant structures cannot perform.\n**Key concept:** Plant structures help plants survive in particular environments.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "A clipped bird wing — trait passed unchanged to all offspring"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13B  \n**Explanation:** Fur color can be passed from parents to offspring, so it is an inherited physical trait. Scars, wilting, and clipped wings are acquired changes.  \n**Why the other answers are wrong:** B, C, and D label acquired changes as inherited.  \n**Key concept:** Inherited physical traits differ from traits acquired during life.",
+    "explanation": "**Explanation:** Fur color can be passed from parents to offspring, so it is an inherited physical trait. Scars, wilting, and clipped wings are acquired changes.\n**Why the other answers are wrong:** B, C, and D label acquired changes as inherited.\n**Key concept:** Inherited physical traits differ from traits acquired during life.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Adult plant becomes a seedling → seedling becomes a seed → seed germinates"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A (life-process extension)  \n**Explanation:** A seed germinates, grows into a seedling and then an adult plant; an adult plant can produce new seeds.  \n**Why the other answers are wrong:** B removes the needed growth stages; C is impossible; D reverses the life-cycle order.  \n**Key concept:** Living things have ordered growth and reproduction stages.",
+    "explanation": "**Explanation:** A seed germinates, grows into a seedling and then an adult plant; an adult plant can produce new seeds.\n**Key concept:** Living things have ordered growth and reproduction stages.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "The roots make the tree a nonliving part of the ecosystem."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A, 4.5F  \n**Explanation:** Wide roots can stabilize a tree in soft coastal mud and absorb water and minerals needed for life.  \n**Why the other answers are wrong:** B, C, and D do not describe root function or a living tree.  \n**Key concept:** Structure and function are connected in organisms.",
+    "explanation": "**Explanation:** Wide roots can stabilize a tree in soft coastal mud and absorb water and minerals needed for life.\n**Why the other answers are wrong:** B, C, and D do not describe root function or a living tree.\n**Key concept:** Structure and function are connected in organisms.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "It makes every pond organism have long legs."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13A, 4.5F  \n**Explanation:** Long legs help a heron reach fish while standing in shallow water, aiding survival in its habitat.  \n**Why the other answers are wrong:** B assigns a consumer a producer role, C is false, and D wrongly says all organisms gain the same trait.  \n**Key concept:** Adaptations are structures that help an organism survive in an environment.",
+    "explanation": "**Explanation:** Long legs help a heron reach fish while standing in shallow water, aiding survival in its habitat.\n**Key concept:** Adaptations are structures that help an organism survive in an environment.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "Neither characteristic is affected by parents or experience."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Biology / Life Science / 4.13B (plus MAP learned-behavior extension)  \n**Explanation:** Fur color is a physical trait that can be inherited from parents. Responding to a whistle is learned through training and experience.  \n**Why the other answers are wrong:** B reverses the types; C incorrectly calls training inherited; D ignores heredity and learning.  \n**Key concept:** Inherited physical traits and learned behaviors have different sources.",
+    "explanation": "**Explanation:** Fur color is a physical trait that can be inherited from parents. Responding to a whistle is learned through training and experience.\n**Key concept:** Inherited physical traits and learned behaviors have different sources.",
     "source": "authored",
     "needsReview": false
   }

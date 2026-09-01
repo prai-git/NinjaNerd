@@ -15,7 +15,7 @@
       "Fuel prices rise and fall unpredictably."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) A neighbourhood car-share scheme brings several benefits at once.\n\n**Explanation:**\nEach following sentence names one benefit, so the opening must announce that several exist.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** mention cars, roads or fuel but none is developed by the details.",
+    "explanation": "**Explanation:**\nEach following sentence names one benefit, so the opening must announce that several exist.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Sentence 3"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Sentence 4\n\n**Explanation:**\nThe paragraph explains what ice cores reveal. Penguins swimming is unrelated.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each develop the ice-core topic.",
+    "explanation": "**Explanation:**\nThe paragraph explains what ice cores reveal. Penguins swimming is unrelated.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "In the same way"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Nevertheless\n\n**Explanation:**\nPublishing despite finding nothing is a contrast with what the reader expects, so a concessive\ntransition fits.\n\n**Why the other answers are wrong:**\n- **B** *Consequently* signals a result, but no effect was found.\n- **C** *For instance* introduces an example.\n- **D** *In the same way* signals similarity.",
+    "explanation": "**Explanation:**\nPublishing despite finding nothing is a contrast with what the reader expects, so a concessive\ntransition fits.\n\n**Why the other answers are wrong:**\n- *Consequently* signals a result, but no effect was found.\n- *For instance* introduces an example.\n- *In the same way* signals similarity.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Teenagers have always disliked getting up early."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) A district that shifted its start time by an hour recorded a 12% fall in\nstudent lateness.\n\n**Explanation:**\nThis is specific, measurable and drawn from a real comparison. The rest are personal opinion or\nanecdote.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** rest on how individuals feel, which cannot establish an effect.",
+    "explanation": "student lateness.\n\n**Explanation:**\nThis is specific, measurable and drawn from a real comparison. The rest are personal opinion or\nanecdote.",
     "source": "authored",
     "needsReview": false
   }

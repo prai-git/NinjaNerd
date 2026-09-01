@@ -15,7 +15,7 @@
       "\\(430\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(86\\)\n\n**Explanation:**\nSum: \\(82 + 91 + 78 + 95 + 84 = 430\\). Mean: \\(430 \\div 5 = 86\\).\n\n**Why the other answers are wrong:**\n- **B** and **C** are near misses from an arithmetic slip.\n- **D** 430 is the total, not the mean — dividing was forgotten.",
+    "explanation": "**Explanation:**\nSum: \\(82 + 91 + 78 + 95 + 84 = 430\\). Mean: \\(430 \\div 5 = 86\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Neither measure can be calculated."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) The median (6) describes the data better than the mean (12.8) because of\nthe outlier.\n\n**Explanation:**\nMean \\(= 64 \\div 5 = 12.8\\), which is larger than four of the five values — pulled up by the\n40. The median, 6, sits among the bulk of the data.\n\n**Why the other answers are wrong:**\n- **B** using every value is exactly why the mean is distorted here.\n- **C** \\(6 \\neq 12.8\\).\n- **D** both are perfectly calculable.",
+    "explanation": "the outlier.\n\n**Explanation:**\nMean \\(= 64 \\div 5 = 12.8\\), which is larger than four of the five values — pulled up by the\n40. The median, 6, sits among the bulk of the data.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(45\\) °C"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) \\(9\\) °C\n\n**Explanation:**\nRange = highest − lowest = \\(27 - 18 = 9\\) °C.\n\n**Why the other answers are wrong:**\n- **B** is the mean.\n- **C** is the maximum alone.\n- **D** adds the extremes.",
+    "explanation": "**Explanation:**\nRange = highest − lowest = \\(27 - 18 = 9\\) °C.",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "\\(\\frac38\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(\\frac68\\)  \n**TEKS:** 4.3C  \n**Step-by-step solution:** Multiply numerator and denominator of \\(\\frac34\\) by 2.  \n**Why other answers are wrong:** B (“\\(\\frac47\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac9{16}\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac38\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** equivalent fractions.",
+    "explanation": "**Step-by-step solution:** Multiply numerator and denominator of \\(\\frac34\\) by 2.\n**Why other answers are wrong:** (“\\(\\frac47\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac9{16}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac38\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** equivalent fractions.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(\\frac58>\\frac{10}{8}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(\\frac58>\\frac5{10}\\)  \n**TEKS:** 4.3D [R]  \n**Step-by-step solution:** Equal numerators: eighths are larger pieces than tenths, so five eighths is greater.  \n**Why other answers are wrong:** B (“\\(\\frac58<\\frac5{10}\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac58=\\frac5{10}\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac58>\\frac{10}{8}\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** compare fractions.",
+    "explanation": "**Step-by-step solution:** Equal numerators: eighths are larger pieces than tenths, so five eighths is greater.\n**Why other answers are wrong:** (“\\(\\frac58<\\frac5{10}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac58=\\frac5{10}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac58>\\frac{10}{8}\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** compare fractions.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(\\frac28+\\frac38\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(\\frac38+\\frac48\\)  \n**TEKS:** 4.3E  \n**Step-by-step solution:** \\(3+4=7\\) while the denominator stays 8.  \n**Why other answers are wrong:** B (“\\(\\frac34+\\frac18\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac78+\\frac18\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac28+\\frac38\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decompose fractions.",
+    "explanation": "**Step-by-step solution:** \\(3+4=7\\) while the denominator stays 8.\n**Why other answers are wrong:** (“\\(\\frac34+\\frac18\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac78+\\frac18\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac28+\\frac38\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** decompose fractions.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(\\frac6{24}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(\\frac12\\)  \n**TEKS:** 4.3E  \n**Step-by-step solution:** \\(11-5=6\\), so \\(\\frac6{12}=\\frac12\\).  \n**Why other answers are wrong:** B (“\\(\\frac6{12}\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac5{12}\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac6{24}\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** subtract fractions.",
+    "explanation": "**Step-by-step solution:** \\(11-5=6\\), so \\(\\frac6{12}=\\frac12\\).\n**Why other answers are wrong:** (“\\(\\frac6{12}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac5{12}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac6{24}\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** subtract fractions.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "\\(\\frac47\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(\\frac{47}{100}\\)  \n**TEKS:** 4.2F  \n**Step-by-step solution:** The decimal has 47 hundredths.  \n**Why other answers are wrong:** B (“\\(\\frac{47}{10}\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(\\frac7{47}\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(\\frac47\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decimal fractions.",
+    "explanation": "**Step-by-step solution:** The decimal has 47 hundredths.\n**Why other answers are wrong:** (“\\(\\frac{47}{10}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac7{47}\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(\\frac47\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** decimal fractions.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "\\(22.69\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(21.79\\)  \n**TEKS:** 4.4A [R]  \n**Step-by-step solution:** Align decimals and regroup: \\(30.75-8.96=21.79\\).  \n**Why other answers are wrong:** B (“\\(22.79\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(21.89\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(22.69\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decimal subtraction.",
+    "explanation": "**Step-by-step solution:** Align decimals and regroup: \\(30.75-8.96=21.79\\).\n**Why other answers are wrong:** (“\\(22.79\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(21.89\\)”) uses a different operation, place, or interpretation than the evidence requires; (“\\(22.69\\)”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** decimal subtraction.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "963"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 972  \n**TEKS:** 4.4D [R]  \n**Step-by-step solution:** \\(36\\times27=36\\times20+36\\times7=720+252=972\\).  \n**Why other answers are wrong:** B (“882”) uses a different operation, place, or interpretation than the evidence requires; C (“1,062”) uses a different operation, place, or interpretation than the evidence requires; D (“963”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** two-digit multiplication.",
+    "explanation": "**Step-by-step solution:** \\(36\\times27=36\\times20+36\\times7=720+252=972\\).\n**Why other answers are wrong:** (“882”) uses a different operation, place, or interpretation than the evidence requires; (“1,062”) uses a different operation, place, or interpretation than the evidence requires; (“963”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** two-digit multiplication.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "200"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 199  \n**TEKS:** 4.4H  \n**Step-by-step solution:** \\(1,587\\div8=198\\) R3. The remaining pears need one more carton.  \n**Why other answers are wrong:** B (“198”) uses a different operation, place, or interpretation than the evidence requires; C (“198 R3”) uses a different operation, place, or interpretation than the evidence requires; D (“200”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** interpret remainders.",
+    "explanation": "**Step-by-step solution:** \\(1,587\\div8=198\\) R3. The remaining pears need one more carton.\n**Why other answers are wrong:** (“198”) uses a different operation, place, or interpretation than the evidence requires; (“198 R3”) uses a different operation, place, or interpretation than the evidence requires; (“200”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** interpret remainders.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "432"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 12  \n**TEKS:** 4.4H [R]  \n**Step-by-step solution:** \\(18\\times24=432\\) beads and \\(432\\div36=12\\).  \n**Why other answers are wrong:** B (“10”) uses a different operation, place, or interpretation than the evidence requires; C (“14”) uses a different operation, place, or interpretation than the evidence requires; D (“432”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** two-step operations.",
+    "explanation": "**Step-by-step solution:** \\(18\\times24=432\\) beads and \\(432\\div36=12\\).\n**Why other answers are wrong:** (“10”) uses a different operation, place, or interpretation than the evidence requires; (“14”) uses a different operation, place, or interpretation than the evidence requires; (“432”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** two-step operations.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "32,000"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 28,000  \n**TEKS:** 4.4C  \n**Step-by-step solution:** Round 3,987 to 4,000; \\(4,000\\times7=28,000\\).  \n**Why other answers are wrong:** B (“24,000”) uses a different operation, place, or interpretation than the evidence requires; C (“3,500”) uses a different operation, place, or interpretation than the evidence requires; D (“32,000”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** estimate products.",
+    "explanation": "**Step-by-step solution:** Round 3,987 to 4,000; \\(4,000\\times7=28,000\\).\n**Why other answers are wrong:** (“24,000”) uses a different operation, place, or interpretation than the evidence requires; (“3,500”) uses a different operation, place, or interpretation than the evidence requires; (“32,000”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** estimate products.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "175"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 113  \n**TEKS:** 4.4A  \n**Step-by-step solution:** \\(8\\times36=288\\) and \\(288-175=113\\).  \n**Why other answers are wrong:** B (“93”) uses a different operation, place, or interpretation than the evidence requires; C (“463”) uses a different operation, place, or interpretation than the evidence requires; D (“175”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** multi-step computation.",
+    "explanation": "**Step-by-step solution:** \\(8\\times36=288\\) and \\(288-175=113\\).\n**Why other answers are wrong:** (“93”) uses a different operation, place, or interpretation than the evidence requires; (“463”) uses a different operation, place, or interpretation than the evidence requires; (“175”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** multi-step computation.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "410 R75"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 420 R5  \n**TEKS:** 4.4F  \n**Step-by-step solution:** \\(7\\times420=2,940\\) with 5 left over.  \n**Why other answers are wrong:** B (“421 R4”) uses a different operation, place, or interpretation than the evidence requires; C (“420”) uses a different operation, place, or interpretation than the evidence requires; D (“410 R75”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** division remainders.",
+    "explanation": "**Step-by-step solution:** \\(7\\times420=2,940\\) with 5 left over.\n**Why other answers are wrong:** (“421 R4”) uses a different operation, place, or interpretation than the evidence requires; (“420”) uses a different operation, place, or interpretation than the evidence requires; (“410 R75”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** division remainders.",
     "source": "authored",
     "needsReview": false
   }

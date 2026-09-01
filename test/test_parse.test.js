@@ -1,11 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug,
-  extractAnswerLetter, extractAnswerText,
+  extractAnswerLetter, extractAnswerText, cleanExplanation,
 } from '../tools/lib/parse.mjs';
 
 const fx = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
@@ -352,4 +352,149 @@ test('the built content carries passages through to the JSON', () => {
   assert.ok(total >= 1368, `item count fell to ${total}; a parser change is dropping questions`);
   assert.ok(withPassage > 300, `expected 300+ items with passages, got ${withPassage}`);
   assert.ok(orphaned <= 10, `${orphaned} questions still refer to a passage they do not have`);
+});
+
+/* ---- cleanExplanation (2026-09-01) --------------------------------------------------------
+
+   Found by rendering the whole corpus and reading the output. Explanations are shown to a
+   child AFTER a wrong answer, and they carried three things from the authoring format:
+   the answer key, standards codes, and option letters. Practice SHUFFLES the options, so a
+   stated letter was wrong in 78% of 3000 trials — a confident, false statement.
+
+   The tests below are split deliberately: what must be REMOVED, and what must SURVIVE. The
+   second half matters more. Every case there is real corpus text that an over-broad rule
+   destroyed while I was writing this. */
+
+test('the answer-key line goes — the page already shows the answer, correctly', () => {
+  assert.equal(cleanExplanation('**Correct answer: B. sock**\n**Explanation:** X.').trim(),
+    '**Explanation:** X.');
+  assert.equal(cleanExplanation('**Correct Answer:** A) The bird sings.\n\nBecause.').trim(),
+    'Because.');
+  // The same claim as a trailing sentence, 50 items, all one template.
+  assert.equal(cleanExplanation('Evidence supports it. Therefore, **C** is the best answer.').trim(),
+    'Evidence supports it.');
+});
+
+test('standards annotations go, anywhere in the block and not just line 1', () => {
+  // Line 1 was all the old stripper ever looked at; these put the key first and the code second.
+  assert.equal(cleanExplanation('**MAP area / TEKS:** Reading Foundations; 1.2A(ii).\n**Explanation:** X.').trim(),
+    '**Explanation:** X.');
+  assert.equal(cleanExplanation('**Topic:** T\n**TEKS:** 5.4\n\n**Solution:** X.').trim(),
+    '**Topic:** T\n\n**Solution:** X.');
+  assert.equal(cleanExplanation('**TEKS 6.12B** — Ecological relationships\n**Key concept:** X.').trim(),
+    '**Key concept:** X.');
+});
+
+test('an option letter is dropped when the option TEXT follows it', () => {
+  // "**B** *bird sing* does not agree" still reads correctly without the label.
+  assert.match(cleanExplanation('**Why the other answers are wrong:**\n- **B** *bird sing* does not agree.'),
+    /- \*bird sing\* does not agree\./);
+  assert.match(cleanExplanation('**Why the other answers are wrong:** A *map* begins /m/; C *top* begins /t/.'),
+    /\*map\* begins \/m\/; \*top\* begins \/t\/\./);
+});
+
+test('a distractor section whose letters are the SUBJECT is dropped whole, not mangled', () => {
+  /* "B ends /im/" cannot lose its letter and still parse — the first attempt produced
+     "ends /im/", which is worse than either keeping or dropping it. And it cannot be kept:
+     after the shuffle it names the wrong option. */
+  const out = cleanExplanation(
+    '**Explanation:** X.\n**Why the other answers are wrong:** B ends /im/; C ends /unk/.');
+  assert.equal(out.trim(), '**Explanation:** X.');
+  assert.doesNotMatch(out, /ends \/im\//, 'the fragment must not survive');
+});
+
+test('a distractor section is judged as a UNIT, never item by item', () => {
+  /* Deciding line by line produced lists where two items had lost their letter and a third
+     had kept it. The surviving letter then looks authoritative, which is the worst outcome. */
+  const mixed = '**Why the other answers are wrong:**\n'
+    + '- **B** *bird sing* does not agree.\n'   // strippable
+    + '- **C** plural *birds* needs *sing*.\n'  // NOT strippable
+    + '- **D** *singing* alone is incomplete.';
+  const out = cleanExplanation(mixed);
+  assert.doesNotMatch(out, /\*\*[A-D]\*\*/, 'no letter may survive its section');
+  assert.doesNotMatch(out, /bird sing/, 'and the section goes as a whole');
+});
+
+test('every distractor-header variant in the corpus is recognised', () => {
+  // Counted, not guessed: wrong (643/309/164/40), incorrect (56), distractor note (1).
+  for (const header of [
+    'Why the other answers are wrong:', 'Why other answers are wrong:',
+    'Why others are wrong:', 'Why other answers are incorrect:',
+    'Why the others are wrong:', 'Distractor note:',
+  ]) {
+    const out = cleanExplanation(`**Explanation:** Keep me.\n**${header}** B ends /im/.`);
+    assert.equal(out.trim(), '**Explanation:** Keep me.', `missed variant: ${header}`);
+  }
+});
+
+/* ---- what must SURVIVE. Each of these was destroyed by a draft of the rules above. ---- */
+
+test('real teaching prose is never touched', () => {
+  const keep = [
+    // "A" is the article, not option A. An early rule ate it.
+    '**Explanation:** A number n is greater than 15.',
+    '**Explanation:** A singular subject takes the *-s* form of the verb.',
+    // A sub-skill name is not a standard.
+    '**Topic:** Finding Percent Discount',
+    // The corpus really does explain sublimation using the word STAAR.
+    '**Key concept:** Sublimation = solid to gas. Dry ice is the classic STAAR example.',
+    // "map area" in geometry must not match the "MAP area" keyword — hence case-sensitivity.
+    '**Key Concept:** The map area of a rectangle is length x width.',
+    // A distractor section with no letters at all is useful and stays.
+    '**Why the other answers are wrong:** they use the wrong unit.',
+  ];
+  for (const text of keep) {
+    assert.equal(cleanExplanation(text).trim(), text.trim(), `must survive: ${text}`);
+  }
+});
+
+test('cleaning never empties an explanation, across the whole shipped corpus', () => {
+  /* The guard that matters. Every rule here deletes text, and a rule that is one character
+     too greedy turns a teaching aid into a blank card. */
+  const man = JSON.parse(readFileSync(
+    join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
+  assert.ok(man.grades, 'manifest should be present');
+
+  const root = join(repoRoot, 'app/content/questions/en');
+  const files = [];
+  (function walk(dir) {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (name.endsWith('.json') && name !== 'manifest.json') files.push(p);
+    }
+  }(root));
+
+  let withExplanation = 0;
+  for (const f of files) {
+    for (const item of JSON.parse(readFileSync(f, 'utf8'))) {
+      if (!item.explanation) continue;
+      withExplanation++;
+      assert.ok(item.explanation.trim().length > 0, `${item.id} has a blank explanation`);
+      // Idempotent: re-cleaning shipped content must be a no-op.
+      assert.equal(cleanExplanation(item.explanation), item.explanation,
+        `${item.id} is not stable under a second clean`);
+    }
+  }
+  assert.ok(withExplanation > 1000, `expected the corpus, saw ${withExplanation}`);
+});
+
+test('no shipped explanation states an option letter as the answer', () => {
+  // The defect that started this: wrong in 78% of shuffles.
+  const root = join(repoRoot, 'app/content/questions/en');
+  const offenders = [];
+  (function walk(dir) {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (name.endsWith('.json') && name !== 'manifest.json') {
+        for (const item of JSON.parse(readFileSync(p, 'utf8'))) {
+          if (item.explanation && /correct answer:\s*\*{0,2}[A-D]\b/i.test(item.explanation)) {
+            offenders.push(item.id);
+          }
+        }
+      }
+    }
+  }(root));
+  assert.deepEqual(offenders, [], `these state an option letter: ${offenders.slice(0, 5)}`);
 });

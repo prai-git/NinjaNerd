@@ -395,7 +395,7 @@
       "246 + 0.8 + 0.01 + 0.003"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer: A**\n\n**Step-by-step:**\nBreak 246.813 by place value:\n- 2 is in the hundreds place → **200**\n- 4 is in the tens place → **40**\n- 6 is in the ones place → **6**\n- 8 is in the tenths place → **0.8**\n- 1 is in the hundredths place → **0.01**\n- 3 is in the thousandths place → **0.003**\n\n**Expanded notation: 200 + 40 + 6 + 0.8 + 0.01 + 0.003**\n\n**Why other answers are wrong:**\n- B) Uses 0.1 and 0.03 — wrong place values for tenths/hundredths digits\n- C) Uses 0.08, 0.001, 0.0003 — shifts all decimal digits one place to the right\n- D) Keeps 246 as a single number instead of expanding it\n\n**Key concept:** Each digit must be written as its place value, including decimal digits going to tenths (÷10), hundredths (÷100), and thousandths (÷1,000).",
+    "explanation": "**Step-by-step:**\nBreak 246.813 by place value:\n- 2 is in the hundreds place → **200**\n- 4 is in the tens place → **40**\n- 6 is in the ones place → **6**\n- 8 is in the tenths place → **0.8**\n- 1 is in the hundredths place → **0.01**\n- 3 is in the thousandths place → **0.003**\n\n**Expanded notation: 200 + 40 + 6 + 0.8 + 0.01 + 0.003**\n\n**Key concept:** Each digit must be written as its place value, including decimal digits going to tenths (÷10), hundredths (÷100), and thousandths (÷1,000).",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "3.405, 3.5, 3.054, 3.045"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 3.5, 3.405, 3.054, 3.045\n\n**Step-by-step:**\nLine up digits by place value and compare:\n\n| Decimal | Tenths | Hundredths | Thousandths |\n|---------|--------|------------|-------------|\n| 3.5     | 5      | 0          | 0           |\n| 3.405   | 4      | 0          | 5           |\n| 3.054   | 0      | 5          | 4           |\n| 3.045   | 0      | 4          | 5           |\n\nCompare tenths digit first:\n- 3.5 has 5 in tenths → **greatest**\n- 3.405 has 4 in tenths → **second**\n- 3.054 and 3.045 both have 0 in tenths → compare hundredths:\n  - 3.054 has 5 in hundredths → third\n  - 3.045 has 4 in hundredths → least\n\n**Order greatest to least: 3.5 > 3.405 > 3.054 > 3.045**\n\n**Why other answers are wrong:**\n- A) This is least to greatest, not greatest to least\n- C) Incorrectly places 3.054 before 3.045 but also incorrectly orders 3.405 last\n- D) Swaps 3.5 and 3.405",
+    "explanation": "**Step-by-step:**\nLine up digits by place value and compare:\n\n| Decimal | Tenths | Hundredths | Thousandths |\n|---------|--------|------------|-------------|\n| 3.5     | 5      | 0          | 0           |\n| 3.405   | 4      | 0          | 5           |\n| 3.054   | 0      | 5          | 4           |\n| 3.045   | 0      | 4          | 5           |\n\nCompare tenths digit first:\n- 3.5 has 5 in tenths → **greatest**\n- 3.405 has 4 in tenths → **second**\n- 3.054 and 3.045 both have 0 in tenths → compare hundredths:\n  - 3.054 has 5 in hundredths → third\n  - 3.045 has 4 in hundredths → least\n\n**Order greatest to least: 3.5 > 3.405 > 3.054 > 3.045**",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "10.0"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 9.5\n\n**Step-by-step:**\nRound 9.473 to the nearest **tenth** (one decimal place).\n- Look at the tenths digit: **4**\n- Look at the hundredths digit (the rounding digit): **7**\n- Since 7 ≥ 5, round the tenths digit **up**: 4 → 5\n- Drop digits after the tenths place\n\n**9.473 rounded to the nearest tenth = 9.5**\n\n**Why other answers are wrong:**\n- A) 9.4 — would be correct only if the hundredths digit were 0–4; here it is 7\n- B) 9.47 — this rounds to the nearest hundredth, not tenth\n- D) 10.0 — this rounds to the nearest whole number",
+    "explanation": "**Step-by-step:**\nRound 9.473 to the nearest **tenth** (one decimal place).\n- Look at the tenths digit: **4**\n- Look at the hundredths digit (the rounding digit): **7**\n- Since 7 ≥ 5, round the tenths digit **up**: 4 → 5\n- Drop digits after the tenths place\n\n**9.473 rounded to the nearest tenth = 9.5**",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "1 3/5"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 1 7/12\n\n**Step-by-step:**\n**3/4 + 5/6**\n\nStep 1 — Find the LCD of 4 and 6:\n- Multiples of 4: 4, 8, **12**, 16…\n- Multiples of 6: 6, **12**, 18…\n- LCD = 12\n\nStep 2 — Convert to equivalent fractions:\n- 3/4 = 9/12 (multiply numerator and denominator by 3)\n- 5/6 = 10/12 (multiply numerator and denominator by 2)\n\nStep 3 — Add:\n- 9/12 + 10/12 = **19/12**\n\nStep 4 — Convert to a mixed number:\n- 19 ÷ 12 = 1 remainder 7 → **1 7/12**\n\n**Why other answers are wrong:**\n- A) 8/10 — incorrectly adds numerators (3+5) and denominators (4+6)\n- B) 15/24 — uses an incorrect common denominator; also does not simplify\n- D) 1 3/5 — arithmetic error",
+    "explanation": "**Step-by-step:**\n**3/4 + 5/6**\n\nStep 1 — Find the LCD of 4 and 6:\n- Multiples of 4: 4, 8, **12**, 16…\n- Multiples of 6: 6, **12**, 18…\n- LCD = 12\n\nStep 2 — Convert to equivalent fractions:\n- 3/4 = 9/12 (multiply numerator and denominator by 3)\n- 5/6 = 10/12 (multiply numerator and denominator by 2)\n\nStep 3 — Add:\n- 9/12 + 10/12 = **19/12**\n\nStep 4 — Convert to a mixed number:\n- 19 ÷ 12 = 1 remainder 7 → **1 7/12**",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "3/8"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 5/24\n\n**Step-by-step:**\n**7/8 − 2/3**\n\nStep 1 — Find the LCD of 8 and 3:\n- Multiples of 8: 8, 16, **24**…\n- Multiples of 3: 3, 6, 9, …, **24**…\n- LCD = 24\n\nStep 2 — Convert to equivalent fractions:\n- 7/8 = 21/24 (multiply by 3/3)\n- 2/3 = 16/24 (multiply by 8/8)\n\nStep 3 — Subtract:\n- 21/24 − 16/24 = **5/24**\n\n**Why other answers are wrong:**\n- A) 5/5 = 1 — subtracts both numerators (7−2=5) and both denominators (8−3=5); not a valid operation\n- C) 5/11 — adds denominators instead of finding LCD\n- D) 3/8 — arithmetic error",
+    "explanation": "**Step-by-step:**\n**7/8 − 2/3**\n\nStep 1 — Find the LCD of 8 and 3:\n- Multiples of 8: 8, 16, **24**…\n- Multiples of 3: 3, 6, 9, …, **24**…\n- LCD = 24\n\nStep 2 — Convert to equivalent fractions:\n- 7/8 = 21/24 (multiply by 3/3)\n- 2/3 = 16/24 (multiply by 8/8)\n\nStep 3 — Subtract:\n- 21/24 − 16/24 = **5/24**",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "1 1/4 cups"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 3/10 cup\n\n**Step-by-step:**\n**3/4 × 2/5**\n\nStep 1 — Multiply the numerators: 3 × 2 = 6\nStep 2 — Multiply the denominators: 4 × 5 = 20\nStep 3 — Simplify 6/20 = **3/10**\n\n**Why other answers are wrong:**\n- A) 5/9 — adds instead of multiplies\n- C) 6/5 — multiplies numerators correctly but swaps numerator and denominator\n- D) 1 1/4 — errors in multiplication leading to incorrect product",
+    "explanation": "**Step-by-step:**\n**3/4 × 2/5**\n\nStep 1 — Multiply the numerators: 3 × 2 = 6\nStep 2 — Multiply the denominators: 4 × 5 = 20\nStep 3 — Simplify 6/20 = **3/10**",
     "source": "authored",
     "needsReview": false
   },
@@ -515,7 +515,7 @@
       "4/12"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 12\n\n**Step-by-step:**\n**4 ÷ 1/3**\n\nWhen dividing by a fraction, **multiply by its reciprocal**:\n- Reciprocal of 1/3 is 3/1 = 3\n- 4 ÷ 1/3 = 4 × 3 = **12**\n\n**Real-world check:** If each serving uses 1/3 pound, then in 4 pounds there are 4 × 3 = 12 one-third-pound servings. ✓\n\n**Why other answers are wrong:**\n- A) 4/3 — divides 4 by 3 as if dividing a whole number (does not apply reciprocal)\n- B) 1 1/3 — inverts the problem (computes 1/3 × 4 ÷ 1 incorrectly)\n- D) 4/12 = 1/3 — multiplies instead of divides, then simplifies",
+    "explanation": "**Step-by-step:**\n**4 ÷ 1/3**\n\nWhen dividing by a fraction, **multiply by its reciprocal**:\n- Reciprocal of 1/3 is 3/1 = 3\n- 4 ÷ 1/3 = 4 × 3 = **12**\n\n**Real-world check:** If each serving uses 1/3 pound, then in 4 pounds there are 4 × 3 = 12 one-third-pound servings. ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -535,7 +535,7 @@
       "6/5 gallons"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 1/30 gallon\n\n**Step-by-step:**\n**1/6 ÷ 5**\n\nTo divide a fraction by a whole number, multiply the fraction by the reciprocal of the whole number:\n- Reciprocal of 5 is 1/5\n- 1/6 × 1/5 = **1/30**\n\n**Real-world check:** Splitting 1/6 gallon equally among 5 plants gives each plant 1/30 gallon. ✓\n\n**Why other answers are wrong:**\n- A) 5/6 — multiplies numerator by 5 instead of dividing\n- B) 1/11 — adds 6 + 5 in the denominator (incorrect operation)\n- D) 6/5 — inverts the fraction and multiplies (finds 6 ÷ 1/5 instead)",
+    "explanation": "**Step-by-step:**\n**1/6 ÷ 5**\n\nTo divide a fraction by a whole number, multiply the fraction by the reciprocal of the whole number:\n- Reciprocal of 5 is 1/5\n- 1/6 × 1/5 = **1/30**\n\n**Real-world check:** Splitting 1/6 gallon equally among 5 plants gives each plant 1/30 gallon. ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -555,7 +555,7 @@
       "212.8"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 21.28\n\n**Step-by-step:**\n**3.8 × 5.6**\n\nMultiply as whole numbers first:\n- 38 × 56:\n  - 38 × 50 = 1,900\n  - 38 × 6 = 228\n  - 1,900 + 228 = 2,128\n\nCount decimal places: 3.8 has 1 decimal place; 5.6 has 1 decimal place → 2 decimal places total.\n\nPlace the decimal point: 2128 → **21.28**\n\n**Why other answers are wrong:**\n- A) 20.48 — arithmetic error in partial products\n- C) 21.8 — only 1 decimal place in the product (miscounting)\n- D) 212.8 — misplaces the decimal (only 1 place instead of 2)",
+    "explanation": "**Step-by-step:**\n**3.8 × 5.6**\n\nMultiply as whole numbers first:\n- 38 × 56:\n  - 38 × 50 = 1,900\n  - 38 × 6 = 228\n  - 1,900 + 228 = 2,128\n\nCount decimal places: 3.8 has 1 decimal place; 5.6 has 1 decimal place → 2 decimal places total.\n\nPlace the decimal point: 2128 → **21.28**",
     "source": "authored",
     "needsReview": false
   },
@@ -575,7 +575,7 @@
       "0.203 meters"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 2.03 meters\n\n**Step-by-step:**\n**24.36 ÷ 12**\n\nDivide:\n- 24 ÷ 12 = 2\n- 0.36 ÷ 12 = 0.03\n- Result: **2.03**\n\n**Verification:** 2.03 × 12 = 24.36 ✓\n\n**Why other answers are wrong:**\n- A) 2.3 — drops the zero in the hundredths place (2.03 ≠ 2.3)\n- C) 20.3 — misplaces decimal 10 times too large\n- D) 0.203 — misplaces decimal 10 times too small",
+    "explanation": "**Step-by-step:**\n**24.36 ÷ 12**\n\nDivide:\n- 24 ÷ 12 = 2\n- 0.36 ÷ 12 = 0.03\n- Result: **2.03**\n\n**Verification:** 2.03 × 12 = 24.36 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -595,7 +595,7 @@
       "10.52 km"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer: A** → 10.42 km\n\n**Step-by-step:**\n**3.45 + 2.80 + 4.17**\n\nLine up decimal points and add:\n```\n  3.45\n  2.80\n+ 4.17\n------\n 10.42\n```\n\n- Hundredths: 5 + 0 + 7 = 12 → write 2, carry 1\n- Tenths: 4 + 8 + 1 + 1 (carry) = 14 → write 4, carry 1\n- Ones: 3 + 2 + 4 + 1 (carry) = 10 → write 0, carry 1\n- Tens: 0 + 0 + 0 + 1 (carry) = 1\n\n**Total = 10.42 km**\n\n**Why other answers are wrong:**\n- B) 9.42 — drops the tens carry; 3+2+4=9 (forgets the carry from tenths)\n- C) 10.32 — arithmetic error in hundredths column\n- D) 10.52 — arithmetic error in hundredths column",
+    "explanation": "**Step-by-step:**\n**3.45 + 2.80 + 4.17**\n\nLine up decimal points and add:\n```\n  3.45\n  2.80\n+ 4.17\n------\n 10.42\n```\n\n- Hundredths: 5 + 0 + 7 = 12 → write 2, carry 1\n- Tenths: 4 + 8 + 1 + 1 (carry) = 14 → write 4, carry 1\n- Ones: 3 + 2 + 4 + 1 (carry) = 10 → write 0, carry 1\n- Tens: 0 + 0 + 0 + 1 (carry) = 1\n\n**Total = 10.42 km**",
     "source": "authored",
     "needsReview": false
   },
@@ -615,7 +615,7 @@
       "4 1/3"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 4 7/12\n\n**Step-by-step:**\n**1 3/4 + 2 5/6**\n\nStep 1 — Find LCD of 4 and 6 = **12**\n\nStep 2 — Convert fractions:\n- 3/4 = 9/12\n- 5/6 = 10/12\n\nStep 3 — Add:\n- (1 + 2) = 3 (whole numbers)\n- 9/12 + 10/12 = 19/12\n\nStep 4 — Simplify the improper fraction: 19 ÷ 12 = 1 remainder 7 → **1 7/12**\n\nStep 5 — Add: 3 + 1 7/12 = **4 7/12**\n\n**Why other answers are wrong:**\n- A) 3 2/5 — adds numerators and denominators separately (invalid)\n- B) 3 8/10 — uses wrong LCD; 3+5=8 and 4+6=10 (cannot add denominators)\n- D) 4 1/3 — arithmetic error in fraction addition",
+    "explanation": "**Step-by-step:**\n**1 3/4 + 2 5/6**\n\nStep 1 — Find LCD of 4 and 6 = **12**\n\nStep 2 — Convert fractions:\n- 3/4 = 9/12\n- 5/6 = 10/12\n\nStep 3 — Add:\n- (1 + 2) = 3 (whole numbers)\n- 9/12 + 10/12 = 19/12\n\nStep 4 — Simplify the improper fraction: 19 ÷ 12 = 1 remainder 7 → **1 7/12**\n\nStep 5 — Add: 3 + 1 7/12 = **4 7/12**",
     "source": "authored",
     "needsReview": false
   },
@@ -635,7 +635,7 @@
       "3 7/12"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer: A** → 2 5/12\n\n**Step-by-step:**\n**4 1/6 − 1 3/4**\n\nStep 1 — Find LCD of 6 and 4 = **12**\n\nStep 2 — Convert:\n- 4 1/6 = **4 2/12**\n- 1 3/4 = **1 9/12**\n\nStep 3 — Since 2/12 < 9/12, we must **regroup**:\n- Borrow 1 from the 4 → 4 = 3 + 12/12\n- 4 2/12 = **3 14/12**\n\nStep 4 — Subtract:\n- 3 14/12 − 1 9/12 = **2 5/12**\n\n**Why other answers are wrong:**\n- B) 2 7/12 — subtracts incorrectly: 14 − 9 = 5, not 7 (arithmetic error)\n- C) 3 5/12 — forgets to subtract the whole number part properly (keeps 4 instead of 3 after regrouping)\n- D) 3 7/12 — both errors combined",
+    "explanation": "**Step-by-step:**\n**4 1/6 − 1 3/4**\n\nStep 1 — Find LCD of 6 and 4 = **12**\n\nStep 2 — Convert:\n- 4 1/6 = **4 2/12**\n- 1 3/4 = **1 9/12**\n\nStep 3 — Since 2/12 < 9/12, we must **regroup**:\n- Borrow 1 from the 4 → 4 = 3 + 12/12\n- 4 2/12 = **3 14/12**\n\nStep 4 — Subtract:\n- 3 14/12 − 1 9/12 = **2 5/12**",
     "source": "authored",
     "needsReview": false
   },
@@ -655,7 +655,7 @@
       "4 1/2 sq meters"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 4 3/8 sq meters\n\n**Step-by-step:**\n**Area = 2 1/2 × 1 3/4**\n\nStep 1 — Convert to improper fractions:\n- 2 1/2 = 5/2\n- 1 3/4 = 7/4\n\nStep 2 — Multiply:\n- 5/2 × 7/4 = 35/8\n\nStep 3 — Convert to mixed number:\n- 35 ÷ 8 = 4 remainder 3 → **4 3/8**\n\n**Verification:** 4 3/8 = 4.375; and 2.5 × 1.75 = 4.375 ✓\n\n**Why other answers are wrong:**\n- A) 3 3/4 — uses 2 × 1 = 2 for whole numbers and adds fractions improperly\n- B) 4 1/4 — arithmetic error in numerator multiplication\n- D) 4 1/2 — rounds or estimates incorrectly",
+    "explanation": "**Step-by-step:**\n**Area = 2 1/2 × 1 3/4**\n\nStep 1 — Convert to improper fractions:\n- 2 1/2 = 5/2\n- 1 3/4 = 7/4\n\nStep 2 — Multiply:\n- 5/2 × 7/4 = 35/8\n\nStep 3 — Convert to mixed number:\n- 35 ÷ 8 = 4 remainder 3 → **4 3/8**\n\n**Verification:** 4 3/8 = 4.375; and 2.5 × 1.75 = 4.375 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -675,7 +675,7 @@
       "150"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 75\n\n**Step-by-step:**\n**15 ÷ 1/5**\n\nWhen dividing by a unit fraction, **multiply by its reciprocal**:\n- Reciprocal of 1/5 is 5/1 = 5\n- 15 × 5 = **75**\n\n**Real-world check:** If each recipe uses 1/5 cup, then 15 cups contains 15 × 5 = 75 one-fifth cups. ✓\n\n**Why other answers are wrong:**\n- A) 3 = 15 ÷ 5 (divides by 5 instead of multiplying — confuses unit fraction division with whole number division)\n- B) 15 = forgets to apply the reciprocal\n- D) 150 = multiplies 15 × 10 (uses wrong reciprocal)",
+    "explanation": "**Step-by-step:**\n**15 ÷ 1/5**\n\nWhen dividing by a unit fraction, **multiply by its reciprocal**:\n- Reciprocal of 1/5 is 5/1 = 5\n- 15 × 5 = **75**\n\n**Real-world check:** If each recipe uses 1/5 cup, then 15 cups contains 15 × 5 = 75 one-fifth cups. ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -695,7 +695,7 @@
       "4 3/8 miles"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 5/8 mile\n\n**Step-by-step:**\nStep 1 — Add the miles run:\n**2 3/4 + 1 5/8**\n\nLCD of 4 and 8 = 8\n- 2 3/4 = 2 6/8\n- 1 5/8 = 1 5/8\n- Sum = 3 11/8 = 4 3/8 miles\n\nStep 2 — Find remaining distance:\n**5 − 4 3/8**\n\nRewrite 5 as 4 8/8:\n- 4 8/8 − 4 3/8 = **5/8 mile**\n\n**Why other answers are wrong:**\n- A) 1/8 mile — arithmetic error in subtracting fractions\n- C) 1 3/8 miles — likely subtracted 5 - 3 11/8 (didn't simplify the sum to 4 3/8 first)\n- D) 4 3/8 miles — gives the total run, not the remaining distance",
+    "explanation": "**Step-by-step:**\nStep 1 — Add the miles run:\n**2 3/4 + 1 5/8**\n\nLCD of 4 and 8 = 8\n- 2 3/4 = 2 6/8\n- 1 5/8 = 1 5/8\n- Sum = 3 11/8 = 4 3/8 miles\n\nStep 2 — Find remaining distance:\n**5 − 4 3/8**\n\nRewrite 5 as 4 8/8:\n- 4 8/8 − 4 3/8 = **5/8 mile**",
     "source": "authored",
     "needsReview": false
   },
@@ -715,7 +715,7 @@
       "403"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 40.3\n\n**Step-by-step:**\n**12.4 × 3.25**\n\nMultiply as whole numbers: 124 × 325\n\n```\n    124\n  × 325\n  -----\n    620   (124 × 5)\n   2480   (124 × 20)\n+ 37200   (124 × 300)\n-------\n  40300\n```\n\nCount decimal places: 12.4 has **1** decimal place; 3.25 has **2** → total **3** decimal places.\n\nPlace decimal: 40300 → **40.300 = 40.3**\n\n**Verification:** 12 × 3 = 36; 12 × 0.25 = 3; 0.4 × 3.25 = 1.3 → 36 + 3 + 1.3 = 40.3 ✓\n\n**Why other answers are wrong:**\n- A) 39.8 — arithmetic error in partial products\n- C) 40.8 — off by 0.5 (likely counts decimal places incorrectly)\n- D) 403 — places decimal 1 place too far right (2 decimal places instead of 3)",
+    "explanation": "**Step-by-step:**\n**12.4 × 3.25**\n\nMultiply as whole numbers: 124 × 325\n\n```\n    124\n  × 325\n  -----\n    620   (124 × 5)\n   2480   (124 × 20)\n+ 37200   (124 × 300)\n-------\n  40300\n```\n\nCount decimal places: 12.4 has **1** decimal place; 3.25 has **2** → total **3** decimal places.\n\nPlace decimal: 40300 → **40.300 = 40.3**\n\n**Verification:** 12 × 3 = 36; 12 × 0.25 = 3; 0.4 × 3.25 = 1.3 → 36 + 3 + 1.3 = 40.3 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -735,7 +735,7 @@
       "4.2"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 42\n\n**Step-by-step:**\n**31.5 ÷ 0.75**\n\nEliminate the decimal in the divisor by multiplying both numbers by 100:\n- 31.5 × 100 = 3,150\n- 0.75 × 100 = 75\n\nNow divide: **3,150 ÷ 75**\n- 75 × 40 = 3,000\n- 3,150 − 3,000 = 150\n- 75 × 2 = 150\n\nQuotient: **42**\n\n**Verification:** 42 × 0.75 = 42 × 3/4 = 126/4 = 31.5 ✓\n\n**Why other answers are wrong:**\n- A) 23.625 = 31.5 ÷ 1.33 (arithmetic error, likely divides by wrong number)\n- C) 420 — places decimal incorrectly (off by factor of 10)\n- D) 4.2 — off by factor of 10 in the other direction",
+    "explanation": "**Step-by-step:**\n**31.5 ÷ 0.75**\n\nEliminate the decimal in the divisor by multiplying both numbers by 100:\n- 31.5 × 100 = 3,150\n- 0.75 × 100 = 75\n\nNow divide: **3,150 ÷ 75**\n- 75 × 40 = 3,000\n- 3,150 − 3,000 = 150\n- 75 × 2 = 150\n\nQuotient: **42**\n\n**Verification:** 42 × 0.75 = 42 × 3/4 = 126/4 = 31.5 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -755,7 +755,7 @@
       "$7.53"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → $6.03\n\n**Step-by-step:**\nStep 1 — Cost of notebooks:\n- 3 × \\(1.85 = **\\)5.55**\n\nStep 2 — Cost of highlighters:\n- 2 × \\(0.99 = **\\)1.98**\n\nStep 3 — Total before coupon:\n- \\(5.55 + \\)1.98 = **$7.53**\n\nStep 4 — Apply coupon:\n- \\(7.53 − \\)1.50 = **$6.03**\n\n**Why other answers are wrong:**\n- A) $5.53 — forgets to add highlighters; $5.55 − \\(1.50 = \\)4.05... actually $5.53 suggests another error\n- C) \\(6.53 — subtracts only \\)1.00 instead of $1.50\n- D) $7.53 — forgets to apply the coupon",
+    "explanation": "**Step-by-step:**\nStep 1 — Cost of notebooks:\n- 3 × \\(1.85 = **\\)5.55**\n\nStep 2 — Cost of highlighters:\n- 2 × \\(0.99 = **\\)1.98**\n\nStep 3 — Total before coupon:\n- \\(5.55 + \\)1.98 = **$7.53**\n\nStep 4 — Apply coupon:\n- \\(7.53 − \\)1.50 = **$6.03**",
     "source": "authored",
     "needsReview": false
   },
@@ -775,7 +775,7 @@
       "34.9"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 34.86\n\n**Step-by-step:**\nRound **34.8573** to the nearest **hundredth** (2 decimal places).\n\n- Hundredths digit: **5**\n- Look at the thousandths digit (the deciding digit): **7**\n- Since 7 ≥ 5, round the hundredths digit **UP**: 5 → **6**\n- Drop all digits after hundredths\n\n**34.8573 → 34.86**\n\n**Why other answers are wrong:**\n- A) 34.857 — rounds to 3 decimal places (thousandths), not 2\n- B) 34.85 — incorrectly rounds DOWN (ignores the 7 in thousandths)\n- D) 34.9 — rounds to 1 decimal place (tenths), not 2",
+    "explanation": "**Step-by-step:**\nRound **34.8573** to the nearest **hundredth** (2 decimal places).\n\n- Hundredths digit: **5**\n- Look at the thousandths digit (the deciding digit): **7**\n- Since 7 ≥ 5, round the hundredths digit **UP**: 5 → **6**\n- Drop all digits after hundredths\n\n**34.8573 → 34.86**",
     "source": "authored",
     "needsReview": false
   },
@@ -795,7 +795,7 @@
       "$85"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → $80\n\n**Step-by-step:**\nThe sale price ($60) is **75% of** the original price (because 25% off = 75% remaining).\n\n- Sale price = 75% × Original\n- $60 = 0.75 × Original\n- Original = \\(60 ÷ 0.75 = **\\)80**\n\n**Verification:** \\(80 × 25% = \\)20 discount; \\(80 − \\)20 = $60 ✓\n\n**Why other answers are wrong:**\n- A) \\(72 — computes \\)60 + 20% = \\(60 × 1.2 = \\)72 (wrong direction: adds rather than reverses)\n- B) \\(75 — adds \\)15 to \\(60 (\\)60 + \\(15 = \\)75), likely using \\(60 × 0.25 = \\)15 incorrectly\n- D) \\(85 — adds \\)25 to $60 (wrong: doesn't account for percentage correctly)\n\n**Key concept:** If a sale price is (100% − discount%) of original, reverse it: Original = Sale Price ÷ (100% − discount%).",
+    "explanation": "**Step-by-step:**\nThe sale price ($60) is **75% of** the original price (because 25% off = 75% remaining).\n\n- Sale price = 75% × Original\n- $60 = 0.75 × Original\n- Original = \\(60 ÷ 0.75 = **\\)80**\n\n**Verification:** \\(80 × 25% = \\)20 discount; \\(80 − \\)20 = $60 ✓\n\n**Key concept:** If a sale price is (100% − discount%) of original, reverse it: Original = Sale Price ÷ (100% − discount%).",
     "source": "authored",
     "needsReview": false
   },
@@ -815,7 +815,7 @@
       "$80.64"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → $78.84\n\n**Step-by-step:**\nStep 1 — Total before tax:\n- \\(45 + \\)28 = **$73.00**\n\nStep 2 — Calculate 8% sales tax:\n- 8% of \\(73 = 0.08 × \\)73 = **$5.84**\n\nStep 3 — Total with tax:\n- \\(73.00 + \\)5.84 = **$78.84**\n\n**Verification:** \\(73 × 1.08 = \\)78.84 ✓\n\n**Why other answers are wrong:**\n- A) $73.00 — the pretax amount; tax not added\n- B) $75.84 — uses 4% tax instead of 8%: $73 × 0.04 = \\(2.92; \\)73 + \\(2.92 = \\)75.92 (close but not this)\n- D) $80.64 — uses 10.5% tax (arithmetic error)",
+    "explanation": "**Step-by-step:**\nStep 1 — Total before tax:\n- \\(45 + \\)28 = **$73.00**\n\nStep 2 — Calculate 8% sales tax:\n- 8% of \\(73 = 0.08 × \\)73 = **$5.84**\n\nStep 3 — Total with tax:\n- \\(73.00 + \\)5.84 = **$78.84**\n\n**Verification:** \\(73 × 1.08 = \\)78.84 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -835,7 +835,7 @@
       "60%"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 40%\n\n**Step-by-step:**\nTotal items sold = 45 + 60 + 45 = **150**\n\nPants sold = **60**\n\nPercentage = (pants ÷ total) × 100\n= (60 ÷ 150) × 100\n= 0.4 × 100\n= **40%**\n\n**Why other answers are wrong:**\n- A) 30% → would need 45/150 = 30% (this is the percentage for shirts or shoes, not pants)\n- C) 45% → percentage ≠ number of items; 60 items ≠ 45%\n- D) 60% → 60 ≠ 60% of 150 (60% of 150 = 90)",
+    "explanation": "**Step-by-step:**\nTotal items sold = 45 + 60 + 45 = **150**\n\nPants sold = **60**\n\nPercentage = (pants ÷ total) × 100\n= (60 ÷ 150) × 100\n= 0.4 × 100\n= **40%**",
     "source": "authored",
     "needsReview": false
   },
@@ -855,7 +855,7 @@
       "$55.25"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → $9.75\n\n**Step-by-step:**\nStep 1 — Total original price:\n- \\(40 + \\)25 = **$65**\n\nStep 2 — Calculate 15% discount (savings):\n- 15% of \\(65 = 0.15 × \\)65\n\nCompute: 0.15 × 65 = 0.10 × 65 + 0.05 × 65 = 6.50 + 3.25 = **$9.75**\n\n**Verification:** Sale price = \\(65 − \\)9.75 = \\(55.25; \\)65 × 0.85 = $55.25 ✓\n\n**Why other answers are wrong:**\n- A) \\(6.00 — uses 10% of \\)60 (underestimates total and wrong percentage)\n- C) $10.25 — arithmetic error\n- D) $55.25 — this is the sale PRICE paid, not the money saved",
+    "explanation": "**Step-by-step:**\nStep 1 — Total original price:\n- \\(40 + \\)25 = **$65**\n\nStep 2 — Calculate 15% discount (savings):\n- 15% of \\(65 = 0.15 × \\)65\n\nCompute: 0.15 × 65 = 0.10 × 65 + 0.05 × 65 = 6.50 + 3.25 = **$9.75**\n\n**Verification:** Sale price = \\(65 − \\)9.75 = \\(55.25; \\)65 × 0.85 = $55.25 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -875,7 +875,7 @@
       "14 cups"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct Answer: D** → 14 cups\n\n**Step-by-step:**\n**2 1/3 × 6**\n\nStep 1 — Convert 2 1/3 to an improper fraction:\n- 2 1/3 = (2 × 3 + 1)/3 = **7/3**\n\nStep 2 — Multiply:\n- 7/3 × 6 = 42/3\n\nStep 3 — Simplify:\n- 42 ÷ 3 = **14**\n\n**Verification:** 2 × 6 = 12 cups, plus 1/3 × 6 = 2 cups → 12 + 2 = 14 ✓\n\n**Why other answers are wrong:**\n- A) 8 1/3 — multiplies only the whole number part by 6: 1 1/3 × 6 = 8 (error)\n- B) 12 — multiplies only the whole number 2 × 6 = 12 (ignores the 1/3)\n- C) 13 — arithmetic error; 2 1/3 × 6 rounds incorrectly",
+    "explanation": "**Step-by-step:**\n**2 1/3 × 6**\n\nStep 1 — Convert 2 1/3 to an improper fraction:\n- 2 1/3 = (2 × 3 + 1)/3 = **7/3**\n\nStep 2 — Multiply:\n- 7/3 × 6 = 42/3\n\nStep 3 — Simplify:\n- 42 ÷ 3 = **14**\n\n**Verification:** 2 × 6 = 12 cups, plus 1/3 × 6 = 2 cups → 12 + 2 = 14 ✓",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "quarter"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. dime**  \n**MAP area / TEKS:** Financial Literacy; 1.4.  \n**Work:** A dime has a value of 10 cents.  \n**Why the other answers are wrong:** A is 1¢; B is 5¢; D is 25¢.  \n**Key concept:** Coin values.",
+    "explanation": "**Work:** A dime has a value of 10 cents.\n**Key concept:** Coin values.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "30¢"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. 13¢**  \n**MAP area / TEKS:** Financial Literacy; 1.4.  \n**Work:** One dime is 10¢ and three pennies are 3¢: \\(10+3=13\\)¢.  \n**Why the other answers are wrong:** A counts only pennies; B counts only the dime; D treats pennies like dimes.  \n**Key concept:** Combining coin values.",
+    "explanation": "**Work:** One dime is 10¢ and three pennies are 3¢: \\(10+3=13\\)¢.\n**Key concept:** Combining coin values.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "a shiny toy"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. a warm coat in cold weather**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** A coat helps keep someone safe and warm in cold weather.  \n**Why the other answers are wrong:** B, C, and D are things someone may enjoy but does not need for basic safety.  \n**Key concept:** Needs and wants.",
+    "explanation": "**Work:** A coat helps keep someone safe and warm in cold weather.\n**Why the other answers are wrong:** B, C, and D are things someone may enjoy but does not need for basic safety.\n**Key concept:** Needs and wants.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "borrows money from a friend"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. gets money for work**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** Rina receives $2 because she worked by washing a car.  \n**Why the other answers are wrong:** A means giving; C means losing; D means getting money to pay back.  \n**Key concept:** Earning income.",
+    "explanation": "**Work:** Rina receives $2 because she worked by washing a car.\n**Key concept:** Earning income.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "say the pencil costs 25¢"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. save 15¢ more**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** \\(40-25=15\\)¢ more is needed.  \n**Why the other answers are wrong:** A does not have enough money; C loses savings; D changes the price.  \n**Key concept:** Saving toward a goal.",
+    "explanation": "**Work:** \\(40-25=15\\)¢ more is needed.\n**Key concept:** Saving toward a goal.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "earned"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. traded**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** Priya exchanged one item for another.  \n**Why the other answers are wrong:** B keeps money; C requires returning an item; D is payment for work.  \n**Key concept:** Bartering.",
+    "explanation": "**Work:** Priya exchanged one item for another.\n**Key concept:** Bartering.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "buy neither because $5 is not money"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. buy the notebook only**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** The notebook costs $3, which is no more than $5; both cost $7.  \n**Why the other answers are wrong:** A costs \\(7; C costs \\)4 but cannot save \\(2 from \\)5; D is false.  \n**Key concept:** Budgeting.",
+    "explanation": "**Work:** The notebook costs $3, which is no more than $5; both cost $7.\n**Key concept:** Budgeting.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "Give away $10."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. Save $2 and plan how to use the other $4.**  \n**MAP area / TEKS:** Financial Literacy; 1.9.  \n**Work:** \\(2+\\)4=\\(6\\), so the whole amount is planned.  \n**Why the other answers are wrong:** A and D spend more than earned; C gives no usable plan.  \n**Key concept:** Saving and planning spending.",
+    "explanation": "**Work:** \\(2+\\)4=\\(6\\), so the whole amount is planned.\n**Key concept:** Saving and planning spending.",
     "source": "authored",
     "needsReview": false
   }

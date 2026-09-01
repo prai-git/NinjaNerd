@@ -15,7 +15,7 @@
       "Atmosphere and biosphere only"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Hydrosphere, geosphere and biosphere\n\n**Explanation:**\nRain and runoff are the hydrosphere, rock and sediment the geosphere, and fish the biosphere.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each omit at least one sphere clearly described in the scenario.",
+    "explanation": "**Explanation:**\nRain and runoff are the hydrosphere, rock and sediment the geosphere, and fish the biosphere.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Inner core, outer core, mantle, crust"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Crust, mantle, outer core, inner core\n\n**Explanation:**\nFrom the surface inward the order is crust, mantle, liquid outer core, solid inner core.\n\n**Why the other answers are wrong:**\n- **B** swaps the mantle and outer core.\n- **C** starts in the wrong place and reverses the core order.\n- **D** is the correct order reversed — inside out.",
+    "explanation": "**Explanation:**\nFrom the surface inward the order is crust, mantle, liquid outer core, solid inner core.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "magma"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) metamorphic\n\n**Explanation:**\nHeat and pressure **without melting** produce metamorphic rock. Melting first would give\nigneous rock instead.\n\n**Why the other answers are wrong:**\n- **B** igneous rock requires melting and cooling.\n- **C** sedimentary rock forms from compacted sediment.\n- **D** magma is molten, and the rock did not melt.",
+    "explanation": "**Explanation:**\nHeat and pressure **without melting** produce metamorphic rock. Melting first would give\nigneous rock instead.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "The Sun produces more energy in June."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) It is tilted toward the Sun, so sunlight strikes it more directly.\n\n**Explanation:**\nSeasons come from Earth's **axial tilt**. The hemisphere tilted toward the Sun receives more\ndirect light and longer days.\n\n**Why the other answers are wrong:**\n- **B** is the classic misconception — Earth is actually nearest the Sun in January, and the\n  Southern Hemisphere has summer then.\n- **C** rotation rate does not change.\n- **D** the Sun's output does not vary with our seasons.",
+    "explanation": "**Explanation:**\nSeasons come from Earth's **axial tilt**. The hemisphere tilted toward the Sun receives more\ndirect light and longer days.\n\n  Southern Hemisphere has summer then.\n- **C** rotation rate does not change.\n- **D** the Sun's output does not vary with our seasons.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "underwater earthquakes"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) the gravitational pull of the Moon\n\n**Explanation:**\nThe Moon's gravity raises bulges of water on Earth; the Sun contributes a smaller effect.\n\n**Why the other answers are wrong:**\n- **B** wind makes waves, not tides.\n- **C** rotation determines tide timing but is not the cause.\n- **D** earthquakes cause tsunamis, which are not tides.",
+    "explanation": "**Explanation:**\nThe Moon's gravity raises bulges of water on Earth; the Sun contributes a smaller effect.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Collecting rainwater for gardens"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) Replacing petrol-powered generators with solar panels\n\n**Explanation:**\nPetrol comes from a nonrenewable fossil resource. Using sunlight instead conserves it.\n\n**Why the other answers are wrong:**\n- **B** trees are renewable, so this conserves a renewable resource.\n- **C** increases water use.\n- **D** conserves water, which is renewable.",
+    "explanation": "**Explanation:**\nPetrol comes from a nonrenewable fossil resource. Using sunlight instead conserves it.",
     "source": "authored",
     "needsReview": false
   }

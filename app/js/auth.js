@@ -102,15 +102,47 @@ export async function signup({ email, password, schoolName }) {
   return { user: cred.user, verificationSent, verificationError };
 }
 
+/* How long login will wait for the last_login stamp before giving up on it. Long enough for a
+   module fetch plus one Firestore round-trip on a slow connection; short enough that a child
+   never notices. */
+const LAST_LOGIN_TIMEOUT_MS = 2500;
+
 export async function login({ email, password }) {
   const cred = await signInWithEmailAndPassword(auth, email, password);
-  /* Legacy stamped last_login on the user_statistics row at sign-in, and the Audit page reads
-     it. Imported lazily and never awaited: a failed stamp must not turn a successful login
-     into an error the user sees. */
-  import('./data.js')
-    .then((m) => m.touchLastLogin())
-    .catch(() => { /* persistence unavailable; login still succeeded */ });
+
+  /* Legacy stamped last_login on the user_statistics row inside the login route
+     (obs_app.py:687, `git show 104c466:obs_app.py`), and the Audit page reads it.
+
+     THIS MUST BE AWAITED. It used to be fire-and-forget -- `import('./data.js').then(...)`
+     with no await -- on the reasoning that a failed stamp should not turn a successful login
+     into an error. The reasoning was right; the wiring was not. The login page redirects with
+     `location.href` the instant this resolves, and that navigation kills the in-flight dynamic
+     import before the write ever leaves the browser. It did not fail sometimes: fetching
+     data.js and the Firestore SDK chunk is far slower than a same-page redirect, so it failed
+     essentially always, and every account showed "Last Login: Never" in Audit.
+
+     Awaited, but bounded and never fatal: a slow or refused write costs at most
+     LAST_LOGIN_TIMEOUT_MS and is then abandoned. Login still succeeds either way, which was
+     the original intent. */
+  await stampLastLogin();
+
   return cred.user;
+}
+
+async function stampLastLogin() {
+  try {
+    const stamp = import('./data.js').then((m) => m.touchLastLogin());
+    const timeout = new Promise((resolve) => {
+      setTimeout(() => resolve('timeout'), LAST_LOGIN_TIMEOUT_MS);
+    });
+    const outcome = await Promise.race([stamp, timeout]);
+    if (outcome === 'timeout') {
+      // Let it finish in the background if it can; we simply stop waiting.
+      console.warn('[NinjaNerd] last_login stamp timed out; continuing.');
+    }
+  } catch (e) {
+    console.warn('[NinjaNerd] could not stamp last_login:', (e && e.code) || e);
+  }
 }
 
 export function logout() {

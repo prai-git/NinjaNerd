@@ -58,6 +58,25 @@ export function percentagesFor(history, grade) {
    Percentages are still computed, never stored -- prompt 08's rule. What is stored is counts,
    which is what the legacy SQLite queries counted at read time. */
 
+/* MASTERY key: one progress document per grade+subject+subtopic.
+
+   Lives HERE, not in data.js, because this module imports nothing — data.js pulls the
+   Firestore SDK over https, which Node cannot resolve, so anything defined there can only be
+   checked as text. The key format is a storage contract: get it wrong and a child's mastered
+   list is silently written to, or read from, the wrong document. That deserves a real test.
+
+   Returns null for anything that is not a valid coordinate, so a malformed call writes
+   nowhere rather than creating a junk document. */
+export function progressKeyFor(grade, subject, subtopic) {
+  const g = Number(grade);
+  if (!Number.isInteger(g) || g < 1 || g > 6) return null;
+  if (!TOPICS.includes(subject)) return null;
+  const st = String(subtopic == null ? '' : subtopic);
+  // Legacy subtopic ids are lowercase slugs; anything else is not a safe Firestore doc id.
+  if (!/^[a-z0-9_]+$/.test(st)) return null;
+  return `g${g}_${subject}_${st}`;
+}
+
 export function rollupKeyFor(grade, topic) {
   return `g${Number(grade)}_${topic}`;
 }

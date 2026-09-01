@@ -15,7 +15,7 @@
       "brightly lit"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) not wide\n\n**Explanation:**\nThe clue is \"had to walk one behind the other\" — that only happens when a path is not wide\nenough for two.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** describe a path in other ways, but none of them force single file.",
+    "explanation": "**Explanation:**\nThe clue is \"had to walk one behind the other\" — that only happens when a path is not wide\nenough for two.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "to build before"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) to build again\n\n**Explanation:**\n*re-* means *again*, so *rebuild* is to build something again.\n\n**Why the other answers are wrong:**\n- **B** *badly* would need a different prefix such as *mis-*.\n- **C** *stop* would be *un-* or *de-*.\n- **D** *before* would be *pre-*.",
+    "explanation": "**Explanation:**\n*re-* means *again*, so *rebuild* is to build something again.\n\n**Why the other answers are wrong:**\n- *badly* would need a different prefix such as *mis-*.\n- *stop* would be *un-* or *de-*.\n- *before* would be *pre-*.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "careful and slow"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) without fear\n\n**Explanation:**\n*-less* means *without*, so *fearless* means without fear.\n\n**Why the other answers are wrong:**\n- **B** *full of fear* would be *fearful* — the opposite suffix.\n- **C** and **D** describe being frightened or cautious, which is the reverse.",
+    "explanation": "**Explanation:**\n*-less* means *without*, so *fearless* means without fear.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "a protected wild area"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) to leave a vehicle somewhere\n\n**Explanation:**\nHere *park* is a verb acting on *the car*, so it means to stop and leave the vehicle.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all noun meanings of *park*, but the sentence uses it as an\n  action.",
+    "explanation": "**Explanation:**\nHere *park* is a verb acting on *the car*, so it means to stop and leave the vehicle.\n\n  action.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "empty"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) huge\n\n**Explanation:**\n*Enormous* means extremely large, and *huge* carries the same meaning.\n\n**Why the other answers are wrong:**\n- **B** *tiny* is the antonym.\n- **C** and **D** describe sound and emptiness, not size.",
+    "explanation": "**Explanation:**\n*Enormous* means extremely large, and *huge* carries the same meaning.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "must stay in one room"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) can be carried from place to place\n\n**Explanation:**\nThe root *port* means *to carry*, so *portable* describes something able to be carried.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** describe heat output, price and fixedness — none relate to carrying.\n  **D** is the opposite.",
+    "explanation": "**Explanation:**\nThe root *port* means *to carry*, so *portable* describes something able to be carried.\n\n  **D** is the opposite.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "stone"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer:** A) modern\n\n**Explanation:**\n*Ancient* means very old, so its opposite is *modern*, meaning of the present time.\n\n**Why the other answers are wrong:**\n- **B** *old* is a synonym, not an antonym.\n- **C** and **D** describe a state or material, not age.",
+    "explanation": "**Explanation:**\n*Ancient* means very old, so its opposite is *modern*, meaning of the present time.",
     "source": "authored",
     "needsReview": false
   }

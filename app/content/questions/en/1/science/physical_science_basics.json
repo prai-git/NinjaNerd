@@ -15,7 +15,7 @@
       "loud and living"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. hard and solid**  \n**MAP area / TEKS:** Physical Science; 1.1–1.5.  \n**Explanation:** A wooden block is usually a solid object that feels hard.  \n**Why the other answers are wrong:** B describes liquid water; C incorrectly calls a block gas; D mixes unrelated properties.  \n**Key concept:** Observable physical properties.",
+    "explanation": "**Explanation:** A wooden block is usually a solid object that feels hard.\n**Key concept:** Observable physical properties.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "stretching"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. heating**  \n**MAP area / TEKS:** Physical Science; 1.6B.  \n**Explanation:** Warmth adds heat and melts ice into liquid water.  \n**Why the other answers are wrong:** A would freeze water; C and D do not melt ice.  \n**Key concept:** Changes caused by heating.",
+    "explanation": "**Explanation:** Warmth adds heat and melts ice into liquid water.\n**Key concept:** Changes caused by heating.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "toasting bread"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. freezing water into ice**  \n**MAP area / TEKS:** Physical Science; 1.6B, 1.8B.  \n**Explanation:** Ice can melt back into water, reversing the freezing change.  \n**Why the other answers are wrong:** A, B, and D are cooking changes that cannot simply be undone.  \n**Key concept:** Reversible change.",
+    "explanation": "**Explanation:** Ice can melt back into water, reversing the freezing change.\n**Why the other answers are wrong:** A, B, and D are cooking changes that cannot simply be undone.\n**Key concept:** Reversible change.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "The wagon makes the wind stop."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. The wagon moves away from Arlo.**  \n**MAP area / TEKS:** Physical Science; 1.6A, 1.7A.  \n**Explanation:** A push away from a person can move the wagon away.  \n**Why the other answers are wrong:** B, C, and D are not effects of a push.  \n**Key concept:** Pushes and motion.",
+    "explanation": "**Explanation:** A push away from a person can move the wagon away.\n**Why the other answers are wrong:** B, C, and D are not effects of a push.\n**Key concept:** Pushes and motion.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "rolling a car away"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. opening a drawer toward you**  \n**MAP area / TEKS:** Physical Science; 1.7A.  \n**Explanation:** Moving a drawer toward your body is a pull.  \n**Why the other answers are wrong:** A, C, and D push an object away or downward.  \n**Key concept:** Push versus pull.",
+    "explanation": "**Explanation:** Moving a drawer toward your body is a pull.\n**Why the other answers are wrong:** A, C, and D push an object away or downward.\n**Key concept:** Push versus pull.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "The ball will need water to grow."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. The ball will move faster.**  \n**MAP area / TEKS:** Physical Science; 1.7A.  \n**Explanation:** A stronger push in the same direction can increase a ball's speed.  \n**Why the other answers are wrong:** B, C, and D are unrelated to pushing a ball.  \n**Key concept:** Force changes motion.",
+    "explanation": "**Explanation:** A stronger push in the same direction can increase a ball's speed.\n**Why the other answers are wrong:** B, C, and D are unrelated to pushing a ball.\n**Key concept:** Force changes motion.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "behind"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. above**  \n**MAP area / TEKS:** Physical Science; 1.6A.  \n**Explanation:** The statement directly says the kite is above the bench.  \n**Why the other answers are wrong:** A reverses the relation; C and D are not given.  \n**Key concept:** Relative position.",
+    "explanation": "**Explanation:** The statement directly says the kite is above the bench.\n**Key concept:** Relative position.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "a growing plant"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. a shadow shaped like the book**  \n**MAP area / TEKS:** Physical Science; 1.1–1.5.  \n**Explanation:** The book blocks flashlight light and makes a shadow on the wall.  \n**Why the other answers are wrong:** B needs water; C is not caused by blocked light; D is unrelated.  \n**Key concept:** Light and shadows.",
+    "explanation": "**Explanation:** The book blocks flashlight light and makes a shadow on the wall.\n**Key concept:** Light and shadows.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "watching a shadow"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. tapping a drum**  \n**MAP area / TEKS:** Physical Science; 1.1–1.5.  \n**Explanation:** Tapping makes the drum vibrate, producing a sound.  \n**Why the other answers are wrong:** B, C, and D use sight or smell rather than an action that makes sound.  \n**Key concept:** Sound-producing actions.",
+    "explanation": "**Explanation:** Tapping makes the drum vibrate, producing a sound.\n**Why the other answers are wrong:** B, C, and D use sight or smell rather than an action that makes sound.\n**Key concept:** Sound-producing actions.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "fuzzy"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. waterproof**  \n**MAP area / TEKS:** Physical Science; 1.1–1.5.  \n**Explanation:** A rain hat must keep rain from soaking through.  \n**Why the other answers are wrong:** B can break apart; C is not needed; D may absorb water.  \n**Key concept:** Matching material property to purpose.",
+    "explanation": "**Explanation:** A rain hat must keep rain from soaking through.\n**Key concept:** Matching material property to purpose.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "It will turn into sand."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. It can freeze into ice again.**  \n**MAP area / TEKS:** Physical Science; 1.6B, 1.8B.  \n**Explanation:** Cooling liquid water in a freezer reverses melting.  \n**Why the other answers are wrong:** B, C, and D do not result from freezing water.  \n**Key concept:** Reversible changes from cooling.",
+    "explanation": "**Explanation:** Cooling liquid water in a freezer reverses melting.\n**Why the other answers are wrong:** B, C, and D do not result from freezing water.\n**Key concept:** Reversible changes from cooling.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "freezer"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer: D. freezer**  \n**MAP area / TEKS:** Physical Science; 1.6B.  \n**Explanation:** The table says the freezer cup contains ice.  \n**Why the other answers are wrong:** A and B still contain liquid water; C has liquid water too.  \n**Key concept:** Reading data about changes caused by cooling.",
+    "explanation": "**Explanation:** The table says the freezer cup contains ice.\n**Key concept:** Reading data about changes caused by cooling.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "Shine a flashlight at it."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. Pull back on the scooter.**  \n**MAP area / TEKS:** Physical Science; 1.7A.  \n**Explanation:** A pull opposite the motion can slow or stop the scooter.  \n**Why the other answers are wrong:** B makes collision more likely; C and D do not stop rolling.  \n**Key concept:** Force changes speed.",
+    "explanation": "**Explanation:** A pull opposite the motion can slow or stop the scooter.\n**Key concept:** Force changes speed.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "neither car can move"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. the car pushed 8 steps**  \n**MAP area / TEKS:** Physical Science; 1.7A.  \n**Explanation:** A longer push in the same direction is likely to move an identical car farther.  \n**Why the other answers are wrong:** A has less push; C is unsupported; D ignores the pushes.  \n**Key concept:** Comparing forces and motion.",
+    "explanation": "**Explanation:** A longer push in the same direction is likely to move an identical car farther.\n**Key concept:** Comparing forces and motion.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "A student heats a plastic toy with a lighter."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. An adult uses an oven to bake bread.**  \n**MAP area / TEKS:** Physical Science; 1.8A.  \n**Explanation:** An adult can use an oven safely to apply heat in cooking.  \n**Why the other answers are wrong:** B, C, and D are unsafe uses of heat.  \n**Key concept:** Everyday applications and safety of heat.",
+    "explanation": "**Explanation:** An adult can use an oven safely to apply heat in cooking.\n**Why the other answers are wrong:** B, C, and D are unsafe uses of heat.\n**Key concept:** Everyday applications and safety of heat.",
     "source": "authored",
     "needsReview": false
   }

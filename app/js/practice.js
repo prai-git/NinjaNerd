@@ -17,6 +17,31 @@ import {
 import { buildAttempt } from './quiz.js';
 import { renderMath } from './math-render.js';
 
+/* Choose which questions this attempt should serve.
+
+   Filters out everything already answered correctly. When that leaves nothing — the child has
+   mastered the entire subtopic — the stored list is cleared and the full set is served again,
+   which is the owner's rule: questions may repeat once the whole list has been gone through.
+
+   Returns the full source unchanged if persistence is unavailable for any reason. */
+async function selectPool(source, meta) {
+  try {
+    const data = await import('./data.js');
+    const mastered = await data.getMastered(meta);
+    if (!mastered.size) return { pool: source, wasReset: false };
+
+    const remaining = source.filter((it) => !mastered.has(it.id));
+    if (remaining.length) return { pool: remaining, wasReset: false };
+
+    // Every question mastered: start the subtopic over.
+    await data.resetMastered(meta);
+    return { pool: source, wasReset: true };
+  } catch (e) {
+    console.warn('[NinjaNerd] mastery unavailable; serving all questions:', e && e.message);
+    return { pool: source, wasReset: false };
+  }
+}
+
 async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
@@ -35,7 +60,28 @@ async function init(root) {
     content.innerHTML = '<div class="alert alert-info">No questions available for this subtopic yet.</div>';
     return;
   }
-  runQuiz(root, buildAttempt(source), { grade, subject, subtopic });
+
+  /* MASTERY (2026-09-01, owner request): a question already answered CORRECTLY is not served
+     again until the child has worked through the whole subtopic, at which point the list
+     resets and questions may repeat.
+
+     Loaded lazily and tolerantly, exactly like the write path: if Firebase is unreachable the
+     pool is simply unfiltered. A child who sees a question they had already mastered has lost
+     nothing; a practice page that refuses to open because a progress read failed would be a
+     far worse outcome. */
+  const { pool, wasReset } = await selectPool(source, { grade, subject, subtopic });
+  if (wasReset) {
+    /* Tell the child why the questions are coming round again, rather than letting it look
+       like a bug. */
+    const note = document.createElement('div');
+    note.className = 'alert alert-success';
+    note.innerHTML = '<i class="fas fa-trophy me-2"></i>'
+      + 'You have answered every question in this subtopic correctly. Starting again from the '
+      + 'beginning.';
+    content.parentNode.insertBefore(note, content);
+  }
+
+  runQuiz(root, buildAttempt(pool), { grade, subject, subtopic });
 }
 
 function runQuiz(root, deck, meta) {

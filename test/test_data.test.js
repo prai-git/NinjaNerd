@@ -143,3 +143,93 @@ test('the statistics page mirrors the legacy view', () => {
   assert.doesNotMatch(js, /geography/i, 'geography is out of scope');
   assert.equal(TOPICS.length, 3, 'three subjects are charted, not the legacy five');
 });
+
+/* ---- MASTERY (2026-09-01, owner request) -------------------------------------------------
+   A question answered CORRECTLY is not served again until the child has worked through the
+   whole subtopic; then the list resets and questions may repeat. */
+
+test('the progress key identifies one grade+subject+subtopic document', async () => {
+  const { progressKeyFor } = await import('../app/js/stats-calc.js');
+  assert.equal(progressKeyFor(5, 'math', 'financial_literacy'), 'g5_math_financial_literacy');
+  assert.equal(progressKeyFor('3', 'science', 'matter_energy'), 'g3_science_matter_energy');
+});
+
+test('the progress key refuses anything that is not a real coordinate', async () => {
+  const { progressKeyFor } = await import('../app/js/stats-calc.js');
+  // A junk key would write a child's mastery to a document nothing ever reads back.
+  for (const bad of [
+    [0, 'math', 'x'], [7, 'math', 'x'], [null, 'math', 'x'], ['abc', 'math', 'x'],
+    [3, 'history', 'x'], [3, '', 'x'], [3, 'math', ''], [3, 'math', null],
+    [3, 'math', 'Bad-Slug'], [3, 'math', 'a/b'], [3, 'math', '../escape'],
+  ]) {
+    assert.equal(progressKeyFor(...bad), null, `should reject ${JSON.stringify(bad)}`);
+  }
+});
+
+test('every real subtopic produces a usable Firestore document id', async () => {
+  const { progressKeyFor } = await import('../app/js/stats-calc.js');
+  const { SUBTOPICS } = await import('../app/js/subtopics-data.js');
+  let checked = 0;
+  for (const subject of Object.keys(SUBTOPICS)) {
+    for (const group of Object.keys(SUBTOPICS[subject])) {
+      for (const s of SUBTOPICS[subject][group]) {
+        for (const grade of [1, 6]) {
+          const key = progressKeyFor(grade, subject, s.id);
+          assert.ok(key, `${subject}/${s.id} must produce a key`);
+          // Firestore document id rules: no slashes, not "." or "..", 1500 bytes max.
+          assert.doesNotMatch(key, /\//);
+          assert.ok(key.length < 1500);
+          checked++;
+        }
+      }
+    }
+  }
+  assert.ok(checked > 50, `expected the whole taxonomy, checked ${checked}`);
+});
+
+test('mastery is written only on a correct answer, and only by union', () => {
+  const src = read('app/js/data.js');
+  const code = src.replace(/\/\*[\s\S]*?\*\//g, '');
+  assert.match(code, /correct && questionId\) \? progressKeyFor/,
+    'a wrong answer must leave the question in the pool');
+  assert.match(code, /mastered: arrayUnion\(/,
+    'union, so re-answering a mastered question cannot duplicate the id');
+  // It must ride the SAME batch as history + statistics, not cost an extra round trip.
+  const fn = code.slice(code.indexOf('export async function recordAttempt'));
+  const body = fn.slice(0, fn.indexOf('await commitWithOneRetry'));
+  assert.match(body, /batch\.set\(progressRef/, 'the mastery write must be batched');
+});
+
+test('history records the item id alongside the question text, not instead of it', () => {
+  const src = read('app/js/data.js');
+  const code = src.replace(/\/\*[\s\S]*?\*\//g, '');
+  assert.match(code, /question: String\(question/, 'Audit renders the text the child saw');
+  assert.match(code, /question_id: String\(questionId\)/, 'and the id, for later analysis');
+  // Optional: records written before question_id existed must stay valid.
+  assert.match(code, /\.\.\.\(questionId \? \{ question_id/,
+    'question_id must be omitted rather than written empty');
+});
+
+test('a failed mastery read never blocks practice', () => {
+  const src = read('app/js/data.js');
+  const fn = src.slice(src.indexOf('export async function getMastered'));
+  const body = fn.slice(0, fn.indexOf('\n}'));
+  assert.match(body, /catch/, 'must swallow its own errors');
+  assert.match(body, /return new Set\(\)/, 'and degrade to "nothing mastered"');
+
+  const practice = read('app/js/practice.js');
+  const sel = practice.slice(practice.indexOf('async function selectPool'));
+  assert.match(sel.slice(0, sel.indexOf('\n}\n')), /catch[\s\S]*pool: source/,
+    'practice must serve the full set if mastery is unavailable');
+});
+
+test('exhausting a subtopic resets it instead of serving an empty quiz', () => {
+  const practice = read('app/js/practice.js');
+  const sel = practice.slice(practice.indexOf('async function selectPool'));
+  const body = sel.slice(0, sel.indexOf('\n}\n'));
+  assert.match(body, /remaining\.length/, 'filter to what is left');
+  assert.match(body, /resetMastered/, 'and reset once nothing is left');
+  assert.match(body, /wasReset: true/, 'so the page can say why questions are repeating');
+  // The child must be told, not left thinking it is a bug.
+  assert.match(practice, /answered every question in this subtopic correctly/i);
+});

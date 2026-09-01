@@ -15,7 +15,7 @@
       "the"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. rabbit**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(iii).  \n**Explanation:** *Rabbit* names an animal, so it is a noun.  \n**Why the other answers are wrong:** B is an action; C and D are articles.  \n**Key concept:** Common nouns.",
+    "explanation": "**Explanation:** *Rabbit* names an animal, so it is a noun.\n**Key concept:** Common nouns.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "quickly"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. blue**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(iv).  \n**Explanation:** *Blue* describes the kite.  \n**Why the other answers are wrong:** A and D describe actions; C is a verb.  \n**Key concept:** Adjectives.",
+    "explanation": "**Explanation:** *Blue* describes the kite.\n**Key concept:** Adjectives.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "My friend Is Lila"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. My friend is Lila.**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(viii–ix).  \n**Explanation:** It has a capital at the beginning and for Lila's name, plus a period.  \n**Why the other answers are wrong:** A lacks capitals; C capitalizes the wrong word and lacks Lila's capital; D incorrectly capitalizes *Is* and has no end mark.  \n**Key concept:** Capitalization and punctuation.",
+    "explanation": "**Explanation:** It has a capital at the beginning and for Lila's name, plus a period.\n**Key concept:** Capitalization and punctuation.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "What a big frog!"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. Where did the frog go?**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(ix).  \n**Explanation:** It asks something and ends with a question mark.  \n**Why the other answers are wrong:** A is a command; C is a statement; D is an exclamation.  \n**Key concept:** Interrogative sentences.",
+    "explanation": "**Explanation:** It asks something and ends with a question mark.\n**Key concept:** Interrogative sentences.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "folding"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. folded**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(ii).  \n**Explanation:** *Yesterday* signals past tense, so *folded* fits.  \n**Why the other answers are wrong:** A is present; B does not agree with *I*; D is incomplete here.  \n**Key concept:** Past tense.",
+    "explanation": "**Explanation:** *Yesterday* signals past tense, so *folded* fits.\n**Key concept:** Past tense.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "I packed my lunch. They am ready."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer: A. Ava and I packed our lunches. They are in the cooler.**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(vii).  \n**Explanation:** *They* correctly refers to the plural noun *lunches*.  \n**Why the other answers are wrong:** B uses *is* with plural *they*; C makes the reference unclear; D uses *am* with *they*.  \n**Key concept:** Pronoun reference and agreement.",
+    "explanation": "**Explanation:** *They* correctly refers to the plural noun *lunches*.\n**Key concept:** Pronoun reference and agreement.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "bench"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. under**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(vi).  \n**Explanation:** *Under* tells the puppy's position relative to the bench.  \n**Why the other answers are wrong:** A and D are nouns; B is a verb.  \n**Key concept:** Prepositions.",
+    "explanation": "**Explanation:** *Under* tells the puppy's position relative to the bench.\n**Key concept:** Prepositions.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "Running past the gate."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. The ants carry crumbs home.**  \n**MAP area / TEKS:** Language/Conventions; 1.11D(i).  \n**Explanation:** It has a subject (*ants*) and a verb (*carry*) and expresses a whole idea.  \n**Why the other answers are wrong:** A, B, and D are fragments.  \n**Key concept:** Complete sentences.",
+    "explanation": "**Explanation:** It has a subject (*ants*) and a verb (*carry*) and expresses a whole idea.\n**Why the other answers are wrong:** A, B, and D are fragments.\n**Key concept:** Complete sentences.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "Rinse away the soap."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer: C. Turn on the water and wet your hands.**  \n**MAP area / TEKS:** Language/Conventions; 1.11A–B.  \n**Explanation:** Wetting hands must happen before using soap, rinsing, and drying.  \n**Why the other answers are wrong:** A is last; B follows wetting; D follows soaping.  \n**Key concept:** Logical order in a procedure.",
+    "explanation": "**Explanation:** Wetting hands must happen before using soap, rinsing, and drying.\n**Key concept:** Logical order in a procedure.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "“What is your favorite dessert?”"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer: B. “What does a seed need to begin growing?”**  \n**MAP area / TEKS:** Language/Conventions; 1.13A.  \n**Explanation:** This question is about seed growth and can guide an investigation.  \n**Why the other answers are wrong:** A, C, and D are unrelated to seeds.  \n**Key concept:** Generating an inquiry question.",
+    "explanation": "**Explanation:** This question is about seed growth and can guide an investigation.\n**Why the other answers are wrong:** A, C, and D are unrelated to seeds.\n**Key concept:** Generating an inquiry question.",
     "source": "authored",
     "needsReview": false
   }

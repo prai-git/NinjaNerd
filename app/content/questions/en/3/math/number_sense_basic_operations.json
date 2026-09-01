@@ -15,7 +15,7 @@
       "\\(48,000+300+50\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.2A [R]\n\n**Worked solution:** \\(48,305\\) has 4 ten-thousands, 8 thousands, 3 hundreds, 0 tens, and 5 ones: \\(40,000+8,000+300+5\\).\n\n**Why other answers are wrong:** B treats the 3 as 30; C removes a ten-thousand and a thousand; D incorrectly gives the 5 a value of 50.\n\n**Key concept:** Expanded form and place value",
+    "explanation": "**Worked solution:** \\(48,305\\) has 4 ten-thousands, 8 thousands, 3 hundreds, 0 tens, and 5 ones: \\(40,000+8,000+300+5\\).\n\n**Key concept:** Expanded form and place value",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(76,590 < 76,500\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.2D [R]\n\n**Worked solution:** \\(76,509\\) and \\(76,590\\) match through the hundreds place. In the tens place, 0 is less than 9, so \\(76,509<76,590\\).\n\n**Why other answers are wrong:** A reverses the comparison; C says unequal numbers are equal; D compares 76,590 to the smaller number 76,500 incorrectly.\n\n**Key concept:** Comparing whole numbers",
+    "explanation": "**Worked solution:** \\(76,509\\) and \\(76,590\\) match through the hundreds place. In the tens place, 0 is less than 9, so \\(76,509<76,590\\).\n\n**Key concept:** Comparing whole numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(4,000\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.2A [R]\n\n**Worked solution:** The 4 is in the hundreds place, so its value is \\(400\\).\n\n**Why other answers are wrong:** A names the digit, not its value; B is the tens value; D is the thousands value.\n\n**Key concept:** Value of a digit",
+    "explanation": "**Worked solution:** The 4 is in the hundreds place, so its value is \\(400\\).\n\n**Key concept:** Value of a digit",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(62,901\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.2B\n\n**Worked solution:** “Sixty-two thousand” is 62,000 and “nineteen” is 19. Together they make \\(62,019\\).\n\n**Why other answers are wrong:** A places 19 as 190; C changes the thousands and hundreds; D reverses the last digits.\n\n**Key concept:** Standard form",
+    "explanation": "**Worked solution:** “Sixty-two thousand” is 62,000 and “nineteen” is 19. Together they make \\(62,019\\).\n\n**Key concept:** Standard form",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "\\(\frac{8}{3}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3A [R]\n\n**Worked solution:** There are 8 equal spaces in all and 3 contain a peach, so the fraction is \\(\frac{3}{8}\\).\n\n**Why other answers are wrong:** A uses 5, the number of empty spaces; C reverses the parts and whole; D is greater than one and reverses the fraction.\n\n**Key concept:** Fraction of a set",
+    "explanation": "**Worked solution:** There are 8 equal spaces in all and 3 contain a peach, so the fraction is \\(\frac{3}{8}\\).\n\n**Key concept:** Fraction of a set",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "\\(\frac{4}{6}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3F [R]\n\n**Worked solution:** Two of four equal parts is the same amount as one of two equal parts, so \\(\frac{2}{4}=\frac{1}{2}\\).\n\n**Why other answers are wrong:** A is more than one half; C is three fourths; D is two thirds.\n\n**Key concept:** Equivalent fractions",
+    "explanation": "**Worked solution:** Two of four equal parts is the same amount as one of two equal parts, so \\(\frac{2}{4}=\frac{1}{2}\\).\n\n**Key concept:** Equivalent fractions",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Six whole objects"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.3C [R]\n\n**Worked solution:** A unit fraction has numerator 1 and names one equal part of a whole. Therefore \\(\frac{1}{6}\\) is one of 6 equal parts.\n\n**Why other answers are wrong:** B describes six parts, not one part; C changes the meaning of the denominator; D describes whole objects, not a fraction.\n\n**Key concept:** Unit fractions",
+    "explanation": "**Worked solution:** A unit fraction has numerator 1 and names one equal part of a whole. Therefore \\(\frac{1}{6}\\) is one of 6 equal parts.\n\n**Key concept:** Unit fractions",
     "source": "authored",
     "needsReview": false
   }

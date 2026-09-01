@@ -35,7 +35,7 @@
       "the amount of water each plant receives"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Scientific and Engineering Practices | **TEKS 6.2 / 6.3**\nThe **dependent variable** is what you measure to see the effect — the plant height. The amount of fertilizer is the independent variable (what is changed on purpose); pot type and water are kept constant (controlled variables).\n**Key concept:** Identifying the dependent variable.",
+    "explanation": "The **dependent variable** is what you measure to see the effect — the plant height. The amount of fertilizer is the independent variable (what is changed on purpose); pot type and water are kept constant (controlled variables).\n**Key concept:** Identifying the dependent variable.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "It is increasing and then decreasing"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Scientific and Engineering Practices | **TEKS 6.2 / 6.4**\nThe temperature rises 20 → 40 → 60 → 80 °C, an increase of **20 °C for each 2-minute interval** — a steady increase.\n**Why others are wrong:** A, B, and D do not match the upward, constant pattern in the table.\n**Key concept:** Identifying patterns and trends in data tables.",
+    "explanation": "The temperature rises 20 → 40 → 60 → 80 °C, an increase of **20 °C for each 2-minute interval** — a steady increase.\n**Why others are wrong:** A, B, and D do not match the upward, constant pattern in the table.\n**Key concept:** Identifying patterns and trends in data tables.",
     "source": "authored",
     "needsReview": false
   }

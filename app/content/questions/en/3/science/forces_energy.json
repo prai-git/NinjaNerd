@@ -15,7 +15,7 @@
       "Both forces act only at a distance."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. Magnetism acts at a distance, and the table's push is a contact force.  \n**MAP area / TEKS:** Chemistry & Physics / 3.7A.  \n**Explanation:** A magnet can pull the washer without contact, while the table must touch the washer to push upward.  \n**Why the other answers are wrong:** A ignores forces on still objects; B misclassifies the table force; D misclassifies the table's contact force.  \n**Key concept:** Contact forces and forces that act at a distance.",
+    "explanation": "**Explanation:** A magnet can pull the washer without contact, while the table must touch the washer to push upward.\n**Key concept:** Contact forces and forces that act at a distance.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Push behind the ball toward the east."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. Push the side of the ball toward the north.  \n**MAP area / TEKS:** Chemistry & Physics / 3.7A, 3.5B.  \n**Explanation:** A sideways push is a force that can change the ball’s direction from east toward north.  \n**Why the other answers are wrong:** B provides light, not a direction-changing force; C adds no force; D continues the eastward motion.  \n**Key concept:** A push can change an object’s direction.",
+    "explanation": "**Explanation:** A sideways push is a force that can change the ball’s direction from east toward north.\n**Key concept:** A push can change an object’s direction.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "the strength of the push"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct answer:** D. the strength of the push.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.1B, 3.7B.  \n**Explanation:** To investigate how push strength affects motion, the class changes push strength and keeps the car, starting line, and surface the same.  \n**Why the other answers are wrong:** A, B, and C should be controlled so they do not confuse the result.  \n**Key concept:** Changing one variable in a motion investigation.",
+    "explanation": "**Explanation:** To investigate how push strength affects motion, the class changes push strength and keeps the car, starting line, and surface the same.\n**Why the other answers are wrong:** A, B, and C should be controlled so they do not confuse the result.\n**Key concept:** Changing one variable in a motion investigation.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Row B"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. Row A.  \n**MAP area / TEKS:** Chemistry & Physics / 3.8A.  \n**Explanation:** A struck drum produces vibrations that people hear as sound energy.  \n**Why the other answers are wrong:** A's Row C is mechanical, not light; C's Row D is light, not thermal; D's Row B is thermal, not mechanical.  \n**Key concept:** Identifying everyday forms of energy.",
+    "explanation": "**Explanation:** A struck drum produces vibrations that people hear as sound energy.\n**Key concept:** Identifying everyday forms of energy.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Car S moved faster because it took more time."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. Car R moved faster and had more mechanical energy while it was moving.  \n**MAP area / TEKS:** Chemistry & Physics / 3.8B.  \n**Explanation:** Both cars traveled 12 tiles, but R took half as much time, so it was faster. A faster moving object has more mechanical energy than an identical slower object.  \n**Why the other answers are wrong:** A ignores the observed motion; B says motion has no mechanical energy; D incorrectly treats a longer time as faster.  \n**Key concept:** Relationship between speed and mechanical energy.",
+    "explanation": "**Explanation:** Both cars traveled 12 tiles, but R took half as much time, so it was faster. A faster moving object has more mechanical energy than an identical slower object.\n**Key concept:** Relationship between speed and mechanical energy.",
     "source": "authored",
     "needsReview": false
   }

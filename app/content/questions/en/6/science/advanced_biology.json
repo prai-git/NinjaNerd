@@ -95,7 +95,7 @@
       "store water and nutrients"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nMitochondria carry out cellular respiration to **release energy** for the cell, earning the \"powerhouse\" nickname. The nucleus controls the cell (A); chloroplasts make food (C); vacuoles store materials (D).\n**Key concept:** Function of the mitochondria.",
+    "explanation": "Mitochondria carry out cellular respiration to **release energy** for the cell, earning the \"powerhouse\" nickname. The nucleus controls the cell (A); chloroplasts make food (C); vacuoles store materials (D).\n**Key concept:** Function of the mitochondria.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Hydrogen"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nIn photosynthesis, plants take in carbon dioxide and water and use sunlight to make glucose (food), releasing **oxygen** as a byproduct.\n**Key concept:** Inputs and outputs of photosynthesis.",
+    "explanation": "In photosynthesis, plants take in carbon dioxide and water and use sunlight to make glucose (food), releasing **oxygen** as a byproduct.\n**Key concept:** Inputs and outputs of photosynthesis.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "predators"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nOrganisms that break down dead material and recycle nutrients are **decomposers** (fungi, many bacteria). Producers make their own food; consumers eat others.\n**Key concept:** Roles of organisms in a food web.",
+    "explanation": "Organisms that break down dead material and recycle nutrients are **decomposers** (fungi, many bacteria). Producers make their own food; consumers eat others.\n**Key concept:** Roles of organisms in a food web.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "seasonal migration"
     ],
     "correctIndex": 0,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nA **structural** adaptation is a physical body feature — here, thick fat and fur. A behavioral adaptation would be an action (like hibernating or migrating).\n**Key concept:** Structural vs. behavioral adaptations.",
+    "explanation": "A **structural** adaptation is a physical body feature — here, thick fat and fur. A behavioral adaptation would be an action (like hibernating or migrating).\n**Key concept:** Structural vs. behavioral adaptations.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "All five factors are biotic because they are all part of the pond"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:** **Abiotic** = nonliving (sunlight, dissolved oxygen, water temperature). **Biotic** = living or once-living (cattail plants, mosquito larvae). Option B sorts them correctly.\n\n**Why the others are wrong:** A reverses the two categories. C misplaces cattail plants (living) into abiotic. D wrongly calls everything biotic.\n\n**Key concept:** Ecosystems contain interacting biotic (living) and abiotic (nonliving) factors.",
+    "explanation": "**Step-by-step:** **Abiotic** = nonliving (sunlight, dissolved oxygen, water temperature). **Biotic** = living or once-living (cattail plants, mosquito larvae). Option B sorts them correctly.\n\n**Key concept:** Ecosystems contain interacting biotic (living) and abiotic (nonliving) factors.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "The grass will gain energy by having fewer rabbits eat it"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:** Energy flows grass → rabbit → hawk. Less grass means less food/energy for rabbits, so the rabbit population likely **declines**; with fewer rabbits, hawks have less prey, so the hawk population may **also decline**.\n\n**Why the others are wrong:** A reverses the effect (less prey would not increase hawks). C ignores the linked dependency. D misapplies energy flow — grass does not \"gain energy\" from being eaten less; it makes its own energy via photosynthesis.\n\n**Key concept:** In a food web, a change at one level ripples through connected populations because energy flows from producers to consumers.",
+    "explanation": "**Step-by-step:** Energy flows grass → rabbit → hawk. Less grass means less food/energy for rabbits, so the rabbit population likely **declines**; with fewer rabbits, hawks have less prey, so the hawk population may **also decline**.\n\n**Key concept:** In a food web, a change at one level ripples through connected populations because energy flows from producers to consumers.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "Ecosystem, then organism"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:** All deer of one kind in one area = a **population**. All the interacting populations together = a **community**. Order studied: population → community.\n\n**Why the others are wrong:** A reverses the order. C and D bring in organism/ecosystem levels that do not match \"all deer\" and \"all living populations.\"\n\n**Key concept:** Hierarchy: organism → population → community → ecosystem.",
+    "explanation": "**Step-by-step:** All deer of one kind in one area = a **population**. All the interacting populations together = a **community**. Order studied: population → community.\n\n**Key concept:** Hierarchy: organism → population → community → ecosystem.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "New cells appear spontaneously from nonliving material"
     ],
     "correctIndex": 0,
-    "explanation": "**Step-by-step:** The cell theory states: (1) all living things are made of one or more cells, (2) the cell is the basic unit of life, and (3) all cells come from pre-existing cells. Option A captures principles 1 and 3.\n\n**Why the others are wrong:** B is false — plants and bacteria are cellular too. C is false — the cell is the **smallest** (basic) unit of life. D describes spontaneous generation, which the cell theory **disproved**.\n\n**Key concept:** Cell theory: all organisms are cellular, cells are the basic unit of life, and cells come only from existing cells.",
+    "explanation": "**Step-by-step:** The cell theory states: (1) all living things are made of one or more cells, (2) the cell is the basic unit of life, and (3) all cells come from pre-existing cells. Option A captures principles 1 and 3.\n\n**Key concept:** Cell theory: all organisms are cellular, cells are the basic unit of life, and cells come only from existing cells.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "The finches with 10 mm beaks, because that group is the second largest"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:** During a drought leaving only large, hard seeds, only **deeper-beaked** finches can crack them open. The finches with 14 mm and 16 mm beaks have the advantageous trait, so they are most likely to survive and reproduce, passing on deeper-beak genes.\n\n**Why the others are wrong:** A and D pick groups based on how **common** the trait is, not on the survival advantage. C ignores that beak depth clearly affects the ability to eat the available food.\n\n**Key concept:** Trait variation within a population allows some individuals to survive changing conditions; advantageous inherited traits become more common (natural selection).",
+    "explanation": "**Step-by-step:** During a drought leaving only large, hard seeds, only **deeper-beaked** finches can crack them open. The finches with 14 mm and 16 mm beaks have the advantageous trait, so they are most likely to survive and reproduce, passing on deeper-beak genes.\n\n**Key concept:** Trait variation within a population allows some individuals to survive changing conditions; advantageous inherited traits become more common (natural selection).",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "decomposition"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12B** — Ecological relationships (competition)\n\n**Explanation:** When two species need the **same limited resources** (nesting holes and the same food), they are in **competition**. As the shared resource (tree holes) becomes scarce, competition intensifies.\n\n**Why the others are wrong:**\n- **A.** Predation is one organism hunting and eating another — not described here.\n- **C.** Neither bird makes its own food; both are consumers, so this isn't a producer–consumer relationship.\n- **D.** Decomposition is breaking down dead material, which isn't happening here.\n\n**Key concept:** Competition occurs when organisms rely on the same limited resources (food, space, nesting sites).",
+    "explanation": "**Explanation:** When two species need the **same limited resources** (nesting holes and the same food), they are in **competition**. As the shared resource (tree holes) becomes scarce, competition intensifies.\n\n**Why the others are wrong:**\n- * Predation is one organism hunting and eating another — not described here.\n- * Neither bird makes its own food; both are consumers, so this isn't a producer–consumer relationship.\n- * Decomposition is breaking down dead material, which isn't happening here.\n\n**Key concept:** Competition occurs when organisms rely on the same limited resources (food, space, nesting sites).",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "Organism → community → ecosystem"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12C** — Levels of organization (recurring theme: scale)\n\n**Explanation:** The order from smallest to largest is **organism** (one clownfish) → **population** (all clownfish on the reef) → **community** (all the different species interacting). So the correct sequence is **organism → population → community**.\n\n**Why the others are wrong:**\n- **A, C.** These place the levels out of order (a single organism is the smallest unit here).\n- **D.** Skips the population level and adds ecosystem, which wasn't the third item described (the third study was all living species = community).\n\n**Key concept:** Ecological hierarchy: organism → population → community → ecosystem.",
+    "explanation": "**Explanation:** The order from smallest to largest is **organism** (one clownfish) → **population** (all clownfish on the reef) → **community** (all the different species interacting). So the correct sequence is **organism → population → community**.\n\n**Why the others are wrong:**\n- **A, C.** These place the levels out of order (a single organism is the smallest unit here).\n- * Skips the population level and adds ecosystem, which wasn't the third item described (the third study was all living species = community).\n\n**Key concept:** Ecological hierarchy: organism → population → community → ecosystem.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "Moth color will have no effect on which moths survive"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.13C** — Variation of traits and survival (SEP 6.3 evidence-based reasoning)\n\n**Explanation:** There is natural **variation** in moth color. After the bark darkens, dark moths are better **camouflaged**, so more of them survive predation and reproduce, passing the dark-color trait to offspring. Over generations, the **proportion of dark moths increases** (natural selection).\n\n**Why the others are wrong:**\n- **A.** Individual moths cannot change their own color to hide; the shift happens across generations through survival and reproduction.\n- **C.** Light-gray moths are now easier for birds to see, so they survive **less**, not more.\n- **D.** Color strongly affects survival here because it determines camouflage.\n\n**Key concept:** Variation within a population + environmental pressure → individuals with favorable traits survive and reproduce more (natural selection).",
+    "explanation": "**Explanation:** There is natural **variation** in moth color. After the bark darkens, dark moths are better **camouflaged**, so more of them survive predation and reproduce, passing the dark-color trait to offspring. Over generations, the **proportion of dark moths increases** (natural selection).\n\n**Why the others are wrong:**\n- * Individual moths cannot change their own color to hide; the shift happens across generations through survival and reproduction.\n- * Light-gray moths are now easier for birds to see, so they survive **less**, not more.\n- * Color strongly affects survival here because it determines camouflage.\n\n**Key concept:** Variation within a population + environmental pressure → individuals with favorable traits survive and reproduce more (natural selection).",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "Nothing in the food chain will change, because each species is independent"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Trace the chain: grass → grasshopper → frog → snake → hawk. If **frogs decline**, fewer predators eat grasshoppers, so **grasshoppers increase**. Snakes lose their main food (frogs), so **snakes decrease**. This is multi-step cause-and-effect reasoning.\n**Why others are wrong:** B reverses both effects. C overstates the impact (\"disappear immediately\"). D is wrong because food chains are interconnected, not independent.\n**Key concept:** A change at one level of a food chain ripples up and down the chain.",
+    "explanation": "**Explanation:** Trace the chain: grass → grasshopper → frog → snake → hawk. If **frogs decline**, fewer predators eat grasshoppers, so **grasshoppers increase**. Snakes lose their main food (frogs), so **snakes decrease**. This is multi-step cause-and-effect reasoning.\n**Key concept:** A change at one level of a food chain ripples up and down the chain.",
     "source": "authored",
     "needsReview": false
   },

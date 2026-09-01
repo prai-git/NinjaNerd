@@ -15,7 +15,7 @@
       "\\(39\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(38\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** \\(38\\) can be paired with no leftovers; the others leave one.  \n**Why the other answers are wrong:** A. \\(27\\) — it does not fit because \\(38\\) can be paired with no leftovers; the others leave one. B. \\(35\\) — it does not fit because \\(38\\) can be paired with no leftovers; the others leave one. D. \\(39\\) — it does not fit because \\(38\\) can be paired with no leftovers; the others leave one.  \n**Key concept:** even numbers",
+    "explanation": "**Explanation:** \\(38\\) can be paired with no leftovers; the others leave one.\n**Why the other answers are wrong:** A. \\(27\\) — it does not fit because \\(38\\) can be paired with no leftovers; the others leave one. B. \\(35\\) — it does not fit because \\(38\\) can be paired with no leftovers; the others leave one. D. \\(39\\) — it does not fit because \\(38\\) can be paired with no leftovers; the others leave one.\n**Key concept:** even numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(797\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(707\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Adding one ten gives \\(697+10=707\\).  \n**Why the other answers are wrong:** A. \\(687\\) — it does not fit because Adding one ten gives \\(697+10=707\\). B. \\(697\\) — it does not fit because Adding one ten gives \\(697+10=707\\). D. \\(797\\) — it does not fit because Adding one ten gives \\(697+10=707\\).  \n**Key concept:** ten more",
+    "explanation": "**Explanation:** Adding one ten gives \\(697+10=707\\).\n**Why the other answers are wrong:** A. \\(687\\) — it does not fit because Adding one ten gives \\(697+10=707\\). B. \\(697\\) — it does not fit because Adding one ten gives \\(697+10=707\\). D. \\(797\\) — it does not fit because Adding one ten gives \\(697+10=707\\).\n**Key concept:** ten more",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(1{,}848\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(1{,}048\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** \\(948+100=1{,}048\\).  \n**Why the other answers are wrong:** A. \\(858\\) — it does not fit because \\(948+100=1{,}048\\). B. \\(958\\) — it does not fit because \\(948+100=1{,}048\\). D. \\(1{,}848\\) — it does not fit because \\(948+100=1{,}048\\).  \n**Key concept:** hundred more",
+    "explanation": "**Explanation:** \\(948+100=1{,}048\\).\n**Why the other answers are wrong:** A. \\(858\\) — it does not fit because \\(948+100=1{,}048\\). B. \\(958\\) — it does not fit because \\(948+100=1{,}048\\). D. \\(1{,}848\\) — it does not fit because \\(948+100=1{,}048\\).\n**Key concept:** hundred more",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(986\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. \\(414\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Subtract to find the missing addend: \\(700-286=414\\).  \n**Why the other answers are wrong:** A. \\(314\\) — it does not fit because Subtract to find the missing addend: \\(700-286=414\\). C. \\(424\\) — it does not fit because Subtract to find the missing addend: \\(700-286=414\\). D. \\(986\\) — it does not fit because Subtract to find the missing addend: \\(700-286=414\\).  \n**Key concept:** unknown addend",
+    "explanation": "**Explanation:** Subtract to find the missing addend: \\(700-286=414\\).\n**Why the other answers are wrong:** A. \\(314\\) — it does not fit because Subtract to find the missing addend: \\(700-286=414\\). C. \\(424\\) — it does not fit because Subtract to find the missing addend: \\(700-286=414\\). D. \\(986\\) — it does not fit because Subtract to find the missing addend: \\(700-286=414\\).\n**Key concept:** unknown addend",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "\\(63\\div28=\\Box\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. \\(63-28=\\Box\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\).  \n**Why the other answers are wrong:** A. \\(63+28=\\Box\\) — it does not fit because The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\). C. \\(28-63=\\Box\\) — it does not fit because The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\). D. \\(63\\div28=\\Box\\) — it does not fit because The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\).  \n**Key concept:** unknown part",
+    "explanation": "**Explanation:** The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\).\n**Why the other answers are wrong:** A. \\(63+28=\\Box\\) — it does not fit because The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\). C. \\(28-63=\\Box\\) — it does not fit because The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\). D. \\(63\\div28=\\Box\\) — it does not fit because The total is \\(63\\) and one part is \\(28\\), so subtract: \\(63-28=\\Box\\).\n**Key concept:** unknown part",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "\\(255\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(165\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** The pattern adds \\(10\\) each time, so \\(155+10=165\\).  \n**Why the other answers are wrong:** A. \\(156\\) — it does not fit because The pattern adds \\(10\\) each time, so \\(155+10=165\\). B. \\(160\\) — it does not fit because The pattern adds \\(10\\) each time, so \\(155+10=165\\). D. \\(255\\) — it does not fit because The pattern adds \\(10\\) each time, so \\(155+10=165\\).  \n**Key concept:** number patterns",
+    "explanation": "**Explanation:** The pattern adds \\(10\\) each time, so \\(155+10=165\\).\n**Why the other answers are wrong:** A. \\(156\\) — it does not fit because The pattern adds \\(10\\) each time, so \\(155+10=165\\). B. \\(160\\) — it does not fit because The pattern adds \\(10\\) each time, so \\(155+10=165\\). D. \\(255\\) — it does not fit because The pattern adds \\(10\\) each time, so \\(155+10=165\\).\n**Key concept:** number patterns",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "\\(48\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(42\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\).  \n**Why the other answers are wrong:** A. \\(30\\) — it does not fit because Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\). B. \\(36\\) — it does not fit because Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\). D. \\(48\\) — it does not fit because Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\).  \n**Key concept:** skip counting",
+    "explanation": "**Explanation:** Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\).\n**Why the other answers are wrong:** A. \\(30\\) — it does not fit because Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\). B. \\(36\\) — it does not fit because Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\). D. \\(48\\) — it does not fit because Counting by \\(6\\): fifth \\(30\\), sixth \\(36\\), seventh \\(42\\).\n**Key concept:** skip counting",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "\\(46-27=18\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. \\(46+27=73\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\).  \n**Why the other answers are wrong:** A. \\(46+27=63\\) — it does not fit because \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\). C. \\(46-27=29\\) — it does not fit because \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\). D. \\(46-27=18\\) — it does not fit because \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\).  \n**Key concept:** equality",
+    "explanation": "**Explanation:** \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\).\n**Why the other answers are wrong:** A. \\(46+27=63\\) — it does not fit because \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\). C. \\(46-27=29\\) — it does not fit because \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\). D. \\(46-27=18\\) — it does not fit because \\(46+27=73\\) because \\(40+20=60\\) and \\(6+7=13\\).\n**Key concept:** equality",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "\\(30+5=14+9\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. \\(14+9+5=30\\)  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** The jumps plus the remaining distance make the whole: \\(14+9+5=30\\).  \n**Why the other answers are wrong:** B. \\(14+9-5=30\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\). C. \\(30-14=9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\). D. \\(30+5=14+9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\).  \n**Key concept:** equation reasoning",
+    "explanation": "**Explanation:** The jumps plus the remaining distance make the whole: \\(14+9+5=30\\).\n**Why the other answers are wrong:** B. \\(14+9-5=30\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\). C. \\(30-14=9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\). D. \\(30+5=14+9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\).\n**Key concept:** equation reasoning",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "A calendar"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. Base-ten blocks  \n**MAP area / TEKS:** Patterns/Functions/Algebra; 2.1, 2.7  \n**Explanation:** Base-ten blocks show tens and ones and the regrouping of \\(15\\) ones into a ten and \\(5\\) ones.  \n**Why the other answers are wrong:** B. A globe — it does not fit because Base-ten blocks show tens and ones and the regrouping of \\(15\\) ones into a ten and \\(5\\) ones. C. A thermometer — it does not fit because Base-ten blocks show tens and ones and the regrouping of \\(15\\) ones into a ten and \\(5\\) ones. D. A calendar — it does not fit because Base-ten blocks show tens and ones and the regrouping of \\(15\\) ones into a ten and \\(5\\) ones.  \n**Key concept:** mathematical tools",
+    "explanation": "**Explanation:** Base-ten blocks show tens and ones and the regrouping of \\(15\\) ones into a ten and \\(5\\) ones.\n**Key concept:** mathematical tools",
     "source": "authored",
     "needsReview": false
   }

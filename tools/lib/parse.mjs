@@ -371,6 +371,180 @@ export function stripStandardsAnnotation(text) {
   return String(text).trim();
 }
 
+/* ---- EXPLANATION CLEANUP (2026-09-01) ---------------------------------------------------
+
+   Three defects found by rendering the whole corpus and reading the output. All three come
+   from the authoring format leaking into text a CHILD reads after answering wrongly.
+
+   Kept deliberately separate from stripStandardsAnnotation above, which only ever examines
+   line 1 of a QUESTION. That is right for questions -- the standard sits in the heading -- and
+   it is exactly why explanations slipped through: they put the answer key on line 1 and the
+   standard on line 2, so nothing ever looked at it. */
+
+/* A standards annotation ANYWHERE in an explanation, not just on its first line.
+
+   Two shapes, and both are deliberately narrow:
+     **MAP area / TEKS:** Reading Foundations; 1.2A(ii).   <- bold LABEL, then a value
+     **TEKS:** 5.4                                          <- same
+     **TEKS 3.6H [R] -- inference**                         <- fully bold, no colon
+
+   The keyword must sit inside a LABEL -- text before a colon, or a wholly bold line. That is
+   what protects real teaching prose: the corpus contains an explanation reading "...ice is the
+   classic STAAR example", and a rule that merely looked for the keyword would delete that
+   sentence. It is also why "**Topic:** Finding Percent Discount" survives -- a sub-skill name
+   is not a standard.
+
+   Case-SENSITIVE. These are acronyms and proper nouns, and matching case-insensitively would
+   let "MAP area" hit the phrase "map area" in a geometry explanation. */
+const STD_KEY = '(?:TEKS|MAP area|NWEA|STAAR|Readiness|Instructional Area)';
+const STANDARDS_ANYWHERE = new RegExp(
+  '^[ \\t]*(?:'
+  // bold-or-plain label containing the keyword, ending in a colon, then its value
+  + `\\*{0,2}[^:\\n]{0,60}\\b${STD_KEY}\\b[^:\\n]{0,60}:\\*{0,2}[^\\n]*`
+  + '|'
+  // a wholly bold line naming the standard, with no colon
+  + `\\*\\*[^*\\n]*\\b${STD_KEY}\\b[^*\\n]*\\*\\*`
+  + '|'
+  /* a line OPENING with a bold standard label, then prose:
+       **TEKS 6.12B** -- Ecological relationships (competition)
+     The keyword must be inside the leading bold span, which is what keeps
+     "**Key concept:** ... the classic STAAR example." -- bold label without a keyword -- safe. */
+  + `\\*\\*[^*\\n]*\\b${STD_KEY}\\b[^*\\n]*\\*\\*[^\\n]*`
+  + ')[ \\t]*$',
+  'gm',
+);
+
+/* The answer-key line: "**Correct answer: B. sock**", "**Correct Answer:** A) The bird sings".
+
+   REMOVED ENTIRELY, not repaired. Both views already render the correct answer on their own,
+   from options[correctIndex], which stays right after the shuffle -- so this line is redundant
+   even when it is accurate. And it usually is not: practice shuffles the options, the text
+   does not move with them, and across 3000 trials the letter it names was wrong 78% of the
+   time. A child who answers incorrectly was being told the right answer is a letter that is
+   not the right answer. */
+const ANSWER_KEY_LINE =
+  /^[ \t]*\*{0,2}Correct\s+Answer\b[^\n]*$/gim;
+
+/* The same claim as a trailing SENTENCE rather than a line: "Therefore, **C** is the best
+   answer." -- 50 items, all one template. Removed for the same reason: the page already shows
+   the correct answer from options[correctIndex], and this names a letter the shuffle moved. */
+const ANSWER_KEY_SENTENCE =
+  /[ \t]*(?:Therefore|Thus|So|Hence)[,;]?[ \t]+\*{0,2}[A-D][).]?\*{0,2}[ \t]+is[ \t]+the[ \t]+(?:best|correct|right)[ \t]+answer[.!]?/gi;
+
+/* Option letters used as labels in prose: "**B** bird sing does not agree", "A *map* begins
+   /m/; C *top* begins /t/".
+
+   The surrounding sentence is genuine teaching content and is kept; only the label is dropped,
+   because after the shuffle it points at the wrong option. Restricted to forms that cannot be
+   ordinary English: a BOLD lone letter, or a letter followed by ) or . at the start of a list
+   item, or a letter introducing an italic run right after "wrong:" or a semicolon. The bare
+   article "A" in "A number n is greater than 15" matches none of these. */
+function stripOptionLabels(text) {
+  return String(text)
+    /* Strip the label ONLY where the option TEXT follows it, so the sentence still stands on
+       its own: "**B** *bird sing* does not agree" -> "*bird sing* does not agree", and
+       "A *map* begins /m/" -> "*map* begins /m/".
+
+       Where the letter is the SUBJECT instead -- "B ends /im/", "A has an extra /p/ sound" --
+       deleting it leaves "ends /im/", which is gibberish. Those lines are handled by
+       dropUnfixableDistractors below: a sentence a child cannot parse is no better than a
+       sentence that is wrong. */
+    // **B** / **B.** / **B)** immediately before the restated option
+    .replace(/\*\*([A-D])[).]?\*\*[ \t]*(?=[*_])/g, '')
+    // list item "- B) *text*" / "- **B.** *text*"
+    .replace(/^([ \t]*(?:[-*+]|\d+\.)[ \t]+)\*{0,2}[A-D][).][ \t]*\*{0,2}(?=[*_])/gm, '$1')
+    // "wrong:** A *map* ..." and "; C *top* ..."
+    .replace(/(\bwrong:?\*{0,2}[ \t]+)[A-D][ \t]+(?=[*_])/gi, '$1')
+    .replace(/([;,][ \t]+)[A-D][ \t]+(?=[*_])/g, '$1')
+    /* Parenthesised labels APPENDED to the description: "He was never confident (B) or bored
+       (C) at the start". The sentence reads correctly without them, so the label goes and the
+       teaching stays. Scoped to the distractor line: "(B)" elsewhere can be a genuine label
+       in maths or a citation, and only 6 items in the corpus use this form at all. */
+    .replace(/^[ \t]*\*{0,2}(?:Why|Distractor)[^\n]*\b(?:wrong|incorrect|note)\b[^\n]*$/gim,
+      (line) => line
+        // "confident (B) or bored (C)" -> the label is appended, drop it
+        .replace(/[ \t]*\([A-D]\)/g, '')
+        /* 'B (“Meanwhile”) is not supported' -> the option is quoted immediately after the
+           letter, so the sentence keeps its subject once the letter goes. */
+        .replace(/(^|\*{2}[ \t]*|[.;:,][ \t]+)[A-D][ \t]+(?=[(“‘"'])/g, '$1'));
+}
+
+/* Drop distractor analysis that is keyed to option LETTERS which practice has shuffled away.
+
+   "**Why the other answers are wrong:** B ends /im/; C ends /unk/; D ends /īt/" cannot be
+   repaired by deletion -- the letters ARE the subjects of those clauses. And it cannot be left
+   alone: options are shuffled on every attempt (legacy did the same), so across 3000 trials
+   the letter named was wrong 78% of the time. A child who answered incorrectly would read a
+   confident, false statement about which option was which.
+
+   So the segment goes. That loses real teaching content, and it is still the right trade:
+   a missing explanation is recoverable by re-authoring, a false one teaches the wrong thing
+   today. Anything whose letters were safely strippable above no longer matches here and is
+   kept. */
+function dropUnfixableDistractors(text) {
+  const lines = String(text).split('\n');
+  /* Every header variant in the corpus, counted rather than guessed:
+       "why the other answers are wrong" (643), "why other answers are wrong" (309),
+       "why others are wrong" (164), "why other answers are incorrect" (56),
+       "why the others are wrong" (40), "distractor note" (1).
+     Matching only "wrong" left 163 sections behind, all of them saying "incorrect". */
+  const isHeader = (l) => /\bwhy\b[^\n]*\b(?:wrong|incorrect)\b/i.test(l)
+    || /\bdistractor note\b/i.test(l);
+  const isItem = (l) => /^[ \t]*(?:[-*+]|\d+\.)[ \t]+/.test(l);
+  /* A letter still acting as a LABEL or SUBJECT: bold on its own, or introducing a clause.
+     By this point every letter that could be dropped safely already has been, so anything
+     matching here is one the sentence depends on. */
+  const UNFIXABLE = new RegExp([
+    '\\*\\*[A-D][).]?\\*\\*',                      // **B** used as a label
+    '(?:^[ \\t]*|[.;:,][ \\t]+)[A-D][ \\t]+[a-z]',      // "; C ends /unk/" and a section-opening "B ends..."
+    '[A-D][\\u2019\\u0027]?s[ \\t]+[A-Z]',               // "A's Row C ..." -- not repairable
+    '(?:^[ \\t]*|[.;:,][ \\t]+)[A-D][ \\t]*[(\\u201c\\u2018\\u0022\\u0027]', // letter + quoted option
+    '^[ \\t]*(?:[-*+]|\\d+\\.)[ \\t]+\\*{0,2}[A-D][).]', // "- A. While this mentions..."
+  ].join('|'), 'm');
+
+  const out = [];
+  for (let i = 0; i < lines.length; i++) {
+    if (!isHeader(lines[i])) { out.push(lines[i]); continue; }
+
+    // Collect the whole section: the header plus the list items that belong to it.
+    const section = [lines[i]];
+    let j = i + 1;
+    while (j < lines.length && (isItem(lines[j]) || (lines[j].trim() === '' && isItem(lines[j + 1] || '')))) {
+      section.push(lines[j]);
+      j++;
+    }
+
+    /* Judged as a UNIT. Deciding line by line produced lists where two items had lost their
+       letter and a third had kept it -- worse than either consistent outcome, because the
+       surviving letter looks authoritative. */
+    const body = section
+      .map((l) => l.replace(/^[ \t]*\*{0,2}(?:Why|Distractor)[^:]*:?\*{0,2}/i, ' '))
+      .join('\n');
+    if (!UNFIXABLE.test(body)) out.push(...section);
+
+    i = j - 1;
+  }
+  return out.join('\n');
+}
+
+/* Clean an explanation for display. Order matters: the standards line is removed before the
+   answer key, so an explanation that opens with both collapses cleanly rather than leaving a
+   blank first line. */
+export function cleanExplanation(text) {
+  if (text == null) return text;
+  let out = String(text);
+  out = out.replace(STANDARDS_ANYWHERE, '');
+  out = out.replace(ANSWER_KEY_LINE, '');
+  out = out.replace(ANSWER_KEY_SENTENCE, '');
+  // Strip the letters that CAN be removed safely first; whatever still carries one after that
+  // is unfixable by deletion, and the line goes.
+  out = stripOptionLabels(out);
+  out = dropUnfixableDistractors(out);
+  // Collapse the blank lines those removals leave behind, without joining real paragraphs.
+  out = out.replace(/[ \t]+$/gm, '').replace(/\n{3,}/g, '\n\n').trim();
+  return out;
+}
+
 // Pull an answer LETTER (A–D) out of a header tail or answer body, trying the
 // most explicit markers first to avoid grabbing a stray "A." from prose.
 export function extractAnswerLetter(text) {

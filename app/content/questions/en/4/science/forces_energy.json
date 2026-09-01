@@ -15,7 +15,7 @@
       "Tile removes all forces from the car."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Forces / 4.7  \n**Explanation:** The car loses more motion on the rug, supporting the idea that the rough rug has greater friction.  \n**Why the other answers are wrong:** B incorrectly changes gravity, C ignores the moving car, and D falsely says forces disappear on tile.  \n**Key concept:** Friction can oppose motion.",
+    "explanation": "**Explanation:** The car loses more motion on the rug, supporting the idea that the rough rug has greater friction.\n**Key concept:** Friction can oppose motion.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "A glass bead dissolves after the magnet is removed."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Forces / 4.7  \n**Explanation:** The paper clip moves before contact, showing a magnetic force acts over a distance.  \n**Why the other answers are wrong:** B, C, and D describe unsupported or unrelated changes.  \n**Key concept:** Magnetism can act at a distance.",
+    "explanation": "**Explanation:** The paper clip moves before contact, showing a magnetic force acts over a distance.\n**Why the other answers are wrong:** B, C, and D describe unsupported or unrelated changes.\n**Key concept:** Magnetism can act at a distance.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "An inclined plane works only when no force is used."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Forces / 4.7, 4.5F  \n**Explanation:** The table shows force falling from 42 N to 21 N as ramp length rises from 1 to 3 meters. A ramp trades a longer distance for less needed pushing force.  \n**Why the other answers are wrong:** B does not remove gravity, C does not change the material, and D contradicts the table.  \n**Key concept:** An inclined plane is a simple machine that can reduce required force.",
+    "explanation": "**Explanation:** The table shows force falling from 42 N to 21 N as ramp length rises from 1 to 3 meters. A ramp trades a longer distance for less needed pushing force.\n**Key concept:** An inclined plane is a simple machine that can reduce required force.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "Car D"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C  \n**MAP area / TEKS:** Chemistry & Physics—Forces / 4.2C, 4.7  \n**Explanation:** Average speeds are A = 24÷8 = 3 m/s, B = 18÷9 = 2 m/s, C = 20÷5 = 4 m/s, and D = 28÷14 = 2 m/s. Car C is greatest.  \n**Why the other answers are wrong:** A, B, and D each have lower calculated speeds.  \n**Key concept:** Compare motion using distance divided by time.",
+    "explanation": "**Explanation:** Average speeds are A = 24÷8 = 3 m/s, B = 18÷9 = 2 m/s, C = 20÷5 = 4 m/s, and D = 28÷14 = 2 m/s. Car C is greatest.\n**Why the other answers are wrong:** A, B, and D each have lower calculated speeds.\n**Key concept:** Compare motion using distance divided by time.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "The marble is smaller than the toy car."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Energy / 4.8A, 4.5E  \n**Explanation:** The marble's slowing and the car's new motion show that energy moved from one object to another in the collision.  \n**Why the other answers are wrong:** B and D are unrelated observations; C describes only the starting condition, not transfer evidence.  \n**Key concept:** Moving objects can transfer energy through collisions.",
+    "explanation": "**Explanation:** The marble's slowing and the car's new motion show that energy moved from one object to another in the collision.\n**Key concept:** Moving objects can transfer energy through collisions.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Waves move water from one end of the tub to the other without any motion of particles."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Energy and Waves / 4.8A  \n**Explanation:** A greater up-and-down motion of the cork is evidence that the waves in Tub X transferred more energy.  \n**Why the other answers are wrong:** B is false, C overstates the observation, and D incorrectly says particles do not move.  \n**Key concept:** Waves transfer energy through a medium.",
+    "explanation": "**Explanation:** A greater up-and-down motion of the cork is evidence that the waves in Tub X transferred more energy.\n**Key concept:** Waves transfer energy through a medium.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "The tuning fork has created new matter."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Energy and Waves / 4.8A  \n**Explanation:** The vibrating fork makes the water ripple, showing energy transferred from the fork to the water.  \n**Why the other answers are wrong:** B is false because sound can travel through matter, C is not observed, and D violates conservation of matter.  \n**Key concept:** Vibrations can transfer energy and produce waves.",
+    "explanation": "**Explanation:** The vibrating fork makes the water ripple, showing energy transferred from the fork to the water.\n**Key concept:** Vibrations can transfer energy and produce waves.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "An iron handle, because iron makes heat disappear"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Energy / 4.8B  \n**Explanation:** Wood is a thermal insulator, so it slows the transfer of heat to a hand.  \n**Why the other answers are wrong:** B and aluminum in C conduct heat well; magnetism in C is irrelevant; D falsely claims heat disappears.  \n**Key concept:** Thermal insulators reduce heat transfer.",
+    "explanation": "**Explanation:** Wood is a thermal insulator, so it slows the transfer of heat to a hand.\n**Key concept:** Thermal insulators reduce heat transfer.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "Open another gap in the circuit so electricity has two ways to stop."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Energy / 4.8C  \n**Explanation:** A bulb lights only when electrical energy has a complete, closed path through the circuit.  \n**Why the other answers are wrong:** B uses an insulator, C leaves the circuit open, and D adds another break.  \n**Key concept:** Electrical energy travels through a closed circuit.",
+    "explanation": "**Explanation:** A bulb lights only when electrical energy has a complete, closed path through the circuit.\n**Key concept:** Electrical energy travels through a closed circuit.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "A closed circuit can produce only sound energy."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Energy / 4.8C, 4.5E  \n**Explanation:** The glowing bulb shows light energy, and the warm base shows thermal energy produced by the circuit.  \n**Why the other answers are wrong:** B says energy is destroyed, C concerns matter rather than energy output, and D ignores the observed light and heat.  \n**Key concept:** A circuit can transform electrical energy into light and thermal energy.",
+    "explanation": "**Explanation:** The glowing bulb shows light energy, and the warm base shows thermal energy produced by the circuit.\n**Key concept:** A circuit can transform electrical energy into light and thermal energy.",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "No change is needed"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B - Change \"saturday\" to \"Saturday\"**\n\n**TEKS Standard:** 5.11D - Capitalization\n\n**Explanation:** Days of the week are proper nouns and must always be capitalized. \"Saturday\" should have a capital S.\n\n**Why other answers are incorrect:**\n- A. \"Class\" is a common noun and doesn't need capitalization\n- C. \"Museum\" is used as a common noun here (unless it's a specific name)\n- D. A change is needed\n\n**Key Concept:** Capitalizing days of the week as proper nouns",
+    "explanation": "**Explanation:** Days of the week are proper nouns and must always be capitalized. \"Saturday\" should have a capital S.\n\n**Key Concept:** Capitalizing days of the week as proper nouns",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Instead"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B - First**\n\n**TEKS Standard:** 5.11C - Transitions\n\n**Explanation:** \"First\" is a sequencing transition that shows the order of events. Since the sentence describes the beginning of their museum activities, \"First\" is appropriate.\n\n**Why other answers are incorrect:**\n- A. \"However\" shows contrast, not sequence\n- C. \"Finally\" indicates the last event, but this is the first activity mentioned\n- D. \"Instead\" shows replacement or contrast, not sequence\n\n**Key Concept:** Using appropriate transition words for sequence",
+    "explanation": "**Explanation:** \"First\" is a sequencing transition that shows the order of events. Since the sentence describes the beginning of their museum activities, \"First\" is appropriate.\n\n**Key Concept:** Using appropriate transition words for sequence",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "better"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C - best**\n\n**TEKS Standard:** 5.11D - Adjectives and Adverbs (Superlatives)\n\n**Explanation:** \"Best\" is the correct superlative form of \"good.\" When comparing more than two things, use the superlative form. \"Bestest\" is not a real word.\n\n**Why other answers are incorrect:**\n- A. \"More best\" is grammatically incorrect\n- B. \"Most best\" is a double superlative error\n- D. \"Better\" is comparative (for comparing two things), not superlative\n\n**Key Concept:** Using correct superlative forms",
+    "explanation": "**Explanation:** \"Best\" is the correct superlative form of \"good.\" When comparing more than two things, use the superlative form. \"Bestest\" is not a real word.\n\n**Key Concept:** Using correct superlative forms",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "The sentence is correct as written."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B - We also explored the space exhibit, and we saw a real moon rock.**\n\n**TEKS Standard:** 5.11D - Sentence Structure (Run-on Sentences)\n\n**Explanation:** The original sentence is a comma splice (two independent clauses joined only by a comma). Adding \"and\" after the comma creates a proper compound sentence with a coordinating conjunction.\n\n**Why other answers are incorrect:**\n- A. Removing the comma creates a run-on sentence\n- C. \"And\" should not begin a sentence immediately after a period\n- D. The original is a comma splice error\n\n**Key Concept:** Correcting run-on sentences and comma splices",
+    "explanation": "**Explanation:** The original sentence is a comma splice (two independent clauses joined only by a comma). Adding \"and\" after the comma creates a proper compound sentence with a coordinating conjunction.\n\n**Key Concept:** Correcting run-on sentences and comma splices",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Add a comma after \"and\""
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B - Change \"cant\" to \"can't\"**\n\n**TEKS Standard:** 5.11D - Punctuation (Apostrophes in Contractions)\n\n**Explanation:** \"Can't\" is a contraction of \"cannot\" and requires an apostrophe to show the missing letters (no). Without the apostrophe, \"cant\" would be a different word (meaning hypocritical talk).\n\n**Why other answers are incorrect:**\n- A. No comma is needed after \"much\" in this sentence\n- C. While an exclamation point could work, the apostrophe error must be fixed\n- D. No comma is needed after \"and\"\n\n**Key Concept:** Using apostrophes correctly in contractions",
+    "explanation": "**Explanation:** \"Can't\" is a contraction of \"cannot\" and requires an apostrophe to show the missing letters (no). Without the apostrophe, \"cant\" would be a different word (meaning hypocritical talk).\n\n**Key Concept:** Using apostrophes correctly in contractions",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "The storm lasted all night long."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B - Running quickly down the hallway to catch the bus.**\n\n**TEKS Standard:** 5.11D - Complete Sentences vs. Fragments\n\n**Explanation:** This is a sentence fragment because it has no subject and no main verb—\"Running\" is a participle, not a complete verb. It describes an action but doesn't tell who is doing it or make a complete statement.\n\n**Why other answers are incorrect:**\n- A. Has subject (teacher) and verb (explained)—complete sentence\n- C. Has subject (brother and I) and verb (played)—complete sentence\n- D. Has subject (storm) and verb (lasted)—complete sentence\n\n**Key Concept:** Identifying sentence fragments (missing subject or verb)",
+    "explanation": "**Explanation:** This is a sentence fragment because it has no subject and no main verb—\"Running\" is a participle, not a complete verb. It describes an action but doesn't tell who is doing it or make a complete statement.\n\n**Key Concept:** Identifying sentence fragments (missing subject or verb)",
     "source": "authored",
     "needsReview": false
   },

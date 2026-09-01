@@ -15,7 +15,7 @@
       "millimeters"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. feet  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** A door is several feet tall; feet are an efficient unit.  \n**Why the other answers are wrong:** A. inches — it does not fit because A door is several feet tall; feet are an efficient unit. C. miles — it does not fit because A door is several feet tall; feet are an efficient unit. D. millimeters — it does not fit because A door is several feet tall; feet are an efficient unit.  \n**Key concept:** measurement units",
+    "explanation": "**Explanation:** A door is several feet tall; feet are an efficient unit.\n**Why the other answers are wrong:** A. inches — it does not fit because A door is several feet tall; feet are an efficient unit. C. miles — it does not fit because A door is several feet tall; feet are an efficient unit. D. millimeters — it does not fit because A door is several feet tall; feet are an efficient unit.\n**Key concept:** measurement units",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(1\\) cube"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(12\\) cubes  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** Smaller units need more pieces for the same length, so \\(12\\) is reasonable.  \n**Why the other answers are wrong:** A. \\(3\\) cubes — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable. B. \\(6\\) cubes — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable. D. \\(1\\) cube — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable.  \n**Key concept:** unit relationship",
+    "explanation": "**Explanation:** Smaller units need more pieces for the same length, so \\(12\\) is reasonable.\n**Why the other answers are wrong:** A. \\(3\\) cubes — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable. B. \\(6\\) cubes — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable. D. \\(1\\) cube — it does not fit because Smaller units need more pieces for the same length, so \\(12\\) is reasonable.\n**Key concept:** unit relationship",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(25\\) cm"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. \\(11\\) cm  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** \\(18-7=11\\), so the crayon is \\(11\\) cm.  \n**Why the other answers are wrong:** A. \\(10\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm. C. \\(12\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm. D. \\(25\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm.  \n**Key concept:** length problems",
+    "explanation": "**Explanation:** \\(18-7=11\\), so the crayon is \\(11\\) cm.\n**Why the other answers are wrong:** A. \\(10\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm. C. \\(12\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm. D. \\(25\\) cm — it does not fit because \\(18-7=11\\), so the crayon is \\(11\\) cm.\n**Key concept:** length problems",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\(4{:}15\text{ p.m.}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(3{:}15\text{ p.m.}\\)  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).  \n**Why the other answers are wrong:** A. \\(2{:}65\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). B. \\(3{:}05\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). D. \\(4{:}15\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).  \n**Key concept:** elapsed time",
+    "explanation": "**Explanation:** \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).\n**Why the other answers are wrong:** A. \\(2{:}65\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). B. \\(3{:}05\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). D. \\(4{:}15\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).\n**Key concept:** elapsed time",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "hexagon"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. pentagon  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** A pentagon has exactly five sides and five vertices.  \n**Why the other answers are wrong:** A. triangle — it does not fit because A pentagon has exactly five sides and five vertices. B. quadrilateral — it does not fit because A pentagon has exactly five sides and five vertices. D. hexagon — it does not fit because A pentagon has exactly five sides and five vertices.  \n**Key concept:** polygons",
+    "explanation": "**Explanation:** A pentagon has exactly five sides and five vertices.\n**Why the other answers are wrong:** A. triangle — it does not fit because A pentagon has exactly five sides and five vertices. B. quadrilateral — it does not fit because A pentagon has exactly five sides and five vertices. D. hexagon — it does not fit because A pentagon has exactly five sides and five vertices.\n**Key concept:** polygons",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "rectangular prism"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. cylinder  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** A cylinder has two circular bases and a curved surface.  \n**Why the other answers are wrong:** A. sphere — it does not fit because A cylinder has two circular bases and a curved surface. B. cone — it does not fit because A cylinder has two circular bases and a curved surface. D. rectangular prism — it does not fit because A cylinder has two circular bases and a curved surface.  \n**Key concept:** 3D shapes",
+    "explanation": "**Explanation:** A cylinder has two circular bases and a curved surface.\n**Why the other answers are wrong:** A. sphere — it does not fit because A cylinder has two circular bases and a curved surface. B. cone — it does not fit because A cylinder has two circular bases and a curved surface. D. rectangular prism — it does not fit because A cylinder has two circular bases and a curved surface.\n**Key concept:** 3D shapes",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "sphere"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A. rectangle  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** The triangles can fit along a matching side to form a rectangle.  \n**Why the other answers are wrong:** B. circle — it does not fit because The triangles can fit along a matching side to form a rectangle. C. cone — it does not fit because The triangles can fit along a matching side to form a rectangle. D. sphere — it does not fit because The triangles can fit along a matching side to form a rectangle.  \n**Key concept:** composing shapes",
+    "explanation": "**Explanation:** The triangles can fit along a matching side to form a rectangle.\n**Why the other answers are wrong:** B. circle — it does not fit because The triangles can fit along a matching side to form a rectangle. C. cone — it does not fit because The triangles can fit along a matching side to form a rectangle. D. sphere — it does not fit because The triangles can fit along a matching side to form a rectangle.\n**Key concept:** composing shapes",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "\\(24\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(20\\)  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).  \n**Why the other answers are wrong:** A. \\(8\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). B. \\(16\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). D. \\(24\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).  \n**Key concept:** decomposing area",
+    "explanation": "**Explanation:** Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).\n**Why the other answers are wrong:** A. \\(8\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). B. \\(16\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). D. \\(24\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).\n**Key concept:** decomposing area",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "four fourths"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B. one fourth  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** One of four equal parts is one fourth.  \n**Why the other answers are wrong:** A. one half — it does not fit because One of four equal parts is one fourth. C. one eighth — it does not fit because One of four equal parts is one fourth. D. four fourths — it does not fit because One of four equal parts is one fourth.  \n**Key concept:** partitioning shapes",
+    "explanation": "**Explanation:** One of four equal parts is one fourth.\n**Why the other answers are wrong:** A. one half — it does not fit because One of four equal parts is one fourth. C. one eighth — it does not fit because One of four equal parts is one fourth. D. four fourths — it does not fit because One of four equal parts is one fourth.\n**Key concept:** partitioning shapes",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "\\(30\\) square units"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C. \\(15\\) square units  \n**MAP area / TEKS:** Measurement & Geometry; 2.8–2.9  \n**Explanation:** \\(5\times3=15\\) tiles cover the rectangle with no gaps.  \n**Why the other answers are wrong:** A. \\(8\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. B. \\(12\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. D. \\(30\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps.  \n**Key concept:** area",
+    "explanation": "**Explanation:** \\(5\times3=15\\) tiles cover the rectangle with no gaps.\n**Why the other answers are wrong:** A. \\(8\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. B. \\(12\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. D. \\(30\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps.\n**Key concept:** area",
     "source": "authored",
     "needsReview": false
   }

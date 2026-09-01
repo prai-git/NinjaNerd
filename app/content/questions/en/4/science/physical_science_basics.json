@@ -15,7 +15,7 @@
       "It is soft and dissolves in water."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6A  \n**Explanation:** Attraction to a magnet is an observable physical property of iron, and mass is another measurable physical property.  \n**Why the other answers are wrong:** B describes a possible floating clear object, C is impossible because matter has temperature, and D does not identify iron.  \n**Key concept:** Matter can be classified using measurable physical properties.",
+    "explanation": "**Explanation:** Attraction to a magnet is an observable physical property of iron, and mass is another measurable physical property.\n**Key concept:** Matter can be classified using measurable physical properties.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "Block S is always larger than Block R."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6A  \n**Explanation:** Objects that sink have greater relative density than water, while objects that float have lower relative density.  \n**Why the other answers are wrong:** B reverses the meaning of mass, C would mean both are neutrally buoyant, and D is not known from the test.  \n**Key concept:** Relative density helps predict sinking and floating.",
+    "explanation": "**Explanation:** Objects that sink have greater relative density than water, while objects that float have lower relative density.\n**Key concept:** Relative density helps predict sinking and floating.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "J = solid, K = gas, L = liquid"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6A  \n**Explanation:** A solid keeps its shape, a liquid flows and takes the container's shape, and a gas fills its container.  \n**Why the other answers are wrong:** A, C, and D mismatch at least one particle/property description with a state.  \n**Key concept:** States of matter have different observable behaviors.",
+    "explanation": "**Explanation:** A solid keeps its shape, a liquid flows and takes the container's shape, and a gas fills its container.\n**Why the other answers are wrong:** A, C, and D mismatch at least one particle/property description with a state.\n**Key concept:** States of matter have different observable behaviors.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "a mixture that must contain visible pieces"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6B  \n**Explanation:** Evenly mixed vinegar and water form a liquid-in-liquid solution.  \n**Why the other answers are wrong:** B is an unrelated state change, C ignores that two liquids were mixed, and D falsely requires visible pieces in a mixture.  \n**Key concept:** Some mixtures are clear solutions.",
+    "explanation": "**Explanation:** Evenly mixed vinegar and water form a liquid-in-liquid solution.\n**Key concept:** Some mixtures are clear solutions.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "Both cups contain matter only if they are heated."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6B  \n**Explanation:** Mud is made of undissolved particles that can settle or be caught by a filter. Dissolved salt particles pass through a filter with water.  \n**Why the other answers are wrong:** B is false because salt water is a solution mixture; C and D incorrectly deny matter or require heating.  \n**Key concept:** Mixtures differ according to whether their materials are dissolved.",
+    "explanation": "**Explanation:** Mud is made of undissolved particles that can settle or be caught by a filter. Dissolved salt particles pass through a filter with water.\n**Key concept:** Mixtures differ according to whether their materials are dissolved.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "585 grams, because mixing creates extra matter"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6C, 4.5E  \n**Explanation:** The soil and water total 45 + 270 = 315 grams. Because the jar is sealed, no matter leaves or enters when they are mixed.  \n**Why the other answers are wrong:** A and B count only one material; D incorrectly adds the same matter twice.  \n**Key concept:** Matter is conserved when a mixture forms.",
+    "explanation": "**Explanation:** The soil and water total 45 + 270 = 315 grams. Because the jar is sealed, no matter leaves or enters when they are mixed.\n**Key concept:** Matter is conserved when a mixture forms.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "Liquid changed to solid because it warmed."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6A  \n**Explanation:** Cooling changes water vapor, a gas, into liquid droplets.  \n**Why the other answers are wrong:** B is evaporation, C names the wrong starting state, and D is freezing but has the wrong temperature change.  \n**Key concept:** Heating and cooling can change physical state.",
+    "explanation": "**Explanation:** Cooling changes water vapor, a gas, into liquid droplets.\n**Key concept:** Heating and cooling can change physical state.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "Stir the mixture faster until the sand becomes liquid."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.1B, 4.6B  \n**Explanation:** Filtering holds back sand while water passes through, so both materials can be collected.  \n**Why the other answers are wrong:** B works only for magnetic materials, C discards material, and D cannot turn sand into liquid.  \n**Key concept:** Choose a physical separation method based on material properties.",
+    "explanation": "**Explanation:** Filtering holds back sand while water passes through, so both materials can be collected.\n**Key concept:** Choose a physical separation method based on material properties.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "Add more water until the salt changes into sand."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6B  \n**Explanation:** Salt is dissolved, so it passes through a filter. When water evaporates, the salt remains behind.  \n**Why the other answers are wrong:** B cannot catch dissolved salt, C requires magnetism, and D does not recover salt.  \n**Key concept:** Evaporation can separate a dissolved solid from water.",
+    "explanation": "**Explanation:** Salt is dissolved, so it passes through a filter. When water evaporates, the salt remains behind.\n**Key concept:** Evaporation can separate a dissolved solid from water.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "High temperature, no volume, and rough texture"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6A, 4.5F  \n**Explanation:** A floating marker needs a lower relative density than water; bright color supports visibility and nonmagnetic material meets the final condition.  \n**Why the other answers are wrong:** B would tend to sink and be magnetic; C and D contain impossible or irrelevant properties.  \n**Key concept:** Materials are selected by properties that fit a purpose.",
+    "explanation": "**Explanation:** A floating marker needs a lower relative density than water; bright color supports visibility and nonmagnetic material meets the final condition.\n**Key concept:** Materials are selected by properties that fit a purpose.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "Vegetable oil, corn syrup, water"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B  \n**MAP area / TEKS:** Chemistry & Physics—Matter / 4.6A, 4.2C  \n**Explanation:** The least dense liquid, oil (0.90), floats on water (1.00), while the densest liquid, corn syrup (1.33), settles at the bottom.  \n**Why the other answers are wrong:** A reverses the density order; C places water above less-dense oil; D places dense syrup above water.  \n**Key concept:** In nonmixing liquids, lower density floats above higher density.",
+    "explanation": "**Explanation:** The least dense liquid, oil (0.90), floats on water (1.00), while the densest liquid, corn syrup (1.33), settles at the bottom.\n**Key concept:** In nonmixing liquids, lower density floats above higher density.",
     "source": "authored",
     "needsReview": false
   }

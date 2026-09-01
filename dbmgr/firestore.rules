@@ -146,10 +146,17 @@ service cloud.firestore {
       match /history/{entryId} {
         function validHistory(d) {
           return d.keys().hasOnly(
-                   ['question', 'user_answer', 'correct', 'topic', 'subtopic', 'grade',
-                    'timestamp'])
+                   ['question', 'question_id', 'user_answer', 'correct', 'topic', 'subtopic',
+                    'grade', 'timestamp'])
                  && d.keys().hasAll(
                    ['question', 'user_answer', 'correct', 'topic', 'grade', 'timestamp'])
+                 /* question_id is the compiled item's stable id (content build). OPTIONAL, so
+                    records written before it existed stay valid and Audit keeps rendering
+                    them. The question TEXT is still stored alongside it -- an id alone would
+                    break Audit, which must render what the child saw without loading the
+                    content JSON, and would break older rows if a question is reworded. */
+                 && (!('question_id' in d) || d.question_id == null
+                     || (d.question_id is string && d.question_id.size() <= 200))
                  && d.question is string && d.question.size() <= 4000
                  && d.user_answer is string && d.user_answer.size() <= 1000
                  && d.correct is bool
@@ -215,6 +222,38 @@ service cloud.firestore {
         allow read: if isOwner(uid) || isAdmin();
         allow create: if isOwner(uid) && validSummary(request.resource.data);
         allow update: if isOwner(uid) && validSummary(request.resource.data) && notTooFast();
+        allow delete: if false;
+      }
+
+      /* MASTERY (2026-09-01, owner request): a question the child has already answered
+         CORRECTLY is not served again until the whole subtopic has been worked through, at
+         which point the list resets and questions may repeat.
+
+         One document per grade+subject+subtopic, id `g<grade>_<subject>_<subtopic>`, holding
+         the ids of items answered correctly. Practice reads exactly ONE document when it
+         starts, and the write batches into the same commit as the history + statistics write,
+         so it costs no extra round trip.
+
+         Why not derive this from history instead: history grows with every attempt a child
+         ever makes, so filtering from it would cost reads proportional to lifetime activity
+         rather than to the size of one subtopic -- the wrong shape on a plan whose free quota
+         is a hard cap. (question_id is nevertheless recorded in history as well, for audit and
+         later analysis; this document is what practice actually reads.)
+
+         The cap is what stops the array being used to bloat a document the child's own
+         practice page reads on every start. 1000 ids is far above any real subtopic -- the
+         largest today holds 163 -- while keeping the document small. */
+      match /progress/{progressId} {
+        function validProgress(d) {
+          return d.keys().hasOnly(['mastered', 'updated_at'])
+                 && d.keys().hasAll(['mastered', 'updated_at'])
+                 && d.mastered is list && d.mastered.size() <= 1000;
+        }
+
+        // Owner only. Unlike history and statistics, Audit does not render mastery, so there
+        // is no reason to widen this to admins.
+        allow read: if isOwner(uid);
+        allow create, update: if isOwner(uid) && validProgress(request.resource.data);
         allow delete: if false;
       }
     }
