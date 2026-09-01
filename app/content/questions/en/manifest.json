@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:45:59.265Z",
+  "generatedAt": "2026-09-01T23:57:54.173Z",
   "grades": {
     "1": {
       "english": [
@@ -575,12 +575,12 @@
         {
           "subtopic": "advanced_biology",
           "slug": "advanced_biology",
-          "count": 19
+          "count": 42
         },
         {
           "subtopic": "chemistry_concepts",
           "slug": "chemistry_concepts",
-          "count": 16
+          "count": 39
         },
         {
           "subtopic": "earth_space_science",

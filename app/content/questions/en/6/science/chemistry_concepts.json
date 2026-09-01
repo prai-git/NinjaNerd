@@ -318,5 +318,465 @@
     "explanation": "**Explanation:** Salt **dissolves** in water; sand does **not**. Stir the mixture into water, **filter** out the undissolved sand, then **evaporate** the water to recover the dissolved salt. This uses differences in physical properties (solubility) to separate the two.\n**Why others are wrong:** A — a magnet does not attract salt or sand. C — melting would not cleanly separate them and requires enormous heat. D — a screen cannot separate two fine solids reliably, and salt is not larger than sand.\n**Key concept:** Physical properties like solubility allow mixtures to be separated without chemical change.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The chemical formula for water is H₂O. How many atoms are in one molecule?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nH₂O contains two hydrogen atoms and one oxygen atom: \\(2 + 1 = 3\\) atoms in total. The subscript counts only the atoms it follows.\n\n**Key concept:** Add every atom in the formula, including those with no written subscript.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the formula CO₂, the subscript 2 indicates —",
+    "options": [
+      "two oxygen atoms",
+      "two carbon atoms",
+      "two molecules",
+      "a charge of 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA subscript applies to the element symbol immediately before it, so the 2 in CO₂ means two oxygen atoms with one carbon.\n\n**Key concept:** Subscripts count atoms of the preceding element only.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a sealed container, 12 g of substance A reacts completely with 8 g of substance B. What is the total mass of products?",
+    "options": [
+      "20 g",
+      "4 g",
+      "96 g",
+      "Less than 20 g"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIn a sealed container nothing escapes, so the products must total \\(12 + 8 = 20\\) g.\n\n**Key concept:** Mass is conserved in a chemical reaction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The principle behindis —",
+    "options": [
+      "conservation of mass",
+      "conservation of momentum",
+      "the rock cycle",
+      "Newton's third law"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAtoms are rearranged in a reaction but never created or destroyed, so total mass is unchanged.\n\n**Key concept:** Reactions rearrange atoms; they do not add or remove them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q5",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which subatomic particle carries a **negative** charge?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Nucleus"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nElectrons are negative, protons positive, neutrons neutral. The nucleus is a region, not a particle.\n\n**Key concept:** Charge distinguishes the three subatomic particles.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q6",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An atom has 6 protons. Which element is it?",
+    "options": [
+      "Carbon",
+      "Oxygen",
+      "Hydrogen",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe proton count is the atomic number, and atomic number 6 is carbon. Changing it would make a different element.\n\n**Key concept:** Protons determine which element an atom is.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q7",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which formula represents a **compound** rather than an element?",
+    "options": [
+      "NaCl",
+      "O₂",
+      "Fe",
+      "He"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nNaCl contains two different elements chemically bonded. O₂ is two atoms of one element, and Fe and He are single elements.\n\n**Key concept:** A compound contains more than one element bonded together.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q8",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where is nearly all of an atom's mass concentrated?",
+    "options": [
+      "In the nucleus",
+      "In the electron cloud",
+      "Evenly throughout",
+      "In the outer shell only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nProtons and neutrons are far more massive than electrons, and both sit in the nucleus, which occupies a tiny fraction of the atom's volume.\n\n**Key concept:** The nucleus holds almost all the mass in almost none of the space.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q9",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation is the **strongest** evidence that a chemical reaction has occurred?",
+    "options": [
+      "The mixture became warmer and a precipitate formed.",
+      "The liquid was poured into a different beaker.",
+      "The sample was cut in half.",
+      "The solid was crushed into powder."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA temperature change plus a new solid appearing are two independent signs of a new substance. Pouring, cutting and crushing are physical changes.\n\n**Key concept:** Multiple simultaneous indicators strengthen the case for a chemical change.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q10",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Elements in the same **row** (period) of the periodic table share —",
+    "options": [
+      "the same number of electron shells",
+      "identical chemical properties",
+      "the same mass",
+      "the same number of protons"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA period (row) shares the number of occupied electron shells. Similar chemical properties come from being in the same group (column) instead.\n\n**Key concept:** Rows share shell count; columns share chemical behaviour.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q11",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **heterogeneous** mixture?",
+    "options": [
+      "Sand stirred into water",
+      "Salt dissolved in water",
+      "Pure copper",
+      "Sugar water"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe sand stays visibly separate and settles, so the mixture is not uniform. Salt and sugar solutions are homogeneous, and copper is a pure element.\n\n**Key concept:** Heterogeneous mixtures have visibly distinct parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q12",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Wood burns and the ash weighs less than the original log. Has mass been destroyed?",
+    "options": [
+      "No — gases released during burning carry away the missing mass.",
+      "Yes — burning destroys matter.",
+      "No — the ash actually weighs more.",
+      "Yes — mass becomes energy and disappears."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nCarbon dioxide and water vapour escape into the air. Weighing them with the ash would recover the original total, which is why conservation of mass is tested in sealed containers.\n\n**Key concept:** Apparent mass loss means matter left the system, not that it was destroyed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q13",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A neutral atom has 11 protons. How many electrons does it have?",
+    "options": [
+      "11",
+      "0",
+      "22",
+      "Cannot be determined"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA neutral atom has equal numbers of protons and electrons, so their charges cancel.\n\n**Key concept:** Neutral means proton count equals electron count.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q14",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property is used to separate iron filings from sand?",
+    "options": [
+      "Magnetism",
+      "Solubility",
+      "Boiling point",
+      "Colour"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIron is magnetic and sand is not, so a magnet removes the filings. The two do not differ usefully in solubility or colour for separation.\n\n**Key concept:** Separate a mixture using a property in which the components differ.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q15",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two clear solutions are mixed and the temperature drops sharply. This suggests —",
+    "options": [
+      "an endothermic chemical reaction",
+      "no reaction occurred",
+      "a physical change only",
+      "the thermometer is broken"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA sharp temperature drop means energy was absorbed from the surroundings, which is a sign of a reaction rather than nothing happening.\n\n**Key concept:** Endothermic reactions absorb energy and feel cold.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q16",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of the periodic table is least likely to react with other elements?",
+    "options": [
+      "Noble gases",
+      "Alkali metals",
+      "Halogens",
+      "Transition metals"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nNoble gases have full outer electron shells, so they have little tendency to gain, lose or share electrons.\n\n**Key concept:** A full outer shell makes an element unreactive.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q17",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which method separates two liquids with different boiling points?",
+    "options": [
+      "Distillation",
+      "Filtration",
+      "Magnetism",
+      "Sieving"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHeating the mixture evaporates the lower-boiling liquid first, which is then condensed and collected separately.\n\n**Key concept:** Distillation separates liquids by boiling point.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q18",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a chemical equation, the number of each type of atom must be —",
+    "options": [
+      "the same on both sides",
+      "greater on the product side",
+      "greater on the reactant side",
+      "unrelated between sides"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBalancing an equation expresses conservation of mass: every atom present before must be present after.\n\n**Key concept:** A balanced equation has equal atom counts on both sides.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q19",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An element that is a poor conductor, brittle, and dull is most likely a —",
+    "options": [
+      "nonmetal",
+      "metal",
+      "metalloid conductor",
+      "noble metal"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPoor conductivity, brittleness and a dull surface are characteristic nonmetal properties. Metals conduct, shine and are malleable.\n\n**Key concept:** Physical properties place an element as metal or nonmetal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q20",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sample has the greatest **density**?",
+    "options": [
+      "60 g occupying 10 cm³",
+      "60 g occupying 20 cm³",
+      "30 g occupying 10 cm³",
+      "30 g occupying 30 cm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDensities are \\(60/10 = 6\\), \\(60/20 = 3\\), \\(30/10 = 3\\) and \\(30/30 = 1\\) g/cm³. The first is greatest.\n\n**Key concept:** Compare densities by dividing, not by comparing mass or volume alone.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q21",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rust forms when iron reacts with oxygen and water. Rust is —",
+    "options": [
+      "a new compound with different properties from iron",
+      "iron in a different physical state",
+      "a mixture of iron and water",
+      "pure iron powder"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nRust is iron oxide — reddish, brittle and non-magnetic in a way iron is not. Its formation is a chemical change.\n\n**Key concept:** A product of a chemical change has its own distinct properties.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q22",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The atomic number of an element tells you the number of —",
+    "options": [
+      "protons",
+      "neutrons",
+      "electron shells",
+      "molecules"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe atomic number is the proton count, and it identifies the element. Neutron number can vary between isotopes of the same element.\n\n**Key concept:** Atomic number = number of protons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q23",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is true of a **solution**?",
+    "options": [
+      "The solute is evenly distributed and cannot be filtered out.",
+      "The particles settle if left standing.",
+      "It always contains a metal.",
+      "It can always be separated with a sieve."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIn a solution the solute particles are dispersed at the particle level, so they pass through filter paper and do not settle.\n\n**Key concept:** Solutions are homogeneous and cannot be separated by filtering.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

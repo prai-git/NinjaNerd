@@ -378,5 +378,465 @@
     "explanation": "**Explanation:** A core principle of the **cell theory** is that **all living things are made of one or more cells** (other principles: the cell is the basic unit of life, and cells come from existing cells).\n**Why others are wrong:** B — plants have cells too. C — living things are made of cells, not rock/water/air alone. D — a single cell is part of the organism, not larger than it.\n**Key concept:** The cell theory — all living things are composed of cells.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q24",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which organelle releases energy from food in both plant and animal cells?",
+    "options": [
+      "Mitochondrion",
+      "Chloroplast",
+      "Cell wall",
+      "Vacuole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nMitochondria carry out cellular respiration in both plant and animal cells. Chloroplasts and cell walls occur only in plants.\n\n**Key concept:** Plants respire as well as photosynthesise.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q25",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What are the **reactants** of photosynthesis?",
+    "options": [
+      "Carbon dioxide and water",
+      "Oxygen and glucose",
+      "Glucose and water",
+      "Oxygen only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPhotosynthesis takes in carbon dioxide and water and uses light energy to build glucose, releasing oxygen.\n\n**Key concept:** Reactants go in; products come out.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q26",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What are the **products** of photosynthesis?",
+    "options": [
+      "Glucose and oxygen",
+      "Carbon dioxide and water",
+      "Water only",
+      "Nitrogen and glucose"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGlucose stores the captured energy and oxygen is released as a by-product.\n\n**Key concept:** Photosynthesis converts light energy into chemical energy in glucose.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q27",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Cellular respiration and photosynthesis are related because —",
+    "options": [
+      "the products of one are the reactants of the other",
+      "both occur only in daylight",
+      "both destroy energy",
+      "neither involves gases"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPhotosynthesis produces glucose and oxygen, which respiration consumes; respiration produces carbon dioxide and water, which photosynthesis consumes. Respiration runs day and night.\n\n**Key concept:** The two processes form a cycle of matter.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q28",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure controls what enters and leaves a cell?",
+    "options": [
+      "Cell membrane",
+      "Nucleus",
+      "Ribosome",
+      "Vacuole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe membrane is selectively permeable, admitting some substances and excluding others. The nucleus directs activity but does not control transport across the boundary.\n\n**Key concept:** Structure fits function — a boundary regulates passage.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q29",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence orders structures from smallest to largest?",
+    "options": [
+      "Cell → tissue → organ → organ system",
+      "Tissue → cell → organ → organ system",
+      "Organ → organ system → tissue → cell",
+      "Cell → organ → tissue → organ system"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSimilar cells form tissues, tissues form organs, and organs working together form an organ system.\n\n**Key concept:** Each level of organisation is built from the one below.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q30",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An organism inherits one allele from each parent. This occurs during —",
+    "options": [
+      "reproduction",
+      "digestion",
+      "respiration",
+      "photosynthesis"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAlleles are passed to offspring during sexual reproduction, one from each parent. Digestion, respiration and photosynthesis do not transmit genetic material.\n\n**Key concept:** Inheritance happens through reproduction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q31",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which system transports oxygen and nutrients around the body?",
+    "options": [
+      "Circulatory",
+      "Skeletal",
+      "Digestive",
+      "Nervous"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBlood carries oxygen and nutrients to cells and removes wastes, driven by the heart.\n\n**Key concept:** Each body system has a distinct transport or processing role.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q32",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement about cells is **not** part of cell theory?",
+    "options": [
+      "All cells contain a nucleus.",
+      "All living things are made of cells.",
+      "The cell is the basic unit of life.",
+      "Cells arise from existing cells."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBacteria are cells without a nucleus, so this is false and is not part of cell theory. The other three statements are its three principles.\n\n**Key concept:** Cell theory has three parts, and a nucleus is not one of them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q33",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The main function of the respiratory system is to —",
+    "options": [
+      "exchange oxygen and carbon dioxide with the environment",
+      "pump blood",
+      "break down food",
+      "produce hormones"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe respiratory system brings oxygen in and expels carbon dioxide; the circulatory system then distributes the oxygen.\n\n**Key concept:** Systems work together but have distinct primary functions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q34",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An organism that makes its own food using sunlight is called a —",
+    "options": [
+      "producer",
+      "consumer",
+      "decomposer",
+      "parasite"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nProducers make their own food through photosynthesis and form the base of the food chain.\n\n**Key concept:** Producers convert light energy into chemical energy for the whole ecosystem.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q35",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two brown-eyed parents have a blue-eyed child. This is possible because —",
+    "options": [
+      "both parents carry a recessive allele for blue eyes",
+      "eye colour is not inherited",
+      "the child has no alleles",
+      "blue is dominant over brown"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBrown is dominant, so a brown-eyed parent may carry one hidden recessive allele. If both pass on the recessive allele, the child shows the recessive trait.\n\n**Key concept:** A recessive trait can appear when both parents carry it unexpressed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q36",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which organelle stores water and nutrients, and is much larger in plant cells?",
+    "options": [
+      "Vacuole",
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPlant cells have one large central vacuole that stores water and helps maintain rigidity; animal vacuoles are small or absent.\n\n**Key concept:** The same organelle can differ markedly between cell types.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q37",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which factor would most directly limit the size of a fish population in a lake?",
+    "options": [
+      "Available dissolved oxygen and food",
+      "The lake's name",
+      "The colour of the water at sunset",
+      "The number of lakes in the country"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLimiting factors are resources organisms need. Names, colours and unrelated geography have no effect on population size.\n\n**Key concept:** Limiting factors are the resources in shortest supply.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q38",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Organisms made of a single cell are described as —",
+    "options": [
+      "unicellular",
+      "multicellular",
+      "inorganic",
+      "abiotic"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Uni-* means one, so a unicellular organism carries out every life process within a single cell.\n\n**Key concept:** Unicellular organisms are complete living things in one cell.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q39",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which trait is most likely to be **inherited**?",
+    "options": [
+      "Blood type",
+      "A broken arm",
+      "A learned language",
+      "A suntan"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBlood type is determined by genes. A broken arm, a learned language and a suntan are all acquired during life.\n\n**Key concept:** Inherited traits come from genes; acquired traits come from experience.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q40",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Removing all decomposers from an ecosystem would most directly cause —",
+    "options": [
+      "nutrients to remain locked in dead material",
+      "producers to grow faster",
+      "more sunlight to reach the ground",
+      "water to evaporate faster"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDecomposers return nutrients to the soil. Without them, dead material would accumulate and producers would eventually be starved of nutrients.\n\n**Key concept:** Decomposers close the nutrient cycle.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q41",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure in a plant cell provides rigid support?",
+    "options": [
+      "Cell wall",
+      "Cell membrane",
+      "Cytoplasm",
+      "Chloroplast"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe rigid cell wall outside the membrane gives plant cells their shape and structural support.\n\n**Key concept:** The cell wall provides support; the membrane controls transport.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q42",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Scientists classify organisms mainly to —",
+    "options": [
+      "group them by shared characteristics and show relationships",
+      "rank them by usefulness to humans",
+      "record where each was found",
+      "count how many exist"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nClassification organises organisms by shared traits, which reveals how they are related and makes the diversity of life manageable.\n\n**Key concept:** Classification reflects relationships, not usefulness.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q43",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a food web, an organism that eats both plants and animals is a —",
+    "options": [
+      "omnivore",
+      "herbivore",
+      "producer",
+      "decomposer"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOmnivores eat both producers and consumers, which is why they often occupy more than one trophic level.\n\n**Key concept:** Diet determines an organism's place in a food web.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q44",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The skeletal system's functions include support, movement and —",
+    "options": [
+      "protecting internal organs",
+      "producing sunlight",
+      "filtering air",
+      "digesting starch"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe skull protects the brain and the ribcage protects the heart and lungs, alongside support and movement.\n\n**Key concept:** One system often serves several functions at once.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q45",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Variation within a population is important because it —",
+    "options": [
+      "increases the chance some individuals survive a change in conditions",
+      "guarantees every individual survives",
+      "prevents reproduction",
+      "makes all individuals identical"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIf conditions change, individuals whose traits suit the new conditions can survive and reproduce. A uniform population has no such reserve.\n\n**Key concept:** Variation gives a population resilience.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-55_q46",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pond dries up completely each summer. Which adaptation would be **most** useful to an organism living there?",
+    "options": [
+      "Producing eggs that survive drying and hatch when water returns",
+      "Growing a thicker coat of fur",
+      "Developing larger eyes",
+      "Becoming a producer"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe adaptation must address the specific challenge — the annual loss of water. Thicker fur, larger eyes and becoming a producer address nothing about drought.\n\n**Key concept:** An adaptation is useful only against the actual environmental pressure.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
