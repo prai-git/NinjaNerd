@@ -38,5 +38,465 @@
     "explanation": "**Explanation:**\nA colon introduces a list, and what comes **before** it must be a complete sentence.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q24",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **semicolon** correctly?",
+    "options": [
+      "The results were clear; the hypothesis was wrong.",
+      "The results were clear; and the hypothesis was wrong.",
+      "The results were clear; which surprised everyone.",
+      "The results; were clear and surprising."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA semicolon joins two closely related independent clauses without a conjunction. Adding *and* after it is redundant, and a semicolon cannot introduce a dependent clause.\n\n**Key concept:** A semicolon links two complete sentences.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q25",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **colon** correctly?",
+    "options": [
+      "The kit contains: rope, a compass, and matches.",
+      "The kit contains three items: rope, a compass, and matches.",
+      "The kit contains three items; rope, a compass, and matches.",
+      "The kit: contains rope, a compass, and matches."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA colon follows a complete independent clause and introduces the list. \"The kit contains:\" is not complete before the colon.\n\n**Key concept:** What precedes a colon must stand as a full sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q26",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the sentence with correct comma use after an introductory element.",
+    "options": [
+      "After the long delay the train finally departed.",
+      "After the long delay, the train finally departed.",
+      "After, the long delay the train finally departed.",
+      "After the long, delay the train finally departed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAn introductory prepositional phrase of this length takes a comma before the main clause. The other placements split the phrase itself.\n\n**Key concept:** A comma separates an introductory element from the main clause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q27",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates the **nonrestrictive clause** correctly?",
+    "options": [
+      "My brother who lives in Austin is visiting.",
+      "My brother, who lives in Austin, is visiting.",
+      "My brother, who lives in Austin is visiting.",
+      "My brother who lives in Austin, is visiting."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe clause adds extra information about one identified brother, so it is nonrestrictive and takes commas on both sides. Using no commas would imply the writer has several brothers and is specifying which one.\n\n**Key concept:** Nonrestrictive clauses are enclosed by paired commas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q28",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the apostrophe correctly for a **plural possessive**?",
+    "options": [
+      "The students' projects were displayed in the hall.",
+      "The student's projects were displayed in the hall, all thirty of them.",
+      "The students projects' were displayed in the hall.",
+      "The studentss' projects were displayed in the hall."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Students* is a regular plural ending in *s*, so the possessive adds only an apostrophe after the *s*.\n\n**Key concept:** Plural nouns ending in *s* take an apostrophe alone.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q29",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates dialogue correctly?",
+    "options": [
+      "\"Wait here,\" she said, \"I'll be back in a moment.\"",
+      "\"Wait here.\" she said \"I'll be back in a moment.\"",
+      "\"Wait here\", she said, \"I'll be back in a moment\".",
+      "Wait here, she said, \"I'll be back in a moment.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe comma sits inside the closing quotation mark, the speech tag is set off by commas, and the second quoted part reopens with quotation marks.\n\n**Key concept:** In American usage commas and periods go inside the quotation marks.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q30",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly in a series with internal commas?",
+    "options": [
+      "The tour visited Austin, Texas, Santa Fe, New Mexico, and Denver, Colorado.",
+      "The tour visited Austin, Texas; Santa Fe, New Mexico; and Denver, Colorado.",
+      "The tour visited Austin Texas; Santa Fe New Mexico; and Denver Colorado.",
+      "The tour visited: Austin, Texas, Santa Fe, New Mexico, Denver, Colorado."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nWhen items in a series already contain commas, semicolons separate the items so the reader can see where each one ends.\n\n**Key concept:** Semicolons divide list items that contain internal commas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q31",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **dash** appropriately?",
+    "options": [
+      "The answer — which no one expected — changed the whole debate.",
+      "The answer — was surprising.",
+      "The — answer changed the debate.",
+      "The answer changed — the debate which no one expected."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPaired dashes set off an interruption with more emphasis than commas. A single dash cannot separate a subject from its verb, which is what the other options do.\n\n**Key concept:** Dashes come in pairs when they enclose an interruption.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q32",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where does the comma belong? *The experiment succeeded ____ but the team repeated it anyway.*",
+    "options": [
+      "after \"succeeded\"",
+      "after \"but\"",
+      "after \"team\"",
+      "no comma is needed"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*But* is a coordinating conjunction joining two independent clauses, so a comma goes before it — that is, after *succeeded*.\n\n**Key concept:** Place the comma before the coordinating conjunction joining two independent clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q33",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which title is punctuated correctly within a sentence?",
+    "options": [
+      "We read the poem \"The Road Not Taken\" in class.",
+      "We read the poem The Road Not Taken in class.",
+      "We read the poem 'The Road Not Taken' in class.",
+      "We read the poem \"The Road Not Taken in class.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nShort works such as poems, songs and articles take quotation marks; long works take italics. The closing quotation mark belongs after the title, not after *class*.\n\n**Key concept:** Quotation marks enclose titles of short works.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q34",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses commas with a direct address?",
+    "options": [
+      "Elena please bring the map.",
+      "Elena, please bring the map.",
+      "Elena please, bring the map.",
+      "Elena please bring, the map."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA name used to address someone directly is separated from the rest of the sentence by a comma.\n\n**Key concept:** Direct address is set off by commas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q35",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision replaces the vague word with the **most precise** choice? *The scientist was happy about the surprising result.*",
+    "options": [
+      "The scientist was really happy about the surprising result.",
+      "The scientist was elated by the unexpected result.",
+      "The scientist was very happy about the surprising result.",
+      "The scientist was happy, surprised, and pleased."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Elated* carries a specific intensity that *happy* plus an intensifier does not. Adding *really* or *very* pads the sentence without sharpening it, and stacking three near-synonyms is redundant.\n\n**Key concept:** A precise word beats a vague word with an intensifier.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q36",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the apostrophe correctly for a **singular possessive** ending in *s*?",
+    "options": [
+      "The class's project won the award.",
+      "The classes project won the award.",
+      "The class project's won the award.",
+      "The classes' project won the award, though there was only one class."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Class* is singular, so the possessive adds an apostrophe and an *s*. *Classes* is the plural, and *classes'* would mean more than one class.\n\n**Key concept:** Singular nouns ending in *s* usually take apostrophe + *s*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q37",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has the most concise wording without losing meaning?",
+    "options": [
+      "Due to the fact that it was raining, we cancelled the game.",
+      "Because it was raining, we cancelled the game.",
+      "On account of the fact of the rain, we cancelled the game.",
+      "Owing to the rain that was falling, we cancelled the game."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Because* does in one word what \"due to the fact that\" and \"on account of the fact of\" take five or six to do, with no loss of meaning.\n\n**Key concept:** Prefer the shortest wording that preserves the meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q38",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates two independent clauses joined by a conjunctive adverb?",
+    "options": [
+      "The data was incomplete, however, the team published anyway.",
+      "The data was incomplete; however, the team published anyway.",
+      "The data was incomplete however; the team published anyway.",
+      "The data was incomplete however the team published anyway."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*However* is a conjunctive adverb, not a coordinating conjunction, so it needs a semicolon before it and a comma after it when joining two independent clauses.\n\n**Key concept:** Conjunctive adverbs take a semicolon before and a comma after.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q39",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses quotation marks correctly for a quotation within a quotation?",
+    "options": [
+      "She said, \"The sign clearly read 'No Entry' at the gate.\"",
+      "She said, \"The sign clearly read \"No Entry\" at the gate.\"",
+      "She said, 'The sign clearly read \"No Entry\" at the gate.'",
+      "She said \"The sign clearly read No Entry at the gate\"."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA quotation inside a quotation uses single marks within double marks, so the reader can see where the inner quotation begins and ends.\n\n**Key concept:** Nest single quotation marks inside double ones.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q40",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best replaces the passive construction with active voice? *The window was broken by the storm.*",
+    "options": [
+      "The window, broken by the storm, was replaced.",
+      "The storm broke the window.",
+      "The window had been broken by the storm.",
+      "It was the storm by which the window was broken."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nActive voice puts the actor (*the storm*) in the subject position and the receiver (*the window*) in the object position, which is shorter and more direct.\n\n**Key concept:** Active voice names the actor as the subject.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q41",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses commas with coordinate adjectives?",
+    "options": [
+      "It was a long, difficult climb.",
+      "It was a long difficult, climb.",
+      "It was a, long difficult climb.",
+      "It was a long, difficult, climb."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Long* and *difficult* both modify *climb* independently, so a comma separates them. No comma belongs between the final adjective and the noun.\n\n**Key concept:** Coordinate adjectives are separated by a comma, never from the noun itself.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q42",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision creates the strongest **topic sentence** for a paragraph about coral bleaching?",
+    "options": [
+      "Coral is interesting to many people.",
+      "Rising ocean temperatures force corals to expel the algae that feed them, leaving reefs bleached and vulnerable.",
+      "This paragraph will discuss coral bleaching.",
+      "There are many facts about coral."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA strong topic sentence states the paragraph's controlling idea with specific content. Announcing what the paragraph will do, or calling the subject \"interesting\", tells the reader nothing.\n\n**Key concept:** A topic sentence makes a claim the paragraph then supports.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q43",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses hyphenation correctly?",
+    "options": [
+      "She gave a well-researched presentation.",
+      "She gave a well researched-presentation.",
+      "Her presentation was well-researched and the research was well-done in general.",
+      "She gave a wellresearched presentation."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA compound modifier is hyphenated when it comes before the noun it modifies. After the noun (\"the presentation was well researched\") the hyphen is dropped.\n\n**Key concept:** Hyphenate compound modifiers placed before the noun.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q44",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which transition best signals a **contrast**?",
+    "options": [
+      "Furthermore, the results supported the hypothesis.",
+      "Nevertheless, the results contradicted the hypothesis.",
+      "Similarly, the results supported the hypothesis.",
+      "Consequently, the results supported the hypothesis."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Nevertheless* signals that what follows runs counter to what came before. *Furthermore* and *similarly* add or compare; *consequently* shows result.\n\n**Key concept:** Transitions name the relationship between ideas — match the word to the logic.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q45",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates an appositive?",
+    "options": [
+      "My neighbour a retired pilot tells remarkable stories.",
+      "My neighbour, a retired pilot, tells remarkable stories.",
+      "My neighbour, a retired pilot tells remarkable stories.",
+      "My neighbour a retired pilot, tells remarkable stories."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAn appositive renaming the subject is enclosed by paired commas. Using only one comma leaves the phrase half-attached.\n\n**Key concept:** Appositives take commas on both sides.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q46",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best eliminates redundancy?",
+    "options": [
+      "The final outcome of the end result was a tie.",
+      "The final result was a tie.",
+      "The end result finally concluded in a tie.",
+      "The outcome of the final end was a tie."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n\"Final outcome of the end result\" says the same thing three times. One precise noun with one modifier carries the whole meaning.\n\n**Key concept:** Remove words that repeat meaning already present.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

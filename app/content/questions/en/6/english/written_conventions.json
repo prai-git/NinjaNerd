@@ -38,5 +38,465 @@
     "explanation": "**Explanation:**\n*Students'* is a plural possessive, so the apostrophe follows the *s*. *Archive's* is a singular\npossessive.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q1",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "Because the storm knocked out power for three days.",
+      "The storm knocked out power for three days, we cooked on the grill.",
+      "Because the storm knocked out power for three days, we cooked on the grill.",
+      "The storm knocked out power for three days we cooked on the grill."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nA subordinate clause beginning with *because* cannot stand alone, so it must attach to an independent clause and take a comma when it comes first. Option A is a fragment, B is a comma splice, and D is a run-on.\n\n**Key concept:** A dependent clause needs an independent clause; a comma marks the join when the dependent clause leads.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q2",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct revision: *Neither the coach nor the players was ready for the announcement.*",
+    "options": [
+      "Neither the coach nor the players were ready for the announcement.",
+      "Neither the coach or the players was ready for the announcement.",
+      "Neither the coach nor the players is ready for the announcement.",
+      "The sentence is already correct."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWith *neither...nor*, the verb agrees with the nearer subject. *Players* is plural and sits closest to the verb, so *were* is correct. *Nor* must pair with *neither*, which rules out the *or* version.\n\n**Key concept:** In neither/nor constructions the verb agrees with the closer subject.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q3",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains an **unclear pronoun reference**?",
+    "options": [
+      "When Maya met Priya, she had already read the article.",
+      "Maya told Priya that the article was long.",
+      "Maya, who had read the article, met Priya.",
+      "Priya read the article before meeting Maya."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*She* could refer to Maya or to Priya — the reader cannot tell which. The other options name the reader explicitly or use a relative clause that removes the ambiguity.\n\n**Key concept:** A pronoun must point to one unmistakable antecedent.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q4",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the sentence with correct verb tense consistency.",
+    "options": [
+      "The scientist collected samples, records the data, and published her findings.",
+      "The scientist collects samples, recorded the data, and publishes her findings.",
+      "The scientist collected samples, recorded the data, and published her findings.",
+      "The scientist collected samples, records the data, and will publish her findings."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nAll three verbs are simple past, so the timeline stays consistent. The other options shift between past, present and future without any reason in the meaning.\n\n**Key concept:** Keep tense consistent unless the time frame genuinely changes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision corrects the **misplaced modifier**? *Covered in mud, the coach sent the players to the showers.*",
+    "options": [
+      "Covered in mud, the players were sent to the showers by the coach.",
+      "The coach, covered in mud, sent the players to the showers.",
+      "The coach sent covered in mud the players to the showers.",
+      "Covered in mud sent the coach the players to the showers."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe opening phrase must describe the noun that follows it. In the original, *covered in mud* lands on *the coach*. Option A puts *the players* directly after the phrase, which is who was actually muddy.\n\n**Key concept:** An introductory participial phrase modifies the subject that immediately follows it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **subject** pronoun correctly?",
+    "options": [
+      "Marcus and me finished the project early.",
+      "Marcus and I finished the project early.",
+      "Me and Marcus finished the project early.",
+      "Him and I finished the project early."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe pair is the subject of *finished*, so the subject pronoun *I* is required. Remove the other name to test it: \"I finished the project,\" not \"Me finished the project.\"\n\n**Key concept:** Drop the other name to hear which pronoun case is right.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Identify the **comma splice**.",
+    "options": [
+      "The bell rang, and the students left.",
+      "The bell rang; the students left.",
+      "The bell rang, the students left.",
+      "When the bell rang, the students left."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nTwo independent clauses are joined by a comma alone, which is a comma splice. The fix is a coordinating conjunction, a semicolon, or subordination — the other three options.\n\n**Key concept:** A comma alone cannot join two independent clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the agreement error? *Each of the runners have finished the course.*",
+    "options": [
+      "Each of the runners has finished the course.",
+      "Each of the runners are finishing the course.",
+      "Each of the runner have finished the course.",
+      "Each of the runners were finished the course."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe subject is *each*, which is singular, so the verb is *has*. *Of the runners* is a prepositional phrase and does not control the verb.\n\n**Key concept:** Indefinite pronouns like *each*, *every* and *either* take singular verbs.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a **fragment**?",
+    "options": [
+      "Running through the empty hallway after the final bell.",
+      "She ran through the empty hallway.",
+      "Although she ran, she arrived late.",
+      "Run through the hallway."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThis has no subject and no finite verb — *running* is a participle, not a predicate. Option D is a complete imperative sentence with an understood subject (*you*).\n\n**Key concept:** A sentence needs a subject and a finite verb; an imperative's subject is understood.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct pronoun: *The award was presented to Jamal and ____.*",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe pronoun follows the preposition *to*, so the object form is required. Test it alone: \"The award was presented to me.\"\n\n**Key concept:** Objects of prepositions take object pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **who** and **whom** correctly?",
+    "options": [
+      "Whom wrote the letter that arrived today?",
+      "The student who I met is on the debate team.",
+      "The student whom I met is on the debate team.",
+      "Whom is coming to the assembly?"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\n*Whom* is the object of *met* (\"I met whom\"). *Who* would be the subject, as in \"Who wrote the letter?\" — which is why A and D are wrong.\n\n**Key concept:** *Who* acts as subject; *whom* acts as object.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the shift in person? *If a student wants to improve, you should practise daily.*",
+    "options": [
+      "If a student wants to improve, they should practise daily.",
+      "If you want to improve, a student should practise daily.",
+      "If a student wants to improve, one should practise you daily.",
+      "If students want to improve, you should practise daily."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe original shifts from third person (*a student*) to second person (*you*). Option A stays in third person throughout.\n\n**Key concept:** Keep person consistent within a sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **past perfect** correctly?",
+    "options": [
+      "By the time we arrived, the film had already started.",
+      "By the time we arrived, the film has already started.",
+      "By the time we arrived, the film already starts.",
+      "By the time we arrive, the film had already started."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPast perfect (*had started*) marks the earlier of two past events: the film started before we arrived.\n\n**Key concept:** Past perfect shows which past action happened first.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **run-on** sentence?",
+    "options": [
+      "The river rose quickly, so the town evacuated.",
+      "The river rose quickly the town evacuated.",
+      "The river rose quickly; the town evacuated.",
+      "Because the river rose quickly, the town evacuated."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTwo independent clauses run together with no punctuation or conjunction. The others are correctly joined by a conjunction, a semicolon, or subordination.\n\n**Key concept:** A run-on fuses independent clauses with nothing between them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct comparative form: *Of the two routes, the coastal path is the ____.*",
+    "options": [
+      "most scenic",
+      "more scenic",
+      "scenicest",
+      "most scenicest"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nComparing exactly two things takes the comparative form. *Scenic* is a two-syllable adjective that forms its comparative with *more*, and *scenicest* is not a word.\n\n**Key concept:** Comparative for two, superlative for three or more.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the adverb correctly?",
+    "options": [
+      "She sang beautiful during the assembly.",
+      "She sang beautifully during the assembly.",
+      "She sang more beautiful than him.",
+      "She sang beautifulest of all."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Sang* is a verb, so it takes the adverb *beautifully*. *Beautiful* is an adjective and can only modify a noun.\n\n**Key concept:** Adverbs modify verbs; adjectives modify nouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q17",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the **dangling modifier**? *After finishing the essay, the printer jammed.*",
+    "options": [
+      "After finishing the essay, the printer jammed loudly.",
+      "After I finished the essay, the printer jammed.",
+      "The printer, after finishing the essay, jammed.",
+      "Finishing the essay, the printer jammed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIn the original there is no one for *after finishing* to describe — the printer did not finish the essay. Naming the subject in a full clause repairs it.\n\n**Key concept:** A dangling modifier has no logical subject to attach to.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q18",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has correct **subject-verb agreement** with a collective noun?",
+    "options": [
+      "The committee are meeting on Thursday to vote as one body.",
+      "The committee is meeting on Thursday to vote as one body.",
+      "The committee were meeting on Thursday to vote as one body.",
+      "The committee be meeting on Thursday."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA collective noun takes a singular verb when the group acts as a single unit, which *as one body* makes explicit.\n\n**Key concept:** Collective nouns are singular when the group acts together.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q19",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the sentence with correct **parallel structure**.",
+    "options": [
+      "She enjoys hiking, to swim, and cycling.",
+      "She enjoys hiking, swimming, and cycling.",
+      "She enjoys to hike, swimming, and to cycle.",
+      "She enjoys hiking, swim, and cycle."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAll three items share the same *-ing* form, so the list is parallel. Mixing infinitives with gerunds breaks the pattern.\n\n**Key concept:** Items in a series must share grammatical form.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q20",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the double negative? *We didn't see nothing unusual.*",
+    "options": [
+      "We didn't see nothing unusual at all.",
+      "We saw nothing unusual.",
+      "We didn't never see nothing unusual.",
+      "We hadn't seen nothing unusual."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Didn't* and *nothing* are both negatives, so together they cancel. Keeping one negative states the meaning clearly.\n\n**Key concept:** Standard English uses one negative per clause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q21",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **its** and **it's** correctly?",
+    "options": [
+      "Its been raining, and the dog lost it's collar.",
+      "It's been raining, and the dog lost its collar.",
+      "Its been raining, and the dog lost its collar.",
+      "It's been raining, and the dog lost it's collar."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*It's* is the contraction of *it has* or *it is*; *its* is the possessive. Expand the contraction to test: \"It has been raining.\"\n\n**Key concept:** The apostrophe marks a contraction, not the possessive, in *it's*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q22",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best combination of these sentences? *The trail was steep. The hikers continued. They reached the summit at dusk.*",
+    "options": [
+      "The trail was steep, the hikers continued, they reached the summit at dusk.",
+      "Although the trail was steep, the hikers continued and reached the summit at dusk.",
+      "The trail was steep and the hikers continued and they reached the summit at dusk.",
+      "The trail was steep; the hikers continued; the summit at dusk."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSubordinating the first idea shows the relationship between steepness and persistence, and joining the last two removes the choppiness. Option A is a comma splice, C is stringy, D leaves a fragment.\n\n**Key concept:** Combine sentences by subordinating the less important idea.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-08_q23",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a **subordinating conjunction**?",
+    "options": [
+      "The experiment failed, however the team learned from it.",
+      "Although the experiment failed, the team learned from it.",
+      "The experiment failed although, the team learned from it.",
+      "The experiment failed the team learned from it although."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Although* introduces a dependent clause placed before the independent clause and separated by a comma. *However* is a conjunctive adverb and cannot join clauses with only a comma.\n\n**Key concept:** Subordinating conjunctions open dependent clauses; conjunctive adverbs need a semicolon.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
