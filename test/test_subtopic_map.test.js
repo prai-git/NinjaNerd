@@ -183,34 +183,34 @@ test('no subtopic is empty at any grade', () => {
   assert.deepEqual(empty, [], `${empty.length} subtopics have no questions:\n${empty.join('\n')}`);
 });
 
-/* RELEASE GATE — minimum questions per subtopic.
+/* RELEASE GATE — minimum questions per subtopic. Two thresholds, by grade.
 
-   Owner decision, 2026-09-01, REVISED the same day after seeing the live site: **50, not 20.**
-   Subtopics with 3 and 4 questions were reported as broken from ninjanerd.ai itself, which is
-   the right call -- the 20 gate was a launch compromise chosen before the site was live.
+   Owner decisions on 2026-09-01, in order: 20 at launch, then 50 after seeing subtopics with
+   3 and 4 questions on the live site, then **50 for grade 6 and 30 for grades 1-5**.
 
-   50 is a FLOOR, not a target ("we can always have more than 50 questions"). Nothing here
-   caps a bucket, and richer buckets are strictly better now that a correctly-answered question
-   is retired until the whole subtopic has been worked through.
+   The split is not a compromise on quality. Grade 6 carries TWO tracks in one set of buckets —
+   on-level 6.x content alongside accelerated 7.x/8.x maths and Honors ELAR — so a grade-6
+   bucket has to serve two populations and needs roughly twice the depth to do it. Grades 1-5
+   serve one track, and 30 gives a child several full sessions before the list repeats.
 
-   GRADE 6 IS A MIX (owner, 2026-09-01): on-level 6.x content alongside the accelerated
-   7.x/8.x maths and Honors ELAR items already in the corpus. The earlier decision to keep the
-   accelerated material stands; this adds on-level beside it rather than replacing it, so a
-   general grade-6 student meets work at their level and a student on the accelerated track
-   still finds the stretch.
+   Both numbers are FLOORS, not targets ("we can always have more than 50 questions"). Nothing
+   here caps a bucket, and richer buckets are strictly better now that a correctly-answered
+   question is retired until the whole subtopic has been worked through.
 
-   Why a minimum exists at all, beyond "more is better": practice now retires a question once
-   the child answers it correctly, and serves the subtopic again only when the whole list has
-   been worked through (see test_data.test.js). With a 10-question bucket a child exhausts a
-   subtopic in one sitting and immediately meets the "starting again" banner. Twenty is the
-   point at which a session feels like practice rather than a loop.
+   Why a minimum exists at all, beyond "more is better": practice retires a question once the
+   child answers it correctly, and serves the subtopic again only when the whole list has been
+   worked through (see test_data.test.js). With a 10-question bucket a child exhausts a
+   subtopic in one sitting and immediately meets the "starting again" banner.
 
-   `todo` rather than failing: 93 of 115 buckets are short today, and a permanently red suite
-   stops carrying signal. Remove the flag when the authoring is done — then a regression fails
-   the build, exactly as the "no subtopic is empty" gate does now. */
-const MIN_QUESTIONS_PER_SUBTOPIC = 50;
+   `todo` rather than failing: 106 of 115 buckets are short today (2,412 questions to author),
+   and a permanently red suite stops carrying signal. Remove the flag when the authoring is
+   done -- then a regression fails the build, exactly as the "no subtopic is empty" gate does
+   now. The assertion message lists every short bucket with its count and its target, so it
+   doubles as the worklist. */
+const MIN_QUESTIONS = { grade6: 50, lower: 30 };
+const minFor = (grade) => (grade === 6 ? MIN_QUESTIONS.grade6 : MIN_QUESTIONS.lower);
 
-test('every subtopic has at least 50 questions', { todo: true }, () => {
+test('every subtopic meets its grade\'s question minimum', { todo: true }, () => {
   const man = JSON.parse(
     readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
   const short = [];
@@ -220,15 +220,18 @@ test('every subtopic has at least 50 questions', { todo: true }, () => {
       for (const e of (man.grades?.[String(g)]?.[subj] || [])) counts[e.subtopic] = e.count || 0;
       for (const s of subtopicsForGrade(subj, g)) {
         const n = counts[s.id] || 0;
-        if (n < MIN_QUESTIONS_PER_SUBTOPIC) short.push(`g${g} ${subj}: ${s.name} (${n})`);
+        const min = minFor(g);
+        if (n < min) short.push(`g${g} ${subj}: ${s.name} (${n}/${min})`);
       }
     }
   }
-  assert.deepEqual(short, [],
-    `${short.length} subtopics are under ${MIN_QUESTIONS_PER_SUBTOPIC}:\n${short.join('\n')}`);
+  assert.deepEqual(short, [], `${short.length} subtopics are short:\n${short.join('\n')}`);
 });
 
-test('the gate is 50, the figure the owner set after seeing the live site', () => {
-  assert.equal(MIN_QUESTIONS_PER_SUBTOPIC, 50,
-    'the 20 launch compromise was superseded on 2026-09-01; do not lower it again');
+test('the thresholds are the ones the owner set: 50 for grade 6, 30 below', () => {
+  assert.equal(MIN_QUESTIONS.grade6, 50, 'grade 6 carries two tracks and needs the depth');
+  assert.equal(MIN_QUESTIONS.lower, 30, 'grades 1-5 serve one track');
+  // The split must actually be applied, not just declared.
+  assert.equal(minFor(6), 50);
+  for (const g of [1, 2, 3, 4, 5]) assert.equal(minFor(g), 30, `grade ${g} target`);
 });
