@@ -55,14 +55,18 @@ See `doc/prompt/00_base_path_prompt.md`.
 - **`test/`** — JS `node:test` suites (`*.test.js`). **Not served.**
 - **`.github/workflows/pages.yml`** — deploys `app/` to GitHub Pages (native branch-folder
   only allows `/` or `/docs`, so a custom `/app` folder is published via Actions).
-- **`doc/`** — git-ignored working docs: planning (plan, prompts, changelog) **and**
-  `doc/questionnaire/` (authored question/answer source for the content build).
-  **Exception:** `doc/firebase-setup.md` **is committed** — it holds the Firestore data model
-  and the owner's do-once console checklist, which the repo needs long-term. The
-  build's committed output — `app/content/questions/en/**.json` — is the repo's single
+- **`doc/`** — **entirely git-ignored; nothing under it is tracked.** Throw-away working docs
+  that live only on the owner's machine: the plan, the `NN_*` prompts, the changelog,
+  `firebase-setup.md` (the do-once Firebase console checklist), and `doc/questionnaire/`
+  (authored question/answer source for the content build). These are plans for executing
+  tasks, not reference material — anything the repo needs long-term must live in a tracked
+  file instead. The Firestore schema, for example, is documented in the header of
+  `dbmgr/firestore.rules`, which is committed because it is a deployed artifact.
+  The build's committed output — `app/content/questions/en/**.json` — is the repo's single
   copy of the Q&A; the source stays local so the same questions aren't stored twice.
-  Keep a backup of `doc/questionnaire/` outside the repo: it is the only place the
-  authored `.md`/`.html` and the ~74 non-MCQ items (griddables, free-response) live.
+  **Back up `doc/` outside the repo.** It is not in version control, and `doc/questionnaire/`
+  is the only place the authored `.md`/`.html` and the ~74 non-MCQ items (griddables,
+  free-response) exist.
 - **`obs_*`** — the retired Flask backend, kept for reference (see below).
 
 ## Publishing / deploy
@@ -113,6 +117,21 @@ copy it. For deep detail, consult git history.
 
 ## Notes for editing
 
+- **Branch discipline — `ninjanerd-static` only. Two hard rules, no exceptions:**
+  1. **No change of any kind is made outside the current branch.** Every commit and every
+     file edit belongs to `ninjanerd-static`. Do not create branches, check out or commit to
+     another branch, cherry-pick, or push anywhere else.
+  2. **Nothing is ever merged to `main`.** No merge, rebase, fast-forward, pull request, or
+     direct push. `main` holds the legacy Flask app and stays frozen until the owner
+     personally decides otherwise.
+  - Git prints `Create a pull request for '<branch>'` automatically after pushing a new
+    branch. That is a hint, not an action — never act on it. After any push, state which
+    branch was pushed and confirm `main` is untouched.
+- **Every outward action needs its own explicit approval, asked for immediately before it**:
+  commits, pushes, deploys, and GitHub settings changes (environments, branch policies,
+  visibility, Pages config). An approval given earlier, or a step written into an approved
+  prompt, is **not** consent to perform it now — "execute the prompt" authorises the code
+  work, not the publishing at the end of it.
 - Keep secrets out of the public repo. Firebase web config is **public by design** (not a
   secret); security is enforced by Firebase Auth + Firestore Security Rules.
 - Follow the working rules in `doc/` (git-ignored): pause-and-show after each prompt with

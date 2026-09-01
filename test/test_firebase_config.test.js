@@ -6,7 +6,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { firebaseConfig, isConfigured } from '../app/js/firebase-config.js';
@@ -128,18 +128,45 @@ test('npm scripts for the emulator and rules tests exist', () => {
   assert.ok(pkg.devDependencies['firebase-tools']);
 });
 
-test('the owner setup doc exists and covers the do-once console steps', () => {
-  assert.ok(existsSync(join(repoRoot, 'doc/firebase-setup.md')));
-  const d = read('doc/firebase-setup.md');
-  for (const needle of [/Email\/Password/i, /Authorized domains/i, /ninjanerd\.ai/, /localhost/,
-    /production mode/i, /PUBLIC, not a secret/i, /users\/\{uid\}/, /chat_sessions\/\{sessionId\}/]) {
-    assert.match(d, needle, `setup doc should mention ${needle}`);
+test('the rules file documents the data model it enforces', () => {
+  /* This guard used to point at doc/firebase-setup.md, but nothing under doc/ is tracked —
+     those are throw-away plans that live only on the owner's machine, so a fresh clone (and
+     therefore CI) would not have the file. The model is documented in the rules file instead,
+     which is a deployed artifact and cannot drift out of the repo. */
+  const rules = read('dbmgr/firestore.rules');
+
+  // Every collection the rules govern must be described, not just guarded.
+  for (const path of ['users/{uid}', 'users/{uid}/history/{autoId}',
+    'users/{uid}/statistics/summary', 'invites/{inviteId}', 'chat_sessions/{sessionId}',
+    'chat_sessions/{sessionId}/messages/{autoId}']) {
+    assert.ok(rules.includes(path), `rules should document the ${path} document shape`);
   }
-  // The model is meant to mirror the legacy SQLite tables, so the doc must say which is which.
-  for (const table of ['user_history', 'user_statistics', 'invites', 'chat_sessions', 'messages']) {
-    assert.ok(d.includes(table), `setup doc should map the legacy ${table} table`);
+
+  // The model mirrors the legacy SQLite tables, so it must say which maps to which — this is
+  // what keeps Audit, Statistics and progress tracking working (obs_sqlite_manager.py).
+  for (const table of ['user_history', 'user_statistics', 'invites', 'chat_sessions',
+    'messages']) {
+    assert.ok(rules.includes(table), `rules should map the legacy ${table} table`);
   }
-  // And it must explain how admin is granted, since rules read is_admin off the user doc.
-  assert.match(d, /is_admin/);
-  assert.match(d, /console/i);
+
+  // Field names that carry behaviour: renaming any of these silently breaks a page.
+  for (const field of ['topic', 'subtopic', 'grade', 'last_login', 'questions_attempted',
+    'topics_covered', 'from_user_id', 'to_user_email', 'user1_id', 'user2_id',
+    'obfuscated_content', 'displayed', 'created_at', 'updated_at']) {
+    assert.ok(rules.includes(field), `rules should document the ${field} field`);
+  }
+
+  // statistics is the union of TWO legacy backends; documenting only the SQLite table was a
+  // real error once, and it hides where questions_attempted/topics_covered come from.
+  assert.match(rules, /obs_db_manager\.py/,
+    'rules should record that statistics draws on the JSON store, not just SQLite');
+
+  // Tables dropped on purpose, so a future reader does not "restore" them.
+  for (const dropped of ['user_payments', 'email_verification_codes', 'schema_info']) {
+    assert.ok(rules.includes(dropped), `rules should record that ${dropped} was dropped`);
+  }
+
+  // Admin is granted by hand in the console; there is deliberately no in-app path.
+  assert.match(rules, /TO GRANT ADMIN/,
+    'rules should say how admin is granted, since isAdmin() reads is_admin off the user doc');
 });

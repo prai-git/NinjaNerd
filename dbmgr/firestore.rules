@@ -5,25 +5,77 @@ rules_version = '2';
    These rules ARE the security boundary. The Firebase web config in app/js/firebase-config.js
    is public and grants nothing on its own; everything below decides who may read or write.
 
-   The document model mirrors the legacy SQLite schema (dbmgr/obs_sqlite_manager.py) so that
-   Audit, Statistics and progress tracking keep working the way they did in the Flask app:
+   This file is also where the DATA MODEL is documented. Nothing under doc/ is tracked, so a
+   plan or checklist there cannot be relied on; the model lives here because this file is a
+   deployed artifact and cannot drift out of the repo.
 
-     users/{uid}                      <- users            (email, school_name, is_admin, ...)
-     users/{uid}/history/{autoId}     <- user_history     (question, user_answer, correct,
-                                                           topic, subtopic, grade, timestamp)
-     users/{uid}/statistics/summary   <- user_statistics  (last_login, questions_attempted,
-                                                           topics_covered[])
-     invites/{inviteId}               <- invites
-     chat_sessions/{sessionId}        <- chat_sessions    (user1_id, user2_id, active)
-     chat_sessions/{sessionId}/messages/{autoId}
-                                      <- messages         (from_user_id, to_user_id,
-                                                           message_content, obfuscated_content,
-                                                           displayed, timestamp)
+   The document model mirrors the legacy SQLite schema (dbmgr/obs_sqlite_manager.py) so that
+   Audit, Statistics and progress tracking keep working the way they did in the Flask app.
+   Legacy table names are shown against each collection.
+
+     users/{uid}                             <- users
+       email                : string           # also the login identifier
+       school_name          : string           # optional, from the signup form
+       is_admin             : boolean          # IMMUTABLE from the client; see below
+       created_at           : timestamp
+       updated_at           : timestamp
+       # `password` is gone: Firebase Auth owns credentials.
+
+     users/{uid}/history/{autoId}            <- user_history
+       question             : string           # question text, as the legacy column stored it
+       user_answer          : string
+       correct              : boolean
+       topic                : string           # "math" | "english" | "science"
+       subtopic             : string
+       grade                : number           # 1-6
+       timestamp            : timestamp
+
+     users/{uid}/statistics/summary          <- user_statistics + JSON store
+       last_login           : timestamp        # from the SQLite user_statistics table
+       questions_attempted  : number           # NOT in SQLite; from obs_db_manager.py
+       topics_covered       : string[]         # NOT in SQLite; from obs_db_manager.py
+
+     invites/{inviteId}                      <- invites
+       from_user_id         : string           # uid of the sender
+       to_user_email        : string           # recipient identified by email
+       status               : string           # "pending" | "accepted" | "declined"
+       timestamp, created_at, updated_at : timestamp
+
+     chat_sessions/{sessionId}               <- chat_sessions
+       user1_id, user2_id   : string           # uids
+       active               : boolean
+       created_at, updated_at : timestamp
+
+     chat_sessions/{sessionId}/messages/{autoId}   <- messages
+       from_user_id, to_user_id : string       # uids
+       message_content      : string
+       obfuscated_content   : string           # see obs_core/message_security.py
+       displayed            : boolean          # per-message read flag
+       timestamp            : timestamp
+
+   On `statistics`: the legacy app had TWO storage backends. The SQLite user_statistics table
+   holds only user_id + last_login, while the JSON store (dbmgr/obs_db_manager.py) holds
+   questions_attempted and topics_covered[]. Audit reads all three, so this single document is
+   the union of both — not a copy of the SQLite table alone.
 
    Two deliberate adaptations, flagged rather than invented:
    - Integer user_id foreign keys become Firebase Auth **uid** strings.
    - `messages` was a top-level table keyed by session_id; here it is a subcollection of the
      session, which is the same relationship and lets the rules scope messages to the session.
+
+   Deliberately dropped: user_payments (no payments on the static site),
+   email_verification_codes (Firebase Auth handles verification), schema_info (Firestore is
+   schemaless) and users.password (Auth owns credentials).
+
+   COMPOSITE INDEXES: dbmgr/firestore.indexes.json is intentionally empty. Firestore creates
+   single-field indexes automatically, which covers the simple queries planned so far; a
+   composite index is needed only for a filter plus a sort on different fields, e.g.
+     - history where topic == X && grade == N ordered by timestamp (Statistics computes
+       percent-correct per topic for one grade, so this one is likely)
+     - invites where to_user_email == X && status == "pending"
+     - chat_sessions where user1_id == uid / user2_id == uid ordered by updated_at
+   Add them from the real queries in prompts 08/09 rather than guessing: Firestore fails a
+   query needing a missing index and prints a console link that creates it.
 
    The app serves children (grades 1-6), so the default is deny and every allow is explicit. */
 
@@ -41,8 +93,12 @@ service cloud.firestore {
     /* Legacy admin was the fixed account admin@gmail.com (obs_app.py is_admin_user), and the
        users table carried an is_admin flag. A static site has no server able to mint custom
        claims, so admin status is read from the requester's own user document. That is only
-       safe because is_admin is immutable from the client (see the users rules below) -- it can
-       be granted solely from the Firebase console. */
+       safe because is_admin is immutable from the client (see the users rules below) and a new
+       account cannot create itself as admin; without those two guards any account could
+       promote itself and read every child's history.
+
+       TO GRANT ADMIN: open the Firestore console and set is_admin: true by hand on that
+       person's users/{uid} document. There is no in-app path, by design. */
     function isAdmin() {
       return isSignedIn()
              && exists(/databases/$(database)/documents/users/$(request.auth.uid))

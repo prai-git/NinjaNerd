@@ -38,6 +38,11 @@ run_app.sh
 doc/static-migration-plan.md
 doc/prompt/
 doc/changelog.md
+# Owner's do-once Firebase console checklist. It is a plan to execute a task, not
+# reference: the schema it describes is already committed in dbmgr/firestore.rules,
+# whose header carries the full collection -> legacy-table mapping and every field
+# name bar created_at/updated_at. Untracked via `git rm --cached`; it stays on disk.
+doc/firebase-setup.md
 
 # Authored Q&A source. The build (npm run build:content) converts these into
 # app/content/questions/en/**.json, which IS committed — we keep one copy of the

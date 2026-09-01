@@ -8,8 +8,10 @@
 
    TODO(owner): replace the placeholders below with the real values from
    Firebase console -> Project settings -> General -> Your apps -> Web app -> SDK setup.
-   Step-by-step instructions: doc/firebase-setup.md. Until then isConfigured() is false and
-   firebase-init.js will not attempt to connect. */
+   Until then isConfigured() is false and firebase-init.js will not attempt to connect.
+
+   The collections these values reach, and who may read or write them, are documented in
+   dbmgr/firestore.rules. */
 
 export const firebaseConfig = {
   apiKey: 'TODO_REPLACE_ME',

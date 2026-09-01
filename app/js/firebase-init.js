@@ -31,7 +31,8 @@ const useEmulator = isLocalhost();
 // production a placeholder must not silently "half-initialise" -- fail loudly instead.
 if (!useEmulator && !isConfigured()) {
   console.error(
-    '[NinjaNerd] Firebase is not configured. Fill in app/js/firebase-config.js — see doc/firebase-setup.md.',
+    '[NinjaNerd] Firebase is not configured. Fill in app/js/firebase-config.js from ' +
+      'Firebase console -> Project settings -> General -> Your apps -> Web app -> SDK setup.',
   );
 }
 
