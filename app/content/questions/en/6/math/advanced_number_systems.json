@@ -1,0 +1,614 @@
+[
+  {
+    "id": "math_g6_2026-08-14_17-35_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Order the following rational numbers from **least to greatest**:\n\n$$-\\frac{3}{4}, \\quad 0.6, \\quad -1, \\quad \\frac{2}{5}, \\quad -0.2$$",
+    "options": [
+      "$-1, \\ -\\frac{3}{4}, \\ -0.2, \\ \\frac{2}{5}, \\ 0.6$",
+      "$0.6, \\ \\frac{2}{5}, \\ -0.2, \\ -\\frac{3}{4}, \\ -1$",
+      "$-1, \\ -0.2, \\ -\\frac{3}{4}, \\ \\frac{2}{5}, \\ 0.6$",
+      "$-\\frac{3}{4}, \\ -1, \\ -0.2, \\ \\frac{2}{5}, \\ 0.6$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Ordering rational numbers (fractions, decimals, negatives).\n\n**Steps:**\n1. Convert to decimals: $-\\frac{3}{4} = -0.75$, $\\ 0.6$, $\\ -1$, $\\ \\frac{2}{5} = 0.4$, $\\ -0.2$.\n2. Negatives are less than positives; the more negative a number, the smaller it is.\n3. Least to greatest: $-1, \\ -0.75, \\ -0.2, \\ 0.4, \\ 0.6$ → $-1, \\ -\\frac{3}{4}, \\ -0.2, \\ \\frac{2}{5}, \\ 0.6$.\n\n**Why others are wrong:** B is reversed; C places $-0.2$ before $-0.75$; D lists $-\\frac34$ before $-1$.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which of the following numbers has the **greatest absolute value**?\n\n$$-9, \\quad 6, \\quad -7, \\quad 4$$",
+    "options": [
+      "$-9$",
+      "$6$",
+      "$-7$",
+      "$4$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Absolute value = distance from 0 (always non-negative).\n\n**Steps:** $|-9| = 9$, $|6| = 6$, $|-7| = 7$, $|4| = 4$. Greatest is $9$, from $-9$.\n\n**Why others are wrong:** 6, 7, and 4 are all smaller distances from zero.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "On a science quiz, Jordan answered **17 out of 20** questions correctly. Which of the following correctly shows Jordan's score as a **decimal and a percent**?",
+    "options": [
+      "$0.85$ and $85\\%$",
+      "$0.17$ and $17\\%$",
+      "$1.7$ and $170\\%$",
+      "$0.85$ and $8.5\\%$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Equivalent forms of fractions, decimals, and percents.\n\n**Steps:** $\\dfrac{17}{20} = 17 \\div 20 = 0.85$; then $0.85 \\times 100 = 85\\%$.\n\n**Why others are wrong:** B reuses the digits 17; C gives more than a whole (170%); D misplaces the decimal.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-14_17-35_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Evaluate the expression:\n\n$$3 + 2 \\times (4^2 - 10) \\div 2$$",
+    "options": [
+      "9",
+      "12",
+      "6",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Order of operations (PEMDAS) with whole-number exponents.\n\n**Steps:**\n1. Inside parentheses, exponent first: $4^2 = 16$, so $(16 - 10) = 6$.\n2. Multiply/divide left to right: $2 \\times 6 = 12$, then $12 \\div 2 = 6$.\n3. Add: $3 + 6 = 9$.\n\n**Why others are wrong:** B skips the division; C ignores the \"3 +\"; D adds before multiplying/dividing.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Order the following decimals from **least to greatest**:\n\n$$0.503, \\quad 0.53, \\quad 0.5, \\quad 0.35$$",
+    "options": [
+      "$0.35, \\ 0.5, \\ 0.503, \\ 0.53$",
+      "$0.5, \\ 0.35, \\ 0.503, \\ 0.53$",
+      "$0.35, \\ 0.503, \\ 0.5, \\ 0.53$",
+      "$0.53, \\ 0.503, \\ 0.5, \\ 0.35$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Concept:** Comparing decimals by place value.\nLine up the decimal points and compare digit by digit:\n- $0.35$ (tenths = 3) is smallest.\n- $0.5 = 0.500$ and $0.503$ both have tenths = 5. Compare hundredths: $0.500 < 0.503$.\n- $0.53$ (tenths = 5, hundredths = 3) is largest.\n\nOrder: $0.35, \\ 0.5, \\ 0.503, \\ 0.53$. **Answer A.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "The overnight low temperatures in three cities were **−4°F**, **−11°F**, and **3°F**. Which statement correctly compares two of these temperatures?",
+    "options": [
+      "$-11 < -4$",
+      "$-4 < -11$",
+      "$3 < -4$",
+      "$-11 > 3$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Concept:** Comparing integers on a number line.\nOn a number line, numbers farther **left** are smaller. Since $-11$ is farther left than $-4$, we have $-11 < -4$. **Answer A.**\n- **B** reverses the inequality. **C** is false ($3 > -4$). **D** is false ($-11 < 3$).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which numbers have an **absolute value of 15**?",
+    "options": [
+      "Only $15$",
+      "Only $-15$",
+      "Both $15$ and $-15$",
+      "$0$ and $15$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Concept:** Absolute value = distance from 0.\nBoth $15$ and $-15$ are exactly **15 units** from zero, so both have an absolute value of 15: $|15| = 15$ and $|-15| = 15$. **Answer C.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which of the following correctly shows $\\dfrac{7}{8}$ as a **decimal and a percent**?",
+    "options": [
+      "$0.78$ and $78\\%$",
+      "$0.875$ and $87.5\\%$",
+      "$0.87$ and $8.7\\%$",
+      "$7.8$ and $780\\%$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Concept:** Converting a fraction to a decimal and a percent.\n$\\dfrac{7}{8} = 7 \\div 8 = 0.875$. To make a percent, multiply by 100: $0.875 \\times 100 = 87.5\\%$. **Answer B.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "What is the **greatest common factor (GCF)** of **24 and 36**?",
+    "options": [
+      "6",
+      "4",
+      "12",
+      "72"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Concept:** Greatest Common Factor.\nFactors of 24: 1, 2, 3, 4, 6, 8, **12**, 24. Factors of 36: 1, 2, 3, 4, 6, **12**, 18, 36. The greatest factor they share is **12**. **Answer C.**\n- **A** (6) is a common factor but not the greatest. **D** (72) is the LCM, not the GCF.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which list contains **only integers**?",
+    "options": [
+      "$-3, \\ 0, \\ 5, \\ 12$",
+      "$-2, \\ \\frac{1}{2}, \\ 4$",
+      "$0.5, \\ 3, \\ 7$",
+      "$-1, \\ 2.5, \\ 6$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Concept:** Integers are whole numbers and their opposites (no fractions/decimals).\nList **A** ($-3, 0, 5, 12$) contains only integers. Lists B, C, and D each include a fraction or decimal ($\\frac{1}{2}$, $0.5$, $2.5$), so they are not all integers. **Answer A.**\n\n---\n\n# Instructional Area: Computations & Algebraic Relationships",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Round the number **62.487** to the nearest **hundredth**.",
+    "options": [
+      "62.4",
+      "62.48",
+      "62.49",
+      "62.50"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 5.2C — Rounding decimals.*\nThe hundredths digit is **8** (62.4**8**7). Look at the next digit (thousandths = **7**). Since 7 ≥ 5, round the hundredths digit up: 8 → 9. Result: **62.49**.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Order the following numbers from **greatest to least**:\n\n$$-5, \\quad 2, \\quad -1, \\quad 0$$",
+    "options": [
+      "$-5, \\ -1, \\ 0, \\ 2$",
+      "$2, \\ 0, \\ -1, \\ -5$",
+      "$-1, \\ -5, \\ 0, \\ 2$",
+      "$2, \\ -1, \\ 0, \\ -5$"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.2D — Ordering rational numbers.*\nOn a number line, larger numbers are farther right. Greatest to least: **2 > 0 > −1 > −5**. (Remember: −1 is greater than −5.)",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which statement about the number **−9** is **true**?",
+    "options": [
+      "The opposite of $-9$ is $-9$",
+      "The absolute value of $-9$ is $-9$",
+      "The opposite of $-9$ is $9$ and its absolute value is $9$",
+      "The absolute value of $-9$ is $0$"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.2B — Opposites and absolute value.*\nThe **opposite** of −9 is +9 (same distance from 0, other side). The **absolute value** |−9| is the distance from 0, which is always non-negative: **9**.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which of the following correctly shows $\\dfrac{3}{5}$ as a **decimal and a percent**?",
+    "options": [
+      "$0.35$ and $35\\%$",
+      "$0.6$ and $60\\%$",
+      "$0.53$ and $53\\%$",
+      "$3.5$ and $350\\%$"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.4G — Fraction/decimal/percent equivalence.*\n$\\frac{3}{5} = 3 \\div 5 = 0.6$. To make a percent, multiply by 100: $0.6 \\times 100 = 60\\%$.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which number is a **whole number** but **not** a negative integer?",
+    "options": [
+      "$-8$",
+      "$\\frac{1}{2}$",
+      "$7$",
+      "$-0.25$"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.2A — Classifying numbers.*\nWhole numbers are 0, 1, 2, 3, … **7** is a whole number and is not negative. (−8 is a negative integer; ½ and −0.25 are not whole numbers.)",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "What is the **least common multiple (LCM)** of **6 and 8**?",
+    "options": [
+      "14",
+      "24",
+      "48",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.7A — Least common multiple.*\nMultiples of 6: 6, 12, 18, **24**… Multiples of 8: 8, 16, **24**… The smallest number in both lists is **24**. (48 is a common multiple but not the *least*.)\n\n---\n\n# Computations & Algebraic Relationships",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which of these decimals has the **greatest** value?",
+    "options": [
+      "0.409",
+      "0.48",
+      "0.4",
+      "0.418"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 5.2B**\nLine up place values and compare tenths first: 0.4**8** has 4 tenths and 8 hundredths. Compared with 0.409 (4 tenths, 0 hundredths), 0.4 (4 tenths), and 0.418 (4 tenths, 1 hundredth), the tenths tie at 4, so compare hundredths: 8 > 1 > 0. So 0.48 is greatest.\n**Distractor note:** Students sometimes think \"more digits = larger,\" picking 0.409 or 0.418. Length does not determine value.\n**Key concept:** Comparing decimals by place value.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "On a cold morning the temperature was **−12°F**. By noon a different city reported **7°F**. Which statement is **true**?",
+    "options": [
+      "$-12$ is greater than $7$ because $12 > 7$",
+      "$7$ is greater than $-12$, but $-12$ is **farther from zero**",
+      "$-12$ and $7$ are the same distance from zero",
+      "$7$ is farther from zero than $-12$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2C**\nOn a number line, 7 lies to the right of −12, so **7 > −12**. But *distance from zero* (absolute value) is |−12| = 12 and |7| = 7, so −12 is **farther** from zero. Both parts of choice B are correct.\n**Why others are wrong:** A confuses absolute value with value. C is false (12 ≠ 7). D reverses the distances.\n**Key concept:** Ordering integers vs. absolute value (distance from zero).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which choice correctly shows $\\dfrac{7}{8}$ written as a **decimal and a percent**?",
+    "options": [
+      "$0.78$ and $78\\%$",
+      "$0.875$ and $87.5\\%$",
+      "$0.87$ and $8.7\\%$",
+      "$1.14$ and $114\\%$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.4G**\nDivide: 7 ÷ 8 = 0.875. To make a percent, multiply by 100: 0.875 × 100 = 87.5%.\n**Why others are wrong:** A (0.78) drops the true division. C misplaces the decimal for the percent. D is greater than 1, impossible for a proper fraction.\n**Key concept:** Converting among fractions, decimals, and percents.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Order these numbers from **least to greatest**:\n\n$$-\\frac{3}{4}, \\quad 0.5, \\quad -1, \\quad \\frac{1}{4}$$",
+    "options": [
+      "$-1, \\ -\\frac{3}{4}, \\ \\frac{1}{4}, \\ 0.5$",
+      "$-\\frac{3}{4}, \\ -1, \\ \\frac{1}{4}, \\ 0.5$",
+      "$0.5, \\ \\frac{1}{4}, \\ -\\frac{3}{4}, \\ -1$",
+      "$-1, \\ \\frac{1}{4}, \\ -\\frac{3}{4}, \\ 0.5$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2D**\nConvert to decimals: −1 = −1.0, −¾ = −0.75, ¼ = 0.25, 0.5 = 0.5. Least to greatest: −1 < −0.75 < 0.25 < 0.5, which is $-1, -\\frac{3}{4}, \\frac{1}{4}, 0.5$.\n**Why others are wrong:** B places −¾ before −1 (more negative is smaller). C reverses the order. D misplaces the negatives.\n**Key concept:** Ordering positive and negative rational numbers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "What is the **greatest common factor (GCF)** of **24 and 36**?",
+    "options": [
+      "6",
+      "4",
+      "12",
+      "72"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.7A**\nFactors of 24: 1, 2, 3, 4, 6, 8, **12**, 24. Factors of 36: 1, 2, 3, 4, 6, 9, **12**, 18, 36. The greatest factor they share is 12.\n**Why others are wrong:** A (6) and B (4) are common factors but not the greatest. D (72) is the LCM, not the GCF.\n**Key concept:** Greatest common factor.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "The **opposite of the opposite** of a number is —",
+    "options": [
+      "always $0$",
+      "always the number itself",
+      "always positive",
+      "always negative"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2B**\nThe opposite of a number reflects it across zero. Taking the opposite twice reflects it back: e.g., opposite of 5 is −5; opposite of −5 is 5. You return to the **original number**.\n**Why others are wrong:** A, C, D are only true for special cases, not in general.\n**Key concept:** Opposites and reflection across zero.\n\n---\n\n# Computations & Algebraic Relationships",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Order these numbers from **least to greatest**:\n\n$$-\\frac{2}{5}, \\quad 0.7, \\quad -1.25, \\quad \\frac{3}{10}$$",
+    "options": [
+      "$-1.25, \\ -\\frac{2}{5}, \\ \\frac{3}{10}, \\ 0.7$",
+      "$-\\frac{2}{5}, \\ -1.25, \\ \\frac{3}{10}, \\ 0.7$",
+      "$-1.25, \\ \\frac{3}{10}, \\ -\\frac{2}{5}, \\ 0.7$",
+      "$0.7, \\ \\frac{3}{10}, \\ -\\frac{2}{5}, \\ -1.25$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.2D | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Convert all to decimals: $-\\frac{2}{5} = -0.4$, $\\frac{3}{10} = 0.3$. Values: $-0.4,\\ 0.7,\\ -1.25,\\ 0.3$. Ordering least → greatest: $-1.25 < -0.4 < 0.3 < 0.7$, i.e. $-1.25,\\ -\\frac{2}{5},\\ \\frac{3}{10},\\ 0.7$.\n\n**Why others are wrong:** B places $-\\frac{2}{5}$ before $-1.25$ (treats the more-negative number as larger). C misplaces $\\frac{3}{10}$ ahead of $-\\frac{2}{5}$. D is greatest → least (reversed).\n\n**Key concept:** Comparing/ordering positive and negative rational numbers; on a number line, more-negative = smaller.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "A submarine sits at **−240 feet** and a weather balloon floats at **+180 feet**, both measured from sea level. Which statement is **true**?",
+    "options": [
+      "The balloon is farther from sea level because $180 > -240$.",
+      "The submarine is farther from sea level because $|-240| > |180|$.",
+      "They are the same distance from sea level.",
+      "The submarine is closer to sea level because $-240$ is a negative number."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.2B | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Distance from sea level is the absolute value. $|-240| = 240$ and $|180| = 180$. Since $240 > 180$, the submarine is farther from sea level.\n\n**Why others are wrong:** A compares signed values, not distances. C is false ($240 \\neq 180$). D confuses \"negative\" with \"closer.\"\n\n**Key concept:** Absolute value = distance from zero, regardless of sign.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which choice correctly shows $\\dfrac{5}{8}$ written as a **decimal and a percent**?",
+    "options": [
+      "$0.58$ and $58\\%$",
+      "$0.625$ and $62.5\\%$",
+      "$0.68$ and $6.8\\%$",
+      "$1.6$ and $160\\%$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.4G | MAP Area: Numerical Representations & Relationships**\n\n**Work:** $\\frac{5}{8} = 5 \\div 8 = 0.625$. As a percent, $0.625 \\times 100 = 62.5\\%$.\n\n**Why others are wrong:** A ($0.58$) is a rounding/guess error. C moves the decimal wrong for the percent. D ($1.6$) inverts the fraction ($8 \\div 5$).\n\n**Key concept:** Fraction → decimal by division; decimal → percent by multiplying by 100.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which statement about the numbers $\\sqrt{49}$ and $\\sqrt{50}$ is **correct**?",
+    "options": [
+      "Both are irrational numbers.",
+      "$\\sqrt{49}$ is rational (it equals 7) and $\\sqrt{50}$ is irrational (a little more than 7).",
+      "Both are rational numbers.",
+      "$\\sqrt{50}$ is rational and $\\sqrt{49}$ is irrational."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 8.2A / 8.2B (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** $\\sqrt{49} = 7$ exactly, so it is **rational**. $50$ is not a perfect square, so $\\sqrt{50} \\approx 7.07\\ldots$ is a non-terminating, non-repeating decimal — **irrational**.\n\n**Why others are wrong:** A and C misclassify one or both. D reverses which is rational.\n\n**Key concept:** Perfect-square roots are rational; roots of non-perfect squares are irrational.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "A single grain of sand has a mass of about $2.5 \\times 10^{-3}$ grams. Written in **standard (decimal) form**, this mass is —",
+    "options": [
+      "$250$ grams",
+      "$0.0025$ grams",
+      "$0.025$ grams",
+      "$2{,}500$ grams"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 8.2C / 8.2D (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** $2.5 \\times 10^{-3}$ means move the decimal point **3 places left**: $2.5 \\to 0.0025$.\n\n**Why others are wrong:** A and D treat the exponent as positive. C moves only 2 places.\n\n**Key concept:** A negative exponent in scientific notation means a small number; shift the decimal left by the exponent's magnitude.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "What is the **greatest common factor (GCF)** of **48 and 60**?",
+    "options": [
+      "6",
+      "24",
+      "12",
+      "240"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.7A / foundational | MAP Area: Numerical Representations & Relationships**\n\n**Work:** $48 = 2^4 \\times 3$; $60 = 2^2 \\times 3 \\times 5$. Common factors: $2^2 \\times 3 = 12$.\n\n**Why others are wrong:** A (6) is a common factor but not the greatest. B (24) does not divide 60. D (240) is the LCM, not the GCF.\n\n**Key concept:** GCF = product of shared prime factors at their lowest powers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q7",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Evaluate:\n\n$$-8 + (-3) \\times 4$$",
+    "options": [
+      "$-44$",
+      "$-20$",
+      "$20$",
+      "$-11$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 7.3A (accelerated) | MAP Area: Numerical Representations & Relationships / Computations**\n\n**Work:** Order of operations: multiply first. $(-3) \\times 4 = -12$. Then $-8 + (-12) = -20$.\n\n**Why others are wrong:** A adds before multiplying: $(-8 + -3) \\times 4 = -44$. C drops the sign. D forgets to multiply by 4.\n\n**Key concept:** Order of operations with signed numbers; multiply/divide before add/subtract.\n\n---\n\n# Instructional Area: Computations & Algebraic Relationships",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Order these numbers from **least to greatest**:\n\n$$-\\frac{3}{8}, \\quad 0.6, \\quad -1.5, \\quad \\frac{2}{5}$$",
+    "options": [
+      "$-1.5, \\ -\\frac{3}{8}, \\ \\frac{2}{5}, \\ 0.6$",
+      "$-\\frac{3}{8}, \\ -1.5, \\ \\frac{2}{5}, \\ 0.6$",
+      "$-1.5, \\ \\frac{2}{5}, \\ -\\frac{3}{8}, \\ 0.6$",
+      "$0.6, \\ \\frac{2}{5}, \\ -\\frac{3}{8}, \\ -1.5$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.2D — Ordering rational numbers.**\n**Solution:** Convert to decimals: $-1.5 = -1.5$; $-\\frac{3}{8} = -0.375$; $\\frac{2}{5} = 0.4$; $0.6 = 0.6$. From least to greatest: $-1.5, \\ -\\frac{3}{8}, \\ \\frac{2}{5}, \\ 0.6$.\n**Why others are wrong:** B places $-1.5$ after $-\\frac{3}{8}$ (but $-1.5 < -0.375$). C misorders the two negatives and $\\frac{2}{5}$. D is greatest-to-least.\n**Key concept:** On a number line, more-negative numbers are smaller; compare using a common form.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "A cave explorer descends to **−120 feet** relative to sea level while a drone hovers at **+95 feet**. Which statement is **true**?",
+    "options": [
+      "The drone is farther from sea level because $95 > -120$.",
+      "The explorer is farther from sea level because $|-120| > |95|$.",
+      "They are the same distance from sea level.",
+      "The explorer is closer to sea level because $-120$ is negative."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.2B — Absolute value / distance from zero.**\n**Solution:** Distance from sea level is the **absolute value**: $|-120| = 120$ and $|95| = 95$. Since $120 > 95$, the explorer is farther.\n**Why others are wrong:** A compares signed values, not distance. C is false ($120 \\neq 95$). D confuses \"negative\" with \"closer.\"\n**Key concept:** Absolute value gives distance from zero regardless of sign.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Which statement about $\\sqrt{64}$ and $\\sqrt{70}$ is **correct**?",
+    "options": [
+      "Both are irrational numbers.",
+      "$\\sqrt{64}$ is rational (it equals 8) and $\\sqrt{70}$ is irrational (a little more than 8).",
+      "Both are rational numbers.",
+      "$\\sqrt{70}$ is rational and $\\sqrt{64}$ is irrational."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 8.2A — Rational vs. irrational numbers.**\n**Solution:** $\\sqrt{64} = 8$ exactly, so it is **rational**. $70$ is not a perfect square, so $\\sqrt{70} \\approx 8.37$ is a non-terminating, non-repeating decimal — **irrational**.\n**Why others are wrong:** A and C misclassify a perfect-square root. D reverses the two.\n**Key concept:** A square root is rational only when the radicand is a perfect square.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Multiply and express the product in scientific notation:\n\n$$(3 \\times 10^{4}) \\times (2 \\times 10^{3})$$",
+    "options": [
+      "$6 \\times 10^{7}$",
+      "$6 \\times 10^{12}$",
+      "$5 \\times 10^{7}$",
+      "$6 \\times 10^{1}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 8.2C/8.2D — Operations in scientific notation.**\n**Solution:** Multiply the coefficients and add the exponents: $(3 \\times 2) \\times 10^{4+3} = 6 \\times 10^{7}$.\n**Why others are wrong:** B multiplies the exponents ($4 \\times 3$) instead of adding. C multiplies $3 \\times 2$ incorrectly as 5. D uses $10^{1}$.\n**Key concept:** $(a \\times 10^m)(b \\times 10^n) = (ab) \\times 10^{m+n}$.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Numerical Representations & Relationships",
+    "subtopic": "advanced_number_systems",
+    "question": "Evaluate:\n\n$$-\\frac{3}{4} + \\frac{1}{2} \\times (-6)$$",
+    "options": [
+      "$-\\frac{15}{4}$",
+      "$\\frac{3}{2}$",
+      "$-\\frac{9}{4}$",
+      "$\\frac{15}{4}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.3A — Operations with negative rational numbers.**\n**Solution:** Order of operations — multiply first: $\\frac{1}{2} \\times (-6) = -3$. Then $-\\frac{3}{4} + (-3) = -\\frac{3}{4} - \\frac{12}{4} = -\\frac{15}{4}$.\n**Why others are wrong:** B adds before multiplying ($-\\frac14 \\times -6$). C and D make sign or arithmetic errors.\n**Key concept:** Apply order of operations; adding a negative moves left on the number line.\n\n---\n\n# Instructional Area: Computations & Algebraic Relationships",
+    "source": "authored",
+    "needsReview": false
+  }
+]

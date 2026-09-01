@@ -41,6 +41,18 @@ export function parseFilename(filename) {
   };
 }
 
+/* Headings that structure a document rather than name its topic. Treating one of these as a
+   subtopic silently mislabels a whole file: `## Questions` in the grade-5 personal financial
+   literacy set produced a subtopic literally called "Questions" for 19 items, hiding what they
+   were actually about. When a heading is one of these, keep the current subtopic (usually the
+   document title) instead of overwriting it. */
+const STRUCTURAL_HEADING =
+  /^(questions?|answers?|answer\s+(sheet|key)|concept\s+review|review|instructions?|directions?|overview|introduction|notes?|scoring|rubric|materials|contents?|table\s+of\s+contents)$/i;
+
+export function isStructuralHeading(s) {
+  return STRUCTURAL_HEADING.test(clean(s).replace(/[:.\-—\s]+$/, ''));
+}
+
 // Normalize a raw header line into a clean subtopic label.
 export function cleanSubtopic(s) {
   let t = clean(s);
@@ -61,10 +73,24 @@ export function parseGrade(md) {
   return null;
 }
 
+// Strip "5th Grade Math -" style prefixes so the H1 yields the topic, not the grade/subject.
+export function subtopicFromTitle(md) {
+  const h1 = (String(md).match(/^#\s+(.+)$/m) || [])[1];
+  if (!h1) return null;
+  const t = clean(h1)
+    .replace(/^\d+\s*(?:st|nd|rd|th)?\s*Grade\s*/i, '')
+    .replace(/^Grade\s+\d+\s*/i, '')
+    .replace(/^(Math|Mathematics|English|ELAR|Reading|Science)\s*/i, '')
+    .replace(/^[\s:.\-\u2013\u2014]+/, '')
+    .replace(/\s*[\u2013\u2014-]\s*(STAAR|MAP)\b.*$/i, '');
+  return t.trim() ? cleanSubtopic(t) : null;
+}
+
 export function parseQuestions(md) {
   const lines = String(md).split(/\r?\n/);
   const questions = [];
-  let subtopic = null;
+  // Falls back to the document title; a structural heading must not overwrite it.
+  let subtopic = subtopicFromTitle(md);
   let cur = null;
   let skipping = false;
 
@@ -95,7 +121,10 @@ export function parseQuestions(md) {
     if ((m = line.match(/^#\s+Instructional Area:\s*(.+)$/i))) { pushCur(); subtopic = cleanSubtopic(m[1]); continue; }
     // Any H2 that is not a question/answer header is treated as a subtopic.
     if ((m = line.match(/^##\s+(.+)$/)) && !/^Question\s+\d+/i.test(m[1]) && !/^Answer(\s|$)/i.test(m[1])) {
-      pushCur(); subtopic = cleanSubtopic(m[1]); continue;
+      pushCur();
+      // "## Questions", "## Concept Review" etc. structure the page; they do not name a topic.
+      if (!isStructuralHeading(m[1])) subtopic = cleanSubtopic(m[1]);
+      continue;
     }
 
     if ((m = line.match(/^#{2,3}\s+Question\s+(\d+)\b(.*)$/i)) ||

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "math_g3_2026-08-29_23-09_q40",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.8A [R] — frequency table**\n\nThe table shows the number of different flags students drew.\n\n|Color|Blue|Green|Orange|Purple|\n|---|---:|---:|---:|---:|\n|Number of flags|12|9|15|6|\n\nHow many more orange flags than purple flags were drawn?",
+    "options": [
+      "$3$",
+      "$6$",
+      "$9$",
+      "$21$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.8A [R]\n\n**Worked solution:** Orange flags: 15. Purple flags: 6. $15-6=9$ more orange flags.\n\n**Why other answers are wrong:** A and B are smaller differences; D adds the categories instead of comparing them.\n\n**Key concept:** Read a frequency table\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q41",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.8A [R] — dot plot**\n\nThe dot plot shows numbers of books read.\n\n|Books read|1|2|3|4|5|\n|---|---|---|---|---|---|\n|Dots|●|●●●|●●|●●●●|●●|\n\nHow many students are represented?",
+    "options": [
+      "$5$",
+      "$10$",
+      "$12$",
+      "$15$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.8A [R]\n\n**Worked solution:** Count all dots: $1+3+2+4+2=12$ students.\n\n**Why other answers are wrong:** A counts categories, not dots; B omits dots; D overcounts.\n\n**Key concept:** Read a dot plot\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q42",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.8A [R] — pictograph**\n\nIn a pictograph, each ★ represents 2 jars recycled.\n\n|Team|Stars|\n|---|---|\n|Cedar|★★★★|\n|Maple|★★★|\n|Oak|★★★★★|\n\nHow many jars did Oak recycle?",
+    "options": [
+      "$5$",
+      "$7$",
+      "$10$",
+      "$12$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.8A [R]\n\n**Worked solution:** Oak has 5 stars, and each star means 2 jars: $5\times2=10$ jars.\n\n**Why other answers are wrong:** A counts symbols without using the key; B adds a star; D uses six stars.\n\n**Key concept:** Read a pictograph key\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q44",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.8A [R] — interpret bar graph data**\n\nA bar graph uses a scale of 2 books. The bars show: Comets 14 books, Rockets 10 books, Stars 18 books, and Moons 8 books. Which two clubs read 32 books altogether?",
+    "options": [
+      "Comets and Rockets",
+      "Comets and Stars",
+      "Rockets and Moons",
+      "Stars and Moons"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.8A [R]\n\n**Worked solution:** $14+18=32$, so Comets and Stars are the two clubs.\n\n**Why other answers are wrong:** A totals 24; C totals 18; D totals 26.\n\n**Key concept:** Add values from a bar graph\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q45",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.8A [R] — two-step data problem**\n\nA survey shows 18 students choose apples, 14 choose bananas, and 9 choose pears. How many students chose apples or bananas? How many more is that than pears?",
+    "options": [
+      "32; 23 more",
+      "32; 9 more",
+      "41; 23 more",
+      "41; 32 more"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.8A [R]\n\n**Worked solution:** Apples or bananas: $18+14=32$. Compared with pears: $32-9=23$ more.\n\n**Why other answers are wrong:** B gives the first total but subtracts incorrectly; C uses all three categories first; D confuses the total and difference.\n\n**Key concept:** Two-step data interpretation\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q46",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.9A — earning, spending, saving, donating**\n\nTariq earns $\\$12$ for helping a neighbor. He saves $\\$5$, donates $\\$2$, and spends the rest. How much does he spend?",
+    "options": [
+      "$\\$5$",
+      "$\\$7$",
+      "$\\$9$",
+      "$\\$19$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9A\n\n**Worked solution:** Tariq’s $12$ is split among saving, donating, and spending: $12-5-2=5$.\n\n**Why other answers are wrong:** B subtracts only the saved amount; C subtracts only the donation; D adds amounts instead of finding the remainder.\n\n**Key concept:** Budgeting earned money\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q47",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.9B — needs and wants**\n\nWhich item is a need rather than a want for a family?",
+    "options": [
+      "a new video game",
+      "a winter coat that fits",
+      "a toy drone",
+      "a movie ticket"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.9B\n\n**Worked solution:** A winter coat that fits is needed for warmth and protection.\n\n**Why other answers are wrong:** A, C, and D may be enjoyable wants, but they are not basic necessities.\n\n**Key concept:** Needs versus wants\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q48",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.9C — saving plan**\n\nMaya wants a $\\$36$ art set. She already saved $\\$14$ and plans to save $\\$4$ each week. How many weeks will she need to save enough money?",
+    "options": [
+      "4 weeks",
+      "5 weeks",
+      "6 weeks",
+      "9 weeks"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.9C\n\n**Worked solution:** Maya needs $36-14=22$ more dollars. Five weeks gives $20$, which is not enough. Six weeks gives $24$, enough to buy the set.\n\n**Why other answers are wrong:** A and B do not save $22; D saves more than necessary and ignores the smallest whole number of weeks.\n\n**Key concept:** Saving plan\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q49",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "**TEKS 3.9D — balance a budget**\n\nNoah has $\\$25$. He needs a $\\$9$ notebook and an $\\$8$ water bottle, and he wants an $\\$11$ puzzle. What should Noah do to stay within his budget?",
+    "options": [
+      "Buy all three because they cost $\\$25$.",
+      "Buy the notebook and water bottle only.",
+      "Buy the water bottle and puzzle only.",
+      "Borrow $\\$3$ and buy all three."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.9D\n\n**Worked solution:** All three cost $9+8+11=28$, but Noah has $25$. The notebook and water bottle cost $17$, which stays within the budget.\n\n**Why other answers are wrong:** A incorrectly says the total is $25$; C costs $19 but leaves out the notebook Noah needs; D requires borrowing money rather than staying within the $25 budget.\n\n**Key concept:** Staying within a budget\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

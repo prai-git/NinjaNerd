@@ -1,0 +1,92 @@
+[
+  {
+    "id": "science_g3_2026-08-29_23-09_q16",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry & Physics — Matter and Its Properties",
+    "subtopic": "physical_science_basics",
+    "question": "A student must choose a material for a pickup tool that can lift paper clips without touching them. Which property should the student test?",
+    "options": [
+      "whether the material can be folded",
+      "whether the material smells sweet",
+      "whether the material is magnetic",
+      "whether the material is blue"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. whether the material is magnetic.  \n**MAP area / TEKS:** Chemistry & Physics / 3.6A.  \n**Explanation:** Paper clips are commonly steel, and a magnetic material can attract steel without direct contact.  \n**Why the other answers are wrong:** A, B, and D may describe a material but do not test whether it can attract paper clips.  \n**Key concept:** Testing magnetism as a physical property.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q17",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry & Physics — Matter and Its Properties",
+    "subtopic": "physical_science_basics",
+    "question": "A teacher pours equal amounts of honey, air, and rice into three clear containers. Which statement correctly compares the samples?",
+    "options": [
+      "Air has a definite shape; honey and rice take the shapes of their containers.",
+      "Rice has a definite shape; honey and air take the shapes of their containers.",
+      "All three samples have a definite shape.",
+      "Honey has a definite shape; rice and air take the shapes of their containers."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Rice has a definite shape; honey and air take the shapes of their containers.  \n**MAP area / TEKS:** Chemistry & Physics / 3.6B.  \n**Explanation:** Rice is treated as a solid sample with a definite shape, while honey is a liquid and air is a gas; liquids and gases take container shape.  \n**Why the other answers are wrong:** A wrongly gives air a definite shape; C wrongly gives definite shape to honey and air; D wrongly gives honey a definite shape.  \n**Key concept:** Classifying solids, liquids, and gases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q18",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry & Physics — Matter and Its Properties",
+    "subtopic": "physical_science_basics",
+    "question": "A sealed balloon is filled with air. When it is squeezed, the air moves and the balloon changes shape. Which conclusion is supported?",
+    "options": [
+      "Air is a gas that takes the shape of its container.",
+      "Air is not matter because it cannot be seen.",
+      "Air is a liquid because it has a definite shape.",
+      "Air is a solid because it cannot move."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Air is a gas that takes the shape of its container.  \n**MAP area / TEKS:** Chemistry & Physics / 3.6B.  \n**Explanation:** Air is matter even though it is hard to see. It moves within and takes the shape of the balloon.  \n**Why the other answers are wrong:** B falsely says unseen matter is not matter; C incorrectly calls air a liquid with definite shape; D incorrectly calls air a solid.  \n**Key concept:** Properties of gases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q19",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry & Physics — Matter and Its Properties",
+    "subtopic": "physical_science_basics",
+    "question": "A chilled metal lunchbox is carried outside on a hot, humid day. Tiny drops of water form on its outside. Which change happened?",
+    "options": [
+      "The lunchbox made new water by rusting.",
+      "Solid water inside the box melted into vapor.",
+      "Liquid metal turned into a gas.",
+      "Water vapor in the air cooled into liquid water."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Water vapor in the air cooled into liquid water.  \n**MAP area / TEKS:** Chemistry & Physics / 3.6C.  \n**Explanation:** The cold lunchbox cools nearby water vapor, causing condensation into liquid droplets on the outside.  \n**Why the other answers are wrong:** A would not create those droplets; B describes an impossible change; C is unrelated to the water droplets.  \n**Key concept:** Cooling and condensation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q20",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry & Physics — Matter and Its Properties",
+    "subtopic": "physical_science_basics",
+    "question": "Students are making bricks for a model garden wall. One group adds a little damp clay to dry sand, presses the mixture into a mold, and lets it dry. Why is this a reasonable material choice?",
+    "options": [
+      "Damp clay makes sand stop taking up space.",
+      "Clay can help the sand particles stick together in a stronger shape.",
+      "A brick must be made only from a liquid.",
+      "Sand changes into metal when clay is added."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Clay can help the sand particles stick together in a stronger shape.  \n**MAP area / TEKS:** Chemistry & Physics / 3.6D.  \n**Explanation:** Combining materials with useful physical properties can create an object better suited to its purpose. Damp clay acts as a binder for the sand.  \n**Why the other answers are wrong:** A is false because matter still takes up space; C is false because bricks are solids; D falsely claims a new metal forms.  \n**Key concept:** Selecting and combining materials by physical properties.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

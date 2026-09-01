@@ -1,0 +1,758 @@
+[
+  {
+    "id": "english_g6_2026-08-14_17-56_q4",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The First Bowl",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which statement BEST expresses the **theme** of \"The First Bowl\"?",
+    "options": [
+      "Learning a new skill takes patience and practice.",
+      "Grandmothers always know how to fix any problem.",
+      "Making pottery is easier than it looks.",
+      "It is better to give up than to keep failing."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Determining the theme (central message) of a story.\n**Explanation:** Marcus fails at first, his grandmother reminds him she \"ruined forty bowls,\" and by the end he slows down and the clay steadies. The message is that learning a skill takes **patience and practice**.\n**Why others are wrong:** B overstates Grandma's role; C is contradicted by how hard the task is; D is the opposite of the story's message.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The First Bowl",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "How does Marcus MOST change from the beginning of the passage to the end?",
+    "options": [
+      "He goes from frustrated and impatient to calmer and more patient.",
+      "He goes from confident to fearful.",
+      "He goes from bored to angry.",
+      "He goes from proud to embarrassed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Analyzing how a character changes.\n**Explanation:** Marcus starts frustrated (\"I'll never get it,\" his \"face grew hot\") but ends calmer — he \"took a breath and started again, slower this time.\" He becomes **more patient**.\n**Why others are wrong:** He was never confident (B) or bored (C) at the start; his change is toward calm, not embarrassment (D).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The First Bowl",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Read this sentence from the passage.\n\n> He pressed the wet lump down the way she had shown him, but it **wobbled and slid to one side like a small gray boat caught in a current.**\n\nWhat does this **simile** help the reader understand?",
+    "options": [
+      "The clay was unsteady and hard for Marcus to control.",
+      "Marcus was working near a river.",
+      "The clay was shaped exactly like a boat.",
+      "The clay was cold and wet."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Interpreting a simile (a comparison using *like* or *as*).\n**Explanation:** Comparing the clay to \"a small gray boat caught in a current\" shows the clay was **unsteady and hard to control**, slipping and sliding.\n**Why others are wrong:** B and D take the comparison literally; C confuses the comparison with the clay's actual shape.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The First Bowl",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which sentence from the passage BEST shows that Grandma wants Marcus to learn **on his own**?\n\n\n\n*Read the poem below and answer questions 8–10.*",
+    "options": [
+      "\"'Center it first,' Grandma said quietly, not reaching to help.\"",
+      "\"Grandma picked up the fallen clay and set it back in his hands.\"",
+      "\"'I ruined forty bowls before I made one worth keeping,' she said.\"",
+      "\"It was still warm from his grip.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Citing text evidence for an idea.\n**Explanation:** \"not reaching to help\" directly shows Grandma is letting Marcus work it out **on his own**.\n**Why others are wrong:** B shows her helping physically; C is encouragement, not independence; D is a sensory detail unrelated to the idea.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Old Kite",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Read these lines from the poem.\n\n> **The wind came knocking. The kite awoke.**\n\nThe poet uses **personification** in these lines mainly to —",
+    "options": [
+      "make the moment feel alive and signal that the kite is ready to fly",
+      "explain how wind is created in nature",
+      "warn the reader that a storm is coming",
+      "show that the kite is broken and cannot fly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Identifying personification and its effect.\n**Explanation:** Giving the wind the human action of \"knocking\" and the kite the ability to \"awoke\" makes the scene feel **alive** and signals the kite is about to fly.\n**Why others are wrong:** B, C, and D read the lines literally and miss the poetic effect.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Old Kite",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which statement BEST describes the **central message** of the poem?",
+    "options": [
+      "Sometimes we hold on to the things we love, even when they long to be free.",
+      "Kites are dangerous to fly on windy days.",
+      "Winter is a better season than spring.",
+      "Flying kites is a waste of a person's time."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Determining the central message/theme of a poem.\n**Explanation:** The kite whispers \"*Let go, let go*,\" but the speaker \"held the line and would not let it go.\" The poem is about **holding on to something we love even when it longs to be free**.\n**Why others are wrong:** B, C, and D are literal or off-topic details never supported by the poem.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Old Kite",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "The poet describes the kite as **\"a red diamond stitched to the width of the sky.\"** This description mainly helps the reader —",
+    "options": [
+      "picture how small and bright the kite looks against the huge sky",
+      "understand that the kite is made of real jewels",
+      "realize that the sky has turned red",
+      "learn that the kite has been torn"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** How imagery/metaphor creates a picture.\n**Explanation:** Calling the kite \"a red diamond stitched to the width of the sky\" helps the reader **picture how small and bright the kite looks** against the vast sky.\n**Why others are wrong:** B, C, and D take the image literally (real jewels, a red sky, a torn kite).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dancing Messengers",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "What is the MAIN idea of \"The Dancing Messengers\"?",
+    "options": [
+      "Honeybees share the location of food with other bees through a special dance.",
+      "Honeybees make honey inside a honeycomb.",
+      "Scientists have studied insects for many years.",
+      "Bees use their antennae to feel vibrations."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Identifying the main idea.\n**Explanation:** The whole passage explains how bees use the **waggle dance to tell other bees where food is**.\n**Why others are wrong:** B, C, and D are small details, not the central point of the passage.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dancing Messengers",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which detail from the passage BEST shows that the information in the waggle dance is **accurate**?",
+    "options": [
+      "\"they leave the hive and fly straight toward the food, often landing within a few feet of the exact spot\"",
+      "\"the dancing bee moves in a figure-eight pattern across the honeycomb\"",
+      "\"Other bees crowd around the dancer, touching it with their antennae\"",
+      "\"Researchers have studied the waggle dance for nearly a century\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Selecting evidence that supports a specific claim (accuracy).\n**Explanation:** Bees \"fly straight toward the food, often landing within a few feet of the exact spot\" — proof the directions are **accurate**.\n**Why others are wrong:** B and C describe *how* the dance happens, not its accuracy; D is about research history.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dancing Messengers",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "How is the second paragraph of the passage MAINLY organized?",
+    "options": [
+      "by describing the steps of a process",
+      "by comparing two different kinds of bees",
+      "by listing events in the order they happened in history",
+      "by describing a problem and its solution"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Recognizing organizational patterns.\n**Explanation:** Paragraph 2 walks through the dance **step by step** (figure-eight → waggle → direction → length), describing a **process**.\n**Why others are wrong:** There is no comparison of two bees (B), no historical timeline (C), and no problem/solution structure (D).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dancing Messengers",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "In the first paragraph, the word **remarkable** most nearly means —",
+    "options": [
+      "impressive",
+      "confusing",
+      "ordinary",
+      "ancient"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Determining word meaning from context.\n**Explanation:** The dance is called \"one of the most remarkable forms of communication,\" a positive, admiring description — **remarkable** means **impressive** (extraordinary).\n**Why others are wrong:** \"confusing\" (B) and \"ordinary\" (C) contradict the admiring tone; \"ancient\" (D) refers to age, not impressiveness.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-14_17-56_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dancing Messengers",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "What is the author's MAIN purpose for writing this passage?",
+    "options": [
+      "to explain how honeybees communicate the location of food",
+      "to persuade readers to start keeping honeybees",
+      "to entertain readers with a funny story about a bee",
+      "to teach readers how to perform a new dance"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** Identifying the author's main purpose.\n**Explanation:** The passage gives factual information; the author's purpose is **to explain how honeybees communicate the location of food**.\n**Why others are wrong:** The passage does not persuade (B), tell a funny story (C), or teach the reader to dance (D).\n\n---\n\n## MAP Instructional Area Coverage\n\n| Instructional Area | Questions | Skills / TEKS |\n|---|---|---|\n| Vocabulary Acquisition & Use | 1, 2, 3, 14 | Roots/affixes (6.2C), context clues (6.2B), analogies (MAP) |\n| Literary Text | 4, 5, 6, 7, 8, 9, 10 | Theme (6.7), character (6.7), text evidence (6.6C), figurative language — simile/personification/imagery (6.8D) |\n| Informational Text | 11, 12, 13, 15 | Main idea (6.5), text evidence (6.6C), text structure (6.8), author's purpose (6.8A) |\n\n**BOY design note:** The set uses accessible, high-interest passages and centers on foundational comprehension skills (main idea, inference, text evidence, vocabulary in context, basic figurative language) that anchor the *start* of 6th grade, with a spread of difficulty appropriate to MAP's adaptive Fall administration. Poetry is included per the reading-genre variety requirement, and all items are multiple choice (no essays on MAP).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Ten-Meter Board",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which statement BEST expresses a **theme** of \"The Ten-Meter Board\"?",
+    "options": [
+      "Courage means acting despite fear rather than waiting for it to disappear.",
+      "Competitive diving is more dangerous than most sports.",
+      "A good coach should always encourage athletes out loud.",
+      "Practicing a skill many times guarantees a perfect result."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7A · MAP: Literary Text**\n**Correct:** Nadia dives \"before the fear could grab the controls\" and laughs \"because she had finally stopped waiting.\" The theme is that **courage means acting despite fear**, not waiting for fear to vanish.\n**Why others are wrong:** B and C are not the passage's message. D is contradicted — she succeeds even though the dive \"had [not] been perfect.\"\n**Key concept:** Inferring theme from character actions and the ending.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Ten-Meter Board",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "The passage makes clear that Nadia's main struggle is —",
+    "options": [
+      "external, between Nadia and Coach Ellis",
+      "internal, between Nadia's trained ability and her own fear",
+      "external, between Nadia and the younger diver on the ladder",
+      "internal, between Nadia's wish to win and her dislike of diving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.7C · MAP: Literary Text**\n**Correct:** The conflict is **internal**: \"Her body knew the tuck... Only her mind refused to believe the height.\" Her trained ability battles her own fear.\n**Why others are wrong:** A — the coach is silent and supportive, not an opponent. C — the younger diver is only \"patient and quiet.\" D — nothing shows she dislikes diving; she loves the skill but fears the height.\n**Key concept:** Distinguishing internal from external conflict.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Ten-Meter Board",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Reread this sentence: *\"Then, before the fear could grab the controls, she stepped off the edge.\"* The phrase **\"grab the controls\"** suggests that fear —",
+    "options": [
+      "can take over a person's actions if allowed to",
+      "is a physical object Nadia is holding",
+      "helps Nadia make a careful decision",
+      "belongs to Coach Ellis rather than to Nadia"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9E · MAP: Literary Text**\n**Correct:** \"Grab the controls\" is figurative — it means fear **can take over a person's actions** if allowed to, like a pilot seizing control.\n**Why others are wrong:** B takes the phrase literally. C reverses the meaning (fear hinders, not helps). D misassigns the fear to the coach.\n**Key concept:** Interpreting an author's figurative word choice.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Ten-Meter Board",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "The narrator describes the pool from the platform as *\"a blue rectangle no bigger than a bath mat.\"* This comparison mainly helps the reader understand —",
+    "options": [
+      "how clean and well-kept the pool is",
+      "how far away and frighteningly small the water looks from the height",
+      "that the pool is actually very shallow",
+      "that Nadia prefers swimming to diving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9D · MAP: Literary Text**\n**Correct:** Comparing the pool to \"a blue rectangle no bigger than a bath mat\" (seen from the platform) shows **how far away and frighteningly small the water looks** from the height.\n**Why others are wrong:** A (cleanliness), C (depth), and D (preference) are not what the comparison conveys.\n**Key concept:** Analyzing how a comparison creates meaning and supports mood.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Ten-Meter Board",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which sentence from the passage BEST shows that Nadia's fear was **in her mind**, not in her lack of skill?\n\n\n\n*Read the poem below and answer questions 11–13.*",
+    "options": [
+      "\"Her body knew the tuck, the roll, the clean slice of entry. Only her mind refused to believe the height.\"",
+      "\"A younger diver waited on the ladder behind her, patient and quiet.\"",
+      "\"Coach Ellis stood far below, arms crossed, saying nothing.\"",
+      "\"The fall lasted less than two seconds.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6C · MAP: Literary Text**\n**Correct:** \"Her body knew the tuck, the roll... Only her mind refused to believe the height\" directly shows the fear was **mental**, not a lack of skill.\n**Why others are wrong:** B, C, and D describe the setting and events but do not address the source of her fear.\n**Key concept:** Selecting the text evidence that supports a specific inference.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "What the Stray Dog Knows",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "From whose **point of view** is this poem told, and how do you know?",
+    "options": [
+      "A stray dog; the speaker describes knowing the town \"by nose\" and being \"ribs and quick eyes and a coat full of rain.\"",
+      "A city worker; the speaker keeps a map of the town.",
+      "The kind woman; the speaker sits on the cold iron bench.",
+      "A squirrel; the speaker circles the town looking for food."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7 · MAP: Literary Text**\n**Correct:** The speaker knows the town \"by nose,\" is \"not a name on a shining brass tag,\" and is \"ribs and quick eyes and a coat full of rain\" — clearly a **stray dog**.\n**Why others are wrong:** B, C, and D name other figures mentioned in the poem but not the speaker; the details point to the dog.\n**Key concept:** Identifying the speaker/point of view using textual clues.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "What the Stray Dog Knows",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Read this line from the poem.\n\n> But hope, like a squirrel, keeps circling again.\n\nWhat does this **simile** suggest about the dog's hope?",
+    "options": [
+      "The dog's hope is foolish and should be given up.",
+      "The dog's hope keeps returning no matter how often it is disappointed.",
+      "The dog is afraid of squirrels in the town.",
+      "The dog hopes to catch a squirrel to eat."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9E · MAP: Literary Text**\n**Correct:** Hope \"like a squirrel, keeps circling again\" means the dog's hope **keeps returning despite disappointment** (it has \"counted more doors that have closed than have opened\").\n**Why others are wrong:** A misreads the tone (the poem is hopeful). C and D take \"squirrel\" literally.\n**Key concept:** Interpreting a simile in context.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "What the Stray Dog Knows",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nHow does the poet's **word choice** in the final stanza (\"I will not run. I will hold very still.\") mainly affect the poem's **mood**?",
+    "options": [
+      "It creates a tense, frightening mood, as if danger is near.",
+      "It creates a hopeful, tender mood, as if a small chance is worth trusting.",
+      "It creates a humorous mood, poking fun at the dog.",
+      "It creates an angry mood, blaming people for ignoring the dog."
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9D · MAP: Literary Text · [stretch]**\n**Correct:** \"I will not run. I will hold very still\" creates a **hopeful, tender mood** — the dog risks trusting a small chance (\"maybe this doorway was waiting for me\").\n**Why others are wrong:** A (frightening), C (humorous), and D (angry) do not match the gentle, longing tone of the final stanza.\n**Key concept:** Analyzing how word choice shapes mood.\n\n---\n\n# Instructional Area: Informational Text",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Nose That Digs",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which sentence BEST states the **central idea** of \"The Nose That Digs\"?",
+    "options": [
+      "Trained rescue dogs use their powerful sense of smell to find people buried by avalanches.",
+      "German shepherds and Labradors are the most popular dog breeds in mountain towns.",
+      "Avalanches are among the most dangerous events in snowy regions.",
+      "Training a puppy requires games, rewards, and a great deal of patience."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5G · MAP: Informational Text**\n**Correct:** The whole passage centers on how **trained rescue dogs use their powerful sense of smell to find avalanche victims**.\n**Why others are wrong:** B, C, and D are supporting details or side facts, not the overarching central idea.\n**Key concept:** Distinguishing central idea from supporting details.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Nose That Digs",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "How is the **second paragraph** MAINLY organized?",
+    "options": [
+      "by comparing two different dog breeds",
+      "by describing the training process in order, from easy to hard",
+      "by listing the causes of avalanches",
+      "by presenting a problem and then arguing for a solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9C · MAP: Informational Text**\n**Correct:** Paragraph 2 describes the training **in order, from easy to hard** (\"At first... Little by little... farther away, then lightly covered, then buried deep\").\n**Why others are wrong:** A — only one breed comparison appears, not the paragraph's structure. C — causes of avalanches are not listed here. D — no problem/solution argument in this paragraph.\n**Key concept:** Recognizing sequential/process text structure.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Nose That Digs",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Read this sentence from the passage.\n\n> It follows a rising **cone** of scent that drifts up through the snow from the buried victim, growing stronger as the dog gets closer.\n\nAs used in this sentence, the word **cone** most nearly refers to —",
+    "options": [
+      "a container for holding ice cream",
+      "a spreading, widening shape of scent in the air",
+      "a warning sign placed on a road",
+      "the fruit of a pine tree"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.2B · MAP: Vocabulary Acquisition & Use (in informational context)**\n**Correct:** A \"rising cone of scent that drifts up... growing stronger as the dog gets closer\" describes a **spreading, widening shape of scent** in the air.\n**Why others are wrong:** A (ice cream), C (road sign), and D (pine cone) are literal meanings of *cone* that do not fit scent in the air.\n**Key concept:** Multiple-meaning word interpreted through context.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q17",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Nose That Digs",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nWhich detail BEST supports the idea that rescue dogs are **faster** than human search methods?",
+    "options": [
+      "\"Their training begins when they are puppies and can take up to two years.\"",
+      "\"A trained avalanche dog can search an area in minutes that would take a human team with probes several hours.\"",
+      "\"The dog learns to trust its nose above everything else.\"",
+      "\"These dogs are not machines, and they are not magic.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6C · MAP: Informational Text · [stretch]**\n**Correct:** \"A trained avalanche dog can search an area in minutes that would take a human team with probes several hours\" directly proves the dogs are **faster**.\n**Why others are wrong:** A (training length), C (trusting its nose), and D (not magic) are true statements but do not compare speed.\n**Key concept:** Matching evidence to a specific claim.\n\n---\n\n# Instructional Area: Literary Text — Literary Nonfiction (Memoir)",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q18",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Learning to Say Hello",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which feature BEST identifies \"Learning to Say Hello\" as a **memoir** rather than fiction?",
+    "options": [
+      "It is told by a first-person narrator describing a real, meaningful experience from the writer's own life.",
+      "It contains talking animals and imaginary events.",
+      "It uses headings, captions, and a diagram to organize facts.",
+      "It states a claim and tries to persuade the reader to agree."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8 · MAP: Literary Text**\n**Correct:** A memoir is **first-person nonfiction recounting a real, meaningful experience** from the writer's life — exactly what this essay does (learning ASL to connect with cousin Daniel).\n**Why others are wrong:** B describes fantasy fiction, C describes informational text, and D describes argumentative text.\n**Key concept:** Identifying genre characteristics of memoir/literary nonfiction.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q19",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Learning to Say Hello",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nThe narrator says the real reason they became friends was \"not because I learned his language perfectly, but because I was willing to be a beginner in front of him.\" This suggests the narrator learned that friendship grows most from —",
+    "options": [
+      "natural talent for languages",
+      "the willingness to keep trying and risk making mistakes",
+      "teaching others the right way to do things",
+      "spending an entire summer studying alone"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.5F · MAP: Literary Text · [stretch]**\n**Correct:** The narrator became friends \"not because I learned his language perfectly, but because I was willing to be a beginner\" — friendship grew from the **willingness to keep trying and risk mistakes**.\n**Why others are wrong:** A contradicts the text (it was not talent). C reverses the idea (the narrator was the learner). D ignores that the bond was with Daniel, not from solo study.\n**Key concept:** Drawing an inference from an author's reflective statement.\n\n---\n\n# Instructional Area: Informational & Argumentative — Paired Passages",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q20",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "What is the **central idea** of Passage 1?",
+    "options": [
+      "Sea turtles use the Earth's magnetic field to navigate and return to their home beach.",
+      "Sea turtle hatchlings are only a few hours old when they enter the ocean.",
+      "A sea turtle's brain is smaller than a walnut.",
+      "Scientists still have many unanswered questions about the ocean."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5G · MAP: Informational Text**\n**Correct:** Passage 1's central idea is that **sea turtles use the Earth's magnetic field to navigate back to their home beach**.\n**Why others are wrong:** B, C, and D are supporting details, not the main point.\n**Key concept:** Central idea of an informational text.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q21",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "How does the **purpose** of Passage 2 MOST differ from the purpose of Passage 1?",
+    "options": [
+      "Passage 2 mainly shares a personal, emotional experience, while Passage 1 mainly explains scientific facts.",
+      "Passage 2 mainly persuades readers to donate money, while Passage 1 mainly tells a story.",
+      "Passage 2 mainly lists steps in an experiment, while Passage 1 mainly entertains with a poem.",
+      "Both passages have exactly the same purpose and tone."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.9A · MAP: Informational Text (purpose across genres)**\n**Correct:** Passage 2 (a journal) **shares a personal, emotional experience**, while Passage 1 **explains scientific facts**.\n**Why others are wrong:** B (donations), C (experiment steps/poem), and D (identical purpose) misdescribe one or both passages.\n**Key concept:** Comparing author's purpose across paired texts.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q22",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nThe biologist in Passage 2 says, \"They have to make the crawl. That journey is how they learn the beach.\" How does information in **Passage 1** help explain **why** that crawl matters?",
+    "options": [
+      "The crawl lets the hatchlings record the magnetic signature of their home beach so they can return to nest one day.",
+      "The crawl helps the hatchlings grow larger before they reach the water.",
+      "The crawl teaches the hatchlings to avoid flashlights in the future.",
+      "The crawl allows scientists to count how many turtles survive."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5H · MAP: Informational Text (synthesis) · [stretch]**\n**Correct:** Passage 1 explains that a hatchling \"record[s] the magnetic signature of its home beach\" — so the crawl matters because it is **how the turtle records that signature to return one day**.\n**Why others are wrong:** B (growing larger), C (avoiding flashlights), and D (counting survivors) are not supported by Passage 1's explanation of navigation.\n**Key concept:** Synthesizing one text to explain a statement in another.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-23_11-02_q23",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nWhich conclusion is BEST supported by **both** passages together?",
+    "options": [
+      "A sea turtle's survival depends on an instinct that is remarkable but leaves the odds heavily against each hatchling.",
+      "Sea turtles cannot survive without human volunteers to carry them to the water.",
+      "Scientists have completely solved the mystery of how sea turtles navigate.",
+      "Most sea turtle hatchlings return to their home beach within a single year."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5H / 6.6C · MAP: Informational Text (synthesis) · [stretch]**\n**Correct:** Passage 1 shows the **remarkable instinct** (\"brain smaller than a walnut\"), and Passage 2 shows the **odds against each hatchling** (\"how few of them would ever come back\"). Together they support that survival relies on a remarkable instinct but the odds are heavily against each turtle.\n**Why others are wrong:** B is contradicted (the biologist stops the volunteer from carrying them). C is contradicted (\"much... remains a mystery\"). D is unsupported — return happens over \"years... sometimes decades.\"\n**Key concept:** Drawing a conclusion supported by both texts.\n\n---\n\n# Instructional Area: Language / Foundational & Inquiry",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Last Solder Joint",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which statement BEST expresses a **theme** of \"The Last Solder Joint\"?",
+    "options": [
+      "Careful attention to the whole problem—not just the obvious part—can reveal a solution others miss.",
+      "Robotics competitions are usually won by the simplest design.",
+      "Working alone is always better than working on a team.",
+      "Talented people never need to check their earlier notes."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7A — Theme.**\n**Explanation:** Priya rebuilt the whole arm three times but only succeeded when she re-read her notes and saw that the *lift and twist were fighting each other* — a whole-problem insight. The theme is that careful attention to the entire problem reveals what brute effort misses.\n**Why others are wrong:** B, C, and D each grab a surface detail (simple designs, working alone, ignoring notes) that the story actually contradicts.\n**Key concept:** Theme is the deeper message shown through the character's experience.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Last Solder Joint",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Priya's central conflict in the passage is BEST described as —",
+    "options": [
+      "external, between Priya and Marcus over who is the better builder",
+      "internal, between Priya's growing doubt and her determination to keep trying",
+      "external, between Priya and a strict competition judge",
+      "internal, between Priya's wish to quit school and her love of robotics"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.7C — Character / conflict.**\n**Explanation:** The struggle is **internal**: Priya's doubt (\"her voice came out smaller than she meant it to\") versus her determination to keep working when the team has given up.\n**Why others are wrong:** A and C invent external rivalries not in the text. D adds a \"quit school\" conflict the passage never mentions.\n**Key concept:** Internal conflict happens within a character's own mind.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Last Solder Joint",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Reread this sentence: *\"When she powered the arm on, it rose, twisted, and set an imaginary block down as gently as a person laying down a sleeping child.\"* This **simile** mainly helps the reader understand that the repaired arm now moves —",
+    "options": [
+      "too slowly to be useful in a competition",
+      "with smooth, careful, precise control",
+      "in a jerky and unpredictable way",
+      "only when Priya is watching it closely"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9E — Author's craft / figurative language (simile).**\n**Explanation:** Comparing the arm's motion to \"laying down a sleeping child\" stresses **smooth, gentle, precise control** — the repair worked beautifully.\n**Why others are wrong:** A (too slow), C (jerky), and D (only when watched) contradict the gentle, controlled image.\n**Key concept:** A simile clarifies a quality by comparison — here, gentleness and precision.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Last Solder Joint",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nWhich sentence from the passage BEST supports the idea that Priya's real breakthrough came from **understanding the problem differently**, not just working harder?\n\n\n\n*Read the poem below and answer questions 9–10.*",
+    "options": [
+      "\"She had rebuilt the robot's arm three times, and three times it had frozen halfway through the competition run.\"",
+      "\"She had been so busy fixing the twist that she had never checked whether the lift and the twist were fighting each other.\"",
+      "\"Her teammates had already voted to remove the arm entirely.\"",
+      "\"The regional finals were in two days.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.5F / 6.6C — Inference & text evidence.**\n**Explanation:** The breakthrough came from *seeing the problem differently*: \"she had never checked whether the lift and the twist were fighting each other.\" That realization — not more effort — solved it.\n**Why others are wrong:** A shows the repeated failure, C shows the team's decision, and D states the deadline; none show the change in understanding.\n**Key concept:** Choose the quotation that directly proves the claim.\n\n---\n\n# Instructional Area: Literary Text — \"The Mountain's Patience\"",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Mountain's Patience",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Throughout the poem, the mountain speaks and feels as if it were human. This use of **personification** mainly helps the poet —",
+    "options": [
+      "prove that mountains can actually think and talk",
+      "give the mountain a calm, patient voice that contrasts with human hurry",
+      "warn readers that climbing mountains is dangerous",
+      "explain the scientific process of how mountains form"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9 — Personification.**\n**Explanation:** Giving the mountain a voice and feelings creates a **calm, patient speaker** whose slowness contrasts with the hurrying river, clouds, and climbers.\n**Why others are wrong:** A takes personification literally. C (danger) and D (how mountains form) miss the poem's reflective purpose.\n**Key concept:** Personification gives human qualities to non-human things to create effect/meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Mountain's Patience",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nThe mountain describes the climbers' \"little flags\" and calls their achievement \"*conquest*\" (in italics). This word choice mainly reveals that the mountain views the climbers' triumph as —",
+    "options": [
+      "deeply meaningful and worthy of respect",
+      "small and brief compared with the mountain's vast sense of time",
+      "frightening and threatening to the mountain's survival",
+      "confusing and impossible to understand"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9D — Word choice & tone.**\n**Explanation:** \"Little flags\" and the italicized \"*conquest*\" show the mountain sees the climbers' victory as **small and brief** next to its own \"ages\" of time (\"here for a morning, then the trail winds down\").\n**Why others are wrong:** A is the opposite of the dismissive tone. C (threatening) and D (confusing) are not supported.\n**Key concept:** Diction (word choice) shapes tone — here, gentle superiority.\n\n---\n\n# Instructional Area: Informational Text — \"The Dance of the Honeybee\"",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dance of the Honeybee",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "Which sentence BEST states the **central idea** of \"The Dance of the Honeybee\"?",
+    "options": [
+      "Honeybees use a precise \"waggle dance\" to tell other bees the direction and distance to food.",
+      "The inside of a beehive is completely dark, so bees cannot see one another.",
+      "Scientists doubted the waggle dance for many years before accepting it.",
+      "Honeybees have brains smaller than a grain of rice."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5G — Central idea.**\n**Explanation:** The passage centers on how the **waggle dance communicates direction and distance** to food. Every paragraph develops that idea.\n**Why others are wrong:** B, C, and D are true supporting *details*, not the overall central idea.\n**Key concept:** The central idea is the point all details support.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dance of the Honeybee",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "The **second paragraph** is organized mainly by —",
+    "options": [
+      "comparing honeybees to other insects",
+      "explaining how each part of the dance carries a specific piece of information",
+      "listing events in the order they happened in history",
+      "describing a problem and then arguing for a solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.9C — Text structure.**\n**Explanation:** Paragraph two explains **how each part of the dance carries specific information** — the straight run's *direction* gives the angle to the Sun; its *length* gives the distance.\n**Why others are wrong:** A (comparison), C (chronological history), and D (problem/solution argument) do not match the paragraph's how-it-works organization.\n**Key concept:** Recognize organizational patterns (here, cause/how-it-works description).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "The Dance of the Honeybee",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nWhich detail BEST supports the idea that the waggle dance is a **highly accurate** form of communication?",
+    "options": [
+      "\"Honeybees cannot speak, and the inside of the hive is completely dark.\"",
+      "\"Other bees crowd around the dancer, touching her with their antennae.\"",
+      "\"Within minutes, they leave the hive and fly, with surprising accuracy, toward flowers they have never seen.\"",
+      "\"Scientists once found this behavior so hard to believe that many doubted it for years.\""
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.5F / 6.6C — Inference & evidence.**\n**Explanation:** \"Fly, with surprising **accuracy**, toward flowers they have never seen\" directly supports the dance being highly accurate.\n**Why others are wrong:** A explains the *challenge*, B describes *how* bees read the dance, and D describes scientists' *doubt* — none prove accuracy.\n**Key concept:** Match the evidence to the exact claim (accuracy).\n\n---\n\n# Instructional Area: Paired Passages — Yellowstone Wolves",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: Predators Belong Here (Argumentative)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "How does the **purpose** of Passage 2 MOST differ from the purpose of Passage 1?",
+    "options": [
+      "Passage 2 mainly argues for a position (that we should protect predators), while Passage 1 mainly explains what scientists observed.",
+      "Passage 2 mainly tells a fictional story, while Passage 1 mainly lists dates.",
+      "Passage 2 mainly gives step-by-step instructions, while Passage 1 mainly entertains.",
+      "Both passages have exactly the same purpose and tone."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8 / 6.9A — Genre & author's purpose.**\n**Explanation:** Passage 1 **informs/explains** what scientists observed (a trophic cascade); Passage 2 **argues** a position (\"we should protect them\"), using \"I believe,\" a claim, and persuasive reasoning.\n**Why others are wrong:** B, C, and D misidentify the genres or claim the purposes are identical.\n**Key concept:** Informational texts explain; argumentative texts persuade.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: Predators Belong Here (Argumentative)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "In Passage 2, how does the writer respond to the **counterclaim** that \"wolves are too dangerous\"?",
+    "options": [
+      "The writer ignores the concern completely.",
+      "The writer agrees that wolves should be removed for safety.",
+      "The writer acknowledges the fear but argues that wolf attacks on humans are extremely rare and outweighed by the benefits.",
+      "The writer claims that wolves have never harmed any living thing."
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.8 / 6.9 — Argument: claim, evidence, counterclaim.**\n**Explanation:** The writer names the counterclaim (\"Critics worry about the rare risk to hikers\") and rebuts it: attacks are \"extraordinarily uncommon\" and outweighed by \"a proven benefit.\"\n**Why others are wrong:** A (ignores) and B (agrees to remove) contradict the text. D overstates — the writer says attacks are *rare*, not that wolves never harm anything.\n**Key concept:** A strong argument acknowledges and answers the opposing view.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-08-29_11-30_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Passage 2: Predators Belong Here (Argumentative)",
+    "subtopic": "literary_analysis_comprehension",
+    "question": "**[stretch]**\nHow does the scientific information in **Passage 1** most strengthen the argument made in **Passage 2**?",
+    "options": [
+      "It provides real evidence of a \"trophic cascade,\" showing that returning wolves restored the ecosystem—support for the claim that parks need predators.",
+      "It proves that wolves are dangerous to park visitors.",
+      "It suggests that elk are more important to the park than wolves.",
+      "It shows that the two passages actually disagree about what happened in Yellowstone."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.5H — Synthesis across paired texts.**\n**Explanation:** Passage 1's evidence of a **trophic cascade** (willows, beavers, songbirds, streams recovering) gives real proof for Passage 2's claim that \"parks need their predators.\"\n**Why others are wrong:** B and C misread Passage 1 (it does not show danger to visitors or elevate elk). D is false — the passages agree on the events.\n**Key concept:** Synthesis uses one text's information to support or extend another's.\n\n---\n\n# Instructional Area: Language / Foundational & Inquiry",
+    "source": "authored",
+    "needsReview": false
+  }
+]

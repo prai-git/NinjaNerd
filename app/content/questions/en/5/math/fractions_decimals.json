@@ -1,0 +1,794 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Fractions\nA baker uses 2/3 of a bag of flour for bread and 1/6 of the same bag for muffins. What fraction of the bag of flour is left?",
+    "options": [
+      "5/6",
+      "1/3",
+      "1/6",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "The baker uses 2/3 + 1/6 = 4/6 + 1/6 = 5/6 of the bag, so 1 − 5/6 = **1/6** remains.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Fractions\nA carpenter has 9 1/4 feet of wood trim. Each shelf needs 3/4 foot of trim. How many **complete** shelves can the carpenter make?",
+    "options": [
+      "11 shelves",
+      "12 shelves",
+      "13 shelves",
+      "9 shelves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Convert 9 1/4 to 37/4, then divide by 3/4: 37/4 × 4/3 = 37/3 = 12 remainder 1, so **12 complete shelves** can be made.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Decimals\nA car travels 215.6 miles on 9.8 gallons of gas. How many miles per gallon does the car get?",
+    "options": [
+      "20.8 mpg",
+      "21.5 mpg",
+      "22.0 mpg",
+      "23.2 mpg"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide total miles by gallons used: 215.6 ÷ 9.8 = **22.0 miles per gallon**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Decimals / Income and Expense\nA store buys T-shirts for $8.75 each and sells them for $14.50 each. What is the profit made on **each** T-shirt sold?",
+    "options": [
+      "$4.25",
+      "$5.25",
+      "$5.75",
+      "$6.25"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract the cost from the selling price: $14.50 − $8.75 = **$5.75 profit per T-shirt**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Reasoning — Percentages",
+    "subtopic": "fractions_decimals",
+    "question": "— Percentages / Expense\nA store sells a video game for $48, which is 60% more than the store paid for it. How much did the store originally pay for the game?",
+    "options": [
+      "$19.20",
+      "$28.80",
+      "$30.00",
+      "$32.00"
+    ],
+    "correctIndex": 2,
+    "explanation": "If the selling price ($48) is 160% of the wholesale cost, divide by 1.60: $48 ÷ 1.60 = **$30.00**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Reasoning — Percentages",
+    "subtopic": "fractions_decimals",
+    "question": "— Percentages\nA student answered 36 out of 45 questions correctly on a science test. What percentage of questions did the student answer correctly?",
+    "options": [
+      "75%",
+      "78%",
+      "80%",
+      "82%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide correct answers by total questions and multiply by 100: (36 ÷ 45) × 100 = **80%**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Adding Fractions with Unlike Denominators\nFind the sum.\n\n**2/3 + 3/5 = ?**",
+    "options": [
+      "5/8",
+      "1 1/15",
+      "1 4/15",
+      "19/8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rewrite with a common denominator of 15: 2/3 = 10/15 and 3/5 = 9/15, so 10/15 + 9/15 = 19/15 = 1 4/15.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Subtracting Fractions with Unlike Denominators\nFind the difference.\n\n**5/6 − 3/8 = ?**",
+    "options": [
+      "2/24",
+      "11/48",
+      "11/24",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use a common denominator of 24: 5/6 = 20/24 and 3/8 = 9/24, so 20/24 − 9/24 = 11/24.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying Fractions\nA painter used 7/8 of a gallon of paint to cover one wall. If he has painted 2/3 as many walls today as yesterday, what fraction of a gallon did he use today (on one wall's worth)?\n\n**7/8 × 2/3 = ?**",
+    "options": [
+      "7/12",
+      "9/11",
+      "1 5/24",
+      "14/11"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply the numerators and denominators: 7/8 × 2/3 = 14/24, which simplifies to 7/12.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Dividing Unit Fractions\nMr. Diaz has 3/4 pound of clay. He wants to divide it into pieces that are 1/8 pound each. How many pieces can he make?",
+    "options": [
+      "3/32",
+      "1 1/2",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dividing by a unit fraction is the same as multiplying by its reciprocal: 3/4 ÷ 1/8 = 3/4 × 8 = 24/4 = 6.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Adding and Subtracting Decimals\nMia had $24.75. She spent $8.49 on a book and $3.20 on a pen. How much money does Mia have left?",
+    "options": [
+      "$12.06",
+      "$13.06",
+      "$13.16",
+      "$16.26"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add the two purchases then subtract from her starting amount: $8.49 + $3.20 = $11.69, and $24.75 − $11.69 = $13.06.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying Decimals\nWhat is the product?\n\n**4.6 × 3.7 = ?**",
+    "options": [
+      "12.42",
+      "16.92",
+      "17.02",
+      "170.2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply as whole numbers 46 × 37 = 1702; since the two factors have a total of 2 decimal places, the product is 17.02.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q7",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Dividing Decimals\nWhat is the quotient?\n\n**18.72 ÷ 0.6 = ?**",
+    "options": [
+      "3.12",
+      "11.232",
+      "31.2",
+      "312"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply divisor and dividend by 10 to remove the decimal in the divisor, giving 187.2 ÷ 6 = 31.2.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q10",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Reasoning — Percentages",
+    "subtopic": "fractions_decimals",
+    "question": "— Discount / Sale Price\nA bicycle that normally costs $240 is on sale for 30% off. What is the sale price of the bicycle?",
+    "options": [
+      "$72",
+      "$168",
+      "$180",
+      "$210"
+    ],
+    "correctIndex": 1,
+    "explanation": "Find the discount: 30% of $240 = 0.30 × $240 = $72; subtract from the original price: $240 − $72 = $168.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q11",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Reasoning — Percentages",
+    "subtopic": "fractions_decimals",
+    "question": "— Percent of a Number\nIn a survey of 180 fifth graders, 45% of the students said pizza was their favorite school lunch. How many students chose pizza?",
+    "options": [
+      "72",
+      "75",
+      "81",
+      "90"
+    ],
+    "correctIndex": 2,
+    "explanation": "45% of 180 = 0.45 × 180 = 81 students.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q31",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Decimal Representation",
+    "subtopic": "fractions_decimals",
+    "question": "— Expanded Notation of Decimals\nWhich expression shows **324.507** written in expanded notation?",
+    "options": [
+      "$300 + 20 + 4 + 0.5 + 0.007$",
+      "$300 + 20 + 4 + 0.5 + 0.07$",
+      "$300 + 20 + 4 + 0.05 + 0.007$",
+      "$324 + 0.5 + 0.07$"
+    ],
+    "correctIndex": 0,
+    "explanation": "In 324.507, the digits represent 3 hundreds, 2 tens, 4 ones, 5 tenths, 0 hundredths, and 7 thousandths, which equals 300 + 20 + 4 + 0.5 + 0.007.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q32",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Decimal Representation",
+    "subtopic": "fractions_decimals",
+    "question": "— Comparing and Ordering Decimals  **[Readiness]**\nWhich list shows the decimals in order from **least to greatest**?\n\n**5.083, 5.8, 5.38, 5.308**",
+    "options": [
+      "5.8, 5.38, 5.308, 5.083",
+      "5.083, 5.308, 5.38, 5.8",
+      "5.083, 5.38, 5.308, 5.8",
+      "5.308, 5.083, 5.38, 5.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Line up decimal places and compare: 5.083 < 5.308 < 5.380 < 5.800, so the correct order from least to greatest is 5.083, 5.308, 5.38, 5.8.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q33",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Decimal Representation",
+    "subtopic": "fractions_decimals",
+    "question": "— Rounding Decimals\nWhat is **17.846** rounded to the nearest **hundredth**?",
+    "options": [
+      "17.8",
+      "17.84",
+      "17.85",
+      "17.9"
+    ],
+    "correctIndex": 2,
+    "explanation": "To round 17.846 to the nearest hundredth, look at the thousandths digit (6); since 6 ≥ 5, round the hundredths digit 4 up to 5, giving 17.85.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q39",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Dividing Unit Fractions by Whole Numbers",
+    "subtopic": "fractions_decimals",
+    "question": "— Unit Fraction ÷ Whole Number  **[Readiness]**\nMr. Brooks has 1/4 pound of trail mix. He divides the trail mix equally into **3** small bags. How much trail mix is in each bag?\n\n**1/4 ÷ 3 = ?**",
+    "options": [
+      "1/12 pound",
+      "3/12 pound",
+      "3/4 pound",
+      "4/3 pounds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dividing a unit fraction by a whole number means splitting it into that many equal parts: 1/4 ÷ 3 = 1/4 × 1/3 = 1/12 pound.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Decimal Representation",
+    "subtopic": "fractions_decimals",
+    "question": "— Expanded Notation for Decimals\nWhich expression shows **246.813** written in expanded notation?",
+    "options": [
+      "200 + 40 + 6 + 0.8 + 0.01 + 0.003",
+      "200 + 40 + 6 + 0.8 + 0.1 + 0.03",
+      "200 + 40 + 6 + 0.08 + 0.001 + 0.0003",
+      "246 + 0.8 + 0.01 + 0.003"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A**\n\n**Step-by-step:**\nBreak 246.813 by place value:\n- 2 is in the hundreds place → **200**\n- 4 is in the tens place → **40**\n- 6 is in the ones place → **6**\n- 8 is in the tenths place → **0.8**\n- 1 is in the hundredths place → **0.01**\n- 3 is in the thousandths place → **0.003**\n\n**Expanded notation: 200 + 40 + 6 + 0.8 + 0.01 + 0.003**\n\n**Why other answers are wrong:**\n- B) Uses 0.1 and 0.03 — wrong place values for tenths/hundredths digits\n- C) Uses 0.08, 0.001, 0.0003 — shifts all decimal digits one place to the right\n- D) Keeps 246 as a single number instead of expanding it\n\n**Key concept:** Each digit must be written as its place value, including decimal digits going to tenths (÷10), hundredths (÷100), and thousandths (÷1,000).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Decimal Representation",
+    "subtopic": "fractions_decimals",
+    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **greatest to least**?\n\n**3.045,  3.5,  3.405,  3.054**",
+    "options": [
+      "3.045, 3.054, 3.405, 3.5",
+      "3.5, 3.405, 3.054, 3.045",
+      "3.5, 3.054, 3.045, 3.405",
+      "3.405, 3.5, 3.054, 3.045"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 3.5, 3.405, 3.054, 3.045\n\n**Step-by-step:**\nLine up digits by place value and compare:\n\n| Decimal | Tenths | Hundredths | Thousandths |\n|---------|--------|------------|-------------|\n| 3.5     | 5      | 0          | 0           |\n| 3.405   | 4      | 0          | 5           |\n| 3.054   | 0      | 5          | 4           |\n| 3.045   | 0      | 4          | 5           |\n\nCompare tenths digit first:\n- 3.5 has 5 in tenths → **greatest**\n- 3.405 has 4 in tenths → **second**\n- 3.054 and 3.045 both have 0 in tenths → compare hundredths:\n  - 3.054 has 5 in hundredths → third\n  - 3.045 has 4 in hundredths → least\n\n**Order greatest to least: 3.5 > 3.405 > 3.054 > 3.045**\n\n**Why other answers are wrong:**\n- A) This is least to greatest, not greatest to least\n- C) Incorrectly places 3.054 before 3.045 but also incorrectly orders 3.405 last\n- D) Swaps 3.5 and 3.405\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Decimal Representation",
+    "subtopic": "fractions_decimals",
+    "question": "— Rounding Decimals\nWhat is **9.473** rounded to the nearest **tenth**?",
+    "options": [
+      "9.4",
+      "9.47",
+      "9.5",
+      "10.0"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 9.5\n\n**Step-by-step:**\nRound 9.473 to the nearest **tenth** (one decimal place).\n- Look at the tenths digit: **4**\n- Look at the hundredths digit (the rounding digit): **7**\n- Since 7 ≥ 5, round the tenths digit **up**: 4 → 5\n- Drop digits after the tenths place\n\n**9.473 rounded to the nearest tenth = 9.5**\n\n**Why other answers are wrong:**\n- A) 9.4 — would be correct only if the hundredths digit were 0–4; here it is 7\n- B) 9.47 — this rounds to the nearest hundredth, not tenth\n- D) 10.0 — this rounds to the nearest whole number\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Adding Fractions with Unlike Denominators  [R]\nFind the sum.\n\n**3/4 + 5/6 = ?**",
+    "options": [
+      "8/10",
+      "15/24",
+      "1 7/12",
+      "1 3/5"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 1 7/12\n\n**Step-by-step:**\n**3/4 + 5/6**\n\nStep 1 — Find the LCD of 4 and 6:\n- Multiples of 4: 4, 8, **12**, 16…\n- Multiples of 6: 6, **12**, 18…\n- LCD = 12\n\nStep 2 — Convert to equivalent fractions:\n- 3/4 = 9/12 (multiply numerator and denominator by 3)\n- 5/6 = 10/12 (multiply numerator and denominator by 2)\n\nStep 3 — Add:\n- 9/12 + 10/12 = **19/12**\n\nStep 4 — Convert to a mixed number:\n- 19 ÷ 12 = 1 remainder 7 → **1 7/12**\n\n**Why other answers are wrong:**\n- A) 8/10 — incorrectly adds numerators (3+5) and denominators (4+6)\n- B) 15/24 — uses an incorrect common denominator; also does not simplify\n- D) 1 3/5 — arithmetic error\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Subtracting Fractions with Unlike Denominators  [R]\nFind the difference.\n\n**7/8 − 2/3 = ?**",
+    "options": [
+      "5/5",
+      "5/24",
+      "5/11",
+      "3/8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 5/24\n\n**Step-by-step:**\n**7/8 − 2/3**\n\nStep 1 — Find the LCD of 8 and 3:\n- Multiples of 8: 8, 16, **24**…\n- Multiples of 3: 3, 6, 9, …, **24**…\n- LCD = 24\n\nStep 2 — Convert to equivalent fractions:\n- 7/8 = 21/24 (multiply by 3/3)\n- 2/3 = 16/24 (multiply by 8/8)\n\nStep 3 — Subtract:\n- 21/24 − 16/24 = **5/24**\n\n**Why other answers are wrong:**\n- A) 5/5 = 1 — subtracts both numerators (7−2=5) and both denominators (8−3=5); not a valid operation\n- C) 5/11 — adds denominators instead of finding LCD\n- D) 3/8 — arithmetic error\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying Fractions  [R]\nA recipe calls for **3/4 cup** of sugar for one batch of cookies. Ms. Rodriguez wants to make **2/5 of a batch**. How much sugar does she need?",
+    "options": [
+      "5/9 cup",
+      "3/10 cup",
+      "6/5 cups",
+      "1 1/4 cups"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 3/10 cup\n\n**Step-by-step:**\n**3/4 × 2/5**\n\nStep 1 — Multiply the numerators: 3 × 2 = 6\nStep 2 — Multiply the denominators: 4 × 5 = 20\nStep 3 — Simplify 6/20 = **3/10**\n\n**Why other answers are wrong:**\n- A) 5/9 — adds instead of multiplies\n- C) 6/5 — multiplies numerators correctly but swaps numerator and denominator\n- D) 1 1/4 — errors in multiplication leading to incorrect product\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q7",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Whole Number ÷ Unit Fraction [R]\nA chef has **4 pounds** of cheese. Each serving uses **1/3 pound** of cheese. How many full servings can the chef make?",
+    "options": [
+      "4/3",
+      "1 1/3",
+      "12",
+      "4/12"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 12\n\n**Step-by-step:**\n**4 ÷ 1/3**\n\nWhen dividing by a fraction, **multiply by its reciprocal**:\n- Reciprocal of 1/3 is 3/1 = 3\n- 4 ÷ 1/3 = 4 × 3 = **12**\n\n**Real-world check:** If each serving uses 1/3 pound, then in 4 pounds there are 4 × 3 = 12 one-third-pound servings. ✓\n\n**Why other answers are wrong:**\n- A) 4/3 — divides 4 by 3 as if dividing a whole number (does not apply reciprocal)\n- B) 1 1/3 — inverts the problem (computes 1/3 × 4 ÷ 1 incorrectly)\n- D) 4/12 = 1/3 — multiplies instead of divides, then simplifies\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q8",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Fractions",
+    "subtopic": "fractions_decimals",
+    "question": "— Unit Fraction ÷ Whole Number [R]\nA gardener has **1/6 gallon** of fertilizer that she wants to divide equally among **5 plants**. How much fertilizer will each plant receive?",
+    "options": [
+      "5/6 gallon",
+      "1/11 gallon",
+      "1/30 gallon",
+      "6/5 gallons"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 1/30 gallon\n\n**Step-by-step:**\n**1/6 ÷ 5**\n\nTo divide a fraction by a whole number, multiply the fraction by the reciprocal of the whole number:\n- Reciprocal of 5 is 1/5\n- 1/6 × 1/5 = **1/30**\n\n**Real-world check:** Splitting 1/6 gallon equally among 5 plants gives each plant 1/30 gallon. ✓\n\n**Why other answers are wrong:**\n- A) 5/6 — multiplies numerator by 5 instead of dividing\n- B) 1/11 — adds 6 + 5 in the denominator (incorrect operation)\n- D) 6/5 — inverts the fraction and multiplies (finds 6 ÷ 1/5 instead)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q9",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying Decimals [R]\nWhat is the product?\n\n**3.8 × 5.6 = ?**",
+    "options": [
+      "20.48",
+      "21.28",
+      "21.8",
+      "212.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 21.28\n\n**Step-by-step:**\n**3.8 × 5.6**\n\nMultiply as whole numbers first:\n- 38 × 56:\n  - 38 × 50 = 1,900\n  - 38 × 6 = 228\n  - 1,900 + 228 = 2,128\n\nCount decimal places: 3.8 has 1 decimal place; 5.6 has 1 decimal place → 2 decimal places total.\n\nPlace the decimal point: 2128 → **21.28**\n\n**Why other answers are wrong:**\n- A) 20.48 — arithmetic error in partial products\n- C) 21.8 — only 1 decimal place in the product (miscounting)\n- D) 212.8 — misplaces the decimal (only 1 place instead of 2)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q10",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Dividing Decimals [R]\nA piece of fabric is **24.36 meters** long and is cut into **12 equal pieces**. How long is each piece?",
+    "options": [
+      "2.3 meters",
+      "2.03 meters",
+      "20.3 meters",
+      "0.203 meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 2.03 meters\n\n**Step-by-step:**\n**24.36 ÷ 12**\n\nDivide:\n- 24 ÷ 12 = 2\n- 0.36 ÷ 12 = 0.03\n- Result: **2.03**\n\n**Verification:** 2.03 × 12 = 24.36 ✓\n\n**Why other answers are wrong:**\n- A) 2.3 — drops the zero in the hundredths place (2.03 ≠ 2.3)\n- C) 20.3 — misplaces decimal 10 times too large\n- D) 0.203 — misplaces decimal 10 times too small\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q11",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations: Decimals",
+    "subtopic": "fractions_decimals",
+    "question": "— Adding Decimals  [R]\nA track athlete ran **3.45 kilometers** on Monday, **2.8 kilometers** on Tuesday, and **4.17 kilometers** on Wednesday. How many total kilometers did she run over those three days?",
+    "options": [
+      "10.42 km",
+      "9.42 km",
+      "10.32 km",
+      "10.52 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 10.42 km\n\n**Step-by-step:**\n**3.45 + 2.80 + 4.17**\n\nLine up decimal points and add:\n```\n  3.45\n  2.80\n+ 4.17\n------\n 10.42\n```\n\n- Hundredths: 5 + 0 + 7 = 12 → write 2, carry 1\n- Tenths: 4 + 8 + 1 + 1 (carry) = 14 → write 4, carry 1\n- Ones: 3 + 2 + 4 + 1 (carry) = 10 → write 0, carry 1\n- Tens: 0 + 0 + 0 + 1 (carry) = 1\n\n**Total = 10.42 km**\n\n**Why other answers are wrong:**\n- B) 9.42 — drops the tens carry; 3+2+4=9 (forgets the carry from tenths)\n- C) 10.32 — arithmetic error in hundredths column\n- D) 10.52 — arithmetic error in hundredths column\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Fractions: Operations with Mixed Numbers",
+    "subtopic": "fractions_decimals",
+    "question": "— Adding Mixed Numbers  [R]\nFind the sum.\n\n**1 3/4 + 2 5/6 = ?**",
+    "options": [
+      "3 2/5",
+      "3 8/10",
+      "4 7/12",
+      "4 1/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 4 7/12\n\n**Step-by-step:**\n**1 3/4 + 2 5/6**\n\nStep 1 — Find LCD of 4 and 6 = **12**\n\nStep 2 — Convert fractions:\n- 3/4 = 9/12\n- 5/6 = 10/12\n\nStep 3 — Add:\n- (1 + 2) = 3 (whole numbers)\n- 9/12 + 10/12 = 19/12\n\nStep 4 — Simplify the improper fraction: 19 ÷ 12 = 1 remainder 7 → **1 7/12**\n\nStep 5 — Add: 3 + 1 7/12 = **4 7/12**\n\n**Why other answers are wrong:**\n- A) 3 2/5 — adds numerators and denominators separately (invalid)\n- B) 3 8/10 — uses wrong LCD; 3+5=8 and 4+6=10 (cannot add denominators)\n- D) 4 1/3 — arithmetic error in fraction addition\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Fractions: Operations with Mixed Numbers",
+    "subtopic": "fractions_decimals",
+    "question": "— Subtracting Mixed Numbers with Regrouping  [R]\nFind the difference.\n\n**4 1/6 − 1 3/4 = ?**",
+    "options": [
+      "2 5/12",
+      "2 7/12",
+      "3 5/12",
+      "3 7/12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 2 5/12\n\n**Step-by-step:**\n**4 1/6 − 1 3/4**\n\nStep 1 — Find LCD of 6 and 4 = **12**\n\nStep 2 — Convert:\n- 4 1/6 = **4 2/12**\n- 1 3/4 = **1 9/12**\n\nStep 3 — Since 2/12 < 9/12, we must **regroup**:\n- Borrow 1 from the 4 → 4 = 3 + 12/12\n- 4 2/12 = **3 14/12**\n\nStep 4 — Subtract:\n- 3 14/12 − 1 9/12 = **2 5/12**\n\n**Why other answers are wrong:**\n- B) 2 7/12 — subtracts incorrectly: 14 − 9 = 5, not 7 (arithmetic error)\n- C) 3 5/12 — forgets to subtract the whole number part properly (keeps 4 instead of 3 after regrouping)\n- D) 3 7/12 — both errors combined\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q7",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Fractions: Operations with Mixed Numbers",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying Mixed Numbers  [R]\nA rectangular garden plot is **2 1/2 meters long** and **1 3/4 meters wide**. What is the area of the garden in square meters?",
+    "options": [
+      "3 3/4 sq meters",
+      "4 1/4 sq meters",
+      "4 3/8 sq meters",
+      "4 1/2 sq meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 4 3/8 sq meters\n\n**Step-by-step:**\n**Area = 2 1/2 × 1 3/4**\n\nStep 1 — Convert to improper fractions:\n- 2 1/2 = 5/2\n- 1 3/4 = 7/4\n\nStep 2 — Multiply:\n- 5/2 × 7/4 = 35/8\n\nStep 3 — Convert to mixed number:\n- 35 ÷ 8 = 4 remainder 3 → **4 3/8**\n\n**Verification:** 4 3/8 = 4.375; and 2.5 × 1.75 = 4.375 ✓\n\n**Why other answers are wrong:**\n- A) 3 3/4 — uses 2 × 1 = 2 for whole numbers and adds fractions improperly\n- B) 4 1/4 — arithmetic error in numerator multiplication\n- D) 4 1/2 — rounds or estimates incorrectly\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q8",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Fractions: Operations with Mixed Numbers",
+    "subtopic": "fractions_decimals",
+    "question": "— Whole Number ÷ Unit Fraction [R]\nA cooking class has **15 cups of flour**. Each bread recipe requires **1/5 cup** of flour. How many bread recipes can be made?",
+    "options": [
+      "3",
+      "15",
+      "75",
+      "150"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 75\n\n**Step-by-step:**\n**15 ÷ 1/5**\n\nWhen dividing by a unit fraction, **multiply by its reciprocal**:\n- Reciprocal of 1/5 is 5/1 = 5\n- 15 × 5 = **75**\n\n**Real-world check:** If each recipe uses 1/5 cup, then 15 cups contains 15 × 5 = 75 one-fifth cups. ✓\n\n**Why other answers are wrong:**\n- A) 3 = 15 ÷ 5 (divides by 5 instead of multiplying — confuses unit fraction division with whole number division)\n- B) 15 = forgets to apply the reciprocal\n- D) 150 = multiplies 15 × 10 (uses wrong reciprocal)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q9",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Fractions: Operations with Mixed Numbers",
+    "subtopic": "fractions_decimals",
+    "question": "— Multi-Step Fractions Word Problem  [R]\nTyrell ran **2 3/4 miles** on Saturday and **1 5/8 miles** on Sunday. His goal for the weekend was **5 miles**. How many more miles does Tyrell still need to run to reach his goal?",
+    "options": [
+      "1/8 mile",
+      "5/8 mile",
+      "1 3/8 miles",
+      "4 3/8 miles"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 5/8 mile\n\n**Step-by-step:**\nStep 1 — Add the miles run:\n**2 3/4 + 1 5/8**\n\nLCD of 4 and 8 = 8\n- 2 3/4 = 2 6/8\n- 1 5/8 = 1 5/8\n- Sum = 3 11/8 = 4 3/8 miles\n\nStep 2 — Find remaining distance:\n**5 − 4 3/8**\n\nRewrite 5 as 4 8/8:\n- 4 8/8 − 4 3/8 = **5/8 mile**\n\n**Why other answers are wrong:**\n- A) 1/8 mile — arithmetic error in subtracting fractions\n- C) 1 3/8 miles — likely subtracted 5 - 3 11/8 (didn't simplify the sum to 4 3/8 first)\n- D) 4 3/8 miles — gives the total run, not the remaining distance\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q10",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Decimal Operations",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying Two Decimals [R]\nWhat is the product?\n\n**12.4 × 3.25 = ?**",
+    "options": [
+      "39.8",
+      "40.3",
+      "40.8",
+      "403"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 40.3\n\n**Step-by-step:**\n**12.4 × 3.25**\n\nMultiply as whole numbers: 124 × 325\n\n```\n    124\n  × 325\n  -----\n    620   (124 × 5)\n   2480   (124 × 20)\n+ 37200   (124 × 300)\n-------\n  40300\n```\n\nCount decimal places: 12.4 has **1** decimal place; 3.25 has **2** → total **3** decimal places.\n\nPlace decimal: 40300 → **40.300 = 40.3**\n\n**Verification:** 12 × 3 = 36; 12 × 0.25 = 3; 0.4 × 3.25 = 1.3 → 36 + 3 + 1.3 = 40.3 ✓\n\n**Why other answers are wrong:**\n- A) 39.8 — arithmetic error in partial products\n- C) 40.8 — off by 0.5 (likely counts decimal places incorrectly)\n- D) 403 — places decimal 1 place too far right (2 decimal places instead of 3)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q11",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Decimal Operations",
+    "subtopic": "fractions_decimals",
+    "question": "— Dividing by a Decimal [R]\nA container holds **31.5 liters** of juice. It is poured into cups that each hold **0.75 liters**. How many cups can be completely filled?",
+    "options": [
+      "23.625",
+      "42",
+      "420",
+      "4.2"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 42\n\n**Step-by-step:**\n**31.5 ÷ 0.75**\n\nEliminate the decimal in the divisor by multiplying both numbers by 100:\n- 31.5 × 100 = 3,150\n- 0.75 × 100 = 75\n\nNow divide: **3,150 ÷ 75**\n- 75 × 40 = 3,000\n- 3,150 − 3,000 = 150\n- 75 × 2 = 150\n\nQuotient: **42**\n\n**Verification:** 42 × 0.75 = 42 × 3/4 = 126/4 = 31.5 ✓\n\n**Why other answers are wrong:**\n- A) 23.625 = 31.5 ÷ 1.33 (arithmetic error, likely divides by wrong number)\n- C) 420 — places decimal incorrectly (off by factor of 10)\n- D) 4.2 — off by factor of 10 in the other direction\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Decimal Operations",
+    "subtopic": "fractions_decimals",
+    "question": "— Multi-Step Decimal Word Problem  [R]\nXavier bought **3 notebooks** for **$1.85 each** and **2 highlighters** for **$0.99 each**. He also used a coupon for **$1.50 off** his total. How much did Xavier pay in all?",
+    "options": [
+      "$5.53",
+      "$6.03",
+      "$6.53",
+      "$7.53"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $6.03\n\n**Step-by-step:**\nStep 1 — Cost of notebooks:\n- 3 × $1.85 = **$5.55**\n\nStep 2 — Cost of highlighters:\n- 2 × $0.99 = **$1.98**\n\nStep 3 — Total before coupon:\n- $5.55 + $1.98 = **$7.53**\n\nStep 4 — Apply coupon:\n- $7.53 − $1.50 = **$6.03**\n\n**Why other answers are wrong:**\n- A) $5.53 — forgets to add highlighters; $5.55 − $1.50 = $4.05... actually $5.53 suggests another error\n- C) $6.53 — subtracts only $1.00 instead of $1.50\n- D) $7.53 — forgets to apply the coupon\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Decimal Operations",
+    "subtopic": "fractions_decimals",
+    "question": "— Rounding to the Nearest Hundredth\nWhat is **34.8573** rounded to the nearest **hundredth**?",
+    "options": [
+      "34.857",
+      "34.85",
+      "34.86",
+      "34.9"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 34.86\n\n**Step-by-step:**\nRound **34.8573** to the nearest **hundredth** (2 decimal places).\n\n- Hundredths digit: **5**\n- Look at the thousandths digit (the deciding digit): **7**\n- Since 7 ≥ 5, round the hundredths digit **UP**: 5 → **6**\n- Drop all digits after hundredths\n\n**34.8573 → 34.86**\n\n**Why other answers are wrong:**\n- A) 34.857 — rounds to 3 decimal places (thousandths), not 2\n- B) 34.85 — incorrectly rounds DOWN (ignores the 7 in thousandths)\n- D) 34.9 — rounds to 1 decimal place (tenths), not 2\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q22",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Percentages (Extra Coverage)",
+    "subtopic": "fractions_decimals",
+    "question": "— Finding the Original Price  [R]\nA jacket is on sale for **$60**, which is **25% off** the original price. What was the **original price** of the jacket?",
+    "options": [
+      "$72",
+      "$75",
+      "$80",
+      "$85"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → $80\n\n**Step-by-step:**\nThe sale price ($60) is **75% of** the original price (because 25% off = 75% remaining).\n\n- Sale price = 75% × Original\n- $60 = 0.75 × Original\n- Original = $60 ÷ 0.75 = **$80**\n\n**Verification:** $80 × 25% = $20 discount; $80 − $20 = $60 ✓\n\n**Why other answers are wrong:**\n- A) $72 — computes $60 + 20% = $60 × 1.2 = $72 (wrong direction: adds rather than reverses)\n- B) $75 — adds $15 to $60 ($60 + $15 = $75), likely using $60 × 0.25 = $15 incorrectly\n- D) $85 — adds $25 to $60 (wrong: doesn't account for percentage correctly)\n\n**Key concept:** If a sale price is (100% − discount%) of original, reverse it: Original = Sale Price ÷ (100% − discount%).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q23",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Percentages (Extra Coverage)",
+    "subtopic": "fractions_decimals",
+    "question": "— Sales Tax on Multiple Items\nMiranda buys a pair of jeans for **$45** and a shirt for **$28**. The sales tax rate is **8%**. What is the **total amount** Miranda pays, including sales tax?",
+    "options": [
+      "$73.00",
+      "$75.84",
+      "$78.84",
+      "$80.64"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → $78.84\n\n**Step-by-step:**\nStep 1 — Total before tax:\n- $45 + $28 = **$73.00**\n\nStep 2 — Calculate 8% sales tax:\n- 8% of $73 = 0.08 × $73 = **$5.84**\n\nStep 3 — Total with tax:\n- $73.00 + $5.84 = **$78.84**\n\n**Verification:** $73 × 1.08 = $78.84 ✓\n\n**Why other answers are wrong:**\n- A) $73.00 — the pretax amount; tax not added\n- B) $75.84 — uses 4% tax instead of 8%: $73 × 0.04 = $2.92; $73 + $2.92 = $75.92 (close but not this)\n- D) $80.64 — uses 10.5% tax (arithmetic error)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q24",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Percentages (Extra Coverage)",
+    "subtopic": "fractions_decimals",
+    "question": "— Percent of a Category\nA store sold **150 items** on Saturday: **45 shirts**, **60 pants**, and **45 shoes**. What **percentage** of the items sold were pants?",
+    "options": [
+      "30%",
+      "40%",
+      "45%",
+      "60%"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 40%\n\n**Step-by-step:**\nTotal items sold = 45 + 60 + 45 = **150**\n\nPants sold = **60**\n\nPercentage = (pants ÷ total) × 100\n= (60 ÷ 150) × 100\n= 0.4 × 100\n= **40%**\n\n**Why other answers are wrong:**\n- A) 30% → would need 45/150 = 30% (this is the percentage for shirts or shoes, not pants)\n- C) 45% → percentage ≠ number of items; 60 items ≠ 45%\n- D) 60% → 60 ≠ 60% of 150 (60% of 150 = 90)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q25",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Percentages (Extra Coverage)",
+    "subtopic": "fractions_decimals",
+    "question": "— Multi-Item Discount\nA sporting goods store offers a **15% discount** on all items. Carlos buys a basketball priced at **$40** and a helmet priced at **$25**. How much money does Carlos **save** with the discount?",
+    "options": [
+      "$6.00",
+      "$9.75",
+      "$10.25",
+      "$55.25"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $9.75\n\n**Step-by-step:**\nStep 1 — Total original price:\n- $40 + $25 = **$65**\n\nStep 2 — Calculate 15% discount (savings):\n- 15% of $65 = 0.15 × $65\n\nCompute: 0.15 × 65 = 0.10 × 65 + 0.05 × 65 = 6.50 + 3.25 = **$9.75**\n\n**Verification:** Sale price = $65 − $9.75 = $55.25; $65 × 0.85 = $55.25 ✓\n\n**Why other answers are wrong:**\n- A) $6.00 — uses 10% of $60 (underestimates total and wrong percentage)\n- C) $10.25 — arithmetic error\n- D) $55.25 — this is the sale PRICE paid, not the money saved\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q49",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Mixed Number × Whole Number",
+    "subtopic": "fractions_decimals",
+    "question": "— Multiplying a Mixed Number by a Whole Number  [R]\nA recipe uses **2 1/3 cups of oats**. A chef makes **6 batches** of the recipe. How many **total cups of oats** does the chef need?",
+    "options": [
+      "8 1/3 cups",
+      "12 cups",
+      "13 cups",
+      "14 cups"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D** → 14 cups\n\n**Step-by-step:**\n**2 1/3 × 6**\n\nStep 1 — Convert 2 1/3 to an improper fraction:\n- 2 1/3 = (2 × 3 + 1)/3 = **7/3**\n\nStep 2 — Multiply:\n- 7/3 × 6 = 42/3\n\nStep 3 — Simplify:\n- 42 ÷ 3 = **14**\n\n**Verification:** 2 × 6 = 12 cups, plus 1/3 × 6 = 2 cups → 12 + 2 = 14 ✓\n\n**Why other answers are wrong:**\n- A) 8 1/3 — multiplies only the whole number part by 6: 1 1/3 × 6 = 8 (error)\n- B) 12 — multiplies only the whole number 2 × 6 = 12 (ignores the 1/3)\n- C) 13 — arithmetic error; 2 1/3 × 6 rounds incorrectly\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

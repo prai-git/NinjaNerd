@@ -1,0 +1,164 @@
+[
+  {
+    "id": "science_g3_2026-08-29_23-09_q26",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which model arrangement best represents the relationships among the Sun, Earth, and Moon?",
+    "options": [
+      "Earth moves around the Sun, and the Moon moves around Earth.",
+      "The Moon moves around the Sun, and the Sun moves around Earth.",
+      "Earth, the Moon, and the Sun all stay in one place.",
+      "The Sun moves around Earth, and Earth moves around the Moon."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Earth moves around the Sun, and the Moon moves around Earth.  \n**MAP area / TEKS:** Earth & Space Science / 3.9A.  \n**Explanation:** This arrangement correctly represents the orbital relationships taught in Grade 3.  \n**Why the other answers are wrong:** B and D reverse the relationships; C ignores orbital motion.  \n**Key concept:** Modeling the Sun-Earth-Moon system.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q27",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "A student begins at the Sun and lists the first four planets in order. Which list is correct?",
+    "options": [
+      "Mercury, Earth, Venus, Mars",
+      "Venus, Mercury, Earth, Mars",
+      "Earth, Venus, Mercury, Mars",
+      "Mercury, Venus, Earth, Mars"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Mercury, Venus, Earth, Mars.  \n**MAP area / TEKS:** Earth & Space Science / 3.9B.  \n**Explanation:** Starting nearest the Sun, the first four planets are Mercury, Venus, Earth, and Mars.  \n**Why the other answers are wrong:** A and C put Earth before Venus; B puts Venus before Mercury.  \n**Key concept:** Planet order from the Sun.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q28",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "At 9:00 a.m., students record weather conditions at two Texas locations.\n\n| Location | Air temperature | Wind direction | Rainfall during the hour |\n|---|---:|---|---:|\n| Hillview | 18°C | north | 0 mm |\n| Lakeside | 24°C | south | 3 mm |\n\nWhich comparison is supported by the table?",
+    "options": [
+      "North wind always causes rain.",
+      "Lakeside was warmer and received rain during the hour.",
+      "Both locations had identical weather.",
+      "Hillview was warmer and received more rain."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Lakeside was warmer and received rain during the hour.  \n**MAP area / TEKS:** Earth & Space Science / 3.10A.  \n**Explanation:** Lakeside measured 24°C and 3 mm rainfall; Hillview measured 18°C and 0 mm.  \n**Why the other answers are wrong:** A makes an unsupported rule about wind; C ignores all three differences; D reverses temperature and rainfall results.  \n**Key concept:** Comparing day-to-day weather data by location.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q29",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Over many years, rainwater seeps into a crack in a rock. The water freezes on cold nights, and pieces of rock break away. Later, tiny pieces mix with decayed leaves. What is most likely forming?",
+    "options": [
+      "moonlight",
+      "a magnet",
+      "soil",
+      "a new planet"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. soil.  \n**MAP area / TEKS:** Earth & Space Science / 3.10B.  \n**Explanation:** Weathering breaks rock into smaller pieces, and decayed plant material mixes with those pieces to help form soil.  \n**Why the other answers are wrong:** A and D are space objects or light, not products of weathering; B is unrelated.  \n**Key concept:** Soil formation through weathering and decomposition.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q30",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "After several days of heavy rain, a steep hillside suddenly slides downward and covers a road. Which rapid change to Earth's surface occurred?",
+    "options": [
+      "landslide",
+      "planet orbit",
+      "recycling",
+      "weathering"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. landslide.  \n**MAP area / TEKS:** Earth & Space Science / 3.10C.  \n**Explanation:** The sudden downhill movement of soil and rock after heavy rain is a landslide, a rapid surface change.  \n**Why the other answers are wrong:** B is an orbital motion; C is resource management; D is usually a slow process that breaks material down.  \n**Key concept:** Rapid changes to Earth’s surface.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q31",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which pair correctly matches a natural resource with one common human use?",
+    "options": [
+      "Soil — changing the order of planets",
+      "Moonlight — growing metal tools",
+      "Wind — making a new fossil",
+      "Wood from trees — building a table"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Wood from trees — building a table.  \n**MAP area / TEKS:** Earth & Space Science / 3.11A.  \n**Explanation:** Wood is a natural resource from trees and can be used to make products such as tables.  \n**Why the other answers are wrong:** A, B, and C pair resources with impossible or unrelated uses.  \n**Key concept:** Human uses of natural resources.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q32",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Why is conserving a nonrenewable resource, such as metal ore, important?",
+    "options": [
+      "It makes rain stop falling.",
+      "It can take a very long time for nature to replace it.",
+      "It never becomes part of useful products.",
+      "It can be grown in a garden every week."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. It can take a very long time for nature to replace it.  \n**MAP area / TEKS:** Earth & Space Science / 3.11B.  \n**Explanation:** Metal ore is nonrenewable on a human time scale, so conserving it helps the supply last.  \n**Why the other answers are wrong:** A is unrelated to conservation; C is false because ore makes useful products; D falsely treats ore as a quickly grown resource.  \n**Key concept:** Why conserving nonrenewable resources matters.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q33",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which action is the best example of **reusing** a natural resource rather than throwing it away or changing it into a new material?",
+    "options": [
+      "Throw a cardboard box into a trash bin.",
+      "Leave a faucet running while washing a bicycle.",
+      "Use a clean glass jar to store buttons.",
+      "Melt aluminum cans to make new cans."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Use a clean glass jar to store buttons.  \n**MAP area / TEKS:** Earth & Space Science / 3.11C.  \n**Explanation:** Reusing keeps the same object in use for a new purpose without processing it into a new material.  \n**Why the other answers are wrong:** A discards a material; B wastes water; D is recycling because the material is melted and remade.  \n**Key concept:** Reuse compared with recycling and disposal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q34",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "A rain garden has soil, plants, insects, water, and rocks. Rainwater moves through the soil, plants use the water, and insects use the plants for food. Which idea does this example best show?",
+    "options": [
+      "Parts of a system depend on one another.",
+      "Water cannot move through soil.",
+      "Living things do not need nonliving things.",
+      "Every part of a system is exactly the same."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Parts of a system depend on one another.  \n**MAP area / TEKS:** Earth & Space Science; Scientific & Engineering Practices / 3.5D.  \n**Explanation:** Water, soil, plants, insects, and rocks have connected roles in the rain garden, so a change to one part can affect others.  \n**Why the other answers are wrong:** B is contradicted by the description; C ignores organisms’ needs; D is false because system parts have different roles.  \n**Key concept:** Interdependence within a system.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

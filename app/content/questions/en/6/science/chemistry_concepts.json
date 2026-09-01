@@ -1,0 +1,290 @@
+[
+  {
+    "id": "science_g6_2026-08-23_11-02_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "Four solid mineral samples were massed and their volumes measured by water displacement. Recall that $D = \\dfrac{m}{V}$ and that a sample will **sink** in water (density of water = 1.0 g/cm³) if its density is greater than 1.0 g/cm³.\n\n| Sample | Mass (g) | Volume (cm³) |\n|--------|----------|--------------|\n| J | 48 | 6 |\n| K | 27 | 30 |\n| L | 90 | 45 |\n| M | 21 | 3 |\n\nWhich sample has the **greatest density**?",
+    "options": [
+      "Sample J",
+      "Sample K",
+      "Sample L",
+      "Sample M"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7A (density) | MAP: Matter and Its Interactions | SEP 6.2 (data analysis)**\n\n**Step-by-step:** Density $D = \\dfrac{m}{V}$. Compute each:\n- J: $48 \\div 6 = 8.0$ g/cm³\n- K: $27 \\div 30 = 0.9$ g/cm³\n- L: $90 \\div 45 = 2.0$ g/cm³\n- M: $21 \\div 3 = 7.0$ g/cm³\n\nThe greatest density is **Sample J at 8.0 g/cm³**.\n\n**Why the others are wrong:** M = 7.0 g/cm³ (second highest — a strong distractor); L = 2.0 g/cm³; K = 0.9 g/cm³ (the only sample that would float in water). A student who forgets to divide and just picks the largest mass (L, 90 g) is misled.\n\n**Key concept:** Density is a ratio of mass to volume; the largest mass does not mean the largest density.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A jeweler has an unknown gold-colored ring with a mass of **57.9 g** and a volume of **3.0 cm³**. Pure gold has a density of **19.3 g/cm³**. Based on a density calculation, the ring is most likely —",
+    "options": [
+      "pure gold, because its calculated density matches gold's density",
+      "not pure gold, because its calculated density is far below gold's density",
+      "pure gold, because its mass is greater than its volume",
+      "impossible to evaluate without knowing the ring's color"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.7A (density as an identifying property) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** $D = \\dfrac{m}{V} = \\dfrac{57.9\\text{ g}}{3.0\\text{ cm}^3} = 19.3$ g/cm³.\n\nThis exactly matches pure gold's density (19.3 g/cm³), so the ring **is most likely pure gold**.\n\n**Why the others are wrong:** B is wrong because the calculated density **does** match gold. C compares the mass and volume numbers directly, which is not how density identification works. D is wrong because density (a physical property) can identify a material regardless of its color.\n\n**Key concept:** Density is an intensive property used to identify substances; calculate it and compare to a known value.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student examines four particle-model diagrams. In the models, each shape (○, ●, △) represents one kind of atom.\n\n| Sample | Particle model description |\n|--------|----------------------------|\n| P | Only ○ atoms, all identical, bonded in pairs (○–○) |\n| Q | ○–● units, every unit identical, all chemically bonded |\n| R | A blend of separate ○–○ pairs and separate ●–● pairs, not bonded to each other |\n| S | Only single ● atoms, all identical, not bonded |\n\nWhich sample best represents a **compound**?",
+    "options": [
+      "Sample P",
+      "Sample Q",
+      "Sample R",
+      "Sample S"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6A (classifying matter) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** A **compound** is two or more **different** kinds of atoms **chemically bonded** in a fixed ratio. Sample Q shows identical ○–● units, all chemically bonded — that is a compound.\n\n**Why the others are wrong:** P is only one kind of atom bonded in pairs → a diatomic **element** (like O₂). R is a **mixture** of two separate substances that are not bonded to each other. S is single identical atoms → an **element**.\n\n**Key concept:** Element = one kind of atom; compound = different atoms chemically bonded; mixture = substances physically combined, not bonded.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "On the periodic table, elements are arranged in order of increasing atomic number. Elements in the **same column (group)** tend to share similar chemical behavior. A student finds that lithium, sodium, and potassium all react vigorously with water. What can the student **best** conclude?",
+    "options": [
+      "These three elements are probably located in the same group of the periodic table",
+      "These three elements must all be gases at room temperature",
+      "These three elements have exactly the same atomic number",
+      "These three elements are all nonmetals"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6A (periodic table organization) | MAP: Matter and Its Interactions | Theme: patterns**\n\n**Step-by-step:** Elements in the same **group (column)** show similar chemical behavior. Lithium, sodium, and potassium all react vigorously with water, a shared behavior that points to the same group (these are the alkali metals, Group 1).\n\n**Why the others are wrong:** B — they are solids, not gases. C — every element has a **unique** atomic number. D — they are reactive **metals**, not nonmetals.\n\n**Key concept:** The periodic table's columns group elements with similar properties; shared reactivity is a clue to group placement.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q5",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student combines two clear liquids in a beaker. Which observation is the **strongest single piece of evidence** that a **chemical change**, rather than a physical change, has occurred?",
+    "options": [
+      "The combined liquid takes the shape of the beaker",
+      "A solid, cloudy precipitate forms and the beaker becomes noticeably warmer",
+      "The total volume of liquid in the beaker increases",
+      "The mixture can be poured from one container into another"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6B (evidence of chemical change) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** Signs of a chemical change include a **new substance forming** (precipitate), color change, gas production, light, odor, or an unexpected **temperature change**. A cloudy precipitate plus a temperature rise are two strong indicators together.\n\n**Why the others are wrong:** A, C, and D all describe **physical** behaviors (shape, volume, pourability) that occur without forming a new substance.\n\n**Key concept:** Chemical changes produce new substances; look for precipitates, gas, color change, odor, light, or heat released/absorbed.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-23_11-02_q6",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student has a mixture of salt, sand, and small iron pellets. She wants to recover **all three** materials separately using only physical methods. Which sequence of steps would work?",
+    "options": [
+      "Burn the mixture, then filter, then add a magnet",
+      "Use a magnet to remove the iron, add water to dissolve the salt and filter out the sand, then evaporate the water to recover the salt",
+      "Dissolve everything in water at once, since all three will separate on their own",
+      "Heat the mixture until the sand and salt both melt into the iron"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6A (separating mixtures by physical properties) | MAP: Matter and Its Interactions**\n\n**Step-by-step:** Use each material's physical property in sequence:\n1. **Magnet** removes iron (magnetic).\n2. Add **water** → salt dissolves, sand does not; **filter** to catch sand.\n3. **Evaporate** the salt water → salt crystals remain.\n\nAll three are recovered without any chemical change.\n\n**Why the others are wrong:** A burns the mixture (a chemical change that destroys materials). C is false — the three do not spontaneously separate. D melts materials, changing them and not separating salt from iron.\n\n**Key concept:** Mixtures can be separated using differences in physical properties (magnetism, solubility, particle size).\n\n---\n\n# Instructional Area: Motion & Stability — Forces & Interactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A sealed, rigid container holds a gas. A student uses a heater to raise the gas's temperature while the container's size stays exactly the same. Which statement **best** describes what happens to the gas particles?",
+    "options": [
+      "The particles move faster and collide with the container walls more often",
+      "The particles move slower and settle to the bottom of the container",
+      "The particles get larger, so they take up more space",
+      "The particles stop moving because the container cannot expand"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6A** — Matter and kinetic energy (states of matter, particle motion)\n\n**Explanation:** Adding heat increases the **kinetic energy** of the gas particles, so they move **faster** and strike the container walls **more frequently and harder** (this is why pressure rises in a rigid container). The container size is fixed, so the gas cannot expand.\n\n**Why the others are wrong:**\n- **B.** Heating speeds particles up, not down; gases don't \"settle\" like this.\n- **C.** Particles (atoms/molecules) do **not** change size when heated — only their motion and spacing change.\n- **D.** Particles keep moving; a rigid container just prevents expansion.\n\n**Key concept:** Temperature is a measure of the average kinetic energy of particles.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student carefully pours three liquids into a tall, clear cylinder. The liquids do not mix and settle into layers. The density of each liquid is shown below.\n\n| Liquid | Density (g/mL) |\n|--------|----------------|\n| Corn syrup | 1.33 |\n| Water | 1.00 |\n| Vegetable oil | 0.92 |\n\nWhich liquid will settle on the **bottom** of the cylinder, and why?",
+    "options": [
+      "Vegetable oil, because it is the least dense",
+      "Water, because it is in the middle of the list",
+      "Corn syrup, because it is the most dense",
+      "All three will mix evenly, so there is no bottom layer"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 6.6D** — Comparing density (SEP 6.2 data analysis)\n\n**Explanation:** In a stack of liquids that don't mix, the **densest** liquid sinks to the bottom and the **least dense** floats on top. Comparing densities: corn syrup (1.33) > water (1.00) > vegetable oil (0.92). Corn syrup is densest, so it settles on the **bottom**; oil floats on top.\n\n**Why the others are wrong:**\n- **A.** Oil is least dense, so it floats on **top**, not the bottom.\n- **B.** Position in a list is irrelevant; density determines layering.\n- **D.** The liquids are described as not mixing, so they form distinct layers.\n\n**Key concept:** Density ($D=\\frac{m}{V}$) determines whether a material floats or sinks relative to another.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student classifies four samples: (1) distilled water, (2) filtered air, (3) pure copper wire, (4) sweetened iced tea. Which choice correctly identifies the **pure substances**?",
+    "options": [
+      "Distilled water and pure copper wire",
+      "Filtered air and sweetened iced tea",
+      "All four are pure substances",
+      "Only sweetened iced tea"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6B / 6.6C** — Pure substances vs. mixtures; classifying matter\n\n**Explanation:** A **pure substance** has a fixed, uniform composition — an element or a compound. **Distilled water** (the compound H₂O) and **pure copper wire** (the element Cu) are pure substances. **Filtered air** is a mixture of gases, and **sweetened iced tea** is a mixture of water, sugar, and tea.\n\n**Why the others are wrong:**\n- **B.** Both filtered air and iced tea are mixtures, not pure substances.\n- **C.** Two of the four are mixtures.\n- **D.** Iced tea is a mixture, not a pure substance.\n\n**Key concept:** Elements and compounds are pure substances; combinations that are not chemically bonded (air, tea) are mixtures.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-24_18-44_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student drops an antacid tablet into a glass of water and records these observations:\n\n| Observation | Detail |\n|-------------|--------|\n| Bubbling | Many gas bubbles rise continuously |\n| Temperature | The glass feels slightly cooler than before |\n| Tablet | Slowly disappears as the reaction proceeds |\n\nWhich observation is the **strongest evidence** that a **chemical change** is taking place?",
+    "options": [
+      "The tablet slowly disappears",
+      "A new gas is being produced continuously",
+      "The water was clear before the tablet was added",
+      "The glass can be picked up and moved"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6E** — Evidence of chemical change (SEP 6.2 interpreting observations)\n\n**Explanation:** The **continuous production of a new gas** is strong evidence of a chemical reaction — a new substance is being formed. (The slight temperature drop is also a clue, but \"the tablet disappears\" alone could describe dissolving, a physical change, so gas production is the strongest single evidence listed.)\n\n**Why the others are wrong:**\n- **A.** A solid \"disappearing\" can also happen by dissolving (a physical change), so it's weaker evidence by itself.\n- **C.** The water being clear beforehand is just a starting condition, not evidence of change.\n- **D.** Being able to move the glass is a physical property, unrelated to a chemical reaction.\n\n**Key concept:** Signs of a chemical change include gas production, precipitate formation, color change, light, and unexpected temperature change (new substances form).\n\n---\n\n# Instructional Area: Motion & Stability — Forces & Interactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "The table shows how the particles are arranged in three unlabeled samples of the **same** substance.\n\n| Sample | Particle description |\n|--------|----------------------|\n| J | Particles are packed tightly in a fixed pattern and only vibrate in place |\n| K | Particles are close together but slide past one another and take the shape of the container |\n| L | Particles are far apart and move quickly in all directions, filling any container |\n\nWhich choice correctly identifies the **state** of each sample?",
+    "options": [
+      "J = gas, K = liquid, L = solid",
+      "J = solid, K = liquid, L = gas",
+      "J = liquid, K = solid, L = gas",
+      "J = solid, K = gas, L = liquid"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6A — States of matter / particle model.**\n**Explanation:** In a **solid** (Sample J) particles are locked in a fixed pattern and only vibrate. In a **liquid** (Sample K) particles stay close but slide past one another, so a liquid takes the container's shape but keeps its volume. In a **gas** (Sample L) particles are far apart and move rapidly to fill any container.\n**Why others are wrong:** A, C, and D mismatch at least one description — e.g., a gas cannot have tightly packed, fixed particles.\n**Key concept:** Particle arrangement and motion define the state of matter.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student examines four samples: (1) table salt (sodium chloride), (2) ocean water, (3) oxygen gas, (4) a bowl of trail mix. Which choice correctly separates the **pure substances** from the **mixtures**?",
+    "options": [
+      "Pure substances: table salt and oxygen gas; Mixtures: ocean water and trail mix",
+      "Pure substances: ocean water and trail mix; Mixtures: table salt and oxygen gas",
+      "Pure substances: all four samples; Mixtures: none",
+      "Pure substances: trail mix only; Mixtures: the other three"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6B/6.6C — Pure substances vs. mixtures.**\n**Explanation:** A **pure substance** has one kind of particle throughout: table salt (a compound, NaCl) and oxygen gas (an element) qualify. **Mixtures** contain two or more substances physically combined: ocean water (salt + water + more) and trail mix (nuts, raisins, etc.).\n**Why others are wrong:** B reverses the two groups. C ignores that ocean water and trail mix are clearly mixtures. D wrongly calls two pure substances mixtures.\n**Key concept:** Pure substances = elements or compounds; mixtures = physically combined substances.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student is given the chemical symbols for four elements.\n\n| Symbol | Element |\n|--------|---------|\n| O | Oxygen |\n| Fe | Iron |\n| He | Helium |\n| Na | Sodium |\n\nOn the periodic table, **metals** are found mostly on the left and center, while **nonmetals** are on the upper right. Iron and sodium are metals; oxygen and helium are nonmetals. Which statement is **best** supported by this information?",
+    "options": [
+      "All four elements are metals because they all have chemical symbols",
+      "Iron (Fe) and sodium (Na) would be found in the metal region of the periodic table",
+      "Oxygen (O) is a metal because its symbol has only one letter",
+      "Helium (He) and oxygen (O) must be the same element because both are gases"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6 — Elements & the periodic table.**\n**Explanation:** The passage states iron and sodium are metals. Metals sit in the left and center of the periodic table, so **Fe and Na** are in the metal region.\n**Why others are wrong:** A — a chemical symbol does not make an element a metal. C — the length of a symbol says nothing about metal/nonmetal. D — oxygen and helium are different elements even though both are gases.\n**Key concept:** The periodic table organizes elements; position indicates metal vs. nonmetal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "Three solid objects are lowered into a tank of water. Water has a density of **1.0 g/cm³**. The mass and volume of each object are shown below.\n\n| Object | Mass (g) | Volume (cm³) |\n|--------|----------|--------------|\n| P | 20 | 25 |\n| Q | 54 | 6 |\n| R | 30 | 30 |\n\nAn object **floats** in water only if its density is **less than** 1.0 g/cm³. Using density = mass ÷ volume, which object will **float**?",
+    "options": [
+      "Object P",
+      "Object Q",
+      "Object R",
+      "None of the objects will float"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.6D — Density (calculation).**\n**Explanation:** Density = mass ÷ volume.\n- P: 20 ÷ 25 = **0.8 g/cm³** → less than 1.0 → **floats**\n- Q: 54 ÷ 6 = 9.0 g/cm³ → sinks\n- R: 30 ÷ 30 = 1.0 g/cm³ → neither (stays suspended)\nOnly Object P has a density below water's, so it floats.\n**Why others are wrong:** Q (9.0) and R (1.0) are not less than 1.0. D is wrong because P does float.\n**Key concept:** Objects less dense than a fluid float in it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q5",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "A student leaves a shiny iron nail outdoors for two weeks. When she returns, the nail is covered in a flaky, reddish-brown coating that is more brittle than the original metal. Which statement **best** explains why this is evidence of a **chemical change**?",
+    "options": [
+      "The nail simply changed shape, which is a physical change",
+      "A new substance (rust) with different properties formed, so the change is chemical",
+      "The nail dissolved into the air, which is a change of state",
+      "No change occurred because the nail is still made of iron"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6E — Evidence of chemical change.**\n**Explanation:** Rust is a **new substance** (iron oxide) with properties different from shiny iron — reddish-brown, flaky, brittle. Forming a new substance is the signature of a chemical change.\n**Why others are wrong:** A — a shape change would be physical, but this is more than shape. C — the nail did not evaporate. D — although iron atoms remain, they have chemically combined with oxygen to form a new compound.\n**Key concept:** Formation of a new substance = chemical change.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-08-29_11-30_q6",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Matter and Its Interactions",
+    "subtopic": "chemistry_concepts",
+    "question": "**[stretch]**\nA student has a mixture of **iron filings, sand, and salt**. She first removes the iron filings by passing a magnet over the mixture. She is now left with only **sand and salt**. Which procedure will **best** separate the remaining sand from the salt?",
+    "options": [
+      "Pass the magnet over the mixture a second time",
+      "Stir the mixture into water, filter out the sand, then evaporate the water to recover the salt",
+      "Heat the mixture until both the sand and the salt melt together",
+      "Pour the dry mixture through a fine screen to catch the salt"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 6.6 — Separating mixtures by physical properties.**\n**Explanation:** Salt **dissolves** in water; sand does **not**. Stir the mixture into water, **filter** out the undissolved sand, then **evaporate** the water to recover the dissolved salt. This uses differences in physical properties (solubility) to separate the two.\n**Why others are wrong:** A — a magnet does not attract salt or sand. C — melting would not cleanly separate them and requires enormous heat. D — a screen cannot separate two fine solids reliably, and salt is not larger than sand.\n**Key concept:** Physical properties like solubility allow mixtures to be separated without chemical change.\n\n---\n\n# Instructional Area: Motion & Stability — Forces & Interactions",
+    "source": "authored",
+    "needsReview": false
+  }
+]

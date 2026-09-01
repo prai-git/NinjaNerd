@@ -78,6 +78,25 @@ main {
   transform: scale(1.1);
 }
 
+/* A subtopic in the legacy taxonomy that has no authored questions yet. The card still
+   renders, so the page matches the old app and the authoring gap stays visible, but it must
+   not look or behave clickable — the hover lift is cancelled along with the pointer. */
+.topic-card.nn-empty {
+  cursor: default;
+  opacity: 0.55;
+  background: linear-gradient(145deg, #fbfbfb, #f2f2f2);
+}
+
+.topic-card.nn-empty:hover {
+  transform: none;
+  box-shadow: none;
+  background: linear-gradient(145deg, #fbfbfb, #f2f2f2);
+}
+
+.topic-card.nn-empty:hover i {
+  transform: none;
+}
+
 /* Learn/Practice chooser cards — legacy `explore-option-card`. */
 .explore-option-card {
   cursor: pointer;

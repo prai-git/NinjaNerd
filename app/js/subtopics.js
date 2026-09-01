@@ -1,7 +1,34 @@
-/* Subtopics page (mirrors legacy subtopics.html): grade+subject → subtopic list.
+/* Subtopics page — mirrors legacy obs_templates/subtopics.html.
+
+   The subtopic LIST is the legacy taxonomy (subtopics-data.js, ported from obs_app.py
+   SUBTOPICS): a fixed curated set with a name, description, FontAwesome icon and Bootstrap
+   colour — 5 per subject for grades 1-5 (7 for math) and 10 for grade 6, exactly as the
+   legacy route picked it. It is NOT derived from the authored content.
+
+   The manifest only supplies COUNTS, keyed by the same legacy subtopic ids. A subtopic with
+   no questions yet still renders, greyed out and not clickable, so the page matches the old
+   app and the authoring gaps stay visible rather than silently disappearing.
+
    Public — browsing does not require login. */
-import { loadManifest, subtopicsFor } from './content-loader.js';
+import { loadManifest } from './content-loader.js';
 import { param, subjectLabel } from './flow.js';
+import { subtopicsForGrade } from './subtopics-data.js';
+
+function cardHtml(s, count) {
+  const empty = count === 0;
+  // Legacy card: text-center body, fa-3x icon in the subtopic's colour, name, description.
+  return `
+    <div class="card h-100 topic-card${empty ? ' nn-empty' : ''}"${empty ? ' aria-disabled="true"' : ''}>
+      <div class="card-body text-center">
+        <i class="fas ${s.icon} fa-3x text-${empty ? 'muted' : s.color} mb-3"></i>
+        <h5 class="card-title">${s.name}</h5>
+        <p class="card-text">${s.description}</p>
+        ${empty
+          ? '<span class="badge bg-secondary">Questions coming soon</span>'
+          : `<span class="badge bg-${s.color}">${count} question${count === 1 ? '' : 's'}</span>`}
+      </div>
+    </div>`;
+}
 
 async function init(root) {
   const grade = Number(param('grade'));
@@ -13,32 +40,33 @@ async function init(root) {
     `${subjectLabel(subject)} - Grade ${grade} Subtopics`;
   document.getElementById('nn-back-topics').href = `pages/topics.html?grade=${grade}`;
 
-  const manifest = await loadManifest();
-  const subs = manifest ? subtopicsFor(manifest, grade, subject) : [];
-
+  const subtopics = subtopicsForGrade(subject, grade);
   const grid = root.querySelector('#nn-subtopics-grid');
   grid.innerHTML = '';
-  if (subs.length === 0) {
-    grid.innerHTML = '<div class="col-12"><div class="alert alert-info">No subtopics available here yet.</div></div>';
+  if (subtopics.length === 0) {
+    grid.innerHTML = '<div class="col-12"><div class="alert alert-info">No subtopics for this subject.</div></div>';
     return;
   }
-  // Legacy subtopics.html rendered a `topic-card` (text-center, fa-3x icon, title,
-  // description). Legacy icon/color/description came from server metadata we don't have on
-  // a static host, so we use one neutral icon and the authored question count as the blurb.
-  for (const s of subs) {
+
+  // Counts come from the manifest; a missing manifest degrades to "coming soon" everywhere
+  // rather than an empty page, so the taxonomy is always visible.
+  const manifest = await loadManifest();
+  const counts = {};
+  for (const s of (manifest?.grades?.[String(grade)]?.[subject] || [])) {
+    counts[s.subtopic] = s.count || 0;
+  }
+
+  for (const s of subtopics) {
+    const count = counts[s.id] || 0;
     const col = document.createElement('div');
     col.className = 'col-lg-4 col-md-6 col-sm-12';
-    col.innerHTML = `
-      <div class="card h-100 topic-card">
-        <div class="card-body text-center">
-          <i class="fas fa-list-ul fa-3x text-primary mb-3"></i>
-          <h5 class="card-title">${s.subtopic}</h5>
-          <p class="card-text">${s.count} question${s.count === 1 ? '' : 's'}</p>
-        </div>
-      </div>`;
-    col.querySelector('.card').addEventListener('click', () => {
-      location.href = `pages/explore.html?grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(s.slug)}`;
-    });
+    col.innerHTML = cardHtml(s, count);
+    if (count > 0) {
+      col.querySelector('.card').addEventListener('click', () => {
+        location.href =
+          `pages/explore.html?grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(s.id)}`;
+      });
+    }
     grid.appendChild(col);
   }
 }

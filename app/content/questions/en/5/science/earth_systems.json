@@ -1,0 +1,110 @@
+[
+  {
+    "id": "science_g5_2026-04-14_10-30_q40",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth and Space Science",
+    "subtopic": "earth_systems",
+    "question": "The sun heats a puddle of water on the sidewalk. The puddle slowly disappears into the air. Which process of the **water cycle** is occurring?",
+    "options": [
+      "Condensation — water vapor cools and turns back to liquid",
+      "Precipitation — water falls from the clouds to the ground",
+      "Evaporation — liquid water absorbs heat energy and changes to water vapor",
+      "Freezing — liquid water loses energy and changes to ice"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.9 | Topic: Water Cycle — Evaporation**\n\n**Correct Answer:** C) Evaporation — liquid water absorbs heat energy and changes to water vapor\n\n**Explanation:**\n**Evaporation** is the process where liquid water absorbs energy from the sun (or other heat source) and changes into water vapor (a gas). The water vapor rises into the atmosphere. This is the first step in the water cycle.\n\nIn the question: the sun heats the puddle → the puddle \"disappears\" into the air → this is evaporation.\n\n**Water cycle stages:**\n1. **Evaporation** — water → water vapor (sun heats liquid water)\n2. **Condensation** — water vapor → water droplets (forms clouds when vapor cools)\n3. **Precipitation** — water falls from clouds (rain, snow, sleet, hail)\n4. **Collection** — water collects in oceans, lakes, rivers, and groundwater\n\n**Why the other answers are wrong:**\n- **A) Condensation** — Condensation is when water VAPOR cools and becomes liquid water. The puddle is going in the opposite direction (liquid → gas).\n- **B) Precipitation** — Precipitation is water falling from clouds to the ground (rain or snow). The puddle is on the ground, not in the clouds.\n- **D) Freezing** — Freezing is liquid → solid. The puddle is disappearing (becoming gas), not turning to ice.\n\n**Key concept:** Evaporation = liquid → gas (water heated by sun). Condensation = gas → liquid (water vapor cools).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q41",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth and Space Science",
+    "subtopic": "earth_systems",
+    "question": "Earth experiences **day and night** because —",
+    "options": [
+      "The Moon blocks the sun's light as it orbits Earth",
+      "Earth revolves around the sun once every year",
+      "Earth rotates on its axis once every 24 hours",
+      "The sun moves across the sky from east to west each day"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.9 | Topic: Earth's Rotation — Day and Night**\n\n**Correct Answer:** C) Earth rotates on its axis once every 24 hours\n\n**Explanation:**\nEarth spins on an imaginary line called its **axis** (a line from the North Pole to the South Pole). This rotation takes approximately **24 hours** (one day) to complete.\n\n- The **side of Earth facing the sun** experiences **daytime**\n- The **side of Earth facing away from the sun** experiences **nighttime**\n\nAs Earth rotates, different parts of Earth face the sun and then turn away from it, causing the cycle of day and night.\n\n**Why the other answers are wrong:**\n- **A) Moon blocks sun** — A solar eclipse occurs when the Moon blocks the sun, but this is rare and does not cause daily day/night cycles.\n- **B) Earth revolves around the sun** — Earth's revolution around the sun (365 days) causes the SEASONS, not day/night.\n- **D) Sun moves across the sky** — The sun does NOT move. It appears to move because EARTH is rotating. The sun is actually relatively stationary.\n\n**Key concept:** Earth's ROTATION (spinning on axis, 24 hours) → Day and Night. Earth's REVOLUTION (orbit around sun, 365 days) → Seasons.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q42",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth and Space Science",
+    "subtopic": "earth_systems",
+    "question": "The Moon appears to change shape when viewed from Earth over a period of about **29 days**. What causes the Moon's appearance to change?",
+    "options": [
+      "The Moon physically changes its shape as it moves through space",
+      "Clouds on Earth block different parts of the Moon each night",
+      "The amount of sunlight reflected by the Moon changes as its position relative to Earth and the sun changes",
+      "Earth casts a shadow on a different part of the Moon each night"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.9 | Topic: Moon Phases**\n\n**Correct Answer:** C) The amount of sunlight reflected by the Moon changes as its position relative to Earth and the sun changes\n\n**Explanation:**\nThe Moon does NOT produce its own light. We see the Moon because it **reflects sunlight**. As the Moon orbits Earth (taking about 29.5 days), we see different portions of the Moon's sunlit side from Earth. This creates the **phases of the Moon**.\n\n**Moon phases (in order):**\n1. New Moon (not visible — dark side faces Earth)\n2. Waxing Crescent\n3. First Quarter (half visible)\n4. Waxing Gibbous\n5. Full Moon (entire sunlit side visible)\n6. Waning Gibbous\n7. Third Quarter (half visible)\n8. Waning Crescent\n9. (Returns to New Moon)\n\n**Why the other answers are wrong:**\n- **A) Moon physically changes shape** — The Moon does not actually change shape. Its shape is always a sphere. We just see different illuminated portions.\n- **B) Clouds block the Moon** — Clouds can temporarily hide the Moon, but they do not create the regular 29-day cycle of phases.\n- **D) Earth's shadow falls on the Moon** — Earth's shadow on the Moon causes a LUNAR ECLIPSE (a specific event, not the regular monthly phases).\n\n**Key concept:** Moon phases = we see different amounts of the Moon's lit side as the Moon orbits Earth. The Moon itself doesn't change shape.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q43",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth and Space Science",
+    "subtopic": "earth_systems",
+    "question": "During a **lunar eclipse**, sunlight is blocked from reaching the Moon. Which object casts a shadow on the Moon during a lunar eclipse?",
+    "options": [
+      "Another planet in the solar system",
+      "The Moon itself",
+      "Earth",
+      "A comet passing between Earth and the Moon"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.9 | Topic: Solar and Lunar Eclipses**\n\n**Correct Answer:** C) Earth\n\n**Explanation:**\nA **lunar eclipse** occurs when **Earth** comes between the sun and the Moon. Earth's shadow falls on the Moon, darkening it. During a lunar eclipse:\n- Sun → Earth → Moon (all three in a line)\n- Earth blocks the sunlight that would normally reflect off the Moon\n- The Moon can appear dark or reddish-orange (called a \"blood moon\")\n\n**Comparison:**\n| Type | What Aligns | What Blocks | What is Darkened |\n|------|------------|------------|-----------------|\n| Solar Eclipse | Moon is between Sun and Earth | Moon blocks sun | Part of Earth's surface |\n| **Lunar Eclipse** | **Earth is between Sun and Moon** | **Earth blocks sun** | **Moon** |\n\n**Why the other answers are wrong:**\n- **A) Another planet** — No other planet is between Earth and the Moon during a lunar eclipse.\n- **B) The Moon itself** — The Moon cannot block its own sunlight.\n- **D) A comet** — Comets do not cause eclipses.\n\n**Key concept:** Lunar eclipse = Earth's shadow falls on Moon. Solar eclipse = Moon's shadow falls on Earth.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q44",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth and Space Science",
+    "subtopic": "earth_systems",
+    "question": "Texas experiences **hot summers** and **cooler winters** each year. What is the **main reason** Earth has seasons?",
+    "options": [
+      "Earth moves closer to the sun in summer and farther away in winter",
+      "Earth's axis is tilted, so different parts of Earth receive more direct sunlight at different times of the year",
+      "The number of hours of daylight stays the same, but the sun's energy output changes",
+      "The Moon's gravity affects Earth's temperature throughout the year"
+    ],
+    "correctIndex": 1,
+    "explanation": "**TEKS 5.9 | Topic: Seasons**\n\n**Correct Answer:** B) Earth's axis is tilted, so different parts of Earth receive more direct sunlight at different times of the year\n\n**Explanation:**\nEarth's axis is tilted at about **23.5 degrees**. As Earth revolves around the sun:\n- In **summer** (for the Northern Hemisphere): Earth's Northern Hemisphere tilts **toward** the sun → more direct sunlight → more energy → hotter temperatures\n- In **winter** (for the Northern Hemisphere): Earth's Northern Hemisphere tilts **away** from the sun → less direct sunlight → less energy → cooler temperatures\n\nWhen it is summer in Texas (Northern Hemisphere), it is winter in Australia (Southern Hemisphere), and vice versa.\n\n**Why the other answers are wrong:**\n- **A) Earth moves closer in summer** — Earth is actually slightly CLOSER to the sun in January (during Northern Hemisphere winter), not summer. Distance is NOT the cause of seasons.\n- **C) Same daylight hours, changing sun energy** — Daylight hours DO change with seasons. The tilt affects both daylight hours and sun angle.\n- **D) Moon's gravity** — The Moon's gravity affects tides, not Earth's temperature or seasons.\n\n**Key concept:** Seasons = caused by Earth's AXIAL TILT (23.5°) as it orbits the sun. NOT caused by distance from the sun.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-04-14_10-30_q45",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth and Space Science",
+    "subtopic": "earth_systems",
+    "question": "A student is studying the solar system. Which planet is the **largest** in our solar system?",
+    "options": [
+      "Saturn",
+      "Neptune",
+      "Jupiter",
+      "Uranus"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 5.9 | Topic: Planets in the Solar System**\n\n**Correct Answer:** C) Jupiter\n\n**Explanation:**\n**Jupiter** is the largest planet in our solar system by far. It is so large that all the other planets could fit inside it at once. Jupiter is a **gas giant** — a planet made mostly of gas (hydrogen and helium) rather than solid rock.\n\n**Planets in order from the sun (memory tip: \"My Very Educated Mother Just Served Us Nachos\"):**\n1. **M**ercury — smallest planet\n2. **V**enus — hottest planet\n3. **E**arth — our home\n4. **M**ars — the Red Planet\n5. **J**upiter — **LARGEST planet** ← correct answer\n6. **S**aturn — has the most visible rings\n7. **U**ranus — rotates on its side\n8. **N**eptune — farthest from sun\n\n**Why the other answers are wrong:**\n- **A) Saturn** — Saturn is the second largest planet (known for its rings), but it is smaller than Jupiter.\n- **B) Neptune** — Neptune is the farthest planet from the sun, but it is much smaller than Jupiter.\n- **D) Uranus** — Uranus is an ice giant that is smaller than both Saturn and Jupiter.\n\n**Key concept:** Jupiter = largest planet. Saturn = second largest. Both are \"gas giants.\"\n\n---\n\n---\n\n## Section 12: Scientific Investigation and Engineering Design\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

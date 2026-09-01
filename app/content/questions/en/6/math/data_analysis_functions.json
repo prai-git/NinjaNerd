@@ -1,0 +1,290 @@
+[
+  {
+    "id": "math_g6_2026-08-14_17-35_q15",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "The data set below shows the number of books read by 7 students over the summer:\n\n$$4, \\quad 8, \\quad 6, \\quad 10, \\quad 12, \\quad 6, \\quad 8$$\n\nWhat is the **median** number of books read?",
+    "options": [
+      "8",
+      "6",
+      "7.7",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Key concept:** The median is the middle value of ordered data.\n\n**Steps:**\n1. Order the data: $4, 6, 6, 8, 8, 10, 12$.\n2. With 7 values, the middle (4th) value is the median = **8**.\n\n*(For reference: mean $= 54 \\div 7 \\approx 7.7$; range $= 12 - 4 = 8$.)*\n\n**Why others are wrong:** B ($6$) is not the middle value; C is the mean; D is the maximum.\n\n---\n\n## MAP Instructional Area Coverage\n\n| Instructional Area | Questions | TEKS |\n|---|---|---|\n| Numerical Representations & Relationships | 1, 2, 3, 4 | 6.2D, 6.2C, 6.4G, 6.7A |\n| Computations & Algebraic Relationships | 5, 6, 7, 8, 9, 10, 11 | 6.3E, 6.5B, 6.5A, 6.7D, 6.10A, 6.6C |\n| Geometry & Measurement | 12, 13, 14 | 6.4H, 6.8D, 6.11A |\n| Data Analysis & Personal Financial Literacy | 15 | 6.12C |\n\n**BOY design note:** The set leans on foundational number-system and computation skills (dividing fractions, decimal operations, ordering rationals, percents) that anchor the *start* of 6th grade, with a spread of difficulty appropriate to MAP's adaptive Fall administration.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "On five math quizzes, Leah scored:\n\n$$12, \\quad 15, \\quad 9, \\quad 20, \\quad 14$$\n\nWhat is the **mean (average)** of her scores?",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Concept:** Mean = sum ÷ number of values.\n$$12 + 15 + 9 + 20 + 14 = 70, \\qquad 70 \\div 5 = 14$$\n**Answer B.**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "The dot plot data below shows the number of pets owned by 7 students:\n\n$$2, \\quad 4, \\quad 4, \\quad 5, \\quad 7, \\quad 7, \\quad 7$$\n\nWhat is the **mode** of the data set?",
+    "options": [
+      "4",
+      "5",
+      "7",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Concept:** Mode = the value that appears most often.\nThe value **7** appears three times — more than any other number. **Answer C.**\n*(For reference: the range is $7 - 2 = 5$.)*\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-18_17-33_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Diego earns **\\$480** from his paycheck. Taxes and other deductions total **\\$96**. What is Diego's **net income** (take-home pay)?",
+    "options": [
+      "\\$576",
+      "\\$384",
+      "\\$96",
+      "\\$400"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Concept:** Net income = gross income − deductions.\n$$\\$480 - \\$96 = \\$384$$\nNet income (take-home pay) is what remains after taxes and deductions are subtracted. **Answer B.**\n- Choice A *adds* the deductions; Choice C is only the deduction amount.\n\n---\n\n*Questions provided in `practice_questions_math_map_boy_2026-08-18_17-33.md`.*",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Seven students recorded the number of books they read over the summer:\n\n$$3, \\quad 7, \\quad 5, \\quad 9, \\quad 2, \\quad 8, \\quad 6$$\n\nWhat is the **median** of the data set?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.12C — Median.*\nOrder the data: 2, 3, 5, **6**, 7, 8, 9. With 7 values, the median is the **4th (middle) value**: **6**.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "A bar graph shows how many cans four classes collected for a food drive:\n\n| Class | Cans Collected |\n|-------|----------------|\n| Room 101 | 45 |\n| Room 102 | 60 |\n| Room 103 | 30 |\n| Room 104 | 55 |\n\n**How many more cans** did Room 102 collect than Room 103?",
+    "options": [
+      "15",
+      "25",
+      "30",
+      "90"
+    ],
+    "correctIndex": 2,
+    "explanation": "*TEKS 6.13A — Interpreting a bar graph.*\nRoom 102 = 60 cans; Room 103 = 30 cans. Difference: $60 - 30 = \\mathbf{30}$ more cans.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-19_10-30_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Maria is making a monthly budget. Which of the following is a **fixed expense**?",
+    "options": [
+      "The amount she spends on snacks, which changes each week",
+      "Her monthly rent payment, which is the same every month",
+      "The money she spends on gas, which depends on how much she drives",
+      "The cost of movie tickets, which she only buys sometimes"
+    ],
+    "correctIndex": 1,
+    "explanation": "*TEKS 6.14A — Fixed vs. variable expenses.*\nA **fixed expense** stays the **same amount** each period (like rent). The other choices change from time to time, so they are **variable expenses**.\n\n---\n\n*End of Answer Key — 6th Grade Math MAP Growth (BOY).*",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Five students earned these scores on a quiz:\n\n$$82, \\quad 90, \\quad 76, \\quad 88, \\quad 94$$\n\nWhat is the **mean (average)** score?",
+    "options": [
+      "82",
+      "88",
+      "86",
+      "90"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Instructional Area:** Data Analysis & Personal Financial Literacy | **TEKS 6.12C**\nAdd the scores: 82 + 90 + 76 + 88 + 94 = 430. Divide by the number of scores (5): 430 ÷ 5 = **86**.\n**Why others are wrong:** A, B, D are individual values or arithmetic slips, not the mean.\n**Key concept:** Mean of a data set.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "The dot plot shows the number of pull-ups students completed:\n\n```\nPull-ups:  2   3   4   5   6   7\n           •   •   •   •       •\n           •       •   •       •\n               •   •\n```\n\nThe greatest value is **7** and the least value is **2**. What is the **range** of the data?",
+    "options": [
+      "2",
+      "5",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Data Analysis & Personal Financial Literacy | **TEKS 6.12C / 6.13A**\nRange = greatest value − least value = 7 − 2 = **5**.\n**Why others are wrong:** A subtracts wrong. C uses the maximum alone. D adds instead of subtracting.\n**Key concept:** Range as a measure of spread.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-20_19-02_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Jordan's paycheck shows that he **earned \\$800**, but after **taxes and other deductions** he actually received **\\$680**. The **\\$680** amount is best described as his —",
+    "options": [
+      "gross income",
+      "net income",
+      "total taxes paid",
+      "monthly budget"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Instructional Area:** Data Analysis & Personal Financial Literacy | **TEKS 6.14A**\n**Gross income** is the total earned (\\$800). **Net income** is the \"take-home\" amount after taxes and deductions (\\$680).\n**Why others are wrong:** A is the amount *before* deductions. C is only the deductions (\\$120). D is a plan for spending, not an income amount.\n**Key concept:** Gross income vs. net income.\n\n---\n\n## Coverage Summary (TEKS)\nComparing decimals (5.2B), integers/absolute value (6.2C), opposites (6.2B), ordering rationals (6.2D), fraction–decimal–percent (6.4G), GCF (6.7A), multi-digit division (5.3C), fraction subtraction & division (6.3E), decimal division (6.3E), order of operations with exponents (6.7A), one-step equations (6.9A/6.10A), unit rate/proportion (6.4B/6.5A), area of parallelogram (6.8C/D), volume (6.8B/C), metric conversion (6.4H), coordinate reflection (6.11A), mean (6.12C), range (6.12C/6.13A), personal financial literacy (6.14A).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q23",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "The stem-and-leaf plot shows the ages of members of a hiking club.\n\n```\nStem | Leaf\n  1  | 3 5 8\n  2  | 0 2 2 7\n  3  | 1 4\nKey: 1 | 3 means 13\n```\n\nWhat is the **median** age of the members?",
+    "options": [
+      "20",
+      "22",
+      "21",
+      "27"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12C / 8.11A | MAP Area: Data Analysis & Personal Financial Literacy**\n\n**Work:** The data in order: 13, 15, 18, 20, 22, 22, 27, 31, 34 (9 values). The median is the **5th** value = **20**.\n\n**Why others are wrong:** B (22) counts to the wrong middle position. C (21) averages two middle values as if there were an even count. D (27) is a value farther up the list.\n\n**Key concept:** Reading a stem-and-leaf plot and locating the median (middle value) of an ordered data set.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q24",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "A scatter plot compares the **number of hours students studied** (x) with their **test scores** (y). As study hours increase, the test scores generally increase as well. Which best describes the **association** shown?",
+    "options": [
+      "Negative association",
+      "No association",
+      "Positive association",
+      "A single outlier with no pattern"
+    ],
+    "correctIndex": 2,
+    "explanation": "**TEKS 8.11A (accelerated) | MAP Area: Data Analysis & Personal Financial Literacy**\n\n**Work:** When one variable increases and the other also increases, the scatter plot shows a **positive association** (points trend upward left-to-right).\n\n**Why others are wrong:** A describes a downward trend. B means no pattern. D describes a lone outlier, which is not the overall trend here.\n\n**Key concept:** Interpreting association/trend in a scatter plot: positive (up), negative (down), or none.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-23_11-02_q25",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Maya deposits **\\$500** in a savings account that earns **4% simple interest per year**. Using $I = Prt$, how much **interest** will she earn after **3 years**?",
+    "options": [
+      "\\$60",
+      "\\$20",
+      "\\$600",
+      "\\$540"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 8.12D / 7.13E (accelerated) | MAP Area: Data Analysis & Personal Financial Literacy**\n\n**Work:** $I = Prt = 500 \\times 0.04 \\times 3 = 500 \\times 0.12 = \\$60$.\n\n**Why others are wrong:** B computes only 1 year ($500 \\times 0.04 = 20$). C ($600$) confuses interest with a total or misplaces the decimal. D ($540$) is principal + one year's interest, not 3 years of interest.\n\n**Key concept:** Simple interest $I = Prt$ (principal × rate × time); interest is separate from the principal.\n\n---\n\n## Coverage Summary — TEKS & MAP Instructional Areas\n\n**Numerical Representations & Relationships (Q1–Q7):**\n- 6.2D ordering rational numbers (Q1); 6.2B absolute value (Q2); 6.4G fraction/decimal/percent (Q3); 8.2A real numbers (Q4, acc.); 8.2C/8.2D scientific notation (Q5, acc.); 6.7A GCF/prime factorization (Q6); 7.3A signed-number operations (Q7, acc.).\n\n**Computations & Algebraic Relationships (Q8–Q16):**\n- 6.3E dividing fractions (Q8) & decimals (Q9); 6.7A order of operations (Q10); 6.7D equivalent expressions (Q11); 7.10/7.11 two-step equations (Q12, acc.); 7.4A/7.4C constant of proportionality (Q13, acc.); 8.4B/8.4C slope from two points (Q14, acc.); 8.5B/8.5I slope-intercept form (Q15, acc.); 7.4D percent increase/markup (Q16, acc.).\n\n**Geometry & Measurement (Q17–Q22):**\n- 6.8D area of trapezoid (Q17); 7.9B circumference (Q18, acc.) & area of a circle (Q19, acc.); 8.7C Pythagorean theorem (Q20, acc.); 8.6A/8.7A volume of a cylinder (Q21, acc.); 6.4H multi-step unit conversion (Q22).\n\n**Data Analysis & Personal Financial Literacy (Q23–Q25):**\n- 6.12C/8.11A stem-and-leaf & median (Q23); 8.11A scatter-plot association (Q24, acc.); 8.12D/7.13E simple interest (Q25, acc.).\n\n**Track balance:** On-level Grade 6 items — Q1, Q2, Q3, Q6, Q8, Q9, Q10, Q11, Q17, Q22, Q23 (11). Accelerated Grade 7/8 items — Q4, Q5, Q7, Q12, Q13, Q14, Q15, Q16, Q18, Q19, Q20, Q21, Q24, Q25 (14). Formula-selection items (Must-Know Formulas applied): slope (Q14, Q15), circle circumference/area (Q18, Q19), Pythagorean theorem (Q20), cylinder volume (Q21), simple interest (Q25), trapezoid area (Q17).\n\n**Answer key (quick reference):**\n1-A, 2-B, 3-B, 4-B, 5-B, 6-C, 7-B, 8-B, 9-B, 10-A, 11-C, 12-A, 13-B, 14-C, 15-B, 16-A, 17-A, 18-B, 19-B, 20-A, 21-B, 22-B, 23-A, 24-C, 25-A.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "A cereal company says that **1 out of every 4 boxes** contains a prize. Devin wants to **design a simulation** to estimate the probability of getting a prize. Which tool **best models** this situation?",
+    "options": [
+      "a spinner with 4 equal sections, exactly 1 labeled \"prize\"",
+      "a spinner with 4 equal sections, all labeled \"prize\"",
+      "a coin flip, where heads = prize",
+      "a standard number cube, where rolling a 1 = prize"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 7.6B/7.6C — Designing a probability simulation.**\n**Solution:** A prize appears $\\frac{1}{4}$ of the time. A model must have **4 equally likely outcomes with exactly 1 = prize** — a spinner with 4 equal sections, 1 marked \"prize\" (P = $\\frac14$).\n**Why others are wrong:** B gives P = 1. C (coin) gives P = $\\frac12$. D (number cube) gives P = $\\frac16$. Neither matches $\\frac14$.\n**Key concept:** A valid simulation must reproduce the same theoretical probability as the real event.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Sofia deposits **\\$2,000** in an account that earns **10% interest compounded annually**. Using $A = P(1 + r)^t$, what is the **balance** after **2 years**?",
+    "options": [
+      "\\$2,420",
+      "\\$2,400",
+      "\\$2,200",
+      "\\$2,442"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 8.12D/7.13E — Compound interest.**\n**Solution:** $A = P(1 + r)^t = 2000(1 + 0.10)^2 = 2000(1.21) = \\$2{,}420$.\n**Why others are wrong:** B is **simple** interest ($2000 + 2000\\cdot0.1\\cdot2 = 2400$). C adds only one year of interest incorrectly. D miscomputes $(1.1)^2$.\n**Key concept:** Compound interest earns interest on previous interest: multiply by $(1+r)$ each year.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-08-29_11-55_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Personal Financial Literacy",
+    "subtopic": "data_analysis_functions",
+    "question": "Find the **mean absolute deviation (MAD)** of the data set:\n\n$$4, \\quad 6, \\quad 8, \\quad 10, \\quad 12$$",
+    "options": [
+      "2.4",
+      "8",
+      "12",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 8.11A/7.12A — Mean absolute deviation.**\n**Solution:** Mean $= \\frac{4+6+8+10+12}{5} = \\frac{40}{5} = 8$. Absolute deviations from 8: $4, 2, 0, 2, 4$; sum $= 12$. MAD $= \\frac{12}{5} = 2.4$.\n**Why others are wrong:** B is the mean. C is the sum of deviations (and the range). D is an incorrect average of deviations.\n**Key concept:** MAD = average distance of the data values from the mean.\n\n---\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Instructional Area | Questions | TEKS |\n|--------------------|-----------|------|\n| Numerical Representations & Relationships | 1–5 | 6.2D ordering, 6.2B absolute value, 8.2A rational/irrational, 8.2C/8.2D scientific notation, 7.3A negative rationals |\n| Computations & Algebraic Relationships | 6–12 | 7.4A/7.4C constant of proportionality, 7.4D percent, 7.10/7.11 equations & inequalities, 8.8A/8.8C variables both sides, 8.5B/8.5I slope, **8.9 systems** |\n| Geometry & Measurement | 13–17 | 7.9B circle area, 7.9C composite area, 8.6A/8.7A cone volume, **7.8A/7.8B cross-sections**, 8.7C Pythagorean Theorem |\n| Data Analysis & Personal Financial Literacy | 18–20 | **7.6B/7.6C designing simulations**, 8.12D/7.13E compound interest, 8.11A/7.12A mean absolute deviation |\n\n**Accelerated (7th/8th) coverage:** rational/irrational numbers & scientific notation, negative rational operations, constant of proportionality & percent, multi-step equations/inequalities & variables on both sides, slope interpretation, **systems of equations (8.9)**, circle & composite area, cone volume, **cross-sections of solids (7.8A/B)**, Pythagorean Theorem, **probability simulations (7.6B–D)**, compound interest, and mean absolute deviation. Difficulty is medium-to-high; all items are multiple choice (MAP — no griddables/constructed response). Scenarios are new and do not repeat prior sets.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

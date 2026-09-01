@@ -1,0 +1,218 @@
+[
+  {
+    "id": "math_g4_2026-08-29_23-09_q9",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.3C**  \nWhich fraction is equivalent to $\\frac34$?",
+    "options": [
+      "$\\frac68$",
+      "$\\frac47$",
+      "$\\frac9{16}$",
+      "$\\frac38$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $\\frac68$  \n**TEKS:** 4.3C  \n**Step-by-step solution:** Multiply numerator and denominator of $\\frac34$ by 2.  \n**Why other answers are wrong:** B (“$\\frac47$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac9{16}$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac38$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** equivalent fractions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q10",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.3D [R]**  \nWhich comparison is true?",
+    "options": [
+      "$\\frac58>\\frac5{10}$",
+      "$\\frac58<\\frac5{10}$",
+      "$\\frac58=\\frac5{10}$",
+      "$\\frac58>\\frac{10}{8}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $\\frac58>\\frac5{10}$  \n**TEKS:** 4.3D [R]  \n**Step-by-step solution:** Equal numerators: eighths are larger pieces than tenths, so five eighths is greater.  \n**Why other answers are wrong:** B (“$\\frac58<\\frac5{10}$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac58=\\frac5{10}$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac58>\\frac{10}{8}$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** compare fractions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q11",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.3E**  \nWhich expression decomposes $\\frac78$?",
+    "options": [
+      "$\\frac38+\\frac48$",
+      "$\\frac34+\\frac18$",
+      "$\\frac78+\\frac18$",
+      "$\\frac28+\\frac38$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $\\frac38+\\frac48$  \n**TEKS:** 4.3E  \n**Step-by-step solution:** $3+4=7$ while the denominator stays 8.  \n**Why other answers are wrong:** B (“$\\frac34+\\frac18$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac78+\\frac18$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac28+\\frac38$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decompose fractions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q13",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.3E**  \nWhat is $\\frac{11}{12}-\\frac5{12}$ in simplest form?",
+    "options": [
+      "$\\frac12$",
+      "$\\frac6{12}$",
+      "$\\frac5{12}$",
+      "$\\frac6{24}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $\\frac12$  \n**TEKS:** 4.3E  \n**Step-by-step solution:** $11-5=6$, so $\\frac6{12}=\\frac12$.  \n**Why other answers are wrong:** B (“$\\frac6{12}$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac5{12}$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac6{24}$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** subtract fractions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q14",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.2F**  \nWhich fraction equals $0.47$?",
+    "options": [
+      "$\\frac{47}{100}$",
+      "$\\frac{47}{10}$",
+      "$\\frac7{47}$",
+      "$\\frac47$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $\\frac{47}{100}$  \n**TEKS:** 4.2F  \n**Step-by-step solution:** The decimal has 47 hundredths.  \n**Why other answers are wrong:** B (“$\\frac{47}{10}$”) uses a different operation, place, or interpretation than the evidence requires; C (“$\\frac7{47}$”) uses a different operation, place, or interpretation than the evidence requires; D (“$\\frac47$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decimal fractions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q16",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4A [R]**  \nWhat is $30.75-8.96$?",
+    "options": [
+      "$21.79$",
+      "$22.79$",
+      "$21.89$",
+      "$22.69$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. $21.79$  \n**TEKS:** 4.4A [R]  \n**Step-by-step solution:** Align decimals and regroup: $30.75-8.96=21.79$.  \n**Why other answers are wrong:** B (“$22.79$”) uses a different operation, place, or interpretation than the evidence requires; C (“$21.89$”) uses a different operation, place, or interpretation than the evidence requires; D (“$22.69$”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decimal subtraction.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q18",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4D [R]**  \nA theater has 36 rows with 27 seats each. How many seats?",
+    "options": [
+      "972",
+      "882",
+      "1,062",
+      "963"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 972  \n**TEKS:** 4.4D [R]  \n**Step-by-step solution:** $36\\times27=36\\times20+36\\times7=720+252=972$.  \n**Why other answers are wrong:** B (“882”) uses a different operation, place, or interpretation than the evidence requires; C (“1,062”) uses a different operation, place, or interpretation than the evidence requires; D (“963”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** two-digit multiplication.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q20",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4H**  \n1,587 pears are packed 8 per carton. How many cartons are needed?",
+    "options": [
+      "199",
+      "198",
+      "198 R3",
+      "200"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 199  \n**TEKS:** 4.4H  \n**Step-by-step solution:** $1,587\\div8=198$ R3. The remaining pears need one more carton.  \n**Why other answers are wrong:** B (“198”) uses a different operation, place, or interpretation than the evidence requires; C (“198 R3”) uses a different operation, place, or interpretation than the evidence requires; D (“200”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** interpret remainders.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q21",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4H [R]**  \n18 packets hold 24 beads each. If 36 beads make a necklace, how many complete necklaces?",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "432"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 12  \n**TEKS:** 4.4H [R]  \n**Step-by-step solution:** $18\\times24=432$ beads and $432\\div36=12$.  \n**Why other answers are wrong:** B (“10”) uses a different operation, place, or interpretation than the evidence requires; C (“14”) uses a different operation, place, or interpretation than the evidence requires; D (“432”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** two-step operations.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q22",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4C**  \nWhat is the best estimate for $3,987\\times7$?",
+    "options": [
+      "28,000",
+      "24,000",
+      "3,500",
+      "32,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 28,000  \n**TEKS:** 4.4C  \n**Step-by-step solution:** Round 3,987 to 4,000; $4,000\\times7=28,000$.  \n**Why other answers are wrong:** B (“24,000”) uses a different operation, place, or interpretation than the evidence requires; C (“3,500”) uses a different operation, place, or interpretation than the evidence requires; D (“32,000”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** estimate products.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q24",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4A**  \nEight trays have 36 cookies each. After 175 are sold, how many remain?",
+    "options": [
+      "113",
+      "93",
+      "463",
+      "175"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 113  \n**TEKS:** 4.4A  \n**Step-by-step solution:** $8\\times36=288$ and $288-175=113$.  \n**Why other answers are wrong:** B (“93”) uses a different operation, place, or interpretation than the evidence requires; C (“463”) uses a different operation, place, or interpretation than the evidence requires; D (“175”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** multi-step computation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-08-29_23-09_q25",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 4.4F**  \nWhat is $2,945\\div7$?",
+    "options": [
+      "420 R5",
+      "421 R4",
+      "420",
+      "410 R75"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer/value:** A. 420 R5  \n**TEKS:** 4.4F  \n**Step-by-step solution:** $7\\times420=2,940$ with 5 left over.  \n**Why other answers are wrong:** B (“421 R4”) uses a different operation, place, or interpretation than the evidence requires; C (“420”) uses a different operation, place, or interpretation than the evidence requires; D (“410 R75”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** division remainders.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "science_g3_2026-08-29_23-09_q1",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A group will warm a cup of water on a hot plate to observe what happens. Which action is safest before the group begins?",
+    "options": [
+      "Carry the cup across the room while it is heating.",
+      "Put on safety goggles and keep loose sleeves away from the hot plate.",
+      "Leave the cord where classmates could trip over it.",
+      "Touch the hot plate quickly to see whether it is warm."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Put on safety goggles and keep loose sleeves away from the hot plate.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1C.  \n**Explanation:** Goggles protect eyes, and secured sleeves reduce the chance of contact with a hot surface. Both actions make the investigation safer.  \n**Why the other answers are wrong:** A risks spilling hot water; C creates a tripping hazard; D risks a burn.  \n**Key concept:** Safe practices and safety equipment.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q2",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Mina notices that small snails are often under the damp side of a planter. Which question can she investigate by making observations for several days?",
+    "options": [
+      "Which snail has the best name?",
+      "Do snails know when it will rain tomorrow?",
+      "Which side of the planter has more snails, the damp side or the dry side?",
+      "Are snails happier than all other animals?"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Which side of the planter has more snails, the damp side or the dry side?  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1A.  \n**Explanation:** The question can be answered by counting snails on both sides over several days. It is based on Mina's observation and can be investigated.  \n**Why the other answers are wrong:** A is a preference; B asks about something snails cannot report or that observations cannot test; D is an unmeasurable opinion.  \n**Key concept:** Asking testable questions from observations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q3",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A class wants to test which kind of soil lets water drain through fastest. Which plan makes the comparison fairest?",
+    "options": [
+      "Pour water into only the sand and guess what will happen in the clay.",
+      "Put the same amount of each soil into equal cups and pour the same amount of water into each cup.",
+      "Stir one soil with a spoon and leave the other soil dry.",
+      "Use a large cup of sand, a small cup of clay, and different amounts of water."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Put the same amount of each soil into equal cups and pour the same amount of water into each cup.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1B.  \n**Explanation:** Equal cups, equal amounts of soil, and equal water make soil type the one important difference. The class can then compare drainage fairly.  \n**Why the other answers are wrong:** A provides no comparison; C changes how the soils are treated; D changes cup size and water amount as well as soil type.  \n**Key concept:** Planning a fair comparative investigation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q4",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "The school weather team wants to compare rainfall at two gardens during the same storm. Which tool should be placed in each garden?",
+    "options": [
+      "magnet",
+      "hand lens",
+      "balance scale",
+      "rain gauge"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. rain gauge.  \n**MAP area / TEKS:** Earth & Space Science; Scientific & Engineering Practices / 3.1D, 3.10A.  \n**Explanation:** A rain gauge collects and measures precipitation, so two gauges allow a rainfall comparison.  \n**Why the other answers are wrong:** A tests magnetism; B magnifies objects; C measures mass. None measures rain.  \n**Key concept:** Choosing the appropriate measurement tool.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q5",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Four identical cups each hold a different material. A student uses a digital scale and records the results below.\n\n| Cup material | Mass in grams |\n|---|---:|\n| dry sand | 180 |\n| pebbles | 245 |\n| cotton balls | 35 |\n| clay | 220 |\n\nWhich claim is best supported by the measurements?",
+    "options": [
+      "Sand is made from cotton.",
+      "Pebbles had the greatest mass in these equal cups.",
+      "Clay will always sink in every liquid.",
+      "Cotton balls are the only material that takes up space."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Pebbles had the greatest mass in these equal cups.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.1E, 3.2B.  \n**Explanation:** The scale data show 245 g for pebbles, which is greater than 220 g, 180 g, and 35 g. The equal cups make the comparison meaningful.  \n**Why the other answers are wrong:** A is not shown by the data; C makes a claim about floating that was not tested; D wrongly says the other materials do not take up space.  \n**Key concept:** Using measurements as evidence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q6",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A class counts the number of earthworms found in four equal-sized garden plots after rain. Which way of organizing the data would make it easiest to compare the plots?",
+    "options": [
+      "A story about a worm's favorite food",
+      "A list of students' birthdays",
+      "A bar graph with one bar for each plot",
+      "A map showing countries of the world"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. A bar graph with one bar for each plot.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1F.  \n**Explanation:** A bar graph displays the number of earthworms in each plot side by side, making comparisons easy.  \n**Why the other answers are wrong:** A is not organized numerical data; B is unrelated; D shows locations but not the counts.  \n**Key concept:** Selecting a graphic organizer for data.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q7",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A team builds a model showing the Sun, Earth, and Moon with balls and strings. Which use of the model would best help the team explain a science idea?",
+    "options": [
+      "Move the Earth around the Sun and the Moon around the Earth to show their paths.",
+      "Use the model to make the classroom become nighttime.",
+      "Use the model to prove that the Sun is smaller than Earth.",
+      "Use the model to measure the actual distance to the Sun with a ruler."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Move the Earth around the Sun and the Moon around the Earth to show their paths.  \n**MAP area / TEKS:** Earth & Space Science; Scientific & Engineering Practices / 3.1G, 3.3A, 3.9A.  \n**Explanation:** Moving the model parts represents the orbital relationships that the model is meant to explain. Models help show processes that are too large or slow to observe directly.  \n**Why the other answers are wrong:** B cannot change the actual classroom lighting cycle; C is not true and may not be to scale; D cannot measure real space distances.  \n**Key concept:** Using a model to represent orbital motion.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q8",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A class measured the air temperature at the same shady spot for five mornings. Their readings were 18°C, 19°C, 18°C, 42°C, and 19°C. Which result should the class check first for a possible measurement error?",
+    "options": [
+      "19°C on the second morning",
+      "19°C on the fifth morning",
+      "42°C on the fourth morning",
+      "18°C on the first morning"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. 42°C on the fourth morning.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.2B, 3.5A.  \n**Explanation:** Four readings cluster between 18°C and 19°C, while 42°C is very different. The unusual value should be checked for a recording or tool error.  \n**Why the other answers are wrong:** A, B, and D fit the repeated 18–19°C pattern.  \n**Key concept:** Identifying an outlier and a possible source of error.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q9",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A map model shows a pond as a blue oval that is 4 centimeters long. The real pond is much longer. What is a limitation of the model?",
+    "options": [
+      "It cannot use the color blue.",
+      "It must contain real fish to be a model.",
+      "It cannot show where the pond is located.",
+      "Its size is not the same as the real pond's size."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Its size is not the same as the real pond's size.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.2A.  \n**Explanation:** The stated difference between the drawing and the real pond is scale. A model can be useful even when it is much smaller than what it represents.  \n**Why the other answers are wrong:** A is not a limitation; B is unnecessary because a model need not contain living things; C is false because maps can show location.  \n**Key concept:** Advantages and limitations of models.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q10",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Engineers need a tray that will carry six seedlings from the classroom to the garden. Which test best evaluates whether a prototype meets the goal?",
+    "options": [
+      "Ask which tray is the prettiest color.",
+      "Put six seedlings in the tray and carry it along the planned path without spilling soil.",
+      "Leave the tray empty on a shelf for a week.",
+      "Measure how loudly the tray can be tapped."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Put six seedlings in the tray and carry it along the planned path without spilling soil.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.2D.  \n**Explanation:** This test directly checks both needed criteria: carrying six seedlings and preventing spills along the real route.  \n**Why the other answers are wrong:** A tests appearance, not function; C tests nothing while empty; D measures an irrelevant sound.  \n**Key concept:** Evaluating a prototype against design criteria.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q11",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A class interviews a meteorologist who shares a warning that a strong storm may bring heavy rain. How can this experience help students explore a STEM career and benefit the community?",
+    "options": [
+      "It shows how a scientist uses weather information to help people prepare and make safer choices.",
+      "It shows that meteorologists can stop every cloud from forming.",
+      "It shows that rain can be changed into a different planet.",
+      "It shows that a forecast makes a storm disappear."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. It shows how a scientist uses weather information to help people prepare and make safer choices.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.3B, 3.4A–B.  \n**Explanation:** Interviewing a meteorologist introduces a STEM career. The warning also communicates scientific findings that people can use to seek shelter, protect property, or change travel plans.  \n**Why the other answers are wrong:** B and D falsely claim a forecast controls weather; C has no scientific connection to rain or meteorology.  \n**Key concept:** STEM careers and how scientific information benefits society.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q12",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "**MAP vertical-alignment review:** A student in Texas sees daylight while a relative on the other side of Earth has nighttime. What is the best explanation?",
+    "options": [
+      "The Moon turns off the Sun for half of Earth each day.",
+      "The Sun travels around Earth once every 24 hours.",
+      "Earth moves closer to the Sun only during daytime.",
+      "Earth rotates, so different parts face the Sun at different times."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Earth rotates, so different parts face the Sun at different times.  \n**MAP area / TEKS:** Earth & Space Science / MAP vertical-alignment review; related to 3.9A.  \n**Explanation:** As Earth rotates, the side facing the Sun has daylight while the opposite side has night.  \n**Why the other answers are wrong:** A is not the cause of daily night; B reverses the observed Earth-Sun relationship; C does not happen each day.  \n**Key concept:** Earth’s rotation and the day-night pattern.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q13",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "**MAP vertical-alignment review:** The Moon looks like different shapes during a month. What changes most to cause this pattern?",
+    "options": [
+      "The Moon makes its own light and switches it on and off.",
+      "Clouds permanently cover a new piece of the Moon each night.",
+      "The part of the Moon's sunlit half that can be seen from Earth",
+      "The Moon's rocky surface changes its shape each week."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. The part of the Moon's sunlit half that can be seen from Earth.  \n**MAP area / TEKS:** Earth & Space Science / MAP vertical-alignment review; related to 3.9A orbital modeling.  \n**Explanation:** The Moon stays round. As it moves in relation to Earth and the Sun, observers see different portions of its sunlit half.  \n**Why the other answers are wrong:** A is false because the Moon reflects sunlight; B does not make the repeating monthly pattern; D falsely says the Moon’s rock changes shape.  \n**Key concept:** Moon-phase pattern.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q14",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "**MAP vertical-alignment review:** In one place, children wear coats in January and lighter clothes in July. Which statement best describes this seasonal pattern?",
+    "options": [
+      "A season is the same thing as one rainy day.",
+      "Seasons are repeating changes in weather that happen over a year.",
+      "A season is a change that happens every hour.",
+      "Seasons happen because the Moon changes shape."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Seasons are repeating changes in weather that happen over a year.  \n**MAP area / TEKS:** Earth & Space Science / MAP vertical-alignment review.  \n**Explanation:** Seasonal patterns occur over months and repeat each year, unlike short-term daily weather changes.  \n**Why the other answers are wrong:** A describes one weather event; C gives the wrong time scale; D gives an incorrect cause.  \n**Key concept:** Distinguishing seasons from daily weather.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q15",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "**MAP vertical-alignment review:** A puppy is born with curly fur. Later, the puppy learns to sit when it hears a bell. Which statement is correct?",
+    "options": [
+      "Curly fur is inherited, and sitting for a bell is learned.",
+      "Both traits are learned because a puppy grows.",
+      "Curly fur is learned, and sitting for a bell is inherited.",
+      "Both traits are inherited because dogs have them."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Curly fur is inherited, and sitting for a bell is learned.  \n**MAP area / TEKS:** Biology/Life Science / MAP vertical-alignment review; related to 3.13A.  \n**Explanation:** Fur type is a body trait passed from parent to offspring, while responding to a bell is taught through training.  \n**Why the other answers are wrong:** B ignores inheritance; C reverses the two kinds of traits; D incorrectly calls a learned behavior inherited.  \n**Key concept:** Inherited traits versus learned behaviors.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q46",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Three equal-sized cubes are tested in a tub of water. The table shows their masses and results.\n\n| Cube | Mass | Result in water |\n|---|---:|---|\n| A | 18 g | floats |\n| B | 42 g | sinks |\n| C | 26 g | floats |\n\nWhich pattern is supported by this test of equal-sized cubes?",
+    "options": [
+      "The heaviest cube in this test sank, while the lighter two floated.",
+      "Every object with a mass over 18 g always sinks in every liquid.",
+      "Floating objects have no mass.",
+      "Cube B became a liquid when it sank."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. The heaviest cube in this test sank, while the lighter two floated.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.2B, 3.2C, 3.6A.  \n**Explanation:** Because the cubes are equal in size, their masses can be compared directly. In this test, the 42 g cube sank and the 18 g and 26 g cubes floated.  \n**Why the other answers are wrong:** B makes an unsupported rule for every liquid; C is false because floating cubes have mass; D confuses sinking with a change of state.  \n**Key concept:** Using measured physical properties to identify a pattern.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q47",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A team designs a ramp to move a box into a shed. They test two ramps using the same box and record how hard each ramp feels to push the box up.\n\n| Ramp | Length | Push needed |\n|---|---:|---|\n| P | 1 meter | hard |\n| Q | 2 meters | easier |\n\nWhich design decision is best supported by the test?",
+    "options": [
+      "Turn the box into a liquid before using either ramp.",
+      "Use Ramp P because it is longer.",
+      "Use neither ramp because boxes cannot be moved by pushes.",
+      "Use Ramp Q when reducing the needed push is most important."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Use Ramp Q when reducing the needed push is most important.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.2D, 3.7B.  \n**Explanation:** The test kept the box the same and showed that the 2-meter ramp required an easier push. Ramp Q best meets the stated criterion.  \n**Why the other answers are wrong:** A is impossible and irrelevant; B is false because P is shorter; C ignores the test evidence that pushes moved the box.  \n**Key concept:** Evaluating a design using force-test data.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q48",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "subtopic": "scientific_investigation_skills",
+    "question": "On a sunny day, a child stands beside a flagpole. The flagpole blocks some sunlight, and a dark shape appears on the ground. What is the best explanation for the dark shape?",
+    "options": [
+      "Gravity changes the flagpole into a magnet.",
+      "The flagpole blocks light energy, making a shadow.",
+      "The ground turns into a gas near the flagpole.",
+      "The flagpole creates a new source of sound energy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. The flagpole blocks light energy, making a shadow.  \n**MAP area / TEKS:** Chemistry & Physics / 3.8A.  \n**Explanation:** A shadow forms where an object blocks light from reaching a surface. The dark shape follows the flagpole’s blocked-light area.  \n**Why the other answers are wrong:** A changes neither gravity nor magnetism; C is not a state change caused by a shadow; D does not explain the dark shape.  \n**Key concept:** Light energy and shadows.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q49",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A student says, “A cricket's chirp is an example of sound energy.” Which observation is the best evidence for the claim?",
+    "options": [
+      "The cricket has six legs.",
+      "The cricket rests on a green leaf.",
+      "A listener hears the chirp after the cricket rubs its wings together.",
+      "The cricket is smaller than a frog."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. A listener hears the chirp after the cricket rubs its wings together.  \n**MAP area / TEKS:** Chemistry & Physics; Scientific & Engineering Practices / 3.3C, 3.8A.  \n**Explanation:** Hearing a chirp after the wings move is relevant evidence that the cricket’s action produces sound energy.  \n**Why the other answers are wrong:** A, B, and D are observations about the cricket but provide no evidence about a sound being produced.  \n**Key concept:** Selecting relevant evidence for a sound-energy claim.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-08-29_23-09_q50",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Integrated Science / MAP Adaptive Review and Design",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A school wants a cover for a compost bin that keeps out rain but lets air enter through small holes. Four prototype covers are tested during a rain shower.\n\n| Cover | Rain found inside | Air holes |\n|---|---|---:|\n| W | none | 0 |\n| X | none | 6 |\n| Y | a little | 6 |\n| Z | a lot | 12 |\n\nWhich prototype best meets **both** design criteria?",
+    "options": [
+      "Cover W",
+      "Cover X",
+      "Cover Y",
+      "Cover Z"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Cover X.  \n**MAP area / TEKS:** Scientific & Engineering Practices / 3.1B, 3.1G, 3.2D.  \n**Explanation:** Cover X kept all rain out and had six air holes, so it meets both stated criteria.  \n**Why the other answers are wrong:** A keeps rain out but has no holes for air; C lets some rain in; D lets in a lot of rain.  \n**Key concept:** Testing prototypes against multiple criteria.\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Instructional area | Grade 3 TEKS topic | Question numbers |\n|---|---|---|\n| Scientific & Engineering Practices / Recurring Themes | Questions, investigations, safety, tools, evidence, data organizers, and models (3.1A–G) | 1–7, 23, 50 |\n| Scientific & Engineering Practices / Recurring Themes | Model limitations; patterns/errors; calculations; design evaluation (3.2A–D) | 8–10, 46–47, 50 |\n| Scientific & Engineering Practices / Recurring Themes | Evidence-based explanations and communication (3.3A–C) | 7, 11, 45, 49 |\n| Scientific & Engineering Practices / Recurring Themes | Science/society connection and exploring STEM careers (3.4A–B) | 11 |\n| Scientific & Engineering Practices / Recurring Themes | Patterns, cause/effect, quantity, systems, energy/matter, structure/function, stability/change (3.5A–G) | 8, 22, 34, 36, 38, 41, 46 |\n| Chemistry & Physics | Measurable properties; solids, liquids, gases; heating/cooling; combining materials (3.6A–D) | 16–20, 46 |\n| Chemistry & Physics | Contact/distance forces; push/pull motion; light, sound, thermal, and mechanical energy; speed/mechanical energy (3.7A–B, 3.8A–B) | 21–25, 47–49 |\n| Earth & Space Science | Sun-Earth-Moon orbits and planet order (3.9A–B) | 7, 12–13, 26–27 |\n| Earth & Space Science | Weather; soil formation; rapid Earth-surface change (3.10A–C) | 4, 28–30 |\n| Earth & Space Science | Natural-resource uses, conservation, reduce/reuse/recycle (3.11A–C) | 31–33 |\n| Biology/Life Science | Temperature/precipitation responses; food chains; environmental changes; fossils (3.12A–D) | 35–39, 45 |\n| Biology/Life Science | Animal structures/functions and life cycles (3.13A–B) | 40–44 |\n| MAP vertical-alignment review | Day/night, Moon phases, seasons, inherited/learned traits; identified as review rather than standalone Grade 3 TEKS | 12–15, 44 |",
+    "source": "authored",
+    "needsReview": false
+  }
+]

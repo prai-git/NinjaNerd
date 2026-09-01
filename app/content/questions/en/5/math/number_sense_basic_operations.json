@@ -1,0 +1,524 @@
+[
+  {
+    "id": "math_g5_2026-03-12_10-30_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Fractions\nSarah has 3/4 of a pizza. She gives 2/5 of her pizza to her brother. What fraction of the whole pizza does Sarah have left?",
+    "options": [
+      "1/20",
+      "7/20",
+      "5/9",
+      "11/20"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Fraction Subtraction with Unlike Denominators\n**TEKS:** 5.3\n\n**Step-by-Step Solution:**\n1. Sarah has 3/4 of a pizza\n2. She gives away 2/5 of her pizza (not 2/5 of the whole, but 2/5 of her 3/4)\n3. First, find 2/5 of 3/4: (2/5) × (3/4) = 6/20 = 3/10\n4. Subtract from original: 3/4 - 3/10\n5. Find common denominator (20): 15/20 - 6/20 = 9/20\n\n**Wait - let me recalculate:** If she gives 2/5 of *her* pizza:\n- Her pizza = 3/4\n- Gives away: 2/5 × 3/4 = 6/20 = 3/10\n- Keeps: 3/4 - 3/10 = 15/20 - 6/20 = 9/20\n\nActually, re-reading: \"She gives 2/5 of her pizza\" means 2/5 of her portion.\n- 3/4 - (2/5 × 3/4) = 3/4 - 6/20 = 15/20 - 6/20 = 9/20\n\n**Alternative interpretation:** She gives her brother 2/5 of a whole pizza:\n- 3/4 - 2/5 = 15/20 - 8/20 = 7/20 ✓\n\n**Answer is B (7/20)** assuming she gives 2/5 of the whole pizza.\n\n**Key Concept:** Finding common denominators to subtract fractions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Fractions\nA recipe calls for 2 1/3 cups of flour. Marcus wants to make 1 1/2 times the recipe. How many cups of flour does Marcus need?",
+    "options": [
+      "3 1/2 cups",
+      "3 5/6 cups",
+      "3 1/3 cups",
+      "4 1/6 cups"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Topic:** Multiplying Mixed Numbers\n**TEKS:** 5.3\n\n**Step-by-Step Solution:**\n1. Convert to improper fractions:\n   - 2 1/3 = 7/3\n   - 1 1/2 = 3/2\n2. Multiply: (7/3) × (3/2) = 21/6\n3. Simplify: 21/6 = 3 3/6 = 3 1/2\n\n**Key Concept:** Converting mixed numbers to improper fractions, then multiplying.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Fractions\nDivide: 4/5 ÷ 2/3 = ?",
+    "options": [
+      "8/15",
+      "6/5",
+      "1 1/5",
+      "2/5"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Dividing Fractions\n**TEKS:** 5.3\n\n**Step-by-Step Solution:**\n1. To divide fractions, multiply by the reciprocal\n2. 4/5 ÷ 2/3 = 4/5 × 3/2\n3. Multiply: (4 × 3)/(5 × 2) = 12/10\n4. Simplify: 12/10 = 6/5 = 1 1/5\n\n**Note:** Both B (6/5) and C (1 1/5) are equivalent. **Answer: B**\n\n**Key Concept:** \"Keep, Change, Flip\" - keep the first fraction, change division to multiplication, flip the second fraction.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Decimals\nA store sells notebooks for $2.75 each. If Jasmine buys 8 notebooks, how much does she spend in total?",
+    "options": [
+      "$22.00",
+      "$21.00",
+      "$22.75",
+      "$20.75"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Topic:** Decimal Multiplication\n**TEKS:** 5.3\n\n**Step-by-Step Solution:**\n1. Cost per notebook: $2.75\n2. Number of notebooks: 8\n3. Multiply: $2.75 × 8\n4. Calculate: 2.75 × 8 = 22.00\n\n**Work shown:**\n```\n   2.75\n×     8\n-------\n  22.00\n```\n\n**Key Concept:** Multiplying decimals by whole numbers; place decimal point correctly.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Decimals\nWhat is 15.6 ÷ 0.4?",
+    "options": [
+      "3.9",
+      "39",
+      "0.39",
+      "390"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Decimal Division\n**TEKS:** 5.3\n\n**Step-by-Step Solution:**\n1. Divide: 15.6 ÷ 0.4\n2. Move decimal to make divisor a whole number: multiply both by 10\n3. 156 ÷ 4 = 39\n\n**Work shown:**\n```\n      39\n   ------\n4 ) 156\n   -12\n   ---\n    36\n   -36\n   ---\n     0\n```\n\n**Key Concept:** When dividing by a decimal, shift the decimal point in both numbers to make the divisor a whole number.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Multi-digit Multiplication\nA theater has 24 rows of seats. Each row has 32 seats. How many total seats are in the theater?",
+    "options": [
+      "648 seats",
+      "728 seats",
+      "768 seats",
+      "756 seats"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Topic:** Multi-digit Multiplication\n**TEKS:** 5.3\n\n**Step-by-Step Solution:**\n1. Number of rows: 24\n2. Seats per row: 32\n3. Total seats: 24 × 32\n\n**Work shown:**\n```\n    32\n×   24\n------\n   128  (32 × 4)\n+  640  (32 × 20)\n------\n   768\n```\n\n**Key Concept:** Using the standard algorithm for multi-digit multiplication.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Fractions\nA water tank is 5/8 full. After using 1/3 of the tank for irrigation, what fraction of the tank still has water?",
+    "options": [
+      "7/24",
+      "11/24",
+      "4/11",
+      "2/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) 7/24**\n\n**Step-by-step solution:**\n1. Tank starts 5/8 full\n2. Uses 1/3 of the tank\n3. Find common denominator for 5/8 and 1/3: LCD = 24\n4. Convert: 5/8 = 15/24 and 1/3 = 8/24\n5. Subtract: 15/24 - 8/24 = 7/24\n\n**Key Concept:** Subtracting fractions with unlike denominators requires finding a common denominator first.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Fractions\nEmma is making friendship bracelets. Each bracelet requires 3/4 foot of string. If Emma has 6 1/2 feet of string, how many complete bracelets can she make?",
+    "options": [
+      "7 bracelets",
+      "8 bracelets",
+      "9 bracelets",
+      "6 bracelets"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) 8 bracelets**\n\n**Step-by-step solution:**\n1. Total string: 6 1/2 feet = 13/2 feet\n2. String per bracelet: 3/4 foot\n3. Divide: 13/2 ÷ 3/4 = 13/2 × 4/3 = 52/6 = 8 4/6 = 8 2/3\n4. Since Emma can only make complete bracelets: 8 bracelets\n\n**Key Concept:** Division of fractions (multiply by reciprocal) and understanding that only whole bracelets count.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Decimals\nThe table shows the weights of packages at a shipping center.\n\n| Package | Weight (pounds) |\n|---------|-----------------|\n| A       | 3.75            |\n| B       | 2.48            |\n| C       | 4.06            |\n| D       | 1.89            |\n\nWhat is the total weight of all four packages?",
+    "options": [
+      "12.18 pounds",
+      "11.18 pounds",
+      "12.08 pounds",
+      "11.08 pounds"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) 12.18 pounds**\n\n**Step-by-step solution:**\n```\n   3.75\n   2.48\n   4.06\n + 1.89\n-------\n  12.18\n```\n\n**Key Concept:** Adding decimals by lining up decimal points.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Decimals\nA roll of fabric is 18.9 meters long. A tailor cuts it into pieces that are each 0.7 meters long. How many pieces can be cut from the roll?",
+    "options": [
+      "25 pieces",
+      "26 pieces",
+      "27 pieces",
+      "28 pieces"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Answer: C) 27 pieces**\n\n**Step-by-step solution:**\n1. Total fabric: 18.9 meters\n2. Each piece: 0.7 meters\n3. Divide: 18.9 ÷ 0.7 = 189 ÷ 7 = 27\n\n**Key Concept:** Dividing decimals by moving the decimal point to make the divisor a whole number.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "- Multi-digit Division\nA warehouse has 7,854 items to distribute equally among 18 stores. How many items will each store receive, and how many items will be left over?",
+    "options": [
+      "436 items with 6 left over",
+      "436 items with 0 left over",
+      "437 items with 0 left over",
+      "435 items with 24 left over"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) 436 items with 6 left over**\n\n**Step-by-step solution:**\n1. Divide: 7,854 ÷ 18\n2. 18 × 436 = 7,848\n3. Remainder: 7,854 - 7,848 = 6\n4. Answer: 436 R6\n\n**Key Concept:** Long division with remainders in real-world contexts.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-digit Multiplication / Income\nA company earns $5,475 per day. How much money does the company earn in 18 days?",
+    "options": [
+      "$88,400",
+      "$98,550",
+      "$99,550",
+      "$97,050"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply daily earnings by the number of days: $5,475 × 18 = **$98,550**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Number Operations — Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-digit Division\nA warehouse receives 6,528 items to be divided equally among 24 stores. How many items will each store receive?",
+    "options": [
+      "252 items",
+      "262 items",
+      "272 items",
+      "282 items"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide total items by the number of stores: 6,528 ÷ 24 = **272 items per store**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q8",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Multi-Digit Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-Digit Whole Number Multiplication\nA delivery warehouse receives 348 boxes every day. How many boxes does the warehouse receive in 26 days?",
+    "options": [
+      "8,696",
+      "8,748",
+      "9,048",
+      "9,148"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply 348 × 26: 348 × 25 = 8,700 and 8,700 + 348 = 9,048.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q9",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Multi-Digit Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-Digit Whole Number Division\nA factory produced 4,536 water bottles. The bottles were packed equally into 18 crates. How many water bottles were placed in each crate?",
+    "options": [
+      "242",
+      "250",
+      "252",
+      "262"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide 4,536 ÷ 18 = 252 (check: 18 × 252 = 4,536).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q34",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Prime and Composite Numbers",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Prime vs. Composite Numbers\nWhich of the following numbers is a **prime** number?",
+    "options": [
+      "21",
+      "27",
+      "29",
+      "33"
+    ],
+    "correctIndex": 2,
+    "explanation": "A prime number has exactly two factors (1 and itself); 29 has only the factors 1 and 29, while 21, 27, and 33 each have additional factors.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q35",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Order of Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Simplifying Numerical Expressions  **[Readiness]**\nEvaluate the expression using the correct order of operations.\n\n**24 − (3 + 5) × 2 + 6 = ?**",
+    "options": [
+      "12",
+      "14",
+      "22",
+      "38"
+    ],
+    "correctIndex": 1,
+    "explanation": "Follow order of operations (parentheses first, then multiplication, then left-to-right addition/subtraction): 24 − (3 + 5) × 2 + 6 = 24 − 8 × 2 + 6 = 24 − 16 + 6 = 14.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Multi-Digit Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-Digit Multiplication\nA school is ordering **475 books** for each of its **32 classrooms**. How many total books are being ordered?",
+    "options": [
+      "14,400",
+      "15,000",
+      "15,200",
+      "15,700"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 15,200\n\n**Step-by-step:**\n**475 × 32**\n\n- 475 × 30 = 14,250\n- 475 × 2 = 950\n- 14,250 + 950 = **15,200**\n\n**Verification (column method):**\n```\n    475\n  ×  32\n  -----\n    950   (475 × 2)\n+14250    (475 × 30)\n-------\n  15200\n```\n\n**Why other answers are wrong:**\n- A) 14,400 — error in partial product (uses 480 instead of 475)\n- B) 15,000 — rounds 475 to 500; an estimate, not exact\n- D) 15,700 — arithmetic error in addition of partial products\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Multi-Digit Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-Digit Division\nA baker made **2,856 muffins** over one week and packaged them equally into boxes of **24**. How many full boxes did he fill?",
+    "options": [
+      "117",
+      "118",
+      "119",
+      "121"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 119\n\n**Step-by-step:**\n**2,856 ÷ 24**\n\n- 24 × 100 = 2,400\n- 2,856 − 2,400 = 456\n- 24 × 10 = 240\n- 456 − 240 = 216\n- 24 × 9 = 216\n- 216 − 216 = 0\n\nQuotient: 100 + 10 + 9 = **119** (no remainder)\n\n**Verification:** 119 × 24 = (120 × 24) − (1 × 24) = 2,880 − 24 = 2,856 ✓\n\n**Why other answers are wrong:**\n- A) 117 → 117 × 24 = 2,808 ≠ 2,856\n- B) 118 → 118 × 24 = 2,832 ≠ 2,856\n- D) 121 → 121 × 24 = 2,904 ≠ 2,856\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Prime and Composite Numbers",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Prime vs. Composite\nWhich of the following numbers is a **composite** number?",
+    "options": [
+      "23",
+      "31",
+      "37",
+      "39"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D** → 39\n\n**Step-by-step:**\n- 23: factors are 1 and 23 only → **prime**\n- 31: factors are 1 and 31 only → **prime**\n- 37: factors are 1 and 37 only → **prime**\n- 39: 39 = **3 × 13** → has more than two factors → **composite** ✓\n\nA **prime number** has exactly 2 factors: 1 and itself.\nA **composite number** has more than 2 factors.\n\n**Quick check for 39:** 39 ÷ 3 = 13 (divides evenly, so 39 is composite).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Number Notation",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Expanded Notation: Zeros as Placeholders\nWhich expression shows **709.045** written in expanded notation?\n\n*(Note: Zeros that hold a place are NOT written as addends.)*",
+    "options": [
+      "700 + 9 + 0.04 + 0.005",
+      "700 + 0 + 9 + 0.0 + 0.04 + 0.005",
+      "700 + 9 + 0.4 + 0.05",
+      "700 + 90 + 0.04 + 0.005"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 700 + 9 + 0.04 + 0.005\n\n**Step-by-step:**\nIdentify each non-zero digit and its place value in **709.045**:\n\n| Digit | Place | Value |\n|-------|-------|-------|\n| 7 | Hundreds | 700 |\n| 0 | Tens | skip (zero contributes nothing) |\n| 9 | Ones | 9 |\n| 0 | Tenths | skip |\n| 4 | Hundredths | 0.04 |\n| 5 | Thousandths | 0.005 |\n\n**Expanded form = 700 + 9 + 0.04 + 0.005**\n\n**Why other answers are wrong:**\n- B) Includes \"0\" and \"0.0\" as addends — zeros are place holders and should not be written as addends\n- C) Uses 0.4 (tenths) and 0.05 (hundredths) — wrong decimal place values for the 4 and 5\n- D) Uses 90 instead of skip + 9 — confuses tens and ones place\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Number Notation",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Expanded Notation to Standard Form\nWhich number is represented by the expression below?\n\n**400 + 80 + 3 + 0.6 + 0.007**",
+    "options": [
+      "483.607",
+      "483.67",
+      "4,836.07",
+      "4,830.607"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 483.607\n\n**Step-by-step:**\nAdd each part:\n- 400 + 80 + 3 = 483 (whole number part)\n- 0.6 = 6 tenths\n- 0.007 = 7 thousandths (note: no hundredths digit → 0 in hundredths place)\n\nStandard form: **483.607**\n\n**Why other answers are wrong:**\n- B) 483.67 — skips the zero in the hundredths place (makes it 6 hundredths + 7 thousandths instead of 6 tenths + 0 hundredths + 7 thousandths)\n- C) 4,836.07 — misplaces the decimal, treating 400 as 4,000\n- D) 4,830.607 — errors in both the whole number and decimal parts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Number Notation",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Word Form to Standard Form\nWhich number represents **\"five hundred two and thirty-six thousandths\"**?",
+    "options": [
+      "502.36",
+      "502.036",
+      "5,020.36",
+      "502.306"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 502.036\n\n**Step-by-step:**\nParse the number name:\n- \"five hundred two\" = **502** (whole number part)\n- \"and\" → decimal point\n- \"thirty-six thousandths\" = **0.036** (36 in the thousandths position)\n  - 0 in tenths, 3 in hundredths, 6 in thousandths\n\nStandard form: **502.036**\n\n**Why other answers are wrong:**\n- A) 502.36 = \"five hundred two and thirty-six hundredths\" — wrong: 36 is in hundredths, not thousandths\n- C) 5,020.36 = misreads \"five hundred two\" as \"five thousand twenty\"\n- D) 502.306 = swaps the 3 and 6 in the decimal places (thirty-six thousandths ≠ three hundred six thousandths)\n\n**Key concept:** \"Thousandths\" means the last digit is in the third decimal place. 36 thousandths = 0.036.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Place Value and Number Notation",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **least to greatest**?\n\n**12.304,  12.034,  12.34,  12.043**",
+    "options": [
+      "12.034, 12.043, 12.304, 12.34",
+      "12.034, 12.043, 12.34, 12.304",
+      "12.043, 12.034, 12.304, 12.34",
+      "12.304, 12.34, 12.043, 12.034"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 12.034, 12.043, 12.304, 12.34\n\n**Step-by-step:**\nLine up by place value (pad with zeros to 3 decimal places):\n\n| Number | Tenths | Hundredths | Thousandths |\n|--------|--------|------------|-------------|\n| 12.034 | 0      | 3          | 4           |\n| 12.043 | 0      | 4          | 3           |\n| 12.304 | 3      | 0          | 4           |\n| 12.340 | 3      | 4          | 0           |\n\nStep 1 — Compare tenths: 12.034 and 12.043 both have **0** → need to compare further. 12.304 and 12.340 both have **3** → need to compare further.\n\nStep 2 — Compare hundredths within each group:\n- 12.034: 3 hundredths < 12.043: 4 hundredths → **12.034 < 12.043**\n- 12.304: 0 hundredths < 12.340: 4 hundredths → **12.304 < 12.34**\n\nStep 3 — Compare across groups: all values with tenths digit 0 < all values with tenths digit 3.\n\n**Least to greatest: 12.034 < 12.043 < 12.304 < 12.34**\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Multi-Digit Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Multi-Digit Multiplication\nA warehouse receives **1,248 crates** of goods each week. How many crates does the warehouse receive in **36 weeks**?",
+    "options": [
+      "43,728",
+      "44,128",
+      "44,928",
+      "45,128"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 44,928\n\n**Step-by-step:**\n**1,248 × 36**\n\n- 1,248 × 30 = 37,440\n- 1,248 × 6 = 7,488\n- Total = 37,440 + 7,488 = **44,928**\n\n**Verification:** 1,248 × 36 = 1,248 × (40 − 4) = 49,920 − 4,992 = 44,928 ✓\n\n**Why other answers are wrong:**\n- A) 43,728 — arithmetic error in partial products\n- B) 44,128 — error in 1,248 × 30 calculation\n- D) 45,128 — adds partial products incorrectly\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q15",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Multi-Digit Multiplication and Division",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Division with Remainder Interpretation\nA school has **547 students** who need to be seated in rows of **24** for an assembly. How many **complete rows** can be filled, and how many students will be in the **incomplete last row**?",
+    "options": [
+      "22 complete rows, with 15 students left over",
+      "22 complete rows, with 19 students left over",
+      "23 complete rows, with 5 students left over",
+      "23 complete rows, with 0 students left over"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 22 complete rows, with 19 students left over\n\n**Step-by-step:**\n**547 ÷ 24**\n\n- 24 × 20 = 480\n- 547 − 480 = 67\n- 24 × 2 = 48\n- 67 − 48 = 19\n\nQuotient = 22, Remainder = **19**\n\n**Verification:** 22 × 24 = 528; 528 + 19 = 547 ✓\n\nSo 22 complete rows of 24 are filled, and 19 students need a partial row.\n\n**Why other answers are wrong:**\n- A) 22 rows with 15 left over — incorrect remainder (would give 22 × 24 + 15 = 543 ≠ 547)\n- C) 23 rows with 5 left over — 23 × 24 = 552 > 547, so 23 full rows cannot fit\n- D) 23 rows with 0 left over — same problem; 547 is not divisible by 24\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q16",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Prime and Composite Numbers",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Identifying Composite Numbers\nWhich of the following statements is **TRUE**?",
+    "options": [
+      "51 is a prime number because it ends in 1.",
+      "57 is a prime number because it is an odd number.",
+      "91 is a composite number.",
+      "89 is a composite number."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 91 is a composite number.\n\n**Step-by-step:**\nA **composite number** has more than 2 factors (can be divided evenly by something other than 1 and itself).\n\n- 51 = **3 × 17** → composite (but the statement says it's prime — FALSE)\n- 57 = **3 × 19** → composite (but the statement says it's prime — FALSE)\n- **91 = 7 × 13** → composite → statement is TRUE ✓\n- 89 → test divisibility: not divisible by 2, 3, 5, 7 (7² = 49 < 89 < 100 = 10²) → **89 is prime** → statement D is FALSE\n\n**Answer: C**\n\n**Key concept:** Being odd does NOT make a number prime. Many odd numbers (like 9, 15, 21, 25, 51, 57, 91) are composite.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q17",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Order of Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Order of Operations: Two Levels of Grouping [R]\nEvaluate the expression using the correct order of operations.\n\n**45 ÷ [9 − (2 × 3)] + 7 = ?**",
+    "options": [
+      "12",
+      "17",
+      "22",
+      "52"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 22\n\n**Step-by-step:**\n**45 ÷ [9 − (2 × 3)] + 7**\n\nStep 1 — Innermost parentheses first:\n- (2 × 3) = **6**\n- Expression: 45 ÷ [9 − 6] + 7\n\nStep 2 — Brackets next:\n- [9 − 6] = **3**\n- Expression: 45 ÷ 3 + 7\n\nStep 3 — Division (left to right before addition):\n- 45 ÷ 3 = **15**\n- Expression: 15 + 7\n\nStep 4 — Addition:\n- 15 + 7 = **22**\n\n**Why other answers are wrong:**\n- A) 12 — divides 45 by [9−2×3+7] (combines too many terms inside bracket)\n- B) 17 — correctly reaches 45 ÷ 3 = 15, then subtracts 7 instead of adding\n- D) 52 — adds 7 before dividing: (45 + 7) ÷ [9 − 6] = 52 ÷ 3 = ... or ignores grouping symbols\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q18",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Order of Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "— Selecting the Correct Expression  [R]\nA classroom has **6 tables**. Each table has **4 students**. The teacher adds **3 more students** to the class. Which expression correctly represents the total number of students?",
+    "options": [
+      "6 + 4 × 3",
+      "6 × (4 + 3)",
+      "(6 × 4) + 3",
+      "6 + (4 + 3)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → (6 × 4) + 3\n\n**Step-by-step:**\nSituation: 6 tables, 4 students each, then 3 more added.\n\nStep 1 — Find students before adding more:\n- 6 tables × 4 students = 24 students\n\nStep 2 — Add the 3 new students:\n- 24 + 3 = **27 students**\n\nExpression: **(6 × 4) + 3**\n\n**Why other answers are wrong:**\n- A) 6 + 4 × 3 — by order of operations, multiplication happens first: 6 + 12 = 18 (wrong: doesn't multiply tables × students per table)\n- B) 6 × (4 + 3) = 6 × 7 = 42 — as if each table added 3 students (not just the class)\n- D) 6 + (4 + 3) = 6 + 7 = 13 — adds instead of multiplying tables by students\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

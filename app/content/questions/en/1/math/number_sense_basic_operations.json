@@ -1,0 +1,182 @@
+[
+  {
+    "id": "math_g1_2026-08-29_20-26_q18",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which number comes just before 70 when counting backward by ones?",
+    "options": [
+      "68",
+      "69",
+      "71",
+      "80"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. 69**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** Counting backward one from 70 gives 69.  \n**Why the other answers are wrong:** A is two before; C is after; D is ten after.  \n**Key concept:** Counting backward.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q19",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which number has 7 tens and 4 ones?",
+    "options": [
+      "47",
+      "74",
+      "704",
+      "11"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. 74**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** 7 tens = 70 and 4 ones = 4; $70+4=74$.  \n**Why the other answers are wrong:** A reverses the digits; C is not the intended two-digit number; D has one ten.  \n**Key concept:** Place value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q20",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which is another way to show 63?",
+    "options": [
+      "6 tens and 3 ones",
+      "3 tens and 6 ones",
+      "63 tens",
+      "6 ones and 3 tens"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. 6 tens and 3 ones**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $60+3=63$.  \n**Why the other answers are wrong:** B and D show 36; C is 630.  \n**Key concept:** Tens and ones.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q21",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which comparison is true?",
+    "options": [
+      "$58 > 85$",
+      "$91 < 89$",
+      "$76 = 67$",
+      "$104 > 99$"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer: D. $104>99$**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** A number with 1 hundred is greater than any two-digit number.  \n**Why the other answers are wrong:** A and B use the wrong comparison; C switches the digits.  \n**Key concept:** Comparing numbers to 120.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q22",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Look at the numbers: 48, 84, 44, 80. Which number is greatest?",
+    "options": [
+      "44",
+      "48",
+      "80",
+      "84"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer: D. 84**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** 84 has 8 tens and 4 ones; it is greater than 80, 48, and 44.  \n**Why the other answers are wrong:** A and B have 4 tens; C has 8 tens but fewer ones.  \n**Key concept:** Greatest number.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q23",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "What number is 10 less than 96?",
+    "options": [
+      "86",
+      "87",
+      "95",
+      "106"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. 86**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $96-10=86$.  \n**Why the other answers are wrong:** B is 9 less; C is 1 less; D is 10 more.  \n**Key concept:** Ten less.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q24",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which number has 1 hundred, 1 ten, and 7 ones?",
+    "options": [
+      "17",
+      "71",
+      "107",
+      "117"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer: D. 117**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $100+10+7=117$.  \n**Why the other answers are wrong:** A and B have no hundred; C has no ten.  \n**Key concept:** Hundreds, tens, and ones.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q25",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Tara counts 98, 99, ____, 101. Which number belongs in the blank?",
+    "options": [
+      "90",
+      "100",
+      "109",
+      "110"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. 100**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** The count goes 98, 99, 100, 101.  \n**Why the other answers are wrong:** A goes backward; C and D skip ahead.  \n**Key concept:** Counting across 100.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q26",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which number is **less than 120** but **greater than 116**?",
+    "options": [
+      "115",
+      "116",
+      "118",
+      "121"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. 118**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** 118 is greater than 116 and less than 120.  \n**Why the other answers are wrong:** A and B are not greater than 116; D is not less than 120.  \n**Key concept:** Comparing within 120.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q27",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number & Operations",
+    "subtopic": "number_sense_basic_operations",
+    "question": "Which set has the same number of objects as 2 tens and 9 ones?",
+    "options": [
+      "19 objects",
+      "21 objects",
+      "29 objects",
+      "92 objects"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. 29 objects**  \n**MAP area / TEKS:** Number & Operations; 1.2.  \n**Work:** $20+9=29$.  \n**Why the other answers are wrong:** A has one ten; B has two tens and one one; D reverses digits.  \n**Key concept:** Representing tens and ones.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

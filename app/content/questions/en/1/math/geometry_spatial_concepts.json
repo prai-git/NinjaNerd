@@ -1,0 +1,146 @@
+[
+  {
+    "id": "math_g1_2026-08-29_20-26_q35",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "Which shape has 3 straight sides and 3 corners?",
+    "options": [
+      "circle",
+      "rectangle",
+      "triangle",
+      "cube"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. triangle**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** A triangle has exactly 3 sides and 3 corners.  \n**Why the other answers are wrong:** A has no corners; B has 4 sides; D is a solid.  \n**Key concept:** Attributes of two-dimensional shapes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q36",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "Which solid has 6 flat square faces?",
+    "options": [
+      "cone",
+      "cube",
+      "sphere",
+      "cylinder"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. cube**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** A cube has six matching square faces.  \n**Why the other answers are wrong:** A has a circular base and point; C has no flat faces; D has two circular faces.  \n**Key concept:** Attributes of solids.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q37",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "Which shape is a rectangle **and** has 4 equal sides?",
+    "options": [
+      "square",
+      "triangle",
+      "circle",
+      "oval"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. square**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** A square is a rectangle with four equal sides.  \n**Why the other answers are wrong:** B has 3 sides; C and D have no sides.  \n**Key concept:** Shape attributes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q38",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "A square sandwich is cut into 4 equal parts. What is one part called?",
+    "options": [
+      "one whole",
+      "one half",
+      "one fourth",
+      "one third"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. one fourth**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** Four equal pieces make fourths, so one piece is one fourth.  \n**Why the other answers are wrong:** A is all four pieces; B would be 2 equal pieces; D would be 3 equal pieces.  \n**Key concept:** Partitioning a whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q39",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "Which shape can be made by putting 2 triangles together along matching sides?",
+    "options": [
+      "a rectangle",
+      "a sphere",
+      "a cone",
+      "a circle"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. a rectangle**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** Two matching right triangles can join to make a rectangle.  \n**Why the other answers are wrong:** B, C, and D are solids or curved shapes that cannot be made from two flat triangles.  \n**Key concept:** Composing shapes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q40",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "The toy chest is to the **left** of the desk. Where is the desk compared with the toy chest?",
+    "options": [
+      "above it",
+      "below it",
+      "to the left of it",
+      "to the right of it"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer: D. to the right of it**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** If the chest is left of the desk, the desk is right of the chest.  \n**Why the other answers are wrong:** A and B change direction; C repeats the chest's position.  \n**Key concept:** Spatial relationships.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q41",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "Which object is shaped most like a cylinder?",
+    "options": [
+      "a dice",
+      "a soup can",
+      "a party hat",
+      "a marble"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. a soup can**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** A can has two circular flat ends and a curved side like a cylinder.  \n**Why the other answers are wrong:** A is cube-like; C is cone-like; D is sphere-like.  \n**Key concept:** Real-world solid shapes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-29_20-26_q42",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "Which group has only shapes with corners?",
+    "options": [
+      "triangle, square, rectangle",
+      "circle, oval, sphere",
+      "circle, triangle, cone",
+      "cylinder, square, oval"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. triangle, square, rectangle**  \n**MAP area / TEKS:** Geometry; 1.6.  \n**Work:** Each listed shape has corners.  \n**Why the other answers are wrong:** B has round shapes; C includes a circle; D includes curved solids/shapes.  \n**Key concept:** Corners and sides.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

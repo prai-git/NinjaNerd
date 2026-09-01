@@ -1,0 +1,146 @@
+[
+  {
+    "id": "math_g3_2026-08-29_23-09_q28",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.6A [R] — classify two-dimensional figures**\n\nWhich shape has 4 equal sides and 4 right angles?",
+    "options": [
+      "a rectangle that is not a square",
+      "a square",
+      "a triangle",
+      "a trapezoid"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6A [R]\n\n**Worked solution:** A square has 4 equal sides and 4 right angles.\n\n**Why other answers are wrong:** A may have unequal adjacent side lengths; C has 3 sides; D does not require four equal sides or four right angles.\n\n**Key concept:** Classifying plane figures\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q29",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.6A [R] — classify three-dimensional figures**\n\nWhich solid has two flat circular bases and one curved surface?",
+    "options": [
+      "cone",
+      "cylinder",
+      "rectangular prism",
+      "sphere"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6A [R]\n\n**Worked solution:** A cylinder has two flat circular bases and one curved side surface.\n\n**Why other answers are wrong:** A cone has one circular base and a point; C has rectangular faces; D has no flat bases.\n\n**Key concept:** Classifying solid figures\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q30",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.6B — attributes of polygons**\n\nWhich statement is always true about a rhombus?",
+    "options": [
+      "It has exactly 3 sides.",
+      "It has 4 sides of equal length.",
+      "It has 4 right angles.",
+      "It has one pair of parallel sides."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6B\n\n**Worked solution:** A rhombus is a quadrilateral with four sides of equal length.\n\n**Why other answers are wrong:** A describes a triangle; C is true for squares/rectangles but not all rhombuses; D does not describe every rhombus.\n\n**Key concept:** Attributes of a rhombus\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q32",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.6C [R] — apply area**\n\nA rectangular game board is 8 squares long and 5 squares wide. Which calculation gives the number of squares that cover the board?",
+    "options": [
+      "$8+5$",
+      "$8\times5$",
+      "$8-5$",
+      "$8\\div5$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6C [R]\n\n**Worked solution:** A rectangle’s covering is found by rows times columns: $8\times5=40$ squares.\n\n**Why other answers are wrong:** A is a sum, C is a difference, and D is a quotient; none find the number of unit squares covering the rectangle.\n\n**Key concept:** Area formula\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q33",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.6D — perimeter**\n\nA rectangular dog run is 12 meters long and 7 meters wide. What is its perimeter?",
+    "options": [
+      "$19$ meters",
+      "$24$ meters",
+      "$38$ meters",
+      "$84$ meters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.6D\n\n**Worked solution:** Perimeter is all sides: $12+7+12+7=38$ meters, or $2\times(12+7)$.\n\n**Why other answers are wrong:** A adds only one length and one width; B doubles only 12; D is the area.\n\n**Key concept:** Perimeter of a rectangle\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q35",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.6E — compose/decompose rectangles**\n\nA 6-by-7 rectangle is split into a 6-by-3 rectangle and a 6-by-4 rectangle. Which equation shows the total area?",
+    "options": [
+      "$6+3+4=13$",
+      "$6\times3+6\times4=42$",
+      "$7\times4=28$",
+      "$6\times7+3=45$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6E\n\n**Worked solution:** The two smaller rectangles have areas $6\times3=18$ and $6\times4=24$. $18+24=42$, equal to $6\times7$.\n\n**Why other answers are wrong:** A adds lengths only; C finds only part of the area; D incorrectly adds an extra 3 to the full area.\n\n**Key concept:** Decomposing area\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q37",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.7 — liquid volume**\n\nA container holds 3 liters of water. Another container holds 2 liters. If both are full, how many liters of water are there?",
+    "options": [
+      "$1$ liter",
+      "$5$ liters",
+      "$6$ liters",
+      "$32$ liters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.7\n\n**Worked solution:** Add the full containers: $3+2=5$ liters.\n\n**Why other answers are wrong:** A subtracts; C multiplies; D treats the digits as a two-digit number.\n\n**Key concept:** Liquid volume\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q39",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 3 — Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "**TEKS 3.7 — temperature**\n\nAt 7 a.m. the temperature is $48^\\circ\\!F$. By noon it rises $17^\\circ\\!F$. What is the noon temperature?",
+    "options": [
+      "$31^\\circ\\!F$",
+      "$55^\\circ\\!F$",
+      "$65^\\circ\\!F$",
+      "$75^\\circ\\!F$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.7\n\n**Worked solution:** The temperature rises, so add: $48+17=65$.\n\n**Why other answers are wrong:** A subtracts; B adds only 7; D adds too much.\n\n**Key concept:** Temperature change\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

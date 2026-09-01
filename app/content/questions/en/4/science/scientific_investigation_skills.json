@@ -1,0 +1,182 @@
+[
+  {
+    "id": "science_g4_2026-08-29_23-09_q1",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Which question can a class answer most directly by measuring a creek's depth after each rainy day for four weeks?",
+    "options": [
+      "How does the amount of rain relate to the creek's depth?",
+      "Which creek is the prettiest place to visit?",
+      "Why do all animals like water?",
+      "Is a rainy day better than a sunny day?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.1A  \n**Explanation:** Measuring rainfall and creek depth can produce evidence about a relationship between two observable quantities.  \n**Why the other answers are wrong:** B and D are opinions; C makes a claim about all animals that the measurements cannot test.  \n**Key concept:** Testable questions use measurable observations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q2",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A class wants to test how the amount of water affects bean-plant growth. Which plan makes the investigation **fair**?",
+    "options": [
+      "Give each plant a different amount of water but keep the seed type, soil, pot size, light, and growing time the same.",
+      "Give each plant a different amount of water, use different seed types, and place them in different locations.",
+      "Water one plant and compare it with a drawing of a different plant.",
+      "Change the amount of water and fertilizer each day for only one plant."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.1B, 4.5B  \n**Explanation:** The amount of water is the one planned change. Keeping other conditions alike helps show whether water amount affected growth.  \n**Why the other answers are wrong:** B and D change more than one factor; C provides no comparable plant.  \n**Key concept:** A fair investigation controls important conditions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q3",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Four identical cups contain different amounts of water. Which tool and unit would give the best evidence for comparing the **volume** of water in the cups?",
+    "options": [
+      "A graduated cylinder, measured in milliliters",
+      "A balance, measured in grams",
+      "A hand lens, measured in centimeters",
+      "A thermometer, measured in degrees Celsius"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.1D  \n**Explanation:** A graduated cylinder measures liquid volume, and milliliters are an appropriate metric unit.  \n**Why the other answers are wrong:** B measures mass, C helps observe small details, and D measures temperature.  \n**Key concept:** Select tools and units that match the measurement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q4",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A student measured the height of the same seedling every two days.\n\n| Day | Height (cm) |\n|---|---:|\n| 0 | 4 |\n| 2 | 6 |\n| 4 | 9 |\n| 6 | 13 |\n\nWhich claim is best supported by the data?",
+    "options": [
+      "The seedling grew taller during each two-day interval.",
+      "The seedling will always grow exactly 2 centimeters every two days.",
+      "The seedling grew because it was the tallest plant in the class.",
+      "The seedling cannot grow after Day 6."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.1F, 4.2B  \n**Explanation:** The values rise from 4 to 6 to 9 to 13 centimeters, so the seedling increased in height in every interval.  \n**Why the other answers are wrong:** B claims an exact future pattern not shown by the unequal increases; C gives no evidence-based cause; D is unsupported.  \n**Key concept:** Use a data table to identify a pattern without overclaiming.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q5",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Students build a small model of a river basin with sand, cups, and a spray bottle. What is one important **limitation** of this model?",
+    "options": [
+      "It cannot show every real river's size, materials, and length of time needed for changes.",
+      "It cannot show water moving downhill.",
+      "It cannot help students observe erosion.",
+      "It cannot be used to ask questions about flowing water."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.2A  \n**Explanation:** The model can show a process, but it is much smaller and simpler than a real basin and cannot represent all conditions or long time scales.  \n**Why the other answers are wrong:** B, C, and D are useful things the model can do.  \n**Key concept:** Models help explain phenomena but have limitations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q6",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Two solar-oven designs were tested for 30 minutes in the same sunlight. Both began at 22°C.\n\n| Design | Inside temperature after 30 minutes |\n|---|---:|\n| Black paper lining | 48°C |\n| White paper lining | 39°C |\n\nWhich explanation is best supported by the test?",
+    "options": [
+      "Black paper caused the Sun to stop shining on the white oven.",
+      "The black-lined oven became warmer under the same test conditions.",
+      "White paper cannot be used to build any kind of oven.",
+      "The ovens had different starting temperatures."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.2C, 4.3A  \n**Explanation:** Both ovens began at 22°C and were tested for the same time in the same sunlight; the black-lined oven reached 48°C compared with 39°C.  \n**Why the other answers are wrong:** A is not measured, C is too broad, and D contradicts the setup.  \n**Key concept:** Compare controlled-test data to support a claim.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q7",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "An engineering team must make a cardboard shade structure that lowers the temperature of a tray by at least 4°C. Which action should the team take **before** deciding that one design is best?",
+    "options": [
+      "Test more than one design for the same amount of time in the same sunny location.",
+      "Choose the structure with the brightest color.",
+      "Add an unlimited amount of cardboard to every design.",
+      "Ask which structure looks coolest without measuring temperature."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.1B, 4.1G  \n**Explanation:** Testing several structures under the same sunlight, location, and time conditions produces temperature evidence for deciding which prototype works best.  \n**Why the other answers are wrong:** B is not a temperature criterion, C violates a materials constraint, and D is an unsupported guess.  \n**Key concept:** Engineering solutions are tested against constraints and criteria.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q8",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "Four insulated lunch-box prototypes were tested. To meet the design criteria, a prototype must keep an ice cube for 20 minutes and must not leak.\n\n| Prototype | Ice remains after 20 min | Leaks? |\n|---|---|---|\n| W | Yes | Yes |\n| X | No | No |\n| Y | Yes | No |\n| Z | No | Yes |\n\nWhich prototype best meets **both** criteria?",
+    "options": [
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.2D  \n**Explanation:** Prototype Y still has ice after 20 minutes and does not leak, so it meets both criteria.  \n**Why the other answers are wrong:** W leaks, X does not keep ice for 20 minutes, and Z fails both criteria.  \n**Key concept:** Evaluate a design using every stated criterion.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q9",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "A town installs a device that removes plastic pieces from storm-drain water before the water reaches a pond. Which result would be the strongest evidence that this engineering solution helps the pond ecosystem?",
+    "options": [
+      "Fewer plastic pieces are found in the pond after the device is installed.",
+      "The device is painted the same color as the pond.",
+      "The town uses a larger truck to deliver the device.",
+      "Students think the device has an interesting shape."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.4A  \n**Explanation:** A lower amount of plastic in the pond directly measures the solution's intended environmental effect.  \n**Why the other answers are wrong:** B, C, and D do not show whether less plastic reaches the pond.  \n**Key concept:** Evidence of an innovation's impact is tied to its purpose.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-08-29_23-09_q10",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
+    "subtopic": "scientific_investigation_skills",
+    "question": "After a storm, leaves block a street drain. Water then collects on the street instead of flowing through the drain. Which statement best explains this system?",
+    "options": [
+      "The leaves changed one part of the drainage system, causing water flow to change.",
+      "The leaves made the water disappear from the system.",
+      "The street drain no longer has any parts.",
+      "Rainwater cannot move unless it is heated."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A  \n**MAP area / TEKS:** Scientific & Engineering Practices / 4.5B, 4.5D  \n**Explanation:** The blocked drain is one component of a drainage system. Blocking it changes where rainwater can flow.  \n**Why the other answers are wrong:** B says matter disappears, C ignores the system's parts, and D incorrectly says water must be heated to move.  \n**Key concept:** A change in one system component can affect the whole system.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

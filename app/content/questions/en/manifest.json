@@ -1,80 +1,70 @@
 {
-  "generatedAt": "2026-08-30T17:13:51.835Z",
+  "generatedAt": "2026-09-01T00:07:07.266Z",
   "grades": {
     "1": {
       "english": [
         {
-          "subtopic": "Informational Text",
-          "slug": "informational-text",
-          "count": 11
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 33
         },
         {
-          "subtopic": "Language/Conventions",
-          "slug": "language-conventions",
-          "count": 10
-        },
-        {
-          "subtopic": "Literary Text",
-          "slug": "literary-text",
-          "count": 12
-        },
-        {
-          "subtopic": "Reading Foundations",
-          "slug": "reading-foundations",
-          "count": 10
-        },
-        {
-          "subtopic": "Vocabulary Acquisition & Use",
-          "slug": "vocabulary-acquisition-and-use",
+          "subtopic": "vocabulary_building",
+          "slug": "vocabulary_building",
           "count": 7
+        },
+        {
+          "subtopic": "written_conventions",
+          "slug": "written_conventions",
+          "count": 10
         }
       ],
       "math": [
         {
-          "subtopic": "Financial Literacy",
-          "slug": "financial-literacy",
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
+          "count": 17
+        },
+        {
+          "subtopic": "financial_literacy",
+          "slug": "financial_literacy",
           "count": 8
         },
         {
-          "subtopic": "Geometry",
-          "slug": "geometry",
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
           "count": 8
         },
         {
-          "subtopic": "Measurement & Data",
-          "slug": "measurement-and-data",
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
           "count": 7
         },
         {
-          "subtopic": "Number & Operations",
-          "slug": "number-and-operations",
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
           "count": 10
-        },
-        {
-          "subtopic": "Operations & Algebraic Thinking",
-          "slug": "operations-and-algebraic-thinking",
-          "count": 17
         }
       ],
       "science": [
         {
-          "subtopic": "Earth & Space Science",
-          "slug": "earth-and-space-science",
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
           "count": 11
         },
         {
-          "subtopic": "Life Science",
-          "slug": "life-science",
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
           "count": 11
         },
         {
-          "subtopic": "Physical Science",
-          "slug": "physical-science",
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
           "count": 15
         },
         {
-          "subtopic": "Scientific & Engineering Practices / Recurring Themes",
-          "slug": "scientific-and-engineering-practices-recurring-themes",
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
           "count": 13
         }
       ]
@@ -82,263 +72,188 @@
     "2": {
       "english": [
         {
-          "subtopic": "A Cooler Playground",
-          "slug": "a-cooler-playground",
-          "count": 3
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 25
         },
         {
-          "subtopic": "Language/Conventions",
-          "slug": "language-conventions",
-          "count": 10
-        },
-        {
-          "subtopic": "Literary Text",
-          "slug": "literary-text",
-          "count": 12
-        },
-        {
-          "subtopic": "Reading Foundations",
-          "slug": "reading-foundations",
-          "count": 10
-        },
-        {
-          "subtopic": "Vocabulary Acquisition & Use",
-          "slug": "vocabulary-acquisition-and-use",
+          "subtopic": "vocabulary_building",
+          "slug": "vocabulary_building",
           "count": 8
+        },
+        {
+          "subtopic": "written_conventions",
+          "slug": "written_conventions",
+          "count": 10
         }
       ],
       "math": [
         {
-          "subtopic": "Computation & Estimation",
-          "slug": "computation-and-estimation",
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
           "count": 10
         },
         {
-          "subtopic": "Measurement & Geometry",
-          "slug": "measurement-and-geometry",
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
           "count": 10
         },
         {
-          "subtopic": "Number & Number Sense",
-          "slug": "number-and-number-sense",
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
           "count": 10
         },
         {
-          "subtopic": "Patterns/Functions/Algebra",
-          "slug": "patterns-functions-algebra",
-          "count": 10
-        },
-        {
-          "subtopic": "Probability & Statistics",
-          "slug": "probability-and-statistics",
-          "count": 10
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
+          "count": 20
         }
       ],
       "science": [
         {
-          "subtopic": "Earth & Space Science",
-          "slug": "earth-and-space-science",
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
           "count": 9
         },
         {
-          "subtopic": "Integrated MAP Application",
-          "slug": "integrated-map-application",
-          "count": 6
-        },
-        {
-          "subtopic": "Life Science",
-          "slug": "life-science",
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
           "count": 13
         },
         {
-          "subtopic": "Physical Science",
-          "slug": "physical-science",
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
           "count": 12
         },
         {
-          "subtopic": "Scientific & Engineering Practices / Recurring Themes",
-          "slug": "scientific-and-engineering-practices-recurring-themes",
-          "count": 10
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
+          "count": 16
         }
       ]
     },
     "3": {
       "english": [
         {
-          "subtopic": "Language, Revision, and Editing",
-          "slug": "language-revision-and-editing",
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 42
+        },
+        {
+          "subtopic": "written_conventions",
+          "slug": "written_conventions",
           "count": 4
-        },
-        {
-          "subtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
-          "slug": "selection-1-informational-text-the-night-shift-at-the-desert-garden",
-          "count": 8
-        },
-        {
-          "subtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
-          "slug": "selection-2-literary-fiction-the-quiet-bridge",
-          "count": 8
-        },
-        {
-          "subtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
-          "slug": "selection-3-literary-nonfiction-my-first-repair-caf",
-          "count": 7
-        },
-        {
-          "subtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
-          "slug": "selection-4-poem-rain-on-the-tin-roof",
-          "count": 7
-        },
-        {
-          "subtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
-          "slug": "selection-5-argumentative-text-let-students-help-choose-a-recess-game",
-          "count": 6
-        },
-        {
-          "subtopic": "Selections 6A and 6B — Paired Passages",
-          "slug": "selections-6a-and-6b-paired-passages",
-          "count": 6
         }
       ],
       "math": [
         {
-          "subtopic": "Reporting Category 1 — Numerical Representations and Relationships",
-          "slug": "reporting-category-1-numerical-representations-and-relationships",
-          "count": 7
-        },
-        {
-          "subtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
-          "slug": "reporting-category-2-computations-and-algebraic-relationships",
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
           "count": 16
         },
         {
-          "subtopic": "Reporting Category 3 — Geometry and Measurement",
-          "slug": "reporting-category-3-geometry-and-measurement",
+          "subtopic": "financial_literacy",
+          "slug": "financial_literacy",
+          "count": 9
+        },
+        {
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
           "count": 8
         },
         {
-          "subtopic": "Reporting Category 4 — Data Analysis and Personal Financial Literacy",
-          "slug": "reporting-category-4-data-analysis-and-personal-financial-literacy",
-          "count": 9
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
+          "count": 7
         }
       ],
       "science": [
         {
-          "subtopic": "Biology/Life Science — Organisms and Environments",
-          "slug": "biology-life-science-organisms-and-environments",
-          "count": 11
-        },
-        {
-          "subtopic": "Chemistry & Physics — Forces, Motion, and Energy",
-          "slug": "chemistry-and-physics-forces-motion-and-energy",
-          "count": 5
-        },
-        {
-          "subtopic": "Chemistry & Physics — Matter and Its Properties",
-          "slug": "chemistry-and-physics-matter-and-its-properties",
-          "count": 5
-        },
-        {
-          "subtopic": "Earth & Space Science",
-          "slug": "earth-and-space-science",
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
           "count": 9
         },
         {
-          "subtopic": "Integrated Science / MAP Adaptive Review and Design",
-          "slug": "integrated-science-map-adaptive-review-and-design",
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
           "count": 5
         },
         {
-          "subtopic": "Scientific & Engineering Practices / Recurring Themes",
-          "slug": "scientific-and-engineering-practices-recurring-themes",
-          "count": 15
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
+          "count": 11
+        },
+        {
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
+          "count": 5
+        },
+        {
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
+          "count": 20
         }
       ]
     },
     "4": {
       "english": [
         {
-          "subtopic": "Questions 1–8 — Passage 1",
-          "slug": "questions-1-8-passage-1",
-          "count": 8
-        },
-        {
-          "subtopic": "Questions 17–22 — Passage 3",
-          "slug": "questions-17-22-passage-3",
+          "subtopic": "grammar_language_mechanics",
+          "slug": "grammar_language_mechanics",
           "count": 6
         },
         {
-          "subtopic": "Questions 23–27 — Poem",
-          "slug": "questions-23-27-poem",
-          "count": 5
-        },
-        {
-          "subtopic": "Questions 28–34 — Argument",
-          "slug": "questions-28-34-argument",
-          "count": 7
-        },
-        {
-          "subtopic": "Questions 35–40 — Paired Passages",
-          "slug": "questions-35-40-paired-passages",
-          "count": 6
-        },
-        {
-          "subtopic": "Questions 41–46 — Language, Writing, and Research",
-          "slug": "questions-41-46-language-writing-and-research",
-          "count": 6
-        },
-        {
-          "subtopic": "Questions 9–16 — Passage 2",
-          "slug": "questions-9-16-passage-2",
-          "count": 8
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 40
         }
       ],
       "math": [
         {
-          "subtopic": "Reporting Category 1 — Numerical Representations & Relationships",
-          "slug": "reporting-category-1-numerical-representations-and-relationships",
-          "count": 6
-        },
-        {
-          "subtopic": "Reporting Category 2 — Computations & Algebraic Relationships",
-          "slug": "reporting-category-2-computations-and-algebraic-relationships",
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
           "count": 12
         },
         {
-          "subtopic": "Reporting Category 3 — Geometry & Measurement",
-          "slug": "reporting-category-3-geometry-and-measurement",
+          "subtopic": "financial_literacy",
+          "slug": "financial_literacy",
+          "count": 7
+        },
+        {
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
           "count": 15
         },
         {
-          "subtopic": "Reporting Category 4 — Data Analysis & Personal Financial Literacy",
-          "slug": "reporting-category-4-data-analysis-and-personal-financial-literacy",
-          "count": 7
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
+          "count": 6
         }
       ],
       "science": [
         {
-          "subtopic": "Biology / Life Science",
-          "slug": "biology-life-science",
-          "count": 10
-        },
-        {
-          "subtopic": "Chemistry & Physics — Forces, Energy, and Waves",
-          "slug": "chemistry-and-physics-forces-energy-and-waves",
-          "count": 10
-        },
-        {
-          "subtopic": "Chemistry & Physics — Matter and Its Properties",
-          "slug": "chemistry-and-physics-matter-and-its-properties",
-          "count": 11
-        },
-        {
-          "subtopic": "Earth & Space Science",
-          "slug": "earth-and-space-science",
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
           "count": 9
         },
         {
-          "subtopic": "Scientific & Engineering Practices / Recurring Themes",
-          "slug": "scientific-and-engineering-practices-recurring-themes",
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
+          "count": 10
+        },
+        {
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
+          "count": 10
+        },
+        {
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
+          "count": 11
+        },
+        {
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
           "count": 10
         }
       ]
@@ -346,500 +261,145 @@
     "5": {
       "english": [
         {
-          "subtopic": "Grammar and Writing Questions",
-          "slug": "grammar-and-writing-questions",
-          "count": 3
+          "subtopic": "grammar_language_mechanics",
+          "slug": "grammar_language_mechanics",
+          "count": 26
         },
         {
-          "subtopic": "MAP Language Skills",
-          "slug": "map-language-skills",
-          "count": 4
-        },
-        {
-          "subtopic": "Reading Passage",
-          "slug": "reading-passage",
-          "count": 29
-        },
-        {
-          "subtopic": "Reading Passage 1",
-          "slug": "reading-passage-1",
-          "count": 6
-        },
-        {
-          "subtopic": "Reading Passage 1 - Informational Text",
-          "slug": "reading-passage-1-informational-text",
-          "count": 50
-        },
-        {
-          "subtopic": "Reading Passage 2",
-          "slug": "reading-passage-2",
-          "count": 5
-        },
-        {
-          "subtopic": "Reading Passage 2 - Literary Fiction",
-          "slug": "reading-passage-2-literary-fiction",
-          "count": 47
-        },
-        {
-          "subtopic": "Reading Passage 3 - Argumentative Text",
-          "slug": "reading-passage-3-argumentative-text",
-          "count": 31
-        },
-        {
-          "subtopic": "Reading Passage 3 — Paired Passages",
-          "slug": "reading-passage-3-paired-passages",
-          "count": 8
-        },
-        {
-          "subtopic": "Reading Passage 3 — Poetry",
-          "slug": "reading-passage-3-poetry",
-          "count": 9
-        },
-        {
-          "subtopic": "Reading Passage 4 — Argumentative Text",
-          "slug": "reading-passage-4-argumentative-text",
-          "count": 16
-        },
-        {
-          "subtopic": "Reading Selection 1: Literary Fiction",
-          "slug": "reading-selection-1-literary-fiction",
-          "count": 8
-        },
-        {
-          "subtopic": "Reading Selection 2: Informational Text",
-          "slug": "reading-selection-2-informational-text",
-          "count": 7
-        },
-        {
-          "subtopic": "Reading Selection 3: Argumentative Text",
-          "slug": "reading-selection-3-argumentative-text",
-          "count": 6
-        },
-        {
-          "subtopic": "Writing and Grammar",
-          "slug": "writing-and-grammar",
-          "count": 19
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 222
         }
       ],
       "math": [
         {
-          "subtopic": "Additive vs. Multiplicative Patterns",
-          "slug": "additive-vs-multiplicative-patterns",
-          "count": 1
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
+          "count": 27
         },
         {
-          "subtopic": "Algebraic Reasoning",
-          "slug": "algebraic-reasoning",
-          "count": 19
+          "subtopic": "financial_literacy",
+          "slug": "financial_literacy",
+          "count": 31
         },
         {
-          "subtopic": "Algebraic Reasoning — Inequalities",
-          "slug": "algebraic-reasoning-inequalities",
-          "count": 4
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 44
         },
         {
-          "subtopic": "Algebraic Reasoning — Percentages",
-          "slug": "algebraic-reasoning-percentages",
-          "count": 4
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
+          "count": 48
         },
         {
-          "subtopic": "Algebraic Reasoning: Equations with Unknowns",
-          "slug": "algebraic-reasoning-equations-with-unknowns",
-          "count": 2
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
+          "count": 47
         },
         {
-          "subtopic": "Area and Perimeter",
-          "slug": "area-and-perimeter",
-          "count": 2
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
+          "count": 29
         },
         {
-          "subtopic": "Coordinate Plane and Graphing",
-          "slug": "coordinate-plane-and-graphing",
-          "count": 18
-        },
-        {
-          "subtopic": "Customary Length Conversion",
-          "slug": "customary-length-conversion",
-          "count": 1
-        },
-        {
-          "subtopic": "Data Analysis",
-          "slug": "data-analysis",
-          "count": 16
-        },
-        {
-          "subtopic": "Data Analysis - Bar Graphs",
-          "slug": "data-analysis-bar-graphs",
-          "count": 5
-        },
-        {
-          "subtopic": "Data Analysis — Frequency Tables",
-          "slug": "data-analysis-frequency-tables",
-          "count": 1
-        },
-        {
-          "subtopic": "Data Analysis and Graphs",
-          "slug": "data-analysis-and-graphs",
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
           "count": 3
-        },
-        {
-          "subtopic": "Decimal Operations",
-          "slug": "decimal-operations",
-          "count": 4
-        },
-        {
-          "subtopic": "Dividing Unit Fractions by Whole Numbers",
-          "slug": "dividing-unit-fractions-by-whole-numbers",
-          "count": 1
-        },
-        {
-          "subtopic": "Financial Literacy",
-          "slug": "financial-literacy",
-          "count": 1
-        },
-        {
-          "subtopic": "Financial Literacy (Extra Coverage)",
-          "slug": "financial-literacy-extra-coverage",
-          "count": 5
-        },
-        {
-          "subtopic": "Fractions: Operations with Mixed Numbers",
-          "slug": "fractions-operations-with-mixed-numbers",
-          "count": 5
-        },
-        {
-          "subtopic": "Geometry — Classifying 2D Figures",
-          "slug": "geometry-classifying-2d-figures",
-          "count": 3
-        },
-        {
-          "subtopic": "Geometry and Measurement",
-          "slug": "geometry-and-measurement",
-          "count": 7
-        },
-        {
-          "subtopic": "Geometry and Measurement — Area and Perimeter",
-          "slug": "geometry-and-measurement-area-and-perimeter",
-          "count": 4
-        },
-        {
-          "subtopic": "Geometry and Measurement — Volume",
-          "slug": "geometry-and-measurement-volume",
-          "count": 4
-        },
-        {
-          "subtopic": "Geometry: Area and Perimeter",
-          "slug": "geometry-area-and-perimeter",
-          "count": 3
-        },
-        {
-          "subtopic": "Income and Expense Word Problems",
-          "slug": "income-and-expense-word-problems",
-          "count": 6
-        },
-        {
-          "subtopic": "Inequalities",
-          "slug": "inequalities",
-          "count": 1
-        },
-        {
-          "subtopic": "Mixed Number × Whole Number",
-          "slug": "mixed-number-whole-number",
-          "count": 1
-        },
-        {
-          "subtopic": "Multi-Digit Multiplication and Division",
-          "slug": "multi-digit-multiplication-and-division",
-          "count": 6
-        },
-        {
-          "subtopic": "Multi-Topic Challenge Problem",
-          "slug": "multi-topic-challenge-problem",
-          "count": 1
-        },
-        {
-          "subtopic": "Number Operations",
-          "slug": "number-operations",
-          "count": 11
-        },
-        {
-          "subtopic": "Number Operations — Decimals",
-          "slug": "number-operations-decimals",
-          "count": 8
-        },
-        {
-          "subtopic": "Number Operations — Fractions",
-          "slug": "number-operations-fractions",
-          "count": 11
-        },
-        {
-          "subtopic": "Number Operations — Multiplication and Division",
-          "slug": "number-operations-multiplication-and-division",
-          "count": 2
-        },
-        {
-          "subtopic": "Order of Operations",
-          "slug": "order-of-operations",
-          "count": 3
-        },
-        {
-          "subtopic": "Percentages (Extra Coverage)",
-          "slug": "percentages-extra-coverage",
-          "count": 4
-        },
-        {
-          "subtopic": "Place Value and Decimal Representation",
-          "slug": "place-value-and-decimal-representation",
-          "count": 6
-        },
-        {
-          "subtopic": "Place Value and Number Notation",
-          "slug": "place-value-and-number-notation",
-          "count": 4
-        },
-        {
-          "subtopic": "Prime and Composite Numbers",
-          "slug": "prime-and-composite-numbers",
-          "count": 3
-        },
-        {
-          "subtopic": "Questions",
-          "slug": "questions",
-          "count": 19
-        },
-        {
-          "subtopic": "Unit Conversions",
-          "slug": "unit-conversions",
-          "count": 21
-        },
-        {
-          "subtopic": "Volume",
-          "slug": "volume",
-          "count": 5
-        },
-        {
-          "subtopic": "Volume Multi-Step Problem",
-          "slug": "volume-multi-step-problem",
-          "count": 1
-        },
-        {
-          "subtopic": "Volume with Unit Cubes",
-          "slug": "volume-with-unit-cubes",
-          "count": 1
-        },
-        {
-          "subtopic": "Word Problems — Multi-Step",
-          "slug": "word-problems-multi-step",
-          "count": 2
         }
       ],
       "science": [
         {
-          "subtopic": "Animal Adaptations",
-          "slug": "animal-adaptations",
-          "count": 3
-        },
-        {
-          "subtopic": "Cells",
-          "slug": "cells",
-          "count": 4
-        },
-        {
-          "subtopic": "Earth and Space Science",
-          "slug": "earth-and-space-science",
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
           "count": 6
         },
         {
-          "subtopic": "Ecosystems and Food Chains",
-          "slug": "ecosystems-and-food-chains",
-          "count": 3
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
+          "count": 7
         },
         {
-          "subtopic": "Forces, Motion, and Energy",
-          "slug": "forces-motion-and-energy",
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
+          "count": 27
+        },
+        {
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
           "count": 4
         },
         {
-          "subtopic": "Human Body Systems",
-          "slug": "human-body-systems",
-          "count": 5
-        },
-        {
-          "subtopic": "Inherited and Acquired Traits",
-          "slug": "inherited-and-acquired-traits",
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
           "count": 2
-        },
-        {
-          "subtopic": "Matter and Physical Science",
-          "slug": "matter-and-physical-science",
-          "count": 4
-        },
-        {
-          "subtopic": "Organisms and Classification",
-          "slug": "organisms-and-classification",
-          "count": 6
-        },
-        {
-          "subtopic": "Plants — Photosynthesis, Flower Parts, and Life Cycles",
-          "slug": "plants-photosynthesis-flower-parts-and-life-cycles",
-          "count": 4
-        },
-        {
-          "subtopic": "Scientific Investigation and Engineering Design",
-          "slug": "scientific-investigation-and-engineering-design",
-          "count": 2
-        },
-        {
-          "subtopic": "Waves, Magnetism, and Electricity",
-          "slug": "waves-magnetism-and-electricity",
-          "count": 3
         }
       ]
     },
     "6": {
       "english": [
         {
-          "subtopic": "Language / Foundational & Inquiry",
-          "slug": "language-foundational-and-inquiry",
+          "subtopic": "advanced_grammar_applications",
+          "slug": "advanced_grammar_applications",
           "count": 6
         },
         {
-          "subtopic": "Learning to Say Hello",
-          "slug": "learning-to-say-hello",
-          "count": 2
+          "subtopic": "literary_analysis_comprehension",
+          "slug": "literary_analysis_comprehension",
+          "count": 42
         },
         {
-          "subtopic": "Passage 2: From a Volunteer's Journal (Literary Nonfiction)",
-          "slug": "passage-2-from-a-volunteer-s-journal-literary-nonfiction",
-          "count": 4
-        },
-        {
-          "subtopic": "Passage 2: Predators Belong Here (Argumentative)",
-          "slug": "passage-2-predators-belong-here-argumentative",
-          "count": 3
-        },
-        {
-          "subtopic": "The Dance of the Honeybee",
-          "slug": "the-dance-of-the-honeybee",
-          "count": 3
-        },
-        {
-          "subtopic": "The Dancing Messengers",
-          "slug": "the-dancing-messengers",
-          "count": 5
-        },
-        {
-          "subtopic": "The First Bowl",
-          "slug": "the-first-bowl",
-          "count": 4
-        },
-        {
-          "subtopic": "The Last Solder Joint",
-          "slug": "the-last-solder-joint",
-          "count": 4
-        },
-        {
-          "subtopic": "The Mountain's Patience",
-          "slug": "the-mountain-s-patience",
-          "count": 2
-        },
-        {
-          "subtopic": "The Nose That Digs",
-          "slug": "the-nose-that-digs",
-          "count": 4
-        },
-        {
-          "subtopic": "The Old Kite",
-          "slug": "the-old-kite",
-          "count": 3
-        },
-        {
-          "subtopic": "The Ten-Meter Board",
-          "slug": "the-ten-meter-board",
-          "count": 5
-        },
-        {
-          "subtopic": "Vocabulary Acquisition & Use",
-          "slug": "vocabulary-acquisition-and-use",
+          "subtopic": "vocabulary_building",
+          "slug": "vocabulary_building",
           "count": 12
-        },
-        {
-          "subtopic": "What the Stray Dog Knows",
-          "slug": "what-the-stray-dog-knows",
-          "count": 3
         }
       ],
       "math": [
         {
-          "subtopic": "Computations & Algebraic Relationships",
-          "slug": "computations-and-algebraic-relationships",
-          "count": 43
-        },
-        {
-          "subtopic": "Data Analysis & Personal Financial Literacy",
-          "slug": "data-analysis-and-personal-financial-literacy",
-          "count": 16
-        },
-        {
-          "subtopic": "Geometry & Measurement",
-          "slug": "geometry-and-measurement",
+          "subtopic": "advanced_geometry_measurement",
+          "slug": "advanced_geometry_measurement",
           "count": 27
         },
         {
-          "subtopic": "Numerical Representations & Relationships",
-          "slug": "numerical-representations-and-relationships",
+          "subtopic": "advanced_number_systems",
+          "slug": "advanced_number_systems",
           "count": 34
+        },
+        {
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
+          "count": 43
+        },
+        {
+          "subtopic": "data_analysis_functions",
+          "slug": "data_analysis_functions",
+          "count": 16
         }
       ],
       "science": [
         {
-          "subtopic": "Earth & Space Science",
-          "slug": "earth-and-space-science",
-          "count": 13
+          "subtopic": "advanced_biology",
+          "slug": "advanced_biology",
+          "count": 19
         },
         {
-          "subtopic": "Earth and Space",
-          "slug": "earth-and-space",
-          "count": 9
-        },
-        {
-          "subtopic": "Energy & Waves",
-          "slug": "energy-and-waves",
-          "count": 11
-        },
-        {
-          "subtopic": "Force, Motion, and Energy",
-          "slug": "force-motion-and-energy",
-          "count": 10
-        },
-        {
-          "subtopic": "Life Science",
-          "slug": "life-science",
-          "count": 11
-        },
-        {
-          "subtopic": "Matter and Energy",
-          "slug": "matter-and-energy",
-          "count": 10
-        },
-        {
-          "subtopic": "Matter and Its Interactions",
-          "slug": "matter-and-its-interactions",
+          "subtopic": "chemistry_concepts",
+          "slug": "chemistry_concepts",
           "count": 16
         },
         {
-          "subtopic": "Motion & Stability — Forces & Interactions",
-          "slug": "motion-and-stability-forces-and-interactions",
-          "count": 9
+          "subtopic": "earth_space_science",
+          "slug": "earth_space_science",
+          "count": 22
         },
         {
-          "subtopic": "Organisms and Environments",
-          "slug": "organisms-and-environments",
-          "count": 8
+          "subtopic": "physics_energy_systems",
+          "slug": "physics_energy_systems",
+          "count": 40
         },
         {
-          "subtopic": "Scientific and Engineering Practices",
-          "slug": "scientific-and-engineering-practices",
+          "subtopic": "scientific_methods_research",
+          "slug": "scientific_methods_research",
           "count": 3
         }
       ]

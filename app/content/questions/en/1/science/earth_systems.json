@@ -1,0 +1,200 @@
+[
+  {
+    "id": "science_g1_2026-08-29_20-26_q29",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "What season comes after summer?",
+    "options": [
+      "spring",
+      "fall",
+      "winter",
+      "summer"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. fall**  \n**MAP area / TEKS:** Earth & Space Science; 1.9.  \n**Explanation:** In the yearly sequence, fall comes after summer.  \n**Why the other answers are wrong:** A comes before summer; C comes after fall; D is the current season.  \n**Key concept:** Seasonal patterns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q30",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "In many places, which change is most likely in winter?",
+    "options": [
+      "Days may be cooler.",
+      "Leaves always grow faster.",
+      "The Sun disappears forever.",
+      "Every day has a thunderstorm."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. Days may be cooler.**  \n**MAP area / TEKS:** Earth & Space Science; 1.9.  \n**Explanation:** Cooler weather is a common seasonal pattern in winter.  \n**Why the other answers are wrong:** B is not a winter pattern; C is false; D is not true every day.  \n**Key concept:** Seasonal changes in nature.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q31",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which tool helps a student measure how warm or cool the air is?",
+    "options": [
+      "thermometer",
+      "ruler",
+      "balance scale",
+      "hand lens"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. thermometer**  \n**MAP area / TEKS:** Earth & Space Science; 1.1–1.3, 1.9–1.11.  \n**Explanation:** A thermometer measures temperature.  \n**Why the other answers are wrong:** B measures length; C compares weight; D helps view details.  \n**Key concept:** Weather observation tools.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q32",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which object is seen in the sky during the day and gives Earth light and warmth?",
+    "options": [
+      "the Moon",
+      "the Sun",
+      "a tree",
+      "a rock"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. the Sun**  \n**MAP area / TEKS:** Earth & Space Science; 1.9–1.11.  \n**Explanation:** The Sun is seen in the day and supplies light and warmth.  \n**Why the other answers are wrong:** A may be seen in daytime but does not provide Earth’s warmth; C and D are not sky light sources.  \n**Key concept:** Objects in the daytime sky.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q33",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which product is made from a natural resource that comes from trees?",
+    "options": [
+      "paper",
+      "plastic spoon",
+      "glass marble",
+      "metal key"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. paper**  \n**MAP area / TEKS:** Earth & Space Science; 1.11.  \n**Explanation:** Paper is commonly made from wood from trees.  \n**Why the other answers are wrong:** B is usually made from petroleum; C uses sand; D uses metal ore.  \n**Key concept:** Natural resources and products.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q34",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which action helps use water wisely?",
+    "options": [
+      "Let the faucet run while brushing teeth.",
+      "Turn off the faucet while brushing teeth.",
+      "Pour clean water onto the sidewalk.",
+      "Fill a tub to wash one crayon."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. Turn off the faucet while brushing teeth.**  \n**MAP area / TEKS:** Earth & Space Science; 1.11.  \n**Explanation:** Turning off the water prevents wasting clean water.  \n**Why the other answers are wrong:** A, C, and D use water unnecessarily.  \n**Key concept:** Conserving resources.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q46",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "The seasons repeat in this order: spring, summer, fall, winter. If it is fall now, which season comes next?",
+    "options": [
+      "spring",
+      "summer",
+      "winter",
+      "fall"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. winter**  \n**MAP area / TEKS:** Earth & Space Science; 1.9.  \n**Explanation:** The stated cycle places winter after fall.  \n**Why the other answers are wrong:** A begins the cycle; B comes before fall; D is the current season.  \n**Key concept:** Predicting seasonal order.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q47",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which object is most likely made from rock or metal taken from Earth?",
+    "options": [
+      "a spoon",
+      "a cloud",
+      "a bird nest",
+      "a sunbeam"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. a spoon**  \n**MAP area / TEKS:** Earth & Space Science; 1.11.  \n**Explanation:** A spoon may be made from metal taken from Earth.  \n**Why the other answers are wrong:** B and D are not solid manufactured objects; C is built mainly from plant material.  \n**Key concept:** Earth materials in products.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q48",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "At 8:00 a.m., the sky is cloudy. At noon, rain falls. What can a student say about the weather?",
+    "options": [
+      "Weather can change during a day.",
+      "Rain can only fall at night.",
+      "Clouds are made of metal.",
+      "Noon always has snow."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. Weather can change during a day.**  \n**MAP area / TEKS:** Earth & Space Science; 1.9–1.11.  \n**Explanation:** The observation changes from cloudy at 8:00 to rainy at noon.  \n**Why the other answers are wrong:** B, C, and D make unsupported or false claims.  \n**Key concept:** Observing weather changes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q49",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Why does a child’s shadow change length during a sunny day?",
+    "options": [
+      "The Sun appears in different places in the sky.",
+      "The child turns into a different size.",
+      "Shadows need water to grow.",
+      "The ground moves under the child."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. The Sun appears in different places in the sky.**  \n**MAP area / TEKS:** Earth & Space Science/Recurring Themes; 1.5, 1.9–1.11.  \n**Explanation:** As the Sun's apparent position changes, the direction and length of shadows change.  \n**Why the other answers are wrong:** B, C, and D do not explain a shadow pattern.  \n**Key concept:** Sky patterns and shadows.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-08-29_20-26_q50",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_systems",
+    "question": "Which choice helps protect a natural resource?",
+    "options": [
+      "Use both sides of a sheet of paper before recycling it.",
+      "Throw clean paper on the ground.",
+      "Leave every light on all day.",
+      "Let clean water run outside."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. Use both sides of a sheet of paper before recycling it.**  \n**MAP area / TEKS:** Earth & Space Science; 1.11.  \n**Explanation:** Using less paper and recycling helps conserve tree resources.  \n**Why the other answers are wrong:** B wastes paper; C wastes energy; D wastes water.  \n**Key concept:** Resource stewardship.\n\n## Coverage Summary\n\n| Grade 1 TEKS / instructional area | Questions |\n|---|---|\n| Scientific and engineering practices: safe tools, investigations, data, evidence, models, engineering (1.1–1.3) | 1–5, 7–8, 41–45 |\n| Recurring themes: patterns, systems/models, cause/effect, structure/function (1.5) | 6, 8–9, 16–17, 35, 44–45, 49 |\n| Physical Science: position, pushes/pulls, heating/cooling and everyday heat (1.6–1.8) | 9–17, 35–40 |\n| Earth & Space Science: seasons, weather/sky observations, Earth materials/resources (1.9–1.11) | 29–34, 46–50 |\n| Life Science: living/nonliving environmental relationships, structures, life cycles, parent-offspring traits (1.12–1.13) | 18–28, 43 |\n\n**Combined-term balance:** BOY 1–17; MOY 18–34; EOY 35–50.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

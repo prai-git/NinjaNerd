@@ -1,0 +1,560 @@
+[
+  {
+    "id": "math_g5_2026-03-26_10-15_q7",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Income and Expense Word Problems",
+    "subtopic": "financial_literacy",
+    "question": "— Income / Multi-step\nLena earns $12.50 per hour at her part-time job. She worked 7 hours on Saturday and 5 hours on Sunday. What were her total earnings for the weekend?",
+    "options": [
+      "$100.00",
+      "$125.00",
+      "$137.50",
+      "$150.00"
+    ],
+    "correctIndex": 3,
+    "explanation": "Add the hours worked (7 + 5 = 12), then multiply by the hourly rate: 12 × $12.50 = **$150.00**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q8",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Income and Expense Word Problems",
+    "subtopic": "financial_literacy",
+    "question": "— Profit / Income and Expense\nA small bakery had $3,840 in income and $2,175 in expenses last month. What was the bakery's profit for the month?",
+    "options": [
+      "$1,565",
+      "$1,665",
+      "$1,765",
+      "$1,865"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subtract total expenses from total income: $3,840 − $2,175 = **$1,665 profit**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q9",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Income and Expense Word Problems",
+    "subtopic": "financial_literacy",
+    "question": "— Budget / Income and Expense\nA family earns $4,500 per month. They pay $1,350 for rent, $675 for food, and $225 for transportation. How much money is left after paying these three expenses?",
+    "options": [
+      "$2,050",
+      "$2,150",
+      "$2,250",
+      "$2,350"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add all expenses ($1,350 + $675 + $225 = $2,250), then subtract from income: $4,500 − $2,250 = **$2,250 remaining**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q10",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Income and Expense Word Problems",
+    "subtopic": "financial_literacy",
+    "question": "— Profit / Income and Expense\nA lemonade stand earned $32.50 on Friday, $47.75 on Saturday, and $29.25 on Sunday. The cost of supplies for all three days was $24.00. What was the **total profit**?",
+    "options": [
+      "$80.50",
+      "$83.50",
+      "$85.50",
+      "$87.50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add all income ($32.50 + $47.75 + $29.25 = $109.50), then subtract the cost of supplies: $109.50 − $24.00 = **$85.50 profit**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q11",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Income and Expense Word Problems",
+    "subtopic": "financial_literacy",
+    "question": "— Net Income / Income and Expense\nDiego earns $18.00 for every lawn he mows. In one week, he mowed 3 lawns on Tuesday, 2 lawns on Thursday, and 4 lawns on Saturday. He spent $15.50 on gas. What was his **net income** for the week?",
+    "options": [
+      "$144.50",
+      "$145.50",
+      "$146.50",
+      "$147.50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Total lawns = 3 + 2 + 4 = 9; earnings = 9 × $18.00 = $162.00; subtract gas cost: $162.00 − $15.50 = **$146.50 net income**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Income and Expense Word Problems",
+    "subtopic": "financial_literacy",
+    "question": "— Percentages / Budget\nA family's monthly income is $5,200. They spend 25% on rent, 12% on groceries, and 8% on utilities. How much money is spent on these three categories **combined**?",
+    "options": [
+      "$2,080",
+      "$2,184",
+      "$2,340",
+      "$2,496"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add all three percentages (25% + 12% + 8% = 45%), then find 45% of $5,200: $5,200 × 0.45 = **$2,340**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Carlos bought a pair of sneakers for $45.00. The store added a tax of $3.60 on top of the price. What type of tax is this?",
+    "options": [
+      "Income Tax",
+      "Payroll Tax",
+      "Sales Tax",
+      "Property Tax"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Answer: C) Sales Tax**\n\n**Work:** Carlos paid an extra $3.60 on a $45.00 purchase at a store — this extra charge added at the point of sale is a sales tax.\n\n**One-sentence explanation:** Sales tax is added to the purchase price of goods and services at the time of the transaction.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Mr. Johnson owns a house. Every year he pays a tax to the local government based on how much his house and land are worth. What type of tax is Mr. Johnson paying?",
+    "options": [
+      "Income Tax",
+      "Sales Tax",
+      "Payroll Tax",
+      "Property Tax"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Answer: D) Property Tax**\n\n**One-sentence explanation:** Property tax is paid by people who own land or buildings, and it is calculated based on the assessed value of that property.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "> **Remember:** Net Income = Gross Income − Income Tax Withheld − Other Deductions\n\nMaria earns a gross income of **$3,200** per month. Her employer withholds **$480** for income tax and **$192** for payroll tax. What is Maria's net income for the month?",
+    "options": [
+      "$2,528",
+      "$2,720",
+      "$3,008",
+      "$2,800"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) $2,528**\n\n**Work:**\n```\nGross Income           =  $3,200\n− Income Tax           −    $480\n− Payroll Tax          −    $192\n                       ─────────\nNet Income             =  $2,528\n```\n\n**One-sentence explanation:** Net income is calculated by subtracting all taxes and deductions from the gross income, giving the actual take-home pay.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "James has a gross weekly income of **$750**. His paycheck shows the following deductions:\n\n| Deduction | Amount |\n|---|---|\n| Federal Income Tax | $90 |\n| Payroll Tax (Social Security & Medicare) | $57 |\n| Health Insurance | $35 |\n\nWhat is James's net income for the week?",
+    "options": [
+      "$568",
+      "$625",
+      "$693",
+      "$603"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) $568**\n\n**Work:**\n```\nGross Income            =  $750\n− Federal Income Tax    −   $90\n− Payroll Tax           −   $57\n− Health Insurance      −   $35\n                        ────────\nNet Income              =  $568\n```\n\n**One-sentence explanation:** All deductions listed on the paycheck — including taxes and health insurance — must be subtracted from gross income to find net income.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Sophia's gross monthly income is **$2,600**. She pays **$364** in income tax and **$156** in payroll tax each month. Which equation can be used to find Sophia's monthly net income?",
+    "options": [
+      "$2,600 + $364 + $156",
+      "$2,600 − $364 − $156",
+      "$2,600 × $364 × $156",
+      "$2,600 ÷ ($364 + $156)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) $2,600 − $364 − $156**\n\n**One-sentence explanation:** The correct equation for net income subtracts all deductions from gross income, so income tax and payroll tax are both subtracted from $2,600.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q7",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Maya wants to buy a book online. She does not have money saved, so she uses a card that lets her buy now and pay later. If she does not pay the full amount when the bill arrives, she will be charged extra money called interest. What payment method is Maya using?",
+    "options": [
+      "Debit Card",
+      "Electronic Bank Transfer",
+      "Credit Card",
+      "Check"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Answer: C) Credit Card**\n\n**One-sentence explanation:** A credit card allows the user to purchase items immediately and pay later, but if the balance is not paid in full, the card company charges interest on the remaining amount.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q8",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Which of the following payment methods charges the buyer **interest** if the balance is not paid in full each month?",
+    "options": [
+      "Debit Card",
+      "Check",
+      "Electronic Payment",
+      "Credit Card"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Answer: D) Credit Card**\n\n**One-sentence explanation:** Only credit cards charge interest when the full balance is not paid by the due date; debit cards, checks, and electronic payments use money you already have.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q9",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Daniel wants to pay his friend back for lunch. He uses a phone app that transfers money directly from his checking account to his friend instantly. No physical card is swiped and no interest is charged. What type of payment is Daniel using?",
+    "options": [
+      "Credit Card",
+      "Debit Card",
+      "Check",
+      "Electronic Payment"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Answer: D) Electronic Payment**\n\n**One-sentence explanation:** Electronic payments (such as Zelle or bank transfers) move money directly from one bank account to another through an app or online platform, with no card swipe or interest charged.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q10",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Look at the situation below and choose the BEST payment method.\n\n> *Grandma lives far away and wants to send her grandson $50 for his birthday. She does not use a smartphone or the internet. She wants to write the payment out by hand and mail it.*",
+    "options": [
+      "Debit Card",
+      "Credit Card",
+      "Check",
+      "Electronic Payment"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Answer: C) Check**\n\n**One-sentence explanation:** A check is the best option for someone who does not use a smartphone or internet and needs to send a written payment by mail.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q11",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Which statement about debit cards is TRUE?",
+    "options": [
+      "A debit card allows you to spend money you have not yet earned",
+      "A debit card charges interest if you do not pay your balance each month",
+      "A debit card withdraws money directly from your bank account when you make a purchase",
+      "A debit card requires you to write your signature on a paper form each time"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Answer: C) A debit card withdraws money directly from your bank account when you make a purchase**\n\n**One-sentence explanation:** A debit card uses money already in your bank account — there is no borrowing, no interest, and no bill to pay later.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "> **Budget** – A plan that shows how much money you earn (income) and how much you plan to spend (expenses). A budget is balanced when income ≥ expenses.\n\nLena's monthly budget is shown below:\n\n| Income | Amount |\n|---|---|\n| Allowance | $120 |\n| Dog-walking job | $60 |\n| **Total Income** | **$180** |\n\n| Expenses | Amount |\n|---|---|\n| School supplies | $25 |\n| Snacks | $30 |\n| Streaming service | $15 |\n| Savings | $40 |\n| **Total Expenses** | **$110** |\n\nHow much money does Lena have left over after all expenses?",
+    "options": [
+      "$60",
+      "$70",
+      "$80",
+      "$90"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) $70**\n\n**Work:**\n```\nTotal Income    = $120 + $60   = $180\nTotal Expenses  = $25 + $30 + $15 + $40 = $110\n\nMoney Left Over = $180 − $110 = $70\n```\n\n**One-sentence explanation:** Subtract total expenses from total income to find the amount remaining after all planned spending and saving.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "> **If expenses are MORE than income**, you must take action to balance your budget. You can: (1) reduce or cut expenses, (2) find ways to earn more income, or (3) both.\n\nKevin's monthly income is **$200**. His monthly expenses total **$235**. By how much do his expenses exceed his income, and what should he do to balance his budget?",
+    "options": [
+      "His expenses exceed his income by $35; he should increase spending",
+      "His expenses exceed his income by $35; he should reduce expenses or earn more income",
+      "His income exceeds his expenses by $35; his budget is already balanced",
+      "His expenses exceed his income by $45; he should borrow money"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) His expenses exceed his income by $35; he should reduce expenses or earn more income**\n\n**Work:**\n```\nExpenses − Income = $235 − $200 = $35 (expenses exceed income)\n```\n\n**One-sentence explanation:** When expenses are greater than income, the budget is unbalanced, and the solution is to either spend less or earn more money.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Emma's monthly budget shows total expenses of **$315** and total income of **$270**. Which action would BEST help Emma balance her budget?",
+    "options": [
+      "Buy more items on credit",
+      "Cancel her $20/month streaming subscription to reduce expenses",
+      "Spend her savings on entertainment",
+      "Ignore the budget because the difference is small"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) Cancel her $20/month streaming subscription to reduce expenses**\n\n**Work:**\n```\nCurrent shortfall = $315 − $270 = $45\nCanceling $20 subscription reduces expenses to $295\nNew shortfall = $295 − $270 = $25 (still helps move toward balance)\n```\n\n**One-sentence explanation:** The best action to balance a budget when expenses exceed income is to reduce spending by cutting non-essential expenses like a subscription service.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q15",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Use the budget table below to answer the question.\n\n| Category | Monthly Amount |\n|---|---|\n| Part-time job income | $350 |\n| Groceries | $80 |\n| Phone bill | $45 |\n| Transportation | $60 |\n| Clothing | $55 |\n| Entertainment | $70 |\n| Savings | $50 |\n\nWhat is the total of all expenses (not including savings), and does the budget balance?",
+    "options": [
+      "Total expenses = $310; budget does NOT balance",
+      "Total expenses = $360; budget does NOT balance",
+      "Total expenses = $310; budget balances",
+      "Total expenses = $260; budget balances"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) Total expenses = $310; budget does NOT balance**\n\n**Work:**\n```\nTotal Expenses (not including savings):\n$80 + $45 + $60 + $55 + $70 = $310\n\nTotal Income = $350\nTotal Outflow (expenses + savings) = $310 + $50 = $360\n\n$360 > $350 → Budget does NOT balance\n```\n\n**One-sentence explanation:** When all expenses and savings are added together ($360) and compared to income ($350), the budget does not balance because spending exceeds earnings by $10.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q16",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "> **Interest** is the extra money you pay when you borrow money (like using a credit card or taking a loan), or the extra money you EARN when you save money in a bank account.\n\nNina put **$500** in a savings account. After one year, the bank paid her **3%** interest on her savings. How much interest did Nina earn?",
+    "options": [
+      "$3.00",
+      "$15.00",
+      "$150.00",
+      "$53.00"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) $15.00**\n\n**Work:**\n```\nInterest = Principal × Rate\nInterest = $500 × 0.03\nInterest = $15.00\n```\n\n**One-sentence explanation:** To calculate simple interest earned on savings, multiply the amount saved (principal) by the interest rate expressed as a decimal.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q17",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Alex used his **credit card** to buy a video game for $60. He did not pay his bill on time, so the credit card company charged him **15%** interest on the balance. How much interest did Alex owe?",
+    "options": [
+      "$6.00",
+      "$9.00",
+      "$15.00",
+      "$0 – debit cards charge interest, not credit cards"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) $9.00**\n\n**Work:**\n```\nInterest = Balance × Rate\nInterest = $60 × 0.15\nInterest = $9.00\n```\n\n**One-sentence explanation:** Credit cards charge interest as a percentage of the unpaid balance, so Alex owes an extra $9.00 on top of the original $60 purchase price.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q18",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "> **College Planning Terms:**\n> - **Tuition** – The cost to attend and take classes at a college\n> - **Grant** – Free money given to a student that does NOT need to be paid back\n> - **Scholarship** – Free money awarded to a student (often for grades or talents) that does NOT need to be paid back\n> - **Remaining Balance** – The amount still owed after all grants and scholarships are applied\n\nAiden plans to attend a university where the annual tuition is **$12,000**. He receives:\n- A grant of **$3,500**\n- A scholarship of **$2,000**\n\nHe plans to earn **40%** of the remaining balance by working a part-time job. How much money will Aiden still need to pay after the grant, scholarship, and his earnings from work?\n\n**Step 1:** Find the remaining balance after the grant and scholarship.\n**Step 2:** Calculate 40% of that remaining balance (amount he will earn).\n**Step 3:** Subtract his earnings from the remaining balance.",
+    "options": [
+      "$3,900",
+      "$6,300",
+      "$3,780",
+      "$4,200"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) $3,900**\n\n**Work:**\n```\nStep 1 – Remaining balance after grant and scholarship:\n   Tuition          = $12,000\n − Grant            =  $3,500\n − Scholarship      =  $2,000\n                    ─────────\n   Remaining        =  $6,500\n\nStep 2 – Amount earned from part-time job (40% of remaining):\n   $6,500 × 0.40 = $2,600\n\nStep 3 – Amount still owed:\n   $6,500 − $2,600 = $3,900\n```\n\n**One-sentence explanation:** Subtract all free money (grants and scholarships) from tuition, then subtract planned earnings to find the remaining amount still owed.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q19",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Priya wants to attend a community college. The total cost per year is **$8,400**. She receives a scholarship of **$1,200** and a grant of **$2,000**. She plans to earn **25%** of the remaining balance by babysitting. How much will Priya still owe after applying her scholarship, grant, and babysitting earnings?",
+    "options": [
+      "$3,825",
+      "$3,900",
+      "$5,200",
+      "$2,600"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) $3,900**\n\n**Work:**\n```\nStep 1 – Remaining balance after scholarship and grant:\n   Total Cost       = $8,400\n − Scholarship      = $1,200\n − Grant            = $2,000\n                    ────────\n   Remaining        = $5,200\n\nStep 2 – Amount earned babysitting (25% of remaining):\n   $5,200 × 0.25 = $1,300\n\nStep 3 – Amount still owed:\n   $5,200 − $1,300 = $3,900\n```\n\n**One-sentence explanation:** After subtracting free funding (scholarship + grant) and planned earnings (25% of what's left), the remaining amount is what still needs to be paid.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-30_16-40_q20",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Personal Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "Marcus earns a gross monthly income of **$1,800**. He pays **$216** in income tax and **$108** in payroll tax each month. After receiving his net income, Marcus uses the following monthly budget:\n\n| Expense | Amount |\n|---|---|\n| Rent | $600 |\n| Food | $200 |\n| Transportation | $100 |\n| Savings | $150 |\n| Entertainment | $80 |\n\nAfter paying all expenses, how much money does Marcus have left over?\n\n\n\n*End of Questions*\n\n*TEKS Alignment: 5.10A, 5.10B, 5.10C, 5.10D, 5.10E, 5.10F*\n*Generated: March 30, 2026*",
+    "options": [
+      "$346",
+      "$454",
+      "$562",
+      "$130"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) $346**\n\n**Work:**\n```\nStep 1 – Calculate Net Income:\n   Gross Income     = $1,800\n − Income Tax       =   $216\n − Payroll Tax      =   $108\n                    ────────\n   Net Income       = $1,476\n\nStep 2 – Calculate Total Expenses:\n   Rent             = $600\n   Food             = $200\n   Transportation   = $100\n   Savings          = $150\n   Entertainment    = $80\n                    ─────\n   Total Expenses   = $1,130\n\nStep 3 – Money Left Over:\n   $1,476 − $1,130 = $346\n```\n\n**One-sentence explanation:** First calculate net income by subtracting taxes, then subtract all monthly expenses from the net income to find what remains.\n\n---\n\n## Answer Summary\n\n| # | Answer | TEKS |\n|---|---|---|\n| 1 | 1-D, 2-C, 3-A, 4-B | 5.10A |\n| 2 | C | 5.10A |\n| 3 | D | 5.10A |\n| 4 | A | 5.10B |\n| 5 | A | 5.10B |\n| 6 | B | 5.10B |\n| 7 | C | 5.10C |\n| 8 | D | 5.10C |\n| 9 | D | 5.10C |\n| 10 | C | 5.10C |\n| 11 | C | 5.10C |\n| 12 | B | 5.10F |\n| 13 | B | 5.10E |\n| 14 | B | 5.10E |\n| 15 | A | 5.10F |\n| 16 | B | 5.10 |\n| 17 | B | 5.10C |\n| 18 | A ($3,900) | 5.10 |\n| 19 | B ($3,900) | 5.10 |\n| 20 | A | 5.10 |\n\n---\n*TEKS Alignment: 5.10A, 5.10B, 5.10C, 5.10D, 5.10E, 5.10F*\n*Generated: March 30, 2026*",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q38",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "question": "— Gross vs. Net Income\nJordan earns a **gross income of $2,400 per month**. His employer deducts **$312 for income tax** and **$144 for payroll tax**. What is Jordan's monthly **net income**?",
+    "options": [
+      "$1,834",
+      "$1,944",
+      "$2,088",
+      "$2,256"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $1,944\n\n**Step-by-step:**\n**Net Income = Gross Income − Income Tax − Payroll Tax**\n\n- Gross income: $2,400\n- Income tax deduction: −$312\n- Payroll tax deduction: −$144\n- Total deductions: $312 + $144 = **$456**\n\n**Net income = $2,400 − $456 = $1,944**\n\n**Why other answers are wrong:**\n- A) $1,834 — subtracts an incorrect total of $566 (arithmetic error)\n- C) $2,088 — only subtracts one deduction: $2,400 − $312 = $2,088 (misses payroll tax)\n- D) $2,256 — only subtracts payroll tax: $2,400 − $144 = $2,256 (misses income tax)\n\n**Key concept:**\n- **Gross income** = total earned before deductions\n- **Net income** = take-home pay after ALL deductions are subtracted\n- **Payroll tax** funds Social Security and Medicare\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q26",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy (Extra Coverage)",
+    "subtopic": "financial_literacy",
+    "question": "— Net Income: Two Jobs + Multiple Deductions\nMs. Chen works two jobs. She earns **$2,100 per month** as a nurse's aide and **$650 per month** as a weekend caregiver. Her monthly deductions are:\n\n| Deduction | Amount |\n|-----------|--------|\n| Federal Income Tax | $378 |\n| Payroll Tax | $207 |\n| Health Insurance | $125 |\n\nWhat is Ms. Chen's monthly **net income**?",
+    "options": [
+      "$1,915",
+      "$2,040",
+      "$2,165",
+      "$2,372"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $2,040\n\n**Step-by-step:**\nStep 1 — Total gross income:\n- $2,100 + $650 = **$2,750**\n\nStep 2 — Total deductions:\n- $378 + $207 + $125 = **$710**\n\nStep 3 — Net income:\n- $2,750 − $710 = **$2,040**\n\n**Why other answers are wrong:**\n- A) $1,915 — subtracts only two of the three deductions ($378 + $207 = $585; $2,750 − $835 = $1,915... actually $2,750-$835=$1,915 which means one deduction is off)\n- C) $2,165 — uses gross of $2,750 and subtracts only $585 (skips health insurance)\n- D) $2,372 — subtracts only income tax: $2,750 − $378 = $2,372\n\n**Key concepts:**\n- **Gross income** = ALL money earned (all jobs combined)\n- **Net income** = Gross − ALL deductions (taxes + benefits)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q27",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy (Extra Coverage)",
+    "subtopic": "financial_literacy",
+    "question": "— Budget Deficit\nDiego's monthly budget is shown below.\n\n| Income | Amount |\n|--------|--------|\n| Part-time job | $380 |\n\n| Expenses | Amount |\n|----------|--------|\n| Transportation | $85 |\n| School supplies | $42 |\n| Food | $135 |\n| Entertainment | $75 |\n| Savings goal | $60 |\n\nBy how much do Diego's **expenses exceed** his income?",
+    "options": [
+      "$17",
+      "$22",
+      "$60",
+      "$397"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → $17\n\n**Step-by-step:**\nStep 1 — Total expenses:\n- $85 + $42 + $135 + $75 + $60 = **$397**\n\nStep 2 — Compare to income:\n- Income = $380\n- Expenses = $397\n- Deficit = $397 − $380 = **$17**\n\nDiego's expenses exceed his income by $17. He needs to either earn $17 more per month or reduce expenses by $17.\n\n**Why other answers are wrong:**\n- B) $22 surplus — reverses income/expenses and uses wrong numbers\n- C) $22 deficit — arithmetic error in adding expenses\n- D) $60 deficit — confuses the savings goal ($60) with the deficit\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q28",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy (Extra Coverage)",
+    "subtopic": "financial_literacy",
+    "question": "— Restaurant Bill with Tax and Tip\nA family's restaurant bill is **$56.00**. The restaurant charges **7% sales tax** and the family plans to leave a **15% tip** calculated on the original bill (before tax). What is the **total bill** including both the tax and the tip?",
+    "options": [
+      "$59.92",
+      "$68.32",
+      "$67.40",
+      "$72.32"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $68.32\n\n**Step-by-step:**\nStep 1 — Calculate sales tax (7% of $56):\n- 0.07 × $56 = **$3.92**\n\nStep 2 — Calculate tip (15% of $56, before tax):\n- 0.15 × $56 = **$8.40**\n\nStep 3 — Total bill:\n- $56.00 + $3.92 + $8.40 = **$68.32**\n\n**Why other answers are wrong:**\n- A) $59.92 — adds only the tax: $56 + $3.92 = $59.92 (forgets the tip)\n- C) $67.40 — adds only the tip: $56 + $8.40 = $64.40... or uses 13% total (arithmetic error)\n- D) $72.32 — uses 7% tip and 15% tax (swaps percentages)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q29",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy (Extra Coverage)",
+    "subtopic": "financial_literacy",
+    "question": "— Net Income with Percentage Deductions\nRafael earns **$13.50 per hour** and worked **40 hours** last week. His employer deducts **15% for income tax** and **8% for payroll tax**. What is Rafael's **net income** for the week?",
+    "options": [
+      "$415.80",
+      "$459.00",
+      "$480.60",
+      "$496.80"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → $415.80\n\n**Step-by-step:**\nStep 1 — Gross income:\n- $13.50 × 40 hours = **$540.00**\n\nStep 2 — Income tax (15% of $540):\n- 0.15 × $540 = **$81.00**\n\nStep 3 — Payroll tax (8% of $540):\n- 0.08 × $540 = **$43.20**\n\nStep 4 — Net income:\n- $540.00 − $81.00 − $43.20 = **$415.80**\n\n**Verification:** Total deductions = $81 + $43.20 = $124.20; $540 − $124.20 = $415.80 ✓\n\n**Why other answers are wrong:**\n- B) $459.00 — subtracts only income tax: $540 − $81 = $459\n- C) $480.60 — subtracts only payroll tax: $540 − $43.20 = $496.80... arithmetic error\n- D) $496.80 — subtracts only payroll tax: $540 − $43.20 = $496.80\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q30",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy (Extra Coverage)",
+    "subtopic": "financial_literacy",
+    "question": "— Property Tax vs. Income Tax Comparison\nMr. Williams owns a house valued at **$180,000**. The annual property tax rate is **2%** of the property's value. His annual gross income is **$48,000**, and he pays **18%** in income tax. How much **more** does Mr. Williams pay in income tax than in property tax each year?",
+    "options": [
+      "$3,600",
+      "$5,040",
+      "$8,640",
+      "$12,240"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → $5,040\n\n**Step-by-step:**\nStep 1 — Annual property tax:\n- 2% × $180,000 = 0.02 × $180,000 = **$3,600**\n\nStep 2 — Annual income tax:\n- 18% × $48,000 = 0.18 × $48,000 = **$8,640**\n\nStep 3 — Difference:\n- $8,640 − $3,600 = **$5,040**\n\n**Why other answers are wrong:**\n- A) $3,600 — this is only the property tax amount\n- C) $8,640 — this is only the income tax amount\n- D) $12,240 — adds instead of subtracts the two tax amounts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

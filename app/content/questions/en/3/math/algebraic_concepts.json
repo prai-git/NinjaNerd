@@ -1,0 +1,290 @@
+[
+  {
+    "id": "math_g3_2026-08-29_23-09_q11",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4B — round whole numbers**\n\nA theater sold 647 tickets. What is 647 rounded to the nearest hundred?",
+    "options": [
+      "$600$",
+      "$640$",
+      "$650$",
+      "$700$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.4B\n\n**Worked solution:** In 647, the tens digit is 4. Because 4 is less than 5, round down to $600$.\n\n**Why other answers are wrong:** B and C are not numbers rounded to the nearest hundred; D is 700, which is farther from 647 than 600 is.\n\n**Key concept:** Rounding to the nearest hundred\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q12",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4F — multiplication facts**\n\nThere are 7 rows of 8 seedlings. Which equation finds the total number of seedlings?",
+    "options": [
+      "$7+8=15$",
+      "$8-7=1$",
+      "$7\times8=56$",
+      "$56\\div8=9$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.4F\n\n**Worked solution:** Seven equal rows of eight are 7 groups of 8, or $7\times8=56$.\n\n**Why other answers are wrong:** A adds only one row and one column; B is subtraction; D is a division statement and gives the wrong quotient.\n\n**Key concept:** Multiplication facts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q13",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4F — division facts**\n\nFifty-four buttons are packed equally into 6 jars. How many buttons are in each jar?",
+    "options": [
+      "$8$",
+      "$9$",
+      "$48$",
+      "$60$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.4F\n\n**Worked solution:** Equal sharing means division: $54\\div6=9$. Each jar holds 9 buttons.\n\n**Why other answers are wrong:** A is one too few; C is the number left after subtracting one group; D is greater than the total per group.\n\n**Key concept:** Division facts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q14",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4E — represent multiplication with arrays**\n\nWhich array represents $4\times6$?",
+    "options": [
+      "4 rows of 6 tiles",
+      "4 tiles with 6 left over",
+      "6 rows of 4 and 6 extra tiles",
+      "4 groups sharing 6 tiles"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.4E\n\n**Worked solution:** An array for $4\times6$ has 4 equal rows with 6 tiles in each row.\n\n**Why other answers are wrong:** B includes no equal groups; C adds extra tiles; D describes sharing, not an array.\n\n**Key concept:** Arrays as multiplication models\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q15",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4I — relationship between multiplication and division**\n\nWhich division equation is related to $9\times5=45$?",
+    "options": [
+      "$45\\div9=5$",
+      "$45+9=54$",
+      "$45-5=40$",
+      "$9\\div5=4$ remainder $4$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.4I\n\n**Worked solution:** A related division fact uses the product 45: $45\\div9=5$.\n\n**Why other answers are wrong:** B is addition; C is subtraction; D does not give the related fact and has the wrong quotient.\n\n**Key concept:** Inverse relationship of multiplication and division\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q16",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4K [R] — two-step multiplication and addition problem**\n\nA craft table has 6 boxes with 7 markers in each box. Then 5 loose markers are added. How many markers are at the table?",
+    "options": [
+      "$42$",
+      "$47$",
+      "$49$",
+      "$77$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.4K [R]\n\n**Worked solution:** First find markers in boxes: $6\times7=42$. Add 5 loose markers: $42+5=47$.\n\n**Why other answers are wrong:** A stops after the first step; C incorrectly adds 7; D adds the number of boxes and markers rather than multiplying.\n\n**Key concept:** Two-step problem with multiplication and addition\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q17",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4A [R] — addition and subtraction word problem**\n\nLena read 185 pages on Saturday and 126 pages on Sunday. Her goal was 350 pages. How many more pages does she need?",
+    "options": [
+      "$39$",
+      "$49$",
+      "$165$",
+      "$661$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.4A [R]\n\n**Worked solution:** Lena read $185+126=311$ pages. Her remaining goal is $350-311=39$ pages.\n\n**Why other answers are wrong:** B results from a calculation error; C is close to one day’s pages; D adds instead of finding what remains.\n\n**Key concept:** Two-step addition/subtraction\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q18",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4C — money and place-value strategies**\n\nWhich group of bills and coins has a value of $\\$47$?",
+    "options": [
+      "4 ten-dollar bills and 7 one-dollar bills",
+      "4 five-dollar bills and 7 dimes",
+      "4 ten-dollar bills and 7 quarters",
+      "47 one-dollar bills and 7 dimes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.4C\n\n**Worked solution:** Four ten-dollar bills are $40$, and seven one-dollar bills are $7$. $40+$7=$47$.\n\n**Why other answers are wrong:** B is $20.70$; C is $41.75$; D is $47.70$.\n\n**Key concept:** Value of money\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q19",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4H — determine an unknown in an equation**\n\nWhat value makes the equation true? $8\times\\Box=56$",
+    "options": [
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.4H\n\n**Worked solution:** Use the related fact $8\times7=56$, so the missing number is 7.\n\n**Why other answers are wrong:** A gives $8\times6=48$; C gives 64; D gives 72.\n\n**Key concept:** Unknown factor\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q20",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.4J — properties and strategies for multiplication**\n\nWhich expression has the same value as $6\times7$?",
+    "options": [
+      "$6\times(5+2)$",
+      "$6+(5+2)$",
+      "$(6+5)\times2$",
+      "$7\times(6-1)$"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.4J\n\n**Worked solution:** $6\times(5+2)=6\times7=42$, the same as $6\times7$.\n\n**Why other answers are wrong:** B equals 13; C equals 22; D equals 35.\n\n**Key concept:** Distributive property\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q22",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.5A [R] — represent and solve problem situations**\n\nMilo has 4 packs of 9 trading cards. He gives 6 cards away. Which equation can be used to find the number, $c$, of cards he has left?",
+    "options": [
+      "$c=4+9-6$",
+      "$c=4\times9-6$",
+      "$c=9\\div4+6$",
+      "$c=4\times(9-6)$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.5A [R]\n\n**Worked solution:** Four packs of 9 make $4\times9$. Giving away 6 means subtract 6, so $c=4\times9-6$.\n\n**Why other answers are wrong:** A adds packs rather than finding cards in equal packs; C starts with unrelated division; D subtracts before multiplying.\n\n**Key concept:** Representing a problem with an equation\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q23",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.5B [R] — solve with a strip diagram/equation**\n\nA strip diagram shows a total of 63 split into 7 equal parts. Which equation finds the size of one part?",
+    "options": [
+      "$63+7=\\Box$",
+      "$63-7=\\Box$",
+      "$63\times7=\\Box$",
+      "$63\\div7=\\Box$"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D\n\n**TEKS:** 3.5B [R]\n\n**Worked solution:** A total of 63 divided into 7 equal parts is $63\\div7$.\n\n**Why other answers are wrong:** A adds; B subtracts only one group; C makes a much larger product.\n\n**Key concept:** Division strip diagram\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q24",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.5C — multiplicative comparison**\n\nNora picked 5 shells. Omar picked 3 times as many shells as Nora. Which statement is true?",
+    "options": [
+      "Omar picked 8 shells.",
+      "Omar picked 15 shells.",
+      "Nora picked 15 shells.",
+      "Omar picked 2 shells."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.5C\n\n**Worked solution:** “3 times as many as 5” means $3\times5=15$.\n\n**Why other answers are wrong:** A adds instead of multiplying; C gives Nora’s amount incorrectly; D subtracts 3 from 5.\n\n**Key concept:** Multiplicative comparison\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q25",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.5E [R] — describe patterns in a table**\n\nThe table follows a rule.\n\n|Input|2|4|6|8|\n|---:|---:|---:|---:|\n|Output|6|12|18|24|\n\nWhat is the rule?",
+    "options": [
+      "Add 4",
+      "Add 6",
+      "Multiply by 2",
+      "Multiply by 3"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D\n\n**TEKS:** 3.5E [R]\n\n**Worked solution:** Each output is 3 times its input: $2\times3=6$, $4\times3=12$, and so on.\n\n**Why other answers are wrong:** A and B are addition rules that fail for later pairs; C would make 2 become 4, not 6.\n\n**Key concept:** Input-output patterns\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q26",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.5E [R] — number pairs and points on a number line**\n\nThe points $A$, $B$, and $C$ are equally spaced on a number line. $A=120$ and $C=160$. What number is at $B$?",
+    "options": [
+      "$130$",
+      "$140$",
+      "$150$",
+      "$280$"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.5E [R]\n\n**Worked solution:** The distance from 120 to 160 is 40. Three equally spaced points create two equal intervals, so each interval is 20. $120+20=140$.\n\n**Why other answers are wrong:** A and C do not make equal intervals; D adds the endpoints.\n\n**Key concept:** Equal intervals on a number line\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-08-29_23-09_q27",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
+    "subtopic": "algebraic_concepts",
+    "question": "**TEKS 3.5D [R] — unknown factor**\n\nWhich value makes $\\Box\times6=48$ true?",
+    "options": [
+      "$6$",
+      "$7$",
+      "$8$",
+      "$42$"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.5D [R]\n\n**Worked solution:** Since $8\times6=48$, the unknown factor is 8.\n\n**Why other answers are wrong:** A gives 36; B gives 42; D is the product after subtracting 6.\n\n**Key concept:** Unknown factor\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

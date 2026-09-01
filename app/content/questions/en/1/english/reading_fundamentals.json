@@ -1,0 +1,596 @@
+[
+  {
+    "id": "english_g1_2026-08-29_20-26_q1",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which word begins with the same sound as **sun**?",
+    "options": [
+      "map",
+      "sock",
+      "top",
+      "rug"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. sock**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(ii).  \n**Explanation:** *Sun* and *sock* begin with the /s/ sound.  \n**Why the other answers are wrong:** A *map* begins /m/; C *top* begins /t/; D *rug* begins /r/.  \n**Key concept:** Initial phoneme.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q2",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Say the sounds `/s/ /t/ /o/ /p/` slowly. Which word do the sounds make?",
+    "options": [
+      "spot",
+      "step",
+      "stop",
+      "stone"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. stop**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(v).  \n**Explanation:** Blend the four sounds in order: /s/ /t/ /o/ /p/ = *stop*.  \n**Why the other answers are wrong:** A has an extra /p/ sound; B has /e/ rather than /o/; D has extra sounds.  \n**Key concept:** Blending phonemes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q3",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which word rhymes with **train**?",
+    "options": [
+      "chain",
+      "trim",
+      "trunk",
+      "bright"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. chain**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(i).  \n**Explanation:** *Train* and *chain* end with the same /ān/ sound.  \n**Why the other answers are wrong:** B ends /im/; C ends /unk/; D ends /īt/.  \n**Key concept:** Rhyme.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q4",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which word has a **short a** sound?",
+    "options": [
+      "cake",
+      "rain",
+      "lamp",
+      "play"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. lamp**  \n**MAP area / TEKS:** Reading Foundations; 1.2A(iii).  \n**Explanation:** The *a* in *lamp* says its short sound, /ă/.  \n**Why the other answers are wrong:** A, B, and D each have a long *a* sound, not a short *a* sound.  \n**Key concept:** Short-vowel recognition.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q5",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which word has a **long i** sound spelled with a silent *e*?",
+    "options": [
+      "kit",
+      "kite",
+      "kick",
+      "kind"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. kite**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(iii).  \n**Explanation:** In *kite*, the final silent *e* makes *i* say /ī/.  \n**Why the other answers are wrong:** A has short i; C has short i; D has short i in this word.  \n**Key concept:** VCe long-vowel pattern.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q6",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which word begins with the **sh** sound and rhymes with **hop**?",
+    "options": [
+      "ship",
+      "chip",
+      "shop",
+      "whip"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. shop**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(ii).  \n**Explanation:** *Shop* begins /sh/ and rhymes with *hop*.  \n**Why the other answers are wrong:** A begins /sh/ but does not rhyme; B begins /ch/; D begins /wh/.  \n**Key concept:** Digraph decoding and rhyme.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q7",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which word has a beginning blend?",
+    "options": [
+      "frog",
+      "fan",
+      "fig",
+      "fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. frog**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(ii).  \n**Explanation:** *Frog* starts with /f/ and /r/ together, a consonant blend.  \n**Why the other answers are wrong:** B, C, and D each begin with one consonant sound.  \n**Key concept:** Initial consonant blends.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q8",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Read the sentence.\n\n> The small bird **hopped** onto the fence.\n\nWhat does **hopped** mean?",
+    "options": [
+      "will hop later",
+      "is hopping now",
+      "hopped before now",
+      "cannot hop"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. hopped before now**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(v).  \n**Explanation:** The ending *-ed* shows the bird hopped in the past.  \n**Why the other answers are wrong:** A is future tense; B is present-progressive; D changes the meaning.  \n**Key concept:** Inflectional ending *-ed*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q9",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which two words make the compound word **sunset**?",
+    "options": [
+      "sun + set",
+      "sunny + set",
+      "sun + sit",
+      "summer + set"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. sun + set**  \n**MAP area / TEKS:** Reading Foundations; 1.2B(iv).  \n**Explanation:** Joining *sun* and *set* makes the compound word *sunset*.  \n**Why the other answers are wrong:** B, C, and D do not join to spell *sunset*.  \n**Key concept:** Compound words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q10",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Reading Foundations",
+    "subtopic": "reading_fundamentals",
+    "question": "Which list is in alphabetical order?",
+    "options": [
+      "ant, ape, bat",
+      "bat, ant, ape",
+      "ape, bat, ant",
+      "ant, bat, ape"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. ant, ape, bat**  \n**MAP area / TEKS:** Reading Foundations; 1.2E.  \n**Explanation:** *Ant* comes before *ape* because *n* comes before *p*; both come before *bat*.  \n**Why the other answers are wrong:** B, C, and D place at least one word out of alphabetical order.  \n**Key concept:** Alphabetizing to the second letter.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q18",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Why did Mina put the jar outside?",
+    "options": [
+      "She wanted to catch a bug.",
+      "She wanted to measure rain.",
+      "She wanted to make lemonade.",
+      "She wanted to water a plant."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. She wanted to measure rain.**  \n**MAP area / TEKS:** Literary Text; 1.8B.  \n**Explanation:** The first sentence says Mina wanted to know how much rain fell.  \n**Why the other answers are wrong:** A, C, and D are never given as Mina's purpose.  \n**Key concept:** Character motivation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q19",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which action shows that Mina is careful?",
+    "options": [
+      "She went to sleep.",
+      "She smiled at Grandad.",
+      "She marked the water line before pouring.",
+      "She put the jar outside."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. She marked the water line before pouring.**  \n**MAP area / TEKS:** Literary Text; 1.8B.  \n**Explanation:** Marking the level preserves information so Mina can compare rain.  \n**Why the other answers are wrong:** A and D are ordinary events; B does not show careful measuring.  \n**Key concept:** Character action and trait.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q20",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What was Mina's problem in the story?",
+    "options": [
+      "She did not know how to use her notes.",
+      "She wanted to learn how much rain had fallen.",
+      "She could not find a jar.",
+      "She wanted the next day to be rainy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. She wanted to learn how much rain had fallen.**  \n**MAP area / TEKS:** Literary Text; 1.8C.  \n**Explanation:** This goal starts the story and Mina solves it by marking the water line.  \n**Why the other answers are wrong:** A is untrue; C is not a problem; D is not Mina's stated goal.  \n**Key concept:** Story problem.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q21",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which event happened **last**?",
+    "options": [
+      "Mina made a line on the jar.",
+      "Mina put out a jar.",
+      "Mina saw water in the jar.",
+      "Mina checked the jar on the sunny day."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer: D. Mina checked the jar on the sunny day.**  \n**MAP area / TEKS:** Literary Text; 1.8C.  \n**Explanation:** The sunny-day check happens after Mina set out and marked the jar.  \n**Why the other answers are wrong:** A, B, and C occurred the night before or the following morning.  \n**Key concept:** Sequence of events.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q22",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What can the reader infer about Grandad?",
+    "options": [
+      "He helps Mina learn from her observations.",
+      "He does not like rainy days.",
+      "He wants Mina to throw away the jar.",
+      "He forgot why Mina put out the jar."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. He helps Mina learn from her observations.**  \n**MAP area / TEKS:** Literary Text; 1.6F.  \n**Explanation:** Grandad tells Mina to mark the line, which makes her observation useful.  \n**Why the other answers are wrong:** B, C, and D are not supported by what he says or does.  \n**Key concept:** Inference with text evidence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q23",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What is the setting at the beginning of the story?\n\n\n\n### Read the original poem. Then answer Questions 24–26.\n\n### Puddle Parade\n\nBoots go **splash** on the sidewalk gray.  \nSmall clouds scoot, then drift away.  \nA puddle holds a silver sky.  \nMy red umbrella marches by.",
+    "options": [
+      "inside a library during lunch",
+      "outside Mina's home before bedtime",
+      "at a zoo in the afternoon",
+      "in a classroom during a snowstorm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. outside Mina's home before bedtime**  \n**MAP area / TEKS:** Literary Text; 1.8D.  \n**Explanation:** Mina puts the jar outside “before bedtime,” establishing place and time.  \n**Why the other answers are wrong:** A, C, and D are settings not found in the story.  \n**Key concept:** Setting.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q24",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which two words rhyme in the poem?",
+    "options": [
+      "boots and clouds",
+      "gray and away",
+      "puddle and silver",
+      "red and my"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. gray and away**  \n**MAP area / TEKS:** Literary Text; 1.9B.  \n**Explanation:** Both words end with the /ā/ sound.  \n**Why the other answers are wrong:** A, C, and D do not have matching ending sounds.  \n**Key concept:** Rhyme in poetry.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q25",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What does the word **splash** help the reader imagine?",
+    "options": [
+      "the sound boots make in water",
+      "the color of the umbrella",
+      "the size of the sidewalk",
+      "the time of day"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. the sound boots make in water**  \n**MAP area / TEKS:** Literary Text; 1.9B.  \n**Explanation:** *Splash* is a sound word for stepping in a puddle.  \n**Why the other answers are wrong:** B, C, and D are not sounds suggested by *splash*.  \n**Key concept:** Sound words in poetry.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q26",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What does the poet mean by “My red umbrella **marches** by”?\n\n\n\n### Read this practical reading material. Then answer Questions 27–29.\n\n### Library Book Return Tag\n\n**Book:** *Moon Mice*  \n**Return by:** Friday, October 9  \n**Put the book:** In the blue return slot  \n**If the book is wet:** Give it to the librarian",
+    "options": [
+      "The umbrella is in a parade by itself.",
+      "The umbrella moves along as the speaker walks.",
+      "The umbrella is made of soldiers.",
+      "The umbrella is standing still."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. The umbrella moves along as the speaker walks.**  \n**MAP area / TEKS:** Literary Text; 1.10D.  \n**Explanation:** The poet uses *marches* to make the moving umbrella vivid.  \n**Why the other answers are wrong:** A and C take the words literally; D contradicts “marches.”  \n**Key concept:** Visualizing an author's word choice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q27",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Where should a dry copy of *Moon Mice* be returned?",
+    "options": [
+      "on a red table",
+      "in the blue return slot",
+      "at a bookstore",
+      "under a chair"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. in the blue return slot**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** The tag directly gives this location for the book.  \n**Why the other answers are wrong:** A, C, and D are not return locations on the tag.  \n**Key concept:** Locating information in a practical text.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q28",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Why is “If the book is wet” printed on the tag?",
+    "options": [
+      "to tell how to get a library card",
+      "to explain what to do in a special case",
+      "to give the book's title",
+      "to show the book's author"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. to explain what to do in a special case**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** The tag gives a different action if the book is wet.  \n**Why the other answers are wrong:** A is not discussed; C is elsewhere; D is not included.  \n**Key concept:** Purpose of a text feature.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q29",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Literary Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which task must happen before the due date?",
+    "options": [
+      "Return *Moon Mice*.",
+      "Buy a blue slot.",
+      "Make the book wet.",
+      "Change the librarian's name."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. Return *Moon Mice*.**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** “Return by Friday, October 9” gives a required deadline.  \n**Why the other answers are wrong:** B, C, and D are not directions on the tag.  \n**Key concept:** Using a due-date detail.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q30",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What is the main topic of the article?",
+    "options": [
+      "how bats live and help",
+      "how moths build homes",
+      "why caves are dark",
+      "why people need umbrellas"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. how bats live and help**  \n**MAP area / TEKS:** Informational Text; 1.9D(i).  \n**Explanation:** The article explains bats' nighttime habits, food, resting places, and help with insects.  \n**Why the other answers are wrong:** B, C, and D are much narrower or unrelated.  \n**Key concept:** Main topic.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q31",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which detail tells when many bats wake up?",
+    "options": [
+      "when the sun is going down",
+      "when plants are growing",
+      "when lights turn off",
+      "when caves are empty"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. when the sun is going down**  \n**MAP area / TEKS:** Informational Text; 1.9D(i).  \n**Explanation:** The article defines dusk as the time when the sun is going down.  \n**Why the other answers are wrong:** B, C, and D are not given as bats' waking time.  \n**Key concept:** Key detail.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q32",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What does **dusk** mean in the article?",
+    "options": [
+      "early morning",
+      "the time near evening",
+      "the middle of the night",
+      "lunchtime"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. the time near evening**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3B.  \n**Explanation:** The words “sun is going down” explain *dusk*.  \n**Why the other answers are wrong:** A is morning; C is later; D is midday.  \n**Key concept:** Context clue.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q33",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which heading helps the reader find information about ways bats help people?",
+    "options": [
+      "Bats at Night",
+      "A Helpful Habit",
+      "Moon Mice",
+      "Library Book Return Tag"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. A Helpful Habit**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** That section explains that bats eat insects and can help people.  \n**Why the other answers are wrong:** A focuses on night behavior; C and D are unrelated titles.  \n**Key concept:** Using headings.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q34",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which statement is supported by the article?",
+    "options": [
+      "Every bat eats only fruit.",
+      "Bats rest only in caves.",
+      "Many bats eat insects.",
+      "Bats cannot turn in the air."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. Many bats eat insects.**  \n**MAP area / TEKS:** Informational Text; 1.7C.  \n**Explanation:** The first paragraph states this exact fact.  \n**Why the other answers are wrong:** A says every bat; B says only caves; D contradicts the article.  \n**Key concept:** Text evidence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q35",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Why did the author include examples of caves, hollow trees, and bat houses?\n\n\n\n### Read the two original sources. Then answer Questions 36–40.\n\n### Source A: Park Sign\n\n**Bird-Watching Walk**  \nSaturday, 9:00–10:00 a.m.  \nMeet at the oak tree by the pond.  \nBring quiet feet and listening ears.  \nLook, but do not touch nests or eggs.\n\n### Source B: Note from a Young Bird Watcher\n\nI saw three gray ducks near the pond. I stayed still, and one duck dipped its head under the water. I wanted to get closer, but I remembered that wild animals need space. I drew the ducks in my notebook when I got home.",
+    "options": [
+      "to name places where bats can rest",
+      "to tell where people sleep",
+      "to explain how insects fly",
+      "to list kinds of weather"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. to name places where bats can rest**  \n**MAP area / TEKS:** Informational Text; 1.9D(i).  \n**Explanation:** Caves, hollow trees, and bat houses are listed as safe resting places.  \n**Why the other answers are wrong:** B, C, and D do not match the examples.  \n**Key concept:** Supporting details.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q36",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "What should a child bring on the bird-watching walk?",
+    "options": [
+      "a loud whistle",
+      "quiet feet and listening ears",
+      "a net for catching birds",
+      "food for ducklings"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. quiet feet and listening ears**  \n**MAP area / TEKS:** Informational Text; 1.9D(ii).  \n**Explanation:** Source A gives those exact directions for the walk.  \n**Why the other answers are wrong:** A would disturb birds; C and D are not listed and could harm wildlife.  \n**Key concept:** Reading a sign.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q37",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Why did the writer of Source B stay still?",
+    "options": [
+      "The writer was taking a nap.",
+      "The writer wanted the ducks to feel safe.",
+      "The writer could not find the pond.",
+      "The writer was waiting for breakfast."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. The writer wanted the ducks to feel safe.**  \n**MAP area / TEKS:** Literary Text; 1.6F.  \n**Explanation:** The writer stayed still and says wild animals need space.  \n**Why the other answers are wrong:** A, C, and D have no support in Source B.  \n**Key concept:** Inference.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q38",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "How are both sources alike?",
+    "options": [
+      "Both tell people to touch nests.",
+      "Both are about caring for birds while watching them.",
+      "Both describe a bird that can talk.",
+      "Both give directions for drawing a pond."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. Both are about caring for birds while watching them.**  \n**MAP area / TEKS:** Informational Text; 1.6H.  \n**Explanation:** The sign says not to touch nests, and the note says animals need space.  \n**Why the other answers are wrong:** A is the opposite; C is invented; D is only in Source B.  \n**Key concept:** Synthesizing paired sources.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q39",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "Which source would best answer, “What time does the walk begin?”",
+    "options": [
+      "Source A, because it gives a schedule.",
+      "Source A, because it tells a made-up story.",
+      "Source B, because it gives a schedule.",
+      "Source B, because it lists supplies."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. Source A, because it gives a schedule.**  \n**MAP area / TEKS:** Informational Text; 1.13C.  \n**Explanation:** Source A prints “Saturday, 9:00–10:00 a.m.”  \n**Why the other answers are wrong:** B mislabels the sign; C and D misdescribe Source B.  \n**Key concept:** Selecting a relevant source.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q40",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Informational Text",
+    "subtopic": "reading_fundamentals",
+    "question": "A class wants to learn which birds live near its school pond. Which source would be the best first choice?",
+    "options": [
+      "a book about birds with labeled pictures",
+      "a comic about a superhero bird",
+      "a menu from a restaurant",
+      "a pretend story about space"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. a book about birds with labeled pictures**  \n**MAP area / TEKS:** Informational Text; 1.13C.  \n**Explanation:** A nonfiction bird book is relevant and labeled pictures help identify birds.  \n**Why the other answers are wrong:** B and D are pretend texts; C is unrelated.  \n**Key concept:** Choosing a useful inquiry source.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

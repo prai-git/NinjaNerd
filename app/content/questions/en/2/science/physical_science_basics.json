@@ -1,0 +1,218 @@
+[
+  {
+    "id": "science_g2_2026-08-29_23-09_q11",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science—MAP spiral foundation | TEKS 2.1B,2.5E*\n\nA bar magnet is near four objects. Which may move toward it?",
+    "options": [
+      "A rubber band",
+      "A plastic button",
+      "A steel paper clip",
+      "A wooden craft stick"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. A steel paper clip  \n**MAP instructional area / TEKS:** Physical Science—MAP spiral foundation — TEKS 2.1B,2.5E  \n**Explanation:** The question tests **magnets**. The given evidence or condition supports “A steel paper clip,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “A rubber band” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “A plastic button” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “A wooden craft stick” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Magnets.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q12",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.6A*\n\nA cup holds juice and cheese is on a plate. Which comparison is correct?",
+    "options": [
+      "Both keep the cup’s shape",
+      "Juice is solid because it has color",
+      "Cheese is liquid because it can be cut",
+      "Juice is liquid and cheese is solid"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Juice is liquid and cheese is solid  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.6A  \n**Explanation:** The question tests **solid and liquid**. The given evidence or condition supports “Juice is liquid and cheese is solid,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Both keep the cup’s shape” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Juice is solid because it has color” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Cheese is liquid because it can be cut” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Solid and liquid.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q13",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science—MAP spiral foundation | TEKS 2.1B,2.5E*\n\nA child blows air into a balloon. Which statement describes the air?",
+    "options": [
+      "It is a gas that takes the balloon’s shape",
+      "It is solid because the balloon grows",
+      "It is liquid because it is colorless",
+      "It is not matter"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. It is a gas that takes the balloon’s shape  \n**MAP instructional area / TEKS:** Physical Science—MAP spiral foundation — TEKS 2.1B,2.5E  \n**Explanation:** The question tests **gas**. The given evidence or condition supports “It is a gas that takes the balloon’s shape,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “It is solid because the balloon grows” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “It is liquid because it is colorless” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “It is not matter” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Gas.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q14",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.6A,2.5C*\n\nW bends into a U, X cracks, Y does not bend, and Z bends a little. Which is most flexible?",
+    "options": [
+      "Strip Z",
+      "Strip W",
+      "Strip X",
+      "Strip Y"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Strip W  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.6A,2.5C  \n**Explanation:** The question tests **flexibility**. The given evidence or condition supports “Strip W,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Strip Z” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Strip X” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Strip Y” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Flexibility.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q15",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science—MAP spiral foundation | TEKS 2.1B,2.6A*\n\nA jar has rice, beads, and buttons. Which tool separates buttons from smaller pieces?",
+    "options": [
+      "A flashlight",
+      "A tuning fork",
+      "A sieve with holes smaller than buttons",
+      "A thermometer"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. A sieve with holes smaller than buttons  \n**MAP instructional area / TEKS:** Physical Science—MAP spiral foundation — TEKS 2.1B,2.6A  \n**Explanation:** The question tests **mixtures**. The given evidence or condition supports “A sieve with holes smaller than buttons,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “A flashlight” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “A tuning fork” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “A thermometer” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Mixtures.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q16",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.7A*\n\nTwo soft clay balls bump and each gets a flat spot. Why?",
+    "options": [
+      "They became liquids",
+      "The table removed color",
+      "Only living things change shape",
+      "They pushed on each other and changed shape"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. They pushed on each other and changed shape  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.7A  \n**Explanation:** The question tests **collisions**. The given evidence or condition supports “They pushed on each other and changed shape,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “They became liquids” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “The table removed color” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Only living things change shape” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Collisions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q17",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.7B*\n\nWhich test shows how push strength changes a toy truck’s motion?",
+    "options": [
+      "Use gentle, medium, and strong pushes on one floor",
+      "Use different trucks and floors",
+      "Move the start line and do not push",
+      "Change truck colors"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Use gentle, medium, and strong pushes on one floor  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.7B  \n**Explanation:** The question tests **push tests**. The given evidence or condition supports “Use gentle, medium, and strong pushes on one floor,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “Use different trucks and floors” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Move the start line and do not push” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Change truck colors” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Push tests.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q18",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.8A*\n\nA drummer taps a drumhead and rice grains jump. What explains this?",
+    "options": [
+      "Rice makes the drum heavier",
+      "The drumhead vibrates and moves the grains",
+      "Rice turns into sound",
+      "The drumhead stops moving"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. The drumhead vibrates and moves the grains  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.8A  \n**Explanation:** The question tests **sound vibration**. The given evidence or condition supports “The drumhead vibrates and moves the grains,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Rice makes the drum heavier” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Rice turns into sound” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “The drumhead stops moving” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Sound vibration.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q19",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.8B*\n\nWhich sound level is best for an alarm in a noisy hallway?",
+    "options": [
+      "No sound",
+      "A soft hum",
+      "A loud alarm",
+      "A whisper"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. A loud alarm  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.8B  \n**Explanation:** The question tests **sound levels**. The given evidence or condition supports “A loud alarm,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “No sound” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “A soft hum” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “A whisper” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Sound levels.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q20",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.8C*\n\nTwo students far apart need a sound message without shouting. What helps?",
+    "options": [
+      "A ruler flat on grass",
+      "A sealed box",
+      "Paper on ground",
+      "A cup-and-string telephone with a tight string"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. A cup-and-string telephone with a tight string  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.8C  \n**Explanation:** The question tests **sound device**. The given evidence or condition supports “A cup-and-string telephone with a tight string,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “A ruler flat on grass” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “A sealed box” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Paper on ground” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Sound device.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q21",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.6B*\n\nA rectangle of foil is folded into a boat. Which statement is true?",
+    "options": [
+      "It changed shape but is still foil",
+      "It became water",
+      "It stopped being matter",
+      "It can never be reshaped"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. It changed shape but is still foil  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.6B  \n**Explanation:** The question tests **physical changes**. The given evidence or condition supports “It changed shape but is still foil,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “It became water” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “It stopped being matter” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “It can never be reshaped” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Physical changes.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q22",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science",
+    "subtopic": "physical_science_basics",
+    "question": "*MAP Instructional Area: Physical Science | TEKS 2.6B*\n\nMelted chocolate is put in a refrigerator. What is best predicted?",
+    "options": [
+      "It disappears",
+      "It cools and becomes more solid",
+      "It heats into a gas",
+      "It becomes a different food"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. It cools and becomes more solid  \n**MAP instructional area / TEKS:** Physical Science — TEKS 2.6B  \n**Explanation:** The question tests **cooling**. The given evidence or condition supports “It cools and becomes more solid,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “It disappears” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “It heats into a gas” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “It becomes a different food” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Cooling.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

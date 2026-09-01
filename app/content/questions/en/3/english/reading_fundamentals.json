@@ -1,0 +1,758 @@
+[
+  {
+    "id": "english_g3_2026-08-29_23-09_q1",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.3B [R] — vocabulary in context**\n\nWhat does **release** mean as it is used in the first paragraph?",
+    "options": [
+      "to let go",
+      "to catch quickly",
+      "to hide safely",
+      "to grow taller"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.3B [R]\n\n**Explanation and text evidence:** Flowers “release a sweet smell,” so the smell is let go from the flower.\n\n**Why other answers are wrong:** B means catch, C means hide, and D means grow; none fits a smell leaving a flower.\n\n**Key concept:** Context clues\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q2",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6G [R] — central idea and supporting details**\n\nWhat is the central idea of the selection?",
+    "options": [
+      "All moths live in deserts.",
+      "Desert plants and gardeners use ways to handle dry conditions.",
+      "Rocks are heavier than soil.",
+      "Every flower opens at night."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6G [R]\n\n**Explanation and text evidence:** The moth-and-flower relationship and the gardeners’ water-saving choices both explain how desert plants handle dry conditions.\n\n**Why other answers are wrong:** A is too narrow, C is one detail, and D is disproved by “some flowers open.”\n\n**Key concept:** Central idea\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q3",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6F [R] — text evidence**\n\nWhich sentence best supports the idea that moths help desert plants?",
+    "options": [
+      "“Many desert plants rest during the hottest part of the day.”",
+      "“The smell helps moths find the flowers in the dark.”",
+      "“The rocks shade the soil and slow the loss of water.”",
+      "“Gardeners also choose plants with thick stems or waxy leaves.”"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6F [R]\n\n**Explanation and text evidence:** The text says the smell helps moths find flowers, then explains that pollen can cling to a moth and be left at another flower.\n\n**Why other answers are wrong:** A tells when plants rest; C and D concern gardeners, not moths.\n\n**Key concept:** Text evidence\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q4",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.8B [R] — informational text features**\n\nWhich feature would best help a reader understand where pollen sticks to a moth?",
+    "options": [
+      "a diagram of a moth visiting a flower",
+      "a list of chapter titles",
+      "a map of Texas counties",
+      "a timeline of a gardener’s day"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.8B [R]\n\n**Explanation and text evidence:** A labeled diagram could show pollen sticking to a moth’s body as it visits a flower.\n\n**Why other answers are wrong:** B organizes chapters, C gives locations, and D gives a sequence; none shows pollen transfer.\n\n**Key concept:** Informational text features\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q5",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6H [R] — inference**\n\nWhy might a gardener place rocks around a desert plant?",
+    "options": [
+      "To make the plant grow flowers at noon",
+      "To help the soil keep water longer",
+      "To give moths a place to sleep",
+      "To turn pollen into nectar"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6H [R]\n\n**Explanation and text evidence:** The article says rocks “shade the soil and slow the loss of water,” which supports the inference.\n\n**Why other answers are wrong:** A changes flower timing, C invents a moth purpose, and D reverses pollen and nectar.\n\n**Key concept:** Inference\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q6",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.3C — prefix and suffix meaning**\n\nThe word **careful** means “full of care.” What does the suffix **-ful** mean in this word?",
+    "options": [
+      "without",
+      "full of",
+      "before",
+      "again"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3C\n\n**Explanation and text evidence:** In **careful**, **-ful** means “full of”; a careful person is full of care.\n\n**Why other answers are wrong:** A is the meaning of -less, C is pre-, and D is re-.\n\n**Key concept:** Suffix meaning\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q7",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6I [R] — summarize**\n\nWhich is the best summary of the selection?",
+    "options": [
+      "Moths are yellow insects that live near rocks.",
+      "Desert flowers can use moths for pollination, and gardeners choose features that help plants save water.",
+      "Gardeners only plant flowers that open at night.",
+      "Rocks, stems, leaves, seeds, and nectar are all parts of a desert."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6I [R]\n\n**Explanation and text evidence:** B includes both key ideas: moth pollination and plant/gardener strategies for holding water.\n\n**Why other answers are wrong:** A and C are too narrow; D is a list, not a summary.\n\n**Key concept:** Summarizing\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q8",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 1 — Informational Text: *The Night Shift at the Desert Garden*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.11C — research sources**\n\nWhich source would most likely give reliable information about a plant’s water needs?",
+    "options": [
+      "a botanic garden’s plant-care guide",
+      "an advertisement for a skateboard",
+      "a friend’s made-up story",
+      "a comic book about space"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.11C\n\n**Explanation and text evidence:** A botanic garden’s care guide is produced by an expert organization and is relevant to water needs.\n\n**Why other answers are wrong:** B is an advertisement, C is invented, and D is entertainment.\n\n**Key concept:** Reliable sources\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q9",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.7C [R] — character and conflict**\n\nWhat problem does Elian face?",
+    "options": [
+      "He cannot find the creek trail.",
+      "The bridge is closed before he can hang the lanterns there.",
+      "His friends do not like lanterns.",
+      "The festival begins in the morning."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.7C [R]\n\n**Explanation and text evidence:** The “CLOSED—LOOSE BOARD” sign prevents Elian from hanging lanterns on the bridge.\n\n**Why other answers are wrong:** A is false, C is not stated, and D conflicts with the first sentence.\n\n**Key concept:** Conflict\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q10",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6H [R] — inference**\n\nWhat can the reader infer about Elian after he sees the closed sign?",
+    "options": [
+      "He is ready to quit immediately.",
+      "He is worried that the festival plan will fail.",
+      "He wants the bridge painted.",
+      "He does not care about the festival."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6H [R]\n\n**Explanation and text evidence:** Elian says everyone will be disappointed after reading the sign, showing he worries about the festival plan.\n\n**Why other answers are wrong:** A is contradicted by his solution; C is unrelated; D is contradicted by his concern.\n\n**Key concept:** Inference about character\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q11",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.7A [R] — theme**\n\nWhich theme is best supported by the story?",
+    "options": [
+      "Plans always work the first time.",
+      "A problem can lead to a creative solution.",
+      "Only adults can fix a community problem.",
+      "Festivals should happen near bridges."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.7A [R]\n\n**Explanation and text evidence:** Elian responds to the closed bridge by finding a safe, creative alternative with the fence posts.\n\n**Why other answers are wrong:** A is disproved by the sign; C is disproved by Elian’s work; D is a setting detail.\n\n**Key concept:** Theme\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q12",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9D [R] — figurative language**\n\nWhat does the phrase “the glowing path” help the reader picture?",
+    "options": [
+      "A dark path lit by lanterns",
+      "A path covered with water",
+      "A path that leads under the bridge",
+      "A path painted with yellow stripes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9D [R]\n\n**Explanation and text evidence:** Lanterns light the path at sunset, so “glowing path” creates an image of light on a dark path.\n\n**Why other answers are wrong:** B adds water, C changes the location, and D invents paint.\n\n**Key concept:** Imagery\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q13",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.7B [R] — plot events**\n\nWhich event happens **after** Ms. Rivera speaks with Elian?",
+    "options": [
+      "Elian carries a box to the creek trail.",
+      "Elian reads the closed sign.",
+      "Elian and his friends hang lanterns between fence posts.",
+      "Families begin arriving at sunset."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.7B [R]\n\n**Explanation and text evidence:** After Ms. Rivera speaks, Elian and his friends hang lanterns between the fence posts.\n\n**Why other answers are wrong:** A and B happen before her advice; D happens after the lanterns are hung.\n\n**Key concept:** Sequence\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q14",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9C — point of view**\n\nThe story is told by a narrator who describes Elian’s thoughts and actions. Which point of view is used?",
+    "options": [
+      "first person",
+      "third person",
+      "second person",
+      "a poem speaker"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.9C\n\n**Explanation and text evidence:** The narrator calls Elian “he” and tells about his thoughts and actions, which is third person.\n\n**Why other answers are wrong:** A uses “I,” C addresses “you,” and D is a genre rather than point of view.\n\n**Key concept:** Point of view\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q15",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.3B — synonym**\n\nWhich word is closest in meaning to **sturdy** as used to describe the fence posts?",
+    "options": [
+      "strong",
+      "tiny",
+      "shiny",
+      "crooked"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.3B\n\n**Explanation and text evidence:** The posts are described as sturdy because they are strong enough to support lanterns.\n\n**Why other answers are wrong:** B, C, and D describe different qualities, not strength.\n\n**Key concept:** Synonym\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q16",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 2 — Literary Fiction: *The Quiet Bridge*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.10C — revise for clarity**\n\nWhich sentence would best replace “Everyone will be disappointed” to show Elian’s worry more clearly?",
+    "options": [
+      "Elian was a person at the creek.",
+      "Elian worried that people might miss the lanterns at the festival.",
+      "The sign was a sign with letters.",
+      "The bridge had wood on it."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10C\n\n**Explanation and text evidence:** B precisely explains that Elian fears people may miss the lanterns at the festival.\n\n**Why other answers are wrong:** A, C, and D are vague or repeat unhelpful details.\n\n**Key concept:** Revision for clarity\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q17",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.8A — literary nonfiction characteristics**\n\nWhich detail shows that this selection is literary nonfiction?",
+    "options": [
+      "It tells a true personal experience using “I.”",
+      "It has dragons who repair radios.",
+      "It gives steps for building a robot.",
+      "It rhymes at the end of every line."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.8A\n\n**Explanation and text evidence:** The first-person true personal experience and reflection are features of literary nonfiction.\n\n**Why other answers are wrong:** B is fantasy, C is procedural text, and D is poetry.\n\n**Key concept:** Literary nonfiction\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q18",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6F [R] — text evidence**\n\nWhich sentence best shows that the narrator changed during the experience?",
+    "options": [
+      "“I carried my broken radio to the repair café at the community center.”",
+      "“I did not expect so many people to be sharing ideas.”",
+      "“At first, I wanted someone else to fix the radio.”",
+      "“I made a list of other things our family could repair instead of replacing.”"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D\n\n**TEKS:** 3.6F [R]\n\n**Explanation and text evidence:** The final list of things to repair shows the narrator’s new willingness to fix items rather than replace them.\n\n**Why other answers are wrong:** A gives setting, B gives surprise, and C shows the earlier attitude.\n\n**Key concept:** Evidence of change\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q19",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6H [R] — inference**\n\nWhy did the narrator probably make a list on the walk home?",
+    "options": [
+      "The narrator now wanted to repair more items.",
+      "The narrator forgot where the community center was.",
+      "The narrator wanted to sell the radio.",
+      "The narrator needed more batteries."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.6H [R]\n\n**Explanation and text evidence:** Feeling proud after helping fix the radio and making a repair list support that inference.\n\n**Why other answers are wrong:** B, C, and D are not supported by the final paragraph.\n\n**Key concept:** Inference\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q20",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.3B [R] — multiple-meaning word**\n\nWhat does **cover** mean in “I snapped the battery cover into place”?",
+    "options": [
+      "to hide something with a blanket",
+      "a part that closes over an opening",
+      "to travel across a distance",
+      "to sing a new version of a song"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3B [R]\n\n**Explanation and text evidence:** A battery cover is the piece that closes over the battery opening; “snapped ... into place” gives the clue.\n\n**Why other answers are wrong:** A, C, and D are different meanings of **cover**.\n\n**Key concept:** Multiple-meaning word\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q21",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9A [R] — author’s purpose**\n\nWhat is the author’s main purpose for writing this selection?",
+    "options": [
+      "To explain a personal experience that taught a lesson",
+      "To prove that radios are better than books",
+      "To give a list of every tool ever made",
+      "To persuade readers never to recycle"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9A [R]\n\n**Explanation and text evidence:** The author tells a personal repair-café experience and the lesson it taught.\n\n**Why other answers are wrong:** B is not argued, C is not a complete list, and D is the opposite of the final decision.\n\n**Key concept:** Author’s purpose\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q22",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6I [R] — retell key events**\n\nWhich sequence best retells the important events?",
+    "options": [
+      "The radio played; the narrator went home; the narrator visited the café.",
+      "The narrator took a radio to a café, tried repairs with help, and decided to repair more items.",
+      "A neighbor bought a radio; a volunteer made a list; the narrator sang.",
+      "The narrator repaired everything at home before visiting the café."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.6I [R]\n\n**Explanation and text evidence:** B correctly orders the visit, repair attempt with help, and decision to repair more items.\n\n**Why other answers are wrong:** A is out of order, C invents events, and D reverses the sequence.\n\n**Key concept:** Retell/summarize\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q23",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 3 — Literary Nonfiction: *My First Repair Café*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.2A — collaborative discussion**\n\nWhich response best builds on the volunteer’s idea, “Try one small step, then another”?",
+    "options": [
+      "“That idea makes me think I can check the battery cover first.”",
+      "“I will not listen to any ideas.”",
+      "“Your idea is wrong because tools are loud.”",
+      "“I want to change the subject.”"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.2B\n\n**Explanation and text evidence:** A adds a relevant small first step and responds respectfully to the volunteer’s advice.\n\n**Why other answers are wrong:** B rejects ideas, C is unsupported and disrespectful, and D changes the subject.\n\n**Key concept:** Collaborative discussion\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q24",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.8A — poetry characteristics**\n\nHow is this selection organized?",
+    "options": [
+      "into stanzas and lines",
+      "into scenes and stage directions",
+      "into a recipe and steps",
+      "into headings and captions"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.8A\n\n**Explanation and text evidence:** The poem consists of two stanzas made of lines.\n\n**Why other answers are wrong:** B describes drama, C a procedure, and D informational features.\n\n**Key concept:** Poetry structure\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q25",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9D [R] — personification**\n\nWhich words give clouds a human action?",
+    "options": [
+      "“Clouds crowd close”",
+      "“tin roof floor”",
+      "“silver ribbon”",
+      "“wet world”"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9D [R]\n\n**Explanation and text evidence:** “Clouds crowd close” gives clouds the human-like action of crowding.\n\n**Why other answers are wrong:** The remaining choices name or describe things without a human action.\n\n**Key concept:** Personification\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q26",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9D [R] — simile**\n\nWhat does “sidewalks shine **like river streams**” mean?",
+    "options": [
+      "The sidewalks are becoming rivers.",
+      "The wet sidewalks look shiny and flowing.",
+      "River streams are made of sidewalks.",
+      "The sidewalks are dry and dusty."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.9D [R]\n\n**Explanation and text evidence:** The simile compares wet, shiny sidewalks to flowing river streams.\n\n**Why other answers are wrong:** A treats the comparison literally, C reverses it, and D contradicts “wet” and “shine.”\n\n**Key concept:** Simile\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q27",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9D — sound devices**\n\nThe words “tap-tap-tap” mainly help the reader —",
+    "options": [
+      "hear the sound of rain",
+      "see the color of clouds",
+      "taste the puddles",
+      "count the roots"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9D\n\n**Explanation and text evidence:** “Tap-tap-tap” imitates raindrops hitting a roof, appealing to hearing.\n\n**Why other answers are wrong:** B, C, and D identify effects that the sound word does not create.\n\n**Key concept:** Onomatopoeia\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q28",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.7A [R] — poem’s message**\n\nWhat is one message of the poem?",
+    "options": [
+      "Rain can make ordinary places seem lively and bright.",
+      "Rain always ruins outdoor plans.",
+      "Trees cannot bend in wind.",
+      "Afternoons are the darkest time of day."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.7A [R]\n\n**Explanation and text evidence:** Lively rain, wind, sunlight, and shining sidewalks show rain making an ordinary scene bright.\n\n**Why other answers are wrong:** B, C, and D are not supported by the poem.\n\n**Key concept:** Poem’s message\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q29",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.3B — antonym**\n\nWhich word is an antonym for **thirsty** as it describes the roots?",
+    "options": [
+      "dry",
+      "wet",
+      "hungry",
+      "small"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3B\n\n**Explanation and text evidence:** Thirsty roots need water; **wet** is the opposite condition.\n\n**Why other answers are wrong:** A is related to thirst, C is another need, and D gives size.\n\n**Key concept:** Antonym\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q30",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 4 — Poem: *Rain on the Tin Roof*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9C [R] — word choice and mood**\n\nHow do words such as “gleams” and “shine” affect the mood of the last two lines?",
+    "options": [
+      "They create a cheerful, hopeful mood.",
+      "They create a frightening mood.",
+      "They create a sleepy mood.",
+      "They create an angry mood."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9C [R]\n\n**Explanation and text evidence:** “Gleams” and “shine” create bright, positive images, making the ending hopeful.\n\n**Why other answers are wrong:** B, C, and D do not fit those positive words.\n\n**Key concept:** Word choice and mood\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q31",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9E(i) [R] — claim**\n\nWhat is the author’s main claim?",
+    "options": [
+      "Students should vote on one Friday recess game.",
+      "Morning meeting should last all day.",
+      "The principal should choose every game alone.",
+      "Recess should be canceled on Fridays."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9E(i) [R]\n\n**Explanation and text evidence:** The first sentence directly states that students should vote on one Friday recess game.\n\n**Why other answers are wrong:** B is a supporting detail; C is the opposite claim; D is not argued.\n\n**Key concept:** Claim\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q32",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9E(ii) [R] — reasons and evidence**\n\nWhich reason does the author give to support the claim?",
+    "options": [
+      "A vote can help students share ideas.",
+      "Every game needs new equipment.",
+      "Morning meeting should be longer.",
+      "Students do not like recess."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.9E(ii) [R]\n\n**Explanation and text evidence:** The author supports voting by saying students can share ideas and try unfamiliar games.\n\n**Why other answers are wrong:** B is not required, C is not argued, and D contradicts the author.\n\n**Key concept:** Reasons and evidence\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q33",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9E(iii) [R] — counterargument and response**\n\nHow does the author respond to the idea that voting would take too much time?",
+    "options": [
+      "The author says recess should be shorter.",
+      "The author gives a quick tally-mark plan.",
+      "The author says students should not vote.",
+      "The author changes the topic to lunch."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.9E(iii) [R]\n\n**Explanation and text evidence:** The author responds to the time concern by proposing a quick tally-mark plan.\n\n**Why other answers are wrong:** A changes the plan, C gives the opposite response, and D ignores the concern.\n\n**Key concept:** Counterargument/rebuttal\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q34",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.9E(iv) — fact and opinion**\n\nWhich sentence from the selection is an opinion?",
+    "options": [
+      "“A vote would give students a chance to share ideas.”",
+      "“Each class could place one tally mark beside its choice.”",
+      "“The principal could announce the game before lunch.”",
+      "“Adults should still make sure the game is safe.”"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.9E(iv)\n\n**Explanation and text evidence:** Calling the vote “fair” is a judgment people can disagree about, so it is an opinion.\n\n**Why other answers are wrong:** A and B are calendar facts; D is a checkable definition.\n\n**Key concept:** Fact versus opinion\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q35",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.10B [R] — transitions and organization**\n\nWhy does the author use the word **However** at the start of the second paragraph?",
+    "options": [
+      "To show a contrast with a concern",
+      "To list the first step in order",
+      "To tell when recess begins",
+      "To define a difficult word"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.10B [R]\n\n**Explanation and text evidence:** **However** signals a contrast between the time concern and the author’s response.\n\n**Why other answers are wrong:** B signals order, C signals time, and D signals definition.\n\n**Key concept:** Transition words\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q36",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selection 5 — Argumentative Text: *Let Students Help Choose a Recess Game*",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.10A — composition: effective conclusion**\n\nWhich conclusion best supports the author’s argument?",
+    "options": [
+      "Friday is a day that comes after Thursday.",
+      "A short, safe voting plan can give students a fair say in a recess game.",
+      "Many schools have buildings and hallways.",
+      "Tally marks look like lines on paper."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10A\n\n**Explanation and text evidence:** B restates the claim and brings together safety, fairness, and the short plan.\n\n**Why other answers are wrong:** A and C are irrelevant; D is a minor detail, not a conclusion.\n\n**Key concept:** Effective conclusion\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q37",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selections 6A and 6B — Paired Passages",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6H [R] — compare texts**\n\nWhat idea is shared by both passages?",
+    "options": [
+      "People can share books through a small book box.",
+      "All book boxes must be blue.",
+      "Only adults may use book boxes.",
+      "Book boxes should be kept inside buses."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.6H [R]\n\n**Explanation and text evidence:** Both selections describe neighbors sharing books through a small outdoor book box.\n\n**Why other answers are wrong:** B is only in Passage B; C and D are unsupported.\n\n**Key concept:** Compare texts\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q38",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selections 6A and 6B — Paired Passages",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.8B — text structure/genre**\n\nHow is Passage B different from Passage A?",
+    "options": [
+      "Passage B tells a personal experience in letter form.",
+      "Passage B gives only facts in a chart.",
+      "Passage B is a poem with rhyme.",
+      "Passage B is a drama with stage directions."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.8B\n\n**Explanation and text evidence:** Passage B has a greeting and closing and tells Imani’s personal experience, so it is a letter.\n\n**Why other answers are wrong:** B describes a chart, C a poem, and D a drama.\n\n**Key concept:** Genre characteristics\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q39",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selections 6A and 6B — Paired Passages",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.6G [R] — synthesize information**\n\nWhat can a reader conclude from both passages?",
+    "options": [
+      "A book box can grow its collection when neighbors participate.",
+      "Book boxes should contain only mystery books.",
+      "Walkers cannot use books from a box.",
+      "All books in a box belong to one person."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.6G [R]\n\n**Explanation and text evidence:** Passage A explains sharing, and Passage B shows the box gaining many books; together, these show participation can grow the collection.\n\n**Why other answers are wrong:** B is too narrow, C is false, and D contradicts the sharing rule.\n\n**Key concept:** Synthesis\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q40",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selections 6A and 6B — Paired Passages",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.3C — word parts**\n\nThe prefix **re-** means “again.” What does **reuse** mean?",
+    "options": [
+      "to use something again",
+      "to stop using something",
+      "to make something smaller",
+      "to use something for the first time"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.3C\n\n**Explanation and text evidence:** The prefix **re-** means “again,” so **reuse** means to use something again. Reusing a book box or an item keeps it in use.\n\n**Why other answers are wrong:** B means stop using, C means make smaller, and D means use for the first time; none matches the meaning of **re-**.\n\n**Key concept:** Prefix meaning\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q41",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selections 6A and 6B — Paired Passages",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.11A [R] — research question**\n\nWhich question would be best for researching whether a tiny free library is useful in a neighborhood?",
+    "options": [
+      "How many books are borrowed or shared each month?",
+      "What is the funniest book title ever?",
+      "Which neighbor has the longest name?",
+      "What color is the bus stop?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.11A [R]\n\n**Explanation and text evidence:** Borrowing/sharing counts provide evidence about whether the library is useful.\n\n**Why other answers are wrong:** B is an opinion question; C and D are irrelevant.\n\n**Key concept:** Research question\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-08-29_23-09_q42",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Selections 6A and 6B — Paired Passages",
+    "subtopic": "reading_fundamentals",
+    "question": "**TEKS 3.11D [R] — paraphrase and sources**\n\nWhich sentence best paraphrases Passage A without copying it?",
+    "options": [
+      "A tiny free library lets neighbors exchange books in a small outdoor box.",
+      "“Take a book; share a book.”",
+      "A tiny free library is a weatherproof box where people may take a book or leave a book.",
+      "Books travel from one reader to another."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A\n\n**TEKS:** 3.11D [R]\n\n**Explanation and text evidence:** A states Passage A’s main idea in new words without copying its sentence.\n\n**Why other answers are wrong:** B, C, and D copy wording from the passage.\n\n**Key concept:** Paraphrasing\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

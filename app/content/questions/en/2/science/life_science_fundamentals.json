@@ -1,0 +1,236 @@
+[
+  {
+    "id": "science_g2_2026-08-29_23-09_q32",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.12A*\n\nGarden P gets regular rain and plants. Q gets little rain and fewer plants. What is best?",
+    "options": [
+      "Rain turns plants into animals",
+      "All places have equal plants",
+      "Plants need no water",
+      "Rainfall can affect plants an environment supports"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Rainfall can affect plants an environment supports  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.12A  \n**Explanation:** The question tests **rainfall ecosystems**. The given evidence or condition supports “Rainfall can affect plants an environment supports,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Rain turns plants into animals” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “All places have equal plants” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Plants need no water” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Rainfall ecosystems.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q33",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.12A,2.5D*\n\nA pond has water, reeds, insects, and frogs. If water dries up, what is likely?",
+    "options": [
+      "Frogs may lose habitat and move",
+      "Reeds become rocks",
+      "Insects stop needing food",
+      "Mud becomes the Moon"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Frogs may lose habitat and move  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.12A,2.5D  \n**Explanation:** The question tests **habitats**. The given evidence or condition supports “Frogs may lose habitat and move,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “Reeds become rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Insects stop needing food” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Mud becomes the Moon” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Habitats.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q34",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.12B*\n\nIn grass → rabbit → fox, which organism is the producer?",
+    "options": [
+      "All three",
+      "Grass",
+      "Rabbit",
+      "Fox"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Grass  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.12B  \n**Explanation:** The question tests **food chains**. The given evidence or condition supports “Grass,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “All three” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Rabbit” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Fox” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Food chains.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q35",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.12C*\n\nA bee moves pollen between sunflowers. How does this help?",
+    "options": [
+      "It ends plants’ need for water",
+      "It changes soil into sunlight",
+      "It can help flowers make seeds",
+      "It turns flowers into bees"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. It can help flowers make seeds  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.12C  \n**Explanation:** The question tests **pollination**. The given evidence or condition supports “It can help flowers make seeds,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “It ends plants’ need for water” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “It changes soil into sunlight” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “It turns flowers into bees” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Pollination.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q36",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.12C*\n\nDandelion seeds have fluffy parts and travel on wind. Why?",
+    "options": [
+      "Seeds make wind",
+      "The parent becomes a seed",
+      "Seeds grow only on parents",
+      "Wind moves seeds to new places"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Wind moves seeds to new places  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.12C  \n**Explanation:** The question tests **seed dispersal**. The given evidence or condition supports “Wind moves seeds to new places,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Seeds make wind” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “The parent becomes a seed” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Seeds grow only on parents” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Seed dispersal.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q37",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13A*\n\nA cactus has wide shallow roots. How can this help after rain?",
+    "options": [
+      "Take in surface water quickly",
+      "Fly to a wetter place",
+      "Make rocks",
+      "Hear underground sounds"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. Take in surface water quickly  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13A  \n**Explanation:** The question tests **plant structures**. The given evidence or condition supports “Take in surface water quickly,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “Fly to a wetter place” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Make rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Hear underground sounds” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Plant structures.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q38",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13A*\n\nWhich plant part is matched correctly to its job?",
+    "options": [
+      "Fruits hold plants upright",
+      "Leaves take in sunlight for making food",
+      "Flowers pull water from soil",
+      "Roots catch insects in air"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Leaves take in sunlight for making food  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13A  \n**Explanation:** The question tests **plant functions**. The given evidence or condition supports “Leaves take in sunlight for making food,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Fruits hold plants upright” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Flowers pull water from soil” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Roots catch insects in air” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Plant functions.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q39",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13B*\n\nAn anteater has a long sticky tongue. How does it help?",
+    "options": [
+      "Grow leaves",
+      "Become a bird",
+      "Collect insects for food",
+      "Make rain"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. Collect insects for food  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13B  \n**Explanation:** The question tests **animal structures**. The given evidence or condition supports “Collect insects for food,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Grow leaves” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Become a bird” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “Make rain” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Animal structures.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q40",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13B*\n\nA young sea turtle crawls toward ocean light after hatching. What does it help do?",
+    "options": [
+      "Change into a plant",
+      "Stop needing air",
+      "Make ocean brighter",
+      "Reach its water habitat"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Reach its water habitat  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13B  \n**Explanation:** The question tests **animal behavior**. The given evidence or condition supports “Reach its water habitat,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Change into a plant” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Stop needing air” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Make ocean brighter” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Animal behavior.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q41",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13C*\n\nPrairie dogs give alarm calls when a hawk flies overhead. How can the group help?",
+    "options": [
+      "One warning can help others find safety",
+      "It makes the hawk smaller",
+      "It removes need for food",
+      "It changes grass into water"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer:** A. One warning can help others find safety  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13C  \n**Explanation:** The question tests **animal groups**. The given evidence or condition supports “One warning can help others find safety,” which directly applies the aligned Grade 2 standard. Therefore, **A** is the best answer.  \n**Why other answers are wrong:**\n- **A.** This is correct because it matches both the evidence and the science concept.\n- **B.** “It makes the hawk smaller” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “It removes need for food” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “It changes grass into water” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Animal groups.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q42",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13D*\n\nWhich order shows a frog life cycle?",
+    "options": [
+      "Egg → adult → tadpole → froglet",
+      "Egg → tadpole → froglet → adult",
+      "Tadpole → egg → adult → froglet",
+      "Adult → tadpole → egg → froglet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer:** B. Egg → tadpole → froglet → adult  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13D  \n**Explanation:** The question tests **frog life cycle**. The given evidence or condition supports “Egg → tadpole → froglet → adult,” which directly applies the aligned Grade 2 standard. Therefore, **B** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Egg → adult → tadpole → froglet” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** This is correct because it matches both the evidence and the science concept.\n- **C.** “Tadpole → egg → adult → froglet” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** “Adult → tadpole → egg → froglet” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Frog life cycle.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q43",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.13D,2.5G*\n\nA caterpillar and butterfly look different. Which is true?",
+    "options": [
+      "Butterflies grow from rocks",
+      "A caterpillar never changes",
+      "They are stages of one animal’s life cycle",
+      "A caterpillar is a baby bird"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer:** C. They are stages of one animal’s life cycle  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.13D,2.5G  \n**Explanation:** The question tests **butterfly life cycle**. The given evidence or condition supports “They are stages of one animal’s life cycle,” which directly applies the aligned Grade 2 standard. Therefore, **C** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Butterflies grow from rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “A caterpillar never changes” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** This is correct because it matches both the evidence and the science concept.\n- **D.** “A caterpillar is a baby bird” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Butterfly life cycle.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-08-29_23-09_q44",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science",
+    "subtopic": "life_science_fundamentals",
+    "question": "*MAP Instructional Area: Life Science | TEKS 2.12A,2.2C*\n\nTwo habitats have equal lizards. Which better supports lizards?",
+    "options": [
+      "Habitat S, where lizards need no food",
+      "Both are identical",
+      "Neither has rocks",
+      "Habitat R, with shelter and food"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct answer:** D. Habitat R, with shelter and food  \n**MAP instructional area / TEKS:** Life Science — TEKS 2.12A,2.2C  \n**Explanation:** The question tests **ecosystem needs**. The given evidence or condition supports “Habitat R, with shelter and food,” which directly applies the aligned Grade 2 standard. Therefore, **D** is the best answer.  \n**Why other answers are wrong:**\n- **A.** “Habitat S, where lizards need no food” is not supported by the question’s evidence or does not apply the required science idea.\n- **B.** “Both are identical” is not supported by the question’s evidence or does not apply the required science idea.\n- **C.** “Neither has rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- **D.** This is correct because it matches both the evidence and the science concept.\n**Key concept:** Ecosystem needs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

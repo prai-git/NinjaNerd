@@ -1,0 +1,128 @@
+[
+  {
+    "id": "english_g1_2026-08-29_20-26_q11",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Read the sentence.\n\n> The kitten was **tiny**, so it could curl up inside Maya's hat.\n\nWhat does **tiny** mean?",
+    "options": [
+      "very small",
+      "very noisy",
+      "very hungry",
+      "very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. very small**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3B.  \n**Explanation:** A kitten that fits inside a hat must be very small.  \n**Why the other answers are wrong:** B, C, and D are not clues supplied by the sentence.  \n**Key concept:** Context clues.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q12",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Read the sentence.\n\n> Put your backpack **beside** your chair, not on top of it.\n\nWhere should the backpack go?",
+    "options": [
+      "under the chair",
+      "next to the chair",
+      "behind the chair",
+      "inside the chair"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. next to the chair**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3D.  \n**Explanation:** *Beside* means next to.  \n**Why the other answers are wrong:** A is below; C is behind; D is impossible and not beside.  \n**Key concept:** Position word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q13",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Which picture dictionary page would help Ana find the meaning of **acorn**?",
+    "options": [
+      "a page about animals",
+      "a page about trees and plants",
+      "a page about music",
+      "a page about vehicles"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. a page about trees and plants**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3A.  \n**Explanation:** An acorn grows on an oak tree, so a plants page is useful.  \n**Why the other answers are wrong:** A, C, and D are unrelated categories.  \n**Key concept:** Using a picture dictionary.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q14",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Read the sentence.\n\n> Two dogs **race** across the yard.\n\nWhat does **race** mean in this sentence?",
+    "options": [
+      "a color of skin",
+      "a quick contest",
+      "to run quickly",
+      "a kind of car"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct answer: C. to run quickly**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3B.  \n**Explanation:** Dogs that “race across the yard” run quickly.  \n**Why the other answers are wrong:** A is another meaning of *race*; B is the noun form; D is unrelated.  \n**Key concept:** Multiple-meaning words in context.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q15",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Which word tells an action?",
+    "options": [
+      "jump",
+      "yellow",
+      "playground",
+      "happy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. jump**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3D.  \n**Explanation:** *Jump* names an action.  \n**Why the other answers are wrong:** B describes; C names a place; D describes a feeling or trait.  \n**Key concept:** Action words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q16",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Read the sentence.\n\n> First, Leo washed the paintbrush. **Next**, he put it on a towel to dry.\n\nWhat did Leo do after he washed the paintbrush?",
+    "options": [
+      "He painted a towel.",
+      "He put it on a towel.",
+      "He bought a new brush.",
+      "He washed it again."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct answer: B. He put it on a towel.**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3D.  \n**Explanation:** The sequence word *Next* introduces putting the brush on a towel.  \n**Why the other answers are wrong:** A, C, and D are not stated in the directions.  \n**Key concept:** Sequence vocabulary.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-08-29_20-26_q17",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Acquisition & Use",
+    "subtopic": "vocabulary_building",
+    "question": "Which word means the opposite of **empty**?",
+    "options": [
+      "full",
+      "quiet",
+      "open",
+      "soft"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct answer: A. full**  \n**MAP area / TEKS:** Vocabulary Acquisition & Use; 1.3B.  \n**Explanation:** *Full* is the opposite of *empty*.  \n**Why the other answers are wrong:** B, C, and D do not describe how much a container holds.  \n**Key concept:** Antonyms.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -10,6 +10,7 @@ import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug,
 } from './lib/parse.mjs';
 import { buildItem, splitMultiPart } from './lib/mcq.mjs';
+import { mapSubtopic } from './lib/subtopic-map.mjs';
 import { createLLM } from './lib/llm.mjs';
 
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -38,7 +39,13 @@ export async function buildFile({ filename, questionsMd, answersMd, llm }) {
         id: `${subject}_g${grade || 'x'}_${date || 'x'}_${time || 'x'}_q${idSuffix}`,
         grade,
         subject,
-        subtopic: part.subtopic || 'General',
+        // The heading the question was authored under — kept for provenance so a remap
+        // costs a table edit, not a content rebuild.
+        sourceSubtopic: part.subtopic || 'General',
+        // The legacy subtopic id this is filed under (obs_app.py SUBTOPICS). The old app
+        // curated a fixed list and generated questions on demand, so nothing was ever filed
+        // against it; authored questions have to be mapped. See lib/subtopic-map.mjs.
+        subtopic: mapSubtopic(subject, grade, part.subtopic || '').id,
         question: part.text,
         options: built.options,
         correctIndex: built.correctIndex,
@@ -84,7 +91,7 @@ async function main() {
       // render as unanswerable cards — keep them OUT of the served JSON + manifest. They
       // remain listed in tools/review-report.md for the post-deploy validation pass.
       if (it.needsReview) continue;
-      const key = `${it.grade}/${it.subject}/${slug(it.subtopic)}`;
+      const key = `${it.grade}/${it.subject}/${it.subtopic}`;
       if (!buckets.has(key)) buckets.set(key, []);
       buckets.get(key).push(it);
     }
@@ -101,13 +108,13 @@ async function main() {
     fileCount++;
     itemCount += items.length;
 
-    // Manifest lets the static browser flow enumerate subtopics without a
-    // directory listing. Learn and Practice are two modes over the SAME items,
-    // so a subtopic just needs its label + question count.
-    const label = items[0].subtopic || 'General';
+    /* Manifest lets the static browser flow enumerate subtopics without a directory
+       listing. It carries only ids and counts: the display name, description, icon and
+       colour come from app/js/subtopics-data.js, which is the legacy taxonomy. That keeps
+       one source of truth for what a subtopic is CALLED, separate from what it CONTAINS. */
     (manifest.grades[grade] ||= {});
     (manifest.grades[grade][subject] ||= []);
-    manifest.grades[grade][subject].push({ subtopic: label, slug: sub, count: items.length });
+    manifest.grades[grade][subject].push({ subtopic: sub, slug: sub, count: items.length });
   }
   for (const g of Object.values(manifest.grades)) {
     for (const subj of Object.keys(g)) g[subj].sort((a, b) => a.subtopic.localeCompare(b.subtopic));

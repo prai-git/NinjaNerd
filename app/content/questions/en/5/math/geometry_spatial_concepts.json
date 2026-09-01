@@ -1,0 +1,866 @@
+[
+  {
+    "id": "math_g5_2026-03-12_10-30_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Area of Composite Figures\nFind the area of the figure below:\n\n```\n        6 ft\n    ┌─────────┐\n    │         │ 4 ft\n    │    ┌────┘\n    │    │ 2 ft\n    │    │\n    └────┘\n     3 ft\n```\n\nThe figure is an L-shape with outer dimensions. The top rectangle is 6 ft × 4 ft, and a 3 ft × 2 ft piece is cut from the bottom right.",
+    "options": [
+      "18 sq ft",
+      "24 sq ft",
+      "20 sq ft",
+      "30 sq ft"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Topic:** Area of Composite Figures\n**TEKS:** 5.5\n\n**Step-by-Step Solution:**\n\nMethod 1 - Subtraction:\n1. Calculate full rectangle: 6 ft × 4 ft = 24 sq ft\n2. Calculate cut-out: 3 ft × 2 ft = 6 sq ft\n3. Area of L-shape: 24 - 6 = 18 sq ft\n\nMethod 2 - Addition:\n1. Break into two rectangles\n2. Top rectangle: 6 ft × 2 ft = 12 sq ft\n3. Bottom rectangle: 3 ft × 2 ft = 6 sq ft\n4. Total: 12 + 6 = 18 sq ft\n\n**Key Concept:** Decomposing composite figures into simpler shapes.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Volume\nA rectangular aquarium has a length of 15 inches, a width of 8 inches, and a height of 10 inches. What is the volume of the aquarium?",
+    "options": [
+      "33 cubic inches",
+      "120 cubic inches",
+      "1,200 cubic inches",
+      "1,500 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Topic:** Volume of Rectangular Prisms\n**TEKS:** 5.5\n\n**Step-by-Step Solution:**\n1. Volume formula: V = l × w × h\n2. V = 15 × 8 × 10\n3. V = 120 × 10 = 1,200 cubic inches\n\n**Key Concept:** Volume is measured in cubic units and found by multiplying length × width × height.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Volume\nA storage container has a volume of 480 cubic feet. The length is 12 feet and the width is 8 feet. What is the height of the container?",
+    "options": [
+      "4 feet",
+      "5 feet",
+      "6 feet",
+      "40 feet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Finding Missing Dimension Using Volume\n**TEKS:** 5.5\n\n**Step-by-Step Solution:**\n1. Volume formula: V = l × w × h\n2. Given: V = 480, l = 12, w = 8\n3. 480 = 12 × 8 × h\n4. 480 = 96 × h\n5. h = 480 ÷ 96 = 5 feet\n\n**Key Concept:** Working backwards with the volume formula to find a missing dimension.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q15",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Perimeter\nA rectangular garden has a length of 18 meters and a width of 12 meters. What is the perimeter of the garden?",
+    "options": [
+      "30 meters",
+      "60 meters",
+      "216 meters",
+      "216 square meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Perimeter of Rectangle\n**TEKS:** 5.5\n\n**Step-by-Step Solution:**\n1. Perimeter formula: P = 2l + 2w (or P = 2(l + w))\n2. P = 2(18) + 2(12)\n3. P = 36 + 24 = 60 meters\n\n**Note:** Answer D (216 square meters) is the area, not perimeter. Perimeter is measured in linear units, not square units.\n\n**Key Concept:** Distinguishing between area (square units) and perimeter (linear units).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q20",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Coordinate Plane Attributes\nOn a coordinate plane, which point represents the origin?",
+    "options": [
+      "(1, 0)",
+      "(0, 1)",
+      "(0, 0)",
+      "(1, 1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Topic:** Coordinate Plane Attributes\n**TEKS:** 5.8\n\n**Explanation:**\nThe origin is the point where the x-axis and y-axis intersect. This point is always located at coordinates (0, 0).\n\n**Key Concept:** Understanding the coordinate plane:\n- Origin: (0, 0)\n- X-axis: horizontal line\n- Y-axis: vertical line\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q21",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Coordinate Plane\nWhich ordered pair describes a point that is 5 units to the right of the origin and 3 units up?",
+    "options": [
+      "(3, 5)",
+      "(5, 3)",
+      "(8, 0)",
+      "(0, 8)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Topic:** Coordinate Plane\n**TEKS:** 5.8\n\n**Explanation:**\n- The x-coordinate tells how far right (or left) from the origin\n- The y-coordinate tells how far up (or down) from the origin\n- 5 units right = x-value of 5\n- 3 units up = y-value of 3\n- Ordered pair: (5, 3)\n\n**Key Concept:** In an ordered pair (x, y), x comes first (horizontal), y comes second (vertical).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-12_10-30_q22",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Graphing Patterns\nThe equation y = 4x describes a pattern. Which table shows the correct ordered pairs for this equation?\n\n| Table A | Table B | Table C | Table D |\n|---------|---------|---------|---------|\n| x=1, y=5 | x=1, y=4 | x=1, y=4 | x=1, y=3 |\n| x=2, y=6 | x=2, y=6 | x=2, y=8 | x=2, y=6 |\n| x=3, y=7 | x=3, y=9 | x=3, y=12 | x=3, y=9 |",
+    "options": [
+      "Table A",
+      "Table B",
+      "Table C",
+      "Table D"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Topic:** Graphing Patterns (y = ax)\n**TEKS:** 5.8\n\n**Step-by-Step Solution:**\nUsing y = 4x:\n- When x = 1: y = 4(1) = 4\n- When x = 2: y = 4(2) = 8\n- When x = 3: y = 4(3) = 12\n\n**Check each table:**\n- Table A: 5, 6, 7 (adds 4 instead of multiplies)\n- Table B: 4, 6, 9 (incorrect pattern)\n- Table C: 4, 8, 12 ✓ (correct!)\n- Table D: 3, 6, 9 (y = 3x, not 4x)\n\n**Key Concept:** Substituting values into an equation to generate ordered pairs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Volume\nA toy box has a volume of 3,240 cubic inches. The length is 18 inches and the height is 15 inches. What is the width of the toy box?",
+    "options": [
+      "10 inches",
+      "12 inches",
+      "14 inches",
+      "8 inches"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) 12 inches**\n\n**Step-by-step solution:**\n1. Volume formula: V = l × w × h\n2. Given: V = 3,240 cu in, l = 18 in, h = 15 in\n3. Rearrange: w = V ÷ (l × h)\n4. Calculate: w = 3,240 ÷ (18 × 15) = 3,240 ÷ 270 = 12 inches\n\n**Key Concept:** Using volume formula to find a missing dimension.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Area of Composite Figures\nA playground is shaped like the figure below. Find the total area.\n\n```\n    ←── 10 m ──→\n    ┌───────────┐\n    │           │ 6 m\n    │     ┌─────┤\n    │     │     │ 4 m\n    └─────┘     │\n    ←4 m→←─ 6 m─→\n```\n\nThe figure is an L-shape. The main rectangle is 10 m × 6 m with a 4 m × 4 m section removed from the bottom left.",
+    "options": [
+      "44 square meters",
+      "60 square meters",
+      "56 square meters",
+      "48 square meters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Answer: A) 44 square meters**\n\n**Step-by-step solution:**\n1. Method: Find area of full rectangle, then subtract the removed section\n2. Full rectangle: 10 m × 6 m = 60 sq m\n3. Removed section: 4 m × 4 m = 16 sq m\n4. L-shape area: 60 - 16 = 44 sq m\n\n**Key Concept:** Decomposing complex shapes into simpler rectangles.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Volume Word Problem\nA rectangular fish tank needs to hold at least 2,400 cubic inches of water. If the tank is 20 inches long and 12 inches wide, what is the minimum height the tank must be?",
+    "options": [
+      "8 inches",
+      "10 inches",
+      "12 inches",
+      "100 inches"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) 10 inches**\n\n**Step-by-step solution:**\n1. Volume needed: at least 2,400 cu in\n2. V = l × w × h\n3. 2,400 = 20 × 12 × h\n4. 2,400 = 240 × h\n5. h = 2,400 ÷ 240 = 10 inches\n\n**Key Concept:** Solving for missing dimension in volume formula with real-world context.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q19",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Coordinate Plane\nWhich statement correctly describes the x-axis on a coordinate plane?",
+    "options": [
+      "The x-axis is the vertical line that passes through the origin.",
+      "The x-axis is the horizontal line that passes through the origin.",
+      "The x-axis is located in the second quadrant.",
+      "The x-axis shows negative numbers only."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Answer: B) The x-axis is the horizontal line that passes through the origin.**\n\n**Explanation:**\n- The x-axis is the horizontal (left-right) number line\n- It passes through the origin (0, 0)\n- The y-axis is the vertical line\n\n**Why other answers are incorrect:**\n- A) Vertical line: This describes the y-axis, not x-axis\n- C) Second quadrant: Axes are not \"in\" quadrants; they separate quadrants\n- D) Negative numbers only: The x-axis has both positive and negative values\n\n**Key Concept:** Coordinate plane vocabulary and structure.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-15_09-30_q20",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "- Graphing Patterns\nThe equation y = 3x describes the relationship between hours worked (x) and money earned (y) in dollars. Complete the table and identify which ordered pair is NOT on the graph of this equation.\n\n| x (hours) | y (dollars) |\n|-----------|-------------|\n| 1         | 3           |\n| 2         | 6           |\n| 3         | 9           |\n| 4         | ?           |",
+    "options": [
+      "(4, 12)",
+      "(5, 15)",
+      "(6, 18)",
+      "(7, 20)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Answer: D) (7, 20)**\n\n**Step-by-step solution:**\n1. Equation: y = 3x\n2. Check each ordered pair:\n   - (4, 12): y = 3 × 4 = 12 ✓\n   - (5, 15): y = 3 × 5 = 15 ✓\n   - (6, 18): y = 3 × 6 = 18 ✓\n   - (7, 20): y = 3 × 7 = 21, NOT 20 ✗\n3. The pair (7, 20) does NOT satisfy y = 3x\n\n**Key Concept:** Verifying ordered pairs in linear equations.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q17",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Area of Composite Figures\nThe figure below is an L-shape. The full outer rectangle is 10 ft × 8 ft, and a rectangular piece measuring 4 ft × 3 ft has been removed from the top-right corner.\n\n```\n←──── 10 ft ────→\n┌──────────┬────┐  ↑\n│          │    │  3 ft\n│          └────┘  ↓\n│                │\n│                │  5 ft\n└────────────────┘\n```\n\nWhat is the area of the L-shaped figure?",
+    "options": [
+      "56 sq ft",
+      "62 sq ft",
+      "68 sq ft",
+      "80 sq ft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Find the area of the full rectangle (10 × 8 = 80 sq ft) and subtract the missing piece (4 × 3 = 12 sq ft): 80 − 12 = **68 sq ft**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q18",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Area with Decimals\nA rectangular driveway is 12.4 meters long and 3.5 meters wide. What is the area of the driveway?",
+    "options": [
+      "31.8 sq m",
+      "43.4 sq m",
+      "43.5 sq m",
+      "47.8 sq m"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply length by width: 12.4 × 3.5 = **43.4 square meters**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q19",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume\nA shipping box has a length of 16 inches, a width of 9 inches, and a height of 5 inches. What is the volume of the box?",
+    "options": [
+      "150 cubic inches",
+      "480 cubic inches",
+      "720 cubic inches",
+      "810 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apply the volume formula V = l × w × h: 16 × 9 × 5 = **720 cubic inches**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q20",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume / Multi-step\nA rectangular container is 25 cm long, 15 cm wide, and 12 cm tall. It is filled with sand to **3/4 of its total capacity**. How many cubic centimeters of sand are in the container?",
+    "options": [
+      "1,125 cubic cm",
+      "3,375 cubic cm",
+      "4,500 cubic cm",
+      "3,500 cubic cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Find the total volume (25 × 15 × 12 = 4,500 cubic cm), then multiply by 3/4: 4,500 × 3/4 = **3,375 cubic cm**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q24",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Graphing Patterns\nThe following points are plotted on a coordinate plane: (1, 5), (2, 10), (3, 15), (4, 20). Which equation **best describes** the relationship between x and y?",
+    "options": [
+      "y = x + 4",
+      "y = 4x",
+      "y = 5x",
+      "y = x + 5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each y-value equals exactly 5 times the x-value (e.g., 5 × 1 = 5, 5 × 2 = 10), so the equation is **y = 5x**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q25",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Coordinate Plane / Income\nA parking lot charges $6 per hour. The equation **y = 6x** represents the total cost (y) in dollars for parking x hours. How much would it cost to park for 8 hours?",
+    "options": [
+      "$42",
+      "$48",
+      "$54",
+      "$56"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute x = 8 into the equation y = 6x: y = 6 × 8 = **$48**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q26",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Graphing Patterns\nWhich ordered pair is a solution to the equation **y = 3x**?",
+    "options": [
+      "(4, 11)",
+      "(5, 14)",
+      "(6, 18)",
+      "(7, 20)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substituting into y = 3x: 3 × 6 = 18, confirming that **(6, 18) is a solution**; the other pairs do not satisfy the equation.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q27",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Graphing Patterns / Tables\nThe table below shows values from a pattern.\n\n| x | y  |\n|---|----|\n| 2 | 10 |\n| 4 | 20 |\n| 6 | 30 |\n| 8 | 40 |\n\nWhich equation represents this pattern?",
+    "options": [
+      "y = 2x",
+      "y = 4x",
+      "y = 5x",
+      "y = 8x"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each y-value equals exactly 5 times its x-value (e.g., 5 × 2 = 10, 5 × 4 = 20), so the equation is **y = 5x**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-03-26_10-15_q28",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Coordinate Plane Attributes\nPoint M is located on a coordinate plane. It is 7 units to the **right** of the origin and 4 units **above** the x-axis. What is the ordered pair for Point M?",
+    "options": [
+      "(4, 7)",
+      "(7, 0)",
+      "(0, 4)",
+      "(7, 4)"
+    ],
+    "correctIndex": 3,
+    "explanation": "In an ordered pair, the x-value (horizontal distance) comes first and the y-value (vertical distance) comes second, so 7 units right and 4 units up = **(7, 4)**.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q16",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Area of a Composite Figure\nThe figure below shows a flower bed made from two rectangles joined together.\n\n```\n+------------------+\n|                  |\n|     10 ft        |\n|                  | 6 ft\n|                  |\n+-----+------------+\n      |\n 4 ft |  3 ft\n      |\n      +------+\n```\n\nThe larger rectangle measures **10 ft by 6 ft** and the smaller rectangle attached to it measures **4 ft by 3 ft**. What is the total area of the flower bed?",
+    "options": [
+      "60 sq ft",
+      "66 sq ft",
+      "72 sq ft",
+      "78 sq ft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Find the area of each rectangle and add: (10 × 6) + (4 × 3) = 60 + 12 = 72 square feet.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q17",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Perimeter with Decimals\nA rectangular poster has a length of 11.4 cm and a width of 6.8 cm. What is the perimeter of the poster?",
+    "options": [
+      "18.2 cm",
+      "25 cm",
+      "36.4 cm",
+      "77.52 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "Perimeter of a rectangle = 2(l + w) = 2(11.4 + 6.8) = 2(18.2) = 36.4 cm.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q18",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume of a Rectangular Prism\nWhat is the volume of a rectangular prism with a length of 9 cm, a width of 7 cm, and a height of 4 cm?",
+    "options": [
+      "20 cm³",
+      "63 cm³",
+      "252 cm³",
+      "504 cm³"
+    ],
+    "correctIndex": 2,
+    "explanation": "Volume of a rectangular prism = l × w × h = 9 × 7 × 4 = 252 cubic centimeters.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q19",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry and Measurement — Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume Multi-Step\nA rectangular fish tank measures 24 inches long, 12 inches wide, and 15 inches tall. The tank is filled with water to 4/5 of its total volume. What is the volume of the water in the tank?",
+    "options": [
+      "2,880 in³",
+      "3,240 in³",
+      "3,456 in³",
+      "4,320 in³"
+    ],
+    "correctIndex": 2,
+    "explanation": "Total volume = 24 × 12 × 15 = 4,320 in³; water fills 4/5 of that: 4/5 × 4,320 = 3,456 in³.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q23",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Coordinate Plane Attributes\nWhich statement about the coordinate plane is **TRUE**?",
+    "options": [
+      "The origin is located at the point (1, 1).",
+      "The x-axis is the vertical number line.",
+      "In Quadrant I, both the x-coordinate and the y-coordinate are positive.",
+      "Ordered pairs are written in the form (y, x)."
+    ],
+    "correctIndex": 2,
+    "explanation": "Quadrant I is the upper-right region where every point has a positive x-value and a positive y-value; the origin is (0,0), the x-axis is horizontal, and ordered pairs are written (x, y).\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q24",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Graphing Patterns from y = ax\nThe equation y = 7x describes the relationship between the number of hours Jake rides his bicycle (x) and the total number of miles he travels (y). Which ordered pair lies on the graph of this equation?",
+    "options": [
+      "(2, 9)",
+      "(3, 10)",
+      "(4, 28)",
+      "(5, 30)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute x = 4 into y = 7x: y = 7 × 4 = 28, so (4, 28) lies on the graph.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q25",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Generating a Pattern from y = 8x\nThe table below shows values generated from the equation y = 8x.\n\n| x | y |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 16 |\n| 3 | 24 |\n\nWhich ordered pair would **NOT** belong on this graph?",
+    "options": [
+      "(0, 0)",
+      "(2, 16)",
+      "(4, 32)",
+      "(5, 45)"
+    ],
+    "correctIndex": 3,
+    "explanation": "For y = 8x, when x = 5, y should equal 8 × 5 = 40, not 45, so (5, 45) does not belong on the graph.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q36",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry — Classifying 2D Figures",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Hierarchy of Quadrilaterals  **[Readiness]**\nWhich statement about quadrilaterals is **TRUE**?",
+    "options": [
+      "All parallelograms are squares.",
+      "All rectangles are parallelograms.",
+      "All trapezoids are rectangles.",
+      "All rhombuses are rectangles."
+    ],
+    "correctIndex": 1,
+    "explanation": "A parallelogram is any quadrilateral with two pairs of parallel sides, and every rectangle has two pairs of parallel sides, so all rectangles fit the definition of a parallelogram.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-05_15-00_q37",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume with Unit Cubes",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Counting Unit Cubes\nA rectangular prism is built from unit cubes that each measure 1 cubic centimeter. The prism is made of **3 layers**, and each layer has **4 rows** of **5 unit cubes**. What is the volume of the prism?",
+    "options": [
+      "12 cubic centimeters",
+      "20 cubic centimeters",
+      "60 cubic centimeters",
+      "120 cubic centimeters"
+    ],
+    "correctIndex": 2,
+    "explanation": "Count the unit cubes by multiplying layers × rows × cubes per row: 3 × 4 × 5 = 60 unit cubes, so the volume is 60 cm³.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q23",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry: Classifying 2D Figures",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Hierarchy of 2D Figures [R]\nWhich statement about the relationship between two-dimensional figures is **TRUE**?",
+    "options": [
+      "All squares are rhombuses.",
+      "All rhombuses are squares.",
+      "All parallelograms are rectangles.",
+      "All quadrilaterals are parallelograms."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → All squares are rhombuses.\n\n**Step-by-step:**\nUnderstanding the hierarchy of quadrilaterals:\n- **Rhombus**: A parallelogram with all 4 sides equal\n- **Square**: A rectangle AND a rhombus — all 4 sides equal AND all 4 angles are 90°\n\nSince a square has all 4 sides equal, it meets the definition of a rhombus. Therefore, **every square IS a rhombus**. ✓\n\n**Why other answers are wrong:**\n- B) All rhombuses are squares — FALSE. A rhombus only needs equal sides, not right angles. A diamond shape (tilted rhombus) has equal sides but no right angles → it is a rhombus but NOT a square.\n- C) All parallelograms are rectangles — FALSE. Parallelograms only need two pairs of parallel sides. Rectangles require 90° angles, which parallelograms do not always have.\n- D) All quadrilaterals are parallelograms — FALSE. A trapezoid is a quadrilateral with only ONE pair of parallel sides, so it is NOT a parallelogram.\n\n**Hierarchy:** Quadrilateral → Parallelogram → Rectangle → Square\n                                         → Rhombus → Square\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q24",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Area of a Rectangle [R]\nA rectangular basketball court has a **length of 28 meters** and a **width of 15 meters**. What is the total **area** of the basketball court?",
+    "options": [
+      "86 sq meters",
+      "420 sq meters",
+      "630 sq meters",
+      "840 sq meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 420 sq meters\n\n**Step-by-step:**\n**Area = length × width**\n- A = 28 × 15\n\nCalculate:\n- 28 × 10 = 280\n- 28 × 5 = 140\n- 280 + 140 = **420 square meters**\n\n**Why other answers are wrong:**\n- A) 86 sq meters — this is the perimeter: 2(28 + 15) = 2(43) = 86\n- C) 630 sq meters — uses 28 × 22.5 or other arithmetic error\n- D) 840 sq meters — doubles the area (28 × 30 = 840)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q25",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Perimeter of a Triangle with Decimals\nA triangular garden has three sides measuring **7.5 feet**, **9.2 feet**, and **6.3 feet**. What is the **perimeter** of the garden?",
+    "options": [
+      "22.7 feet",
+      "23.0 feet",
+      "23.5 feet",
+      "69.0 feet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 23.0 feet\n\n**Step-by-step:**\n**Perimeter = sum of all sides**\n\n```\n  7.5\n  9.2\n+ 6.3\n-----\n 23.0\n```\n\n- Tenths: 5 + 2 + 3 = 10 → write 0, carry 1\n- Ones: 7 + 9 + 6 + 1 (carry) = 23 → write 3, carry 2\n- Tens: 2\n\n**Perimeter = 23.0 feet**\n\n**Why other answers are wrong:**\n- A) 22.7 — arithmetic error (possibly 7.5 + 9.2 = 16.7, then 16.7 + 6.0)\n- C) 23.5 — adds incorrectly in tenths column (5+2+3=10, but places 5 instead of 0)\n- D) 69.0 — multiplies instead of adds (7.5 × 9.2 × ... )\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q26",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume using Unit Cubes\nA figure is built from unit cubes. It has **2 layers**, each layer has **6 rows**, and each row has **4 unit cubes**. What is the volume of the figure in cubic units?",
+    "options": [
+      "12 cubic units",
+      "24 cubic units",
+      "48 cubic units",
+      "96 cubic units"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 48 cubic units\n\n**Step-by-step:**\n**Volume = layers × rows × cubes per row**\n- V = 2 × 6 × 4\n- V = 2 × 24\n- V = **48 cubic units**\n\n*(Each unit cube = 1 cubic unit, so count total cubes)*\n\n**Why other answers are wrong:**\n- A) 12 = 2 + 6 + 4 (adds instead of multiplies)\n- B) 24 = 1 layer × 6 rows × 4 cubes (uses only 1 layer)\n- D) 96 = 4 layers × 6 × 4 (uses double the number of layers)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q27",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume of a Rectangular Prism\nA storage box has a length of **15 inches**, a width of **10 inches**, and a height of **6 inches**. What is the volume of the storage box?",
+    "options": [
+      "186 cubic inches",
+      "600 cubic inches",
+      "900 cubic inches",
+      "1,800 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 900 cubic inches\n\n**Step-by-step:**\n**V = l × w × h**\n- V = 15 × 10 × 6\n- V = 150 × 6\n- V = **900 cubic inches**\n\n**Why other answers are wrong:**\n- A) 186 = 15 + 10 + 6 + ... (adds dimensions instead of multiplying)\n- B) 600 = 15 × 10 × 4 (uses 4 instead of 6)\n- D) 1,800 = 15 × 10 × 12 (doubles the height)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q31",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Coordinate Plane Attributes\nA student plots Point A at **(4, 0)** on a coordinate plane. Which statement **BEST** describes where Point A is located?",
+    "options": [
+      "On the y-axis",
+      "On the x-axis",
+      "In Quadrant I",
+      "At the origin"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → On the x-axis\n\n**Step-by-step:**\nPoint A is at **(4, 0)**.\n- x-coordinate = 4 (moves 4 units to the right)\n- y-coordinate = 0 (does not move up or down)\n\nWhen the y-coordinate is 0, the point lies on the **x-axis** (the horizontal number line).\n\n**Why other answers are wrong:**\n- A) On the y-axis — a point on the y-axis has x = 0 (e.g., (0, 4)); here x = 4\n- C) In Quadrant I — Quadrant I requires BOTH x > 0 AND y > 0; here y = 0\n- D) At the origin — the origin is (0, 0), not (4, 0)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q32",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Graphing Ordered Pairs from a Pattern  [R]\nMia earns **$3 for every magazine** she sells. The table shows her earnings.\n\n| Magazines Sold (x) | Earnings in dollars (y) |\n|--------------------|--------------------------|\n| 1                  | 3                        |\n| 2                  | 6                        |\n| 3                  | 9                        |\n| 4                  | ?                        |\n\nWhat is the missing value, and what ordered pair represents selling **4 magazines**?",
+    "options": [
+      "(4, 9)",
+      "(4, 12)",
+      "(4, 15)",
+      "(4, 16)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → (4, 12)\n\n**Step-by-step:**\nThe pattern is y = 3x (Mia earns $3 per magazine).\n\nWhen x = 4:\n- y = 3 × 4 = **12**\n- Ordered pair: **(4, 12)**\n\n| x | y = 3x |\n|---|--------|\n| 1 | 3      |\n| 2 | 6      |\n| 3 | 9      |\n| 4 | **12** |\n\n**Why other answers are wrong:**\n- A) (4, 9) — uses x = 3's value (y = 9) with x = 4\n- C) (4, 15) — adds 3 to 12 again (as if x = 5)\n- D) (4, 16) — uses y = 4x instead of y = 3x\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q33",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Graphing Patterns from y = x + a [R]\nThe equation **y = x + 5** represents the relationship between *x* and *y*. Which ordered pair is a solution to this equation?",
+    "options": [
+      "(2, 6)",
+      "(3, 8)",
+      "(4, 8)",
+      "(5, 9)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → (3, 8)\n\n**Step-by-step:**\nCheck each ordered pair in **y = x + 5**:\n\n| Ordered Pair | x + 5 = y? | Check |\n|--------------|-----------|-------|\n| (2, 6)       | 2 + 5 = 7 ≠ 6 | ✗ |\n| **(3, 8)**   | 3 + 5 = 8 ✓ | **✓** |\n| (4, 8)       | 4 + 5 = 9 ≠ 8 | ✗ |\n| (5, 9)       | 5 + 5 = 10 ≠ 9 | ✗ |\n\n**Correct pair: (3, 8)**\n\n**Why other answers are wrong:**\n- A) (2, 6) — 2 + 5 = 7, not 6\n- C) (4, 8) — 4 + 5 = 9, not 8\n- D) (5, 9) — 5 + 5 = 10, not 9\n\n**Key concept:** A solution to y = x + 5 must satisfy the equation. Only (3, 8) works.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_09-00_q39",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume Multi-Step Problem",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Multi-Step Volume  [R]\nA large shipping container has a **length of 20 feet**, a **width of 8 feet**, and a **height of 9 feet**. A second container has a volume of **900 cubic feet**. How much **greater** is the volume of the shipping container than the second container?",
+    "options": [
+      "540 cubic feet",
+      "600 cubic feet",
+      "720 cubic feet",
+      "1,440 cubic feet"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A** → 540 cubic feet\n\n**Step-by-step:**\nStep 1 — Find the volume of the shipping container:\n- **V = l × w × h = 20 × 8 × 9**\n- 20 × 8 = 160\n- 160 × 9 = **1,440 cubic feet**\n\nStep 2 — Find the difference:\n- 1,440 − 900 = **540 cubic feet**\n\n**Why other answers are wrong:**\n- B) 600 — arithmetic error in volume calculation or subtraction\n- C) 720 — computes 20 × 8 × 9 as 1,620 (error) then subtracts 900\n- D) 1,440 — gives the volume of the shipping container but does not subtract the second container's volume\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q31",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry: Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Finding a Missing Dimension from Area [R]\nThe area of a rectangular swimming pool is **252 square feet**. The **width** of the pool is **14 feet**. What is the **length** of the pool?",
+    "options": [
+      "14 feet",
+      "18 feet",
+      "24 feet",
+      "238 feet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 18 feet\n\n**Step-by-step:**\nUse the area formula: **A = l × w**\n\n- 252 = l × 14\n- l = 252 ÷ 14\n\nDivide: 14 × 18 = 252 → **l = 18 feet**\n\n**Verification:** 18 × 14 = 252 ✓\n\n**Why other answers are wrong:**\n- A) 14 feet — this is the width, not the length\n- C) 24 feet → 24 × 14 = 336 ≠ 252\n- D) 238 feet → subtracts instead of divides: 252 − 14 = 238 (wrong operation)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q32",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry: Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Area of a Composite Figure [R]\nA park has an L-shaped playground. The full rectangle would be **20 meters × 15 meters**. A square section of **8 meters × 8 meters** is removed from one corner to make room for a fountain. What is the **area of the playground**?",
+    "options": [
+      "172 sq meters",
+      "236 sq meters",
+      "256 sq meters",
+      "300 sq meters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 236 sq meters\n\n**Step-by-step:**\n**Method: Full rectangle area − Removed square area**\n\nStep 1 — Full rectangle area:\n- 20 m × 15 m = **300 sq meters**\n\nStep 2 — Removed square area:\n- 8 m × 8 m = **64 sq meters**\n\nStep 3 — Playground area:\n- 300 − 64 = **236 sq meters**\n\n**Why other answers are wrong:**\n- A) 172 — subtracts 20 × 8 = 160 from 300 instead of 8 × 8 = 64 (uses width of square × rectangle length)\n- C) 256 — computes 8 × 8 = 64 but then subtracts from 320 instead of 300 (uses 20 × 16)\n- D) 300 — the area of the full rectangle before the square is removed\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q33",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry: Area and Perimeter",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Perimeter to Find Area  [R]\nThe **perimeter** of a rectangle is **54 feet**. One side measures **8 feet**. What is the **area** of the rectangle?",
+    "options": [
+      "54 sq feet",
+      "144 sq feet",
+      "152 sq feet",
+      "304 sq feet"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 152 sq feet\n\n**Step-by-step:**\nStep 1 — Use perimeter formula to find the missing side:\n- P = 2l + 2w\n- 54 = 2l + 2(8)\n- 54 = 2l + 16\n- 2l = 38\n- l = **19 feet**\n\nStep 2 — Calculate area:\n- A = l × w = 19 × 8 = **152 sq feet**\n\n**Verification:** Perimeter check: 2(19) + 2(8) = 38 + 16 = 54 ✓\n\n**Why other answers are wrong:**\n- A) 54 sq feet — uses the perimeter value as the area\n- B) 144 sq feet = 12 × 12 (assumes a square with side 12, which is half of 24)\n- D) 304 sq feet = 19 × 16 (doubles the width incorrectly)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q34",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Finding a Missing Dimension from Volume\nA rectangular box has a **volume of 360 cubic centimeters**. Its **length is 12 cm** and its **height is 5 cm**. What is the **width** of the box?",
+    "options": [
+      "3 cm",
+      "6 cm",
+      "30 cm",
+      "72 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → 6 cm\n\n**Step-by-step:**\nUse **V = l × w × h**:\n\n- 360 = 12 × w × 5\n- 360 = 60 × w\n- w = 360 ÷ 60 = **6 cm**\n\n**Verification:** 12 × 6 × 5 = 72 × 5 = 360 ✓\n\n**Why other answers are wrong:**\n- A) 3 cm → 12 × 3 × 5 = 180 ≠ 360\n- C) 30 cm — divides 360 by 12 only (forgets to also divide by 5)\n- D) 72 cm — multiplies 360 ÷ 5 = 72 instead of dividing by both l and h\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q35",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume of a Composite Prism  [R]\nA fish tank is made of **two rectangular prisms** stacked together.\n- **Bottom prism:** length = 18 in, width = 10 in, height = 8 in\n- **Top prism:** length = 18 in, width = 10 in, height = 4 in\n\nWhat is the **total volume** of the fish tank?",
+    "options": [
+      "1,440 cubic inches",
+      "1,800 cubic inches",
+      "2,160 cubic inches",
+      "2,880 cubic inches"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 2,160 cubic inches\n\n**Step-by-step:**\nCalculate each prism's volume separately, then add.\n\n**Bottom prism:** V = 18 × 10 × 8 = **1,440 cubic inches**\n\n**Top prism:** V = 18 × 10 × 4 = **720 cubic inches**\n\n**Total volume:** 1,440 + 720 = **2,160 cubic inches**\n\n**Why other answers are wrong:**\n- A) 1,440 — volume of the bottom prism only\n- B) 1,800 — uses height of 5 instead of 8 for bottom prism (18 × 10 × 10 = 1800)\n- D) 2,880 = 18 × 10 × 16 (adds heights: 8 + 4 = 12... wait 18×10×16=2880, uses wrong combined height)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q36",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Volume",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Volume with Decimal Dimensions  [R]\nA box for storing craft supplies has a **length of 14.5 cm**, a **width of 8 cm**, and a **height of 6.5 cm**. What is the **volume** of the box?",
+    "options": [
+      "29 cm³",
+      "464 cm³",
+      "754 cm³",
+      "1,508 cm³"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 754 cm³\n\n**Step-by-step:**\n**V = l × w × h = 14.5 × 8 × 6.5**\n\nStep 1: 14.5 × 8 = **116**\n\nStep 2: 116 × 6.5\n- 116 × 6 = 696\n- 116 × 0.5 = 58\n- 696 + 58 = **754**\n\n**V = 754 cm³**\n\n**Why other answers are wrong:**\n- A) 29 = 14.5 + 8 + 6.5 (adds dimensions instead of multiplying)\n- B) 464 = 14.5 × 8 × 4 (uses 4 instead of 6.5 for height)\n- D) 1,508 = 754 × 2 (doubles the correct volume)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q41",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Identify the Equation from a Table [R]\nThe table below shows pairs of *x* and *y* values. Which equation represents this relationship?\n\n| x | y  |\n|---|----|\n| 3 | 17 |\n| 5 | 19 |\n| 7 | 21 |\n| 9 | 23 |",
+    "options": [
+      "y = 5x + 2",
+      "y = x + 14",
+      "y = 2x + 11",
+      "y = x + 10"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B** → y = x + 14\n\n**Step-by-step:**\nTest y = x + 14 with each row:\n\n| x | x + 14 | y (given) | Match? |\n|---|--------|-----------|--------|\n| 3 | 17     | 17        | ✓      |\n| 5 | 19     | 19        | ✓      |\n| 7 | 21     | 21        | ✓      |\n| 9 | 23     | 23        | ✓      |\n\nAll rows match. The rule is **y = x + 14** (additive pattern — x increases by 2, y increases by 2).\n\n**Why other answers are wrong:**\n- A) y = 5x + 2: when x = 3: 5(3) + 2 = 17 ✓, but when x = 5: 5(5) + 2 = 27 ≠ 19 ✗\n- C) y = 2x + 11: when x = 3: 2(3) + 11 = 17 ✓, but when x = 5: 2(5) + 11 = 21 ≠ 19 ✗\n- D) y = x + 10: when x = 3: 3 + 10 = 13 ≠ 17 ✗\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q42",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Coordinate Plane and Graphing",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Two Patterns Compared on a Coordinate Plane [R]\nPriya saves money using the rule **y = 5x** (saves $5 per week). Kevin uses the rule **y = x + 20** (started with $20 and saves $1 per week). After how many weeks will they have saved the **same amount**?\n\n| Weeks (x) | Priya y = 5x | Kevin y = x + 20 |\n|-----------|--------------|-----------------|\n| 1         | 5            | 21              |\n| 2         | 10           | 22              |\n| 3         | 15           | 23              |\n| 4         | 20           | 24              |\n| 5         | ?            | ?               |",
+    "options": [
+      "3 weeks",
+      "4 weeks",
+      "5 weeks",
+      "6 weeks"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C** → 5 weeks\n\n**Step-by-step:**\nSet the two equations equal to find when savings match:\n\n- Priya: y = 5x\n- Kevin: y = x + 20\n\nSet equal: **5x = x + 20**\n- 5x − x = 20\n- 4x = 20\n- x = **5**\n\n**Verify at x = 5:**\n- Priya: 5 × 5 = $25\n- Kevin: 5 + 20 = $25 ✓\n\nThey both have $25 after **5 weeks**.\n\n**Why other answers are wrong:**\n- A) x = 3: Priya = $15, Kevin = $23 (not equal)\n- B) x = 4: Priya = $20, Kevin = $24 (not equal)\n- D) x = 6: Priya = $30, Kevin = $26 (Priya now has more)\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-04-18_11-00_q43",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Geometry: Classifying 2D Figures",
+    "subtopic": "geometry_spatial_concepts",
+    "question": "— Hierarchy of Quadrilaterals [R]\nA student describes a shape: *\"It has 4 sides. All sides are equal in length. All angles measure 90°.\"*\n\nWhich answer lists **ALL** of the correct classifications for this shape?",
+    "options": [
+      "Rhombus only",
+      "Square only",
+      "Square and rectangle only",
+      "Square, rectangle, rhombus, and parallelogram"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D** → Square, rectangle, rhombus, and parallelogram\n\n**Step-by-step:**\nThe shape described: 4 equal sides + all angles = 90°\n\n| Classification | Required Properties | Does the shape qualify? |\n|---------------|--------------------|-----------------------|\n| Square | 4 equal sides + 4 right angles | Yes ✓ |\n| Rectangle | 4 right angles (opposite sides equal) | Yes (all sides equal, all angles 90°) ✓ |\n| Rhombus | 4 equal sides | Yes ✓ |\n| Parallelogram | 2 pairs of parallel sides | Yes (a square has 2 pairs of parallel sides) ✓ |\n| Quadrilateral | 4 sides | Yes ✓ |\n\nA square is **all** of the above simultaneously. The question asks for ALL correct classifications, so the answer includes square, rectangle, rhombus, AND parallelogram.\n\n**Why other answers are wrong:**\n- A) Rhombus only — a rhombus only requires 4 equal sides; this shape also has right angles (qualifying as more)\n- B) Square only — technically correct as the most specific, but misses all the broader categories it also belongs to\n- C) Square and rectangle only — correct but incomplete; also misses rhombus and parallelogram\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

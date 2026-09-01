@@ -1,8 +1,8 @@
 /* Explore page (mirrors legacy explore.html): choose Learn or Practice for a
    subtopic. Browsing here is public; the LOGIN GATE fires when the student
    commits to an activity (Learn or Practice), then returns them to it. */
-import { loadManifest, subtopicsFor } from './content-loader.js';
 import { param, subjectLabel, requireLogin } from './flow.js';
+import { subtopicById } from './subtopics-data.js';
 
 async function init(root) {
   const grade = Number(param('grade'));
@@ -14,10 +14,11 @@ async function init(root) {
   document.getElementById('nn-back-subtopics').href =
     `pages/subtopics.html?grade=${grade}&subject=${subject}`;
 
-  // Resolve the friendly subtopic name from the manifest (falls back to the slug).
-  const manifest = await loadManifest();
-  const match = manifest ? subtopicsFor(manifest, grade, subject).find((s) => s.slug === subtopic) : null;
-  const name = (match && match.subtopic) || subtopic;
+  /* The display name comes from the legacy taxonomy, not the manifest: the manifest carries
+     ids (`financial_literacy`), which would render raw in the heading. subtopics-data.js is
+     the single source of truth for what a subtopic is CALLED. */
+  const meta = subtopicById(subject, grade, subtopic);
+  const name = (meta && meta.name) || subtopic;
   document.getElementById('nn-explore-title').textContent =
     `Explore ${subjectLabel(subject)} - ${name} - Grade ${grade}`;
   document.getElementById('nn-explore-subtopic').textContent = name;
