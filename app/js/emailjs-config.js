@@ -11,9 +11,13 @@
    message with a mailto: fallback, rather than a form that silently fails to send. Owner steps
    to fill these in: doc/emailjs-setup.md.
 
-   CONFIGURED 2026-09-01 by the owner. The template expects exactly the four variables
-   contact.js sends -- to_email, from_email, subject, message. If the mail ever arrives with a
-   blank field, a template variable was renamed on the EmailJS side; nothing here will warn.
+   CONFIGURED 2026-09-01 by the owner. The template expects exactly the three variables
+   contact.js sends -- from_email, subject, message. If the mail ever arrives with a blank
+   field, a template variable was renamed on the EmailJS side; nothing here will warn.
+
+   THE RECIPIENT IS NOT SENT FROM HERE. It is typed literally into the EmailJS template,
+   because a public key plus a client-supplied recipient is an open relay on the owner's
+   Gmail. See the note above templateParams() in contact.js.
 
    NOTE ON ABUSE: a public key means anyone can call the template. EmailJS enforces a monthly
    send quota and per-key rate limits on its side, and the free tier's quota is a hard stop

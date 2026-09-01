@@ -72,6 +72,30 @@ test('it goes to the address legacy sent to', () => {
   assert.match(read('obs_app.py'), /send_email_async\("ninjanerdonpi@gmail\.com"/);
 });
 
+/* The recipient must be pinned INSIDE the EmailJS template, never sent from here. The Public
+   Key is public by design, so a template reading its To Email from a client-supplied variable
+   is an open relay on the owner's Gmail. CONTACT_TO stays — it is the mailto: fallback shown
+   when EmailJS is unconfigured — but it must not reach templateParams(). */
+test('the recipient is never sent from the browser', () => {
+  const code = stripComments(contactJs);
+  assert.doesNotMatch(code, /to_email/,
+    'the recipient is pinned in the EmailJS template; sending it from here is an open relay');
+  const params = code.slice(code.indexOf('export function templateParams'));
+  const body = params.slice(0, params.indexOf('\n}'));
+  assert.doesNotMatch(body, /CONTACT_TO|ninjanerdonpi/,
+    'templateParams must not carry a recipient in any form');
+});
+
+test('templateParams sends exactly the three variables the template declares', async () => {
+  const { templateParams } = await import('../app/js/contact.js').catch(() => ({}));
+  if (!templateParams) return; // see the note in the validation test below
+  const out = templateParams({ from: 'a@b.com', subject: 'Hi', content: 'Body' });
+  assert.deepEqual(Object.keys(out).sort(), ['from_email', 'message', 'subject']);
+  assert.equal(out.subject, 'Contact Us - Hi');
+  assert.equal(out.from_email, 'a@b.com');
+  assert.equal(out.message, 'From: a@b.com\n\nSubject: Hi\n\nMessage:\nBody');
+});
+
 // ---- validation, executed ------------------------------------------------------------------
 
 test('validation rejects empty fields', async () => {

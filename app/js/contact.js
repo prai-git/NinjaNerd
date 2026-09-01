@@ -50,10 +50,19 @@ export function validateContact({ subject, content, honeypot }) {
 
 /* The template parameters. Kept as a pure function so a test can assert the shape without
    touching the network, and so the field names stay in one place — they must match the
-   variables in the EmailJS template the owner creates (doc/emailjs-setup.md). */
+   variables in the EmailJS template (doc/emailjs-setup.md).
+
+   THE RECIPIENT IS NOT ONE OF THEM, deliberately. It is hardcoded in the EmailJS template
+   instead. The public key is public by design, so a template whose To Email reads from a
+   client-supplied variable lets anyone who views source call the account with any address they
+   like — an open relay on the owner's Gmail, and a spam-reputation problem attached to a
+   children's site. Pinning it template-side makes the recipient unreachable from here.
+
+   (This surfaced as a 422 "recipients address is empty" on 2026-09-01, which was the right
+   error for the wrong reason: the fix is not to send the address correctly, it is not to send
+   it at all.) */
 export function templateParams({ from, subject, content }) {
   return {
-    to_email: CONTACT_TO,
     from_email: from,
     // Legacy subject line: "Contact Us - {subject}".
     subject: `Contact Us - ${subject}`,
