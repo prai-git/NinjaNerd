@@ -86,15 +86,22 @@ test('firestore.rules locks down user data and defaults to deny', () => {
   // Owner-only access to per-user data.
   assert.match(rules, /function isOwner\(uid\)/);
   assert.match(rules, /request\.auth\.uid == uid/);
-  // Legacy-schema collections must all be covered.
+  // Legacy-schema collections still in scope must all be covered.
   for (const path of [/match \/users\/\{uid\}/, /match \/history\/\{entryId\}/,
-    /match \/statistics\/\{docId\}/, /match \/invites\/\{inviteId\}/,
-    /match \/chat_sessions\/\{sessionId\}/, /match \/messages\/\{messageId\}/]) {
+    /match \/statistics\/\{docId\}/]) {
     assert.match(rules, path, `rules must cover ${path}`);
   }
-  // Chat is scoped by the legacy user1_id/user2_id pairing.
-  assert.match(rules, /resource\.data\.user1_id/);
-  assert.match(rules, /resource\.data\.user2_id/);
+  /* Collaboration was dropped 2026-09-01. These blocks were DELETED, not left dormant, so
+     invites/chat_sessions/messages fall through to the catch-all deny. Asserting their
+     absence is the point: a dormant allow would still let any signed-in user open a chat
+     session against any uid and store free text in it. If the feature ever comes back this
+     test is where you will find out it needs rethinking, rather than shipping UI over rules
+     nobody re-reviewed. */
+  for (const path of [/match \/invites\//, /match \/chat_sessions\//,
+    /match \/messages\//, /resource\.data\.user1_id/, /resource\.data\.user2_id/,
+    /message_content/]) {
+    assert.doesNotMatch(rules, path, `collaboration is dropped; ${path} must not be back`);
+  }
   // Explicit deny-all catch-all.
   assert.match(rules, /match \/\{document=\*\*\} \{\s*\n\s*allow read, write: if false;/);
 });
@@ -117,13 +124,11 @@ test('admin can read any user, and is_admin is not client-settable', () => {
     'is_admin must be immutable on update');
 });
 
-// Audit treats history as a trail, and a child-facing chat must stay reviewable.
-test('history is append-only and messages cannot be deleted or rewritten', () => {
+/* Audit treats history as a trail. The chat half of this test went with the dropped feature;
+   what remains is the guarantee Audit actually depends on. */
+test('history is append-only', () => {
   const rules = read('dbmgr/firestore.rules');
   assert.match(rules, /allow update, delete: if false;/, 'history entries must be immutable');
-  assert.match(rules, /allow delete: if false;/, 'messages must not be deletable');
-  assert.match(rules, /request\.resource\.data\.message_content == resource\.data\.message_content/,
-    'message text must be immutable so only the displayed flag can change');
 });
 
 test('firebase.json and indexes exist and emulator config is complete', () => {
@@ -152,22 +157,30 @@ test('the rules file documents the data model it enforces', () => {
 
   // Every collection the rules govern must be described, not just guarded.
   for (const path of ['users/{uid}', 'users/{uid}/history/{autoId}',
-    'users/{uid}/statistics/summary', 'invites/{inviteId}', 'chat_sessions/{sessionId}',
-    'chat_sessions/{sessionId}/messages/{autoId}']) {
+    'users/{uid}/statistics/summary']) {
     assert.ok(rules.includes(path), `rules should document the ${path} document shape`);
   }
 
   // The model mirrors the legacy SQLite tables, so it must say which maps to which — this is
   // what keeps Audit, Statistics and progress tracking working (obs_sqlite_manager.py).
-  for (const table of ['user_history', 'user_statistics', 'invites', 'chat_sessions',
-    'messages']) {
+  for (const table of ['user_history', 'user_statistics']) {
     assert.ok(rules.includes(table), `rules should map the legacy ${table} table`);
   }
 
+  /* A legacy table that is deliberately NOT implemented has to say so in the file, or the next
+     reader cannot tell "dropped on purpose" from "forgotten". user_payments and the rest were
+     always listed; collaboration joined them on 2026-09-01. */
+  for (const dropped of ['user_payments', 'email_verification_codes', 'invites',
+    'chat_sessions', 'messages']) {
+    assert.ok(rules.includes(dropped),
+      `rules should record that the legacy ${dropped} table is deliberately dropped`);
+  }
+  assert.match(rules, /DROPPED 2026-09-01[\s\S]{0,200}collaboration/,
+    'the collaboration drop must be dated and explained, not silently absent');
+
   // Field names that carry behaviour: renaming any of these silently breaks a page.
   for (const field of ['topic', 'subtopic', 'grade', 'last_login', 'questions_attempted',
-    'topics_covered', 'from_user_id', 'to_user_email', 'user1_id', 'user2_id',
-    'obfuscated_content', 'displayed', 'created_at', 'updated_at']) {
+    'topics_covered', 'created_at', 'updated_at']) {
     assert.ok(rules.includes(field), `rules should document the ${field} field`);
   }
 

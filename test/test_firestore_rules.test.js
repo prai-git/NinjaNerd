@@ -190,8 +190,17 @@ describe('firestore security rules', { skip }, () => {
     await assertFails(getDoc(doc(db, 'chat_sessions/s1')));
   });
 
-  // ---- chat (confirmed in launch scope) ------------------------------------------------
-  async function seedChat() {
+  /* ---- collaboration: DROPPED 2026-09-01 -------------------------------------------------
+     Four chat cases and one invite case used to live here, asserting that members could read a
+     session and post as themselves. The feature was cut by the owner (COPPA exposure), and the
+     allow rules were deleted rather than left dormant. What has to be tested now is the
+     inverse: that these collections are shut, including for a signed-in user who looks exactly
+     like a legitimate participant. Deleting the tests along with the rules would have left the
+     removal itself unguarded -- a future edit could re-open chat_sessions and nothing would
+     notice. */
+  test('chat_sessions and invites are closed to everyone, members included', async () => {
+    await seedUsers();
+    // Seed as if the feature still existed, so Alice is a genuine participant/sender.
     await env.withSecurityRulesDisabled(async (ctx) => {
       const { doc, setDoc } = firestore;
       await setDoc(doc(ctx.firestore(), 'chat_sessions/s1'), {
@@ -200,75 +209,42 @@ describe('firestore security rules', { skip }, () => {
       });
       await setDoc(doc(ctx.firestore(), 'chat_sessions/s1/messages/m1'), {
         from_user_id: BOB, to_user_id: ALICE, message_content: 'hi',
-        obfuscated_content: 'h*', displayed: false, timestamp: new Date(),
+        displayed: false, timestamp: new Date(),
       });
-    });
-  }
-
-  test('a chat member reads the session and posts as themselves only', async () => {
-    await seedUsers(); await seedChat();
-    const db = env.authenticatedContext(ALICE).firestore();
-    const { doc, getDoc, setDoc } = firestore;
-    await assertSucceeds(getDoc(doc(db, 'chat_sessions/s1')));
-    await assertSucceeds(getDoc(doc(db, 'chat_sessions/s1/messages/m1')));
-    await assertSucceeds(setDoc(doc(db, 'chat_sessions/s1/messages/m2'), {
-      from_user_id: ALICE, to_user_id: BOB, message_content: 'hello',
-      obfuscated_content: 'h****', displayed: false, timestamp: new Date(),
-    }));
-    // Impersonating the other member must fail.
-    await assertFails(setDoc(doc(db, 'chat_sessions/s1/messages/m3'), {
-      from_user_id: BOB, to_user_id: ALICE, message_content: 'not me',
-      obfuscated_content: '', displayed: false, timestamp: new Date(),
-    }));
-  });
-
-  test('an outsider is denied the session and its messages', async () => {
-    await seedUsers(); await seedChat();
-    const db = env.authenticatedContext(CAROL).firestore();
-    const { doc, getDoc, setDoc } = firestore;
-    await assertFails(getDoc(doc(db, 'chat_sessions/s1')));
-    await assertFails(getDoc(doc(db, 'chat_sessions/s1/messages/m1')));
-    await assertFails(setDoc(doc(db, 'chat_sessions/s1/messages/x'), {
-      from_user_id: CAROL, to_user_id: ALICE, message_content: 'let me in',
-      obfuscated_content: '', displayed: false, timestamp: new Date(),
-    }));
-  });
-
-  test('message text is immutable but the displayed flag can be set', async () => {
-    await seedUsers(); await seedChat();
-    const db = env.authenticatedContext(ALICE).firestore();
-    const { doc, updateDoc, deleteDoc } = firestore;
-    await assertSucceeds(updateDoc(doc(db, 'chat_sessions/s1/messages/m1'), { displayed: true }));
-    await assertFails(updateDoc(doc(db, 'chat_sessions/s1/messages/m1'), { message_content: 'edited' }));
-    await assertFails(deleteDoc(doc(db, 'chat_sessions/s1/messages/m1')));
-  });
-
-  test('the chat pairing cannot be reassigned', async () => {
-    await seedUsers(); await seedChat();
-    const db = env.authenticatedContext(ALICE).firestore();
-    const { doc, updateDoc } = firestore;
-    await assertSucceeds(updateDoc(doc(db, 'chat_sessions/s1'), { active: false }));
-    await assertFails(updateDoc(doc(db, 'chat_sessions/s1'), { user2_id: CAROL }));
-  });
-
-  // ---- invites ---------------------------------------------------------------------------
-  test('invites are visible to sender and recipient, and to nobody else', async () => {
-    await env.withSecurityRulesDisabled(async (ctx) => {
-      const { doc, setDoc } = firestore;
       await setDoc(doc(ctx.firestore(), 'invites/i1'), {
         from_user_id: ALICE, to_user_email: 'bob@example.com', status: 'pending',
         timestamp: new Date(), created_at: new Date(), updated_at: new Date(),
       });
     });
-    const { doc, getDoc, updateDoc } = firestore;
-    await assertSucceeds(getDoc(doc(env.authenticatedContext(ALICE).firestore(), 'invites/i1')));
-    const bobDb = env.authenticatedContext(BOB, { email: 'bob@example.com' }).firestore();
-    await assertSucceeds(getDoc(doc(bobDb, 'invites/i1')));
-    await assertSucceeds(updateDoc(doc(bobDb, 'invites/i1'), { status: 'accepted' }));
-    // An unrelated signed-in user sees nothing.
-    await assertFails(getDoc(doc(env.authenticatedContext(CAROL, { email: 'carol@example.com' }).firestore(), 'invites/i1')));
-    // Neither party may rewrite who the invite is from.
-    await assertFails(updateDoc(doc(bobDb, 'invites/i1'), { from_user_id: BOB }));
+
+    const { doc, getDoc, setDoc, updateDoc, deleteDoc } = firestore;
+    const aliceDb = env.authenticatedContext(ALICE, { email: 'alice@example.com' }).firestore();
+
+    // Reads are shut even for the member named in the document.
+    await assertFails(getDoc(doc(aliceDb, 'chat_sessions/s1')));
+    await assertFails(getDoc(doc(aliceDb, 'chat_sessions/s1/messages/m1')));
+    await assertFails(getDoc(doc(aliceDb, 'invites/i1')));
+
+    // Writes are shut, including a well-formed one that the old rules would have allowed.
+    await assertFails(setDoc(doc(aliceDb, 'chat_sessions/s2'), {
+      user1_id: ALICE, user2_id: BOB, active: true,
+      created_at: new Date(), updated_at: new Date(),
+    }));
+    await assertFails(setDoc(doc(aliceDb, 'chat_sessions/s1/messages/m2'), {
+      from_user_id: ALICE, to_user_id: BOB, message_content: 'hello',
+      displayed: false, timestamp: new Date(),
+    }));
+    await assertFails(updateDoc(doc(aliceDb, 'chat_sessions/s1'), { active: false }));
+    await assertFails(deleteDoc(doc(aliceDb, 'chat_sessions/s1')));
+    await assertFails(setDoc(doc(aliceDb, 'invites/i2'), {
+      from_user_id: ALICE, to_user_email: 'bob@example.com', status: 'pending',
+      timestamp: new Date(), created_at: new Date(), updated_at: new Date(),
+    }));
+
+    // Admin has no back door either -- isAdmin() was only ever reachable via those blocks.
+    const adminDb = env.authenticatedContext(ADMIN, { email: 'admin@example.com' }).firestore();
+    await assertFails(getDoc(doc(adminDb, 'chat_sessions/s1/messages/m1')));
+    await assertFails(getDoc(doc(adminDb, 'invites/i1')));
   });
 
   test('an unrelated top-level collection is denied', async () => {

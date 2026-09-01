@@ -35,46 +35,33 @@ rules_version = '2';
        questions_attempted  : number           # NOT in SQLite; from obs_db_manager.py
        topics_covered       : string[]         # NOT in SQLite; from obs_db_manager.py
 
-     invites/{inviteId}                      <- invites
-       from_user_id         : string           # uid of the sender
-       to_user_email        : string           # recipient identified by email
-       status               : string           # "pending" | "accepted" | "declined"
-       timestamp, created_at, updated_at : timestamp
-
-     chat_sessions/{sessionId}               <- chat_sessions
-       user1_id, user2_id   : string           # uids
-       active               : boolean
-       created_at, updated_at : timestamp
-
-     chat_sessions/{sessionId}/messages/{autoId}   <- messages
-       from_user_id, to_user_id : string       # uids
-       message_content      : string
-       obfuscated_content   : string           # see obs_core/message_security.py
-       displayed            : boolean          # per-message read flag
-       timestamp            : timestamp
-
    On `statistics`: the legacy app had TWO storage backends. The SQLite user_statistics table
    holds only user_id + last_login, while the JSON store (dbmgr/obs_db_manager.py) holds
    questions_attempted and topics_covered[]. Audit reads all three, so this single document is
    the union of both — not a copy of the SQLite table alone.
 
-   Two deliberate adaptations, flagged rather than invented:
+   One deliberate adaptation, flagged rather than invented:
    - Integer user_id foreign keys become Firebase Auth **uid** strings.
-   - `messages` was a top-level table keyed by session_id; here it is a subcollection of the
-     session, which is the same relationship and lets the rules scope messages to the session.
 
    Deliberately dropped: user_payments (no payments on the static site),
    email_verification_codes (Firebase Auth handles verification), schema_info (Firestore is
    schemaless) and users.password (Auth owns credentials).
+
+   DROPPED 2026-09-01 by owner decision -- collaboration/chat: the legacy `invites`
+   (collaboration_invites), `chat_sessions` and `messages` tables. Child-to-child messaging
+   carries the heaviest COPPA obligation in the app and nothing else depends on it, so the
+   feature is not being built. The rules that used to allow those collections are removed
+   rather than left dormant: a dormant allow is still an open write surface, and any signed-in
+   user could have opened a session against any uid and stored free text in it. They now fall
+   to the default deny at the bottom of this file. Restoring the feature means restoring these
+   rules, not just shipping UI.
 
    COMPOSITE INDEXES: dbmgr/firestore.indexes.json is intentionally empty. Firestore creates
    single-field indexes automatically, which covers the simple queries planned so far; a
    composite index is needed only for a filter plus a sort on different fields, e.g.
      - history where topic == X && grade == N ordered by timestamp (Statistics computes
        percent-correct per topic for one grade, so this one is likely)
-     - invites where to_user_email == X && status == "pending"
-     - chat_sessions where user1_id == uid / user2_id == uid ordered by updated_at
-   Add them from the real queries in prompts 08/09 rather than guessing: Firestore fails a
+   Add them from the real queries in prompt 08 rather than guessing: Firestore fails a
    query needing a missing index and prints a console link that creates it.
 
    The app serves children (grades 1-6), so the default is deny and every allow is explicit. */
@@ -138,77 +125,11 @@ service cloud.firestore {
       }
     }
 
-    // ---- invites -----------------------------------------------------------------------
-    match /invites/{inviteId} {
-      function isSender() {
-        return isSignedIn() && resource.data.from_user_id == request.auth.uid;
-      }
-      // The recipient is identified by email, exactly as the legacy to_user_email column.
-      function isRecipient() {
-        return isSignedIn() && request.auth.token.email == resource.data.to_user_email;
-      }
-
-      allow read: if isSender() || isRecipient() || isAdmin();
-      allow create: if isSignedIn()
-                    && request.resource.data.from_user_id == request.auth.uid
-                    && request.resource.data.status == 'pending';
-      // Either party may move the invite along (accept/decline), but neither may rewrite who
-      // it is from or to.
-      allow update: if (isSender() || isRecipient())
-                    && request.resource.data.from_user_id == resource.data.from_user_id
-                    && request.resource.data.to_user_email == resource.data.to_user_email;
-      allow delete: if isSender();
-    }
-
-    // ---- chat_sessions -----------------------------------------------------------------
-    match /chat_sessions/{sessionId} {
-      function isChatMember() {
-        return isSignedIn()
-               && resource != null
-               && (request.auth.uid == resource.data.user1_id
-                   || request.auth.uid == resource.data.user2_id);
-      }
-
-      allow read: if isChatMember() || isAdmin();
-
-      // The creator must be one of the two participants.
-      allow create: if isSignedIn()
-                    && (request.auth.uid == request.resource.data.user1_id
-                        || request.auth.uid == request.resource.data.user2_id);
-
-      // Participants may toggle `active`, but the pairing itself is fixed.
-      allow update: if isChatMember()
-                    && request.resource.data.user1_id == resource.data.user1_id
-                    && request.resource.data.user2_id == resource.data.user2_id;
-
-      allow delete: if isChatMember();
-
-      match /messages/{messageId} {
-        function inSession() {
-          return isSignedIn()
-                 && (request.auth.uid ==
-                       get(/databases/$(database)/documents/chat_sessions/$(sessionId)).data.user1_id
-                     || request.auth.uid ==
-                       get(/databases/$(database)/documents/chat_sessions/$(sessionId)).data.user2_id);
-        }
-
-        allow read: if inSession() || isAdmin();
-
-        // You may only send as yourself.
-        allow create: if inSession()
-                      && request.auth.uid == request.resource.data.from_user_id;
-
-        /* Legacy `displayed` is a per-message read flag, so the recipient must be able to flip
-           it -- but nothing else. Message text stays immutable, which keeps a child-facing
-           chat auditable. */
-        allow update: if inSession()
-                      && request.resource.data.message_content == resource.data.message_content
-                      && request.resource.data.from_user_id == resource.data.from_user_id
-                      && request.resource.data.to_user_id == resource.data.to_user_id;
-
-        allow delete: if false;
-      }
-    }
+    /* ---- invites / chat_sessions / messages: DROPPED, not merely unused --------------
+       Collaboration was cut on 2026-09-01 (see the header). The allow rules that used to sit
+       here are deleted so these collections fall through to the default deny below. Leaving
+       them in place would have kept a writable child-messaging surface open in production
+       with no UI in front of it and no one reading it. */
 
     // ---- Everything else is denied ------------------------------------------------------
     // Firestore evaluates rules as an OR of all matches, so this cannot override the allows

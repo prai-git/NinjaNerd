@@ -14,9 +14,10 @@ games — delivered as a **static site on GitHub Pages** at **ninjanerd.ai**.
 | Live (pre-launch) | **https://prai-git.github.io/NinjaNerd/** — a sub-path, not the root |
 | Branch | `ninjanerd-static` (the only branch that deploys). `main` is frozen at the legacy Flask app |
 | Firebase | Project `ninjanerd-32030` — Email/Password auth, Firestore (Standard, Production mode, `nam7`), **security rules deployed and verified** |
-| Content | 1368 questions across grades 1–6 · **44 of 115 subtopics still have none** |
-| Tests | `npm test` → 101 pass, 0 fail, 1 todo (the release gate below) |
-| Not yet built | auth UI, progress persistence, collaboration, account/statistics/audit/contact pages, custom domain |
+| Content | 1622 questions across grades 1–6 · **all 115 subtopics filled** |
+| Tests | `npm test` → 157 pass, 0 fail, 0 todo (the release gate below is enforced) |
+| Not yet built | account/audit/contact pages, custom domain |
+| Dropped | **collaboration/chat** — cut 2026-09-01; child-to-child messaging is out of scope for launch |
 
 ## Architecture
 
@@ -35,7 +36,7 @@ games — delivered as a **static site on GitHub Pages** at **ninjanerd.ai**.
   original names, descriptions, icons and colours. Authored headings are *mapped* onto it.
   Subtopics with no questions render greyed out and unclickable.
 - **Firebase** (client Web SDK): **Auth** (email/password) and **Firestore** (per-user
-  progress/stats/history, collaboration invites, chat), secured by **Security Rules**. The
+  progress/stats/history), secured by **Security Rules**. The
   document model mirrors the legacy SQLite schema column-for-column so Audit, Statistics and
   progress tracking behave as they did. Config is public by design; there is no server secret.
 - **Email**: Firebase Auth built-in mail (verification/reset) + **EmailJS** for the contact

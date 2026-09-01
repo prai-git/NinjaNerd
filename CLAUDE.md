@@ -9,10 +9,12 @@ domain **ninjanerd.ai**. Students land on an **About** page (public), and log in
 they choose a grade to practice. Multiple-choice questions (grades **1–6**; **English,
 Math, Science**) are authored `.md`/answer files converted **at dev time** into normalized
 JSON that the browser loads, randomizes, and checks client-side. **No runtime LLM. No
-payments.** Auth, per-user progress/stats, and collaboration/chat run on **Firebase**
-(Auth + Firestore). Browser games are kept. **English only** — French/Hindi were dropped
-2026-08-29 and prompts 10–12 are out of scope; the `en` path segment stays so a language
-could be added later without moving content.
+payments.** Auth and per-user progress/stats run on **Firebase** (Auth + Firestore). Browser
+games are kept. **English only** — French/Hindi were dropped 2026-08-29 and prompts 10–12 are
+out of scope; the `en` path segment stays so a language could be added later without moving
+content. **Collaboration/chat is dropped** (2026-09-01, owner) — child-to-child messaging is
+out of scope for launch; the Firestore rules for `invites`/`chat_sessions`/`messages` were
+deleted rather than left dormant, so those collections are default-deny.
 
 **Live state (2026-09-01):** repo is **public**; branch `ninjanerd-static` deploys to
 `https://prai-git.github.io/NinjaNerd/`; Firebase project **`ninjanerd-32030`** exists with

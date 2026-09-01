@@ -8,7 +8,8 @@
    Forced divergences from legacy (static host, no runtime LLM), flagged per the
    working rules:
    - The legacy "Hint" card is omitted — the authored content carries no hint data.
-   - The grade>=5 Collaboration sidebar/chat is deferred to prompt 09. */
+   - The grade>=5 Collaboration sidebar/chat is DROPPED (owner, 2026-09-01), not deferred:
+     child-to-child messaging is out of scope for launch. */
 import { loadSubtopic } from './content-loader.js';
 import { param, subjectLabel, requireLogin, renderInline, emitAttempt } from './flow.js';
 import { buildAttempt } from './quiz.js';

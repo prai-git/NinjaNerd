@@ -101,9 +101,12 @@ jobs:
             echo "::error::${skipped} rule test(s) skipped — the rules are NOT verified."
             exit 1
           fi
-          # The suite has 14 cases; anything far below that means it did not really run.
-          if [ "${passed:-0}" -lt 10 ]; then
-            echo "::error::Expected at least 10 rule tests to pass, got ${passed:-0}."
+          # The suite has 9 cases plus the enclosing suite = 10 TAP passes. It was 14 before
+          # collaboration was dropped on 2026-09-01 (four chat cases and one invite case became
+          # one deny case). The floor is a sanity check that the suite really ran, so it sits
+          # just below the real count rather than at it.
+          if [ "${passed:-0}" -lt 8 ]; then
+            echo "::error::Expected at least 8 rule tests to pass, got ${passed:-0}."
             exit 1
           fi
           echo "Security rules verified: ${passed} tests passed against the emulator."
