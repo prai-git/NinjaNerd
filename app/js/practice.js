@@ -11,7 +11,9 @@
    - The grade>=5 Collaboration sidebar/chat is DROPPED (owner, 2026-09-01), not deferred:
      child-to-child messaging is out of scope for launch. */
 import { loadSubtopic } from './content-loader.js';
-import { param, subjectLabel, requireLogin, renderInline, emitAttempt } from './flow.js';
+import {
+  param, subjectLabel, requireLogin, renderInline, renderBlocks, emitAttempt,
+} from './flow.js';
 import { buildAttempt } from './quiz.js';
 import { renderMath } from './math-render.js';
 
@@ -69,10 +71,10 @@ function runQuiz(root, deck, meta) {
             ? renderInline(item.passageTitle) : 'Read the passage'}
         </summary>
         <div class="nn-passage bg-light border-start border-4 border-secondary p-3 rounded mt-2">
-          ${renderInline(item.passage)}
+          ${renderBlocks(item.passage)}
         </div>
       </details>` : '';
-    content.innerHTML = `${passageHtml}<h5>${renderInline(item.question)}</h5>`;
+    content.innerHTML = `${passageHtml}<div class="h5">${renderBlocks(item.question)}</div>`;
 
     const pct = (i / deck.length) * 100;
     bar.style.width = `${pct}%`;
@@ -153,7 +155,7 @@ function runQuiz(root, deck, meta) {
       if (item.explanation) {
         html += `<div>
           <h6 class="text-primary"><i class="fas fa-lightbulb me-1"></i>Explanation:</h6>
-          <div>${renderInline(item.explanation)}</div>
+          <div>${renderBlocks(item.explanation)}</div>
         </div>`;
       }
       explanationContent.innerHTML = html;

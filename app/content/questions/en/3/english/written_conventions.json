@@ -7,7 +7,7 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 3.3B [R] — vocabulary: context clue**\n\nRead the sentence. “The puppy was **reluctant** to cross the noisy bridge, so it stopped and pulled back on its leash.” What does **reluctant** mean?",
+    "question": "Read the sentence. “The puppy was **reluctant** to cross the noisy bridge, so it stopped and pulled back on its leash.” What does **reluctant** mean?",
     "options": [
       "eager to do something",
       "not willing or unsure",
@@ -15,7 +15,7 @@
       "happy to make noise"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3B [R]\n\n**Explanation and text evidence:** The puppy stops and pulls back, showing it is unsure or not willing to cross.\n\n**Why other answers are wrong:** A is the opposite; C and D lack support from the sentence.\n\n**Key concept:** Context clue\n\n---",
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.3B [R]\n\n**Explanation and text evidence:** The puppy stops and pulls back, showing it is unsure or not willing to cross.\n\n**Why other answers are wrong:** A is the opposite; C and D lack support from the sentence.\n\n**Key concept:** Context clue",
     "source": "authored",
     "needsReview": false
   },
@@ -27,7 +27,7 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 3.10C [R] — transitions**\n\nChoose the best transition. “First, rinse the berries. _____, place them in a bowl.”",
+    "question": "Choose the best transition. “First, rinse the berries. _____, place them in a bowl.”",
     "options": [
       "For example",
       "Next",
@@ -35,7 +35,7 @@
       "Although"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10C [R]\n\n**Explanation and text evidence:** **Next** correctly signals the step after rinsing the berries.\n\n**Why other answers are wrong:** A gives an example, C a cause, and D a contrast.\n\n**Key concept:** Sequence transition\n\n---",
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10C [R]\n\n**Explanation and text evidence:** **Next** correctly signals the step after rinsing the berries.\n\n**Why other answers are wrong:** A gives an example, C a cause, and D a contrast.\n\n**Key concept:** Sequence transition",
     "source": "authored",
     "needsReview": false
   },
@@ -47,7 +47,7 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 3.10D [R] — conventions**\n\nWhich sentence is written correctly?",
+    "question": "Which sentence is written correctly?",
     "options": [
       "My cousins dog wagged it’s tail.",
       "My cousin’s dog wagged its tail.",
@@ -55,7 +55,7 @@
       "My cousin dog’s wagged its tail."
     ],
     "correctIndex": 1,
-    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10D [R]\n\n**Explanation and text evidence:** One cousin owns the dog (**cousin’s**), and **its** shows possession without an apostrophe.\n\n**Why other answers are wrong:** A and C misuse **it’s**; D misplaces apostrophes.\n\n**Key concept:** Possessives and pronouns\n\n---",
+    "explanation": "**Correct answer:** B\n\n**TEKS:** 3.10D [R]\n\n**Explanation and text evidence:** One cousin owns the dog (**cousin’s**), and **its** shows possession without an apostrophe.\n\n**Why other answers are wrong:** A and C misuse **it’s**; D misplaces apostrophes.\n\n**Key concept:** Possessives and pronouns",
     "source": "authored",
     "needsReview": false
   },
@@ -67,7 +67,7 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 3.2B — speak/write clearly in a discussion**\n\nWhich sentence uses the most precise word to improve a report about a storm?",
+    "question": "Which sentence uses the most precise word to improve a report about a storm?",
     "options": [
       "The wind did stuff to the trees.",
       "The wind was there.",
@@ -75,7 +75,7 @@
       "The trees were trees."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.2B\n\n**Explanation and text evidence:** C names the cause, action, and result precisely: strong wind bent the young trees.\n\n**Why other answers are wrong:** A and B are vague; D repeats a word without information.\n\n**Key concept:** Precise word choice\n\n---",
+    "explanation": "**Correct answer:** C\n\n**TEKS:** 3.2B\n\n**Explanation and text evidence:** C names the cause, action, and result precisely: strong wind bent the young trees.\n\n**Why other answers are wrong:** A and B are vague; D repeats a word without information.\n\n**Key concept:** Precise word choice",
     "source": "authored",
     "needsReview": false
   }

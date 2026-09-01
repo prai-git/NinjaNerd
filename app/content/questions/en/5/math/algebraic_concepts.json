@@ -15,7 +15,7 @@
       "$65"
     ],
     "correctIndex": 2,
-    "explanation": "**Topic:** Finding Percent Discount\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Original price: $80\n2. Discount: 25%\n3. Find 25% of \\(80: 0.25 × 80 = \\)20\n4. Sale price: \\(80 - \\)20 = $60\n\n**Alternative method:** If 25% off, you pay 75%\n- 0.75 × \\(80 = \\)60\n\n**Key Concept:** Percent means \"per hundred.\" Finding a percent of a number and subtracting to find sale price.\n\n---",
+    "explanation": "**Topic:** Finding Percent Discount\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Original price: $80\n2. Discount: 25%\n3. Find 25% of \\(80: 0.25 × 80 = \\)20\n4. Sale price: \\(80 - \\)20 = $60\n\n**Alternative method:** If 25% off, you pay 75%\n- 0.75 × \\(80 = \\)60\n\n**Key Concept:** Percent means \"per hundred.\" Finding a percent of a number and subtracting to find sale price.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "18 students"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Finding Percent of a Number\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Total students: 40\n2. Percent playing brass: 35%\n3. Calculate: 35% of 40 = 0.35 × 40 = 14\n\n**Key Concept:** Converting percent to decimal and multiplying to find part of a whole.\n\n---",
+    "explanation": "**Topic:** Finding Percent of a Number\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Total students: 40\n2. Percent playing brass: 35%\n3. Calculate: 35% of 40 = 0.35 × 40 = 14\n\n**Key Concept:** Converting percent to decimal and multiplying to find part of a whole.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "$112"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Multi-step Word Problem\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Total apples: 156\n2. Apples per box: 12\n3. Number of full boxes: 156 ÷ 12 = 13 boxes\n4. Price per box: $8\n5. Total money: 13 × \\(8 = \\)104\n\n**Key Concept:** Division to find number of groups, then multiplication to find total value.\n\n---",
+    "explanation": "**Topic:** Multi-step Word Problem\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Total apples: 156\n2. Apples per box: 12\n3. Number of full boxes: 156 ÷ 12 = 13 boxes\n4. Price per box: $8\n5. Total money: 13 × \\(8 = \\)104\n\n**Key Concept:** Division to find number of groups, then multiplication to find total value.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "n ≤ 15"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Writing Inequalities\n**TEKS:** 5.4\n\n**Explanation:**\n- \"Greater than\" is represented by the symbol >\n- \"A number n is greater than 15\" translates to n > 15\n\n**Key Concept:** Understanding inequality symbols:\n- \\> means \"greater than\"\n- < means \"less than\"\n- ≥ means \"greater than or equal to\"\n- ≤ means \"less than or equal to\"\n\n---",
+    "explanation": "**Topic:** Writing Inequalities\n**TEKS:** 5.4\n\n**Explanation:**\n- \"Greater than\" is represented by the symbol >\n- \"A number n is greater than 15\" translates to n > 15\n\n**Key Concept:** Understanding inequality symbols:\n- \\> means \"greater than\"\n- < means \"less than\"\n- ≥ means \"greater than or equal to\"\n- ≤ means \"less than or equal to\"",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "45b ≤ 7"
     ],
     "correctIndex": 1,
-    "explanation": "**Topic:** Writing and Interpreting Inequalities\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Each book costs $7\n2. Marcus has $45 (cannot spend more)\n3. Number of books × cost per book ≤ total budget\n4. 7b ≤ 45\n\n**Key Concept:** Using ≤ when there is a maximum limit that cannot be exceeded.\n\n---",
+    "explanation": "**Topic:** Writing and Interpreting Inequalities\n**TEKS:** 5.4\n\n**Step-by-Step Solution:**\n1. Each book costs $7\n2. Marcus has $45 (cannot spend more)\n3. Number of books × cost per book ≤ total budget\n4. 7b ≤ 45\n\n**Key Concept:** Using ≤ when there is a maximum limit that cannot be exceeded.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "$250.00"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) $312.50**\n\n**Step-by-step solution:**\n1. Total raised: $1,250\n2. Animal shelters: 40% of \\(1,250 = 0.40 × \\)1,250 = $500\n3. Food banks: 35% of \\(1,250 = 0.35 × \\)1,250 = $437.50\n4. Total distributed: \\(500 + \\)437.50 = $937.50\n5. Remaining: \\(1,250 - \\)937.50 = $312.50\n\n**Key Concept:** Finding percentages and using multi-step reasoning.\n\n---",
+    "explanation": "**Answer: A) $312.50**\n\n**Step-by-step solution:**\n1. Total raised: $1,250\n2. Animal shelters: 40% of \\(1,250 = 0.40 × \\)1,250 = $500\n3. Food banks: 35% of \\(1,250 = 0.35 × \\)1,250 = $437.50\n4. Total distributed: \\(500 + \\)437.50 = $937.50\n5. Remaining: \\(1,250 - \\)937.50 = $312.50\n\n**Key Concept:** Finding percentages and using multi-step reasoning.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "h > 42"
     ],
     "correctIndex": 2,
-    "explanation": "**Answer: C) h ≥ 42**\n\n**Explanation:**\n- \"At least 42 inches\" means 42 inches or taller\n- This includes 42 and all values greater than 42\n- The symbol ≥ means \"greater than or equal to\"\n\n**Why other answers are incorrect:**\n- A) h < 42: This means shorter than 42 (opposite of requirement)\n- B) h ≤ 42: This means 42 or shorter (opposite of requirement)\n- D) h > 42: This excludes exactly 42 inches (must be \"at least\")\n\n**Key Concept:** \"At least\" translates to ≥ (greater than or equal to).\n\n---",
+    "explanation": "**Answer: C) h ≥ 42**\n\n**Explanation:**\n- \"At least 42 inches\" means 42 inches or taller\n- This includes 42 and all values greater than 42\n- The symbol ≥ means \"greater than or equal to\"\n\n**Why other answers are incorrect:**\n- A) h < 42: This means shorter than 42 (opposite of requirement)\n- B) h ≤ 42: This means 42 or shorter (opposite of requirement)\n- D) h > 42: This excludes exactly 42 inches (must be \"at least\")\n\n**Key Concept:** \"At least\" translates to ≥ (greater than or equal to).",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "9h ≥ 175"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) 62 + 9h ≥ 175**\n\n**Explanation:**\n- Mia has $62 already saved\n- She earns $9 per hour (h hours of work = 9h dollars)\n- Total money: 62 + 9h\n- She needs \"at least\" $175, so: 62 + 9h ≥ 175\n\n**Why other answers are incorrect:**\n- B) 62 + 9h > 175: Excludes exactly $175 (she just needs enough)\n- C) 62 + 9h ≤ 175: Says she needs $175 or less (opposite meaning)\n- D) 9h ≥ 175: Ignores the $62 she already has\n\n**Key Concept:** Writing inequalities from word problems, combining known and unknown values.\n\n---",
+    "explanation": "**Answer: A) 62 + 9h ≥ 175**\n\n**Explanation:**\n- Mia has $62 already saved\n- She earns $9 per hour (h hours of work = 9h dollars)\n- Total money: 62 + 9h\n- She needs \"at least\" $175, so: 62 + 9h ≥ 175\n\n**Why other answers are incorrect:**\n- B) 62 + 9h > 175: Excludes exactly $175 (she just needs enough)\n- C) 62 + 9h ≤ 175: Says she needs $175 or less (opposite meaning)\n- D) 9h ≥ 175: Ignores the $62 she already has\n\n**Key Concept:** Writing inequalities from word problems, combining known and unknown values.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "s - 23 ≤ 54"
     ],
     "correctIndex": 2,
-    "explanation": "**Answer: C) s + 23 ≤ 54**\n\n**Explanation:**\n- Maximum capacity: 54 passengers\n- Already on bus: 23 students\n- Additional students (s) plus current students cannot exceed maximum\n- s + 23 ≤ 54\n\n**Why other answers are incorrect:**\n- A) s + 23 > 54: This would exceed capacity (not allowed)\n- B) s + 23 ≥ 54: This requires filling to capacity or more\n- D) s - 23 ≤ 54: Incorrect operation (should add, not subtract)\n\n**Key Concept:** \"Maximum\" means the total cannot exceed that number (≤).\n\n---",
+    "explanation": "**Answer: C) s + 23 ≤ 54**\n\n**Explanation:**\n- Maximum capacity: 54 passengers\n- Already on bus: 23 students\n- Additional students (s) plus current students cannot exceed maximum\n- s + 23 ≤ 54\n\n**Why other answers are incorrect:**\n- A) s + 23 > 54: This would exceed capacity (not allowed)\n- B) s + 23 ≥ 54: This requires filling to capacity or more\n- D) s - 23 ≤ 54: Incorrect operation (should add, not subtract)\n\n**Key Concept:** \"Maximum\" means the total cannot exceed that number (≤).",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "12c + 6 ≤ 50"
     ],
     "correctIndex": 1,
-    "explanation": "**Answer: B) 6c + 12 ≤ 50**\n\n**Explanation:**\n- Gift card: $50 total\n- Poster: $12 (must buy one)\n- Comic books: $6 each, buying c comics = 6c dollars\n- Total spending: 6c + 12\n- Must stay within budget: 6c + 12 ≤ 50\n\n**Why other answers are incorrect:**\n- A) 6c + 12 ≥ 50: This means spending at least $50 (opposite of budget limit)\n- C) 6c - 12 ≤ 50: Wrong operation (should add poster cost, not subtract)\n- D) 12c + 6 ≤ 50: Switched the values (comics are \\(6 each, not \\)12)\n\n**Key Concept:** Budget constraints use ≤ since spending must not exceed available money.\n\n---",
+    "explanation": "**Answer: B) 6c + 12 ≤ 50**\n\n**Explanation:**\n- Gift card: $50 total\n- Poster: $12 (must buy one)\n- Comic books: $6 each, buying c comics = 6c dollars\n- Total spending: 6c + 12\n- Must stay within budget: 6c + 12 ≤ 50\n\n**Why other answers are incorrect:**\n- A) 6c + 12 ≥ 50: This means spending at least $50 (opposite of budget limit)\n- C) 6c - 12 ≤ 50: Wrong operation (should add poster cost, not subtract)\n- D) 12c + 6 ≤ 50: Switched the values (comics are \\(6 each, not \\)12)\n\n**Key Concept:** Budget constraints use ≤ since spending must not exceed available money.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "The team must have fewer than 15 players."
     ],
     "correctIndex": 2,
-    "explanation": "**Answer: C) The team can have 15 or fewer players.**\n\n**Explanation:**\n- p ≤ 15 means p is less than or equal to 15\n- This includes 15 AND all values less than 15\n- Valid values: 0, 1, 2, 3, ... 13, 14, 15\n\n**Why other answers are incorrect:**\n- A) Exactly 15: The inequality allows fewer than 15 as well\n- B) More than 15: This would be p > 15\n- D) Fewer than 15: This would be p < 15 (excludes 15)\n\n**Key Concept:** Understanding inequality symbols and their meanings.\n\n---",
+    "explanation": "**Answer: C) The team can have 15 or fewer players.**\n\n**Explanation:**\n- p ≤ 15 means p is less than or equal to 15\n- This includes 15 AND all values less than 15\n- Valid values: 0, 1, 2, 3, ... 13, 14, 15\n\n**Why other answers are incorrect:**\n- A) Exactly 15: The inequality allows fewer than 15 as well\n- B) More than 15: This would be p > 15\n- D) Fewer than 15: This would be p < 15 (excludes 15)\n\n**Key Concept:** Understanding inequality symbols and their meanings.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "15h + 245 ≥ 80"
     ],
     "correctIndex": 2,
-    "explanation": "Sofia's total savings (what she has plus what she earns) must be **at least** $245, giving the inequality **80 + 15h ≥ 245**.\n\n---",
+    "explanation": "Sofia's total savings (what she has plus what she earns) must be **at least** $245, giving the inequality **80 + 15h ≥ 245**.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "650 + 55b ≥ 4,200"
     ],
     "correctIndex": 1,
-    "explanation": "The total weight of the driver/equipment plus all boxes must not exceed 4,200 pounds, giving the inequality **650 + 55b ≤ 4,200**.\n\n---",
+    "explanation": "The total weight of the driver/equipment plus all boxes must not exceed 4,200 pounds, giving the inequality **650 + 55b ≤ 4,200**.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "m ≤ 28"
     ],
     "correctIndex": 3,
-    "explanation": "\"No more than 28\" means the number can be 28 or any value less than 28, which is written as m ≤ 28.\n\n---",
+    "explanation": "\"No more than 28\" means the number can be 28 or any value less than 28, which is written as m ≤ 28.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "s ≤ 80"
     ],
     "correctIndex": 1,
-    "explanation": "\"More than $80\" does not include $80 itself, so the inequality uses the strict greater-than symbol: s > 80.\n\n---",
+    "explanation": "\"More than $80\" does not include $80 itself, so the inequality uses the strict greater-than symbol: s > 80.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "Each y value equals x squared."
     ],
     "correctIndex": 1,
-    "explanation": "Every y value is exactly 6 times its corresponding x value (1 × 6 = 6, 2 × 6 = 12, 3 × 6 = 18, 4 × 6 = 24), which is a multiplicative relationship described by y = 6x.\n\n---",
+    "explanation": "Every y value is exactly 6 times its corresponding x value (1 × 6 = 6, 2 × 6 = 12, 3 × 6 = 18, 4 × 6 = 24), which is a multiplicative relationship described by y = 6x.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "s + 15 − 28 = 67"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → s − 15 + 28 = 67\n\n**Step-by-step:**\nLet s = stamps Jaylen started with.\n- He **gave away** 15 stamps: s − 15\n- He **bought** 28 more stamps: s − 15 + 28\n- He now has 67: **s − 15 + 28 = 67**\n\n**Solve to verify:**\n- s + 13 = 67\n- s = 67 − 13 = **54**\n\n**Check:** 54 − 15 + 28 = 39 + 28 = 67 ✓\n\n**Why other answers are wrong:**\n- A) s + 15 + 28 = 67 — treats giving away stamps as receiving (adds both)\n- C) s − 15 − 28 = 67 — subtracts the new stamps instead of adding\n- D) s + 15 − 28 = 67 — reverses which action adds/subtracts stamps\n\n---",
+    "explanation": "**Correct Answer: B** → s − 15 + 28 = 67\n\n**Step-by-step:**\nLet s = stamps Jaylen started with.\n- He **gave away** 15 stamps: s − 15\n- He **bought** 28 more stamps: s − 15 + 28\n- He now has 67: **s − 15 + 28 = 67**\n\n**Solve to verify:**\n- s + 13 = 67\n- s = 67 − 13 = **54**\n\n**Check:** 54 − 15 + 28 = 39 + 28 = 67 ✓\n\n**Why other answers are wrong:**\n- A) s + 15 + 28 = 67 — treats giving away stamps as receiving (adds both)\n- C) s − 15 − 28 = 67 — subtracts the new stamps instead of adding\n- D) s + 15 − 28 = 67 — reverses which action adds/subtracts stamps",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "5"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct Answer: A** → 20\n\n**Step-by-step:**\n**[4 × (6 + 2)] − 15 + 3**\n\n**PEMDAS/BODMAS — work inside out:**\n\nStep 1 — Innermost parentheses first:\n- (6 + 2) = **8**\n- Expression becomes: [4 × 8] − 15 + 3\n\nStep 2 — Brackets next:\n- [4 × 8] = **32**\n- Expression becomes: 32 − 15 + 3\n\nStep 3 — Add/Subtract left to right:\n- 32 − 15 = 17\n- 17 + 3 = **20**\n\n**Why other answers are wrong:**\n- B) 17 — stops after 32 − 15, forgets to add 3\n- C) 25 — adds 15 + 3 = 18, then does 32 − 18 = 14 (wrong order of operations)... actually 32 - 15 = 17, 17 + 3 = 20; or perhaps computes (4 × 6) + (2) - 15 + 3 = 14\n- D) 5 — computes the expression with arithmetic errors\n\n---",
+    "explanation": "**Correct Answer: A** → 20\n\n**Step-by-step:**\n**[4 × (6 + 2)] − 15 + 3**\n\n**PEMDAS/BODMAS — work inside out:**\n\nStep 1 — Innermost parentheses first:\n- (6 + 2) = **8**\n- Expression becomes: [4 × 8] − 15 + 3\n\nStep 2 — Brackets next:\n- [4 × 8] = **32**\n- Expression becomes: 32 − 15 + 3\n\nStep 3 — Add/Subtract left to right:\n- 32 − 15 = 17\n- 17 + 3 = **20**\n\n**Why other answers are wrong:**\n- B) 17 — stops after 32 − 15, forgets to add 3\n- C) 25 — adds 15 + 3 = 18, then does 32 − 18 = 14 (wrong order of operations)... actually 32 - 15 = 17, 17 + 3 = 20; or perhaps computes (4 × 6) + (2) - 15 + 3 = 14\n- D) 5 — computes the expression with arithmetic errors",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "323"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 17\n\n**Step-by-step:**\n**50 − 6 × (2 + 5) + 9**\n\nStep 1 — Parentheses first:\n- (2 + 5) = **7**\n- Expression becomes: 50 − 6 × 7 + 9\n\nStep 2 — Multiplication next:\n- 6 × 7 = **42**\n- Expression becomes: 50 − 42 + 9\n\nStep 3 — Add/Subtract left to right:\n- 50 − 42 = 8\n- 8 + 9 = **17**\n\n**Why other answers are wrong:**\n- A) 5 — subtracts 9 instead of adding: 50 − 42 − 9 + 4 = error (ignores order)\n- B) 12 — adds 9 before subtracting: (50 + 9) − 6 × 7 = 59 − 42 = 17... actually gets same answer; or arithmetic error elsewhere\n- D) 323 — performs operations left to right without following order of operations: (50 − 6) × (2 + 5) + 9 = 44 × 7 + 9 = 308 + 9 = 317... still not 323; represents a common student error of ignoring PEMDAS\n\n**Key concept:** Always simplify parentheses first, then multiplication/division, then addition/subtraction — left to right.\n\n---",
+    "explanation": "**Correct Answer: C** → 17\n\n**Step-by-step:**\n**50 − 6 × (2 + 5) + 9**\n\nStep 1 — Parentheses first:\n- (2 + 5) = **7**\n- Expression becomes: 50 − 6 × 7 + 9\n\nStep 2 — Multiplication next:\n- 6 × 7 = **42**\n- Expression becomes: 50 − 42 + 9\n\nStep 3 — Add/Subtract left to right:\n- 50 − 42 = 8\n- 8 + 9 = **17**\n\n**Why other answers are wrong:**\n- A) 5 — subtracts 9 instead of adding: 50 − 42 − 9 + 4 = error (ignores order)\n- B) 12 — adds 9 before subtracting: (50 + 9) − 6 × 7 = 59 − 42 = 17... actually gets same answer; or arithmetic error elsewhere\n- D) 323 — performs operations left to right without following order of operations: (50 − 6) × (2 + 5) + 9 = 44 × 7 + 9 = 308 + 9 = 317... still not 323; represents a common student error of ignoring PEMDAS\n\n**Key concept:** Always simplify parentheses first, then multiplication/division, then addition/subtraction — left to right.",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "30"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 27\n\n**Step-by-step:**\nFind 60% of 45 games.\n\n**Method 1 (multiply by decimal):**\n60% = 0.60\n0.60 × 45 = **27**\n\n**Method 2 (fraction):**\n60% = 60/100 = 3/5\n3/5 × 45 = 135/5 = **27**\n\n**Why other answers are wrong:**\n- A) 18 = 40% of 45\n- B) 24 — close but arithmetic error (approximately 53%)\n- D) 30 = ⅔ of 45, or roughly 66.7% of 45\n\n---",
+    "explanation": "**Correct Answer: C** → 27\n\n**Step-by-step:**\nFind 60% of 45 games.\n\n**Method 1 (multiply by decimal):**\n60% = 0.60\n0.60 × 45 = **27**\n\n**Method 2 (fraction):**\n60% = 60/100 = 3/5\n3/5 × 45 = 135/5 = **27**\n\n**Why other answers are wrong:**\n- A) 18 = 40% of 45\n- B) 24 — close but arithmetic error (approximately 53%)\n- D) 30 = ⅔ of 45, or roughly 66.7% of 45",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "$70"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → $68\n\n**Step-by-step:**\nOriginal price = $85. Discount = 20%.\n\nStep 1 — Find the discount amount:\n- 20% of \\(85 = 0.20 × \\)85 = **$17**\n\nStep 2 — Subtract the discount:\n- \\(85 − \\)17 = **$68**\n\n**Why other answers are wrong:**\n- A) $17 — this is only the discount amount, not the sale price\n- B) \\(65 — uses 25% off: \\)85 × 0.75 = $63.75... or arithmetic error\n- D) $70 — uses an incorrect discount of $15 (≈17.6% off)\n\n---",
+    "explanation": "**Correct Answer: C** → $68\n\n**Step-by-step:**\nOriginal price = $85. Discount = 20%.\n\nStep 1 — Find the discount amount:\n- 20% of \\(85 = 0.20 × \\)85 = **$17**\n\nStep 2 — Subtract the discount:\n- \\(85 − \\)17 = **$68**\n\n**Why other answers are wrong:**\n- A) $17 — this is only the discount amount, not the sale price\n- B) \\(65 — uses 25% off: \\)85 × 0.75 = $63.75... or arithmetic error\n- D) $70 — uses an incorrect discount of $15 (≈17.6% off)",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "520"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 504\n\n**Step-by-step:**\nStep 1 — Books from novel boxes:\n- 15 boxes × 24 books = **360 books**\n\nStep 2 — Books from textbook boxes:\n- 8 boxes × 18 books = **144 books**\n\nStep 3 — Total books:\n- 360 + 144 = **504 books**\n\n**Why other answers are wrong:**\n- A) 396 = 15 × 24 + 8 × 9 — uses half the textbook count (18/2)\n- B) 462 — arithmetic error in partial products\n- D) 520 — arithmetic error (e.g., uses 15 × 26 instead of 15 × 24)\n\n---",
+    "explanation": "**Correct Answer: C** → 504\n\n**Step-by-step:**\nStep 1 — Books from novel boxes:\n- 15 boxes × 24 books = **360 books**\n\nStep 2 — Books from textbook boxes:\n- 8 boxes × 18 books = **144 books**\n\nStep 3 — Total books:\n- 360 + 144 = **504 books**\n\n**Why other answers are wrong:**\n- A) 396 = 15 × 24 + 8 × 9 — uses half the textbook count (18/2)\n- B) 462 — arithmetic error in partial products\n- D) 520 — arithmetic error (e.g., uses 15 × 26 instead of 15 × 24)",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "h ≥ 48"
     ],
     "correctIndex": 3,
-    "explanation": "**Correct Answer: D** → h ≥ 48\n\n**Step-by-step:**\n\"At least 48 inches\" means a height of 48 inches OR MORE.\n- \"At least\" → ≥ (greater than or equal to)\n\n**h ≥ 48**\n\n**Why other answers are wrong:**\n- A) h < 48 — means LESS than 48; these riders cannot ride\n- B) h > 48 — means STRICTLY greater than 48; excludes riders who are exactly 48 inches (they should be allowed)\n- C) h ≤ 48 — means 48 or less; this would allow riders who are too short\n\n---",
+    "explanation": "**Correct Answer: D** → h ≥ 48\n\n**Step-by-step:**\n\"At least 48 inches\" means a height of 48 inches OR MORE.\n- \"At least\" → ≥ (greater than or equal to)\n\n**h ≥ 48**\n\n**Why other answers are wrong:**\n- A) h < 48 — means LESS than 48; these riders cannot ride\n- B) h > 48 — means STRICTLY greater than 48; excludes riders who are exactly 48 inches (they should be allowed)\n- C) h ≤ 48 — means 48 or less; this would allow riders who are too short",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "Each *y* value is 4 times the *x* value."
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → y = x + 8 (additive pattern)\n\n**Step-by-step:**\nCheck each pair to find the rule:\n\n| x | y  | y − x | y ÷ x |\n|---|----|-------|-------|\n| 1 | 9  | 8     | 9.0   |\n| 2 | 10 | 8     | 5.0   |\n| 3 | 11 | 8     | 3.67  |\n| 4 | 12 | 8     | 3.0   |\n\n- **y − x is always 8** → the rule is **y = x + 8** (additive pattern) ✓\n- y ÷ x is NOT constant → this is NOT a multiplicative pattern\n\nThe pattern is: **each y value equals the x value plus 8**.\n\n**Why other answers are wrong:**\n- A) y = 8x would give 8, 16, 24, 32 — not matching 9, 10, 11, 12\n- B) y = 2x would give 2, 4, 6, 8 — not matching; and y does NOT increase by 2 each step (it increases by 1)\n- D) y = 4x would give 4, 8, 12, 16 — not matching\n\n**Key concept:**\n- **Additive pattern** (y = x + a): y is always a constant number MORE than x. The ratio y/x changes.\n- **Multiplicative pattern** (y = ax): y is always a constant MULTIPLE of x. The ratio y/x stays the same.\n\n---",
+    "explanation": "**Correct Answer: C** → y = x + 8 (additive pattern)\n\n**Step-by-step:**\nCheck each pair to find the rule:\n\n| x | y  | y − x | y ÷ x |\n|---|----|-------|-------|\n| 1 | 9  | 8     | 9.0   |\n| 2 | 10 | 8     | 5.0   |\n| 3 | 11 | 8     | 3.67  |\n| 4 | 12 | 8     | 3.0   |\n\n- **y − x is always 8** → the rule is **y = x + 8** (additive pattern) ✓\n- y ÷ x is NOT constant → this is NOT a multiplicative pattern\n\nThe pattern is: **each y value equals the x value plus 8**.\n\n**Why other answers are wrong:**\n- A) y = 8x would give 8, 16, 24, 32 — not matching 9, 10, 11, 12\n- B) y = 2x would give 2, 4, 6, 8 — not matching; and y does NOT increase by 2 each step (it increases by 1)\n- D) y = 4x would give 4, 8, 12, 16 — not matching\n\n**Key concept:**\n- **Additive pattern** (y = x + a): y is always a constant number MORE than x. The ratio y/x changes.\n- **Multiplicative pattern** (y = ax): y is always a constant MULTIPLE of x. The ratio y/x stays the same.",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "n ÷ 6 − 14 = 46"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → 6n − 14 = 46\n\n**Step-by-step:**\nTranslate the description into an equation:\n- \"A number multiplied by 6\" → 6n\n- \"Then 14 is subtracted\" → 6n − 14\n- \"The result is 46\" → 6n − 14 = **46**\n\n**Solve to verify:**\n- 6n = 46 + 14 = 60\n- n = 60 ÷ 6 = **10**\n\n**Check:** 6(10) − 14 = 60 − 14 = 46 ✓\n\n**Why other answers are wrong:**\n- A) 6 + n − 14 = 46 — adds 6 instead of multiplying\n- C) 6n + 14 = 46 → 6n = 32 → n = 5.33... (subtracts when it should add 14 to check)\n- D) n ÷ 6 − 14 = 46 — divides instead of multiplies\n\n---",
+    "explanation": "**Correct Answer: B** → 6n − 14 = 46\n\n**Step-by-step:**\nTranslate the description into an equation:\n- \"A number multiplied by 6\" → 6n\n- \"Then 14 is subtracted\" → 6n − 14\n- \"The result is 46\" → 6n − 14 = **46**\n\n**Solve to verify:**\n- 6n = 46 + 14 = 60\n- n = 60 ÷ 6 = **10**\n\n**Check:** 6(10) − 14 = 60 − 14 = 46 ✓\n\n**Why other answers are wrong:**\n- A) 6 + n − 14 = 46 — adds 6 instead of multiplying\n- C) 6n + 14 = 46 → 6n = 32 → n = 5.33... (subtracts when it should add 14 to check)\n- D) n ÷ 6 − 14 = 46 — divides instead of multiplies",
     "source": "authored",
     "needsReview": false
   },
@@ -515,7 +515,7 @@
       "46 students"
     ],
     "correctIndex": 2,
-    "explanation": "**Correct Answer: C** → 42 students\n\n**Step-by-step:**\nLet *s* = students normally eating in each shift.\n\n- Shift 1 = s students\n- Shift 2 = s + 48 students (48 extras from field trip)\n- Shift 3 = s students\n- Total: s + (s + 48) + s = 174\n\nSimplify:\n- 3s + 48 = 174\n- 3s = 126\n- s = **42**\n\n**Check:** 42 + (42 + 48) + 42 = 42 + 90 + 42 = 174 ✓\n\n**Why other answers are wrong:**\n- A) 36 → 3(36) + 48 = 108 + 48 = 156 ≠ 174\n- B) 38 → 3(38) + 48 = 114 + 48 = 162 ≠ 174\n- D) 46 → 3(46) + 48 = 138 + 48 = 186 ≠ 174\n\n---",
+    "explanation": "**Correct Answer: C** → 42 students\n\n**Step-by-step:**\nLet *s* = students normally eating in each shift.\n\n- Shift 1 = s students\n- Shift 2 = s + 48 students (48 extras from field trip)\n- Shift 3 = s students\n- Total: s + (s + 48) + s = 174\n\nSimplify:\n- 3s + 48 = 174\n- 3s = 126\n- s = **42**\n\n**Check:** 42 + (42 + 48) + 42 = 42 + 90 + 42 = 174 ✓\n\n**Why other answers are wrong:**\n- A) 36 → 3(36) + 48 = 108 + 48 = 156 ≠ 174\n- B) 38 → 3(38) + 48 = 114 + 48 = 162 ≠ 174\n- D) 46 → 3(46) + 48 = 138 + 48 = 186 ≠ 174",
     "source": "authored",
     "needsReview": false
   },
@@ -535,7 +535,7 @@
       "p > 75"
     ],
     "correctIndex": 1,
-    "explanation": "**Correct Answer: B** → p + 34 ≤ 75\n\n**Step-by-step:**\n- Container capacity: **at most 75 pounds** (maximum = 75)\n- Already loaded: 34 pounds\n- Additional pounds: p\n- Total = p + 34\n\nSince total must NOT exceed 75: **p + 34 ≤ 75**\n\nSolving to check: p ≤ 41 (can add up to 41 more pounds)\n\n**Why other answers are wrong:**\n- A) p + 34 < 75 — uses strict less than; this would exclude the possibility of exactly filling to 75 lbs (which is allowed)\n- C) p + 34 > 75 — means the total must EXCEED 75 (wrong direction)\n- D) p > 75 — ignores the 34 lbs already loaded\n\n---",
+    "explanation": "**Correct Answer: B** → p + 34 ≤ 75\n\n**Step-by-step:**\n- Container capacity: **at most 75 pounds** (maximum = 75)\n- Already loaded: 34 pounds\n- Additional pounds: p\n- Total = p + 34\n\nSince total must NOT exceed 75: **p + 34 ≤ 75**\n\nSolving to check: p ≤ 41 (can add up to 41 more pounds)\n\n**Why other answers are wrong:**\n- A) p + 34 < 75 — uses strict less than; this would exclude the possibility of exactly filling to 75 lbs (which is allowed)\n- C) p + 34 > 75 — means the total must EXCEED 75 (wrong direction)\n- D) p > 75 — ignores the 34 lbs already loaded",
     "source": "authored",
     "needsReview": false
   }

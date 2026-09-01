@@ -15,7 +15,7 @@
       "\\(-\\frac{3}{4}, \\ -1, \\ -0.2, \\ \\frac{2}{5}, \\ 0.6\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Ordering rational numbers (fractions, decimals, negatives).\n\n**Steps:**\n1. Convert to decimals: \\(-\\frac{3}{4} = -0.75\\), \\(\\ 0.6\\), \\(\\ -1\\), \\(\\ \\frac{2}{5} = 0.4\\), \\(\\ -0.2\\).\n2. Negatives are less than positives; the more negative a number, the smaller it is.\n3. Least to greatest: \\(-1, \\ -0.75, \\ -0.2, \\ 0.4, \\ 0.6\\) → \\(-1, \\ -\\frac{3}{4}, \\ -0.2, \\ \\frac{2}{5}, \\ 0.6\\).\n\n**Why others are wrong:** B is reversed; C places \\(-0.2\\) before \\(-0.75\\); D lists \\(-\\frac34\\) before \\(-1\\).\n\n---",
+    "explanation": "**Key concept:** Ordering rational numbers (fractions, decimals, negatives).\n\n**Steps:**\n1. Convert to decimals: \\(-\\frac{3}{4} = -0.75\\), \\(\\ 0.6\\), \\(\\ -1\\), \\(\\ \\frac{2}{5} = 0.4\\), \\(\\ -0.2\\).\n2. Negatives are less than positives; the more negative a number, the smaller it is.\n3. Least to greatest: \\(-1, \\ -0.75, \\ -0.2, \\ 0.4, \\ 0.6\\) → \\(-1, \\ -\\frac{3}{4}, \\ -0.2, \\ \\frac{2}{5}, \\ 0.6\\).\n\n**Why others are wrong:** B is reversed; C places \\(-0.2\\) before \\(-0.75\\); D lists \\(-\\frac34\\) before \\(-1\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(4\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Absolute value = distance from 0 (always non-negative).\n\n**Steps:** \\(|-9| = 9\\), \\(|6| = 6\\), \\(|-7| = 7\\), \\(|4| = 4\\). Greatest is \\(9\\), from \\(-9\\).\n\n**Why others are wrong:** 6, 7, and 4 are all smaller distances from zero.\n\n---",
+    "explanation": "**Key concept:** Absolute value = distance from 0 (always non-negative).\n\n**Steps:** \\(|-9| = 9\\), \\(|6| = 6\\), \\(|-7| = 7\\), \\(|4| = 4\\). Greatest is \\(9\\), from \\(-9\\).\n\n**Why others are wrong:** 6, 7, and 4 are all smaller distances from zero.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(0.85\\) and \\(8.5\\%\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Equivalent forms of fractions, decimals, and percents.\n\n**Steps:** \\(\\dfrac{17}{20} = 17 \\div 20 = 0.85\\); then \\(0.85 \\times 100 = 85\\%\\).\n\n**Why others are wrong:** B reuses the digits 17; C gives more than a whole (170%); D misplaces the decimal.\n\n---",
+    "explanation": "**Key concept:** Equivalent forms of fractions, decimals, and percents.\n\n**Steps:** \\(\\dfrac{17}{20} = 17 \\div 20 = 0.85\\); then \\(0.85 \\times 100 = 85\\%\\).\n\n**Why others are wrong:** B reuses the digits 17; C gives more than a whole (170%); D misplaces the decimal.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "15"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Order of operations (PEMDAS) with whole-number exponents.\n\n**Steps:**\n1. Inside parentheses, exponent first: \\(4^2 = 16\\), so \\((16 - 10) = 6\\).\n2. Multiply/divide left to right: \\(2 \\times 6 = 12\\), then \\(12 \\div 2 = 6\\).\n3. Add: \\(3 + 6 = 9\\).\n\n**Why others are wrong:** B skips the division; C ignores the \"3 +\"; D adds before multiplying/dividing.\n\n---",
+    "explanation": "**Key concept:** Order of operations (PEMDAS) with whole-number exponents.\n\n**Steps:**\n1. Inside parentheses, exponent first: \\(4^2 = 16\\), so \\((16 - 10) = 6\\).\n2. Multiply/divide left to right: \\(2 \\times 6 = 12\\), then \\(12 \\div 2 = 6\\).\n3. Add: \\(3 + 6 = 9\\).\n\n**Why others are wrong:** B skips the division; C ignores the \"3 +\"; D adds before multiplying/dividing.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "\\(0.53, \\ 0.503, \\ 0.5, \\ 0.35\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Concept:** Comparing decimals by place value.\nLine up the decimal points and compare digit by digit:\n- \\(0.35\\) (tenths = 3) is smallest.\n- \\(0.5 = 0.500\\) and \\(0.503\\) both have tenths = 5. Compare hundredths: \\(0.500 < 0.503\\).\n- \\(0.53\\) (tenths = 5, hundredths = 3) is largest.\n\nOrder: \\(0.35, \\ 0.5, \\ 0.503, \\ 0.53\\). **Answer A.**\n\n---",
+    "explanation": "**Concept:** Comparing decimals by place value.\nLine up the decimal points and compare digit by digit:\n- \\(0.35\\) (tenths = 3) is smallest.\n- \\(0.5 = 0.500\\) and \\(0.503\\) both have tenths = 5. Compare hundredths: \\(0.500 < 0.503\\).\n- \\(0.53\\) (tenths = 5, hundredths = 3) is largest.\n\nOrder: \\(0.35, \\ 0.5, \\ 0.503, \\ 0.53\\). **Answer A.**",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "\\(-11 > 3\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Concept:** Comparing integers on a number line.\nOn a number line, numbers farther **left** are smaller. Since \\(-11\\) is farther left than \\(-4\\), we have \\(-11 < -4\\). **Answer A.**\n- **B** reverses the inequality. **C** is false (\\(3 > -4\\)). **D** is false (\\(-11 < 3\\)).\n\n---",
+    "explanation": "**Concept:** Comparing integers on a number line.\nOn a number line, numbers farther **left** are smaller. Since \\(-11\\) is farther left than \\(-4\\), we have \\(-11 < -4\\). **Answer A.**\n- **B** reverses the inequality. **C** is false (\\(3 > -4\\)). **D** is false (\\(-11 < 3\\)).",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "\\(0\\) and \\(15\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Absolute value = distance from 0.\nBoth \\(15\\) and \\(-15\\) are exactly **15 units** from zero, so both have an absolute value of 15: \\(|15| = 15\\) and \\(|-15| = 15\\). **Answer C.**\n\n---",
+    "explanation": "**Concept:** Absolute value = distance from 0.\nBoth \\(15\\) and \\(-15\\) are exactly **15 units** from zero, so both have an absolute value of 15: \\(|15| = 15\\) and \\(|-15| = 15\\). **Answer C.**",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "\\(7.8\\) and \\(780\\%\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Concept:** Converting a fraction to a decimal and a percent.\n\\(\\dfrac{7}{8} = 7 \\div 8 = 0.875\\). To make a percent, multiply by 100: \\(0.875 \\times 100 = 87.5\\%\\). **Answer B.**\n\n---",
+    "explanation": "**Concept:** Converting a fraction to a decimal and a percent.\n\\(\\dfrac{7}{8} = 7 \\div 8 = 0.875\\). To make a percent, multiply by 100: \\(0.875 \\times 100 = 87.5\\%\\). **Answer B.**",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "72"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Greatest Common Factor.\nFactors of 24: 1, 2, 3, 4, 6, 8, **12**, 24. Factors of 36: 1, 2, 3, 4, 6, **12**, 18, 36. The greatest factor they share is **12**. **Answer C.**\n- **A** (6) is a common factor but not the greatest. **D** (72) is the LCM, not the GCF.\n\n---",
+    "explanation": "**Concept:** Greatest Common Factor.\nFactors of 24: 1, 2, 3, 4, 6, 8, **12**, 24. Factors of 36: 1, 2, 3, 4, 6, **12**, 18, 36. The greatest factor they share is **12**. **Answer C.**\n- **A** (6) is a common factor but not the greatest. **D** (72) is the LCM, not the GCF.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "\\(-1, \\ 2.5, \\ 6\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Concept:** Integers are whole numbers and their opposites (no fractions/decimals).\nList **A** (\\(-3, 0, 5, 12\\)) contains only integers. Lists B, C, and D each include a fraction or decimal (\\(\\frac{1}{2}\\), \\(0.5\\), \\(2.5\\)), so they are not all integers. **Answer A.**\n\n---\n\n# Instructional Area: Computations & Algebraic Relationships",
+    "explanation": "**Concept:** Integers are whole numbers and their opposites (no fractions/decimals).\nList **A** (\\(-3, 0, 5, 12\\)) contains only integers. Lists B, C, and D each include a fraction or decimal (\\(\\frac{1}{2}\\), \\(0.5\\), \\(2.5\\)), so they are not all integers. **Answer A.**",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "2"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.7A — Least common multiple.*\nMultiples of 6: 6, 12, 18, **24**… Multiples of 8: 8, 16, **24**… The smallest number in both lists is **24**. (48 is a common multiple but not the *least*.)\n\n---\n\n# Computations & Algebraic Relationships",
+    "explanation": "*TEKS 6.7A — Least common multiple.*\nMultiples of 6: 6, 12, 18, **24**… Multiples of 8: 8, 16, **24**… The smallest number in both lists is **24**. (48 is a common multiple but not the *least*.)",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "0.418"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 5.2B**\nLine up place values and compare tenths first: 0.4**8** has 4 tenths and 8 hundredths. Compared with 0.409 (4 tenths, 0 hundredths), 0.4 (4 tenths), and 0.418 (4 tenths, 1 hundredth), the tenths tie at 4, so compare hundredths: 8 > 1 > 0. So 0.48 is greatest.\n**Distractor note:** Students sometimes think \"more digits = larger,\" picking 0.409 or 0.418. Length does not determine value.\n**Key concept:** Comparing decimals by place value.\n\n---",
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 5.2B**\nLine up place values and compare tenths first: 0.4**8** has 4 tenths and 8 hundredths. Compared with 0.409 (4 tenths, 0 hundredths), 0.4 (4 tenths), and 0.418 (4 tenths, 1 hundredth), the tenths tie at 4, so compare hundredths: 8 > 1 > 0. So 0.48 is greatest.\n**Distractor note:** Students sometimes think \"more digits = larger,\" picking 0.409 or 0.418. Length does not determine value.\n**Key concept:** Comparing decimals by place value.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "\\(7\\) is farther from zero than \\(-12\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2C**\nOn a number line, 7 lies to the right of −12, so **7 > −12**. But *distance from zero* (absolute value) is |−12| = 12 and |7| = 7, so −12 is **farther** from zero. Both parts of choice B are correct.\n**Why others are wrong:** A confuses absolute value with value. C is false (12 ≠ 7). D reverses the distances.\n**Key concept:** Ordering integers vs. absolute value (distance from zero).\n\n---",
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2C**\nOn a number line, 7 lies to the right of −12, so **7 > −12**. But *distance from zero* (absolute value) is |−12| = 12 and |7| = 7, so −12 is **farther** from zero. Both parts of choice B are correct.\n**Why others are wrong:** A confuses absolute value with value. C is false (12 ≠ 7). D reverses the distances.\n**Key concept:** Ordering integers vs. absolute value (distance from zero).",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "\\(1.14\\) and \\(114\\%\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.4G**\nDivide: 7 ÷ 8 = 0.875. To make a percent, multiply by 100: 0.875 × 100 = 87.5%.\n**Why others are wrong:** A (0.78) drops the true division. C misplaces the decimal for the percent. D is greater than 1, impossible for a proper fraction.\n**Key concept:** Converting among fractions, decimals, and percents.\n\n---",
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.4G**\nDivide: 7 ÷ 8 = 0.875. To make a percent, multiply by 100: 0.875 × 100 = 87.5%.\n**Why others are wrong:** A (0.78) drops the true division. C misplaces the decimal for the percent. D is greater than 1, impossible for a proper fraction.\n**Key concept:** Converting among fractions, decimals, and percents.",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "\\(-1, \\ \\frac{1}{4}, \\ -\\frac{3}{4}, \\ 0.5\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2D**\nConvert to decimals: −1 = −1.0, −¾ = −0.75, ¼ = 0.25, 0.5 = 0.5. Least to greatest: −1 < −0.75 < 0.25 < 0.5, which is \\(-1, -\\frac{3}{4}, \\frac{1}{4}, 0.5\\).\n**Why others are wrong:** B places −¾ before −1 (more negative is smaller). C reverses the order. D misplaces the negatives.\n**Key concept:** Ordering positive and negative rational numbers.\n\n---",
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2D**\nConvert to decimals: −1 = −1.0, −¾ = −0.75, ¼ = 0.25, 0.5 = 0.5. Least to greatest: −1 < −0.75 < 0.25 < 0.5, which is \\(-1, -\\frac{3}{4}, \\frac{1}{4}, 0.5\\).\n**Why others are wrong:** B places −¾ before −1 (more negative is smaller). C reverses the order. D misplaces the negatives.\n**Key concept:** Ordering positive and negative rational numbers.",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "72"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.7A**\nFactors of 24: 1, 2, 3, 4, 6, 8, **12**, 24. Factors of 36: 1, 2, 3, 4, 6, 9, **12**, 18, 36. The greatest factor they share is 12.\n**Why others are wrong:** A (6) and B (4) are common factors but not the greatest. D (72) is the LCM, not the GCF.\n**Key concept:** Greatest common factor.\n\n---",
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.7A**\nFactors of 24: 1, 2, 3, 4, 6, 8, **12**, 24. Factors of 36: 1, 2, 3, 4, 6, 9, **12**, 18, 36. The greatest factor they share is 12.\n**Why others are wrong:** A (6) and B (4) are common factors but not the greatest. D (72) is the LCM, not the GCF.\n**Key concept:** Greatest common factor.",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "always negative"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2B**\nThe opposite of a number reflects it across zero. Taking the opposite twice reflects it back: e.g., opposite of 5 is −5; opposite of −5 is 5. You return to the **original number**.\n**Why others are wrong:** A, C, D are only true for special cases, not in general.\n**Key concept:** Opposites and reflection across zero.\n\n---\n\n# Computations & Algebraic Relationships",
+    "explanation": "**Instructional Area:** Numerical Representations & Relationships | **TEKS 6.2B**\nThe opposite of a number reflects it across zero. Taking the opposite twice reflects it back: e.g., opposite of 5 is −5; opposite of −5 is 5. You return to the **original number**.\n**Why others are wrong:** A, C, D are only true for special cases, not in general.\n**Key concept:** Opposites and reflection across zero.",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "\\(0.7, \\ \\frac{3}{10}, \\ -\\frac{2}{5}, \\ -1.25\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.2D | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Convert all to decimals: \\(-\\frac{2}{5} = -0.4\\), \\(\\frac{3}{10} = 0.3\\). Values: \\(-0.4,\\ 0.7,\\ -1.25,\\ 0.3\\). Ordering least → greatest: \\(-1.25 < -0.4 < 0.3 < 0.7\\), i.e. \\(-1.25,\\ -\\frac{2}{5},\\ \\frac{3}{10},\\ 0.7\\).\n\n**Why others are wrong:** B places \\(-\\frac{2}{5}\\) before \\(-1.25\\) (treats the more-negative number as larger). C misplaces \\(\\frac{3}{10}\\) ahead of \\(-\\frac{2}{5}\\). D is greatest → least (reversed).\n\n**Key concept:** Comparing/ordering positive and negative rational numbers; on a number line, more-negative = smaller.\n\n---",
+    "explanation": "**TEKS 6.2D | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Convert all to decimals: \\(-\\frac{2}{5} = -0.4\\), \\(\\frac{3}{10} = 0.3\\). Values: \\(-0.4,\\ 0.7,\\ -1.25,\\ 0.3\\). Ordering least → greatest: \\(-1.25 < -0.4 < 0.3 < 0.7\\), i.e. \\(-1.25,\\ -\\frac{2}{5},\\ \\frac{3}{10},\\ 0.7\\).\n\n**Why others are wrong:** B places \\(-\\frac{2}{5}\\) before \\(-1.25\\) (treats the more-negative number as larger). C misplaces \\(\\frac{3}{10}\\) ahead of \\(-\\frac{2}{5}\\). D is greatest → least (reversed).\n\n**Key concept:** Comparing/ordering positive and negative rational numbers; on a number line, more-negative = smaller.",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "The submarine is closer to sea level because \\(-240\\) is a negative number."
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.2B | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Distance from sea level is the absolute value. \\(|-240| = 240\\) and \\(|180| = 180\\). Since \\(240 > 180\\), the submarine is farther from sea level.\n\n**Why others are wrong:** A compares signed values, not distances. C is false (\\(240 \\neq 180\\)). D confuses \"negative\" with \"closer.\"\n\n**Key concept:** Absolute value = distance from zero, regardless of sign.\n\n---",
+    "explanation": "**TEKS 6.2B | MAP Area: Numerical Representations & Relationships**\n\n**Work:** Distance from sea level is the absolute value. \\(|-240| = 240\\) and \\(|180| = 180\\). Since \\(240 > 180\\), the submarine is farther from sea level.\n\n**Why others are wrong:** A compares signed values, not distances. C is false (\\(240 \\neq 180\\)). D confuses \"negative\" with \"closer.\"\n\n**Key concept:** Absolute value = distance from zero, regardless of sign.",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "\\(1.6\\) and \\(160\\%\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.4G | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(\\frac{5}{8} = 5 \\div 8 = 0.625\\). As a percent, \\(0.625 \\times 100 = 62.5\\%\\).\n\n**Why others are wrong:** A (\\(0.58\\)) is a rounding/guess error. C moves the decimal wrong for the percent. D (\\(1.6\\)) inverts the fraction (\\(8 \\div 5\\)).\n\n**Key concept:** Fraction → decimal by division; decimal → percent by multiplying by 100.\n\n---",
+    "explanation": "**TEKS 6.4G | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(\\frac{5}{8} = 5 \\div 8 = 0.625\\). As a percent, \\(0.625 \\times 100 = 62.5\\%\\).\n\n**Why others are wrong:** A (\\(0.58\\)) is a rounding/guess error. C moves the decimal wrong for the percent. D (\\(1.6\\)) inverts the fraction (\\(8 \\div 5\\)).\n\n**Key concept:** Fraction → decimal by division; decimal → percent by multiplying by 100.",
     "source": "authored",
     "needsReview": false
   },
@@ -515,7 +515,7 @@
       "\\(\\sqrt{50}\\) is rational and \\(\\sqrt{49}\\) is irrational."
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.2A / 8.2B (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(\\sqrt{49} = 7\\) exactly, so it is **rational**. \\(50\\) is not a perfect square, so \\(\\sqrt{50} \\approx 7.07\\ldots\\) is a non-terminating, non-repeating decimal — **irrational**.\n\n**Why others are wrong:** A and C misclassify one or both. D reverses which is rational.\n\n**Key concept:** Perfect-square roots are rational; roots of non-perfect squares are irrational.\n\n---",
+    "explanation": "**TEKS 8.2A / 8.2B (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(\\sqrt{49} = 7\\) exactly, so it is **rational**. \\(50\\) is not a perfect square, so \\(\\sqrt{50} \\approx 7.07\\ldots\\) is a non-terminating, non-repeating decimal — **irrational**.\n\n**Why others are wrong:** A and C misclassify one or both. D reverses which is rational.\n\n**Key concept:** Perfect-square roots are rational; roots of non-perfect squares are irrational.",
     "source": "authored",
     "needsReview": false
   },
@@ -535,7 +535,7 @@
       "\\(2{,}500\\) grams"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.2C / 8.2D (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(2.5 \\times 10^{-3}\\) means move the decimal point **3 places left**: \\(2.5 \\to 0.0025\\).\n\n**Why others are wrong:** A and D treat the exponent as positive. C moves only 2 places.\n\n**Key concept:** A negative exponent in scientific notation means a small number; shift the decimal left by the exponent's magnitude.\n\n---",
+    "explanation": "**TEKS 8.2C / 8.2D (accelerated) | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(2.5 \\times 10^{-3}\\) means move the decimal point **3 places left**: \\(2.5 \\to 0.0025\\).\n\n**Why others are wrong:** A and D treat the exponent as positive. C moves only 2 places.\n\n**Key concept:** A negative exponent in scientific notation means a small number; shift the decimal left by the exponent's magnitude.",
     "source": "authored",
     "needsReview": false
   },
@@ -555,7 +555,7 @@
       "240"
     ],
     "correctIndex": 2,
-    "explanation": "**TEKS 6.7A / foundational | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(48 = 2^4 \\times 3\\); \\(60 = 2^2 \\times 3 \\times 5\\). Common factors: \\(2^2 \\times 3 = 12\\).\n\n**Why others are wrong:** A (6) is a common factor but not the greatest. B (24) does not divide 60. D (240) is the LCM, not the GCF.\n\n**Key concept:** GCF = product of shared prime factors at their lowest powers.\n\n---",
+    "explanation": "**TEKS 6.7A / foundational | MAP Area: Numerical Representations & Relationships**\n\n**Work:** \\(48 = 2^4 \\times 3\\); \\(60 = 2^2 \\times 3 \\times 5\\). Common factors: \\(2^2 \\times 3 = 12\\).\n\n**Why others are wrong:** A (6) is a common factor but not the greatest. B (24) does not divide 60. D (240) is the LCM, not the GCF.\n\n**Key concept:** GCF = product of shared prime factors at their lowest powers.",
     "source": "authored",
     "needsReview": false
   },
@@ -575,7 +575,7 @@
       "\\(-11\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.3A (accelerated) | MAP Area: Numerical Representations & Relationships / Computations**\n\n**Work:** Order of operations: multiply first. \\((-3) \\times 4 = -12\\). Then \\(-8 + (-12) = -20\\).\n\n**Why others are wrong:** A adds before multiplying: \\((-8 + -3) \\times 4 = -44\\). C drops the sign. D forgets to multiply by 4.\n\n**Key concept:** Order of operations with signed numbers; multiply/divide before add/subtract.\n\n---\n\n# Instructional Area: Computations & Algebraic Relationships",
+    "explanation": "**TEKS 7.3A (accelerated) | MAP Area: Numerical Representations & Relationships / Computations**\n\n**Work:** Order of operations: multiply first. \\((-3) \\times 4 = -12\\). Then \\(-8 + (-12) = -20\\).\n\n**Why others are wrong:** A adds before multiplying: \\((-8 + -3) \\times 4 = -44\\). C drops the sign. D forgets to multiply by 4.\n\n**Key concept:** Order of operations with signed numbers; multiply/divide before add/subtract.",
     "source": "authored",
     "needsReview": false
   },
@@ -675,7 +675,7 @@
       "\\(\\frac{15}{4}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 7.3A — Operations with negative rational numbers.**\n**Solution:** Order of operations — multiply first: \\(\\frac{1}{2} \\times (-6) = -3\\). Then \\(-\\frac{3}{4} + (-3) = -\\frac{3}{4} - \\frac{12}{4} = -\\frac{15}{4}\\).\n**Why others are wrong:** B adds before multiplying (\\(-\\frac14 \\times -6\\)). C and D make sign or arithmetic errors.\n**Key concept:** Apply order of operations; adding a negative moves left on the number line.\n\n---\n\n# Instructional Area: Computations & Algebraic Relationships",
+    "explanation": "**TEKS 7.3A — Operations with negative rational numbers.**\n**Solution:** Order of operations — multiply first: \\(\\frac{1}{2} \\times (-6) = -3\\). Then \\(-\\frac{3}{4} + (-3) = -\\frac{3}{4} - \\frac{12}{4} = -\\frac{15}{4}\\).\n**Why others are wrong:** B adds before multiplying (\\(-\\frac14 \\times -6\\)). C and D make sign or arithmetic errors.\n**Key concept:** Apply order of operations; adding a negative moves left on the number line.",
     "source": "authored",
     "needsReview": false
   }

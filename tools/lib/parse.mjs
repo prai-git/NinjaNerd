@@ -193,7 +193,7 @@ export function parseQuestions(md) {
 
   const pushCur = () => {
     if (cur) {
-      cur.text = cur.textLines.join('\n').trim();
+      cur.text = stripStandardsAnnotation(cur.textLines.join('\n').trim());
       delete cur.textLines;
       questions.push(cur);
     }
@@ -341,6 +341,36 @@ export function parseQuestions(md) {
   return questions;
 }
 
+/* Drop a leading curriculum-standard annotation from a question.
+
+   50 questions began with an authoring line like
+       *MAP Instructional Area: Earth & Space Science | TEKS 2.10B,2.1F*
+   and it was being shown to the child as the first line of the question. It is authoring
+   provenance, not something a 7-year-old should read -- and the pipe in it also looked like
+   stray table syntax, which is how it was found.
+
+   The rule requires BOTH wholly-italic AND a named standards taxonomy. Stripping every
+   wholly-italic first line would have been wrong: one question opens with
+       *The pond wears a purple coat,*
+   which is a line of POETRY the question asks about. Checked across the whole corpus -- 45
+   distinct italic opening lines, 44 name a standard, and that one does not.
+
+   Bold is accepted as well as italic: 133 more questions open with `**TEKS 3.6H [R] --
+   inference**`. The keyword requirement matters just as much there -- the wholly-bold openings
+   that do NOT name a standard are `**Notice 1: Window Feeder**` (a document the question asks
+   about) and the difficulty labels `**[stretch]**` / `**[Honors research item]**`, none of
+   which this may touch. */
+const STANDARDS_LINE =
+  /^\s*\*{1,2}(?=[^*\n]*\b(?:TEKS|MAP|NWEA|STAAR|Readiness|Instructional Area)\b)[^*\n]+\*{1,2}\s*$/im;
+
+export function stripStandardsAnnotation(text) {
+  const lines = String(text).split('\n');
+  if (lines.length && STANDARDS_LINE.test(lines[0])) {
+    return lines.slice(1).join('\n').trim();
+  }
+  return String(text).trim();
+}
+
 // Pull an answer LETTER (A–D) out of a header tail or answer body, trying the
 // most explicit markers first to avoid grabbing a stray "A." from prose.
 export function extractAnswerLetter(text) {
@@ -372,6 +402,26 @@ export function extractAnswerText(body) {
   return null;
 }
 
+/* Remove document-footer matter from the end of an answer body.
+
+   Cutting on headings (below) handles the appendices. What is left is the footer authors put
+   at the very end of a file: a thematic break followed by whole-line italics --
+   "*End of Answer Key -- 6th Grade Math MAP Growth (BOY).*",
+   "*Answer key aligned with Texas STAAR test standards...*".
+
+   Matched on STRUCTURE, not on those phrases: a trailing `---` followed only by blank lines
+   and fully-italicised lines. Hand-matching the wording would break on the next file that
+   words it differently, and would quietly start deleting real content if an explanation ever
+   contained one of those strings. A trailing rule with nothing but italics after it is not
+   part of an explanation of one question. */
+export function stripDocumentFooter(body) {
+  let out = String(body).trim();
+  const FOOTER = /\n\s*-{3,}\s*\n(?:\s*(?:\*[^\n*][^\n]*\*|_[^\n_][^\n]*_)\s*\n?)+$/;
+  out = out.replace(FOOTER, '');
+  // A dangling rule left by the heading cut carries no content either.
+  return out.replace(/(?:\n\s*-{3,}\s*)+$/, '').trim();
+}
+
 // number -> { number, letter|null, text|null, explanation }
 export function parseAnswers(md) {
   const lines = String(md).split(/\r?\n/);
@@ -387,17 +437,49 @@ export function parseAnswers(md) {
         number: cur.number,
         letter: cur.letter || null,
         text: cur.text || null,
-        explanation: body.trim(),
+        explanation: stripDocumentFooter(body),
       };
     }
     cur = null;
   };
 
+  /* Fenced code blocks are tracked so a `#` comment or a `-----` division rule inside one is
+     never mistaken for document structure. Several math explanations lay out long division in
+     a ``` block, and those really do contain lines that look like headings and rules. */
+  let inFence = false;
+
   for (const line of lines) {
     let m;
-    if ((m = line.match(/^#{2,4}\s+(?:Question|Answer)\s+(\d+)\b(.*)$/i))) {
+    if (/^\s*(```|~~~)/.test(line)) {
+      inFence = !inFence;
+      if (cur) cur.lines.push(line);
+      continue;
+    }
+    if (inFence) {
+      if (cur) cur.lines.push(line);
+      continue;
+    }
+    if ((m = line.match(/^#{1,6}\s+(?:Question|Answer)\s+(\d+)\b(.*)$/i))) {
       finish();
       cur = { number: Number(m[1]), headTail: m[2] || '', letter: extractAnswerLetter(m[2] || ''), text: null, lines: [] };
+      continue;
+    }
+    /* Any OTHER heading ends the answer body. Without this, every line after the last
+       "## Answer N" was swallowed into that answer's explanation -- and the authored files end
+       with document-level appendices: "## Coverage Summary", "## Quick Reference Answer Key",
+       "### Scoring Rubric". The Answer Key ones are the serious case: the last question of
+       several sets was shipping the correct letter for EVERY question in the set inside its own
+       explanation, visible to any child who reached it.
+
+       Cutting on headings is safe here because no individual explanation uses one. Every
+       non-Question/Answer heading in doc/questionnaire is document structure: subject sections,
+       answer keys, coverage summaries, rubrics. Verified across all 203 source files.
+
+       The answer-key TABLES are still read -- the summary-table pass below scans every line of
+       the document independently, so letters provided only in a key are unaffected. What
+       changes is that the key stops being pasted into a child's explanation. */
+    if (/^#{1,6}\s+\S/.test(line)) {
+      finish();
       continue;
     }
     if (!cur) continue;

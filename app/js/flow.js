@@ -62,6 +62,114 @@ export function renderInline(s) {
     .replace(/\n/g, '<br>');
 }
 
+/* ---- block-level rendering ---------------------------------------------------------------
+
+   renderInline above handles a run of text. It cannot handle the two BLOCK constructs the
+   authored content actually uses, and both were reaching children as raw source:
+
+     - GFM tables. 78 questions and 38 explanations contain one — data tables a child has to
+       READ to answer ("Cube | Mass | Result in water"). Turning the newlines into <br> left a
+       wall of pipes and dashes, which is worse than useless in a question about the data.
+     - Fenced code blocks. 19 explanations lay out long division inside ```; collapsing that to
+       <br>-separated proportional text destroys the column alignment that IS the explanation.
+
+   Options are deliberately NOT run through this. They are single-line by construction, and the
+   only pipes they contain are absolute-value maths — \(|-8| > |5|\) — which must never be
+   mistaken for a table. Requiring a delimiter row (|---|) is what makes that safe. */
+
+const TABLE_ROW = /^\s*\|.*\|\s*$/;
+const TABLE_DELIM = /^\s*\|[\s:|-]+\|\s*$/;
+
+// | a | b |  ->  ['a', 'b']   (leading/trailing pipe dropped, not treated as empty cells)
+function splitRow(line) {
+  return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim());
+}
+
+/* GFM alignment markers on the delimiter row: :--- left, ---: right, :---: centre.
+
+   Returns Bootstrap 5 class suffixes. NOT `text-left`/`text-right` -- those are Bootstrap 4
+   names, dropped in 5, and the site loads 5.3.3. Getting this wrong fails silently: the class
+   is emitted, matches no rule, and every number in a right-aligned column quietly stays left. */
+function alignments(delim) {
+  return splitRow(delim).map((c) => {
+    const left = c.startsWith(':');
+    const right = c.endsWith(':');
+    if (left && right) return 'center';
+    if (right) return 'end';
+    if (left) return 'start';
+    return '';
+  });
+}
+
+function renderTable(rows, delim) {
+  const align = alignments(delim);
+  const cell = (tag, text, i) => {
+    const a = align[i] ? ` class="text-${align[i]}"` : '';
+    return `<${tag}${a}>${renderInline(text)}</${tag}>`;
+  };
+  const head = splitRow(rows[0]).map((c, i) => cell('th', c, i)).join('');
+  const body = rows.slice(1)
+    .map((r) => `<tr>${splitRow(r).map((c, i) => cell('td', c, i)).join('')}</tr>`)
+    .join('');
+  /* table-responsive so a wide table scrolls inside its own box instead of stretching the
+     page sideways on a phone; w-auto so a three-column table does not span the full width and
+     leave the numbers far from their labels. */
+  return `<div class="table-responsive my-3">`
+    + `<table class="table table-sm table-bordered align-middle w-auto mb-0">`
+    + `<thead class="table-light"><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+/* Render authored content that may contain block constructs. Text between blocks still goes
+   through renderInline, so bold/italic/code/newlines behave exactly as before — a string with
+   no table and no fence renders identically to the old output. */
+export function renderBlocks(src) {
+  const lines = String(src == null ? '' : src).split('\n');
+  const out = [];
+  let text = [];
+
+  const flushText = () => {
+    const joined = text.join('\n').replace(/^\n+|\n+$/g, '');
+    if (joined.trim()) out.push(renderInline(joined));
+    text = [];
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    // Fenced code: preserve it verbatim in a <pre>, which is the whole point of the fence.
+    const fence = line.match(/^\s*(```|~~~)(.*)$/);
+    if (fence) {
+      flushText();
+      const close = fence[1];
+      const buf = [];
+      i++;
+      while (i < lines.length && !lines[i].trim().startsWith(close)) buf.push(lines[i++]);
+      const escaped = buf.join('\n')
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      out.push(`<pre class="bg-light p-2 rounded small mb-3"><code>${escaped}</code></pre>`);
+      continue;
+    }
+
+    /* A table needs BOTH a pipe row and a delimiter row under it. Without that second
+       requirement, any sentence containing two pipes — absolute value, "a | b" — would be
+       swallowed into a one-cell table. */
+    if (TABLE_ROW.test(line) && i + 1 < lines.length && TABLE_DELIM.test(lines[i + 1])) {
+      flushText();
+      const delim = lines[i + 1];
+      const rows = [line];
+      i += 2;
+      while (i < lines.length && TABLE_ROW.test(lines[i])) rows.push(lines[i++]);
+      i--; // the loop's i++ will step past the last consumed row
+      out.push(renderTable(rows, delim));
+      continue;
+    }
+
+    text.push(line);
+  }
+  flushText();
+  return out.join('');
+}
+
 /* Emit an attempt result: persist it, and broadcast it for anything listening.
 
    The old localStorage mirror is gone. It existed only as a stand-in until Firestore arrived,

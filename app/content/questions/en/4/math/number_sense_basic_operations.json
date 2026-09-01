@@ -7,7 +7,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.2A**  \nWhat is the value of 7 in \\(507,086,204\\)?",
+    "question": "What is the value of 7 in \\(507,086,204\\)?",
     "options": [
       "7,000,000",
       "700,000",
@@ -15,7 +15,7 @@
       "7,000"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 7,000,000  \n**TEKS:** 4.2A  \n**Step-by-step solution:** The 7 is in the millions place, so \\(7\\times1,000,000=7,000,000\\).  \n**Why other answers are wrong:** B (“700,000”) uses a different operation, place, or interpretation than the evidence requires; C (“70,000,000”) uses a different operation, place, or interpretation than the evidence requires; D (“7,000”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** place value.\n\n---",
+    "explanation": "**Correct answer/value:** A. 7,000,000  \n**TEKS:** 4.2A  \n**Step-by-step solution:** The 7 is in the millions place, so \\(7\\times1,000,000=7,000,000\\).  \n**Why other answers are wrong:** B (“700,000”) uses a different operation, place, or interpretation than the evidence requires; C (“70,000,000”) uses a different operation, place, or interpretation than the evidence requires; D (“7,000”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** place value.",
     "source": "authored",
     "needsReview": false
   },
@@ -27,7 +27,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.2B**  \nWhich numeral is three hundred four million, fifty thousand, nineteen?",
+    "question": "Which numeral is three hundred four million, fifty thousand, nineteen?",
     "options": [
       "304,050,019",
       "304,500,019",
@@ -35,7 +35,7 @@
       "304,050,190"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 304,050,019  \n**TEKS:** 4.2B  \n**Step-by-step solution:** Use periods: 304 millions, 050 thousands, and 019 ones.  \n**Why other answers are wrong:** B (“304,500,019”) uses a different operation, place, or interpretation than the evidence requires; C (“340,050,019”) uses a different operation, place, or interpretation than the evidence requires; D (“304,050,190”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** read and write numbers.\n\n---",
+    "explanation": "**Correct answer/value:** A. 304,050,019  \n**TEKS:** 4.2B  \n**Step-by-step solution:** Use periods: 304 millions, 050 thousands, and 019 ones.  \n**Why other answers are wrong:** B (“304,500,019”) uses a different operation, place, or interpretation than the evidence requires; C (“340,050,019”) uses a different operation, place, or interpretation than the evidence requires; D (“304,050,190”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** read and write numbers.",
     "source": "authored",
     "needsReview": false
   },
@@ -47,7 +47,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.2C [R]**  \nWhich list is least to greatest: \\(6.7,6.07,6.71,6.17\\)?",
+    "question": "Which list is least to greatest: \\(6.7,6.07,6.71,6.17\\)?",
     "options": [
       "\\(6.07,6.17,6.7,6.71\\)",
       "\\(6.7,6.07,6.17,6.71\\)",
@@ -55,7 +55,7 @@
       "\\(6.17,6.07,6.7,6.71\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. \\(6.07,6.17,6.7,6.71\\)  \n**TEKS:** 4.2C [R]  \n**Step-by-step solution:** Write 6.7 as 6.70. Then compare hundredths: \\(07<17<70<71\\).  \n**Why other answers are wrong:** B (“\\(6.7,6.07,6.17,6.71\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(6.07,6.7,6.17,6.71\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(6.17,6.07,6.7,6.71\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** compare decimals.\n\n---",
+    "explanation": "**Correct answer/value:** A. \\(6.07,6.17,6.7,6.71\\)  \n**TEKS:** 4.2C [R]  \n**Step-by-step solution:** Write 6.7 as 6.70. Then compare hundredths: \\(07<17<70<71\\).  \n**Why other answers are wrong:** B (“\\(6.7,6.07,6.17,6.71\\)”) uses a different operation, place, or interpretation than the evidence requires; C (“\\(6.07,6.7,6.17,6.71\\)”) uses a different operation, place, or interpretation than the evidence requires; D (“\\(6.17,6.07,6.7,6.71\\)”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** compare decimals.",
     "source": "authored",
     "needsReview": false
   },
@@ -67,7 +67,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.2D**  \nRound \\(684,527,100\\) to the nearest ten million.",
+    "question": "Round \\(684,527,100\\) to the nearest ten million.",
     "options": [
       "680,000,000",
       "690,000,000",
@@ -75,7 +75,7 @@
       "700,000,000"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 680,000,000  \n**TEKS:** 4.2D  \n**Step-by-step solution:** The ten-millions digit is 8; the millions digit is 4, so round down.  \n**Why other answers are wrong:** B (“690,000,000”) uses a different operation, place, or interpretation than the evidence requires; C (“684,000,000”) uses a different operation, place, or interpretation than the evidence requires; D (“700,000,000”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** rounding.\n\n---",
+    "explanation": "**Correct answer/value:** A. 680,000,000  \n**TEKS:** 4.2D  \n**Step-by-step solution:** The ten-millions digit is 8; the millions digit is 4, so round down.  \n**Why other answers are wrong:** B (“690,000,000”) uses a different operation, place, or interpretation than the evidence requires; C (“684,000,000”) uses a different operation, place, or interpretation than the evidence requires; D (“700,000,000”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** rounding.",
     "source": "authored",
     "needsReview": false
   },
@@ -87,7 +87,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.2G [R]**  \nWhich statement about \\(0.38\\) is correct?",
+    "question": "Which statement about \\(0.38\\) is correct?",
     "options": [
       "It is \\(\\frac{38}{100}\\) or 38 cents.",
       "It is \\(\\frac{38}{10}\\) or 38 dollars.",
@@ -95,7 +95,7 @@
       "It is \\(\\frac{380}{100}\\) or 380 cents."
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. It is \\(\\frac{38}{100}\\) or 38 cents.  \n**TEKS:** 4.2G [R]  \n**Step-by-step solution:** Thirty-eight hundredths equals \\(\\frac{38}{100}\\) and 38 cents.  \n**Why other answers are wrong:** B (“It is \\(\\frac{38}{10}\\) or 38 dollars.”) uses a different operation, place, or interpretation than the evidence requires; C (“It is \\(\\frac38\\) or 8 cents.”) uses a different operation, place, or interpretation than the evidence requires; D (“It is \\(\\frac{380}{100}\\) or 380 cents.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decimal-fraction-money link.\n\n---",
+    "explanation": "**Correct answer/value:** A. It is \\(\\frac{38}{100}\\) or 38 cents.  \n**TEKS:** 4.2G [R]  \n**Step-by-step solution:** Thirty-eight hundredths equals \\(\\frac{38}{100}\\) and 38 cents.  \n**Why other answers are wrong:** B (“It is \\(\\frac{38}{10}\\) or 38 dollars.”) uses a different operation, place, or interpretation than the evidence requires; C (“It is \\(\\frac38\\) or 8 cents.”) uses a different operation, place, or interpretation than the evidence requires; D (“It is \\(\\frac{380}{100}\\) or 380 cents.”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** decimal-fraction-money link.",
     "source": "authored",
     "needsReview": false
   },
@@ -107,7 +107,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "**TEKS 4.2A**  \nIn \\(902,315,407\\), which digit has a value of \\(300,000\\)?",
+    "question": "In \\(902,315,407\\), which digit has a value of \\(300,000\\)?",
     "options": [
       "3",
       "9",
@@ -115,7 +115,7 @@
       "5"
     ],
     "correctIndex": 0,
-    "explanation": "**Correct answer/value:** A. 3  \n**TEKS:** 4.2A  \n**Step-by-step solution:** The 3 is in the hundred-thousands place.  \n**Why other answers are wrong:** B (“9”) uses a different operation, place, or interpretation than the evidence requires; C (“1”) uses a different operation, place, or interpretation than the evidence requires; D (“5”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** digit value.\n\n---",
+    "explanation": "**Correct answer/value:** A. 3  \n**TEKS:** 4.2A  \n**Step-by-step solution:** The 3 is in the hundred-thousands place.  \n**Why other answers are wrong:** B (“9”) uses a different operation, place, or interpretation than the evidence requires; C (“1”) uses a different operation, place, or interpretation than the evidence requires; D (“5”) uses a different operation, place, or interpretation than the evidence requires.  \n**Key concept:** digit value.",
     "source": "authored",
     "needsReview": false
   }

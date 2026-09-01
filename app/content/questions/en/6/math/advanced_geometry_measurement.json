@@ -15,7 +15,7 @@
       "540 inches"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Converting units within the customary system.\n\n**Steps:** \\(4.5 \\text{ ft} \\times 12 \\tfrac{\\text{in}}{\\text{ft}} = 54\\) inches.\n\n**Why others are wrong:** B and C use wrong multipliers; D multiplies by 120.\n\n---",
+    "explanation": "**Key concept:** Converting units within the customary system.\n\n**Steps:** \\(4.5 \\text{ ft} \\times 12 \\tfrac{\\text{in}}{\\text{ft}} = 54\\) inches.\n\n**Why others are wrong:** B and C use wrong multipliers; D multiplies by 120.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "46 cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Area of a triangle, \\(A = \\frac{1}{2} b h\\).\n\n**Steps:** \\(A = \\frac{1}{2} \\times 14 \\times 9 = 7 \\times 9 = 63\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\frac12\\) (that's the rectangle); C adds the dimensions; D is a random error.\n\n---",
+    "explanation": "**Key concept:** Area of a triangle, \\(A = \\frac{1}{2} b h\\).\n\n**Steps:** \\(A = \\frac{1}{2} \\times 14 \\times 9 = 7 \\times 9 = 63\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\frac12\\) (that's the rectangle); C adds the dimensions; D is a random error.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "Quadrant IV"
     ],
     "correctIndex": 0,
-    "explanation": "**Key concept:** Identifying quadrants on the coordinate plane.\n\n**Steps:** \\(x = -2\\) (negative → left) and \\(y = 5\\) (positive → up). Left-and-up is **Quadrant II**.\n\n**Why others are wrong:** Quadrant I has both positive; Quadrant III both negative; Quadrant IV is positive-x, negative-y.\n\n---",
+    "explanation": "**Key concept:** Identifying quadrants on the coordinate plane.\n\n**Steps:** \\(x = -2\\) (negative → left) and \\(y = 5\\) (positive → up). Left-and-up is **Quadrant II**.\n\n**Why others are wrong:** Quadrant I has both positive; Quadrant III both negative; Quadrant IV is positive-x, negative-y.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "24 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**Concept:** Volume of a rectangular prism, \\(V = l \\times w \\times h\\).\n$$V = 5 \\times 4 \\times 3 = 60 \\text{ cm}^3$$\n**Answer B.**\n\n---",
+    "explanation": "**Concept:** Volume of a rectangular prism, \\(V = l \\times w \\times h\\).\n$$V = 5 \\times 4 \\times 3 = 60 \\text{ cm}^3$$\n**Answer B.**",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "38 in²"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Area of a parallelogram, \\(A = b \\times h\\).\n$$A = 12 \\times 7 = 84 \\text{ in}^2$$\n**Answer C.** (Choice A adds instead of multiplies.)\n\n---",
+    "explanation": "**Concept:** Area of a parallelogram, \\(A = b \\times h\\).\n$$A = 12 \\times 7 = 84 \\text{ in}^2$$\n**Answer C.** (Choice A adds instead of multiplies.)",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "35,000 grams"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Metric conversion — kilograms to grams.\nMultiply by 1,000: \\(3.5 \\times 1{,}000 = 3{,}500\\) grams. **Answer C.**\n\n---",
+    "explanation": "**Concept:** Metric conversion — kilograms to grams.\nMultiply by 1,000: \\(3.5 \\times 1{,}000 = 3{,}500\\) grams. **Answer C.**",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "\\((5, 3)\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Concept:** Reflecting a point across the \\(x\\)-axis.\nReflecting across the \\(x\\)-axis keeps the \\(x\\)-coordinate the same and changes the sign of the \\(y\\)-coordinate: \\((3, 5) \\rightarrow (3, -5)\\). **Answer B.**\n- Choice A reflects across the \\(y\\)-axis; Choice C reflects across the origin.\n\n---",
+    "explanation": "**Concept:** Reflecting a point across the \\(x\\)-axis.\nReflecting across the \\(x\\)-axis keeps the \\(x\\)-coordinate the same and changes the sign of the \\(y\\)-coordinate: \\((3, 5) \\rightarrow (3, -5)\\). **Answer B.**\n- Choice A reflects across the \\(y\\)-axis; Choice C reflects across the origin.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "48 m²"
     ],
     "correctIndex": 2,
-    "explanation": "**Concept:** Area of a rectangle with decimal dimensions, \\(A = l \\times w\\).\n$$A = 8.5 \\times 6 = 51 \\text{ m}^2$$\n**Answer C.** (Choice B, 29, is the *perimeter*, not the area.)\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
+    "explanation": "**Concept:** Area of a rectangle with decimal dimensions, \\(A = l \\times w\\).\n$$A = 8.5 \\times 6 = 51 \\text{ m}^2$$\n**Answer C.** (Choice B, 29, is the *perimeter*, not the area.)",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "Quadrant IV"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.11A — Coordinate plane.*\nThe point \\((-3, 4)\\) has a **negative x** and a **positive y**. Negative-x, positive-y places it in the **upper-left**, which is **Quadrant II**.\n\n---\n\n# Data Analysis & Personal Financial Literacy",
+    "explanation": "*TEKS 6.11A — Coordinate plane.*\nThe point \\((-3, 4)\\) has a **negative x** and a **positive y**. Negative-x, positive-y places it in the **upper-left**, which is **Quadrant II**.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "30 in²"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.8C / 6.8D**\nArea of a parallelogram = base × height = 12 × 5 = **60 in²**.\n**Why others are wrong:** A adds base and height. B halves the product (that is the triangle formula). D uses a wrong height.\n**Key concept:** Area of a parallelogram (A = bh).\n\n---",
+    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.8C / 6.8D**\nArea of a parallelogram = base × height = 12 × 5 = **60 in²**.\n**Why others are wrong:** A adds base and height. B halves the product (that is the triangle formula). D uses a wrong height.\n**Key concept:** Area of a parallelogram (A = bh).",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "108 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.8B / 6.8C**\nVolume = length × width × height = 8 × 4 × 3 = **96 cm³**.\n**Why others are wrong:** A adds the dimensions. C multiplies only two of them. D is a miscalculation.\n**Key concept:** Volume of a rectangular prism (V = lwh).\n\n---",
+    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.8B / 6.8C**\nVolume = length × width × height = 8 × 4 × 3 = **96 cm³**.\n**Why others are wrong:** A adds the dimensions. C multiplies only two of them. D is a miscalculation.\n**Key concept:** Volume of a rectangular prism (V = lwh).",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "35,000 meters"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.4H**\nTo go from kilometers to meters, multiply by 1,000: 3.5 × 1,000 = **3,500 m**.\n**Why others are wrong:** A and B move the decimal the wrong number of places. D multiplies by 10,000.\n**Key concept:** Metric length conversion.\n\n---",
+    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.4H**\nTo go from kilometers to meters, multiply by 1,000: 3.5 × 1,000 = **3,500 m**.\n**Why others are wrong:** A and B move the decimal the wrong number of places. D multiplies by 10,000.\n**Key concept:** Metric length conversion.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "\\((-2, 4)\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.11A**\nReflecting across the **x-axis** keeps the x-coordinate the same and changes the sign of the y-coordinate: (4, −2) → **(4, 2)**.\n**Why others are wrong:** A reflects across the y-axis. C reflects across both axes. D swaps the coordinates.\n**Key concept:** Reflections on the coordinate plane.\n\n---\n\n# Data Analysis & Personal Financial Literacy",
+    "explanation": "**Instructional Area:** Geometry & Measurement | **TEKS 6.11A**\nReflecting across the **x-axis** keeps the x-coordinate the same and changes the sign of the y-coordinate: (4, −2) → **(4, 2)**.\n**Why others are wrong:** A reflects across the y-axis. C reflects across both axes. D swaps the coordinates.\n**Key concept:** Reflections on the coordinate plane.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "20 cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.8D | MAP Area: Geometry & Measurement**\n\n**Work:** \\(A = \\tfrac{1}{2}(b_1 + b_2)h = \\tfrac{1}{2}(10 + 6)(4) = \\tfrac{1}{2}(16)(4) = \\tfrac{1}{2}(64) = 32\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\tfrac{1}{2}\\). C adds bases without the height factor correctly. D uses only one base.\n\n**Key concept:** Trapezoid area uses the average of the two parallel bases times the height.\n\n---",
+    "explanation": "**TEKS 6.8D | MAP Area: Geometry & Measurement**\n\n**Work:** \\(A = \\tfrac{1}{2}(b_1 + b_2)h = \\tfrac{1}{2}(10 + 6)(4) = \\tfrac{1}{2}(16)(4) = \\tfrac{1}{2}(64) = 32\\) cm².\n\n**Why others are wrong:** B forgets the \\(\\tfrac{1}{2}\\). C adds bases without the height factor correctly. D uses only one base.\n\n**Key concept:** Trapezoid area uses the average of the two parallel bases times the height.",
     "source": "authored",
     "needsReview": false
   },
@@ -355,7 +355,7 @@
       "14 m"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.9B / 7.5B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) m.\n\n**Why others are wrong:** A uses \\(\\pi r\\) (only one radius). C uses \\(\\pi r^2\\) (that is area, not circumference). D forgets \\(\\pi\\) entirely.\n\n**Key concept:** Circumference \\(C = 2\\pi r = \\pi d\\); do not confuse it with area.\n\n---",
+    "explanation": "**TEKS 7.9B / 7.5B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\) m.\n\n**Why others are wrong:** A uses \\(\\pi r\\) (only one radius). C uses \\(\\pi r^2\\) (that is area, not circumference). D forgets \\(\\pi\\) entirely.\n\n**Key concept:** Circumference \\(C = 2\\pi r = \\pi d\\); do not confuse it with area.",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "157 in²"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 7.9B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** Diameter 10 → radius \\(r = 5\\). \\(A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 = 78.5\\) in².\n\n**Why others are wrong:** A uses \\(\\pi r\\) (circumference-style). C uses \\(r = 10\\) (used the diameter). D used \\(r=5\\) but doubled instead of squaring in a way that gives \\(157\\) (used \\(\\pi \\cdot 2r^2\\)/circumference of diameter error).\n\n**Key concept:** Area of a circle \\(A = \\pi r^2\\); remember to halve the diameter first, then square the radius.\n\n---",
+    "explanation": "**TEKS 7.9B (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** Diameter 10 → radius \\(r = 5\\). \\(A = \\pi r^2 = 3.14 \\times 5^2 = 3.14 \\times 25 = 78.5\\) in².\n\n**Why others are wrong:** A uses \\(\\pi r\\) (circumference-style). C uses \\(r = 10\\) (used the diameter). D used \\(r=5\\) but doubled instead of squaring in a way that gives \\(157\\) (used \\(\\pi \\cdot 2r^2\\)/circumference of diameter error).\n\n**Key concept:** Area of a circle \\(A = \\pi r^2\\); remember to halve the diameter first, then square the radius.",
     "source": "authored",
     "needsReview": false
   },
@@ -395,7 +395,7 @@
       "10.5 cm"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.7C (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\); \\(c = \\sqrt{225} = 15\\) cm.\n\n**Why others are wrong:** B adds the legs (\\(9+12\\)). C forgets to take the square root. D averages the legs.\n\n**Key concept:** Pythagorean theorem \\(a^2 + b^2 = c^2\\); the hypotenuse is the square root of the sum of the squared legs.\n\n---",
+    "explanation": "**TEKS 8.7C (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\); \\(c = \\sqrt{225} = 15\\) cm.\n\n**Why others are wrong:** B adds the legs (\\(9+12\\)). C forgets to take the square root. D averages the legs.\n\n**Key concept:** Pythagorean theorem \\(a^2 + b^2 = c^2\\); the hypotenuse is the square root of the sum of the squared legs.",
     "source": "authored",
     "needsReview": false
   },
@@ -415,7 +415,7 @@
       "90 cm³"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 8.6A / 8.7A (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10 = 3.14 \\times 9 \\times 10 = 3.14 \\times 90 = 282.6\\) cm³.\n\n**Why others are wrong:** A uses \\(r\\) but forgets to square (or drops a factor). C forgets to square the radius (\\(3.14 \\times 6 \\times 10\\)-type). D drops \\(\\pi\\).\n\n**Key concept:** Volume of a cylinder \\(V = Bh = \\pi r^2 h\\); the base is a circle, so square the radius.\n\n---",
+    "explanation": "**TEKS 8.6A / 8.7A (accelerated) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(V = \\pi r^2 h = 3.14 \\times 3^2 \\times 10 = 3.14 \\times 9 \\times 10 = 3.14 \\times 90 = 282.6\\) cm³.\n\n**Why others are wrong:** A uses \\(r\\) but forgets to square (or drops a factor). C forgets to square the radius (\\(3.14 \\times 6 \\times 10\\)-type). D drops \\(\\pi\\).\n\n**Key concept:** Volume of a cylinder \\(V = Bh = \\pi r^2 h\\); the base is a circle, so square the radius.",
     "source": "authored",
     "needsReview": false
   },
@@ -435,7 +435,7 @@
       "5 cups"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.4H (multi-step conversion) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(2.5\\) L \\(= 2.5 \\times 1000 = 2500\\) mL. \\(2500 \\div 250 = 10\\) full cups.\n\n**Why others are wrong:** A divides by 100 instead of 250. C converts but forgets to divide by the cup size. D divides liters by cups without converting units.\n\n**Key concept:** Convert to a common unit first, then divide; multi-step measurement reasoning.\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
+    "explanation": "**TEKS 6.4H (multi-step conversion) | MAP Area: Geometry & Measurement**\n\n**Work:** \\(2.5\\) L \\(= 2.5 \\times 1000 = 2500\\) mL. \\(2500 \\div 250 = 10\\) full cups.\n\n**Why others are wrong:** A divides by 100 instead of 250. C converts but forgets to divide by the cup size. D divides liters by cups without converting units.\n\n**Key concept:** Convert to a common unit first, then divide; multi-step measurement reasoning.",
     "source": "authored",
     "needsReview": false
   },
@@ -535,7 +535,7 @@
       "8.5 feet"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 8.7C — Pythagorean Theorem.**\n**Solution:** The ladder is the hypotenuse: \\(c^2 = 5^2 + 12^2 = 25 + 144 = 169\\), so \\(c = \\sqrt{169} = 13\\) ft.\n**Why others are wrong:** B adds the legs. C is \\(c^2\\), not \\(c\\). D halves incorrectly.\n**Key concept:** \\(a^2 + b^2 = c^2\\) — take the square root to find the hypotenuse.\n\n---\n\n# Instructional Area: Data Analysis & Personal Financial Literacy",
+    "explanation": "**TEKS 8.7C — Pythagorean Theorem.**\n**Solution:** The ladder is the hypotenuse: \\(c^2 = 5^2 + 12^2 = 25 + 144 = 169\\), so \\(c = \\sqrt{169} = 13\\) ft.\n**Why others are wrong:** B adds the legs. C is \\(c^2\\), not \\(c\\). D halves incorrectly.\n**Key concept:** \\(a^2 + b^2 = c^2\\) — take the square root to find the hypotenuse.",
     "source": "authored",
     "needsReview": false
   }

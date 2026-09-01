@@ -15,7 +15,7 @@
       "\\(46\\) cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.8D | Topic: Area of a Triangle**\n\n**Correct Answer:** A) \\(63\\) cm²\n\n**Explanation:**\n\\(A = \\frac{1}{2}bh = \\frac{1}{2} \\times 14 \\times 9 = 63\\) cm².\n\n**Why the other answers are wrong:**\n- **B** forgets the \\(\\frac{1}{2}\\) — the most common triangle-area error.\n- **C** adds the base and height.\n- **D** doubles that sum.\n\n---",
+    "explanation": "**TEKS 6.8D | Topic: Area of a Triangle**\n\n**Correct Answer:** A) \\(63\\) cm²\n\n**Explanation:**\n\\(A = \\frac{1}{2}bh = \\frac{1}{2} \\times 14 \\times 9 = 63\\) cm².\n\n**Why the other answers are wrong:**\n- **B** forgets the \\(\\frac{1}{2}\\) — the most common triangle-area error.\n- **C** adds the base and height.\n- **D** doubles that sum.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "\\(576\\) cm²"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.8D | Topic: Area of a Trapezoid**\n\n**Correct Answer:** A) \\(60\\) cm²\n\n**Explanation:**\n\\(A = \\frac{1}{2}(b_1 + b_2)h = \\frac{1}{2}(8 + 12) \\times 6 = \\frac{1}{2} \\times 20 \\times 6 =\n60\\) cm².\n\n**Why the other answers are wrong:**\n- **B** omits the \\(\\frac{1}{2}\\).\n- **C** adds all three measurements.\n- **D** multiplies all three together.\n\n---",
+    "explanation": "**TEKS 6.8D | Topic: Area of a Trapezoid**\n\n**Correct Answer:** A) \\(60\\) cm²\n\n**Explanation:**\n\\(A = \\frac{1}{2}(b_1 + b_2)h = \\frac{1}{2}(8 + 12) \\times 6 = \\frac{1}{2} \\times 20 \\times 6 =\n60\\) cm².\n\n**Why the other answers are wrong:**\n- **B** omits the \\(\\frac{1}{2}\\).\n- **C** adds all three measurements.\n- **D** multiplies all three together.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(376\\) cm³"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.8B | Topic: Volume of a Prism**\n\n**Correct Answer:** A) \\(240\\) cm³\n\n**Explanation:**\n\\(V = l \\times w \\times h = 12 \\times 5 \\times 4 = 240\\) cm³.\n\n**Why the other answers are wrong:**\n- **B** adds the three dimensions.\n- **C** multiplies only two of them.\n- **D** is the surface area, not the volume.\n\n---",
+    "explanation": "**TEKS 6.8B | Topic: Volume of a Prism**\n\n**Correct Answer:** A) \\(240\\) cm³\n\n**Explanation:**\n\\(V = l \\times w \\times h = 12 \\times 5 \\times 4 = 240\\) cm³.\n\n**Why the other answers are wrong:**\n- **B** adds the three dimensions.\n- **C** multiplies only two of them.\n- **D** is the surface area, not the volume.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "\\((3, -4)\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.11A | Topic: Reflection Across the y-axis**\n\n**Correct Answer:** A) \\((3, 4)\\)\n\n**Explanation:**\nReflecting across the **y-axis** changes the sign of the x-coordinate and leaves y unchanged:\n\\((-3, 4) \\rightarrow (3, 4)\\).\n\n**Why the other answers are wrong:**\n- **B** reflects across the x-axis instead.\n- **C** swaps the coordinates.\n- **D** reflects across both axes.\n\n---\n\n## Measurement & Data",
+    "explanation": "**TEKS 6.11A | Topic: Reflection Across the y-axis**\n\n**Correct Answer:** A) \\((3, 4)\\)\n\n**Explanation:**\nReflecting across the **y-axis** changes the sign of the x-coordinate and leaves y unchanged:\n\\((-3, 4) \\rightarrow (3, 4)\\).\n\n**Why the other answers are wrong:**\n- **B** reflects across the x-axis instead.\n- **C** swaps the coordinates.\n- **D** reflects across both axes.",
     "source": "authored",
     "needsReview": false
   }

@@ -15,7 +15,7 @@
       "19"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.3B | Topic: Two-Step Word Problem**\n\n**Correct Answer:** A) 11\n\n**Explanation:**\nTake away first, then add: 12 − 4 = 8, and 8 + 3 = 11.\n\n**Why the other answers are wrong:**\n- **B** 8 is the answer after only the first step — stopping halfway is the most common error.\n- **C** 15 adds both numbers and ignores the giving away.\n- **D** 19 adds everything.\n\n---",
+    "explanation": "**TEKS 1.3B | Topic: Two-Step Word Problem**\n\n**Correct Answer:** A) 11\n\n**Explanation:**\nTake away first, then add: 12 − 4 = 8, and 8 + 3 = 11.\n\n**Why the other answers are wrong:**\n- **B** 8 is the answer after only the first step — stopping halfway is the most common error.\n- **C** 15 adds both numbers and ignores the giving away.\n- **D** 19 adds everything.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "15 + ? = 24"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.5D | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 15 − ? = 9\n\n**Explanation:**\nApples were removed from 15 and 9 remain, so the unknown is what was subtracted.\n\n**Why the other answers are wrong:**\n- **B** adding gives a larger number, but the basket has fewer apples now.\n- **C** subtracting the other way round does not match the situation.\n- **D** describes adding apples to reach 24.\n\n---",
+    "explanation": "**TEKS 1.5D | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 15 − ? = 9\n\n**Explanation:**\nApples were removed from 15 and 9 remain, so the unknown is what was subtracted.\n\n**Why the other answers are wrong:**\n- **B** adding gives a larger number, but the basket has fewer apples now.\n- **C** subtracting the other way round does not match the situation.\n- **D** describes adding apples to reach 24.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "15"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.3B | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 18\n\n**Explanation:**\nNia has 7 + 4 = 11. Together they have 7 + 11 = 18. The question asks for the **total**, not\nNia's amount.\n\n**Why the other answers are wrong:**\n- **B** 11 is Nia's marbles only — answering the intermediate step.\n- **C** 7 is Leo's alone.\n- **D** 15 adds 7 and 4 and stops.\n\n---",
+    "explanation": "**TEKS 1.3B | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 18\n\n**Explanation:**\nNia has 7 + 4 = 11. Together they have 7 + 11 = 18. The question asks for the **total**, not\nNia's amount.\n\n**Why the other answers are wrong:**\n- **B** 11 is Nia's marbles only — answering the intermediate step.\n- **C** 7 is Leo's alone.\n- **D** 15 adds 7 and 4 and stops.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.5D | Topic: Missing Addend**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\n13 + ? = 20, so ? = 20 − 13 = 7.\n\n**Why the other answers are wrong:**\n- **B** 33 adds the two numbers instead of finding the difference.\n- **C** 13 repeats the number already on the shelf.\n- **D** 6 is an off-by-one slip.\n\n---",
+    "explanation": "**TEKS 1.5D | Topic: Missing Addend**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\n13 + ? = 20, so ? = 20 − 13 = 7.\n\n**Why the other answers are wrong:**\n- **B** 33 adds the two numbers instead of finding the difference.\n- **C** 13 repeats the number already on the shelf.\n- **D** 6 is an off-by-one slip.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "2"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.3B | Topic: Multi-Step Reasoning**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\nTwo packs of 5 make 10 pencils. Giving away 3 leaves 10 − 3 = 7.\n\n**Why the other answers are wrong:**\n- **B** 10 stops before the giving away.\n- **C** 13 adds the 3 instead of subtracting.\n- **D** 2 subtracts 3 from 5 and forgets the second pack.\n\n---",
+    "explanation": "**TEKS 1.3B | Topic: Multi-Step Reasoning**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\nTwo packs of 5 make 10 pencils. Giving away 3 leaves 10 − 3 = 7.\n\n**Why the other answers are wrong:**\n- **B** 10 stops before the giving away.\n- **C** 13 adds the 3 instead of subtracting.\n- **D** 2 subtracts 3 from 5 and forgets the second pack.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "2"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.5D | Topic: Both Sides Equal**\n\n**Correct Answer:** A) 3\n\n**Explanation:**\nThe right side is 6 + 5 = 11. So 8 + ? must also equal 11, which makes ? = 3. The equals sign\nmeans *the same amount as*, not *write the answer here*.\n\n**Why the other answers are wrong:**\n- **B** 11 is the total, not the missing part.\n- **C** 19 adds every number in sight.\n- **D** 2 would give 10, not 11.\n\n---",
+    "explanation": "**TEKS 1.5D | Topic: Both Sides Equal**\n\n**Correct Answer:** A) 3\n\n**Explanation:**\nThe right side is 6 + 5 = 11. So 8 + ? must also equal 11, which makes ? = 3. The equals sign\nmeans *the same amount as*, not *write the answer here*.\n\n**Why the other answers are wrong:**\n- **B** 11 is the total, not the missing part.\n- **C** 19 adds every number in sight.\n- **D** 2 would give 10, not 11.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "11"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 1.3B | Topic: Interpreting the Question**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\n18 in 2 equal rows gives 9 per row. Two children leave one row, so that row has 9 − 2 = 7.\n\n**Why the other answers are wrong:**\n- **B** 9 is the row before anyone left.\n- **C** 16 is the whole class after two left, not one row.\n- **D** 11 adds instead of subtracting.\n\n---",
+    "explanation": "**TEKS 1.3B | Topic: Interpreting the Question**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\n18 in 2 equal rows gives 9 per row. Two children leave one row, so that row has 9 − 2 = 7.\n\n**Why the other answers are wrong:**\n- **B** 9 is the row before anyone left.\n- **C** 16 is the whole class after two left, not one row.\n- **D** 11 adds instead of subtracting.",
     "source": "authored",
     "needsReview": false
   }

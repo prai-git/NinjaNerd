@@ -15,7 +15,7 @@
       "They are the same length"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.8B | Topic: Length Conversion**\n\n**Correct Answer:** A) The 4-metre rope, by 50 centimetres\n\n**Explanation:**\n4 metres = 400 centimetres. 400 − 350 = 50 centimetres longer. Convert to a common unit first.\n\n**Why the other answers are wrong:**\n- **B** reverses which is longer.\n- **C** subtracts 4 from 350 without converting.\n- **D** they differ by 50 cm.\n\n---",
+    "explanation": "**TEKS 4.8B | Topic: Length Conversion**\n\n**Correct Answer:** A) The 4-metre rope, by 50 centimetres\n\n**Explanation:**\n4 metres = 400 centimetres. 400 − 350 = 50 centimetres longer. Convert to a common unit first.\n\n**Why the other answers are wrong:**\n- **B** reverses which is longer.\n- **C** subtracts 4 from 350 without converting.\n- **D** they differ by 50 cm.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "11:25 a.m."
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.8C | Topic: Elapsed Time**\n\n**Correct Answer:** A) 12:25 p.m.\n\n**Explanation:**\n9:50 + 2 hours = 11:50. 11:50 + 35 minutes = 12:25 p.m., because 50 + 35 = 85 minutes, which\nregroups to 1 hour 25 minutes.\n\n**Why the other answers are wrong:**\n- **B** \"11:85\" is not a valid time — 85 minutes must be regrouped.\n- **C** and **D** add the wrong number of minutes.\n\n---",
+    "explanation": "**TEKS 4.8C | Topic: Elapsed Time**\n\n**Correct Answer:** A) 12:25 p.m.\n\n**Explanation:**\n9:50 + 2 hours = 11:50. 11:50 + 35 minutes = 12:25 p.m., because 50 + 35 = 85 minutes, which\nregroups to 1 hour 25 minutes.\n\n**Why the other answers are wrong:**\n- **B** \"11:85\" is not a valid time — 85 minutes must be regrouped.\n- **C** and **D** add the wrong number of minutes.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "60 metres"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.5D | Topic: Perimeter**\n\n**Correct Answer:** A) 46 metres\n\n**Explanation:**\nPerimeter = 2 × (15 + 8) = 2 × 23 = 46 metres.\n\n**Why the other answers are wrong:**\n- **B** 120 is the area.\n- **C** 23 adds the two sides once, forgetting the other pair.\n- **D** 60 quadruples the length.\n\n---",
+    "explanation": "**TEKS 4.5D | Topic: Perimeter**\n\n**Correct Answer:** A) 46 metres\n\n**Explanation:**\nPerimeter = 2 × (15 + 8) = 2 × 23 = 46 metres.\n\n**Why the other answers are wrong:**\n- **B** 120 is the area.\n- **C** 23 adds the two sides once, forgetting the other pair.\n- **D** 60 quadruples the length.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "12"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.8B | Topic: Capacity Conversion**\n\n**Correct Answer:** A) 8\n\n**Explanation:**\n6 litres = 6,000 millilitres. 6,000 ÷ 750 = 8 bottles.\n\n**Why the other answers are wrong:**\n- **B** repeats the number of litres.\n- **C** and **D** divide by the wrong amount or forget to convert.\n\n---",
+    "explanation": "**TEKS 4.8B | Topic: Capacity Conversion**\n\n**Correct Answer:** A) 8\n\n**Explanation:**\n6 litres = 6,000 millilitres. 6,000 ÷ 750 = 8 bottles.\n\n**Why the other answers are wrong:**\n- **B** repeats the number of litres.\n- **C** and **D** divide by the wrong amount or forget to convert.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "2"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.9A | Topic: Reading a Dot Plot**\n\n**Correct Answer:** A) 6\n\n**Explanation:**\n\"At least 30 minutes\" means 30 **and above**: 4 students at 30 minutes plus 2 at 40 minutes,\nwhich is 6.\n\n**Why the other answers are wrong:**\n- **B** counts only the 30-minute group.\n- **C** counts every student surveyed.\n- **D** counts only the 40-minute group.\n\n---",
+    "explanation": "**TEKS 4.9A | Topic: Reading a Dot Plot**\n\n**Correct Answer:** A) 6\n\n**Explanation:**\n\"At least 30 minutes\" means 30 **and above**: 4 students at 30 minutes plus 2 at 40 minutes,\nwhich is 6.\n\n**Why the other answers are wrong:**\n- **B** counts only the 30-minute group.\n- **C** counts every student surveyed.\n- **D** counts only the 40-minute group.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "24,000 grams"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.8B | Topic: Mass Conversion**\n\n**Correct Answer:** A) 2,400 grams\n\n**Explanation:**\n1 kilogram = 1,000 grams, so 2 kg = 2,000 g, plus 400 g = 2,400 g.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** use the wrong power of ten when converting.\n\n---",
+    "explanation": "**TEKS 4.8B | Topic: Mass Conversion**\n\n**Correct Answer:** A) 2,400 grams\n\n**Explanation:**\n1 kilogram = 1,000 grams, so 2 kg = 2,000 g, plus 400 g = 2,400 g.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** use the wrong power of ten when converting.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "36 centimetres"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.5D | Topic: Missing Side from Area**\n\n**Correct Answer:** A) 9 centimetres\n\n**Explanation:**\nArea = length × width, so length = 72 ÷ 8 = 9 centimetres.\n\n**Why the other answers are wrong:**\n- **B** and **C** multiply instead of dividing.\n- **D** halves the area.\n\n---\n\n## Problem Solving and Applications",
+    "explanation": "**TEKS 4.5D | Topic: Missing Side from Area**\n\n**Correct Answer:** A) 9 centimetres\n\n**Explanation:**\nArea = length × width, so length = 72 ÷ 8 = 9 centimetres.\n\n**Why the other answers are wrong:**\n- **B** and **C** multiply instead of dividing.\n- **D** halves the area.",
     "source": "authored",
     "needsReview": false
   }

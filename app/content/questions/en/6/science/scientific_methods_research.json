@@ -15,7 +15,7 @@
       "the amount of water given to each plant"
     ],
     "correctIndex": 1,
-    "explanation": "*TEKS 6.1 / 6.2 — Experimental variables.*\nThe **independent variable** is the factor the scientist **changes on purpose** — here, the amount of sunlight. The plant height is the **dependent variable** (what is measured), and soil and water are kept the same as **controlled variables**.\n\n---\n\n*End of Answer Key — 6th Grade Science MAP Growth (BOY).*",
+    "explanation": "*TEKS 6.1 / 6.2 — Experimental variables.*\nThe **independent variable** is the factor the scientist **changes on purpose** — here, the amount of sunlight. The plant height is the **dependent variable** (what is measured), and soil and water are kept the same as **controlled variables**.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "the amount of water each plant receives"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Scientific and Engineering Practices | **TEKS 6.2 / 6.3**\nThe **dependent variable** is what you measure to see the effect — the plant height. The amount of fertilizer is the independent variable (what is changed on purpose); pot type and water are kept constant (controlled variables).\n**Key concept:** Identifying the dependent variable.\n\n---",
+    "explanation": "**Instructional Area:** Scientific and Engineering Practices | **TEKS 6.2 / 6.3**\nThe **dependent variable** is what you measure to see the effect — the plant height. The amount of fertilizer is the independent variable (what is changed on purpose); pot type and water are kept constant (controlled variables).\n**Key concept:** Identifying the dependent variable.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "It is increasing and then decreasing"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Scientific and Engineering Practices | **TEKS 6.2 / 6.4**\nThe temperature rises 20 → 40 → 60 → 80 °C, an increase of **20 °C for each 2-minute interval** — a steady increase.\n**Why others are wrong:** A, B, and D do not match the upward, constant pattern in the table.\n**Key concept:** Identifying patterns and trends in data tables.\n\n---\n\n## Coverage Summary (Instructional Areas)\n- **Matter and Energy:** physical/chemical properties, elements & compounds, density, chemical change, properties of metals (Q1–Q5)\n- **Force, Motion, and Energy:** speed, kinetic energy, energy transformations, balanced forces, conservation of energy (Q6–Q10)\n- **Earth and Space:** rock cycle, seasons, day/night, natural resources (Q11–Q14)\n- **Organisms and Environments:** mitochondria, photosynthesis, decomposers, adaptations (Q15–Q18)\n- **Scientific and Engineering Practices:** dependent variable, interpreting data tables (Q19–Q20)",
+    "explanation": "**Instructional Area:** Scientific and Engineering Practices | **TEKS 6.2 / 6.4**\nThe temperature rises 20 → 40 → 60 → 80 °C, an increase of **20 °C for each 2-minute interval** — a steady increase.\n**Why others are wrong:** A, B, and D do not match the upward, constant pattern in the table.\n**Key concept:** Identifying patterns and trends in data tables.",
     "source": "authored",
     "needsReview": false
   }

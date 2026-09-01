@@ -15,7 +15,7 @@
       "156"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.4H [R] | Topic: Multi-Step Problem**\n\n**Correct Answer:** A) 246\n\n**Explanation:**\n14 × 24 = 336 pencils, then 336 − 90 = 246.\n\n**Why the other answers are wrong:**\n- **B** 336 stops after the multiplication — answering the intermediate step.\n- **C** 426 adds the 90.\n- **D** 156 subtracts twice.\n\n---",
+    "explanation": "**TEKS 4.4H [R] | Topic: Multi-Step Problem**\n\n**Correct Answer:** A) 246\n\n**Explanation:**\n14 × 24 = 336 pencils, then 336 − 90 = 246.\n\n**Why the other answers are wrong:**\n- **B** 336 stops after the multiplication — answering the intermediate step.\n- **C** 426 adds the 90.\n- **D** 156 subtracts twice.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "135 − 9 = ?"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.5A | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 135 ÷ 9 = ?\n\n**Explanation:**\nThe total cost divided by the price per ticket gives the number of tickets.\n\n**Why the other answers are wrong:**\n- **B** multiplying gives a much larger amount than was spent.\n- **C** and **D** adding or subtracting does not relate a total to a unit price.\n\n---",
+    "explanation": "**TEKS 4.5A | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 135 ÷ 9 = ?\n\n**Explanation:**\nThe total cost divided by the price per ticket gives the number of tickets.\n\n**Why the other answers are wrong:**\n- **B** multiplying gives a much larger amount than was spent.\n- **C** and **D** adding or subtracting does not relate a total to a unit price.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "47"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.4H | Topic: Interpreting a Remainder**\n\n**Correct Answer:** A) 5\n\n**Explanation:**\n187 ÷ 40 = 4 remainder 27. Four buses leave 27 students without a seat, so a fifth bus is\nneeded. The remainder means round **up** here.\n\n**Why the other answers are wrong:**\n- **B** 4 buses seat only 160 students.\n- **C** 6 buses is one more than necessary.\n- **D** 47 confuses the remainder with the answer.\n\n---",
+    "explanation": "**TEKS 4.4H | Topic: Interpreting a Remainder**\n\n**Correct Answer:** A) 5\n\n**Explanation:**\n187 ÷ 40 = 4 remainder 27. Four buses leave 27 students without a seat, so a fifth bus is\nneeded. The remainder means round **up** here.\n\n**Why the other answers are wrong:**\n- **B** 4 buses seat only 160 students.\n- **C** 6 buses is one more than necessary.\n- **D** 47 confuses the remainder with the answer.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "303"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.4H | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 209\n\n**Explanation:**\nBen collected 128 − 47 = 81. Together: 128 + 81 = 209.\n\n**Why the other answers are wrong:**\n- **B** 81 is Ben's amount only.\n- **C** 175 adds 128 and 47.\n- **D** 303 doubles 128 and adds 47.\n\n---",
+    "explanation": "**TEKS 4.4H | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 209\n\n**Explanation:**\nBen collected 128 − 47 = 81. Together: 128 + 81 = 209.\n\n**Why the other answers are wrong:**\n- **B** 81 is Ben's amount only.\n- **C** 175 adds 128 and 47.\n- **D** 303 doubles 128 and adds 47.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "$46"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.5A | Topic: Working Backwards**\n\n**Correct Answer:** A) $131\n\n**Explanation:**\nShe has \\(85 after spending \\)46, so she began with 85 + 46 = $131.\n\n**Why the other answers are wrong:**\n- **B** subtracts instead of adding.\n- **C** and **D** repeat numbers from the problem.\n\n---",
+    "explanation": "**TEKS 4.5A | Topic: Working Backwards**\n\n**Correct Answer:** A) $131\n\n**Explanation:**\nShe has \\(85 after spending \\)46, so she began with 85 + 46 = $131.\n\n**Why the other answers are wrong:**\n- **B** subtracts instead of adding.\n- **C** and **D** repeat numbers from the problem.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "346"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.4H | Topic: Ignoring Extra Information**\n\n**Correct Answer:** A) 465\n\n**Explanation:**\nOnly trees are asked for: 320 + 145 = 465. The 26 workers are deliberately irrelevant.\n\n**Why the other answers are wrong:**\n- **B** adds the workers.\n- **C** and **D** use the wrong pair of numbers.\n\n---",
+    "explanation": "**TEKS 4.4H | Topic: Ignoring Extra Information**\n\n**Correct Answer:** A) 465\n\n**Explanation:**\nOnly trees are asked for: 320 + 145 = 465. The 26 workers are deliberately irrelevant.\n\n**Why the other answers are wrong:**\n- **B** adds the workers.\n- **C** and **D** use the wrong pair of numbers.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "288"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 4.4H | Topic: Answering the Right Question**\n\n**Correct Answer:** A) 120\n\n**Explanation:**\n24 × 18 = 432 seats. 432 − 312 = 120 empty seats.\n\n**Why the other answers are wrong:**\n- **B** 432 is the total number of seats.\n- **C** 312 is the tickets sold.\n- **D** 288 subtracts the wrong numbers.\n\n---",
+    "explanation": "**TEKS 4.4H | Topic: Answering the Right Question**\n\n**Correct Answer:** A) 120\n\n**Explanation:**\n24 × 18 = 432 seats. 432 − 312 = 120 empty seats.\n\n**Why the other answers are wrong:**\n- **B** 432 is the total number of seats.\n- **C** 312 is the tickets sold.\n- **D** 288 subtracts the wrong numbers.",
     "source": "authored",
     "needsReview": false
   }

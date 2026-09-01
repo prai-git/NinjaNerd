@@ -75,7 +75,7 @@
       "disappears completely after the first level"
     ],
     "correctIndex": 2,
-    "explanation": "*TEKS 6.12 — Energy flow in a food web.*\nEnergy is **lost as heat** and used for life processes at each step, so only a small part passes to the next level. Usable energy **decreases** up the food chain.\n\n---\n\n# Scientific and Engineering Practices",
+    "explanation": "*TEKS 6.12 — Energy flow in a food web.*\nEnergy is **lost as heat** and used for life processes at each step, so only a small part passes to the next level. Usable energy **decreases** up the food chain.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "store water and nutrients"
     ],
     "correctIndex": 1,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nMitochondria carry out cellular respiration to **release energy** for the cell, earning the \"powerhouse\" nickname. The nucleus controls the cell (A); chloroplasts make food (C); vacuoles store materials (D).\n**Key concept:** Function of the mitochondria.\n\n---",
+    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nMitochondria carry out cellular respiration to **release energy** for the cell, earning the \"powerhouse\" nickname. The nucleus controls the cell (A); chloroplasts make food (C); vacuoles store materials (D).\n**Key concept:** Function of the mitochondria.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "Hydrogen"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nIn photosynthesis, plants take in carbon dioxide and water and use sunlight to make glucose (food), releasing **oxygen** as a byproduct.\n**Key concept:** Inputs and outputs of photosynthesis.\n\n---",
+    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nIn photosynthesis, plants take in carbon dioxide and water and use sunlight to make glucose (food), releasing **oxygen** as a byproduct.\n**Key concept:** Inputs and outputs of photosynthesis.",
     "source": "authored",
     "needsReview": false
   },
@@ -135,7 +135,7 @@
       "predators"
     ],
     "correctIndex": 2,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nOrganisms that break down dead material and recycle nutrients are **decomposers** (fungi, many bacteria). Producers make their own food; consumers eat others.\n**Key concept:** Roles of organisms in a food web.\n\n---",
+    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nOrganisms that break down dead material and recycle nutrients are **decomposers** (fungi, many bacteria). Producers make their own food; consumers eat others.\n**Key concept:** Roles of organisms in a food web.",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "seasonal migration"
     ],
     "correctIndex": 0,
-    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nA **structural** adaptation is a physical body feature — here, thick fat and fur. A behavioral adaptation would be an action (like hibernating or migrating).\n**Key concept:** Structural vs. behavioral adaptations.\n\n---\n\n# Scientific and Engineering Practices",
+    "explanation": "**Instructional Area:** Organisms and Environments | **TEKS 6.12**\nA **structural** adaptation is a physical body feature — here, thick fat and fur. A behavioral adaptation would be an action (like hibernating or migrating).\n**Key concept:** Structural vs. behavioral adaptations.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "All five factors are biotic because they are all part of the pond"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12 (biotic vs. abiotic factors) | MAP: Life Science — Ecosystems**\n\n**Step-by-step:** **Abiotic** = nonliving (sunlight, dissolved oxygen, water temperature). **Biotic** = living or once-living (cattail plants, mosquito larvae). Option B sorts them correctly.\n\n**Why the others are wrong:** A reverses the two categories. C misplaces cattail plants (living) into abiotic. D wrongly calls everything biotic.\n\n**Key concept:** Ecosystems contain interacting biotic (living) and abiotic (nonliving) factors.\n\n---",
+    "explanation": "**TEKS 6.12 (biotic vs. abiotic factors) | MAP: Life Science — Ecosystems**\n\n**Step-by-step:** **Abiotic** = nonliving (sunlight, dissolved oxygen, water temperature). **Biotic** = living or once-living (cattail plants, mosquito larvae). Option B sorts them correctly.\n\n**Why the others are wrong:** A reverses the two categories. C misplaces cattail plants (living) into abiotic. D wrongly calls everything biotic.\n\n**Key concept:** Ecosystems contain interacting biotic (living) and abiotic (nonliving) factors.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "The grass will gain energy by having fewer rabbits eat it"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12 (energy flow / food web) | MAP: Life Science — Ecosystems | SEP 6.3 (modeling)**\n\n**Step-by-step:** Energy flows grass → rabbit → hawk. Less grass means less food/energy for rabbits, so the rabbit population likely **declines**; with fewer rabbits, hawks have less prey, so the hawk population may **also decline**.\n\n**Why the others are wrong:** A reverses the effect (less prey would not increase hawks). C ignores the linked dependency. D misapplies energy flow — grass does not \"gain energy\" from being eaten less; it makes its own energy via photosynthesis.\n\n**Key concept:** In a food web, a change at one level ripples through connected populations because energy flows from producers to consumers.\n\n---",
+    "explanation": "**TEKS 6.12 (energy flow / food web) | MAP: Life Science — Ecosystems | SEP 6.3 (modeling)**\n\n**Step-by-step:** Energy flows grass → rabbit → hawk. Less grass means less food/energy for rabbits, so the rabbit population likely **declines**; with fewer rabbits, hawks have less prey, so the hawk population may **also decline**.\n\n**Why the others are wrong:** A reverses the effect (less prey would not increase hawks). C ignores the linked dependency. D misapplies energy flow — grass does not \"gain energy\" from being eaten less; it makes its own energy via photosynthesis.\n\n**Key concept:** In a food web, a change at one level ripples through connected populations because energy flows from producers to consumers.",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "Ecosystem, then organism"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12 (levels of organization) | MAP: Life Science — Ecosystems | Theme: scale**\n\n**Step-by-step:** All deer of one kind in one area = a **population**. All the interacting populations together = a **community**. Order studied: population → community.\n\n**Why the others are wrong:** A reverses the order. C and D bring in organism/ecosystem levels that do not match \"all deer\" and \"all living populations.\"\n\n**Key concept:** Hierarchy: organism → population → community → ecosystem.\n\n---",
+    "explanation": "**TEKS 6.12 (levels of organization) | MAP: Life Science — Ecosystems | Theme: scale**\n\n**Step-by-step:** All deer of one kind in one area = a **population**. All the interacting populations together = a **community**. Order studied: population → community.\n\n**Why the others are wrong:** A reverses the order. C and D bring in organism/ecosystem levels that do not match \"all deer\" and \"all living populations.\"\n\n**Key concept:** Hierarchy: organism → population → community → ecosystem.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "New cells appear spontaneously from nonliving material"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.13 (cell theory) | MAP: Life Science — From Molecules to Organisms**\n\n**Step-by-step:** The cell theory states: (1) all living things are made of one or more cells, (2) the cell is the basic unit of life, and (3) all cells come from pre-existing cells. Option A captures principles 1 and 3.\n\n**Why the others are wrong:** B is false — plants and bacteria are cellular too. C is false — the cell is the **smallest** (basic) unit of life. D describes spontaneous generation, which the cell theory **disproved**.\n\n**Key concept:** Cell theory: all organisms are cellular, cells are the basic unit of life, and cells come only from existing cells.\n\n---",
+    "explanation": "**TEKS 6.13 (cell theory) | MAP: Life Science — From Molecules to Organisms**\n\n**Step-by-step:** The cell theory states: (1) all living things are made of one or more cells, (2) the cell is the basic unit of life, and (3) all cells come from pre-existing cells. Option A captures principles 1 and 3.\n\n**Why the others are wrong:** B is false — plants and bacteria are cellular too. C is false — the cell is the **smallest** (basic) unit of life. D describes spontaneous generation, which the cell theory **disproved**.\n\n**Key concept:** Cell theory: all organisms are cellular, cells are the basic unit of life, and cells come only from existing cells.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "The finches with 10 mm beaks, because that group is the second largest"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.13 (variation of traits / survival) | MAP: Life Science — Heredity & Variation | SEP 6.2**\n\n**Step-by-step:** During a drought leaving only large, hard seeds, only **deeper-beaked** finches can crack them open. The finches with 14 mm and 16 mm beaks have the advantageous trait, so they are most likely to survive and reproduce, passing on deeper-beak genes.\n\n**Why the others are wrong:** A and D pick groups based on how **common** the trait is, not on the survival advantage. C ignores that beak depth clearly affects the ability to eat the available food.\n\n**Key concept:** Trait variation within a population allows some individuals to survive changing conditions; advantageous inherited traits become more common (natural selection).\n\n---\n\n# TEKS / Unit Coverage Summary\n\n| # | Unit (Year-at-a-Glance) | Topic | TEKS | MAP Instructional Area |\n|---|--------------------------|-------|------|------------------------|\n| 1 | 1 — Matter | Density calculation (data table) | 6.7A | Matter & Its Interactions |\n| 2 | 1 — Matter | Density as identifying property | 6.7A | Matter & Its Interactions |\n| 3 | 1 — Matter | Elements/compounds/mixtures (models) | 6.6A | Matter & Its Interactions |\n| 4 | 1 — Matter | Periodic table / groups | 6.6A | Matter & Its Interactions |\n| 5 | 1 — Matter | Evidence of chemical change | 6.6B | Matter & Its Interactions |\n| 6 | 1 — Matter | Separating mixtures (physical) | 6.6A | Matter & Its Interactions |\n| 7 | 2 — Forces | Net force (diagram) | 6.8A | Forces & Interactions |\n| 8 | 2 — Forces | Balanced/unbalanced forces | 6.8A | Forces & Interactions |\n| 9 | 2 — Forces | Newton's Third Law | 6.8B | Forces & Interactions |\n| 10 | 2 — Forces | Action–reaction pairs | 6.8B | Forces & Interactions |\n| 11 | 3 — Energy | Kinetic energy (data table) | 6.9A | Energy |\n| 12 | 3 — Energy | Energy transformation | 6.9A/6.9B | Energy |\n| 13 | 3 — Energy | Conservation of energy | 6.9B | Energy |\n| 14 | 3 — Energy | Energy transfer by waves | 6.9 | Energy & Waves |\n| 15 | 3 — Energy | Wave amplitude & energy | 6.9 | Energy & Waves |\n| 16 | 4 — Earth-Sun-Moon | Seasons (tilt) | 6.11 | Earth & Space Science |\n| 17 | 4 — Earth-Sun-Moon | Tides | 6.11 | Earth & Space Science |\n| 18 | 5 — Earth's Structure | Spheres interaction | 6.10 | Earth & Space Science |\n| 19 | 5 — Earth's Structure | Rock cycle | 6.10 | Earth & Space Science |\n| 20 | 6 — Resource Management | Renewable vs. nonrenewable | 6.11 | Earth & Space Science |\n| 21 | 7 — Organisms & Ecosystems | Biotic vs. abiotic | 6.12 | Life Science — Ecosystems |\n| 22 | 7 — Organisms & Ecosystems | Food web / energy flow | 6.12 | Life Science — Ecosystems |\n| 23 | 7 — Organisms & Ecosystems | Levels of organization | 6.12 | Life Science — Ecosystems |\n| 24 | 8 — Structure & Variation | Cell theory | 6.13 | Life Science — Molecules to Organisms |\n| 25 | 8 — Structure & Variation | Trait variation & survival | 6.13 | Life Science — Heredity |\n\n**Scientific & Engineering Practices embedded (TEKS 6.1–6.5):** data analysis/interpretation of tables and diagrams (Q1, 7, 11, 20, 22, 25), modeling (Q3, 22), constructing explanations (Q9, 10, 12, 13, 16), and recurring themes — patterns (Q4, 15), cause & effect (Q10, 16), systems & system models (Q18, 22), energy & matter (Q11–14), structure & function (Q2, 24), stability & change (Q8, 19).\n\n**All 8 Year-at-a-Glance units represented; 25 multiple-choice items; BOY-weighted toward Units 1–3 (physical science).**\n\n---\n\n## Answer Key (Quick Reference)\n\n| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |\n|---|-----|---|-----|---|-----|---|-----|---|-----|\n| 1 | A | 6 | B | 11 | D | 16 | B | 21 | B |\n| 2 | A | 7 | A | 12 | B | 17 | B | 22 | B |\n| 3 | B | 8 | B | 13 | B | 18 | A | 23 | B |\n| 4 | A | 9 | A | 14 | B | 19 | B | 24 | A |\n| 5 | B | 10 | A | 15 | A | 20 | C | 25 | B |",
+    "explanation": "**TEKS 6.13 (variation of traits / survival) | MAP: Life Science — Heredity & Variation | SEP 6.2**\n\n**Step-by-step:** During a drought leaving only large, hard seeds, only **deeper-beaked** finches can crack them open. The finches with 14 mm and 16 mm beaks have the advantageous trait, so they are most likely to survive and reproduce, passing on deeper-beak genes.\n\n**Why the others are wrong:** A and D pick groups based on how **common** the trait is, not on the survival advantage. C ignores that beak depth clearly affects the ability to eat the available food.\n\n**Key concept:** Trait variation within a population allows some individuals to survive changing conditions; advantageous inherited traits become more common (natural selection).",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "decomposition"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12B** — Ecological relationships (competition)\n\n**Explanation:** When two species need the **same limited resources** (nesting holes and the same food), they are in **competition**. As the shared resource (tree holes) becomes scarce, competition intensifies.\n\n**Why the others are wrong:**\n- **A.** Predation is one organism hunting and eating another — not described here.\n- **C.** Neither bird makes its own food; both are consumers, so this isn't a producer–consumer relationship.\n- **D.** Decomposition is breaking down dead material, which isn't happening here.\n\n**Key concept:** Competition occurs when organisms rely on the same limited resources (food, space, nesting sites).\n\n---",
+    "explanation": "**TEKS 6.12B** — Ecological relationships (competition)\n\n**Explanation:** When two species need the **same limited resources** (nesting holes and the same food), they are in **competition**. As the shared resource (tree holes) becomes scarce, competition intensifies.\n\n**Why the others are wrong:**\n- **A.** Predation is one organism hunting and eating another — not described here.\n- **C.** Neither bird makes its own food; both are consumers, so this isn't a producer–consumer relationship.\n- **D.** Decomposition is breaking down dead material, which isn't happening here.\n\n**Key concept:** Competition occurs when organisms rely on the same limited resources (food, space, nesting sites).",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "Organism → community → ecosystem"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.12C** — Levels of organization (recurring theme: scale)\n\n**Explanation:** The order from smallest to largest is **organism** (one clownfish) → **population** (all clownfish on the reef) → **community** (all the different species interacting). So the correct sequence is **organism → population → community**.\n\n**Why the others are wrong:**\n- **A, C.** These place the levels out of order (a single organism is the smallest unit here).\n- **D.** Skips the population level and adds ecosystem, which wasn't the third item described (the third study was all living species = community).\n\n**Key concept:** Ecological hierarchy: organism → population → community → ecosystem.\n\n---",
+    "explanation": "**TEKS 6.12C** — Levels of organization (recurring theme: scale)\n\n**Explanation:** The order from smallest to largest is **organism** (one clownfish) → **population** (all clownfish on the reef) → **community** (all the different species interacting). So the correct sequence is **organism → population → community**.\n\n**Why the others are wrong:**\n- **A, C.** These place the levels out of order (a single organism is the smallest unit here).\n- **D.** Skips the population level and adds ecosystem, which wasn't the third item described (the third study was all living species = community).\n\n**Key concept:** Ecological hierarchy: organism → population → community → ecosystem.",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "Moth color will have no effect on which moths survive"
     ],
     "correctIndex": 1,
-    "explanation": "**TEKS 6.13C** — Variation of traits and survival (SEP 6.3 evidence-based reasoning)\n\n**Explanation:** There is natural **variation** in moth color. After the bark darkens, dark moths are better **camouflaged**, so more of them survive predation and reproduce, passing the dark-color trait to offspring. Over generations, the **proportion of dark moths increases** (natural selection).\n\n**Why the others are wrong:**\n- **A.** Individual moths cannot change their own color to hide; the shift happens across generations through survival and reproduction.\n- **C.** Light-gray moths are now easier for birds to see, so they survive **less**, not more.\n- **D.** Color strongly affects survival here because it determines camouflage.\n\n**Key concept:** Variation within a population + environmental pressure → individuals with favorable traits survive and reproduce more (natural selection).\n\n---\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Q | Instructional Area | TEKS | Topic |\n|---|--------------------|------|-------|\n| 1 | Matter & Its Interactions | 6.6A | States of matter / particle motion |\n| 2 | Matter & Its Interactions | 6.6D | Density & liquid layering (data) |\n| 3 | Matter & Its Interactions | 6.6B/6.6C | Pure substances vs. mixtures |\n| 4 | Matter & Its Interactions | 6.6E | Evidence of chemical change |\n| 5 | Forces & Interactions | 6.7B | Net force (data) |\n| 6 | Forces & Interactions | 6.7C | Newton's Third Law |\n| 7 | Energy & Waves | 6.8A | Potential & kinetic energy (data) |\n| 8 | Energy & Waves | 6.8B | Energy transformations |\n| 9 | Energy & Waves | 6.8C | Wave properties (wavelength/frequency) |\n| 10 | Earth & Space Science | 6.9A | Seasons & Earth's tilt |\n| 11 | Earth & Space Science | 6.10B | Earth's layers (data) |\n| 12 | Earth & Space Science | 6.11A | Resource management |\n| 13 | Life Science | 6.12B | Ecological relationships (competition) |\n| 14 | Life Science | 6.12C | Levels of organization |\n| 15 | Life Science | 6.13C | Variation of traits & survival |\n\n**Answer Key (quick reference):**\n\n| Q | Ans | Q | Ans | Q | Ans |\n|---|-----|---|-----|---|-----|\n| 1 | A | 6  | A | 11 | C |\n| 2 | C | 7  | A | 12 | B |\n| 3 | A | 8  | B | 13 | B |\n| 4 | B | 9  | A | 14 | B |\n| 5 | A | 10 | A | 15 | B |\n\n---\n\n*Scientific & Engineering Practices (TEKS 6.1–6.5) — data analysis, modeling, and evidence-based reasoning — are embedded across items 2, 4, 5, 7, 11, and 15. All 8 Grade 6 YAG units are represented: Matter (Q1–4), Forces (Q5–6), Energy (Q7–9), Earth-Sun-Moon (Q10), Earth's Structure (Q11), Resources (Q12), Ecosystems (Q13–14), Structure & Variation (Q15).*",
+    "explanation": "**TEKS 6.13C** — Variation of traits and survival (SEP 6.3 evidence-based reasoning)\n\n**Explanation:** There is natural **variation** in moth color. After the bark darkens, dark moths are better **camouflaged**, so more of them survive predation and reproduce, passing the dark-color trait to offspring. Over generations, the **proportion of dark moths increases** (natural selection).\n\n**Why the others are wrong:**\n- **A.** Individual moths cannot change their own color to hide; the shift happens across generations through survival and reproduction.\n- **C.** Light-gray moths are now easier for birds to see, so they survive **less**, not more.\n- **D.** Color strongly affects survival here because it determines camouflage.\n\n**Key concept:** Variation within a population + environmental pressure → individuals with favorable traits survive and reproduce more (natural selection).",
     "source": "authored",
     "needsReview": false
   },
@@ -375,7 +375,7 @@
       "A single cell is always larger than the whole organism"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.13A — Cell theory.**\n**Explanation:** A core principle of the **cell theory** is that **all living things are made of one or more cells** (other principles: the cell is the basic unit of life, and cells come from existing cells).\n**Why others are wrong:** B — plants have cells too. C — living things are made of cells, not rock/water/air alone. D — a single cell is part of the organism, not larger than it.\n**Key concept:** The cell theory — all living things are composed of cells.\n\n---\n\n## TEKS / Instructional-Area Coverage Summary\n\n| Instructional Area | Questions | Units / TEKS |\n|--------------------|-----------|--------------|\n| Matter & Its Interactions | 1–6 | Unit 1 — 6.6A, 6.6B, 6.6C, 6.6D, 6.6E (states, pure/mixture, elements, density, chemical change, separation) |\n| Motion & Stability — Forces | 7–9 | Unit 2 — 6.7A, 6.7B, 6.7C (balanced/unbalanced, net force, Newton's 3rd) |\n| Energy & Waves | 10–12 | Unit 3 — 6.8A, 6.8B, 6.8C (kinetic energy, transformation/conservation, waves) |\n| Earth & Space Science | 13–17 | Units 4–6 — 6.11 (tides, seasons, resources), 6.10 (spheres, rock cycle) |\n| Life Science | 18–20 | Units 7–8 — 6.12A, 6.12B (biotic/abiotic, food chains), 6.13A (cell theory) |\n\n**All 8 Grade 6 YAG units represented.** Scientific & engineering practices (6.1–6.5) and recurring themes are embedded throughout. Difficulty: medium-to-high with a BOY foundational-to-stretch spread.",
+    "explanation": "**TEKS 6.13A — Cell theory.**\n**Explanation:** A core principle of the **cell theory** is that **all living things are made of one or more cells** (other principles: the cell is the basic unit of life, and cells come from existing cells).\n**Why others are wrong:** B — plants have cells too. C — living things are made of cells, not rock/water/air alone. D — a single cell is part of the organism, not larger than it.\n**Key concept:** The cell theory — all living things are composed of cells.",
     "source": "authored",
     "needsReview": false
   }

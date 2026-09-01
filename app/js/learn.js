@@ -4,7 +4,7 @@
    navigable with prev/next, then "Start Practice". Login required. */
 import { loadSubtopic } from './content-loader.js';
 import { renderMath } from './math-render.js';
-import { param, subjectLabel, requireLogin, renderInline } from './flow.js';
+import { param, subjectLabel, requireLogin, renderInline, renderBlocks } from './flow.js';
 
 async function init(root) {
   const grade = Number(param('grade'));
@@ -52,7 +52,7 @@ async function init(root) {
         <h5><i class="fas fa-book-open me-2 text-secondary"></i>${it.passageTitle
           ? renderInline(it.passageTitle) : 'Read the passage'}</h5>
         <div class="nn-passage bg-light border-start border-4 border-secondary p-3 rounded">
-          ${renderInline(it.passage)}
+          ${renderBlocks(it.passage)}
         </div>
       </div>` : '';
 
@@ -82,7 +82,7 @@ async function init(root) {
         ${passageHtml}
         <div class="question-section mb-4">
           <h5>Question:</h5>
-          <p class="lead">${renderInline(it.question)}</p>
+          <p class="lead">${renderBlocks(it.question)}</p>
         </div>
         ${choicesHtml}
         ${answer ? `<div class="answer-section mb-4">
@@ -91,7 +91,7 @@ async function init(root) {
         </div>` : ''}
         ${it.explanation ? `<div class="explanation-section mb-2">
           <h5><i class="fas fa-book me-2 text-primary"></i>Detailed Explanation:</h5>
-          <div class="bg-light p-3 rounded">${renderInline(it.explanation)}</div>
+          <div class="bg-light p-3 rounded">${renderBlocks(it.explanation)}</div>
         </div>` : ''}
       </div>`;
     // Typeset after injection: KaTeX walks the live DOM, not a string.

@@ -15,7 +15,7 @@
       "0.07 kilometres per litre"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.4B | Topic: Unit Rate**\n\n**Correct Answer:** A) 14 kilometres per litre\n\n**Explanation:**\n\\(252 \\div 18 = 14\\) kilometres for each litre.\n\n**Why the other answers are wrong:**\n- **B** repeats the number of litres.\n- **C** adds instead of dividing.\n- **D** divides the wrong way round.\n\n---",
+    "explanation": "**TEKS 6.4B | Topic: Unit Rate**\n\n**Correct Answer:** A) 14 kilometres per litre\n\n**Explanation:**\n\\(252 \\div 18 = 14\\) kilometres for each litre.\n\n**Why the other answers are wrong:**\n- **B** repeats the number of litres.\n- **C** adds instead of dividing.\n- **D** divides the wrong way round.",
     "source": "authored",
     "needsReview": false
   },
@@ -35,7 +35,7 @@
       "$108"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.5B | Topic: Percent Discount**\n\n**Correct Answer:** A) $52\n\n**Explanation:**\nA 35% reduction leaves 65%: \\(80 \\times 0.65 = 52\\). Alternatively \\(80 - 28 = 52\\).\n\n**Why the other answers are wrong:**\n- **B** $28 is the **discount**, not the sale price — the intermediate answer.\n- **C** uses the wrong percentage.\n- **D** adds the discount instead of subtracting it.\n\n---",
+    "explanation": "**TEKS 6.5B | Topic: Percent Discount**\n\n**Correct Answer:** A) $52\n\n**Explanation:**\nA 35% reduction leaves 65%: \\(80 \\times 0.65 = 52\\). Alternatively \\(80 - 28 = 52\\).\n\n**Why the other answers are wrong:**\n- **B** $28 is the **discount**, not the sale price — the intermediate answer.\n- **C** uses the wrong percentage.\n- **D** adds the discount instead of subtracting it.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "25%"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.4H | Topic: Percent Increase**\n\n**Correct Answer:** A) 20%\n\n**Explanation:**\nIncrease ÷ original × 100 = \\(\\frac{5}{25} \\times 100 = 20\\%\\). The **original** amount is the\nbase.\n\n**Why the other answers are wrong:**\n- **B** gives the raw increase in dollars, not a percentage.\n- **C** divides by the new price instead of the original.\n- **D** uses 20 as the base.\n\n---",
+    "explanation": "**TEKS 6.4H | Topic: Percent Increase**\n\n**Correct Answer:** A) 20%\n\n**Explanation:**\nIncrease ÷ original × 100 = \\(\\frac{5}{25} \\times 100 = 20\\%\\). The **original** amount is the\nbase.\n\n**Why the other answers are wrong:**\n- **B** gives the raw increase in dollars, not a percentage.\n- **C** divides by the new price instead of the original.\n- **D** uses 20 as the base.",
     "source": "authored",
     "needsReview": false
   },
@@ -75,7 +75,7 @@
       "$100.00"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.4B | Topic: Proportional Reasoning**\n\n**Correct Answer:** A) $20.00\n\n**Explanation:**\nUnit price: \\(12.50 \\div 5 = 2.50\\). Then \\(2.50 \\times 8 = 20.00\\).\n\n**Why the other answers are wrong:**\n- **B** adds $3 arbitrarily.\n- **C** is the unit price only.\n- **D** multiplies the total by 8 instead of the unit price.\n\n---",
+    "explanation": "**TEKS 6.4B | Topic: Proportional Reasoning**\n\n**Correct Answer:** A) $20.00\n\n**Explanation:**\nUnit price: \\(12.50 \\div 5 = 2.50\\). Then \\(2.50 \\times 8 = 20.00\\).\n\n**Why the other answers are wrong:**\n- **B** adds $3 arbitrarily.\n- **C** is the unit price only.\n- **D** multiplies the total by 8 instead of the unit price.",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "3 km per hour"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.5A | Topic: Constant of Proportionality**\n\n**Correct Answer:** A) 15 km per hour\n\n**Explanation:**\n\\(k = \\frac{y}{x}\\): \\(45 \\div 3 = 15\\), \\(75 \\div 5 = 15\\), \\(120 \\div 8 = 15\\). The ratio is\nconstant, which is what makes it proportional.\n\n**Why the other answers are wrong:**\n- **B** takes one y-value alone.\n- **C** inverts the ratio.\n- **D** takes one x-value alone.\n\n---",
+    "explanation": "**TEKS 6.5A | Topic: Constant of Proportionality**\n\n**Correct Answer:** A) 15 km per hour\n\n**Explanation:**\n\\(k = \\frac{y}{x}\\): \\(45 \\div 3 = 15\\), \\(75 \\div 5 = 15\\), \\(120 \\div 8 = 15\\). The ratio is\nconstant, which is what makes it proportional.\n\n**Why the other answers are wrong:**\n- **B** takes one y-value alone.\n- **C** inverts the ratio.\n- **D** takes one x-value alone.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "$44.16"
     ],
     "correctIndex": 0,
-    "explanation": "**TEKS 6.4H | Topic: Sales Tax**\n\n**Correct Answer:** A) $51.84\n\n**Explanation:**\nTax: \\(48 \\times 0.08 = 3.84\\). Total: \\(48 + 3.84 = 51.84\\). Or directly, \\(48 \\times 1.08\\).\n\n**Why the other answers are wrong:**\n- **B** $3.84 is the tax alone — the intermediate answer.\n- **C** uses 15% instead of 8%.\n- **D** subtracts the tax.\n\n---\n\n## Geometry & Spatial Concepts",
+    "explanation": "**TEKS 6.4H | Topic: Sales Tax**\n\n**Correct Answer:** A) $51.84\n\n**Explanation:**\nTax: \\(48 \\times 0.08 = 3.84\\). Total: \\(48 + 3.84 = 51.84\\). Or directly, \\(48 \\times 1.08\\).\n\n**Why the other answers are wrong:**\n- **B** $3.84 is the tax alone — the intermediate answer.\n- **C** uses 15% instead of 8%.\n- **D** subtracts the tax.",
     "source": "authored",
     "needsReview": false
   }
