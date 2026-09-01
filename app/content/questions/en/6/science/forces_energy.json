@@ -118,5 +118,465 @@
     "explanation": "**Explanation:**\nThe window moves, so work was done on it. Waves transfer energy without transferring matter.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two people push a crate in the same direction with forces of 40 N and 35 N. What is the net force?",
+    "options": [
+      "\\(75\\) N in the direction of the push",
+      "\\(5\\) N in the direction of the push",
+      "\\(1400\\) N",
+      "\\(0\\) N"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nForces in the same direction add: \\(40 + 35 = 75\\) N. Subtracting gives 5 N, which would apply only if they opposed each other.\n\n**Key concept:** Add forces pointing the same way; subtract opposing ones.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box is pushed right with 60 N and left with 60 N. What happens?",
+    "options": [
+      "It accelerates to the right.",
+      "Its motion does not change; the forces are balanced.",
+      "It accelerates to the left.",
+      "It lifts off the ground."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nEqual and opposite forces give a net force of zero, so the box keeps whatever motion it already had.\n\n**Key concept:** Balanced forces produce no change in motion.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cart is pulled east with 90 N and west with 25 N. What is the net force?",
+    "options": [
+      "\\(65\\) N east",
+      "\\(115\\) N east",
+      "\\(65\\) N west",
+      "\\(0\\) N"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOpposing forces subtract: \\(90 - 25 = 65\\) N, in the direction of the larger force.\n\n**Key concept:** Net force keeps the direction of the stronger force.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q4",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A swimmer pushes backward against the water and moves forward. This is explained by —",
+    "options": [
+      "Newton's third law",
+      "conservation of mass",
+      "the law of reflection",
+      "the rock cycle"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe swimmer pushes the water backward; the water pushes the swimmer forward with equal force in the opposite direction.\n\n**Key concept:** Forces always come in equal, opposite pairs on different objects.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q5",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball is held at the top of a ramp. As it rolls down, its energy —",
+    "options": [
+      "converts from potential to kinetic",
+      "converts from kinetic to potential",
+      "is destroyed",
+      "stays entirely potential"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHeight gives gravitational potential energy. As the ball descends it loses height and gains speed, converting potential to kinetic.\n\n**Key concept:** Falling converts potential energy into kinetic energy.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q6",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object has the **greatest gravitational potential energy**?",
+    "options": [
+      "A 2 kg book on a 1 m shelf",
+      "A 2 kg book on a 3 m shelf",
+      "A 1 kg book on a 3 m shelf",
+      "A 1 kg book on a 1 m shelf"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nGravitational potential energy rises with both mass and height. Comparing the products: \\(2 \\times 3 = 6\\) beats \\(1 \\times 3 = 3\\), \\(2 \\times 1 = 2\\) and \\(1 \\times 1 = 1\\).\n\n**Key concept:** Potential energy depends on mass and height together.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q7",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pendulum swings back and forth, gradually slowing. Where does the \"lost\" energy go?",
+    "options": [
+      "It is destroyed.",
+      "It is transferred to the air and the pivot as heat and sound.",
+      "It becomes mass.",
+      "It is stored as extra potential energy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nEnergy is conserved. Friction and air resistance move it out of the pendulum's motion into thermal and sound energy in the surroundings.\n\n**Key concept:** Energy is never destroyed, only transferred or transformed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q8",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two identical carts move along a track. Cart A travels at 2 m/s and cart B at 4 m/s. Which statement is true?",
+    "options": [
+      "Cart B has more kinetic energy than cart A.",
+      "Both have the same kinetic energy.",
+      "Cart A has more kinetic energy.",
+      "Neither has kinetic energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nKinetic energy increases with speed for equal masses, so the faster cart carries more.\n\n**Key concept:** For equal masses, greater speed means greater kinetic energy.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q9",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rocket pushes exhaust gases downward and rises. The action-reaction pair is —",
+    "options": [
+      "the rocket pushing gases down and the gases pushing the rocket up",
+      "gravity pulling down and air pushing up",
+      "the rocket's mass and its weight",
+      "the fuel burning and the fuel cooling"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAn action-reaction pair acts on two different objects with equal magnitude and opposite direction. Gravity and air resistance are separate forces, not this pair.\n\n**Key concept:** The pair acts on two different objects, never on the same one.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q10",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sound travels through air as a —",
+    "options": [
+      "mechanical wave requiring a medium",
+      "wave that travels fastest in a vacuum",
+      "form of light",
+      "chemical change"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSound travels by vibrating particles, so it needs matter to move through and cannot cross a vacuum.\n\n**Key concept:** Mechanical waves require a medium; electromagnetic waves do not.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q11",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An object moves at constant velocity in a straight line. The net force on it must be —",
+    "options": [
+      "zero",
+      "increasing",
+      "equal to its weight",
+      "pointing forward"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nConstant velocity means no change in speed or direction, which requires balanced forces summing to zero.\n\n**Key concept:** No change in motion means zero net force, even when moving.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q12",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A torch converts chemical energy in a battery mainly into —",
+    "options": [
+      "light and thermal energy",
+      "nuclear energy",
+      "sound energy only",
+      "gravitational potential energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe battery's chemical energy becomes electrical energy, then light at the bulb, with some lost as heat.\n\n**Key concept:** Energy conversions usually produce some thermal energy as a by-product.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q13",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Increasing the **amplitude** of a sound wave increases its —",
+    "options": [
+      "loudness",
+      "pitch",
+      "speed",
+      "wavelength only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAmplitude is the size of the vibration, which the ear perceives as volume. Pitch depends on frequency instead.\n\n**Key concept:** Amplitude → loudness; frequency → pitch.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q14",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Forces of 12 N north, 12 N south and 8 N east act on an object. What is the net force?",
+    "options": [
+      "\\(8\\) N east",
+      "\\(32\\) N",
+      "\\(0\\) N",
+      "\\(8\\) N west"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe 12 N north and 12 N south cancel exactly, leaving only the 8 N east.\n\n**Key concept:** Resolve opposing pairs first, then combine what remains.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q15",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A stretched rubber band stores —",
+    "options": [
+      "elastic potential energy",
+      "kinetic energy",
+      "thermal energy only",
+      "no energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nStretching stores energy in the deformed material, released when the band returns to shape.\n\n**Key concept:** Elastic potential energy is stored by stretching or compressing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q16",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a closed system, the total energy —",
+    "options": [
+      "remains constant, though it changes form",
+      "increases steadily",
+      "disappears over time",
+      "becomes mass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThis is the law of conservation of energy: the total stays the same while shifting between forms.\n\n**Key concept:** Energy changes form; the total in a closed system does not change.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q17",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Increasing the **frequency** of a sound wave raises its —",
+    "options": [
+      "pitch",
+      "loudness",
+      "amplitude",
+      "volume"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFrequency is the number of vibrations per second, heard as pitch. Loudness and volume are the same property and depend on amplitude.\n\n**Key concept:** Higher frequency is heard as higher pitch.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q18",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "When you sit on a chair, the chair pushes up on you with a force equal to your downward push. This is —",
+    "options": [
+      "Newton's third law",
+      "Newton's first law only",
+      "friction",
+      "gravity acting twice"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nYour downward push on the chair and the chair's upward push on you are an equal, opposite pair acting on two different objects.\n\n**Key concept:** Every force has an equal and opposite partner.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q19",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which conversion happens in a hydroelectric dam?",
+    "options": [
+      "Gravitational potential energy → kinetic energy → electrical energy",
+      "Electrical → chemical → nuclear",
+      "Thermal → gravitational → chemical",
+      "Sound → light → thermal"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nStored water high behind the dam has potential energy; falling gives it kinetic energy; the turbine and generator convert that to electrical energy.\n\n**Key concept:** Trace energy through each stage of a system.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q20",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A skydiver falls at constant speed after the parachute opens. This means —",
+    "options": [
+      "air resistance now balances weight",
+      "gravity has stopped acting",
+      "the net force points upward",
+      "the skydiver has no mass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nConstant speed means zero net force. Gravity still acts, but upward air resistance now equals it.\n\n**Key concept:** Terminal velocity is a balanced-force condition, not the absence of gravity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q21",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which travels through a **vacuum**?",
+    "options": [
+      "Light",
+      "Sound",
+      "Both equally",
+      "Neither"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLight is electromagnetic and needs no medium, which is why sunlight crosses space. Sound cannot.\n\n**Key concept:** Only electromagnetic waves travel through a vacuum.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q22",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A moving car brakes to a stop. Its kinetic energy is mainly transferred to —",
+    "options": [
+      "thermal energy in the brakes and tyres",
+      "chemical energy in the fuel tank",
+      "nuclear energy",
+      "gravitational potential energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFriction converts the car's kinetic energy into heat, which is why brakes become hot.\n\n**Key concept:** Friction converts kinetic energy into thermal energy.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q23",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Friction always acts —",
+    "options": [
+      "opposite to the direction of motion",
+      "in the direction of motion",
+      "upward",
+      "only on liquids"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFriction resists relative motion between surfaces, so it always opposes the direction of travel.\n\n**Key concept:** Friction opposes motion.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

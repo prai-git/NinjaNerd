@@ -118,5 +118,465 @@
     "explanation": "**Explanation:**\nA gas is mostly empty space between particles. Compressing it reduces that spacing. The\nparticles themselves are unchanged.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q24",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In which state are particles closest together and vibrating in fixed positions?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "All are the same"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSolid particles are packed tightly and vibrate about fixed positions, giving a definite shape and volume.\n\n**Key concept:** Particle arrangement determines a state's shape and volume.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q25",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An object has a mass of 96 g and a volume of 12 cm³. What is its density?",
+    "options": [
+      "\\(8\\) g/cm³",
+      "\\(1152\\) g/cm³",
+      "\\(0.125\\) g/cm³",
+      "\\(84\\) g/cm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(D = \\frac{m}{V} = \\frac{96}{12} = 8\\) g/cm³. Multiplying instead gives 1152.\n\n**Key concept:** Density divides mass by volume.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q26",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A block with a density of \\(0.8\\) g/cm³ is placed in water (density \\(1.0\\) g/cm³). It will —",
+    "options": [
+      "float",
+      "sink",
+      "dissolve",
+      "evaporate"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAn object less dense than the surrounding fluid floats. \\(0.8 < 1.0\\), so the block floats.\n\n**Key concept:** Compare densities to predict floating and sinking.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q27",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **pure substance**?",
+    "options": [
+      "Saltwater",
+      "Copper",
+      "Trail mix",
+      "Air"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nCopper is an element, so it is a pure substance. Saltwater, trail mix and air are all mixtures.\n\n**Key concept:** Pure substances are elements or compounds, never mixtures.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q28",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **mixture** that can be separated by filtration?",
+    "options": [
+      "Sand and water",
+      "Salt dissolved in water",
+      "Pure oxygen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSand is insoluble, so filter paper traps it while water passes through. Dissolved salt passes straight through a filter.\n\n**Key concept:** Filtration separates insoluble solids from liquids.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q29",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is evidence of a **chemical** change?",
+    "options": [
+      "Ice melting into water",
+      "A nail rusting and forming a new reddish substance",
+      "Sugar dissolving in tea",
+      "Water boiling into steam"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nRust is a new substance with new properties. Melting, dissolving and boiling all change form without producing a new substance.\n\n**Key concept:** A chemical change produces a new substance.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q30",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "When a gas is cooled enough to become a liquid, the process is called —",
+    "options": [
+      "condensation",
+      "evaporation",
+      "sublimation",
+      "melting"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nCooling a gas until it becomes liquid is condensation. Evaporation is the reverse.\n\n**Key concept:** Condensation is gas to liquid; evaporation is liquid to gas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q31",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On the periodic table, elements in the same **column** share —",
+    "options": [
+      "similar chemical properties",
+      "identical mass",
+      "the same number of neutrons",
+      "the same colour"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nColumns are groups, and elements in a group behave similarly in reactions.\n\n**Key concept:** Group (column) predicts chemical behaviour.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q32",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two samples of the same pure metal have different volumes. Their densities are —",
+    "options": [
+      "the same, because density is a property of the material",
+      "different, because the volumes differ",
+      "different, because the masses differ",
+      "zero"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDensity does not depend on sample size. A larger sample has more mass **and** more volume, and the ratio is unchanged.\n\n**Key concept:** Density is an intensive property, independent of amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q33",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which describes a **compound**?",
+    "options": [
+      "Two or more elements chemically bonded in fixed proportions",
+      "Two substances physically mixed",
+      "A single type of atom",
+      "Any liquid"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA compound's components are chemically joined in a set ratio and cannot be separated physically. Mixtures combine physically in any proportion.\n\n**Key concept:** Compounds bond chemically; mixtures combine physically.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q34",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **physical** change?",
+    "options": [
+      "Cutting paper into strips",
+      "Burning paper",
+      "Baking a cake",
+      "Milk souring"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nCutting changes shape and size but the paper is still paper. Burning, baking and souring all produce new substances.\n\n**Key concept:** Physical changes alter form, not identity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q35",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which state has no fixed shape but a fixed volume?",
+    "options": [
+      "Liquid",
+      "Solid",
+      "Gas",
+      "Plasma only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA liquid takes the shape of its container while keeping a fixed volume. A gas fills the whole container; a solid keeps both shape and volume.\n\n**Key concept:** Liquids have fixed volume but no fixed shape.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q36",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An irregular stone has a mass of 150 g. Placed in a cylinder, it raises the water level from 40 mL to 90 mL. What is its density?",
+    "options": [
+      "\\(3\\) g/cm³",
+      "\\(1.67\\) g/cm³",
+      "\\(3.75\\) g/cm³",
+      "\\(50\\) g/cm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Volume by displacement: \\(90 - 40 = 50\\) mL \\(= 50\\) cm³\n- \\(D = \\frac{150}{50} = 3\\) g/cm³\n\nUsing 90 mL instead of the difference gives 1.67, the common error.\n\n**Key concept:** Displacement volume is the difference in water level, not the final reading.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q37",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An element's chemical **symbol** is —",
+    "options": [
+      "a one- or two-letter abbreviation, the first letter capitalised",
+      "always three letters",
+      "always lowercase",
+      "the same as its atomic mass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSymbols such as O, Na and Fe capitalise the first letter and lowercase any second letter.\n\n**Key concept:** Chemical symbols follow a fixed capitalisation rule.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q38",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which separation method best suits salt dissolved in water?",
+    "options": [
+      "Evaporation",
+      "Filtration",
+      "Using a magnet",
+      "Hand-sorting"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSalt dissolves, so a filter will not catch it. Evaporating the water leaves the salt behind.\n\n**Key concept:** Match the separation method to the property that differs.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q39",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Bubbles of a new gas appear when two clear liquids are combined. This suggests —",
+    "options": [
+      "a chemical change",
+      "a change of state only",
+      "that nothing happened",
+      "a physical change only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA gas that was not present before indicates a new substance has formed.\n\n**Key concept:** Gas production is a common sign of chemical change.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q40",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "When solid carbon dioxide turns directly into gas without melting, the process is —",
+    "options": [
+      "sublimation",
+      "condensation",
+      "freezing",
+      "filtration"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSublimation is solid directly to gas, skipping the liquid state — as dry ice does.\n\n**Key concept:** Sublimation skips the liquid phase entirely.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q41",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group on the periodic table contains elements that are generally shiny, conduct electricity, and are malleable?",
+    "options": [
+      "Metals",
+      "Nonmetals",
+      "Noble gases",
+      "Halogens"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nMetals are typically shiny, conductive, malleable and ductile. Nonmetals and noble gases are generally not.\n\n**Key concept:** Metals share a characteristic set of physical properties.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q42",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Oil floats on water. This is because oil has —",
+    "options": [
+      "a lower density than water",
+      "a higher density than water",
+      "the same density as water",
+      "no density"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLess dense fluids rise above denser ones, so oil forms a layer on top.\n\n**Key concept:** Fluids layer by density, least dense on top.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q43",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair lists **only** physical properties?",
+    "options": [
+      "Colour and density",
+      "Flammability and reactivity",
+      "Rusting and burning",
+      "Souring and fermenting"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nColour and density can be observed without changing the substance. Flammability, reactivity, rusting, burning, souring and fermenting all describe chemical behaviour.\n\n**Key concept:** Physical properties are observable without changing identity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q44",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Air is best classified as —",
+    "options": [
+      "a mixture of gases",
+      "a compound",
+      "a single element",
+      "a pure substance"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAir is mostly nitrogen and oxygen with other gases, combined physically in varying proportions.\n\n**Key concept:** Variable composition is the signature of a mixture.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q45",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Adding heat to a solid at its melting point causes —",
+    "options": [
+      "a change of state at constant temperature",
+      "an immediate temperature rise with no state change",
+      "a chemical reaction",
+      "a decrease in mass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAt the melting point, added energy breaks the forces holding particles in place rather than raising temperature. The temperature stays constant until melting completes.\n\n**Key concept:** During a change of state, energy goes into the change, not the temperature.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-01_18-38_q46",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cube of side 2 cm has a mass of 32 g. What is its density?",
+    "options": [
+      "\\(4\\) g/cm³",
+      "\\(16\\) g/cm³",
+      "\\(8\\) g/cm³",
+      "\\(64\\) g/cm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Volume: \\(2^3 = 8\\) cm³\n- \\(D = \\frac{32}{8} = 4\\) g/cm³\n\nUsing the side length instead of the volume gives 16.\n\n**Key concept:** Cube the edge length before dividing.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
