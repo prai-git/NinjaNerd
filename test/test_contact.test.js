@@ -110,16 +110,34 @@ test('the honeypot is hidden from people without using type=hidden', () => {
 
 // ---- configuration -------------------------------------------------------------------------
 
-test('it ships unconfigured, and says so honestly instead of dropping messages', () => {
-  assert.equal(isEmailjsConfigured(), false, 'must ship with empty IDs');
+test('isEmailjsConfigured requires all three, and whitespace does not count', () => {
   assert.equal(isEmailjsConfigured({ serviceId: 'a', templateId: 'b', publicKey: 'c' }), true);
   assert.equal(isEmailjsConfigured({ serviceId: 'a', templateId: '', publicKey: 'c' }), false);
+  assert.equal(isEmailjsConfigured({ serviceId: '', templateId: 'b', publicKey: 'c' }), false);
+  assert.equal(isEmailjsConfigured({ serviceId: 'a', templateId: 'b', publicKey: '' }), false);
   assert.equal(isEmailjsConfigured({ serviceId: ' ', templateId: 'b', publicKey: 'c' }), false,
     'whitespace is not configuration');
+});
 
-  // The unconfigured state must offer a working alternative, not a dead form.
+test('the unconfigured state stays a working dead end, not a dead form', () => {
+  /* The IDs are filled in now, but this path still has to exist and still has to be right: it
+     is what a visitor sees if the owner ever rotates a key, and a form that accepts a message
+     and drops it is worse than no form. */
   assert.match(contactJs, /temporarily unavailable/i);
   assert.match(contactJs, /mailto:\$\{CONTACT_TO\}/);
+  assert.match(contactJs, /if \(!isEmailjsConfigured\(\)\)/, 'the form must stay gated on it');
+});
+
+test('the shipped config is complete and well-formed', () => {
+  /* Configured by the owner on 2026-09-01. The prefixes are EmailJS's own conventions, so a
+     value pasted into the wrong field — a very easy slip with three opaque strings — is caught
+     here rather than by a parent whose message silently never arrives. */
+  assert.equal(isEmailjsConfigured(), true, 'contact form is expected to be live');
+  assert.match(emailjsConfig.serviceId, /^service_[A-Za-z0-9]+$/);
+  assert.match(emailjsConfig.templateId, /^template_[A-Za-z0-9]+$/);
+  assert.doesNotMatch(emailjsConfig.publicKey, /^(service|template)_/,
+    'the public key must not be a service or template ID');
+  assert.ok(emailjsConfig.publicKey.length >= 10);
 });
 
 test('no secret is in the repo — only the three public identifiers', () => {

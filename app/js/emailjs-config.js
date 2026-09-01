@@ -11,6 +11,10 @@
    message with a mailto: fallback, rather than a form that silently fails to send. Owner steps
    to fill these in: doc/emailjs-setup.md.
 
+   CONFIGURED 2026-09-01 by the owner. The template expects exactly the four variables
+   contact.js sends -- to_email, from_email, subject, message. If the mail ever arrives with a
+   blank field, a template variable was renamed on the EmailJS side; nothing here will warn.
+
    NOTE ON ABUSE: a public key means anyone can call the template. EmailJS enforces a monthly
    send quota and per-key rate limits on its side, and the free tier's quota is a hard stop
    rather than a bill — the same shape of protection as the Spark plan (see prompt 18). Turn on
@@ -19,9 +23,9 @@
    server to enforce that here, so EmailJS's own limits are what remain. */
 
 export const emailjsConfig = {
-  serviceId: '',
-  templateId: '',
-  publicKey: '',
+  serviceId: 'service_rsepx3q',
+  templateId: 'template_cyfrd7t',
+  publicKey: 'RIRApt0K6fpL416vF',
 };
 
 // Pinned deliberately, matching how Firebase/KaTeX/Bootstrap are pinned elsewhere: an unpinned
