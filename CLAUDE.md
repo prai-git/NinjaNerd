@@ -34,10 +34,11 @@ carries the heaviest COPPA obligation and nothing depended on it; the Firestore 
 collections are default-deny).
 
 **Live state (2026-09-01):** repo public · branch `ninjanerd-static` deploys to
-`https://prai-git.github.io/NinjaNerd/` · Firebase project **`ninjanerd-32030`** with
-Email/Password auth and Firestore (Standard edition, Production mode, `nam7`), rules
-**deployed and verified** · 1,622 questions across all 115 subtopics · `npm test` →
-**248 pass, 0 fail, 0 todo**.
+**`https://ninjanerd.ai/`** (custom domain live since 2026-09-01; the Let's Encrypt
+certificate covers the apex and `www`, which redirects to the apex) · Firebase project
+**`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
+mode, `nam7`), rules **deployed and verified** · 1,622 questions across all 115 subtopics ·
+`npm test` → **268 pass, 0 fail, 1 todo** (the todo is the 20-questions-per-subtopic gate).
 
 ---
 
@@ -83,10 +84,11 @@ that import the SDK can only be checked as text.
   - `content/questions/en/<grade>/<subject>/<subtopic_id>.json` + `manifest.json`
   - `static/games/` — `geodash`, `mmh`, `tank_attack`, `tejas_thrust`
   - `favicon.ico`, `.nojekyll`
-  - **`CNAME` is deliberately NOT here.** It is staged at the repo root as `CNAME.pending`
-    and moves in as the last step before go-live: Pages reads `app/CNAME` on deploy and would
-    redirect the `.github.io` URL to a domain that does not resolve yet, breaking pre-launch
-    verification. `test_smoke.test.js` enforces that exactly one of the two exists.
+  - **`CNAME`** — ships here since the domain went live (2026-09-01). It was staged at the
+    repo root as `CNAME.pending` for the whole migration, because Pages reads `app/CNAME` on
+    deploy and redirects the `.github.io` URL to the custom domain; doing that before DNS
+    resolved would have broken pre-launch verification. `test_smoke.test.js` enforces that
+    exactly **one** of the two exists, so a reappearing `CNAME.pending` fails the build.
 - **`dbmgr/`** — `firestore.rules` + `firestore.indexes.json`. **Never served.** `firebase.json`
   and `.firebaserc` stay at the **repo root** (the CLI searches upward, so it would never find
   them in a subfolder).
@@ -284,9 +286,11 @@ because a heading element cannot legally contain a `<table>`.
 
 ## 10. Paths inside `app/` — never root-absolute
 
-The site is served from **two mount points**: `https://prai-git.github.io/NinjaNerd/`
-(pre-launch verification) and `https://ninjanerd.ai/` (live). A path beginning with `/`
-resolves from the host root, so it works only on the second and 404s silently on the first.
+The site is served from **two mount points**: `https://ninjanerd.ai/` (live, at the root) and
+`https://prai-git.github.io/NinjaNerd/` (a SUB-PATH, which now 301-redirects to the domain).
+A path beginning with `/` resolves from the host root, so it works only on the first and 404s
+silently on the second. **The rule stays enforced** — the sub-path is still how the site is
+verified before a domain change, and a root-absolute path would break it again.
 
 Therefore every served page carries a **`<base>` tag** — `./` in `app/index.html`, `../` in
 `app/pages/*.html`, placed right after `<meta charset>` and **before any `<link>`/`<script>`**
@@ -354,9 +358,11 @@ Only `app/` is reachable; `doc/`, `tools/`, `test/`, `dbmgr/` return 404.
 
 Rules deploy separately: `firebase deploy --only firestore:rules`.
 
-**Currently live at a SUB-PATH**, `https://prai-git.github.io/NinjaNerd/`. The `github-pages`
-environment permits **only** `ninjanerd-static` to deploy. Custom-domain DNS + HTTPS is the
-final step; the domain attaches to this *project* repo.
+**Live at `https://ninjanerd.ai/`** since 2026-09-01. The `github-pages` environment permits
+**only** `ninjanerd-static` to deploy. DNS is at Porkbun: four `A` records on the apex pointing
+at GitHub's Pages addresses, and `www` as a `CNAME` to `prai-git.github.io`. The domain is
+attached to this *project* repo, and `https://prai-git.github.io/NinjaNerd/` now 301-redirects
+to it.
 
 ---
 

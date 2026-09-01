@@ -88,6 +88,10 @@ Dev-only (`devDependencies`): `firebase`, `firebase-tools`, `@firebase/rules-uni
 Pushing to the `ninjanerd-static` branch triggers `.github/workflows/pages.yml`, which
 publishes `app/`. It is the only branch permitted to deploy.
 
+The site is live at **[ninjanerd.ai](https://ninjanerd.ai)**. DNS is at Porkbun — four `A`
+records on the apex pointing at GitHub Pages, and `www` as a `CNAME` to `prai-git.github.io`,
+which redirects to the apex. `app/CNAME` is what tells Pages the domain.
+
 ## Author
 
 **Praveen Rai**

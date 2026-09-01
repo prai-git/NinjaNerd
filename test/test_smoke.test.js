@@ -15,14 +15,19 @@ test('app/.nojekyll exists', () => {
   assert.ok(existsSync(join(appDir, '.nojekyll')), 'app/.nojekyll should exist');
 });
 
-/* CNAME is staged OUTSIDE app/ until the custom-domain step (prompt 14).
+/* CNAME now SHIPS in app/ — the custom domain went live 2026-09-01.
 
-   GitHub Pages reads app/CNAME on deploy and sets the custom domain, which makes
-   <user>.github.io redirect to ninjanerd.ai. Until DNS is pointed at Pages that domain
-   does not resolve, so shipping the file early breaks the very github.io verification
-   the release sequence depends on. It lives at CNAME.pending and is moved into app/ as
-   the last step before go-live. */
-test('CNAME is staged outside app/ and names ninjanerd.ai', () => {
+   It was staged at the repo root as CNAME.pending for the whole migration, because Pages
+   reads app/CNAME on deploy and sets the custom domain, which makes <user>.github.io
+   redirect to ninjanerd.ai. Until DNS pointed at Pages that domain did not resolve, so
+   shipping the file early would have broken the very github.io verification the release
+   sequence depended on.
+
+   The test still accepts EITHER location. That is deliberate rather than leftover: it keeps
+   the important half — exactly one of the two exists, and it names the right domain — so a
+   stray CNAME.pending reappearing beside app/CNAME fails the build instead of silently
+   handing Pages a stale domain. */
+test('exactly one CNAME exists, in app/, naming ninjanerd.ai', () => {
   const pending = join(repoRoot, 'CNAME.pending');
   const shipped = join(appDir, 'CNAME');
 
@@ -32,9 +37,9 @@ test('CNAME is staged outside app/ and names ninjanerd.ai', () => {
   const src = existsSync(shipped) ? shipped : pending;
   assert.equal(readFileSync(src, 'utf8').trim(), 'ninjanerd.ai');
 
-  // Before the domain step both must not be present, or Pages gets a stale copy.
+  // Both present would let Pages pick up a stale domain.
   assert.ok(!(existsSync(pending) && existsSync(shipped)),
-    'move CNAME.pending into app/ at the domain step; do not keep both');
+    'only one CNAME may exist; app/CNAME is the live one since 2026-09-01');
 });
 
 /* The favicon, rescued from obs_static/ during the obs_ purge (2026-09-01). It had never been
