@@ -1,0 +1,142 @@
+[
+  {
+    "id": "english_g4_2026-09-01_01-40_q8",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> ______ They store water in their thick stems. Their spines lose far less water than leaves\n> would. Their roots spread wide to catch brief rains.\n\nWhich sentence best begins the paragraph?",
+    "options": [
+      "Cacti survive the desert through several clever adaptations.",
+      "Deserts can be very hot during the day.",
+      "Many people grow cacti in pots indoors.",
+      "Rain is measured with a rain gauge."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12B | Topic: Topic Sentence**\n\n**Correct Answer:** A) Cacti survive the desert through several clever adaptations.\n\n**Explanation:**\nEvery following sentence describes one adaptation, so the opening must announce that idea.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** touch on deserts, cacti or rain but none is developed by the details.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_01-40_q9",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> (1) The lighthouse guided ships for over a century. (2) Its beam could be seen twenty miles\n> out. (3) The keeper climbed 214 steps each night. (4) Lighthouses look pretty in photographs.\n\nWhich sentence should be removed?",
+    "options": [
+      "Sentence 4",
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12B | Topic: Relevance**\n\n**Correct Answer:** A) Sentence 4\n\n**Explanation:**\nThe paragraph gives facts about the lighthouse's work. How it looks in photographs is an\nunrelated opinion.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all factual details that develop the topic.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_01-40_q10",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word best fills the blank?\n\n> The river rose above its banks. ______, the town closed the low bridge.",
+    "options": [
+      "Therefore",
+      "However",
+      "Meanwhile",
+      "Similarly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12C | Topic: Cause-and-Effect Transitions**\n\n**Correct Answer:** A) Therefore\n\n**Explanation:**\nThe rising river is the cause and closing the bridge is the effect, so a cause transition fits.\n\n**Why the other answers are wrong:**\n- **B** *However* signals contrast.\n- **C** *Meanwhile* signals simultaneous events.\n- **D** *Similarly* signals likeness.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_01-40_q11",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best combines these two?\n\n> Marcus practised every evening. He did not make the team.",
+    "options": [
+      "Although Marcus practised every evening, he did not make the team.",
+      "Marcus practised every evening, he did not make the team.",
+      "Marcus practised every evening so he did not make the team.",
+      "Marcus practised every evening he did not make the team."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12B | Topic: Combining Sentences**\n\n**Correct Answer:** A) Although Marcus practised every evening, he did not make the team.\n\n**Explanation:**\nPractising hard and not making the team are in tension, so a contrast word joins them.\n\n**Why the other answers are wrong:**\n- **B** is a comma splice and **D** is a run-on.\n- **C** *so* claims practising caused the failure, which reverses the meaning.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_01-40_q12",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "She enjoys reading, swimming and hiking.",
+      "She enjoys reading, to swim and hiking.",
+      "She enjoys to read, swimming and hikes.",
+      "She enjoys reading, swim and to hike."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12B | Topic: Parallel Structure**\n\n**Correct Answer:** A) She enjoys reading, swimming and hiking.\n\n**Explanation:**\nAll three items take the same *-ing* form, so the list is parallel.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each mix *-ing* forms with infinitives or plain verbs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_01-40_q13",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wrote about volunteering at a food bank. Which is the best **ending**?",
+    "options": [
+      "An hour of sorting tins turned out to matter more than I expected.",
+      "The food bank is open on Tuesdays and Fridays.",
+      "I sorted tins into cardboard boxes.",
+      "My friend Ana came with me that day."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12C | Topic: Concluding Sentence**\n\n**Correct Answer:** A) An hour of sorting tins turned out to matter more than I expected.\n\n**Explanation:**\nA strong ending reflects on the meaning of the experience rather than adding another fact.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are supporting details that belong earlier.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_01-40_q14",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is explaining how a seed becomes a plant. Which step belongs **last**?",
+    "options": [
+      "The stem pushes above the soil and leaves unfold.",
+      "The seed absorbs water and swells.",
+      "A root grows downward into the soil.",
+      "The seed coat splits open."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.12B | Topic: Logical Order**\n\n**Correct Answer:** A) The stem pushes above the soil and leaves unfold.\n\n**Explanation:**\nThe order is: absorb water, seed coat splits, root grows down, then the stem rises. Leaves\nappear last.\n\n**Why the other answers are wrong:**\n- **B** is first, **D** second and **C** third.\n\n---\n\n## Written Conventions",
+    "source": "authored",
+    "needsReview": false
+  }
+]

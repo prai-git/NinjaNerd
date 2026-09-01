@@ -1,0 +1,142 @@
+[
+  {
+    "id": "english_g3_2026-09-01_01-25_q1",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The path was so **narrow** that the hikers had to walk one behind the other.\n\nWhat does **narrow** mean here?",
+    "options": [
+      "not wide",
+      "very steep",
+      "covered in mud",
+      "brightly lit"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3B [R] | Topic: Context Clues**\n\n**Correct Answer:** A) not wide\n\n**Explanation:**\nThe clue is \"had to walk one behind the other\" — that only happens when a path is not wide\nenough for two.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** describe a path in other ways, but none of them force single file.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q2",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **re-** means *again*. What does **rebuild** mean?",
+    "options": [
+      "to build again",
+      "to build badly",
+      "to stop building",
+      "to build before"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3C | Topic: Prefixes**\n\n**Correct Answer:** A) to build again\n\n**Explanation:**\n*re-* means *again*, so *rebuild* is to build something again.\n\n**Why the other answers are wrong:**\n- **B** *badly* would need a different prefix such as *mis-*.\n- **C** *stop* would be *un-* or *de-*.\n- **D** *before* would be *pre-*.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q3",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-less** means *without*. A person who is **fearless** is —",
+    "options": [
+      "without fear",
+      "full of fear",
+      "afraid of the dark",
+      "careful and slow"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3C | Topic: Suffixes**\n\n**Correct Answer:** A) without fear\n\n**Explanation:**\n*-less* means *without*, so *fearless* means without fear.\n\n**Why the other answers are wrong:**\n- **B** *full of fear* would be *fearful* — the opposite suffix.\n- **C** and **D** describe being frightened or cautious, which is the reverse.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q4",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Dad will **park** the car near the entrance.\n\nWhich meaning of **park** is used?",
+    "options": [
+      "to leave a vehicle somewhere",
+      "a place with grass and trees",
+      "a playground for children",
+      "a protected wild area"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3B | Topic: Multiple-Meaning Words**\n\n**Correct Answer:** A) to leave a vehicle somewhere\n\n**Explanation:**\nHere *park* is a verb acting on *the car*, so it means to stop and leave the vehicle.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all noun meanings of *park*, but the sentence uses it as an\n  action.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q5",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means about the same as **enormous**?",
+    "options": [
+      "huge",
+      "tiny",
+      "noisy",
+      "empty"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3B | Topic: Synonyms**\n\n**Correct Answer:** A) huge\n\n**Explanation:**\n*Enormous* means extremely large, and *huge* carries the same meaning.\n\n**Why the other answers are wrong:**\n- **B** *tiny* is the antonym.\n- **C** and **D** describe sound and emptiness, not size.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q6",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The root **port** means *to carry*. A **portable** heater is one that —",
+    "options": [
+      "can be carried from place to place",
+      "gives off a lot of heat",
+      "costs very little",
+      "must stay in one room"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3C | Topic: Latin Roots**\n\n**Correct Answer:** A) can be carried from place to place\n\n**Explanation:**\nThe root *port* means *to carry*, so *portable* describes something able to be carried.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** describe heat output, price and fixedness — none relate to carrying.\n  **D** is the opposite.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q7",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is the **opposite** of **ancient**?",
+    "options": [
+      "modern",
+      "old",
+      "dusty",
+      "stone"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.3B | Topic: Antonyms**\n\n**Correct Answer:** A) modern\n\n**Explanation:**\n*Ancient* means very old, so its opposite is *modern*, meaning of the present time.\n\n**Why the other answers are wrong:**\n- **B** *old* is a synonym, not an antonym.\n- **C** and **D** describe a state or material, not age.\n\n---\n\n## Writing Essentials",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "english_g3_2026-09-01_01-25_q15",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "The box of crayons belongs to Mia.",
+      "The box of crayons belong to Mia.",
+      "The box of crayon belong to Mia.",
+      "The box of crayons are belongs to Mia."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Subject-Verb Agreement**\n\n**Correct Answer:** A) The box of crayons belongs to Mia.\n\n**Explanation:**\nThe subject is *box*, which is singular, so the verb is *belongs*. *Of crayons* is a\nprepositional phrase and does not change the subject — the classic trap.\n\n**Why the other answers are wrong:**\n- **B** matches the verb to *crayons*.\n- **C** makes *crayon* singular and still disagrees.\n- **D** stacks two verbs.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q16",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence keeps the **same** tense throughout?",
+    "options": [
+      "She opened the door and switched on the light.",
+      "She opened the door and switches on the light.",
+      "She opens the door and switched on the light.",
+      "She will open the door and switched on the light."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Verb Tense Consistency**\n\n**Correct Answer:** A) She opened the door and switched on the light.\n\n**Explanation:**\nBoth verbs are past tense, so the sentence stays in one time frame.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each mix two tenses in a single sentence.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q17",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "Each of the boys brought his own lunch.",
+      "Each of the boys brought their own lunches.",
+      "Each of the boys brought its own lunch.",
+      "Each of the boys bring his own lunch."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Pronoun-Antecedent Agreement**\n\n**Correct Answer:** A) Each of the boys brought his own lunch.\n\n**Explanation:**\n*Each* is singular, so it takes a singular pronoun and a singular verb.\n\n**Why the other answers are wrong:**\n- **B** uses the plural *their* with singular *each*.\n- **C** *its* refers to a thing, not a person.\n- **D** *bring* does not agree with *each*.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q18",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly?",
+    "options": [
+      "We visited the zoo, the aquarium, and the museum.",
+      "We visited the zoo the aquarium and the museum.",
+      "We, visited the zoo the aquarium, and the museum.",
+      "We visited, the zoo, the aquarium and, the museum."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Commas in a Series**\n\n**Correct Answer:** A) We visited the zoo, the aquarium, and the museum.\n\n**Explanation:**\nCommas separate three or more items in a list.\n\n**Why the other answers are wrong:**\n- **B** has no commas.\n- **C** and **D** place commas where they do not belong, separating the subject from its verb.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q19",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of words is a **complete sentence**?",
+    "options": [
+      "The rain stopped before noon.",
+      "Before noon on a cloudy day.",
+      "Because the rain stopped.",
+      "Stopping before noon yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Complete Sentences**\n\n**Correct Answer:** A) The rain stopped before noon.\n\n**Explanation:**\nIt has a subject (*the rain*) and a verb (*stopped*) and expresses a complete thought.\n\n**Why the other answers are wrong:**\n- **B** and **D** are phrases with no subject-verb pair expressing a complete thought.\n- **C** begins with *because*, which leaves the thought unfinished.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q20",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses apostrophes correctly?",
+    "options": [
+      "The teacher's desk is covered with students' papers.",
+      "The teachers desk is covered with students papers.",
+      "The teacher's desk is covered with student's paper's.",
+      "The teachers' desk is covered with students paper's."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Apostrophes**\n\n**Correct Answer:** A) The teacher's desk is covered with students' papers.\n\n**Explanation:**\nOne teacher takes *'s*; more than one student takes *s'*. The apostrophe goes after the *s* for\na plural possessive.\n\n**Why the other answers are wrong:**\n- **B** omits both apostrophes.\n- **C** and **D** add apostrophes to plain plurals — the most common apostrophe error.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-01_01-25_q21",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar and Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses capital letters correctly?",
+    "options": [
+      "In March, we read a book by Ruth Park.",
+      "In march, we read a book by ruth park.",
+      "In March, We Read A Book By Ruth Park.",
+      "in March, we read a Book by Ruth Park."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 3.11D | Topic: Capitalisation**\n\n**Correct Answer:** A) In March, we read a book by Ruth Park.\n\n**Explanation:**\nCapitalise the first word, the month, and a person's name — and nothing else.\n\n**Why the other answers are wrong:**\n- **B** leaves the month and the name lowercase.\n- **C** capitalises ordinary words.\n- **D** misses the capital at the start and adds one to *Book*.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]
