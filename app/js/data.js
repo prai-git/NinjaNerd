@@ -29,6 +29,7 @@ import {
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-firestore.js';
 
 import { auth, db } from './firebase-init.js';
+import { TOPICS } from './stats-calc.js';
 
 const historyCol = (uid) => collection(db, 'users', uid, 'history');
 const summaryRef = (uid) => doc(db, 'users', uid, 'statistics', 'summary');
@@ -71,18 +72,63 @@ export async function recordAttempt({ question, userAnswer, correct, topic, subt
       grade: Number(grade) || null,
       timestamp: serverTimestamp(),
     });
-    // arrayUnion gives the "add topic if not already covered" set semantics legacy did by hand.
+    /* arrayUnion gives the "add topic if not already covered" set semantics legacy did by hand.
+
+       attempts_by / correct_by are a per-grade-per-topic roll-up, incremented in the SAME
+       batch, so they cost nothing extra and can never drift from history. They exist so the
+       Statistics page can read ONE document instead of up to a thousand history rows -- see
+       rollupKey below and stats-calc.js. */
+    const key = rollupKey(grade, topic);
     batch.set(summaryRef(user.uid), {
       questions_attempted: increment(1),
       topics_covered: topic ? arrayUnion(topic) : arrayUnion(),
+      ...(key ? {
+        attempts_by: { [key]: increment(1) },
+        correct_by: { [key]: increment(correct ? 1 : 0) },
+      } : {}),
       updated_at: serverTimestamp(),
     }, { merge: true });
 
-    await batch.commit();
+    await commitWithOneRetry(batch);
     return { saved: true };
   } catch (e) {
     console.warn('[NinjaNerd] could not save attempt:', e && e.code);
     return { saved: false, reason: (e && e.code) || 'error' };
+  }
+}
+
+/* The roll-up key. 6 grades x 3 topics = 18 possible keys, which is the bound the rules
+   enforce on the map. Returns null for anything outside that, so a malformed attempt updates
+   the counters not at all rather than inventing a 19th key the rules would reject -- which
+   would fail the whole batch and lose the history row with it. */
+export function rollupKey(grade, topic) {
+  const g = Number(grade);
+  if (!Number.isInteger(g) || g < 1 || g > 6) return null;
+  if (!TOPICS.includes(topic)) return null;
+  return `g${g}_${topic}`;
+}
+
+/* Commit, and on a retryable failure try EXACTLY once more after a short delay.
+
+   The rules put a one-second floor between statistics writes as an abuse cap (see
+   firestore.rules). Without this retry that floor would silently discard the second of two
+   quick answers -- turning an anti-abuse measure into data loss for a fast student. With it,
+   a genuine burst is delayed, not lost.
+
+   Exactly one retry, with jitter, and never a loop. Unbounded retry is itself the thundering
+   herd: every client that fails during an outage would come back together, repeatedly, and
+   keep the outage alive. One bounded retry cannot do that. */
+async function commitWithOneRetry(batch) {
+  try {
+    await batch.commit();
+  } catch (e) {
+    const code = (e && e.code) || '';
+    const retryable = code === 'permission-denied'      // most likely the rate floor
+      || code === 'unavailable' || code === 'deadline-exceeded' || code === 'aborted';
+    if (!retryable) throw e;
+    // 1.2s clears the 1s floor; the jitter keeps many clients from returning in lockstep.
+    await new Promise((r) => setTimeout(r, 1200 + Math.floor(Math.random() * 400)));
+    await batch.commit();
   }
 }
 
@@ -128,4 +174,5 @@ export async function getHistory({ limit = 1000 } = {}) {
 
 /* The legacy statistics computation lives in stats-calc.js, which imports nothing, so it can
    be unit-tested. Re-exported here so callers have one place to look. */
-export { TOPICS, selectGrade, percentagesFor } from './stats-calc.js';
+export { TOPICS };
+export { selectGrade, percentagesFor, gradeFromRollup, percentagesFromRollup } from './stats-calc.js';

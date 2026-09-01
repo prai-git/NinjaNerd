@@ -22,6 +22,22 @@ export const firebaseConfig = {
   appId: '1:356454798469:web:b8bf2c238ca3cd2f15c5ec',
 };
 
+/* App Check — reCAPTCHA v3 site key.
+
+   THIS IS ALSO PUBLIC, and it is the control that answers "can someone hammer our Firebase
+   project with a script?". The config above identifies the project to anyone who views source,
+   which is by design; on its own that means any curl loop can reach Auth and Firestore and be
+   billed to the owner. App Check makes the SDK attach a token attesting the request came from
+   the real site on its real domain, and Firestore/Auth reject requests without one once
+   enforcement is switched on.
+
+   EMPTY = DISABLED, and firebase-init.js says so loudly in the console rather than failing
+   silently. To turn it on see doc/prompt/18_abuse_hardening_prompt.md: register the site in
+   Firebase console -> App Check with the reCAPTCHA v3 provider, paste the site key here, then
+   enforce. Turn enforcement on only AFTER the key is deployed and the console's request
+   metrics show verified traffic -- enforcing first locks every real user out. */
+export const APP_CHECK_SITE_KEY = '';
+
 // The emulator suite works with any non-empty projectId, so tests and local runs can swap
 // this for a throwaway project without touching firebase-init.js.
 export const EMULATOR_PROJECT_ID = 'ninjanerd-emulator';

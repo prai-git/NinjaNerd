@@ -98,30 +98,116 @@ service cloud.firestore {
       // by email, which needs both get and list over this collection.
       allow read: if isOwner(uid) || isAdmin();
 
+      /* Shape validation, for the same reason as history below: signing up is free, so an
+         authenticated client could otherwise store megabytes of arbitrary fields on its own
+         profile document. school_name is a signup-form free-text field and was unbounded. */
+      function validProfile(d) {
+        return d.keys().hasOnly(
+                 ['email', 'school_name', 'is_admin', 'created_at', 'updated_at'])
+               && d.email is string && d.email.size() <= 254   // RFC 5321 maximum
+               && d.school_name is string && d.school_name.size() <= 200
+               && d.is_admin is bool;
+      }
+
       // A new account can never create itself as an admin.
       allow create: if isOwner(uid)
+                    && validProfile(request.resource.data)
                     && request.resource.data.is_admin == false;
 
       // is_admin and email cannot be changed by the client. Removing this makes every account
       // able to promote itself and read every child's history.
       allow update: if isOwner(uid)
+                    && validProfile(request.resource.data)
                     && request.resource.data.is_admin == resource.data.is_admin
                     && request.resource.data.email == resource.data.email;
 
       allow delete: if isOwner(uid);
 
-      // user_history: the record Statistics and Audit are both computed from.
+      /* user_history: the record Statistics and Audit are both computed from.
+
+         The shape is validated here, not just the ownership. Being signed in is cheap -- any
+         address can create a verified account -- so "isOwner" alone let an authenticated
+         client append documents of any shape and size to its own subtree. Firestore bills for
+         storage and for writes, and the ceiling was one 1 MiB document per write, forever.
+         The caps below are ~4x the largest real value in app/content (longest authored
+         question: 927 characters; longest option: 262), so they cannot reject a genuine save.
+
+         The timestamp is pinned to the server's clock. A client-chosen value could be
+         backdated or post-dated, which would reorder the Statistics view and corrupt the
+         Audit trail -- the one collection whose whole purpose is being trustworthy. */
       match /history/{entryId} {
+        function validHistory(d) {
+          return d.keys().hasOnly(
+                   ['question', 'user_answer', 'correct', 'topic', 'subtopic', 'grade',
+                    'timestamp'])
+                 && d.keys().hasAll(
+                   ['question', 'user_answer', 'correct', 'topic', 'grade', 'timestamp'])
+                 && d.question is string && d.question.size() <= 4000
+                 && d.user_answer is string && d.user_answer.size() <= 1000
+                 && d.correct is bool
+                 && d.topic in ['math', 'english', 'science']
+                 && (!('subtopic' in d) || d.subtopic == null
+                     || (d.subtopic is string && d.subtopic.size() <= 100))
+                 && d.grade is int && d.grade >= 1 && d.grade <= 6
+                 && d.timestamp == request.time;
+        }
+
         allow read: if isOwner(uid) || isAdmin();
-        allow create: if isOwner(uid);
+        allow create: if isOwner(uid) && validHistory(request.resource.data);
         // History is an audit trail: entries are not rewritten or removed by the client.
         allow update, delete: if false;
       }
 
-      // user_statistics: last_login, questions_attempted, topics_covered[].
+      /* user_statistics: last_login, questions_attempted, topics_covered[], plus the
+         per-grade/topic roll-up that keeps the Statistics page off a 1000-document read.
+
+         Same reasoning as history. `allow write: if isOwner(uid)` previously permitted any
+         shape at all: a client could arrayUnion thousands of junk entries into
+         topics_covered, or add unbounded fields, to a document that EVERY Statistics view
+         reads. Bloating it is a self-service denial of service against the owner's own bill.
+
+         `write` also implied delete. Deleting the summary would silently reset a child's
+         counters, so it is now create/update only. */
       match /statistics/{docId} {
+        function validSummary(d) {
+          return d.keys().hasOnly(
+                   ['last_login', 'questions_attempted', 'topics_covered', 'updated_at',
+                    'attempts_by', 'correct_by'])
+                 && (!('questions_attempted' in d)
+                     || (d.questions_attempted is int && d.questions_attempted >= 0))
+                 && (!('topics_covered' in d)
+                     || (d.topics_covered is list
+                         && d.topics_covered.hasOnly(['math', 'english', 'science'])))
+                 /* The roll-ups are keyed g<grade>_<topic>, so 6 grades x 3 topics bounds them
+                    at 18 keys. Capping the key count is what stops the document growing
+                    without limit; individual values being wrong would only mis-draw the
+                    child's own chart, which is not a security question. */
+                 && (!('attempts_by' in d)
+                     || (d.attempts_by is map && d.attempts_by.keys().size() <= 18))
+                 && (!('correct_by' in d)
+                     || (d.correct_by is map && d.correct_by.keys().size() <= 18));
+        }
+
+        /* A crude write-rate floor. Rules cannot count requests over a window the way
+           Flask-Limiter did (obs_app.py used "10 per minute" on submit_answer), but every
+           recorded attempt updates this document, so a minimum interval here throttles
+           attempt writes as a whole.
+
+           One second, not legacy's six. Six would reject a fast-but-real student; one second
+           between two answered questions is not a child, it is a script. data.js retries once
+           after ~1.2s, so a genuine burst is delayed rather than lost. This bounds a
+           compromised client to ~86k writes/day instead of unlimited -- a cap, not a defence.
+           App Check is the control that actually keeps non-app clients out. */
+        function notTooFast() {
+          return !('updated_at' in resource.data)
+                 || resource.data.updated_at == null
+                 || request.time > resource.data.updated_at + duration.value(1, 's');
+        }
+
         allow read: if isOwner(uid) || isAdmin();
-        allow write: if isOwner(uid);
+        allow create: if isOwner(uid) && validSummary(request.resource.data);
+        allow update: if isOwner(uid) && validSummary(request.resource.data) && notTooFast();
+        allow delete: if false;
       }
     }
 

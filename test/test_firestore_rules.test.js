@@ -118,9 +118,19 @@ describe('firestore security rules', { skip }, () => {
     const ref = doc(db, `users/${ALICE}/history/h1`);
     await assertSucceeds(setDoc(ref, {
       question: 'What is 3+3?', user_answer: '6', correct: true,
-      topic: 'math', subtopic: 'Addition', grade: 1, timestamp: new Date(),
+      topic: 'math', subtopic: 'Addition', grade: 1,
+      timestamp: firestore.serverTimestamp(),
     }));
     await assertSucceeds(getDoc(ref));
+
+    /* A client-chosen timestamp is refused. Backdating or post-dating a row would reorder the
+       Statistics view and corrupt Audit — the one collection whose entire value is being
+       trustworthy. */
+    await assertFails(setDoc(doc(db, `users/${ALICE}/history/h_backdated`), {
+      question: 'q', user_answer: 'a', correct: true,
+      topic: 'math', subtopic: 'Addition', grade: 1,
+      timestamp: new Date('2020-01-01'),
+    }));
   });
 
   test('history is append-only: no rewriting or deleting an entry', async () => {
@@ -130,7 +140,8 @@ describe('firestore security rules', { skip }, () => {
     const ref = doc(db, `users/${ALICE}/history/h2`);
     await assertSucceeds(setDoc(ref, {
       question: 'q', user_answer: 'a', correct: false,
-      topic: 'science', subtopic: 'Cells', grade: 5, timestamp: new Date(),
+      topic: 'science', subtopic: 'Cells', grade: 5,
+      timestamp: firestore.serverTimestamp(),
     }));
     await assertFails(updateDoc(ref, { correct: true }));
     await assertFails(deleteDoc(ref));
@@ -188,6 +199,120 @@ describe('firestore security rules', { skip }, () => {
     await assertFails(getDoc(doc(db, `users/${ALICE}`)));
     await assertFails(setDoc(doc(db, `users/${ALICE}/history/x`), { correct: true }));
     await assertFails(getDoc(doc(db, 'chat_sessions/s1')));
+  });
+
+  /* ---- abuse hardening (prompt 18) -------------------------------------------------------
+     Being signed in is cheap: any address can create a verified account. So "isOwner" alone
+     let an authenticated client append documents of ANY shape and size to its own subtree,
+     billed to the owner, up to 1 MiB per write forever. These cases pin the bounds. */
+
+  test('an oversized or malformed history row is refused', async () => {
+    await seedUsers();
+    const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, setDoc, serverTimestamp } = firestore;
+    const good = {
+      question: 'What is 3+3?', user_answer: '6', correct: true,
+      topic: 'math', subtopic: 'Addition', grade: 1, timestamp: serverTimestamp(),
+    };
+    const write = (over) => setDoc(doc(db, `users/${ALICE}/history/${Math.random()}`),
+      { ...good, ...over });
+
+    // The control: the shape the app actually writes still works.
+    await assertSucceeds(write({}));
+
+    // Caps are ~4x the largest real authored value (question 927 chars, option 262), so a
+    // genuine save can never hit them.
+    await assertFails(write({ question: 'x'.repeat(4001) }));
+    await assertFails(write({ user_answer: 'x'.repeat(1001) }));
+    await assertFails(write({ subtopic: 'x'.repeat(101) }));
+
+    // Unknown fields are the bloat vector: without hasOnly, a client can attach anything.
+    await assertFails(write({ payload: 'x'.repeat(2000) }));
+
+    // Types and ranges.
+    await assertFails(write({ correct: 'yes' }));
+    await assertFails(write({ topic: 'chemistry' }));
+    await assertFails(write({ grade: 0 }));
+    await assertFails(write({ grade: 7 }));
+    await assertFails(write({ grade: '3' }));
+    await assertFails(write({ question: 12345 }));
+  });
+
+  test('a bloated or malformed statistics summary is refused', async () => {
+    await seedUsers();
+    const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, setDoc } = firestore;
+    const ref = doc(db, `users/${ALICE}/statistics/summary`);
+
+    await assertSucceeds(setDoc(ref, {
+      questions_attempted: 1, topics_covered: ['math'],
+      attempts_by: { g1_math: 1 }, correct_by: { g1_math: 1 },
+    }));
+
+    /* topics_covered is written with arrayUnion, which has no bound of its own. This document
+       is read on EVERY statistics view, so letting it grow is a self-service denial of
+       service against the owner's own bill. */
+    await assertFails(setDoc(ref, { topics_covered: ['math', 'not_a_topic'] }));
+    await assertFails(setDoc(ref, {
+      topics_covered: Array.from({ length: 500 }, (_, i) => `t${i}`),
+    }));
+
+    // 6 grades x 3 topics bounds the roll-up at 18 keys.
+    const tooMany = {};
+    for (let i = 0; i < 40; i++) tooMany[`k${i}`] = 1;
+    await assertFails(setDoc(ref, { attempts_by: tooMany }));
+
+    await assertFails(setDoc(ref, { junk: 'x'.repeat(1000) }));
+    await assertFails(setDoc(ref, { questions_attempted: -5 }));
+    await assertFails(setDoc(ref, { questions_attempted: 'many' }));
+  });
+
+  test('the summary cannot be deleted, which would silently reset a child\'s counters', async () => {
+    await seedUsers();
+    const db = env.authenticatedContext(BOB).firestore();
+    const { doc, deleteDoc } = firestore;
+    // `allow write` used to include delete. BOB's summary is seeded.
+    await assertFails(deleteDoc(doc(db, `users/${BOB}/statistics/summary`)));
+  });
+
+  test('a profile cannot carry unbounded free text', async () => {
+    await seedUsers();
+    const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, setDoc } = firestore;
+    // school_name comes straight from the signup form and had no bound at all.
+    await assertFails(setDoc(doc(db, `users/${ALICE}`), {
+      email: 'alice@example.com', school_name: 'x'.repeat(201), is_admin: false,
+      created_at: new Date(), updated_at: new Date(),
+    }));
+    await assertFails(setDoc(doc(db, `users/${ALICE}`), {
+      email: 'alice@example.com', school_name: 'PS1', is_admin: false,
+      created_at: new Date(), updated_at: new Date(), blob: 'x'.repeat(5000),
+    }));
+  });
+
+  test('statistics writes have a one-second floor, and it clears', async () => {
+    /* Rules cannot count requests over a window the way Flask-Limiter did (legacy used
+       "10 per minute" on submit_answer), but every recorded attempt updates this document, so
+       a minimum interval here throttles attempt writes as a whole. One second, not legacy's
+       six: six would reject a fast-but-real student. data.js retries once after ~1.2s, so a
+       genuine burst is delayed rather than lost — which this test also proves. */
+    await seedUsers();
+    const db = env.authenticatedContext(ALICE).firestore();
+    const { doc, setDoc, serverTimestamp } = firestore;
+    const ref = doc(db, `users/${ALICE}/statistics/summary`);
+
+    await assertSucceeds(setDoc(ref, {
+      questions_attempted: 1, updated_at: serverTimestamp(),
+    }));
+    // Immediately again: refused.
+    await assertFails(setDoc(ref, {
+      questions_attempted: 2, updated_at: serverTimestamp(),
+    }));
+    // After the floor, allowed — this is the case data.js's single retry lands in.
+    await new Promise((r) => setTimeout(r, 1300));
+    await assertSucceeds(setDoc(ref, {
+      questions_attempted: 2, updated_at: serverTimestamp(),
+    }));
   });
 
   /* ---- collaboration: DROPPED 2026-09-01 -------------------------------------------------

@@ -16,7 +16,9 @@ import {
   getFirestore, connectFirestoreEmulator,
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-firestore.js';
 
-import { firebaseConfig, isConfigured, EMULATOR_PROJECT_ID } from './firebase-config.js';
+import {
+  firebaseConfig, isConfigured, EMULATOR_PROJECT_ID, APP_CHECK_SITE_KEY,
+} from './firebase-config.js';
 
 // Keep in sync with firebase.json.
 export const EMULATOR_PORTS = { auth: 9099, firestore: 8080 };
@@ -47,4 +49,42 @@ if (useEmulator) {
   connectAuthEmulator(auth, `http://localhost:${EMULATOR_PORTS.auth}`, { disableWarnings: true });
   connectFirestoreEmulator(db, 'localhost', EMULATOR_PORTS.firestore);
   console.info('[NinjaNerd] Using Firebase emulators (auth + firestore) on localhost.');
+}
+
+/* ---- App Check --------------------------------------------------------------------------
+
+   The abuse control for a static site. Everything in firebase-config.js is public by design,
+   so without App Check any script holding those values can call Auth and Firestore directly
+   and the owner is billed for it. Security Rules decide WHAT a caller may touch; App Check
+   decides WHETHER a caller is our app at all. They are not substitutes.
+
+   Loaded dynamically so the App Check module is not fetched at all when no key is set — a
+   static site pays for every byte on first paint, and this is dead weight until it is
+   configured.
+
+   Skipped on localhost: the emulators do not verify tokens, and reCAPTCHA will not issue one
+   for an unregistered origin, so attempting it locally only produces console noise. */
+export const appCheckEnabled = !useEmulator && !!APP_CHECK_SITE_KEY;
+
+if (appCheckEnabled) {
+  import('https://www.gstatic.com/firebasejs/12.18.0/firebase-app-check.js')
+    .then(({ initializeAppCheck, ReCaptchaV3Provider }) => {
+      initializeAppCheck(app, {
+        provider: new ReCaptchaV3Provider(APP_CHECK_SITE_KEY),
+        // Refresh the attestation token in the background so a long practice session does not
+        // start failing writes halfway through.
+        isTokenAutoRefreshEnabled: true,
+      });
+    })
+    .catch((e) => {
+      /* Never fatal. If App Check cannot load, the site must still work: the Security Rules
+         are the boundary and they are unaffected. A hard failure here would take the whole
+         site down for every child over an anti-abuse measure. */
+      console.warn('[NinjaNerd] App Check unavailable:', e && e.message);
+    });
+} else if (!useEmulator) {
+  console.warn(
+    '[NinjaNerd] App Check is OFF (no APP_CHECK_SITE_KEY). The Firebase config is public, so ' +
+      'scripted clients can reach Auth and Firestore. See doc/prompt/18_abuse_hardening_prompt.md.',
+  );
 }

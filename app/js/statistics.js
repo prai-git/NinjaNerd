@@ -5,12 +5,22 @@
      2. for each topic, percent correct WITHIN that grade, 0 when there are none;
      3. no history at all -> the legacy empty state.
 
-   Nothing is precomputed. `statistics/summary` holds only counters (questions_attempted,
-   topics_covered, last_login); the percentages come from the history rows every time, exactly
-   as the Flask route did. */
+   Percentages are still never stored -- they are computed on every view, as the Flask route
+   did. What changed is where the COUNTS come from. Reading history cost one Firestore document
+   read per answered question, up to 1000 per view of a page a child can refresh at will, and
+   it got worse the more a student practised. `statistics/summary` now also carries a
+   per-grade-per-topic roll-up, written in the same atomic batch as each history row, so the
+   usual path is ONE read.
 
-import { getHistory } from './data.js';
-import { selectGrade, percentagesFor, TOPICS } from './stats-calc.js';
+   History remains the fallback and the source of truth: if the roll-up does not exactly
+   account for questions_attempted -- an account that practised before the roll-up existed --
+   this reads history instead and is right. See stats-calc.js rollupIsComplete(). */
+
+import { getHistory, getStatistics } from './data.js';
+import {
+  selectGrade, percentagesFor, TOPICS,
+  rollupIsComplete, gradeFromRollup, percentagesFromRollup,
+} from './stats-calc.js';
 
 // Legacy chart palette, carried over verbatim so the page looks the same.
 const FILL = [
@@ -100,13 +110,27 @@ async function render() {
   const user = window.NNAuth && window.NNAuth.getUser();
   if (!user) { body.innerHTML = signedOutState(); if (gradeEl) gradeEl.textContent = '—'; return; }
 
-  const history = await getHistory();
-  const grade = selectGrade(history);
+  /* One document read on the normal path. Only fall back to the full history scan when the
+     roll-up cannot account for every attempt. */
+  const summary = await getStatistics();
+  let grade;
+  let pct;
+  let hasAny;
+
+  if (rollupIsComplete(summary)) {
+    grade = gradeFromRollup(summary);
+    pct = percentagesFromRollup(summary, grade);
+    hasAny = true; // rollupIsComplete() already required a non-zero total
+  } else {
+    const history = await getHistory();
+    grade = selectGrade(history);
+    pct = percentagesFor(history, grade);
+    hasAny = history.length > 0;
+  }
+
   if (gradeEl) gradeEl.textContent = String(grade);
+  if (!hasAny) { body.innerHTML = emptyState(); return; }
 
-  if (history.length === 0) { body.innerHTML = emptyState(); return; }
-
-  const pct = percentagesFor(history, grade);
   body.innerHTML = statsMarkup(pct);
   drawChart(pct, grade);
 }
