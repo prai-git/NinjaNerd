@@ -78,5 +78,465 @@
     "explanation": "student lateness.\n\n**Explanation:**\nThis is specific, measurable and drawn from a real comparison. The rest are personal opinion or\nanecdote.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q24",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence works best as a **thesis** for an informational essay about urban beekeeping?",
+    "options": [
+      "Bees are insects that live in cities.",
+      "This essay is about urban beekeeping.",
+      "Urban beekeeping strengthens city food systems, but it succeeds only where hive density is managed carefully.",
+      "Many people have opinions about bees."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nA thesis makes a specific, arguable claim the essay can develop. The others state a fact, announce the topic, or say nothing at all.\n\n**Key concept:** A thesis asserts something that requires support.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q25",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence should be **removed** from this paragraph?\n\n*(1) Rooftop gardens lower building temperatures. (2) They absorb rainwater that would otherwise flood streets. (3) My uncle grows tomatoes on his balcony. (4) They also provide habitat for pollinators.*",
+    "options": [
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3",
+      "Sentence 4"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nSentences 1, 2 and 4 each state a benefit of rooftop gardens. Sentence 3 is a personal anecdote about a balcony, which does not support the paragraph's idea.\n\n**Key concept:** Every sentence must serve the paragraph's controlling idea.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q26",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In an argumentative essay, what is the purpose of addressing a **counterclaim**?",
+    "options": [
+      "To confuse the reader about the writer's position",
+      "To show the opposing view has been considered and to answer it",
+      "To make the essay longer",
+      "To replace the writer's own evidence"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nNaming and answering the strongest objection makes an argument more credible, because the reader can see it was not ignored.\n\n**Key concept:** Addressing a counterclaim strengthens rather than weakens an argument.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q27",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which transition best joins these sentences? *The experiment produced no measurable change. ____ the team revised the procedure and ran it again.*",
+    "options": [
+      "For example,",
+      "Similarly,",
+      "Consequently,",
+      "In contrast,"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe revision follows *as a result of* the null outcome, so a cause-and-effect transition fits. *For example* introduces an instance, *similarly* compares, *in contrast* opposes.\n\n**Key concept:** Match the transition to the actual logical relationship.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q28",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which detail best **supports** the claim *School gardens improve student nutrition*?",
+    "options": [
+      "Gardens are pleasant places to spend time.",
+      "In a two-year study, students who grew vegetables ate 26% more of them at lunch.",
+      "Many schools have unused outdoor space.",
+      "Gardening has been practised for thousands of years."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThis is specific, measured, and directly about nutrition. The others are pleasant, logistical or historical and do not bear on whether nutrition improved.\n\n**Key concept:** Evidence must connect to the exact claim being made.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q29",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision makes this sentence clearest? *The reason the bridge was closed was because of the fact that the supports were damaged.*",
+    "options": [
+      "The bridge was closed because its supports were damaged.",
+      "The reason the bridge closed was due to damaged supports.",
+      "Because of the fact of damage, the bridge was closed.",
+      "The bridge, being damaged in its supports, was closed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\"The reason … was because of the fact that\" says *because* four times over. Option A states cause and effect once, plainly.\n\n**Key concept:** Say the causal relationship once, with *because*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q30",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the primary role of a **concluding** paragraph in an informational essay?",
+    "options": [
+      "To introduce a new argument the essay has not covered",
+      "To reinforce the central idea and show what the evidence adds up to",
+      "To repeat the introduction word for word",
+      "To apologise for anything left out"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA conclusion consolidates. Introducing new arguments leaves them unsupported, and copying the introduction adds nothing.\n\n**Key concept:** A conclusion synthesises; it does not introduce or repeat verbatim.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q31",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the strongest **hook** for an essay about light pollution?",
+    "options": [
+      "Light pollution is a problem in many places.",
+      "Two-thirds of people alive today have never seen the Milky Way from their own homes.",
+      "This essay will explain light pollution.",
+      "There are many kinds of pollution."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA concrete, surprising fact gives the reader a reason to continue. Announcing the topic or calling it \"a problem\" does not.\n\n**Key concept:** A hook earns attention with something specific.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q32",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A writer claims that school should start later, then cites a sleep study, a doctor's statement, and a personal preference. Which piece of support is **weakest**?",
+    "options": [
+      "The sleep study",
+      "The doctor's statement",
+      "The personal preference",
+      "All are equally strong"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nA study and an expert statement are evidence others can check. What one person prefers supports nothing beyond that person.\n\n**Key concept:** Rank evidence by whether a reader could verify it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q33",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which order makes this paragraph most coherent?\n\n*(1) As a result, the seedlings grew twice as fast. (2) We began by testing three soil mixtures. (3) The compost blend retained the most water.*",
+    "options": [
+      "1, 2, 3",
+      "2, 3, 1",
+      "3, 1, 2",
+      "2, 1, 3"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nBegin with what was done (2), report the finding (3), then the consequence (1). Sentence 1 opens with *As a result*, so it cannot come first.\n\n**Key concept:** Transition words signal where a sentence belongs in a sequence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q34",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which topic sentence best introduces a paragraph of evidence about recycling rates?",
+    "options": [
+      "Recycling is good.",
+      "Cities that introduced weekly kerbside collection saw recycling rates rise sharply within two years.",
+      "This paragraph discusses recycling rates.",
+      "There are many facts about recycling."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt makes a specific claim the paragraph can then evidence. The others evaluate vaguely or announce the topic.\n\n**Key concept:** A topic sentence asserts what the paragraph will demonstrate.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q35",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision best **combines** these sentences? *The storm was severe. The school closed. Buses were cancelled.*",
+    "options": [
+      "The storm was severe, the school closed, buses were cancelled.",
+      "Because the storm was severe, the school closed and buses were cancelled.",
+      "The storm was severe and the school closed and buses were cancelled.",
+      "The storm was severe; the school closed; buses cancelled."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSubordinating the cause shows the relationship between the storm and the two consequences. Option A is a comma splice, C is stringy, and D leaves a fragment.\n\n**Key concept:** Combine by subordinating the cause, not by stringing clauses together.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q36",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence states a **claim** rather than a fact?",
+    "options": [
+      "The library is open until six o'clock.",
+      "The library should extend its hours to eight o'clock.",
+      "The library has 12,000 books.",
+      "The library was built in 1974."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Should* asserts what ought to happen, which can be argued. The others state verifiable facts.\n\n**Key concept:** A claim can be disputed; a fact can be checked.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q37",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which transition signals that the writer is about to give an **example**?",
+    "options": [
+      "However,",
+      "For instance,",
+      "Therefore,",
+      "Nevertheless,"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*For instance* introduces an illustration. *However* and *nevertheless* contrast; *therefore* concludes.\n\n**Key concept:** Exemplifying transitions announce a specific case.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q38",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A paragraph makes a claim and gives evidence but never explains how the evidence supports the claim. What is missing?",
+    "options": [
+      "A topic sentence",
+      "Reasoning that links the evidence to the claim",
+      "More evidence",
+      "A transition word"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nEvidence does not speak for itself. The writer must explain what the evidence shows and why it supports the claim.\n\n**Key concept:** Claim + evidence + reasoning is the complete unit.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q39",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the most **precise** verb?",
+    "options": [
+      "The river went through the valley.",
+      "The river carved through the valley.",
+      "The river was in the valley.",
+      "The river did something in the valley."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Carved* conveys the action and its geological effect. *Went*, *was* and *did something* are vague.\n\n**Key concept:** A precise verb carries meaning that adverbs cannot supply.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q40",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "When writing for an audience of younger students, a writer should —",
+    "options": [
+      "use as much technical vocabulary as possible",
+      "define unfamiliar terms and use concrete examples",
+      "avoid all detail",
+      "write longer sentences"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nWriting for younger readers means meeting their background knowledge — not removing content, but making it accessible.\n\n**Key concept:** Audience awareness shapes vocabulary and examples, not the substance.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q41",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains **unnecessary repetition**?",
+    "options": [
+      "She returned the book to the library on Friday.",
+      "She returned the book back to the library again on Friday.",
+      "She returned the overdue book on Friday.",
+      "On Friday she returned the book."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Returned* already means \"gave back\", so *back* and *again* repeat it twice over.\n\n**Key concept:** Cut words whose meaning is already carried by the verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q42",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best **rebuttal** to the counterclaim *Later school start times would disrupt family schedules*?",
+    "options": [
+      "Family schedules are not important.",
+      "Districts that shifted start times reported that most families adjusted within one term, and bus routes were rescheduled without added cost.",
+      "Everyone knows students need sleep.",
+      "That counterclaim is simply wrong."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA rebuttal answers the objection with evidence. Dismissing the concern or asserting it is wrong addresses nothing.\n\n**Key concept:** Rebut with evidence, not with dismissal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q43",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has the clearest **subject-verb** placement for an informational text?",
+    "options": [
+      "It is the case that erosion, which is caused by water, damages the coastline.",
+      "Water erosion damages the coastline.",
+      "The coastline, damaged by that which is water erosion, suffers.",
+      "Damage to the coastline is a thing caused by water."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nSubject, verb and object sit together in the natural order. The others bury the action in empty constructions such as \"it is the case that\" and \"is a thing caused by\".\n\n**Key concept:** Put the actor in the subject and the action in the verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q44",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An essay's body paragraphs each begin with an unrelated new idea and no connecting words. The essay most lacks —",
+    "options": [
+      "evidence",
+      "coherence and transitions",
+      "a title",
+      "correct spelling"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nUnrelated paragraphs with no connectives is a failure of organisation. The essay may have plenty of evidence and still not hold together.\n\n**Key concept:** Coherence is how the parts connect, not how much they contain.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q45",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision fixes the vague pronoun? *The teachers told the students that they needed more preparation time.*",
+    "options": [
+      "They told them that more time was needed.",
+      "The teachers told the students that the teachers needed more preparation time.",
+      "The teachers said they needed it.",
+      "They needed more preparation time, the teachers told the students."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIn the original, *they* could mean the teachers or the students. Naming the group removes the ambiguity — clumsier, but unambiguous, and a rewrite could then restore flow.\n\n**Key concept:** Clarity outranks elegance when a pronoun has two possible antecedents.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q46",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best demonstrates a **formal** tone appropriate for an argumentative essay?",
+    "options": [
+      "Honestly, this whole rule is kind of ridiculous.",
+      "The current policy fails to account for students who travel long distances.",
+      "Nobody likes this rule, obviously.",
+      "You'd have to be silly to support this."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt states the objection in measured language without slang, filler, or insults to the reader.\n\n**Key concept:** Formal tone argues the position, not the reader.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

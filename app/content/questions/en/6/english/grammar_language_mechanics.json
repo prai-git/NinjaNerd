@@ -78,5 +78,465 @@
     "explanation": "**Explanation:**\nAll verbs sit in the past tense, so the sentence stays in one time frame.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q1",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the sentence *The exhausted hikers rested beside the narrow stream*, which word is a **preposition**?",
+    "options": [
+      "exhausted",
+      "rested",
+      "beside",
+      "narrow"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\n*Beside* shows the relationship between *rested* and *stream*, which is what a preposition does. *Exhausted* and *narrow* are adjectives; *rested* is the verb.\n\n**Key concept:** A preposition begins a phrase that relates a noun to the rest of the sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q2",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains a **dependent clause**?",
+    "options": [
+      "The rain stopped and the sun appeared.",
+      "When the rain stopped, the sun appeared.",
+      "The rain stopped; the sun appeared.",
+      "The rain stopped suddenly."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*When the rain stopped* has a subject and verb but cannot stand alone because *when* subordinates it. The other options join two independent clauses or contain only one.\n\n**Key concept:** A subordinating conjunction turns a clause into a dependent one.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q3",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Identify the sentence type: *Close the window before the storm arrives.*",
+    "options": [
+      "Declarative",
+      "Interrogative",
+      "Imperative",
+      "Exclamatory"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe sentence issues a command; its subject (*you*) is understood rather than stated.\n\n**Key concept:** Imperative sentences command, with an implied subject.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q4",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *Running along the riverbank, the dog startled a heron*, the underlined-style opening phrase functions as —",
+    "options": [
+      "the subject of the sentence",
+      "a participial phrase modifying *dog*",
+      "an independent clause",
+      "a prepositional phrase modifying *heron*"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Running* is a present participle, and the phrase describes the noun that follows it — the dog is the one running. It cannot be the subject, because the subject is *the dog*.\n\n**Key concept:** An opening participial phrase modifies the subject immediately after it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is **compound**?",
+    "options": [
+      "Although she practised daily, she missed the final note.",
+      "She practised daily, and she performed confidently.",
+      "She practised daily before the concert.",
+      "Practising daily, she performed confidently."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTwo independent clauses joined by a comma and *and* form a compound sentence. Option A is complex, C is simple, and D opens with a participial phrase.\n\n**Key concept:** Compound = two or more independent clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is a **coordinating** conjunction?",
+    "options": [
+      "although",
+      "because",
+      "yet",
+      "since"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\n*Yet* is one of the seven coordinating conjunctions (for, and, nor, but, or, yet, so). *Although*, *because* and *since* subordinate.\n\n**Key concept:** Coordinating conjunctions join equal elements.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *The committee's decision surprised everyone*, what part of speech is *committee's*?",
+    "options": [
+      "Possessive noun",
+      "Verb",
+      "Adverb",
+      "Preposition"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Committee's* is a noun in the possessive form, showing that the decision belongs to the committee.\n\n**Key concept:** Apostrophe + s on a noun marks possession.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **transitive** verb (a verb taking a direct object)?",
+    "options": [
+      "The audience applauded loudly.",
+      "The pianist finished the sonata.",
+      "The lights dimmed.",
+      "Everyone waited patiently."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Finished* takes the direct object *sonata* — finished what? The other verbs (applauded, dimmed, waited) have no object receiving the action.\n\n**Key concept:** A transitive verb passes its action to a direct object.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is **complex** (one independent and at least one dependent clause)?",
+    "options": [
+      "The bridge closed, and traffic backed up for miles.",
+      "Because the bridge closed, traffic backed up for miles.",
+      "The bridge closed suddenly this morning.",
+      "The bridge closed; traffic backed up."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Because the bridge closed* is dependent and *traffic backed up for miles* is independent, which is the definition of a complex sentence.\n\n**Key concept:** Complex = one independent clause plus at least one dependent clause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *She spoke more clearly than anyone else on the panel*, the word *more clearly* is —",
+    "options": [
+      "a comparative adverb phrase modifying *spoke*",
+      "an adjective modifying *she*",
+      "a preposition",
+      "a noun"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Clearly* is an adverb describing how she spoke, and *more* makes it comparative. Adverbs modify verbs, not the subject.\n\n**Key concept:** Adverbs answer how, when, where or to what extent about a verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct form? *The team played ____ than it had all season.*",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "more better"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nComparing this season's play with earlier play is a comparison of two, which takes the comparative *better*. *Best* is superlative and *more better* doubles the comparison.\n\n**Key concept:** *Good → better → best*; never combine *more* with *better*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Identify the **direct object**: *The scientist recorded every observation carefully.*",
+    "options": [
+      "scientist",
+      "recorded",
+      "observation",
+      "carefully"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nRecorded what? Every observation. That noun receives the action, so it is the direct object. *Carefully* is an adverb.\n\n**Key concept:** Find the direct object by asking \"verb what?\" after the verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains an **interjection**?",
+    "options": [
+      "Well, the results were not what we expected.",
+      "The results were not what we expected.",
+      "Were the results what we expected?",
+      "Because the results surprised us, we repeated the test."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Well* here is an interjection — a word set off at the start that expresses attitude and is grammatically independent of the rest.\n\n**Key concept:** Interjections stand apart from the sentence's grammar.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **subjunctive** correctly?",
+    "options": [
+      "If I was the director, I would change the ending.",
+      "If I were the director, I would change the ending.",
+      "If I am the director, I would change the ending.",
+      "If I be the director, I would change the ending."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe clause describes a situation contrary to fact, which takes the subjunctive *were* regardless of the subject.\n\n**Key concept:** Hypothetical or contrary-to-fact clauses use *were*, not *was*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *The trail, which winds through the canyon, is closed*, the clause *which winds through the canyon* is —",
+    "options": [
+      "restrictive and needs no commas",
+      "nonrestrictive and correctly set off by commas",
+      "an independent clause",
+      "a prepositional phrase"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe clause adds information about a trail already identified. Removing it leaves *The trail is closed*, which still makes sense — the mark of a nonrestrictive clause.\n\n**Key concept:** If the sentence still identifies its subject without the clause, use commas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses *lay* and *lie* correctly?",
+    "options": [
+      "Yesterday she laid the map on the table and lay down to rest.",
+      "Yesterday she lay the map on the table and laid down to rest.",
+      "Yesterday she lied the map on the table.",
+      "Yesterday she laid down and lay the map on the table."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Lay* (to place something) is transitive; its past tense is *laid*, and it takes the object *map*. *Lie* (to recline) is intransitive; its past tense is *lay*, with no object.\n\n**Key concept:** *Lay* takes an object; *lie* does not — and *lay* is also the past tense of *lie*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q17",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the function of *to finish the project* in *Her goal was to finish the project*?",
+    "options": [
+      "An infinitive phrase acting as a noun",
+      "A prepositional phrase",
+      "A dependent clause",
+      "An adverb"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*To finish the project* names what her goal was, filling the noun slot after the linking verb *was*. Despite beginning with *to*, it is not a prepositional phrase — *to* is followed by a verb.\n\n**Key concept:** *To* + verb is an infinitive; *to* + noun is a preposition.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q18",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a **compound subject**?",
+    "options": [
+      "The dog barked and howled at the storm.",
+      "The dog and the cat hid beneath the porch.",
+      "The dog hid beneath the porch and the stairs.",
+      "Beneath the porch, the dog hid."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTwo nouns joined by *and* share one verb, forming a compound subject. Option A has a compound verb; option C has a compound object.\n\n**Key concept:** Compound subject = two or more subjects sharing a verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q19",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses *fewer* and *less* correctly?",
+    "options": [
+      "Fewer traffic meant less delays.",
+      "Fewer cars meant less delay.",
+      "Less cars meant fewer delay.",
+      "Less cars meant less delays."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Fewer* is for things that can be counted (cars); *less* is for quantities that cannot (delay, as an amount of time).\n\n**Key concept:** Countable → fewer; uncountable → less.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q20",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Identify the **antecedent** of *they* in: *The volunteers arrived early because they wanted to help.*",
+    "options": [
+      "early",
+      "volunteers",
+      "they",
+      "help"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe antecedent is the noun a pronoun replaces. *They* stands for *the volunteers*.\n\n**Key concept:** Every pronoun needs a clear antecedent.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q21",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses *affect* or *effect*?",
+    "options": [
+      "The medicine had a strong affect on her recovery.",
+      "The medicine had a strong effect on her recovery.",
+      "The medicine effected her strongly, causing a affect.",
+      "The affect of the medicine was strong."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Effect* is the noun (a result); *affect* is usually the verb (to influence). Here the word follows *a strong*, so a noun is required.\n\n**Key concept:** Affect = action (verb); effect = end result (noun).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q22",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written in the **passive voice**?",
+    "options": [
+      "The committee approved the proposal.",
+      "The proposal was approved by the committee.",
+      "The committee will approve the proposal.",
+      "Approve the proposal."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe subject *proposal* receives the action rather than performing it, and the actor appears in a *by* phrase — the signature of passive voice.\n\n**Key concept:** In passive voice the subject is acted upon.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_15-23_q23",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses *than* and *then* correctly?",
+    "options": [
+      "She practised longer then anyone, and than she rested.",
+      "She practised longer than anyone, and then she rested.",
+      "She practised longer then anyone, and then she rested.",
+      "She practised longer than anyone, and than she rested."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Than* makes comparisons; *then* refers to time or sequence.\n\n**Key concept:** Than compares; then sequences.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

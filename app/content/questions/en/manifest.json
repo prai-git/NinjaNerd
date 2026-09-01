@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T20:19:09.482Z",
+  "generatedAt": "2026-09-01T20:26:04.349Z",
   "grades": {
     "1": {
       "english": [
@@ -486,7 +486,7 @@
         {
           "subtopic": "grammar_language_mechanics",
           "slug": "grammar_language_mechanics",
-          "count": 4
+          "count": 27
         },
         {
           "subtopic": "literary_analysis_comprehension",
@@ -511,7 +511,7 @@
         {
           "subtopic": "writing_essentials",
           "slug": "writing_essentials",
-          "count": 4
+          "count": 27
         },
         {
           "subtopic": "written_conventions",
