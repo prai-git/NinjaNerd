@@ -42,8 +42,16 @@ export async function loadJson(path, fetchImpl = (typeof fetch !== 'undefined' ?
   }
 }
 
+/* The manifest is fetched with `cache: 'no-cache'`, which forces a conditional request: the
+   browser still sends its ETag and the server still answers 304 when nothing changed, so this
+   costs almost nothing. Without it the manifest is held for GitHub Pages' 10-minute
+   max-age, and for those ten minutes a freshly deployed subtopic still renders as empty --
+   which is exactly how it looked after the content was authored. The per-subtopic JSON files
+   stay normally cached; only this index needs to be current. */
 export async function loadManifest(fetchImpl) {
-  return loadJson(manifestPath(), fetchImpl);
+  const impl = fetchImpl
+    || (typeof fetch !== 'undefined' ? (p) => fetch(p, { cache: 'no-cache' }) : null);
+  return loadJson(manifestPath(), impl);
 }
 
 // Load one subtopic's items. Missing file -> [].

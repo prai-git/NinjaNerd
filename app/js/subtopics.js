@@ -5,9 +5,11 @@
    colour — 5 per subject for grades 1-5 (7 for math) and 10 for grade 6, exactly as the
    legacy route picked it. It is NOT derived from the authored content.
 
-   The manifest only supplies COUNTS, keyed by the same legacy subtopic ids. A subtopic with
-   no questions yet still renders, greyed out and not clickable, so the page matches the old
-   app and the authoring gaps stay visible rather than silently disappearing.
+   The manifest supplies counts keyed by the same legacy subtopic ids, but the count is NOT
+   shown: legacy rendered the icon, name and description only, and a "12 questions" badge is
+   noise to a child choosing what to practise. The count is used solely to decide whether a
+   subtopic has anything behind it. One with nothing still renders, greyed out and not
+   clickable, so a gap stays visible rather than silently disappearing.
 
    Public — browsing does not require login. */
 import { loadManifest } from './content-loader.js';
@@ -23,9 +25,7 @@ function cardHtml(s, count) {
         <i class="fas ${s.icon} fa-3x text-${empty ? 'muted' : s.color} mb-3"></i>
         <h5 class="card-title">${s.name}</h5>
         <p class="card-text">${s.description}</p>
-        ${empty
-          ? '<span class="badge bg-secondary">Questions coming soon</span>'
-          : `<span class="badge bg-${s.color}">${count} question${count === 1 ? '' : 's'}</span>`}
+        ${empty ? '<span class="badge bg-secondary">Questions coming soon</span>' : ''}
       </div>
     </div>`;
 }

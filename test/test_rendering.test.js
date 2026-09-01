@@ -77,3 +77,26 @@ test('the passage is styled apart from the question and cannot swamp it', () => 
   assert.match(css, /\.nn-passage\b/, 'passages need their own treatment');
   assert.match(css, /max-height/, 'a long passage must not push the options off screen');
 });
+
+test('subtopic cards show icon, name and description — not a question count', () => {
+  /* Legacy obs_templates/subtopics.html rendered exactly those three things. A "12 questions"
+     badge was my addition; it is noise to a child choosing what to practise, and the owner
+     asked why it was there. The count is still READ, to decide whether a subtopic has
+     anything behind it — it is just not displayed. */
+  const js = read('app/js/subtopics.js');
+  assert.doesNotMatch(js, /\$\{count\}\s*question/, 'no question-count badge on the card');
+  assert.match(js, /s\.icon/, 'the legacy icon');
+  assert.match(js, /s\.name/, 'the legacy name');
+  assert.match(js, /s\.description/, 'the legacy description');
+  // The count still gates the greyed-out state.
+  assert.match(js, /count === 0/, 'count still decides whether a subtopic is empty');
+});
+
+test('the manifest is revalidated rather than served from cache', () => {
+  /* GitHub Pages sends cache-control: max-age=600 on the manifest. Without revalidation a
+     freshly deployed subtopic keeps rendering as empty for ten minutes, which is exactly what
+     the owner saw after the content was authored. `cache: 'no-cache'` still sends the ETag,
+     so an unchanged manifest costs a 304. */
+  const js = read('app/js/content-loader.js');
+  assert.match(js, /cache:\s*'no-cache'/, 'the manifest fetch must revalidate');
+});
