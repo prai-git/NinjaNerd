@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g4_2026-09-01_01-10_q15",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A school orders 14 boxes of pencils with 24 pencils in each. 90 pencils are given to Year 4. How\nmany pencils are left?",
+    "options": [
+      "246",
+      "336",
+      "426",
+      "156"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.4H [R] | Topic: Multi-Step Problem**\n\n**Correct Answer:** A) 246\n\n**Explanation:**\n14 × 24 = 336 pencils, then 336 − 90 = 246.\n\n**Why the other answers are wrong:**\n- **B** 336 stops after the multiplication — answering the intermediate step.\n- **C** 426 adds the 90.\n- **D** 156 subtracts twice.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_01-10_q16",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Tickets cost $9 each. A group spends $135 in total. Which sentence finds how many tickets they\nbought?",
+    "options": [
+      "135 ÷ 9 = ?",
+      "135 × 9 = ?",
+      "135 + 9 = ?",
+      "135 − 9 = ?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.5A | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 135 ÷ 9 = ?\n\n**Explanation:**\nThe total cost divided by the price per ticket gives the number of tickets.\n\n**Why the other answers are wrong:**\n- **B** multiplying gives a much larger amount than was spent.\n- **C** and **D** adding or subtracting does not relate a total to a unit price.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_01-10_q17",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "187 students travel on buses that seat 40 each. How many buses are needed so that **everyone**\nhas a seat?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "47"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.4H | Topic: Interpreting a Remainder**\n\n**Correct Answer:** A) 5\n\n**Explanation:**\n187 ÷ 40 = 4 remainder 27. Four buses leave 27 students without a seat, so a fifth bus is\nneeded. The remainder means round **up** here.\n\n**Why the other answers are wrong:**\n- **B** 4 buses seat only 160 students.\n- **C** 6 buses is one more than necessary.\n- **D** 47 confuses the remainder with the answer.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_01-10_q18",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ava collected 128 cans. Ben collected 47 fewer than Ava. How many did they collect\n**altogether**?",
+    "options": [
+      "209",
+      "81",
+      "175",
+      "303"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.4H | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 209\n\n**Explanation:**\nBen collected 128 − 47 = 81. Together: 128 + 81 = 209.\n\n**Why the other answers are wrong:**\n- **B** 81 is Ben's amount only.\n- **C** 175 adds 128 and 47.\n- **D** 303 doubles 128 and adds 47.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_01-10_q19",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "After spending \\(46, Priya has \\)85 left. How much did she have to begin with?",
+    "options": [
+      "$131",
+      "$39",
+      "$85",
+      "$46"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.5A | Topic: Working Backwards**\n\n**Correct Answer:** A) $131\n\n**Explanation:**\nShe has \\(85 after spending \\)46, so she began with 85 + 46 = $131.\n\n**Why the other answers are wrong:**\n- **B** subtracts instead of adding.\n- **C** and **D** repeat numbers from the problem.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_01-10_q20",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A farm has 320 apple trees, 145 pear trees and 26 workers. How many **trees** are on the farm?",
+    "options": [
+      "465",
+      "491",
+      "175",
+      "346"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.4H | Topic: Ignoring Extra Information**\n\n**Correct Answer:** A) 465\n\n**Explanation:**\nOnly trees are asked for: 320 + 145 = 465. The 26 workers are deliberately irrelevant.\n\n**Why the other answers are wrong:**\n- **B** adds the workers.\n- **C** and **D** use the wrong pair of numbers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_01-10_q21",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A theatre has 24 rows of 18 seats. 312 tickets are sold. How many seats are **empty**?",
+    "options": [
+      "120",
+      "432",
+      "312",
+      "288"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 4.4H | Topic: Answering the Right Question**\n\n**Correct Answer:** A) 120\n\n**Explanation:**\n24 × 18 = 432 seats. 432 − 312 = 120 empty seats.\n\n**Why the other answers are wrong:**\n- **B** 432 is the total number of seats.\n- **C** 312 is the tickets sold.\n- **D** 288 subtracts the wrong numbers.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

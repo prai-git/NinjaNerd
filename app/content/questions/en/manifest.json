@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:27:35.468Z",
+  "generatedAt": "2026-09-01T04:29:23.955Z",
   "grades": {
     "1": {
       "english": [
@@ -290,14 +290,29 @@
           "count": 7
         },
         {
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 7
+        },
+        {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
           "count": 15
         },
         {
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
+          "count": 7
+        },
+        {
           "subtopic": "number_sense_basic_operations",
           "slug": "number_sense_basic_operations",
           "count": 6
+        },
+        {
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
+          "count": 7
         }
       ],
       "science": [
