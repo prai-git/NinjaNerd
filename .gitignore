@@ -34,18 +34,26 @@ data/*db*
 # Shell script
 run_app.sh
 
-# Static migration planning artifacts (never commit)
-doc/static-migration-plan.md
-doc/prompt/
-doc/changelog.md
-# Owner's do-once Firebase console checklist. It is a plan to execute a task, not
-# reference: the schema it describes is already committed in dbmgr/firestore.rules,
-# whose header carries the full collection -> legacy-table mapping and every field
-# name bar created_at/updated_at. Untracked via `git rm --cached`; it stays on disk.
-doc/firebase-setup.md
-
-# Authored Q&A source. The build (npm run build:content) converts these into
-# app/content/questions/en/**.json, which IS committed — we keep one copy of the
-# Q&A in the repo, not two. Note the JSON is a lossy derivative: items with no
-# A-D options (STAAR griddables, free-response) are not carried over.
-doc/questionnaire/
+# Static migration planning artifacts (never commit).
+#
+# The WHOLE directory, not a list of filenames. It used to be enumerated file by file
+# (static-migration-plan.md, prompt/, changelog.md, firebase-setup.md, questionnaire/),
+# which meant every NEW working doc was tracked by default -- and on 2026-09-01
+# doc/emailjs-setup.md was committed that way before being caught. CLAUDE.md already
+# states "doc/ -- entirely git-ignored; nothing under it is tracked", so this makes the
+# rule match the documented intent instead of relying on remembering to add a line.
+#
+# What lives here and why it is not tracked:
+#   - the plan, doc/prompt/*, doc/changelog.md -- plans for executing tasks, not
+#     reference material. Anything the repo needs long-term goes in a tracked file.
+#   - firebase-setup.md, emailjs-setup.md -- do-once owner console checklists. The
+#     schema one describes is already committed in dbmgr/firestore.rules, whose header
+#     carries the full collection -> legacy-table mapping.
+#   - questionnaire/ -- the authored Q&A source. The build converts it into
+#     app/content/questions/en/**.json, which IS committed: one copy of the Q&A in the
+#     repo, not two. The JSON is a lossy derivative -- items with no A-D options (STAAR
+#     griddables, free-response) are not carried over.
+#
+# BACK doc/ UP OUTSIDE THE REPO. It is not in version control and questionnaire/ is the
+# only place the authored sources and the ~74 non-MCQ items exist.
+doc/

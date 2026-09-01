@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <base href="../" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - NinjaNerd</title>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <div id="nn-header" data-nn-header></div>
+
+  <!-- Mirrors legacy obs_templates/contact_us.html: a col-md-8 card, bg-primary header
+       ("Contact Us" + Back), a Subject field and a 300-character Message textarea with a live
+       counter that turns orange past 200 and red past 250, and a Send button disabled until
+       the message has content. All of that is legacy's, kept verbatim.
+
+       NOTE: legacy's form is SUBJECT + MESSAGE, not name/email/message. The sender is not
+       asked for — it is the signed-in user, exactly as legacy took it from the session
+       (obs_app.py: "From: {username}"). The page therefore requires sign-in, as legacy did
+       (@require_login).
+
+       Forced divergences, flagged per the working rules:
+       - Sending goes through EmailJS instead of the server-side Gmail gateway (gw/emailgw).
+         There is no server. The Gmail credential lives inside EmailJS, never here.
+       - Legacy rate-limited this route to 5 per minute. There is no server to enforce that;
+         EmailJS's own per-key quota is what remains. See app/js/emailjs-config.js.
+       - A honeypot field is added (legacy had none) because a public key means the form is
+         reachable by bots in a way a session-gated Flask route was not. -->
+  <main class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow">
+          <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h3 class="mb-0"><i class="fas fa-envelope"></i> Contact Us</h3>
+            <a href="index.html" class="btn btn-light btn-sm">
+              <i class="fas fa-arrow-left"></i> Back
+            </a>
+          </div>
+
+          <div class="card-body">
+            <div id="nn-contact-gate" class="text-center text-muted py-5">
+              <div class="spinner-border" role="status"><span class="visually-hidden">Loading…</span></div>
+            </div>
+
+            <form id="nn-contact-form" novalidate style="display:none;">
+              <p class="text-muted small" id="nn-contact-from"></p>
+
+              <div class="mb-3">
+                <label for="nn-contact-subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="nn-contact-subject"
+                       maxlength="150" required />
+              </div>
+
+              <div class="mb-3">
+                <label for="nn-contact-content" class="form-label">Message</label>
+                <textarea class="form-control" id="nn-contact-content" rows="8"
+                          maxlength="300" required></textarea>
+                <div class="form-text">
+                  <span id="nn-contact-count">0</span>/300 characters
+                </div>
+              </div>
+
+              <!-- Honeypot: hidden from people, irresistible to naive bots. Not `type=hidden`,
+                   which bots skip; a real field moved out of sight and out of the tab order. -->
+              <div aria-hidden="true"
+                   style="position:absolute;left:-5000px;width:1px;height:1px;overflow:hidden;">
+                <label for="nn-contact-website">Leave this field empty</label>
+                <input type="text" id="nn-contact-website" name="website"
+                       tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary" id="nn-contact-send" disabled>
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="nn-footer" data-nn-footer></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/auth-state.js"></script>
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script type="module" src="js/auth.js"></script>
+  <script type="module" src="js/contact.js"></script>
+</body>
+</html>
