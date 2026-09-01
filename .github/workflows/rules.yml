@@ -1,0 +1,109 @@
+name: Firestore rules
+
+# The rules in dbmgr/firestore.rules ARE the security boundary for children's data — the
+# Firebase web config is public and grants nothing on its own. They were reviewed and
+# statically checked but had never been EXECUTED: the Firestore emulator does not work on the
+# owner's machine (REST hangs, gRPC resets, while GET / returns 200; two emulator jars, two
+# JDKs, the sandbox, demo- project ids and proxy config were all ruled out). So the emulator
+# runs here instead, on a clean Ubuntu runner.
+#
+# This workflow does NOT deploy anything. Rules are deployed in prompt 14.
+
+on:
+  push:
+    branches: [ninjanerd-static]
+    paths:
+      - 'dbmgr/firestore.rules'
+      - 'dbmgr/firestore.indexes.json'
+      - 'firebase.json'
+      - 'test/test_firestore_rules.test.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/rules.yml'
+  pull_request:
+    paths:
+      - 'dbmgr/firestore.rules'
+      - 'test/test_firestore_rules.test.js'
+  workflow_dispatch:
+
+# Read-only. This job needs nothing but the source; it must never be able to write to the
+# repo or deploy.
+permissions:
+  contents: read
+
+jobs:
+  rules:
+    name: Security rules (Firestore emulator)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # The Firestore emulator is a Java program. ubuntu-latest ships a JDK, but pinning it
+      # keeps the run reproducible instead of moving with the runner image.
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      # The emulator jars are downloaded on first use and are large; caching them keeps the
+      # job to seconds on repeat runs.
+      - name: Cache emulator binaries
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/firebase/emulators
+          key: firebase-emulators-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: firebase-emulators-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Runs the emulator ONCE and checks the result two ways.
+      #
+      # NN_REQUIRE_EMULATOR=1 makes the test file exit non-zero rather than skip. Without it,
+      # an emulator that fails to start leaves every rule test skipped and the job green —
+      # reporting the security boundary as verified when nothing ran. That is the one outcome
+      # this workflow must never produce.
+      #
+      # Then the TAP counts are checked directly, in case a future change lets the runner exit
+      # 0 for a reason the env guard does not cover. The `tap` reporter is required: the
+      # default reporter prints "ℹ pass N", not "# pass N".
+      - name: Run rules tests against the emulator
+        env:
+          NN_REQUIRE_EMULATOR: '1'
+        run: |
+          set -euo pipefail
+          npx firebase emulators:exec \
+            --only auth,firestore \
+            --project ninjanerd-emulator \
+            "node --test --test-reporter=tap test/test_firestore_rules.test.js" \
+            | tee /tmp/rules.log
+
+          passed=$(grep -E '^# pass '    /tmp/rules.log | tail -1 | awk '{print $3}' || echo 0)
+          failed=$(grep -E '^# fail '    /tmp/rules.log | tail -1 | awk '{print $3}' || echo 0)
+          skipped=$(grep -E '^# skipped ' /tmp/rules.log | tail -1 | awk '{print $3}' || echo 0)
+          echo "pass=${passed:-0} fail=${failed:-0} skipped=${skipped:-0}"
+
+          if [ "${failed:-0}" -ne 0 ]; then
+            echo "::error::${failed} rule test(s) failed."
+            exit 1
+          fi
+          if [ "${skipped:-0}" -ne 0 ]; then
+            echo "::error::${skipped} rule test(s) skipped — the rules are NOT verified."
+            exit 1
+          fi
+          # The suite has 14 cases; anything far below that means it did not really run.
+          if [ "${passed:-0}" -lt 10 ]; then
+            echo "::error::Expected at least 10 rule tests to pass, got ${passed:-0}."
+            exit 1
+          fi
+          echo "Security rules verified: ${passed} tests passed against the emulator."

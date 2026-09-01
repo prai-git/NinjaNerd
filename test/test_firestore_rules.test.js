@@ -51,6 +51,15 @@ const skip = !rulesTesting
     ? `Firestore emulator not reachable on ${FIRESTORE_HOST}:${FIRESTORE_PORT} — run: npm run emulator`
     : false;
 
+/* Skipping keeps `npm test` green on a machine without Java, which is right for local work but
+   catastrophic in CI: if the emulator fails to start, every rule test skips, the runner exits
+   0, and a green tick reports that the security boundary is verified when nothing ran at all.
+   The rules CI workflow sets NN_REQUIRE_EMULATOR=1 so that a skip becomes a hard failure. */
+if (process.env.NN_REQUIRE_EMULATOR === '1' && skip) {
+  console.error(`\n[rules] NN_REQUIRE_EMULATOR=1 but the suite would skip: ${skip}\n`);
+  process.exit(1);
+}
+
 describe('firestore security rules', { skip }, () => {
   let env;
   let firestore;
