@@ -83,8 +83,19 @@ if (appCheckEnabled) {
       console.warn('[NinjaNerd] App Check unavailable:', e && e.message);
     });
 } else if (!useEmulator) {
-  console.warn(
-    '[NinjaNerd] App Check is OFF (no APP_CHECK_SITE_KEY). The Firebase config is public, so ' +
-      'scripted clients can reach Auth and Firestore. See doc/prompt/18_abuse_hardening_prompt.md.',
+  /* OFF BY OWNER DECISION (2026-09-01), not by oversight. reCAPTCHA v3 was deprecated in App
+     Check, and its replacement, reCAPTCHA Enterprise, requires a Google Cloud BILLING ACCOUNT
+     attached even to use its free tier. Attaching one would move the project off the Spark
+     plan, and Spark's free quota is a HARD cap: Firestore stops serving rather than billing,
+     so the project cannot run up a charge at all. That hard ceiling was judged worth more than
+     App Check for launch -- see doc/prompt/18_abuse_hardening_prompt.md.
+
+     What carries the load instead: the deployed Security Rules (shape validation, size caps,
+     server-pinned timestamps, the one-second write floor) bound what any authenticated client
+     can do, and the plan itself bounds the total. Revisit if the site ever moves to Blaze --
+     at that point the hard cap is gone and this becomes the missing control. */
+  console.info(
+    '[NinjaNerd] App Check is off by design; Security Rules + the Spark plan quota are the ' +
+      'controls. See doc/prompt/18_abuse_hardening_prompt.md.',
   );
 }

@@ -165,8 +165,28 @@ test('App Check is wired, off by default, and never fatal', () => {
   const block = init.slice(init.indexOf('if (appCheckEnabled)'));
   assert.match(block, /\.catch\(/, 'App Check failure must not be fatal');
 
-  // And the absence of a key must be loud, or it silently never gets turned on.
-  assert.match(init, /App Check is OFF/);
+  /* The absence of a key must be VISIBLE, so it can never become a silent oversight. It is
+     currently off by owner decision (2026-09-01): reCAPTCHA v3 is deprecated in App Check and
+     reCAPTCHA Enterprise needs a Cloud billing account even for its free tier, which would move
+     the project off Spark -- and Spark's quota is a HARD cap, so the project cannot be billed
+     at all. That ceiling was judged worth more than App Check for launch. */
+  assert.match(init, /App Check is off by design/);
+  assert.match(init, /OFF BY OWNER DECISION/,
+    'the reason must stay in the file, or the next reader reads it as a missing step');
+  assert.match(init, /Spark/,
+    'the compensating control (the hard plan cap) must be named beside the decision');
+});
+
+test('the path back to App Check is written down, including the provider change', () => {
+  /* If the project ever moves to Blaze the hard cap disappears and App Check becomes the
+     missing control. Whoever does that must not have to rediscover that ReCaptchaV3Provider is
+     the deprecated one. */
+  const cfg = read('app/js/firebase-config.js');
+  assert.match(cfg, /ReCaptchaEnterpriseProvider/,
+    'the re-enable note must name the provider that replaces the deprecated one');
+  assert.match(cfg, /secret key stays in the console/i,
+    'the site-key/secret-key split must be spelled out — the secret must never enter the repo');
+  assert.match(cfg, /Blaze/);
 });
 
 test('App Check is skipped against the emulator', () => {

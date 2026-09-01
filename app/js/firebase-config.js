@@ -31,11 +31,18 @@ export const firebaseConfig = {
    the real site on its real domain, and Firestore/Auth reject requests without one once
    enforcement is switched on.
 
-   EMPTY = DISABLED, and firebase-init.js says so loudly in the console rather than failing
-   silently. To turn it on see doc/prompt/18_abuse_hardening_prompt.md: register the site in
-   Firebase console -> App Check with the reCAPTCHA v3 provider, paste the site key here, then
-   enforce. Turn enforcement on only AFTER the key is deployed and the console's request
-   metrics show verified traffic -- enforcing first locks every real user out. */
+   EMPTY = DISABLED. Left empty by owner decision on 2026-09-01, NOT by oversight: reCAPTCHA v3
+   is deprecated in App Check, and reCAPTCHA Enterprise requires a Google Cloud billing account
+   even for its free tier. Attaching one would move the project off Spark, whose quota is a HARD
+   cap -- Firestore stops serving rather than billing. That ceiling was judged worth more than
+   App Check for launch. Full reasoning in doc/prompt/18_abuse_hardening_prompt.md.
+
+   TO ENABLE LATER (do this if the project ever moves to Blaze, because the hard cap goes with
+   it): register the app in Firebase console -> App Check, create a reCAPTCHA Enterprise key,
+   paste the SITE key here (the secret key stays in the console and never enters this repo), and
+   switch firebase-init.js from ReCaptchaV3Provider to ReCaptchaEnterpriseProvider. Turn
+   ENFORCEMENT on only after the console shows verified traffic -- enforcing first locks every
+   real user out, including the owner. */
 export const APP_CHECK_SITE_KEY = '';
 
 // The emulator suite works with any non-empty projectId, so tests and local runs can swap
