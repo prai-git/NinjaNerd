@@ -97,7 +97,19 @@ function runQuiz(root, deck, meta) {
     const correct = choice === item.correctIndex;
     if (correct) score++;
 
-    emitAttempt({ questionId: item.id, correct, subtopic: meta.subtopic, grade: meta.grade });
+    /* The legacy record (obs_app.py) stored the question TEXT and the chosen option TEXT, not
+       ids, plus `topic` — the subject. Statistics groups by topic, and Audit renders the
+       question and the child's answer without loading the content JSON. Passing only an id
+       would make both impossible and would break old records if a question is reworded. */
+    emitAttempt({
+      questionId: item.id,
+      question: item.question,
+      userAnswer: item.options[choice],
+      correct,
+      topic: meta.subject,
+      subtopic: meta.subtopic,
+      grade: meta.grade,
+    });
     showResult({ item, choice, correct });
   }
 

@@ -62,14 +62,18 @@ export function renderInline(s) {
     .replace(/\n/g, '<br>');
 }
 
-// Emit an attempt result. Real Firestore write arrives in prompt 08; for now
-// mirror to localStorage + a DOM event so other code can subscribe.
+/* Emit an attempt result: persist it, and broadcast it for anything listening.
+
+   The old localStorage mirror is gone. It existed only as a stand-in until Firestore arrived,
+   and keeping it would leave a second, unauthenticated copy of every child's answers sitting
+   in the browser with nothing reading it. */
 export function emitAttempt(result) {
-  try {
-    const KEY = 'nn_attempts';
-    const log = JSON.parse(localStorage.getItem(KEY) || '[]');
-    log.push({ ...result, at: Date.now() });
-    localStorage.setItem(KEY, JSON.stringify(log));
-  } catch (e) { /* storage may be unavailable; ignore */ }
+  /* Persist to Firestore (prompt 08). data.js is imported lazily so the practice page still
+     works if Firebase is unreachable — a child mid-quiz must never be blocked by a failed
+     write, and recordAttempt already swallows its own errors. */
+  import('./data.js')
+    .then((m) => m.recordAttempt(result))
+    .catch((e) => console.warn('[NinjaNerd] persistence unavailable:', e && e.message));
+
   document.dispatchEvent(new CustomEvent('nn-attempt', { detail: result }));
 }

@@ -103,6 +103,12 @@ export async function signup({ email, password, schoolName }) {
 
 export async function login({ email, password }) {
   const cred = await signInWithEmailAndPassword(auth, email, password);
+  /* Legacy stamped last_login on the user_statistics row at sign-in, and the Audit page reads
+     it. Imported lazily and never awaited: a failed stamp must not turn a successful login
+     into an error the user sees. */
+  import('./data.js')
+    .then((m) => m.touchLastLogin())
+    .catch(() => { /* persistence unavailable; login still succeeded */ });
   return cred.user;
 }
 
