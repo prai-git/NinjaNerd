@@ -1,0 +1,102 @@
+[
+  {
+    "id": "english_g6_2026-09-01_02-20_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence works best as a **claim** for an argumentative essay?\n\n  what limits student reading.",
+    "options": [
+      "School libraries should stay open after the final bell because access, not interest, is",
+      "School libraries contain many books on many subjects.",
+      "I really like going to the school library on Fridays.",
+      "Some school libraries are open late and some are not."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.11C | Topic: Argumentative Claim**\n\n**Correct Answer:** A) School libraries should stay open after the final bell because access,\nnot interest, is what limits student reading.\n\n**Explanation:**\nA claim takes a debatable position **and** signals the reasoning. This one does both.\n\n**Why the other answers are wrong:**\n- **B** and **D** state facts nobody disputes.\n- **C** is a personal preference, not an arguable position.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An essay argues for later school start times. Which sentence best addresses a\n**counterargument**?\n\n  solved this by staggering routes.",
+    "options": [
+      "Critics note that a later start complicates bus scheduling, though districts have",
+      "Everyone knows that sleep is important for teenagers.",
+      "Later start times are obviously the right choice.",
+      "Some people disagree with later start times."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.11C | Topic: Counterargument**\n\n**Correct Answer:** A) Critics note that a later start complicates bus scheduling, though\ndistricts have solved this by staggering routes.\n\n**Explanation:**\nA real counterargument names the opposing point fairly and then answers it.\n\n**Why the other answers are wrong:**\n- **B** and **C** assert rather than engage.\n- **D** acknowledges disagreement without naming or answering it.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In an expository essay explaining how vaccines work, which belongs in the **introduction**?\n\n  reader",
+    "options": [
+      "A clear statement of what the essay will explain, with enough context to orient the",
+      "The most technical detail, placed first for impact",
+      "A summary of every point, making the body unnecessary",
+      "A personal story unrelated to the topic"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.11B | Topic: Expository Introduction**\n\n**Correct Answer:** A) A clear statement of what the essay will explain, with enough context to\norient the reader\n\n**Explanation:**\nAn introduction establishes topic, purpose and enough background for the body to make sense.\n\n**Why the other answers are wrong:**\n- **B** technical detail without context loses the reader.\n- **C** summarising everything leaves the body redundant.\n- **D** an unrelated story does not orient anyone.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is researching climate data. Which source is **most** credible?",
+    "options": [
+      "A dataset published by a national meteorological agency",
+      "An anonymous blog post with no citations",
+      "A social media thread summarising a study it does not name",
+      "An advertisement for a weather app"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12E | Topic: Evaluating Sources**\n\n**Correct Answer:** A) A dataset published by a national meteorological agency\n\n**Explanation:**\nIt is authoritative, attributable and methodologically transparent.\n\n**Why the other answers are wrong:**\n- **B** anonymous and uncited.\n- **C** summarises a study it will not name, so nothing can be checked.\n- **D** advertising exists to sell, not to inform.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A source reads: *\"Coral bleaching occurs when stressed coral expels the algae living in its\ntissue.\"* Which is an acceptable **paraphrase**?\n\n  bleaching (Reef Institute, 2025).",
+    "options": [
+      "When coral is under stress, it forces out the algae in its tissue, which is what causes",
+      "Coral bleaching occurs when stressed coral expels the algae living in its tissue.",
+      "Coral bleaching happens when stressed coral expels the algae living in its tissues.",
+      "Bleaching is when coral expels algae."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12H | Topic: Paraphrase vs Plagiarism**\n\n**Correct Answer:** A) When coral is under stress, it forces out the algae in its tissue, which\nis what causes bleaching (Reef Institute, 2025).\n\n**Explanation:**\nA true paraphrase restates the idea in genuinely different wording **and** credits the source.\n\n**Why the other answers are wrong:**\n- **B** copies the original word for word.\n- **C** changes one word — patchwriting, still plagiarism.\n- **D** drops essential meaning and cites nothing.\n\n---\n\n## Sentence Craft & Structure",
+    "source": "authored",
+    "needsReview": false
+  }
+]

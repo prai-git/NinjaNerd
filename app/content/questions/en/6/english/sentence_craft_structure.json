@@ -1,0 +1,102 @@
+[
+  {
+    "id": "english_g6_2026-09-01_02-20_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "Walking home in the rain, Priya noticed the broken gate.",
+      "Walking home in the rain, the broken gate was noticed by Priya.",
+      "The broken gate, walking home in the rain, was noticed by Priya.",
+      "Priya noticed the broken gate walking home in the rain by her."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Misplaced Modifiers**\n\n**Correct Answer:** A) Walking home in the rain, Priya noticed the broken gate.\n\n**Explanation:**\nThe opening phrase must describe the subject that follows it. Priya was walking, so Priya must\ncome first.\n\n**Why the other answers are wrong:**\n- **B** and **C** make it sound as though the gate was walking home.\n- **D** is garbled and leaves the modifier stranded.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q17",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best combines these two without changing the meaning?\n\n> The bridge was closed for repairs. Traffic was diverted through the village.",
+    "options": [
+      "Because the bridge was closed for repairs, traffic was diverted through the village.",
+      "The bridge was closed for repairs, traffic was diverted through the village.",
+      "The bridge was closed for repairs although traffic was diverted through the village.",
+      "The bridge was closed for repairs traffic was diverted through the village."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Subordination**\n\n**Correct Answer:** A) Because the bridge was closed for repairs, traffic was diverted through\nthe village.\n\n**Explanation:**\nThe closure caused the diversion, so a causal subordinator states the relationship correctly.\n\n**Why the other answers are wrong:**\n- **B** is a comma splice and **D** is a run-on.\n- **C** *although* reverses the logic into a contrast.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q18",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of words is a **complete sentence**?",
+    "options": [
+      "The archive accepted her notebooks last spring.",
+      "Which the archive accepted last spring.",
+      "Accepting her notebooks last spring.",
+      "After the archive accepted her notebooks last spring."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Fragments**\n\n**Correct Answer:** A) The archive accepted her notebooks last spring.\n\n**Explanation:**\nIt has a subject and a verb and expresses a complete thought.\n\n**Why the other answers are wrong:**\n- **B** and **D** are subordinate clauses left hanging.\n- **C** is a phrase with no subject.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q19",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "The course covers drafting, revising and editing.",
+      "The course covers drafting, to revise and editing.",
+      "The course covers to draft, revising and edits.",
+      "The course covers drafting, revision and to edit."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Parallel Structure**\n\n**Correct Answer:** A) The course covers drafting, revising and editing.\n\n**Explanation:**\nAll three items share the *-ing* form, so the list is parallel.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each mix *-ing* forms with infinitives or nouns.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q20",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **active** voice?",
+    "options": [
+      "The committee approved the proposal on Thursday.",
+      "The proposal was approved by the committee on Thursday.",
+      "The proposal was approved on Thursday.",
+      "Approval of the proposal was given on Thursday."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Active Voice**\n\n**Correct Answer:** A) The committee approved the proposal on Thursday.\n\n**Explanation:**\nIn the active voice the subject performs the action: the committee approved.\n\n**Why the other answers are wrong:**\n- **B** is passive with the actor named.\n- **C** and **D** are passive and drop the actor entirely.\n\n---\n\n## Grammar & Language Mechanics",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:32:28.144Z",
+  "generatedAt": "2026-09-01T04:37:43.337Z",
   "grades": {
     "1": {
       "english": [
@@ -474,14 +474,49 @@
           "count": 6
         },
         {
+          "subtopic": "advanced_punctuation_style",
+          "slug": "advanced_punctuation_style",
+          "count": 2
+        },
+        {
+          "subtopic": "advanced_writing_styles",
+          "slug": "advanced_writing_styles",
+          "count": 5
+        },
+        {
+          "subtopic": "grammar_language_mechanics",
+          "slug": "grammar_language_mechanics",
+          "count": 4
+        },
+        {
           "subtopic": "literary_analysis_comprehension",
           "slug": "literary_analysis_comprehension",
           "count": 42
         },
         {
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 6
+        },
+        {
+          "subtopic": "sentence_craft_structure",
+          "slug": "sentence_craft_structure",
+          "count": 5
+        },
+        {
           "subtopic": "vocabulary_building",
           "slug": "vocabulary_building",
           "count": 12
+        },
+        {
+          "subtopic": "writing_essentials",
+          "slug": "writing_essentials",
+          "count": 4
+        },
+        {
+          "subtopic": "written_conventions",
+          "slug": "written_conventions",
+          "count": 2
         }
       ],
       "math": [
@@ -504,6 +539,36 @@
           "subtopic": "data_analysis_functions",
           "slug": "data_analysis_functions",
           "count": 16
+        },
+        {
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 4
+        },
+        {
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
+          "count": 4
+        },
+        {
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
+          "count": 3
+        },
+        {
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
+          "count": 4
+        },
+        {
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
+          "count": 3
+        },
+        {
+          "subtopic": "proportional_reasoning_percentages",
+          "slug": "proportional_reasoning_percentages",
+          "count": 6
         }
       ],
       "science": [

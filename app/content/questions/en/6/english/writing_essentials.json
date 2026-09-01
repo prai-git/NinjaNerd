@@ -1,0 +1,82 @@
+[
+  {
+    "id": "english_g6_2026-09-01_02-20_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> ______ It reduces the traffic on narrow roads at peak times. It cuts the fuel each family\n> burns. It also gives neighbours a reason to speak to one another.\n\nWhich sentence best begins the paragraph?",
+    "options": [
+      "A neighbourhood car-share scheme brings several benefits at once.",
+      "Cars have become far more reliable in the last decade.",
+      "Our street was resurfaced two summers ago.",
+      "Fuel prices rise and fall unpredictably."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10C | Topic: Topic Sentence**\n\n**Correct Answer:** A) A neighbourhood car-share scheme brings several benefits at once.\n\n**Explanation:**\nEach following sentence names one benefit, so the opening must announce that several exist.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** mention cars, roads or fuel but none is developed by the details.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> (1) Antarctic ice cores preserve air bubbles from the distant past. (2) Scientists date the\n> layers by counting them, much like tree rings. (3) The bubbles reveal the composition of\n> ancient atmospheres. (4) Penguins are excellent swimmers.\n\nWhich sentence should be removed?",
+    "options": [
+      "Sentence 4",
+      "Sentence 1",
+      "Sentence 2",
+      "Sentence 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10C | Topic: Relevance**\n\n**Correct Answer:** A) Sentence 4\n\n**Explanation:**\nThe paragraph explains what ice cores reveal. Penguins swimming is unrelated.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each develop the ice-core topic.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which transition best fills the blank?\n\n> The experiment produced no measurable effect. ______, the team published the result so others\n> would not repeat the same attempt.",
+    "options": [
+      "Nevertheless",
+      "Consequently",
+      "For instance",
+      "In the same way"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10C | Topic: Transitions**\n\n**Correct Answer:** A) Nevertheless\n\n**Explanation:**\nPublishing despite finding nothing is a contrast with what the reader expects, so a concessive\ntransition fits.\n\n**Why the other answers are wrong:**\n- **B** *Consequently* signals a result, but no effect was found.\n- **C** *For instance* introduces an example.\n- **D** *In the same way* signals similarity.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student argues that school should start later. Which sentence provides the **strongest**\nevidence?\n\n  lateness.",
+    "options": [
+      "A district that shifted its start time by an hour recorded a 12% fall in student",
+      "Most of my friends agree that mornings are difficult.",
+      "I am always tired during first period.",
+      "Teenagers have always disliked getting up early."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10C | Topic: Strength of Evidence**\n\n**Correct Answer:** A) A district that shifted its start time by an hour recorded a 12% fall in\nstudent lateness.\n\n**Explanation:**\nThis is specific, measurable and drawn from a real comparison. The rest are personal opinion or\nanecdote.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** rest on how individuals feel, which cannot establish an effect.\n\n---\n\n## Advanced Writing Styles",
+    "source": "authored",
+    "needsReview": false
+  }
+]

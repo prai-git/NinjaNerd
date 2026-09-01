@@ -164,12 +164,10 @@ test('the two owner-approved math additions are sourced, not invented', () => {
 
 /* RELEASE GATE — see doc/prompt/16_author_missing_content_prompt.md.
 
-   Marked `todo` deliberately: 44 subtopics have no questions yet, so this fails today. A
-   permanently red suite stops meaning anything, and `todo` keeps the gap reported on every
-   run without drowning the real signal. Remove `{ todo: true }` once the authoring is done —
-   from then on an empty subtopic is a build failure, and the site cannot ship with a dead
-   card in front of a child. */
-test('no subtopic is empty at any grade', { todo: 'authoring in progress — prompt 16' }, () => {
+   This was `todo` while 44 subtopics stood empty; a permanently red suite stops meaning
+   anything. All 115 now have questions, so the flag is off and an empty subtopic is a build
+   failure from here on. The site must never ship a dead card in front of a child. */
+test('no subtopic is empty at any grade', () => {
   const man = JSON.parse(
     readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
   const empty = [];

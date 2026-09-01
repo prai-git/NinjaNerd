@@ -1,0 +1,82 @@
+[
+  {
+    "id": "math_g6_2026-09-01_02-00_q15",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has a base of 14 cm and a height of 9 cm. What is its area?",
+    "options": [
+      "\\(63\\) cm²",
+      "\\(126\\) cm²",
+      "\\(23\\) cm²",
+      "\\(46\\) cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8D | Topic: Area of a Triangle**\n\n**Correct Answer:** A) \\(63\\) cm²\n\n**Explanation:**\n\\(A = \\frac{1}{2}bh = \\frac{1}{2} \\times 14 \\times 9 = 63\\) cm².\n\n**Why the other answers are wrong:**\n- **B** forgets the \\(\\frac{1}{2}\\) — the most common triangle-area error.\n- **C** adds the base and height.\n- **D** doubles that sum.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_02-00_q16",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A trapezoid has parallel sides of 8 cm and 12 cm and a height of 6 cm. What is its area?",
+    "options": [
+      "\\(60\\) cm²",
+      "\\(120\\) cm²",
+      "\\(26\\) cm²",
+      "\\(576\\) cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8D | Topic: Area of a Trapezoid**\n\n**Correct Answer:** A) \\(60\\) cm²\n\n**Explanation:**\n\\(A = \\frac{1}{2}(b_1 + b_2)h = \\frac{1}{2}(8 + 12) \\times 6 = \\frac{1}{2} \\times 20 \\times 6 =\n60\\) cm².\n\n**Why the other answers are wrong:**\n- **B** omits the \\(\\frac{1}{2}\\).\n- **C** adds all three measurements.\n- **D** multiplies all three together.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_02-00_q17",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box measures 12 cm by 5 cm by 4 cm. What is its volume?",
+    "options": [
+      "\\(240\\) cm³",
+      "\\(21\\) cm³",
+      "\\(120\\) cm³",
+      "\\(376\\) cm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.8B | Topic: Volume of a Prism**\n\n**Correct Answer:** A) \\(240\\) cm³\n\n**Explanation:**\n\\(V = l \\times w \\times h = 12 \\times 5 \\times 4 = 240\\) cm³.\n\n**Why the other answers are wrong:**\n- **B** adds the three dimensions.\n- **C** multiplies only two of them.\n- **D** is the surface area, not the volume.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_02-00_q18",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Point P is at \\((-3, 4)\\). It is reflected across the y-axis. What are the new coordinates?",
+    "options": [
+      "\\((3, 4)\\)",
+      "\\((-3, -4)\\)",
+      "\\((4, -3)\\)",
+      "\\((3, -4)\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.11A | Topic: Reflection Across the y-axis**\n\n**Correct Answer:** A) \\((3, 4)\\)\n\n**Explanation:**\nReflecting across the **y-axis** changes the sign of the x-coordinate and leaves y unchanged:\n\\((-3, 4) \\rightarrow (3, 4)\\).\n\n**Why the other answers are wrong:**\n- **B** reflects across the x-axis instead.\n- **C** swaps the coordinates.\n- **D** reflects across both axes.\n\n---\n\n## Measurement & Data",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "english_g6_2026-09-01_02-20_q25",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is punctuated correctly?",
+    "options": [
+      "Rosa, who manages a hardware shop, walks the shore at every low tide.",
+      "Rosa who manages a hardware shop, walks the shore at every low tide.",
+      "Rosa, who manages a hardware shop walks the shore at every low tide.",
+      "Rosa who manages a hardware shop walks the shore, at every low tide."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Nonessential Clauses**\n\n**Correct Answer:** A) Rosa, who manages a hardware shop, walks the shore at every low tide.\n\n**Explanation:**\nA nonessential clause is enclosed by a **pair** of commas. Removing it leaves a complete\nsentence.\n\n**Why the other answers are wrong:**\n- **B** and **C** use only one of the two commas.\n- **D** omits both and adds a comma that separates the verb from its phrase.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q26",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses apostrophes correctly?",
+    "options": [
+      "The students' notebooks were stored in the archive's basement.",
+      "The students notebooks were stored in the archives basement.",
+      "The student's notebook's were stored in the archives' basement.",
+      "The students's notebooks were stored in the archive's basement."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Apostrophes**\n\n**Correct Answer:** A) The students' notebooks were stored in the archive's basement.\n\n**Explanation:**\n*Students'* is a plural possessive, so the apostrophe follows the *s*. *Archive's* is a singular\npossessive.\n\n**Why the other answers are wrong:**\n- **B** omits both apostrophes.\n- **C** adds one to a plain plural (*notebook's*).\n- **D** *students's* is not a standard form.\n\n---\n\n## Advanced Punctuation & Style",
+    "source": "authored",
+    "needsReview": false
+  }
+]

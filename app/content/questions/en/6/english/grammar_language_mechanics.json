@@ -1,0 +1,82 @@
+[
+  {
+    "id": "english_g6_2026-09-01_02-20_q21",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "The collection of notebooks was moved to the archive.",
+      "The collection of notebooks were moved to the archive.",
+      "The collection of notebook were moved to the archive.",
+      "The collection of notebooks are moved to the archive."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Subject-Verb Agreement**\n\n**Correct Answer:** A) The collection of notebooks was moved to the archive.\n\n**Explanation:**\nThe subject is *collection*, which is singular. *Of notebooks* is a prepositional phrase and\ndoes not change the subject — the classic trap.\n\n**Why the other answers are wrong:**\n- **B** and **D** match the verb to *notebooks*.\n- **C** also makes *notebook* singular and still disagrees.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q22",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "The award was shared between her and me.",
+      "The award was shared between she and I.",
+      "The award was shared between her and I.",
+      "The award was shared between she and me."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Pronoun Case**\n\n**Correct Answer:** A) The award was shared between her and me.\n\n**Explanation:**\n*Between* is a preposition, so both pronouns take the object form. Test each alone: \"shared\nbetween **me**\" is right, \"between **I**\" is not.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each use at least one subject pronoun after a preposition.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q23",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a **clear** pronoun reference?",
+    "options": [
+      "When Nadia met Priya, Nadia had already read the report.",
+      "When Nadia met Priya, she had already read the report.",
+      "Nadia told Priya that she had missed the deadline.",
+      "After the meeting with Priya, she filed it."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Pronoun Reference**\n\n**Correct Answer:** A) When Nadia met Priya, Nadia had already read the report.\n\n**Explanation:**\nRepeating the name removes the ambiguity. In the others, the pronoun could refer to either\nwoman.\n\n**Why the other answers are wrong:**\n- **B** and **C** leave *she* ambiguous.\n- **D** leaves both *she* and *it* unclear.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q24",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence keeps a consistent tense?",
+    "options": [
+      "She reviewed the data and concluded that the trend was real.",
+      "She reviewed the data and concludes that the trend was real.",
+      "She reviews the data and concluded that the trend is real.",
+      "She will review the data and concluded that the trend was real."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Tense Consistency**\n\n**Correct Answer:** A) She reviewed the data and concluded that the trend was real.\n\n**Explanation:**\nAll verbs sit in the past tense, so the sentence stays in one time frame.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** each mix two tenses.\n\n---\n\n## Written Conventions",
+    "source": "authored",
+    "needsReview": false
+  }
+]

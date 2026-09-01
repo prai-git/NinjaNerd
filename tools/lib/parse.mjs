@@ -176,7 +176,13 @@ export function parseQuestions(md) {
       passage = prose;
       passageTitle = pendingHeading;
       passageLevel = pendingLevel;
-      passagesByKey.set(passageKey(pendingHeading), { text: prose, title: pendingHeading });
+      const entry = { text: prose, title: pendingHeading };
+      passagesByKey.set(passageKey(pendingHeading), entry);
+      /* Also index the FULL title. A group heading may name the passage descriptively rather
+         than by number — "## Questions 28-34 - Argument" points at
+         "## Passage 5 - Argumentative Text: A Saturday Tool Share". Without a title index that
+         question is orphaned. */
+      passagesByKey.set(clean(pendingHeading).toLowerCase(), entry);
     } else if (passage !== null && pendingLevel <= passageLevel) {
       passage = null;
       passageTitle = null;
@@ -250,7 +256,17 @@ export function parseQuestions(md) {
            captures the trailing digit ("8"), which then looks like a section name and wiped
            the passage for 11 grade-3 items. A purely numeric tail is not a reference. */
         if (ref && /^[\d\s,.\u2013\u2014-]+$/.test(ref[1])) ref = null;
-        const hit = ref && passagesByKey.get(passageKey(ref[1]));
+        let hit = ref && passagesByKey.get(passageKey(ref[1]));
+        if (!hit && ref) {
+          /* Descriptive reference: match it against the indexed titles. Require the reference
+             to be a reasonably specific word so "Passage" alone cannot match everything. */
+          const needle = clean(ref[1]).toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
+          if (needle.length >= 4) {
+            for (const [k, v] of passagesByKey) {
+              if (k.includes(needle) || needle.includes(k.replace(/^passage /, ''))) { hit = v; break; }
+            }
+          }
+        }
         if (hit) {
           passage = hit.text;
           passageTitle = hit.title;

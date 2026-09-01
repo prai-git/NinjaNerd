@@ -1,0 +1,62 @@
+[
+  {
+    "id": "math_g6_2026-09-01_02-00_q19",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student scores 82, 91, 78, 95 and 84 on five tests. What is the mean?",
+    "options": [
+      "\\(86\\)",
+      "\\(84\\)",
+      "\\(88\\)",
+      "\\(430\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12C | Topic: Mean**\n\n**Correct Answer:** A) \\(86\\)\n\n**Explanation:**\nSum: \\(82 + 91 + 78 + 95 + 84 = 430\\). Mean: \\(430 \\div 5 = 86\\).\n\n**Why the other answers are wrong:**\n- **B** and **C** are near misses from an arithmetic slip.\n- **D** 430 is the total, not the mean — dividing was forgotten.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_02-00_q20",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A data set is 4, 6, 6, 8, 40. Which statement is **true**?",
+    "options": [
+      "The median (6) describes the data better than the mean (12.8) because of the outlier.",
+      "The mean describes the data better because it uses every value.",
+      "The median and mean are equal.",
+      "Neither measure can be calculated."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12C | Topic: Mean vs Median with an Outlier**\n\n**Correct Answer:** A) The median (6) describes the data better than the mean (12.8) because of\nthe outlier.\n\n**Explanation:**\nMean \\(= 64 \\div 5 = 12.8\\), which is larger than four of the five values — pulled up by the\n40. The median, 6, sits among the bulk of the data.\n\n**Why the other answers are wrong:**\n- **B** using every value is exactly why the mean is distorted here.\n- **C** \\(6 \\neq 12.8\\).\n- **D** both are perfectly calculable.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-01_02-00_q21",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The daily high temperatures were 18, 24, 21, 27 and 19 °C. What is the range?",
+    "options": [
+      "\\(9\\) °C",
+      "\\(21.8\\) °C",
+      "\\(27\\) °C",
+      "\\(45\\) °C"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.12A | Topic: Range**\n\n**Correct Answer:** A) \\(9\\) °C\n\n**Explanation:**\nRange = highest − lowest = \\(27 - 18 = 9\\) °C.\n\n**Why the other answers are wrong:**\n- **B** is the mean.\n- **C** is the maximum alone.\n- **D** adds the extremes.\n\n---\n\n## Problem Solving & Applications",
+    "source": "authored",
+    "needsReview": false
+  }
+]

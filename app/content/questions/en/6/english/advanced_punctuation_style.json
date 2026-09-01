@@ -1,0 +1,42 @@
+[
+  {
+    "id": "english_g6_2026-09-01_02-20_q27",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the semicolon correctly?",
+    "options": [
+      "The tide was falling; the count could begin.",
+      "The tide was falling; and the count could begin.",
+      "Because the tide was falling; the count could begin.",
+      "The tide was falling; falling quickly."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Semicolons**\n\n**Correct Answer:** A) The tide was falling; the count could begin.\n\n**Explanation:**\nA semicolon joins two **independent clauses** that are closely related, without a conjunction.\n\n**Why the other answers are wrong:**\n- **B** adds *and*, which makes the semicolon redundant — a comma belongs there.\n- **C** the first part is subordinate, not independent.\n- **D** *falling quickly* is a fragment.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_02-20_q28",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the colon correctly?",
+    "options": [
+      "She recorded three measurements: temperature, salinity and depth.",
+      "She recorded: temperature, salinity and depth.",
+      "She recorded three measurements, temperature: salinity and depth.",
+      "The three measurements were: temperature, salinity, and depth recorded."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 6.10D | Topic: Colons**\n\n**Correct Answer:** A) She recorded three measurements: temperature, salinity and depth.\n\n**Explanation:**\nA colon introduces a list, and what comes **before** it must be a complete sentence.\n\n**Why the other answers are wrong:**\n- **B** *She recorded* is incomplete before the colon.\n- **C** places the colon inside the list.\n- **D** *The three measurements were* is incomplete, and the sentence trails after the list.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

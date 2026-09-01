@@ -75,11 +75,17 @@ for (const it of items) {
     }
   }
 
-  // A question that refers to reading material it does not carry is unanswerable.
-  if (!it.passage &&
-      /\b(the passage|the story|the poem|the excerpt|according to the|in passage \d)\b/i
-        .test(it.question || '')) {
-    add('orphan-passage', it, it.question.slice(0, 70));
+  /* A question that refers to reading material it does not carry is unanswerable.
+
+     "According to the Law of Conservation of Energy..." is NOT such a question — it cites a
+     named principle, not a text. Excluding that shape keeps the check meaningful; a report
+     that always shows one known-good finding trains you to ignore it. */
+  const q = it.question || '';
+  const citesNamedPrinciple =
+    /according to the\s+\**\s*(law|theory|principle|rule|formula)\b/i.test(q);
+  if (!it.passage && !citesNamedPrinciple &&
+      /\b(the passage|the story|the poem|the excerpt|according to the|in passage \d)\b/i.test(q)) {
+    add('orphan-passage', it, q.slice(0, 70));
   }
 
   // Unbalanced maths delimiters would render as red error text.
