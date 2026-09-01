@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:32:52.629Z",
+  "generatedAt": "2026-09-01T23:37:52.238Z",
   "grades": {
     "1": {
       "english": [
@@ -481,7 +481,7 @@
         {
           "subtopic": "advanced_writing_styles",
           "slug": "advanced_writing_styles",
-          "count": 5
+          "count": 28
         },
         {
           "subtopic": "grammar_language_mechanics",
@@ -501,7 +501,7 @@
         {
           "subtopic": "sentence_craft_structure",
           "slug": "sentence_craft_structure",
-          "count": 5
+          "count": 28
         },
         {
           "subtopic": "vocabulary_building",

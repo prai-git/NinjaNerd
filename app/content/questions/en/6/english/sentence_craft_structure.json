@@ -98,5 +98,465 @@
     "explanation": "**Explanation:**\nIn the active voice the subject performs the action: the committee approved.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q24",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision best combines these for **emphasis on the delay**? *The train was late. The passengers waited. It was raining.*",
+    "options": [
+      "The train was late, the passengers waited, and it was raining.",
+      "In the rain, the passengers waited for a train that never came on time.",
+      "The train was late and the passengers waited and it was raining.",
+      "The train was late; the passengers waited; it rained."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt subordinates the rain to a scene-setting phrase and puts the lateness in the main clause where the emphasis falls. The others coordinate all three ideas as equals.\n\n**Key concept:** Emphasis comes from what you place in the main clause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q25",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **subordination** to show that the second idea matters more?",
+    "options": [
+      "She trained for months, and she won the race.",
+      "Although she trained for months, she lost the race.",
+      "She trained for months; she won the race.",
+      "She trained for months. She won the race."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Although* subordinates the training, leaving the loss in the independent clause and therefore emphasised. The others give both ideas equal weight.\n\n**Key concept:** Subordination ranks ideas; coordination equalises them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q26",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A paragraph made entirely of short simple sentences most likely reads as —",
+    "options": [
+      "choppy and disconnected",
+      "formal and elegant",
+      "complex and layered",
+      "grammatically incorrect"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nUniform short sentences give no signal about how ideas relate, so the prose reads as a list. It is not ungrammatical — just monotonous.\n\n**Key concept:** Sentence variety carries meaning as well as rhythm.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q27",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence places the **most important idea** in the emphatic final position?",
+    "options": [
+      "Because the levee failed, the town flooded.",
+      "The town flooded because the levee failed.",
+      "The levee, which failed, flooded the town.",
+      "Flooding the town, the levee failed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe flooding lands in the final, most emphatic position. Option B ends on the cause instead, shifting the emphasis.\n\n**Key concept:** English sentences emphasise their final element.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q28",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence varies structure by opening with a **prepositional phrase**?",
+    "options": [
+      "The climbers reached the summit at dawn.",
+      "At dawn, the climbers reached the summit.",
+      "Reaching the summit, the climbers cheered.",
+      "The climbers, at dawn, reached the summit."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*At dawn* is a prepositional phrase moved to the front. Option C opens with a participial phrase; A and D use standard order.\n\n**Key concept:** Varying the opening element varies sentence rhythm.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q29",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **compound-complex** sentence?",
+    "options": [
+      "When the bell rang, the students left.",
+      "The bell rang, and the students left.",
+      "When the bell rang, the students left, and the hall fell silent.",
+      "The bell rang loudly in the empty hall."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nIt has a dependent clause plus two independent clauses — the definition of compound-complex. A is complex, B is compound, D is simple.\n\n**Key concept:** Compound-complex = at least two independent and one dependent clause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q30",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision removes the **choppiness**? *The dog barked. It was loud. The neighbours woke.*",
+    "options": [
+      "The dog barked loudly, waking the neighbours.",
+      "The dog barked, it was loud, the neighbours woke.",
+      "The dog barked and it was loud and the neighbours woke.",
+      "The dog. It barked. Loudly."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThree short sentences become one, with *loudly* absorbed as an adverb and the consequence as a participial phrase. B is a comma splice and C is stringy.\n\n**Key concept:** Combine by absorbing modifiers, not by chaining clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q31",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *Exhausted but determined, the runner crossed the line*, the opening phrase adds —",
+    "options": [
+      "a description of the runner's state",
+      "the main clause",
+      "a direct object",
+      "a prepositional phrase modifying *line*"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Exhausted but determined* modifies *the runner*, describing their condition. The main clause is *the runner crossed the line*.\n\n**Key concept:** An opening modifier describes the subject that follows it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q32",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **parallel structure** for rhythm?",
+    "options": [
+      "She came, she saw, she conquered.",
+      "She came, was seeing, and had conquered.",
+      "She came and seeing and conquest.",
+      "Coming, she saw, and she was a conqueror."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThree identically structured clauses create rhythm through repetition. The others break the pattern by mixing tenses and forms.\n\n**Key concept:** Parallel structure produces rhythm and clarity together.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q33",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a **compound predicate**?",
+    "options": [
+      "The chef and the waiter argued.",
+      "The chef seasoned the soup and tasted it twice.",
+      "The chef, who was tired, left.",
+      "After the shift, the chef left."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nOne subject, *the chef*, performs two verbs. Option A has a compound subject instead.\n\n**Key concept:** Compound predicate = one subject, two or more verbs.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q34",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision creates the **tightest** sentence? *There were several students who were waiting in the hall.*",
+    "options": [
+      "Several students waited in the hall.",
+      "There were students, several of them, waiting.",
+      "In the hall there were several students who waited.",
+      "Students, several, were in the hall waiting."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nRemoving *there were* and *who were* leaves a direct subject-verb sentence with nothing lost.\n\n**Key concept:** \"There were … who were\" almost always hides a simpler sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q35",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*The book that I borrowed from the library is overdue.* The clause *that I borrowed from the library* is —",
+    "options": [
+      "restrictive and correctly written without commas",
+      "nonrestrictive and needs commas",
+      "an independent clause",
+      "a prepositional phrase"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe clause specifies **which** book, so it is essential and takes no commas. Adding commas would imply only one book exists.\n\n**Key concept:** Essential clauses take no commas; extra information does.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q36",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best uses a **short sentence for impact** after longer ones?",
+    "options": [
+      "The negotiations continued for eleven hours, through three meals and two changes of venue, with neither side conceding a point. Then the lights went out.",
+      "The negotiations continued for eleven hours. They continued through three meals. They continued through two venues.",
+      "Then the lights went out, and the negotiations continued for eleven hours through three meals and two venues with neither side conceding.",
+      "Negotiations. Eleven hours. Three meals. Two venues. Lights out."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA long accumulating sentence followed by a five-word one makes the short sentence land. Option D fragments everything, so nothing stands out.\n\n**Key concept:** A short sentence gains force only against longer ones.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q37",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains an **appositive**?",
+    "options": [
+      "My sister, a marine biologist, studies coral.",
+      "My sister studies coral in the Pacific.",
+      "My sister, who studies coral, lives abroad.",
+      "Studying coral, my sister travels often."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*A marine biologist* is a noun phrase renaming *my sister*. Option C uses a relative clause, which is not an appositive.\n\n**Key concept:** An appositive renames a noun and is set off by commas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q38",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which transition best links a general claim to a specific case?",
+    "options": [
+      "In particular,",
+      "On the other hand,",
+      "Meanwhile,",
+      "In summary,"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIt narrows from the general to a specific instance. *On the other hand* contrasts, *meanwhile* marks time, *in summary* concludes.\n\n**Key concept:** Choose the transition that names the actual logical move.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q39",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a **semicolon** to join related independent clauses?",
+    "options": [
+      "The lab closed early; the experiment was left running.",
+      "The lab closed early; because the experiment was running.",
+      "The lab closed early; and the experiment was running.",
+      "The lab; closed early with the experiment running."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBoth sides are independent clauses. A semicolon cannot precede a subordinating conjunction or a coordinating conjunction in this way.\n\n**Key concept:** A semicolon joins two complete sentences and nothing less.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q40",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A writer wants to slow the pace during a tense scene. The most effective choice is —",
+    "options": [
+      "shorter sentences and more full stops",
+      "one very long sentence with many clauses",
+      "removing all punctuation",
+      "switching to passive voice throughout"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFrequent stops force the reader to pause, which slows perceived pace and raises tension. A single long sentence accelerates instead.\n\n**Key concept:** Punctuation controls pace as much as word choice does.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q41",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence begins with a **subordinate clause**?",
+    "options": [
+      "The rain stopped before the match began.",
+      "Before the match began, the rain stopped.",
+      "The rain stopped, and the match began.",
+      "The rain, stopping, allowed the match."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Before the match began* is a subordinate clause placed first and followed by a comma. In option A the same clause comes second.\n\n**Key concept:** A leading subordinate clause is followed by a comma.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q42",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision fixes the **stringy** sentence? *We went to the museum and we saw the exhibit and we ate lunch and then we went home.*",
+    "options": [
+      "After seeing the exhibit at the museum, we ate lunch and went home.",
+      "We went to the museum, we saw the exhibit, we ate lunch, we went home.",
+      "We went to the museum and saw the exhibit and ate lunch and went home.",
+      "Museum, exhibit, lunch, home."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIt subordinates the first two events and coordinates the last two, replacing four *ands* with structure. B is a comma splice and C keeps the chain.\n\n**Key concept:** Fix stringy sentences by subordinating, not by repunctuating.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q43",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *Whoever finishes first should help the others*, the subject of the sentence is —",
+    "options": [
+      "Whoever finishes first",
+      "first",
+      "should help",
+      "the others"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe whole noun clause acts as the subject of *should help*. Testing it confirms this: *[Whoever finishes first] should help the others.*\n\n**Key concept:** A noun clause can fill any noun slot, including the subject.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q44",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence achieves emphasis through **inversion**?",
+    "options": [
+      "Never had the town seen a storm like it.",
+      "The town had never seen a storm like it.",
+      "A storm like it was never seen by the town.",
+      "The town saw a storm, never like it."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe auxiliary comes before the subject, inverting normal order for emphasis. Option B is the same idea in standard order and C is passive.\n\n**Key concept:** Inversion emphasises by breaking expected word order.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q45",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **gerund phrase** as the subject?",
+    "options": [
+      "Swimming across the channel takes months of training.",
+      "She swims across the channel each summer.",
+      "To swim the channel is difficult.",
+      "The channel, swum by few, is cold."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Swimming across the channel* is a gerund phrase functioning as the subject of *takes*. Option C uses an infinitive phrase instead.\n\n**Key concept:** A gerund is an *-ing* verb form used as a noun.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q46",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which paragraph opening creates the best **variety** after three sentences that all began with *The*?",
+    "options": [
+      "The next morning was colder.",
+      "Colder still was the next morning.",
+      "The morning after was cold.",
+      "The cold morning followed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nOnly this option breaks the pattern by opening with a complement rather than *The*. The others all begin with *The* again.\n\n**Key concept:** Variety means changing the opening element, not just the words.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

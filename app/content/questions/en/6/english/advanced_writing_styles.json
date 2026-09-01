@@ -98,5 +98,465 @@
     "explanation": "is what causes bleaching (Reef Institute, 2025).\n\n**Explanation:**\nA true paraphrase restates the idea in genuinely different wording **and** credits the source.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q1",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which opening best suits a **personal narrative**?",
+    "options": [
+      "This narrative will describe a memorable day at the lake.",
+      "The lake was flat as glass the morning I learned my grandfather could not swim.",
+      "Lakes are bodies of water surrounded by land.",
+      "There are three reasons lakes are important."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA personal narrative opens inside a specific moment with sensory detail and a hint of what is at stake. Announcing the topic or defining a lake belongs to expository writing.\n\n**Key concept:** Narrative opens in scene, not with a thesis.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q2",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence establishes an **ominous** tone?",
+    "options": [
+      "The corridor was long and painted pale green.",
+      "The corridor stretched ahead, and every door along it was shut.",
+      "The corridor smelled faintly of lemon polish.",
+      "The corridor had eleven doors and a window at the end."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nLength plus closed doors suggests confinement and something withheld. The others report neutral facts — colour, smell, a count — that carry no threat.\n\n**Key concept:** Tone comes from selected detail, not from stated emotion.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q3",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A formal letter to a school board should open with —",
+    "options": [
+      "Hey there!",
+      "Dear Members of the Board,",
+      "What's up,",
+      "To whoever reads this,"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nFormal correspondence uses a respectful salutation naming the recipient. The others are conversational or vague.\n\n**Key concept:** Register must match audience and purpose.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q4",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*The old bridge groaned under the weight of the truck.* Which device is used?",
+    "options": [
+      "Simile",
+      "Personification",
+      "Hyperbole",
+      "Alliteration"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Groaned* gives the bridge a human action. No comparison word is used, so it is not a simile, and nothing is exaggerated for effect.\n\n**Key concept:** Personification gives human qualities to something non-human.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision shifts the sentence from **informal** to **formal** register? *The plan totally fell apart because nobody bothered to check the numbers.*",
+    "options": [
+      "The plan fell apart because nobody bothered checking.",
+      "The plan failed because the figures were never verified.",
+      "The plan was a total disaster, numbers-wise.",
+      "Nobody checked, so the plan flopped."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt removes the intensifier *totally*, the casual *bothered*, and the vague *numbers*, replacing them with precise formal wording.\n\n**Key concept:** Formal register avoids intensifiers and colloquial verbs.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*Her patience was a thread worn thin by years of waiting.* This is —",
+    "options": [
+      "a metaphor",
+      "a simile",
+      "onomatopoeia",
+      "a rhetorical question"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPatience is said to **be** a thread — a direct comparison with no *like* or *as*.\n\n**Key concept:** Metaphor states the comparison; simile signals it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence belongs in an **expository** rather than a narrative text?",
+    "options": [
+      "I remember the smell of rain on hot pavement.",
+      "Monsoon rainfall accounts for roughly 80% of India's annual precipitation.",
+      "My brother laughed and ran into the storm.",
+      "The thunder made me jump."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nExpository writing informs with verifiable data. The others recount personal experience, which is narrative.\n\n**Key concept:** Expository explains; narrative recounts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has the most **confident** authorial voice?",
+    "options": [
+      "It might possibly be the case that the policy could perhaps be improved.",
+      "The policy needs three specific changes, beginning with the appeals process.",
+      "Some people may think the policy has issues, maybe.",
+      "Perhaps somebody should look at the policy at some point."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt commits to a claim and previews specifics. The others stack hedges — *might*, *possibly*, *perhaps*, *maybe* — until nothing is asserted.\n\n**Key concept:** Piled hedges drain authority from a sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*The wind whispered through the wheat, wandering westward.* Which device is most prominent?",
+    "options": [
+      "Alliteration",
+      "Hyperbole",
+      "Irony",
+      "Flashback"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Wind, whispered, wheat, wandering, westward* repeat the initial /w/ sound. *Whispered* is also personification, but the repeated sound dominates.\n\n**Key concept:** Alliteration repeats initial consonant sounds across nearby words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a persuasive piece, which appeal relies on **evidence and logic**?",
+    "options": [
+      "An appeal to emotion",
+      "An appeal to reason",
+      "An appeal to popularity",
+      "An appeal to tradition"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAppeals to reason use evidence and logical connection. Emotion, popularity and tradition persuade without proving.\n\n**Key concept:** Logical appeals rest on evidence the reader can test.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **imagery** most effectively?",
+    "options": [
+      "The market was busy and loud.",
+      "Cardamom and diesel hung in the air while vendors shouted over crates of wet green chillies.",
+      "There were many people at the market.",
+      "The market had a lot going on."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt engages smell, sound and sight with concrete nouns. The others assert busyness without letting the reader perceive it.\n\n**Key concept:** Imagery shows through the senses rather than labelling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*I have told you a million times to close the gate.* This is —",
+    "options": [
+      "hyperbole",
+      "a simile",
+      "understatement",
+      "personification"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\"A million times\" is deliberate exaggeration for emphasis, not a literal count.\n\n**Key concept:** Hyperbole overstates on purpose.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which detail best develops **character** in a narrative?",
+    "options": [
+      "Priya was a kind person.",
+      "Priya left her umbrella on the bench for the woman who had none.",
+      "Priya was twelve years old.",
+      "Priya lived in a flat."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAn action reveals kindness and lets the reader conclude it. Stating \"Priya was kind\" tells; age and address characterise nothing.\n\n**Key concept:** Character is built through action and choice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A writer describing a scientific finding for a general audience should —",
+    "options": [
+      "use the technical term and then define it plainly",
+      "avoid all technical terms entirely",
+      "use technical terms without explanation",
+      "replace all data with opinions"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGeneral readers need the real term to follow further reading, plus a plain gloss to understand it now. Removing terminology loses precision; leaving it unexplained loses the reader.\n\n**Key concept:** Write for the audience without dumbing down the content.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains a **simile**?",
+    "options": [
+      "The argument was a storm that would not pass.",
+      "The argument raged like a storm that would not pass.",
+      "The argument stormed on.",
+      "The storm argued with the coastline."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Like* signals a simile. Option A is the same comparison stated directly, which makes it a metaphor.\n\n**Key concept:** Similes use *like* or *as*; metaphors do not.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which closing sentence is most persuasive in an argumentative essay?",
+    "options": [
+      "That is all I have to say about the topic.",
+      "If the district acts now, the next intake of students will be the first to benefit.",
+      "In conclusion, I have written about start times.",
+      "Thank you for reading my essay."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt ends with a specific consequence and an implicit call to act. The others announce that the essay is finished, which persuades no one.\n\n**Key concept:** A persuasive conclusion points forward to what follows from the argument.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q17",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*Understatement* is used in which sentence?",
+    "options": [
+      "The hurricane caused a bit of inconvenience to the coastline.",
+      "The hurricane devastated the coastline.",
+      "The hurricane was the worst in a century.",
+      "The hurricane arrived on Tuesday."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDescribing a hurricane as \"a bit of inconvenience\" deliberately says far less than the truth, which is understatement.\n\n**Key concept:** Understatement is the mirror image of hyperbole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q18",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the clearest **procedural** instruction?",
+    "options": [
+      "You might want to consider maybe turning the valve at some stage.",
+      "Turn the red valve clockwise until it stops.",
+      "The valve, which is red, can be turned.",
+      "Valves are turned in various directions."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nProcedural writing uses imperative verbs and specifies which object, which direction and when to stop. Hedged or descriptive phrasing leaves the reader guessing.\n\n**Key concept:** Instructions are imperative, specific, and bounded.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q19",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*The city never sleeps.* This is —",
+    "options": [
+      "personification",
+      "a simile",
+      "alliteration",
+      "onomatopoeia"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSleeping is a human activity attributed to a city.\n\n**Key concept:** Personification assigns human behaviour to a non-human subject.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q20",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which choice best sustains a **reflective** tone in a memoir?",
+    "options": [
+      "Looking back, I understand what my grandmother was protecting me from.",
+      "Then we ate lunch and went home.",
+      "Grandmothers are often protective.",
+      "The following facts describe my grandmother."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nReflection means the narrator interprets past events from present understanding. The others report events, generalise, or announce a list.\n\n**Key concept:** Reflective writing pairs the remembered event with present insight.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q21",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence commits the **bandwagon** fallacy?",
+    "options": [
+      "Three studies show later start times improve attendance.",
+      "Everyone at school already agrees, so the policy must be right.",
+      "The doctor cited sleep research in her report.",
+      "Attendance rose by 8% in the trial district."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nPopularity is offered as proof, which is the bandwagon fallacy. The others cite studies, expert testimony or measured outcomes.\n\n**Key concept:** How many people believe something is not evidence that it is true.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q22",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*Crash, hiss, then silence.* Which device dominates?",
+    "options": [
+      "Onomatopoeia",
+      "Metaphor",
+      "Understatement",
+      "Allusion"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Crash* and *hiss* imitate the sounds they name.\n\n**Key concept:** Onomatopoeic words sound like their meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-35_q23",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision gives the sentence a more **urgent** tone? *The building should probably be inspected sometime.*",
+    "options": [
+      "The building ought to perhaps be looked at.",
+      "The building must be inspected before it reopens.",
+      "Somebody could inspect the building.",
+      "The building may need inspection eventually."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Must* plus a deadline creates obligation and urgency. *Probably*, *perhaps*, *could* and *eventually* all defer.\n\n**Key concept:** Modal verbs set the strength of a claim.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
