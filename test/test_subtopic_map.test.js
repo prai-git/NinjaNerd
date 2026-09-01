@@ -185,8 +185,9 @@ test('no subtopic is empty at any grade', () => {
 
 /* RELEASE GATE — minimum questions per subtopic.
 
-   Owner decision, 2026-09-01: **20 at launch, 50 afterwards.** 50 is the real target, but it
-   needs 4,241 new questions against 1,622 today; 20 needs 1,101 and does not hold the launch.
+   Owner decision, 2026-09-01, REVISED the same day after seeing the live site: **50, not 20.**
+   Subtopics with 3 and 4 questions were reported as broken from ninjanerd.ai itself, which is
+   the right call -- the 20 gate was a launch compromise chosen before the site was live.
 
    Why a minimum exists at all, beyond "more is better": practice now retires a question once
    the child answers it correctly, and serves the subtopic again only when the whole list has
@@ -197,9 +198,9 @@ test('no subtopic is empty at any grade', () => {
    `todo` rather than failing: 93 of 115 buckets are short today, and a permanently red suite
    stops carrying signal. Remove the flag when the authoring is done — then a regression fails
    the build, exactly as the "no subtopic is empty" gate does now. */
-const MIN_QUESTIONS_PER_SUBTOPIC = 20;
+const MIN_QUESTIONS_PER_SUBTOPIC = 50;
 
-test('every subtopic has at least 20 questions', { todo: true }, () => {
+test('every subtopic has at least 50 questions', { todo: true }, () => {
   const man = JSON.parse(
     readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
   const short = [];
@@ -217,9 +218,7 @@ test('every subtopic has at least 20 questions', { todo: true }, () => {
     `${short.length} subtopics are under ${MIN_QUESTIONS_PER_SUBTOPIC}:\n${short.join('\n')}`);
 });
 
-/* The 50 target is recorded here so it is not lost when the 20 gate goes green. It is not a
-   second `todo` — one red-but-expected gate at a time is enough to stay meaningful. */
-test('the eventual target of 50 per subtopic is recorded, not forgotten', () => {
-  assert.equal(MIN_QUESTIONS_PER_SUBTOPIC, 20,
-    'launch gate is 20; raise to 50 once the post-launch authoring is done');
+test('the gate is 50, the figure the owner set after seeing the live site', () => {
+  assert.equal(MIN_QUESTIONS_PER_SUBTOPIC, 50,
+    'the 20 launch compromise was superseded on 2026-09-01; do not lower it again');
 });

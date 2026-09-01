@@ -215,7 +215,7 @@
       "The team must have fewer than 15 players."
     ],
     "correctIndex": 2,
-    "explanation": "**Answer: C) The team can have 15 or fewer players.**\n\n**Explanation:**\n- p ≤ 15 means p is less than or equal to 15\n- This includes 15 AND all values less than 15\n- Valid values: 0, 1, 2, 3, ... 13, 14, 15\n\n**Key Concept:** Understanding inequality symbols and their meanings.",
+    "explanation": "**Answer: C) The team can have 15 or fewer players.**\n\n**Explanation:**\n- p ≤ 15 means p is less than or equal to 15\n- This includes 15 AND all values less than 15\n- Valid values: 0, 1, 2, 3,... 13, 14, 15\n\n**Key Concept:** Understanding inequality symbols and their meanings.",
     "source": "authored",
     "needsReview": false
   },
@@ -307,7 +307,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Identifying a Pattern\nThe table below shows a pattern between x and y.\n\n| x | y  |\n|---|----|\n| 1 | 6  |\n| 2 | 12 |\n| 3 | 18 |\n| 4 | 24 |\n\nWhich statement **BEST** describes the relationship between x and y?",
+    "question": "— Identifying a Pattern\nThe table below shows a pattern between x and y.\n\n| x | y |\n|---|----|\n| 1 | 6 |\n| 2 | 12 |\n| 3 | 18 |\n| 4 | 24 |\n\nWhich statement **BEST** describes the relationship between x and y?",
     "options": [
       "Each y value is 5 more than the x value (additive pattern).",
       "Each y value is 6 times the x value (multiplicative pattern).",
@@ -427,7 +427,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Word Problem  [R]\nA bookstore received a shipment of **15 boxes of novels** and **8 boxes of textbooks**. Each box of novels holds **24 books** and each box of textbooks holds **18 books**. How many total books did the bookstore receive?",
+    "question": "— Multi-Step Word Problem [R]\nA bookstore received a shipment of **15 boxes of novels** and **8 boxes of textbooks**. Each box of novels holds **24 books** and each box of textbooks holds **18 books**. How many total books did the bookstore receive?",
     "options": [
       "396",
       "462",
@@ -467,7 +467,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Additive vs. Multiplicative Patterns\nThe table below shows a pattern between *x* and *y*.\n\n| x | y  |\n|---|----|\n| 1 | 9  |\n| 2 | 10 |\n| 3 | 11 |\n| 4 | 12 |\n\nWhich statement **BEST** describes the relationship between *x* and *y*?",
+    "question": "— Additive vs. Multiplicative Patterns\nThe table below shows a pattern between *x* and *y*.\n\n| x | y |\n|---|----|\n| 1 | 9 |\n| 2 | 10 |\n| 3 | 11 |\n| 4 | 12 |\n\nWhich statement **BEST** describes the relationship between *x* and *y*?",
     "options": [
       "Each *y* value is 8 times the *x* value (multiplicative pattern).",
       "Each *y* value is 2 more than the previous *y* value, and the rule is y = 2x.",
@@ -475,7 +475,7 @@
       "Each *y* value is 4 times the *x* value."
     ],
     "correctIndex": 2,
-    "explanation": "**Step-by-step:**\nCheck each pair to find the rule:\n\n| x | y  | y − x | y ÷ x |\n|---|----|-------|-------|\n| 1 | 9  | 8     | 9.0   |\n| 2 | 10 | 8     | 5.0   |\n| 3 | 11 | 8     | 3.67  |\n| 4 | 12 | 8     | 3.0   |\n\n- **y − x is always 8** → the rule is **y = x + 8** (additive pattern) ✓\n- y ÷ x is NOT constant → this is NOT a multiplicative pattern\n\nThe pattern is: **each y value equals the x value plus 8**.\n\n**Key concept:**\n- **Additive pattern** (y = x + a): y is always a constant number MORE than x. The ratio y/x changes.\n- **Multiplicative pattern** (y = ax): y is always a constant MULTIPLE of x. The ratio y/x stays the same.",
+    "explanation": "**Step-by-step:**\nCheck each pair to find the rule:\n\n| x | y | y − x | y ÷ x |\n|---|----|-------|-------|\n| 1 | 9 | 8 | 9.0 |\n| 2 | 10 | 8 | 5.0 |\n| 3 | 11 | 8 | 3.67 |\n| 4 | 12 | 8 | 3.0 |\n\n- **y − x is always 8** → the rule is **y = x + 8** (additive pattern) ✓\n- y ÷ x is NOT constant → this is NOT a multiplicative pattern\n\nThe pattern is: **each y value equals the x value plus 8**.\n\n**Key concept:**\n- **Additive pattern** (y = x + a): y is always a constant number MORE than x. The ratio y/x changes.\n- **Multiplicative pattern** (y = ax): y is always a constant MULTIPLE of x. The ratio y/x stays the same.",
     "source": "authored",
     "needsReview": false
   },

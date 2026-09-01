@@ -353,3 +353,46 @@ test('stripStandardsAnnotation is keyword-gated, not emphasis-gated', () => {
   const mid = 'Read it.\n*TEKS 2.9A*\nWhat next?';
   assert.equal(stripStandardsAnnotation(mid), mid);
 });
+
+/* ---- Defects found on the LIVE site, 2026-09-01 ------------------------------------------ */
+
+test('a markdown blockquote renders as a quote, not a literal ">"', () => {
+  /* Authors set the sentence a question is ABOUT as a quote. The child was shown "&gt;" in
+     front of the very text they had to read. */
+  const out = renderBlocks('Read the sentence below.\n\n> The hikers were **fatigued**.\n\nWhat does it mean?');
+  assert.match(out, /<blockquote/);
+  assert.match(out, /<strong>fatigued<\/strong>/, 'inline markup still applies inside a quote');
+  assert.doesNotMatch(out, /&gt;\s*The hikers/, 'the marker itself must not be shown');
+});
+
+test('consecutive quote lines form ONE blockquote', () => {
+  const out = renderBlocks('> line one\n> line two');
+  assert.equal((out.match(/<blockquote/g) || []).length, 1);
+  assert.match(out, /line one<br>line two/);
+});
+
+test('a greater-than sign inside prose is not a blockquote', () => {
+  // Maths explanations say things like "5 > 3"; only a line-leading ">" is a quote.
+  const out = renderBlocks('If 5 > 3 then the statement is true.');
+  assert.doesNotMatch(out, /<blockquote/);
+  assert.match(out, /5 &gt; 3/);
+});
+
+test('an escaped underscore renders as an underscore', () => {
+  // Fill-in-the-blank: the child was shown "generous is to \_\_\_\_".
+  assert.equal(renderInline('generous is to \\_\\_\\_\\_'), 'generous is to ____');
+});
+
+test('unescaping NEVER touches maths — it would break 303 items to fix 4', () => {
+  /* Nearly every backslash in this corpus is LaTeX: \( and \) appear 1313 times each as the
+     inline-maths delimiters KaTeX looks for. A general markdown unescape turned
+     "0.25 x \(80 = \)20" into "0.25 x (80 = )20". Only \_ is unescaped, and not inside maths. */
+  assert.equal(renderInline('0.25 x \\(80 = \\)20'), '0.25 x \\(80 = \\)20');
+  assert.equal(renderInline('\\(x\\_1 + y\\)'), '\\(x\\_1 + y\\)',
+    'a subscript inside maths is LaTeX and must survive');
+  assert.equal(renderInline('\\frac{1}{2} and \\times'), '\\frac{1}{2} and \\times');
+});
+
+test('emphasis still works alongside the escape handling', () => {
+  assert.equal(renderInline('**bold** and *em*'), '<strong>bold</strong> and <em>em</em>');
+});

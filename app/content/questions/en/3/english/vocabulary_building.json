@@ -75,7 +75,7 @@
       "a protected wild area"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nHere *park* is a verb acting on *the car*, so it means to stop and leave the vehicle.\n\n  action.",
+    "explanation": "**Explanation:**\nHere *park* is a verb acting on *the car*, so it means to stop and leave the vehicle.\n\n action.",
     "source": "authored",
     "needsReview": false
   },
@@ -115,7 +115,7 @@
       "must stay in one room"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nThe root *port* means *to carry*, so *portable* describes something able to be carried.\n\n  **D** is the opposite.",
+    "explanation": "**Explanation:**\nThe root *port* means *to carry*, so *portable* describes something able to be carried.\n\n **D** is the opposite.",
     "source": "authored",
     "needsReview": false
   },

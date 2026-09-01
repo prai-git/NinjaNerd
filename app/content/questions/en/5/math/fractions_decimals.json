@@ -327,7 +327,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Comparing and Ordering Decimals  **[Readiness]**\nWhich list shows the decimals in order from **least to greatest**?\n\n**5.083, 5.8, 5.38, 5.308**",
+    "question": "— Comparing and Ordering Decimals **[Readiness]**\nWhich list shows the decimals in order from **least to greatest**?\n\n**5.083, 5.8, 5.38, 5.308**",
     "options": [
       "5.8, 5.38, 5.308, 5.083",
       "5.083, 5.308, 5.38, 5.8",
@@ -367,7 +367,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Unit Fraction ÷ Whole Number  **[Readiness]**\nMr. Brooks has 1/4 pound of trail mix. He divides the trail mix equally into **3** small bags. How much trail mix is in each bag?\n\n**1/4 ÷ 3 = ?**",
+    "question": "— Unit Fraction ÷ Whole Number **[Readiness]**\nMr. Brooks has 1/4 pound of trail mix. He divides the trail mix equally into **3** small bags. How much trail mix is in each bag?\n\n**1/4 ÷ 3 = ?**",
     "options": [
       "1/12 pound",
       "3/12 pound",
@@ -407,7 +407,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **greatest to least**?\n\n**3.045,  3.5,  3.405,  3.054**",
+    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **greatest to least**?\n\n**3.045, 3.5, 3.405, 3.054**",
     "options": [
       "3.045, 3.054, 3.405, 3.5",
       "3.5, 3.405, 3.054, 3.045",
@@ -415,7 +415,7 @@
       "3.405, 3.5, 3.054, 3.045"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\nLine up digits by place value and compare:\n\n| Decimal | Tenths | Hundredths | Thousandths |\n|---------|--------|------------|-------------|\n| 3.5     | 5      | 0          | 0           |\n| 3.405   | 4      | 0          | 5           |\n| 3.054   | 0      | 5          | 4           |\n| 3.045   | 0      | 4          | 5           |\n\nCompare tenths digit first:\n- 3.5 has 5 in tenths → **greatest**\n- 3.405 has 4 in tenths → **second**\n- 3.054 and 3.045 both have 0 in tenths → compare hundredths:\n  - 3.054 has 5 in hundredths → third\n  - 3.045 has 4 in hundredths → least\n\n**Order greatest to least: 3.5 > 3.405 > 3.054 > 3.045**",
+    "explanation": "**Step-by-step:**\nLine up digits by place value and compare:\n\n| Decimal | Tenths | Hundredths | Thousandths |\n|---------|--------|------------|-------------|\n| 3.5 | 5 | 0 | 0 |\n| 3.405 | 4 | 0 | 5 |\n| 3.054 | 0 | 5 | 4 |\n| 3.045 | 0 | 4 | 5 |\n\nCompare tenths digit first:\n- 3.5 has 5 in tenths → **greatest**\n- 3.405 has 4 in tenths → **second**\n- 3.054 and 3.045 both have 0 in tenths → compare hundredths:\n - 3.054 has 5 in hundredths → third\n - 3.045 has 4 in hundredths → least\n\n**Order greatest to least: 3.5 > 3.405 > 3.054 > 3.045**",
     "source": "authored",
     "needsReview": false
   },
@@ -447,7 +447,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Adding Fractions with Unlike Denominators  [R]\nFind the sum.\n\n**3/4 + 5/6 = ?**",
+    "question": "— Adding Fractions with Unlike Denominators [R]\nFind the sum.\n\n**3/4 + 5/6 = ?**",
     "options": [
       "8/10",
       "15/24",
@@ -467,7 +467,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Subtracting Fractions with Unlike Denominators  [R]\nFind the difference.\n\n**7/8 − 2/3 = ?**",
+    "question": "— Subtracting Fractions with Unlike Denominators [R]\nFind the difference.\n\n**7/8 − 2/3 = ?**",
     "options": [
       "5/5",
       "5/24",
@@ -487,7 +487,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multiplying Fractions  [R]\nA recipe calls for **3/4 cup** of sugar for one batch of cookies. Ms. Rodriguez wants to make **2/5 of a batch**. How much sugar does she need?",
+    "question": "— Multiplying Fractions [R]\nA recipe calls for **3/4 cup** of sugar for one batch of cookies. Ms. Rodriguez wants to make **2/5 of a batch**. How much sugar does she need?",
     "options": [
       "5/9 cup",
       "3/10 cup",
@@ -555,7 +555,7 @@
       "212.8"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\n**3.8 × 5.6**\n\nMultiply as whole numbers first:\n- 38 × 56:\n  - 38 × 50 = 1,900\n  - 38 × 6 = 228\n  - 1,900 + 228 = 2,128\n\nCount decimal places: 3.8 has 1 decimal place; 5.6 has 1 decimal place → 2 decimal places total.\n\nPlace the decimal point: 2128 → **21.28**",
+    "explanation": "**Step-by-step:**\n**3.8 × 5.6**\n\nMultiply as whole numbers first:\n- 38 × 56:\n - 38 × 50 = 1,900\n - 38 × 6 = 228\n - 1,900 + 228 = 2,128\n\nCount decimal places: 3.8 has 1 decimal place; 5.6 has 1 decimal place → 2 decimal places total.\n\nPlace the decimal point: 2128 → **21.28**",
     "source": "authored",
     "needsReview": false
   },
@@ -587,7 +587,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Adding Decimals  [R]\nA track athlete ran **3.45 kilometers** on Monday, **2.8 kilometers** on Tuesday, and **4.17 kilometers** on Wednesday. How many total kilometers did she run over those three days?",
+    "question": "— Adding Decimals [R]\nA track athlete ran **3.45 kilometers** on Monday, **2.8 kilometers** on Tuesday, and **4.17 kilometers** on Wednesday. How many total kilometers did she run over those three days?",
     "options": [
       "10.42 km",
       "9.42 km",
@@ -595,7 +595,7 @@
       "10.52 km"
     ],
     "correctIndex": 0,
-    "explanation": "**Step-by-step:**\n**3.45 + 2.80 + 4.17**\n\nLine up decimal points and add:\n```\n  3.45\n  2.80\n+ 4.17\n------\n 10.42\n```\n\n- Hundredths: 5 + 0 + 7 = 12 → write 2, carry 1\n- Tenths: 4 + 8 + 1 + 1 (carry) = 14 → write 4, carry 1\n- Ones: 3 + 2 + 4 + 1 (carry) = 10 → write 0, carry 1\n- Tens: 0 + 0 + 0 + 1 (carry) = 1\n\n**Total = 10.42 km**",
+    "explanation": "**Step-by-step:**\n**3.45 + 2.80 + 4.17**\n\nLine up decimal points and add:\n```\n 3.45\n 2.80\n+ 4.17\n------\n 10.42\n```\n\n- Hundredths: 5 + 0 + 7 = 12 → write 2, carry 1\n- Tenths: 4 + 8 + 1 + 1 (carry) = 14 → write 4, carry 1\n- Ones: 3 + 2 + 4 + 1 (carry) = 10 → write 0, carry 1\n- Tens: 0 + 0 + 0 + 1 (carry) = 1\n\n**Total = 10.42 km**",
     "source": "authored",
     "needsReview": false
   },
@@ -607,7 +607,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Adding Mixed Numbers  [R]\nFind the sum.\n\n**1 3/4 + 2 5/6 = ?**",
+    "question": "— Adding Mixed Numbers [R]\nFind the sum.\n\n**1 3/4 + 2 5/6 = ?**",
     "options": [
       "3 2/5",
       "3 8/10",
@@ -627,7 +627,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Subtracting Mixed Numbers with Regrouping  [R]\nFind the difference.\n\n**4 1/6 − 1 3/4 = ?**",
+    "question": "— Subtracting Mixed Numbers with Regrouping [R]\nFind the difference.\n\n**4 1/6 − 1 3/4 = ?**",
     "options": [
       "2 5/12",
       "2 7/12",
@@ -647,7 +647,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multiplying Mixed Numbers  [R]\nA rectangular garden plot is **2 1/2 meters long** and **1 3/4 meters wide**. What is the area of the garden in square meters?",
+    "question": "— Multiplying Mixed Numbers [R]\nA rectangular garden plot is **2 1/2 meters long** and **1 3/4 meters wide**. What is the area of the garden in square meters?",
     "options": [
       "3 3/4 sq meters",
       "4 1/4 sq meters",
@@ -687,7 +687,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Fractions Word Problem  [R]\nTyrell ran **2 3/4 miles** on Saturday and **1 5/8 miles** on Sunday. His goal for the weekend was **5 miles**. How many more miles does Tyrell still need to run to reach his goal?",
+    "question": "— Multi-Step Fractions Word Problem [R]\nTyrell ran **2 3/4 miles** on Saturday and **1 5/8 miles** on Sunday. His goal for the weekend was **5 miles**. How many more miles does Tyrell still need to run to reach his goal?",
     "options": [
       "1/8 mile",
       "5/8 mile",
@@ -715,7 +715,7 @@
       "403"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\n**12.4 × 3.25**\n\nMultiply as whole numbers: 124 × 325\n\n```\n    124\n  × 325\n  -----\n    620   (124 × 5)\n   2480   (124 × 20)\n+ 37200   (124 × 300)\n-------\n  40300\n```\n\nCount decimal places: 12.4 has **1** decimal place; 3.25 has **2** → total **3** decimal places.\n\nPlace decimal: 40300 → **40.300 = 40.3**\n\n**Verification:** 12 × 3 = 36; 12 × 0.25 = 3; 0.4 × 3.25 = 1.3 → 36 + 3 + 1.3 = 40.3 ✓",
+    "explanation": "**Step-by-step:**\n**12.4 × 3.25**\n\nMultiply as whole numbers: 124 × 325\n\n```\n 124\n × 325\n -----\n 620 (124 × 5)\n 2480 (124 × 20)\n+ 37200 (124 × 300)\n-------\n 40300\n```\n\nCount decimal places: 12.4 has **1** decimal place; 3.25 has **2** → total **3** decimal places.\n\nPlace decimal: 40300 → **40.300 = 40.3**\n\n**Verification:** 12 × 3 = 36; 12 × 0.25 = 3; 0.4 × 3.25 = 1.3 → 36 + 3 + 1.3 = 40.3 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -747,7 +747,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Decimal Word Problem  [R]\nXavier bought **3 notebooks** for **$1.85 each** and **2 highlighters** for **$0.99 each**. He also used a coupon for **$1.50 off** his total. How much did Xavier pay in all?",
+    "question": "— Multi-Step Decimal Word Problem [R]\nXavier bought **3 notebooks** for **$1.85 each** and **2 highlighters** for **$0.99 each**. He also used a coupon for **$1.50 off** his total. How much did Xavier pay in all?",
     "options": [
       "$5.53",
       "$6.03",
@@ -787,7 +787,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Finding the Original Price  [R]\nA jacket is on sale for **$60**, which is **25% off** the original price. What was the **original price** of the jacket?",
+    "question": "— Finding the Original Price [R]\nA jacket is on sale for **$60**, which is **25% off** the original price. What was the **original price** of the jacket?",
     "options": [
       "$72",
       "$75",
@@ -867,7 +867,7 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multiplying a Mixed Number by a Whole Number  [R]\nA recipe uses **2 1/3 cups of oats**. A chef makes **6 batches** of the recipe. How many **total cups of oats** does the chef need?",
+    "question": "— Multiplying a Mixed Number by a Whole Number [R]\nA recipe uses **2 1/3 cups of oats**. A chef makes **6 batches** of the recipe. How many **total cups of oats** does the chef need?",
     "options": [
       "8 1/3 cups",
       "12 cups",

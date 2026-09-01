@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug,
-  extractAnswerLetter, extractAnswerText, cleanExplanation,
+  extractAnswerLetter, extractAnswerText, cleanExplanation, stripCrossQuestionRefs,
 } from '../tools/lib/parse.mjs';
 
 const fx = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
@@ -497,4 +497,59 @@ test('no shipped explanation states an option letter as the answer', () => {
     }
   }(root));
   assert.deepEqual(offenders, [], `these state an option letter: ${offenders.slice(0, 5)}`);
+});
+
+/* ---- stripCrossQuestionRefs (2026-09-01, reported on the live site) ----------------------- */
+
+test('cross-question references go, but the instruction stays', () => {
+  /* Authored sets number their questions and share a passage across several. Practice serves
+     ONE question at a time, shuffled, so "questions 34-37" points at nothing the child can
+     see. The owner hit this directly: "what is questions 34-37". */
+  const cases = [
+    ['*Read the following passage and answer questions 34–37.*', '*Read the following passage.*'],
+    ['*Read the following story and answer questions 12-15.*', '*Read the following story.*'],
+    ['*Use the diagram below for Questions 34–37:*', '*Use the diagram below:*'],
+    ["*Read the following paragraph from a student's essay and answer questions 8-9.*",
+      "*Read the following paragraph from a student's essay.*"],
+  ];
+  for (const [input, want] of cases) {
+    assert.equal(stripCrossQuestionRefs(input), want);
+  }
+});
+
+test('both dash characters in the corpus are handled', () => {
+  // The authored files use an en dash in some sets and a hyphen in others.
+  assert.equal(stripCrossQuestionRefs('answer questions 1–2.'), '.');
+  assert.equal(stripCrossQuestionRefs('answer questions 1-2.'), '.');
+});
+
+test('ordinary uses of the word "questions" are untouched', () => {
+  for (const keep of [
+    'How many questions did Maria answer correctly?',
+    'The survey had 34 questions in total.',
+    'Answer the questions using the table.',
+  ]) {
+    assert.equal(stripCrossQuestionRefs(keep), keep, `must survive: ${keep}`);
+  }
+});
+
+test('no shipped item references a question number', () => {
+  const root = join(repoRoot, 'app/content/questions/en');
+  const offenders = [];
+  (function walk(dir) {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (name.endsWith('.json') && name !== 'manifest.json') {
+        for (const item of JSON.parse(readFileSync(p, 'utf8'))) {
+          for (const field of ['question', 'passage', 'explanation']) {
+            if (item[field] && /\bQuestions?\s+\d+\s*[–-]\s*\d+/i.test(item[field])) {
+              offenders.push(`${item.id}:${field}`);
+            }
+          }
+        }
+      }
+    }
+  }(root));
+  assert.deepEqual(offenders, [], `these reference a question number: ${offenders.slice(0, 5)}`);
 });

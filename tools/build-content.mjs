@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug, cleanExplanation,
+  stripCrossQuestionRefs,
 } from './lib/parse.mjs';
 import { buildItem, splitMultiPart } from './lib/mcq.mjs';
 import { mapSubtopic } from './lib/subtopic-map.mjs';
@@ -51,16 +52,19 @@ export async function buildFile({ filename, questionsMd, answersMd, llm }) {
            questions 4-7"). Without it a question like "How does Marcus MOST change from the
            beginning of the passage to the end?" is unanswerable. 175 items shipped that way
            before the parser learned to keep passages. */
-        passage: part.passage || null,
+        /* Cross-question references ("...and answer questions 34-37") are stripped from all
+           three: practice serves one shuffled question at a time, so the numbering refers to
+           nothing the child can see. The instruction around it is kept. */
+        passage: part.passage ? stripCrossQuestionRefs(part.passage) : null,
         passageTitle: part.passageTitle || null,
-        question: part.text,
+        question: stripCrossQuestionRefs(part.text),
         options: built.options,
         correctIndex: built.correctIndex,
         /* Cleaned at BUILD time, not in the browser: the authoring format leaks the answer
            key, standards codes and option letters into text a child reads after answering
            wrongly, and the letters are meaningless once practice shuffles the options.
            See cleanExplanation in lib/parse.mjs for what goes and why. */
-        explanation: answer ? cleanExplanation(answer.explanation || '') : '',
+        explanation: answer ? stripCrossQuestionRefs(cleanExplanation(answer.explanation || '')) : '',
         source: built.source,
         needsReview: built.needsReview,
       };

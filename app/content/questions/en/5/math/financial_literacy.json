@@ -175,7 +175,7 @@
       "$2,800"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) $2,528**\n\n**Work:**\n```\nGross Income           =  $3,200\n− Income Tax           −    $480\n− Payroll Tax          −    $192\n                       ─────────\nNet Income             =  $2,528\n```\n\n**One-sentence explanation:** Net income is calculated by subtracting all taxes and deductions from the gross income, giving the actual take-home pay.",
+    "explanation": "**Answer: A) $2,528**\n\n**Work:**\n```\nGross Income = $3,200\n− Income Tax − $480\n− Payroll Tax − $192\n ─────────\nNet Income = $2,528\n```\n\n**One-sentence explanation:** Net income is calculated by subtracting all taxes and deductions from the gross income, giving the actual take-home pay.",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,7 @@
       "$603"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) $568**\n\n**Work:**\n```\nGross Income            =  $750\n− Federal Income Tax    −   $90\n− Payroll Tax           −   $57\n− Health Insurance      −   $35\n                        ────────\nNet Income              =  $568\n```\n\n**One-sentence explanation:** All deductions listed on the paycheck — including taxes and health insurance — must be subtracted from gross income to find net income.",
+    "explanation": "**Answer: A) $568**\n\n**Work:**\n```\nGross Income = $750\n− Federal Income Tax − $90\n− Payroll Tax − $57\n− Health Insurance − $35\n ────────\nNet Income = $568\n```\n\n**One-sentence explanation:** All deductions listed on the paycheck — including taxes and health insurance — must be subtracted from gross income to find net income.",
     "source": "authored",
     "needsReview": false
   },
@@ -335,7 +335,7 @@
       "$90"
     ],
     "correctIndex": 1,
-    "explanation": "**Answer: B) $70**\n\n**Work:**\n```\nTotal Income    = \\(120 + \\)60   = $180\nTotal Expenses  = \\(25 + \\)30 + \\(15 + \\)40 = $110\n\nMoney Left Over = \\(180 − \\)110 = $70\n```\n\n**One-sentence explanation:** Subtract total expenses from total income to find the amount remaining after all planned spending and saving.",
+    "explanation": "**Answer: B) $70**\n\n**Work:**\n```\nTotal Income = \\(120 + \\)60 = $180\nTotal Expenses = \\(25 + \\)30 + \\(15 + \\)40 = $110\n\nMoney Left Over = \\(180 − \\)110 = $70\n```\n\n**One-sentence explanation:** Subtract total expenses from total income to find the amount remaining after all planned spending and saving.",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "$4,200"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) $3,900**\n\n**Work:**\n```\nStep 1 – Remaining balance after grant and scholarship:\n   Tuition          = $12,000\n − Grant            =  $3,500\n − Scholarship      =  $2,000\n                    ─────────\n   Remaining        =  $6,500\n\nStep 2 – Amount earned from part-time job (40% of remaining):\n   \\(6,500 × 0.40 = \\)2,600\n\nStep 3 – Amount still owed:\n   \\(6,500 − \\)2,600 = $3,900\n```\n\n**One-sentence explanation:** Subtract all free money (grants and scholarships) from tuition, then subtract planned earnings to find the remaining amount still owed.",
+    "explanation": "**Answer: A) $3,900**\n\n**Work:**\n```\nStep 1 – Remaining balance after grant and scholarship:\n Tuition = $12,000\n − Grant = $3,500\n − Scholarship = $2,000\n ─────────\n Remaining = $6,500\n\nStep 2 – Amount earned from part-time job (40% of remaining):\n \\(6,500 × 0.40 = \\)2,600\n\nStep 3 – Amount still owed:\n \\(6,500 − \\)2,600 = $3,900\n```\n\n**One-sentence explanation:** Subtract all free money (grants and scholarships) from tuition, then subtract planned earnings to find the remaining amount still owed.",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "$2,600"
     ],
     "correctIndex": 1,
-    "explanation": "**Answer: B) $3,900**\n\n**Work:**\n```\nStep 1 – Remaining balance after scholarship and grant:\n   Total Cost       = $8,400\n − Scholarship      = $1,200\n − Grant            = $2,000\n                    ────────\n   Remaining        = $5,200\n\nStep 2 – Amount earned babysitting (25% of remaining):\n   \\(5,200 × 0.25 = \\)1,300\n\nStep 3 – Amount still owed:\n   \\(5,200 − \\)1,300 = $3,900\n```\n\n**One-sentence explanation:** After subtracting free funding (scholarship + grant) and planned earnings (25% of what's left), the remaining amount is what still needs to be paid.",
+    "explanation": "**Answer: B) $3,900**\n\n**Work:**\n```\nStep 1 – Remaining balance after scholarship and grant:\n Total Cost = $8,400\n − Scholarship = $1,200\n − Grant = $2,000\n ────────\n Remaining = $5,200\n\nStep 2 – Amount earned babysitting (25% of remaining):\n \\(5,200 × 0.25 = \\)1,300\n\nStep 3 – Amount still owed:\n \\(5,200 − \\)1,300 = $3,900\n```\n\n**One-sentence explanation:** After subtracting free funding (scholarship + grant) and planned earnings (25% of what's left), the remaining amount is what still needs to be paid.",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "$130"
     ],
     "correctIndex": 0,
-    "explanation": "**Answer: A) $346**\n\n**Work:**\n```\nStep 1 – Calculate Net Income:\n   Gross Income     = $1,800\n − Income Tax       =   $216\n − Payroll Tax      =   $108\n                    ────────\n   Net Income       = $1,476\n\nStep 2 – Calculate Total Expenses:\n   Rent             = $600\n   Food             = $200\n   Transportation   = $100\n   Savings          = $150\n   Entertainment    = $80\n                    ─────\n   Total Expenses   = $1,130\n\nStep 3 – Money Left Over:\n   \\(1,476 − \\)1,130 = $346\n```\n\n**One-sentence explanation:** First calculate net income by subtracting taxes, then subtract all monthly expenses from the net income to find what remains.",
+    "explanation": "**Answer: A) $346**\n\n**Work:**\n```\nStep 1 – Calculate Net Income:\n Gross Income = $1,800\n − Income Tax = $216\n − Payroll Tax = $108\n ────────\n Net Income = $1,476\n\nStep 2 – Calculate Total Expenses:\n Rent = $600\n Food = $200\n Transportation = $100\n Savings = $150\n Entertainment = $80\n ─────\n Total Expenses = $1,130\n\nStep 3 – Money Left Over:\n \\(1,476 − \\)1,130 = $346\n```\n\n**One-sentence explanation:** First calculate net income by subtracting taxes, then subtract all monthly expenses from the net income to find what remains.",
     "source": "authored",
     "needsReview": false
   },

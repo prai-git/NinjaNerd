@@ -35,7 +35,7 @@
       "\\(\\frac{15}{8}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nMultiply across: \\(\\frac{3 \\times 2}{4 \\times 5} = \\frac{6}{20} = \\frac{3}{10}\\).\n\n  multiplication.",
+    "explanation": "**Explanation:**\nMultiply across: \\(\\frac{3 \\times 2}{4 \\times 5} = \\frac{6}{20} = \\frac{3}{10}\\).\n\n multiplication.",
     "source": "authored",
     "needsReview": false
   },
@@ -55,7 +55,7 @@
       "\\(0.799\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nConvert everything to decimals: \\(\\frac{7}{8} = 0.875\\), \\(0.85\\), \\(\\frac{4}{5} = 0.8\\),\n\\(0.799\\). The largest is \\(0.875\\).\n\n  notation without converting is the trap.",
+    "explanation": "**Explanation:**\nConvert everything to decimals: \\(\\frac{7}{8} = 0.875\\), \\(0.85\\), \\(\\frac{4}{5} = 0.8\\),\n\\(0.799\\). The largest is \\(0.875\\).\n\n notation without converting is the trap.",
     "source": "authored",
     "needsReview": false
   },

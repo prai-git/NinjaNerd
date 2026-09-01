@@ -15,7 +15,7 @@
       "\\(10\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\n\\(30 + 18m = 156\\), so \\(18m = 126\\) and \\(m = 7\\) months. Subtract the one-off fee before\ndividing.\n\n  from arithmetic slips.",
+    "explanation": "**Explanation:**\n\\(30 + 18m = 156\\), so \\(18m = 126\\) and \\(m = 7\\) months. Subtract the one-off fee before\ndividing.\n\n from arithmetic slips.",
     "source": "authored",
     "needsReview": false
   },

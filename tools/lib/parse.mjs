@@ -527,6 +527,35 @@ function dropUnfixableDistractors(text) {
   return out.join('\n');
 }
 
+/* CROSS-QUESTION REFERENCES (2026-09-01, reported on the live site).
+
+   Authored sets number their questions, so a shared passage is introduced as
+
+       *Read the following passage and answer questions 34-37.*
+       *Use the diagram below for Questions 34-37:*
+
+   Practice serves ONE question at a time, in shuffled order. "Questions 34-37" refers to
+   nothing the child can see, and the owner hit exactly that: "what is questions 34-37".
+
+   Only the REFERENCE is removed. "Read the following passage" and "Use the diagram below"
+   are instructions the child still needs, so they stay, and the sentence is closed back up.
+   Both dash characters occur in the corpus -- an en dash and a hyphen -- hence [-\u2013\u2014]. */
+const CROSS_QUESTION = new RegExp(
+  '[ \\t]*(?:,?[ \\t]*(?:and|then)?[ \\t]*(?:answer|for|to answer))?'
+  + '[ \\t]*\\bQuestions?[ \\t]+\\d+[ \\t]*(?:[-\\u2013\\u2014][ \\t]*\\d+)?',
+  'gi',
+);
+
+export function stripCrossQuestionRefs(text) {
+  if (text == null) return text;
+  return String(text)
+    .replace(CROSS_QUESTION, '')
+    // Tidy what the removal leaves: " .*" -> ".*", " :*" -> ":*", doubled spaces.
+    .replace(/[ \t]+([.:;,])/g, '$1')
+    .replace(/[ \t]{2,}/g, ' ')
+    .replace(/[ \t]+$/gm, '');
+}
+
 /* Clean an explanation for display. Order matters: the standards line is removed before the
    answer key, so an explanation that opens with both collapses cleanly rather than leaving a
    blank first line. */

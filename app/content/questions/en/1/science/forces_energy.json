@@ -195,7 +195,7 @@
       "A thick book"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nLight passes through clear materials. Materials you cannot see through block light.\n\n  thick book.",
+    "explanation": "**Explanation:**\nLight passes through clear materials. Materials you cannot see through block light.\n\n thick book.",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "A cotton sock and a glass marble"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nMagnets attract objects made of iron or steel. Both objects in A are made of those metals.\n\n  attract any of them — note that **not every metal is magnetic** either.",
+    "explanation": "**Explanation:**\nMagnets attract objects made of iron or steel. Both objects in A are made of those metals.\n\n attract any of them — note that **not every metal is magnetic** either.",
     "source": "authored",
     "needsReview": false
   },

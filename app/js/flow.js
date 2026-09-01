@@ -52,10 +52,44 @@ export function requireLogin(returnUrl = location.pathname + location.search) {
 
 // Minimal, safe inline renderer: escape HTML, then **bold**/*italic*/`code` and
 // newlines. LaTeX ($…$) is left literal for now (KaTeX is a later polish).
+/* Markdown BACKSLASH ESCAPES — deliberately just `\_`.
+
+   Authors write `\_\_\_\_` for a fill-in-the-blank so the underscores are not read as
+   emphasis. Without this the child saw the backslashes on the live site (2026-09-01):
+
+       generous is to \_\_\_\_\_\_\_\_
+
+   NOTHING ELSE MAY BE UNESCAPED HERE. Almost every backslash in this corpus is LaTeX, not
+   markdown: `\(` and `\)` appear 1313 times each as the inline-maths delimiters KaTeX looks
+   for, alongside \frac, \times, \div, \pi and the rest. A general markdown unescape --
+   which is what this started as -- turned `0.25 x \(80 = \)20` into `0.25 x (80 = )20` and
+   would have broken maths in 303 items to fix 4.
+
+   Maths spans are masked out first even so. All 32 `\_` in the corpus today sit outside
+   maths, but a subscript like `x\_1` inside `\(...\)` is ordinary LaTeX and must survive. */
+const MATH_SPAN = /\\\([\s\S]*?\\\)/g;
+const ESCAPED_UNDERSCORE = /\\_/g;
+const SLOT = '\u0000';
+
+function unescapeOutsideMath(text) {
+  const maths = [];
+  // Park each maths span so the unescape below cannot reach inside it.
+  const parked = text.replace(MATH_SPAN, (m) => {
+    maths.push(m);
+    return SLOT;
+  });
+  const unescaped = parked.replace(ESCAPED_UNDERSCORE, '_');
+  let k = 0;
+  return unescaped.replace(new RegExp(SLOT, 'g'), () => maths[k++]);
+}
+
 export function renderInline(s) {
   const esc = String(s == null ? '' : s)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  return esc
+
+  /* Unescape LAST-but-one: after HTML escaping, before the emphasis passes, so `\_` becomes a
+     plain underscore that the `*`-based emphasis rules never look at anyway. */
+  return unescapeOutsideMath(esc)
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
@@ -161,6 +195,30 @@ export function renderBlocks(src) {
       while (i < lines.length && TABLE_ROW.test(lines[i])) rows.push(lines[i++]);
       i--; // the loop's i++ will step past the last consumed row
       out.push(renderTable(rows, delim));
+      continue;
+    }
+
+    /* BLOCKQUOTE. Authors set the sentence or passage a question is ABOUT as a quote:
+
+           Read the sentence below.
+
+           > The hikers were **fatigued** after climbing for six hours.
+
+           As used in the sentence, **fatigued** most nearly means —
+
+       Without this the child saw a literal "&gt;" in front of the very text they had to read
+       (reported on the live site, 2026-09-01). Consecutive `>` lines form one quote, and a
+       blank `>` line separates paragraphs inside it, which is how markdown behaves. */
+    if (/^\s*>\s?/.test(line)) {
+      flushText();
+      const buf = [];
+      while (i < lines.length && /^\s*>\s?/.test(lines[i])) {
+        buf.push(lines[i].replace(/^\s*>\s?/, ''));
+        i++;
+      }
+      i--; // the loop's i++ steps past the last consumed line
+      out.push('<blockquote class="blockquote border-start border-3 ps-3 my-3 fs-6">'
+        + `${renderInline(buf.join('\n'))}</blockquote>`);
       continue;
     }
 

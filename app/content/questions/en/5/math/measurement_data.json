@@ -87,7 +87,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "- Stem-and-Leaf Plot\nUse the stem-and-leaf plot below to answer the question.\n\n```\nStem | Leaf\n  2  | 3, 5, 7, 8\n  3  | 1, 4, 4, 6, 9\n  4  | 0, 2, 5\n\nKey: 2|3 = 23\n```\n\nWhat is the median of the data shown?",
+    "question": "- Stem-and-Leaf Plot\nUse the stem-and-leaf plot below to answer the question.\n\n```\nStem | Leaf\n 2 | 3, 5, 7, 8\n 3 | 1, 4, 4, 6, 9\n 4 | 0, 2, 5\n\nKey: 2|3 = 23\n```\n\nWhat is the median of the data shown?",
     "options": [
       "34",
       "35",
@@ -107,7 +107,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "- Bar Graph Interpretation\nThe bar graph below shows the number of books read by students during summer break.\n\n```\nBooks Read During Summer\n\nMaya    |████████████████| 16\nJordan  |████████████| 12\nTyler   |████████| 8\nSofia   |██████████████████████| 22\n```\n\nHow many more books did Sofia read than Jordan and Tyler combined?",
+    "question": "- Bar Graph Interpretation\nThe bar graph below shows the number of books read by students during summer break.\n\n```\nBooks Read During Summer\n\nMaya |████████████████| 16\nJordan |████████████| 12\nTyler |████████| 8\nSofia |██████████████████████| 22\n```\n\nHow many more books did Sofia read than Jordan and Tyler combined?",
     "options": [
       "2 books",
       "4 books",
@@ -227,7 +227,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "- Creating Bar Graphs\nThe table shows the number of students who chose each favorite sport.\n\n| Sport      | Number of Students |\n|------------|-------------------|\n| Soccer     | 45                |\n| Basketball | 30                |\n| Swimming   | 25                |\n| Baseball   | 35                |\n\nA student is creating a bar graph to display this data. Which elements MUST be included for the bar graph to be complete and properly labeled?",
+    "question": "- Creating Bar Graphs\nThe table shows the number of students who chose each favorite sport.\n\n| Sport | Number of Students |\n|------------|-------------------|\n| Soccer | 45 |\n| Basketball | 30 |\n| Swimming | 25 |\n| Baseball | 35 |\n\nA student is creating a bar graph to display this data. Which elements MUST be included for the bar graph to be complete and properly labeled?",
     "options": [
       "Title only",
       "Title and bars",
@@ -247,7 +247,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "- Creating Bar Graphs\nUsing the sports data from Question 21, a student draws a bar graph. Which title would be MOST appropriate for this bar graph?",
+    "question": "- Creating Bar Graphs\nUsing the sports data from, a student draws a bar graph. Which title would be MOST appropriate for this bar graph?",
     "options": [
       "\"Sports\"",
       "\"Students' Favorite Sports\"",
@@ -287,7 +287,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "- Bar Graph Interpretation\nLook at the bar graph data below showing monthly rainfall.\n\n**Monthly Rainfall in Austin, TX**\n\n| Month    | Rainfall (inches) |\n|----------|------------------|\n| January  | 2.5              |\n| February | 2.0              |\n| March    | 3.5              |\n| April    | 2.8              |\n| May      | 4.5              |\n\nBased on this data, how many more inches of rain fell in May compared to February?",
+    "question": "- Bar Graph Interpretation\nLook at the bar graph data below showing monthly rainfall.\n\n**Monthly Rainfall in Austin, TX**\n\n| Month | Rainfall (inches) |\n|----------|------------------|\n| January | 2.5 |\n| February | 2.0 |\n| March | 3.5 |\n| April | 2.8 |\n| May | 4.5 |\n\nBased on this data, how many more inches of rain fell in May compared to February?",
     "options": [
       "1.5 inches",
       "2.0 inches",
@@ -387,7 +387,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Stem-and-Leaf Plot\nThe stem-and-leaf plot below shows the daily high temperatures (°F) recorded for 15 days in April.\n\n```\nStem | Leaf\n  6  | 2  5  8\n  7  | 1  3  5  5  8\n  8  | 2  4  5  8\n  9  | 1  4  7\n\nKey: 6 | 2 = 62°F\n```\n\nWhat is the **median** temperature?",
+    "question": "— Stem-and-Leaf Plot\nThe stem-and-leaf plot below shows the daily high temperatures (°F) recorded for 15 days in April.\n\n```\nStem | Leaf\n 6 | 2 5 8\n 7 | 1 3 5 5 8\n 8 | 2 4 5 8\n 9 | 1 4 7\n\nKey: 6 | 2 = 62°F\n```\n\nWhat is the **median** temperature?",
     "options": [
       "75°F",
       "78°F",
@@ -407,7 +407,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Scatter Plot / Income and Expense\nA student surveys workers at various part-time jobs and records their hourly wage and weekly hours worked. The data shows that all workers earn $8 per hour.\n\n| Hours Worked | Weekly Earnings |\n|:---:|:---:|\n| 5  | $40  |\n| 10 | $80  |\n| 15 | $120 |\n| 20 | $160 |\n| 25 | $200 |\n| 30 | $240 |\n\nBased on this data, if a student **needs to earn at least $140 per week**, what is the **minimum number of hours** the student must work?",
+    "question": "— Scatter Plot / Income and Expense\nA student surveys workers at various part-time jobs and records their hourly wage and weekly hours worked. The data shows that all workers earn $8 per hour.\n\n| Hours Worked | Weekly Earnings |\n|:---:|:---:|\n| 5 | $40 |\n| 10 | $80 |\n| 15 | $120 |\n| 20 | $160 |\n| 25 | $200 |\n| 30 | $240 |\n\nBased on this data, if a student **needs to earn at least $140 per week**, what is the **minimum number of hours** the student must work?",
     "options": [
       "15 hours",
       "17 hours",
@@ -487,7 +487,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Stem-and-Leaf Plot\nThe stem-and-leaf plot below shows the scores of 11 students on a science quiz.\n\n```\nStem | Leaf\n-----|----------\n  5  | 2 6 8\n  6  | 0 3 5 7 9\n  7  | 1 4 8\n\nKey: 5 | 2 = 52\n```\n\nWhat is the **median** score?",
+    "question": "— Stem-and-Leaf Plot\nThe stem-and-leaf plot below shows the scores of 11 students on a science quiz.\n\n```\nStem | Leaf\n-----|----------\n 5 | 2 6 8\n 6 | 0 3 5 7 9\n 7 | 1 4 8\n\nKey: 5 | 2 = 52\n```\n\nWhat is the **median** score?",
     "options": [
       "60",
       "63",
@@ -667,7 +667,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Dot Plot\nThe dot plot below shows the vocabulary test scores (out of 10) for 12 students.\n\n```\n            •\n         •  •\n      •  •  •  •\n   •  •  •  •  •\n   6  7  8  9  10\n\nKey: Each • represents one student.\n```\n\n*(Score 6: 1 student; Score 7: 2 students; Score 8: 4 students; Score 9: 3 students; Score 10: 2 students)*\n\nHow many students scored **8 or higher**?",
+    "question": "— Dot Plot\nThe dot plot below shows the vocabulary test scores (out of 10) for 12 students.\n\n```\n •\n • •\n • • • •\n • • • • •\n 6 7 8 9 10\n\nKey: Each • represents one student.\n```\n\n*(Score 6: 1 student; Score 7: 2 students; Score 8: 4 students; Score 9: 3 students; Score 10: 2 students)*\n\nHow many students scored **8 or higher**?",
     "options": [
       "5 students",
       "7 students",
@@ -675,7 +675,7 @@
       "12 students"
     ],
     "correctIndex": 2,
-    "explanation": "**Step-by-step:**\nFrom the dot plot:\n| Score | Students |\n|-------|---------|\n| 6     | 1       |\n| 7     | 2       |\n| 8     | 4       |\n| 9     | 3       |\n| 10    | 2       |\n| **Total** | **12** |\n\nStudents who scored **8 or higher** (8, 9, or 10):\n- Score 8: 4 students\n- Score 9: 3 students\n- Score 10: 2 students\n- **Total = 4 + 3 + 2 = 9 students**",
+    "explanation": "**Step-by-step:**\nFrom the dot plot:\n| Score | Students |\n|-------|---------|\n| 6 | 1 |\n| 7 | 2 |\n| 8 | 4 |\n| 9 | 3 |\n| 10 | 2 |\n| **Total** | **12** |\n\nStudents who scored **8 or higher** (8, 9, or 10):\n- Score 8: 4 students\n- Score 9: 3 students\n- Score 10: 2 students\n- **Total = 4 + 3 + 2 = 9 students**",
     "source": "authored",
     "needsReview": false
   },
@@ -687,7 +687,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Stem-and-Leaf Plot [R]\nThe stem-and-leaf plot below shows the ages of participants in a community art class.\n\n```\nStem | Leaf\n-----|----------\n  2  | 3 5 7\n  3  | 1 4 4 6\n  4  | 0 2 8\n  5  | 3 6\n\nKey: 2 | 3 = 23\n```\n\nWhat is the **range** of the ages?",
+    "question": "— Stem-and-Leaf Plot [R]\nThe stem-and-leaf plot below shows the ages of participants in a community art class.\n\n```\nStem | Leaf\n-----|----------\n 2 | 3 5 7\n 3 | 1 4 4 6\n 4 | 0 2 8\n 5 | 3 6\n\nKey: 2 | 3 = 23\n```\n\nWhat is the **range** of the ages?",
     "options": [
       "23",
       "33",
@@ -707,7 +707,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Scatter Plot  [R]\nA teacher made a scatter plot comparing the **number of hours students study** each week with their **test scores**. As the number of study hours increased, the test scores also increased. Which statement BEST describes the relationship shown?",
+    "question": "— Scatter Plot [R]\nA teacher made a scatter plot comparing the **number of hours students study** each week with their **test scores**. As the number of study hours increased, the test scores also increased. Which statement BEST describes the relationship shown?",
     "options": [
       "There is a negative relationship between study hours and test scores.",
       "There is no relationship between study hours and test scores.",
@@ -727,7 +727,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Bar Graph [R]\nThe bar graph below shows the number of visitors to a state park over five months.\n\n| Month     | Visitors |\n|-----------|----------|\n| June      | 320      |\n| July      | 480      |\n| August    | 410      |\n| September | 250      |\n| October   | 180      |\n\nWhat is the **combined total** of visitors in **July and August**?",
+    "question": "— Bar Graph [R]\nThe bar graph below shows the number of visitors to a state park over five months.\n\n| Month | Visitors |\n|-----------|----------|\n| June | 320 |\n| July | 480 |\n| August | 410 |\n| September | 250 |\n| October | 180 |\n\nWhat is the **combined total** of visitors in **July and August**?",
     "options": [
       "730",
       "890",
@@ -847,7 +847,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Stem-and-Leaf: Median of 13 Values [R]\nThe stem-and-leaf plot shows the heights (in inches) of players on a basketball team.\n\n```\nStem | Leaf\n-----|----------\n  5  | 8 9\n  6  | 0 2 4 6 7\n  7  | 1 3 5 8\n  8  | 0 2\n\nKey: 5 | 8 = 58 inches\n```\n\nWhat is the **median** height of the players?",
+    "question": "— Stem-and-Leaf: Median of 13 Values [R]\nThe stem-and-leaf plot shows the heights (in inches) of players on a basketball team.\n\n```\nStem | Leaf\n-----|----------\n 5 | 8 9\n 6 | 0 2 4 6 7\n 7 | 1 3 5 8\n 8 | 0 2\n\nKey: 5 | 8 = 58 inches\n```\n\nWhat is the **median** height of the players?",
     "options": [
       "64 inches",
       "66 inches",
@@ -867,7 +867,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Dot Plot: Fractions as Data Values\nThe dot plot below shows the lengths (in feet) of ribbons in a craft store.\n\n```\n•  •\n•  •  •\n•  •  •  •  •\n1/4  1/2  3/4   1   1 1/4\n\nKey: Each • represents one ribbon.\n```\n\n*(1/4 ft: 2 ribbons; 1/2 ft: 3 ribbons; 3/4 ft: 2 ribbons; 1 ft: 4 ribbons; 1 1/4 ft: 1 ribbon)*\n\nHow many ribbons are **at least 1 foot** long?",
+    "question": "— Dot Plot: Fractions as Data Values\nThe dot plot below shows the lengths (in feet) of ribbons in a craft store.\n\n```\n• •\n• • •\n• • • • •\n1/4 1/2 3/4 1 1 1/4\n\nKey: Each • represents one ribbon.\n```\n\n*(1/4 ft: 2 ribbons; 1/2 ft: 3 ribbons; 3/4 ft: 2 ribbons; 1 ft: 4 ribbons; 1 1/4 ft: 1 ribbon)*\n\nHow many ribbons are **at least 1 foot** long?",
     "options": [
       "1",
       "4",
@@ -875,7 +875,7 @@
       "7"
     ],
     "correctIndex": 2,
-    "explanation": "**Step-by-step:**\nCount ribbons that are **at least 1 foot** (≥ 1 foot):\n\n| Length | Count | ≥ 1 foot? |\n|--------|-------|-----------|\n| 1/4 ft | 2     | No        |\n| 1/2 ft | 3     | No        |\n| 3/4 ft | 2     | No        |\n| 1 ft   | 4     | Yes ✓     |\n| 1 1/4 ft | 1   | Yes ✓     |\n\nRibbons ≥ 1 foot: 4 + 1 = **5 ribbons**\n\nTotal ribbons: 2 + 3 + 2 + 4 + 1 = 12 ✓",
+    "explanation": "**Step-by-step:**\nCount ribbons that are **at least 1 foot** (≥ 1 foot):\n\n| Length | Count | ≥ 1 foot? |\n|--------|-------|-----------|\n| 1/4 ft | 2 | No |\n| 1/2 ft | 3 | No |\n| 3/4 ft | 2 | No |\n| 1 ft | 4 | Yes ✓ |\n| 1 1/4 ft | 1 | Yes ✓ |\n\nRibbons ≥ 1 foot: 4 + 1 = **5 ribbons**\n\nTotal ribbons: 2 + 3 + 2 + 4 + 1 = 12 ✓",
     "source": "authored",
     "needsReview": false
   },
@@ -895,7 +895,7 @@
       "12 days"
     ],
     "correctIndex": 2,
-    "explanation": "**Step-by-step:**\nIdentify the pattern from the given data points:\n\n| Pages | Days |\n|-------|------|\n| 80    | 4    |\n| 160   | 8    |\n\nPattern: Days = Pages ÷ 20 (or 20 pages per day)\n\n**Check:** 80 ÷ 20 = 4 ✓; 160 ÷ 20 = 8 ✓\n\n**Predict for 200 pages:**\n- 200 ÷ 20 = **10 days**",
+    "explanation": "**Step-by-step:**\nIdentify the pattern from the given data points:\n\n| Pages | Days |\n|-------|------|\n| 80 | 4 |\n| 160 | 8 |\n\nPattern: Days = Pages ÷ 20 (or 20 pages per day)\n\n**Check:** 80 ÷ 20 = 4 ✓; 160 ÷ 20 = 8 ✓\n\n**Predict for 200 pages:**\n- 200 ÷ 20 = **10 days**",
     "source": "authored",
     "needsReview": false
   },
@@ -907,7 +907,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Bar Graph: Multi-Step Comparison [R]\nThe bar graph shows the number of students in each grade at a school.\n\n| Grade | Number of Students |\n|-------|--------------------|\n| 5th   | 280                |\n| 6th   | 245                |\n| 7th   | 310                |\n| 8th   | 265                |\n\nHow many MORE students are in **5th and 7th grade combined** than in **6th and 8th grade combined**?",
+    "question": "— Bar Graph: Multi-Step Comparison [R]\nThe bar graph shows the number of students in each grade at a school.\n\n| Grade | Number of Students |\n|-------|--------------------|\n| 5th | 280 |\n| 6th | 245 |\n| 7th | 310 |\n| 8th | 265 |\n\nHow many MORE students are in **5th and 7th grade combined** than in **6th and 8th grade combined**?",
     "options": [
       "45 more",
       "80 more",
@@ -927,7 +927,7 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "— Frequency Table: Percentage of Total\nThe frequency table shows the number of pets owned by students in a class.\n\n| Number of Pets | Number of Students |\n|:--------------:|:------------------:|\n| 0              | 2                  |\n| 1              | 6                  |\n| 2              | 8                  |\n| 3              | 3                  |\n| 4              | 1                  |\n\nWhat **percentage** of students own **2 or more pets**?",
+    "question": "— Frequency Table: Percentage of Total\nThe frequency table shows the number of pets owned by students in a class.\n\n| Number of Pets | Number of Students |\n|:--------------:|:------------------:|\n| 0 | 2 |\n| 1 | 6 |\n| 2 | 8 |\n| 3 | 3 |\n| 4 | 1 |\n\nWhat **percentage** of students own **2 or more pets**?",
     "options": [
       "40%",
       "50%",

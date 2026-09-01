@@ -7,7 +7,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "- Area of Composite Figures\nFind the area of the figure below:\n\n```\n        6 ft\n    ┌─────────┐\n    │         │ 4 ft\n    │    ┌────┘\n    │    │ 2 ft\n    │    │\n    └────┘\n     3 ft\n```\n\nThe figure is an L-shape with outer dimensions. The top rectangle is 6 ft × 4 ft, and a 3 ft × 2 ft piece is cut from the bottom right.",
+    "question": "- Area of Composite Figures\nFind the area of the figure below:\n\n```\n 6 ft\n ┌─────────┐\n │ │ 4 ft\n │ ┌────┘\n │ │ 2 ft\n │ │\n └────┘\n 3 ft\n```\n\nThe figure is an L-shape with outer dimensions. The top rectangle is 6 ft × 4 ft, and a 3 ft × 2 ft piece is cut from the bottom right.",
     "options": [
       "18 sq ft",
       "24 sq ft",
@@ -167,7 +167,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "- Area of Composite Figures\nA playground is shaped like the figure below. Find the total area.\n\n```\n    ←── 10 m ──→\n    ┌───────────┐\n    │           │ 6 m\n    │     ┌─────┤\n    │     │     │ 4 m\n    └─────┘     │\n    ←4 m→←─ 6 m─→\n```\n\nThe figure is an L-shape. The main rectangle is 10 m × 6 m with a 4 m × 4 m section removed from the bottom left.",
+    "question": "- Area of Composite Figures\nA playground is shaped like the figure below. Find the total area.\n\n```\n ←── 10 m ──→\n ┌───────────┐\n │ │ 6 m\n │ ┌─────┤\n │ │ │ 4 m\n └─────┘ │\n ←4 m→←─ 6 m─→\n```\n\nThe figure is an L-shape. The main rectangle is 10 m × 6 m with a 4 m × 4 m section removed from the bottom left.",
     "options": [
       "44 square meters",
       "60 square meters",
@@ -227,7 +227,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "- Graphing Patterns\nThe equation y = 3x describes the relationship between hours worked (x) and money earned (y) in dollars. Complete the table and identify which ordered pair is NOT on the graph of this equation.\n\n| x (hours) | y (dollars) |\n|-----------|-------------|\n| 1         | 3           |\n| 2         | 6           |\n| 3         | 9           |\n| 4         | ?           |",
+    "question": "- Graphing Patterns\nThe equation y = 3x describes the relationship between hours worked (x) and money earned (y) in dollars. Complete the table and identify which ordered pair is NOT on the graph of this equation.\n\n| x (hours) | y (dollars) |\n|-----------|-------------|\n| 1 | 3 |\n| 2 | 6 |\n| 3 | 9 |\n| 4 | ? |",
     "options": [
       "(4, 12)",
       "(5, 15)",
@@ -235,7 +235,7 @@
       "(7, 20)"
     ],
     "correctIndex": 3,
-    "explanation": "**Answer: D) (7, 20)**\n\n**Step-by-step solution:**\n1. Equation: y = 3x\n2. Check each ordered pair:\n   - (4, 12): y = 3 × 4 = 12 ✓\n   - (5, 15): y = 3 × 5 = 15 ✓\n   - (6, 18): y = 3 × 6 = 18 ✓\n   - (7, 20): y = 3 × 7 = 21, NOT 20 ✗\n3. The pair (7, 20) does NOT satisfy y = 3x\n\n**Key Concept:** Verifying ordered pairs in linear equations.",
+    "explanation": "**Answer: D) (7, 20)**\n\n**Step-by-step solution:**\n1. Equation: y = 3x\n2. Check each ordered pair:\n - (4, 12): y = 3 × 4 = 12 ✓\n - (5, 15): y = 3 × 5 = 15 ✓\n - (6, 18): y = 3 × 6 = 18 ✓\n - (7, 20): y = 3 × 7 = 21, NOT 20 ✗\n3. The pair (7, 20) does NOT satisfy y = 3x\n\n**Key Concept:** Verifying ordered pairs in linear equations.",
     "source": "authored",
     "needsReview": false
   },
@@ -247,7 +247,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Area of Composite Figures\nThe figure below is an L-shape. The full outer rectangle is 10 ft × 8 ft, and a rectangular piece measuring 4 ft × 3 ft has been removed from the top-right corner.\n\n```\n←──── 10 ft ────→\n┌──────────┬────┐  ↑\n│          │    │  3 ft\n│          └────┘  ↓\n│                │\n│                │  5 ft\n└────────────────┘\n```\n\nWhat is the area of the L-shaped figure?",
+    "question": "— Area of Composite Figures\nThe figure below is an L-shape. The full outer rectangle is 10 ft × 8 ft, and a rectangular piece measuring 4 ft × 3 ft has been removed from the top-right corner.\n\n```\n←──── 10 ft ────→\n┌──────────┬────┐ ↑\n│ │ │ 3 ft\n│ └────┘ ↓\n│ │\n│ │ 5 ft\n└────────────────┘\n```\n\nWhat is the area of the L-shaped figure?",
     "options": [
       "56 sq ft",
       "62 sq ft",
@@ -387,7 +387,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Graphing Patterns / Tables\nThe table below shows values from a pattern.\n\n| x | y  |\n|---|----|\n| 2 | 10 |\n| 4 | 20 |\n| 6 | 30 |\n| 8 | 40 |\n\nWhich equation represents this pattern?",
+    "question": "— Graphing Patterns / Tables\nThe table below shows values from a pattern.\n\n| x | y |\n|---|----|\n| 2 | 10 |\n| 4 | 20 |\n| 6 | 30 |\n| 8 | 40 |\n\nWhich equation represents this pattern?",
     "options": [
       "y = 2x",
       "y = 4x",
@@ -427,7 +427,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Area of a Composite Figure\nThe figure below shows a flower bed made from two rectangles joined together.\n\n```\n+------------------+\n|                  |\n|     10 ft        |\n|                  | 6 ft\n|                  |\n+-----+------------+\n      |\n 4 ft |  3 ft\n      |\n      +------+\n```\n\nThe larger rectangle measures **10 ft by 6 ft** and the smaller rectangle attached to it measures **4 ft by 3 ft**. What is the total area of the flower bed?",
+    "question": "— Area of a Composite Figure\nThe figure below shows a flower bed made from two rectangles joined together.\n\n```\n+------------------+\n| |\n| 10 ft |\n| | 6 ft\n| |\n+-----+------------+\n |\n 4 ft | 3 ft\n |\n +------+\n```\n\nThe larger rectangle measures **10 ft by 6 ft** and the smaller rectangle attached to it measures **4 ft by 3 ft**. What is the total area of the flower bed?",
     "options": [
       "60 sq ft",
       "66 sq ft",
@@ -567,7 +567,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Hierarchy of Quadrilaterals  **[Readiness]**\nWhich statement about quadrilaterals is **TRUE**?",
+    "question": "— Hierarchy of Quadrilaterals **[Readiness]**\nWhich statement about quadrilaterals is **TRUE**?",
     "options": [
       "All parallelograms are squares.",
       "All rectangles are parallelograms.",
@@ -615,7 +615,7 @@
       "All quadrilaterals are parallelograms."
     ],
     "correctIndex": 0,
-    "explanation": "**Step-by-step:**\nUnderstanding the hierarchy of quadrilaterals:\n- **Rhombus**: A parallelogram with all 4 sides equal\n- **Square**: A rectangle AND a rhombus — all 4 sides equal AND all 4 angles are 90°\n\nSince a square has all 4 sides equal, it meets the definition of a rhombus. Therefore, **every square IS a rhombus**. ✓\n\n**Hierarchy:** Quadrilateral → Parallelogram → Rectangle → Square\n                                         → Rhombus → Square",
+    "explanation": "**Step-by-step:**\nUnderstanding the hierarchy of quadrilaterals:\n- **Rhombus**: A parallelogram with all 4 sides equal\n- **Square**: A rectangle AND a rhombus — all 4 sides equal AND all 4 angles are 90°\n\nSince a square has all 4 sides equal, it meets the definition of a rhombus. Therefore, **every square IS a rhombus**. ✓\n\n**Hierarchy:** Quadrilateral → Parallelogram → Rectangle → Square\n → Rhombus → Square",
     "source": "authored",
     "needsReview": false
   },
@@ -655,7 +655,7 @@
       "69.0 feet"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\n**Perimeter = sum of all sides**\n\n```\n  7.5\n  9.2\n+ 6.3\n-----\n 23.0\n```\n\n- Tenths: 5 + 2 + 3 = 10 → write 0, carry 1\n- Ones: 7 + 9 + 6 + 1 (carry) = 23 → write 3, carry 2\n- Tens: 2\n\n**Perimeter = 23.0 feet**",
+    "explanation": "**Step-by-step:**\n**Perimeter = sum of all sides**\n\n```\n 7.5\n 9.2\n+ 6.3\n-----\n 23.0\n```\n\n- Tenths: 5 + 2 + 3 = 10 → write 0, carry 1\n- Ones: 7 + 9 + 6 + 1 (carry) = 23 → write 3, carry 2\n- Tens: 2\n\n**Perimeter = 23.0 feet**",
     "source": "authored",
     "needsReview": false
   },
@@ -727,7 +727,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Graphing Ordered Pairs from a Pattern  [R]\nMia earns **$3 for every magazine** she sells. The table shows her earnings.\n\n| Magazines Sold (x) | Earnings in dollars (y) |\n|--------------------|--------------------------|\n| 1                  | 3                        |\n| 2                  | 6                        |\n| 3                  | 9                        |\n| 4                  | ?                        |\n\nWhat is the missing value, and what ordered pair represents selling **4 magazines**?",
+    "question": "— Graphing Ordered Pairs from a Pattern [R]\nMia earns **$3 for every magazine** she sells. The table shows her earnings.\n\n| Magazines Sold (x) | Earnings in dollars (y) |\n|--------------------|--------------------------|\n| 1 | 3 |\n| 2 | 6 |\n| 3 | 9 |\n| 4 | ? |\n\nWhat is the missing value, and what ordered pair represents selling **4 magazines**?",
     "options": [
       "(4, 9)",
       "(4, 12)",
@@ -735,7 +735,7 @@
       "(4, 16)"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\nThe pattern is y = 3x (Mia earns $3 per magazine).\n\nWhen x = 4:\n- y = 3 × 4 = **12**\n- Ordered pair: **(4, 12)**\n\n| x | y = 3x |\n|---|--------|\n| 1 | 3      |\n| 2 | 6      |\n| 3 | 9      |\n| 4 | **12** |",
+    "explanation": "**Step-by-step:**\nThe pattern is y = 3x (Mia earns $3 per magazine).\n\nWhen x = 4:\n- y = 3 × 4 = **12**\n- Ordered pair: **(4, 12)**\n\n| x | y = 3x |\n|---|--------|\n| 1 | 3 |\n| 2 | 6 |\n| 3 | 9 |\n| 4 | **12** |",
     "source": "authored",
     "needsReview": false
   },
@@ -755,7 +755,7 @@
       "(5, 9)"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\nCheck each ordered pair in **y = x + 5**:\n\n| Ordered Pair | x + 5 = y? | Check |\n|--------------|-----------|-------|\n| (2, 6)       | 2 + 5 = 7 ≠ 6 | ✗ |\n| **(3, 8)**   | 3 + 5 = 8 ✓ | **✓** |\n| (4, 8)       | 4 + 5 = 9 ≠ 8 | ✗ |\n| (5, 9)       | 5 + 5 = 10 ≠ 9 | ✗ |\n\n**Correct pair: (3, 8)**\n\n**Key concept:** A solution to y = x + 5 must satisfy the equation. Only (3, 8) works.",
+    "explanation": "**Step-by-step:**\nCheck each ordered pair in **y = x + 5**:\n\n| Ordered Pair | x + 5 = y? | Check |\n|--------------|-----------|-------|\n| (2, 6) | 2 + 5 = 7 ≠ 6 | ✗ |\n| **(3, 8)** | 3 + 5 = 8 ✓ | **✓** |\n| (4, 8) | 4 + 5 = 9 ≠ 8 | ✗ |\n| (5, 9) | 5 + 5 = 10 ≠ 9 | ✗ |\n\n**Correct pair: (3, 8)**\n\n**Key concept:** A solution to y = x + 5 must satisfy the equation. Only (3, 8) works.",
     "source": "authored",
     "needsReview": false
   },
@@ -767,7 +767,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Volume  [R]\nA large shipping container has a **length of 20 feet**, a **width of 8 feet**, and a **height of 9 feet**. A second container has a volume of **900 cubic feet**. How much **greater** is the volume of the shipping container than the second container?",
+    "question": "— Multi-Step Volume [R]\nA large shipping container has a **length of 20 feet**, a **width of 8 feet**, and a **height of 9 feet**. A second container has a volume of **900 cubic feet**. How much **greater** is the volume of the shipping container than the second container?",
     "options": [
       "540 cubic feet",
       "600 cubic feet",
@@ -827,7 +827,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Perimeter to Find Area  [R]\nThe **perimeter** of a rectangle is **54 feet**. One side measures **8 feet**. What is the **area** of the rectangle?",
+    "question": "— Perimeter to Find Area [R]\nThe **perimeter** of a rectangle is **54 feet**. One side measures **8 feet**. What is the **area** of the rectangle?",
     "options": [
       "54 sq feet",
       "144 sq feet",
@@ -867,7 +867,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Volume of a Composite Prism  [R]\nA fish tank is made of **two rectangular prisms** stacked together.\n- **Bottom prism:** length = 18 in, width = 10 in, height = 8 in\n- **Top prism:** length = 18 in, width = 10 in, height = 4 in\n\nWhat is the **total volume** of the fish tank?",
+    "question": "— Volume of a Composite Prism [R]\nA fish tank is made of **two rectangular prisms** stacked together.\n- **Bottom prism:** length = 18 in, width = 10 in, height = 8 in\n- **Top prism:** length = 18 in, width = 10 in, height = 4 in\n\nWhat is the **total volume** of the fish tank?",
     "options": [
       "1,440 cubic inches",
       "1,800 cubic inches",
@@ -887,7 +887,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Volume with Decimal Dimensions  [R]\nA box for storing craft supplies has a **length of 14.5 cm**, a **width of 8 cm**, and a **height of 6.5 cm**. What is the **volume** of the box?",
+    "question": "— Volume with Decimal Dimensions [R]\nA box for storing craft supplies has a **length of 14.5 cm**, a **width of 8 cm**, and a **height of 6.5 cm**. What is the **volume** of the box?",
     "options": [
       "29 cm³",
       "464 cm³",
@@ -907,7 +907,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Identify the Equation from a Table [R]\nThe table below shows pairs of *x* and *y* values. Which equation represents this relationship?\n\n| x | y  |\n|---|----|\n| 3 | 17 |\n| 5 | 19 |\n| 7 | 21 |\n| 9 | 23 |",
+    "question": "— Identify the Equation from a Table [R]\nThe table below shows pairs of *x* and *y* values. Which equation represents this relationship?\n\n| x | y |\n|---|----|\n| 3 | 17 |\n| 5 | 19 |\n| 7 | 21 |\n| 9 | 23 |",
     "options": [
       "y = 5x + 2",
       "y = x + 14",
@@ -915,7 +915,7 @@
       "y = x + 10"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\nTest y = x + 14 with each row:\n\n| x | x + 14 | y (given) | Match? |\n|---|--------|-----------|--------|\n| 3 | 17     | 17        | ✓      |\n| 5 | 19     | 19        | ✓      |\n| 7 | 21     | 21        | ✓      |\n| 9 | 23     | 23        | ✓      |\n\nAll rows match. The rule is **y = x + 14** (additive pattern — x increases by 2, y increases by 2).",
+    "explanation": "**Step-by-step:**\nTest y = x + 14 with each row:\n\n| x | x + 14 | y (given) | Match? |\n|---|--------|-----------|--------|\n| 3 | 17 | 17 | ✓ |\n| 5 | 19 | 19 | ✓ |\n| 7 | 21 | 21 | ✓ |\n| 9 | 23 | 23 | ✓ |\n\nAll rows match. The rule is **y = x + 14** (additive pattern — x increases by 2, y increases by 2).",
     "source": "authored",
     "needsReview": false
   },
@@ -927,7 +927,7 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "— Two Patterns Compared on a Coordinate Plane [R]\nPriya saves money using the rule **y = 5x** (saves $5 per week). Kevin uses the rule **y = x + 20** (started with $20 and saves $1 per week). After how many weeks will they have saved the **same amount**?\n\n| Weeks (x) | Priya y = 5x | Kevin y = x + 20 |\n|-----------|--------------|-----------------|\n| 1         | 5            | 21              |\n| 2         | 10           | 22              |\n| 3         | 15           | 23              |\n| 4         | 20           | 24              |\n| 5         | ?            | ?               |",
+    "question": "— Two Patterns Compared on a Coordinate Plane [R]\nPriya saves money using the rule **y = 5x** (saves $5 per week). Kevin uses the rule **y = x + 20** (started with $20 and saves $1 per week). After how many weeks will they have saved the **same amount**?\n\n| Weeks (x) | Priya y = 5x | Kevin y = x + 20 |\n|-----------|--------------|-----------------|\n| 1 | 5 | 21 |\n| 2 | 10 | 22 |\n| 3 | 15 | 23 |\n| 4 | 20 | 24 |\n| 5 | ? | ? |",
     "options": [
       "3 weeks",
       "4 weeks",

@@ -395,7 +395,7 @@
       "\\(6 : 9\\)"
     ],
     "correctIndex": 2,
-    "explanation": "Boys : girls \\(= 12 : 18\\). Divide both parts by the GCF, 6: \\(12 \\div 6 = 2\\), \\(18 \\div 6 = 3\\), giving **2 : 3**.",
+    "explanation": "Boys: girls \\(= 12: 18\\). Divide both parts by the GCF, 6: \\(12 \\div 6 = 2\\), \\(18 \\div 6 = 3\\), giving **2: 3**.",
     "source": "authored",
     "needsReview": false
   },
