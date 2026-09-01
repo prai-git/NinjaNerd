@@ -83,7 +83,12 @@ for (const it of items) {
   const q = it.question || '';
   const citesNamedPrinciple =
     /according to the\s+\**\s*(law|theory|principle|rule|formula)\b/i.test(q);
-  if (!it.passage && !citesNamedPrinciple &&
+  /* A question may carry its reading text INLINE as a blockquote rather than in the shared
+     `passage` field. That is self-contained and answerable -- the only thing this check cares
+     about -- and it is the better shape here, because practice serves one shuffled question at
+     a time, so a passage shared across a numbered run is the awkward case. */
+  const carriesTextInline = /^\s*>/m.test(q);
+  if (!it.passage && !citesNamedPrinciple && !carriesTextInline &&
       /\b(the passage|the story|the poem|the excerpt|according to the|in passage \d)\b/i.test(q)) {
     add('orphan-passage', it, q.slice(0, 70));
   }

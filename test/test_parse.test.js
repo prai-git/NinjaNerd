@@ -6,6 +6,7 @@ import { dirname, join } from 'node:path';
 import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug,
   extractAnswerLetter, extractAnswerText, cleanExplanation, stripCrossQuestionRefs,
+  cleanQuestion,
 } from '../tools/lib/parse.mjs';
 
 const fx = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
@@ -333,6 +334,18 @@ test('the built content carries passages through to the JSON', () => {
   let total = 0; let withPassage = 0; let orphaned = 0;
   const refersToText =
     /\b(the passage|the story|the poem|the excerpt|according to the|the author|in passage \d)\b/i;
+  /* A question may carry its own text INLINE as a blockquote instead of using the shared
+     `passage` field:
+
+         Read the passage below.
+         > The lighthouse keeper had not spoken to anyone in nine weeks.
+         What does the passage suggest about the keeper?
+
+     That is self-contained and answerable, which is the only thing this guard actually cares
+     about. It is also the better shape for THIS app: practice serves one shuffled question at
+     a time, so a passage shared across a numbered run of questions is the awkward case and a
+     question that carries its own text is the clean one. */
+  const carriesTextInline = (q) => /^\s*>/m.test(q || '');
   for (const [g, subs] of Object.entries(manifest.grades)) {
     for (const [subj, entries] of Object.entries(subs)) {
       for (const e of entries) {
@@ -341,7 +354,9 @@ test('the built content carries passages through to the JSON', () => {
         for (const it of items) {
           total++;
           if (it.passage) withPassage++;
-          else if (refersToText.test(it.question || '')) orphaned++;
+          else if (refersToText.test(it.question || '') && !carriesTextInline(it.question)) {
+            orphaned++;
+          }
         }
       }
     }
@@ -351,6 +366,10 @@ test('the built content carries passages through to the JSON', () => {
      and only the count caught it. */
   assert.ok(total >= 1368, `item count fell to ${total}; a parser change is dropping questions`);
   assert.ok(withPassage > 300, `expected 300+ items with passages, got ${withPassage}`);
+  /* Four pre-existing grade-5 items still reference a passage they neither own nor carry
+     inline (english_g5_2026-04-03_10-15 q3, q4, q8 and one more). They are known and within
+     tolerance; the bound stays low so a regression that orphans a run of questions still
+     fails, as it did when 175 shipped unanswerable. */
   assert.ok(orphaned <= 10, `${orphaned} questions still refer to a passage they do not have`);
 });
 
@@ -552,4 +571,46 @@ test('no shipped item references a question number', () => {
     }
   }(root));
   assert.deepEqual(offenders, [], `these reference a question number: ${offenders.slice(0, 5)}`);
+});
+
+/* A standards code must never reach a child, wherever the author put it. stripStandardsAnnotation
+   only inspects line 1, which is right for a heading but misses a question that opens with its
+   reading text and carries the code after the passage — 13 items shipped showing "TEKS 6.5F"
+   mid-question before this was added. */
+test('cleanQuestion strips a standards code from anywhere in a question', () => {
+  const q = 'Read the passage below.\n\n> The keeper had not spoken in weeks.\n\n'
+    + '**TEKS 6.5F**\nWhat does the passage suggest?';
+  const out = cleanQuestion(q);
+  assert.doesNotMatch(out, /TEKS/);
+  assert.match(out, /lighthouse|keeper/i, 'the reading text must survive');
+  assert.match(out, /What does the passage suggest/, 'and so must the question');
+});
+
+test('cleanQuestion leaves ordinary question text alone', () => {
+  for (const keep of [
+    'Which expression has the greatest value?',
+    'Read the sentence below.\n\n> The hikers were tired.\n\nWhat does *tired* mean?',
+    '**Topic:** Finding Percent Discount',
+  ]) {
+    assert.equal(cleanQuestion(keep), keep.trim(), `must survive: ${keep}`);
+  }
+});
+
+test('no shipped question contains a standards code', () => {
+  const root = join(repoRoot, 'app/content/questions/en');
+  const offenders = [];
+  (function walk(dir) {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (name.endsWith('.json') && name !== 'manifest.json') {
+        for (const item of JSON.parse(readFileSync(p, 'utf8'))) {
+          if (/\b(TEKS|MAP area|NWEA|Instructional Area)\b/.test(item.question || '')) {
+            offenders.push(item.id);
+          }
+        }
+      }
+    }
+  }(root));
+  assert.deepEqual(offenders, [], `these show a standards code: ${offenders.slice(0, 5)}`);
 });

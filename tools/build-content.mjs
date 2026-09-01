@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug, cleanExplanation,
-  stripCrossQuestionRefs,
+  stripCrossQuestionRefs, cleanQuestion,
 } from './lib/parse.mjs';
 import { buildItem, splitMultiPart } from './lib/mcq.mjs';
 import { mapSubtopic } from './lib/subtopic-map.mjs';
@@ -57,7 +57,7 @@ export async function buildFile({ filename, questionsMd, answersMd, llm }) {
            nothing the child can see. The instruction around it is kept. */
         passage: part.passage ? stripCrossQuestionRefs(part.passage) : null,
         passageTitle: part.passageTitle || null,
-        question: stripCrossQuestionRefs(part.text),
+        question: cleanQuestion(stripCrossQuestionRefs(part.text)),
         options: built.options,
         correctIndex: built.correctIndex,
         /* Cleaned at BUILD time, not in the browser: the authoring format leaks the answer

@@ -118,5 +118,465 @@
     "explanation": "**Explanation:** The trees growing back is the **result** of the elk no longer overgrazing, so a cause/result transition — **\"As a result\"** — fits.\n**Why others are wrong:** \"However\" and D \"In contrast\" signal opposition; \"For example\" signals an illustration, not a result.\n**Key concept:** Choose transitions that match the logical relationship (here, cause → result).",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q24",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct verb: *The box of old photographs ____ on the top shelf.*",
+    "options": [
+      "sit",
+      "sits",
+      "were sitting",
+      "have sat"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe subject is *box*, which is singular. *Of old photographs* is a prepositional phrase and never controls the verb.\n\n**Key concept:** Ignore intervening prepositional phrases when checking agreement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q25",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the agreement error? *Neither of the answers seem correct.*",
+    "options": [
+      "Neither of the answers seems correct.",
+      "Neither of the answer seem correct.",
+      "Neither of the answers are correct.",
+      "Neither of the answers were correct."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Neither* is singular, so it takes *seems*. The plural *answers* sits inside a prepositional phrase.\n\n**Key concept:** *Neither*, *either* and *each* are singular subjects.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q26",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence places *only* most precisely to mean she ate nothing but toast?",
+    "options": [
+      "Only she ate toast for breakfast.",
+      "She only ate toast for breakfast.",
+      "She ate only toast for breakfast.",
+      "She ate toast only for breakfast."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\n*Only* modifies whatever follows it. Before *toast*, it limits what she ate. Before *ate* it would limit the action, and at the start it would limit who.\n\n**Key concept:** Place *only* immediately before the word it limits.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q27",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is correct? *Each of the students, along with the teacher, ____ attending.*",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe subject is *each*, which is singular. Phrases beginning *along with*, *as well as* or *in addition to* do not make a singular subject plural.\n\n**Key concept:** *Along with* does not create a compound subject.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q28",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Identify the error: *Having finished the report, the printer was switched off by Amina.*",
+    "options": [
+      "Dangling modifier — the printer did not finish the report",
+      "Subject-verb disagreement",
+      "Comma splice",
+      "No error"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe opening phrase must describe the subject that follows, but the subject is *the printer*. Recasting as \"Having finished the report, Amina switched off the printer\" fixes it.\n\n**Key concept:** Passive voice often creates dangling modifiers by displacing the actor.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q29",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **who's** and **whose** correctly?",
+    "options": [
+      "Who's coat is this, and whose coming with us?",
+      "Whose coat is this, and who's coming with us?",
+      "Whose coat is this, and whose coming with us?",
+      "Who's coat is this, and who's coming with us?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Whose* is the possessive; *who's* contracts *who is*. Expanding the contraction tests it: \"who is coming with us\" works, \"who is coat is this\" does not.\n\n**Key concept:** The apostrophe marks a contraction, not possession, in *who's*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q30",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision is in the **active** voice? *The results were analysed by the committee.*",
+    "options": [
+      "The committee analysed the results.",
+      "The results, analysed by the committee, were published.",
+      "Analysis of the results was done.",
+      "The results had been analysed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe actor becomes the subject and the verb becomes direct. The others keep the passive or hide the actor entirely.\n\n**Key concept:** Active voice puts the doer in the subject position.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q31",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct pronoun: *Between you and ____, the plan will not work.*",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Between* is a preposition, so it takes the object pronoun. \"Between you and I\" is a common overcorrection.\n\n**Key concept:** Prepositions take object pronouns, even in a pair.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q32",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **past participle** correctly?",
+    "options": [
+      "She has wrote three drafts.",
+      "She has written three drafts.",
+      "She has writing three drafts.",
+      "She has write three drafts."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe present perfect uses *has* plus the past participle *written*. *Wrote* is the simple past and cannot follow *has*.\n\n**Key concept:** Write → wrote (past) → written (past participle).",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q33",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is punctuated correctly?",
+    "options": [
+      "The results, which surprised everyone were published on Monday.",
+      "The results which surprised everyone, were published on Monday.",
+      "The results, which surprised everyone, were published on Monday.",
+      "The results which, surprised everyone, were published on Monday."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nA nonrestrictive clause needs a comma on **both** sides. One comma leaves the clause half-enclosed.\n\n**Key concept:** Paired commas enclose non-essential information.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q34",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the faulty comparison? *Her score was higher than the other students.*",
+    "options": [
+      "Her score was higher than the other students' scores.",
+      "Her score was higher than the other students was.",
+      "Her score, higher than the other students.",
+      "Her score was more higher than the other students."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe original compares a score with students. Comparisons must be between like things — score with scores.\n\n**Key concept:** Compare like with like.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q35",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct form: *The data ____ inconclusive.*",
+    "options": [
+      "are",
+      "is being",
+      "has been",
+      "were been"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIn formal and scientific writing *data* is treated as the plural of *datum*, so it takes *are*.\n\n**Key concept:** Some Latin-derived nouns keep plural agreement in formal registers.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q36",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence avoids the **split** that confuses meaning? *She decided to quickly and without warning leave.*",
+    "options": [
+      "She decided to leave quickly and without warning.",
+      "She quickly decided to and without warning leave.",
+      "To quickly leave she decided without warning.",
+      "She decided quickly to without warning leave."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nKeeping *to leave* together and placing the modifiers after it removes the awkward interruption while preserving the meaning.\n\n**Key concept:** Move modifiers rather than splitting a verb phrase awkwardly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q37",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **colon** correctly?",
+    "options": [
+      "She packed three things: a map, a torch, and rope.",
+      "She packed: a map, a torch, and rope.",
+      "She packed three things; a map, a torch, and rope.",
+      "She: packed three things."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWhat comes before a colon must be a complete sentence. \"She packed:\" is not.\n\n**Key concept:** A colon follows an independent clause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q38",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Identify the correct sentence.",
+    "options": [
+      "The reason for the delay is because the parts arrived late.",
+      "The reason for the delay is that the parts arrived late.",
+      "The reason for the delay is due to the parts arriving late because of lateness.",
+      "The reason is because of the delay."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n\"The reason … is because\" states the cause twice. *That* introduces the explanation cleanly.\n\n**Key concept:** Use *the reason is that*, not *the reason is because*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q39",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence keeps pronoun-antecedent agreement?",
+    "options": [
+      "Every student must bring their own calculator.",
+      "Every student must bring his or her own calculator.",
+      "Both A and B are now widely accepted.",
+      "Every students must bring their calculator."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\n*His or her* is the traditional form. Singular *they* is now accepted by major style guides including Chicago, AP and Merriam-Webster, and is preferred when gender is unknown or irrelevant. Option D fails on *every students*.\n\n**Key concept:** Usage evolves; both forms are current standard English.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q40",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is free of a **misplaced modifier**?",
+    "options": [
+      "She served sandwiches to the children on paper plates.",
+      "She served the children sandwiches on paper plates.",
+      "On paper plates she served the children who were sandwiches.",
+      "Sandwiches on paper plates she served children."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nHere *on paper plates* sits next to *sandwiches*, which is what was on the plates. In option A it lands next to *children*, implying the children were on plates.\n\n**Key concept:** Place a modifier beside the word it modifies.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q41",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct verb: *Mathematics ____ my favourite subject.*",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Mathematics* ends in *-s* but names a single field of study, so it takes a singular verb.\n\n**Key concept:** Some *-s* nouns are singular in meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q42",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **conditional** correctly?",
+    "options": [
+      "If it rains tomorrow, we will cancel the match.",
+      "If it will rain tomorrow, we cancel the match.",
+      "If it rained tomorrow, we cancelled the match.",
+      "If it rains tomorrow, we cancelled the match."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA first conditional uses the present tense in the *if* clause and *will* in the result clause. *If it will rain* is not standard.\n\n**Key concept:** The *if* clause takes the present tense even for future events.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q43",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the double comparative? *This route is more quicker than the other.*",
+    "options": [
+      "This route is quicker than the other.",
+      "This route is more quick than the other.",
+      "This route is most quicker.",
+      "This route is more quicker still."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Quicker* is already comparative, so adding *more* doubles it. Short adjectives take *-er*, not *more*.\n\n**Key concept:** Never combine *more* with an *-er* comparative.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q44",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is correct?",
+    "options": [
+      "The team have won its final three matches.",
+      "The team has won its final three matches.",
+      "The team has won their final three matches, acting as one unit.",
+      "The team have won it's final three matches."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nTreating the team as one unit requires a singular verb **and** a singular pronoun. Option C mixes *has* with *their*, and D adds *it's* for *its*.\n\n**Key concept:** Keep verb and pronoun consistent with the collective noun's sense.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q45",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **lie** correctly in the present tense?",
+    "options": [
+      "I lie down for twenty minutes after lunch.",
+      "I lay down for twenty minutes after lunch each day.",
+      "I laid down for twenty minutes each day.",
+      "I am laying down now."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Lie* is the present tense of reclining. *Lay* is its past tense, *laid* belongs to *lay* (to place), and *laying* needs an object.\n\n**Key concept:** Present *lie*, past *lay*; *lay/laid* requires an object.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q46",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates the introductory clause?",
+    "options": [
+      "When the results arrived the team celebrated.",
+      "When the results arrived, the team celebrated.",
+      "When, the results arrived the team celebrated.",
+      "When the results, arrived the team celebrated."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nAn introductory subordinate clause is followed by a comma before the main clause. The other options break the clause apart.\n\n**Key concept:** Comma after a leading subordinate clause.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

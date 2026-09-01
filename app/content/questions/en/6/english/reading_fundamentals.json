@@ -118,5 +118,465 @@
     "explanation": "**Explanation:**\nA theme is the broader message. Eleven years of unremarkable walks became irreplaceable\nevidence.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q1",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> The lighthouse keeper had not spoken to anyone in nine weeks. When the supply boat finally rounded the point, he found he had to clear his throat twice before any sound came out.\n\nWhat does the passage suggest about the keeper?",
+    "options": [
+      "He had lost the ability to speak permanently.",
+      "His long isolation had left him out of practice at speaking.",
+      "He was angry at the supply boat's crew.",
+      "He had a cold."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nNine weeks without speech, then having to clear his throat twice, points to disuse. Nothing says the loss is permanent, and no anger or illness is suggested.\n\n**Key concept:** An inference follows from the text without being stated in it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q2",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> Coral reefs cover less than one percent of the ocean floor. Yet roughly a quarter of all marine species depend on them at some stage of life.\n\nWhat is the central idea?",
+    "options": [
+      "Coral reefs are small.",
+      "Reefs support marine life far out of proportion to their size.",
+      "A quarter of ocean species are endangered.",
+      "The ocean floor is mostly bare."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThe two sentences are set against each other by *Yet*: tiny area, enormous share of species. Either fact alone misses the contrast that is the point.\n\n**Key concept:** The central idea often lies in the relationship between details.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q3",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence from's passage best supports the idea that reefs matter more than their size suggests?",
+    "options": [
+      "\"Coral reefs cover less than one percent of the ocean floor.\"",
+      "\"Yet roughly a quarter of all marine species depend on them at some stage of life.\"",
+      "Neither sentence supports it.",
+      "Both sentences say the same thing."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nThis sentence supplies the disproportionate importance. The first only establishes the small size.\n\n**Key concept:** Evidence must support the specific claim, not merely come from the same passage.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q4",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> Maya checked the recipe a fourth time. She had measured everything twice. Still, she hovered by the oven, unwilling to sit down until the timer rang.\n\nWhich word best describes Maya?",
+    "options": [
+      "Careless",
+      "Anxious",
+      "Bored",
+      "Overconfident"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nChecking four times, measuring twice, and refusing to sit all signal worry. Careless and bored contradict the behaviour, and overconfidence would not check repeatedly.\n\n**Key concept:** Character is revealed through repeated action.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A text presents a problem in its first section and possible solutions in the next. This structure is —",
+    "options": [
+      "chronological",
+      "problem and solution",
+      "compare and contrast",
+      "description"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nNaming a difficulty and then proposing remedies is the problem-solution pattern.\n\n**Key concept:** Structure follows the relationship between sections.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> First the seeds are soaked overnight. Next they are pressed into shallow trays. After ten days, the sprouts are separated and replanted.\n\nWhat organisational pattern is used?",
+    "options": [
+      "Chronological or sequential",
+      "Cause and effect",
+      "Compare and contrast",
+      "Problem and solution"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*First*, *next* and *after ten days* order the steps in time.\n\n**Key concept:** Sequence words signal chronological structure.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> The bridge had been closed for repairs since March. By June, shopkeepers on the north bank reported takings down by half, while the ferry operator had hired four new staff.\n\nWhat can be inferred?",
+    "options": [
+      "The closure shifted business from the shops to the ferry.",
+      "The shopkeepers caused the closure.",
+      "The ferry operator repaired the bridge.",
+      "The bridge reopened in June."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nShop takings halved while the ferry hired staff over the same period. The passage never says the bridge reopened or who caused what.\n\n**Key concept:** Combine details across sentences to infer a cause.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best **summary** of thepassage?",
+    "options": [
+      "A bridge was closed in March.",
+      "A long bridge closure reduced trade for nearby shops while increasing ferry business.",
+      "Shopkeepers were unhappy.",
+      "Ferries are better than bridges."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt captures both effects and their cause in one sentence. Option A gives only a detail, and D adds an opinion the passage never offers.\n\n**Key concept:** A summary keeps the main relationship and drops the rest.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> \"You can borrow it,\" said Dev, already reaching for his bag, \"but I'll need it back before Thursday.\" He did not look up as he said it.\n\nWhat does Dev's behaviour suggest?",
+    "options": [
+      "He is reluctant but willing.",
+      "He is refusing outright.",
+      "He does not own the item.",
+      "He is excited to share."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHe agrees and reaches for the bag, but sets a deadline and avoids eye contact. Both signals together indicate reluctant consent, not refusal or enthusiasm.\n\n**Key concept:** Gesture can qualify what dialogue says.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A paragraph's **topic sentence** usually —",
+    "options": [
+      "states the main idea the rest of the paragraph develops",
+      "gives the smallest supporting detail",
+      "always comes last",
+      "asks a question the paragraph never answers"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe topic sentence tells the reader what the paragraph will establish, and the remaining sentences support it.\n\n**Key concept:** The topic sentence governs the paragraph.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> Antarctic ice cores preserve bubbles of ancient air. By measuring the gases trapped inside, scientists can reconstruct the atmosphere of hundreds of thousands of years ago.\n\nThe main purpose of this passage is to —",
+    "options": [
+      "explain how ice cores reveal past atmospheres",
+      "persuade readers to visit Antarctica",
+      "describe the appearance of ice",
+      "compare Antarctica with the Arctic"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe passage informs by describing a method and what it yields. There is no persuasion and no comparison.\n\n**Key concept:** Purpose is inferred from what the text does, not its subject alone.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Strong **text evidence** for an inference is —",
+    "options": [
+      "a quotation from the text that directly supports the conclusion",
+      "the reader's own opinion",
+      "a general fact from outside the text",
+      "the title of the passage"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nText evidence must come from the text and bear directly on the claim. Outside facts and personal opinion are neither.\n\n**Key concept:** Evidence is in the text and on the point.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> The garden had been left alone for three summers. Bindweed had taken the fence, and the paving was invisible beneath a mat of clover.\n\nThe description creates a mood of —",
+    "options": [
+      "neglect and overgrowth",
+      "tidiness and order",
+      "danger and threat",
+      "celebration"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThree summers untended, bindweed on the fence, paving buried under clover — every detail signals abandonment.\n\n**Key concept:** Mood is built by accumulating detail.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q14",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Reading two articles on the same topic and forming a conclusion neither states alone is called —",
+    "options": [
+      "synthesis",
+      "summarising",
+      "skimming",
+      "quoting"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSynthesis combines information from multiple sources into an understanding none states alone. Summarising condenses a single text.\n\n**Key concept:** Synthesis creates new understanding across sources.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q15",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> Every spring, thousands of shearwaters return to the same burrow on the same island, having crossed an entire ocean since autumn.\n\nWhat does this suggest about shearwaters?",
+    "options": [
+      "They navigate with remarkable precision.",
+      "They cannot fly far.",
+      "They build a new burrow each year.",
+      "They stay in one place year-round."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nReturning to the *same burrow* on the *same island* after crossing an ocean requires precise navigation.\n\n**Key concept:** Specific detail supports a specific inference.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q16",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which text feature would best help a reader locate a specific term in a long informational book?",
+    "options": [
+      "The index",
+      "The cover illustration",
+      "The dedication",
+      "The author's photograph"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAn index lists terms alphabetically with page numbers, which is exactly the lookup task described.\n\n**Key concept:** Text features serve particular reading purposes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q17",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> The committee voted six to five. The chair announced the result, folded her notes, and left without taking questions.\n\nWhat is implied about the decision?",
+    "options": [
+      "It was close and possibly contentious.",
+      "It was unanimous.",
+      "It was cancelled.",
+      "Everyone was satisfied."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSix to five is the narrowest possible margin, and leaving without taking questions suggests reluctance to discuss it.\n\n**Key concept:** Numbers and behaviour together carry implication.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q18",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A good summary should —",
+    "options": [
+      "state the main points in the reader's own words without personal opinion",
+      "copy the passage exactly",
+      "include every detail",
+      "argue against the passage"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA summary is condensed, reworded and neutral. Copying is quotation, and arguing is response.\n\n**Key concept:** Summary reports; it does not evaluate.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q19",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> Unlike the desert tortoise, which stores water in its bladder for months, the sidewinder gets nearly all the moisture it needs from the animals it eats.\n\nThe organisational pattern here is —",
+    "options": [
+      "compare and contrast",
+      "chronological",
+      "problem and solution",
+      "sequence"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Unlike* sets two animals' water strategies against each other.\n\n**Key concept:** Signal words such as *unlike* and *whereas* mark contrast.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q20",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a story, the **setting** most directly influences —",
+    "options": [
+      "what characters can and cannot do, and the mood",
+      "only the length of the story",
+      "the author's name",
+      "the number of chapters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSetting constrains the possible action and shapes atmosphere — a blizzard, a courtroom and a spaceship each permit different events.\n\n**Key concept:** Setting is an active force, not background decoration.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q21",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> The advertisement promised \"results in days\". In small print at the bottom, it added that results varied and were not guaranteed.\n\nWhat is the author's likely purpose?",
+    "options": [
+      "To draw attention to a misleading claim",
+      "To recommend the product",
+      "To describe a printing process",
+      "To explain how advertisements are designed"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSetting the bold promise against the small-print retraction invites the reader to notice the gap between them.\n\n**Key concept:** Juxtaposition can carry an author's judgement without stating it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q22",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A detail is **relevant** to a main idea when it —",
+    "options": [
+      "helps explain or support that idea",
+      "is the longest sentence",
+      "appears first",
+      "contains a number"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nRelevance is about relationship to the idea, not length, position or the presence of numbers.\n\n**Key concept:** Relevance is judged against the main idea.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-01_18-41_q23",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Reading Fundamentals",
+    "subtopic": "reading_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the passage below.\n\n> He had rehearsed the apology all morning. Standing at the door, he said only, \"I brought your book back.\"\n\nWhat kind of conflict is shown?",
+    "options": [
+      "Internal",
+      "Character against nature",
+      "Character against society",
+      "No conflict"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe struggle is inside him: a rehearsed apology that he cannot deliver. No opposing person, force of nature or social system appears.\n\n**Key concept:** Internal conflict happens within a character's own mind.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

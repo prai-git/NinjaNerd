@@ -556,6 +556,30 @@ export function stripCrossQuestionRefs(text) {
     .replace(/[ \t]+$/gm, '');
 }
 
+/* Clean a QUESTION for display.
+
+   `stripStandardsAnnotation` above only ever examines line 1, which is right when the standard
+   sits in the heading position. But a question that opens with its reading text puts the
+   passage first and the standard after it:
+
+       Read the passage below.
+       > The lighthouse keeper had not spoken to anyone in nine weeks.
+       **TEKS 6.5F**
+       What does the passage suggest?
+
+   The standard then survives and a child sees "TEKS 6.5F" in the middle of the question. This
+   strips it wherever it appears, using the same keyword-in-a-label rule as explanations, so a
+   poetry line or a document title in the same position is untouched. Cross-question references
+   are removed here too, for the same reason they are removed from passages. */
+export function cleanQuestion(text) {
+  if (text == null) return text;
+  return String(text)
+    .replace(STANDARDS_ANYWHERE, '')
+    .replace(/[ \t]+$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 /* Clean an explanation for display. Order matters: the standards line is removed before the
    answer key, so an explanation that opens with both collapses cleanly rather than leaving a
    blank first line. */
