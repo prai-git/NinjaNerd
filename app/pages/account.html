@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <base href="../" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Account - NinjaNerd</title>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <div id="nn-header" data-nn-header></div>
+
+  <!-- Mirrors legacy obs_templates/account.html: a col-md-8 card, bg-primary header
+       ("Account Settings" + Back), and three fields — username/email, password, school name —
+       each read-only until its Edit button is pressed, with Save disabled until something
+       actually changes. That interaction is legacy's, kept verbatim.
+
+       Forced divergences from legacy, flagged per the working rules:
+       - Legacy rendered the stored password as "*****" and skipped the update if the field
+         still held that placeholder. Firebase Auth never discloses a password, not even a
+         masked length, so the field starts EMPTY and is only sent when typed into. Same end
+         behaviour (an untouched form changes nothing), honest about what we know.
+       - Email is immutable in our Security Rules, so it is displayed and never edited.
+         Changing it in Firebase Auth is a separate re-verification flow and is out of scope;
+         the page says so rather than offering a control that would fail.
+       - The password change goes through Firebase Auth, not a Firestore write. Auth owns
+         credentials; users/{uid} has no password field. -->
+  <main class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow">
+          <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h3 class="mb-0"><i class="fas fa-user-cog"></i> Account Settings</h3>
+            <a href="index.html" class="btn btn-light btn-sm">
+              <i class="fas fa-arrow-left"></i> Back
+            </a>
+          </div>
+
+          <div class="card-body">
+            <!-- Shown while auth resolves, and instead of the form when signed out. -->
+            <div id="nn-account-gate" class="text-center text-muted py-5">
+              <div class="spinner-border" role="status"><span class="visually-hidden">Loading…</span></div>
+            </div>
+
+            <form id="nn-account-form" novalidate style="display:none;">
+              <div class="mb-3">
+                <label for="nn-acct-email" class="form-label">Username (Email)</label>
+                <input type="email" class="form-control" id="nn-acct-email" readonly />
+                <div class="form-text">
+                  Your email is also your username and cannot be changed here.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="nn-acct-password" class="form-label">Password</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" id="nn-acct-password"
+                         autocomplete="new-password" placeholder="••••••••" readonly />
+                  <button type="button" class="btn btn-outline-secondary" id="nn-acct-edit-password">
+                    <i class="fas fa-edit"></i> Edit
+                  </button>
+                </div>
+                <div class="form-text">At least 6 characters.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="nn-acct-school" class="form-label">School Name</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="nn-acct-school" maxlength="200" readonly />
+                  <button type="button" class="btn btn-outline-secondary" id="nn-acct-edit-school">
+                    <i class="fas fa-edit"></i> Edit
+                  </button>
+                </div>
+              </div>
+
+              <div class="text-center">
+                <button type="submit" class="btn btn-success" id="nn-acct-save" disabled>
+                  <i class="fas fa-save"></i> Save Changes
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="nn-footer" data-nn-footer></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/auth-state.js"></script>
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/layout.js"></script>
+  <script type="module" src="js/auth.js"></script>
+  <script type="module" src="js/account.js"></script>
+</body>
+</html>

@@ -315,6 +315,57 @@ describe('firestore security rules', { skip }, () => {
     }));
   });
 
+  /* ---- Audit's lookup-by-email (prompt 13a) ---------------------------------------------
+     Firestore documents are keyed by uid, but Audit looks a user up by EMAIL, so it runs a
+     query over the users collection. That needs `list`, not just `get` — which is exactly why
+     the admin read rule was written without a resource dependency. These two cases are the
+     whole security story of the Audit page: the UI gate in audit.js is cosmetic. */
+
+  test('an admin can list users by email; a non-admin cannot', async () => {
+    await seedUsers();
+    const { collection, query, where, getDocs, limit } = firestore;
+
+    const adminDb = env.authenticatedContext(ADMIN).firestore();
+    const q = (db) => query(collection(db, 'users'), where('email', '==', 'bob@example.com'), limit(1));
+    await assertSucceeds(getDocs(q(adminDb)));
+
+    // A signed-in non-admin running the SAME query is refused by Firestore itself.
+    const aliceDb = env.authenticatedContext(ALICE, { email: 'alice@example.com' }).firestore();
+    await assertFails(getDocs(q(aliceDb)));
+
+    // ...including when they aim it at their own address: `list` is not `get`.
+    await assertFails(getDocs(query(
+      collection(aliceDb, 'users'), where('email', '==', 'alice@example.com'), limit(1))));
+  });
+
+  test('a non-admin cannot read another user\'s history even knowing the uid', async () => {
+    /* The Audit page hides itself from non-admins. If that were the only protection, typing
+       the URL would be enough. It is not: the data itself is refused. */
+    await seedUsers();
+    const { collection, query, orderBy, limit, getDocs } = firestore;
+    const aliceDb = env.authenticatedContext(ALICE).firestore();
+    await assertFails(getDocs(query(
+      collection(aliceDb, `users/${BOB}/history`), orderBy('timestamp', 'desc'), limit(51))));
+
+    // The admin's identical query succeeds — this is the read Audit actually performs.
+    const adminDb = env.authenticatedContext(ADMIN).firestore();
+    await assertSucceeds(getDocs(query(
+      collection(adminDb, `users/${BOB}/history`), orderBy('timestamp', 'desc'), limit(51))));
+  });
+
+  test('the account page\'s school-name update is allowed; email and is_admin are not', async () => {
+    // What account.js actually writes: school_name + updated_at, nothing else.
+    await seedUsers();
+    const { doc, updateDoc } = firestore;
+    const db = env.authenticatedContext(ALICE).firestore();
+    const ref = doc(db, `users/${ALICE}`);
+    await assertSucceeds(updateDoc(ref, { school_name: 'New School', updated_at: new Date() }));
+    await assertFails(updateDoc(ref, { email: 'someone@else.com' }));
+    await assertFails(updateDoc(ref, { is_admin: true }));
+    // And the cap still applies on this path.
+    await assertFails(updateDoc(ref, { school_name: 'x'.repeat(201) }));
+  });
+
   /* ---- collaboration: DROPPED 2026-09-01 -------------------------------------------------
      Four chat cases and one invite case used to live here, asserting that members could read a
      session and post as themselves. The feature was cut by the owner (COPPA exposure), and the
