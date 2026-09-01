@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g2_2026-08-31_23-30_q8",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A library had 46 books on a cart. 18 were shelved in the morning and 12 more in the afternoon.\nHow many books are still on the cart?",
+    "options": [
+      "16",
+      "28",
+      "34",
+      "76"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.4C | Topic: Two-Step Subtraction**\n\n**Correct Answer:** A) 16\n\n**Explanation:**\n46 − 18 = 28, then 28 − 12 = 16. Both groups of books left the cart.\n\n**Why the other answers are wrong:**\n- **B** 28 stops after the first step.\n- **C** 34 subtracts only the 12.\n- **D** 76 adds instead of subtracting.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q9",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Nina has 34 beads. She needs 50 beads to finish a necklace. Which sentence finds how many more\nshe needs?",
+    "options": [
+      "50 − 34 = ?",
+      "50 + 34 = ?",
+      "34 − 50 = ?",
+      "34 + 50 = ?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.4D | Topic: Missing Addend**\n\n**Correct Answer:** A) 50 − 34 = ?\n\n**Explanation:**\nThe gap between what she has and what she needs is found by subtracting.\n\n**Why the other answers are wrong:**\n- **B** and **D** add, which gives more beads than she needs in total.\n- **C** subtracts the wrong way round.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q10",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Owen read 25 pages. Priya read 13 more pages than Owen. How many pages did they read\n**altogether**?",
+    "options": [
+      "63",
+      "38",
+      "12",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.4C | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 63\n\n**Explanation:**\nPriya read 25 + 13 = 38. Together: 25 + 38 = 63. The question asks for the total.\n\n**Why the other answers are wrong:**\n- **B** 38 is Priya's pages only — answering the middle step.\n- **C** 12 subtracts when it should add.\n- **D** 50 doubles Owen's amount and ignores the 13.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q11",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 4 tables with 6 chairs at each table. Three chairs are broken and taken away. How many\nchairs can still be used?",
+    "options": [
+      "21",
+      "24",
+      "13",
+      "27"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.7C | Topic: Groups Then Subtract**\n\n**Correct Answer:** A) 21\n\n**Explanation:**\n4 tables of 6 chairs is 24 chairs. Removing 3 broken chairs leaves 21.\n\n**Why the other answers are wrong:**\n- **B** 24 forgets the broken chairs.\n- **C** 13 subtracts before multiplying correctly.\n- **D** 27 adds the 3 instead of subtracting.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q12",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bus holds 40 children. 27 children get on at the first stop and 6 get off at the second. How\nmany **empty seats** are there after the second stop?",
+    "options": [
+      "19",
+      "21",
+      "13",
+      "33"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.4C | Topic: Interpreting the Question**\n\n**Correct Answer:** A) 19\n\n**Explanation:**\n27 get on, 6 get off, so 21 children are aboard. Empty seats: 40 − 21 = 19. The question asks\nfor empty seats, not passengers.\n\n**Why the other answers are wrong:**\n- **B** 21 is the number of children, not empty seats.\n- **C** 13 uses 40 − 27 and forgets the 6 who left.\n- **D** 33 subtracts only the 6 from 40.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q13",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "After giving away 15 stickers, Marco has 22 left. How many did he start with?",
+    "options": [
+      "37",
+      "7",
+      "15",
+      "22"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.4D | Topic: Working Backwards**\n\n**Correct Answer:** A) 37\n\n**Explanation:**\nHe ended with 22 after giving away 15, so he began with 22 + 15 = 37. Working backwards means\nundoing the action.\n\n**Why the other answers are wrong:**\n- **B** 7 subtracts when it should add.\n- **C** and **D** simply repeat numbers from the problem.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q14",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop sells 18 red pens, 12 blue pens and 9 notebooks. How many **pens** were sold?",
+    "options": [
+      "30",
+      "39",
+      "21",
+      "27"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.4C | Topic: Ignoring Extra Information**\n\n**Correct Answer:** A) 30\n\n**Explanation:**\nOnly pens are asked for: 18 + 12 = 30. The 9 notebooks are deliberately irrelevant.\n\n**Why the other answers are wrong:**\n- **B** 39 adds the notebooks in.\n- **C** 21 adds the notebooks to the red pens only.\n- **D** 27 mixes the wrong two numbers.\n\n---\n\n## Financial Literacy",
+    "source": "authored",
+    "needsReview": false
+  }
+]

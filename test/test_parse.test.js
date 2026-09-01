@@ -346,7 +346,10 @@ test('the built content carries passages through to the JSON', () => {
       }
     }
   }
-  assert.equal(total, 1368, 'no items lost');
+  /* Not a fixed number: the corpus grows as the empty subtopics are filled. What matters is
+     that a parser change never LOSES items — 15 vanished once when a heading rule was widened
+     and only the count caught it. */
+  assert.ok(total >= 1368, `item count fell to ${total}; a parser change is dropping questions`);
   assert.ok(withPassage > 300, `expected 300+ items with passages, got ${withPassage}`);
   assert.ok(orphaned <= 10, `${orphaned} questions still refer to a passage they do not have`);
 });

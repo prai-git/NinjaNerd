@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g2_2026-08-31_23-30_q1",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is split into 8 equal parts. What is **one** of those parts called?",
+    "options": [
+      "One eighth",
+      "One fourth",
+      "Eight wholes",
+      "One half"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3A | Topic: Naming Fractional Parts**\n\n**Correct Answer:** A) One eighth\n\n**Explanation:**\nWhen a whole is split into 8 equal parts, each part is one eighth. The name of the part comes\nfrom how many equal parts the whole was split into.\n\n**Why the other answers are wrong:**\n- **B** a fourth comes from 4 parts.\n- **C** the parts are pieces of one whole, not eight wholes.\n- **D** a half comes from 2 parts.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q2",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Liam folded a paper into 3 parts, but the middle part is wider than the other two. Can he call\neach part **one third**?",
+    "options": [
+      "No, because thirds must be equal in size.",
+      "Yes, because there are 3 parts.",
+      "Yes, because he folded it himself.",
+      "No, because he needed 4 parts."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3B | Topic: Equal Parts**\n\n**Correct Answer:** A) No, because thirds must be equal in size.\n\n**Explanation:**\nFraction names describe **equal** shares. Three unequal pieces are not thirds, however neatly\nthey were folded.\n\n**Why the other answers are wrong:**\n- **B** counts parts without checking they match — the classic error.\n- **C** who folded it makes no difference.\n- **D** thirds need 3 parts, not 4.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q3",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pie is cut into 8 equal slices. Four slices are eaten. How much of the pie is gone?",
+    "options": [
+      "One half",
+      "One fourth",
+      "One eighth",
+      "The whole pie"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3C | Topic: Equivalent Amounts**\n\n**Correct Answer:** A) One half\n\n**Explanation:**\nFour of eight equal slices is half the pie, because 4 is half of 8.\n\n**Why the other answers are wrong:**\n- **B** one fourth would be 2 of the 8 slices.\n- **C** one eighth is a single slice.\n- **D** half remains uneaten.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q4",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two same-sized chocolate bars are shared. One is split among 3 children and the other among 6\nchildren. Who gets more chocolate?",
+    "options": [
+      "Each of the 3 children",
+      "Each of the 6 children",
+      "They all get the same",
+      "It cannot be decided"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3D | Topic: Comparing Unit Fractions**\n\n**Correct Answer:** A) Each of the 3 children\n\n**Explanation:**\nThe same whole shared among fewer people gives each person more. A third is bigger than a\nsixth, even though 6 is the bigger number.\n\n**Why the other answers are wrong:**\n- **B** more sharers means smaller pieces — the usual mistake.\n- **C** the group sizes differ, so the shares differ.\n- **D** the bars are the same size, so it can be decided.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q5",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sara ate 3 of the 4 equal parts of her orange. How many parts are left, and what is that called?",
+    "options": [
+      "1 part, which is one fourth",
+      "3 parts, which is three fourths",
+      "1 part, which is one half",
+      "4 parts, which is the whole orange"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3C | Topic: Parts Remaining**\n\n**Correct Answer:** A) 1 part, which is one fourth\n\n**Explanation:**\n4 equal parts, 3 eaten, leaves 1 part — one fourth of the orange.\n\n**Why the other answers are wrong:**\n- **B** 3 parts is what was eaten, not what is left.\n- **C** one half would be 2 of the 4 parts.\n- **D** some was eaten, so the whole is not left.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q6",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which picture shows **fourths**?",
+    "options": [
+      "A circle cut into 4 slices that are all the same size",
+      "A circle cut into 4 slices where one is much larger",
+      "A circle cut into 2 equal slices",
+      "A circle with 4 dots drawn on it"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3B | Topic: Recognising Fourths**\n\n**Correct Answer:** A) A circle cut into 4 slices that are all the same size\n\n**Explanation:**\nFourths are four equal parts. Only A shows parts of equal size.\n\n**Why the other answers are wrong:**\n- **B** unequal slices are not fourths.\n- **C** two equal slices are halves.\n- **D** dots drawn on a circle do not divide it at all.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q7",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the **largest** share of one whole pizza?",
+    "options": [
+      "One half",
+      "One third",
+      "One fourth",
+      "One eighth"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.3D | Topic: Ordering Unit Fractions**\n\n**Correct Answer:** A) One half\n\n**Explanation:**\nThe fewer the equal parts, the larger each part is. Halves are the largest of these shares.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** split the pizza into more pieces, so each piece is smaller. Reading\n  the larger number as the larger share is the standard error here.\n\n---\n\n## Problem Solving and Applications",
+    "source": "authored",
+    "needsReview": false
+  }
+]

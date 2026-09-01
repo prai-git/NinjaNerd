@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g1_2026-08-31_23-20_q8",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana had 12 stickers. She gave 4 to her brother and then found 3 more in her desk. How many\nstickers does Ana have now?",
+    "options": [
+      "11",
+      "8",
+      "15",
+      "19"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.3B | Topic: Two-Step Word Problem**\n\n**Correct Answer:** A) 11\n\n**Explanation:**\nTake away first, then add: 12 − 4 = 8, and 8 + 3 = 11.\n\n**Why the other answers are wrong:**\n- **B** 8 is the answer after only the first step — stopping halfway is the most common error.\n- **C** 15 adds both numbers and ignores the giving away.\n- **D** 19 adds everything.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q9",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 15 apples in a basket. Some are taken out and 9 are left. Which number sentence helps\nfind how many were taken out?",
+    "options": [
+      "15 − ? = 9",
+      "15 + 9 = ?",
+      "9 − 15 = ?",
+      "15 + ? = 24"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.5D | Topic: Choosing the Operation**\n\n**Correct Answer:** A) 15 − ? = 9\n\n**Explanation:**\nApples were removed from 15 and 9 remain, so the unknown is what was subtracted.\n\n**Why the other answers are wrong:**\n- **B** adding gives a larger number, but the basket has fewer apples now.\n- **C** subtracting the other way round does not match the situation.\n- **D** describes adding apples to reach 24.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q10",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Leo has 7 marbles. Nia has 4 more marbles than Leo. How many marbles do they have **altogether**?",
+    "options": [
+      "18",
+      "11",
+      "7",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.3B | Topic: Comparison Then Total**\n\n**Correct Answer:** A) 18\n\n**Explanation:**\nNia has 7 + 4 = 11. Together they have 7 + 11 = 18. The question asks for the **total**, not\nNia's amount.\n\n**Why the other answers are wrong:**\n- **B** 11 is Nia's marbles only — answering the intermediate step.\n- **C** 7 is Leo's alone.\n- **D** 15 adds 7 and 4 and stops.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q11",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shelf holds 20 books when it is full. There are 13 books on it now. How many more books will\nfit?",
+    "options": [
+      "7",
+      "33",
+      "13",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.5D | Topic: Missing Addend**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\n13 + ? = 20, so ? = 20 − 13 = 7.\n\n**Why the other answers are wrong:**\n- **B** 33 adds the two numbers instead of finding the difference.\n- **C** 13 repeats the number already on the shelf.\n- **D** 6 is an off-by-one slip.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q12",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rosa buys 2 packs of pencils. Each pack has 5 pencils. She gives 3 pencils to a friend. How\nmany pencils does Rosa keep?",
+    "options": [
+      "7",
+      "10",
+      "13",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.3B | Topic: Multi-Step Reasoning**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\nTwo packs of 5 make 10 pencils. Giving away 3 leaves 10 − 3 = 7.\n\n**Why the other answers are wrong:**\n- **B** 10 stops before the giving away.\n- **C** 13 adds the 3 instead of subtracting.\n- **D** 2 subtracts 3 from 5 and forgets the second pack.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q13",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number makes this sentence true?     8 + ? = 6 + 5",
+    "options": [
+      "3",
+      "11",
+      "19",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.5D | Topic: Both Sides Equal**\n\n**Correct Answer:** A) 3\n\n**Explanation:**\nThe right side is 6 + 5 = 11. So 8 + ? must also equal 11, which makes ? = 3. The equals sign\nmeans *the same amount as*, not *write the answer here*.\n\n**Why the other answers are wrong:**\n- **B** 11 is the total, not the missing part.\n- **C** 19 adds every number in sight.\n- **D** 2 would give 10, not 11.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q14",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving and Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class of 18 children lines up in 2 equal rows. Then 2 children leave one row. How many\nchildren are in that row now?",
+    "options": [
+      "7",
+      "9",
+      "16",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.3B | Topic: Interpreting the Question**\n\n**Correct Answer:** A) 7\n\n**Explanation:**\n18 in 2 equal rows gives 9 per row. Two children leave one row, so that row has 9 − 2 = 7.\n\n**Why the other answers are wrong:**\n- **B** 9 is the row before anyone left.\n- **C** 16 is the whole class after two left, not one row.\n- **D** 11 adds instead of subtracting.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

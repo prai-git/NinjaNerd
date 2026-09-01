@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g2_2026-08-31_23-30_q15",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a way to **earn** money?",
+    "options": [
+      "Walking a neighbour's dog for pay",
+      "Getting a birthday present",
+      "Finding a coin on the ground",
+      "Borrowing money from a friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.11A | Topic: Earning Income**\n\n**Correct Answer:** A) Walking a neighbour's dog for pay\n\n**Explanation:**\nEarning means receiving money in exchange for work.\n\n**Why the other answers are wrong:**\n- **B** a gift is received, not earned.\n- **C** finding money involves no work.\n- **D** borrowed money must be paid back and is not income.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q16",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Jade gets $10. She wants a book that costs $12. What is the best plan?",
+    "options": [
+      "Save her money until she has enough for the book",
+      "Buy the book anyway with $10",
+      "Spend the $10 on something else and forget the book",
+      "Borrow $12 and buy two books"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.11B | Topic: Saving for a Goal**\n\n**Correct Answer:** A) Save her money until she has enough for the book\n\n**Explanation:**\nWhen you cannot afford something yet, saving until you can is the sound choice.\n\n**Why the other answers are wrong:**\n- **B** $10 is not enough for a $12 book.\n- **C** abandons her goal without needing to.\n- **D** borrowing creates a debt and buys more than she wanted.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q17",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of coins makes exactly 45 cents?",
+    "options": [
+      "One quarter, one dime, one dime",
+      "One quarter, one dime, one nickel",
+      "Four dimes, one dime",
+      "One quarter, two nickels"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.5A | Topic: Coin Combinations**\n\n**Correct Answer:** A) One quarter, one dime, one dime\n\n**Explanation:**\n25 + 10 + 10 = 45 cents.\n\n**Why the other answers are wrong:**\n- **B** one quarter, one dime and one nickel is 25 + 10 + 5 = 40 cents.\n- **C** four dimes plus one dime is 50 cents.\n- **D** one quarter and two nickels is 25 + 5 + 5 = 35 cents.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q18",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sam has 3 dimes and 2 nickels. How much money does he have?",
+    "options": [
+      "40 cents",
+      "35 cents",
+      "50 cents",
+      "32 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.5A | Topic: Counting Mixed Coins**\n\n**Correct Answer:** A) 40 cents\n\n**Explanation:**\n3 dimes = 30 cents, 2 nickels = 10 cents, total 40 cents.\n\n**Why the other answers are wrong:**\n- **B** 35 counts only one nickel.\n- **C** 50 treats the nickels as dimes.\n- **D** 32 counts the nickels as one cent each.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q19",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A sticker costs 30 cents. Ella pays with two quarters. How much change should she get?",
+    "options": [
+      "20 cents",
+      "30 cents",
+      "50 cents",
+      "25 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.11C | Topic: Making Change**\n\n**Correct Answer:** A) 20 cents\n\n**Explanation:**\nTwo quarters is 50 cents. 50 − 30 = 20 cents change.\n\n**Why the other answers are wrong:**\n- **B** 30 is the price, not the change.\n- **C** 50 is what she paid.\n- **D** 25 is one quarter.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q20",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **need** rather than a want?",
+    "options": [
+      "Food for dinner",
+      "A new video game",
+      "A toy robot",
+      "Stickers for a collection"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.11B | Topic: Needs and Wants**\n\n**Correct Answer:** A) Food for dinner\n\n**Explanation:**\nA need is something required to live. Food is a need; the rest are wants.\n\n**Why the other answers are wrong:**\n- **B**, **C** and **D** are all enjoyable but not necessary to live.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-08-31_23-30_q21",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Theo saves 5 cents every day. How much will he have saved after 6 days?",
+    "options": [
+      "30 cents",
+      "11 cents",
+      "25 cents",
+      "56 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 2.11D | Topic: Saving Over Time**\n\n**Correct Answer:** A) 30 cents\n\n**Explanation:**\n5 cents a day for 6 days is 5 × 6 = 30 cents.\n\n**Why the other answers are wrong:**\n- **B** 11 adds 5 and 6.\n- **C** 25 counts only five days.\n- **D** 56 writes the two digits side by side.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  }
+]

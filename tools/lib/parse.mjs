@@ -143,6 +143,10 @@ export function parseQuestions(md) {
   // Heading depth, used to decide when a passage's scope ends -- see flushPending.
   let passageLevel = 0;
   let pendingLevel = 0;
+  /* Set when the author has just written "Read the poem/story below". What follows is a
+     passage by declaration, however short — a four-line poem is well under the length that
+     otherwise distinguishes a passage from a section label. */
+  let expectPassage = false;
   // Every passage seen so far, so a later "Questions 1-8 - Passage 1" can find it.
   const passagesByKey = new Map();
 
@@ -165,7 +169,10 @@ export function parseQuestions(md) {
     if (pendingHeading === null) return;
     const prose = pendingProse.join('\n').trim();
     subtopic = cleanSubtopic(pendingHeading);
-    if (prose.length >= PASSAGE_MIN_CHARS) {
+    // A declared passage counts whatever its length; otherwise it must be substantial.
+    const isPassage = prose.length >= (expectPassage ? 20 : PASSAGE_MIN_CHARS);
+    expectPassage = false;
+    if (isPassage) {
       passage = prose;
       passageTitle = pendingHeading;
       passageLevel = pendingLevel;
@@ -223,7 +230,15 @@ export function parseQuestions(md) {
        decides, and any prose collected in between becomes the passage. */
     if ((m = line.match(/^#{2,3}\s+(.+)$/)) && !/^Question\s+\d+/i.test(m[1]) && !/^Answer(\s|$)/i.test(m[1])) {
       // Not a section break: drop the heading and keep the question open.
-      if (INLINE_INSTRUCTION_HEADING.test(m[1])) continue;
+      if (INLINE_INSTRUCTION_HEADING.test(m[1])) {
+        /* "### Read the story." can appear INSIDE a question (its passage) or BETWEEN
+           questions (introducing the next one's). A question that already has its four
+           options is finished, so close it — otherwise the passage that follows is appended
+           to the previous question's text, where nothing will ever show it. */
+        if (cur && (cur.options || []).length >= 4) pushCur();
+        expectPassage = true;
+        continue;
+      }
       if (QUESTION_RANGE_HEADING.test(m[1])) {
         // "Questions 1-8 - Passage 1": adopt the referenced passage if we have already seen it.
         pushCur();

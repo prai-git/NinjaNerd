@@ -56,7 +56,8 @@ const MATH = [
   [/place\s+value|prime\s+and\s+composite|order\s+of\s+operations|multi-?digit|computation|estimation|number\s*(&|and)?\s*(number\s+sense|operations)|numerical\s+representation/i,
     (g) => (G6(g) ? 'advanced_number_systems' : 'number_sense_basic_operations')],
 
-  [/word\s+problem|multi-?topic|challenge/i, () => 'problem_solving_applications'],
+  [/word\s+problem|multi-?topic|challenge|problem\s+solving/i,
+    () => 'problem_solving_applications'],
 ];
 
 /* ------------------------------------------------------------- english -- */

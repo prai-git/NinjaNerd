@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:06:19.928Z",
+  "generatedAt": "2026-09-01T04:15:43.103Z",
   "grades": {
     "1": {
       "english": [
@@ -31,6 +31,11 @@
           "count": 8
         },
         {
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 7
+        },
+        {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
           "count": 8
@@ -44,6 +49,11 @@
           "subtopic": "number_sense_basic_operations",
           "slug": "number_sense_basic_operations",
           "count": 10
+        },
+        {
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
+          "count": 7
         }
       ],
       "science": [
@@ -51,6 +61,11 @@
           "subtopic": "earth_systems",
           "slug": "earth_systems",
           "count": 11
+        },
+        {
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
+          "count": 16
         },
         {
           "subtopic": "life_science_fundamentals",
@@ -94,6 +109,16 @@
           "count": 10
         },
         {
+          "subtopic": "financial_literacy",
+          "slug": "financial_literacy",
+          "count": 7
+        },
+        {
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 7
+        },
+        {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
           "count": 10
@@ -107,6 +132,11 @@
           "subtopic": "number_sense_basic_operations",
           "slug": "number_sense_basic_operations",
           "count": 20
+        },
+        {
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
+          "count": 7
         }
       ],
       "science": [

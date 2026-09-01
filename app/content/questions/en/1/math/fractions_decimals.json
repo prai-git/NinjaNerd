@@ -1,0 +1,142 @@
+[
+  {
+    "id": "math_g1_2026-08-31_23-20_q1",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Four children want to share one sandwich fairly so that everyone gets the same amount. Into how\nmany equal parts should the sandwich be cut?",
+    "options": [
+      "4 equal parts",
+      "2 equal parts",
+      "8 equal parts",
+      "1 part"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6G | Topic: Equal Shares**\n\n**Correct Answer:** A) 4 equal parts\n\n**Explanation:**\nSharing fairly means every person gets the same amount, so the number of equal parts must match\nthe number of people.\n\n**Why the other answers are wrong:**\n- **B** gives only two shares for four children.\n- **C** makes eight parts, so each child would need two pieces — not what the question asks.\n- **D** leaves the sandwich whole.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q2",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Mia cut a paper strip into 4 parts, but one part is much bigger than the others. Has she made\nfourths?",
+    "options": [
+      "No, because fourths must all be the same size.",
+      "Yes, because there are 4 parts.",
+      "Yes, because she used one whole strip.",
+      "No, because she needed 3 parts."
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6G | Topic: Equal Parts**\n\n**Correct Answer:** A) No, because fourths must all be the same size.\n\n**Explanation:**\nThe word *fourths* means four **equal** parts. Counting four pieces is not enough — this is the\nsingle most common fraction error at this age.\n\n**Why the other answers are wrong:**\n- **B** counts the parts without checking they are equal.\n- **C** using one whole strip does not make the parts equal.\n- **D** fourths need 4 parts, not 3.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q3",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two identical pizzas are cut into equal slices. One is cut into halves and the other into\nfourths. Ben takes **one slice** from each. Which slice is bigger?",
+    "options": [
+      "The slice from the pizza cut into halves",
+      "The slice from the pizza cut into fourths",
+      "They are the same size",
+      "You cannot tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6H | Topic: Comparing Parts**\n\n**Correct Answer:** A) The slice from the pizza cut into halves\n\n**Explanation:**\nThe same whole split into fewer parts gives bigger parts. A half is bigger than a fourth. This\nis counter-intuitive because 4 is a bigger number than 2.\n\n**Why the other answers are wrong:**\n- **B** reverses the relationship — the usual mistake.\n- **C** the slices differ because the pizzas were cut differently.\n- **D** the pizzas are identical, so it can be decided.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q4",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is cut into 2 equal pieces. What is **one** of those pieces called?",
+    "options": [
+      "One half",
+      "One fourth",
+      "Two wholes",
+      "One third"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6G | Topic: Naming Parts**\n\n**Correct Answer:** A) One half\n\n**Explanation:**\nWhen one whole is split into 2 equal pieces, each piece is called one half.\n\n**Why the other answers are wrong:**\n- **B** a fourth comes from 4 equal pieces.\n- **C** the pieces are parts of one whole, not two wholes.\n- **D** a third comes from 3 equal pieces.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q5",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cracker is broken into 4 equal pieces. Sam eats 2 of them. How much of the cracker is left?",
+    "options": [
+      "One half",
+      "One fourth",
+      "The whole cracker",
+      "Three fourths"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6H | Topic: Parts of a Whole**\n\n**Correct Answer:** A) One half\n\n**Explanation:**\nFour equal pieces, two eaten, leaves two of the four. Two fourths is the same amount as one\nhalf.\n\n**Why the other answers are wrong:**\n- **B** one fourth would mean only one piece is left.\n- **C** some was eaten, so the whole cracker is not left.\n- **D** three fourths would mean only one piece was eaten.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q6",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has been split into **halves**?",
+    "options": [
+      "A square cut by one straight line into two matching rectangles",
+      "A square cut into one large piece and one small piece",
+      "A square cut into three matching strips",
+      "A square with a small corner torn off"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6G | Topic: Recognising Halves**\n\n**Correct Answer:** A) A square cut by one straight line into two matching rectangles\n\n**Explanation:**\nHalves are two parts of the same size. Two matching rectangles are equal.\n\n**Why the other answers are wrong:**\n- **B** the parts are unequal, so they are not halves.\n- **C** three parts make thirds.\n- **D** a torn corner leaves two very unequal pieces.\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-08-31_23-20_q7",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions and Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Three friends share 1 orange fairly. Then a fourth friend arrives and they share a second\norange among all four. Who got the **larger** share of an orange?",
+    "options": [
+      "Each of the first three friends",
+      "Each of the four friends",
+      "Everyone got the same",
+      "Nobody got a fair share"
+    ],
+    "correctIndex": 0,
+    "explanation": "**TEKS 1.6H | Topic: Fair Shares in Context**\n\n**Correct Answer:** A) Each of the first three friends\n\n**Explanation:**\nOne orange split three ways gives thirds; one orange split four ways gives fourths. A third is\nlarger than a fourth, because fewer people share the same whole.\n\n**Why the other answers are wrong:**\n- **B** four sharers means smaller pieces each.\n- **C** the shares differ because the number of sharers changed.\n- **D** both shares were fair — they were simply different sizes.\n\n---\n\n## Problem Solving and Applications",
+    "source": "authored",
+    "needsReview": false
+  }
+]
