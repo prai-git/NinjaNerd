@@ -5,6 +5,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Length Conversion\nHow many inches are in 4 feet 7 inches?",
     "options": [
       "47 inches",
@@ -23,6 +25,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Length Conversion\nA hiking trail is 3.5 kilometers long. How many meters is the trail?",
     "options": [
       "350 meters",
@@ -41,6 +45,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Capacity Conversion\nA punch recipe requires 3 gallons of juice. How many cups of juice is this?",
     "options": [
       "12 cups",
@@ -59,6 +65,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Weight Conversion\nA baby elephant weighs 250 pounds. How many ounces does the baby elephant weigh?",
     "options": [
       "4,000 ounces",
@@ -77,6 +85,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis and Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Stem-and-Leaf Plot\nUse the stem-and-leaf plot below to answer the question.\n\n```\nStem | Leaf\n  2  | 3, 5, 7, 8\n  3  | 1, 4, 4, 6, 9\n  4  | 0, 2, 5\n\nKey: 2|3 = 23\n```\n\nWhat is the median of the data shown?",
     "options": [
       "34",
@@ -95,6 +105,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis and Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Bar Graph Interpretation\nThe bar graph below shows the number of books read by students during summer break.\n\n```\nBooks Read During Summer\n\nMaya    |████████████████| 16\nJordan  |████████████| 12\nTyler   |████████| 8\nSofia   |██████████████████████| 22\n```\n\nHow many more books did Sofia read than Jordan and Tyler combined?",
     "options": [
       "2 books",
@@ -113,6 +125,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis and Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Multi-step Word Problem\nA school is ordering supplies. They need 15 boxes of pencils at $3.50 per box and 8 boxes of markers at $6.25 per box. The school has a budget of $125. How much money will be left over after the purchase?",
     "options": [
       "$22.50",
@@ -131,6 +145,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Weight Conversion\nA recipe calls for 2.5 kilograms of flour. How many grams of flour is this?",
     "options": [
       "25 grams",
@@ -149,6 +165,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Mass Conversion\nA scientist measures 4,750 milligrams of a substance. How many grams is this?",
     "options": [
       "4.75 grams",
@@ -167,6 +185,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Length Conversion\nA fence around a yard measures 48 yards. How many feet is this?",
     "options": [
       "16 feet",
@@ -185,6 +205,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Capacity Conversion\nA recipe requires 6 pints of milk. How many cups is this equivalent to?",
     "options": [
       "3 cups",
@@ -203,6 +225,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis - Bar Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Creating Bar Graphs\nThe table shows the number of students who chose each favorite sport.\n\n| Sport      | Number of Students |\n|------------|-------------------|\n| Soccer     | 45                |\n| Basketball | 30                |\n| Swimming   | 25                |\n| Baseball   | 35                |\n\nA student is creating a bar graph to display this data. Which elements MUST be included for the bar graph to be complete and properly labeled?",
     "options": [
       "Title only",
@@ -221,6 +245,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis - Bar Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Creating Bar Graphs\nUsing the sports data from Question 21, a student draws a bar graph. Which title would be MOST appropriate for this bar graph?",
     "options": [
       "\"Sports\"",
@@ -239,6 +265,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis - Bar Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Bar Graph Labels\nA bar graph shows the number of books read by each 5th grade class during a reading challenge:\n\n- Ms. Johnson's class: 156 books\n- Mr. Garcia's class: 142 books\n- Mrs. Lee's class: 178 books\n- Mr. Brown's class: 164 books\n\nWhat should be the label for the Y-AXIS of this bar graph?",
     "options": [
       "\"5th Grade Classes\"",
@@ -257,6 +285,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis - Bar Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Bar Graph Interpretation\nLook at the bar graph data below showing monthly rainfall.\n\n**Monthly Rainfall in Austin, TX**\n\n| Month    | Rainfall (inches) |\n|----------|------------------|\n| January  | 2.5              |\n| February | 2.0              |\n| March    | 3.5              |\n| April    | 2.8              |\n| May      | 4.5              |\n\nBased on this data, how many more inches of rain fell in May compared to February?",
     "options": [
       "1.5 inches",
@@ -275,6 +305,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis - Bar Graphs",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Multi-step Word Problem\nA local pizza shop tracks their pizza sales. On Friday they sold 85 pizzas, Saturday they sold 120 pizzas, and Sunday they sold 95 pizzas. Each pizza sells for $14.50.\n\nPart A: What was the total number of pizzas sold over the three days?\n\nPart B: What was the total revenue (money earned) from pizza sales over the three days?",
     "options": [
       "300 pizzas; $4,350.00",
@@ -293,6 +325,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Length Conversion\nA bike trail is 3.5 miles long. How many **feet** long is the trail?\n*(1 mile = 5,280 feet)*",
     "options": [
       "1,848 feet",
@@ -311,6 +345,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Capacity Conversion\nA soup recipe requires 7 quarts of broth. How many **pints** of broth are needed?\n*(1 quart = 2 pints)*",
     "options": [
       "3.5 pints",
@@ -329,6 +365,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Weight Conversion\nA bag of dog food weighs 4.5 pounds. How many **ounces** does the bag weigh?\n*(1 pound = 16 ounces)*",
     "options": [
       "54 ounces",
@@ -347,6 +385,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Stem-and-Leaf Plot\nThe stem-and-leaf plot below shows the daily high temperatures (°F) recorded for 15 days in April.\n\n```\nStem | Leaf\n  6  | 2  5  8\n  7  | 1  3  5  5  8\n  8  | 2  4  5  8\n  9  | 1  4  7\n\nKey: 6 | 2 = 62°F\n```\n\nWhat is the **median** temperature?",
     "options": [
       "75°F",
@@ -365,6 +405,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Scatter Plot / Income and Expense\nA student surveys workers at various part-time jobs and records their hourly wage and weekly hours worked. The data shows that all workers earn $8 per hour.\n\n| Hours Worked | Weekly Earnings |\n|:---:|:---:|\n| 5  | $40  |\n| 10 | $80  |\n| 15 | $120 |\n| 20 | $160 |\n| 25 | $200 |\n| 30 | $240 |\n\nBased on this data, if a student **needs to earn at least $140 per week**, what is the **minimum number of hours** the student must work?",
     "options": [
       "15 hours",
@@ -383,6 +425,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Length Conversion\nA classroom banner is 4 yards and 2 feet long. What is the total length of the banner in **inches**?",
     "options": [
       "148 inches",
@@ -401,6 +445,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Capacity Conversion\nA chef needs 5 quarts of water to make a large pot of soup. How many **cups** of water does the chef need?",
     "options": [
       "10 cups",
@@ -419,6 +465,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Weight Conversion\nA dump truck is carrying 4 tons of gravel. How many **pounds** of gravel is the truck carrying?",
     "options": [
       "800 pounds",
@@ -437,6 +485,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Stem-and-Leaf Plot\nThe stem-and-leaf plot below shows the scores of 11 students on a science quiz.\n\n```\nStem | Leaf\n-----|----------\n  5  | 2 6 8\n  6  | 0 3 5 7 9\n  7  | 1 4 8\n\nKey: 5 | 2 = 52\n```\n\nWhat is the **median** score?",
     "options": [
       "60",
@@ -455,6 +505,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Scatter Plot\nMr. Patel made a scatter plot comparing the **outdoor temperature** each day with the **number of hot chocolates sold** at his café. As the outdoor temperature went **up**, the number of hot chocolates sold went **down**. Which statement BEST describes the relationship shown on the scatter plot?",
     "options": [
       "There is a positive relationship between temperature and hot chocolates sold.",
@@ -473,6 +525,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Reading a Bar Graph\nThe bar graph below shows the number of apples sold at a fruit stand from Monday through Friday.\n\n| Day | Apples Sold |\n|---|---|\n| Monday | 40 |\n| Tuesday | 55 |\n| Wednesday | 30 |\n| Thursday | 65 |\n| Friday | 50 |\n\nOn which day were the **most** apples sold, and how many **more** apples were sold on that day than on Wednesday?",
     "options": [
       "Thursday, 25 more",
@@ -491,6 +545,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Elements of a Bar Graph\nWhich element is **NOT** required on a properly constructed bar graph?",
     "options": [
       "A title that describes the data",
@@ -509,6 +565,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Multi-Step Real-World Problem\nA class is planting a rectangular vegetable garden that is 8.5 meters long and 4 meters wide. They plan to cover the garden with soil that costs $3.25 per square meter. What is the total cost of the soil needed to cover the garden?",
     "options": [
       "$34.00",
@@ -527,6 +585,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis — Frequency Tables",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Frequency Table Interpretation\nThe frequency table below shows the number of books read by students in Ms. Lee's class last month.\n\n| Number of Books Read | Number of Students |\n|:---:|:---:|\n| 1 | 2 |\n| 2 | 4 |\n| 3 | 5 |\n| 4 | 3 |\n| 5 | 1 |\n\nBased on the frequency table, how many students read **more than 2** books last month?",
     "options": [
       "5 students",
@@ -545,6 +605,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Metric Length Conversion\nA nature trail is **2.4 kilometers** long. How many **meters** long is the nature trail?",
     "options": [
       "24 meters",
@@ -563,6 +625,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Capacity Conversion\nA juice recipe requires **6 gallons** of apple juice. How many **pints** of apple juice are needed?\n\n*(1 gallon = 8 pints)*",
     "options": [
       "12 pints",
@@ -581,6 +645,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Metric Weight Conversion\nA bag of flour weighs **2.5 kilograms**. How many **grams** does it weigh?\n\n*(1 kilogram = 1,000 grams)*",
     "options": [
       "25 grams",
@@ -599,6 +665,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Dot Plot\nThe dot plot below shows the vocabulary test scores (out of 10) for 12 students.\n\n```\n            •\n         •  •\n      •  •  •  •\n   •  •  •  •  •\n   6  7  8  9  10\n\nKey: Each • represents one student.\n```\n\n*(Score 6: 1 student; Score 7: 2 students; Score 8: 4 students; Score 9: 3 students; Score 10: 2 students)*\n\nHow many students scored **8 or higher**?",
     "options": [
       "5 students",
@@ -617,6 +685,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Stem-and-Leaf Plot [R]\nThe stem-and-leaf plot below shows the ages of participants in a community art class.\n\n```\nStem | Leaf\n-----|----------\n  2  | 3 5 7\n  3  | 1 4 4 6\n  4  | 0 2 8\n  5  | 3 6\n\nKey: 2 | 3 = 23\n```\n\nWhat is the **range** of the ages?",
     "options": [
       "23",
@@ -635,6 +705,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Scatter Plot  [R]\nA teacher made a scatter plot comparing the **number of hours students study** each week with their **test scores**. As the number of study hours increased, the test scores also increased. Which statement BEST describes the relationship shown?",
     "options": [
       "There is a negative relationship between study hours and test scores.",
@@ -653,6 +725,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Bar Graph [R]\nThe bar graph below shows the number of visitors to a state park over five months.\n\n| Month     | Visitors |\n|-----------|----------|\n| June      | 320      |\n| July      | 480      |\n| August    | 410      |\n| September | 250      |\n| October   | 180      |\n\nWhat is the **combined total** of visitors in **July and August**?",
     "options": [
       "730",
@@ -671,6 +745,8 @@
     "subject": "math",
     "sourceSubtopic": "Customary Length Conversion",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Customary Length Conversion\nA hiking trail is **3 miles** long. How many **feet** long is the hiking trail?\n\n*(1 mile = 5,280 feet)*",
     "options": [
       "1,760 feet",
@@ -689,6 +765,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Yards to Feet\nA fence uses **480 yards** of fencing material. How many **feet** of fencing is that?\n\n*(1 yard = 3 feet)*",
     "options": [
       "160 feet",
@@ -707,6 +785,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Mixed Capacity Units\nA punch recipe requires **3 gallons and 2 quarts** of lemonade. How many total **quarts** of lemonade are needed?\n\n*(1 gallon = 4 quarts)*",
     "options": [
       "10 quarts",
@@ -725,6 +805,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Two-Step Metric Conversion\nA bag of rice weighs **5 kilograms**. How many **milligrams** does it weigh?\n\n*(1 kilogram = 1,000 grams; 1 gram = 1,000 milligrams)*",
     "options": [
       "5,000 milligrams",
@@ -743,6 +825,8 @@
     "subject": "math",
     "sourceSubtopic": "Unit Conversions",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Cups to Gallons\nA swimming pool holds **7,200 cups** of water. How many **gallons** of water does the pool hold?\n\n*(1 gallon = 16 cups)*",
     "options": [
       "225 gallons",
@@ -761,6 +845,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Stem-and-Leaf: Median of 13 Values [R]\nThe stem-and-leaf plot shows the heights (in inches) of players on a basketball team.\n\n```\nStem | Leaf\n-----|----------\n  5  | 8 9\n  6  | 0 2 4 6 7\n  7  | 1 3 5 8\n  8  | 0 2\n\nKey: 5 | 8 = 58 inches\n```\n\nWhat is the **median** height of the players?",
     "options": [
       "64 inches",
@@ -779,6 +865,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Dot Plot: Fractions as Data Values\nThe dot plot below shows the lengths (in feet) of ribbons in a craft store.\n\n```\n•  •\n•  •  •\n•  •  •  •  •\n1/4  1/2  3/4   1   1 1/4\n\nKey: Each • represents one ribbon.\n```\n\n*(1/4 ft: 2 ribbons; 1/2 ft: 3 ribbons; 3/4 ft: 2 ribbons; 1 ft: 4 ribbons; 1 1/4 ft: 1 ribbon)*\n\nHow many ribbons are **at least 1 foot** long?",
     "options": [
       "1",
@@ -797,6 +885,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Scatter Plot: Making a Prediction [R]\nA scatter plot shows the relationship between the **number of pages in a book** and the **number of days** students take to read it. The plot shows a positive relationship with these two data points labeled:\n- An 80-page book took **4 days** to read.\n- A 160-page book took **8 days** to read.\n\nBased on the trend, about how many days would a **200-page book** take to read?",
     "options": [
       "8 days",
@@ -815,6 +905,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Bar Graph: Multi-Step Comparison [R]\nThe bar graph shows the number of students in each grade at a school.\n\n| Grade | Number of Students |\n|-------|--------------------|\n| 5th   | 280                |\n| 6th   | 245                |\n| 7th   | 310                |\n| 8th   | 265                |\n\nHow many MORE students are in **5th and 7th grade combined** than in **6th and 8th grade combined**?",
     "options": [
       "45 more",
@@ -833,6 +925,8 @@
     "subject": "math",
     "sourceSubtopic": "Data Analysis",
     "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Frequency Table: Percentage of Total\nThe frequency table shows the number of pets owned by students in a class.\n\n| Number of Pets | Number of Students |\n|:--------------:|:------------------:|\n| 0              | 2                  |\n| 1              | 6                  |\n| 2              | 8                  |\n| 3              | 3                  |\n| 4              | 1                  |\n\nWhat **percentage** of students own **2 or more pets**?",
     "options": [
       "40%",

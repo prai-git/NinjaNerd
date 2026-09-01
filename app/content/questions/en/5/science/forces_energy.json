@@ -5,6 +5,8 @@
     "subject": "science",
     "sourceSubtopic": "Forces, Motion, and Energy",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "A book rests on a table. Gravity pulls the book **downward** with 12 Newtons of force. The table pushes the book **upward** with 12 Newtons. Which statement **best** describes what will happen to the book?",
     "options": [
       "The book will accelerate downward because gravity is pulling it",
@@ -23,6 +25,8 @@
     "subject": "science",
     "sourceSubtopic": "Forces, Motion, and Energy",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "Two students push a cart from opposite sides. Student A pushes with **15 Newtons** to the right and Student B pushes with **25 Newtons** to the left. What will happen to the cart?",
     "options": [
       "The cart will stay still because both students are pushing it",
@@ -41,6 +45,8 @@
     "subject": "science",
     "sourceSubtopic": "Forces, Motion, and Energy",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "A student applies the **same amount of force** to two different carts. Cart A has a mass of **3 kg** and Cart B has a mass of **9 kg**. Which cart will have **greater acceleration**?",
     "options": [
       "Cart B, because heavier objects always move faster",
@@ -59,6 +65,8 @@
     "subject": "science",
     "sourceSubtopic": "Forces, Motion, and Energy",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "Two identical balls are rolled down a ramp. Ball A reaches a speed of **2 m/s** and Ball B reaches a speed of **4 m/s**. Which statement about **kinetic energy** is correct?",
     "options": [
       "Ball A has more kinetic energy because slower speed means more stored energy",
@@ -77,6 +85,8 @@
     "subject": "science",
     "sourceSubtopic": "Waves, Magnetism, and Electricity",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "A student compares two sound waves. **Wave 1** has a greater **amplitude** than Wave 2. What does a greater amplitude indicate about the sound?",
     "options": [
       "The sound has a higher pitch",
@@ -95,6 +105,8 @@
     "subject": "science",
     "sourceSubtopic": "Waves, Magnetism, and Electricity",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "Two bar magnets are placed close together with **both north poles** facing each other. What will happen?",
     "options": [
       "The magnets will attract each other strongly",
@@ -113,6 +125,8 @@
     "subject": "science",
     "sourceSubtopic": "Waves, Magnetism, and Electricity",
     "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
     "question": "A student builds a simple circuit with a battery, **copper wire**, and a light bulb. The bulb lights up. The student then replaces the copper wire with a **rubber tube**. What will happen to the bulb?",
     "options": [
       "The bulb will stay lit because rubber is also a conductor",

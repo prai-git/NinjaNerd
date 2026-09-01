@@ -1,10 +1,92 @@
 [
   {
+    "id": "english_g5_2026-03-08_14-30_q21",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the following sentence:\n\n*The cheetah ran _______ than any other animal in the race.*\n\nWhich word correctly completes the sentence?",
+    "options": [
+      "faster",
+      "more fast",
+      "fastest",
+      "more faster"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Correct Answer: A - faster**\n\n**TEKS Standard:** 5.11D - Edit drafts using correct conventions\n\n**Explanation:**\nWhen comparing two things, use the **comparative form**:\n- One syllable adjectives: add **-er** (fast → faster)\n- Two+ syllables: use **more** (beautiful → more beautiful)\n\n\"Faster\" compares the cheetah to other animals (two things being compared).\n\n**Why other answers are incorrect:**\n- B (more fast): Incorrect form—\"fast\" uses -er, not \"more\"\n- C (fastest): Superlative form, used for three or more things\n- D (more faster): Double comparative—never use both \"more\" and \"-er\"\n\n**Key Concept:** Using comparative adjectives correctly\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-08_14-30_q22",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of the following is a complete sentence?",
+    "options": [
+      "Running through the park on a sunny afternoon.",
+      "The dog with the spotted coat and floppy ears.",
+      "Because the store was closed early on Saturday.",
+      "The students worked quietly on their assignments."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Correct Answer: D - The students worked quietly on their assignments.**\n\n**TEKS Standard:** 5.11D - Edit drafts using correct conventions\n\n**Explanation:**\nA complete sentence must have:\n1. A **subject** (who/what) - \"The students\"\n2. A **predicate/verb** (action) - \"worked\"\n3. Express a **complete thought**\n\nOption D has all three elements.\n\n**Why other answers are incorrect:**\n- A: No subject—who is running? (This is a fragment)\n- B: No verb—what did the dog do? (This is a fragment)\n- C: Dependent clause—\"Because\" makes it incomplete without a main clause\n\n**Key Concept:** Identifying complete sentences vs. fragments\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-08_14-30_q23",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which conjunction correctly completes this sentence?\n\n*Maria wanted to play outside, _______ it was raining too hard.*",
+    "options": [
+      "so",
+      "but",
+      "or",
+      "for"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B - but**\n\n**TEKS Standard:** 5.11D - Edit drafts using correct conventions\n\n**Explanation:**\n\"But\" is a coordinating conjunction that shows **contrast**. Maria WANTED to play (positive), BUT it was raining (negative/preventing factor). The two ideas contrast with each other.\n\n**Why other answers are incorrect:**\n- A (so): Shows cause/effect or result, not contrast\n- C (or): Shows choice between options\n- D (for): Shows reason (similar to \"because\")\n\n**Key Concept:** Using conjunctions to show relationships between ideas\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-08_14-30_q24",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses prepositions and punctuation correctly?",
+    "options": [
+      "The cat jumped off of the couch and ran under the table",
+      "The cat jumped off the couch, and ran under the table.",
+      "The cat jumped off the couch and ran under the table.",
+      "The cat, jumped off the couch and ran under the table."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C - The cat jumped off the couch and ran under the table.**\n\n**TEKS Standard:** 5.11D - Edit drafts using correct conventions\n\n**Explanation:**\nThis sentence:\n- Uses prepositions correctly: \"off\" (not \"off of\"), \"under\"\n- Has correct punctuation: no comma before \"and\" when joining two verbs with the same subject\n- Ends with a period\n\n**Why other answers are incorrect:**\n- A: \"off of\" is redundant (use just \"off\"); missing period\n- B: Unnecessary comma before \"and\" (same subject for both verbs)\n- D: Incorrect comma after \"cat\"\n\n**Key Concept:** Using prepositions correctly and avoiding unnecessary commas\n\n---\n\n### SECTION 6: SHORT CONSTRUCTED RESPONSE\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
     "id": "english_g5_2026-03-25_14-30_q22",
     "grade": 5,
     "subject": "english",
     "sourceSubtopic": "Grammar and Writing Questions",
     "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
     "question": "Read this sentence:\n\n*The students finished their science projects early, _______ they were able to present them to the class before the deadline.*\n\nWhich word or phrase BEST completes this sentence?",
     "options": [
       "however",
@@ -23,6 +105,8 @@
     "subject": "english",
     "sourceSubtopic": "Grammar and Writing Questions",
     "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
     "question": "Read these sentences:\n\n*Sarah and Emma went to the museum. She thought the dinosaur exhibit was the best part.*\n\nWhat is the problem with the underlined word?",
     "options": [
       "It should be capitalized.",
@@ -41,6 +125,8 @@
     "subject": "english",
     "sourceSubtopic": "Grammar and Writing Questions",
     "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
     "question": "Read this sentence:\n\n*The team played good during the first half, but they played even better in the second half.*\n\nWhich revision corrects the error in this sentence?",
     "options": [
       "Change \"good\" to \"well\"",
@@ -54,11 +140,213 @@
     "needsReview": false
   },
   {
+    "id": "english_g5_2026-04-03_10-15_q14",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph and answer questions 14-16.*\n\n**Student Journal Entry**\n\n(1) Moving to a new school in January felt like stepping onto a frozen lake — one wrong move and everything could crack beneath me. (2) But Mrs. Alvarez, my new teacher, was a warm blanket on that freezing first day. (3) She introduced me to the class, and her words melted the ice that had been building inside my chest all morning. (4) By lunchtime, two girls invited me to sit with them, and the cafeteria buzzed with laughter that wrapped around me like a hug.",
+    "passageTitle": "SECTION 3: FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "question": "In sentence 1, the author compares moving to a new school to \"stepping onto a frozen lake.\" What is the MOST LIKELY reason the author uses this comparison?",
+    "options": [
+      "To show that the new school was very cold inside",
+      "To help the reader understand how nervous and uncertain the narrator felt",
+      "To explain that the narrator enjoys ice skating",
+      "To describe the weather on the first day of school"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q15",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph and answer questions 14-16.*\n\n**Student Journal Entry**\n\n(1) Moving to a new school in January felt like stepping onto a frozen lake — one wrong move and everything could crack beneath me. (2) But Mrs. Alvarez, my new teacher, was a warm blanket on that freezing first day. (3) She introduced me to the class, and her words melted the ice that had been building inside my chest all morning. (4) By lunchtime, two girls invited me to sit with them, and the cafeteria buzzed with laughter that wrapped around me like a hug.",
+    "passageTitle": "SECTION 3: FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "question": "In sentence 2, the author calls Mrs. Alvarez \"a warm blanket on that freezing first day.\" How does this metaphor help the reader understand Mrs. Alvarez?",
+    "options": [
+      "It shows that Mrs. Alvarez gave the narrator a real blanket.",
+      "It suggests that Mrs. Alvarez made the narrator feel safe and comforted.",
+      "It explains that the classroom had good heating.",
+      "It means Mrs. Alvarez was always tired and sleepy."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q16",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph and answer questions 14-16.*\n\n**Student Journal Entry**\n\n(1) Moving to a new school in January felt like stepping onto a frozen lake — one wrong move and everything could crack beneath me. (2) But Mrs. Alvarez, my new teacher, was a warm blanket on that freezing first day. (3) She introduced me to the class, and her words melted the ice that had been building inside my chest all morning. (4) By lunchtime, two girls invited me to sit with them, and the cafeteria buzzed with laughter that wrapped around me like a hug.",
+    "passageTitle": "SECTION 3: FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "question": "Read sentence 3:\n\n*\"Her words melted the ice that had been building inside my chest all morning.\"*\n\nThe author uses this figurative language to show that —\n\n\n\n*Read the following sentences and answer questions 17-18.*",
+    "options": [
+      "the narrator had a cold and needed medicine",
+      "Mrs. Alvarez's kind words helped the narrator feel less anxious",
+      "the classroom was getting warmer as the day went on",
+      "the narrator was eating ice chips during class"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q17",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph and answer questions 14-16.*\n\n**Student Journal Entry**\n\n(1) Moving to a new school in January felt like stepping onto a frozen lake — one wrong move and everything could crack beneath me. (2) But Mrs. Alvarez, my new teacher, was a warm blanket on that freezing first day. (3) She introduced me to the class, and her words melted the ice that had been building inside my chest all morning. (4) By lunchtime, two girls invited me to sit with them, and the cafeteria buzzed with laughter that wrapped around me like a hug.",
+    "passageTitle": "SECTION 3: FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "question": "Read these two sentences:\n\n*Sentence A: \"The hallway was a roaring river of students rushing to class.\"*\n*Sentence B: \"The hallway was very crowded with students going to class.\"*\n\nHow does the figurative language in Sentence A affect the reader differently than Sentence B?",
+    "options": [
+      "Sentence A helps the reader hear and feel the chaos of the hallway.",
+      "Sentence A gives more factual information about the hallway.",
+      "Sentence A tells the reader exactly how many students were in the hallway.",
+      "Sentence A is easier to understand than Sentence B."
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q18",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph and answer questions 14-16.*\n\n**Student Journal Entry**\n\n(1) Moving to a new school in January felt like stepping onto a frozen lake — one wrong move and everything could crack beneath me. (2) But Mrs. Alvarez, my new teacher, was a warm blanket on that freezing first day. (3) She introduced me to the class, and her words melted the ice that had been building inside my chest all morning. (4) By lunchtime, two girls invited me to sit with them, and the cafeteria buzzed with laughter that wrapped around me like a hug.",
+    "passageTitle": "SECTION 3: FIGURATIVE LANGUAGE — PURPOSE AND EFFECT",
+    "question": "Read this sentence:\n\n*\"Grandpa's stories were time machines that carried us back to his childhood on the ranch.\"*\n\nThis sentence is an example of metaphor. The author MOST LIKELY uses this comparison to show that —",
+    "options": [
+      "Grandpa owned a time machine",
+      "Grandpa's stories were so vivid they made listeners feel transported to another time",
+      "the ranch no longer exists",
+      "the children were bored by Grandpa's stories"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q19",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses correct subject-verb agreement?",
+    "options": [
+      "The group of students were walking to the library.",
+      "The group of students was walking to the library.",
+      "The group of students are walk to the library.",
+      "The group of students have been walk to the library."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q20",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read this sentence:\n\n*\"Each of the girls brought _______ own lunch to the field trip.\"*\n\nWhich word correctly completes the sentence?",
+    "options": [
+      "their",
+      "her",
+      "its",
+      "his"
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q21",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an adverb correctly?",
+    "options": [
+      "She sang beautiful at the concert.",
+      "She sang beautifully at the concert.",
+      "She sang more beautiful at the concert.",
+      "She sang beauty at the concert."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q22",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read this paragraph:\n\n*\"Yesterday, Marcus walked to the store. He buys a carton of milk and then walked home.\"*\n\nWhat change should be made to correct this paragraph?",
+    "options": [
+      "Change \"walked\" to \"walks\" in the first sentence.",
+      "Change \"buys\" to \"bought\" in the second sentence.",
+      "Change \"walked\" to \"walking\" in the second sentence.",
+      "No change is needed."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q23",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "GRAMMAR",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a subordinating conjunction?",
+    "options": [
+      "I studied hard, so I passed the test.",
+      "Although it was raining, we still played outside.",
+      "I wanted pizza, and my sister wanted tacos.",
+      "We left early, but we still arrived late."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
     "id": "english_g5_2026-04-09_22-19_q33",
     "grade": 5,
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "What change should be made in sentence 1?",
     "options": [
       "Change \"worlds\" to \"world's\"",
@@ -77,6 +365,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "Read this sentence from the student draft:\n\n*\"Pollution from plastic waste has entered the seas and harmed millions of marine animals each year.\"*\n\nThe phrase \"each year\" suggests this is an ongoing situation. Which verb form makes the sentence MOST consistent with this ongoing meaning?",
     "options": [
       "\"Pollution from plastic waste had entered the seas and harmed millions of marine animals each year.\"",
@@ -95,6 +385,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "What change should be made to sentence 4?\n\n*\"They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal.\"*",
     "options": [
       "Change \"has\" to \"have\"",
@@ -113,6 +405,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "What change should be made in sentence 6?\n\n*\"After all the future of our planet depends on the health of the sea.\"*",
     "options": [
       "Add a comma after \"future\"",
@@ -131,6 +425,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "What change should be made in sentence 5?\n\n*\"Its important that everyone, not just governments, takes responsibility for protecting our oceans.\"*\n\n\n\n*Answer questions 38–39 based on your knowledge of grammar and writing.*",
     "options": [
       "Change \"Its\" to \"It's\"",
@@ -149,6 +445,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "Which word is spelled INCORRECTLY?",
     "options": [
       "necessary",
@@ -167,6 +465,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 33–37.*\n\n**Student Draft: Protecting Our Oceans**\n\n(1) The worlds oceans are in danger. (2) Pollution from plastic waste has entered the seas and harmed millions of marine animals each year. (3) Scientists and environmental groups have worked tirelessly to find solutions. (4) They has proposed banning single-use plastics, increasing recycling programs, and educating the public about responsible waste disposal. (5) Its important that everyone, not just governments, takes responsibility for protecting our oceans. (6) After all the future of our planet depends on the health of the sea.",
+    "passageTitle": "Section 4: Writing and Grammar",
     "question": "A student is writing an essay about why reading books is important. She wants to add a sentence that shows a contrast with the idea that \"watching educational videos can help students learn.\" Which transition word would BEST introduce that contrasting idea?",
     "options": [
       "Furthermore",
@@ -185,6 +485,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student essay draft and answer questions 36–39.*\n\n**Student Draft: Our Community Garden**\n\n(1) The students at Hillcrest Elementary decided to start a community garden behind the school this spring. (2) They collected seeds and borrowed tools from their neighbors. (3) mr. Kim, the science teacher, helped them design the garden beds. (4) James and Priya planted tomatoes, and the twins were responsible for the herb section. (5) The garden is a place to explore, to learn, and growing vegetables. (6) Everyone agree that the project has made the school a better place.\n\n\n*Answer questions 34 and 35 based on your knowledge of grammar and writing.*",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "A student is writing a paragraph about the benefits of volunteering. She wants to connect these two sentences:\n\n*\"Volunteering teaches young people important skills such as teamwork and problem-solving. It also builds character and a sense of community responsibility.\"*\n\nWhich transition word or phrase BEST begins the second sentence to show that a second benefit is being added?",
     "options": [
       "Furthermore",
@@ -203,6 +505,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student essay draft and answer questions 36–39.*\n\n**Student Draft: Our Community Garden**\n\n(1) The students at Hillcrest Elementary decided to start a community garden behind the school this spring. (2) They collected seeds and borrowed tools from their neighbors. (3) mr. Kim, the science teacher, helped them design the garden beds. (4) James and Priya planted tomatoes, and the twins were responsible for the herb section. (5) The garden is a place to explore, to learn, and growing vegetables. (6) Everyone agree that the project has made the school a better place.\n\n\n*Answer questions 34 and 35 based on your knowledge of grammar and writing.*",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "Read this sentence:\n\n*\"Rosa sat on top from the porch steps and looked out at the garden.\"*\n\nWhat change should be made to correct the error?\n\n\n\n*Answer questions 36–39 based on the student draft above.*",
     "options": [
       "Change \"sat\" to \"sit\"",
@@ -221,6 +525,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student essay draft and answer questions 36–39.*\n\n**Student Draft: Our Community Garden**\n\n(1) The students at Hillcrest Elementary decided to start a community garden behind the school this spring. (2) They collected seeds and borrowed tools from their neighbors. (3) mr. Kim, the science teacher, helped them design the garden beds. (4) James and Priya planted tomatoes, and the twins were responsible for the herb section. (5) The garden is a place to explore, to learn, and growing vegetables. (6) Everyone agree that the project has made the school a better place.\n\n\n*Answer questions 34 and 35 based on your knowledge of grammar and writing.*",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made in sentence 3 of the student draft?\n\n*\"mr. Kim, the science teacher, helped them design the garden beds.\"*",
     "options": [
       "Change \"science\" to \"Science.\"",
@@ -239,6 +545,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student essay draft and answer questions 36–39.*\n\n**Student Draft: Our Community Garden**\n\n(1) The students at Hillcrest Elementary decided to start a community garden behind the school this spring. (2) They collected seeds and borrowed tools from their neighbors. (3) mr. Kim, the science teacher, helped them design the garden beds. (4) James and Priya planted tomatoes, and the twins were responsible for the herb section. (5) The garden is a place to explore, to learn, and growing vegetables. (6) Everyone agree that the project has made the school a better place.\n\n\n*Answer questions 34 and 35 based on your knowledge of grammar and writing.*",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made to sentence 5 of the student draft?\n\n*\"The garden is a place to explore, to learn, and growing vegetables.\"*",
     "options": [
       "Change \"explore\" to \"exploring.\"",
@@ -257,6 +565,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student essay draft and answer questions 36–39.*\n\n**Student Draft: Our Community Garden**\n\n(1) The students at Hillcrest Elementary decided to start a community garden behind the school this spring. (2) They collected seeds and borrowed tools from their neighbors. (3) mr. Kim, the science teacher, helped them design the garden beds. (4) James and Priya planted tomatoes, and the twins were responsible for the herb section. (5) The garden is a place to explore, to learn, and growing vegetables. (6) Everyone agree that the project has made the school a better place.\n\n\n*Answer questions 34 and 35 based on your knowledge of grammar and writing.*",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made to sentence 6 of the student draft?\n\n*\"Everyone agree that the project has made the school a better place.\"*",
     "options": [
       "Change \"agree\" to \"agrees.\"",
@@ -275,6 +585,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student essay draft and answer questions 36–39.*\n\n**Student Draft: Our Community Garden**\n\n(1) The students at Hillcrest Elementary decided to start a community garden behind the school this spring. (2) They collected seeds and borrowed tools from their neighbors. (3) mr. Kim, the science teacher, helped them design the garden beds. (4) James and Priya planted tomatoes, and the twins were responsible for the herb section. (5) The garden is a place to explore, to learn, and growing vegetables. (6) Everyone agree that the project has made the school a better place.\n\n\n*Answer questions 34 and 35 based on your knowledge of grammar and writing.*",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "Which of the following words is spelled INCORRECTLY?",
     "options": [
       "although",
@@ -293,6 +605,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student draft and answer questions 34–37.*\n\n**Student Draft: \"The Value of Public Transportation\"**\n\n(1) Public transportation helps people travel around cities more easily and affordably. (2) Buses and trains make city travel more faster and more convenient for everyone. (3) Many city leaders works hard every year to expand bus and rail routes. (4) Recently, our city opened a new subway line that connects downtown to the airport. (5) Without a doubt public transportation benefits people of all incomes and backgrounds. (6) Commuters who use public transit save money, protecting the environment, and reduce road congestion.",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made in sentence 2 of the student draft?\n\n*\"Buses and trains make city travel more faster and more convenient for everyone.\"*",
     "options": [
       "Change \"make\" to \"makes\"",
@@ -311,6 +625,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student draft and answer questions 34–37.*\n\n**Student Draft: \"The Value of Public Transportation\"**\n\n(1) Public transportation helps people travel around cities more easily and affordably. (2) Buses and trains make city travel more faster and more convenient for everyone. (3) Many city leaders works hard every year to expand bus and rail routes. (4) Recently, our city opened a new subway line that connects downtown to the airport. (5) Without a doubt public transportation benefits people of all incomes and backgrounds. (6) Commuters who use public transit save money, protecting the environment, and reduce road congestion.",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made in sentence 3 of the student draft?\n\n*\"Many city leaders works hard every year to expand bus and rail routes.\"*",
     "options": [
       "Change \"leaders\" to \"leader\"",
@@ -329,6 +645,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student draft and answer questions 34–37.*\n\n**Student Draft: \"The Value of Public Transportation\"**\n\n(1) Public transportation helps people travel around cities more easily and affordably. (2) Buses and trains make city travel more faster and more convenient for everyone. (3) Many city leaders works hard every year to expand bus and rail routes. (4) Recently, our city opened a new subway line that connects downtown to the airport. (5) Without a doubt public transportation benefits people of all incomes and backgrounds. (6) Commuters who use public transit save money, protecting the environment, and reduce road congestion.",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made in sentence 5 of the student draft?\n\n*\"Without a doubt public transportation benefits people of all incomes and backgrounds.\"*",
     "options": [
       "Add a comma after \"transportation\"",
@@ -347,6 +665,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student draft and answer questions 34–37.*\n\n**Student Draft: \"The Value of Public Transportation\"**\n\n(1) Public transportation helps people travel around cities more easily and affordably. (2) Buses and trains make city travel more faster and more convenient for everyone. (3) Many city leaders works hard every year to expand bus and rail routes. (4) Recently, our city opened a new subway line that connects downtown to the airport. (5) Without a doubt public transportation benefits people of all incomes and backgrounds. (6) Commuters who use public transit save money, protecting the environment, and reduce road congestion.",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "What change should be made in sentence 6 of the student draft?\n\n*\"Commuters who use public transit save money, protecting the environment, and reduce road congestion.\"*\n\n\n\n*Answer questions 38 and 39 based on your knowledge of grammar and writing.*",
     "options": [
       "Change \"save money\" to \"saving money\"",
@@ -365,6 +685,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student draft and answer questions 34–37.*\n\n**Student Draft: \"The Value of Public Transportation\"**\n\n(1) Public transportation helps people travel around cities more easily and affordably. (2) Buses and trains make city travel more faster and more convenient for everyone. (3) Many city leaders works hard every year to expand bus and rail routes. (4) Recently, our city opened a new subway line that connects downtown to the airport. (5) Without a doubt public transportation benefits people of all incomes and backgrounds. (6) Commuters who use public transit save money, protecting the environment, and reduce road congestion.",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "Which sentence uses correct capitalization?",
     "options": [
       "Last july, our family visited the houston museum of Natural Science.",
@@ -383,6 +705,8 @@
     "subject": "english",
     "sourceSubtopic": "Writing and Grammar",
     "subtopic": "grammar_language_mechanics",
+    "passage": "*Read the following student draft and answer questions 34–37.*\n\n**Student Draft: \"The Value of Public Transportation\"**\n\n(1) Public transportation helps people travel around cities more easily and affordably. (2) Buses and trains make city travel more faster and more convenient for everyone. (3) Many city leaders works hard every year to expand bus and rail routes. (4) Recently, our city opened a new subway line that connects downtown to the airport. (5) Without a doubt public transportation benefits people of all incomes and backgrounds. (6) Commuters who use public transit save money, protecting the environment, and reduce road congestion.",
+    "passageTitle": "Section 5: Writing and Grammar",
     "question": "Which word is spelled INCORRECTLY?",
     "options": [
       "recommend",
@@ -391,78 +715,6 @@
       "recieve"
     ],
     "correctIndex": 3,
-    "explanation": "",
-    "source": "authored",
-    "needsReview": false
-  },
-  {
-    "id": "english_g5_2026-05-02_20-14_q27",
-    "grade": 5,
-    "subject": "english",
-    "sourceSubtopic": "MAP Language Skills",
-    "subtopic": "grammar_language_mechanics",
-    "question": "Read the four sentences below. In which sentence does the word *bank* have a DIFFERENT meaning than in the other three?",
-    "options": [
-      "The fisherman stood on the **bank** of the river and cast his line.",
-      "The hikers rested on the grassy **bank** beside the trail.",
-      "Maria deposited her birthday money at the **bank** before the weekend.",
-      "They sat on the muddy **bank** and watched the ducks paddle by."
-    ],
-    "correctIndex": 2,
-    "explanation": "",
-    "source": "authored",
-    "needsReview": false
-  },
-  {
-    "id": "english_g5_2026-05-02_20-14_q28",
-    "grade": 5,
-    "subject": "english",
-    "sourceSubtopic": "MAP Language Skills",
-    "subtopic": "grammar_language_mechanics",
-    "question": "Which word is MOST NEARLY OPPOSITE in meaning to the word *cautious*?",
-    "options": [
-      "careful",
-      "reckless",
-      "patient",
-      "nervous"
-    ],
-    "correctIndex": 1,
-    "explanation": "",
-    "source": "authored",
-    "needsReview": false
-  },
-  {
-    "id": "english_g5_2026-05-02_20-14_q29",
-    "grade": 5,
-    "subject": "english",
-    "sourceSubtopic": "MAP Language Skills",
-    "subtopic": "grammar_language_mechanics",
-    "question": "Read the following sentence:\n\n*After winning the science fair, Deja was on cloud nine for the rest of the week.*\n\nWhat does the idiom **\"on cloud nine\"** mean in this sentence?",
-    "options": [
-      "Deja was distracted and daydreaming instead of paying attention in class.",
-      "Deja felt extremely happy and excited about her accomplishment.",
-      "Deja was exhausted and needed rest after working so hard on her project.",
-      "Deja was nervous about what would happen at the next science fair."
-    ],
-    "correctIndex": 1,
-    "explanation": "",
-    "source": "authored",
-    "needsReview": false
-  },
-  {
-    "id": "english_g5_2026-05-02_20-14_q30",
-    "grade": 5,
-    "subject": "english",
-    "sourceSubtopic": "MAP Language Skills",
-    "subtopic": "grammar_language_mechanics",
-    "question": "Complete the analogy:\n\n**Author is to novel as composer is to ____.**",
-    "options": [
-      "concert",
-      "musician",
-      "symphony",
-      "stage"
-    ],
-    "correctIndex": 2,
     "explanation": "",
     "source": "authored",
     "needsReview": false

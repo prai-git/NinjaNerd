@@ -5,6 +5,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which shape has 3 straight sides and 3 corners?",
     "options": [
       "circle",
@@ -23,6 +25,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which solid has 6 flat square faces?",
     "options": [
       "cone",
@@ -41,6 +45,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which shape is a rectangle **and** has 4 equal sides?",
     "options": [
       "square",
@@ -59,6 +65,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "A square sandwich is cut into 4 equal parts. What is one part called?",
     "options": [
       "one whole",
@@ -77,6 +85,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which shape can be made by putting 2 triangles together along matching sides?",
     "options": [
       "a rectangle",
@@ -95,6 +105,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "The toy chest is to the **left** of the desk. Where is the desk compared with the toy chest?",
     "options": [
       "above it",
@@ -113,6 +125,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which object is shaped most like a cylinder?",
     "options": [
       "a dice",
@@ -131,6 +145,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which group has only shapes with corners?",
     "options": [
       "triangle, square, rectangle",

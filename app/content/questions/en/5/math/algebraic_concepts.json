@@ -5,6 +5,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Percentages\nA jacket originally costs $80. The store is having a 25% off sale. What is the sale price of the jacket?",
     "options": [
       "$20",
@@ -23,6 +25,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Percentages\nThere are 40 students in the school band. If 35% of the students play a brass instrument, how many students play a brass instrument?",
     "options": [
       "12 students",
@@ -41,6 +45,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Multi-step Word Problem\nA farmer has 156 apples to pack into boxes. Each box holds 12 apples. After filling as many boxes as possible, the farmer sells each full box for $8. How much money does the farmer make?",
     "options": [
       "$96",
@@ -59,6 +65,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Inequalities\nWhich inequality represents the statement \"A number n is greater than 15\"?",
     "options": [
       "n < 15",
@@ -77,6 +85,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Inequalities\nMarcus has $45 to spend at the bookstore. Each book costs $7. Which inequality shows the number of books (b) Marcus can buy?",
     "options": [
       "7b > 45",
@@ -95,6 +105,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Percentages\nDuring a charity event, a school raised $1,250. If 40% of the money goes to animal shelters and 35% goes to food banks, how much money is left for other charities?",
     "options": [
       "$312.50",
@@ -113,6 +125,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Writing Inequalities\nA water park requires visitors to be at least 42 inches tall OR be accompanied by an adult. Write an inequality that represents the height requirement (h) for a child to ride alone.",
     "options": [
       "h < 42",
@@ -131,6 +145,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Writing Inequalities\nMia is saving money to buy a bicycle that costs $175. She already has $62 saved. She earns $9 per hour babysitting. Write an inequality that shows the minimum number of hours (h) Mia needs to babysit to have enough money.",
     "options": [
       "62 + 9h ≥ 175",
@@ -149,6 +165,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Writing Inequalities\nA school bus can hold a maximum of 54 passengers. There are already 23 students on the bus. Which inequality represents the number of additional students (s) that can still board the bus?",
     "options": [
       "s + 23 > 54",
@@ -167,6 +185,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Writing Inequalities\nCarlos has a $50 gift card. He wants to buy some comic books that cost $6 each and one poster that costs $12. Write an inequality to show the number of comic books (c) Carlos can buy.",
     "options": [
       "6c + 12 ≥ 50",
@@ -185,6 +205,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Interpreting Inequalities\nThe inequality p ≤ 15 represents the number of players (p) allowed on a basketball team roster. Which statement correctly interprets this inequality?",
     "options": [
       "The team must have exactly 15 players.",
@@ -203,6 +225,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning — Inequalities",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Inequalities / Income and Expense\nSofia wants to buy a tablet that costs $245. She already has $80 saved and earns $15 per hour babysitting. Which inequality shows the **minimum number of hours (h)** Sofia needs to babysit to afford the tablet?",
     "options": [
       "15h ≥ 245",
@@ -221,6 +245,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning — Inequalities",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Inequalities\nA delivery truck can carry **at most** 4,200 pounds. The driver and equipment together weigh 650 pounds. Each box being loaded weighs 55 pounds. Which inequality represents the maximum number of boxes (b) that can be safely loaded?",
     "options": [
       "55b ≤ 4,200",
@@ -239,6 +265,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning — Inequalities",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Writing an Inequality\nWhich inequality best represents the phrase \"a number m is **no more than** 28\"?",
     "options": [
       "m < 28",
@@ -257,6 +285,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning — Inequalities",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Interpreting an Inequality\nLola needs to save **more than** $80 to buy her mother a birthday gift. Let s represent the amount Lola must save. Which inequality represents this situation?",
     "options": [
       "s ≥ 80",
@@ -275,6 +305,8 @@
     "subject": "math",
     "sourceSubtopic": "Additive vs. Multiplicative Patterns",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Identifying a Pattern\nThe table below shows a pattern between x and y.\n\n| x | y  |\n|---|----|\n| 1 | 6  |\n| 2 | 12 |\n| 3 | 18 |\n| 4 | 24 |\n\nWhich statement **BEST** describes the relationship between x and y?",
     "options": [
       "Each y value is 5 more than the x value (additive pattern).",
@@ -293,6 +325,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Multi-Step Equation with Unknown [R]\nJaylen had some stamps in his collection. He **gave 15 stamps** to his sister and then **bought 28 more stamps** at a fair. Now he has **67 stamps**. Which equation can be used to find *s*, the number of stamps Jaylen started with?",
     "options": [
       "s + 15 + 28 = 67",
@@ -311,6 +345,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Order of Operations with Two Levels of Grouping [R]\nEvaluate the expression below using the correct order of operations.\n\n**[4 × (6 + 2)] − 15 + 3 = ?**",
     "options": [
       "20",
@@ -329,6 +365,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Order of Operations with Parentheses [R]\nEvaluate the expression below using the correct order of operations.\n\n**50 − 6 × (2 + 5) + 9 = ?**",
     "options": [
       "5",
@@ -347,6 +385,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Percent of a Number\nA sports team won **60%** of their games this season. If they played **45 games**, how many games did they win?",
     "options": [
       "18",
@@ -365,6 +405,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Discount / Sale Price\nA pair of sneakers originally costs **$85**. They are on sale for **20% off**. What is the **sale price** of the sneakers?",
     "options": [
       "$17",
@@ -383,6 +425,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Multi-Step Word Problem  [R]\nA bookstore received a shipment of **15 boxes of novels** and **8 boxes of textbooks**. Each box of novels holds **24 books** and each box of textbooks holds **18 books**. How many total books did the bookstore receive?",
     "options": [
       "396",
@@ -401,6 +445,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Writing an Inequality\nA roller coaster requires riders to be **at least 48 inches tall**. Let *h* represent the height (in inches) of a rider who can ride. Which inequality represents this situation?",
     "options": [
       "h < 48",
@@ -419,6 +465,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Additive vs. Multiplicative Patterns\nThe table below shows a pattern between *x* and *y*.\n\n| x | y  |\n|---|----|\n| 1 | 9  |\n| 2 | 10 |\n| 3 | 11 |\n| 4 | 12 |\n\nWhich statement **BEST** describes the relationship between *x* and *y*?",
     "options": [
       "Each *y* value is 8 times the *x* value (multiplicative pattern).",
@@ -437,6 +485,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning: Equations with Unknowns",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Writing a Multi-Step Equation [R]\nA number is **multiplied by 6**, then **14 is subtracted** from the product. The result is **46**. Which equation can be used to find the number *n*?",
     "options": [
       "6 + n − 14 = 46",
@@ -455,6 +505,8 @@
     "subject": "math",
     "sourceSubtopic": "Algebraic Reasoning: Equations with Unknowns",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Multi-Step Real-World Equation [R]\nA school cafeteria serves lunch in **3 equal shifts**. On Monday, **48 extra students** from a field trip ate during shift 2, making the total for the day **174 students**. How many students **normally** eat in each shift?",
     "options": [
       "36 students",
@@ -473,6 +525,8 @@
     "subject": "math",
     "sourceSubtopic": "Inequalities",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Inequality from a Real-World Situation\nA shipping container can hold **at most 75 pounds** of material. A worker has already loaded **34 pounds**. Let *p* represent the additional pounds that can still be added. Which inequality represents this situation?",
     "options": [
       "p + 34 < 75",

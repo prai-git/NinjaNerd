@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:07:07.266Z",
+  "generatedAt": "2026-09-01T03:59:26.989Z",
   "grades": {
     "1": {
       "english": [
@@ -263,12 +263,27 @@
         {
           "subtopic": "grammar_language_mechanics",
           "slug": "grammar_language_mechanics",
-          "count": 26
+          "count": 36
         },
         {
           "subtopic": "reading_fundamentals",
           "slug": "reading_fundamentals",
-          "count": 222
+          "count": 163
+        },
+        {
+          "subtopic": "vocabulary_building",
+          "slug": "vocabulary_building",
+          "count": 23
+        },
+        {
+          "subtopic": "writing_essentials",
+          "slug": "writing_essentials",
+          "count": 14
+        },
+        {
+          "subtopic": "written_conventions",
+          "slug": "written_conventions",
+          "count": 12
         }
       ],
       "math": [

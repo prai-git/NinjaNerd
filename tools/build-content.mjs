@@ -46,6 +46,12 @@ export async function buildFile({ filename, questionsMd, answersMd, llm }) {
         // curated a fixed list and generated questions on demand, so nothing was ever filed
         // against it; authored questions have to be mapped. See lib/subtopic-map.mjs.
         subtopic: mapSubtopic(subject, grade, part.subtopic || '').id,
+        /* Reading sets put a passage above several questions ("Read the passage and answer
+           questions 4-7"). Without it a question like "How does Marcus MOST change from the
+           beginning of the passage to the end?" is unanswerable. 175 items shipped that way
+           before the parser learned to keep passages. */
+        passage: part.passage || null,
+        passageTitle: part.passageTitle || null,
         question: part.text,
         options: built.options,
         correctIndex: built.correctIndex,

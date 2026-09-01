@@ -5,6 +5,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4B — round whole numbers**\n\nA theater sold 647 tickets. What is 647 rounded to the nearest hundred?",
     "options": [
       "$600$",
@@ -23,6 +25,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4F — multiplication facts**\n\nThere are 7 rows of 8 seedlings. Which equation finds the total number of seedlings?",
     "options": [
       "$7+8=15$",
@@ -41,6 +45,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4F — division facts**\n\nFifty-four buttons are packed equally into 6 jars. How many buttons are in each jar?",
     "options": [
       "$8$",
@@ -59,6 +65,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4E — represent multiplication with arrays**\n\nWhich array represents $4\times6$?",
     "options": [
       "4 rows of 6 tiles",
@@ -77,6 +85,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4I — relationship between multiplication and division**\n\nWhich division equation is related to $9\times5=45$?",
     "options": [
       "$45\\div9=5$",
@@ -95,6 +105,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4K [R] — two-step multiplication and addition problem**\n\nA craft table has 6 boxes with 7 markers in each box. Then 5 loose markers are added. How many markers are at the table?",
     "options": [
       "$42$",
@@ -113,6 +125,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4A [R] — addition and subtraction word problem**\n\nLena read 185 pages on Saturday and 126 pages on Sunday. Her goal was 350 pages. How many more pages does she need?",
     "options": [
       "$39$",
@@ -131,6 +145,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4C — money and place-value strategies**\n\nWhich group of bills and coins has a value of $\\$47$?",
     "options": [
       "4 ten-dollar bills and 7 one-dollar bills",
@@ -149,6 +165,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4H — determine an unknown in an equation**\n\nWhat value makes the equation true? $8\times\\Box=56$",
     "options": [
       "$6$",
@@ -167,6 +185,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.4J — properties and strategies for multiplication**\n\nWhich expression has the same value as $6\times7$?",
     "options": [
       "$6\times(5+2)$",
@@ -185,6 +205,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.5A [R] — represent and solve problem situations**\n\nMilo has 4 packs of 9 trading cards. He gives 6 cards away. Which equation can be used to find the number, $c$, of cards he has left?",
     "options": [
       "$c=4+9-6$",
@@ -203,6 +225,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.5B [R] — solve with a strip diagram/equation**\n\nA strip diagram shows a total of 63 split into 7 equal parts. Which equation finds the size of one part?",
     "options": [
       "$63+7=\\Box$",
@@ -221,6 +245,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.5C — multiplicative comparison**\n\nNora picked 5 shells. Omar picked 3 times as many shells as Nora. Which statement is true?",
     "options": [
       "Omar picked 8 shells.",
@@ -239,6 +265,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.5E [R] — describe patterns in a table**\n\nThe table follows a rule.\n\n|Input|2|4|6|8|\n|---:|---:|---:|---:|\n|Output|6|12|18|24|\n\nWhat is the rule?",
     "options": [
       "Add 4",
@@ -257,6 +285,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.5E [R] — number pairs and points on a number line**\n\nThe points $A$, $B$, and $C$ are equally spaced on a number line. $A=120$ and $C=160$. What number is at $B$?",
     "options": [
       "$130$",
@@ -275,6 +305,8 @@
     "subject": "math",
     "sourceSubtopic": "Reporting Category 2 — Computations and Algebraic Relationships",
     "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "**TEKS 3.5D [R] — unknown factor**\n\nWhich value makes $\\Box\times6=48$ true?",
     "options": [
       "$6$",

@@ -200,3 +200,126 @@ test('slug normalizes subtopics for file paths', () => {
   assert.equal(slug('Numerical Representations & Relationships'), 'numerical-representations-and-relationships');
   assert.equal(slug('Multiplication and Division'), 'multiplication-and-division');
 });
+
+/* Reading passages (2026-09-01).
+
+   175 questions shipped referring to a passage they did not contain — "How does Marcus MOST
+   change from the beginning of the passage to the end?" with no passage. The prose was in the
+   source all along; the parser read the passage TITLE as a subtopic and discarded the body,
+   which also produced subtopics literally named "The First Bowl" and "The Old Kite". */
+
+test('a heading followed by prose is a passage, not a subtopic', () => {
+  const md = [
+    '# 6th Grade Reading',
+    '# Instructional Area: Literary Text',
+    '## The First Bowl',
+    'x'.repeat(250),
+    '## Question 4  *(TEKS 6.7)*',
+    'Which statement BEST expresses the theme?',
+    '- **A.** one', '- **B.** two', '- **C.** three', '- **D.** four',
+  ].join('\n');
+  const [q] = parseQuestions(md);
+  assert.equal(q.passageTitle, 'The First Bowl');
+  assert.ok(q.passage.length >= 250, 'the passage body is kept — this is what was being lost');
+  /* The passage title also becomes the raw subtopic. That is harmless since prompt 00b:
+     subtopics are MAPPED onto the legacy taxonomy, and "The First Bowl" maps to reading
+     just as "Literary Text" does. What must never happen again is the passage body being
+     discarded. */
+});
+
+test('a heading with no prose is a subtopic and does not become a passage', () => {
+  const md = [
+    '# Grade 5 ELA',
+    '## Section 1: Vocabulary and Word Study',
+    '## Question 1',
+    'What does *aptitude* mean?',
+    '- **A.** one', '- **B.** two', '- **C.** three', '- **D.** four',
+  ].join('\n');
+  const [q] = parseQuestions(md);
+  // cleanSubtopic strips the "Section N:" prefix.
+  assert.equal(q.subtopic, 'Vocabulary and Word Study');
+  assert.equal(q.passage, null);
+});
+
+test('a deeper section heading does not end the passage above it', () => {
+  /* STAAR nests sections under a passage; questions in them still refer to it. Clearing on
+     every heading orphaned twelve questions from Reading Passage 1. */
+  const md = [
+    '# Grade 5 ELA',
+    '## Reading Passage 1 — Informational Text',
+    'y'.repeat(250),
+    '### Section 1: Vocabulary and Word Study',
+    '## Question 1',
+    'What does it mean?',
+    '- **A.** one', '- **B.** two', '- **C.** three', '- **D.** four',
+  ].join('\n');
+  const [q] = parseQuestions(md);
+  assert.equal(q.passageTitle, 'Reading Passage 1 — Informational Text');
+  assert.equal(q.subtopic, 'Vocabulary and Word Study', 'the deeper heading still names the subtopic');
+});
+
+test('a same-level heading with no prose DOES end the passage', () => {
+  const md = [
+    '# Grade 5 ELA',
+    '## Reading Passage 1',
+    'z'.repeat(250),
+    '## Section 5: Grammar',
+    '## Question 1',
+    'Which sentence is correct?',
+    '- **A.** one', '- **B.** two', '- **C.** three', '- **D.** four',
+  ].join('\n');
+  const [q] = parseQuestions(md);
+  assert.equal(q.passage, null, 'grammar questions must not inherit a reading passage');
+});
+
+test('"Read the story." inside a question does not terminate it', () => {
+  /* Widening the heading match to H3 (for "### Section 1:") made these end the question they
+     belonged to, silently losing 15 grade-2 English items — stem, options and all. */
+  const md = [
+    '# Grade 2 English',
+    '## Question 19 [MOY]',
+    '### Read the story.',
+    'Ana found a shell.',
+    'What did Ana find?',
+    '- **A.** a shell', '- **B.** a rock', '- **C.** a cup', '- **D.** a hat',
+  ].join('\n');
+  const qs = parseQuestions(md);
+  assert.equal(qs.length, 1);
+  assert.equal(qs[0].options.length, 4, 'the options must survive');
+});
+
+test('a question-range heading points at a passage instead of ending it', () => {
+  // "### Questions 1–8: Refer to ..." is a label, not a section break.
+  const md = [
+    '# Grade 5 ELA',
+    '## Reading Passage 1',
+    '### The Printing Press',
+    'w'.repeat(250),
+    '### Questions 1–8: Refer to "The Printing Press"',
+    '## Question 1',
+    'According to the passage, what changed?',
+    '- **A.** one', '- **B.** two', '- **C.** three', '- **D.** four',
+  ].join('\n');
+  const [q] = parseQuestions(md);
+  assert.equal(q.passageTitle, 'The Printing Press');
+});
+
+test('passages listed up front are found by back-reference', () => {
+  /* Some sets list every passage first, then group questions as "Questions 1–8 — Passage 1".
+     Positional scoping cannot resolve that; without the lookup every such question is
+     orphaned, and "In Passage 1, revealed means—" is unanswerable. */
+  const md = [
+    '# Grade 4 ELAR',
+    '## Passage 1 — Informational Text: *The Map of Cool Places*',
+    'a'.repeat(250),
+    '## Passage 2 — Literary Fiction: *The Backward Sign*',
+    'b'.repeat(250),
+    '## Questions 1–8 — Passage 1',
+    '## Question 1',
+    'In Passage 1, revealed means—',
+    '- **A.** one', '- **B.** two', '- **C.** three', '- **D.** four',
+  ].join('\n');
+  const [q] = parseQuestions(md);
+  assert.match(q.passageTitle, /Passage 1/);
+  assert.ok(q.passage.startsWith('a'), 'must attach Passage 1, not the most recent passage');
+});

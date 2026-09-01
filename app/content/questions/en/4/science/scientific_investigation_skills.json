@@ -5,6 +5,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "Which question can a class answer most directly by measuring a creek's depth after each rainy day for four weeks?",
     "options": [
       "How does the amount of rain relate to the creek's depth?",
@@ -23,6 +25,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "A class wants to test how the amount of water affects bean-plant growth. Which plan makes the investigation **fair**?",
     "options": [
       "Give each plant a different amount of water but keep the seed type, soil, pot size, light, and growing time the same.",
@@ -41,6 +45,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "Four identical cups contain different amounts of water. Which tool and unit would give the best evidence for comparing the **volume** of water in the cups?",
     "options": [
       "A graduated cylinder, measured in milliliters",
@@ -59,6 +65,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "A student measured the height of the same seedling every two days.\n\n| Day | Height (cm) |\n|---|---:|\n| 0 | 4 |\n| 2 | 6 |\n| 4 | 9 |\n| 6 | 13 |\n\nWhich claim is best supported by the data?",
     "options": [
       "The seedling grew taller during each two-day interval.",
@@ -77,6 +85,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "Students build a small model of a river basin with sand, cups, and a spray bottle. What is one important **limitation** of this model?",
     "options": [
       "It cannot show every real river's size, materials, and length of time needed for changes.",
@@ -95,6 +105,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "Two solar-oven designs were tested for 30 minutes in the same sunlight. Both began at 22°C.\n\n| Design | Inside temperature after 30 minutes |\n|---|---:|\n| Black paper lining | 48°C |\n| White paper lining | 39°C |\n\nWhich explanation is best supported by the test?",
     "options": [
       "Black paper caused the Sun to stop shining on the white oven.",
@@ -113,6 +125,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "An engineering team must make a cardboard shade structure that lowers the temperature of a tray by at least 4°C. Which action should the team take **before** deciding that one design is best?",
     "options": [
       "Test more than one design for the same amount of time in the same sunny location.",
@@ -131,6 +145,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "Four insulated lunch-box prototypes were tested. To meet the design criteria, a prototype must keep an ice cube for 20 minutes and must not leak.\n\n| Prototype | Ice remains after 20 min | Leaks? |\n|---|---|---|\n| W | Yes | Yes |\n| X | No | No |\n| Y | Yes | No |\n| Z | No | Yes |\n\nWhich prototype best meets **both** criteria?",
     "options": [
       "W",
@@ -149,6 +165,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "A town installs a device that removes plastic pieces from storm-drain water before the water reaches a pond. Which result would be the strongest evidence that this engineering solution helps the pond ecosystem?",
     "options": [
       "Fewer plastic pieces are found in the pond after the device is installed.",
@@ -167,6 +185,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific & Engineering Practices / Recurring Themes",
     "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
     "question": "After a storm, leaves block a street drain. Water then collects on the street instead of flowing through the drain. Which statement best explains this system?",
     "options": [
       "The leaves changed one part of the drainage system, causing water flow to change.",

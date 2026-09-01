@@ -5,6 +5,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Area of Composite Figures\nFind the area of the figure below:\n\n```\n        6 ft\n    ┌─────────┐\n    │         │ 4 ft\n    │    ┌────┘\n    │    │ 2 ft\n    │    │\n    └────┘\n     3 ft\n```\n\nThe figure is an L-shape with outer dimensions. The top rectangle is 6 ft × 4 ft, and a 3 ft × 2 ft piece is cut from the bottom right.",
     "options": [
       "18 sq ft",
@@ -23,6 +25,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Volume\nA rectangular aquarium has a length of 15 inches, a width of 8 inches, and a height of 10 inches. What is the volume of the aquarium?",
     "options": [
       "33 cubic inches",
@@ -41,6 +45,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Volume\nA storage container has a volume of 480 cubic feet. The length is 12 feet and the width is 8 feet. What is the height of the container?",
     "options": [
       "4 feet",
@@ -59,6 +65,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Perimeter\nA rectangular garden has a length of 18 meters and a width of 12 meters. What is the perimeter of the garden?",
     "options": [
       "30 meters",
@@ -77,6 +85,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Coordinate Plane Attributes\nOn a coordinate plane, which point represents the origin?",
     "options": [
       "(1, 0)",
@@ -95,6 +105,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Coordinate Plane\nWhich ordered pair describes a point that is 5 units to the right of the origin and 3 units up?",
     "options": [
       "(3, 5)",
@@ -113,6 +125,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Graphing Patterns\nThe equation y = 4x describes a pattern. Which table shows the correct ordered pairs for this equation?\n\n| Table A | Table B | Table C | Table D |\n|---------|---------|---------|---------|\n| x=1, y=5 | x=1, y=4 | x=1, y=4 | x=1, y=3 |\n| x=2, y=6 | x=2, y=6 | x=2, y=8 | x=2, y=6 |\n| x=3, y=7 | x=3, y=9 | x=3, y=12 | x=3, y=9 |",
     "options": [
       "Table A",
@@ -131,6 +145,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Volume\nA toy box has a volume of 3,240 cubic inches. The length is 18 inches and the height is 15 inches. What is the width of the toy box?",
     "options": [
       "10 inches",
@@ -149,6 +165,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Area of Composite Figures\nA playground is shaped like the figure below. Find the total area.\n\n```\n    ←── 10 m ──→\n    ┌───────────┐\n    │           │ 6 m\n    │     ┌─────┤\n    │     │     │ 4 m\n    └─────┘     │\n    ←4 m→←─ 6 m─→\n```\n\nThe figure is an L-shape. The main rectangle is 10 m × 6 m with a 4 m × 4 m section removed from the bottom left.",
     "options": [
       "44 square meters",
@@ -167,6 +185,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Volume Word Problem\nA rectangular fish tank needs to hold at least 2,400 cubic inches of water. If the tank is 20 inches long and 12 inches wide, what is the minimum height the tank must be?",
     "options": [
       "8 inches",
@@ -185,6 +205,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Coordinate Plane\nWhich statement correctly describes the x-axis on a coordinate plane?",
     "options": [
       "The x-axis is the vertical line that passes through the origin.",
@@ -203,6 +225,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "- Graphing Patterns\nThe equation y = 3x describes the relationship between hours worked (x) and money earned (y) in dollars. Complete the table and identify which ordered pair is NOT on the graph of this equation.\n\n| x (hours) | y (dollars) |\n|-----------|-------------|\n| 1         | 3           |\n| 2         | 6           |\n| 3         | 9           |\n| 4         | ?           |",
     "options": [
       "(4, 12)",
@@ -221,6 +245,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Area of Composite Figures\nThe figure below is an L-shape. The full outer rectangle is 10 ft × 8 ft, and a rectangular piece measuring 4 ft × 3 ft has been removed from the top-right corner.\n\n```\n←──── 10 ft ────→\n┌──────────┬────┐  ↑\n│          │    │  3 ft\n│          └────┘  ↓\n│                │\n│                │  5 ft\n└────────────────┘\n```\n\nWhat is the area of the L-shaped figure?",
     "options": [
       "56 sq ft",
@@ -239,6 +265,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Area with Decimals\nA rectangular driveway is 12.4 meters long and 3.5 meters wide. What is the area of the driveway?",
     "options": [
       "31.8 sq m",
@@ -257,6 +285,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume\nA shipping box has a length of 16 inches, a width of 9 inches, and a height of 5 inches. What is the volume of the box?",
     "options": [
       "150 cubic inches",
@@ -275,6 +305,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume / Multi-step\nA rectangular container is 25 cm long, 15 cm wide, and 12 cm tall. It is filled with sand to **3/4 of its total capacity**. How many cubic centimeters of sand are in the container?",
     "options": [
       "1,125 cubic cm",
@@ -293,6 +325,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Graphing Patterns\nThe following points are plotted on a coordinate plane: (1, 5), (2, 10), (3, 15), (4, 20). Which equation **best describes** the relationship between x and y?",
     "options": [
       "y = x + 4",
@@ -311,6 +345,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Coordinate Plane / Income\nA parking lot charges $6 per hour. The equation **y = 6x** represents the total cost (y) in dollars for parking x hours. How much would it cost to park for 8 hours?",
     "options": [
       "$42",
@@ -329,6 +365,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Graphing Patterns\nWhich ordered pair is a solution to the equation **y = 3x**?",
     "options": [
       "(4, 11)",
@@ -347,6 +385,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Graphing Patterns / Tables\nThe table below shows values from a pattern.\n\n| x | y  |\n|---|----|\n| 2 | 10 |\n| 4 | 20 |\n| 6 | 30 |\n| 8 | 40 |\n\nWhich equation represents this pattern?",
     "options": [
       "y = 2x",
@@ -365,6 +405,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Coordinate Plane Attributes\nPoint M is located on a coordinate plane. It is 7 units to the **right** of the origin and 4 units **above** the x-axis. What is the ordered pair for Point M?",
     "options": [
       "(4, 7)",
@@ -383,6 +425,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Area of a Composite Figure\nThe figure below shows a flower bed made from two rectangles joined together.\n\n```\n+------------------+\n|                  |\n|     10 ft        |\n|                  | 6 ft\n|                  |\n+-----+------------+\n      |\n 4 ft |  3 ft\n      |\n      +------+\n```\n\nThe larger rectangle measures **10 ft by 6 ft** and the smaller rectangle attached to it measures **4 ft by 3 ft**. What is the total area of the flower bed?",
     "options": [
       "60 sq ft",
@@ -401,6 +445,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Perimeter with Decimals\nA rectangular poster has a length of 11.4 cm and a width of 6.8 cm. What is the perimeter of the poster?",
     "options": [
       "18.2 cm",
@@ -419,6 +465,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume of a Rectangular Prism\nWhat is the volume of a rectangular prism with a length of 9 cm, a width of 7 cm, and a height of 4 cm?",
     "options": [
       "20 cm³",
@@ -437,6 +485,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry and Measurement — Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume Multi-Step\nA rectangular fish tank measures 24 inches long, 12 inches wide, and 15 inches tall. The tank is filled with water to 4/5 of its total volume. What is the volume of the water in the tank?",
     "options": [
       "2,880 in³",
@@ -455,6 +505,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Coordinate Plane Attributes\nWhich statement about the coordinate plane is **TRUE**?",
     "options": [
       "The origin is located at the point (1, 1).",
@@ -473,6 +525,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Graphing Patterns from y = ax\nThe equation y = 7x describes the relationship between the number of hours Jake rides his bicycle (x) and the total number of miles he travels (y). Which ordered pair lies on the graph of this equation?",
     "options": [
       "(2, 9)",
@@ -491,6 +545,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Generating a Pattern from y = 8x\nThe table below shows values generated from the equation y = 8x.\n\n| x | y |\n|---|---|\n| 0 | 0 |\n| 1 | 8 |\n| 2 | 16 |\n| 3 | 24 |\n\nWhich ordered pair would **NOT** belong on this graph?",
     "options": [
       "(0, 0)",
@@ -509,6 +565,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry — Classifying 2D Figures",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Hierarchy of Quadrilaterals  **[Readiness]**\nWhich statement about quadrilaterals is **TRUE**?",
     "options": [
       "All parallelograms are squares.",
@@ -527,6 +585,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume with Unit Cubes",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Counting Unit Cubes\nA rectangular prism is built from unit cubes that each measure 1 cubic centimeter. The prism is made of **3 layers**, and each layer has **4 rows** of **5 unit cubes**. What is the volume of the prism?",
     "options": [
       "12 cubic centimeters",
@@ -545,6 +605,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry: Classifying 2D Figures",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Hierarchy of 2D Figures [R]\nWhich statement about the relationship between two-dimensional figures is **TRUE**?",
     "options": [
       "All squares are rhombuses.",
@@ -563,6 +625,8 @@
     "subject": "math",
     "sourceSubtopic": "Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Area of a Rectangle [R]\nA rectangular basketball court has a **length of 28 meters** and a **width of 15 meters**. What is the total **area** of the basketball court?",
     "options": [
       "86 sq meters",
@@ -581,6 +645,8 @@
     "subject": "math",
     "sourceSubtopic": "Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Perimeter of a Triangle with Decimals\nA triangular garden has three sides measuring **7.5 feet**, **9.2 feet**, and **6.3 feet**. What is the **perimeter** of the garden?",
     "options": [
       "22.7 feet",
@@ -599,6 +665,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume using Unit Cubes\nA figure is built from unit cubes. It has **2 layers**, each layer has **6 rows**, and each row has **4 unit cubes**. What is the volume of the figure in cubic units?",
     "options": [
       "12 cubic units",
@@ -617,6 +685,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume of a Rectangular Prism\nA storage box has a length of **15 inches**, a width of **10 inches**, and a height of **6 inches**. What is the volume of the storage box?",
     "options": [
       "186 cubic inches",
@@ -635,6 +705,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Coordinate Plane Attributes\nA student plots Point A at **(4, 0)** on a coordinate plane. Which statement **BEST** describes where Point A is located?",
     "options": [
       "On the y-axis",
@@ -653,6 +725,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Graphing Ordered Pairs from a Pattern  [R]\nMia earns **$3 for every magazine** she sells. The table shows her earnings.\n\n| Magazines Sold (x) | Earnings in dollars (y) |\n|--------------------|--------------------------|\n| 1                  | 3                        |\n| 2                  | 6                        |\n| 3                  | 9                        |\n| 4                  | ?                        |\n\nWhat is the missing value, and what ordered pair represents selling **4 magazines**?",
     "options": [
       "(4, 9)",
@@ -671,6 +745,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Graphing Patterns from y = x + a [R]\nThe equation **y = x + 5** represents the relationship between *x* and *y*. Which ordered pair is a solution to this equation?",
     "options": [
       "(2, 6)",
@@ -689,6 +765,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume Multi-Step Problem",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Multi-Step Volume  [R]\nA large shipping container has a **length of 20 feet**, a **width of 8 feet**, and a **height of 9 feet**. A second container has a volume of **900 cubic feet**. How much **greater** is the volume of the shipping container than the second container?",
     "options": [
       "540 cubic feet",
@@ -707,6 +785,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry: Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Finding a Missing Dimension from Area [R]\nThe area of a rectangular swimming pool is **252 square feet**. The **width** of the pool is **14 feet**. What is the **length** of the pool?",
     "options": [
       "14 feet",
@@ -725,6 +805,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry: Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Area of a Composite Figure [R]\nA park has an L-shaped playground. The full rectangle would be **20 meters × 15 meters**. A square section of **8 meters × 8 meters** is removed from one corner to make room for a fountain. What is the **area of the playground**?",
     "options": [
       "172 sq meters",
@@ -743,6 +825,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry: Area and Perimeter",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Perimeter to Find Area  [R]\nThe **perimeter** of a rectangle is **54 feet**. One side measures **8 feet**. What is the **area** of the rectangle?",
     "options": [
       "54 sq feet",
@@ -761,6 +845,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Finding a Missing Dimension from Volume\nA rectangular box has a **volume of 360 cubic centimeters**. Its **length is 12 cm** and its **height is 5 cm**. What is the **width** of the box?",
     "options": [
       "3 cm",
@@ -779,6 +865,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume of a Composite Prism  [R]\nA fish tank is made of **two rectangular prisms** stacked together.\n- **Bottom prism:** length = 18 in, width = 10 in, height = 8 in\n- **Top prism:** length = 18 in, width = 10 in, height = 4 in\n\nWhat is the **total volume** of the fish tank?",
     "options": [
       "1,440 cubic inches",
@@ -797,6 +885,8 @@
     "subject": "math",
     "sourceSubtopic": "Volume",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Volume with Decimal Dimensions  [R]\nA box for storing craft supplies has a **length of 14.5 cm**, a **width of 8 cm**, and a **height of 6.5 cm**. What is the **volume** of the box?",
     "options": [
       "29 cm³",
@@ -815,6 +905,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Identify the Equation from a Table [R]\nThe table below shows pairs of *x* and *y* values. Which equation represents this relationship?\n\n| x | y  |\n|---|----|\n| 3 | 17 |\n| 5 | 19 |\n| 7 | 21 |\n| 9 | 23 |",
     "options": [
       "y = 5x + 2",
@@ -833,6 +925,8 @@
     "subject": "math",
     "sourceSubtopic": "Coordinate Plane and Graphing",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Two Patterns Compared on a Coordinate Plane [R]\nPriya saves money using the rule **y = 5x** (saves $5 per week). Kevin uses the rule **y = x + 20** (started with $20 and saves $1 per week). After how many weeks will they have saved the **same amount**?\n\n| Weeks (x) | Priya y = 5x | Kevin y = x + 20 |\n|-----------|--------------|-----------------|\n| 1         | 5            | 21              |\n| 2         | 10           | 22              |\n| 3         | 15           | 23              |\n| 4         | 20           | 24              |\n| 5         | ?            | ?               |",
     "options": [
       "3 weeks",
@@ -851,6 +945,8 @@
     "subject": "math",
     "sourceSubtopic": "Geometry: Classifying 2D Figures",
     "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
     "question": "— Hierarchy of Quadrilaterals [R]\nA student describes a shape: *\"It has 4 sides. All sides are equal in length. All angles measure 90°.\"*\n\nWhich answer lists **ALL** of the correct classifications for this shape?",
     "options": [
       "Rhombus only",

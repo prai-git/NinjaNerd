@@ -1,0 +1,242 @@
+[
+  {
+    "id": "english_g5_2026-03-15_09-20_q19",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "WRITING AND REVISING",
+    "subtopic": "written_conventions",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 19-21.*\n\n**Student Draft: A Day at the Museum**\n\n(1) Last saturday, my class took a field trip to the science museum. (2) _______, we visited the dinosaur exhibit. (3) The tyrannosaurus rex skeleton towered over us, and its teeth were bigger than my hand! (4) We also explored the space exhibit, we saw a real moon rock. (5) The planetarium show was the bestest part of the trip. (6) I learned so much and cant wait to go back.",
+    "passageTitle": "SECTION 4: WRITING AND REVISING",
+    "question": "What change should be made in sentence 1?",
+    "options": [
+      "Change \"class\" to \"Class\"",
+      "Change \"saturday\" to \"Saturday\"",
+      "Change \"museum\" to \"Museum\"",
+      "No change is needed"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B - Change \"saturday\" to \"Saturday\"**\n\n**TEKS Standard:** 5.11D - Capitalization\n\n**Explanation:** Days of the week are proper nouns and must always be capitalized. \"Saturday\" should have a capital S.\n\n**Why other answers are incorrect:**\n- A. \"Class\" is a common noun and doesn't need capitalization\n- C. \"Museum\" is used as a common noun here (unless it's a specific name)\n- D. A change is needed\n\n**Key Concept:** Capitalizing days of the week as proper nouns\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-15_09-20_q20",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "WRITING AND REVISING",
+    "subtopic": "written_conventions",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 19-21.*\n\n**Student Draft: A Day at the Museum**\n\n(1) Last saturday, my class took a field trip to the science museum. (2) _______, we visited the dinosaur exhibit. (3) The tyrannosaurus rex skeleton towered over us, and its teeth were bigger than my hand! (4) We also explored the space exhibit, we saw a real moon rock. (5) The planetarium show was the bestest part of the trip. (6) I learned so much and cant wait to go back.",
+    "passageTitle": "SECTION 4: WRITING AND REVISING",
+    "question": "Which transition word or phrase BEST fits in the blank in sentence 2?",
+    "options": [
+      "However",
+      "First",
+      "Finally",
+      "Instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B - First**\n\n**TEKS Standard:** 5.11C - Transitions\n\n**Explanation:** \"First\" is a sequencing transition that shows the order of events. Since the sentence describes the beginning of their museum activities, \"First\" is appropriate.\n\n**Why other answers are incorrect:**\n- A. \"However\" shows contrast, not sequence\n- C. \"Finally\" indicates the last event, but this is the first activity mentioned\n- D. \"Instead\" shows replacement or contrast, not sequence\n\n**Key Concept:** Using appropriate transition words for sequence\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-15_09-20_q21",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "WRITING AND REVISING",
+    "subtopic": "written_conventions",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 19-21.*\n\n**Student Draft: A Day at the Museum**\n\n(1) Last saturday, my class took a field trip to the science museum. (2) _______, we visited the dinosaur exhibit. (3) The tyrannosaurus rex skeleton towered over us, and its teeth were bigger than my hand! (4) We also explored the space exhibit, we saw a real moon rock. (5) The planetarium show was the bestest part of the trip. (6) I learned so much and cant wait to go back.",
+    "passageTitle": "SECTION 4: WRITING AND REVISING",
+    "question": "What is the correct way to revise the underlined word in sentence 5?\n\n*\"The planetarium show was the bestest part of the trip.\"*\n\n\n\n*Read the following sentences and answer questions 22-24.*",
+    "options": [
+      "more best",
+      "most best",
+      "best",
+      "better"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Correct Answer: C - best**\n\n**TEKS Standard:** 5.11D - Adjectives and Adverbs (Superlatives)\n\n**Explanation:** \"Best\" is the correct superlative form of \"good.\" When comparing more than two things, use the superlative form. \"Bestest\" is not a real word.\n\n**Why other answers are incorrect:**\n- A. \"More best\" is grammatically incorrect\n- B. \"Most best\" is a double superlative error\n- D. \"Better\" is comparative (for comparing two things), not superlative\n\n**Key Concept:** Using correct superlative forms\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-15_09-20_q22",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "WRITING AND REVISING",
+    "subtopic": "written_conventions",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 19-21.*\n\n**Student Draft: A Day at the Museum**\n\n(1) Last saturday, my class took a field trip to the science museum. (2) _______, we visited the dinosaur exhibit. (3) The tyrannosaurus rex skeleton towered over us, and its teeth were bigger than my hand! (4) We also explored the space exhibit, we saw a real moon rock. (5) The planetarium show was the bestest part of the trip. (6) I learned so much and cant wait to go back.",
+    "passageTitle": "SECTION 4: WRITING AND REVISING",
+    "question": "Read sentence 4 from the student draft:\n\n*\"We also explored the space exhibit, we saw a real moon rock.\"*\n\nWhat is the BEST way to revise this sentence?",
+    "options": [
+      "We also explored the space exhibit we saw a real moon rock.",
+      "We also explored the space exhibit, and we saw a real moon rock.",
+      "We also explored the space exhibit. And we saw a real moon rock.",
+      "The sentence is correct as written."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B - We also explored the space exhibit, and we saw a real moon rock.**\n\n**TEKS Standard:** 5.11D - Sentence Structure (Run-on Sentences)\n\n**Explanation:** The original sentence is a comma splice (two independent clauses joined only by a comma). Adding \"and\" after the comma creates a proper compound sentence with a coordinating conjunction.\n\n**Why other answers are incorrect:**\n- A. Removing the comma creates a run-on sentence\n- C. \"And\" should not begin a sentence immediately after a period\n- D. The original is a comma splice error\n\n**Key Concept:** Correcting run-on sentences and comma splices\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-15_09-20_q23",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "WRITING AND REVISING",
+    "subtopic": "written_conventions",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 19-21.*\n\n**Student Draft: A Day at the Museum**\n\n(1) Last saturday, my class took a field trip to the science museum. (2) _______, we visited the dinosaur exhibit. (3) The tyrannosaurus rex skeleton towered over us, and its teeth were bigger than my hand! (4) We also explored the space exhibit, we saw a real moon rock. (5) The planetarium show was the bestest part of the trip. (6) I learned so much and cant wait to go back.",
+    "passageTitle": "SECTION 4: WRITING AND REVISING",
+    "question": "Read sentence 6 from the student draft:\n\n*\"I learned so much and cant wait to go back.\"*\n\nWhat change should be made to this sentence?",
+    "options": [
+      "Add a comma after \"much\"",
+      "Change \"cant\" to \"can't\"",
+      "Change the period to an exclamation point",
+      "Add a comma after \"and\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B - Change \"cant\" to \"can't\"**\n\n**TEKS Standard:** 5.11D - Punctuation (Apostrophes in Contractions)\n\n**Explanation:** \"Can't\" is a contraction of \"cannot\" and requires an apostrophe to show the missing letters (no). Without the apostrophe, \"cant\" would be a different word (meaning hypocritical talk).\n\n**Why other answers are incorrect:**\n- A. No comma is needed after \"much\" in this sentence\n- C. While an exclamation point could work, the apostrophe error must be fixed\n- D. No comma is needed after \"and\"\n\n**Key Concept:** Using apostrophes correctly in contractions\n\n---",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-03-15_09-20_q24",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "WRITING AND REVISING",
+    "subtopic": "written_conventions",
+    "passage": "*Read the following paragraph from a student's essay and answer questions 19-21.*\n\n**Student Draft: A Day at the Museum**\n\n(1) Last saturday, my class took a field trip to the science museum. (2) _______, we visited the dinosaur exhibit. (3) The tyrannosaurus rex skeleton towered over us, and its teeth were bigger than my hand! (4) We also explored the space exhibit, we saw a real moon rock. (5) The planetarium show was the bestest part of the trip. (6) I learned so much and cant wait to go back.",
+    "passageTitle": "SECTION 4: WRITING AND REVISING",
+    "question": "Which of the following is a sentence fragment?",
+    "options": [
+      "The teacher explained the assignment to the students.",
+      "Running quickly down the hallway to catch the bus.",
+      "My brother and I played basketball after school.",
+      "The storm lasted all night long."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Correct Answer: B - Running quickly down the hallway to catch the bus.**\n\n**TEKS Standard:** 5.11D - Complete Sentences vs. Fragments\n\n**Explanation:** This is a sentence fragment because it has no subject and no main verb—\"Running\" is a participle, not a complete verb. It describes an action but doesn't tell who is doing it or make a complete statement.\n\n**Why other answers are incorrect:**\n- A. Has subject (teacher) and verb (explained)—complete sentence\n- C. Has subject (brother and I) and verb (played)—complete sentence\n- D. Has subject (storm) and verb (lasted)—complete sentence\n\n**Key Concept:** Identifying sentence fragments (missing subject or verb)\n\n---\n\n## SECTION 6: SHORT CONSTRUCTED RESPONSE",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q24",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "PUNCTUATION",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly?",
+    "options": [
+      "We packed sandwiches fruit, and water for the hike.",
+      "We packed sandwiches, fruit, and water for the hike.",
+      "We packed, sandwiches fruit and water, for the hike.",
+      "We packed sandwiches fruit and, water for the hike."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q25",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "PUNCTUATION",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an apostrophe correctly?",
+    "options": [
+      "The dog's wagged its tail happily.",
+      "The dogs' owner left it's leash at home.",
+      "The dog's owner left its leash at home.",
+      "The dogs owner left it's leash at home."
+    ],
+    "correctIndex": 2,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q26",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "PUNCTUATION",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is punctuated correctly?",
+    "options": [
+      "\"Please sit down said the teacher.\"",
+      "\"Please sit down,\" said the teacher.",
+      "Please sit down, \"said the teacher.\"",
+      "\"Please sit down\", said the teacher."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q27",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "PUNCTUATION",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read this sentence:\n\n*Javier asked where are we going after school*\n\nWhich is the correct way to write this sentence?",
+    "options": [
+      "Javier asked, \"Where are we going after school?\"",
+      "Javier asked \"Where are we going after school.\"",
+      "Javier asked, where are we going after school?",
+      "\"Javier asked where are we going after school?\""
+    ],
+    "correctIndex": 0,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q28",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "PUNCTUATION",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a comma after an introductory word or phrase?",
+    "options": [
+      "After the game we went out for ice cream.",
+      "After the game, we went out for ice cream.",
+      "After, the game we went out for ice cream.",
+      "After the game we went, out for ice cream."
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-04-03_10-15_q29",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "PUNCTUATION",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates the title of a short story?",
+    "options": [
+      "I just finished reading The Secret Garden.",
+      "I just finished reading \"The Secret Garden.\"",
+      "I just finished reading the secret garden.",
+      "I just finished reading The \"Secret Garden.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "",
+    "source": "authored",
+    "needsReview": false
+  }
+]

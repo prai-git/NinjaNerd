@@ -5,6 +5,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific and Engineering Practices",
     "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
     "question": "A student tests how the **amount of sunlight** affects plant growth. She gives four identical plants different amounts of daily sunlight and measures their height after two weeks. In this experiment, the **independent variable** (the one the student changes on purpose) is —",
     "options": [
       "the height of the plants",
@@ -23,6 +25,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific and Engineering Practices",
     "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
     "question": "A scientist tests how the **amount of fertilizer** affects the **height of tomato plants**. She measures each plant's height after three weeks. In this experiment, the **dependent variable** (the one that is measured) is —",
     "options": [
       "the amount of fertilizer added",
@@ -41,6 +45,8 @@
     "subject": "science",
     "sourceSubtopic": "Scientific and Engineering Practices",
     "subtopic": "scientific_methods_research",
+    "passage": null,
+    "passageTitle": null,
     "question": "A student heats a beaker of water and records the temperature every 2 minutes:\n\n| Time (min) | Temperature (°C) |\n|------------|------------------|\n| 0 | 20 |\n| 2 | 40 |\n| 4 | 60 |\n| 6 | 80 |\n\nBased on the data, what is happening to the water's temperature over time?",
     "options": [
       "It is staying the same",
