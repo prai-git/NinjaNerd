@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:15:25.315Z",
+  "generatedAt": "2026-09-02T00:18:28.785Z",
   "grades": {
     "1": {
       "english": [
@@ -295,7 +295,7 @@
         {
           "subtopic": "vocabulary_building",
           "slug": "vocabulary_building",
-          "count": 7
+          "count": 31
         },
         {
           "subtopic": "writing_essentials",
@@ -337,7 +337,7 @@
         {
           "subtopic": "number_sense_basic_operations",
           "slug": "number_sense_basic_operations",
-          "count": 6
+          "count": 30
         },
         {
           "subtopic": "problem_solving_applications",

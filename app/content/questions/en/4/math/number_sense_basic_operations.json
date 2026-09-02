@@ -118,5 +118,485 @@
     "explanation": "**Step-by-step solution:** The 3 is in the hundred-thousands place.\n**Why other answers are wrong:** (“9”) uses a different operation, place, or interpretation than the evidence requires; (“1”) uses a different operation, place, or interpretation than the evidence requires; (“5”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** digit value.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q1",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the value of the digit 4 in \\(3{,}487{,}210\\)?",
+    "options": [
+      "\\(400{,}000\\)",
+      "\\(40{,}000\\)",
+      "\\(4{,}000{,}000\\)",
+      "\\(4{,}000\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIn \\(3{,}487{,}210\\) the 4 sits in the hundred thousands place, so it is worth \\(400{,}000\\).\n\n**Key concept:** A digit's value depends on its place, not the digit itself.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q2",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comparison is true?",
+    "options": [
+      "\\(56{,}208 > 56{,}280\\)",
+      "\\(56{,}208 < 56{,}280\\)",
+      "\\(56{,}208 = 56{,}280\\)",
+      "\\(56{,}280 < 56{,}208\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nBoth start \\(56{,}2\\). Comparing the next digit, \\(0 < 8\\), so \\(56{,}208\\) is smaller.\n\n**Key concept:** Compare place by place from the left until the digits differ.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q3",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Round \\(47{,}658\\) to the nearest thousand.",
+    "options": [
+      "\\(48{,}000\\)",
+      "\\(47{,}000\\)",
+      "\\(47{,}700\\)",
+      "\\(50{,}000\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe hundreds digit is 6, which is 5 or more, so the thousands digit rounds up from 7 to 8.\n\n**Key concept:** Look at the digit to the right of the rounding place.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q4",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(326 \\times 14\\)?",
+    "options": [
+      "\\(4{,}564\\)",
+      "\\(4{,}464\\)",
+      "\\(3{,}260\\)",
+      "\\(1{,}304\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(326 \\times 10 = 3{,}260\\)\n- \\(326 \\times 4 = 1{,}304\\)\n- \\(3{,}260 + 1{,}304 = 4{,}564\\)\n\n**Key concept:** Split the multiplier into tens and ones, then add the partial products.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q5",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(984 \\div 8\\)?",
+    "options": [
+      "\\(123\\)",
+      "\\(122\\)",
+      "\\(132\\)",
+      "\\(118\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(8 \\times 123 = 984\\), so \\(984 \\div 8 = 123\\).\n\n**Key concept:** Check a division by multiplying back.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q6",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A school collected \\(12{,}486\\) cans in one year and \\(9{,}758\\) the next. How many in total?",
+    "options": [
+      "\\(22{,}244\\)",
+      "\\(21{,}244\\)",
+      "\\(2{,}728\\)",
+      "\\(22{,}144\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(12{,}486 + 9{,}758 = 22{,}244\\).\n\n**Key concept:** Line up place values before adding.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q7",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is **between** \\(34{,}500\\) and \\(34{,}600\\)?",
+    "options": [
+      "\\(34{,}572\\)",
+      "\\(34{,}498\\)",
+      "\\(34{,}605\\)",
+      "\\(35{,}500\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(34{,}572\\) lies between \\(34{,}500\\) and \\(34{,}600\\). \\(34{,}498\\) is below, and \\(34{,}605\\) and \\(35{,}500\\) are above.\n\n**Key concept:** \"Between\" means greater than one and less than the other.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q8",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop sells 24 boxes of pens. Each box holds 36 pens. How many pens is that?",
+    "options": [
+      "\\(864\\)",
+      "\\(846\\)",
+      "\\(60\\)",
+      "\\(720\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(24 \\times 36 = 864\\) pens.\n\n**Key concept:** Equal groups means multiply.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q9",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Round \\(6{,}349\\) to the nearest hundred.",
+    "options": [
+      "\\(6{,}300\\)",
+      "\\(6{,}400\\)",
+      "\\(6{,}000\\)",
+      "\\(6{,}350\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe tens digit is 4, which is less than 5, so the hundreds digit stays at 3.\n\n**Key concept:** Round down when the next digit is 4 or less.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q10",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "\\(735\\) marbles are shared equally among 5 children. How many does each get?",
+    "options": [
+      "\\(147\\)",
+      "\\(145\\)",
+      "\\(157\\)",
+      "\\(140\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(735 \\div 5 = 147\\) marbles each.\n\n**Key concept:** Sharing equally means dividing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q11",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In \\(802{,}461\\), which digit is in the **ten thousands** place?",
+    "options": [
+      "0",
+      "8",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nReading \\(802{,}461\\) from the right: 1 ones, 6 tens, 4 hundreds, 2 thousands, 0 ten thousands, 8 hundred thousands.\n\n**Key concept:** A zero still occupies a place and holds the other digits in position.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q12",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A theatre has 28 rows with 45 seats each. If 1,150 seats are sold, how many are empty?",
+    "options": [
+      "\\(110\\)",
+      "\\(1{,}260\\)",
+      "\\(100\\)",
+      "\\(1{,}150\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Total seats: \\(28 \\times 45 = 1{,}260\\)\n- Empty: \\(1{,}260 - 1{,}150 = 110\\)\n\n**Key concept:** Multi-step problems need the total before the difference.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q13",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(50{,}000 - 23{,}674\\)?",
+    "options": [
+      "\\(26{,}326\\)",
+      "\\(27{,}326\\)",
+      "\\(26{,}426\\)",
+      "\\(23{,}674\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(50{,}000 - 23{,}674 = 26{,}326\\).\n\n**Key concept:** Subtracting across zeros requires careful regrouping.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q14",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Order from **least to greatest**: \\(7{,}089\\), \\(7{,}908\\), \\(7{,}098\\)",
+    "options": [
+      "\\(7{,}089\\), \\(7{,}098\\), \\(7{,}908\\)",
+      "\\(7{,}098\\), \\(7{,}089\\), \\(7{,}908\\)",
+      "\\(7{,}908\\), \\(7{,}098\\), \\(7{,}089\\)",
+      "\\(7{,}089\\), \\(7{,}908\\), \\(7{,}098\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAll begin with 7. Comparing hundreds: 0, 9 and 0. The two starting \\(7{,}0\\) are compared next by tens: \\(8 < 9\\), so \\(7{,}089\\) comes before \\(7{,}098\\).\n\n**Key concept:** Compare the leftmost differing place first.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q15",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(407 \\times 26\\)?",
+    "options": [
+      "\\(10{,}582\\)",
+      "\\(10{,}482\\)",
+      "\\(9{,}582\\)",
+      "\\(1{,}058\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- \\(407 \\times 20 = 8{,}140\\)\n- \\(407 \\times 6 = 2{,}442\\)\n- \\(8{,}140 + 2{,}442 = 10{,}582\\)\n\n**Key concept:** The zero in 407 must still be carried through the multiplication.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q16",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "\\(1{,}008 \\div 12 = ?\\)",
+    "options": [
+      "\\(84\\)",
+      "\\(82\\)",
+      "\\(94\\)",
+      "\\(86\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(12 \\times 84 = 1{,}008\\), so the quotient is 84.\n\n**Key concept:** Estimating first (\\(12 \\times 80 = 960\\)) shows the answer is just above 80.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q17",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shows \\(506{,}032\\) in expanded form?",
+    "options": [
+      "\\(500{,}000 + 6{,}000 + 30 + 2\\)",
+      "\\(500{,}000 + 60{,}000 + 32\\)",
+      "\\(50{,}000 + 6{,}000 + 32\\)",
+      "\\(500{,}000 + 6{,}000 + 300 + 2\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(506{,}032\\) has 5 hundred thousands, 0 ten thousands, 6 thousands, 0 hundreds, 3 tens and 2 ones. Places holding zero contribute nothing.\n\n**Key concept:** Expanded form lists the value of each non-zero digit.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q18",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana saves \\($18\\) each week. How much has she saved after 15 weeks?",
+    "options": [
+      "\\($270\\)",
+      "\\($33\\)",
+      "\\($180\\)",
+      "\\($250\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(18 \\times 15 = 270\\) dollars.\n\n**Key concept:** A repeated weekly amount is multiplication, not addition.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q19",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number rounds to \\(5{,}000\\) when rounded to the nearest thousand?",
+    "options": [
+      "\\(4{,}621\\)",
+      "\\(4{,}382\\)",
+      "\\(5{,}549\\)",
+      "Both A and C"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(4{,}621\\) rounds to \\(5{,}000\\) because its hundreds digit is 6. But \\(5{,}549\\) rounds to \\(6{,}000\\), not \\(5{,}000\\), so \"Both A and C\" is false. \\(4{,}382\\) rounds to \\(4{,}000\\).\n\n**Key concept:** Check every option before choosing a combined answer.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q20",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A baker packs 468 rolls into bags of 6. How many bags?",
+    "options": [
+      "\\(78\\)",
+      "\\(76\\)",
+      "\\(88\\)",
+      "\\(70\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(468 \\div 6 = 78\\) bags.\n\n**Key concept:** Packing into equal groups is division.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q21",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A farmer has 4 fields with 375 trees each. He removes 250 trees. How many remain?",
+    "options": [
+      "\\(1{,}250\\)",
+      "\\(1{,}500\\)",
+      "\\(1{,}125\\)",
+      "\\(125\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n- Total: \\(4 \\times 375 = 1{,}500\\)\n- After removal: \\(1{,}500 - 250 = 1{,}250\\)\n\n**Key concept:** Multiply for the total, then subtract.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q22",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number has a 7 worth **ten times** the 7 in \\(4{,}738\\)?",
+    "options": [
+      "\\(47{,}380\\)",
+      "\\(473\\)",
+      "\\(4{,}738\\)",
+      "\\(7{,}438\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIn \\(4{,}738\\) the 7 is in the hundreds place, worth 700. In \\(47{,}380\\) the 7 is in the thousands place, worth \\(7{,}000\\) — ten times as much.\n\n**Key concept:** Moving a digit one place left multiplies its value by ten.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q23",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "\\(36{,}905 + 8{,}476 = ?\\)",
+    "options": [
+      "\\(45{,}381\\)",
+      "\\(44{,}381\\)",
+      "\\(45{,}281\\)",
+      "\\(28{,}429\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(36{,}905 + 8{,}476 = 45{,}381\\).\n\n**Key concept:** Regroup carefully when a column total exceeds nine.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-01_19-15_q24",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bus carries 52 passengers. How many buses are needed for 340 people?",
+    "options": [
+      "7 buses",
+      "6 buses",
+      "8 buses",
+      "5 buses"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(340 \\div 52 = 6\\) remainder \\(28\\). Six buses leave 28 people behind, so a seventh is needed.\n\n**Key concept:** When a remainder represents people, round the number of vehicles UP.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

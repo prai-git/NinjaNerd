@@ -138,5 +138,485 @@
     "explanation": "**Explanation:**\n*Scarce* means there is very little of something, so its opposite is *plentiful*.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q1",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The scientist's **meticulous** notes recorded every measurement twice.\n\nWhat does **meticulous** mean?",
+    "options": [
+      "Extremely careful",
+      "Very messy",
+      "Very brief",
+      "Written quickly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nRecording every measurement twice is what an extremely careful person does. That detail is the clue.\n\n**Key concept:** The example in the sentence defines the word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q2",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The root **port** in *transport* and *portable* means —",
+    "options": [
+      "to carry",
+      "to see",
+      "to write",
+      "to break"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Transport* means to carry across; *portable* means able to be carried. Both share the root *port*.\n\n**Key concept:** A shared root gives related words a shared meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q3",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> After the drought, the crops were **sparse**, with wide gaps between plants.\n\nWhat does **sparse** mean?",
+    "options": [
+      "Thinly spread",
+      "Thickly packed",
+      "Very tall",
+      "Brightly coloured"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\"Wide gaps between plants\" tells you the crops were thinly spread, not packed together.\n\n**Key concept:** The description after the word explains it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q4",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **mis-** in *misjudge* means —",
+    "options": [
+      "wrongly",
+      "again",
+      "before",
+      "very"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Mis-* means wrongly or badly, so *misjudge* means to judge wrongly.\n\n**Key concept:** Prefixes change meaning in predictable ways.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q5",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which meaning of *bank* fits this sentence? *They sat on the grassy bank and watched the river.*",
+    "options": [
+      "The land beside a river",
+      "A place that keeps money",
+      "To rely on something",
+      "A row of switches"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSitting on grass and watching a river points to the riverbank meaning, not money or switches.\n\n**Key concept:** Context selects which meaning of a multiple-meaning word applies.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q6",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The root **aud** in *audience* and *audible* relates to —",
+    "options": [
+      "hearing",
+      "seeing",
+      "moving",
+      "building"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAn *audience* listens and something *audible* can be heard. The root *aud* means hear.\n\n**Key concept:** Latin roots recur across many English words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q7",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The guide urged us to be **vigilant** near the cliff edge.\n\nWhat does **vigilant** mean?",
+    "options": [
+      "Watchful and alert",
+      "Relaxed and casual",
+      "Quick and noisy",
+      "Cheerful"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBeing urged to be that way near a cliff edge means staying watchful, not relaxed.\n\n**Key concept:** The situation explains why the word is used.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q8",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means the **opposite** of *abundant*?",
+    "options": [
+      "Scarce",
+      "Plentiful",
+      "Ample",
+      "Numerous"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Abundant* means plentiful, so its opposite is scarce. Plentiful, ample and numerous are synonyms of abundant.\n\n**Key concept:** Three similar options and one different one usually signals an antonym question.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q9",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-ology** in *biology* and *geology* means —",
+    "options": [
+      "the study of",
+      "without",
+      "before",
+      "small"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Biology* is the study of life and *geology* the study of Earth. The suffix *-ology* means the study of.\n\n**Key concept:** Suffixes signal a word's meaning and often its part of speech.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q10",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Her explanation was so **concise** that it fitted on one line.\n\nWhat does **concise** mean?",
+    "options": [
+      "Short and clear",
+      "Long and detailed",
+      "Confusing",
+      "Loud"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFitting on one line shows it was short, and calling it an explanation implies it still worked — so short and clear.\n\n**Key concept:** The result described tells you the word's meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q11",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means almost the same as *reluctant*?",
+    "options": [
+      "Unwilling",
+      "Eager",
+      "Excited",
+      "Ready"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Reluctant* means hesitant or unwilling. Eager, excited and ready all mean the opposite.\n\n**Key concept:** Synonyms can replace each other without changing meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q12",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which meaning of *current* fits? *The swimmer struggled against the strong current.*",
+    "options": [
+      "A flow of water",
+      "Happening now",
+      "Electricity in a wire",
+      "A type of fruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA swimmer struggling against it means moving water. *Current* also means \"happening now\" and an electrical flow, but neither fits here.\n\n**Key concept:** Choose the meaning that fits the whole sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q13",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **sub-** in *submarine* and *subway* means —",
+    "options": [
+      "under",
+      "over",
+      "around",
+      "against"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA *submarine* travels under the sea and a *subway* runs under the ground. *Sub-* means under.\n\n**Key concept:** One prefix explains many words at once.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q14",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The lawyer presented **compelling** evidence, and the jury was quickly convinced.\n\nWhat does **compelling** mean?",
+    "options": [
+      "Very convincing",
+      "Very weak",
+      "Very brief",
+      "Very confusing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe jury was quickly convinced, so the evidence must have been very convincing.\n\n**Key concept:** The effect described reveals the meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q15",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair are **antonyms**?",
+    "options": [
+      "Ascend and descend",
+      "Ascend and climb",
+      "Rise and lift",
+      "Fall and drop"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Ascend* means to go up and *descend* to go down — opposites. The other pairs are synonyms.\n\n**Key concept:** Antonyms reverse meaning; synonyms repeat it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q16",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The root **struct** in *construct* and *structure* means —",
+    "options": [
+      "to build",
+      "to destroy",
+      "to carry",
+      "to hear"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTo *construct* is to build, and a *structure* is something built. The root *struct* means build.\n\n**Key concept:** Roots carry the core meaning of a word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q17",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The path was **treacherous** after the ice storm, and two hikers slipped.\n\nWhat does **treacherous** mean?",
+    "options": [
+      "Dangerous",
+      "Beautiful",
+      "Short",
+      "Crowded"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo hikers slipped after an ice storm, so the path was dangerous.\n\n**Key concept:** The consequence in the sentence explains the word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q18",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means the opposite of *expand*?",
+    "options": [
+      "Contract",
+      "Enlarge",
+      "Grow",
+      "Stretch"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Expand* means to grow larger, so its opposite is *contract*. Enlarge, grow and stretch all mean the same as expand.\n\n**Key concept:** Look for the one option that reverses rather than repeats.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q19",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which meaning of *point* fits? *She made a good point during the debate.*",
+    "options": [
+      "An idea or argument",
+      "A sharp end",
+      "A dot",
+      "A unit of score"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nMaking a point in a debate means offering an idea or argument, not a sharp end or a score.\n\n**Key concept:** The setting decides which meaning applies.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q20",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-ful** in *hopeful* means —",
+    "options": [
+      "full of",
+      "without",
+      "before",
+      "again"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Hopeful* means full of hope. The suffix *-ful* means full of.\n\n**Key concept:** *-ful* adds \"full of\"; *-less* adds \"without\".",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q21",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The old bridge was **obsolete** and had been replaced by a modern one.\n\nWhat does **obsolete** mean?",
+    "options": [
+      "No longer used",
+      "Newly built",
+      "Very wide",
+      "Under repair"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIt was replaced by a modern bridge, which tells you the old one was no longer used.\n\n**Key concept:** The contrast in the sentence defines the word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q22",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word contains a root meaning **write**?",
+    "options": [
+      "Autograph",
+      "Telephone",
+      "Microscope",
+      "Thermometer"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Graph* means write, so an *autograph* is self-written. *Phone* means sound, *scope* means look, *meter* means measure.\n\n**Key concept:** Greek roots combine to build precise words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q23",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The results were **inconclusive**, so the team ran the test again.\n\nWhat does **inconclusive** mean?",
+    "options": [
+      "Not giving a clear answer",
+      "Completely proven",
+      "Extremely surprising",
+      "Very fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe team ran the test again, which they would only do if the first results settled nothing. The prefix *in-* meaning \"not\" supports this.\n\n**Key concept:** Combine the context with the word parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-01_19-15_q24",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means almost the same as *diminish*?",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Expand",
+      "Multiply"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Diminish* means to become smaller or less. Increase, expand and multiply are all opposites.\n\n**Key concept:** Check whether the odd option out is the synonym or the antonym.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
