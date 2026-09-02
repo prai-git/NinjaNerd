@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:10:20.643Z",
+  "generatedAt": "2026-09-02T00:12:34.088Z",
   "grades": {
     "1": {
       "english": [
@@ -131,12 +131,12 @@
         {
           "subtopic": "financial_literacy",
           "slug": "financial_literacy",
-          "count": 7
+          "count": 30
         },
         {
           "subtopic": "fractions_decimals",
           "slug": "fractions_decimals",
-          "count": 7
+          "count": 30
         },
         {
           "subtopic": "geometry_spatial_concepts",

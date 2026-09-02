@@ -138,5 +138,465 @@
     "explanation": "**Explanation:**\nThe fewer the equal parts, the larger each part is. Halves are the largest of these shares.\n\n the larger number as the larger share is the standard error here.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q1",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is divided into 8 equal parts. Each part is called —",
+    "options": [
+      "one eighth",
+      "one fourth",
+      "one half",
+      "one whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEight equal parts means each one is an eighth. The number of equal parts gives the fraction its name.\n\n**Key concept:** Eight equal parts are eighths.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q2",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is **larger**, one half or one eighth of the same cake?",
+    "options": [
+      "One half",
+      "One eighth",
+      "They are equal",
+      "Cannot tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe cake is the same size either way. Splitting it into 2 gives bigger pieces than splitting it into 8.\n\n**Key concept:** Fewer equal parts means bigger parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q3",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Four fourths of a pizza is the same as —",
+    "options": [
+      "one whole pizza",
+      "one half",
+      "two pizzas",
+      "one fourth"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAll four fourths put together rebuild the whole pizza.\n\n**Key concept:** All the parts together make one whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q4",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is cut into 4 equal parts. Three parts are used. How many fourths remain?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThere are 4 fourths in all, and 3 are used: \\(4 - 3 = 1\\).\n\n**Key concept:** Count the parts remaining out of the total parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q5",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shows parts that are **not** equal?",
+    "options": [
+      "A circle split into 3 pieces of different sizes",
+      "A circle split into 2 matching halves",
+      "A square split into 4 matching squares",
+      "A square split into 8 matching strips"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFractional parts must be equal. Different-sized pieces are not equal parts, however many there are.\n\n**Key concept:** Equal parts must match in size.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q6",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two fourths of a sandwich is the same amount as —",
+    "options": [
+      "one half",
+      "one fourth",
+      "three fourths",
+      "one whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo of the four equal parts is the same amount as one of two equal parts.\n\n**Key concept:** Two fourths and one half name the same amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q7",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Eight children share one cake equally. Each child gets —",
+    "options": [
+      "one eighth",
+      "one fourth",
+      "one half",
+      "eight cakes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSharing one cake equally among 8 children makes 8 equal parts, so each gets one eighth.\n\n**Key concept:** Sharing among 8 makes eighths.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q8",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rosa ate 3 of 8 equal slices. How many slices are left?",
+    "options": [
+      "5",
+      "3",
+      "8",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(8 - 3 = 5\\) slices remain.\n\n**Key concept:** Subtract the parts used from the total.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q9",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the **smallest** part of the same whole?",
+    "options": [
+      "One eighth",
+      "One fourth",
+      "One half",
+      "One whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe more equal parts a whole is divided into, the smaller each one is. Eight parts gives the smallest.\n\n**Key concept:** More parts means each part is smaller.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q10",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pie is cut into halves, then each half is cut in two. How many pieces are there now?",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo halves, each cut in two, gives \\(2 \\times 2 = 4\\) pieces — fourths.\n\n**Key concept:** Cutting each half in two produces fourths.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q11",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sam shaded 5 of 8 equal parts. How many parts are **not** shaded?",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "13"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(8 - 5 = 3\\) parts are not shaded.\n\n**Key concept:** Shaded and unshaded parts together make the whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q12",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Eight eighths of a chocolate bar is —",
+    "options": [
+      "the whole bar",
+      "half the bar",
+      "one piece",
+      "two bars"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEight eighths is every piece, which is the whole bar.\n\n**Key concept:** All the equal parts together are one whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q13",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word names 1 of 2 equal parts?",
+    "options": [
+      "Half",
+      "Fourth",
+      "Eighth",
+      "Whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne of 2 equal parts is a half.\n\n**Key concept:** The number of equal parts names the fraction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q14",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two identical pizzas are cut, one into fourths and one into eighths. Which piece is bigger?",
+    "options": [
+      "A fourth",
+      "An eighth",
+      "They are equal",
+      "Cannot tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe pizzas are the same size, and 4 parts are bigger than 8 parts of the same whole.\n\n**Key concept:** Compare fractions only when the wholes are the same size.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q15",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Six eighths and two eighths together make —",
+    "options": [
+      "eight eighths, which is one whole",
+      "four eighths",
+      "one half",
+      "twelve eighths"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(6 + 2 = 8\\) eighths, and eight eighths is the whole.\n\n**Key concept:** Add parts of the same size by adding how many there are.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q16",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square is folded twice so all four parts match. Each part is —",
+    "options": [
+      "one fourth",
+      "one half",
+      "one eighth",
+      "the whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo folds make 4 parts, and matching means they are equal — so each is a fourth.\n\n**Key concept:** Each fold doubles the number of parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q17",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which set of parts could be described as fourths?",
+    "options": [
+      "4 pieces all the same size",
+      "4 pieces of different sizes",
+      "3 pieces the same size",
+      "8 pieces the same size"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFourths means 4 parts **and** all equal. Four unequal pieces are not fourths.\n\n**Key concept:** Both the count and the equality matter.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q18",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana ate one half of an apple, Leo ate two fourths of an identical apple. Who ate more?",
+    "options": [
+      "They ate the same",
+      "Ana",
+      "Leo",
+      "Neither ate any"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo fourths is the same amount as one half, and the apples were identical.\n\n**Key concept:** Different fraction names can describe the same amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q19",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A whole is cut into 8 equal parts. Four of them together are —",
+    "options": [
+      "one half",
+      "one fourth",
+      "one eighth",
+      "the whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFour of the 8 equal parts is half of them, so it is one half of the whole.\n\n**Key concept:** Four eighths equals one half.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q20",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The **more** equal pieces a cake is cut into, each piece is —",
+    "options": [
+      "smaller",
+      "larger",
+      "unchanged",
+      "the whole cake"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe cake stays the same size, so dividing it among more pieces gives each piece less.\n\n**Key concept:** More equal pieces means smaller pieces.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q21",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which needs more cuts: making halves or making fourths?",
+    "options": [
+      "Fourths",
+      "Halves",
+      "They need the same",
+      "Neither needs cuts"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHalves need 1 cut and fourths need 3, because more pieces requires more cuts.\n\n**Key concept:** The number of cuts is one fewer than the number of pieces.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q22",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two eighths of a strip is the same as —",
+    "options": [
+      "one fourth",
+      "one half",
+      "one eighth",
+      "the whole strip"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo of the 8 equal parts is the same amount as one of 4 equal parts.\n\n**Key concept:** Two eighths equals one fourth.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q23",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is true when a whole is shared fairly?",
+    "options": [
+      "Every share is the same size.",
+      "The biggest person gets more.",
+      "Shares can be any size.",
+      "There must be 8 shares."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFair sharing means equal shares, regardless of who receives them or how many there are.\n\n**Key concept:** Fair means equal.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

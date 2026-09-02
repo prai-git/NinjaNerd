@@ -138,5 +138,465 @@
     "explanation": "**Explanation:**\n5 cents a day for 6 days is 5 × 6 = 30 cents.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q24",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How much is 3 dimes and 2 pennies?",
+    "options": [
+      "32 cents",
+      "23 cents",
+      "5 cents",
+      "50 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(3 \\times 10 = 30\\) cents from the dimes, plus 2 pennies, is 32 cents.\n\n**Key concept:** Count the larger coins first, then add the smaller ones.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q25",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of coins is worth the **most**?",
+    "options": [
+      "2 quarters",
+      "4 dimes",
+      "5 nickels",
+      "9 pennies"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n2 quarters is 50 cents; 4 dimes is 40, 5 nickels is 25, and 9 pennies is 9. The most coins is not the most money.\n\n**Key concept:** Value depends on which coins, not how many.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q26",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many nickels make 25 cents?",
+    "options": [
+      "5",
+      "25",
+      "2",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEach nickel is 5 cents, and \\(25 \\div 5 = 5\\) nickels.\n\n**Key concept:** Divide the total by the coin's value.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q27",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Maya has 45 cents. A pencil costs 30 cents. How much will she have left?",
+    "options": [
+      "15 cents",
+      "75 cents",
+      "30 cents",
+      "25 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(45 - 30 = 15\\) cents left.\n\n**Key concept:** Spending means subtracting from what you have.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q28",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **need** rather than a want?",
+    "options": [
+      "Food",
+      "A video game",
+      "A toy car",
+      "A comic book"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA need is something required to live. Games, toys and comics are wants — enjoyable but not necessary.\n\n**Key concept:** Needs come before wants when money is limited.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q29",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two quarters and one dime is —",
+    "options": [
+      "60 cents",
+      "35 cents",
+      "50 cents",
+      "70 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(25 + 25 + 10 = 60\\) cents.\n\n**Key concept:** Add each coin's value to find the total.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q30",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Leo saves 10 cents each week. How much has he saved after 5 weeks?",
+    "options": [
+      "50 cents",
+      "15 cents",
+      "5 cents",
+      "100 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(10 \\times 5 = 50\\) cents after 5 weeks.\n\n**Key concept:** Saving the same amount repeatedly means multiplying.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q31",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why might someone **save** money instead of spending it right away?",
+    "options": [
+      "To afford something that costs more than they have now",
+      "Because saving means the money disappears",
+      "Because coins are heavy",
+      "To make the money worth less"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSaving builds up money over time so a larger purchase becomes possible. Saved money does not disappear or lose value.\n\n**Key concept:** Saving trades spending now for more choice later.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q32",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many pennies equal one dime?",
+    "options": [
+      "10",
+      "5",
+      "1",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA dime is 10 cents and a penny is 1 cent, so 10 pennies equal one dime.\n\n**Key concept:** Coins can be exchanged for equal value in smaller coins.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q33",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A book costs 80 cents. Ana has 3 quarters. Does she have enough?",
+    "options": [
+      "No, she is 5 cents short.",
+      "Yes, with 5 cents left over.",
+      "Yes, exactly.",
+      "No, she is 25 cents short."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(3 \\times 25 = 75\\) cents, and the book costs 80, so \\(80 - 75 = 5\\) cents short.\n\n**Key concept:** Compare what you have against the price before deciding.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q34",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which coin is worth 25 cents?",
+    "options": [
+      "Quarter",
+      "Dime",
+      "Nickel",
+      "Penny"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA quarter is 25 cents — a quarter of a dollar.\n\n**Key concept:** Each coin has a fixed value that must be known by sight.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q35",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sam has 6 dimes. He spends 25 cents. How much is left?",
+    "options": [
+      "35 cents",
+      "60 cents",
+      "85 cents",
+      "25 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(6 \\times 10 = 60\\) cents, and \\(60 - 25 = 35\\) cents left.\n\n**Key concept:** Total the coins first, then subtract what was spent.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q36",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which choice shows **spending less** than you earn?",
+    "options": [
+      "Earning 50 cents and spending 30 cents",
+      "Earning 30 cents and spending 50 cents",
+      "Earning 50 cents and spending 50 cents",
+      "Earning nothing and spending 20 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOnly this option leaves money over. Spending more than you earn creates a shortfall, and spending exactly what you earn leaves nothing.\n\n**Key concept:** Spending less than you earn is what makes saving possible.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q37",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which combination equals 40 cents?",
+    "options": [
+      "4 dimes",
+      "4 nickels",
+      "4 pennies",
+      "4 quarters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(4 \\times 10 = 40\\) cents. Four nickels is 20, four pennies is 4, four quarters is 100.\n\n**Key concept:** The same number of different coins gives very different totals.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q38",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A toy costs 90 cents. Rosa has 3 quarters and 1 dime. How much more does she need?",
+    "options": [
+      "5 cents",
+      "10 cents",
+      "15 cents",
+      "25 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(3 \\times 25 + 10 = 85\\) cents, and \\(90 - 85 = 5\\) cents more needed.\n\n**Key concept:** Find the total first, then the difference from the price.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q39",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is an example of **earning** money?",
+    "options": [
+      "Doing chores for payment",
+      "Finding a coin on the path",
+      "Being given a gift",
+      "Borrowing from a friend"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEarning means receiving money in return for work. Finding, being given and borrowing are not earning.\n\n**Key concept:** Earning is money received for work done.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q40",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many dimes make one dollar?",
+    "options": [
+      "10",
+      "100",
+      "4",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA dollar is 100 cents and a dime is 10 cents, so \\(100 \\div 10 = 10\\) dimes.\n\n**Key concept:** Ten dimes make one dollar.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q41",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben wants a kite that costs 75 cents. He saves 15 cents a week. How many weeks until he can buy it?",
+    "options": [
+      "5 weeks",
+      "3 weeks",
+      "15 weeks",
+      "7 weeks"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(75 \\div 15 = 5\\) weeks of saving.\n\n**Key concept:** Divide the goal by the weekly amount to find how long it takes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q42",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "If you spend all your money on wants, what may happen?",
+    "options": [
+      "You may not have enough for something you need.",
+      "You will always have enough.",
+      "Your money will grow.",
+      "Nothing changes."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nMoney spent on wants is no longer available for needs, which is why needs are planned for first.\n\n**Key concept:** Every spending choice uses money that cannot be spent again.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q43",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is worth **less** than a quarter?",
+    "options": [
+      "2 dimes",
+      "3 dimes",
+      "1 quarter",
+      "6 nickels"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n2 dimes is 20 cents, which is less than 25. Three dimes and six nickels are both 30 cents, and a quarter equals 25 rather than less.\n\n**Key concept:** Convert every option to cents before comparing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q44",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana has 1 quarter, 2 dimes and 3 pennies. How much money does she have?",
+    "options": [
+      "48 cents",
+      "45 cents",
+      "6 cents",
+      "53 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(25 + (2 \\times 10) + 3 = 25 + 20 + 3 = 48\\) cents.\n\n**Key concept:** Group coins by type, then add the groups.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q45",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A **budget** helps a person —",
+    "options": [
+      "plan how much to spend and save",
+      "spend all their money faster",
+      "find coins on the ground",
+      "borrow more money"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA budget is a plan matching money coming in against money going out, so needs are covered and saving happens on purpose.\n\n**Key concept:** A budget is a plan, not a limit imposed from outside.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-01_19-10_q46",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two friends each have 35 cents. Together, can they buy a 65-cent snack?",
+    "options": [
+      "Yes, with 5 cents left over.",
+      "No, they are 5 cents short.",
+      "Yes, exactly.",
+      "No, they are 30 cents short."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(35 + 35 = 70\\) cents, and \\(70 - 65 = 5\\) cents left.\n\n**Key concept:** Combine what both people have before comparing to the price.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
