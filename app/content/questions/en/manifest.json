@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:18:28.785Z",
+  "generatedAt": "2026-09-02T12:51:14.659Z",
   "grades": {
     "1": {
       "english": [
@@ -621,6 +621,164 @@
           "subtopic": "scientific_methods_research",
           "slug": "scientific_methods_research",
           "count": 26
+        }
+      ]
+    },
+    "7": {
+      "english": [
+        {
+          "subtopic": "advanced_grammar_applications",
+          "slug": "advanced_grammar_applications",
+          "count": 25
+        },
+        {
+          "subtopic": "advanced_punctuation_style",
+          "slug": "advanced_punctuation_style",
+          "count": 25
+        },
+        {
+          "subtopic": "advanced_writing_styles",
+          "slug": "advanced_writing_styles",
+          "count": 25
+        },
+        {
+          "subtopic": "grammar_language_mechanics",
+          "slug": "grammar_language_mechanics",
+          "count": 25
+        },
+        {
+          "subtopic": "literary_analysis_comprehension",
+          "slug": "literary_analysis_comprehension",
+          "count": 25
+        },
+        {
+          "subtopic": "reading_fundamentals",
+          "slug": "reading_fundamentals",
+          "count": 25
+        },
+        {
+          "subtopic": "sentence_craft_structure",
+          "slug": "sentence_craft_structure",
+          "count": 25
+        },
+        {
+          "subtopic": "vocabulary_building",
+          "slug": "vocabulary_building",
+          "count": 25
+        },
+        {
+          "subtopic": "writing_essentials",
+          "slug": "writing_essentials",
+          "count": 25
+        },
+        {
+          "subtopic": "written_conventions",
+          "slug": "written_conventions",
+          "count": 25
+        }
+      ],
+      "math": [
+        {
+          "subtopic": "advanced_geometry_measurement",
+          "slug": "advanced_geometry_measurement",
+          "count": 25
+        },
+        {
+          "subtopic": "advanced_number_systems",
+          "slug": "advanced_number_systems",
+          "count": 25
+        },
+        {
+          "subtopic": "algebraic_concepts",
+          "slug": "algebraic_concepts",
+          "count": 25
+        },
+        {
+          "subtopic": "data_analysis_functions",
+          "slug": "data_analysis_functions",
+          "count": 25
+        },
+        {
+          "subtopic": "fractions_decimals",
+          "slug": "fractions_decimals",
+          "count": 25
+        },
+        {
+          "subtopic": "geometry_spatial_concepts",
+          "slug": "geometry_spatial_concepts",
+          "count": 25
+        },
+        {
+          "subtopic": "measurement_data",
+          "slug": "measurement_data",
+          "count": 25
+        },
+        {
+          "subtopic": "number_sense_basic_operations",
+          "slug": "number_sense_basic_operations",
+          "count": 25
+        },
+        {
+          "subtopic": "problem_solving_applications",
+          "slug": "problem_solving_applications",
+          "count": 25
+        },
+        {
+          "subtopic": "proportional_reasoning_percentages",
+          "slug": "proportional_reasoning_percentages",
+          "count": 25
+        }
+      ],
+      "science": [
+        {
+          "subtopic": "advanced_biology",
+          "slug": "advanced_biology",
+          "count": 25
+        },
+        {
+          "subtopic": "chemistry_concepts",
+          "slug": "chemistry_concepts",
+          "count": 25
+        },
+        {
+          "subtopic": "earth_space_science",
+          "slug": "earth_space_science",
+          "count": 25
+        },
+        {
+          "subtopic": "earth_systems",
+          "slug": "earth_systems",
+          "count": 25
+        },
+        {
+          "subtopic": "forces_energy",
+          "slug": "forces_energy",
+          "count": 25
+        },
+        {
+          "subtopic": "life_science_fundamentals",
+          "slug": "life_science_fundamentals",
+          "count": 25
+        },
+        {
+          "subtopic": "physical_science_basics",
+          "slug": "physical_science_basics",
+          "count": 25
+        },
+        {
+          "subtopic": "physics_energy_systems",
+          "slug": "physics_energy_systems",
+          "count": 25
+        },
+        {
+          "subtopic": "scientific_investigation_skills",
+          "slug": "scientific_investigation_skills",
+          "count": 25
+        },
+        {
+          "subtopic": "scientific_methods_research",
+          "slug": "scientific_methods_research",
+          "count": 25
         }
       ]
     }

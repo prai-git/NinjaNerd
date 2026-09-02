@@ -233,3 +233,48 @@ test('exhausting a subtopic resets it instead of serving an empty quiz', () => {
   // The child must be told, not left thinking it is a bug.
   assert.match(practice, /answered every question in this subtopic correctly/i);
 });
+
+/* GRADE RANGE (2026-09-02, grade 7 added).
+
+   The bound lives twice on purpose: flow.js holds MAX_GRADE for the seven browser page
+   modules, and stats-calc.js holds its own copy because it is deliberately import-free so
+   Node can execute it here. Two copies drift silently — the statistics roll-up would simply
+   stop looking at the top grade and a child's chart would go blank with no error — so the
+   agreement is asserted rather than assumed.
+
+   Before this, SEVEN modules each carried a literal `grade >= 1 && grade <= 6`; adding a
+   grade meant finding all seven. That is exactly the bug class this pair of tests closes. */
+test('stats-calc and flow agree on the highest grade served', async () => {
+  const { MAX_GRADE: statsMax } = await import('../app/js/stats-calc.js');
+  const { MAX_GRADE: flowMax } = await import('../app/js/flow.js');
+  assert.equal(statsMax, flowMax,
+    'stats-calc.js MAX_GRADE must match flow.js MAX_GRADE — the roll-up loop uses it');
+  assert.equal(flowMax, 7, 'the site serves grades 1-7');
+});
+
+test('the statistics roll-up scans every grade the site serves', async () => {
+  const { MAX_GRADE, rollupKeyFor, gradeFromRollup } = await import('../app/js/stats-calc.js');
+  // A child whose only maths answers are at the top grade must be shown that grade, not 1.
+  const summary = { attempts_by: { [rollupKeyFor(MAX_GRADE, 'math')]: 4 } };
+  assert.equal(gradeFromRollup(summary), MAX_GRADE,
+    'the loop must reach MAX_GRADE, or the top grade is invisible to Statistics');
+});
+
+test('isValidGrade accepts 1 through MAX_GRADE and nothing outside it', async () => {
+  const { isValidGrade, MIN_GRADE, MAX_GRADE } = await import('../app/js/flow.js');
+  for (let g = MIN_GRADE; g <= MAX_GRADE; g++) assert.ok(isValidGrade(g), `grade ${g}`);
+  for (const bad of [0, MAX_GRADE + 1, -1, 1.5, NaN, null, undefined, '3']) {
+    assert.ok(!isValidGrade(bad), `must reject ${String(bad)}`);
+  }
+});
+
+/* Every page that reads a grade from the URL must use the shared guard. A page that keeps its
+   own comparison is the failure this refactor exists to prevent: it would 404 grade 7 while
+   every other page served it. */
+test('no page module carries its own grade bound', () => {
+  for (const f of ['topics', 'subtopics', 'explore', 'learn', 'practice', 'games', 'game']) {
+    const src = read(`app/js/${f}.js`);
+    assert.ok(!/grade\s*<=\s*\d/.test(src), `${f}.js must not hardcode an upper grade bound`);
+    assert.match(src, /isValidGrade/, `${f}.js must use the shared guard`);
+  }
+});

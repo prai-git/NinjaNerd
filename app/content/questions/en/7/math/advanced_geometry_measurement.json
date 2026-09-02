@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q201",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 6 cm and perpendicular height 4 cm. What is its area?",
+    "options": [
+      "5 square centimeters",
+      "24 square centimeters",
+      "10 square centimeters",
+      "12 square centimeters"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 6 x 4 = 12 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q202",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 8 cm and perpendicular height 6 cm. What is its area?",
+    "options": [
+      "14 square centimeters",
+      "48 square centimeters",
+      "24 square centimeters",
+      "7 square centimeters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 8 x 6 = 24 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q203",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 10 cm and perpendicular height 8 cm. What is its area?",
+    "options": [
+      "80 square centimeters",
+      "40 square centimeters",
+      "18 square centimeters",
+      "9 square centimeters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 10 x 8 = 40 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q204",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 12 cm and perpendicular height 10 cm. What is its area?",
+    "options": [
+      "60 square centimeters",
+      "120 square centimeters",
+      "22 square centimeters",
+      "11 square centimeters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 12 x 10 = 60 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q205",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles are supplementary. One angle measures 75 degrees. What is the other angle?",
+    "options": [
+      "75 degrees",
+      "15 degrees",
+      "285 degrees",
+      "105 degrees"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Supplementary angles sum to 180 degrees, so the missing angle is 180 - 75 = 105.\n\n**Key concept:** Supplementary angles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q206",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 14 cm and perpendicular height 12 cm. What is its area?",
+    "options": [
+      "26 square centimeters",
+      "168 square centimeters",
+      "84 square centimeters",
+      "13 square centimeters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 14 x 12 = 84 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q207",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 16 cm and perpendicular height 14 cm. What is its area?",
+    "options": [
+      "224 square centimeters",
+      "112 square centimeters",
+      "30 square centimeters",
+      "15 square centimeters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 16 x 14 = 112 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q208",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 18 cm and perpendicular height 4 cm. What is its area?",
+    "options": [
+      "36 square centimeters",
+      "72 square centimeters",
+      "22 square centimeters",
+      "11 square centimeters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 18 x 4 = 36 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q209",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 20 cm and perpendicular height 6 cm. What is its area?",
+    "options": [
+      "13 square centimeters",
+      "120 square centimeters",
+      "26 square centimeters",
+      "60 square centimeters"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 20 x 6 = 60 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q210",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles are supplementary. One angle measures 80 degrees. What is the other angle?",
+    "options": [
+      "280 degrees",
+      "10 degrees",
+      "100 degrees",
+      "80 degrees"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Supplementary angles sum to 180 degrees, so the missing angle is 180 - 80 = 100.\n\n**Key concept:** Supplementary angles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q211",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 6 cm and perpendicular height 8 cm. What is its area?",
+    "options": [
+      "48 square centimeters",
+      "24 square centimeters",
+      "14 square centimeters",
+      "7 square centimeters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 6 x 8 = 24 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q212",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 8 cm and perpendicular height 10 cm. What is its area?",
+    "options": [
+      "40 square centimeters",
+      "80 square centimeters",
+      "18 square centimeters",
+      "9 square centimeters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 8 x 10 = 40 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q213",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 10 cm and perpendicular height 12 cm. What is its area?",
+    "options": [
+      "11 square centimeters",
+      "120 square centimeters",
+      "22 square centimeters",
+      "60 square centimeters"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 10 x 12 = 60 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q214",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 12 cm and perpendicular height 14 cm. What is its area?",
+    "options": [
+      "26 square centimeters",
+      "168 square centimeters",
+      "84 square centimeters",
+      "13 square centimeters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 12 x 14 = 84 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q215",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles are supplementary. One angle measures 85 degrees. What is the other angle?",
+    "options": [
+      "5 degrees",
+      "95 degrees",
+      "275 degrees",
+      "85 degrees"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Supplementary angles sum to 180 degrees, so the missing angle is 180 - 85 = 95.\n\n**Key concept:** Supplementary angles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q216",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 14 cm and perpendicular height 4 cm. What is its area?",
+    "options": [
+      "28 square centimeters",
+      "56 square centimeters",
+      "18 square centimeters",
+      "9 square centimeters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 14 x 4 = 28 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q217",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 16 cm and perpendicular height 6 cm. What is its area?",
+    "options": [
+      "11 square centimeters",
+      "96 square centimeters",
+      "22 square centimeters",
+      "48 square centimeters"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 16 x 6 = 48 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q218",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 18 cm and perpendicular height 8 cm. What is its area?",
+    "options": [
+      "26 square centimeters",
+      "144 square centimeters",
+      "72 square centimeters",
+      "13 square centimeters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 18 x 8 = 72 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q219",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 20 cm and perpendicular height 10 cm. What is its area?",
+    "options": [
+      "200 square centimeters",
+      "100 square centimeters",
+      "30 square centimeters",
+      "15 square centimeters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 20 x 10 = 100 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q220",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles are supplementary. One angle measures 105 degrees. What is the other angle?",
+    "options": [
+      "75 degrees",
+      "15 degrees",
+      "255 degrees",
+      "105 degrees"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Supplementary angles sum to 180 degrees, so the missing angle is 180 - 105 = 75.\n\n**Key concept:** Supplementary angles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q221",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 6 cm and perpendicular height 12 cm. What is its area?",
+    "options": [
+      "9 square centimeters",
+      "72 square centimeters",
+      "18 square centimeters",
+      "36 square centimeters"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 6 x 12 = 36 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q222",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 8 cm and perpendicular height 14 cm. What is its area?",
+    "options": [
+      "22 square centimeters",
+      "112 square centimeters",
+      "56 square centimeters",
+      "11 square centimeters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 8 x 14 = 56 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q223",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 10 cm and perpendicular height 4 cm. What is its area?",
+    "options": [
+      "40 square centimeters",
+      "20 square centimeters",
+      "14 square centimeters",
+      "7 square centimeters"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 10 x 4 = 20 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q224",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has base 12 cm and perpendicular height 6 cm. What is its area?",
+    "options": [
+      "36 square centimeters",
+      "72 square centimeters",
+      "18 square centimeters",
+      "9 square centimeters"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Area of a triangle is one half x base x height: (1/2) x 12 x 6 = 36 square centimetres.\n\n**Key concept:** Area of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q225",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Advanced Geometry & Measurement",
+    "subtopic": "advanced_geometry_measurement",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles are supplementary. One angle measures 95 degrees. What is the other angle?",
+    "options": [
+      "95 degrees",
+      "5 degrees",
+      "265 degrees",
+      "85 degrees"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Supplementary angles sum to 180 degrees, so the missing angle is 180 - 95 = 85.\n\n**Key concept:** Supplementary angles",
+    "source": "authored",
+    "needsReview": false
+  }
+]

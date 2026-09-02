@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q176",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $100 and is discounted 15%. What is the discount amount?",
+    "options": [
+      "$15",
+      "$85",
+      "$115",
+      "$1500"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The discount is 15% of 100: 100 x 0.15 = 15.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q177",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $120 and is discounted 20%. What is the discount amount?",
+    "options": [
+      "$2400",
+      "$96",
+      "$144",
+      "$24"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The discount is 20% of 120: 120 x 0.20 = 24.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q178",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $140 and is discounted 25%. What is the discount amount?",
+    "options": [
+      "$175",
+      "$105",
+      "$35",
+      "$3500"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The discount is 25% of 140: 140 x 0.25 = 35.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q179",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $160 and is discounted 30%. What is the discount amount?",
+    "options": [
+      "$112",
+      "$48",
+      "$208",
+      "$4800"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The discount is 30% of 160: 160 x 0.30 = 48.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q180",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A proportional relationship has constant of proportionality 3. When x = 9, what is y?",
+    "options": [
+      "27",
+      "12",
+      "3",
+      "-9"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** For y = kx, y = 3 x 9 = 27.\n\n**Key concept:** Constant of proportionality",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q181",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $180 and is discounted 15%. What is the discount amount?",
+    "options": [
+      "$2700",
+      "$153",
+      "$207",
+      "$27"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The discount is 15% of 180: 180 x 0.15 = 27.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q182",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $200 and is discounted 20%. What is the discount amount?",
+    "options": [
+      "$240",
+      "$160",
+      "$40",
+      "$4000"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The discount is 20% of 200: 200 x 0.20 = 40.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q183",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $220 and is discounted 25%. What is the discount amount?",
+    "options": [
+      "$165",
+      "$55",
+      "$275",
+      "$5500"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The discount is 25% of 220: 220 x 0.25 = 55.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q184",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $240 and is discounted 30%. What is the discount amount?",
+    "options": [
+      "$72",
+      "$168",
+      "$312",
+      "$7200"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The discount is 30% of 240: 240 x 0.30 = 72.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q185",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A proportional relationship has constant of proportionality 3. When x = 8, what is y?",
+    "options": [
+      "-8",
+      "11",
+      "2.67",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** For y = kx, y = 3 x 8 = 24.\n\n**Key concept:** Constant of proportionality",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q186",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $260 and is discounted 15%. What is the discount amount?",
+    "options": [
+      "$299",
+      "$221",
+      "$39",
+      "$3900"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The discount is 15% of 260: 260 x 0.15 = 39.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q187",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $280 and is discounted 20%. What is the discount amount?",
+    "options": [
+      "$224",
+      "$56",
+      "$336",
+      "$5600"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The discount is 20% of 280: 280 x 0.20 = 56.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q188",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $300 and is discounted 25%. What is the discount amount?",
+    "options": [
+      "$75",
+      "$225",
+      "$375",
+      "$7500"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The discount is 25% of 300: 300 x 0.25 = 75.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q189",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $320 and is discounted 30%. What is the discount amount?",
+    "options": [
+      "$9600",
+      "$224",
+      "$416",
+      "$96"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The discount is 30% of 320: 320 x 0.30 = 96.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q190",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A proportional relationship has constant of proportionality 3. When x = 7, what is y?",
+    "options": [
+      "2.33",
+      "10",
+      "21",
+      "-7"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** For y = kx, y = 3 x 7 = 21.\n\n**Key concept:** Constant of proportionality",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q191",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $340 and is discounted 15%. What is the discount amount?",
+    "options": [
+      "$289",
+      "$51",
+      "$391",
+      "$5100"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The discount is 15% of 340: 340 x 0.15 = 51.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q192",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $360 and is discounted 20%. What is the discount amount?",
+    "options": [
+      "$72",
+      "$288",
+      "$432",
+      "$7200"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The discount is 20% of 360: 360 x 0.20 = 72.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q193",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $380 and is discounted 25%. What is the discount amount?",
+    "options": [
+      "$9500",
+      "$285",
+      "$475",
+      "$95"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The discount is 25% of 380: 380 x 0.25 = 95.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q194",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $400 and is discounted 30%. What is the discount amount?",
+    "options": [
+      "$520",
+      "$280",
+      "$120",
+      "$12000"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The discount is 30% of 400: 400 x 0.30 = 120.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q195",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A proportional relationship has constant of proportionality 3. When x = 6, what is y?",
+    "options": [
+      "9",
+      "18",
+      "2",
+      "-6"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** For y = kx, y = 3 x 6 = 18.\n\n**Key concept:** Constant of proportionality",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q196",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $420 and is discounted 15%. What is the discount amount?",
+    "options": [
+      "$63",
+      "$357",
+      "$483",
+      "$6300"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The discount is 15% of 420: 420 x 0.15 = 63.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q197",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $440 and is discounted 20%. What is the discount amount?",
+    "options": [
+      "$8800",
+      "$352",
+      "$528",
+      "$88"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The discount is 20% of 440: 440 x 0.20 = 88.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q198",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $460 and is discounted 25%. What is the discount amount?",
+    "options": [
+      "$575",
+      "$345",
+      "$115",
+      "$11500"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The discount is 25% of 460: 460 x 0.25 = 115.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q199",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jacket costs $480 and is discounted 30%. What is the discount amount?",
+    "options": [
+      "$336",
+      "$144",
+      "$624",
+      "$14400"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The discount is 30% of 480: 480 x 0.30 = 144.\n\n**Key concept:** Percent of a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q200",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Proportional Reasoning & Percentages",
+    "subtopic": "proportional_reasoning_percentages",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A proportional relationship has constant of proportionality 3. When x = 5, what is y?",
+    "options": [
+      "15",
+      "8",
+      "1.67",
+      "-5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** For y = kx, y = 3 x 5 = 15.\n\n**Key concept:** Constant of proportionality",
+    "source": "authored",
+    "needsReview": false
+  }
+]

@@ -12,7 +12,7 @@
      child-to-child messaging is out of scope for launch. */
 import { loadSubtopic } from './content-loader.js';
 import {
-  param, subjectLabel, requireLogin, renderInline, renderBlocks, emitAttempt,
+  param, subjectLabel, requireLogin, renderInline, renderBlocks, emitAttempt, isValidGrade,
 } from './flow.js';
 import { buildAttempt } from './quiz.js';
 import { renderMath } from './math-render.js';
@@ -46,7 +46,7 @@ async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
   const subtopic = param('subtopic');
-  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('index.html'); return; }
+  if (!isValidGrade(grade) || !subject || !subtopic) { location.replace('index.html'); return; }
 
   const q = `grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(subtopic)}`;
   if (!requireLogin(`pages/practice.html?${q}`)) return;

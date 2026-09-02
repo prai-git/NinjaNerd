@@ -1,0 +1,502 @@
+[
+  {
+    "id": "english_g7_2026-09-01_20-44_q76",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has correct subject-verb agreement?",
+    "options": [
+      "The box of old maps were donated.",
+      "Neither the keys nor the lock work.",
+      "Each of the runners trains daily.",
+      "The committee have chose a date."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The singular subject each requires the singular verb trains.\n**Key concept:** Subject-verb agreement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q77",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision corrects the pronoun error?\n\"Maya and me presented the findings.\"",
+    "options": [
+      "Maya and I presented the findings.",
+      "Me and Maya presented the findings.",
+      "Maya and myself presented findings.",
+      "I and Maya presented the findings."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** I is the correct subject pronoun in a compound subject.\n**Key concept:** Pronoun case.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q78",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a coordinating conjunction correctly?",
+    "options": [
+      "We left early, because traffic was heavy.",
+      "We left early, but traffic was heavy.",
+      "We left early, so traffic was heavy.",
+      "We left early, yet traffic were heavy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** But correctly links two independent clauses that contrast.\n**Key concept:** Coordinating conjunctions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q79",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence avoids a misplaced modifier?",
+    "options": [
+      "Running through the rain, the backpack soaked Eli.",
+      "Eli soaked the backpack running through the rain.",
+      "Running through the rain, Eli soaked the backpack.",
+      "The backpack, running through the rain, soaked Eli."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The opening phrase clearly modifies Eli, who is doing the running.\n**Key concept:** Misplaced modifiers.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q80",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an adverb correctly?",
+    "options": [
+      "The violinist played beautiful.",
+      "The violinist played beautifully.",
+      "The violinist was beautifully at rehearsal.",
+      "The violinist played more beautiful."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The adverb beautifully modifies the verb played.\n**Key concept:** Adjectives and adverbs.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q81",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has parallel structure?",
+    "options": [
+      "The job requires planning, patience, and to communicate.",
+      "The job requires planning, being patient, and communication.",
+      "The job requires planning, patience, and clear communication.",
+      "The job requires to plan, patience, and communicating."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** All three items are parallel noun phrases.\n**Key concept:** Parallel structure.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q82",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses the past perfect tense?",
+    "options": [
+      "By noon, the crew completed the bridge.",
+      "By noon, the crew had completed the bridge.",
+      "By noon, the crew has completed the bridge.",
+      "By noon, the crew completing the bridge."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Had completed shows an action finished before a past reference time.\n**Key concept:** Verb tense.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q83",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a clear pronoun reference?",
+    "options": [
+      "When Jada spoke to Amina, she was frustrated.",
+      "The robot followed the cart until it stopped.",
+      "After the bell rang, Marcus packed his notebook.",
+      "Tessa gave the poster to Noor because it was colorful."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** His clearly refers to Marcus, the only possible antecedent.\n**Key concept:** Clear pronoun reference.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q84",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a subordinating conjunction?",
+    "options": [
+      "Although the road was icy, the bus arrived on time.",
+      "Although the road was icy, but the bus arrived on time.",
+      "The road was icy, although, the bus arrived on time.",
+      "Although the road was icy the bus, arrived on time."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Although introduces a dependent clause followed by a complete independent clause.\n**Key concept:** Subordinating conjunctions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q85",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision corrects the fragment?\n\"Because the batteries were dead.\"",
+    "options": [
+      "Because the batteries were dead, the flashlight failed.",
+      "Because the batteries were dead.",
+      "The batteries because were dead.",
+      "Dead because the batteries."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The added independent clause completes the thought.\n**Key concept:** Sentence fragments.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q86",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an intensive pronoun?",
+    "options": [
+      "The captain herself checked the ropes.",
+      "The captain checked the ropes herself's.",
+      "The captain checked herself the ropes.",
+      "The captain herself checked the ropes themselves."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Herself intensifies the noun captain and is used correctly.\n**Key concept:** Intensive pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q87",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses comparative language correctly?",
+    "options": [
+      "This route is more safer than the old one.",
+      "This route is safest than the old one.",
+      "This route is safer than the old one.",
+      "This route is the safer of all routes."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Safer is the correct comparative form for comparing two routes.\n**Key concept:** Comparative adjectives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q88",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an indefinite pronoun?",
+    "options": [
+      "Everyone should bring our permission slip.",
+      "Everyone should bring his or her permission slip.",
+      "Everyone should bring themselves permission slip.",
+      "Everyone should bring its permission slip."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The singular indefinite pronoun everyone agrees with the singular pronoun phrase.\n**Key concept:** Pronoun-antecedent agreement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q89",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the active voice?",
+    "options": [
+      "The experiment was designed by Leena.",
+      "The results were reviewed by the team.",
+      "Leena designed the experiment.",
+      "A conclusion was reached by everyone."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The subject performs the action directly.\n**Key concept:** Active voice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q90",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly combines the ideas?\n\"The speaker paused. The audience considered the question.\"",
+    "options": [
+      "The speaker paused, the audience considered the question.",
+      "The speaker paused while the audience considered the question.",
+      "The speaker paused, while, the audience considered the question.",
+      "The speaker paused and because the audience considered the question."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** While correctly connects the simultaneous actions in one complete sentence.\n**Key concept:** Sentence combining.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q91",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has correct verb tense?",
+    "options": [
+      "Last week, we analyze the data.",
+      "Last week, we had analyze the data.",
+      "Last week, we analyzed the data.",
+      "Last week, we are analyzing the data."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Analyzed is the simple past form that matches last week.\n**Key concept:** Verb tense consistency.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q92",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains a restrictive clause?",
+    "options": [
+      "My aunt, who lives in Austin, restores bicycles.",
+      "The book that won the prize is on the shelf.",
+      "The library, which opened in 1920, has a dome.",
+      "Ms. Ortiz, whose class I take, directs the play."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The clause identifies which book, so it is essential to the meaning.\n**Key concept:** Restrictive clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q93",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a prepositional phrase correctly?",
+    "options": [
+      "The team practiced between Monday and Wednesday.",
+      "The team practiced among Monday and Wednesday.",
+      "The team practiced beside Monday and Wednesday.",
+      "The team practiced through Monday and Wednesday."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Between correctly identifies the limits of a range involving two points.\n**Key concept:** Prepositions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q94",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a reflexive pronoun?",
+    "options": [
+      "The twins taught themselves to juggle.",
+      "The twins taught theirselves to juggle.",
+      "The twins taught them to juggle themselves.",
+      "The twins taught theirself to juggle."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The plural reflexive pronoun themselves refers back to twins.\n**Key concept:** Reflexive pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q95",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a compound predicate?",
+    "options": [
+      "The river flooded the field.",
+      "The river rose and flooded the field.",
+      "The river that rose flooded the field.",
+      "The river, rising, flooded the field."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** One subject performs two coordinated actions.\n**Key concept:** Compound predicates.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q96",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a modal verb to express necessity?",
+    "options": [
+      "You might bring a jacket.",
+      "You can bring a jacket.",
+      "You must bring a jacket.",
+      "You would bring a jacket."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Must expresses a requirement rather than possibility or ability.\n**Key concept:** Modal verbs.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q97",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses *who*?",
+    "options": [
+      "Who interviewed the reporter?",
+      "Who did the reporter give the notes to?",
+      "The scientist who the team thanked arrived.",
+      "To who were the letters addressed?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Who is correctly used as the subject in the embedded clause.\n**Key concept:** Interrogative pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q98",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has no dangling modifier?",
+    "options": [
+      "After reading the article, the argument seemed weak.",
+      "After reading the article, Priya found the argument weak.",
+      "After reading the article, the weak argument changed.",
+      "After reading the article, there was a weak argument."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Priya is clearly the person who read the article.\n**Key concept:** Dangling modifiers.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q99",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a semicolon appropriately?",
+    "options": [
+      "The rain stopped; and we resumed practice.",
+      "The rain stopped; we resumed practice.",
+      "The rain; stopped we resumed practice.",
+      "The rain stopped; because we resumed practice."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A semicolon correctly joins two closely related independent clauses.\n**Key concept:** Semicolons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q100",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a properly formed complex sentence?",
+    "options": [
+      "Since the power failed, the rehearsal continued outside.",
+      "Since the power failed, but rehearsal continued outside.",
+      "The power failed, since, rehearsal continued outside.",
+      "Since the power failed rehearsal, continued outside."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The dependent clause is followed by a complete main clause and correct punctuation.\n**Key concept:** Complex sentences.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

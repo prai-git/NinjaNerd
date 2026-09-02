@@ -4,13 +4,13 @@
    navigable with prev/next, then "Start Practice". Login required. */
 import { loadSubtopic } from './content-loader.js';
 import { renderMath } from './math-render.js';
-import { param, subjectLabel, requireLogin, renderInline, renderBlocks } from './flow.js';
+import { param, subjectLabel, requireLogin, renderInline, renderBlocks, isValidGrade } from './flow.js';
 
 async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
   const subtopic = param('subtopic');
-  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('index.html'); return; }
+  if (!isValidGrade(grade) || !subject || !subtopic) { location.replace('index.html'); return; }
 
   const q = `grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(subtopic)}`;
   if (!requireLogin(`pages/learn.html?${q}`)) return;

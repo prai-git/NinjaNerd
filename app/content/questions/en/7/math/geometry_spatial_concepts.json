@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q51",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 3 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "6 m",
+      "9 m",
+      "3 m",
+      "18 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 3 x 3 = 9 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q52",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "16 m",
+      "8 m",
+      "4 m",
+      "32 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 4 x 4 = 16 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q53",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 5 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "50 m",
+      "10 m",
+      "5 m",
+      "25 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 5 x 5 = 25 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q54",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 6 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "6 m",
+      "12 m",
+      "36 m",
+      "72 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 6 x 6 = 36 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q55",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plane slices a rectangular prism parallel to its base. What shape is the cross-section?",
+    "options": [
+      "A circle.",
+      "A rectangle congruent to the base.",
+      "A triangle.",
+      "A pentagon."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A slice parallel to a prism base has the same shape and size as that base.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q56",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 8 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "24 m",
+      "11 m",
+      "8 m",
+      "3 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 8 x 3 = 24 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q57",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 9 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "4 m",
+      "13 m",
+      "9 m",
+      "36 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 9 x 4 = 36 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q58",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 3 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "3 m",
+      "8 m",
+      "15 m",
+      "5 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 3 x 5 = 15 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q59",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "10 m",
+      "24 m",
+      "4 m",
+      "6 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 4 x 6 = 24 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q60",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plane slices a cylinder parallel to its base. What shape is the cross-section?",
+    "options": [
+      "A circle congruent to the base.",
+      "An oval longer than the base.",
+      "A rectangle.",
+      "A triangle."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Every slice parallel to a cylinder base repeats that base exactly.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q61",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 6 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "3 m",
+      "9 m",
+      "6 m",
+      "18 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 6 x 3 = 18 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q62",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 7 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "7 m",
+      "11 m",
+      "28 m",
+      "4 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 7 x 4 = 28 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q63",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 8 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "13 m",
+      "40 m",
+      "8 m",
+      "5 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 8 x 5 = 40 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q64",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 9 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "54 m",
+      "15 m",
+      "9 m",
+      "6 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 9 x 6 = 54 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q65",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plane slices a rectangular pyramid parallel to its base, halfway up. What shape is the cross-section?",
+    "options": [
+      "A circle.",
+      "A rectangle congruent to the base.",
+      "A triangle.",
+      "A rectangle smaller than the base."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A pyramid narrows toward its apex, so a parallel slice keeps the shape but shrinks it.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q66",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "4 m",
+      "7 m",
+      "12 m",
+      "3 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 4 x 3 = 12 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q67",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 5 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "9 m",
+      "20 m",
+      "5 m",
+      "4 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 5 x 4 = 20 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q68",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 6 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "30 m",
+      "11 m",
+      "6 m",
+      "5 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 6 x 5 = 30 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q69",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 7 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "6 m",
+      "13 m",
+      "7 m",
+      "42 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 7 x 6 = 42 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q70",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plane slices a cube perpendicular to its base and parallel to one pair of faces. What shape is the cross-section?",
+    "options": [
+      "A hexagon.",
+      "A triangle.",
+      "A square congruent to a face.",
+      "A circle."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The cut runs straight through two parallel square faces, so it matches a face.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q71",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 9 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "12 m",
+      "27 m",
+      "9 m",
+      "3 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 9 x 3 = 27 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q72",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 3 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "12 m",
+      "7 m",
+      "3 m",
+      "4 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 3 x 4 = 12 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q73",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "5 m",
+      "9 m",
+      "4 m",
+      "20 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 4 x 5 = 20 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q74",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 5 cm wide on the drawing. What is its actual width?",
+    "options": [
+      "5 m",
+      "11 m",
+      "30 m",
+      "6 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 5 x 6 = 30 m.\n\n**Key concept:** Scale drawings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q75",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plane slices a cone parallel to its base, above the base. What shape is the cross-section?",
+    "options": [
+      "A circle congruent to the base.",
+      "A circle smaller than the base.",
+      "A triangle.",
+      "A rectangle."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A cone narrows toward its apex, so a parallel slice is a smaller circle.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  }
+]

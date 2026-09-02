@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q26",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cart has 45 N east, 20 N west, and 5 N west from friction. What is the net force?",
+    "options": [
+      "20 N east.",
+      "20 N west.",
+      "70 N east.",
+      "0 N."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q27",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A robot travels 30 m in 12 s, including a 2 s pause. What is its average speed?",
+    "options": [
+      "2.5 m/s.",
+      "3.0 m/s.",
+      "15 m/s.",
+      "1.5 m/s."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q28",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A skateboarder descends a ramp with little friction. What energy change occurs?",
+    "options": [
+      "Gravitational potential energy changes mainly to kinetic energy.",
+      "Kinetic energy changes mainly to gravitational potential energy.",
+      "Matter is created as energy changes.",
+      "Thermal energy is destroyed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q29",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two equal forces act in opposite directions on a box. What happens?",
+    "options": [
+      "The net force is zero, so its motion does not change.",
+      "The box must accelerate east.",
+      "The box must accelerate west.",
+      "Its mass becomes zero."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q30",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does a seat belt protect a passenger during a sudden stop?",
+    "options": [
+      "It provides a force that changes the passenger motion with the car.",
+      "It removes the passengers inertia.",
+      "It increases the passengers mass.",
+      "It creates gravity."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q31",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cyclist doubles speed with the same travel time. What happens to distance traveled?",
+    "options": [
+      "It doubles.",
+      "It is cut in half.",
+      "It remains unchanged.",
+      "It becomes zero."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q32",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change increases friction between shoes and a wet floor?",
+    "options": [
+      "Using shoes with deeper tread.",
+      "Polishing the soles smooth.",
+      "Adding oil to the floor.",
+      "Reducing the contact force to zero."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q33",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A book rests on a table. Which forces are balanced?",
+    "options": [
+      "The upward support force and downward gravitational force.",
+      "The books mass and its volume.",
+      "Friction and speed.",
+      "Kinetic and chemical energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q34",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A 4 kg object accelerates when an unbalanced force acts. What change would produce greater acceleration with the same force?",
+    "options": [
+      "Decrease the objects mass.",
+      "Increase the objects mass.",
+      "Eliminate its kinetic energy.",
+      "Increase gravity to zero."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q35",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which example shows Newtons third law?",
+    "options": [
+      "A swimmer pushes water backward, and water pushes the swimmer forward.",
+      "A ball slows because it loses all mass.",
+      "A car moves because the road has no force on it.",
+      "A falling object has no force acting on it."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q36",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A flashlight converts battery energy to light and heat. What principle applies?",
+    "options": [
+      "Energy is transformed but conserved.",
+      "Energy is created by the bulb.",
+      "Matter is destroyed as light forms.",
+      "Heat has no energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q37",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which surface absorbs the most radiant energy on a sunny day?",
+    "options": [
+      "A dark, dull surface.",
+      "A light, shiny surface.",
+      "A transparent vacuum.",
+      "A surface with no particles."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q38",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A spring is compressed and released. Before release, it has mainly which energy?",
+    "options": [
+      "Elastic potential energy.",
+      "Chemical energy.",
+      "Nuclear energy.",
+      "No energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q39",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does a heavier cart require more force than a lighter cart for the same acceleration?",
+    "options": [
+      "Greater mass resists changes in motion more.",
+      "Heavier carts have no inertia.",
+      "Mass removes friction completely.",
+      "Weight is unrelated to force."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q40",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A car travels around a curve at constant speed. Why is its motion changing?",
+    "options": [
+      "Its direction changes, so its velocity changes.",
+      "Its mass changes.",
+      "It has no acceleration.",
+      "Time stops during turns."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q41",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does a distance-time graph with a horizontal line show?",
+    "options": [
+      "The object is not changing position.",
+      "The object is speeding up.",
+      "The object is moving backward faster.",
+      "The object has no mass."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q42",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A parachute increases air resistance. What is the result for a falling skydiver?",
+    "options": [
+      "The upward drag reduces the downward net force.",
+      "Gravity disappears.",
+      "The skydiver gains mass.",
+      "The ground pushes before contact."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q43",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which transfer warms a spoon handle in hot soup?",
+    "options": [
+      "Conduction through the metal.",
+      "Convection through empty space.",
+      "Radiation only from the handle.",
+      "Evaporation of the spoon."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q44",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A roller coaster climbs a hill. What energy change is occurring?",
+    "options": [
+      "Kinetic energy is changing into gravitational potential energy.",
+      "Potential energy is changing into mass.",
+      "Heat is changing into matter.",
+      "Sound is changing into gravity."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q45",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A force of 12 N acts east and 12 N acts west. Which claim is correct?",
+    "options": [
+      "The forces are balanced.",
+      "The net force is 24 N east.",
+      "The net force is 12 N west.",
+      "The object must be moving east."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q46",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is a ramp useful for moving a crate into a truck?",
+    "options": [
+      "It allows a smaller force to act over a longer distance.",
+      "It eliminates the need for energy.",
+      "It decreases the crates mass.",
+      "It removes gravity."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q47",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A moving bowling ball strikes pins. Which property helps it transfer energy?",
+    "options": [
+      "Its kinetic energy from motion.",
+      "Its lack of mass.",
+      "Its zero inertia.",
+      "Its absence of force."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q48",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change best reduces heat transfer by conduction through a wall?",
+    "options": [
+      "Add an insulating material with trapped air.",
+      "Use a thicker metal sheet.",
+      "Paint the wall darker only.",
+      "Remove all wall material."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q49",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An object moves at 6 m/s for 5 s. How far does it travel?",
+    "options": [
+      "30 m.",
+      "11 m.",
+      "1.2 m.",
+      "60 m."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q50",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A magnetic force acts without direct contact. Which is another noncontact force?",
+    "options": [
+      "Gravitational force.",
+      "Frictional force.",
+      "Support force.",
+      "Tension in a rope."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "source": "authored",
+    "needsReview": false
+  }
+]

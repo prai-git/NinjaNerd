@@ -1,0 +1,502 @@
+[
+  {
+    "id": "english_g7_2026-09-01_20-44_q226",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a semicolon correctly?",
+    "options": [
+      "The trail was closed; hikers chose another route.",
+      "The trail was closed; and hikers chose another route.",
+      "The trail; was closed hikers chose another route.",
+      "The trail was closed; because hikers chose another route."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The semicolon correctly joins two complete, related statements.\n**Key concept:** Semicolons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q227",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates a nonrestrictive clause?",
+    "options": [
+      "Dr. Chen who studies bats, presented the findings.",
+      "Dr. Chen, who studies bats, presented the findings.",
+      "Dr. Chen, who studies bats presented, the findings.",
+      "Dr. Chen who studies bats presented, the findings."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The clause adds nonessential information about Dr. Chen and needs commas.\n**Key concept:** Nonrestrictive clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q228",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a colon correctly?",
+    "options": [
+      "The vote had one result: the proposal passed.",
+      "The vote: had one result the proposal passed.",
+      "The vote had: one result the proposal passed.",
+      "The vote had one: result the proposal passed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The complete statement before the colon introduces its result.\n**Key concept:** Colons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q229",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an em dash?",
+    "options": [
+      "The forecast offered one surprise—snow in April.",
+      "The forecast offered one surprise- snow in April.",
+      "The forecast offered one surprise--snow in April.",
+      "The forecast offered one surprise -snow in April."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The dash introduces an emphasized explanation of the surprise.\n**Key concept:** Dashes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q230",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates a quotation interrupted by attribution?",
+    "options": [
+      "\"We will leave,\" said Ava \"after lunch.\"",
+      "\"We will leave,\" said Ava, \"after lunch.\"",
+      "\"We will leave\" said Ava, \"after lunch.\"",
+      "\"We will leave,\" said Ava. \"after lunch.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Commas separate the quoted parts from the interrupting attribution.\n**Key concept:** Interrupted quotations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q231",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma correctly after an introductory dependent clause?",
+    "options": [
+      "While the paint dried we cleaned the brushes.",
+      "While the paint dried, we cleaned the brushes.",
+      "While, the paint dried we cleaned the brushes.",
+      "While the paint, dried, we cleaned the brushes."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A comma follows the introductory dependent clause.\n**Key concept:** Introductory clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q232",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an apostrophe with a plural noun?",
+    "options": [
+      "The teachers lounge was renovated.",
+      "The teacher's lounge was renovated.",
+      "The teachers' lounge was renovated.",
+      "The teachers's lounge was renovated."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The apostrophe after the plural noun shows that the lounge belongs to multiple teachers.\n**Key concept:** Plural possessives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q233",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses parentheses for nonessential information?",
+    "options": [
+      "The observatory opens at 8 p.m. (weather permitting).",
+      "The observatory (opens at 8 p.m. weather permitting.",
+      "The observatory opens at (8 p.m. weather permitting).",
+      "The observatory opens) at 8 p.m. (weather permitting."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The parenthetical phrase adds extra information without interrupting the main sentence.\n**Key concept:** Parentheses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q234",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a hyphen correctly in a compound modifier?",
+    "options": [
+      "We attended a three day workshop.",
+      "We attended a three-day workshop.",
+      "We attended a three- day workshop.",
+      "We attended a threeday workshop."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Three-day is a compound modifier placed before workshop.\n**Key concept:** Hyphens.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q235",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates a direct question?",
+    "options": [
+      "The guide asked, \"Are we ready to begin?\"",
+      "The guide asked \"Are we ready to begin?\"",
+      "The guide asked, \"Are we ready to begin\".",
+      "The guide asked \"Are we ready to begin\"."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The direct question begins with a capital letter and keeps its question mark inside quotation marks.\n**Key concept:** Direct quotations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q236",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an ellipsis to show omitted words?",
+    "options": [
+      "The article states, \"The river . . . supports many species.\"",
+      "The article states, \"The river. . . supports many species.\"",
+      "The article states, \"The river . . .supports many species.\"",
+      "The article states, \"The river... supports many species.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The ellipsis marks words omitted from the middle of the quotation.\n**Key concept:** Ellipses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q237",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma to avoid misreading?",
+    "options": [
+      "After eating the dogs rested.",
+      "After eating, the dogs rested.",
+      "After, eating the dogs rested.",
+      "After eating the, dogs rested."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The comma clarifies that the dogs ate rather than were eaten.\n**Key concept:** Commas for clarity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q238",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence capitalizes a proper adjective correctly?",
+    "options": [
+      "We studied french poetry.",
+      "We studied French poetry.",
+      "We studied French Poetry.",
+      "We studied french Poetry."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** French is a proper adjective derived from a place name.\n**Key concept:** Capitalization.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q239",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a slash?",
+    "options": [
+      "Bring a parent/guardian signature.",
+      "Bring a parent / guardian signature.",
+      "Bring a parent/ guardian signature.",
+      "Bring a parent /guardian signature."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The slash correctly shows that either a parent or guardian may sign.\n**Key concept:** Slashes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q240",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has correct punctuation for a compound sentence?",
+    "options": [
+      "The sun set, and the temperature fell.",
+      "The sun set and, the temperature fell.",
+      "The sun, set and the temperature fell.",
+      "The sun set, and, the temperature fell."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The comma and conjunction link two independent clauses.\n**Key concept:** Compound sentences.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q241",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a dash to add an abrupt final detail?",
+    "options": [
+      "We checked every room—except the attic.",
+      "We checked every room- except the attic.",
+      "We checked every room--except the attic.",
+      "We checked every room -except the attic."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The dash adds an abrupt, emphatic exception.\n**Key concept:** Dashes for interruption.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q242",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates a book title correctly?",
+    "options": [
+      "I borrowed The House on Mango Street from the library.",
+      "I borrowed \"The House on Mango Street\" from the library.",
+      "I borrowed 'The House on Mango Street' from the library.",
+      "I borrowed THE HOUSE ON MANGO STREET from the library."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A book title is capitalized and conventionally italicized in published writing.\n**Key concept:** Titles of books.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q243",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a comma with a direct address?",
+    "options": [
+      "Please submit your draft, Jordan.",
+      "Please, submit your draft Jordan.",
+      "Please submit, your draft Jordan.",
+      "Please, submit your draft, Jordan."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The comma separates the person's name in a direct address.\n**Key concept:** Direct address.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q244",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a colon to introduce an explanation?",
+    "options": [
+      "The answer was clear: the valve had been closed.",
+      "The answer: was clear the valve had been closed.",
+      "The answer was: clear the valve had been closed.",
+      "The answer was clear the valve: had been closed."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The complete clause introduces an explanation after the colon.\n**Key concept:** Colons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q245",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses quotation marks correctly for an article title?",
+    "options": [
+      "We discussed \"How Wetlands Work\" in science.",
+      "We discussed How Wetlands Work in science.",
+      "We discussed 'How Wetlands Work' in science.",
+      "We discussed [How Wetlands Work] in science."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Article titles are placed in quotation marks.\n**Key concept:** Titles of short works.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q246",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses commas around an interrupter?",
+    "options": [
+      "The plan, however, required more funding.",
+      "The plan however required, more funding.",
+      "The plan however, required more funding.",
+      "The plan, however required more funding."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Commas correctly set off the interrupting adverb however.\n**Key concept:** Interrupters.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q247",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an apostrophe correctly in a contraction?",
+    "options": [
+      "The robotics team doesnt meet today.",
+      "The robotics team doesn't meet today.",
+      "The robotics team doesnt' meet today.",
+      "The robotics team does'nt meet today."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Doesn't correctly contracts does not with the apostrophe replacing omitted letters.\n**Key concept:** Contractions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q248",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates a sentence with two adjectives before a noun?",
+    "options": [
+      "We crossed a narrow, rocky ridge.",
+      "We crossed a narrow rocky, ridge.",
+      "We crossed, a narrow rocky ridge.",
+      "We crossed a, narrow, rocky ridge."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Narrow and rocky are coordinate adjectives that equally describe ridge.\n**Key concept:** Commas between adjectives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q249",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates an indirect question correctly?",
+    "options": [
+      "I asked whether the museum was open?",
+      "I asked whether the museum was open.",
+      "I asked, whether the museum was open?",
+      "I asked, whether the museum was open."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An indirect question is reported as a statement and ends with a period.\n**Key concept:** Indirect questions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q250",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Punctuation & Style",
+    "subtopic": "advanced_punctuation_style",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a semicolon correctly to separate complex list items?",
+    "options": [
+      "The route includes Austin, Texas; Tulsa, Oklahoma; and Denver, Colorado.",
+      "The route includes Austin, Texas,; Tulsa, Oklahoma,; and Denver, Colorado.",
+      "The route includes: Austin, Texas; Tulsa, Oklahoma; and Denver, Colorado.",
+      "The route includes Austin; Texas, Tulsa; Oklahoma, and Denver; Colorado."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Semicolons separate list items that already contain internal commas.\n**Key concept:** Semicolons in complex series.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

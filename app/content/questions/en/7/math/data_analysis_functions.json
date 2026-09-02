@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q226",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 7, 9, 11, 13, and 15. What is their mean?",
+    "options": [
+      "13.75",
+      "55",
+      "11",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add the five values to get 55, then divide by 5: 55 / 5 = 11.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q227",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 8, 10, 12, 14, and 16. What is their mean?",
+    "options": [
+      "60",
+      "12",
+      "15",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add the five values to get 60, then divide by 5: 60 / 5 = 12.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q228",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 9, 11, 13, 15, and 17. What is their mean?",
+    "options": [
+      "13",
+      "65",
+      "16.25",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add the five values to get 65, then divide by 5: 65 / 5 = 13.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q229",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 10, 12, 14, 16, and 18. What is their mean?",
+    "options": [
+      "8",
+      "70",
+      "17.5",
+      "14"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add the five values to get 70, then divide by 5: 70 / 5 = 14.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q230",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A random sample of 80 students is selected from every grade in a school. What population can this sample best represent?",
+    "options": [
+      "Only the 80 selected students.",
+      "All students in the state.",
+      "All students at the school.",
+      "Only students who play sports."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The sample was drawn at random from the whole school, so conclusions extend to that school.\n\n**Key concept:** Population and random sampling",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q231",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 11, 13, 15, 17, and 19. What is their mean?",
+    "options": [
+      "75",
+      "15",
+      "18.75",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add the five values to get 75, then divide by 5: 75 / 5 = 15.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q232",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 12, 14, 16, 18, and 20. What is their mean?",
+    "options": [
+      "16",
+      "80",
+      "20",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add the five values to get 80, then divide by 5: 80 / 5 = 16.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q233",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 13, 15, 17, 19, and 21. What is their mean?",
+    "options": [
+      "8",
+      "85",
+      "21.25",
+      "17"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add the five values to get 85, then divide by 5: 85 / 5 = 17.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q234",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 14, 16, 18, 20, and 22. What is their mean?",
+    "options": [
+      "22.5",
+      "90",
+      "18",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add the five values to get 90, then divide by 5: 90 / 5 = 18.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q235",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A survey is given only to students leaving the school library. Why might the results be biased?",
+    "options": [
+      "The sample is too large to analyse.",
+      "Students who use the library are more likely to be included.",
+      "Surveys cannot measure opinions.",
+      "Random sampling always fails."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Sampling one location over-represents the people who go there, so the sample is not representative.\n\n**Key concept:** Population and random sampling",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q236",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 15, 17, 19, 21, and 23. What is their mean?",
+    "options": [
+      "19",
+      "95",
+      "23.75",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add the five values to get 95, then divide by 5: 95 / 5 = 19.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q237",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 16, 18, 20, 22, and 24. What is their mean?",
+    "options": [
+      "8",
+      "100",
+      "25",
+      "20"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add the five values to get 100, then divide by 5: 100 / 5 = 20.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q238",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 17, 19, 21, 23, and 25. What is their mean?",
+    "options": [
+      "26.25",
+      "105",
+      "21",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add the five values to get 105, then divide by 5: 105 / 5 = 21.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q239",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 18, 20, 22, 24, and 26. What is their mean?",
+    "options": [
+      "110",
+      "22",
+      "27.5",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add the five values to get 110, then divide by 5: 110 / 5 = 22.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q240",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two random samples of 50 students each give slightly different mean study times. What best explains the difference?",
+    "options": [
+      "Natural variation between random samples.",
+      "One sample must have been recorded incorrectly.",
+      "The population mean changed between samples.",
+      "Random sampling is not valid for this question."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Different random samples from one population vary a little; that variation is expected, not an error.\n\n**Key concept:** Population and random sampling",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q241",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 19, 21, 23, 25, and 27. What is their mean?",
+    "options": [
+      "8",
+      "115",
+      "28.75",
+      "23"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add the five values to get 115, then divide by 5: 115 / 5 = 23.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q242",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 20, 22, 24, 26, and 28. What is their mean?",
+    "options": [
+      "30",
+      "120",
+      "24",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add the five values to get 120, then divide by 5: 120 / 5 = 24.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q243",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 21, 23, 25, 27, and 29. What is their mean?",
+    "options": [
+      "125",
+      "25",
+      "31.25",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add the five values to get 125, then divide by 5: 125 / 5 = 25.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q244",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 22, 24, 26, 28, and 30. What is their mean?",
+    "options": [
+      "26",
+      "130",
+      "32.5",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add the five values to get 130, then divide by 5: 130 / 5 = 26.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q245",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A school of 900 students takes a random sample of 60. In the sample, 15 walk to school. About how many of the 900 walk?",
+    "options": [
+      "About 450.",
+      "About 15.",
+      "About 60.",
+      "About 225."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The sample proportion is 15/60 = 1/4, and 1/4 of 900 is 225.\n\n**Key concept:** Population and random sampling",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q246",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 23, 25, 27, 29, and 31. What is their mean?",
+    "options": [
+      "33.75",
+      "135",
+      "27",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add the five values to get 135, then divide by 5: 135 / 5 = 27.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q247",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 24, 26, 28, 30, and 32. What is their mean?",
+    "options": [
+      "140",
+      "28",
+      "35",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add the five values to get 140, then divide by 5: 140 / 5 = 28.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q248",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 25, 27, 29, 31, and 33. What is their mean?",
+    "options": [
+      "29",
+      "145",
+      "36.25",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add the five values to get 145, then divide by 5: 145 / 5 = 29.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q249",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Five lab measurements are 26, 28, 30, 32, and 34. What is their mean?",
+    "options": [
+      "8",
+      "150",
+      "37.5",
+      "30"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add the five values to get 150, then divide by 5: 150 / 5 = 30.\n\n**Key concept:** Mean of a data set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q250",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sampling method is most likely to represent all students in a school fairly?",
+    "options": [
+      "Survey only the seventh-grade classes.",
+      "Ask the first 30 students who arrive.",
+      "Assign every student a number and draw numbers at random.",
+      "Ask students who volunteer to answer."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Giving every student an equal chance of selection is what makes a sample representative.\n\n**Key concept:** Population and random sampling",
+    "source": "authored",
+    "needsReview": false
+  }
+]

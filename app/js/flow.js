@@ -10,6 +10,21 @@ export const SUBJECTS = {
   science: { label: 'Science', icon: 'fa-microscope', color: 'danger', desc: 'Scientific concepts and experiments' },
 };
 
+/* Grade range the site serves. Grade 7 was added on 2026-09-02; the taxonomy already
+   routed it (subtopicsForGrade sends anything above 5 to the extended 10-subtopic list),
+   so only these bounds and the Firestore rules had to move.
+
+   This lives here because SEVEN page modules each carried their own `grade >= 1 && grade <= 6`
+   literal. One constant is what stops the next grade addition from missing one of them.
+   `stats-calc.js` keeps its own copy — it is deliberately import-free so Node can unit-test
+   it — and test_stats.test.js asserts the two agree. */
+export const MIN_GRADE = 1;
+export const MAX_GRADE = 7;
+
+export function isValidGrade(grade) {
+  return Number.isInteger(grade) && grade >= MIN_GRADE && grade <= MAX_GRADE;
+}
+
 export function subjectLabel(subject) {
   return (SUBJECTS[subject] && SUBJECTS[subject].label) || (subject || '');
 }

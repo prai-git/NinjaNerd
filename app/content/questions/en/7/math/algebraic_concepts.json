@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q151",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 4x - 4 = 4. What is x?",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add 4 to both sides to get 4x = 8, then divide by 4: x = 2.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q152",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 5x - 5 = 10. What is x?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add 5 to both sides to get 5x = 15, then divide by 5: x = 3.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q153",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 6x - 6 = 18. What is x?",
+    "options": [
+      "24",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add 6 to both sides to get 6x = 24, then divide by 6: x = 4.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q154",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 7x - 7 = 28. What is x?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "35"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add 7 to both sides to get 7x = 35, then divide by 7: x = 5.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q155",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the inequality 3x + 5 > 32. Which value must x be greater than?",
+    "options": [
+      "10.67",
+      "9",
+      "32",
+      "12.33"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 9.\n\n**Key concept:** Solving inequalities",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q156",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 4x - 8 = 16. What is x?",
+    "options": [
+      "6",
+      "2",
+      "4",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add 8 to both sides to get 4x = 24, then divide by 4: x = 6.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q157",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 5x - 9 = 26. What is x?",
+    "options": [
+      "35",
+      "3.4",
+      "5.2",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add 9 to both sides to get 5x = 35, then divide by 5: x = 7.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q158",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 6x - 4 = 44. What is x?",
+    "options": [
+      "7.33",
+      "6.67",
+      "8",
+      "48"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add 4 to both sides to get 6x = 48, then divide by 6: x = 8.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q159",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 7x - 5 = 9. What is x?",
+    "options": [
+      "0.57",
+      "2",
+      "1.29",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add 5 to both sides to get 7x = 14, then divide by 7: x = 2.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q160",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the inequality 3x + 5 > 47. Which value must x be greater than?",
+    "options": [
+      "14",
+      "15.67",
+      "47",
+      "17.33"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 14.\n\n**Key concept:** Solving inequalities",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q161",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 4x - 6 = 6. What is x?",
+    "options": [
+      "12",
+      "0",
+      "1.5",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add 6 to both sides to get 4x = 12, then divide by 4: x = 3.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q162",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 5x - 7 = 13. What is x?",
+    "options": [
+      "2.6",
+      "1.2",
+      "4",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add 7 to both sides to get 5x = 20, then divide by 5: x = 4.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q163",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 6x - 8 = 22. What is x?",
+    "options": [
+      "2.33",
+      "5",
+      "3.67",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add 8 to both sides to get 6x = 30, then divide by 6: x = 5.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q164",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 7x - 9 = 33. What is x?",
+    "options": [
+      "6",
+      "3.43",
+      "4.71",
+      "42"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add 9 to both sides to get 7x = 42, then divide by 7: x = 6.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q165",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the inequality 3x + 5 > 62. Which value must x be greater than?",
+    "options": [
+      "22.33",
+      "20.67",
+      "62",
+      "19"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 19.\n\n**Key concept:** Solving inequalities",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q166",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 4x - 4 = 24. What is x?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "28"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add 4 to both sides to get 4x = 28, then divide by 4: x = 7.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q167",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 5x - 5 = 35. What is x?",
+    "options": [
+      "6",
+      "8",
+      "7",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add 5 to both sides to get 5x = 40, then divide by 5: x = 8.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q168",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 6x - 6 = 6. What is x?",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add 6 to both sides to get 6x = 12, then divide by 6: x = 2.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q169",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 7x - 7 = 14. What is x?",
+    "options": [
+      "21",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add 7 to both sides to get 7x = 21, then divide by 7: x = 3.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q170",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the inequality 3x + 5 > 77. Which value must x be greater than?",
+    "options": [
+      "77",
+      "25.67",
+      "24",
+      "27.33"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 24.\n\n**Key concept:** Solving inequalities",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q171",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 4x - 8 = 8. What is x?",
+    "options": [
+      "0",
+      "4",
+      "2",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add 8 to both sides to get 4x = 16, then divide by 4: x = 4.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q172",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 5x - 9 = 16. What is x?",
+    "options": [
+      "5",
+      "1.4",
+      "3.2",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Add 9 to both sides to get 5x = 25, then divide by 5: x = 5.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q173",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 6x - 4 = 32. What is x?",
+    "options": [
+      "36",
+      "4.67",
+      "5.33",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add 4 to both sides to get 6x = 36, then divide by 6: x = 6.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q174",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the equation 7x - 5 = 44. What is x?",
+    "options": [
+      "6.29",
+      "5.57",
+      "7",
+      "49"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add 5 to both sides to get 7x = 49, then divide by 7: x = 7.\n\n**Key concept:** Solving two-step equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q175",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Solve the inequality 3x + 5 > 92. Which value must x be greater than?",
+    "options": [
+      "30.67",
+      "29",
+      "92",
+      "32.33"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 29.\n\n**Key concept:** Solving inequalities",
+    "source": "authored",
+    "needsReview": false
+  }
+]

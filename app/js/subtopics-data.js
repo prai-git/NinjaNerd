@@ -1,7 +1,7 @@
 /* Subtopic taxonomy — ported VERBATIM from the legacy Flask app (obs_app.py SUBTOPICS).
 
    The legacy app curated a fixed subtopic list per subject: 5 for grades 1-5 and 10 for
-   grade 6, each with a name, description, FontAwesome icon and Bootstrap colour. It could do
+   grades 6-7, each with a name, description, FontAwesome icon and Bootstrap colour. It could do
    that because questions were generated on demand by an LLM, so the subtopic was only a
    prompt hint and never had to match stored content.
 

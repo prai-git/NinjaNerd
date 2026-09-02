@@ -35,7 +35,7 @@ rules_version = '2';
        correct              : boolean
        topic                : string           # "math" | "english" | "science"
        subtopic             : string
-       grade                : number           # 1-6
+       grade                : number           # 1-7
        timestamp            : timestamp
 
      users/{uid}/statistics/summary          <- user_statistics + JSON store
@@ -72,7 +72,7 @@ rules_version = '2';
    Add them from the real queries in prompt 08 rather than guessing: Firestore fails a
    query needing a missing index and prints a console link that creates it.
 
-   The app serves children (grades 1-6), so the default is deny and every allow is explicit. */
+   The app serves children (grades 1-7), so the default is deny and every allow is explicit. */
 
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -163,7 +163,9 @@ service cloud.firestore {
                  && d.topic in ['math', 'english', 'science']
                  && (!('subtopic' in d) || d.subtopic == null
                      || (d.subtopic is string && d.subtopic.size() <= 100))
-                 && d.grade is int && d.grade >= 1 && d.grade <= 6
+                 // Upper bound tracks MAX_GRADE in app/js/flow.js. Grade 7 added 2026-09-02;
+                 // until this was redeployed every grade-7 attempt failed permission-denied.
+                 && d.grade is int && d.grade >= 1 && d.grade <= 7
                  && d.timestamp == request.time;
         }
 
@@ -193,14 +195,18 @@ service cloud.firestore {
                  && (!('topics_covered' in d)
                      || (d.topics_covered is list
                          && d.topics_covered.hasOnly(['math', 'english', 'science'])))
-                 /* The roll-ups are keyed g<grade>_<topic>, so 6 grades x 3 topics bounds them
-                    at 18 keys. Capping the key count is what stops the document growing
+                 /* The roll-ups are keyed g<grade>_<topic>, so 7 grades x 3 topics bounds them
+                    at 21 keys. Capping the key count is what stops the document growing
                     without limit; individual values being wrong would only mis-draw the
-                    child's own chart, which is not a security question. */
+                    child's own chart, which is not a security question.
+
+                    Was 18 while the site served grades 1-6. The cap MUST be raised with the
+                    grade range: a child working across all seven grades would otherwise hit
+                    the ceiling and have their statistics write rejected. */
                  && (!('attempts_by' in d)
-                     || (d.attempts_by is map && d.attempts_by.keys().size() <= 18))
+                     || (d.attempts_by is map && d.attempts_by.keys().size() <= 21))
                  && (!('correct_by' in d)
-                     || (d.correct_by is map && d.correct_by.keys().size() <= 18));
+                     || (d.correct_by is map && d.correct_by.keys().size() <= 21));
         }
 
         /* A crude write-rate floor. Rules cannot count requests over a window the way

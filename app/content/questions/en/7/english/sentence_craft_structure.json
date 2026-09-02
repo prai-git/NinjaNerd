@@ -1,0 +1,502 @@
+[
+  {
+    "id": "english_g7_2026-09-01_20-44_q176",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an appositive correctly?",
+    "options": [
+      "My brother a skilled mechanic repaired the radio.",
+      "My brother, a skilled mechanic, repaired the radio.",
+      "My brother, a skilled mechanic repaired, the radio.",
+      "My brother a skilled, mechanic, repaired the radio."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The nonessential appositive is set off with commas.\n**Key concept:** Appositives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q177",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a compound-complex sentence?",
+    "options": [
+      "The bell rang.",
+      "The bell rang, and students left.",
+      "When the bell rang, students left.",
+      "When the bell rang, students left, and the hallway filled quickly."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The sentence contains a dependent clause and two independent clauses.\n**Key concept:** Compound-complex sentences.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q178",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision creates the clearest sentence?\n\"The model was built by Kira after studying the plans carefully it was tested.\"",
+    "options": [
+      "After studying the plans carefully, Kira built and tested the model.",
+      "Kira, after studying, the plans built the model tested.",
+      "The model built Kira after plans tested.",
+      "After the plans, Kira was built by the model."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The revision gives Kira clear actions in a logical sequence.\n**Key concept:** Sentence clarity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q179",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a participial phrase correctly?",
+    "options": [
+      "Glowing in the dark, we found the trail markers.",
+      "Glowing in the dark, the trail markers guided us.",
+      "We found glowing in the dark, the trail markers.",
+      "The trail markers, we found, glowing in the dark."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The participial phrase properly describes the trail markers.\n**Key concept:** Participial phrases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q180",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence varies sentence beginnings most effectively?",
+    "options": [
+      "We measured the bridge. We measured the road. We measured the river.",
+      "First we measured the bridge. Then we measured the road. Then we measured the river.",
+      "We measured the bridge; afterward, the road and river were measured.",
+      "The bridge was measured. The road was measured. The river was measured."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The revision varies structure while retaining a clear sequence.\n**Key concept:** Sentence variety.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q181",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a dependent clause?",
+    "options": [
+      "Because the evidence was incomplete.",
+      "The evidence was incomplete because the final sample was missing.",
+      "Because the evidence, was incomplete.",
+      "The evidence because incomplete."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The dependent clause is attached to a complete main clause.\n**Key concept:** Dependent clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q182",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision best combines the sentences?\n\"The storm passed. The sky remained gray. The crew resumed work.\"",
+    "options": [
+      "The storm passed, the sky remained gray, the crew resumed work.",
+      "Although the sky remained gray after the storm passed, the crew resumed work.",
+      "The storm passed because the crew resumed work gray.",
+      "The gray crew stormed past work."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The sentence preserves the contrast and joins all ideas smoothly.\n**Key concept:** Combining sentences.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q183",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence contains a nonrestrictive clause?",
+    "options": [
+      "The instrument that has a cracked reed needs repair.",
+      "The instrument, which has a cracked reed, needs repair.",
+      "The instrument has that a cracked reed needs repair.",
+      "The instrument which needs repair has a cracked reed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The clause adds extra information and is correctly enclosed by commas.\n**Key concept:** Nonrestrictive clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q184",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses parallel phrases?",
+    "options": [
+      "The team trained before sunrise, after school, and on weekends.",
+      "The team trained before sunrise, after school, and to practice weekends.",
+      "The team trained before sunrise, practicing after school, and weekends.",
+      "The team trained before sunrise, after school, and they practiced weekends."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each list item is a parallel prepositional phrase.\n**Key concept:** Parallel phrases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q185",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best emphasizes the contrast?",
+    "options": [
+      "The cave was dark, and the lantern was bright.",
+      "Though the cave was dark, the lantern made each painted symbol visible.",
+      "The cave was dark because lanterns exist.",
+      "The lantern darkened the cave."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Though highlights the contrast between darkness and visibility.\n**Key concept:** Subordination for contrast.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q186",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a gerund as the subject?",
+    "options": [
+      "To study requires patience.",
+      "Studying requires patience.",
+      "The student studied patiently.",
+      "The study was patient."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Studying functions as a noun and serves as the sentence subject.\n**Key concept:** Gerunds.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q187",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision removes the run-on while preserving the relationship between the ideas?\n\"The temperature dropped quickly the lake froze overnight.\"",
+    "options": [
+      "The temperature dropped quickly, the lake froze overnight.",
+      "The temperature dropped quickly; the lake froze overnight.",
+      "The temperature dropped quickly because the lake froze overnight.",
+      "The temperature, dropped quickly the lake, froze overnight."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The semicolon correctly separates two related independent clauses.\n**Key concept:** Run-ons and semicolons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q188",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence creates the most suspense?",
+    "options": [
+      "The door opened.",
+      "The door opened slowly after the third knock.",
+      "The door is made of wood.",
+      "The door was opened by someone."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The timing and gradual action build anticipation.\n**Key concept:** Pacing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q189",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an infinitive phrase correctly?",
+    "options": [
+      "The team met to plan the expedition.",
+      "The team met planning to the expedition.",
+      "The team met to planning the expedition.",
+      "The team met plan the expedition."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** To plan is an infinitive phrase explaining the purpose of meeting.\n**Key concept:** Infinitive phrases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q190",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best combines the details without changing meaning?\n\"Nora found the error. She corrected it. She submitted the report.\"",
+    "options": [
+      "Finding the error, Nora corrected it before submitting the report.",
+      "Nora found the report before it corrected her.",
+      "The error submitted Nora after correction.",
+      "Nora submitted, finding, the corrected error."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The revision maintains the original order while combining related actions.\n**Key concept:** Concise sentence combining.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q191",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a rhetorical question effectively in an argument?",
+    "options": [
+      "How many more warnings must pass before we protect the shoreline?",
+      "What is your favorite color?",
+      "Did the bell ring at noon?",
+      "Can you hand me a pencil?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The question urges reflection and strengthens an argument rather than seeking a reply.\n**Key concept:** Rhetorical questions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q192",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has the clearest antecedent for *they*?",
+    "options": [
+      "When the players thanked the coaches, they smiled.",
+      "The coaches smiled after the players thanked them.",
+      "The players thanked the coaches because they were grateful.",
+      "The players and coaches smiled because they won."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Them clearly refers to coaches, and the sentence names who smiled.\n**Key concept:** Pronoun clarity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q193",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written in an effective active voice?",
+    "options": [
+      "The final vote was counted by the clerk.",
+      "The clerk counted the final vote.",
+      "The final vote had been counting.",
+      "The clerk was counted by the vote."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The subject performs the action directly and clearly.\n**Key concept:** Active voice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q194",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an absolute phrase?",
+    "options": [
+      "Her hands shaking, Nola opened the envelope.",
+      "Shaking her hands, the envelope opened Nola.",
+      "Nola, her hands, shaking opened the envelope.",
+      "The envelope shook Nola's hands."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The absolute phrase adds a condition that accompanies Nola's action.\n**Key concept:** Absolute phrases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q195",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision gives the sentence the most concise structure?\n\"Due to the fact that the rain was heavy, practice was canceled.\"",
+    "options": [
+      "Because it rained heavily, practice was canceled.",
+      "Due to rain, it was heavy and practice was canceled.",
+      "The fact was rain had heavy practice canceled.",
+      "Practice was canceled due to the fact rain."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The revision removes the wordy phrase due to the fact that.\n**Key concept:** Concision.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q196",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a colon to introduce a list after a complete clause?",
+    "options": [
+      "The kit includes: water, food, and a whistle.",
+      "The kit includes three essentials: water, food, and a whistle.",
+      "The kit: includes water, food, and a whistle.",
+      "The kit includes three: essentials water, food, and a whistle."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A complete clause introduces the list after the colon.\n**Key concept:** Colons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q197",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best controls pacing in a tense scene?",
+    "options": [
+      "Mara ran. She fell. She rose. She ran again.",
+      "Mara was running in a way that was fast.",
+      "Mara had a run that continued.",
+      "The running of Mara was taking place."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Short, clipped sentences speed the action and create urgency.\n**Key concept:** Pacing through syntax.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q198",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a conditional construction correctly?",
+    "options": [
+      "If the alarm rings, leave by the nearest exit.",
+      "If the alarm will ring, leave by the nearest exit.",
+      "If the alarm ringing, leave by the nearest exit.",
+      "If rings the alarm, leave by the nearest exit."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The present-tense condition is correctly followed by an imperative result.\n**Key concept:** Conditional sentences.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q199",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence avoids wordiness?",
+    "options": [
+      "At this point in time, we are currently ready.",
+      "We are ready now.",
+      "We are ready at this current point in time.",
+      "Currently, at this time, we are ready now."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The sentence communicates the same meaning without repeated time phrases.\n**Key concept:** Wordiness.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q200",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Sentence Craft & Structure",
+    "subtopic": "sentence_craft_structure",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best uses an em dash for emphasis?",
+    "options": [
+      "One fact changed our decision—the bridge was unsafe.",
+      "One fact changed our decision -the bridge was unsafe.",
+      "One fact changed our decision--the bridge was unsafe.",
+      "One fact changed our decision- the bridge was unsafe."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The dash emphasizes the revealing final detail.\n**Key concept:** Dashes for emphasis.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

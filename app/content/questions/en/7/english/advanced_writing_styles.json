@@ -1,0 +1,502 @@
+[
+  {
+    "id": "english_g7_2026-09-01_20-44_q151",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which thesis is most effective for an informational essay about urban trees?",
+    "options": [
+      "Trees are everywhere.",
+      "Urban trees cool neighborhoods, filter air, and manage stormwater.",
+      "I saw a tree yesterday.",
+      "Trees have leaves."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The thesis makes a clear, informative claim with three supportable points.\n**Key concept:** Informational thesis.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q152",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which claim is most arguable and focused?",
+    "options": [
+      "Music exists.",
+      "Schools should provide a quiet study space during lunch.",
+      "Students have lunches.",
+      "Quiet is a word."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The statement takes a focused position that can be supported or challenged.\n**Key concept:** Argumentative claim.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q153",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which source is most appropriate for a report on local water restrictions?",
+    "options": [
+      "A current city water department notice",
+      "An anonymous social media post",
+      "A decade-old personal diary",
+      "A fictional novel"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The local agency publishes authoritative and timely restriction information.\n**Key concept:** Source relevance.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q154",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which detail best creates a reflective narrative voice?",
+    "options": [
+      "The bus arrived at 7:15.",
+      "I watched the empty seat beside me and realized I had expected my friend to return.",
+      "Buses have seats and doors.",
+      "The route had six stops."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The observation and realization reveal the narrator's inner response.\n**Key concept:** Reflective narrative voice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q155",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which organizational pattern best fits an essay explaining how a wildfire affects a watershed?",
+    "options": [
+      "Cause and effect",
+      "Alphabetical order",
+      "Question and answer only",
+      "Random examples"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The essay must explain how one event produces changes in a watershed.\n**Key concept:** Organizational structure.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q156",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which evidence most strongly supports an argument for bike lanes?",
+    "options": [
+      "A cyclist says lanes look nice.",
+      "A transportation study reports fewer injuries on protected routes.",
+      "Bikes come in several colors.",
+      "Roads were built many years ago."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The study offers relevant evidence that directly supports the safety claim.\n**Key concept:** Evidence quality.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q157",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which research question is narrow enough for a short report?",
+    "options": [
+      "Why is history important?",
+      "How did drought restrictions change household water use in Cedar Grove during 2025?",
+      "What is everything about water?",
+      "Are cities good or bad?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The question identifies a location, time, and measurable relationship.\n**Key concept:** Research questions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q158",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best adjusts style for a scientific audience?",
+    "options": [
+      "The experiment was super weird.",
+      "The results indicate that temperature affected the reaction rate.",
+      "The test did a crazy thing.",
+      "It was awesome how fast it changed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The sentence uses precise, objective language appropriate for scientific writing.\n**Key concept:** Formal style.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q159",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which rebuttal best responds to the claim that digital textbooks always reduce costs?",
+    "options": [
+      "Books are made of paper.",
+      "Devices, licenses, and replacement costs can offset savings.",
+      "Textbooks are used in school.",
+      "Digital means electronic."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The rebuttal directly challenges the absolute claim about reduced costs.\n**Key concept:** Counterclaim rebuttal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q160",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which source is most likely biased in a comparison of two sports drinks?",
+    "options": [
+      "A laboratory report listing methods and data",
+      "An advertisement paid for by one drink company",
+      "A government nutrition database",
+      "A university study disclosing funding"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A company-funded advertisement has a strong incentive to favor its own product.\n**Key concept:** Bias.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q161",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best introduces a compare-and-contrast essay?",
+    "options": [
+      "Both solar and wind power generate electricity without burning fuel, but their conditions for use differ.",
+      "Electricity is important.",
+      "Wind moves outside.",
+      "The sun is bright."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The sentence introduces both a similarity and a difference for comparison.\n**Key concept:** Compare-and-contrast introduction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q162",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which appeal relies most on logic?",
+    "options": [
+      "Imagine the sadness of a polluted river.",
+      "Experts have studied rivers for decades.",
+      "The report shows trash collection reduced plastic by 38 percent.",
+      "I have always loved rivers."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The numerical result is evidence that appeals to logic.\n**Key concept:** Logical appeal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q163",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which note best separates a writer's idea from a source's idea?",
+    "options": [
+      "Copy every sentence into one list.",
+      "Label direct quotations and paraphrases with source information.",
+      "Delete all source names after reading.",
+      "Use quotation marks around personal opinions."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Clear labels distinguish borrowed material from a writer's original thinking.\n**Key concept:** Note-taking and attribution.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q164",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which opening most effectively begins a narrative in medias res?",
+    "options": [
+      "I was born in October.",
+      "The rope snapped just as I stepped onto the bridge.",
+      "Bridges are useful structures.",
+      "This story is about an exciting day."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The opening begins during a dramatic event rather than with background information.\n**Key concept:** In medias res.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q165",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best explains rather than argues?",
+    "options": [
+      "People must compost immediately.",
+      "Composting turns food scraps into material that can enrich soil.",
+      "Composting is obviously the best habit.",
+      "Only careless people throw scraps away."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The sentence explains a process without demanding that readers agree.\n**Key concept:** Informative writing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q166",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which phrase most clearly signals a concession?",
+    "options": [
+      "In contrast",
+      "For example",
+      "Admittedly",
+      "As a result"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Admittedly signals that the writer is acknowledging a valid point.\n**Key concept:** Concessions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q167",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question would best guide research on public murals?",
+    "options": [
+      "Are murals colorful?",
+      "How have public murals affected community participation in neighborhood events?",
+      "Who likes art?",
+      "What is a wall?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The question is focused and invites researchable evidence about an effect.\n**Key concept:** Inquiry.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q168",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision avoids an unsupported overstatement?",
+    "options": [
+      "The policy will solve every problem.",
+      "The policy may reduce one cause of the problem.",
+      "The policy is the greatest idea ever.",
+      "The policy cannot fail."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** May accurately limits the claim to what evidence can reasonably support.\n**Key concept:** Qualified claims.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q169",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence provides a useful definition in an informational essay?",
+    "options": [
+      "A watershed is an area of land that drains to a shared body of water.",
+      "Water is wet.",
+      "Watersheds are important, obviously.",
+      "Land has soil."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The sentence clearly defines a key term for readers.\n**Key concept:** Definition.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q170",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which evidence would best answer a counterclaim that school gardens take too much class time?",
+    "options": [
+      "A teacher says gardens are pretty.",
+      "A schedule showing science lessons conducted in the garden met course goals.",
+      "The garden fence is green.",
+      "Some students like vegetables."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The schedule directly addresses whether garden time replaces required learning.\n**Key concept:** Relevant rebuttal evidence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q171",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which search terms are most efficient for researching mangrove restoration?",
+    "options": [
+      "trees water",
+      "mangrove restoration shoreline erosion peer reviewed",
+      "cool plants",
+      "everything about oceans"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Specific topic terms and a quality filter narrow results to useful sources.\n**Key concept:** Efficient searching.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q172",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses sensory detail to develop setting?",
+    "options": [
+      "The market was busy.",
+      "Cardamom and roasted peppers drifted through the narrow market lane.",
+      "The market opened early.",
+      "Many people visited."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Smell and spatial detail make the setting vivid.\n**Key concept:** Sensory imagery.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q173",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which concluding sentence best returns to an essay's central idea about accessibility?",
+    "options": [
+      "Ramps are made of materials.",
+      "Designing spaces for many users benefits the entire community.",
+      "Buildings have doors.",
+      "Accessibility is a long word."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The sentence broadens and reinforces the essay's central idea about accessibility.\n**Key concept:** Concluding ideas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q174",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses ethical persuasion?",
+    "options": [
+      "Support this policy because everyone else does.",
+      "Consider how the policy affects residents without reliable transportation.",
+      "Support it because it is trendy.",
+      "Believe me because I am loud."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The sentence asks readers to consider the policy's fairness and human impact.\n**Key concept:** Ethical appeal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q175",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Writing Styles",
+    "subtopic": "advanced_writing_styles",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action best prevents accidental plagiarism?",
+    "options": [
+      "Wait to cite sources until the final draft.",
+      "Record source details while taking notes and mark borrowed language.",
+      "Rely on memory for quotations.",
+      "Change a few words in each source sentence."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Tracking sources and exact wording prevents unintentional use without credit.\n**Key concept:** Avoiding plagiarism.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

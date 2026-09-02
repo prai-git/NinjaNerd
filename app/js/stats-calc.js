@@ -10,6 +10,12 @@
    as the Flask route did. */
 
 // Legacy listed math, english, science, history, geography. The last two are out of scope.
+/* Highest grade the site serves. This module is deliberately import-free so Node can unit
+   test it (it cannot reach flow.js, which the browser modules import), so the bound is
+   duplicated here rather than shared. test_stats.test.js asserts the two copies agree, which
+   is what keeps them from drifting the next time a grade is added. */
+export const MAX_GRADE = 7;
+
 export const TOPICS = ['math', 'english', 'science'];
 
 /* Which grade the page shows.
@@ -102,7 +108,7 @@ export function gradeFromRollup(summary) {
   const by = (summary && summary.attempts_by) || {};
   let best = 0;
   let bestGrade = 1;
-  for (let g = 1; g <= 6; g++) {
+  for (let g = 1; g <= MAX_GRADE; g++) {
     const n = Number(by[rollupKeyFor(g, 'math')]) || 0;
     // Strictly greater, so ties resolve to the LOWEST grade — matching selectGrade().
     if (n > best) { best = n; bestGrade = g; }

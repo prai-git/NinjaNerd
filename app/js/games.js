@@ -2,7 +2,7 @@
    Card markup, icon/colour per slug, and the click-to-play behaviour follow the legacy
    template; the target is a static URL instead of the Flask /games/play/<slug> route. */
 import { GAMES } from './games-data.js';
-import { param } from './flow.js';
+import { param, isValidGrade } from './flow.js';
 
 function card(game, grade) {
   const col = document.createElement('div');
@@ -26,7 +26,7 @@ function card(game, grade) {
 
 function init(root) {
   const grade = Number(param('grade'));
-  if (!(grade >= 1 && grade <= 6)) { location.replace('index.html'); return; }
+  if (!isValidGrade(grade)) { location.replace('index.html'); return; }
 
   document.getElementById('nn-games-title').textContent = `Grade ${grade} - Select a Game`;
   document.getElementById('nn-back-topics').href = `pages/topics.html?grade=${grade}`;

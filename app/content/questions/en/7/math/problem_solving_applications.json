@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q101",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $120 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$1440",
+      "$4.80",
+      "$134.40",
+      "$14.40"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Use I = Prt: 120 x 0.04 x 3 = 14.4, so $14.40 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q102",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $140 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "options": [
+      "$168",
+      "$7",
+      "$28",
+      "$2800"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Use I = Prt: 140 x 0.05 x 4 = 28, so $28 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q103",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $160 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "options": [
+      "$9.60",
+      "$19.20",
+      "$179.20",
+      "$1920"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Use I = Prt: 160 x 0.06 x 2 = 19.2, so $19.20 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q104",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $180 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$16.20",
+      "$5.40",
+      "$196.20",
+      "$1620"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Use I = Prt: 180 x 0.03 x 3 = 16.2, so $16.20 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q105",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A store adds 8% sales tax to a $110 purchase. What is the total cost?",
+    "options": [
+      "$880",
+      "$8.80",
+      "$101.20",
+      "$118.80"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The tax is 110 x 0.08 = 8.8, so the total is 110 + 8.8 = 118.8.\n\n**Key concept:** Sales tax",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q106",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $200 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$224",
+      "$8",
+      "$24",
+      "$2400"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Use I = Prt: 200 x 0.04 x 3 = 24, so $24 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q107",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $220 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "options": [
+      "$11",
+      "$44",
+      "$264",
+      "$4400"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Use I = Prt: 220 x 0.05 x 4 = 44, so $44 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q108",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $240 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "options": [
+      "$28.80",
+      "$14.40",
+      "$268.80",
+      "$2880"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Use I = Prt: 240 x 0.06 x 2 = 28.8, so $28.80 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q109",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $260 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$2340",
+      "$7.80",
+      "$283.40",
+      "$23.40"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Use I = Prt: 260 x 0.03 x 3 = 23.4, so $23.40 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q110",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A store adds 8% sales tax to a $160 purchase. What is the total cost?",
+    "options": [
+      "$147.20",
+      "$12.80",
+      "$172.80",
+      "$1280"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The tax is 160 x 0.08 = 12.8, so the total is 160 + 12.8 = 172.8.\n\n**Key concept:** Sales tax",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q111",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $280 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$11.20",
+      "$33.60",
+      "$313.60",
+      "$3360"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Use I = Prt: 280 x 0.04 x 3 = 33.6, so $33.60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q112",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $300 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "options": [
+      "$60",
+      "$15",
+      "$360",
+      "$6000"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Use I = Prt: 300 x 0.05 x 4 = 60, so $60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q113",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $320 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "options": [
+      "$3840",
+      "$19.20",
+      "$358.40",
+      "$38.40"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Use I = Prt: 320 x 0.06 x 2 = 38.4, so $38.40 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q114",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $340 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$370.60",
+      "$10.20",
+      "$30.60",
+      "$3060"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Use I = Prt: 340 x 0.03 x 3 = 30.6, so $30.60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q115",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A store adds 8% sales tax to a $210 purchase. What is the total cost?",
+    "options": [
+      "$16.80",
+      "$226.80",
+      "$193.20",
+      "$1680"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The tax is 210 x 0.08 = 16.8, so the total is 210 + 16.8 = 226.8.\n\n**Key concept:** Sales tax",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q116",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $360 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$43.20",
+      "$14.40",
+      "$403.20",
+      "$4320"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Use I = Prt: 360 x 0.04 x 3 = 43.2, so $43.20 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q117",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $380 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "options": [
+      "$7600",
+      "$19",
+      "$456",
+      "$76"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Use I = Prt: 380 x 0.05 x 4 = 76, so $76 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q118",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $400 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "options": [
+      "$448",
+      "$24",
+      "$48",
+      "$4800"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Use I = Prt: 400 x 0.06 x 2 = 48, so $48 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q119",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $420 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$12.60",
+      "$37.80",
+      "$457.80",
+      "$3780"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Use I = Prt: 420 x 0.03 x 3 = 37.8, so $37.80 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q120",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A store adds 8% sales tax to a $260 purchase. What is the total cost?",
+    "options": [
+      "$280.80",
+      "$20.80",
+      "$239.20",
+      "$2080"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The tax is 260 x 0.08 = 20.8, so the total is 260 + 20.8 = 280.8.\n\n**Key concept:** Sales tax",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q121",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $440 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$5280",
+      "$17.60",
+      "$492.80",
+      "$52.80"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Use I = Prt: 440 x 0.04 x 3 = 52.8, so $52.80 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q122",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $460 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "options": [
+      "$552",
+      "$23",
+      "$92",
+      "$9200"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Use I = Prt: 460 x 0.05 x 4 = 92, so $92 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q123",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $480 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "options": [
+      "$28.80",
+      "$57.60",
+      "$537.60",
+      "$5760"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Use I = Prt: 480 x 0.06 x 2 = 57.6, so $57.60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q124",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A savings account has $500 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "options": [
+      "$45",
+      "$15",
+      "$545",
+      "$4500"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Use I = Prt: 500 x 0.03 x 3 = 45, so $45 of interest is earned.\n\n**Key concept:** Simple interest",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q125",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A store adds 8% sales tax to a $310 purchase. What is the total cost?",
+    "options": [
+      "$2480",
+      "$24.80",
+      "$285.20",
+      "$334.80"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The tax is 310 x 0.08 = 24.8, so the total is 310 + 24.8 = 334.8.\n\n**Key concept:** Sales tax",
+    "source": "authored",
+    "needsReview": false
+  }
+]

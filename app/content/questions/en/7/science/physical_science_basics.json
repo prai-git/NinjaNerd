@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q1",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A sealed gas syringe is warmed while its plunger can move. What best explains the plunger moving outward?",
+    "options": [
+      "Gas particles move faster and collide with the plunger more often.",
+      "Gas particles become larger when heated.",
+      "Gas particles are converted into liquid.",
+      "The gas loses all of its mass."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q2",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A sample contains iron filings, sand, and salt. Which method separates the materials without making new substances?",
+    "options": [
+      "Use a magnet, dissolve the salt in water, filter the sand, and evaporate the water.",
+      "Burn the sample and collect the ash.",
+      "Melt the sand and filter the salt.",
+      "Add acid until all materials disappear."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q3",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which particle model represents a compound rather than an element or mixture?",
+    "options": [
+      "Identical particles each made of one red atom bonded to two blue atoms.",
+      "Only separate red atoms.",
+      "Separate red atoms mixed with separate blue atoms.",
+      "Red atoms of two different sizes."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q4",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student compares equal volumes of four liquids. Which measurement is needed to calculate density?",
+    "options": [
+      "The mass of each liquid.",
+      "The color of each liquid.",
+      "The boiling point only.",
+      "The container material."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q5",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cube has a mass of 54 g and a volume of 20 cm3. It is placed in a liquid with density 3.0 g/cm3. What will happen?",
+    "options": [
+      "It will float because its density is 2.7 g/cm3.",
+      "It will sink because its density is 5.4 g/cm3.",
+      "It will remain suspended because all solids do.",
+      "It will dissolve because it is less dense."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q6",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation is strongest evidence that a chemical change has occurred?",
+    "options": [
+      "A gas forms and the temperature changes when two liquids are mixed.",
+      "Ice melts into liquid water.",
+      "A solid is cut into smaller pieces.",
+      "Sugar disappears when stirred into water."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q7",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a sealed container, vinegar reacts with baking soda. Why does the total mass remain the same after gas forms?",
+    "options": [
+      "Atoms are rearranged, but none are created or destroyed.",
+      "The gas has no mass.",
+      "The liquid gains exactly the mass that disappears.",
+      "Chemical reactions destroy some atoms."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q8",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property is most useful for separating aluminum cans from plastic bottles at a recycling center?",
+    "options": [
+      "Density, because aluminum sinks in water while most plastic bottles float.",
+      "Color, because all aluminum is silver.",
+      "Magnetism, because aluminum is strongly magnetic.",
+      "Melting point, because both melt at the same temperature."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Aluminum is much denser than water and sinks, while hollow plastic bottles float, so a water bath separates them. Aluminum is not strongly magnetic.\n\n**Key concept:** Separating mixtures by physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q9",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A solid melts at 28 C. At 35 C, which description is most accurate?",
+    "options": [
+      "Its particles remain close together but can move past one another.",
+      "Its particles stop moving completely.",
+      "Its particles are widely separated as in a gas.",
+      "Its atoms have changed into another element."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q10",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why can the smell of perfume spread across a room without stirring the air?",
+    "options": [
+      "Gas particles move randomly and diffuse from high to lower concentration.",
+      "Perfume particles become weightless.",
+      "Air particles stop moving near perfume.",
+      "The perfume changes directly into oxygen."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q11",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to identify an unknown metal. Which pair of intensive properties is most useful?",
+    "options": [
+      "Density and melting point.",
+      "Mass and volume of one sample.",
+      "Length and width of a sample.",
+      "Number of pieces and total mass."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q12",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement distinguishes a solution from a heterogeneous mixture?",
+    "options": [
+      "A solution has particles distributed uniformly throughout the sample.",
+      "A solution must contain only solids.",
+      "A heterogeneous mixture contains one pure substance.",
+      "A solution cannot be separated physically."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q13",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A 100 g sample of water freezes. What happens to its mass in a closed container?",
+    "options": [
+      "It remains 100 g because a change of state does not change the amount of matter.",
+      "It decreases because particles stop moving.",
+      "It increases because solid particles are heavier.",
+      "It becomes zero because water is no longer liquid."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q14",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would most likely increase the rate at which a solid dissolves in water?",
+    "options": [
+      "Stirring the mixture while using smaller pieces of the solid.",
+      "Using a larger container only.",
+      "Leaving the mixture completely still.",
+      "Freezing the water first."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q15",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student observes crystals after saltwater evaporates. What conclusion is supported?",
+    "options": [
+      "Water changed state, leaving dissolved salt behind.",
+      "Salt atoms were destroyed by evaporation.",
+      "A new element formed from water.",
+      "Evaporation proves a chemical reaction occurred."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q16",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sample is a pure substance?",
+    "options": [
+      "Distilled water containing only H2O molecules.",
+      "Air containing nitrogen, oxygen, and other gases.",
+      "Soil containing minerals and organic matter.",
+      "Brass containing copper and zinc."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q17",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A balloon is cooled in a freezer. Why does its volume decrease?",
+    "options": [
+      "Gas particles move more slowly and collide less forcefully with the balloon walls.",
+      "Gas particles disappear from the balloon.",
+      "The rubber changes into a liquid.",
+      "The gas changes into atoms with no volume."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q18",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a physical change?",
+    "options": [
+      "Copper wire is bent into a coil.",
+      "Wood burns and produces ash.",
+      "Iron reacts with oxygen to form rust.",
+      "Two chemicals form a precipitate."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q19",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is filtration unable to separate dissolved salt from water?",
+    "options": [
+      "Dissolved salt particles pass through the filter with the water.",
+      "Salt has no mass.",
+      "Water is a solid.",
+      "Filters cause salt to react."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q20",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student records 30 g mass and 10 cm3 volume for a rock. Which result is correct?",
+    "options": [
+      "The rock density is 3 g/cm3.",
+      "The rock density is 0.33 g/cm3.",
+      "The rock density is 20 g/cm3.",
+      "Density cannot be calculated for solids."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q21",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change conserves the identity of the substance?",
+    "options": [
+      "Water vapor condenses into liquid water.",
+      "Hydrogen reacts with oxygen to form water.",
+      "A candle wick burns to form gases.",
+      "Silver tarnishes in air."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q22",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does a wooden block usually float in water?",
+    "options": [
+      "Its average density is less than the density of water.",
+      "Wood has no mass.",
+      "Water pushes only on wooden objects.",
+      "Wood particles always rise."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q23",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which procedure best tests whether temperature affects solubility?",
+    "options": [
+      "Dissolve equal amounts of a solid in equal water volumes at different temperatures.",
+      "Use different solids and different water volumes.",
+      "Measure only the color of the solid.",
+      "Change temperature and stirring time together."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q24",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "When a liquid boils, which change occurs at the particle level?",
+    "options": [
+      "Particles gain enough energy to escape the liquid as gas.",
+      "Particles become new elements.",
+      "Particles lose all kinetic energy.",
+      "Particles become denser than the liquid."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q25",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement correctly compares mass and weight?",
+    "options": [
+      "Mass measures amount of matter, while weight depends on gravitational force.",
+      "Mass and weight always have identical values.",
+      "Weight measures volume, while mass measures density.",
+      "Mass disappears when gravity changes."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Matter, particles, and physical properties",
+    "source": "authored",
+    "needsReview": false
+  }
+]

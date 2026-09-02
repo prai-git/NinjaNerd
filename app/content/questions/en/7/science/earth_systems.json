@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q51",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In undisturbed sedimentary rock, a fern fossil is below a mammal fossil. Which is older?",
+    "options": [
+      "The fern fossil.",
+      "The mammal fossil.",
+      "They must have the same age.",
+      "Neither fossil can be dated relatively."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Earth processes, resources, and surface change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q52",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A river slows as it enters a lake and drops its sediment. Which process is this?",
+    "options": [
+      "Deposition.",
+      "Weathering.",
+      "Erosion.",
+      "Condensation."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Deposition is the dropping of transported sediment when moving water loses energy.\n\n**Key concept:** Deposition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q53",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rainwater seeps into a crack in granite, freezes, and widens the crack. Which process is this?",
+    "options": [
+      "Erosion by wind.",
+      "Chemical weathering by acid.",
+      "Deposition of new minerals.",
+      "Physical weathering by ice wedging."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Water expands as it freezes, prying the crack wider without changing the rock's composition.\n\n**Key concept:** Physical weathering",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q54",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Acidic rain slowly dissolves a limestone statue. What kind of change is this?",
+    "options": [
+      "Erosion, because material is carried away.",
+      "Physical weathering, because only the shape changes.",
+      "Chemical weathering, because a new substance forms.",
+      "Deposition, because material is added."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The acid reacts with the limestone, so the rock's chemical makeup changes.\n\n**Key concept:** Chemical weathering",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q55",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the difference between weathering and erosion?",
+    "options": [
+      "Weathering moves rock; erosion breaks it apart.",
+      "Weathering breaks rock apart; erosion moves the pieces away.",
+      "They are two names for the same process.",
+      "Weathering happens only underwater."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Weathering is breakdown in place, while erosion is transport by water, wind, ice or gravity.\n\n**Key concept:** Weathering and erosion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q56",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Buried sediment is compacted and cemented over long periods. Which rock type forms?",
+    "options": [
+      "Sedimentary rock.",
+      "Igneous rock.",
+      "Metamorphic rock.",
+      "Molten magma."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Compaction and cementation of sediment layers produce sedimentary rock.\n\n**Key concept:** Rock cycle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q57",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Deep underground, heat and pressure change shale into slate without melting it. Which rock type forms?",
+    "options": [
+      "Loose sediment.",
+      "Sedimentary rock.",
+      "Igneous rock.",
+      "Metamorphic rock."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Metamorphic rock forms when existing rock is changed by heat and pressure while staying solid.\n\n**Key concept:** Rock cycle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q58",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two continental plates push together over millions of years. What landform is most likely?",
+    "options": [
+      "A flat coastal plain.",
+      "A deep ocean trench with no uplift.",
+      "A mountain range.",
+      "A river delta."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Colliding continental plates crumple and uplift the crust into mountains.\n\n**Key concept:** Plate boundaries",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q59",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "New ocean floor forms along a mid-ocean ridge. What type of plate boundary is this?",
+    "options": [
+      "A convergent boundary.",
+      "A divergent boundary.",
+      "A transform boundary.",
+      "A stationary boundary."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Plates move apart at a divergent boundary and magma rises to form new crust.\n\n**Key concept:** Plate boundaries",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q60",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two plates slide past each other, producing frequent earthquakes but little new crust. What boundary is this?",
+    "options": [
+      "A transform boundary.",
+      "A divergent boundary.",
+      "A convergent boundary.",
+      "A hot spot."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** At a transform boundary plates grind sideways, releasing energy as earthquakes.\n\n**Key concept:** Plate boundaries",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q61",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which layer of soil contains the most decayed plant and animal material?",
+    "options": [
+      "The parent rock layer.",
+      "The bedrock.",
+      "The subsoil below the roots.",
+      "The topsoil."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Topsoil is the upper horizon enriched by humus from decayed organisms.\n\n**Key concept:** Soil formation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q62",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water moves easily through a layer of loose sand but barely through packed clay. Which property explains this?",
+    "options": [
+      "Mass.",
+      "Color.",
+      "Permeability.",
+      "Temperature."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Permeability describes how easily water passes through the connected spaces in a material.\n\n**Key concept:** Groundwater",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q63",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Plants release water vapor to the atmosphere through their leaves. What is this step of the water cycle called?",
+    "options": [
+      "Condensation.",
+      "Transpiration.",
+      "Precipitation.",
+      "Runoff."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Transpiration is water loss from plant leaves as vapor.\n\n**Key concept:** Water cycle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q64",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair lists a renewable and a nonrenewable resource in that order?",
+    "options": [
+      "Wind and coal.",
+      "Coal and wind.",
+      "Oil and natural gas.",
+      "Coal and petroleum."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Wind is replaced continuously; coal takes millions of years to form and is used far faster.\n\n**Key concept:** Natural resources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q65",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Coal forms from buried plant material over millions of years. Why is it called nonrenewable?",
+    "options": [
+      "It is found only in one country.",
+      "It cannot be burned more than once.",
+      "It contains no stored energy.",
+      "It forms far more slowly than people use it."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A resource is nonrenewable when its replacement rate is far slower than its rate of use.\n\n**Key concept:** Natural resources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q66",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A widespread fossil species existed for only a short span of time. Why is it useful to geologists?",
+    "options": [
+      "It shows the rock is igneous.",
+      "It proves the rock formed underwater.",
+      "It helps match the ages of rock layers in different places.",
+      "It measures the rock's density."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** An index fossil is widespread but short-lived, so layers containing it are close in age.\n\n**Key concept:** Index fossils",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q67",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A hillside is stripped of vegetation before heavy rain. What is the most likely result?",
+    "options": [
+      "Increased soil formation.",
+      "Increased soil erosion.",
+      "Decreased runoff.",
+      "No change to the hillside."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Roots hold soil and slow runoff, so removing plants lets rain carry soil away.\n\n**Key concept:** Erosion control",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q68",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A canyon and a delta are both shaped by a river. Which process dominates at each?",
+    "options": [
+      "Erosion at the canyon and deposition at the delta.",
+      "Deposition at the canyon and erosion at the delta.",
+      "Weathering at both.",
+      "Condensation at both."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Fast water cuts down to form a canyon; slow water drops sediment to build a delta.\n\n**Key concept:** Erosion and deposition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q69",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation is the best evidence that a glacier once covered a valley?",
+    "options": [
+      "A delta at the valley mouth.",
+      "A narrow V-shaped valley with rounded pebbles.",
+      "Evenly sorted sand layers.",
+      "A U-shaped valley with scratched bedrock and unsorted deposits."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Glaciers carve broad U-shaped valleys, scratch bedrock, and leave unsorted till.\n\n**Key concept:** Glacial evidence",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q70",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Fertilizer from farm fields washes into a stream. Which part of the water system carried it?",
+    "options": [
+      "Condensation in clouds.",
+      "Transpiration from crops.",
+      "Surface runoff within the watershed.",
+      "Evaporation from the soil."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Runoff drains across the land into streams, carrying dissolved and suspended material.\n\n**Key concept:** Watersheds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q71",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A river deposits gravel first, then sand, then silt as it slows. What explains this order?",
+    "options": [
+      "Smaller particles are always heavier.",
+      "Larger, heavier particles settle first as water loses energy.",
+      "All particles settle at the same speed.",
+      "Silt dissolves before it settles."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Settling depends on particle size and water energy; the largest drop out first.\n\n**Key concept:** Sediment sorting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q72",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A seismograph records shaking at three widely separated stations. What can scientists determine?",
+    "options": [
+      "The location of the earthquake's epicenter.",
+      "The exact time the fault first formed.",
+      "The chemical makeup of the mantle.",
+      "The future date of the next quake."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Comparing wave arrival times at three or more stations pinpoints the epicenter.\n\n**Key concept:** Earthquakes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q73",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A chain of volcanic islands forms as a plate moves over a fixed source of magma. What is this source called?",
+    "options": [
+      "A mid-ocean ridge.",
+      "A transform fault.",
+      "A subduction trench.",
+      "A hot spot."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A stationary hot spot melts through a moving plate, leaving a trail of volcanoes.\n\n**Key concept:** Volcanism",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q74",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A region pumps groundwater faster than rain can refill the aquifer. What is a likely consequence?",
+    "options": [
+      "Rainfall in the region increases.",
+      "The aquifer refills more quickly.",
+      "The land surface sinks as the aquifer compacts.",
+      "The water becomes less salty."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Removing water lets the pore spaces collapse, lowering the land surface.\n\n**Key concept:** Groundwater depletion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q75",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do farmers plow across a slope rather than up and down it?",
+    "options": [
+      "Rows across a slope receive more sunlight.",
+      "Cross-slope rows slow runoff and hold soil in place.",
+      "Plowing downhill removes weeds faster.",
+      "It has no effect on soil loss."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Contour plowing creates ridges that trap water and reduce erosion.\n\n**Key concept:** Soil conservation",
+    "source": "authored",
+    "needsReview": false
+  }
+]

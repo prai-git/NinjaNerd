@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q76",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a food web, rabbits eat grass and foxes eat rabbits. If rabbits decline sharply, what occurs first?",
+    "options": [
+      "Foxes have less available food.",
+      "Grass cannot photosynthesize.",
+      "Foxes immediately become producers.",
+      "All insects disappear."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Ecosystems, cells, and inherited variation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q77",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a meadow food chain, grass is eaten by grasshoppers, which are eaten by frogs. What role does the grass play?",
+    "options": [
+      "Decomposer.",
+      "Primary consumer.",
+      "Secondary consumer.",
+      "Producer."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Producers make their own food using sunlight and form the base of the chain.\n\n**Key concept:** Food chains",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q78",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is only about ten percent of the energy at one trophic level passed to the next?",
+    "options": [
+      "Predators refuse most of their food.",
+      "Energy is destroyed by consumers.",
+      "Most energy is used for life processes or lost as heat.",
+      "Energy converts into new matter."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Organisms use most captured energy to live and move; only a small share is stored as body tissue.\n\n**Key concept:** Energy pyramids",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q79",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Fungi and bacteria break down a fallen log. What is their role in the ecosystem?",
+    "options": [
+      "Producers that make food from sunlight.",
+      "Decomposers that return nutrients to the soil.",
+      "Predators that hunt living prey.",
+      "Parasites that only harm trees."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Decomposers recycle nutrients from dead matter back into the ecosystem.\n\n**Key concept:** Decomposers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q80",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pond loses most of its algae after a chemical spill. What happens first to the animals that eat algae?",
+    "options": [
+      "Their population declines because food is scarce.",
+      "Their population grows immediately.",
+      "They become producers.",
+      "They are unaffected."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Removing a producer reduces food for the consumers directly above it.\n\n**Key concept:** Ecosystem disruption",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q81",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Bees pollinate flowers while collecting nectar. What type of relationship is this?",
+    "options": [
+      "Predation, because the bee consumes the flower.",
+      "Parasitism, because the flower is harmed.",
+      "Competition, because both need nectar.",
+      "Mutualism, because both organisms benefit."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** In mutualism both species gain: the bee is fed and the flower is pollinated.\n\n**Key concept:** Symbiosis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q82",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tick feeds on a deer's blood, weakening the deer. What relationship is this?",
+    "options": [
+      "Commensalism.",
+      "Mutualism.",
+      "Parasitism.",
+      "Predation."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A parasite lives on or in a host and harms it without usually killing it quickly.\n\n**Key concept:** Symbiosis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q83",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two species of birds in one forest eat the same insects. What are they most likely doing?",
+    "options": [
+      "Cooperating to raise young.",
+      "Competing for a shared resource.",
+      "Forming a mutualistic pair.",
+      "Decomposing dead matter."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Competition occurs when organisms need the same limited resource.\n\n**Key concept:** Competition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q84",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A population of rabbits grows until food and space run short, then levels off. What has the population reached?",
+    "options": [
+      "The carrying capacity of its environment.",
+      "Its maximum possible birth rate.",
+      "Complete extinction.",
+      "A new trophic level."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Carrying capacity is the largest population an environment can support with its resources.\n\n**Key concept:** Carrying capacity",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q85",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a biotic factor in a pond ecosystem?",
+    "options": [
+      "The depth of the pond.",
+      "The water temperature.",
+      "The amount of dissolved oxygen.",
+      "The frogs living in the pond."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Biotic factors are the living parts of an ecosystem; the others are abiotic.\n\n**Key concept:** Biotic and abiotic factors",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q86",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Green plants convert light energy into stored chemical energy. What is this process called?",
+    "options": [
+      "Digestion.",
+      "Cellular respiration.",
+      "Photosynthesis.",
+      "Transpiration."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Photosynthesis uses light, carbon dioxide and water to make sugar and release oxygen.\n\n**Key concept:** Photosynthesis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q87",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which gas do plants take in during photosynthesis, and which do they release?",
+    "options": [
+      "Take in oxygen, release carbon dioxide.",
+      "Take in carbon dioxide, release oxygen.",
+      "Take in nitrogen, release oxygen.",
+      "Take in oxygen, release nitrogen."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Photosynthesis consumes carbon dioxide and gives off oxygen as a product.\n\n**Key concept:** Photosynthesis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q88",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An owl hunts mice at night. Which pair correctly names their roles?",
+    "options": [
+      "The owl is the predator and the mouse is the prey.",
+      "The mouse is the predator and the owl is the prey.",
+      "Both are producers.",
+      "Both are decomposers."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The predator hunts and eats the prey.\n\n**Key concept:** Predator and prey",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q89",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does removing a top predator often increase plant damage in an ecosystem?",
+    "options": [
+      "Producers become consumers.",
+      "Plants stop making their own food.",
+      "Decomposers begin eating plants.",
+      "Plant-eating populations grow without predator control."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Without predators the herbivore population rises and consumes more vegetation.\n\n**Key concept:** Food webs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q90",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure allows a cactus to survive in a dry desert?",
+    "options": [
+      "Shallow roots that avoid all water.",
+      "Broad thin leaves with many pores.",
+      "A thick waxy stem that stores water.",
+      "Hollow stems that release water quickly."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Water storage and reduced water loss are adaptations to dry conditions.\n\n**Key concept:** Adaptations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q91",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A polar bear has thick fur and a layer of fat. What environmental challenge do these address?",
+    "options": [
+      "Finding food in complete darkness.",
+      "Retaining body heat in extreme cold.",
+      "Breathing underwater for long periods.",
+      "Avoiding sunburn in summer."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Fur and fat are insulation that slows heat loss to a cold environment.\n\n**Key concept:** Adaptations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q92",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence correctly moves from smallest to largest?",
+    "options": [
+      "Cell, tissue, organ, organ system.",
+      "Organ, tissue, cell, organ system.",
+      "Tissue, cell, organ system, organ.",
+      "Organ system, organ, tissue, cell."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Cells group into tissues, tissues into organs, and organs into organ systems.\n\n**Key concept:** Levels of organization",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q93",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which body system carries oxygen and nutrients to cells throughout the body?",
+    "options": [
+      "The nervous system.",
+      "The skeletal system.",
+      "The digestive system alone.",
+      "The circulatory system."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Blood moving through vessels delivers oxygen and nutrients and removes wastes.\n\n**Key concept:** Body systems",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q94",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The digestive and circulatory systems work together in what way?",
+    "options": [
+      "Digestion pumps blood to the heart.",
+      "Circulation chews food before digestion begins.",
+      "Digestion breaks food into nutrients the blood then transports.",
+      "The two systems never interact."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Nutrients absorbed in the intestine enter the bloodstream for delivery to cells.\n\n**Key concept:** System interactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q95",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A group of the same species living in one area at one time is called what?",
+    "options": [
+      "A community.",
+      "A population.",
+      "An ecosystem.",
+      "A biome."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A population is one species; a community includes all species in the area.\n\n**Key concept:** Ecological organization",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q96",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does a community include that a population does not?",
+    "options": [
+      "All the different species living in the area.",
+      "Only the largest species present.",
+      "The nonliving soil and water.",
+      "The energy from sunlight."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A community is every population of every species sharing an area.\n\n**Key concept:** Ecological organization",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q97",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A lake becomes cloudy with algae after fertilizer runoff, and fish begin to die. What is the most likely cause of the fish deaths?",
+    "options": [
+      "Algae block the fish from swimming.",
+      "Algae eat the fish directly.",
+      "Fertilizer freezes the lake surface.",
+      "Decomposing algae use up the dissolved oxygen."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The algae bloom dies and decomposers consume oxygen, leaving too little for fish.\n\n**Key concept:** Human impact",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q98",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do introduced species sometimes spread rapidly in a new ecosystem?",
+    "options": [
+      "They cannot find any food.",
+      "They reproduce only once.",
+      "They may have no natural predators there.",
+      "They always need human care."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Without predators or established competitors, an introduced population can grow unchecked.\n\n**Key concept:** Invasive species",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q99",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would most likely increase biodiversity in a damaged forest?",
+    "options": [
+      "Planting a single fast-growing species.",
+      "Replanting a variety of native species.",
+      "Removing all fallen logs.",
+      "Paving the forest floor."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Biodiversity rises when many different native species can live and interact.\n\n**Key concept:** Biodiversity",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q100",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A drought reduces the grass in a field. Which effect on the field's rabbit population is most likely?",
+    "options": [
+      "The population decreases as food becomes limited.",
+      "The population increases because rabbits eat less.",
+      "The rabbits become producers.",
+      "The population is unaffected by plants."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A limiting resource reduces the population an environment can support.\n\n**Key concept:** Limiting factors",
+    "source": "authored",
+    "needsReview": false
+  }
+]

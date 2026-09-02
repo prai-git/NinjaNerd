@@ -1,7 +1,7 @@
 /* Topics page (mirrors legacy topics.html): grade → subject cards.
    Public — no login required to browse. Scope: English/Math/Science + Games. */
 import { loadManifest, subjectsFor } from './content-loader.js';
-import { param, SUBJECTS } from './flow.js';
+import { param, SUBJECTS, isValidGrade } from './flow.js';
 
 function card({ icon, color, title, desc }, onclick) {
   const col = document.createElement('div');
@@ -20,7 +20,7 @@ function card({ icon, color, title, desc }, onclick) {
 
 async function init(root) {
   const grade = Number(param('grade'));
-  if (!(grade >= 1 && grade <= 6)) { location.replace('index.html'); return; }
+  if (!isValidGrade(grade)) { location.replace('index.html'); return; }
 
   document.getElementById('nn-grade-label').textContent = `Grade ${grade}`;
   const manifest = await loadManifest();

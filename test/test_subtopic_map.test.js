@@ -16,7 +16,7 @@ import { mapSubtopic } from '../tools/lib/subtopic-map.mjs';
 const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SUBJECTS = ['math', 'english', 'science'];
 
-test('taxonomy keeps the legacy shape: 5 subtopics for grades 1-5, 10 for grade 6', () => {
+test('taxonomy keeps the legacy shape: 5 subtopics for grades 1-5, 10 for grades 6-7', () => {
   // obs_app.py picked grades_5_and_below when `grade <= 5`, else grades_above_5.
   for (const subj of SUBJECTS) {
     // math carries two owner-approved additions at grades 1-5; the others stay at the legacy 5.
@@ -24,7 +24,9 @@ test('taxonomy keeps the legacy shape: 5 subtopics for grades 1-5, 10 for grade 
     for (const g of [1, 2, 3, 4, 5]) {
       assert.equal(subtopicsForGrade(subj, g).length, expectLow, `${subj} grade ${g}`);
     }
-    assert.equal(subtopicsForGrade(subj, 6).length, 10, `${subj} grade 6`);
+    // subtopicsForGrade routes on `grade <= 5`, so grade 7 already gets the extended list.
+    // Asserting it here is what proves adding a grade needs no taxonomy change.
+    for (const g of [6, 7]) assert.equal(subtopicsForGrade(subj, g).length, 10, `${subj} grade ${g}`);
   }
 });
 
@@ -172,7 +174,7 @@ test('no subtopic is empty at any grade', () => {
     readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
   const empty = [];
   for (const subj of SUBJECTS) {
-    for (const g of [1, 2, 3, 4, 5, 6]) {
+    for (const g of [1, 2, 3, 4, 5, 6, 7]) {
       const counts = {};
       for (const e of (man.grades?.[String(g)]?.[subj] || [])) counts[e.subtopic] = e.count || 0;
       for (const s of subtopicsForGrade(subj, g)) {
@@ -207,15 +209,17 @@ test('no subtopic is empty at any grade', () => {
    done -- then a regression fails the build, exactly as the "no subtopic is empty" gate does
    now. The assertion message lists every short bucket with its count and its target, so it
    doubles as the worklist. */
-const MIN_QUESTIONS = { grade6: 50, lower: 30 };
-const minFor = (grade) => (grade === 6 ? MIN_QUESTIONS.grade6 : MIN_QUESTIONS.lower);
+const MIN_QUESTIONS = { upper: 50, lower: 30 };
+// Grades 6 AND 7 carry the upper floor: both use the extended 10-subtopic taxonomy and both
+// mix on-level with accelerated/Honors content, so one bucket serves two populations.
+const minFor = (grade) => (grade >= 6 ? MIN_QUESTIONS.upper : MIN_QUESTIONS.lower);
 
 test('every subtopic meets its grade\'s question minimum', { todo: true }, () => {
   const man = JSON.parse(
     readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
   const short = [];
   for (const subj of SUBJECTS) {
-    for (const g of [1, 2, 3, 4, 5, 6]) {
+    for (const g of [1, 2, 3, 4, 5, 6, 7]) {
       const counts = {};
       for (const e of (man.grades?.[String(g)]?.[subj] || [])) counts[e.subtopic] = e.count || 0;
       for (const s of subtopicsForGrade(subj, g)) {
@@ -228,10 +232,10 @@ test('every subtopic meets its grade\'s question minimum', { todo: true }, () =>
   assert.deepEqual(short, [], `${short.length} subtopics are short:\n${short.join('\n')}`);
 });
 
-test('the thresholds are the ones the owner set: 50 for grade 6, 30 below', () => {
-  assert.equal(MIN_QUESTIONS.grade6, 50, 'grade 6 carries two tracks and needs the depth');
+test('the thresholds are the ones the owner set: 50 for grades 6-7, 30 below', () => {
+  assert.equal(MIN_QUESTIONS.upper, 50, 'grades 6-7 carry two tracks and need the depth');
   assert.equal(MIN_QUESTIONS.lower, 30, 'grades 1-5 serve one track');
   // The split must actually be applied, not just declared.
-  assert.equal(minFor(6), 50);
+  for (const g of [6, 7]) assert.equal(minFor(g), 50, `grade ${g} target`);
   for (const g of [1, 2, 3, 4, 5]) assert.equal(minFor(g), 30, `grade ${g} target`);
 });

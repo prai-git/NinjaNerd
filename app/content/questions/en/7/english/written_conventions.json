@@ -1,0 +1,502 @@
+[
+  {
+    "id": "english_g7_2026-09-01_20-44_q101",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly in a series?",
+    "options": [
+      "We packed water, maps, and flashlights.",
+      "We packed, water maps and flashlights.",
+      "We packed water maps, and flashlights.",
+      "We, packed water, maps and flashlights."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Commas correctly separate items in a series, including the final item.\n**Key concept:** Commas in a series.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q102",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly punctuates dialogue?",
+    "options": [
+      "\"We should leave now\", said Omar.",
+      "\"We should leave now,\" said Omar.",
+      "\"We should leave now\", Said Omar.",
+      "\"We should leave now.\" said Omar."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The comma belongs inside the quotation marks before the attribution.\n**Key concept:** Dialogue punctuation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q103",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an apostrophe correctly?",
+    "options": [
+      "The two teams' schedules overlapped.",
+      "The two team's schedules overlapped.",
+      "The two teams schedules overlapped.",
+      "The two team's' schedules overlapped."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The apostrophe follows the plural noun teams to show shared possession.\n**Key concept:** Plural possessives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q104",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which title is capitalized correctly?",
+    "options": [
+      "the river between us",
+      "The River Between Us",
+      "The river Between us",
+      "THE RIVER between US"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Major words in a title are capitalized.\n**Key concept:** Title capitalization.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q105",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a colon correctly?",
+    "options": [
+      "Bring: gloves, goggles, and boots.",
+      "Bring the following items: gloves, goggles, and boots.",
+      "Bring the following: items gloves, goggles, and boots.",
+      "Bring the: gloves, goggles, and boots."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A complete clause precedes the colon that introduces the list.\n**Key concept:** Colons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q106",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which spelling is correct?",
+    "options": [
+      "independant",
+      "independent",
+      "independint",
+      "indepedent"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Independent is spelled with -ent at the end.\n**Key concept:** Spelling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q107",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which parenthetical citation best follows a quotation from page 18 of an article by Diaz?",
+    "options": [
+      "(Diaz 18)",
+      "(page 18 Diaz)",
+      "(18, Diaz)",
+      "(Article 18)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The citation identifies the author and the page where the quotation appears.\n**Key concept:** Parenthetical citation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q108",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a dash most effectively?",
+    "options": [
+      "The answer - was hidden in the map.",
+      "The answer was hidden - in the map.",
+      "The answer was hidden in the map—a map nobody had opened.",
+      "The answer was hidden in the map -nobody had opened."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The dash adds an emphatic explanatory detail after a complete statement.\n**Key concept:** Dashes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q109",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses *its*?",
+    "options": [
+      "The machine lost it's instruction manual.",
+      "The machine lost its instruction manual.",
+      "The machine lost its' instruction manual.",
+      "The machine lost it is instruction manual."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Its is the possessive form and does not use an apostrophe.\n**Key concept:** Its and it's.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q110",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses quotation marks correctly for a short story title?",
+    "options": [
+      "We read \"The Last Leaf\" in class.",
+      "We read The Last Leaf in class.",
+      "We read 'The Last Leaf' in class.",
+      "We read [The Last Leaf] in class."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Short story titles are placed in quotation marks.\n**Key concept:** Titles of short works.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q111",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a comma after an introductory phrase?",
+    "options": [
+      "In the early morning the harbor was quiet.",
+      "In the early morning, the harbor was quiet.",
+      "In, the early morning the harbor was quiet.",
+      "In the early, morning the harbor was quiet."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The comma follows the introductory prepositional phrase.\n**Key concept:** Introductory phrases.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q112",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly forms a plural possessive?",
+    "options": [
+      "The musicians instruments were polished.",
+      "The musician's instruments were polished.",
+      "The musicians' instruments were polished.",
+      "The musicians's instruments were polished."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The apostrophe after musicians shows possession by more than one musician.\n**Key concept:** Plural possessives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q113",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses parentheses appropriately?",
+    "options": [
+      "The conference begins (at noon.",
+      "The conference begins at noon (in the auditorium).",
+      "The conference (begins at noon in the auditorium.",
+      "The conference begins) at noon (in the auditorium."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The parenthetical location is additional, nonessential information.\n**Key concept:** Parentheses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q114",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "accomodate",
+      "accommodate",
+      "acommodate",
+      "accomadate"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Accommodate has double c and double m.\n**Key concept:** Spelling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q115",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a hyphen correctly?",
+    "options": [
+      "The well known author visited.",
+      "The well-known author visited.",
+      "The well - known author visited.",
+      "The wellknown author visited."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A compound modifier before a noun is hyphenated.\n**Key concept:** Hyphens.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q116",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best paraphrase practice?",
+    "options": [
+      "Copy a sentence and change two words.",
+      "Restate a source's idea in new wording and cite it.",
+      "Use a source without naming it.",
+      "Replace quotations with opinions."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A paraphrase uses original wording while crediting the source of the idea.\n**Key concept:** Paraphrasing.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q117",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an ellipsis?",
+    "options": [
+      "The witness said, \"I saw the car . . . turn north.\"",
+      "The witness said, \"I saw the car...turn north.\"",
+      "The witness said, \"I saw the car . . .turn north.\"",
+      "The witness said, \"I saw the car.... turn north.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The spaced ellipsis shows omitted or trailing words within the quotation.\n**Key concept:** Ellipses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q118",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses capitalization correctly?",
+    "options": [
+      "We visited the Alamo in San Antonio.",
+      "We visited the alamo in San antonio.",
+      "We visited the Alamo in san antonio.",
+      "We visited the alamo in San Antonio."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The monument and city name are proper nouns.\n**Key concept:** Capitalization.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q119",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma correctly with a direct address?",
+    "options": [
+      "Maya please close the window.",
+      "Maya, please close the window.",
+      "Maya please, close the window.",
+      "Maya, please, close the window."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A direct address is separated from the rest of the sentence by a comma.\n**Key concept:** Direct address.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q120",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct homophone?",
+    "options": [
+      "Their going to present first.",
+      "They're going to present first.",
+      "There going to present first.",
+      "Theyre going to present first."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** They're means they are and fits the sentence.\n**Key concept:** Homophones and contractions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q121",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which entry gives the most useful source information for a research notebook?",
+    "options": [
+      "\"Interesting website\"",
+      "Title, author, publication date, URL, and access date",
+      "A copied paragraph without a link",
+      "Only the writer's first name"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Complete publication information lets a writer locate and cite the source accurately.\n**Key concept:** Research documentation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q122",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses brackets in a quotation?",
+    "options": [
+      "\"They [the volunteers] arrived before dawn,\" the report states.",
+      "\"They (the volunteers) arrived before dawn,\" the report states.",
+      "\"They {the volunteers} arrived before dawn,\" the report states.",
+      "\"They -the volunteers- arrived before dawn,\" the report states."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Brackets show words added within a quotation for clarity.\n**Key concept:** Brackets in quotations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q123",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "privilege",
+      "priviledge",
+      "privelege",
+      "privelige"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Privilege is spelled with -ilege at the end.\n**Key concept:** Spelling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q124",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma before a coordinating conjunction correctly?",
+    "options": [
+      "The wind rose, and the sailors reefed the sails.",
+      "The wind rose and, the sailors reefed the sails.",
+      "The wind, rose and the sailors reefed the sails.",
+      "The wind rose, and, the sailors reefed the sails."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The comma precedes and when it joins two independent clauses.\n**Key concept:** Compound-sentence punctuation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q125",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why must a writer cite a source after paraphrasing it?",
+    "options": [
+      "Paraphrasing makes the information private.",
+      "The original idea still belongs to the source.",
+      "Citations make every source correct.",
+      "Paraphrases cannot contain facts."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Changing wording does not change who first developed the idea.\n**Key concept:** Attribution.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

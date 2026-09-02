@@ -1,92 +1,99 @@
 NINJANERD.AI PRIVACY POLICY
 
-Last Updated: September 22, 2025
+Last Updated: September 2, 2026
+
+NinjaNerd.ai ("NinjaNerd", "we", "us", or "our") provides a FREE educational practice platform for students in grades 1-7. This Privacy Policy explains what information we collect, how we use it, and the choices available to you and, where applicable, to parents and guardians.
 
 1. INFORMATION WE COLLECT
 
-1.1 Personal Information
-We collect information you provide directly to us, such as:
-- Account registration details (email address, username)
-- Educational progress and performance data
-- Payment information (processed securely through PayPal)
+1.1 Information You Provide
+- Account registration details (email address and username)
+- Educational progress and performance data (questions attempted, answers, scores)
+- Any message you send us through our contact form
 
-1.2 Automatically Collected Information
-- Usage data and learning patterns
+1.2 Information Collected Automatically
+- Usage data and learning activity
 - Device and browser information
-- IP address and general location
+- IP address and general (approximate) location
 - Session and interaction data
+
+We do NOT collect payment information - NinjaNerd is free and has no paid features.
 
 2. HOW WE USE YOUR INFORMATION
 
-We use collected information to:
-- Provide and improve our educational services
-- Personalize your learning experience
-- Process payments and manage subscriptions
+We use the information we collect to:
+- Provide, maintain, and improve our educational services
+- Save and display each student's learning progress
 - Send important account and service updates
-- Analyze usage patterns to enhance our platform
-- Ensure security and prevent fraud
+- Analyze usage to improve content and the platform
+- Keep the platform secure and prevent misuse, fraud, or abuse
 
-3. INFORMATION SHARING
+We do not use children's personal information for behavioral or targeted advertising, and we do not sell it.
 
-We do not sell, trade, or rent your personal information to third parties.
-We may share information only in these circumstances:
-- With payment processors (PayPal) for transaction processing
-- With service providers who assist in platform operations
-- When required by law or to protect our rights
-- In connection with business transfers (mergers, acquisitions)
+3. HOW WE SHARE INFORMATION
+
+We do not sell, trade, or rent your personal information. We share information only in these limited circumstances:
+- With service providers who help us operate the platform (for example, authentication and data-storage providers such as Google Firebase), under obligations of confidentiality and only as needed to provide the service
+- When required by law, legal process, or to protect our rights, users, or the public
+- In connection with a business transfer (such as a merger or acquisition), subject to this Policy
 
 4. DATA SECURITY
 
-We implement appropriate security measures to protect your information:
-- Encryption of sensitive data in transit and at rest
-- Secure payment processing through PayPal
-- Regular security audits and updates
+We use reasonable measures designed to protect your information, including:
+- Encryption of data in transit and at rest
 - Access controls and authentication systems
+- Regular security reviews and updates
 
-5. YOUR RIGHTS AND CHOICES
+No method of transmission or storage is completely secure, and we cannot guarantee absolute security.
+
+5. CHILDREN'S PRIVACY
+
+NinjaNerd is intended for use by children in grades 1-7 under the supervision of a parent, guardian, or school. We are committed to protecting children's privacy and complying with the Children's Online Privacy Protection Act (COPPA) and other applicable laws:
+- We limit the personal information we collect from children to what is reasonably necessary to provide the educational service.
+- Where required, we obtain verifiable parental consent before collecting personal information from a child under 13. An account for a child should be created or authorized by a parent, guardian, or school.
+- Parents and guardians may review the personal information we hold about their child, request that we correct or delete it, and refuse to permit further collection, by contacting us through our contact form.
+- We do not require a child to provide more information than is reasonably necessary to use the service, and we do not knowingly allow children to publicly post personal information.
+
+If you believe a child has provided us personal information without appropriate consent, please contact us and we will delete it.
+
+6. COOKIES AND SIMILAR TECHNOLOGIES
+
+We use cookies and similar technologies to:
+- Keep you signed in and remember your preferences
+- Analyze platform usage and performance
+
+You can control cookies through your browser settings. We do not use advertising or cross-site tracking cookies.
+
+7. YOUR RIGHTS AND CHOICES
 
 You have the right to:
 - Access and update your personal information
-- File complaints with relevant authorities
-
-6. COOKIES AND TRACKING
-
-We use cookies and similar technologies to:
-- Remember your preferences and settings
-- Analyze platform usage and performance
-- Provide personalized content and features
-You can control cookie settings through your browser.
-
-7. CHILDREN'S PRIVACY
-
-Our service is designed for educational use by children under parental supervision.
-We comply with applicable children's privacy laws and:
-- Obtain parental consent where required
-- Limit data collection to educational purposes
-- Provide parents with access and deletion rights
-- Do not allow children to publicly disclose personal information
+- Request deletion of your account and associated data
+- File a complaint with a relevant data-protection authority
 
 8. DATA RETENTION
 
-We retain personal information for as long as necessary to:
-- Provide our services and support your account
+We retain personal information only as long as necessary to:
+- Provide our services and maintain your account
 - Comply with legal obligations
-- Resolve disputes and enforce agreements
-Account data is typically deleted within 30 days of account closure.
+- Resolve disputes and enforce our agreements
 
-9. INTERNATIONAL TRANSFERS
+Account data is typically deleted within 30 days after account closure, or sooner when it is no longer needed.
 
-If you access our service from outside the United States, your information may be transferred to and processed in countries with different privacy laws. We ensure appropriate safeguards are in place.
+9. THIRD-PARTY SERVICES
 
-10. UPDATES TO THIS POLICY
+We rely on trusted third-party providers to operate NinjaNerd, including Google Firebase for sign-in (Authentication) and for storing learning progress (Firestore). Your use of these features is also subject to those providers' privacy policies.
 
-We may update this privacy policy periodically. We will notify you of significant changes through:
-- Email notifications to registered users
-- Prominent notices on our website
-- In-app notifications
+10. INTERNATIONAL TRANSFERS
 
-11. CONTACT INFORMATION
+If you access NinjaNerd from outside the United States, your information may be transferred to and processed in the United States or other countries with different privacy laws. We take steps to ensure appropriate safeguards are in place.
 
-For privacy-related questions or concerns, go to contact us and send us an eamil.
+11. UPDATES TO THIS POLICY
+
+We may update this Privacy Policy from time to time. We will post the updated version on the Privacy Policy page and revise the "Last updated" date. Significant changes may also be communicated through prominent notices on our website.
+
+12. CONTACT US
+
+For privacy questions or requests, please reach us through the contact form available on the platform.
 
 By using NinjaNerd.ai, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of information as described herein.

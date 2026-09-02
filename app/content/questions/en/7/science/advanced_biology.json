@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q151",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do muscle cells contain many mitochondria?",
+    "options": [
+      "They release usable energy from food for cell activities.",
+      "They store all cell waste.",
+      "They control cell entry and exit.",
+      "They make sunlight."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Cell systems, adaptation, and population change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q152",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure controls what enters and leaves an animal cell?",
+    "options": [
+      "The cell membrane.",
+      "The nucleus.",
+      "The mitochondrion.",
+      "The vacuole."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The cell membrane is selectively permeable and regulates transport.\n\n**Key concept:** Cell structure",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q153",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure stores the cell's genetic instructions?",
+    "options": [
+      "The cell wall.",
+      "The cell membrane.",
+      "The ribosome.",
+      "The nucleus."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** DNA is housed in the nucleus of a eukaryotic cell.\n\n**Key concept:** Cell structure",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q154",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of structures is found in plant cells but not animal cells?",
+    "options": [
+      "Mitochondrion and membrane.",
+      "Nucleus and ribosome.",
+      "Cell wall and chloroplast.",
+      "Cytoplasm and nucleus."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Only plant cells have a rigid cell wall and chloroplasts for photosynthesis.\n\n**Key concept:** Plant and animal cells",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q155",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the main function of chloroplasts?",
+    "options": [
+      "To break down sugar for energy release.",
+      "To capture light energy for photosynthesis.",
+      "To store genetic material.",
+      "To remove waste from the cell."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Chloroplasts contain chlorophyll and carry out photosynthesis.\n\n**Key concept:** Organelles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q156",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Cellular respiration releases energy from sugar. Which organelle carries this out?",
+    "options": [
+      "The mitochondrion.",
+      "The chloroplast.",
+      "The nucleus.",
+      "The cell wall."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Mitochondria convert stored chemical energy into a form the cell can use.\n\n**Key concept:** Organelles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q157",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How are photosynthesis and cellular respiration related?",
+    "options": [
+      "Neither process involves gases.",
+      "They are the same process under two names.",
+      "Only plants perform respiration.",
+      "The products of one are the reactants of the other."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Photosynthesis makes sugar and oxygen; respiration consumes them and releases carbon dioxide and water.\n\n**Key concept:** Energy in cells",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q158",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pea plant inherits one allele for flower color from each parent. What is this pair called?",
+    "options": [
+      "Its species.",
+      "Its phenotype for that trait.",
+      "Its genotype for that trait.",
+      "Its adaptation."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The genotype is the combination of alleles; the phenotype is the trait shown.\n\n**Key concept:** Genotype and phenotype",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q159",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plant with genotype Tt is tall, and tt is short. What does this show about the T allele?",
+    "options": [
+      "t is dominant over T.",
+      "T is dominant over t.",
+      "Neither allele is expressed.",
+      "Both alleles blend equally."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A dominant allele is expressed even when only one copy is present.\n\n**Key concept:** Dominant and recessive",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q160",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two Tt parents are crossed. What fraction of offspring is expected to be short (tt)?",
+    "options": [
+      "One fourth.",
+      "One half.",
+      "Three fourths.",
+      "None."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A Punnett square for Tt x Tt gives TT, Tt, Tt, tt, so one of four is tt.\n\n**Key concept:** Punnett squares",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q161",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What fraction of offspring from a Tt x Tt cross is expected to show the tall phenotype?",
+    "options": [
+      "All of them.",
+      "One fourth.",
+      "One half.",
+      "Three fourths."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** TT, Tt and Tt all appear tall; only tt is short.\n\n**Key concept:** Punnett squares",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q162",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which term describes an organism with two identical alleles for a trait?",
+    "options": [
+      "Dominant.",
+      "Heterozygous.",
+      "Homozygous.",
+      "Recessive."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Homozygous means both alleles are the same; heterozygous means they differ.\n\n**Key concept:** Heredity vocabulary",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q163",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do offspring produced sexually differ from both parents?",
+    "options": [
+      "They receive an exact copy of one parent's DNA.",
+      "They receive a new combination of alleles from two parents.",
+      "Their traits are decided by the environment alone.",
+      "Sexual reproduction does not involve DNA."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Combining alleles from two parents produces genetic variation.\n\n**Key concept:** Sexual reproduction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q164",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A strawberry plant grows a runner that develops into a genetically identical plant. What kind of reproduction is this?",
+    "options": [
+      "Asexual reproduction.",
+      "Sexual reproduction.",
+      "Cross-pollination.",
+      "Fertilization."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Asexual reproduction involves one parent and produces genetically identical offspring.\n\n**Key concept:** Asexual reproduction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q165",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is an inherited trait rather than a learned behavior?",
+    "options": [
+      "Playing the piano.",
+      "Speaking a second language.",
+      "Riding a bicycle.",
+      "Natural eye color."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Inherited traits are passed through genes; learned behaviors are acquired.\n\n**Key concept:** Inherited and acquired traits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q166",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a population of beetles, the green ones are eaten less often on green leaves. Over many generations, what is likely?",
+    "options": [
+      "Color stops being inherited.",
+      "Brown beetles become more common.",
+      "Green beetles become more common.",
+      "All beetles become the same size."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Traits that improve survival are passed on more often, shifting the population.\n\n**Key concept:** Natural selection",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q167",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What must exist in a population for natural selection to act on it?",
+    "options": [
+      "Identical individuals.",
+      "Inherited variation in traits.",
+      "An unchanging environment.",
+      "A complete absence of predators."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Selection requires heritable differences that affect survival or reproduction.\n\n**Key concept:** Natural selection",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q168",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Some bacteria survive an antibiotic and reproduce. Why does the medicine become less effective over time?",
+    "options": [
+      "The surviving resistant bacteria pass resistance to offspring.",
+      "The antibiotic teaches bacteria to resist.",
+      "Bacteria choose to become resistant.",
+      "The antibiotic changes into a nutrient."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Resistant individuals survive and reproduce, so resistance spreads through the population.\n\n**Key concept:** Adaptation over time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q169",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A fossil sequence shows a limb bone changing shape gradually across millions of years. What does this provide evidence of?",
+    "options": [
+      "An error in the fossil record.",
+      "A single unchanging species.",
+      "A sudden creation of all species.",
+      "Change in a species over time."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Gradual change in fossil structures documents descent with modification.\n\n**Key concept:** Fossil evidence",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q170",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why do a whale's flipper and a human arm have a similar bone arrangement?",
+    "options": [
+      "They developed by pure coincidence.",
+      "They perform exactly the same task.",
+      "They share a common ancestor.",
+      "Whales are a type of human."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Homologous structures reflect shared ancestry despite different uses.\n\n**Key concept:** Homologous structures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q171",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which body systems work together to deliver oxygen to muscle cells?",
+    "options": [
+      "The skeletal and digestive systems.",
+      "The respiratory and circulatory systems.",
+      "The nervous and excretory systems.",
+      "The digestive and skeletal systems."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The lungs take in oxygen and the blood transports it to cells.\n\n**Key concept:** System interactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q172",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The nervous system senses danger and the muscular system moves the body away. What does this show?",
+    "options": [
+      "Body systems interact to respond to stimuli.",
+      "Each system works in complete isolation.",
+      "Only one system is needed for a response.",
+      "Muscles sense danger directly."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A stimulus-response depends on several systems working together.\n\n**Key concept:** System interactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q173",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the role of the excretory system?",
+    "options": [
+      "To produce sound for communication.",
+      "To digest proteins into amino acids.",
+      "To pump blood through vessels.",
+      "To remove waste products from the body."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The excretory system filters and eliminates metabolic wastes.\n\n**Key concept:** Body systems",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q174",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Cells with a similar structure and function working together form what?",
+    "options": [
+      "A single organelle.",
+      "An organ system.",
+      "A tissue.",
+      "A whole organism."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Tissue is the level of organization directly above the cell.\n\n**Key concept:** Levels of organization",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q175",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Advanced Biology",
+    "subtopic": "advanced_biology",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A seed sprouts and grows toward a light source at the window. What is this response called?",
+    "options": [
+      "Random growth unrelated to light.",
+      "A tropism, a growth response to a stimulus.",
+      "A learned behavior.",
+      "An inherited disease."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Phototropism is directional growth toward light.\n\n**Key concept:** Plant responses",
+    "source": "authored",
+    "needsReview": false
+  }
+]

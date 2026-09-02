@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q201",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Wave X has greater amplitude than Wave Y, while Y has greater frequency. Which comparison is correct?",
+    "options": [
+      "X is louder and Y has higher pitch.",
+      "X is higher pitched and Y is louder.",
+      "They have identical pitch and loudness.",
+      "X cannot transfer energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Energy transfer, waves, and system behavior",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q202",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does the amplitude of a sound wave determine?",
+    "options": [
+      "How fast the sound travels.",
+      "How high or low the pitch is.",
+      "How loud the sound is.",
+      "The direction of the sound."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Greater amplitude carries more energy and is heard as greater loudness.\n\n**Key concept:** Wave properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q203",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does the frequency of a sound wave determine?",
+    "options": [
+      "The loudness of the sound.",
+      "The pitch of the sound.",
+      "The speed of the sound in air.",
+      "The temperature of the air."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Higher frequency means more vibrations per second and a higher pitch.\n\n**Key concept:** Wave properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q204",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sound cannot travel through the vacuum of space. Why not?",
+    "options": [
+      "Sound needs particles of a medium to carry the vibration.",
+      "Sound is too weak to cross space.",
+      "Space is too cold for sound.",
+      "Sound travels only through metal."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Sound is a mechanical wave and requires a material medium.\n\n**Key concept:** Mechanical waves",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q205",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Light from the Sun reaches Earth across empty space. What does this show about light?",
+    "options": [
+      "Light moves faster in a vacuum than it can exist.",
+      "Light travels only through air.",
+      "Light is a mechanical wave.",
+      "Light does not need a medium to travel."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Electromagnetic waves such as light can travel through a vacuum.\n\n**Key concept:** Electromagnetic waves",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q206",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A straw appears bent where it enters a glass of water. Which behavior of light causes this?",
+    "options": [
+      "Absorption by the water.",
+      "Reflection off the glass surface.",
+      "Refraction as light changes speed between materials.",
+      "Diffraction around the straw."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Light bends when its speed changes as it passes from water into air.\n\n**Key concept:** Refraction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q207",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why can you see yourself in a flat mirror?",
+    "options": [
+      "The mirror produces its own light.",
+      "Light reflects off the smooth surface in a regular pattern.",
+      "The mirror absorbs all the light.",
+      "Light passes straight through the mirror."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A smooth surface reflects light rays in an orderly way, forming an image.\n\n**Key concept:** Reflection",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q208",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A red shirt appears red in white light. What is happening to the light?",
+    "options": [
+      "Red light is reflected and other colors are absorbed.",
+      "Red light is absorbed and other colors reflected.",
+      "All colors are reflected equally.",
+      "The shirt produces red light."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** An object's color is the light it reflects rather than absorbs.\n\n**Key concept:** Color and light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q209",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a series circuit with one path, what happens when one bulb burns out?",
+    "options": [
+      "The circuit current doubles.",
+      "The other bulbs get brighter.",
+      "Only the burned-out bulb is affected.",
+      "All the bulbs go out because the path is broken."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A series circuit has a single path, so any break stops the current everywhere.\n\n**Key concept:** Series circuits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q210",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a parallel circuit, one bulb burns out. What happens to the others?",
+    "options": [
+      "They become dimmer and then fail.",
+      "They all go out immediately.",
+      "They stay lit because each has its own path.",
+      "They reverse direction."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Parallel branches provide independent paths for current.\n\n**Key concept:** Parallel circuits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q211",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which material is the best electrical conductor?",
+    "options": [
+      "Dry wood.",
+      "Copper wire.",
+      "Rubber tubing.",
+      "Glass rod."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Metals such as copper allow electrons to move freely.\n\n**Key concept:** Conductors and insulators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q212",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is rubber used to coat electrical wires?",
+    "options": [
+      "It is an insulator that resists the flow of charge.",
+      "It is a better conductor than copper.",
+      "It increases the current in the wire.",
+      "It stores electrical energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Insulators prevent current from leaving the wire and reaching people.\n\n**Key concept:** Conductors and insulators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q213",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wire carrying current is wrapped around an iron nail, making it magnetic. What is this device called?",
+    "options": [
+      "A resistor.",
+      "A permanent magnet.",
+      "A generator.",
+      "An electromagnet."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Current through a coil produces a magnetic field that magnetizes the core.\n\n**Key concept:** Electromagnetism",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q214",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How could you make an electromagnet stronger?",
+    "options": [
+      "Disconnect the battery.",
+      "Use fewer coils of wire.",
+      "Add more coils of wire around the core.",
+      "Replace the iron core with plastic."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** More turns of wire and more current both increase the magnetic field.\n\n**Key concept:** Electromagnetism",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q215",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A metal spoon in hot soup becomes hot at the handle. Which type of heat transfer is this?",
+    "options": [
+      "Convection.",
+      "Conduction.",
+      "Radiation.",
+      "Evaporation."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Conduction transfers energy through direct contact between particles.\n\n**Key concept:** Heat transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q216",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Warm water rises and cool water sinks in a heated pot. Which type of heat transfer is this?",
+    "options": [
+      "Convection.",
+      "Conduction.",
+      "Radiation.",
+      "Insulation."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Convection moves energy through the bulk motion of a fluid.\n\n**Key concept:** Heat transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q217",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "You feel warmth from a campfire without touching it or the air between. Which transfer is this?",
+    "options": [
+      "Condensation.",
+      "Conduction.",
+      "Convection.",
+      "Radiation."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Radiation carries energy as electromagnetic waves and needs no medium.\n\n**Key concept:** Heat transfer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q218",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Energy flows from a hot object to a cold one when they touch. In which direction does it flow?",
+    "options": [
+      "Equally in both directions at all times.",
+      "From lower temperature to higher temperature.",
+      "From higher temperature to lower temperature.",
+      "No energy flows between them."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Thermal energy always transfers from warmer to cooler until temperatures equalize.\n\n**Key concept:** Thermal energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q219",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A battery-powered flashlight is switched on. Which energy conversion occurs?",
+    "options": [
+      "Light energy to chemical energy.",
+      "Chemical energy to electrical energy to light and thermal energy.",
+      "Nuclear energy to sound energy.",
+      "Thermal energy to chemical energy."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The battery's stored chemical energy drives current that the bulb converts to light and heat.\n\n**Key concept:** Energy transformation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q220",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wind turbine turns and lights a bulb. What conversion is taking place?",
+    "options": [
+      "Kinetic energy to electrical energy.",
+      "Electrical energy to kinetic energy.",
+      "Chemical energy to nuclear energy.",
+      "Sound energy to light energy."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Moving air spins the turbine, and the generator produces electricity.\n\n**Key concept:** Energy transformation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q221",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Energy is never created or destroyed in these conversions. What law states this?",
+    "options": [
+      "The law of reflection.",
+      "The law of conservation of mass only.",
+      "Newton's first law of motion.",
+      "The law of conservation of energy."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Energy changes form but the total amount stays the same.\n\n**Key concept:** Conservation of energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q222",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two waves have the same speed, but Wave A has a longer wavelength. What must be true of its frequency?",
+    "options": [
+      "Both waves have equal frequency.",
+      "Wave A has a higher frequency.",
+      "Wave A has a lower frequency.",
+      "Frequency does not depend on wavelength."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** At a fixed speed, wavelength and frequency are inversely related.\n\n**Key concept:** Wave relationships",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q223",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is transferred by a wave travelling across a pond?",
+    "options": [
+      "The water itself, from one shore to the other.",
+      "Energy, while the water mostly moves up and down.",
+      "Mass from the wave to the shore.",
+      "Nothing is transferred."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Waves carry energy through a medium without transporting the medium along with them.\n\n**Key concept:** Wave energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q224",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would increase the thermal insulation of a house wall?",
+    "options": [
+      "Adding a layer of material that traps still air.",
+      "Replacing the wall with a thin metal sheet.",
+      "Removing the wall covering entirely.",
+      "Painting the interior a darker color."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Trapped air is a poor conductor, so it slows heat transfer.\n\n**Key concept:** Insulation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q225",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Physics & Energy Systems",
+    "subtopic": "physics_energy_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A solar panel powers a small motor. Trace the energy conversion.",
+    "options": [
+      "Thermal energy to nuclear energy.",
+      "Mechanical energy to radiant energy to electrical energy.",
+      "Chemical energy to radiant energy only.",
+      "Radiant energy to electrical energy to mechanical energy."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Sunlight becomes electricity, which the motor converts into motion.\n\n**Key concept:** Energy transformation",
+    "source": "authored",
+    "needsReview": false
+  }
+]

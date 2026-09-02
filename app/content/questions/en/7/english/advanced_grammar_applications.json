@@ -1,0 +1,502 @@
+[
+  {
+    "id": "english_g7_2026-09-01_20-44_q201",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses the subjunctive mood?",
+    "options": [
+      "If I was the mayor, I would expand the library.",
+      "If I were the mayor, I would expand the library.",
+      "If I am the mayor, I would expand the library.",
+      "If I be the mayor, I would expand the library."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Were is the standard subjunctive form for a hypothetical condition.\n**Key concept:** Subjunctive mood.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q202",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has correct agreement with a collective noun?",
+    "options": [
+      "The jury delivers their verdict.",
+      "The jury delivers its verdict.",
+      "The jury deliver its verdict.",
+      "The jury delivers it's verdict."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Jury is treated as one unit, so it takes singular verb and pronoun forms.\n**Key concept:** Collective nouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q203",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses *whom* correctly?",
+    "options": [
+      "Whom is leading the tour?",
+      "Whom did the guide thank after the tour?",
+      "Whom arrived first at the museum?",
+      "Whom wrote the article?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Whom functions as the object of thanked.\n**Key concept:** Who and whom.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q204",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an adjective clause?",
+    "options": [
+      "The scientist which discovered the comet spoke.",
+      "The scientist who discovered the comet spoke.",
+      "The scientist whom discovered the comet spoke.",
+      "The scientist whose discovered the comet spoke."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Who correctly refers to the person performing the action in the clause.\n**Key concept:** Relative pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q205",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence maintains consistent verb tense?",
+    "options": [
+      "We packed the tent and hike to the lake.",
+      "We packed the tent and hiked to the lake.",
+      "We had packed the tent and hike to the lake.",
+      "We pack the tent and hiked to the lake."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Both verbs are in the past tense and describe the same completed time.\n**Key concept:** Tense consistency.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q206",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses *fewer*?",
+    "options": [
+      "The new route has less turns.",
+      "The new route has fewer turns.",
+      "The new route has fewer traffic.",
+      "The new route has less intersections."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Turns are countable, so fewer is the correct comparative word.\n**Key concept:** Fewer and less.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q207",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a restrictive clause without unnecessary commas?",
+    "options": [
+      "Students, who submit forms early, receive a response first.",
+      "Students who submit forms early receive a response first.",
+      "Students who submit forms, early receive a response first.",
+      "Students, who submit forms early receive a response, first."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The clause identifies which students receive the response and needs no commas.\n**Key concept:** Restrictive clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q208",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct comparative form?",
+    "options": [
+      "Of the two routes, this one is shortest.",
+      "Of the two routes, this one is shorter.",
+      "Of the two routes, this one is more shortest.",
+      "Of the two routes, this one is most short."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Shorter is the comparative form used for exactly two items.\n**Key concept:** Comparative forms.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q209",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has correct parallelism after *either...or*?",
+    "options": [
+      "Either we will repair the roof or replacing it.",
+      "Either we will repair the roof or replace it.",
+      "Either repairing the roof or we will replace it.",
+      "Either we repair the roof or replacing it."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Both parts use parallel verb phrases.\n**Key concept:** Correlative conjunctions.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q210",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an antecedent clearly?",
+    "options": [
+      "The engineers reviewed the plans with the architects before they were approved.",
+      "Before the architects approved them, the engineers reviewed the plans.",
+      "The plans reviewed the engineers before they approved them.",
+      "The architects approved them before they reviewed plans."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Them clearly refers to plans, while architects are named as approvers.\n**Key concept:** Clear antecedents.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q211",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is in passive voice?",
+    "options": [
+      "The council approved the proposal.",
+      "The proposal was approved by the council.",
+      "The council will approve the proposal.",
+      "The council approves proposals."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The proposal receives the action instead of performing it.\n**Key concept:** Passive voice.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q212",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a correlative conjunction correctly?",
+    "options": [
+      "Neither the rain nor the wind were expected.",
+      "Neither the rain nor the wind was expected.",
+      "Neither the rain or the wind was expected.",
+      "Neither rain nor the wind were expected."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The verb agrees with the nearer singular subject wind.\n**Key concept:** Correlative conjunction agreement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q213",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an interrogative pronoun?",
+    "options": [
+      "Which of these tools fits the bolt?",
+      "Which tool fits the bolt, it?",
+      "The tool which fits the bolt?",
+      "Which the bolt fits tool?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Which correctly introduces a question identifying one item from a group.\n**Key concept:** Interrogative pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q214",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct form of *lie*?",
+    "options": [
+      "Yesterday, I laid down for an hour.",
+      "Yesterday, I lay down for an hour.",
+      "Yesterday, I have lain down for an hour.",
+      "Yesterday, I lying down for an hour."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Lay is the simple past tense of lie when it means recline.\n**Key concept:** Lie and lay.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q215",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a correct antecedent for the singular pronoun?",
+    "options": [
+      "Every robot returned to its charging station.",
+      "Every robot returned to their charging station.",
+      "Every robots returned to its charging station.",
+      "Every robot returned to our charging station."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The singular pronoun its agrees with the singular subject every robot.\n**Key concept:** Pronoun agreement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q216",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a predicate adjective?",
+    "options": [
+      "The soup tastes deliciously.",
+      "The soup tastes delicious.",
+      "The soup tastes deliciousness.",
+      "The soup tastes more deliciously."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Delicious is an adjective that describes soup after the linking verb tastes.\n**Key concept:** Predicate adjectives.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q217",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision corrects the faulty comparison with the most concise wording?\n\"The climate here is wetter than Phoenix.\"",
+    "options": [
+      "The climate here is wetter than Phoenix.",
+      "The climate here is wetter than Phoenix's climate.",
+      "The climate here is wetter than in Phoenix.",
+      "The climate here is wetter than Phoenix is climate."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The comparison properly compares climate in one location to climate in another.\n**Key concept:** Faulty comparisons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q218",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses *affect* correctly?",
+    "options": [
+      "The storm's affect was widespread.",
+      "The storm may affect tomorrow's flight.",
+      "The storm may effect tomorrow's flight.",
+      "The storm's affect may effect flights."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Affect is the verb meaning to influence.\n**Key concept:** Affect and effect.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q219",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses a reciprocal pronoun?",
+    "options": [
+      "The partners reviewed each other's notes.",
+      "The partners reviewed each other notes.",
+      "The partners reviewed each others' notes.",
+      "The partners reviewed one anothers notes."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each other's is the correct reciprocal possessive form.\n**Key concept:** Reciprocal pronouns.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q220",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses an adverbial clause?",
+    "options": [
+      "We waited until the fog lifted.",
+      "We waited until the fog lifting.",
+      "We waited until lifted the fog.",
+      "We waited the fog until lifted."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Until introduces a complete clause that tells when the waiting ended.\n**Key concept:** Adverbial clauses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q221",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a semicolon between closely related independent clauses?",
+    "options": [
+      "The forecast improved; the race continued.",
+      "The forecast improved; because the race continued.",
+      "The forecast; improved the race continued.",
+      "The forecast improved; and the race continued."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A semicolon joins the two closely related complete thoughts.\n**Key concept:** Semicolons.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q222",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence correctly uses *whoever*?",
+    "options": [
+      "Give the award to whoever submitted the strongest design.",
+      "Give the award to whomever submitted the strongest design.",
+      "Give the award whoever submitted the strongest design to.",
+      "Give the award to who submitted the strongest design."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Whoever is the subject of submitted within the clause.\n**Key concept:** Whoever and whomever.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q223",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence properly places the modifier?",
+    "options": [
+      "Nearly she painted every panel.",
+      "She painted nearly every panel.",
+      "She nearly painted every panel carefully.",
+      "She painted every nearly panel."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Nearly directly modifies every panel, showing that a small number were not painted.\n**Key concept:** Modifier placement.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q224",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses *good* or *well* correctly?",
+    "options": [
+      "The microscope works good.",
+      "The microscope works well.",
+      "The microscope is working goodly.",
+      "The microscope is well at work."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Well is an adverb that correctly modifies works.\n**Key concept:** Good and well.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g7_2026-09-01_20-44_q225",
+    "grade": 7,
+    "subject": "english",
+    "sourceSubtopic": "Advanced Grammar Applications",
+    "subtopic": "advanced_grammar_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence maintains parallel verb forms?",
+    "options": [
+      "The guide asked us to listen, observe, and recording.",
+      "The guide asked us to listen, observe, and record.",
+      "The guide asked us listening, observing, and record.",
+      "The guide asked us to listen, observing, and record."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The three infinitive verbs have matching forms.\n**Key concept:** Parallel verb forms.",
+    "source": "authored",
+    "needsReview": false
+  }
+]

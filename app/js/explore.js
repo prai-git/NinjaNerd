@@ -1,14 +1,14 @@
 /* Explore page (mirrors legacy explore.html): choose Learn or Practice for a
    subtopic. Browsing here is public; the LOGIN GATE fires when the student
    commits to an activity (Learn or Practice), then returns them to it. */
-import { param, subjectLabel, requireLogin } from './flow.js';
+import { param, subjectLabel, requireLogin, isValidGrade } from './flow.js';
 import { subtopicById } from './subtopics-data.js';
 
 async function init(root) {
   const grade = Number(param('grade'));
   const subject = param('subject');
   const subtopic = param('subtopic');
-  if (!(grade >= 1 && grade <= 6) || !subject || !subtopic) { location.replace('index.html'); return; }
+  if (!isValidGrade(grade) || !subject || !subtopic) { location.replace('index.html'); return; }
 
   const q = `grade=${grade}&subject=${subject}&subtopic=${encodeURIComponent(subtopic)}`;
   document.getElementById('nn-back-subtopics').href =

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "math_g7_2026-09-01_20-31_q1",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -9, -6, 4, or 11?",
+    "options": [
+      "11",
+      "-6",
+      "4",
+      "-9"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Among the listed values, -9 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q2",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -10, -7, 5, or 12?",
+    "options": [
+      "5",
+      "-7",
+      "-10",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Among the listed values, -10 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q3",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -11, -8, 6, or 13?",
+    "options": [
+      "-8",
+      "-11",
+      "6",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Among the listed values, -11 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q4",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -12, -9, 7, or 14?",
+    "options": [
+      "-12",
+      "-9",
+      "7",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Among the listed values, -12 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q5",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is irrational?",
+    "options": [
+      "0.125",
+      "3.5",
+      "9/3",
+      "square root of 10"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Square root of 10 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q6",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -13, -10, 8, or 15?",
+    "options": [
+      "8",
+      "-10",
+      "-13",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Among the listed values, -13 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q7",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -14, -11, 9, or 16?",
+    "options": [
+      "-11",
+      "-14",
+      "9",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Among the listed values, -14 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q8",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -15, -12, 10, or 17?",
+    "options": [
+      "-15",
+      "-12",
+      "10",
+      "17"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Among the listed values, -15 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q9",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -16, -13, 11, or 18?",
+    "options": [
+      "18",
+      "-13",
+      "11",
+      "-16"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Among the listed values, -16 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q10",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is irrational?",
+    "options": [
+      "16/4",
+      "4.5",
+      "square root of 17",
+      "0.75"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Square root of 17 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q11",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -17, -14, 12, or 19?",
+    "options": [
+      "-14",
+      "-17",
+      "12",
+      "19"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Among the listed values, -17 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q12",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -18, -15, 13, or 20?",
+    "options": [
+      "-18",
+      "-15",
+      "13",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Among the listed values, -18 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q13",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -19, -16, 14, or 21?",
+    "options": [
+      "21",
+      "-16",
+      "14",
+      "-19"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Among the listed values, -19 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q14",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -20, -17, 15, or 22?",
+    "options": [
+      "15",
+      "-17",
+      "-20",
+      "22"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Among the listed values, -20 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q15",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is irrational?",
+    "options": [
+      "5.5",
+      "square root of 26",
+      "25/5",
+      "0.2"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Square root of 26 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q16",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -21, -18, 16, or 23?",
+    "options": [
+      "-21",
+      "-18",
+      "16",
+      "23"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Among the listed values, -21 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q17",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -22, -19, 17, or 24?",
+    "options": [
+      "24",
+      "-19",
+      "17",
+      "-22"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Among the listed values, -22 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q18",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -23, -20, 18, or 25?",
+    "options": [
+      "18",
+      "-20",
+      "-23",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Among the listed values, -23 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q19",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -24, -21, 19, or 26?",
+    "options": [
+      "-21",
+      "-24",
+      "19",
+      "26"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Among the listed values, -24 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q20",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is irrational?",
+    "options": [
+      "square root of 5",
+      "2.5",
+      "4/2",
+      "0.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Square root of 5 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q21",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -25, -22, 20, or 27?",
+    "options": [
+      "27",
+      "-22",
+      "20",
+      "-25"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Among the listed values, -25 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q22",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -26, -23, 21, or 28?",
+    "options": [
+      "21",
+      "-23",
+      "-26",
+      "28"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Among the listed values, -26 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q23",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -27, -24, 22, or 29?",
+    "options": [
+      "-24",
+      "-27",
+      "22",
+      "29"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Among the listed values, -27 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q24",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line, which value is farthest to the left: -28, -25, 23, or 30?",
+    "options": [
+      "-28",
+      "-25",
+      "23",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Among the listed values, -28 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g7_2026-09-01_20-31_q25",
+    "grade": 7,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is irrational?",
+    "options": [
+      "0.05",
+      "6.5",
+      "36/6",
+      "square root of 38"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Square root of 38 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "source": "authored",
+    "needsReview": false
+  }
+]

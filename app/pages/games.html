@@ -15,7 +15,8 @@
 
   <!-- Mirrors obs_templates/games/games_list.html: heading + "Back to Topics", then a
        row of col-lg-3/col-md-4/col-sm-6 clickable .topic-card game cards.
-       DEVIATION: legacy allowed grades 1-7; the static site is grades 1-6 (prompt 05). -->
+       Grade range now matches legacy 1-7 (grade 7 added 2026-09-02); the guard is
+       flow.js isValidGrade, not a literal in games.js. -->
   <main class="container-fluid py-4">
     <div id="nn-games">
       <div class="row">

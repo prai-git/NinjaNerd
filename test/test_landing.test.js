@@ -1,7 +1,7 @@
 /* Landing-page fidelity test: the landing (app/index.html) must mirror the legacy
    About page (obs_templates/about.html) — a left Select-Grade + Profile sidebar and a
    right welcome card with logo + three feature icons — with the agreed static
-   adaptations (grades 1-6, payment dropped, Audit admin-only, truthful copy). */
+   adaptations (grades 1-7, payment dropped, Audit admin-only, truthful copy). */
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
@@ -19,12 +19,14 @@ test('landing mirrors the two-column About layout', () => {
   assert.match(html, /<i class="fas fa-user me-2"><\/i>Profile/, 'Profile card');
 });
 
-test('Select Grade lists grades 1-6 only (scope), linking to topics', () => {
-  for (let g = 1; g <= 6; g++) {
+test('Select Grade lists grades 1-7 only (scope), linking to topics', () => {
+  for (let g = 1; g <= 7; g++) {
     assert.ok(html.includes(`pages/topics.html?grade=${g}`), `grade ${g} link`);
     assert.ok(html.includes(`>Grade ${g}</a>`), `grade ${g} label`);
   }
-  assert.ok(!html.includes('Grade 7') && !html.includes('Grade 8'), 'no grades 7-8');
+  // Legacy went to grade 8; the picker is the one place the project scope is visible to a
+  // child, so it must stop exactly where MAX_GRADE does.
+  assert.ok(!html.includes('Grade 8'), 'no grade 8');
 });
 
 test('Profile card: Account/Statistics/Contact Us always; Audit admin-only; no Payment', () => {

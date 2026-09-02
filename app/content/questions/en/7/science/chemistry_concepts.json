@@ -1,0 +1,502 @@
+[
+  {
+    "id": "science_g7_2026-09-01_21-00_q176",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation is strongest evidence of a chemical reaction?",
+    "options": [
+      "Gas forms while the temperature changes.",
+      "A solid is crushed.",
+      "Ice melts.",
+      "Sugar dissolves."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Chemical changes and matter interactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q177",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which substance is an element?",
+    "options": [
+      "Bronze.",
+      "Water.",
+      "Salt.",
+      "Copper."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An element contains only one kind of atom; the others are compounds or mixtures.\n\n**Key concept:** Elements and compounds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q178",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water is made of hydrogen and oxygen chemically bonded in a fixed ratio. What is water?",
+    "options": [
+      "A heterogeneous mixture.",
+      "An element.",
+      "A compound.",
+      "A solution of two elements."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A compound has elements chemically combined in a fixed ratio.\n\n**Key concept:** Elements and compounds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q179",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sand stirred into water settles into visible layers. What kind of matter is this?",
+    "options": [
+      "A compound.",
+      "A heterogeneous mixture.",
+      "An element.",
+      "A solution."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The parts stay visibly separate, so the mixture is heterogeneous.\n\n**Key concept:** Mixtures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q180",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which best describes what happens to the atoms during a chemical reaction?",
+    "options": [
+      "They are rearranged into new combinations.",
+      "Some are destroyed and disappear.",
+      "New atoms are created from energy.",
+      "They remain in the same combinations."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Atoms are conserved in a reaction; only their arrangement changes.\n\n**Key concept:** Conservation of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q181",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a sealed flask, 10 g of reactants produce products. What is the mass of the products?",
+    "options": [
+      "It cannot be predicted.",
+      "Less than 10 g, because gas escapes.",
+      "More than 10 g, because atoms are added.",
+      "10 g, because mass is conserved."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** In a closed system the total mass before and after a reaction is equal.\n\n**Key concept:** Conservation of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q182",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation best indicates a chemical change?",
+    "options": [
+      "A liquid is poured into a new container.",
+      "A solid is ground into powder.",
+      "A new gas forms with a different smell.",
+      "Ice melts into water."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Producing a new substance signals a chemical change.\n\n**Key concept:** Physical and chemical change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q183",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a physical property of a substance?",
+    "options": [
+      "Its ability to rust.",
+      "Its boiling point.",
+      "Its flammability.",
+      "Its reactivity with acid."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Physical properties can be measured without changing the substance's identity.\n\n**Key concept:** Properties of matter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q184",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Iron left outdoors forms reddish rust. What kind of change is this?",
+    "options": [
+      "A chemical change, because a new substance forms.",
+      "A physical change, because only color changes.",
+      "No change, because iron remains.",
+      "A change of state from solid to liquid."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Rust is iron oxide, a different substance from iron.\n\n**Key concept:** Chemical change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q185",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On the periodic table, what do elements in the same column share?",
+    "options": [
+      "The same physical state at all times.",
+      "Exactly the same mass.",
+      "The same number of protons.",
+      "Similar chemical properties."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Elements in a group have similar outer electron arrangements and behave similarly.\n\n**Key concept:** Periodic table",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q186",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does the atomic number of an element tell you?",
+    "options": [
+      "The total mass of the atom.",
+      "The number of neutrons in each atom.",
+      "The number of protons in each atom.",
+      "The number of atoms in a sample."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The atomic number is the proton count and identifies the element.\n\n**Key concept:** Atomic structure",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q187",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which particles are found in the nucleus of an atom?",
+    "options": [
+      "Electrons only.",
+      "Protons and neutrons.",
+      "Protons and electrons.",
+      "Neutrons and electrons."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The nucleus holds protons and neutrons; electrons occupy the surrounding space.\n\n**Key concept:** Atomic structure",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q188",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A solution of sugar in water is clear and uniform throughout. What kind of mixture is it?",
+    "options": [
+      "A homogeneous mixture.",
+      "A heterogeneous mixture.",
+      "A compound.",
+      "An element."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** In a homogeneous mixture the components are evenly distributed and not visibly separate.\n\n**Key concept:** Solutions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q189",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a salt water solution, which component is the solvent?",
+    "options": [
+      "Neither component.",
+      "The salt.",
+      "Both equally.",
+      "The water."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The solvent is the substance present in the greater amount that does the dissolving.\n\n**Key concept:** Solutions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q190",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would make a solid dissolve faster in water?",
+    "options": [
+      "Using larger chunks of solid.",
+      "Cooling the water.",
+      "Raising the water temperature.",
+      "Leaving the mixture perfectly still."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Higher temperature increases particle motion and speeds dissolving.\n\n**Key concept:** Rate of dissolving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q191",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A substance turns blue litmus paper red. What is it most likely to be?",
+    "options": [
+      "A base.",
+      "An acid.",
+      "A neutral substance.",
+      "A pure element."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Acids turn blue litmus red; bases turn red litmus blue.\n\n**Key concept:** Acids and bases",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q192",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A solution has a pH of 11. How is it best described?",
+    "options": [
+      "Basic.",
+      "Acidic.",
+      "Neutral.",
+      "Impossible to classify."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A pH above 7 is basic, below 7 is acidic, and exactly 7 is neutral.\n\n**Key concept:** pH scale",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q193",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a sign that a chemical reaction has released energy as heat?",
+    "options": [
+      "The color stays the same.",
+      "The container becomes cooler.",
+      "The mass increases.",
+      "The container becomes warmer."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An exothermic reaction transfers energy out, warming the surroundings.\n\n**Key concept:** Energy in reactions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q194",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Baking soda and vinegar are mixed in an open cup and the mass appears to decrease. What best explains this?",
+    "options": [
+      "The balance stopped working.",
+      "Atoms were destroyed in the reaction.",
+      "Carbon dioxide gas escaped from the open cup.",
+      "Mass is not conserved in reactions."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** In an open system escaping gas leaves the balance, though total mass is still conserved.\n\n**Key concept:** Conservation of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q195",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which state of matter has a definite volume but takes the shape of its container?",
+    "options": [
+      "Solid.",
+      "Liquid.",
+      "Gas.",
+      "Plasma."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Liquid particles stay close together but slide past one another.\n\n**Key concept:** States of matter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q196",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What happens to the particles of a substance as it changes from solid to liquid?",
+    "options": [
+      "They gain energy and move more freely.",
+      "They lose energy and stop moving.",
+      "They change into different atoms.",
+      "They become smaller in size."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Melting adds energy, letting particles break free of fixed positions.\n\n**Key concept:** Changes of state",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q197",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does a gas fill its entire container?",
+    "options": [
+      "Gas particles grow larger over time.",
+      "Its particles are tightly bonded together.",
+      "Gas particles have no motion.",
+      "Its particles move rapidly and are far apart with little attraction."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Weak attraction and rapid motion let gas particles spread throughout a container.\n\n**Key concept:** Particle model",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q198",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which method best separates iron filings from a mixture with sand?",
+    "options": [
+      "Heat the mixture until it glows.",
+      "Dissolve the mixture in water.",
+      "Use a magnet to attract the iron.",
+      "Add vinegar and stir."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Iron is magnetic and sand is not, so a magnet separates them physically.\n\n**Key concept:** Separating mixtures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q199",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is filtering a good way to separate sand from water but not salt from water?",
+    "options": [
+      "Salt is heavier than sand.",
+      "Sand particles are too large to pass through the filter, but dissolved salt is not.",
+      "Water dissolves sand but not salt.",
+      "Filters react chemically with salt."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Filtration separates undissolved solids; dissolved particles pass through with the liquid.\n\n**Key concept:** Separating mixtures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g7_2026-09-01_21-00_q200",
+    "grade": 7,
+    "subject": "science",
+    "sourceSubtopic": "Chemistry Concepts",
+    "subtopic": "chemistry_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A chemical equation shows two hydrogen molecules and one oxygen molecule forming two water molecules. What does this illustrate?",
+    "options": [
+      "Atoms are conserved and simply rearranged.",
+      "Two atoms were destroyed.",
+      "One new element was created.",
+      "Mass increased during the reaction."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The same atoms appear on both sides in different combinations.\n\n**Key concept:** Balanced equations",
+    "source": "authored",
+    "needsReview": false
+  }
+]
