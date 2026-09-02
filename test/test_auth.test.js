@@ -200,6 +200,42 @@ test('signup does not stamp last_login, as legacy did not', () => {
   const body = fn.slice(0, fn.indexOf('\n}'));
   assert.doesNotMatch(body, /last_login|stampLastLogin/,
     'legacy stamped on login, not on create_account');
-  assert.match(read('app/pages/signup.html'), /location\.href = 'pages\/login\.html'/,
+  /* Any query string is fine — signup appends ?verify=sent so the login page can repeat the
+     spam guidance. What matters here is only that signup still lands on login, because that
+     is where last_login is stamped. */
+  assert.match(read('app/pages/signup.html'), /location\.href = 'pages\/login\.html(\?[^']*)?'/,
     'signup must still route through login, which is where the stamp happens');
+});
+
+/* REGRESSION (2026-09-01): the verification email lands in Spam, and the guidance saying so
+   was easy to miss. The signup toast has no auto-dismiss, so the ONLY thing that removed it
+   was the redirect to login — which fired after 3 seconds, about half a sentence in. */
+test('the signup notification leads with the spam callout', () => {
+  const html = read('app/pages/signup.html');
+  const success = html.slice(html.indexOf('res.verificationSent'));
+  const block = success.slice(0, success.indexOf('} else {'));
+  assert.match(block, /SPAM AND PROMOTIONS/i,
+    'the spam folder is where the mail actually lands; it must not be a footnote');
+  assert.match(block, /verification/i);
+});
+
+test('signup gives the reader time to read it before redirecting', () => {
+  const html = read('app/pages/signup.html');
+  const m = html.match(/setTimeout\(function \(\) \{ location\.href = '[^']*'; \}, (\d+)\)/);
+  assert.ok(m, 'signup should redirect to login after a delay');
+  assert.ok(Number(m[1]) >= 6000,
+    `redirect after ${m[1]}ms destroys the toast too early; the message needs time to be read`);
+});
+
+test('the spam guidance survives the redirect, rather than depending on the toast', () => {
+  const signup = read('app/pages/signup.html');
+  assert.match(signup, /login\.html\?verify=sent/,
+    'signup must flag the arrival so the login page can repeat the guidance');
+
+  const login = read('app/pages/login.html');
+  assert.match(login, /verify'\) === 'sent'/, 'login must read the flag');
+  const notice = login.slice(login.indexOf('id="nn-verify-notice"'));
+  const box = notice.slice(0, notice.indexOf('</div>'));
+  assert.match(box, /Spam and Promotions/i, 'the persistent notice must name the spam folder');
+  assert.match(box, /resend/i, 'and offer a way to ask again');
 });

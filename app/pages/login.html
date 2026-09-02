@@ -61,14 +61,17 @@
               You were signed out after 30 minutes of no activity, to keep your account safe.
               Sign in again to carry on — your answers were saved as you went.
             </div>
-            <!-- Shown only when a signed-in account has not confirmed its address. Without
-                 this, an unverified user is told to check an inbox with no way to ask again
-                 if the mail was lost or filtered as spam. -->
+            <!-- Shown when a signed-in account has not confirmed its address, AND on arrival
+                 from signup (?verify=sent). The second case matters: the signup toast is
+                 destroyed by the navigation that lands here, so without this the spam guidance
+                 would exist only in a message the reader had ~3 seconds to catch. -->
             <div id="nn-verify-notice" class="alert alert-warning mt-3 mb-0 small" style="display:none;">
               <i class="fas fa-envelope me-1"></i>
-              Your email is not verified yet, so practice is locked.
-              Check your Spam and Promotions folders, or
-              <a href="#" id="nn-resend-verification" class="alert-link">resend the link</a>.
+              <strong>Check your Spam and Promotions folders</strong> for the verification
+              link — Firebase sends from a noreply address that mail providers often filter.
+              Your email is not verified yet, so practice is locked until you confirm it. You
+              can also <a href="#" id="nn-resend-verification" class="alert-link">resend the
+              link</a>.
             </div>
           </div>
         </div>
@@ -175,10 +178,19 @@
 
     /* Reveal the resend prompt whenever the resolved auth state is signed-in-but-unverified.
        auth.js broadcasts nn-auth-changed once Firebase finishes restoring the session. */
+    /* Arriving straight from signup (?verify=sent) shows the notice immediately, without
+       waiting for Firebase to restore the session. The signup toast is destroyed by that
+       navigation, so this is what actually carries the spam guidance to the reader. */
+    function arrivedFromSignup() {
+      return new URLSearchParams(location.search).get('verify') === 'sent';
+    }
+
     function syncVerifyNotice() {
       var user = window.NNAuth && window.NNAuth.getUser();
       var box = document.getElementById('nn-verify-notice');
-      if (box) box.style.display = (user && user.emailVerified === false) ? '' : 'none';
+      if (!box) return;
+      var unverified = user && user.emailVerified === false;
+      box.style.display = (unverified || arrivedFromSignup()) ? '' : 'none';
     }
     syncVerifyNotice();
     document.addEventListener('nn-auth-changed', syncVerifyNotice);

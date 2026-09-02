@@ -99,15 +99,24 @@
              an unconditional "check your email" would send the user hunting for a message
              that was never sent -- which is exactly what happened on 2026-09-01. */
           if (res && res.verificationSent) {
+            /* Lead with the SPAM callout. Firebase sends from
+               noreply@<project>.firebaseapp.com, which Gmail routinely files as spam or
+               Promotions, so "check your spam folder" is the single most useful instruction
+               here -- not a footnote after "check your email". */
             NNToast.show(
-              'Account created. Check your email for the verification link — ' +
-              'it may land in your Spam or Promotions folder.', 'success');
+              'Account created. CHECK YOUR SPAM AND PROMOTIONS FOLDERS for the verification '
+              + 'link — that is where it usually lands. You cannot start practising until '
+              + 'your email is verified.', 'success');
           } else {
             NNToast.show(
-              'Account created, but the verification email could not be sent. ' +
-              'Sign in and use "Resend verification email".', 'warning');
+              'Account created, but the verification email could not be sent. '
+              + 'Sign in and use "Resend verification email".', 'warning');
           }
-          setTimeout(function () { location.href = 'pages/login.html'; }, 3000);
+          /* Long enough to read the message above before the page changes under it. The toast
+             has no auto-dismiss, so the ONLY thing that removes it is this navigation -- at
+             3 seconds a reader got about half the sentence. The login page then repeats the
+             guidance persistently (nn-verify-notice), so nothing depends on catching it here. */
+          setTimeout(function () { location.href = 'pages/login.html?verify=sent'; }, 8000);
         })
         .catch(function (err) {
           NNToast.show(friendly(err && err.code), 'danger');
