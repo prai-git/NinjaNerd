@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-02T00:00:20.992Z",
+  "generatedAt": "2026-09-02T00:10:20.643Z",
   "grades": {
     "1": {
       "english": [
         {
           "subtopic": "grammar_language_mechanics",
           "slug": "grammar_language_mechanics",
-          "count": 8
+          "count": 31
         },
         {
           "subtopic": "reading_fundamentals",
@@ -16,7 +16,7 @@
         {
           "subtopic": "vocabulary_building",
           "slug": "vocabulary_building",
-          "count": 7
+          "count": 30
         },
         {
           "subtopic": "writing_essentials",

@@ -158,5 +158,465 @@
     "explanation": "**Explanation:**\nCommas separate three or more items in a list.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q24",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "my dog runs fast",
+      "My dog runs fast.",
+      "my Dog runs fast.",
+      "My dog runs fast"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nA sentence begins with a capital letter and ends with a full stop. Option A has neither, C capitalises the wrong word, and D has no end mark.\n\n**Key concept:** Capital at the start, punctuation at the end.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q25",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word in this sentence is a **noun**? *The bird sang loudly.*",
+    "options": [
+      "bird",
+      "sang",
+      "loudly",
+      "The"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA noun names a person, place or thing. *Bird* is a thing; *sang* is an action and *loudly* describes it.\n\n**Key concept:** Nouns name; verbs do.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q26",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is a **verb**? *Maya jumped over the puddle.*",
+    "options": [
+      "jumped",
+      "Maya",
+      "puddle",
+      "over"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Jumped* is what Maya did, so it is the verb. *Maya* and *puddle* are nouns.\n\n**Key concept:** The verb tells what happens in the sentence.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q27",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence asks a question?",
+    "options": [
+      "Where is my book?",
+      "My book is here.",
+      "Find my book.",
+      "I found my book!"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIt asks something and ends with a question mark. The others tell, command and exclaim.\n\n**Key concept:** A question ends with a question mark.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q28",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct verb: *The cats ____ on the wall.*",
+    "options": [
+      "sits",
+      "sit",
+      "sitting",
+      "was sit"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\n*Cats* is plural, so it takes *sit*. One cat would *sit**s***.\n\n**Key concept:** A plural subject takes the verb without *-s*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q29",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which words should be **capitalised**? *on monday we visited austin.*",
+    "options": [
+      "Monday and Austin",
+      "only Monday",
+      "only Austin",
+      "we and visited"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDays of the week and the names of cities are proper nouns, so both take a capital letter. (The first word, *On*, is capitalised too, as the start of the sentence.)\n\n**Key concept:** Proper nouns always take capitals.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q30",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence ends with the correct mark? *What a big storm that was*",
+    "options": [
+      "What a big storm that was!",
+      "What a big storm that was?",
+      "What a big storm that was,",
+      "What a big storm that was"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe sentence shows strong feeling, so it takes an exclamation mark. It is not asking anything.\n\n**Key concept:** An exclamation mark shows strong feeling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q31",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct word: *She ____ to school every day.*",
+    "options": [
+      "walks",
+      "walk",
+      "walking",
+      "walked yesterday every day"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*She* is one person, so the verb takes *-s*. \"Every day\" means it happens regularly, so the present tense is right.\n\n**Key concept:** A singular subject takes the *-s* form.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q32",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a **complete** sentence?",
+    "options": [
+      "The tall boy in the red coat.",
+      "The tall boy waved.",
+      "Running very fast down the street.",
+      "Under the wooden bridge."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:**\nIt has both a subject (*the tall boy*) and a verb (*waved*). The others name something or describe an action but never say what happened.\n\n**Key concept:** A complete sentence needs a subject and a verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q33",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means more than one *box*?",
+    "options": [
+      "Boxes",
+      "Boxs",
+      "Box",
+      "Boxen"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWords ending in *-x* add *-es* to make the plural.\n\n**Key concept:** Nouns ending in x, s, ch or sh add *-es*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q34",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence gives a **command**?",
+    "options": [
+      "Close the door.",
+      "The door is closed.",
+      "Is the door closed?",
+      "What a heavy door!"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIt tells someone to do something. The subject *you* is understood rather than written.\n\n**Key concept:** A command tells someone to act.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q35",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct pronoun: *Rosa and ____ went to the park.*",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe pair is doing the going, so the subject form *I* is right. Test it alone: \"I went to the park.\"\n\n**Key concept:** Remove the other name to check which pronoun fits.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q36",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct describing word? *The ____ flower smelled sweet.*",
+    "options": [
+      "red",
+      "quickly",
+      "ran",
+      "loudly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Red* describes the flower. *Quickly* and *loudly* describe actions, and *ran* is an action.\n\n**Key concept:** Describing words tell more about a noun.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q37",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shows the correct **past tense** of *run*?",
+    "options": [
+      "ran",
+      "runned",
+      "runs",
+      "running"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Run* is irregular: its past tense is *ran*, not *runned*.\n\n**Key concept:** Some verbs change their whole form in the past tense.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q38",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where does the comma belong? *Yes I would like some milk.*",
+    "options": [
+      "After \"Yes\"",
+      "After \"would\"",
+      "After \"some\"",
+      "No comma is needed"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA comma separates an opening *Yes* or *No* from the rest of the sentence.\n\n**Key concept:** A comma follows an introductory yes or no.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q39",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct verb: *The dog and the cat ____ in the garden.*",
+    "options": [
+      "play",
+      "plays",
+      "playing",
+      "is play"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*The dog and the cat* is two subjects joined by *and*, which makes it plural and takes *play*.\n\n**Key concept:** Two subjects joined by *and* take a plural verb.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q40",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **a** and **an** correctly?",
+    "options": [
+      "I ate an apple and a banana.",
+      "I ate a apple and an banana.",
+      "I ate an apple and an banana.",
+      "I ate a apple and a banana."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*An* comes before a vowel sound (*apple*) and *a* before a consonant sound (*banana*).\n\n**Key concept:** Use *an* before a vowel sound.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q41",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is a **describing** word in this sentence? *The soft blanket kept him warm.*",
+    "options": [
+      "soft",
+      "blanket",
+      "kept",
+      "him"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Soft* tells what the blanket was like. *Blanket* is the noun and *kept* is the verb.\n\n**Key concept:** Describing words come before the noun they describe.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q42",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which name is capitalised correctly?",
+    "options": [
+      "Sarah Chen",
+      "sarah chen",
+      "Sarah chen",
+      "sarah Chen"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBoth the first name and the family name are proper nouns, so both take capitals.\n\n**Key concept:** Every part of a person's name is capitalised.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q43",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the correct word: *There ____ three birds on the fence.*",
+    "options": [
+      "are",
+      "is",
+      "was",
+      "am"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Three birds* is plural, so it takes *are*. *Is* and *was* are singular.\n\n**Key concept:** Match the verb to how many there are.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q44",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence shows something belonging to Ana?",
+    "options": [
+      "Ana's hat is blue.",
+      "Anas hat is blue.",
+      "Ana hat is blue.",
+      "Ana hats is blue."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAn apostrophe and *s* shows that the hat belongs to Ana.\n\n**Key concept:** Apostrophe + s shows belonging.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q45",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence tells about something that **already happened**?",
+    "options": [
+      "We played outside yesterday.",
+      "We play outside every day.",
+      "We will play outside tomorrow.",
+      "We are playing outside now."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Played* and *yesterday* both show the action is finished. The others are present or future.\n\n**Key concept:** Past tense verbs tell about what already happened.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q46",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has the words in the correct order?",
+    "options": [
+      "The boy read a book.",
+      "Book a read the boy.",
+      "Read the boy a book.",
+      "A the book boy read."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEnglish sentences usually run subject, verb, then object: who did it, what they did, what they did it to.\n\n**Key concept:** Word order carries meaning in English.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

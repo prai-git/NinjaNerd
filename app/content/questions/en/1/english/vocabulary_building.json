@@ -138,5 +138,465 @@
     "explanation": "**Explanation:** *Full* is the opposite of *empty*.\n**Why the other answers are wrong:** B, C, and D do not describe how much a container holds.\n**Key concept:** Antonyms.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q1",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The puppy was **timid** and hid behind its mother.\n\nWhat does **timid** mean?",
+    "options": [
+      "Shy",
+      "Loud",
+      "Hungry",
+      "Fast"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe puppy hid behind its mother, which is what a shy animal does. Hiding does not suggest loud, hungry or fast.\n\n**Key concept:** The rest of the sentence gives clues to a new word's meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q2",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means the **opposite** of *ancient*?",
+    "options": [
+      "New",
+      "Old",
+      "Large",
+      "Heavy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Ancient* means very old, so its opposite is new. *Old* means the same, not the opposite.\n\n**Key concept:** Opposites express the reverse meaning, not a similar one.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q3",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which two words are **compound** words?",
+    "options": [
+      "Sunlight and raincoat",
+      "Running and jumped",
+      "Happy and sad",
+      "Cat and dog"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Sunlight* is sun + light and *raincoat* is rain + coat. Each is two whole words joined.\n\n**Key concept:** A compound word is made of two smaller words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q4",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The soup was **scalding**, so Nina blew on her spoon.\n\nWhat does **scalding** mean?",
+    "options": [
+      "Very hot",
+      "Very cold",
+      "Very sweet",
+      "Very small"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nNina blew on her spoon to cool it, which shows the soup was very hot.\n\n**Key concept:** What a character does explains an unfamiliar word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q5",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word belongs in this group: robin, sparrow, eagle?",
+    "options": [
+      "Owl",
+      "Chair",
+      "River",
+      "Bread"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nRobin, sparrow and eagle are all birds, and an owl is a bird too. Chair, river and bread are not.\n\n**Key concept:** Words can be sorted into groups by what they are.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q6",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **un-** in *unhappy* means —",
+    "options": [
+      "not",
+      "very",
+      "again",
+      "before"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Un-* reverses the meaning: *unhappy* means not happy.\n\n**Key concept:** A prefix at the start of a word changes its meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q7",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The path was **narrow**, so the friends walked one behind the other.\n\nWhat does **narrow** mean?",
+    "options": [
+      "Not wide",
+      "Very long",
+      "Very muddy",
+      "Very steep"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThey walked one behind the other because there was no room side by side, so the path was not wide.\n\n**Key concept:** The consequence in the sentence reveals the meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q8",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means almost the **same** as *enormous*?",
+    "options": [
+      "Huge",
+      "Tiny",
+      "Quiet",
+      "Empty"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Enormous* and *huge* both mean very large. *Tiny* is the opposite.\n\n**Key concept:** Synonyms have nearly the same meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q9",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In *rainbow*, which two smaller words are joined?",
+    "options": [
+      "rain and bow",
+      "ra and inbow",
+      "rain and now",
+      "rai and nbow"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Rainbow* splits into two real words, *rain* and *bow*. The other splits make parts that are not words.\n\n**Key concept:** Both halves of a compound word are words on their own.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q10",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Ravi was **weary** after the long hike and fell asleep at once.\n\nWhat does **weary** mean?",
+    "options": [
+      "Very tired",
+      "Very hungry",
+      "Very excited",
+      "Very cold"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHe had hiked a long way and fell asleep at once, which shows he was very tired.\n\n**Key concept:** Nearby details point to the meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q11",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is the opposite of *arrive*?",
+    "options": [
+      "Leave",
+      "Come",
+      "Stay",
+      "Enter"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Arrive* means to come to a place; *leave* means to go away from it. *Come* and *enter* mean nearly the same as arrive.\n\n**Key concept:** Opposites reverse the action.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q12",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-less** in *fearless* means —",
+    "options": [
+      "without",
+      "full of",
+      "more than",
+      "before"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*-less* means without, so *fearless* means without fear.\n\n**Key concept:** A suffix at the end of a word changes its meaning.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q13",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The kitten's fur was **silky** and smooth to touch.\n\nWhat does **silky** mean?",
+    "options": [
+      "Soft and smooth",
+      "Rough and hard",
+      "Wet and cold",
+      "Loud and sharp"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe sentence itself adds \"and smooth to touch\", which explains *silky*.\n\n**Key concept:** Sometimes the sentence defines the word directly.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q14",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group are all **tools**?",
+    "options": [
+      "Hammer, saw, screwdriver",
+      "Apple, banana, pear",
+      "Chair, sofa, bed",
+      "Rain, snow, hail"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAll three are used to build or fix things. The other groups are fruits, furniture and weather.\n\n**Key concept:** A category groups words by what they are used for or what they are.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q15",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means more than one *child*?",
+    "options": [
+      "Children",
+      "Childs",
+      "Childes",
+      "Child"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Child* has an irregular plural, *children* — it does not simply add *-s*.\n\n**Key concept:** Some plurals change the whole word instead of adding *-s*.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q16",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The old gate **creaked** loudly when Sam pushed it open.\n\nWhat does **creaked** describe?",
+    "options": [
+      "A sound",
+      "A colour",
+      "A smell",
+      "A taste"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Creaked* is something the gate did loudly, and loudness describes sound.\n\n**Key concept:** Words like *loudly* tell you what kind of word you are reading.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q17",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means the opposite of *beneath*?",
+    "options": [
+      "Above",
+      "Below",
+      "Under",
+      "Beside"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Beneath* means under, so its opposite is above. *Below* and *under* mean the same as beneath.\n\n**Key concept:** Position words have clear opposites.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q18",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The word *replay* means to play —",
+    "options": [
+      "again",
+      "not at all",
+      "before",
+      "quietly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe prefix *re-* means again, so *replay* means to play again.\n\n**Key concept:** *Re-* signals repeating an action.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q19",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The stew needed more salt because it tasted **bland**.\n\nWhat does **bland** mean?",
+    "options": [
+      "Without much flavour",
+      "Too spicy",
+      "Very sweet",
+      "Burnt"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe stew needed more salt, which tells you it did not have enough taste.\n\n**Key concept:** The reason given in the sentence explains the word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q20",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word does **not** belong with the others?",
+    "options": [
+      "Spoon",
+      "Fork",
+      "Knife",
+      "Pillow"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:**\nSpoon, fork and knife are all used for eating. A pillow is not.\n\n**Key concept:** Find the shared purpose, then spot the one that does not share it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q21",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "*Butterfly* is made from which two words?",
+    "options": [
+      "butter and fly",
+      "but and terfly",
+      "butt and erfly",
+      "butterf and ly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Butterfly* joins two real words, *butter* and *fly*.\n\n**Key concept:** Split a compound word where both parts are real words.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q22",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Priya spoke in a **whisper** so the baby would not wake.\n\nA **whisper** is —",
+    "options": [
+      "a very quiet voice",
+      "a very loud voice",
+      "a song",
+      "a shout"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPriya spoke that way so the baby would not wake, so it must have been very quiet.\n\n**Key concept:** The purpose of an action explains the word.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-01_19-08_q23",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means almost the same as *begin*?",
+    "options": [
+      "Start",
+      "Finish",
+      "Stop",
+      "End"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n*Begin* and *start* mean the same thing. *Finish*, *stop* and *end* are opposites.\n\n**Key concept:** Synonyms can replace each other in a sentence.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
