@@ -138,5 +138,465 @@
     "explanation": "**Work:** A graph about books should name its book categories along the bottom.\n**Key concept:** Graph labels.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q24",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pencil is 8 cubes long. A crayon is 5 cubes long. How much longer is the pencil?",
+    "options": [
+      "3 cubes",
+      "13 cubes",
+      "5 cubes",
+      "8 cubes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(8 - 5 = 3\\) cubes. \"How much longer\" is a difference, so subtract.\n\n**Key concept:** Comparing lengths means subtracting.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q25",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The clock shows the hour hand on 3 and the minute hand on 12. What time is it?",
+    "options": [
+      "3:00",
+      "12:03",
+      "3:30",
+      "12:15"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe minute hand on 12 means the hour is exact, and the hour hand on 3 makes it 3:00.\n\n**Key concept:** Minute hand on 12 means o'clock.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q26",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The hour hand is halfway between 7 and 8, and the minute hand is on 6. What time is it?",
+    "options": [
+      "7:30",
+      "6:30",
+      "8:30",
+      "7:06"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe minute hand on 6 means half past. The hour hand between 7 and 8 means the hour that has already started is 7, so it is 7:30.\n\n**Key concept:** Read the hour the hand has passed, not the one it is approaching.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q27",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "To measure a desk with paper clips, the clips must be —",
+    "options": [
+      "laid end to end with no gaps or overlaps",
+      "spread apart evenly",
+      "stacked on top of each other",
+      "of different sizes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGaps make the object seem shorter and overlaps make it seem longer, so the units must touch exactly once each.\n\n**Key concept:** Measuring units must be placed end to end without gaps or overlaps.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q28",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A picture graph shows 6 apples, 4 bananas and 9 oranges. Which fruit has the **most**?",
+    "options": [
+      "Oranges",
+      "Apples",
+      "Bananas",
+      "They are equal"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nNine is greater than 6 and 4, so oranges have the most.\n\n**Key concept:** The tallest or longest row on a graph shows the most.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q29",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Using the graph in, how many more oranges than bananas are there?",
+    "options": [
+      "5",
+      "13",
+      "3",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(9 - 4 = 5\\) more oranges than bananas.\n\n**Key concept:** \"How many more\" means subtract.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q30",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Three ribbons measure 6, 9 and 4 cubes. Which is the **shortest**?",
+    "options": [
+      "The 4-cube ribbon",
+      "The 9-cube ribbon",
+      "The 6-cube ribbon",
+      "They are all equal"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFour is the smallest number of cubes, so that ribbon is shortest.\n\n**Key concept:** Fewer units means shorter, when the units are the same.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q31",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bar graph shows 5 students chose red and 8 chose blue. How many students chose a colour in total?",
+    "options": [
+      "13",
+      "3",
+      "8",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(5 + 8 = 13\\) students altogether.\n\n**Key concept:** \"In total\" means add all the categories.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q32",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which activity takes about **one hour**?",
+    "options": [
+      "A cartoon programme with adverts",
+      "Blinking your eyes",
+      "Tying one shoe",
+      "Writing your name"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBlinking, tying a shoe and writing a name take seconds. A television programme is the only option measured in hours.\n\n**Key concept:** Match the unit of time to the size of the activity.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q33",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Book A is 10 cubes long, Book B is 7 cubes long. Together, laid end to end, how long are they?",
+    "options": [
+      "17 cubes",
+      "3 cubes",
+      "10 cubes",
+      "70 cubes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(10 + 7 = 17\\) cubes when laid end to end.\n\n**Key concept:** Placing lengths end to end means adding them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q34",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a picture graph, each picture stands for 1 vote. If there are 7 pictures next to \"dogs\", how many votes did dogs get?",
+    "options": [
+      "7",
+      "1",
+      "14",
+      "70"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEach picture stands for 1 vote, so 7 pictures means 7 votes.\n\n**Key concept:** Check what one picture stands for before counting.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q35",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "It is 2:00 now. What time will it be in one hour?",
+    "options": [
+      "3:00",
+      "1:00",
+      "2:30",
+      "2:60"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne hour after 2:00 is 3:00.\n\n**Key concept:** Adding one hour moves the hour number up by one.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q36",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is measuring with your own hand not reliable for comparing with a friend?",
+    "options": [
+      "Hands are different sizes, so the results do not match.",
+      "Hands are always the same size.",
+      "Hands cannot touch objects.",
+      "Hands measure only circles."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIf two people use hands of different sizes, they get different numbers for the same object, so the measurements cannot be compared.\n\n**Key concept:** Measurements are comparable only when the unit is the same.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q37",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A graph shows 3 rainy days, 6 sunny days and 2 cloudy days. How many days are shown in total?",
+    "options": [
+      "11",
+      "9",
+      "6",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(3 + 6 + 2 = 11\\) days in total.\n\n**Key concept:** Add every category to find the total.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q38",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A worm is 5 cubes long. A stick is twice as long. How long is the stick?",
+    "options": [
+      "10 cubes",
+      "7 cubes",
+      "3 cubes",
+      "5 cubes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwice as long as 5 cubes is \\(5 + 5 = 10\\) cubes.\n\n**Key concept:** \"Twice as long\" means double the length.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q39",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The minute hand points to 12. This means the time is —",
+    "options": [
+      "exactly on the hour",
+      "half past",
+      "quarter past",
+      "midnight only"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe minute hand on 12 means zero minutes past, so the time is exactly on the hour.\n\n**Key concept:** The minute hand tells you the minutes; 12 means none past.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q40",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question can a picture graph of favourite pets answer?",
+    "options": [
+      "Which pet was chosen most often?",
+      "What each pet is named",
+      "How old the students are",
+      "Where the students live"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA graph of favourite pets shows how many chose each pet, so it can answer which was most popular. It holds no information about names, ages or addresses.\n\n**Key concept:** A graph can only answer questions about the data it shows.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q41",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rope A is longer than Rope B. Rope B is longer than Rope C. Which rope is **shortest**?",
+    "options": [
+      "Rope C",
+      "Rope A",
+      "Rope B",
+      "They are equal"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA is longer than B, and B is longer than C, so C is shorter than both.\n\n**Key concept:** Comparisons can be chained to order three objects.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q42",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Eight students chose apples and 5 chose pears. How many **fewer** chose pears?",
+    "options": [
+      "3",
+      "13",
+      "5",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\n\\(8 - 5 = 3\\) fewer students chose pears.\n\n**Key concept:** \"How many fewer\" means subtract, just like \"how many more\".",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q43",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comes **first** in a day?",
+    "options": [
+      "Breakfast",
+      "Dinner",
+      "Bedtime",
+      "Afternoon break"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBreakfast comes in the morning, before an afternoon break, dinner and bedtime.\n\n**Key concept:** Events in a day happen in a predictable order.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q44",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A table is 12 paper clips long and 12 pencils long. Which is true?",
+    "options": [
+      "A pencil is longer than a paper clip.",
+      "A paper clip is longer than a pencil.",
+      "They are the same length.",
+      "The table is 24 units long."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:**\nThe same table measures 12 of each unit. If it takes the same number of each to cover the same distance, the paper clip and the pencil must be the same length.\n\n**Key concept:** For a fixed length, the same count means the same unit size.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q45",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bar graph shows 4 red, 4 blue and 7 green counters. Which two colours have the **same** number?",
+    "options": [
+      "Red and blue",
+      "Red and green",
+      "Blue and green",
+      "All three"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nRed has 4 and blue has 4, so their bars are equal. Green has 7.\n\n**Key concept:** Bars of the same height show equal amounts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q46",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A lesson starts at 9:00 and ends at 9:30. How long is the lesson?",
+    "options": [
+      "Half an hour",
+      "One hour",
+      "Two hours",
+      "Thirty hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFrom 9:00 to 9:30 is 30 minutes, which is half an hour.\n\n**Key concept:** Thirty minutes is half an hour.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

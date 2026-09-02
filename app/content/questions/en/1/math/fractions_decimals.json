@@ -138,5 +138,465 @@
     "explanation": "**Explanation:**\nOne orange split three ways gives thirds; one orange split four ways gives fourths. A third is\nlarger than a fourth, because fewer people share the same whole.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q1",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A sandwich is cut into 2 equal parts. Each part is called —",
+    "options": [
+      "a half",
+      "a fourth",
+      "a whole",
+      "a third"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWhen a whole is split into 2 equal parts, each part is called a half.\n\n**Key concept:** Two equal parts make halves.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q2",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pizza is cut into 4 equal pieces. How many pieces make the whole pizza?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAll 4 pieces together make the whole pizza. Four fourths is one whole.\n\n**Key concept:** All the equal parts together rebuild the whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q3",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shows a shape split into **fourths**?",
+    "options": [
+      "A square with 4 equal parts",
+      "A square with 2 equal parts",
+      "A square with 3 unequal parts",
+      "A square with 4 unequal parts"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFourths means 4 parts that are the **same size**. Four unequal parts are not fourths.\n\n**Key concept:** Fractions require equal parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q4",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Maya folds a paper strip into 2 equal parts and colours 1 part. She has coloured —",
+    "options": [
+      "one half",
+      "one fourth",
+      "the whole strip",
+      "nothing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe strip has 2 equal parts and 1 is coloured, so one half is coloured.\n\n**Key concept:** One of two equal parts is one half.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q5",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two cakes are the same size. One is cut into halves, the other into fourths. Which piece is **bigger**?",
+    "options": [
+      "One half",
+      "One fourth",
+      "They are the same",
+      "Cannot tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nCutting the same cake into more pieces makes each piece smaller. A half is one of 2 pieces; a fourth is one of 4, so the half is bigger.\n\n**Key concept:** More equal parts means smaller parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q6",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A circle is divided into 4 equal parts. Sam eats 2 parts. How much is left?",
+    "options": [
+      "Two fourths, which is the same as one half",
+      "One fourth",
+      "The whole circle",
+      "Nothing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFour parts minus the 2 Sam ate leaves 2 parts. Two of four equal parts is the same amount as one half.\n\n**Key concept:** Two fourths and one half name the same amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q7",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is **not** a way to make halves?",
+    "options": [
+      "Cutting a square into 2 pieces of different sizes",
+      "Cutting a square down the middle into 2 equal pieces",
+      "Folding a paper in half corner to corner into 2 equal parts",
+      "Cutting a circle through the centre into 2 equal parts"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHalves must be equal. Two pieces of different sizes are not halves, even though there are two of them.\n\n**Key concept:** Counting the pieces is not enough — they must be equal.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q8",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana has a ribbon cut into fourths. She uses 3 fourths. How many fourths are left?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThere are 4 fourths in all. Using 3 leaves \\(4 - 3 = 1\\) fourth.\n\n**Key concept:** Subtract the parts used from the total number of parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q9",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Four friends share one pie equally. Each friend gets —",
+    "options": [
+      "one fourth",
+      "one half",
+      "the whole pie",
+      "two halves"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFour friends sharing one pie equally means 4 equal parts, so each gets one fourth.\n\n**Key concept:** Sharing equally among 4 makes fourths.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q10",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is folded once and both parts match exactly. The parts are —",
+    "options": [
+      "halves",
+      "fourths",
+      "unequal",
+      "wholes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne fold makes 2 parts, and matching exactly means they are equal — so they are halves.\n\n**Key concept:** Matching parts after one fold shows halves.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q11",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is more of a whole apple?",
+    "options": [
+      "Two fourths",
+      "One fourth",
+      "They are equal",
+      "Neither is any"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo fourths is twice as much as one fourth.\n\n**Key concept:** More parts of the same size means more of the whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q12",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Leo shades 1 of 4 equal parts of a square. What part is **not** shaded?",
+    "options": [
+      "Three fourths",
+      "One fourth",
+      "One half",
+      "The whole square"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThere are 4 parts. If 1 is shaded, \\(4 - 1 = 3\\) are not.\n\n**Key concept:** The shaded and unshaded parts together make the whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q13",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "To share a granola bar fairly between 2 children, you should cut it into —",
+    "options": [
+      "2 equal parts",
+      "2 parts of any size",
+      "4 unequal parts",
+      "3 equal parts"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFair sharing between 2 children means each gets the same amount, so the bar must be cut into 2 equal parts.\n\n**Key concept:** Fair share means equal parts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q14",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Four fourths of a sandwich is the same as —",
+    "options": [
+      "one whole sandwich",
+      "one half",
+      "one fourth",
+      "two sandwiches"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFour fourths puts every piece back together, making the whole.\n\n**Key concept:** All the parts together make one whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q15",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape shows **halves**?",
+    "options": [
+      "A circle cut into 2 equal parts",
+      "A circle cut into 4 equal parts",
+      "A circle cut into 3 equal parts",
+      "A circle with one small piece cut off"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHalves means exactly 2 equal parts. Four parts are fourths and three are thirds.\n\n**Key concept:** The number of equal parts names the fraction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q16",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben ate one half of his orange. Rosa ate one fourth of an orange the same size. Who ate more?",
+    "options": [
+      "Ben",
+      "Rosa",
+      "They ate the same",
+      "Neither ate any"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe oranges are the same size, and a half is bigger than a fourth, so Ben ate more.\n\n**Key concept:** Compare fractions only when the wholes are the same size.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q17",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square is cut into 4 equal parts. Two parts together are the same as —",
+    "options": [
+      "one half",
+      "one fourth",
+      "the whole square",
+      "three fourths"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo of the four equal parts is the same amount as one of two equal parts.\n\n**Key concept:** Two fourths equals one half.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q18",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word describes 1 of 4 equal parts?",
+    "options": [
+      "Fourth",
+      "Half",
+      "Whole",
+      "Double"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne of 4 equal parts is called a fourth, sometimes a quarter.\n\n**Key concept:** The fraction name comes from how many equal parts there are.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q19",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is cut into halves. How many cuts were needed?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nOne cut makes 2 pieces. To make halves, only a single cut through the middle is needed.\n\n**Key concept:** The number of cuts is one fewer than the number of pieces.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q20",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is true about equal parts?",
+    "options": [
+      "Every part must be the same size.",
+      "Parts can be any size.",
+      "There must always be 4 parts.",
+      "Only circles can have equal parts."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEqual parts means identical in size. Any shape can be split into equal parts, and the number of parts can vary.\n\n**Key concept:** \"Equal\" describes size, not how many.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q21",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sara has half a cookie. Tom has the other half. Together they have —",
+    "options": [
+      "one whole cookie",
+      "two cookies",
+      "one fourth",
+      "no cookie"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTwo halves put back together make the whole cookie.\n\n**Key concept:** Two halves make one whole.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q22",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pancake is split into fourths. Three fourths are eaten. What fraction of the pancake is left?",
+    "options": [
+      "One fourth",
+      "Three fourths",
+      "One half",
+      "The whole pancake"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThere are 4 fourths. Eating 3 leaves 1 fourth.\n\n**Key concept:** Track how many equal parts remain.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-01_18-58_q23",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The **more** equal parts a whole is cut into, each part becomes —",
+    "options": [
+      "smaller",
+      "bigger",
+      "the same size",
+      "a whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe whole stays the same size, so sharing it among more parts gives each part less.\n\n**Key concept:** More equal parts means each part is smaller.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
