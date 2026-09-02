@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:12:34.088Z",
+  "generatedAt": "2026-09-02T00:15:25.315Z",
   "grades": {
     "1": {
       "english": [
@@ -261,7 +261,7 @@
         {
           "subtopic": "forces_energy",
           "slug": "forces_energy",
-          "count": 5
+          "count": 28
         },
         {
           "subtopic": "life_science_fundamentals",
@@ -271,7 +271,7 @@
         {
           "subtopic": "physical_science_basics",
           "slug": "physical_science_basics",
-          "count": 5
+          "count": 28
         },
         {
           "subtopic": "scientific_investigation_skills",

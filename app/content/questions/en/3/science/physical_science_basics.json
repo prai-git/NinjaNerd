@@ -98,5 +98,465 @@
     "explanation": "**Explanation:** Combining materials with useful physical properties can create an object better suited to its purpose. Damp clay acts as a binder for the sand.\n**Key concept:** Selecting and combining materials by physical properties.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q24",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property tells how much **space** an object takes up?",
+    "options": [
+      "Volume",
+      "Mass",
+      "Colour",
+      "Temperature"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nVolume measures the space something occupies. Mass measures how much matter it contains.\n\n**Key concept:** Volume is space; mass is amount of matter.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q25",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which state of matter keeps its own shape **and** its own volume?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "None of them"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA solid keeps both shape and volume. A liquid keeps volume but changes shape; a gas keeps neither.\n\n**Key concept:** The three states differ in whether shape and volume are fixed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q26",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water is poured from a tall glass into a wide bowl. What stays the same?",
+    "options": [
+      "The amount of water",
+      "The shape of the water",
+      "The height of the water",
+      "Nothing stays the same"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPouring changes the shape and the height, but no water is added or removed, so the amount stays the same.\n\n**Key concept:** Changing a container changes shape, not amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q27",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool measures the **mass** of an object?",
+    "options": [
+      "A balance",
+      "A ruler",
+      "A thermometer",
+      "A stopwatch"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA balance compares mass. Rulers measure length, thermometers temperature, stopwatches time.\n\n**Key concept:** Each property needs its own measuring tool.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q28",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ice is left on a warm table and turns to water. This is —",
+    "options": [
+      "melting, a change of state",
+      "a new substance forming",
+      "evaporation",
+      "freezing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIce becoming water is solid to liquid. It is still water throughout — only the state changed.\n\n**Key concept:** Melting changes state, not the substance.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q29",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Salt is stirred into water until it disappears. The salt has —",
+    "options": [
+      "dissolved and is still in the water",
+      "vanished completely",
+      "become a gas",
+      "turned into water"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe salt spreads through the water in pieces too small to see. Tasting it, or evaporating the water, shows it is still there.\n\n**Key concept:** Dissolving hides a substance; it does not destroy it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q30",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which state of matter spreads out to fill any container it is in?",
+    "options": [
+      "Gas",
+      "Solid",
+      "Liquid",
+      "Ice"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGas particles spread apart to fill whatever container holds them.\n\n**Key concept:** A gas has neither a fixed shape nor a fixed volume.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q31",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which mixture could be separated with a **sieve**?",
+    "options": [
+      "Marbles mixed with sand",
+      "Sugar dissolved in tea",
+      "Salt dissolved in water",
+      "Air"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA sieve separates by size: the sand falls through and the marbles stay. Dissolved sugar and salt pass straight through.\n\n**Key concept:** Sieving separates solids of different sizes.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q32",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water left in an open dish slowly disappears. This is —",
+    "options": [
+      "evaporation",
+      "melting",
+      "freezing",
+      "condensation"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe liquid water slowly becomes water vapour and enters the air, so the dish appears to empty.\n\n**Key concept:** Evaporation turns liquid into gas below boiling point.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q33",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **physical property** that can be observed without changing the object?",
+    "options": [
+      "Colour",
+      "Whether it burns",
+      "Whether it rusts",
+      "Whether it explodes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nColour can be observed while the object stays the same. Burning, rusting and exploding all change the substance itself.\n\n**Key concept:** Physical properties can be observed without changing the material.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q34",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water in a freezer becomes ice. This change is —",
+    "options": [
+      "freezing, and it can be reversed by warming",
+      "permanent and cannot be undone",
+      "a new substance forming",
+      "evaporation"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFreezing is liquid to solid, and warming the ice turns it back to water — so the change is reversible and no new substance forms.\n\n**Key concept:** Changes of state are reversible.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q35",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two blocks are the same size, but one is much heavier. They differ in —",
+    "options": [
+      "mass",
+      "volume",
+      "length",
+      "shape"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSame size means the same volume, so the difference must be in how much matter each contains — its mass.\n\n**Key concept:** Objects of equal volume can have very different masses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q36",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a mixture rather than a single substance?",
+    "options": [
+      "A bowl of trail mix",
+      "Pure water",
+      "Pure copper",
+      "Pure oxygen"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nTrail mix contains several different things that keep their own properties and could be picked apart. The others are single pure substances.\n\n**Key concept:** A mixture combines substances without changing them.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q37",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit would best measure the mass of an apple?",
+    "options": [
+      "Grams",
+      "Centimetres",
+      "Minutes",
+      "Degrees"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGrams measure mass. Centimetres measure length, minutes time, degrees temperature.\n\n**Key concept:** Match the unit to the property being measured.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q38",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Steam forms above a boiling pot. The water has changed from —",
+    "options": [
+      "liquid to gas",
+      "gas to liquid",
+      "solid to liquid",
+      "liquid to solid"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nBoiling turns liquid water into water vapour, a gas, which rises from the pot.\n\n**Key concept:** Boiling is a rapid change from liquid to gas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q39",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Iron filings are mixed with sand. What is the easiest way to separate them?",
+    "options": [
+      "Use a magnet",
+      "Add water and wait",
+      "Use a thermometer",
+      "They cannot be separated"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nIron is magnetic and sand is not, so a magnet lifts out the filings and leaves the sand.\n\n**Key concept:** Separate a mixture using a property in which the parts differ.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q40",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An object sinks in water. This tells you the object is —",
+    "options": [
+      "denser than water",
+      "less dense than water",
+      "the same density as water",
+      "always made of wood"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nObjects denser than water sink; less dense ones float. Material matters more than size — a large log floats and a small pebble sinks.\n\n**Key concept:** Sinking and floating depend on density, not size.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q41",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change is **not** a change of state?",
+    "options": [
+      "Cutting paper into pieces",
+      "Ice melting",
+      "Water boiling",
+      "Steam condensing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nCutting changes size and shape but the paper stays solid. The other three each move between solid, liquid and gas.\n\n**Key concept:** A change of state moves between solid, liquid and gas.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q42",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A liquid poured into three differently shaped jars will —",
+    "options": [
+      "take the shape of each jar but keep the same amount",
+      "change its amount in each jar",
+      "become a solid",
+      "keep the shape of the first jar"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLiquids have no fixed shape but a fixed volume, so the shape changes while the amount does not.\n\n**Key concept:** Liquids change shape, not amount.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q43",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sand and water are mixed. After standing, the sand settles at the bottom. This mixture is —",
+    "options": [
+      "heterogeneous, with parts you can see separately",
+      "a solution",
+      "a single pure substance",
+      "a gas"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe sand stays visible and settles out, so the mixture is not uniform throughout.\n\n**Key concept:** In a heterogeneous mixture the parts remain visible.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q44",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best way to compare the volumes of two irregular stones?",
+    "options": [
+      "Measure how much the water level rises for each",
+      "Weigh them on a balance",
+      "Measure their colour",
+      "Time how long they take to fall"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAn irregular stone has no formula for its volume, but the water it pushes aside equals the space it takes up.\n\n**Key concept:** Displacement measures the volume of irregular objects.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q45",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a cold window, water droplets form on the inside. This is —",
+    "options": [
+      "condensation",
+      "evaporation",
+      "melting",
+      "freezing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWarm water vapour in the air cools against the cold glass and turns back into liquid droplets.\n\n**Key concept:** Condensation is gas becoming liquid on cooling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q46",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list gives **only** properties you can measure with a tool?",
+    "options": [
+      "Mass, length, temperature",
+      "Beauty, mass, length",
+      "Colour, kindness, size",
+      "Smell, opinion, mass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEach of these has a tool and a unit. Beauty, kindness and opinion are judgements, not measurements.\n\n**Key concept:** A measurable property has a tool and a unit.",
+    "source": "authored",
+    "needsReview": false
   }
 ]

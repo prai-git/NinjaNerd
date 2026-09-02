@@ -98,5 +98,465 @@
     "explanation": "**Explanation:** Both cars traveled 12 tiles, but R took half as much time, so it was faster. A faster moving object has more mechanical energy than an identical slower object.\n**Key concept:** Relationship between speed and mechanical energy.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q1",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball rolls slower and slower across a carpet until it stops. What causes it to stop?",
+    "options": [
+      "Friction between the ball and the carpet",
+      "Gravity pulling it sideways",
+      "Magnetism from the floor",
+      "Nothing — balls always stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFriction is a force between two surfaces rubbing together, and it slows moving objects down. Gravity pulls downward, not sideways.\n\n**Key concept:** Friction opposes motion and eventually stops it.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q2",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which surface would let a toy car roll the **farthest**?",
+    "options": [
+      "Smooth tile",
+      "Thick carpet",
+      "Sand",
+      "Grass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSmoother surfaces create less friction, so the car keeps moving longer. Carpet, sand and grass all grip the wheels more.\n\n**Key concept:** Less friction means an object travels farther.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q3",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object would a magnet attract?",
+    "options": [
+      "An iron nail",
+      "A plastic spoon",
+      "A wooden block",
+      "A rubber band"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nMagnets attract iron and a few other metals. Plastic, wood and rubber are not attracted at all.\n\n**Key concept:** Magnets attract certain metals, not all materials.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q4",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A dropped pencil falls to the floor. This is caused by —",
+    "options": [
+      "gravity",
+      "friction",
+      "magnetism",
+      "sound"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGravity pulls objects toward the Earth, which is why a released pencil falls.\n\n**Key concept:** Gravity pulls everything toward Earth's centre.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q5",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two identical carts are pushed. One is pushed harder. What happens?",
+    "options": [
+      "The harder push makes that cart move faster.",
+      "Both carts move the same.",
+      "The harder push makes that cart move slower.",
+      "Neither cart moves."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA larger force on the same object produces a larger change in motion.\n\n**Key concept:** More force means more change in motion.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q6",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a form of energy we can **hear**?",
+    "options": [
+      "Sound",
+      "Light",
+      "Heat",
+      "Gravity"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nSound is the energy our ears detect. Light is seen, and heat is felt.\n\n**Key concept:** Different forms of energy are detected by different senses.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q7",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two magnets are placed with the same poles facing each other. They will —",
+    "options": [
+      "push apart",
+      "pull together",
+      "stay still and stick",
+      "melt"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nLike poles repel each other; opposite poles attract.\n\n**Key concept:** Like poles repel, unlike poles attract.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q8",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A metal spoon left in hot soup becomes warm. This shows heat moving by —",
+    "options": [
+      "conduction through the spoon",
+      "sound waves",
+      "magnetism",
+      "gravity"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nHeat travels through the metal from the hot soup to the handle. Metals conduct heat well, which is why the spoon warms up.\n\n**Key concept:** Heat moves through solids by conduction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q9",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wagon is easier to pull on a smooth path than on gravel because —",
+    "options": [
+      "there is less friction on the smooth path",
+      "gravity is weaker on smooth paths",
+      "the wagon is lighter on the path",
+      "magnets help on smooth paths"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGravel grips the wheels and creates more friction, so more force is needed. Gravity and the wagon's weight do not change.\n\n**Key concept:** Rougher surfaces produce more friction.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q10",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object is a source of **light** energy?",
+    "options": [
+      "The Sun",
+      "A rock",
+      "A closed book",
+      "A wooden chair"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe Sun produces its own light. Rocks, books and chairs only reflect light that falls on them.\n\n**Key concept:** A light source makes its own light.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q11",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "If you drop a feather and a stone at the same time in still air, the stone lands first because —",
+    "options": [
+      "air pushes against the feather more",
+      "gravity does not act on feathers",
+      "the feather is heavier",
+      "the stone is magnetic"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGravity pulls on both, but the feather's wide, light shape catches more air resistance, which slows it. Gravity acts on the feather too.\n\n**Key concept:** Air resistance, not gravity, is what slows a falling feather.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q12",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would make a swing go **higher**?",
+    "options": [
+      "Pushing it with more force",
+      "Pushing it with less force",
+      "Not pushing it at all",
+      "Holding it still"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA bigger push transfers more energy to the swing, sending it higher.\n\n**Key concept:** A larger force produces a larger effect.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q13",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rubbing your hands together quickly makes them feel warm. This turns motion into —",
+    "options": [
+      "heat energy",
+      "light energy",
+      "sound only",
+      "magnetism"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nFriction between your hands converts the energy of motion into heat, which you feel as warmth.\n\n**Key concept:** Friction turns motion into heat.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q14",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement about magnets is true?",
+    "options": [
+      "Magnets attract some metals but not plastic or wood.",
+      "Magnets attract every material.",
+      "Magnets attract only heavy objects.",
+      "Magnets attract nothing at all."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nMagnetic attraction depends on the material, not on weight or size, and only some metals respond.\n\n**Key concept:** Material determines whether a magnet attracts something.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q15",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box is hard to push across the floor. Which would make it **easier**?",
+    "options": [
+      "Putting wheels under the box",
+      "Adding more weight to the box",
+      "Pushing on rougher ground",
+      "Making the floor stickier"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nWheels roll instead of dragging, which greatly reduces friction. Extra weight, rougher ground and stickiness all increase it.\n\n**Key concept:** Rolling produces far less friction than sliding.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q16",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shows energy changing from **electrical** to **light**?",
+    "options": [
+      "Switching on a lamp",
+      "Dropping a ball",
+      "Rubbing hands together",
+      "Pushing a cart"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nElectrical energy from the supply becomes light (and some heat) in the bulb.\n\n**Key concept:** Energy changes form rather than being created.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q17",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does a ball thrown upward come back down?",
+    "options": [
+      "Gravity pulls it back toward Earth.",
+      "The air pushes it down.",
+      "It runs out of colour.",
+      "Magnets in the ground pull it."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nGravity acts on the ball the whole time it is in the air, slowing its rise and then pulling it down.\n\n**Key concept:** Gravity acts continuously, not just when something is falling.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q18",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A drum makes sound when it is hit because the drum skin —",
+    "options": [
+      "vibrates",
+      "changes colour",
+      "gets colder",
+      "becomes magnetic"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nThe struck skin vibrates, and those vibrations travel through the air as sound.\n\n**Key concept:** Sound is made by vibrations.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q19",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of pushes would make a cart stay still?",
+    "options": [
+      "Equal pushes from opposite sides",
+      "A big push from one side only",
+      "Two pushes from the same side",
+      "One push and no other force"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nEqual and opposite forces cancel out, so the cart's motion does not change.\n\n**Key concept:** Balanced forces produce no change in motion.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q20",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object would feel **warmest** after sitting in sunlight all afternoon?",
+    "options": [
+      "A black metal bench",
+      "A white cloth",
+      "A shaded stone",
+      "A cup of ice"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nDark surfaces absorb more light energy, and metal conducts heat well, so it warms most. White reflects, and shaded or icy objects stay cool.\n\n**Key concept:** Dark surfaces absorb more energy from sunlight.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q21",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A magnet is moved near a pile of paper clips and sand. What happens?",
+    "options": [
+      "The paper clips are attracted; the sand is not.",
+      "Both are attracted.",
+      "Neither is attracted.",
+      "Only the sand is attracted."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nPaper clips contain iron, which magnets attract. Sand does not, so it stays behind — which is also how the two can be separated.\n\n**Key concept:** Magnetism can be used to separate materials.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q22",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cart rolls down a ramp. Making the ramp steeper will make the cart —",
+    "options": [
+      "go faster",
+      "go slower",
+      "stop",
+      "roll backwards"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nA steeper ramp gives gravity more effect along the slope, so the cart speeds up more.\n\n**Key concept:** Steeper slopes produce greater speed.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-01_19-13_q23",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which best describes the Sun's role for Earth?",
+    "options": [
+      "It is the main source of light and heat energy.",
+      "It is a source of magnetism only.",
+      "It provides sound energy.",
+      "It has no effect on Earth."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:**\nAlmost all the light and warmth at Earth's surface comes from the Sun, and it drives weather and plant growth.\n\n**Key concept:** The Sun is Earth's primary energy source.",
+    "source": "authored",
+    "needsReview": false
   }
 ]
