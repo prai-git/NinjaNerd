@@ -233,7 +233,12 @@ describe('firestore security rules', { skip }, () => {
     await assertFails(write({ correct: 'yes' }));
     await assertFails(write({ topic: 'chemistry' }));
     await assertFails(write({ grade: 0 }));
-    await assertFails(write({ grade: 7 }));
+    /* The upper bound tracks MAX_GRADE in app/js/flow.js. It moved 6 -> 7 on 2026-09-02, and
+       this line still asserted grade 7 was REFUSED — the rules and the test that guards them
+       disagreed, and CI caught it. Assert both sides of the boundary so the next grade
+       addition fails here loudly instead of silently accepting an out-of-range write. */
+    await assertSucceeds(write({ grade: 7 }));
+    await assertFails(write({ grade: 8 }));
     await assertFails(write({ grade: '3' }));
     await assertFails(write({ question: 12345 }));
   });
@@ -257,10 +262,14 @@ describe('firestore security rules', { skip }, () => {
       topics_covered: Array.from({ length: 500 }, (_, i) => `t${i}`),
     }));
 
-    // 6 grades x 3 topics bounds the roll-up at 18 keys.
-    const tooMany = {};
-    for (let i = 0; i < 40; i++) tooMany[`k${i}`] = 1;
-    await assertFails(setDoc(ref, { attempts_by: tooMany }));
+    /* 7 grades x 3 topics bounds the roll-up at 21 keys (was 18 at grades 1-6). Assert the
+       exact boundary, not just a wildly oversized map: a cap left behind when the grade range
+       grows rejects the top grade's statistics write for a child who has worked across every
+       grade — which looks like a bug, not a limit. */
+    const keys = (n) => Object.fromEntries(Array.from({ length: n }, (_, i) => [`k${i}`, 1]));
+    await assertSucceeds(setDoc(ref, { attempts_by: keys(21) }));
+    await assertFails(setDoc(ref, { attempts_by: keys(22) }));
+    await assertFails(setDoc(ref, { attempts_by: keys(40) }));
 
     await assertFails(setDoc(ref, { junk: 'x'.repeat(1000) }));
     await assertFails(setDoc(ref, { questions_attempted: -5 }));
