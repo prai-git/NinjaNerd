@@ -1,7 +1,9 @@
 /* Topics page (mirrors legacy topics.html): grade → subject cards.
-   Public — no login required to browse. Scope: English/Math/Science + Games. */
+   Public — no login required to browse. Scope: English/Math/Science + Games, plus
+   Control Logic from its own MIN_GRADE up (prompt 20). */
 import { loadManifest, subjectsFor } from './content-loader.js';
 import { param, SUBJECTS, isValidGrade } from './flow.js';
+import { MIN_GRADE as CONTROL_LOGIC_MIN_GRADE } from './control-logic-data.js';
 
 function card({ icon, color, title, desc }, onclick) {
   const col = document.createElement('div');
@@ -40,6 +42,20 @@ async function init(root) {
     { icon: 'fa-gamepad', color: 'danger', title: 'Games', desc: 'Fun educational games and activities' },
     () => { location.href = `pages/games.html?grade=${grade}`; },
   ));
+
+  /* Control Logic (prompt 20) — a fifth tile, after Games. Learn-only: the flow copies Games
+     (topics -> control-logic -> lesson) rather than the subject flow, because explore.html
+     exists only to ask "Learn or Practice?" and there is no Practice here.
+
+     Shown from MIN_GRADE up. The content is not grade-scaled, so this is a floor rather than a
+     range: it picks up any grade added above it without another edit. */
+  if (grade >= CONTROL_LOGIC_MIN_GRADE) {
+    grid.appendChild(card(
+      { icon: 'fa-microchip', color: 'dark', title: 'Control Logic',
+        desc: 'How computers think: signals, logic gates and the parts they are built from' },
+      () => { location.href = `pages/control-logic.html?grade=${grade}`; },
+    ));
+  }
 
   if (subjects.length === 0) {
     grid.insertAdjacentHTML('afterbegin',

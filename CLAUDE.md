@@ -8,8 +8,8 @@ design record** for the implementation as it actually stands.
 ## 1. What this is
 
 NinjaNerd is an educational practice platform for **grades 1–7** in **English, Math and
-Science**, plus browser games, delivered as a **static site on GitHub Pages** at
-**ninjanerd.ai**.
+Science**, plus browser games and a Learn-only **Control Logic** topic, delivered as a
+**static site on GitHub Pages** at **ninjanerd.ai**.
 
 It was rebuilt from a Flask monolith. The defining constraint of that rebuild: **there is no
 server.** Everything the old backend did at runtime either moved to build time, moved into the
@@ -38,7 +38,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 3,110 questions across all 145 subtopics ·
-`npm test` → **297 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor,
+`npm test` → **315 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor,
 which doubles as the authoring worklist).
 
 Rules **deployed and verified** — grade 7's `d.grade <= 7` and the 21-key roll-up cap went
@@ -83,11 +83,12 @@ that import the SDK can only be checked as text.
   URL prefix.
   - `index.html` — the public About landing page
   - `pages/` — login, signup, topics, subtopics, explore, learn, practice, statistics,
-    account, audit, contact_us, games, game, privacy, terms
+    account, audit, contact_us, games, game, control-logic, lesson, privacy, terms
   - `js/` — per-page ES modules (see §4)
   - `assets/{css,js,img}/` — site CSS, the three classic scripts, logo
   - `content/questions/en/<grade>/<subject>/<subtopic_id>.json` + `manifest.json`
   - `static/games/` — `geodash`, `mmh`, `tank_attack`, `tejas_thrust`
+  - `static/control-logic/` — `common/draw.js` plus one folder per lesson (§5b)
   - `favicon.ico`, `.nojekyll`
   - **`CNAME`** — ships here since the domain went live (2026-09-01). It was staged at the
     repo root as `CNAME.pending` for the whole migration, because Pages reads `app/CNAME` on
@@ -122,17 +123,21 @@ that import the SDK can only be checked as text.
 ```
 index.html (public)  ── grade ─▶  topics.html?grade=N
                                      │
-                     ┌───────────────┴───────────────┐
-                     ▼                               ▼
-      subtopics.html?grade&subject            games.html?grade
-                     │                               │
-                     ▼                               ▼
-      explore.html?grade&subject&subtopic      game.html?slug
-                     │
-        ┌────────────┴────────────┐   ◀── LOGIN GATE (requireLogin)
-        ▼                         ▼
-   learn.html               practice.html
+              ┌──────────────────────┼──────────────────────┐
+              ▼                      ▼                      ▼
+ subtopics.html?grade&subject   games.html?grade   control-logic.html?grade
+              │                      │                (grade >= MIN_GRADE)
+              ▼                      ▼                      ▼
+ explore.html?grade&subject     game.html?slug      lesson.html?lesson&grade
+   &subtopic
+              │
+   ┌──────────┴──────────┐   ◀── LOGIN GATE (requireLogin)
+   ▼                     ▼
+learn.html          practice.html
 ```
+
+**Control Logic is Learn-only and copies the Games flow, two steps not four.** `explore.html`
+is skipped because it exists only to ask "Learn or Practice?", and there is no Practice here.
 
 **Browsing is public; the gate is at the activity.** `explore.js` calls `flow.requireLogin()`,
 which redirects to `login.html?next=<target>` so the student returns to the activity they
@@ -150,6 +155,8 @@ chose. This is deliberate — an IXL-style "look before you sign up" flow.
 | `idle-core.js` / `idle-timeout.js` | Policy / wiring split for the idle timeout (§8) |
 | `subtopics-data.js` | The taxonomy (§5) |
 | `games-data.js` | Game slugs, names, icons, colours |
+| `control-logic-data.js` | The five lessons + `MIN_GRADE`, and the lesson-class contract |
+| `control-logic.js` / `lesson.js` | Lesson list and generic player (mirror `games.js` / `game.js`) |
 | `assets/js/layout.js` | Injects one nav + footer string into every page — **a classic script** |
 | `assets/js/auth-state.js` | Display-only cache so the nav paints before Firebase resolves |
 | `assets/js/toast.js` | Replaces Flask flash messages |
@@ -177,6 +184,45 @@ content rebuild.
 
 Grades 1–5 math carries two owner-approved additions beyond the legacy set
 (`algebraic_concepts`, `financial_literacy`) — a deliberate, recorded divergence.
+
+---
+
+## 5b. Control Logic — a Learn-only, animation-taught topic
+
+A fifth tile beside English, Math, Science and Games, teaching digital electronics bottom-up in
+five lessons that build on each other: **Control System → Digital Signals → Logic Gates →
+Truth Tables → Digital Components**. Added 2026-09-03 (prompt 20).
+
+**It reuses the GAMES packaging and none of the gameplay.** Same manifest shape, same classic
+scripts, same data-driven player — but no start overlay, no pause, no game-over, no score, no
+timer. *Nothing is recorded, so nothing can be failed.* The controls a lesson has instead are
+**Reset**, **Step**, and the **inputs the child toggles**: for gates and truth tables, the
+poking IS the learning.
+
+**It writes nothing.** No Firestore, no progress, no schema or rules change — this topic sits
+entirely outside `d.topic in ['math','english','science']` and the 21-key roll-up cap.
+`test_control_logic.test.js` asserts that by scanning the sources (with comments stripped,
+since they *document* the promise and would otherwise match it).
+
+**The taxonomy is untouched.** These five are not legacy `SUBTOPICS` entries and are never
+added to `subtopics-data.js` — the standing rule against bending that table applies here too.
+
+**`MIN_GRADE = 5`**, one constant in `control-logic-data.js`. The content is not grade-scaled —
+a logic gate is a logic gate — so there is one set of five lessons, not per-grade variants.
+`topics.js` reads the constant rather than hardcoding a number, so the tile picks up any grade
+added above it. `control-logic.js` refuses a hand-typed URL below the floor.
+
+**Traps this shares with the games, and one of its own:**
+- Lesson scripts are **CLASSIC, not ES modules**. `lesson.js` resolves each class off the
+  global lexical binding a top-level `class X {}` creates; an `export` breaks it *silently*.
+  Both `globalCtor` implementations exist for this reason — `window[name]` is always undefined.
+- Every asset path omits the leading slash, or it 404s under the Pages sub-path only.
+- **Canvas code fails quietly.** Pass `NaN` as a coordinate and the call succeeds while nothing
+  is drawn. The test suite therefore runs each lesson against a *recording* context that
+  rejects non-finite arguments and fails a lesson issuing too few draw calls to be non-blank.
+- The two lessons asserting arithmetic (gate outputs, half/full adders) are checked **against
+  the arithmetic**, not a copied table. A confidently-taught wrong truth table is the worst
+  outcome this topic could have.
 
 ---
 
@@ -363,7 +409,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**297 pass, 0 fail, 1 todo** across 22 test files. Every prompt/task ships with a unit or mock test
+**315 pass, 0 fail, 1 todo** across 23 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
