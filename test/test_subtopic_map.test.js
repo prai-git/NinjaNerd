@@ -185,34 +185,46 @@ test('no subtopic is empty at any grade', () => {
   assert.deepEqual(empty, [], `${empty.length} subtopics have no questions:\n${empty.join('\n')}`);
 });
 
-/* RELEASE GATE — minimum questions per subtopic. Two thresholds, by grade.
+/* RELEASE GATE — minimum questions per subtopic. ONE number, every grade.
 
-   Owner decisions on 2026-09-01, in order: 20 at launch, then 50 after seeing subtopics with
-   3 and 4 questions on the live site, then **50 for grade 6 and 30 for grades 1-5**.
+   Owner decisions in order: 20 at launch (2026-09-01), then 50 after seeing subtopics with 3
+   and 4 questions live, then 50 for grade 6 / 30 for grades 1-5, and finally **25 uniform**
+   (2026-09-03) once the earlier numbers were measured against the app rather than estimated.
 
-   The split is not a compromise on quality. Grade 6 carries TWO tracks in one set of buckets —
-   on-level 6.x content alongside accelerated 7.x/8.x maths and Honors ELAR — so a grade-6
-   bucket has to serve two populations and needs roughly twice the depth to do it. Grades 1-5
-   serve one track, and 30 gives a child several full sessions before the list repeats.
+   Why 25, and why the split went away.
 
-   Both numbers are FLOORS, not targets ("we can always have more than 50 questions"). Nothing
-   here caps a bucket, and richer buckets are strictly better now that a correctly-answered
-   question is retired until the whole subtopic has been worked through.
+   `practice.js` calls `buildAttempt(pool)` with NO cap, so a session serves the ENTIRE
+   remaining bucket and the counter literally reads "Question 1 of N". Bucket size and quiz
+   length are therefore the same number today. A 50 floor was not a target — it was a promise
+   to put "Question 1 of 50" in front of a nine-year-old in every bucket, and it would have
+   required authoring 3,983 more questions, more than the whole corpus then existing.
+
+   25 is where the corpus already sits: median bucket 25, and the 20-29 band holds 41% of all
+   145 buckets. It codifies the content rather than inventing a target, and leaves a reachable
+   gap (781) instead of an unreachable one — which matters, because a permanently red gate
+   stops carrying signal.
+
+   The old 30/50 split argued that grade 6 carries two tracks (on-level 6.x alongside
+   accelerated 7.x/8.x maths and Honors ELAR) and so needs twice the depth. That argues for
+   VARIETY, not COUNT, and the too-long-quiz problem is no better at grade 6 than grade 3. One
+   number for every grade.
+
+   THIS IS A FLOOR, NOT A TARGET — owner, 2026-09-03: "this is lower limit so if there are
+   buckets which have more than 25 then it is fine." Nothing here caps a bucket, and richer
+   buckets are strictly better: a question answered correctly is retired until the whole
+   subtopic has been worked through, so more questions means a longer run of fresh ones.
 
    Why a minimum exists at all, beyond "more is better": practice retires a question once the
    child answers it correctly, and serves the subtopic again only when the whole list has been
    worked through (see test_data.test.js). With a 10-question bucket a child exhausts a
    subtopic in one sitting and immediately meets the "starting again" banner.
 
-   `todo` rather than failing: 106 of 115 buckets are short today (2,412 questions to author),
-   and a permanently red suite stops carrying signal. Remove the flag when the authoring is
-   done -- then a regression fails the build, exactly as the "no subtopic is empty" gate does
-   now. The assertion message lists every short bucket with its count and its target, so it
-   doubles as the worklist. */
-const MIN_QUESTIONS = { upper: 50, lower: 30 };
-// Grades 6 AND 7 carry the upper floor: both use the extended 10-subtopic taxonomy and both
-// mix on-level with accelerated/Honors content, so one bucket serves two populations.
-const minFor = (grade) => (grade >= 6 ? MIN_QUESTIONS.upper : MIN_QUESTIONS.lower);
+   `todo` rather than failing: 48 of 145 buckets are still short (686 questions to author).
+   Remove the flag when the authoring is done — then a regression fails the build, exactly as
+   the "no subtopic is empty" gate does now. The assertion message lists every short bucket
+   with its count and its target, so it doubles as the worklist. */
+const MIN_QUESTIONS = 25;
+const minFor = () => MIN_QUESTIONS;
 
 test('every subtopic meets its grade\'s question minimum', { todo: true }, () => {
   const man = JSON.parse(
@@ -232,10 +244,25 @@ test('every subtopic meets its grade\'s question minimum', { todo: true }, () =>
   assert.deepEqual(short, [], `${short.length} subtopics are short:\n${short.join('\n')}`);
 });
 
-test('the thresholds are the ones the owner set: 50 for grades 6-7, 30 below', () => {
-  assert.equal(MIN_QUESTIONS.upper, 50, 'grades 6-7 carry two tracks and need the depth');
-  assert.equal(MIN_QUESTIONS.lower, 30, 'grades 1-5 serve one track');
-  // The split must actually be applied, not just declared.
-  for (const g of [6, 7]) assert.equal(minFor(g), 50, `grade ${g} target`);
-  for (const g of [1, 2, 3, 4, 5]) assert.equal(minFor(g), 30, `grade ${g} target`);
+test('the floor is the one the owner set: 25, the same at every grade', () => {
+  assert.equal(MIN_QUESTIONS, 25, 'owner set 25 uniform on 2026-09-03');
+  // One number really is applied everywhere — the old 30/50 split is gone, not just unused.
+  for (const g of [1, 2, 3, 4, 5, 6, 7]) assert.equal(minFor(g), 25, `grade ${g} floor`);
+});
+
+/* The floor is a LOWER limit. A bucket above it is not a defect, and nothing in the suite may
+   start treating it as one — the owner said so explicitly, and richer buckets are better:
+   more questions means a longer run before the "starting again" banner. */
+test('a bucket above the floor is fine — nothing caps it', () => {
+  const man = JSON.parse(
+    readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
+  let over = 0;
+  for (const subj of SUBJECTS) {
+    for (const g of [1, 2, 3, 4, 5, 6, 7]) {
+      for (const e of (man.grades?.[String(g)]?.[subj] || [])) {
+        if ((e.count || 0) > MIN_QUESTIONS) over += 1;
+      }
+    }
+  }
+  assert.ok(over > 0, 'buckets already exceed the floor, which is expected and allowed');
 });

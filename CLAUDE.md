@@ -37,9 +37,10 @@ collections are default-deny).
 **`https://ninjanerd.ai/`** (custom domain live since 2026-09-01; the Let's Encrypt
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
-mode, `nam7`) · **grades 1–7** · 3,110 questions across all 145 subtopics ·
-`npm test` → **315 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor,
-which doubles as the authoring worklist).
+mode, `nam7`) · **grades 1–7** · 3,489 questions across all 145 subtopics ·
+`npm test` → **318 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor —
+**25 uniform** since 2026-09-03 — which doubles as the authoring worklist: 54 buckets short,
+686 questions).
 
 Rules **deployed and verified** — grade 7's `d.grade <= 7` and the 21-key roll-up cap went
 live on 2026-09-02. A grade addition always needs this deploy: until it lands, every answer at
@@ -176,6 +177,14 @@ routed it, which is why adding the grade was a bounds-and-rules change, not a co
 Authored questions are **mapped** onto it by `tools/lib/subtopic-map.mjs`. Each compiled item
 keeps `sourceSubtopic` — the heading it was authored under — so a remap is a table edit, not a
 content rebuild.
+
+**Per-subtopic question floor: 25, uniform (owner, 2026-09-03).** A LOWER limit, not a target —
+buckets above it are fine and better. It replaced a 50/30 grade split once the earlier numbers
+were measured against the app: `practice.js` serves the ENTIRE remaining bucket with no session
+cap, so bucket size *is* the quiz length and the counter reads "Question 1 of N". A 50 floor
+would have promised "Question 1 of 50" to a nine-year-old in every bucket, and cost 3,983 more
+questions. 25 is the corpus median and leaves a reachable 781. Full reasoning, including the
+uncapped-session finding, is in `test_subtopic_map.test.js`.
 
 > **Never rename, merge or re-route a subtopic to close a gap.** Author the missing questions
 > instead. Subtopics with no questions render greyed out and unclickable; **all 115 are now
@@ -409,7 +418,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**315 pass, 0 fail, 1 todo** across 23 test files. Every prompt/task ships with a unit or mock test
+**318 pass, 0 fail, 1 todo** across 23 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
