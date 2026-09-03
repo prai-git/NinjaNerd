@@ -73,3 +73,70 @@ test('login and signup pages have their forms', () => {
   assert.match(read('pages/login.html'), /id="nn-login-form"/);
   assert.match(read('pages/signup.html'), /id="nn-signup-form"/);
 });
+
+/* BACK / HOME BUTTON VISIBILITY (owner report, 2026-09-03).
+
+   Every back and home button was `btn-outline-secondary` — Bootstrap renders that as #6c757d
+   text on a TRANSPARENT background. That is fine inside a white card, but these buttons do not
+   sit in one: they sit on the page's purple gradient body (#667eea → #764ba2), or on a
+   bg-primary card header. Measured contrast of the label against its ground:
+
+       gradient start  1.28:1        gradient end  1.36:1        card header  1.04:1
+
+   which is why the owner reported them as invisible until hovered — hover fills the button
+   solid and it appears from nowhere. `btn-light` puts a solid #f8f9fa block with a near-black
+   label on the same grounds: 3.47:1 / 6.04:1 / 4.27:1 for the block, and 19.9:1 for the label.
+
+   This is a DELIBERATE DIVERGENCE FROM LEGACY. obs_templates/topics.html used
+   btn-outline-secondary on the same gradient (git show 104c466:obs_templates/topics.html), so
+   the static site inherited the defect rather than introducing it. Fixed on owner instruction.
+
+   btn-light was not invented for this: statistics, audit, account and contact_us already used
+   it for the same button on a coloured header. The fix applies the existing convention. */
+const ON_COLOURED_GROUND = [
+  ['pages/topics.html', 'Home'],
+  ['pages/subtopics.html', 'Back to Topics'],
+  ['pages/explore.html', 'Back to Subtopics'],
+  ['pages/learn.html', 'Back to Explore'],
+  ['pages/practice.html', 'Back to Explore'],
+  ['pages/games.html', 'Back to Topics'],
+  ['pages/control-logic.html', 'Back to Topics'],
+  ['pages/game.html', 'Back to Games'],
+  ['pages/lesson.html', 'Back to Control Logic'],
+  // These four were already correct and are the precedent the others now follow.
+  ['pages/statistics.html', 'Back'],
+  ['pages/audit.html', 'Back'],
+  ['pages/account.html', 'Back'],
+  ['pages/contact_us.html', 'Back'],
+];
+
+test('every back/home button on a coloured ground is btn-light, not a transparent outline', () => {
+  for (const [page, label] of ON_COLOURED_GROUND) {
+    const html = readFileSync(join(appDir, page), 'utf8');
+    // The anchor that carries this label, including a label split across lines.
+    const anchor = html.match(new RegExp(`<a[^>]*class="[^"]*btn[^"]*"[^>]*>\\s*(?:<i[^>]*></i>)?\\s*${label}\\s*</a>`))
+      || html.match(new RegExp(`<a[^>]*class="([^"]*btn[^"]*)"[^>]*>[\\s\\S]{0,120}?${label}`));
+    assert.ok(anchor, `${page}: could not find the "${label}" button`);
+    const cls = (anchor[0].match(/class="([^"]*)"/) || [])[1] || '';
+    assert.match(cls, /\bbtn-light\b/,
+      `${page}: "${label}" must be btn-light — on this page's ground a transparent outline `
+      + 'button is invisible until hovered');
+    assert.doesNotMatch(cls, /btn-outline-secondary/,
+      `${page}: "${label}" is grey-on-colour, roughly 1.3:1 contrast`);
+  }
+});
+
+/* The counterweight. btn-outline-secondary is CORRECT inside a white card (4.69:1), so this is
+   not a blanket ban on the class — only on using it where the ground is coloured. */
+test('btn-outline-secondary still used inside white cards, where it reads fine', () => {
+  const keep = [
+    ['pages/signup.html', 'Back to Login'],
+    ['pages/learn.html', 'Previous'],
+    ['pages/lesson.html', 'Reset'],
+  ];
+  for (const [page, label] of keep) {
+    const html = readFileSync(join(appDir, page), 'utf8');
+    assert.match(html, /btn-outline-secondary/,
+      `${page}: the "${label}" control sits on white and does not need changing`);
+  }
+});
