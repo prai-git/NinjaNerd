@@ -298,5 +298,225 @@
     "explanation": "**Step-by-step solution:** Four pounds is 64 ounces; \\(64+6=70\\).\n**Why other answers are wrong:** (“46”) uses a different operation, place, or interpretation than the evidence requires; (“64”) uses a different operation, place, or interpretation than the evidence requires; (“86”) uses a different operation, place, or interpretation than the evidence requires.\n**Key concept:** mass conversion.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q20",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of lines never meet, no matter how far they are extended?",
+    "options": [
+      "Parallel lines.",
+      "Perpendicular lines.",
+      "Intersecting lines.",
+      "Curved lines."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Parallel lines stay the same distance apart and never cross.\n\n**Key concept:** Lines",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q21",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two lines meet to form a square corner. What are they called?",
+    "options": [
+      "Points.",
+      "Parallel lines.",
+      "Rays.",
+      "Perpendicular lines."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Perpendicular lines meet at a right angle, which is a square corner.\n\n**Key concept:** Lines",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q22",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has one angle of exactly 90 degrees. What kind of triangle is it?",
+    "options": [
+      "An obtuse triangle.",
+      "An acute triangle.",
+      "A right triangle.",
+      "An equilateral triangle."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A right triangle contains one right angle.\n\n**Key concept:** Classifying triangles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q23",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A triangle has all three sides the same length. What is it called?",
+    "options": [
+      "A scalene triangle.",
+      "An equilateral triangle.",
+      "A right triangle.",
+      "An isosceles triangle with two equal sides only."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Equilateral means all three sides, and all three angles, are equal.\n\n**Key concept:** Classifying triangles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q24",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which quadrilateral has four right angles and four equal sides?",
+    "options": [
+      "A square.",
+      "A rectangle that is longer than it is wide.",
+      "A trapezoid.",
+      "A rhombus with no right angles."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A square has both properties; a rectangle needs only the right angles.\n\n**Key concept:** Classifying quadrilaterals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q25",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An angle measures 45 degrees. What kind of angle is it?",
+    "options": [
+      "Straight, because it is flat.",
+      "Right, because it is half of 90.",
+      "Obtuse, because it is more than 90.",
+      "Acute, because it is less than 90 degrees."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Angles under 90 degrees are acute.\n\n**Key concept:** Types of angle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q26",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An angle measures 130 degrees. What kind of angle is it?",
+    "options": [
+      "Right.",
+      "Acute.",
+      "Obtuse.",
+      "Straight."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** An angle between 90 and 180 degrees is obtuse.\n\n**Key concept:** Types of angle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q27",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many degrees are in a straight angle?",
+    "options": [
+      "90",
+      "180",
+      "360",
+      "45"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A straight angle forms a straight line and measures 180 degrees.\n\n**Key concept:** Types of angle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q28",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two angles together form a right angle. One is 35 degrees. What is the other?",
+    "options": [
+      "55 degrees",
+      "65 degrees",
+      "145 degrees",
+      "35 degrees"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A right angle is 90 degrees, and 90 − 35 = 55.\n\n**Key concept:** Adding and subtracting angles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q29",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many lines of symmetry does a square have?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A square folds onto itself along both diagonals and both midlines.\n\n**Key concept:** Symmetry",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q30",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is a ray?",
+    "options": [
+      "A line that never ends in either direction.",
+      "A line with two endpoints.",
+      "A part of a line with one endpoint that goes on forever in one direction.",
+      "A single point."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A ray starts at a point and continues without end one way.\n\n**Key concept:** Lines, rays and segments",
+    "source": "authored",
+    "needsReview": false
   }
 ]

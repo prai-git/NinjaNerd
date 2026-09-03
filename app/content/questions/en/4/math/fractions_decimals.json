@@ -138,5 +138,385 @@
     "explanation": "**Explanation:**\nIn 5.472 the places after the point are tenths (4), hundredths (7), thousandths (2). So the 7\nis worth seven hundredths, or 0.07.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q1",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is equivalent to 3/4?",
+    "options": [
+      "2/4",
+      "3/8",
+      "4/3",
+      "6/8"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Multiplying the top and bottom of 3/4 by 2 gives 6/8.\n\n**Key concept:** Equivalent fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q2",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comparison is true?",
+    "options": [
+      "5/8 = 3/8",
+      "3/8 > 5/8",
+      "5/8 > 3/8",
+      "3/8 > 8/8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** With the same denominator, the fraction with more parts is greater.\n\n**Key concept:** Comparing fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q3",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is greater, 2/3 or 2/5?",
+    "options": [
+      "2/5, because 5 is larger than 3.",
+      "2/3, because thirds are larger pieces than fifths.",
+      "They are equal.",
+      "Neither can be compared."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** With the same numerator, the smaller denominator gives larger pieces.\n\n**Key concept:** Comparing fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q4",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 3/8 + 2/8?",
+    "options": [
+      "5/8",
+      "5/16",
+      "6/8",
+      "1/8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** With equal denominators, add the numerators and keep the denominator: 3 + 2 = 5, so 5/8.\n\n**Key concept:** Adding fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q5",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 7/10 − 4/10?",
+    "options": [
+      "3/20",
+      "3/0",
+      "11/10",
+      "3/10"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Subtract the numerators and keep the denominator: 7 − 4 = 3, so 3/10.\n\n**Key concept:** Subtracting fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q6",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Maya ate 2/6 of a pizza and her brother ate 3/6. How much did they eat together?",
+    "options": [
+      "1/6",
+      "5/12",
+      "5/6",
+      "6/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 2/6 + 3/6 = 5/6 of the pizza.\n\n**Key concept:** Adding fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q7",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How is 0.7 written as a fraction?",
+    "options": [
+      "7/100",
+      "7/10",
+      "1/7",
+      "70/10"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The digit 7 is in the tenths place, so it is 7 tenths.\n\n**Key concept:** Decimals and fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q8",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How is 0.45 written as a fraction?",
+    "options": [
+      "45/100",
+      "45/10",
+      "4.5/100",
+      "45/1000"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The last digit is in the hundredths place, so the fraction is 45 hundredths.\n\n**Key concept:** Decimals and fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q9",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which decimal is equal to 3/10?",
+    "options": [
+      "0.310",
+      "0.03",
+      "3.10",
+      "0.3"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Three tenths is written 0.3.\n\n**Key concept:** Fractions as decimals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q10",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comparison of decimals is true?",
+    "options": [
+      "0.6 = 0.06",
+      "0.06 > 0.6",
+      "0.6 > 0.06",
+      "0.06 = 6.0"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 0.6 is six tenths; 0.06 is six hundredths, which is far smaller.\n\n**Key concept:** Comparing decimals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q11",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Order from least to greatest: 0.5, 0.05, 0.55",
+    "options": [
+      "0.5, 0.05, 0.55",
+      "0.05, 0.5, 0.55",
+      "0.55, 0.5, 0.05",
+      "0.05, 0.55, 0.5"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Compare place by place: 0.05 is smallest, then 0.5, then 0.55.\n\n**Key concept:** Ordering decimals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q12",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 3.4 + 2.7?",
+    "options": [
+      "6.1",
+      "5.1",
+      "6.11",
+      "5.11"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Line up the decimal points: 3.4 + 2.7 = 6.1.\n\n**Key concept:** Adding decimals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q13",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 8.5 − 3.9?",
+    "options": [
+      "12.4",
+      "5.6",
+      "4.4",
+      "4.6"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 8.5 − 3.9 = 4.6.\n\n**Key concept:** Subtracting decimals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q14",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pie is cut into 5 equal slices and 2 are eaten. What fraction is left?",
+    "options": [
+      "5/3",
+      "2/5",
+      "3/5",
+      "3/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Five slices less the two eaten leaves 3 of 5, which is 3/5.\n\n**Key concept:** Fractions of a whole",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q15",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which mixed number equals 7/4?",
+    "options": [
+      "1 1/4",
+      "1 3/4",
+      "2 1/4",
+      "7 1/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Four quarters make one whole, leaving 3 quarters, so 7/4 is 1 3/4.\n\n**Key concept:** Mixed numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q16",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is closest to 1?",
+    "options": [
+      "9/10",
+      "1/10",
+      "5/10",
+      "7/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 9/10 needs only one more tenth to make a whole.\n\n**Key concept:** Comparing to one",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q17",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the number 6.28, what does the digit 8 represent?",
+    "options": [
+      "8 tens",
+      "8 tenths",
+      "8 ones",
+      "8 hundredths"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The second place after the decimal point is hundredths.\n\n**Key concept:** Decimal place value",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q18",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is less than 1/2?",
+    "options": [
+      "3/4",
+      "5/8",
+      "3/8",
+      "7/10"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 3/8 is less than 4/8, which is one half. The others are all more than half.\n\n**Key concept:** Comparing to one half",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q19",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is 9/12 m long. If 4/12 m is cut off, how much remains?",
+    "options": [
+      "5/24 m",
+      "5/12 m",
+      "13/12 m",
+      "5/0 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 9/12 − 4/12 = 5/12 metres.\n\n**Key concept:** Subtracting fractions",
+    "source": "authored",
+    "needsReview": false
   }
 ]

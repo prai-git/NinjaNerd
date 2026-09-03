@@ -138,5 +138,385 @@
     "explanation": "**Explanation:**\nArea = length × width, so length = 72 ÷ 8 = 9 centimetres.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q31",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is 9 cm long and 4 cm wide. What is its area?",
+    "options": [
+      "26 square centimetres",
+      "36 square centimetres",
+      "13 square centimetres",
+      "36 centimetres"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a rectangle is length × width: 9 × 4 = 36 square centimetres.\n\n**Key concept:** Area of a rectangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q32",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is 12 m long and 5 m wide. What is its perimeter?",
+    "options": [
+      "34 m",
+      "60 m",
+      "17 m",
+      "24 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Perimeter adds all four sides: 12 + 5 + 12 + 5 = 34 m.\n\n**Key concept:** Perimeter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q33",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square has sides of 8 cm. What is its area?",
+    "options": [
+      "24 square centimetres",
+      "32 square centimetres",
+      "16 square centimetres",
+      "64 square centimetres"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area of a square is side × side: 8 × 8 = 64 square centimetres.\n\n**Key concept:** Area of a square",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q34",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square garden has a perimeter of 36 m. How long is each side?",
+    "options": [
+      "12 m",
+      "6 m",
+      "9 m",
+      "18 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A square has four equal sides, so 36 ÷ 4 = 9 m.\n\n**Key concept:** Perimeter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q35",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is best for measuring the length of a classroom?",
+    "options": [
+      "Millimetres",
+      "Metres",
+      "Kilometres",
+      "Grams"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A classroom is a few metres across, so metres are the sensible unit.\n\n**Key concept:** Choosing units",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q36",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many centimetres are in 4 metres?",
+    "options": [
+      "400",
+      "40",
+      "4,000",
+      "44"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One metre is 100 centimetres, so 4 × 100 = 400 cm.\n\n**Key concept:** Converting length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q37",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many grams are in 3 kilograms?",
+    "options": [
+      "3,300",
+      "300",
+      "30",
+      "3,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** One kilogram is 1,000 grams, so 3 × 1,000 = 3,000 g.\n\n**Key concept:** Converting mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q38",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many millilitres are in 5 litres?",
+    "options": [
+      "50",
+      "500",
+      "5,000",
+      "5,500"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** One litre is 1,000 millilitres, so 5 × 1,000 = 5,000 mL.\n\n**Key concept:** Converting volume",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q39",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many inches are in 3 feet?",
+    "options": [
+      "12",
+      "36",
+      "30",
+      "48"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** One foot is 12 inches, so 3 × 12 = 36 inches.\n\n**Key concept:** Converting customary length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q40",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rope is 250 cm long. How many metres is that?",
+    "options": [
+      "2.5 m",
+      "25 m",
+      "0.25 m",
+      "2,500 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 250 ÷ 100 = 2.5 metres.\n\n**Key concept:** Converting length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q41",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A film starts at 1:45 p.m. and lasts 1 hour 25 minutes. When does it end?",
+    "options": [
+      "2:70 p.m.",
+      "2:10 p.m.",
+      "3:70 p.m.",
+      "3:10 p.m."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 1:45 plus one hour is 2:45; 25 more minutes takes it to 3:10 p.m.\n\n**Key concept:** Elapsed time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q42",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A dot plot shows 5 dots above the number 8. What does that mean?",
+    "options": [
+      "The total is 40.",
+      "Eight people recorded the value 5.",
+      "Five people recorded the value 8.",
+      "Eight is the largest value."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each dot stands for one observation at that value.\n\n**Key concept:** Dot plots",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q43",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A frequency table shows: 12, 8, 15, 5. How many were counted altogether?",
+    "options": [
+      "35",
+      "40",
+      "15",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 12 + 8 + 15 + 5 = 40 in total.\n\n**Key concept:** Frequency tables",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q44",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a stem-and-leaf plot, the stem is 3 and a leaf is 7. What number is that?",
+    "options": [
+      "37",
+      "73",
+      "3.7",
+      "307"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The stem gives the tens digit and the leaf the ones digit, so 3 | 7 is 37.\n\n**Key concept:** Stem-and-leaf plots",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q45",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which display best shows how many pupils chose each of five sports?",
+    "options": [
+      "A map.",
+      "A single number.",
+      "A clock face.",
+      "A bar graph."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Bar graphs compare separate categories side by side.\n\n**Key concept:** Choosing a display",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q46",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A dot plot of test scores has most dots at 9 and 10. What does that suggest?",
+    "options": [
+      "Everyone scored the same.",
+      "Most pupils scored poorly.",
+      "Most pupils scored highly.",
+      "The test had 9 questions."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Where the dots cluster shows where most of the data lies.\n\n**Key concept:** Interpreting data",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q47",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangular room is 7 m by 6 m. How much carpet is needed to cover the floor?",
+    "options": [
+      "26 square metres",
+      "42 square metres",
+      "13 square metres",
+      "42 metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area is 7 × 6 = 42 square metres of carpet.\n\n**Key concept:** Area word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q48",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A picture frame is 15 cm by 10 cm. How much ribbon goes around its edge?",
+    "options": [
+      "50 cm",
+      "150 cm",
+      "25 cm",
+      "30 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Perimeter is 15 + 10 + 15 + 10 = 50 cm.\n\n**Key concept:** Perimeter word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q49",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit would be used to weigh a lorry?",
+    "options": [
+      "Centimetres",
+      "Grams",
+      "Millilitres",
+      "Kilograms"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A lorry is very heavy, so kilograms (or tonnes) are appropriate.\n\n**Key concept:** Choosing units",
+    "source": "authored",
+    "needsReview": false
   }
 ]

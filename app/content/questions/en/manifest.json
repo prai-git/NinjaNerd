@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T17:33:30.501Z",
+  "generatedAt": "2026-09-03T18:04:29.640Z",
   "grades": {
     "1": {
       "english": [
@@ -312,27 +312,27 @@
         {
           "subtopic": "algebraic_concepts",
           "slug": "algebraic_concepts",
-          "count": 12
+          "count": 26
         },
         {
           "subtopic": "financial_literacy",
           "slug": "financial_literacy",
-          "count": 7
+          "count": 26
         },
         {
           "subtopic": "fractions_decimals",
           "slug": "fractions_decimals",
-          "count": 7
+          "count": 26
         },
         {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
-          "count": 15
+          "count": 26
         },
         {
           "subtopic": "measurement_data",
           "slug": "measurement_data",
-          "count": 7
+          "count": 26
         },
         {
           "subtopic": "number_sense_basic_operations",
@@ -342,7 +342,7 @@
         {
           "subtopic": "problem_solving_applications",
           "slug": "problem_solving_applications",
-          "count": 7
+          "count": 26
         }
       ],
       "science": [

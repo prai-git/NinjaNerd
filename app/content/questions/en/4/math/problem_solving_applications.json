@@ -138,5 +138,385 @@
     "explanation": "**Explanation:**\n24 × 18 = 432 seats. 432 − 312 = 120 empty seats.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q50",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop sells 24 boxes of pens with 36 pens in each box. How many pens is that?",
+    "options": [
+      "60",
+      "846",
+      "864",
+      "720"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 24 × 36 = 864 pens.\n\n**Key concept:** Multiplication problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q51",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A theatre has 28 rows of 45 seats. If 1,150 are sold, how many are empty?",
+    "options": [
+      "1,260",
+      "110",
+      "100",
+      "1,150"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 28 × 45 = 1,260 seats, and 1,260 − 1,150 = 110 empty.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q52",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A farmer has 4 fields with 375 trees each and removes 250 trees. How many remain?",
+    "options": [
+      "1,250",
+      "1,500",
+      "1,125",
+      "125"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 4 × 375 = 1,500 trees, and 1,500 − 250 = 1,250 remain.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q53",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bus holds 52 passengers. How many buses are needed for 340 people?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 340 ÷ 52 = 6 remainder 28, so a seventh bus is needed for the rest.\n\n**Key concept:** Division with a remainder",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q54",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana saves $18 each week. How much has she saved after 15 weeks?",
+    "options": [
+      "$180",
+      "$33",
+      "$270",
+      "$250"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 15 × \\(18 = \\)270 saved.\n\n**Key concept:** Multiplication problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q55",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A baker packs 468 rolls into bags of 6. How many bags?",
+    "options": [
+      "76",
+      "78",
+      "88",
+      "70"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 468 ÷ 6 = 78 bags.\n\n**Key concept:** Division problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q56",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A library has 1,248 books and receives 375 more. How many books now?",
+    "options": [
+      "1,623",
+      "1,523",
+      "1,613",
+      "873"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 1,248 + 375 = 1,623 books.\n\n**Key concept:** Addition problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q57",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A school raised \\(2,400 and spent \\)1,675 on books. How much is left?",
+    "options": [
+      "$715",
+      "$825",
+      "$4,075",
+      "$725"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(2,400 − \\)1,675 = $725 left.\n\n**Key concept:** Subtraction problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q58",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which equation matches: \"A number multiplied by 7 gives 91\"?",
+    "options": [
+      "n − 7 = 91",
+      "n + 7 = 91",
+      "n × 7 = 91",
+      "91 × 7 = n"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The unknown number is multiplied by 7 to give 91.\n\n**Key concept:** Writing equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q59",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A strip diagram shows 5 equal parts totalling 60. What does one part represent?",
+    "options": [
+      "5",
+      "12",
+      "55",
+      "300"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 60 ÷ 5 = 12 for each equal part.\n\n**Key concept:** Strip diagrams",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q60",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box holds 8 rows of 12 chocolates. If 15 are eaten, how many are left?",
+    "options": [
+      "81",
+      "96",
+      "20",
+      "111"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 8 × 12 = 96 chocolates, and 96 − 15 = 81 left.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q61",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Tom cycles 14 km each day. How far in 3 weeks?",
+    "options": [
+      "280 km",
+      "42 km",
+      "98 km",
+      "294 km"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 3 weeks is 21 days, and 21 × 14 = 294 km.\n\n**Key concept:** Multi-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q62",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tank holds 5,000 mL. It contains 1,750 mL. How much more will it hold?",
+    "options": [
+      "3,350 mL",
+      "6,750 mL",
+      "3,250 mL",
+      "4,250 mL"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 5,000 − 1,750 = 3,250 mL more.\n\n**Key concept:** Subtraction problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q63",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A club has 96 members split equally into 8 teams. How many per team?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "88"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 96 ÷ 8 = 12 members per team.\n\n**Key concept:** Division problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q64",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "About how much is 4,187 + 2,905? Estimate to the nearest thousand.",
+    "options": [
+      "About 7,000",
+      "About 6,000",
+      "About 8,000",
+      "About 5,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 4,187 rounds to 4,000 and 2,905 rounds to 3,000, giving about 7,000.\n\n**Key concept:** Estimating",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q65",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop earns $145 a day. How much in 6 days?",
+    "options": [
+      "$840",
+      "$151",
+      "$780",
+      "$870"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 6 × \\(145 = \\)870.\n\n**Key concept:** Multiplication problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q66",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Six friends share the cost of a $138 gift equally. How much does each pay?",
+    "options": [
+      "$24",
+      "$22",
+      "$23",
+      "$132"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** \\(138 ÷ 6 = \\)23 each.\n\n**Key concept:** Division problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q67",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which operation finds how many groups of 12 fit into 156?",
+    "options": [
+      "Addition",
+      "Division",
+      "Multiplication",
+      "Subtraction"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Asking how many equal groups fit into a total is division: 156 ÷ 12 = 13.\n\n**Key concept:** Choosing the operation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q68",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A crate holds 9 boxes and each box holds 24 tins. How many tins in 3 crates?",
+    "options": [
+      "648",
+      "216",
+      "72",
+      "324"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One crate holds 9 × 24 = 216 tins, so 3 crates hold 3 × 216 = 648.\n\n**Key concept:** Multi-step problem",
+    "source": "authored",
+    "needsReview": false
   }
 ]

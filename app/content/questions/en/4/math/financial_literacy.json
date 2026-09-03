@@ -138,5 +138,385 @@
     "explanation": "**Step-by-step solution:** Add frequencies: \\(3+5+4+2=14\\).\n**Why other answers are wrong:** There are no answer choices. Common errors use the wrong operation, unit, or place value instead of the required relationship..\n**Key concept:** frequency totals.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q83",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a FIXED expense?",
+    "options": [
+      "The cost of petrol, which changes each week.",
+      "A rent payment that is the same every month.",
+      "Money spent on treats.",
+      "The cost of a holiday."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A fixed expense stays the same each period; a variable one changes.\n\n**Key concept:** Fixed and variable expenses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q84",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a VARIABLE expense?",
+    "options": [
+      "The amount spent on groceries each week.",
+      "A monthly rent that never changes.",
+      "A fixed insurance payment.",
+      "A yearly membership fee."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Grocery spending changes from week to week, so it is variable.\n\n**Key concept:** Fixed and variable expenses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q85",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop buys a bicycle for $80 and sells it for $115. What is the profit?",
+    "options": [
+      "$25",
+      "$195",
+      "$45",
+      "$35"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Profit is income minus cost: \\(115 − \\)80 = $35.\n\n**Key concept:** Profit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q86",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A stall spends $40 on lemons and earns $95 selling lemonade. What is the profit?",
+    "options": [
+      "$45",
+      "$135",
+      "$55",
+      "$65"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** \\(95 − \\)40 = $55 profit.\n\n**Key concept:** Profit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q87",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop sells an item for less than it paid for it. What has happened?",
+    "options": [
+      "The shop made a profit.",
+      "The shop made a loss.",
+      "The shop broke even.",
+      "Nothing changed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When the selling price is below the cost, the difference is a loss.\n\n**Key concept:** Profit and loss",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q88",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Kim wants a $96 tablet and saves $12 a week. How many weeks until she can buy it?",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** \\(96 ÷ \\)12 = 8 weeks of saving.\n\n**Key concept:** Saving for a goal",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q89",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ravi earns \\(45 and spends \\)28. How much can he save?",
+    "options": [
+      "$13",
+      "$73",
+      "$27",
+      "$17"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(45 − \\)28 = $17 left to save.\n\n**Key concept:** Saving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q90",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is it sensible to save part of any money you receive?",
+    "options": [
+      "So you never have to earn again.",
+      "So the money disappears.",
+      "So you can afford larger things later or handle an unexpected cost.",
+      "So prices fall."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Saving builds a store of money for future needs and emergencies.\n\n**Key concept:** Saving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q91",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does it mean to borrow money?",
+    "options": [
+      "You are given money to keep.",
+      "You use someone else’s money now and must repay it later.",
+      "You earn money by working.",
+      "You find money nobody owns."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Borrowed money must be returned, usually with an extra cost.\n\n**Key concept:** Borrowing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q92",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben borrows \\(50 and repays \\)58. What is the extra $8?",
+    "options": [
+      "The cost of borrowing the money.",
+      "A gift from the lender.",
+      "His income.",
+      "His savings."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The extra amount is what the loan costs, over and above the sum borrowed.\n\n**Key concept:** Cost of credit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q93",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A family budget lists income of \\(2,400 and expenses of \\)2,150. What is left?",
+    "options": [
+      "$150",
+      "$4,550",
+      "$350",
+      "$250"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(2,400 − \\)2,150 = $250 remaining.\n\n**Key concept:** Budgeting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q94",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What happens if expenses are greater than income?",
+    "options": [
+      "Savings grow.",
+      "Income automatically rises.",
+      "There is a shortfall that must come from savings or borrowing.",
+      "Prices fall."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Spending more than you earn leaves a gap that has to be covered somehow.\n\n**Key concept:** Budgeting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q95",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does a budget list expenses as well as income?",
+    "options": [
+      "So income looks larger.",
+      "So spending can be planned against what is actually coming in.",
+      "So expenses can be ignored.",
+      "So no saving is needed."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A budget compares money in with money out, which is what makes planning possible.\n\n**Key concept:** Budgeting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q96",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best description of income?",
+    "options": [
+      "Money received, usually for work done.",
+      "Money spent on goods.",
+      "Money owed to a shop.",
+      "Money borrowed from a bank."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Income is money coming in; expenses are money going out.\n\n**Key concept:** Income",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q97",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sara has \\(34 and wants a \\)70 game. How much more does she need?",
+    "options": [
+      "$26",
+      "$104",
+      "$46",
+      "$36"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(70 − \\)34 = $36 more to save.\n\n**Key concept:** Saving goals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q98",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A baker spends $18 on ingredients and sells the cakes for $50. What is the profit?",
+    "options": [
+      "$42",
+      "$68",
+      "$32",
+      "$22"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** \\(50 − \\)18 = $32 profit.\n\n**Key concept:** Profit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q99",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair correctly separates a need from a want?",
+    "options": [
+      "A games console is a need; warm clothing is a want.",
+      "Warm clothing is a need; a games console is a want.",
+      "Both are needs.",
+      "Both are wants."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Needs are required to live well; wants are things you would like to have.\n\n**Key concept:** Wants and needs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q100",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two shops sell the same trainers, one at \\(54 and one at \\)47. Which is the better buy?",
+    "options": [
+      "The $47 pair, because the trainers are identical.",
+      "The $54 pair, because it costs more.",
+      "Neither, both are too dear.",
+      "They are the same value."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** When the goods are identical, the lower price gives better value.\n\n**Key concept:** Comparing costs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g4_2026-09-03_19-00_q101",
+    "grade": 4,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the safest place to keep money being saved for a year?",
+    "options": [
+      "Lent to a stranger.",
+      "A pocket with a hole in it.",
+      "Loose in a school bag.",
+      "A bank savings account."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A bank keeps savings secure and may add a little interest.\n\n**Key concept:** Saving safely",
+    "source": "authored",
+    "needsReview": false
   }
 ]
