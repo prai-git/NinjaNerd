@@ -318,5 +318,325 @@
     "explanation": "**Worked solution:** Since \\(8\times6=48\\), the unknown factor is 8.\n\n**Key concept:** Unknown factor",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q125",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the missing number? 4 × ? = 28",
+    "options": [
+      "24",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Seven fours make 28, so the missing factor is 7.\n\n**Key concept:** Unknown in a multiplication",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q126",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the missing number? ? + 17 = 42",
+    "options": [
+      "35",
+      "59",
+      "25",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 42 − 17 = 25, so 25 must be added to 17 to reach 42.\n\n**Key concept:** Unknown in an addition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q127",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the missing number? 63 − ? = 28",
+    "options": [
+      "91",
+      "35",
+      "45",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 63 − 28 = 35, so 35 was taken away.\n\n**Key concept:** Unknown in a subtraction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q128",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the missing number? ? ÷ 6 = 9",
+    "options": [
+      "54",
+      "3",
+      "15",
+      "63"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** If a number divided by 6 gives 9, that number is 6 × 9 = 54.\n\n**Key concept:** Unknown in a division",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q129",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What comes next in the pattern? 5, 10, 15, 20, ___",
+    "options": [
+      "24",
+      "21",
+      "30",
+      "25"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The pattern adds 5 each time, so after 20 comes 25.\n\n**Key concept:** Number patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q130",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What comes next? 3, 6, 12, 24, ___",
+    "options": [
+      "36",
+      "30",
+      "48",
+      "27"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each number doubles, so 24 doubled is 48.\n\n**Key concept:** Doubling patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q131",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the rule for 2, 9, 16, 23, 30?",
+    "options": [
+      "Add 5 each time.",
+      "Add 7 each time.",
+      "Multiply by 2 each time.",
+      "Subtract 7 each time."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Each number is 7 more than the one before it.\n\n**Key concept:** Finding a rule",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q132",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An input-output table has the rule \"multiply by 3\". If the input is 8, what is the output?",
+    "options": [
+      "24",
+      "11",
+      "5",
+      "83"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 8 × 3 = 24.\n\n**Key concept:** Input-output tables",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q133",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A table shows inputs 1, 2, 3 giving outputs 6, 12, 18. What is the rule?",
+    "options": [
+      "Add 6.",
+      "Add 5.",
+      "Multiply by 3.",
+      "Multiply by 6."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each output is six times its input: 1×6=6, 2×6=12, 3×6=18.\n\n**Key concept:** Finding a rule",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q134",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which equation is true?",
+    "options": [
+      "6 + 4 = 12 × 2",
+      "6 × 4 = 12 × 3",
+      "6 × 4 = 12 × 2",
+      "6 × 4 = 6 + 4"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Both sides equal 24, so the equation balances.\n\n**Key concept:** Equality",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q135",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does the equals sign in 8 + 5 = 13 mean?",
+    "options": [
+      "The answer comes next.",
+      "Both sides have the same value.",
+      "Add the numbers.",
+      "13 is bigger."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The equals sign says the two sides are worth the same, not \"here comes the answer\".\n\n**Key concept:** Meaning of equals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q136",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number makes this true? 15 + 9 = 20 + ?",
+    "options": [
+      "4",
+      "24",
+      "6",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 15 + 9 = 24, and 20 + 4 = 24, so both sides balance.\n\n**Key concept:** Balancing equations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q137",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ali makes a growing pattern of squares: 4, 8, 12, 16. How many squares in the 6th step?",
+    "options": [
+      "32",
+      "20",
+      "18",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The pattern adds 4 each step: 20 at step 5 and 24 at step 6.\n\n**Key concept:** Growing patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q138",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A number multiplied by itself gives 36. What is the number?",
+    "options": [
+      "12",
+      "9",
+      "6",
+      "18"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 6 × 6 = 36.\n\n**Key concept:** Unknown factors",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q139",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which equation matches \"a number plus 12 equals 30\"?",
+    "options": [
+      "n − 12 = 30",
+      "n + 12 = 30",
+      "12n = 30",
+      "30 + 12 = n"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The unknown number has 12 added to it and the result is 30.\n\n**Key concept:** Writing an equation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q140",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What comes next? 100, 90, 80, 70, ___",
+    "options": [
+      "60",
+      "65",
+      "75",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The pattern subtracts 10 each time.\n\n**Key concept:** Decreasing patterns",
+    "source": "authored",
+    "needsReview": false
   }
 ]

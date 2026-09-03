@@ -38,5 +38,605 @@
     "explanation": "**Explanation:**\n**mm** is the standard abbreviation for **millimeters**, a unit of length in the metric system.\n\n**Metric length units (from largest to smallest):**\n| Unit | Abbreviation | Relationship |\n|------|-------------|-------------|\n| Kilometer | km | 1 km = 1,000 m |\n| Meter | m | base unit |\n| Centimeter | cm | 1 m = 100 cm |\n| **Millimeter** | **mm** | **1 cm = 10 mm** |\n\nMillimeters are very small units — useful for measuring small objects like insects, seeds, or the width of a pencil.\n\n**Key concept:** mm = millimeters (length). mg = milligrams (mass). mL = milliliters (volume). These are commonly confused — know the difference!",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q86",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student tests whether more sunlight makes bean plants grow taller. Which variable should be changed?",
+    "options": [
+      "The amount of water given.",
+      "The type of bean seed.",
+      "The amount of sunlight each plant receives.",
+      "The size of the pot."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Only the variable being tested is changed; everything else is kept the same so the result can be trusted.\n\n**Key concept:** Independent variable",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q87",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In that same investigation, what is measured to get the result?",
+    "options": [
+      "The amount of sunlight.",
+      "The height of the plants.",
+      "The brand of soil.",
+      "The time of day."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The dependent variable is what is measured to see the effect of the change.\n\n**Key concept:** Dependent variable",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q88",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why must everything except the tested variable be kept the same?",
+    "options": [
+      "So any difference in the results can be traced to the one thing that changed.",
+      "So the investigation finishes faster.",
+      "So no measurements are needed.",
+      "So the hypothesis is always supported."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Controlling the other factors removes competing explanations for the result.\n\n**Key concept:** Controlled variables",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q89",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the purpose of a control group?",
+    "options": [
+      "It proves the hypothesis is correct.",
+      "It makes the results more exciting.",
+      "It doubles the amount of data.",
+      "It shows what happens when the tested variable is not applied."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The untreated group is the baseline the treated group is compared against.\n\n**Key concept:** Control group",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q90",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why should a student repeat a measurement several times?",
+    "options": [
+      "Repeating changes the answer to the one wanted.",
+      "Repeating makes the experiment shorter.",
+      "Repeating reduces the effect of a one-off mistake and makes the result more reliable.",
+      "One measurement is always enough."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Repeated trials reveal random error and give a more trustworthy result.\n\n**Key concept:** Repeated trials",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q91",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student measures 25 mL of water in a graduated cylinder. Where should the reading be taken?",
+    "options": [
+      "At the very top edge of the water.",
+      "At the bottom of the curved surface, with the eye level with it.",
+      "Looking down from above the cylinder.",
+      "Anywhere along the scale."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Reading the meniscus at eye level avoids the error caused by looking from an angle.\n\n**Key concept:** Measuring volume accurately",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q92",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best reason to record data in a table as it is collected?",
+    "options": [
+      "It keeps the measurements organised and prevents them being forgotten.",
+      "It makes the numbers larger.",
+      "It removes the need for units.",
+      "It guarantees the hypothesis is right."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Recording as you go keeps data accurate and makes patterns easier to see later.\n\n**Key concept:** Recording data",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q93",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A data table has no units in its column headings. Why is that a problem?",
+    "options": [
+      "Units change the measurements.",
+      "Tables never need headings.",
+      "Units make graphs harder to draw.",
+      "The numbers cannot be understood without knowing what was measured."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A measurement is meaningless unless the unit is stated.\n\n**Key concept:** Units in data",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q94",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which graph best shows how a plant’s height changed over six weeks?",
+    "options": [
+      "A single bar.",
+      "A pie chart.",
+      "A line graph.",
+      "A labelled drawing."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Line graphs show continuous change over time.\n\n**Key concept:** Choosing a graph",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q95",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which graph best compares the rainfall of five different cities?",
+    "options": [
+      "A line graph of one city over time.",
+      "A bar graph.",
+      "A pie chart of one city.",
+      "A photograph of each city."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Bar graphs compare separate categories side by side.\n\n**Key concept:** Choosing a graph",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q96",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a graph of an investigation, which variable belongs on the horizontal axis?",
+    "options": [
+      "The variable the student changed.",
+      "The variable the student measured.",
+      "The control group.",
+      "The conclusion."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** By convention the changed (independent) variable goes on the x-axis.\n\n**Key concept:** Graphing conventions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q97",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A line graph of distance against time is a straight, rising line. What does that show?",
+    "options": [
+      "The object moved backwards.",
+      "The object was speeding up.",
+      "The object did not move.",
+      "The object moved at a steady speed."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A constant slope means equal distance covered in equal times, which is steady speed.\n\n**Key concept:** Reading graphs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q98",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student’s results do not support the hypothesis. What should the student do?",
+    "options": [
+      "Throw the investigation away.",
+      "Change the numbers to match the hypothesis.",
+      "Report the results honestly and think about what else might explain them.",
+      "Report only the trials that agreed."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Unsupported hypotheses are useful findings. Data must never be altered.\n\n**Key concept:** Scientific honesty",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q99",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement is a conclusion rather than an observation?",
+    "options": [
+      "Plant A is 14 cm tall.",
+      "The plants in bright light grew taller, so light probably increases growth.",
+      "Three leaves are yellow.",
+      "The soil surface is dry."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A conclusion explains what the observations mean; observations are what was seen or measured.\n\n**Key concept:** Observation and conclusion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q100",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is an inference rather than an observation?",
+    "options": [
+      "The soil is dry, so the plant probably needs water.",
+      "The soil is light brown.",
+      "The pot is 12 cm across.",
+      "Two leaves have fallen off."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** An inference is an explanation drawn from observations, not the observation itself.\n\n**Key concept:** Observation and inference",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q101",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question can be answered by doing an investigation?",
+    "options": [
+      "What is the best kind of music?",
+      "Which colour is the prettiest?",
+      "Should students study art or music?",
+      "Does salt water freeze at a lower temperature than fresh water?"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A scientific question can be answered with measurements that anyone could repeat.\n\n**Key concept:** Testable questions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q102",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement is a testable hypothesis?",
+    "options": [
+      "Sunlight is good for everything.",
+      "Plants are the nicest living things.",
+      "If a plant gets more sunlight, then it will grow taller.",
+      "Plants should be watered often."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A testable hypothesis predicts a measurable outcome from a specific change.\n\n**Key concept:** Hypotheses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q103",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why should a procedure be written in clear numbered steps?",
+    "options": [
+      "So the results are guaranteed correct.",
+      "So another person can repeat the investigation exactly.",
+      "So fewer materials are needed.",
+      "So the hypothesis can be skipped."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Repeatability depends on a procedure someone else can follow precisely.\n\n**Key concept:** Communicating a procedure",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q104",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two students measure the same pencil and get 15.2 cm and 15.3 cm. What does this small difference show?",
+    "options": [
+      "Normal uncertainty in measuring.",
+      "One student invented the number.",
+      "The pencil changed length.",
+      "Rulers cannot measure length."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Small differences between careful measurements reflect the limits of the instrument.\n\n**Key concept:** Measurement uncertainty",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q105",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student concludes that a fertiliser works after testing a single plant. What is the main weakness?",
+    "options": [
+      "Too many trials were used.",
+      "The plant was measured too carefully.",
+      "Fertiliser cannot be tested.",
+      "One plant is too small a sample to support the conclusion."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** One trial cannot separate the effect of the treatment from ordinary variation.\n\n**Key concept:** Sample size",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q106",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why are safety goggles worn when working with liquids in the laboratory?",
+    "options": [
+      "To keep hair out of the face.",
+      "To help see small print.",
+      "To protect the eyes from splashes.",
+      "To measure liquids accurately."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Goggles are a barrier between the eyes and any chemical or biological splash.\n\n**Key concept:** Laboratory safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q107",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student spills a liquid on the skin during an investigation. What should be done first?",
+    "options": [
+      "Wipe it off and carry on working.",
+      "Rinse the area with water and tell the teacher straight away.",
+      "Cover it with paper and wait.",
+      "Add another liquid to cancel it out."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Rinsing immediately removes the substance, and the teacher must always be told.\n\n**Key concept:** Laboratory safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q108",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why should a student never taste a substance in the science laboratory?",
+    "options": [
+      "It may be harmful even if it looks like food.",
+      "Tasting is slower than looking.",
+      "Tasting uses up the sample.",
+      "Tasting is only for liquids."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Laboratory materials can be poisonous or contaminated, so tasting is never a safe test.\n\n**Key concept:** Laboratory safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q109",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool should be used to measure the temperature of water?",
+    "options": [
+      "A spring scale.",
+      "A balance.",
+      "A graduated cylinder.",
+      "A thermometer."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A thermometer measures temperature; the others measure mass, volume and force.\n\n**Key concept:** Choosing equipment",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q110",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool would best measure the mass of a small rock?",
+    "options": [
+      "A stopwatch.",
+      "A metre stick.",
+      "A balance.",
+      "A hand lens."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A balance compares an unknown mass with known masses.\n\n**Key concept:** Choosing equipment",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q111",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student needs to see fine detail on a leaf. Which tool is most useful?",
+    "options": [
+      "A thermometer.",
+      "A hand lens.",
+      "A stopwatch.",
+      "A spring scale."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A hand lens magnifies small features so they can be observed closely.\n\n**Key concept:** Choosing equipment",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q112",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What makes a set of observations qualitative rather than quantitative?",
+    "options": [
+      "They describe properties without using numbers.",
+      "They always come from a measuring tool.",
+      "They must be shown on a graph.",
+      "They always include a unit."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Qualitative observations describe things like colour, smell or texture.\n\n**Key concept:** Types of observation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q113",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two groups repeat the same investigation and get similar results. What does this add?",
+    "options": [
+      "Evidence that methods do not matter.",
+      "Proof that no more work is needed.",
+      "A reason to discard both sets of results.",
+      "More confidence that the conclusion is correct."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Agreement between independent investigations makes a conclusion more trustworthy.\n\n**Key concept:** Repeatability",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q114",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student changes both the amount of water AND the amount of light in one investigation. What is the problem?",
+    "options": [
+      "Two variables always give a better answer.",
+      "The investigation will finish too quickly.",
+      "It will be impossible to tell which change caused the result.",
+      "Nothing — changing two is normal."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Changing more than one variable at a time leaves the cause of any difference unknown.\n\n**Key concept:** Fair testing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q115",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best way to share the results of an investigation with a class?",
+    "options": [
+      "Describe only the parts that worked.",
+      "Show the data in a clear table or graph and explain what it means.",
+      "Give the conclusion without the data.",
+      "Read out every raw number in order."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Communicating results means presenting the evidence and the reasoning together.\n\n**Key concept:** Communicating results",
+    "source": "authored",
+    "needsReview": false
   }
 ]

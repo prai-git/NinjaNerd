@@ -158,5 +158,485 @@
     "explanation": "**Worked solution:** The temperature rises, so add: \\(48+17=65\\).\n\n**Key concept:** Temperature change",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q51",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has 4 sides that are all the same length and 4 right angles?",
+    "options": [
+      "A rectangle that is longer than it is wide.",
+      "A square.",
+      "A triangle.",
+      "A pentagon."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A square has four equal sides and four right angles. A rectangle has right angles but its sides need not all match.\n\n**Key concept:** Classifying quadrilaterals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q52",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many sides does a hexagon have?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A hexagon has six sides and six vertices.\n\n**Key concept:** Naming polygons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q53",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which figure is NOT a quadrilateral?",
+    "options": [
+      "A rhombus.",
+      "A square.",
+      "A rectangle.",
+      "A triangle."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A quadrilateral has exactly four sides. A triangle has three.\n\n**Key concept:** Quadrilaterals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q54",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What makes a shape a polygon?",
+    "options": [
+      "It is always shaded in.",
+      "It has at least one curve.",
+      "It is closed and made only of straight sides.",
+      "It has exactly four corners."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A polygon is a closed figure with straight sides and no gaps.\n\n**Key concept:** Polygons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q55",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of shapes are both quadrilaterals?",
+    "options": [
+      "A triangle and a square.",
+      "A square and a trapezoid.",
+      "A circle and a rectangle.",
+      "A pentagon and a hexagon."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Both a square and a trapezoid have exactly four sides.\n\n**Key concept:** Sorting by attributes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q56",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which attribute do a rectangle and a square always share?",
+    "options": [
+      "Four right angles.",
+      "All four sides the same length.",
+      "Exactly three sides.",
+      "No parallel sides."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Every square is a rectangle: both have four right angles, but only a square must have four equal sides.\n\n**Key concept:** Shared attributes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q57",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is split down the middle into two equal parts. What is each part called?",
+    "options": [
+      "One quarter of the rectangle.",
+      "One third of the rectangle.",
+      "Two wholes.",
+      "One half of the rectangle."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Two equal parts of one whole are halves.\n\n**Key concept:** Decomposing shapes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q58",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square is cut into 4 equal smaller squares. What fraction of the whole is one small square?",
+    "options": [
+      "4/1",
+      "1/2",
+      "1/4",
+      "1/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** One of four equal parts is one quarter.\n\n**Key concept:** Decomposing shapes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q59",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is 5 units long and 3 units wide. What is its area?",
+    "options": [
+      "8 square units",
+      "15 square units",
+      "16 square units",
+      "53 square units"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a rectangle is length × width: 5 × 3 = 15 square units.\n\n**Key concept:** Area of a rectangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q60",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is covered by 24 unit squares in 4 equal rows. How many squares are in each row?",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 24 ÷ 4 = 6 squares in each row.\n\n**Key concept:** Area by tiling",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q61",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is area measured in SQUARE units?",
+    "options": [
+      "Because perimeter uses round units.",
+      "Because all shapes are squares.",
+      "Because squares are easier to draw.",
+      "Because area counts how many unit squares cover a shape."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Area is a covering, so the unit is a square that tiles the surface.\n\n**Key concept:** Units of area",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q62",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the perimeter of a rectangle 6 cm long and 2 cm wide?",
+    "options": [
+      "8 cm",
+      "12 cm",
+      "16 cm",
+      "24 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Perimeter adds all four sides: 6 + 2 + 6 + 2 = 16 cm.\n\n**Key concept:** Perimeter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q63",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A square has sides of 7 cm. What is its perimeter?",
+    "options": [
+      "14 cm",
+      "28 cm",
+      "49 cm",
+      "21 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** All four sides are 7 cm, so 4 × 7 = 28 cm.\n\n**Key concept:** Perimeter of a square",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q64",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the difference between area and perimeter?",
+    "options": [
+      "Perimeter is the distance around a shape; area is the surface it covers.",
+      "They are two names for the same measurement.",
+      "Area is always the larger number.",
+      "Perimeter is measured in square units."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Perimeter is a length around the edge; area is a covering of the inside.\n\n**Key concept:** Area and perimeter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q65",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which solid figure has 6 square faces?",
+    "options": [
+      "A sphere.",
+      "A cylinder.",
+      "A cone.",
+      "A cube."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A cube is made of six identical square faces.\n\n**Key concept:** Three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q66",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which solid has no flat faces at all?",
+    "options": [
+      "A rectangular prism.",
+      "A cube.",
+      "A sphere.",
+      "A cone."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A sphere is curved all over. A cone has one flat circular face.\n\n**Key concept:** Three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q67",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many vertices (corners) does a cube have?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A cube has 8 corners, 12 edges and 6 faces.\n\n**Key concept:** Attributes of solids",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q68",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape always has at least one pair of parallel sides?",
+    "options": [
+      "A trapezoid.",
+      "A triangle.",
+      "A circle.",
+      "A pentagon with all sides different."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A trapezoid is defined by having a pair of parallel sides.\n\n**Key concept:** Parallel sides",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q69",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shape has 3 sides and 3 angles. What is it?",
+    "options": [
+      "A pentagon.",
+      "A quadrilateral.",
+      "A hexagon.",
+      "A triangle."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Three sides and three angles make a triangle.\n\n**Key concept:** Naming polygons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q70",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two rectangles both have an area of 12 square units. Must they be the same shape?",
+    "options": [
+      "No, because area cannot be equal.",
+      "Yes, equal areas always mean equal shapes.",
+      "No — 3 by 4 and 2 by 6 both give 12.",
+      "Yes, but only for squares."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Different length-and-width pairs can multiply to the same area.\n\n**Key concept:** Area",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q71",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A garden path is 9 m long and 4 m wide. How much fencing is needed to go all the way round?",
+    "options": [
+      "13 m",
+      "26 m",
+      "36 m",
+      "18 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Perimeter is 9 + 4 + 9 + 4 = 26 m of fencing.\n\n**Key concept:** Perimeter word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q72",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which two shapes could be put together to make a rectangle?",
+    "options": [
+      "Two identical right triangles.",
+      "Two circles.",
+      "A triangle and a circle.",
+      "Two spheres."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Two matching right triangles joined along their longest sides form a rectangle.\n\n**Key concept:** Composing shapes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q73",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which figure has exactly one curved surface and two flat circular faces?",
+    "options": [
+      "A sphere.",
+      "A cone.",
+      "A cube.",
+      "A cylinder."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A cylinder has two circular ends joined by one curved surface.\n\n**Key concept:** Three-dimensional figures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q74",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A floor is covered with 5 rows of 7 square tiles. What is the area in square tiles?",
+    "options": [
+      "24 square tiles",
+      "12 square tiles",
+      "35 square tiles",
+      "57 square tiles"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 5 rows of 7 tiles is 5 × 7 = 35 tiles covering the floor.\n\n**Key concept:** Area by tiling",
+    "source": "authored",
+    "needsReview": false
   }
 ]

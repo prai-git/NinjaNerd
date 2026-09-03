@@ -538,5 +538,125 @@
     "explanation": "**Explanation:**\n**Abiotic factors** are the nonliving components of an ecosystem. They include:\n- Sunlight (energy source)\n- Temperature (affects organism metabolism)\n- Rainfall/precipitation (water availability)\n- Type of soil (affects plant growth)\n- Wind, humidity, altitude, pH\n\nAll the factors listed — sunlight, temperature, rainfall, and type of soil — are **nonliving**, making them abiotic.\n\n**Biotic factors** are the LIVING components: all organisms (plants, animals, fungi, bacteria).\n\n**Key concept:** Abiotic = nonliving (sun, water, air, soil, temperature). Biotic = living (plants, animals, fungi, bacteria).",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q80",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the food chain grass → grasshopper → frog → snake, which organism is the producer?",
+    "options": [
+      "The grass.",
+      "The grasshopper.",
+      "The frog.",
+      "The snake."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Producers make their own food using sunlight and form the base of every food chain.\n\n**Key concept:** Food chains",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q81",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pond loses most of its plants after a chemical spill. What is the most likely effect on the animals that eat those plants?",
+    "options": [
+      "They are not affected at all.",
+      "Their numbers rise immediately.",
+      "They become producers.",
+      "Their numbers fall because their food source is gone."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Removing a producer reduces the food available to the consumers directly above it.\n\n**Key concept:** Changes in ecosystems",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q82",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is an inherited trait rather than a learned behaviour?",
+    "options": [
+      "A dog fetching a ball.",
+      "A dog sitting on command.",
+      "The natural colour of a dog’s fur.",
+      "A dog walking on a lead."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Inherited traits are passed from parents through genes; learned behaviours are taught or picked up.\n\n**Key concept:** Inherited and learned",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q83",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence shows the complete metamorphosis of a butterfly?",
+    "options": [
+      "Egg → adult → larva → pupa.",
+      "Egg → larva → pupa → adult.",
+      "Larva → egg → adult → pupa.",
+      "Pupa → egg → adult → larva."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Complete metamorphosis has four stages, and the insect looks entirely different at each one.\n\n**Key concept:** Metamorphosis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q84",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cactus has a thick waxy stem and spines instead of broad leaves. How does this help it survive?",
+    "options": [
+      "It stores water and loses very little of it.",
+      "It catches more rain in its spines.",
+      "It makes food without sunlight.",
+      "It attracts more animals to eat it."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Storing water and reducing water loss are adaptations to a hot, dry environment.\n\n**Key concept:** Structure and function",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q85",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a nonliving part of a pond ecosystem?",
+    "options": [
+      "The insects.",
+      "The frogs.",
+      "The pond weed.",
+      "The temperature of the water."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Nonliving (abiotic) parts include water, temperature, light and soil. The others are living.\n\n**Key concept:** Living and nonliving parts",
+    "source": "authored",
+    "needsReview": false
   }
 ]

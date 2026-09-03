@@ -138,5 +138,505 @@
     "explanation": "**Explanation:**\n- **Conductors** allow electricity (electrons) to flow through them easily. Most metals are good conductors: copper, gold, silver, aluminum.\n- **Insulators** do NOT allow electricity to flow through them. They block or resist electric current. Examples: rubber, plastic, wood, glass, ceramic.\n\n**Copper wire** = conductor → allows electricity to flow → bulb lights up\n**Rubber tube** = insulator → blocks electricity → circuit is broken → bulb goes out\n\nThis is why electrical wires are made of copper (conductor inside) coated in rubber or plastic (insulator on the outside, to keep you safe).\n\n**Key concept:** Conductors (metals like copper) allow electricity to flow. Insulators (rubber, plastic, wood) block electricity.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q29",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A toaster changes electrical energy mainly into —",
+    "options": [
+      "magnetic energy.",
+      "sound energy.",
+      "chemical energy.",
+      "thermal energy."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The heating elements turn electrical energy into thermal energy, which browns the bread.\n\n**Key concept:** Energy transformation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q30",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which example shows mechanical energy being changed into electrical energy?",
+    "options": [
+      "A battery powering a torch.",
+      "A lamp lighting a room.",
+      "Moving water spinning a generator at a dam.",
+      "Wood burning in a fire."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The water’s motion turns the generator, producing electricity. The others start from electrical or chemical energy.\n\n**Key concept:** Energy transformation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q31",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student rubs two hands together quickly and they feel warm. Which change is happening?",
+    "options": [
+      "Thermal energy is changing into light.",
+      "Mechanical energy is changing into thermal energy.",
+      "Sound energy is changing into chemical energy.",
+      "Energy is being created from nothing."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Friction between the moving hands converts motion into heat. Energy changes form; it is not created.\n\n**Key concept:** Friction and thermal energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q32",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which form of energy lets you hear a drum from across a room?",
+    "options": [
+      "Sound energy travelling through the air.",
+      "Light energy travelling through the air.",
+      "Chemical energy stored in the drum.",
+      "Magnetic energy from the drumsticks."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The vibrating drum skin makes the air vibrate, and those vibrations reach the ear as sound.\n\n**Key concept:** Sound energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q33",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A battery stores which form of energy before the circuit is switched on?",
+    "options": [
+      "Thermal energy only.",
+      "Sound energy.",
+      "Light energy.",
+      "Chemical energy."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A battery holds chemical energy, which becomes electrical energy when the circuit is completed.\n\n**Key concept:** Stored energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q34",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student shines a torch at a mirror. What happens to the light?",
+    "options": [
+      "It bends and stops inside the glass.",
+      "It is absorbed and disappears.",
+      "It reflects off the mirror at an angle.",
+      "It changes into sound."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A smooth shiny surface reflects light in a predictable direction, which is how a mirror forms an image.\n\n**Key concept:** Reflection",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q35",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pencil standing in a glass of water looks bent at the water line. What causes this?",
+    "options": [
+      "The pencil really bends in water.",
+      "Light changes direction as it passes from water into air.",
+      "The water heats the pencil.",
+      "The glass magnifies the pencil."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Light refracts, or bends, when it moves between materials, so the part under water appears shifted.\n\n**Key concept:** Refraction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q36",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which observation is evidence that light travels in straight lines?",
+    "options": [
+      "An object casts a sharp shadow with a clear edge.",
+      "A room slowly warms in sunlight.",
+      "A radio plays music in another room.",
+      "A magnet picks up a paper clip."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Shadows form because light travels straight and cannot bend around the object blocking it.\n\n**Key concept:** Light travels in straight lines",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q37",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which material would let the most light pass through it?",
+    "options": [
+      "Aluminium foil.",
+      "A sheet of cardboard.",
+      "A brick wall.",
+      "Clear window glass."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Clear glass is transparent, so light passes through. The others are opaque and block it.\n\n**Key concept:** Transparent and opaque",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q38",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A torch does not light when switched on. Which is the most likely reason?",
+    "options": [
+      "The switch adds energy to the circuit.",
+      "Light energy has been used up.",
+      "The circuit is not complete, so charge cannot flow all the way round.",
+      "Batteries do not store energy."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Electric charge needs an unbroken path. A gap anywhere in the loop stops the current.\n\n**Key concept:** Complete circuits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q39",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a simple circuit, what is the job of the switch?",
+    "options": [
+      "To store energy for later.",
+      "To open or close the path so current can be stopped or allowed.",
+      "To change electrical energy into chemical energy.",
+      "To make the wire longer."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A switch breaks or completes the circuit, which turns the current on and off.\n\n**Key concept:** Switches",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q40",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which material should be used for the wire in a circuit?",
+    "options": [
+      "Copper, because it conducts electricity well.",
+      "Rubber, because it is flexible.",
+      "Plastic, because it is cheap.",
+      "Glass, because it is clear."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Copper is a good conductor, so charge flows through it easily. The others are insulators.\n\n**Key concept:** Conductors in circuits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q41",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two bulbs are wired in one single loop. One bulb burns out and both go dark. Why?",
+    "options": [
+      "Burnt bulbs pull energy from the others.",
+      "The second bulb used all the energy.",
+      "The battery reversed direction.",
+      "There is only one path, so a break anywhere stops the current."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** In a single-loop circuit the current has one path, so a break anywhere stops everything.\n\n**Key concept:** Circuit paths",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q42",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why are electrical wires covered in plastic?",
+    "options": [
+      "Plastic stores extra electricity.",
+      "Plastic makes the current stronger.",
+      "Plastic is an insulator, so the current stays inside the wire.",
+      "Plastic makes the wire conduct better."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The insulating cover keeps the current in the wire and keeps people from touching it.\n\n**Key concept:** Insulators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q43",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to test whether a heavier push makes a toy car travel further. Which variable should be changed?",
+    "options": [
+      "The surface the car runs on.",
+      "The size of the push.",
+      "The toy car used.",
+      "The person doing the pushing."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Only the tested variable changes. Everything else is kept the same so the result can be trusted.\n\n**Key concept:** Designing a fair test",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q44",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two equal forces push on a box from opposite sides. What happens to the box?",
+    "options": [
+      "It stays still, because the forces are balanced.",
+      "It speeds up in both directions.",
+      "It becomes heavier.",
+      "It changes into a different shape every time."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Balanced forces cancel, so the motion of the box does not change.\n\n**Key concept:** Balanced forces",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q45",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball rolls more slowly across carpet than across a smooth floor. What explains this?",
+    "options": [
+      "The carpet gives the ball energy.",
+      "The ball has more mass on carpet.",
+      "Gravity is stronger over carpet.",
+      "The carpet produces more friction."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Friction is a force that opposes motion, and rough surfaces produce more of it.\n\n**Key concept:** Friction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q46",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would make a wagon accelerate more when pushed with the same force?",
+    "options": [
+      "Making the wheels rougher.",
+      "Adding more load to the wagon.",
+      "Taking some of the load out of the wagon.",
+      "Pushing it uphill instead."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** With less mass, the same force produces a larger change in motion.\n\n**Key concept:** Force and mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q47",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does a force do to an object?",
+    "options": [
+      "It always makes the object heavier.",
+      "It can change the object’s speed, direction or shape.",
+      "It always destroys the object.",
+      "It has no effect unless the object is moving."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A push or a pull can start motion, stop it, change its direction or squash the object.\n\n**Key concept:** What forces do",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q48",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which everyday change turns electrical energy into light AND thermal energy?",
+    "options": [
+      "A lamp bulb switched on.",
+      "A cup of tea cooling down.",
+      "A ball rolling to a stop.",
+      "A magnet sticking to a fridge."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A lit bulb gives off both light and heat, so the electrical energy becomes two forms at once.\n\n**Key concept:** Energy transformation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q49",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student pushes a box and it does not move. Which statement is correct?",
+    "options": [
+      "Forces never act on still objects.",
+      "No force is acting on the box.",
+      "The box has no mass.",
+      "The push is balanced by friction, so the box stays still."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Forces still act; they simply balance, so there is no change in motion.\n\n**Key concept:** Balanced forces",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q50",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why can you see a book that does not give off its own light?",
+    "options": [
+      "Your eyes send light onto the book.",
+      "The book makes its own light.",
+      "Light from another source bounces off the book into your eyes.",
+      "The book absorbs all the light that hits it."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Most objects are seen by reflected light. Only sources such as lamps make their own.\n\n**Key concept:** Seeing by reflected light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q51",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these stores energy that can later be released as motion?",
+    "options": [
+      "A puddle of still water.",
+      "A stretched rubber band.",
+      "A cold stone on the ground.",
+      "An empty paper bag."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Stretching stores elastic energy, which turns into motion when the band is let go.\n\n**Key concept:** Stored elastic energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q52",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student adds a second battery to a simple circuit and the bulb glows brighter. What does this show?",
+    "options": [
+      "More energy is being supplied to the circuit.",
+      "The wire became a better insulator.",
+      "The bulb needs less energy now.",
+      "The circuit is broken."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Two batteries supply more electrical energy, so the bulb converts more of it into light.\n\n**Key concept:** Energy in circuits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q53",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool is used to measure a pushing or pulling force?",
+    "options": [
+      "A stopwatch.",
+      "A thermometer.",
+      "A graduated cylinder.",
+      "A spring scale."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A spring scale stretches in proportion to the force applied, so it measures force.\n\n**Key concept:** Measuring force",
+    "source": "authored",
+    "needsReview": false
   }
 ]

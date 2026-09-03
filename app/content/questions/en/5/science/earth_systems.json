@@ -118,5 +118,525 @@
     "explanation": "**Explanation:**\n**Jupiter** is the largest planet in our solar system by far. It is so large that all the other planets could fit inside it at once. Jupiter is a **gas giant** — a planet made mostly of gas (hydrogen and helium) rather than solid rock.\n\n**Planets in order from the sun (memory tip: \"My Very Educated Mother Just Served Us Nachos\"):**\n1. **M**ercury — smallest planet\n2. **V**enus — hottest planet\n3. **E**arth — our home\n4. **M**ars — the Red Planet\n5. **J**upiter — **LARGEST planet** ← correct answer\n6. **S**aturn — has the most visible rings\n7. **U**ranus — rotates on its side\n8. **N**eptune — farthest from sun\n\n**Key concept:** Jupiter = largest planet. Saturn = second largest. Both are \"gas giants.\"",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q54",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which process helps turn solid rock into soil over a long time?",
+    "options": [
+      "Soil falls from the sky as dust only.",
+      "Rock dissolves instantly in rain.",
+      "Weathering breaks the rock into smaller and smaller pieces.",
+      "Rock grows new layers each year."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Weathering by water, ice, wind and living things breaks rock down; decayed plant and animal matter mixes in to make soil.\n\n**Key concept:** Soil formation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q55",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which part of soil comes from once-living things?",
+    "options": [
+      "Sand grains.",
+      "Humus.",
+      "Gravel.",
+      "Clay minerals."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Humus is the dark material formed from decayed plants and animals, and it holds nutrients for new plants.\n\n**Key concept:** Humus",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q56",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water freezes inside a crack in a rock and the crack widens. What is this an example of?",
+    "options": [
+      "Weathering that breaks rock apart without changing what it is.",
+      "Erosion carrying the rock away.",
+      "Deposition adding new rock.",
+      "The rock melting into liquid."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Water expands as it freezes and pries the crack wider. The rock is broken up, not chemically changed.\n\n**Key concept:** Physical weathering",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q57",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A river carries sand downstream and drops it where the water slows. What is this called?",
+    "options": [
+      "Condensation.",
+      "Weathering.",
+      "Evaporation.",
+      "Deposition."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Deposition is the dropping of material that moving water, wind or ice has been carrying.\n\n**Key concept:** Deposition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q58",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which landform is created mainly by a river cutting downward over a long time?",
+    "options": [
+      "A sand dune.",
+      "A delta.",
+      "A canyon.",
+      "A glacier."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Fast-flowing water erodes the rock beneath it, carving a deep, steep-sided canyon.\n\n**Key concept:** Erosion and landforms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q59",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A delta forms at the mouth of a river. Which process builds it?",
+    "options": [
+      "Erosion by fast-moving water.",
+      "Deposition of sediment as the river slows.",
+      "Melting of the riverbed.",
+      "Evaporation of the river."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Where a river meets a lake or sea it loses speed and drops its sediment, building up a delta.\n\n**Key concept:** Deltas",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q60",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best way to reduce soil erosion on a bare hillside?",
+    "options": [
+      "Plant grasses and trees whose roots hold the soil.",
+      "Remove all the plants first.",
+      "Pave the whole hillside with loose gravel.",
+      "Water the hillside heavily every day."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Roots bind soil and leaves slow the rain, so vegetation is the most effective protection.\n\n**Key concept:** Erosion control",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q61",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Wind blows sand across a desert and piles it into a hill. Which two processes are at work?",
+    "options": [
+      "Melting, then freezing.",
+      "Deposition, then evaporation.",
+      "Condensation, then erosion.",
+      "Erosion, then deposition."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Wind erodes by picking sand up and carrying it, then deposits it where the wind slows, forming a dune.\n\n**Key concept:** Wind erosion and deposition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q62",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a renewable energy resource?",
+    "options": [
+      "Oil.",
+      "Coal.",
+      "Wind.",
+      "Natural gas."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Wind is replaced continuously by the Sun heating the air. The other three took millions of years to form.\n\n**Key concept:** Renewable resources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q63",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is coal described as a nonrenewable resource?",
+    "options": [
+      "It can only be burned once a year.",
+      "It forms far more slowly than people use it.",
+      "It contains no stored energy.",
+      "It is found in only one country."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A resource is nonrenewable when its rate of replacement is far slower than its rate of use.\n\n**Key concept:** Nonrenewable resources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q64",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A town wants electricity that does not run out and does not burn fuel. Which choice fits best?",
+    "options": [
+      "Solar panels.",
+      "A coal-fired power station.",
+      "A diesel generator.",
+      "A natural gas plant."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Solar energy is renewable and produces electricity without burning fuel.\n\n**Key concept:** Alternative energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q65",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A fossil of a fish is found in rock high on a mountain. What does this suggest?",
+    "options": [
+      "Fossils form only on mountains.",
+      "Fish once climbed mountains.",
+      "The rock fell from the sky.",
+      "That area was once covered by water."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Fossils record the environment of the past, so a marine fossil means that place was once underwater.\n\n**Key concept:** Fossils as evidence",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q66",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is a fossil?",
+    "options": [
+      "A rock that contains iron.",
+      "Any smooth stone found in a river.",
+      "The preserved remains or traces of a living thing from long ago.",
+      "A crystal grown in a laboratory."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Fossils include bones, shells, imprints and footprints preserved in rock.\n\n**Key concept:** What fossils are",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q67",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the difference between weather and climate?",
+    "options": [
+      "Weather lasts for years; climate changes each hour.",
+      "Weather is what the air is doing now; climate is the usual pattern over many years.",
+      "They mean exactly the same thing.",
+      "Climate applies only to deserts."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Weather is short term and changes daily; climate is the long-term average for a place.\n\n**Key concept:** Weather and climate",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q68",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement describes a climate rather than the weather?",
+    "options": [
+      "This region has hot, dry summers most years.",
+      "It is raining this afternoon.",
+      "The wind is strong right now.",
+      "It snowed yesterday morning."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A climate statement describes a long-term pattern, not one day’s conditions.\n\n**Key concept:** Weather and climate",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q69",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the water cycle, what happens during condensation?",
+    "options": [
+      "Water soaks into the soil.",
+      "Liquid water turns into vapour and rises.",
+      "Water falls to the ground as rain.",
+      "Water vapour cools and becomes tiny droplets, forming clouds."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Rising vapour cools with height and condenses into droplets, which gather as clouds.\n\n**Key concept:** Condensation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q70",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which step of the water cycle returns water from the air to the ground?",
+    "options": [
+      "Condensation.",
+      "Evaporation.",
+      "Precipitation.",
+      "Transpiration."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Precipitation is rain, snow, sleet or hail falling from clouds back to the surface.\n\n**Key concept:** Precipitation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q71",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The Sun warms a puddle and it slowly disappears. Which process is this?",
+    "options": [
+      "Condensation.",
+      "Evaporation.",
+      "Precipitation.",
+      "Deposition."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Energy from the Sun turns liquid water into water vapour, which mixes into the air.\n\n**Key concept:** Evaporation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q72",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Plants release water vapour into the air through their leaves. What is this step called?",
+    "options": [
+      "Transpiration.",
+      "Precipitation.",
+      "Runoff.",
+      "Erosion."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Transpiration is water loss from leaves, and it adds a great deal of vapour to the air.\n\n**Key concept:** Transpiration",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q73",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What causes day and night on Earth?",
+    "options": [
+      "The Sun switches off at night.",
+      "Earth travels around the Sun once a year.",
+      "The Moon blocks the Sun each night.",
+      "Earth rotates once on its axis about every 24 hours."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** As Earth spins, the side facing the Sun has day and the side facing away has night.\n\n**Key concept:** Rotation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q74",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "About how long does one full rotation of Earth take?",
+    "options": [
+      "About one month.",
+      "About 365 days.",
+      "About 24 hours.",
+      "About one week."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** One rotation is one day. One trip around the Sun is one year.\n\n**Key concept:** Rotation and revolution",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q75",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Shadows outside a school are long in the early morning and short at midday. What explains this?",
+    "options": [
+      "The Sun moves closer to Earth at noon.",
+      "Earth’s rotation changes the Sun’s apparent position in the sky.",
+      "Buildings shrink during the day.",
+      "Shadows are longer when it is warmer."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** As Earth turns, the Sun appears to rise, cross the sky and set, changing the length of shadows.\n\n**Key concept:** Rotation and shadows",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q76",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which correctly compares the Sun, Earth and Moon by size, largest first?",
+    "options": [
+      "Sun, Earth, Moon.",
+      "Earth, Sun, Moon.",
+      "Moon, Earth, Sun.",
+      "Sun, Moon, Earth."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The Sun is by far the largest, Earth is much smaller, and the Moon is smaller still.\n\n**Key concept:** Comparing Sun, Earth and Moon",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q77",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement about the Moon is correct?",
+    "options": [
+      "It is a star.",
+      "It makes its own light like the Sun.",
+      "It is larger than Earth.",
+      "It does not make its own light; we see sunlight reflected from it."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The Moon shines by reflecting sunlight. Only stars such as the Sun produce their own light.\n\n**Key concept:** The Moon",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q78",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does the Sun look larger than any other star in the sky?",
+    "options": [
+      "Other stars make no light.",
+      "It is the biggest star that exists.",
+      "It is far closer to Earth than the other stars.",
+      "It is inside Earth’s atmosphere."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Distance changes how big and bright a star appears, and the Sun is by far the nearest.\n\n**Key concept:** Apparent size",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q79",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which soil would hold water the longest after rain?",
+    "options": [
+      "Soil made mostly of coarse sand.",
+      "Soil with a lot of clay.",
+      "Soil made of loose gravel.",
+      "Soil with large air gaps."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Clay particles are very small and packed closely, so water drains through them slowly.\n\n**Key concept:** Soil properties",
+    "source": "authored",
+    "needsReview": false
   }
 ]

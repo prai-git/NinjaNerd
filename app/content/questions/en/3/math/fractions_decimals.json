@@ -138,5 +138,505 @@
     "explanation": "**Explanation:**\nSplitting the same whole into more parts makes each part smaller: 1/12 < 1/8.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q26",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pizza is cut into 8 equal slices and 3 are eaten. What fraction was eaten?",
+    "options": [
+      "3/5",
+      "8/3",
+      "3/8",
+      "5/8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The denominator is the number of equal parts (8) and the numerator is how many were eaten (3).\n\n**Key concept:** Naming fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q27",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is divided into 4 equal parts and 1 is shaded. What fraction is shaded?",
+    "options": [
+      "1/3",
+      "1/4",
+      "4/1",
+      "3/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** One of four equal parts is one quarter, written 1/4.\n\n**Key concept:** Naming fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q28",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is equivalent to 1/2?",
+    "options": [
+      "4/8",
+      "1/4",
+      "2/6",
+      "3/8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 4/8 simplifies to 1/2 because 4 is exactly half of 8.\n\n**Key concept:** Equivalent fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q29",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is equivalent to 2/3?",
+    "options": [
+      "1/3",
+      "2/6",
+      "3/4",
+      "4/6"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Multiplying both the top and bottom of 2/3 by 2 gives 4/6.\n\n**Key concept:** Equivalent fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q30",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line from 0 to 1 divided into 6 equal parts, which point is 4/6?",
+    "options": [
+      "The second mark after 0.",
+      "The sixth mark after 0.",
+      "The fourth mark after 0.",
+      "Exactly halfway."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each mark is one sixth, so 4/6 is four marks along from 0.\n\n**Key concept:** Fractions on a number line",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q31",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is greater, 3/5 or 2/5?",
+    "options": [
+      "2/5, because 2 is a smaller number.",
+      "3/5, because it has more of the same size parts.",
+      "They are equal.",
+      "It cannot be compared."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When denominators match, the fraction with the larger numerator is greater.\n\n**Key concept:** Comparing like denominators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q32",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is greater, 1/3 or 1/6?",
+    "options": [
+      "1/3, because thirds are bigger pieces than sixths.",
+      "1/6, because 6 is bigger than 3.",
+      "They are equal.",
+      "Neither is a fraction."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Splitting a whole into fewer parts makes each part larger.\n\n**Key concept:** Comparing like numerators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q33",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is equal to one whole?",
+    "options": [
+      "1/5",
+      "4/5",
+      "5/4",
+      "5/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** When the numerator and denominator are the same, all the parts are there, making one whole.\n\n**Key concept:** Fractions equal to one",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q34",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is greater than 1?",
+    "options": [
+      "4/4",
+      "3/4",
+      "7/4",
+      "1/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 7/4 has more parts than one whole needs, so it is greater than 1.\n\n**Key concept:** Fractions greater than one",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q35",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana ate 2/8 of a cake and Ben ate 2/4. Who ate more?",
+    "options": [
+      "Ana, because 8 is bigger than 4.",
+      "Ben, because quarters are larger pieces than eighths.",
+      "They ate the same.",
+      "It cannot be worked out."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** With the same numerator, the smaller denominator gives the larger pieces.\n\n**Key concept:** Comparing fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q36",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list is ordered from least to greatest?",
+    "options": [
+      "1/8, 1/4, 1/2",
+      "1/2, 1/4, 1/8",
+      "1/4, 1/8, 1/2",
+      "1/8, 1/2, 1/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The more equal parts a whole is split into, the smaller each part is.\n\n**Key concept:** Ordering unit fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q37",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jug holds 6 cups. If 3 cups are poured out, what fraction of the jug is left?",
+    "options": [
+      "5/6",
+      "6/3",
+      "1/6",
+      "3/6"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Three of the six cups remain, which is 3/6 of the jug.\n\n**Key concept:** Fractions of a set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q38",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 10 marbles and 4 are red. What fraction are red?",
+    "options": [
+      "4/6",
+      "10/4",
+      "4/10",
+      "6/10"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Four out of ten marbles are red, written 4/10.\n\n**Key concept:** Fractions of a set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q39",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two identical pizzas are cut differently: one into 4 slices, one into 8. Which single slice is bigger?",
+    "options": [
+      "A slice from the pizza cut into 8.",
+      "A slice from the pizza cut into 4.",
+      "They are exactly the same.",
+      "It depends on the topping."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The same whole cut into fewer parts gives larger parts.\n\n**Key concept:** Size of fractional parts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q40",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which picture shows thirds?",
+    "options": [
+      "A circle divided into 3 equal parts.",
+      "A circle divided into 3 unequal parts.",
+      "A circle divided into 4 equal parts.",
+      "A circle with 3 dots drawn on it."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Fractions require the parts to be EQUAL, not just three of them.\n\n**Key concept:** Equal parts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q41",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Kim shaded 2/4 of a bar. Which is another way to write that amount?",
+    "options": [
+      "4/2",
+      "1/4",
+      "2/2",
+      "1/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 2/4 and 1/2 cover the same amount of the bar.\n\n**Key concept:** Equivalent fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q42",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is closest to one whole?",
+    "options": [
+      "4/8",
+      "1/8",
+      "7/8",
+      "5/8"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 7/8 needs only one more eighth to make a whole, so it is closest.\n\n**Key concept:** Comparing to one whole",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q43",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On a number line from 0 to 1 split into 4 equal parts, what fraction is the mark just before 1?",
+    "options": [
+      "1/4",
+      "3/4",
+      "4/4",
+      "1/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Counting the marks gives 1/4, 2/4, 3/4, then 1. The mark before 1 is 3/4.\n\n**Key concept:** Number line",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q44",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which fraction is less than 1/2?",
+    "options": [
+      "2/6",
+      "3/4",
+      "5/8",
+      "4/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 2/6 is one third, which is less than one half. The others are all more than half.\n\n**Key concept:** Comparing to one half",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q45",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Twelve children are in a group and 6 wear hats. What fraction wear hats?",
+    "options": [
+      "1/12",
+      "12/6",
+      "6/6",
+      "6/12"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Six of the twelve children wear hats, which is 6/12, or one half.\n\n**Key concept:** Fractions of a set",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q46",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does the bottom number of a fraction tell you?",
+    "options": [
+      "How big the whole is.",
+      "How many parts are shaded.",
+      "How many equal parts the whole is divided into.",
+      "How many wholes there are."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The denominator names the size of the parts; the numerator counts them.\n\n**Key concept:** Numerator and denominator",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q47",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sam has 8/8 of a chocolate bar. How much does he have?",
+    "options": [
+      "Half a bar.",
+      "One whole bar.",
+      "Eight bars.",
+      "No bar at all."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 8/8 means all eight of the eight parts, which is one whole.\n\n**Key concept:** Fractions equal to one",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q48",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is true?",
+    "options": [
+      "5/6 > 4/6",
+      "4/6 > 5/6",
+      "5/6 = 4/6",
+      "4/6 > 6/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** With the same denominator, more parts means a larger fraction.\n\n**Key concept:** Comparing fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q49",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of fractions is equivalent?",
+    "options": [
+      "1/4 and 1/2",
+      "3/6 and 1/3",
+      "2/3 and 1/2",
+      "3/6 and 1/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 3/6 is exactly half of the whole, the same as 1/2.\n\n**Key concept:** Equivalent fractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q50",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Fractions & Decimals",
+    "subtopic": "fractions_decimals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two bars are the same length. One is split into halves and one into sixths. Which statement is true?",
+    "options": [
+      "They are the same length.",
+      "One sixth is longer than one half.",
+      "One half is longer than one sixth.",
+      "Sixths cannot be compared with halves."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Fewer parts from the same whole means each part is longer.\n\n**Key concept:** Comparing unit fractions",
+    "source": "authored",
+    "needsReview": false
   }
 ]

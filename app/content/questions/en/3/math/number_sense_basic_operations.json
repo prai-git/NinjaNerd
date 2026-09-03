@@ -138,5 +138,505 @@
     "explanation": "**Worked solution:** A unit fraction has numerator 1 and names one equal part of a whole. Therefore \\(\frac{1}{6}\\) is one of 6 equal parts.\n\n**Key concept:** Unit fractions",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q1",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the value of the digit 6 in 4,682?",
+    "options": [
+      "6,000",
+      "6",
+      "60",
+      "600"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The 6 sits in the hundreds place, so it is worth 6 hundreds, which is 600.\n\n**Key concept:** Place value",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q2",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number has a 3 in the thousands place?",
+    "options": [
+      "5,138",
+      "1,342",
+      "3,415",
+      "8,203"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** In 3,415 the 3 is the leftmost digit, in the thousands place.\n\n**Key concept:** Place value",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q3",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shows 5,204 in expanded form?",
+    "options": [
+      "5,000 + 20 + 4",
+      "5,000 + 200 + 4",
+      "500 + 200 + 4",
+      "5,000 + 200 + 40"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** There are 5 thousands, 2 hundreds, 0 tens and 4 ones. The zero tens add nothing.\n\n**Key concept:** Expanded form",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q4",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comparison is true?",
+    "options": [
+      "3,472 < 3,724",
+      "3,472 > 3,724",
+      "3,472 = 3,724",
+      "3,724 < 3,472"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Both start with 3. Comparing hundreds, 4 is less than 7, so 3,472 is smaller.\n\n**Key concept:** Comparing numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q5",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Order these from least to greatest: 812, 128, 281",
+    "options": [
+      "128, 812, 281",
+      "812, 281, 128",
+      "281, 128, 812",
+      "128, 281, 812"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Compare the hundreds digit first: 1 is least, then 2, then 8.\n\n**Key concept:** Ordering numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q6",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is between 450 and 470?",
+    "options": [
+      "472",
+      "448",
+      "463",
+      "510"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 463 is greater than 450 and less than 470. The others fall outside that range.\n\n**Key concept:** Number between",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q7",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Round 384 to the nearest ten.",
+    "options": [
+      "390",
+      "380",
+      "400",
+      "300"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The ones digit is 4, which is less than 5, so the tens digit stays the same.\n\n**Key concept:** Rounding to tens",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q8",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Round 651 to the nearest hundred.",
+    "options": [
+      "700",
+      "600",
+      "650",
+      "1,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The tens digit is 5, so the hundreds digit rounds up from 6 to 7.\n\n**Key concept:** Rounding to hundreds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q9",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 347 + 285?",
+    "options": [
+      "612",
+      "622",
+      "532",
+      "632"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 7 + 5 = 12, write 2 carry 1. 4 + 8 + 1 = 13, write 3 carry 1. 3 + 2 + 1 = 6.\n\n**Key concept:** Addition with regrouping",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q10",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 500 − 236?",
+    "options": [
+      "364",
+      "274",
+      "264",
+      "236"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Regroup across the zeros: 500 − 236 = 264.\n\n**Key concept:** Subtraction across zeros",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q11",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop had 428 pencils and sold 175. How many are left?",
+    "options": [
+      "353",
+      "253",
+      "263",
+      "603"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 428 − 175 = 253 pencils remaining. Adding instead of subtracting gives 603.\n\n**Key concept:** Subtraction word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q12",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 156 + 209 + 34?",
+    "options": [
+      "399",
+      "389",
+      "409",
+      "379"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 156 + 209 = 365, and 365 + 34 = 399.\n\n**Key concept:** Adding three numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q13",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 7 × 8?",
+    "options": [
+      "48",
+      "54",
+      "63",
+      "56"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Seven groups of eight is 56.\n\n**Key concept:** Multiplication facts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q14",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 6 × 9?",
+    "options": [
+      "56",
+      "45",
+      "54",
+      "63"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Six groups of nine is 54.\n\n**Key concept:** Multiplication facts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q15",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tray holds 6 rows of 4 muffins. How many muffins is that?",
+    "options": [
+      "10",
+      "24",
+      "20",
+      "28"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An array of 6 rows of 4 is 6 × 4 = 24.\n\n**Key concept:** Arrays and multiplication",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q16",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which multiplication sentence matches 5 groups of 7?",
+    "options": [
+      "5 × 7 = 35",
+      "5 + 7 = 12",
+      "7 − 5 = 2",
+      "35 ÷ 5 = 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Equal groups mean multiplication: 5 groups of 7 is 5 × 7 = 35.\n\n**Key concept:** Equal groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q17",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 42 ÷ 6?",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Six times seven is 42, so 42 divided by 6 is 7.\n\n**Key concept:** Division facts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q18",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "36 stickers are shared equally among 4 children. How many does each get?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 36 ÷ 4 = 9 stickers each.\n\n**Key concept:** Division as sharing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q19",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which division sentence goes with 8 × 5 = 40?",
+    "options": [
+      "40 ÷ 8 = 5 only",
+      "40 ÷ 5 = 8",
+      "8 ÷ 5 = 40",
+      "5 ÷ 40 = 8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Multiplication and division are opposites, so 8 × 5 = 40 gives 40 ÷ 5 = 8.\n\n**Key concept:** Fact families",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q20",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 4 × 20?",
+    "options": [
+      "80",
+      "24",
+      "60",
+      "800"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 4 × 2 = 8, and because it is 20 the answer is 8 tens, which is 80.\n\n**Key concept:** Multiplying by tens",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q21",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is 3 × 300?",
+    "options": [
+      "9,000",
+      "90",
+      "303",
+      "900"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 3 × 3 = 9, and 300 is 3 hundreds, so the answer is 9 hundreds.\n\n**Key concept:** Multiplying by hundreds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q22",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A school collected 1,245 cans in one week and 987 the next. How many in total?",
+    "options": [
+      "2,222",
+      "2,132",
+      "2,232",
+      "2,332"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 1,245 + 987 = 2,232 cans.\n\n**Key concept:** Addition word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q23",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is an even number?",
+    "options": [
+      "231",
+      "346",
+      "457",
+      "129"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A number is even when its ones digit is 0, 2, 4, 6 or 8. 346 ends in 6.\n\n**Key concept:** Even and odd",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q24",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A spider has 8 legs. How many legs do 7 spiders have?",
+    "options": [
+      "56",
+      "15",
+      "48",
+      "64"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 7 × 8 = 56 legs.\n\n**Key concept:** Multiplication word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q25",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A baker puts 63 rolls into bags of 9. How many bags?",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 63 ÷ 9 = 7 bags.\n\n**Key concept:** Division word problem",
+    "source": "authored",
+    "needsReview": false
   }
 ]

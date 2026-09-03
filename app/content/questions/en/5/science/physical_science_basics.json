@@ -78,5 +78,565 @@
     "explanation": "**Explanation:**\nWhen sand and iron filings are mixed with water, the result is a **mixture** — the individual substances keep their own properties and can be physically separated. They did NOT chemically react to form a new substance.\n\n**Methods to separate this mixture:**\n- Use a **magnet** to pull out the iron filings\n- Use **filtration** (a strainer or filter paper) to separate the sand from the water\n- The components retain their original properties\n\n**Key concept:** Mixture = two or more substances combined that keep their properties and CAN be separated. No new substance is formed.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q1",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which physical property would best separate iron filings from a mixture of iron filings and sand?",
+    "options": [
+      "Solubility, because both dissolve in water.",
+      "Colour, because both materials look the same.",
+      "Mass, because both grains weigh exactly the same.",
+      "Magnetism, because iron is attracted to a magnet and sand is not."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Iron is magnetic and sand is not, so a magnet lifts the iron out without changing either material.\n\n**Key concept:** Classifying matter by physical properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q2",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student places four objects in water. Which one is most likely to sink?",
+    "options": [
+      "A cork stopper.",
+      "A hollow plastic ball.",
+      "A solid metal bolt.",
+      "A dry wooden block."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The bolt is denser than water, so it sinks. The others are less dense than water and float.\n\n**Key concept:** Relative density",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q3",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property tells you whether a material will let electricity pass through it?",
+    "options": [
+      "Solubility in water.",
+      "Electrical conductivity.",
+      "Magnetic attraction.",
+      "Boiling point."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Conductivity describes how easily electric charge moves through a material. Metals conduct; plastic and rubber do not.\n\n**Key concept:** Conductivity",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q4",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sugar disappears when stirred into warm water. Which physical property is being shown?",
+    "options": [
+      "Solubility in water.",
+      "Magnetism.",
+      "Electrical conductivity.",
+      "Density."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Solubility is the ability of a substance to dissolve in a liquid. The sugar is still there, spread evenly through the water.\n\n**Key concept:** Solubility",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q5",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list gives three states of matter?",
+    "options": [
+      "Gas, colour, mass.",
+      "Solid, metal, wood.",
+      "Liquid, magnet, gas.",
+      "Solid, liquid, gas."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Matter on Earth is commonly found as a solid, a liquid or a gas. The other lists name materials or properties, not states.\n\n**Key concept:** States of matter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q6",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student needs to measure the mass of a rock. Which tool should be used?",
+    "options": [
+      "A ruler.",
+      "A thermometer.",
+      "A balance.",
+      "A stopwatch."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A balance compares an unknown mass with known masses. The others measure temperature, length and time.\n\n**Key concept:** Measuring mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q7",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pair of properties could be used to tell two clear liquids apart?",
+    "options": [
+      "Colour and shape.",
+      "Boiling point and density.",
+      "Length and width.",
+      "Number of drops and container size."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Both liquids are clear, so colour cannot help. Boiling point and density belong to the liquid itself, whatever the container.\n\n**Key concept:** Identifying materials",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q8",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a solution?",
+    "options": [
+      "Salt stirred into water until it disappears.",
+      "Sand shaken up in water.",
+      "Oil floating on water.",
+      "Marbles mixed with beads."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** In a solution one substance dissolves evenly into another, so the parts can no longer be seen separately.\n\n**Key concept:** Solutions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q9",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bowl holds cereal, raisins and nuts. Why is this a mixture rather than a solution?",
+    "options": [
+      "It contains only one kind of matter.",
+      "The parts have all dissolved.",
+      "The mixture is evenly spread throughout.",
+      "The separate parts can still be seen and picked out."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A mixture keeps its parts identifiable. In a solution the dissolved substance spreads evenly and cannot be picked out.\n\n**Key concept:** Mixtures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q10",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which method would best separate salt from salt water?",
+    "options": [
+      "Use a magnet to attract the salt.",
+      "Pour the mixture through filter paper.",
+      "Let the water evaporate and collect the salt left behind.",
+      "Freeze the mixture and pour off the ice."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Dissolved salt passes straight through a filter. Evaporating the water leaves the salt behind.\n\n**Key concept:** Separating a solution",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q11",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why does filtering separate sand from water but not salt from water?",
+    "options": [
+      "Salt is heavier than sand.",
+      "Sand grains are too large to pass through the filter, but dissolved salt is not.",
+      "Water dissolves sand but not salt.",
+      "The filter reacts with the salt."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Filtration catches undissolved solids. Dissolved particles travel through the filter with the liquid.\n\n**Key concept:** Separating mixtures",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q12",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change would make sugar dissolve faster in water?",
+    "options": [
+      "Stirring the water and warming it.",
+      "Cooling the water and leaving it still.",
+      "Using one large lump instead of grains.",
+      "Adding more sugar at once."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Warming and stirring make the water particles move faster, so they break the sugar apart more quickly.\n\n**Key concept:** Rate of dissolving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q13",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student mixes oil and water and the layers separate. What does this show?",
+    "options": [
+      "Both liquids have the same density.",
+      "The oil has dissolved in the water.",
+      "A new substance has formed.",
+      "The two liquids do not dissolve in each other."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Oil and water do not mix. The less dense oil floats, forming a separate layer.\n\n**Key concept:** Mixtures that separate",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q14",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A sealed jar of water is weighed, then frozen solid and weighed again. What happens to its mass?",
+    "options": [
+      "It decreases, because the water stopped moving.",
+      "It increases, because ice is heavier than water.",
+      "It stays the same, because no matter entered or left the jar.",
+      "It becomes zero, because water is no longer liquid."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Freezing changes the state of the water, not the amount of matter. In a sealed jar the mass is unchanged.\n\n**Key concept:** Conservation of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q15",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An ice cube melts in a closed cup. Compared with the ice, the liquid water has —",
+    "options": [
+      "more mass, because liquid takes more space.",
+      "the same mass and the same amount of matter.",
+      "less mass, because some matter disappeared.",
+      "no mass, because it changed state."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Melting rearranges the particles; it does not create or destroy them, so mass is conserved.\n\n**Key concept:** Changes of state",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q16",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water is boiled in an open pot and the pot is weighed afterwards. Why does the mass go down?",
+    "options": [
+      "Water vapour escaped into the air.",
+      "The water was destroyed by the heat.",
+      "Boiling makes matter weigh less.",
+      "The pot absorbed the water."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The matter is not gone, it has left the pot as vapour. In a sealed container the mass would not change.\n\n**Key concept:** Open and closed systems",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q17",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What happens to the particles in a solid as it is heated until it melts?",
+    "options": [
+      "They shrink in size.",
+      "They stop moving completely.",
+      "They turn into a different substance.",
+      "They gain energy and begin to slide past one another."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Heating gives particles enough energy to break out of fixed positions, so the solid becomes a liquid.\n\n**Key concept:** Particles and state change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q18",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object is attracted to a magnet?",
+    "options": [
+      "A rubber band.",
+      "A copper coin.",
+      "A steel paper clip.",
+      "A glass marble."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Steel contains iron, which is magnetic. Copper, rubber and glass are not.\n\n**Key concept:** Magnetism",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q19",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student sorts materials into \"conductor\" and \"insulator\". Where does a plastic ruler belong?",
+    "options": [
+      "Conductor, because it is solid.",
+      "Insulator, because electricity does not pass through it easily.",
+      "Conductor, because it is smooth.",
+      "Insulator, because it is transparent."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Plastic resists the flow of electric charge, which is why wires are coated with it.\n\n**Key concept:** Conductors and insulators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q20",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two blocks are the same size, but one is much harder to lift. What is different about them?",
+    "options": [
+      "The heavier block has more mass in the same amount of space.",
+      "The heavier block is a different colour.",
+      "The lighter block has no mass at all.",
+      "The blocks have different temperatures."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Equal volumes with different masses means the materials have different densities.\n\n**Key concept:** Density",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q21",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement about a gas is correct?",
+    "options": [
+      "It cannot be weighed.",
+      "It keeps its own shape and volume.",
+      "Its particles do not move.",
+      "It spreads out to fill whatever container it is in."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Gas particles move rapidly and are far apart, so a gas fills its container. Gases still have mass.\n\n**Key concept:** Properties of gases",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q22",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which mixture is easiest to separate using a sieve?",
+    "options": [
+      "Sugar dissolved in tea.",
+      "Salt dissolved in water.",
+      "Gravel mixed with sand.",
+      "Food colouring in water."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A sieve separates by particle size, which works for gravel and sand. The others are dissolved and pass straight through.\n\n**Key concept:** Separating by size",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q23",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student describes a material as \"shiny, bends without breaking, and conducts electricity\". The material is most likely —",
+    "options": [
+      "a plastic.",
+      "a metal.",
+      "a piece of wood.",
+      "a ceramic tile."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Shine, bendability and conductivity together are typical metal properties.\n\n**Key concept:** Identifying metals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q24",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which change does NOT change the total mass of a closed system?",
+    "options": [
+      "Water freezing into ice.",
+      "Nothing — every change reduces mass.",
+      "Only changes that make a gas.",
+      "Only changes that give off heat."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Mass is conserved through any change of state in a closed system.\n\n**Key concept:** Conservation of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q25",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit would a student use to record the mass of a small stone?",
+    "options": [
+      "Centimetres.",
+      "Millilitres.",
+      "Degrees Celsius.",
+      "Grams."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Grams measure mass. The others measure volume, temperature and length.\n\n**Key concept:** Units for mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q26",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "After stirring pepper into water, the pepper still floats about in specks. What kind of mixture is this?",
+    "options": [
+      "A pure substance.",
+      "A solution, because it was stirred.",
+      "A mixture whose parts can still be seen.",
+      "A new compound."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The pepper has not dissolved; it is spread through the water but still visible, so it is not a solution.\n\n**Key concept:** Mixtures vs solutions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q27",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How could a student find the volume of an irregular stone?",
+    "options": [
+      "Weigh it on a balance.",
+      "Lower it into water and measure how much the water rises.",
+      "Measure its longest side with a ruler.",
+      "Time how fast it sinks."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Water displacement gives the volume of an object whose shape cannot be measured with a ruler.\n\n**Key concept:** Measuring volume",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g5_2026-09-03_18-00_q28",
+    "grade": 5,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a physical property of matter?",
+    "options": [
+      "The temperature at which it melts.",
+      "How much it costs.",
+      "Who owns it.",
+      "Where it was bought."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A physical property belongs to the material itself and can be measured without changing what it is.\n\n**Key concept:** Physical properties",
+    "source": "authored",
+    "needsReview": false
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T16:34:52.928Z",
+  "generatedAt": "2026-09-03T17:33:30.501Z",
   "grades": {
     "1": {
       "english": [
@@ -219,37 +219,37 @@
         {
           "subtopic": "algebraic_concepts",
           "slug": "algebraic_concepts",
-          "count": 16
+          "count": 32
         },
         {
           "subtopic": "financial_literacy",
           "slug": "financial_literacy",
-          "count": 9
+          "count": 32
         },
         {
           "subtopic": "fractions_decimals",
           "slug": "fractions_decimals",
-          "count": 7
+          "count": 32
         },
         {
           "subtopic": "geometry_spatial_concepts",
           "slug": "geometry_spatial_concepts",
-          "count": 8
+          "count": 32
         },
         {
           "subtopic": "measurement_data",
           "slug": "measurement_data",
-          "count": 7
+          "count": 32
         },
         {
           "subtopic": "number_sense_basic_operations",
           "slug": "number_sense_basic_operations",
-          "count": 7
+          "count": 32
         },
         {
           "subtopic": "problem_solving_applications",
           "slug": "problem_solving_applications",
-          "count": 7
+          "count": 32
         }
       ],
       "science": [
@@ -442,27 +442,27 @@
         {
           "subtopic": "earth_systems",
           "slug": "earth_systems",
-          "count": 6
+          "count": 32
         },
         {
           "subtopic": "forces_energy",
           "slug": "forces_energy",
-          "count": 7
+          "count": 32
         },
         {
           "subtopic": "life_science_fundamentals",
           "slug": "life_science_fundamentals",
-          "count": 27
+          "count": 33
         },
         {
           "subtopic": "physical_science_basics",
           "slug": "physical_science_basics",
-          "count": 4
+          "count": 32
         },
         {
           "subtopic": "scientific_investigation_skills",
           "slug": "scientific_investigation_skills",
-          "count": 2
+          "count": 32
         }
       ]
     },

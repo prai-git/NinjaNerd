@@ -178,5 +178,465 @@
     "explanation": "**Worked solution:** All three cost \\(9+8+11=28\\), but Noah has \\(25\\). The notebook and water bottle cost \\(17\\), which stays within the budget.\n\n**Key concept:** Staying within a budget",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q141",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is an example of earning income?",
+    "options": [
+      "Borrowing money from a friend.",
+      "Finding a coin on the pavement.",
+      "Being given a birthday present.",
+      "Being paid for walking a neighbour’s dog."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Income is money earned in exchange for work or a service.\n\n**Key concept:** Income",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q142",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which job would earn income?",
+    "options": [
+      "Playing a game with friends.",
+      "Watching television at home.",
+      "Mowing lawns for a fee.",
+      "Sleeping late on Saturday."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Income comes from doing work that someone pays for.\n\n**Key concept:** Income",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q143",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the difference between a want and a need?",
+    "options": [
+      "They mean exactly the same thing.",
+      "A need is something you must have to live; a want is something you would like.",
+      "A want costs more than a need always.",
+      "A need is only for adults."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Food, water and shelter are needs. A new toy is a want.\n\n**Key concept:** Wants and needs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q144",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a NEED?",
+    "options": [
+      "Food to eat.",
+      "A video game.",
+      "A new bicycle.",
+      "A trip to the cinema."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Food is required to live; the others are wants.\n\n**Key concept:** Wants and needs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q145",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ravi earns \\(12 and spends \\)7. How much can he save?",
+    "options": [
+      "$12",
+      "$19",
+      "$7",
+      "$5"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(12 earned − \\)7 spent = $5 left to save.\n\n**Key concept:** Saving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q146",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is it useful to save money?",
+    "options": [
+      "So you never have to work.",
+      "So the money disappears.",
+      "So you can afford something that costs more than you have today.",
+      "So prices go down."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Saving builds up money over time for a larger purchase or an emergency.\n\n**Key concept:** Saving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q147",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Kate saves $4 every week. How much has she saved after 8 weeks?",
+    "options": [
+      "$12",
+      "$32",
+      "$24",
+      "$48"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 8 × \\(4 = \\)32 saved.\n\n**Key concept:** Saving over time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q148",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does it mean to borrow money?",
+    "options": [
+      "You use someone else’s money now and must pay it back later.",
+      "You are given money to keep.",
+      "You earn money by working.",
+      "You find money you can keep."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Borrowed money is not yours; it has to be returned, often with extra.\n\n**Key concept:** Borrowing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q149",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben borrows $20 and must pay back $23. What is the extra $3 called?",
+    "options": [
+      "Savings.",
+      "A gift.",
+      "Income.",
+      "The cost of borrowing."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Borrowing usually costs extra, and that extra is the cost of the loan.\n\n**Key concept:** Cost of credit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q150",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best reason to make a budget?",
+    "options": [
+      "To avoid ever spending money.",
+      "To make money appear.",
+      "To plan how much to spend and how much to save.",
+      "To stop earning income."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A budget is a plan that matches spending and saving to income.\n\n**Key concept:** Budgeting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q151",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana has \\(30. She budgets \\)18 for a gift and saves the rest. How much does she save?",
+    "options": [
+      "$48",
+      "$12",
+      "$18",
+      "$22"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** \\(30 − \\)18 = $12 saved.\n\n**Key concept:** Budgeting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q152",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which choice shows spending money wisely?",
+    "options": [
+      "Comparing prices before buying.",
+      "Buying the first thing you see.",
+      "Buying something you already own.",
+      "Spending all your money at once."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Comparing prices helps you get more for the money you have.\n\n**Key concept:** Making spending decisions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q153",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two shops sell the same ball. Shop A charges $9 and Shop B charges $7. Which is the better buy?",
+    "options": [
+      "Neither is a good buy.",
+      "Shop A, because it costs more.",
+      "They are the same.",
+      "Shop B, because the same ball costs less."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** When the item is identical, the lower price is the better value.\n\n**Key concept:** Comparing costs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q154",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A family must choose between a new car and a holiday, but cannot afford both. What is this called?",
+    "options": [
+      "Borrowing money.",
+      "Earning income.",
+      "Making a choice because resources are limited.",
+      "Saving money."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Limited money forces choices; choosing one thing means giving up another.\n\n**Key concept:** Scarcity and choice",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q155",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a safe place to keep savings?",
+    "options": [
+      "A pocket with a hole in it.",
+      "A bank account.",
+      "Loose on a table.",
+      "Given away to a stranger."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A bank keeps money safe and may add a little interest.\n\n**Key concept:** Saving safely",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q156",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Marcus earns $15 washing cars and $10 raking leaves. What is his total income?",
+    "options": [
+      "$25",
+      "$5",
+      "$150",
+      "$15"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** \\(15 + \\)10 = $25 total income.\n\n**Key concept:** Calculating income",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q157",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Priya wants a $40 game and saves $8 a week. How many weeks until she can buy it?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(40 ÷ \\)8 = 5 weeks of saving.\n\n**Key concept:** Saving goals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q158",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What happens if someone spends more than the income they receive?",
+    "options": [
+      "Their savings increase.",
+      "Their income grows.",
+      "They run out of money and may need to borrow.",
+      "Prices go down for them."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Spending more than you earn leaves a shortfall that must come from savings or borrowing.\n\n**Key concept:** Income and spending",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q159",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why should a person be careful about borrowing?",
+    "options": [
+      "Borrowed money never has to be returned.",
+      "The money must be paid back, usually with an extra cost.",
+      "Borrowing always makes you richer.",
+      "Borrowing is the same as earning."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A loan is a promise to repay, and the extra cost makes the item dearer overall.\n\n**Key concept:** Responsible borrowing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q160",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a WANT rather than a need?",
+    "options": [
+      "A television for the bedroom.",
+      "Clean drinking water.",
+      "A warm coat in winter.",
+      "Somewhere to live."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A television is nice to have; the others are needed to stay alive and well.\n\n**Key concept:** Wants and needs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q161",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sam has \\(25 and wants a \\)60 scooter. How much more does he need?",
+    "options": [
+      "$25",
+      "$85",
+      "$45",
+      "$35"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(60 − \\)25 = $35 more to save.\n\n**Key concept:** Saving goals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q162",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why might a shop lower the price of an item?",
+    "options": [
+      "To stop anyone buying it.",
+      "To make it cost more.",
+      "To encourage more people to buy it.",
+      "Because prices never change."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Lower prices attract buyers, which is why sales happen.\n\n**Key concept:** Prices",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q163",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A budget lists income of \\(50 and spending of \\)50. What is left to save?",
+    "options": [
+      "$50",
+      "Nothing.",
+      "$100",
+      "$25"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When spending exactly equals income there is nothing left over.\n\n**Key concept:** Budgeting",
+    "source": "authored",
+    "needsReview": false
   }
 ]

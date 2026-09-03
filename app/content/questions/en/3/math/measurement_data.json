@@ -138,5 +138,505 @@
     "explanation": "**Explanation:**\n3 kilograms = 3,000 grams. 3,000 − 2,500 = 500 grams more than the flour. Convert to the same\nunit before comparing.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q75",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A film starts at 3:15 and lasts 45 minutes. What time does it end?",
+    "options": [
+      "3:60",
+      "4:00",
+      "4:15",
+      "3:45"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 45 minutes after 3:15 is 4:00, because 15 + 45 = 60 minutes, which is one hour.\n\n**Key concept:** Elapsed time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q76",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A lesson runs from 9:20 to 10:05. How long is it?",
+    "options": [
+      "45 minutes",
+      "35 minutes",
+      "55 minutes",
+      "1 hour 5 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** From 9:20 to 10:00 is 40 minutes, plus 5 more makes 45 minutes.\n\n**Key concept:** Elapsed time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q77",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many minutes are in 2 hours?",
+    "options": [
+      "180",
+      "60",
+      "100",
+      "120"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** One hour is 60 minutes, so two hours is 2 × 60 = 120 minutes.\n\n**Key concept:** Units of time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q78",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is best for measuring the length of a pencil?",
+    "options": [
+      "Litres",
+      "Kilometres",
+      "Centimetres",
+      "Grams"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A pencil is a short length, so centimetres fit. Litres measure volume and grams measure mass.\n\n**Key concept:** Choosing units of length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q79",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is best for measuring the distance between two cities?",
+    "options": [
+      "Centimetres",
+      "Kilometres",
+      "Millimetres",
+      "Grams"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Cities are far apart, so a large unit of length is needed.\n\n**Key concept:** Choosing units of length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q80",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is 3 metres long. How many centimetres is that?",
+    "options": [
+      "300",
+      "30",
+      "3,000",
+      "33"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One metre is 100 centimetres, so 3 metres is 3 × 100 = 300 cm.\n\n**Key concept:** Converting length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q81",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit measures how much liquid a jug holds?",
+    "options": [
+      "Minutes",
+      "Metres",
+      "Grams",
+      "Litres"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Liquid volume is measured in litres and millilitres.\n\n**Key concept:** Liquid volume",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q82",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bottle holds 2 litres. How many millilitres is that?",
+    "options": [
+      "20",
+      "200",
+      "2,000",
+      "2,020"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** One litre is 1,000 millilitres, so 2 litres is 2,000 mL.\n\n**Key concept:** Converting volume",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q83",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit would be used to weigh an apple?",
+    "options": [
+      "Litres",
+      "Grams",
+      "Centimetres",
+      "Hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Grams measure mass. An apple is light, so grams are the sensible unit.\n\n**Key concept:** Choosing units of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q84",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bag of flour has a mass of 2 kilograms. How many grams is that?",
+    "options": [
+      "2,000",
+      "200",
+      "20",
+      "2,200"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One kilogram is 1,000 grams, so 2 kg is 2,000 g.\n\n**Key concept:** Converting mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q85",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A number line runs from 0 to 20 with a mark every 2 units. Which number is 4 marks after 0?",
+    "options": [
+      "10",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each mark is worth 2, so four marks along is 4 × 2 = 8.\n\n**Key concept:** Number lines",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q86",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A frequency table shows: red 5, blue 8, green 3. How many children were asked altogether?",
+    "options": [
+      "13",
+      "8",
+      "16",
+      "11"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add every category: 5 + 8 + 3 = 16 children.\n\n**Key concept:** Reading a frequency table",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q87",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In that same table, how many more children chose blue than green?",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "11"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 8 blue − 3 green = 5 more children chose blue.\n\n**Key concept:** Comparing categories",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q88",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A dot plot shows 4 dots above the number 6. What does that mean?",
+    "options": [
+      "Four children gave the answer 6.",
+      "Six children gave the answer 4.",
+      "The total is 46.",
+      "Four is the largest value."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each dot stands for one observation at that value.\n\n**Key concept:** Reading a dot plot",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q89",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bar graph has a scale where each square is worth 5. A bar reaches 4 squares. What value is that?",
+    "options": [
+      "45",
+      "4",
+      "9",
+      "20"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Four squares at 5 each is 4 × 5 = 20.\n\n**Key concept:** Reading a scaled bar graph",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q90",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why must a bar graph have a title and labelled axes?",
+    "options": [
+      "So the bars can be taller.",
+      "So the graph is more colourful.",
+      "So the reader knows what the bars stand for.",
+      "So the numbers can be left out."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Without labels the numbers mean nothing to a reader.\n\n**Key concept:** Parts of a graph",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q91",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pictograph uses one picture to stand for 4 books. How many pictures show 12 books?",
+    "options": [
+      "4",
+      "3",
+      "12",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 12 ÷ 4 = 3 pictures.\n\n**Key concept:** Pictographs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q92",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Class votes: dogs 9, cats 7, fish 4. Which animal was least popular?",
+    "options": [
+      "Fish",
+      "Dogs",
+      "Cats",
+      "They tied"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Fish received 4 votes, fewer than cats (7) or dogs (9).\n\n**Key concept:** Interpreting data",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q93",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A clock shows 7:45. What time will it be in 30 minutes?",
+    "options": [
+      "7:15",
+      "7:75",
+      "8:45",
+      "8:15"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 15 minutes takes it to 8:00, and 15 more makes 8:15.\n\n**Key concept:** Elapsed time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q94",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is longer, 1 metre or 90 centimetres?",
+    "options": [
+      "They are equal.",
+      "90 centimetres, because 90 is bigger than 1.",
+      "1 metre, because it equals 100 centimetres.",
+      "It cannot be compared."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Both must be in the same unit before comparing: 100 cm is more than 90 cm.\n\n**Key concept:** Comparing lengths",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q95",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object would most likely be measured in kilograms?",
+    "options": [
+      "A single feather.",
+      "A bag of potatoes.",
+      "A drop of water.",
+      "A grain of rice."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Kilograms suit heavier objects; the others are far too light.\n\n**Key concept:** Choosing units of mass",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q96",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tally chart shows four vertical marks crossed by one diagonal mark. What number is that?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A crossed group of tallies stands for five.\n\n**Key concept:** Tally marks",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q97",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A recipe needs 500 mL of milk and you have a 1 litre jug full. How much is left after pouring?",
+    "options": [
+      "1,500 mL",
+      "5 mL",
+      "50 mL",
+      "500 mL"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 1 litre is 1,000 mL, and 1,000 − 500 = 500 mL left.\n\n**Key concept:** Volume word problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q98",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which graph is best for comparing how many children chose each of four fruits?",
+    "options": [
+      "A number line.",
+      "A picture of one fruit.",
+      "A bar graph.",
+      "A clock face."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Bar graphs compare separate categories side by side.\n\n**Key concept:** Choosing a display",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q99",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many days are in 3 weeks?",
+    "options": [
+      "10",
+      "21",
+      "24",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** One week is 7 days, so 3 × 7 = 21 days.\n\n**Key concept:** Units of time",
+    "source": "authored",
+    "needsReview": false
   }
 ]

@@ -138,5 +138,505 @@
     "explanation": "**Explanation:**\n30 × 12 = 360 seats. 360 − 280 = 80 empty. The question asks for empty seats, not total seats\nor tickets.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q100",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class of 24 children is split into teams of 4. Each team gets 3 balls. How many balls are needed?",
+    "options": [
+      "18",
+      "6",
+      "12",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 24 ÷ 4 = 6 teams, and 6 × 3 = 18 balls.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q101",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A book costs $8. Mia buys 3 books and pays with $30. How much change does she get?",
+    "options": [
+      "$14",
+      "$24",
+      "$22",
+      "$6"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 3 × \\(8 = \\)24, and \\(30 − \\)24 = $6 change.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q102",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bus holds 40 people. How many buses are needed for 95 people?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "95"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Two buses hold 80, leaving 15 people, so a third bus is needed.\n\n**Key concept:** Division with a remainder",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q103",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 5 boxes with 12 crayons each. If 9 crayons are broken, how many good ones are left?",
+    "options": [
+      "60",
+      "51",
+      "48",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 5 × 12 = 60 crayons, and 60 − 9 = 51 good ones.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q104",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Tom saves $5 each week. How much has he saved after 7 weeks?",
+    "options": [
+      "$35",
+      "$12",
+      "$30",
+      "$57"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 7 × \\(5 = \\)35 saved.\n\n**Key concept:** Repeated addition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q105",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A farmer has 4 rows of 9 apple trees. He plants 6 more trees. How many trees now?",
+    "options": [
+      "54",
+      "36",
+      "13",
+      "42"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 4 × 9 = 36 trees, plus 6 more makes 42.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q106",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cinema has 8 rows of 15 seats. If 100 seats are sold, how many are empty?",
+    "options": [
+      "23",
+      "120",
+      "20",
+      "80"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 8 × 15 = 120 seats, and 120 − 100 = 20 empty.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q107",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sara reads 20 pages a day. How many pages in 6 days?",
+    "options": [
+      "26",
+      "120",
+      "60",
+      "200"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 6 × 20 = 120 pages.\n\n**Key concept:** Multiplication problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q108",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pack holds 6 pens. A teacher needs 50 pens. How many packs must be bought?",
+    "options": [
+      "9",
+      "8",
+      "6",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 8 packs give 48 pens, which is not enough, so 9 packs are needed.\n\n**Key concept:** Division with a remainder",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q109",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jar has 84 sweets shared equally among 7 children. How many does each child get?",
+    "options": [
+      "77",
+      "11",
+      "13",
+      "12"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 84 ÷ 7 = 12 sweets each.\n\n**Key concept:** Division problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q110",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number sentence matches: \"Ann had 15 stickers and gave away 6\"?",
+    "options": [
+      "15 × 6 = 90",
+      "15 + 6 = 21",
+      "15 − 6 = 9",
+      "6 − 15 = 9"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Giving away means taking from what she had, so it is subtraction.\n\n**Key concept:** Choosing the operation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q111",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number sentence matches: \"There are 4 bags with 7 apples in each\"?",
+    "options": [
+      "4 + 7 = 11",
+      "4 × 7 = 28",
+      "7 − 4 = 3",
+      "28 ÷ 7 = 4 only"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Equal groups mean multiplication.\n\n**Key concept:** Choosing the operation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q112",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which operation is used to share 24 marbles equally among 6 friends?",
+    "options": [
+      "Division",
+      "Addition",
+      "Multiplication",
+      "Subtraction"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Sharing equally into groups is division: 24 ÷ 6 = 4.\n\n**Key concept:** Choosing the operation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q113",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop sells 128 papers on Monday and 96 on Tuesday. How many more on Monday?",
+    "options": [
+      "24",
+      "224",
+      "42",
+      "32"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 128 − 96 = 32 more papers on Monday.\n\n**Key concept:** Comparison problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q114",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon 60 cm long is cut into 5 equal pieces. How long is each piece?",
+    "options": [
+      "15 cm",
+      "10 cm",
+      "12 cm",
+      "55 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 60 ÷ 5 = 12 cm per piece.\n\n**Key concept:** Division problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q115",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben has 3 boxes of 8 toy cars and gives 5 away. How many are left?",
+    "options": [
+      "24",
+      "19",
+      "11",
+      "29"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 3 × 8 = 24 cars, and 24 − 5 = 19 left.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q116",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A recipe uses 2 eggs for 6 muffins. How many eggs for 18 muffins?",
+    "options": [
+      "6",
+      "3",
+      "12",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 18 muffins is 3 times as many, so 3 × 2 = 6 eggs.\n\n**Key concept:** Proportional reasoning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q117",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tank holds 250 litres. It has 90 litres in it. How much more will it hold?",
+    "options": [
+      "150 litres",
+      "340 litres",
+      "170 litres",
+      "160 litres"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 250 − 90 = 160 litres more.\n\n**Key concept:** Subtraction problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q118",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which strategy is most useful for checking a subtraction answer?",
+    "options": [
+      "Multiply the two numbers.",
+      "Subtract again the same way.",
+      "Add the answer to the number taken away and see if you get the start.",
+      "Round both numbers first."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Addition undoes subtraction, so it checks the result.\n\n**Key concept:** Checking an answer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q119",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Zoe has 6 packs of 9 stickers. She wants 60 stickers. How many more does she need?",
+    "options": [
+      "54",
+      "6",
+      "3",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 6 × 9 = 54 stickers, and 60 − 54 = 6 more needed.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q120",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A train leaves at 2:30 and arrives at 4:00. How long is the journey?",
+    "options": [
+      "1 hour 30 minutes",
+      "2 hours",
+      "1 hour",
+      "2 hours 30 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** From 2:30 to 4:00 is one and a half hours.\n\n**Key concept:** Elapsed time problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q121",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A gardener plants 7 rows with 6 plants in each row, then 8 more plants. How many altogether?",
+    "options": [
+      "56",
+      "42",
+      "21",
+      "50"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 7 × 6 = 42 plants, plus 8 more makes 50.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q122",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "About how much is 297 + 405? Estimate to the nearest hundred.",
+    "options": [
+      "About 800",
+      "About 600",
+      "About 700",
+      "About 500"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 297 rounds to 300 and 405 rounds to 400, so the sum is about 700.\n\n**Key concept:** Estimating",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q123",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box holds 4 layers with 6 chocolates in each layer. How many chocolates?",
+    "options": [
+      "10",
+      "24",
+      "12",
+      "46"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** 4 × 6 = 24 chocolates.\n\n**Key concept:** Multiplication problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g3_2026-09-03_18-30_q124",
+    "grade": 3,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question could be answered with 36 ÷ 9?",
+    "options": [
+      "How many groups of 9 are in 36?",
+      "What is 36 more than 9?",
+      "What is 9 lots of 36?",
+      "How much is 36 take away 9?"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Division asks how many equal groups fit into the total.\n\n**Key concept:** Meaning of division",
+    "source": "authored",
+    "needsReview": false
   }
 ]
