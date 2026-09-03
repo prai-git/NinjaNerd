@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T12:51:14.659Z",
+  "generatedAt": "2026-09-03T16:34:52.928Z",
   "grades": {
     "1": {
       "english": [
@@ -383,7 +383,7 @@
         {
           "subtopic": "reading_fundamentals",
           "slug": "reading_fundamentals",
-          "count": 163
+          "count": 171
         },
         {
           "subtopic": "vocabulary_building",
@@ -393,7 +393,7 @@
         {
           "subtopic": "writing_essentials",
           "slug": "writing_essentials",
-          "count": 14
+          "count": 6
         },
         {
           "subtopic": "written_conventions",

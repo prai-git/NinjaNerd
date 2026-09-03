@@ -27,6 +27,11 @@ const root = join(repoRoot, 'app/content/questions/en');
    For those items, case IS the answer. */
 const norm = (s) => String(s || '').replace(/[*_`]/g, '').replace(/\s+/g, ' ').trim();
 
+// "Passage 1", "Passage 6A", "Passage A", "Source B" — the labels an author uses for one text.
+const SOURCE_LABEL = /\b(?:passage|source|selection)\s*#?\s*(?:\d{1,2}[A-Za-z]?|[A-Da-d])\b/gi;
+const ASKS_FOR_ALL =
+  /\bboth\s+(?:sources|passages|selections|texts|articles|stories|poems|authors|writers|entries)\b|\bthe\s+two\s+(?:sources|passages|selections|texts)\b/i;
+
 function loadAll() {
   const out = [];
   const dirs = (d) => readdirSync(d).filter((n) => statSync(join(d, n)).isDirectory());
@@ -91,6 +96,39 @@ for (const it of items) {
   if (!it.passage && !citesNamedPrinciple && !carriesTextInline &&
       /\b(the passage|the story|the poem|the excerpt|according to the|in passage \d)\b/i.test(q)) {
     add('orphan-passage', it, q.slice(0, 70));
+  }
+
+  /* A question that names a SOURCE LABEL the attached passage does not carry.
+
+     This is the fault that shipped 19 broken items across grades 1, 3, 4, 5 and 6. The parser
+     carried one passage forward positionally, so a paired set — "Passage A" and "Passage B"
+     declared side by side — kept only the second. "Which sentence best paraphrases Passage A?"
+     then showed Passage B, and every option quoted text the child could not see.
+
+     Checked against the question AND its options: grade 1 asks "Which source would best
+     answer ...?" with the labels only in the choices. A question naming labels while carrying
+     no passage at all is caught too, unless it states its sources inline. */
+  const labelsNamed = [...new Set(
+    [q, ...opts].join('\n').match(SOURCE_LABEL) || [])]
+    .map((x) => x.replace(/\s*#\s*/, ' ').toLowerCase().replace(/^(source|selection)/, 'passage'));
+  if (labelsNamed.length && !carriesTextInline) {
+    // The label of a SINGLE attached passage lives in passageTitle, not inside its text;
+    // a combined pair repeats each heading inside the text. Both must count as "shown".
+    const have = `${it.passageTitle || ''}\n${it.passage || ''}`.toLowerCase()
+      .replace(/\s*#\s*/, ' ').replace(/\b(source|selection)(\s)/g, 'passage$2');
+    const missing = labelsNamed.filter((l) => !have.includes(l));
+    if (missing.length) {
+      add('unshown-source', it, `names ${missing.join(', ')} but the passage does not carry it`);
+    }
+  }
+  /* "How are both sources alike?" names nothing, so the check above cannot see it. Such a
+     question needs at least two texts in front of the child. */
+  if (ASKS_FOR_ALL.test(q) && !carriesTextInline) {
+    const labelsShown = [...new Set(
+      `${it.passageTitle || ''}\n${it.passage || ''}`.match(SOURCE_LABEL) || [])];
+    if (labelsShown.length < 2) {
+      add('unshown-source', it, `asks about several sources but only ${labelsShown.length} is shown`);
+    }
   }
 
   // Unbalanced maths delimiters would render as red error text.

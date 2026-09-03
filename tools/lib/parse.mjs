@@ -74,7 +74,24 @@ const QUESTION_RANGE_HEADING = /^questions?\s+\d+\s*[\u2013\u2014-]/i;
 const QUESTION_RANGE_REF =
   /^questions?\s+[\d\s,\u2013\u2014-]+(?:[\u2013\u2014-]|:)\s*(.+)$/i;
 
-// "Passage 1", "Passage 6A", "The Printing Press" -> a stable lookup key.
+/* A label the author uses to name one reading text: "Passage 1", "Passage 6A", "Passage A",
+   "Source B", "Selection 2". Matched case-insensitively.
+
+   The LETTER-ONLY form is the whole reason paired sets broke. The key used to be
+   `/passage\s+([0-9]+[A-Za-z]?)/`, which requires a leading digit — so "Passage 1" and
+   "Passage 6A" were indexed but "Passage A", "Passage B" and every "Source A/B" were not.
+   Those sets fell back to positional scoping, which keeps only the LAST passage seen, and 19
+   questions shipped asking about a text the child was never shown.
+
+   The letter alternative is restricted to A-D and anchored with \b so an ordinary word
+   cannot be mistaken for a label: "Passage A" matches, "Passage About the Sea" does not. */
+const SOURCE_WORD = '(?:passage|source|selection)';
+export const SOURCE_LABEL_RE =
+  new RegExp(`\\b${SOURCE_WORD}\\s*#?\\s*(\\d{1,2}[A-Za-z]?|[A-Da-d])\\b`, 'i');
+const SOURCE_LABEL_RE_G =
+  new RegExp(`\\b${SOURCE_WORD}\\s*#?\\s*(\\d{1,2}[A-Za-z]?|[A-Da-d])\\b`, 'gi');
+
+// "Passage 1", "Passage 6A", "Source A", "The Printing Press" -> a stable lookup key.
 export function passageKey(title) {
   const t = clean(title)
     .replace(/[*_`]/g, '')
@@ -82,9 +99,24 @@ export function passageKey(title) {
     .replace(/^refer\s+to\s*/i, '')
     .replace(/^["'\u201c\u2018]+|["'\u201d\u2019]+$/g, '')
     .trim();
-  const m = t.match(/passage\s+([0-9]+[A-Za-z]?)/i);
+  const m = t.match(SOURCE_LABEL_RE);
   return m ? `passage ${m[1].toLowerCase()}` : t.toLowerCase();
 }
+
+// Every distinct source label named in a piece of text, in order of appearance.
+export function sourceLabelsIn(text) {
+  const out = [];
+  for (const m of String(text || '').matchAll(SOURCE_LABEL_RE_G)) {
+    const k = `passage ${m[1].toLowerCase()}`;
+    if (!out.includes(k)) out.push(k);
+  }
+  return out;
+}
+
+/* "How are both sources alike?" names no label at all, so label lookup cannot help it. A
+   question phrased this way needs EVERY text in its set, which is what a passage run is. */
+export const ASKS_FOR_ALL_SOURCES =
+  /\bboth\s+(?:sources|passages|selections|texts|articles|stories|poems|authors|writers|entries)\b|\bthe\s+two\s+(?:sources|passages|selections|texts)\b|\beach\s+(?:source|passage|selection)\b/i;
 
 export function isStructuralHeading(s) {
   return STRUCTURAL_HEADING.test(clean(s).replace(/[:.\-—\s]+$/, ''));
@@ -127,6 +159,87 @@ export function subtopicFromTitle(md) {
 // instruction like "*Read the passage below.*" is not a passage.
 const PASSAGE_MIN_CHARS = 200;
 
+/* The author's own wording for a label — "Source B", "Passage 6A" — so a combined heading
+   reads the way the paper did rather than in a normalised namespace. */
+export function sourceLabelText(title) {
+  const m = clean(title).replace(/[*_`]/g, '').match(SOURCE_LABEL_RE);
+  return m ? clean(m[0]).replace(/\s*#\s*/, ' ') : null;
+}
+
+/* The PAIR a passage belongs to.
+
+   A run may hold texts that are merely consecutive rather than paired: grade 4 English
+   declares Passages 1-5, 6A and 6B one after another before any question, so the whole run is
+   seven texts. Serving all seven to "In Passage 1, revealed means-" would be worse than the
+   bug being fixed.
+
+   A genuine pair is a letter-suffixed family: `passage a`/`passage b`, `passage 6a`/`passage
+   6b`. Passages 1-5 carry no letter, so each stands alone. Where a set pairs numbered texts
+   instead (grade 6 uses Passage 1 / Passage 2), the questions name both labels outright and
+   the reference pass below picks them up, so nothing depends on guessing. */
+function pairFamily(entry) {
+  const m = /^passage (\d*)([a-d])$/.exec(entry.key || '');
+  if (!m || !entry.run) return [entry];
+  const fam = entry.run.filter((e) => {
+    const n = /^passage (\d*)([a-d])$/.exec(e.key || '');
+    return n && n[1] === m[1];
+  });
+  return fam.length > 1 ? fam : [entry];
+}
+
+/* Join several texts into the one `passage` field an item has, each under its own heading so
+   the child can tell them apart. This mirrors the printed paper, where a paired set puts both
+   texts in front of the reader before the questions. */
+function combineEntries(entries) {
+  if (entries.length === 1) return { text: entries[0].text, title: entries[0].title };
+  const labels = entries.map((e) => sourceLabelText(e.title)).filter(Boolean);
+  return {
+    text: entries.map((e) => `**${clean(e.title).replace(/[*_`]/g, '')}**\n\n${e.text}`).join('\n\n'),
+    title: labels.length === entries.length ? labels.join(' and ') : 'Paired Passages',
+  };
+}
+
+/* Give every question the text (or texts) it actually asks about.
+
+   Positional scoping alone cannot do this. It carries ONE passage forward, so a question that
+   names a different one — or names two — is served the wrong text or half of what it needs.
+   19 questions across grades 1, 3, 4, 5 and 6 shipped that way: "Which sentence best
+   paraphrases Passage A?" showed only Passage B, and every option quoted text the child could
+   not see.
+
+   Resolution order, most specific first:
+     1. Labels named in the question or its OPTIONS ("Passage 6A", "Source B"). Options matter:
+        grade 1 asks "Which source would best answer ...?" with the labels only in the choices.
+     2. Failing that, "both sources"/"the two passages" — which names nothing, so it takes the
+        pair of whatever passage is already in scope.
+   Either way the pair is expanded, so a question about one half of a pair still shows both,
+   exactly as the authored paper presents them. A question that names nothing is left alone. */
+export function resolveSourceReferences(questions, allPassages) {
+  if (!allPassages || !allPassages.length) return questions;
+  const byKey = new Map(allPassages.map((e) => [e.key, e]));
+  const order = new Map(allPassages.map((e, i) => [e, i]));
+  for (const q of questions) {
+    const optionText = (q.options || []).map((o) => o.text).join('\n');
+    const scope = `${q.text || ''}\n${optionText}`;
+    const seeds = [];
+    for (const k of sourceLabelsIn(scope)) {
+      const e = byKey.get(k);
+      if (e && !seeds.includes(e)) seeds.push(e);
+    }
+    if (!seeds.length && ASKS_FOR_ALL_SOURCES.test(scope) && q._entry) seeds.push(q._entry);
+    if (seeds.length) {
+      const want = [];
+      for (const e of seeds) for (const f of pairFamily(e)) if (!want.includes(f)) want.push(f);
+      want.sort((a, b) => order.get(a) - order.get(b));
+      const { text, title } = combineEntries(want);
+      q.passage = text;
+      q.passageTitle = title;
+    }
+    delete q._entry;
+  }
+  return questions;
+}
+
 export function parseQuestions(md) {
   const lines = String(md).split(/\r?\n/);
   const questions = [];
@@ -149,6 +262,20 @@ export function parseQuestions(md) {
   let expectPassage = false;
   // Every passage seen so far, so a later "Questions 1-8 - Passage 1" can find it.
   const passagesByKey = new Map();
+  /* Passages in document order, plus the RUN each belongs to. A run is a group of passages
+     declared back-to-back with no question between them, which is how every paired set in
+     doc/questionnaire/ is written:
+
+         ### Passage A - Informational: A Tiny Free Library
+         ### Passage B - Personal Letter: Books on Our Block
+         ### Questions 37-42
+
+     Positional scoping keeps only the LAST of those, so "Which sentence best paraphrases
+     Passage A?" shipped showing Passage B. The run is what lets a question be served every
+     text its set actually contains. */
+  const allPassages = [];
+  let currentRun = null;
+  let sawQuestionSincePassage = true;
 
   /* Settle a held heading.
 
@@ -176,8 +303,14 @@ export function parseQuestions(md) {
       passage = prose;
       passageTitle = pendingHeading;
       passageLevel = pendingLevel;
-      const entry = { text: prose, title: pendingHeading };
-      passagesByKey.set(passageKey(pendingHeading), entry);
+      const entry = { text: prose, title: pendingHeading, key: passageKey(pendingHeading) };
+      // A question since the last passage means this one starts a new run, not a pair.
+      if (sawQuestionSincePassage || currentRun === null) currentRun = [];
+      sawQuestionSincePassage = false;
+      entry.run = currentRun;
+      currentRun.push(entry);
+      allPassages.push(entry);
+      passagesByKey.set(entry.key, entry);
       /* Also index the FULL title. A group heading may name the passage descriptively rather
          than by number — "## Questions 28-34 - Argument" points at
          "## Passage 5 - Argumentative Text: A Saturday Tool Share". Without a title index that
@@ -196,6 +329,7 @@ export function parseQuestions(md) {
       cur.text = stripStandardsAnnotation(cur.textLines.join('\n').trim());
       delete cur.textLines;
       questions.push(cur);
+      sawQuestionSincePassage = true;
     }
     cur = null;
   };
@@ -309,6 +443,8 @@ export function parseQuestions(md) {
         number: Number(m[1]), subtopic, teks: teks ? clean(teks[0]) : null,
         // Carried so the question can be shown with the text it asks about.
         passage, passageTitle,
+        // The entry behind those two, used only by resolveSourceReferences below.
+        _entry: passagesByKey.get(passageKey(passageTitle || '')) || null,
         textLines: [], options: [],
       };
       const rest = tail
@@ -338,6 +474,7 @@ export function parseQuestions(md) {
   }
   pushCur();
   flushPending();
+  resolveSourceReferences(questions, allPassages);
   return questions;
 }
 

@@ -38,7 +38,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 3,110 questions across all 145 subtopics ·
-`npm test` → **291 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor,
+`npm test` → **297 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor,
 which doubles as the authoring worklist).
 
 Rules **deployed and verified** — grade 7's `d.grade <= 7` and the 21-key roll-up cap went
@@ -186,9 +186,10 @@ Grades 1–5 math carries two owner-approved additions beyond the legacy set
 `app/content/questions/en/**.json`.
 
 Stages, in `tools/`:
-1. **`parse.mjs`** (511 lines — the heaviest) splits headings, pairs questions with answers,
+1. **`parse.mjs`** (875 lines — the heaviest) splits headings, pairs questions with answers,
    and strips authoring artefacts: document footers, and **standards annotations**
-   (TEKS/STAAR/MAP/NWEA lines) that must never reach a child.
+   (TEKS/STAAR/MAP/NWEA lines) that must never reach a child. It also decides **which reading
+   text each question is served** (see below) — the subtlest thing it does.
 2. **`mcq.mjs`** detects multiple-choice items and converts what it can; `splitMultiPart`
    separates compound questions.
 3. **`llm.mjs`** — *optional* OpenAI adapter that generates distractors for free-response
@@ -211,9 +212,28 @@ Stages, in `tools/`:
 `manifest.json` holds `{ generatedAt, grades: { "<grade>": { "<subject>": [{subtopic, slug,
 count}] } } }` — the browser reads it to know what exists without fetching every file.
 
-`tools/check-content.mjs` audits the compiled corpus (currently 1,622 items, no findings).
+`tools/check-content.mjs` audits the compiled corpus (currently 3,110 items, no findings).
 
-**Known gap, flagged not scheduled:** ~200 items (12%) have no `explanation`, from sets whose
+**Paired passages (2026-09-02).** An item has ONE `passage` field, but a STAAR paired set puts
+two texts in front of the child. Passages are indexed by label (`passageKey`) and a question is
+served every text it names — in its **options** as well as its stem, because grade 1 asks
+*"Which source would best answer…?"* with the labels only in the choices. A question naming one
+half of a **letter-suffixed pair** (`Passage A`/`Passage B`, `6A`/`6B`) gets both, joined under
+their own headings; a question naming nothing is left on positional scoping.
+
+Two faults had combined to ship **19 unanswerable questions** across grades 1, 3, 4, 5 and 6:
+`passageKey` required a leading digit, so `Passage A` and every `Source A/B` was never indexed
+and those sets fell back to positional scoping, which keeps only the LAST passage seen. Grade 3
+asked *"Which sentence best paraphrases Passage A?"* while showing Passage B, with all four
+options quoting text the child could not see.
+
+**Only a letter-suffixed family counts as a pair.** Grade 4 declares Passages 1–5, 6A and 6B
+back-to-back before any question, so "consecutive" cannot mean "paired" — merging all seven
+would be worse than the bug. `check-content.mjs` now reports `unshown-source` when a question
+names a label its passage does not carry, and `test_parse.test.js` enforces the same rule on
+shipped content.
+
+**Known gap, flagged not scheduled:** 200 items (6.4%) have no `explanation`, from sets whose
 answers arrived only as a summary key table. Both views guard on the field, so no empty card
 renders.
 
@@ -343,7 +363,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**291 pass, 0 fail, 1 todo** across 22 test files. Every prompt/task ships with a unit or mock test
+**297 pass, 0 fail, 1 todo** across 22 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,

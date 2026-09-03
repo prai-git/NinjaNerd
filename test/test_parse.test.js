@@ -6,7 +6,7 @@ import { dirname, join } from 'node:path';
 import {
   parseFilename, parseGrade, parseQuestions, parseAnswers, slug,
   extractAnswerLetter, extractAnswerText, cleanExplanation, stripCrossQuestionRefs,
-  cleanQuestion,
+  cleanQuestion, passageKey, sourceLabelsIn,
 } from '../tools/lib/parse.mjs';
 
 const fx = join(dirname(fileURLToPath(import.meta.url)), 'fixtures');
@@ -613,4 +613,194 @@ test('no shipped question contains a standards code', () => {
     }
   }(root));
   assert.deepEqual(offenders, [], `these show a standards code: ${offenders.slice(0, 5)}`);
+});
+
+/* PAIRED PASSAGES (2026-09-02).
+
+   19 questions across grades 1, 3, 4, 5 and 6 shipped asking about a text the child was never
+   shown. Every one of those passages WAS in the authored source; the parser dropped it.
+
+   Two faults combined. `passageKey` required a leading digit, so "Passage 1" and "Passage 6A"
+   were indexed but "Passage A", "Passage B" and every "Source A/B" were not — those sets fell
+   back to positional scoping, which keeps only the LAST passage seen. And an item has one
+   `passage` field, so even correct scoping cannot serve a question that needs both halves.
+
+   The worst case was grade 3: "Which sentence best paraphrases Passage A?" showed Passage B,
+   and all four options quoted the invisible text. */
+
+test('a letter-only source label is a lookup key, like a numbered one', () => {
+  assert.equal(passageKey('Passage 1'), 'passage 1');
+  assert.equal(passageKey('Passage 6A Literary Fiction'), 'passage 6a');
+  // These four were the gap: no leading digit, so none of them was ever indexed.
+  assert.equal(passageKey('Passage A — Informational: *A Tiny Free Library*'), 'passage a');
+  assert.equal(passageKey('Passage B — Personal Letter'), 'passage b');
+  assert.equal(passageKey('Source A: Park Sign'), 'passage a');
+  assert.equal(passageKey('Selection 2 — Literary Fiction'), 'passage 2');
+  // An ordinary word after "Passage" must not be read as a label, or every heading collides.
+  assert.equal(passageKey('Passage About the Sea'), 'passage about the sea');
+  assert.equal(passageKey('The Printing Press'), 'the printing press');
+});
+
+test('sourceLabelsIn finds every distinct label, in order', () => {
+  assert.deepEqual(sourceLabelsIn('How does Passage 6B deepen Passage 6A?'),
+    ['passage 6b', 'passage 6a']);
+  assert.deepEqual(sourceLabelsIn('Why did the writer of Source B stay still?'), ['passage b']);
+  assert.deepEqual(sourceLabelsIn('What is the main idea?'), []);
+});
+
+const PAIRED = `# Grade 3 Reading
+
+## Selections 6A and 6B — Paired Passages
+
+### Passage A — Informational: *A Tiny Free Library*
+
+A tiny free library is a weatherproof box where people may take a book or leave a book. Neighbors often build the boxes near sidewalks so walkers can use them. A clear sign explains the simple rule: “Take a book; share a book.” These small libraries can help books travel from one reader to another.
+
+### Passage B — Personal Letter: *Books on Our Block*
+
+Dear City Helpers,
+
+Last month, my dad and I painted a book box bright blue and placed it near the bus stop. At first, only two books sat inside. By the next week, I saw mysteries, comics, and a book about planets. I like checking the box because it feels as if neighbors are leaving friendly surprises for one another.
+
+Sincerely,
+Imani
+
+### Questions 37–42
+
+## Question 37
+
+What idea is shared by both passages?
+
+A. People can share books through a small book box.
+B. All book boxes must be blue.
+C. Only adults may use book boxes.
+D. Book boxes should be kept inside buses.
+
+## Question 42
+
+Which sentence best paraphrases Passage A without copying it?
+
+A. A tiny free library lets neighbors exchange books in a small outdoor box.
+B. “Take a book; share a book.”
+C. A tiny free library is a weatherproof box where people may take a book or leave a book.
+D. Books travel from one reader to another.
+`;
+
+test('a paired set serves BOTH passages, each under its own heading', () => {
+  const qs = parseQuestions(PAIRED);
+  for (const n of [37, 42]) {
+    const q = qs.find((x) => x.number === n);
+    assert.ok(q, `question ${n} parsed`);
+    assert.match(q.passage, /tiny free library/i, `q${n} must carry Passage A`);
+    assert.match(q.passage, /Dear City Helpers/i, `q${n} must carry Passage B`);
+    // Both headings survive, or the child cannot tell which text is which.
+    assert.match(q.passage, /\*\*Passage A[^*]*\*\*/, `q${n} labels Passage A`);
+    assert.match(q.passage, /\*\*Passage B[^*]*\*\*/, `q${n} labels Passage B`);
+  }
+  assert.equal(qs.find((x) => x.number === 42).passageTitle, 'Passage A and Passage B');
+});
+
+const NOT_PAIRED = `# Grade 4 Reading
+
+## Passage 1 — Informational Text: *The Map of Cool Places*
+
+On the hottest days in Larkspur, some sidewalks seem to glow. The town planning team wanted to
+learn where people could find relief from heat, so the team made a shade map that **revealed**
+a pattern: tree-covered sidewalks were often cooler than open ones.
+
+## Passage 2 — Literary Fiction: *The Backward Sign*
+
+Talia saw that the paper sign outside the community theater had torn in the wind. She wrote
+TICKETS HERE in tall letters, but from the sidewalk the words faced the street backward.
+
+## Questions 1–8 — Passage 1
+
+## Question 1
+
+In Passage 1, revealed means—
+
+A. showed
+B. hid
+C. painted
+D. counted
+`;
+
+/* The counterweight to the test above. Grade 4 declares Passages 1-5, 6A and 6B one after
+   another before any question, so "consecutive passages" alone cannot mean "a pair" — serving
+   all seven to "In Passage 1, revealed means—" would be worse than the bug being fixed. Only a
+   letter-suffixed family (A/B, 6A/6B) is treated as paired. */
+test('merely consecutive passages are NOT merged into one', () => {
+  const q = parseQuestions(NOT_PAIRED).find((x) => x.number === 1);
+  assert.match(q.passage, /shade map/i, 'keeps its own passage');
+  assert.ok(!/Talia/i.test(q.passage), 'must not absorb the next, unrelated passage');
+});
+
+const OUT_OF_SCOPE = `# Grade 4 Reading
+
+## Paired Passages — Passage 6A Informational: *Why Pine Cones Open*
+
+[1] A pine cone is a structure that protects seeds between scales. In damp air, many scales press together, helping keep seeds dry.
+
+[2] In warm, dry air, scales bend outward, allowing seeds to fall or travel in wind. Scientists can compare cones in dry and moist places to study this change.
+
+[3] Not every pine cone acts exactly the same, but the changing scales show how plant structures respond to conditions.
+
+### Passage 6B Literary Fiction: *Mason’s Two Jars*
+
+[1] Mason found two pine cones near tennis courts. He wondered why one cone’s scales stuck out farther than the other’s.
+
+[2] He put one cone in a dry jar and another near a bowl of water. The next morning, the cone near water looked tighter. He drew both cones and labeled the jars instead of trusting memory.
+
+[3] Mason said his test did not prove what every cone would do. He wondered whether the cones would change again if he switched their places.
+
+## Questions 41–46 — Language, Writing, and Research
+
+## Question 45
+
+Which note correctly paraphrases Passage 6A?
+
+A. Scales often close in damp air and spread in dry air, which can release seeds.
+B. Pine cones are the prettiest part of a tree.
+C. Mason owns two jars.
+D. Tennis courts have many trees.
+`;
+
+/* A question can sit in a LATER group and still name an earlier passage. Positional scoping
+   gives it whatever that group has — for grade 4 question 45 that was nothing at all, and for
+   question 13 it was an unrelated story about a torn theatre sign. Naming the label must win. */
+test('a question naming a passage outside its group still gets that passage', () => {
+  const q = parseQuestions(OUT_OF_SCOPE).find((x) => x.number === 45);
+  assert.ok(q.passage, 'question 45 shipped with no passage at all');
+  assert.match(q.passage, /pine cone/i, 'must carry the Passage 6A it names');
+  assert.match(q.passage, /Mason/i, 'and its pair, as the paper presents them');
+});
+
+/* The corpus-wide gate. tools/check-content.mjs enforces the same rule on every build; this
+   keeps it true for the shipped content specifically, so a regression fails `npm test` too. */
+test('no shipped question names a source the child is not shown', () => {
+  const LABEL = /\b(?:passage|source|selection)\s*#?\s*(?:\d{1,2}[A-Za-z]?|[A-Da-d])\b/gi;
+  const contentRoot = join(repoRoot, 'app/content/questions/en');
+  const dirs = (d) => readdirSync(d).filter((n) => statSync(join(d, n)).isDirectory());
+  const bad = [];
+  for (const g of dirs(contentRoot)) {
+    for (const subj of dirs(join(contentRoot, g))) {
+      const sd = join(contentRoot, g, subj);
+      for (const f of readdirSync(sd)) {
+        if (!f.endsWith('.json')) continue;
+        for (const it of JSON.parse(readFileSync(join(sd, f), 'utf8'))) {
+          const q = it.question || '';
+          // Inline reading material is self-contained; that shape is fine.
+          if (/^\s*>/m.test(q)) continue;
+          const named = [...new Set([q, ...(it.options || [])].join('\n').match(LABEL) || [])]
+            .map((x) => x.toLowerCase().replace(/^(source|selection)/, 'passage'));
+          if (!named.length) continue;
+          const have = `${it.passageTitle || ''}\n${it.passage || ''}`.toLowerCase()
+            .replace(/\b(source|selection)(\s)/g, 'passage$2');
+          const missing = named.filter((l) => !have.includes(l));
+          if (missing.length) bad.push(`${it.id}: names ${missing.join(', ')}`);
+        }
+      }
+    }
+  }
+  assert.deepEqual(bad, [], `${bad.length} questions name a source that is not shown:\n${bad.join('\n')}`);
 });
