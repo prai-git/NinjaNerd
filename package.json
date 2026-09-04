@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "NinjaNerd static site (GitHub Pages) \u2014 educational practice for grades 1-7.",
+  "description": "NinjaNerd static site (GitHub Pages) — educational practice for grades 1-7.",
   "scripts": {
     "test": "node --test",
     "build:content": "node tools/build-content.mjs",
