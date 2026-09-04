@@ -37,10 +37,10 @@ collections are default-deny).
 **`https://ninjanerd.ai/`** (custom domain live since 2026-09-01; the Let's Encrypt
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
-mode, `nam7`) · **grades 1–7** · 3,489 questions across all 145 subtopics ·
-`npm test` → **318 pass, 0 fail, 1 todo** (the todo is the per-subtopic question floor —
-**25 uniform** since 2026-09-03 — which doubles as the authoring worklist: 54 buckets short,
-686 questions).
+mode, `nam7`) · **grades 1–7** · 4,175 questions across all 145 subtopics ·
+`npm test` → **327 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
+since 2026-09-03 — is **met by every one of the 145 buckets** as of 2026-09-04, so its test is
+no longer `todo` and a regression now fails the build.
 
 Rules **deployed and verified** — grade 7's `d.grade <= 7` and the 21-key roll-up cap went
 live on 2026-09-02. A grade addition always needs this deploy: until it lands, every answer at
@@ -183,12 +183,13 @@ buckets above it are fine and better. It replaced a 50/30 grade split once the e
 were measured against the app: `practice.js` serves the ENTIRE remaining bucket with no session
 cap, so bucket size *is* the quiz length and the counter reads "Question 1 of N". A 50 floor
 would have promised "Question 1 of 50" to a nine-year-old in every bucket, and cost 3,983 more
-questions. 25 is the corpus median and leaves a reachable 781. Full reasoning, including the
+questions. 25 was the corpus median and left a reachable 781, all since authored. Full reasoning, including the
 uncapped-session finding, is in `test_subtopic_map.test.js`.
 
 > **Never rename, merge or re-route a subtopic to close a gap.** Author the missing questions
-> instead. Subtopics with no questions render greyed out and unclickable; **all 115 are now
-> filled**, and the test *"no subtopic is empty at any grade"* makes a regression a build
+> instead. Subtopics with no questions render greyed out and unclickable; **all 145 are now
+> filled, every one at or above the 25 floor**, and two tests — *"no subtopic is empty at any
+> grade"* and *"every subtopic meets its grade's question minimum"* — make a regression a build
 > failure.
 
 Grades 1–5 math carries two owner-approved additions beyond the legacy set
@@ -251,7 +252,40 @@ Stages, in `tools/`:
    items. **Dev time only, mocked in tests, never shipped.** Without `OPENAI_API_KEY` those
    items are flagged `needsReview` rather than converted.
 4. **`mathnorm.mjs`** normalises maths delimiters — and distinguishes maths from currency,
-   which is why `$12.50` does not become a KaTeX block.
+   which is why `$12.50` does not become a KaTeX block. **This is the single most defect-prone
+   stage**, because `$` means two things and `throwOnError: false` turns a mistake into red
+   source text in front of a child rather than a crash. Three separate faults were found and
+   fixed on 2026-09-04, each caught by a corpus-wide scan rather than by a unit test:
+   - **A bare `$` inside a maths span.** The authored form of a price inside maths is the
+     LaTeX-correct `$\$4.8 \times 10^{8}$`. The escape was protected, the span rewritten to
+     `\(…\)`, and the escape then restored as a **plain** `$` — inside maths, where KaTeX
+     errors. 152 spans across 12 files rendered red. The restore is now per region: `\$` inside
+     a span, `$` outside.
+   - **Two prices in one sentence paired as a span.** `looksLikeMath` passes a span with fewer
+     than three long words, so "Ravi earns $12 and spends $7" typeset `12 and spends ` as maths
+     — 84 items, grades 1–6. A closing `$` followed directly by a **digit** is the next price's
+     opening `$`, never a delimiter; a lookahead now rejects that pairing. A second rule rejects
+     any span crossing a sentence boundary (`. ` plus a capital), which caught 5 more.
+   - **Eaten escapes in the authored source.** Four `2026-08-29_23-09` source files had `\t`
+     and `\f` interpreted when they were written, so `\times` became a literal TAB plus
+     `imes` — 131 occurrences, 27 items rendering as raw LaTeX. Repaired in the sources.
+
+   Two more were found by the correctness sweep that followed (§12a), both in the same module:
+   - **The placeholder polluted the classifier.** `looksLikeMath` counts words of three or more
+     letters, and the protect-and-restore placeholder `NNDOLLAR` is word-shaped. Three escaped
+     dollars in one span — `$\$4+\$6=\$10$`, perfectly good LaTeX — pushed the count to 3, the
+     span was ruled prose, and its placeholders became bare `$`. The span is now classified with
+     the escape restored, so the placeholder cannot vote.
+   - **A question heading's tail was pushed into the stem.** Not `mathnorm`, but the same class
+     of leak: `## Question 15 — Multi-Step Equation with Unknown [R] (TEKS 5.4B)` left
+     `— Multi-Step Equation with Unknown [R]` as the question's first line. 66 items opened with
+     a section label and 48 carried a bare `[R]`. Checked across every practice file first: 229
+     headings carry a tail and all 229 are labels or difficulty markers, never question text.
+
+   `check-content.mjs` gained `bare-dollar-in-math`, `bare-percent-in-math`, `latex-outside-math`,
+   `control-character` and four `artefact-*` findings; `test_mathnorm.test.js` and
+   `test_block_render.test.js` scan the whole compiled corpus. **A unit test on `normaliseMath`
+   alone would have caught none of them** — every one needed the real authored text.
 5. **`subtopic-map.mjs`** maps the authored heading onto a legacy subtopic id.
 
 **Compiled item shape** (each file is a plain JSON **array**):
@@ -267,7 +301,7 @@ Stages, in `tools/`:
 `manifest.json` holds `{ generatedAt, grades: { "<grade>": { "<subject>": [{subtopic, slug,
 count}] } } }` — the browser reads it to know what exists without fetching every file.
 
-`tools/check-content.mjs` audits the compiled corpus (currently 3,110 items, no findings).
+`tools/check-content.mjs` audits the compiled corpus (currently 4,175 items, no findings).
 
 **Paired passages (2026-09-02).** An item has ONE `passage` field, but a STAAR paired set puts
 two texts in front of the child. Passages are indexed by label (`passageKey`) and a question is
@@ -418,7 +452,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**318 pass, 0 fail, 1 todo** across 23 test files. Every prompt/task ships with a unit or mock test
+**327 pass, 0 fail, 0 todo** across 23 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
@@ -436,6 +470,45 @@ Verify dependency changes with a clean **`npm ci`**, not `npm ls` — `npm ls` r
 already-populated `node_modules` and misses peer conflicts that break CI.
 
 ---
+
+## 12a. Content correctness sweep (2026-09-04)
+
+Run before publishing the corpus, after the owner asked for confirmation that every question
+renders correctly and every answer is accurate. Three tools, and an honest boundary.
+
+**Rendering — provably clean.** `flow.js` is import-free, so the REAL `renderInline`/`renderBlocks`
+run over all 4,175 items in the test suite. Maths is verified by enumeration instead of by
+installing KaTeX: the corpus uses exactly **33 distinct LaTeX commands and every one is
+KaTeX-supported**, so the test asserts that set and fails on anything new. Also checked per item:
+balanced delimiters, no bare `$` (a parse error → red source) or bare `%` (a comment → silently
+truncated span), brace and `\left`/`\right` balance, no LaTeX outside a span, no control
+characters, no unclosed bold, no Bootstrap-4 alignment class, no heading element inside content,
+and every pipe table actually becoming a `<table>`.
+
+**Answers — 1,035 numeric keys machine-checked, zero wrong.** A key is checkable when the correct
+option is a single value and the explanation states it; that covers 1,035 of 4,175. Separately
+`tools/check-arithmetic.mjs` evaluates **1,039 arithmetic statements** in explanations. It found
+**one real error** — a grade 2 item asserting `14+9+5=30`, whose scenario was also inconsistent
+(a frog at 23 cm cannot be 5 cm short of 30); fixed at source to `14+9+7=30`. Every other flag in
+both tools was read by hand and confirmed correct.
+
+**What is NOT machine-verified, stated plainly:** the semantics of the other 3,140 items — whether
+a grade 4 reading inference or a science explanation is *pedagogically* right — cannot be checked
+by a script and was not. Structure, rendering and stated arithmetic are verified; meaning is not.
+
+**Known and accepted:** one grade 5 science explanation reads "...the classic STAAR example".
+`parse.mjs` documents this as deliberately protected teaching prose, so the standards-annotation
+rules are written not to eat it. Two grade 6 maths buckets each hold a genuine duplicate pair
+(GCF of 24 and 36; `5/6 - 1/4`) — identical question, options and key, from two different source
+files. Both buckets sit well above the floor (34 and 43), so one of each can go; left in place
+pending the owner's word, since removing a question is deleting content.
+
+**A parser change was reverted during this sweep.** Stripping the inline standards label inside
+`stripStandardsAnnotation` removed the bold label but left its value, which then no longer matched
+the deliberately-narrow explanation cleanup — leaking `TEKS 6.8C / 6.8D` into 40 grade 6
+explanations. Found by diffing against the committed build. The 5 affected questions were fixed in
+their source file instead. **That rule is carefully scoped; do not widen it without diffing the
+whole corpus before and after.**
 
 ## 13. Deploy
 
