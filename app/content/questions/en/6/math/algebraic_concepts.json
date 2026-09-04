@@ -55,7 +55,7 @@
       "$35"
     ],
     "correctIndex": 1,
-    "explanation": "**Key concept:** Finding a percent of a number; discount problems.\n\n**Steps:** Discount \\(= 0.25 \\times 60 = $15\\). Sale price \\(= 60 - 15 = $45\\).",
+    "explanation": "**Key concept:** Finding a percent of a number; discount problems.\n\n**Steps:** Discount \\(= 0.25 \\times 60 = \\$15\\). Sale price \\(= 60 - 15 = \\$45\\).",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "$7.50"
     ],
     "correctIndex": 0,
-    "explanation": "**Concept:** Dividing a decimal by a whole number.\n$$$37.50 \\div 6 = $6.25$$\nCheck: \\(6.25 \\times 6 = 37.50\\). ✓ **Answer A.**",
+    "explanation": "**Concept:** Dividing a decimal by a whole number.\n$$\\$37.50 \\div 6 = \\$6.25$$\nCheck: \\(6.25 \\times 6 = 37.50\\). ✓ **Answer A.**",
     "source": "authored",
     "needsReview": false
   },
@@ -715,7 +715,7 @@
       "$40.35"
     ],
     "correctIndex": 0,
-    "explanation": "**Work:** Markup \\(= 35\\%\\) of $40 \\(= 0.35 \\times 40 = $14\\). Selling price \\(= 40 + 14 = $54\\).\n\n**Key concept:** Percent increase — find the percent of the base, then add it to the original.",
+    "explanation": "**Work:** Markup \\(= 35\\%\\) of $40 \\(= 0.35 \\times 40 = \\$14\\). Selling price \\(= 40 + 14 = \\$54\\).\n\n**Key concept:** Percent increase — find the percent of the base, then add it to the original.",
     "source": "authored",
     "needsReview": false
   },
@@ -755,7 +755,7 @@
       "$39.00"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** Discount \\(= 0.15 \\times 260 = 39\\). Sale price \\(= 260 - 39 = $221\\). (Or \\(0.85 \\times 260 = 221\\).)\n**Key concept:** A 15%-off price is \\(85\\%\\) of the original.",
+    "explanation": "**Solution:** Discount \\(= 0.15 \\times 260 = 39\\). Sale price \\(= 260 - 39 = \\$221\\). (Or \\(0.85 \\times 260 = 221\\).)\n**Key concept:** A 15%-off price is \\(85\\%\\) of the original.",
     "source": "authored",
     "needsReview": false
   },

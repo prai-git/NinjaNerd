@@ -87,7 +87,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "After spending \\(46, Priya has \\)85 left. How much did she have to begin with?",
+    "question": "After spending $46, Priya has $85 left. How much did she have to begin with?",
     "options": [
       "$131",
       "$39",
@@ -95,7 +95,7 @@
       "$46"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\nShe has \\(85 after spending \\)46, so she began with 85 + 46 = $131.",
+    "explanation": "**Explanation:**\nShe has $85 after spending $46, so she began with 85 + 46 = $131.",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "$250"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** 15 × \\(18 = \\)270 saved.\n\n**Key concept:** Multiplication problem",
+    "explanation": "**Explanation:** 15 × $18 = $270 saved.\n\n**Key concept:** Multiplication problem",
     "source": "authored",
     "needsReview": false
   },
@@ -287,7 +287,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A school raised \\(2,400 and spent \\)1,675 on books. How much is left?",
+    "question": "A school raised $2,400 and spent $1,675 on books. How much is left?",
     "options": [
       "$715",
       "$825",
@@ -295,7 +295,7 @@
       "$725"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(2,400 − \\)1,675 = $725 left.\n\n**Key concept:** Subtraction problem",
+    "explanation": "**Explanation:** $2,400 − $1,675 = $725 left.\n\n**Key concept:** Subtraction problem",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "$870"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** 6 × \\(145 = \\)870.\n\n**Key concept:** Multiplication problem",
+    "explanation": "**Explanation:** 6 × $145 = $870.\n\n**Key concept:** Multiplication problem",
     "source": "authored",
     "needsReview": false
   },
@@ -475,7 +475,7 @@
       "$132"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** \\(138 ÷ 6 = \\)23 each.\n\n**Key concept:** Division problem",
+    "explanation": "**Explanation:** $138 ÷ 6 = $23 each.\n\n**Key concept:** Division problem",
     "source": "authored",
     "needsReview": false
   },

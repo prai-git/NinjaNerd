@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "NinjaNerd static site (GitHub Pages) — educational practice for grades 1-7.",
+  "description": "NinjaNerd static site (GitHub Pages) \u2014 educational practice for grades 1-7.",
   "scripts": {
     "test": "node --test",
     "build:content": "node tools/build-content.mjs",
     "emulator": "firebase emulators:start --only auth,firestore --project ninjanerd-emulator",
-    "test:rules": "firebase emulators:exec --only auth,firestore --project ninjanerd-emulator \"node --test test/test_firestore_rules.test.js\""
+    "test:rules": "firebase emulators:exec --only auth,firestore --project ninjanerd-emulator \"node --test test/test_firestore_rules.test.js\"",
+    "check:arithmetic": "node tools/check-arithmetic.mjs",
+    "check:content": "node tools/check-content.mjs"
   },
   "devDependencies": {
     "@firebase/rules-unit-testing": "^5.0.2",

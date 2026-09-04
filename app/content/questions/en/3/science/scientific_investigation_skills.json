@@ -227,7 +227,7 @@
     "subtopic": "scientific_investigation_skills",
     "passage": null,
     "passageTitle": null,
-    "question": "**MAP vertical-alignment review:** A student in Texas sees daylight while a relative on the other side of Earth has nighttime. What is the best explanation?",
+    "question": "A student in Texas sees daylight while a relative on the other side of Earth has nighttime. What is the best explanation?",
     "options": [
       "The Moon turns off the Sun for half of Earth each day.",
       "The Sun travels around Earth once every 24 hours.",
@@ -247,7 +247,7 @@
     "subtopic": "scientific_investigation_skills",
     "passage": null,
     "passageTitle": null,
-    "question": "**MAP vertical-alignment review:** The Moon looks like different shapes during a month. What changes most to cause this pattern?",
+    "question": "The Moon looks like different shapes during a month. What changes most to cause this pattern?",
     "options": [
       "The Moon makes its own light and switches it on and off.",
       "Clouds permanently cover a new piece of the Moon each night.",
@@ -267,7 +267,7 @@
     "subtopic": "scientific_investigation_skills",
     "passage": null,
     "passageTitle": null,
-    "question": "**MAP vertical-alignment review:** In one place, children wear coats in January and lighter clothes in July. Which statement best describes this seasonal pattern?",
+    "question": "In one place, children wear coats in January and lighter clothes in July. Which statement best describes this seasonal pattern?",
     "options": [
       "A season is the same thing as one rainy day.",
       "Seasons are repeating changes in weather that happen over a year.",
@@ -287,7 +287,7 @@
     "subtopic": "scientific_investigation_skills",
     "passage": null,
     "passageTitle": null,
-    "question": "**MAP vertical-alignment review:** A puppy is born with curly fur. Later, the puppy learns to sit when it hears a bell. Which statement is correct?",
+    "question": "A puppy is born with curly fur. Later, the puppy learns to sit when it hears a bell. Which statement is correct?",
     "options": [
       "Curly fur is inherited, and sitting for a bell is learned.",
       "Both traits are learned because a puppy grows.",
@@ -396,6 +396,106 @@
     ],
     "correctIndex": 1,
     "explanation": "**Explanation:** Cover X kept all rain out and had six air holes, so it meets both stated criteria.\n**Key concept:** Testing prototypes against multiple criteria.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q1",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student needs to find out **how much liquid** is in a container. Which tool should she use?",
+    "options": [
+      "A hand lens",
+      "A balance",
+      "A thermometer",
+      "A graduated cylinder"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A graduated cylinder measures volume, which is how much space a liquid takes up. A balance measures mass, a thermometer measures temperature, and a hand lens only magnifies.\n\n**Key concept:** Match the tool to the measurement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q2",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class wants to find out whether plants grow taller in sunlight or in shade. In a fair test, what should be **different** between the two groups of plants?",
+    "options": [
+      "The kind of plant and the amount of light",
+      "The amount of light and the amount of water",
+      "Only the amount of light the plants receive",
+      "The size of the pot and the amount of light"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A fair test changes one thing at a time. If water, plant type or pot size also change, you cannot tell which difference caused the result.\n\n**Key concept:** Change only one variable",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q3",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student rolls a marble down a ramp once and records how far it travels. Why should she repeat the roll several times?",
+    "options": [
+      "Repeating makes the marble roll farther each time",
+      "Repeating shows whether the result happens consistently, not just once by chance",
+      "Repeating is only needed when the first result is wrong",
+      "Repeating changes the question being investigated"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** One trial can be affected by a small mistake or a lucky push. Several trials show whether the result is dependable.\n\n**Key concept:** Repeat trials for reliable results",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q4",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Students measure the temperature of pond water at the same spot every morning for one week. What is the BEST way to record their measurements?",
+    "options": [
+      "In a table with a row for each day and a column for the temperature",
+      "In a paragraph written from memory at the end of the week",
+      "On separate scraps of paper, one for each student",
+      "As a drawing of the pond with no numbers"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A table keeps each measurement with the day it belongs to, so a pattern over the week can be seen. Memory and loose scraps lose data.\n\n**Key concept:** Organise data in a table",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q5",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: \"The leaves on the plant are yellow. **The plant needs more water.**\" Which statement describes the bolded sentence?",
+    "options": [
+      "It is a question, because it could be tested",
+      "It is an observation, because the student wrote it down",
+      "It is a measurement, because it describes the plant",
+      "It is an inference, because it explains a possible cause rather than stating what was seen"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An observation is what the senses detect: the leaves are yellow. An inference explains why, and could be wrong — yellow leaves can also mean too much water or too little light.\n\n**Key concept:** Observation vs inference",
     "source": "authored",
     "needsReview": false
   }

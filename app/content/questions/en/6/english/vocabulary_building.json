@@ -227,7 +227,7 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "**[stretch]**\nRead the sentence below.\n\n> The team's brilliant goalkeeper had one **Achilles' heel**: she panicked whenever she had to kick the ball with her left foot.\n\nThe phrase **Achilles' heel** alludes to a Greek hero who was invincible except for one vulnerable spot on his heel. In this sentence, **Achilles' heel** means —",
+    "question": "Read the sentence below.\n\n> The team's brilliant goalkeeper had one **Achilles' heel**: she panicked whenever she had to kick the ball with her left foot.\n\nThe phrase **Achilles' heel** alludes to a Greek hero who was invincible except for one vulnerable spot on his heel. In this sentence, **Achilles' heel** means —",
     "options": [
       "a special talent that makes someone unbeatable",
       "a single serious weakness in an otherwise strong person",
@@ -236,6 +236,266 @@
     ],
     "correctIndex": 1,
     "explanation": "**Explanation:** An **Achilles' heel** alludes to the hero's one vulnerable spot; it means a **single serious weakness** in an otherwise strong person — here, the goalie's left-foot panic.\n**Key concept:** Allusions carry meaning from a well-known story into new contexts.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q1",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **mal-** means \"bad\" or \"badly.\" Using that prefix, what does it mean to **malfunction**?",
+    "options": [
+      "To be used for the first time",
+      "To work better than expected",
+      "To be built for a single purpose",
+      "To work badly or fail to work properly"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Adding *mal-* (\"bad\") to *function* (\"to work\") gives \"to work badly.\" Knowing one prefix unlocks *malnourished*, *malpractice* and *maladjusted* as well.\n\n**Key concept:** Prefixes carry meaning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q2",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-less** means \"without.\" Read the sentence below.\n\n> After the storm knocked out the bridge, the villagers felt **powerless** to reach the town.\n\nWhat does **powerless** mean?",
+    "options": [
+      "Able to act quickly",
+      "Full of energy",
+      "Without the ability to act",
+      "Warned in advance"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Power* plus *-less* (\"without\") means \"without power,\" that is, without the ability to act. The sentence supports this: the bridge is gone and they cannot reach the town.\n\n**Key concept:** Suffixes change a word’s meaning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q3",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The Latin root **dict** means \"to say\" or \"to speak.\" Which word uses this root to mean \"to say what will happen before it happens\"?",
+    "options": [
+      "Depict",
+      "Predict",
+      "District",
+      "Dictate"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Pre-* means \"before\" and *dict* means \"to say,\" so *predict* is to say beforehand. *Dictate* also uses the root but means to speak words for someone to write down, and *depict* and *district* do not come from *dict* at all.\n\n**Key concept:** Roots combine with prefixes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q4",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the two sentences below.\n\n> 1. The coach described the new player as **thrifty** with her passes.\n> 2. The coach described the new player as **stingy** with her passes.\n\nBoth words mean \"careful not to give much away.\" How does the second sentence differ from the first?",
+    "options": [
+      "*Stingy* carries a negative feeling, while *thrifty* carries a positive one",
+      "*Stingy* means the opposite of *thrifty*",
+      "*Stingy* is a more formal word with exactly the same feeling",
+      "*Thrifty* describes an action and *stingy* describes an object"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Words can share a denotation — a dictionary meaning — but differ in connotation, the feeling attached to them. *Thrifty* praises the care; *stingy* criticises it.\n\n**Key concept:** Connotation is the feeling a word carries",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q5",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word would a writer choose to describe a crowd in a way that suggests **excitement rather than danger**?",
+    "options": [
+      "Frenzied",
+      "Unruly",
+      "Menacing",
+      "Lively"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Lively* has a positive connotation. *Unruly*, *menacing* and *frenzied* all suggest a crowd out of control, which is the danger the writer wants to avoid.\n\n**Key concept:** Choose connotation to fit purpose",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q6",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> The **bark** of the old oak was rough and deeply grooved.\n\nThe word **bark** is a homograph. Which meaning does it carry here, and how do you know?",
+    "options": [
+      "A ship with three masts, because *oak* was used to build ships",
+      "The sharp sound a dog makes, because *bark* usually means that",
+      "The outer covering of a tree, because the sentence describes the surface of an oak",
+      "A sudden shout, because the tone of the sentence is loud"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A homograph is spelled the same but has more than one meaning. The surrounding words — *old oak*, *rough*, *grooved* — describe a surface, which selects the tree-covering meaning.\n\n**Key concept:** Context selects a homograph’s meaning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q7",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> By the third mile, Sam’s legs were **lead**.\n\nWhat does the writer mean?",
+    "options": [
+      "Sam’s legs were made of metal",
+      "Sam’s legs felt extremely heavy and hard to lift",
+      "Sam was in first place in the race",
+      "Sam’s legs were a dull grey colour"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** This is a metaphor: legs are not literally lead, but lead is heavy, so the comparison says the legs felt heavy. Taking it literally makes the sentence impossible.\n\n**Key concept:** Figurative language is not literal",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q8",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read this dictionary entry.\n\n> **re·serve** (ri-ZURV) *verb* 1. to keep back for a special purpose 2. to arrange to have something held for you *noun* 3. a supply kept for later use 4. a protected area of land\n\nWhich meaning is used in \"The park is a wildlife **reserve**\"?",
+    "options": [
+      "Meaning 4",
+      "Meaning 1",
+      "Meaning 2",
+      "Meaning 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** In the sentence *reserve* names a place, so it is a noun, which narrows the choice to meanings 3 and 4. A park for wildlife is a protected area of land, meaning 4.\n\n**Key concept:** Use part of speech to pick an entry",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q9",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writing about a quiet, careful decision looks up **slow** in a thesaurus and finds *sluggish*, *deliberate* and *gradual*. Which is the best replacement, and why?",
+    "options": [
+      "Any of the three, because a thesaurus lists exact synonyms",
+      "*Sluggish*, because it is the most unusual word",
+      "*Gradual*, because every slow thing happens in stages",
+      "*Deliberate*, because it suggests care rather than laziness"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A thesaurus lists near-synonyms, not exact ones. *Sluggish* suggests laziness and *gradual* describes change over time, so only *deliberate* carries the intended sense of care.\n\n**Key concept:** Thesaurus entries are near-synonyms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q10",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the answer that BEST completes the analogy.\n\n> **famine** is to **food** as **drought** is to \\_\\_\\_\\_\\_\\_",
+    "options": [
+      "desert",
+      "harvest",
+      "water",
+      "season"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A famine is a severe shortage of food, so the relationship is \"shortage of.\" A drought is a severe shortage of water. *Desert* is a place, not the thing in short supply.\n\n**Key concept:** Analogies: identify the relationship first",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q11",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Choose the answer that BEST completes the analogy.\n\n> **whisper** is to **shout** as **stroll** is to \\_\\_\\_\\_\\_\\_",
+    "options": [
+      "walk",
+      "sprint",
+      "wander",
+      "stumble"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A whisper and a shout are the same action at low and high intensity. A stroll is slow movement on foot, so the high-intensity match is *sprint*. *Wander* and *stumble* change the manner, not the intensity.\n\n**Key concept:** Analogies can compare degree",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q12",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> The witness gave a **candid** account, admitting details that made her own part in the accident look bad.\n\nWhat does **candid** mean?",
+    "options": [
+      "Honest and open, even when it is not flattering",
+      "Confused and hard to follow",
+      "Brief and lacking in detail",
+      "Prepared and rehearsed in advance"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The clause after the comma defines the word: she admitted things that harmed her own case. That is honesty, not confusion or brevity.\n\n**Key concept:** A defining clause is a context clue",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g6_2026-09-04_01-32_q13",
+    "grade": 6,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** The Greek root **auto** means \"self\" and **nomos** means \"law.\" A vehicle described as **autonomous** is one that",
+    "options": [
+      "is built by a single company from start to finish",
+      "obeys traffic laws more strictly than a human driver",
+      "runs on power it generates from sunlight",
+      "operates by its own rules, without a driver directing it"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Combining the roots gives \"self-law\": governed by itself. The everyday meaning follows directly — an autonomous vehicle drives itself. The other options describe real technologies but ignore the roots.\n\n**Key concept:** Two roots combine into one meaning",
     "source": "authored",
     "needsReview": false
   }

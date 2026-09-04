@@ -55,7 +55,7 @@
       "\\(12\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Worked solution:** Oak has 5 stars, and each star means 2 jars: \\(5\times2=10\\) jars.\n\n**Key concept:** Read a pictograph key",
+    "explanation": "**Worked solution:** Oak has 5 stars, and each star means 2 jars: \\(5\\times2=10\\) jars.\n\n**Key concept:** Read a pictograph key",
     "source": "authored",
     "needsReview": false
   },
@@ -107,12 +107,12 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Tariq earns \\($12\\) for helping a neighbor. He saves \\($5\\), donates \\($2\\), and spends the rest. How much does he spend?",
+    "question": "Tariq earns \\(\\$12\\) for helping a neighbor. He saves \\(\\$5\\), donates \\(\\$2\\), and spends the rest. How much does he spend?",
     "options": [
-      "\\($5\\)",
-      "\\($7\\)",
-      "\\($9\\)",
-      "\\($19\\)"
+      "\\(\\$5\\)",
+      "\\(\\$7\\)",
+      "\\(\\$9\\)",
+      "\\(\\$19\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Worked solution:** Tariq’s \\(12\\) is split among saving, donating, and spending: \\(12-5-2=5\\).\n\n**Key concept:** Budgeting earned money",
@@ -147,7 +147,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Maya wants a \\($36\\) art set. She already saved \\($14\\) and plans to save \\($4\\) each week. How many weeks will she need to save enough money?",
+    "question": "Maya wants a \\(\\$36\\) art set. She already saved \\(\\$14\\) and plans to save \\(\\$4\\) each week. How many weeks will she need to save enough money?",
     "options": [
       "4 weeks",
       "5 weeks",
@@ -167,12 +167,12 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Noah has \\($25\\). He needs a \\($9\\) notebook and an \\($8\\) water bottle, and he wants an \\($11\\) puzzle. What should Noah do to stay within his budget?",
+    "question": "Noah has \\(\\$25\\). He needs a \\(\\$9\\) notebook and an \\(\\$8\\) water bottle, and he wants an \\(\\$11\\) puzzle. What should Noah do to stay within his budget?",
     "options": [
-      "Buy all three because they cost \\($25\\).",
+      "Buy all three because they cost \\(\\$25\\).",
       "Buy the notebook and water bottle only.",
       "Buy the water bottle and puzzle only.",
-      "Borrow \\($3\\) and buy all three."
+      "Borrow \\(\\$3\\) and buy all three."
     ],
     "correctIndex": 1,
     "explanation": "**Worked solution:** All three cost \\(9+8+11=28\\), but Noah has \\(25\\). The notebook and water bottle cost \\(17\\), which stays within the budget.\n\n**Key concept:** Staying within a budget",
@@ -267,7 +267,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Ravi earns \\(12 and spends \\)7. How much can he save?",
+    "question": "Ravi earns $12 and spends $7. How much can he save?",
     "options": [
       "$12",
       "$19",
@@ -275,7 +275,7 @@
       "$5"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(12 earned − \\)7 spent = $5 left to save.\n\n**Key concept:** Saving",
+    "explanation": "**Explanation:** $12 earned − $7 spent = $5 left to save.\n\n**Key concept:** Saving",
     "source": "authored",
     "needsReview": false
   },
@@ -315,7 +315,7 @@
       "$48"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** 8 × \\(4 = \\)32 saved.\n\n**Key concept:** Saving over time",
+    "explanation": "**Explanation:** 8 × $4 = $32 saved.\n\n**Key concept:** Saving over time",
     "source": "authored",
     "needsReview": false
   },
@@ -387,7 +387,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Ana has \\(30. She budgets \\)18 for a gift and saves the rest. How much does she save?",
+    "question": "Ana has $30. She budgets $18 for a gift and saves the rest. How much does she save?",
     "options": [
       "$48",
       "$12",
@@ -395,7 +395,7 @@
       "$22"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** \\(30 − \\)18 = $12 saved.\n\n**Key concept:** Budgeting",
+    "explanation": "**Explanation:** $30 − $18 = $12 saved.\n\n**Key concept:** Budgeting",
     "source": "authored",
     "needsReview": false
   },
@@ -495,7 +495,7 @@
       "$15"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** \\(15 + \\)10 = $25 total income.\n\n**Key concept:** Calculating income",
+    "explanation": "**Explanation:** $15 + $10 = $25 total income.\n\n**Key concept:** Calculating income",
     "source": "authored",
     "needsReview": false
   },
@@ -515,7 +515,7 @@
       "5"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(40 ÷ \\)8 = 5 weeks of saving.\n\n**Key concept:** Saving goals",
+    "explanation": "**Explanation:** $40 ÷ $8 = 5 weeks of saving.\n\n**Key concept:** Saving goals",
     "source": "authored",
     "needsReview": false
   },
@@ -587,7 +587,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Sam has \\(25 and wants a \\)60 scooter. How much more does he need?",
+    "question": "Sam has $25 and wants a $60 scooter. How much more does he need?",
     "options": [
       "$25",
       "$85",
@@ -595,7 +595,7 @@
       "$35"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(60 − \\)25 = $35 more to save.\n\n**Key concept:** Saving goals",
+    "explanation": "**Explanation:** $60 − $25 = $35 more to save.\n\n**Key concept:** Saving goals",
     "source": "authored",
     "needsReview": false
   },
@@ -627,7 +627,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "A budget lists income of \\(50 and spending of \\)50. What is left to save?",
+    "question": "A budget lists income of $50 and spending of $50. What is left to save?",
     "options": [
       "$50",
       "Nothing.",

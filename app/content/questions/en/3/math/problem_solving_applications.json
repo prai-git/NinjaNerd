@@ -75,7 +75,7 @@
       "$19"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:**\n5 weeks × \\(7 = \\)35 saved, then \\(35 − \\)12 = $23.",
+    "explanation": "**Explanation:**\n5 weeks × $7 = $35 saved, then $35 − $12 = $23.",
     "source": "authored",
     "needsReview": false
   },
@@ -175,7 +175,7 @@
       "$6"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** 3 × \\(8 = \\)24, and \\(30 − \\)24 = $6 change.\n\n**Key concept:** Two-step problem",
+    "explanation": "**Explanation:** 3 × $8 = $24, and $30 − $24 = $6 change.\n\n**Key concept:** Two-step problem",
     "source": "authored",
     "needsReview": false
   },
@@ -235,7 +235,7 @@
       "$57"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** 7 × \\(5 = \\)35 saved.\n\n**Key concept:** Repeated addition",
+    "explanation": "**Explanation:** 7 × $5 = $35 saved.\n\n**Key concept:** Repeated addition",
     "source": "authored",
     "needsReview": false
   },

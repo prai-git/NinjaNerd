@@ -78,5 +78,425 @@
     "explanation": "**Explanation and text evidence:** C names the cause, action, and result precisely: strong wind bent the young trees.\n\n**Key concept:** Precise word choice",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q55",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses capital letters correctly?",
+    "options": [
+      "On friday, Mrs. Patel took our class to Austin.",
+      "On Friday, Mrs. Patel took our class to Austin.",
+      "On Friday, mrs. Patel took our Class to austin.",
+      "on Friday, Mrs. patel took our class to Austin."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Days of the week, a title used with a name, and city names are capitalised. Ordinary nouns like *class* are not.\n\n**Key concept:** Capitalising days, titles and places",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q56",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence capitalises the **country** and the **language** correctly?",
+    "options": [
+      "My cousin from Canada speaks French and English.",
+      "My Cousin from canada speaks french and english.",
+      "My cousin from Canada speaks french and English.",
+      "my cousin from Canada speaks French and english."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Country names and the names of languages are always capitalised. A family word like *cousin* is not capitalised unless it comes before a name.\n\n**Key concept:** Capitalising countries and languages",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q57",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which end mark belongs at the end of this sentence?\n\n> Watch out for the wet paint",
+    "options": [
+      "A comma (,)",
+      "A period (.)",
+      "A question mark (?)",
+      "An exclamation mark (!)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The sentence is a warning showing strong feeling, so it takes an exclamation mark. A question mark is only for questions.\n\n**Key concept:** End punctuation: exclamations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q58",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is punctuated correctly?",
+    "options": [
+      "Did you remember to feed the fish!",
+      "Did you remember to feed the fish.",
+      "Did you remember to feed the fish?",
+      "Did you remember to feed the fish"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A question ends with a question mark. Every sentence needs an end mark, so leaving it off is also wrong.\n\n**Key concept:** End punctuation: questions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q59",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly in a **list**?",
+    "options": [
+      "We bought apples pears, grapes and plums.",
+      "We bought apples, pears, grapes, and plums.",
+      "We bought, apples, pears, grapes and plums.",
+      "We bought apples, pears grapes, and plums."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Commas separate the items in a list. They do not come before the first item or between two items with no comma at all.\n\n**Key concept:** Commas in a series",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q60",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence writes the **date** correctly?",
+    "options": [
+      "The library opened on March 4, 2019.",
+      "The library opened on March 4 2019.",
+      "The library opened on March, 4, 2019.",
+      "The library opened on march 4, 2019."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A comma goes between the day and the year, and the month is capitalised. No comma belongs between the month and the day.\n\n**Key concept:** Commas in dates",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q61",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma correctly after an **introductory word**?",
+    "options": [
+      "Suddenly the, lights went out.",
+      "Suddenly the lights, went out.",
+      "Suddenly the lights went, out.",
+      "Suddenly, the lights went out."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A comma follows an introductory word or phrase at the start of a sentence. It does not belong in the middle of the subject or the verb phrase.\n\n**Key concept:** Commas after introductory words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q62",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an **apostrophe** correctly in a contraction?",
+    "options": [
+      "We have’nt seen the new mural yet.",
+      "We havent’ seen the new mural yet.",
+      "We haven’t seen the new mural yet.",
+      "We havent seen the new mural yet."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The apostrophe replaces the missing letter. *Have not* becomes *haven’t*, with the apostrophe where the *o* was removed.\n\n**Key concept:** Apostrophes in contractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q63",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an apostrophe correctly to show **one owner**?",
+    "options": [
+      "The artists brushes were spread across the table.",
+      "The artist’s brushes were spread across the table.",
+      "The artists’ brushes were spread across the table, and she used them all.",
+      "The artist’s’ brushes were spread across the table."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** For one owner, add an apostrophe and *s*: *artist’s*. Putting the apostrophe after the *s* would mean more than one artist.\n\n**Key concept:** Singular possessive apostrophes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q64",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates the spoken words correctly?",
+    "options": [
+      "\"Please close the door,\" said Aunt Mira.",
+      "\"Please close the door\" said Aunt Mira.",
+      "Please close the door, \"said Aunt Mira.\"",
+      "\"Please close the door.\" said Aunt Mira."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Quotation marks surround only the spoken words, and a comma inside them separates the speech from the speaker tag.\n\n**Key concept:** Quotation marks in dialogue",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q65",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence puts the end punctuation **inside** the quotation marks correctly?",
+    "options": [
+      "Owen shouted, \"The bus is here\"!",
+      "Owen shouted \"The bus is here!\"",
+      "Owen shouted, The bus is here!",
+      "Owen shouted, \"The bus is here!\""
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A comma comes after the speaker tag, and the end punctuation of the spoken words goes inside the closing quotation mark.\n\n**Key concept:** Punctuation inside quotation marks",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q66",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "becase",
+      "becuase",
+      "because",
+      "becuse"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Because* keeps the *au* pair in the middle. Sounding a word out is a good start, but common words often need to be remembered.\n\n**Key concept:** Spelling frequently used words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q67",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which spelling is correct?",
+    "options": [
+      "freind",
+      "friend",
+      "frend",
+      "frinde"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Friend* is spelled with *ie*, not *ei*, even though the sound might suggest otherwise.\n\n**Key concept:** Spelling ie words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q68",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct spelling when the ending **-ing** is added to *run*?",
+    "options": [
+      "running",
+      "runing",
+      "runnning",
+      "runeing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** For a short-vowel word ending in one consonant, double the consonant before adding *-ing*: *run/running*, *hop/hopping*.\n\n**Key concept:** Doubling before -ing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q69",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct spelling when the ending **-ed** is added to *carry*?",
+    "options": [
+      "carreid",
+      "carryed",
+      "carrid",
+      "carried"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** When a word ends in a consonant plus *y*, change the *y* to *i* before adding *-ed*: *carry/carried*, *hurry/hurried*.\n\n**Key concept:** Changing y to i",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q70",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **plural** spelling of *box*?",
+    "options": [
+      "boxxes",
+      "boxs",
+      "boxes",
+      "boxies"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Nouns ending in *x*, *s*, *ch* or *sh* add *-es* to form the plural: *box/boxes*, *bus/buses*, *dish/dishes*.\n\n**Key concept:** Adding -es to form plurals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q71",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of words is a **fragment** rather than a complete sentence?",
+    "options": [
+      "The children ran all the way to the corner.",
+      "Ran all the way to the corner.",
+      "They ran fast.",
+      "Ran the children all the way to the corner?"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A fragment is missing a subject or a predicate. *Ran all the way to the corner* never says who ran.\n\n**Key concept:** Recognising fragments",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q72",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the group of words.\n\n> The storm was loud we could not sleep.\n\nWhat is wrong with it?",
+    "options": [
+      "It is a run-on; the two thoughts need a comma and *so*, or a period between them",
+      "It is a fragment; it needs a verb",
+      "It needs a question mark at the end",
+      "Nothing is wrong with it"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Two complete thoughts are pushed together with no punctuation. Writing \"The storm was loud, so we could not sleep.\" fixes it.\n\n**Key concept:** Fixing run-on sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q73",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> The kitten hurt \\_\\_\\_\\_\\_\\_ paw on the fence.",
+    "options": [
+      "it is",
+      "it’s",
+      "its’",
+      "its"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Its* shows possession — the paw belongs to the kitten. *It’s* is short for *it is*, which would not make sense here.\n\n**Key concept:** its vs it’s",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q74",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> We walked \\_\\_\\_\\_\\_\\_ the park to reach the library.",
+    "options": [
+      "thorough",
+      "threw",
+      "through",
+      "thru"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Through* means passing from one side to the other. *Threw* is the past tense of *throw*, and *thorough* means complete.\n\n**Key concept:** Homophones: through and threw",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q75",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Which sentence writes the title of a **poem** correctly?",
+    "options": [
+      "We recited the sidewalk ends for the class.",
+      "We recited \"The Sidewalk Ends\" for the class.",
+      "We recited The sidewalk ends for the class.",
+      "We recited \"the sidewalk ends\" for the class."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A poem is a short work, so its title goes inside quotation marks, and the important words are capitalised.\n\n**Key concept:** Writing poem titles",
+    "source": "authored",
+    "needsReview": false
   }
 ]

@@ -47,7 +47,7 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "A book's price rises from \\(25 to \\)30. What is the percent increase?",
+    "question": "A book's price rises from $25 to $30. What is the percent increase?",
     "options": [
       "20%",
       "5%",
@@ -167,12 +167,12 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "A jacket costs \\($85\\). Sales tax is \\(8\\%\\). What is the total cost?",
+    "question": "A jacket costs \\(\\$85\\). Sales tax is \\(8\\%\\). What is the total cost?",
     "options": [
-      "\\($91.80\\)",
-      "\\($6.80\\)",
-      "\\($93.50\\)",
-      "\\($78.20\\)"
+      "\\(\\$91.80\\)",
+      "\\(\\$6.80\\)",
+      "\\(\\$93.50\\)",
+      "\\(\\$78.20\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n\\(85 \\times 1.08 = 91.80\\). The value $6.80 is the tax alone.\n\n**Key concept:** Multiply by \\(1 + r\\) to add a percent in one step.",
@@ -187,7 +187,7 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "A price rises from \\($40\\) to \\($52\\). What is the percent increase?",
+    "question": "A price rises from \\(\\$40\\) to \\(\\$52\\). What is the percent increase?",
     "options": [
       "\\(30\\%\\)",
       "\\(12\\%\\)",
@@ -327,12 +327,12 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "A \\($250\\) item is discounted \\(40\\%\\), then a further \\(10\\%\\) is taken off the reduced price. What is the final price?",
+    "question": "A \\(\\$250\\) item is discounted \\(40\\%\\), then a further \\(10\\%\\) is taken off the reduced price. What is the final price?",
     "options": [
-      "\\($135\\)",
-      "\\($125\\)",
-      "\\($150\\)",
-      "\\($140\\)"
+      "\\(\\$135\\)",
+      "\\(\\$125\\)",
+      "\\(\\$150\\)",
+      "\\(\\$140\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n- After 40% off: \\(250 \\times 0.60 = 150\\)\n- After a further 10% off: \\(150 \\times 0.90 = 135\\)\n\nTreating it as a single 50% discount gives 125, which is wrong because the second discount applies to the reduced price.\n\n**Key concept:** Successive discounts multiply; they do not add.",
@@ -387,7 +387,7 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "Two shops sell rice. Shop A: 3 kg for \\($7.50\\). Shop B: 5 kg for \\($12.00\\). Which is the better unit price?",
+    "question": "Two shops sell rice. Shop A: 3 kg for \\(\\$7.50\\). Shop B: 5 kg for \\(\\$12.00\\). Which is the better unit price?",
     "options": [
       "Shop A",
       "Shop B",
@@ -395,7 +395,7 @@
       "Cannot be determined."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:**\n- Shop A: \\(7.50 \\div 3 = $2.50\\) per kg\n- Shop B: \\(12.00 \\div 5 = $2.40\\) per kg\n\n**Key concept:** Comparing prices requires a common unit.",
+    "explanation": "**Explanation:**\n- Shop A: \\(7.50 \\div 3 = \\$2.50\\) per kg\n- Shop B: \\(12.00 \\div 5 = \\$2.40\\) per kg\n\n**Key concept:** Comparing prices requires a common unit.",
     "source": "authored",
     "needsReview": false
   },
@@ -467,7 +467,7 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "A price falls from \\($80\\) to \\($68\\). What is the percent decrease?",
+    "question": "A price falls from \\(\\$80\\) to \\(\\$68\\). What is the percent decrease?",
     "options": [
       "\\(15\\%\\)",
       "\\(12\\%\\)",
@@ -527,12 +527,12 @@
     "subtopic": "proportional_reasoning_percentages",
     "passage": null,
     "passageTitle": null,
-    "question": "A shop marks up cost by \\(60\\%\\), then offers \\(25\\%\\) off the marked price. An item costs the shop \\($40\\). What does a customer pay?",
+    "question": "A shop marks up cost by \\(60\\%\\), then offers \\(25\\%\\) off the marked price. An item costs the shop \\(\\$40\\). What does a customer pay?",
     "options": [
-      "\\($48\\)",
-      "\\($64\\)",
-      "\\($54\\)",
-      "\\($42\\)"
+      "\\(\\$48\\)",
+      "\\(\\$64\\)",
+      "\\(\\$54\\)",
+      "\\(\\$42\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n- Marked price: \\(40 \\times 1.60 = 64\\)\n- After 25% off: \\(64 \\times 0.75 = 48\\)\n\nThe shop still makes $8 on the sale, which is why markup-then-discount is a common retail pattern.\n\n**Key concept:** Apply markup and discount in sequence, each to the current price.",

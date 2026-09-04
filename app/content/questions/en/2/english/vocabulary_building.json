@@ -158,5 +158,345 @@
     "explanation": "**Explanation:** This idiom means a person feels nervous, not that real butterflies are present.\n**Why the other answers are wrong:** B. He ate insects. — it does not fit because This idiom means a person feels nervous, not that real butterflies are present. C. He needed lunch. — it does not fit because This idiom means a person feels nervous, not that real butterflies are present. D. He wanted a zoo visit. — it does not fit because This idiom means a person feels nervous, not that real butterflies are present.\n**Key concept:** idioms",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q18",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **un-** means *not*. What does **unlock** mean?",
+    "options": [
+      "To lock something again",
+      "To lock something twice",
+      "To open something that was locked",
+      "To keep something locked"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Adding *un-* reverses the meaning. *Unlock* undoes locking, just as *untie* undoes tying.\n\n**Key concept:** The prefix un-",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q19",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **re-** means *again*. What does **retell** mean?",
+    "options": [
+      "To tell for the first time",
+      "To tell again",
+      "To stop telling",
+      "To tell quietly"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Re-* means again, so *retell* is to tell a second time. The same prefix gives *redo* and *reread*.\n\n**Key concept:** The prefix re-",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q20",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-ful** means *full of*. Someone who is **helpful** is —",
+    "options": [
+      "full of help",
+      "without help",
+      "helped before",
+      "helping again"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *-ful* means full of that quality. The same ending gives *joyful*, *careful* and *thankful*.\n\n**Key concept:** The suffix -ful",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q21",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-less** means *without*. A **sleepless** night is one —",
+    "options": [
+      "with a short sleep",
+      "full of sleep",
+      "after a long sleep",
+      "without sleep"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *-less* means without. The same ending gives *hopeless*, *painless* and *spotless*.\n\n**Key concept:** The suffix -less",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q22",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A **baker** is someone who —",
+    "options": [
+      "sells milk",
+      "eats bread",
+      "bakes",
+      "builds houses"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The ending *-er* often means \"one who does it\": *bake/baker*, *teach/teacher*, *farm/farmer*.\n\n**Key concept:** The suffix -er",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q23",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does the ending **-ing** show in the word **running**?",
+    "options": [
+      "The action already finished",
+      "The action is happening now",
+      "The action will happen tomorrow",
+      "The action never happened"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The *-ing* ending shows an action in progress: \"She is running now.\"\n\n**Key concept:** The ending -ing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q24",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means about the same as **tired**?",
+    "options": [
+      "sleepy",
+      "hungry",
+      "angry",
+      "busy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Words that mean nearly the same thing are synonyms. *Sleepy* and *tired* both describe needing rest.\n\n**Key concept:** Synonyms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q25",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means about the same as **tiny**?",
+    "options": [
+      "wide",
+      "huge",
+      "heavy",
+      "small"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Tiny* and *small* both mean not big, so they are synonyms. *Huge* means the opposite.\n\n**Key concept:** Synonyms for size",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q26",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is the **opposite** of **empty**?",
+    "options": [
+      "light",
+      "open",
+      "full",
+      "clean"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Words with opposite meanings are antonyms. A cup that is not empty is full.\n\n**Key concept:** Antonyms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q27",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is the **opposite** of **early**?",
+    "options": [
+      "soon",
+      "late",
+      "quick",
+      "first"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Arriving early is arriving before the time, and arriving late is after it, so they are antonyms.\n\n**Key concept:** Antonyms about time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q28",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Please **duck** so the ball does not hit you.\n\nWhat does **duck** mean here?",
+    "options": [
+      "To bend down quickly",
+      "A bird that swims",
+      "A kind of cloth",
+      "To swim underwater"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Some words have more than one meaning. The rest of the sentence — so the ball misses you — shows that *duck* means to bend down.\n\n**Key concept:** Multiple-meaning words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q29",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Dad used a **saw** to cut the board.\n\nWhat does **saw** mean here?",
+    "options": [
+      "A soft chair",
+      "Looked at something",
+      "A kind of song",
+      "A tool with sharp teeth for cutting"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Cutting a board takes a tool, so *saw* names the tool here, not the past tense of *see*.\n\n**Key concept:** Context picks the meaning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q30",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which two words make the compound word **bedroom**?",
+    "options": [
+      "bed and oom",
+      "be and droom",
+      "bed and room",
+      "bed and rooms"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A compound word joins two whole words. *Bed* + *room* names the room where a bed is.\n\n**Key concept:** Compound words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q31",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **compound word**?",
+    "options": [
+      "rainy",
+      "raincoat",
+      "raining",
+      "rained"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Raincoat* joins two whole words, *rain* and *coat*. The others are *rain* with an ending added.\n\n**Key concept:** Recognising compound words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q32",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> The bees flew to \\_\\_\\_\\_\\_\\_ hive.",
+    "options": [
+      "their",
+      "there",
+      "they’re",
+      "thier"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Their* shows that something belongs to them. *There* names a place, as in \"over there.\"\n\n**Key concept:** Homophones: their and there",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q33",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list of words is in **ABC order**?",
+    "options": [
+      "candle, cake, coat, cave",
+      "cake, cave, candle, coat",
+      "coat, cave, candle, cake",
+      "cake, candle, cave, coat"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** When the first letters match, look at the second letter, then the third. All four begin with *c*; the second letters are *a, a, a, o*, and among the three *ca* words the third letters are *k, n, v*.\n\n**Key concept:** ABC order",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q34",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student does not know the word **burrow** in a story about rabbits. Which is the BEST first step?",
+    "options": [
+      "Guess a word that starts with the same letter",
+      "Skip the word and keep reading to the end",
+      "Read the rest of the sentence to look for clues about what a burrow is",
+      "Ask what the last word of the story is"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Nearby words often explain an unknown word. Looking it up is a good second step, but the sentence itself is the fastest clue.\n\n**Key concept:** Using context first",
+    "source": "authored",
+    "needsReview": false
   }
 ]

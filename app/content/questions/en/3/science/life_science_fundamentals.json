@@ -187,7 +187,7 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "**MAP vertical-alignment review:** A young fox has thicker fur than another fox in the same habitat. During a cold winter, the thicker-furred fox stays warmer. Which statement best explains the difference?",
+    "question": "A young fox has thicker fur than another fox in the same habitat. During a cold winter, the thicker-furred fox stays warmer. Which statement best explains the difference?",
     "options": [
       "Winter causes a fox to become a different kind of organism.",
       "A body trait can affect how well an animal survives in an environment.",
@@ -216,6 +216,286 @@
     ],
     "correctIndex": 2,
     "explanation": "**Explanation:** The observations connect less water with fewer tadpoles and changed bird behavior. This explanation uses several pieces of evidence rather than one unsupported claim.\n**Key concept:** Constructing an evidence-based ecosystem explanation.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q6",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which part of a plant takes in water and minerals from the soil?",
+    "options": [
+      "The flower",
+      "The leaves",
+      "The roots",
+      "The stem"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Roots absorb water and minerals and anchor the plant. Leaves make food using sunlight, the stem carries water upward, and the flower makes seeds.\n\n**Key concept:** Plant parts have jobs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q7",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the main job of a plant’s **leaves**?",
+    "options": [
+      "To hold the plant upright in the wind",
+      "To use sunlight to make food for the plant",
+      "To take in water from the soil",
+      "To attract animals that spread seeds"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Leaves capture sunlight and use it with water and air to make food. The stem provides support and the roots take in water.\n\n**Key concept:** Leaves make food",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q8",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which part of a flowering plant produces **seeds**?",
+    "options": [
+      "The flower",
+      "The root",
+      "The leaf",
+      "The stem"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Seeds form in the flower after pollination. A new plant can grow from each seed, which is how the plant reproduces.\n\n**Key concept:** Flowers make seeds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q9",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plant is kept in a dark closet with plenty of water for two weeks. What is most likely to happen, and why?",
+    "options": [
+      "It will grow more roots and no leaves, because roots do not need light",
+      "It will grow faster, because it is not disturbed",
+      "It will stay exactly the same, because it has water",
+      "It will become pale and weak, because it cannot make food without light"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Plants need light to make food. Water alone is not enough, so a plant in the dark uses up its stored food and weakens.\n\n**Key concept:** Plants need light, water and air",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q10",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a garden food chain, the tomato plant is a **producer**. What does that mean?",
+    "options": [
+      "It breaks down dead material",
+      "It eats other living things",
+      "It makes its own food using sunlight",
+      "It is the largest organism in the garden"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Producers make their own food. Consumers eat other organisms, and decomposers break down dead material.\n\n**Key concept:** Producers make their own food",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q11",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A mushroom grows on a fallen log and slowly breaks it down. What role does the mushroom play?",
+    "options": [
+      "Producer",
+      "Decomposer",
+      "Predator",
+      "Pollinator"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A decomposer breaks down dead material and returns nutrients to the soil. A mushroom does not make its own food, so it is not a producer.\n\n**Key concept:** Decomposers recycle nutrients",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q12",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at this food chain.\n\n> leaf → caterpillar → bird → hawk\n\nWhich organism is a **consumer** that eats only plants?",
+    "options": [
+      "The caterpillar",
+      "The leaf",
+      "The bird",
+      "The hawk"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The caterpillar eats the leaf, which is part of a plant, so it is a plant-eating consumer. The leaf is part of the producer, and the bird and hawk eat other animals.\n\n**Key concept:** Reading a food chain",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q13",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which trait of a rabbit is **inherited** from its parents rather than learned?",
+    "options": [
+      "Where it hides during a storm",
+      "Which path it takes to reach a garden",
+      "Which sounds mean danger to it",
+      "The colour of its fur"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Inherited traits are passed from parents, like fur colour. Paths, warning sounds and hiding places are learned from experience.\n\n**Key concept:** Inherited vs learned traits",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q14",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A puppy learns to sit when its owner gives a signal. What kind of behaviour is this?",
+    "options": [
+      "A physical adaptation",
+      "An inherited trait",
+      "A learned behaviour",
+      "A life cycle stage"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Learned behaviour comes from experience or training. Inherited traits, such as ear shape, are passed down from the parents.\n\n**Key concept:** Learned behaviour comes from experience",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q15",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How is the life cycle of a **frog** different from the life cycle of a **chicken**?",
+    "options": [
+      "A frog hatches from an egg and a chicken does not",
+      "A frog has a tadpole stage that lives in water and breathes with gills",
+      "A chicken changes form completely and a frog does not",
+      "A frog skips the young stage and hatches fully grown"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Both hatch from eggs, but a frog passes through a tadpole stage with gills and a tail before becoming an adult. A chick looks like a small adult from the start.\n\n**Key concept:** Comparing life cycles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q16",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence correctly shows the life cycle of a butterfly?",
+    "options": [
+      "egg → larva (caterpillar) → pupa (chrysalis) → adult",
+      "egg → pupa → larva → adult",
+      "larva → egg → adult → pupa",
+      "adult → egg → pupa → larva"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A butterfly undergoes complete metamorphosis in that order. The pupa stage always comes after the larva, which is when the change to adult form happens.\n\n**Key concept:** Butterfly metamorphosis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q17",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A cactus stores water in its thick stem and has spines instead of broad leaves. How do these structures help it survive in a desert?",
+    "options": [
+      "They keep the cactus warm during hot afternoons",
+      "They help the cactus move to wetter ground",
+      "They allow the cactus to take in water through its spines",
+      "They hold water in and lose less of it to the dry air"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Thick stems store water and narrow spines have far less surface than broad leaves, so less water escapes. Both structures reduce water loss.\n\n**Key concept:** Structures suit the environment",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q18",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Bees visit flowers for nectar and carry pollen from flower to flower. How does this help the **plants**?",
+    "options": [
+      "It protects the plants from cold weather",
+      "It gives the plants extra water",
+      "It allows the plants to make seeds",
+      "It makes the plants’ roots grow deeper"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Pollen must move between flowers before seeds can form. Both organisms benefit: the bee gets food and the plant reproduces.\n\n**Key concept:** Organisms depend on each other",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q19",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** All the toads disappear from the meadow food chain below.\n\n> grass → grasshopper → toad → hawk\n\nWhat is most likely to happen next?",
+    "options": [
+      "The grass will disappear within a day",
+      "The number of grasshoppers will rise and the hawks will have less to eat",
+      "The hawks will begin eating grass instead",
+      "Nothing will change, because toads are small"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Removing the toads removes what eats the grasshoppers, so grasshopper numbers rise and eat more grass. The hawks lose one of their food sources. A change at one level affects the whole chain.\n\n**Key concept:** Removing one link affects the chain",
     "source": "authored",
     "needsReview": false
   }

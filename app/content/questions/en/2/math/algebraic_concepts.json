@@ -167,15 +167,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A frog jumps \\(14\\) cm then \\(9\\) cm and stops \\(5\\) cm before a \\(30\\) cm mark. Which equation checks this?",
+    "question": "A frog jumps \\(14\\) cm then \\(9\\) cm and stops \\(7\\) cm before a \\(30\\) cm mark. Which equation checks this?",
     "options": [
-      "\\(14+9+5=30\\)",
-      "\\(14+9-5=30\\)",
+      "\\(14+9+7=30\\)",
+      "\\(14+9-7=30\\)",
       "\\(30-14=9\\)",
-      "\\(30+5=14+9\\)"
+      "\\(30+7=14+9\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The jumps plus the remaining distance make the whole: \\(14+9+5=30\\).\n**Why the other answers are wrong:** B. \\(14+9-5=30\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\). C. \\(30-14=9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\). D. \\(30+5=14+9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+5=30\\).\n**Key concept:** equation reasoning",
+    "explanation": "**Explanation:** The jumps plus the remaining distance make the whole: \\(14+9+7=30\\).\n**Why the other answers are wrong:** B. \\(14+9-7=30\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+7=30\\). C. \\(30-14=9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+7=30\\). D. \\(30+7=14+9\\) — it does not fit because The jumps plus the remaining distance make the whole: \\(14+9+7=30\\).\n**Key concept:** equation reasoning",
     "source": "authored",
     "needsReview": false
   },
@@ -196,6 +196,306 @@
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:** Base-ten blocks show tens and ones and the regrouping of \\(15\\) ones into a ten and \\(5\\) ones.\n**Key concept:** mathematical tools",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q1",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is **odd**?",
+    "options": [
+      "64",
+      "38",
+      "52",
+      "47"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A number is odd when its ones digit is 1, 3, 5, 7 or 9. The ones digit of 47 is 7.\n\n**Key concept:** Odd numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q2",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Skip count by **5s**. What comes next?\n\n> 15, 20, 25, 30, \\_\\_\\_\\_",
+    "options": [
+      "40",
+      "31",
+      "35",
+      "45"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Counting by 5s adds 5 each time: 30 + 5 = 35.\n\n**Key concept:** Skip counting by 5",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q3",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Skip count by **10s**. What comes next?\n\n> 240, 250, 260, 270, \\_\\_\\_\\_",
+    "options": [
+      "271",
+      "280",
+      "290",
+      "300"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Counting by 10s adds 10 each time, so the tens digit goes up by one: 270 + 10 = 280.\n\n**Key concept:** Skip counting by 10",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q4",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Skip count by **2s**. What comes next?\n\n> 34, 36, 38, 40, \\_\\_\\_\\_",
+    "options": [
+      "42",
+      "41",
+      "44",
+      "48"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Counting by 2s adds 2 each time: 40 + 2 = 42. All the numbers in this pattern are even.\n\n**Key concept:** Skip counting by 2",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q5",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at the pattern.\n\n> 3, 6, 9, 12, 15, \\_\\_\\_\\_\n\nWhat is the next number?",
+    "options": [
+      "21",
+      "16",
+      "20",
+      "18"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each number is 3 more than the one before, so the next is 15 + 3 = 18.\n\n**Key concept:** Growing patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q6",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at the pattern.\n\n> 100, 90, 80, 70, \\_\\_\\_\\_\n\nWhat is the next number?",
+    "options": [
+      "69",
+      "65",
+      "60",
+      "75"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each number is 10 less than the one before, so the next is 70 − 10 = 60.\n\n**Key concept:** Shrinking patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q7",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at the shape pattern.\n\n> circle, square, triangle, circle, square, triangle, \\_\\_\\_\\_\n\nWhich shape comes next?",
+    "options": [
+      "square",
+      "circle",
+      "triangle",
+      "a new shape"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The pattern repeats three shapes in the same order. After the triangle, the pattern starts again with the circle.\n\n**Key concept:** Repeating patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q8",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Find the missing number.\n\n> \\(\\Box + 45 = 80\\)",
+    "options": [
+      "35",
+      "25",
+      "45",
+      "125"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The missing part plus 45 makes 80, so subtract: 80 − 45 = 35. Check it: 35 + 45 = 80.\n\n**Key concept:** Missing addend",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q9",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Find the missing number.\n\n> \\(62 + \\Box = 90\\)",
+    "options": [
+      "152",
+      "38",
+      "32",
+      "28"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Subtract to find the missing part: 90 − 62 = 28. Check it: 62 + 28 = 90.\n\n**Key concept:** Missing addend in the second position",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q10",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Find the missing number.\n\n> \\(74 - \\Box = 40\\)",
+    "options": [
+      "44",
+      "114",
+      "34",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Starting at 74 and taking away the missing number leaves 40, so the missing number is 74 − 40 = 34.\n\n**Key concept:** Missing number in a subtraction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q11",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 52 crayons. Some are in the box and 19 are on the table. How many are in the box?",
+    "options": [
+      "71",
+      "33",
+      "43",
+      "23"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The whole is 52 and one part is 19, so the other part is 52 − 19 = 33.\n\n**Key concept:** Part-part-whole",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q12",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which equation has two sides of **equal value**?",
+    "options": [
+      "\\(40 + 30 = 90 - 20\\)",
+      "\\(40 + 30 = 90\\)",
+      "\\(40 + 30 = 20 + 60\\)",
+      "\\(40 + 30 = 100 - 20\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Work out each side. Left: 40 + 30 = 70. In the correct answer the right side is 90 − 20 = 70, so the two sides match. In the third option the right side is 80.\n\n**Key concept:** Both sides of an equal sign must match",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q13",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sign makes this true?\n\n> \\(35 + 28 \\quad \\Box \\quad 70\\)",
+    "options": [
+      "\\(+\\)",
+      "\\(>\\)",
+      "\\(=\\)",
+      "\\(<\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** First add: 35 + 28 = 63. Since 63 is less than 70, the sign is *less than*.\n\n**Key concept:** Comparing an expression with a number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q14",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A frog jumps 3 lily pads each time. It starts at pad 0. Which pad is it on after **5** jumps?",
+    "options": [
+      "Pad 12",
+      "Pad 8",
+      "Pad 15",
+      "Pad 18"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Five jumps of 3 is 3 + 3 + 3 + 3 + 3 = 15, which is the same as 5 groups of 3.\n\n**Key concept:** Repeated addition in a pattern",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q15",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Mia has 26 stickers. She gets some more and now has 41. Which equation shows how to find how many she got?",
+    "options": [
+      "\\(41 + 26 = \\Box\\)",
+      "\\(26 + \\Box = 41\\)",
+      "\\(26 - \\Box = 41\\)",
+      "\\(\\Box - 41 = 26\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** She started with 26, added an unknown amount, and ended with 41. Solving it gives 41 − 26 = 15 stickers.\n\n**Key concept:** Writing an equation for a story",
     "source": "authored",
     "needsReview": false
   }

@@ -218,5 +218,285 @@
     "explanation": "**Explanation:** Using less paper and recycling helps conserve tree resources.\n**Key concept:** Resource stewardship.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q20",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What do we see in the sky at **night** that we do not see during the day?",
+    "options": [
+      "The Moon and stars",
+      "The Sun",
+      "Clouds only",
+      "Nothing at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The Moon and stars can be seen at night when the sky is dark. The Sun lights the sky during the day.\n\n**Key concept:** Day and night sky",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q21",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is it **dark** at night?",
+    "options": [
+      "The Moon pushes the Sun away",
+      "The Sun goes out at night",
+      "Clouds cover the whole sky",
+      "Our part of Earth is turned away from the Sun"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Earth spins around once each day. When our side turns away from the Sun, it is night.\n\n**Key concept:** Why night happens",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q22",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where does the Sun appear in the sky in the **evening**?",
+    "options": [
+      "Below the ground",
+      "High straight above us",
+      "Low, near where it sets",
+      "In the same place as at noon"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The Sun appears to rise on one side of the sky, cross it, and go down on the other side as evening comes.\n\n**Key concept:** The Sun moves across the sky",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q23",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Does the **Moon** always look the same shape?",
+    "options": [
+      "Yes, it is always a full circle",
+      "No, it looks like different shapes at different times of the month",
+      "Yes, it is always a thin curve",
+      "No, because it changes colour"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The Moon seems to change shape over about a month, from a thin curve to a full circle and back.\n\n**Key concept:** The Moon changes shape",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q24",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word describes the weather when the sky is grey and water falls from it?",
+    "options": [
+      "Rainy",
+      "Sunny",
+      "Windy",
+      "Snowy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Rain is water falling from clouds. Snow falls when it is cold enough to freeze.\n\n**Key concept:** Weather words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q25",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word describes the weather when trees bend and leaves blow about?",
+    "options": [
+      "Cloudy",
+      "Rainy",
+      "Sunny",
+      "Windy"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Moving air is wind. You cannot see wind, but you can see what it moves.\n\n**Key concept:** Windy weather",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q26",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What should you wear on a **cold, snowy** day?",
+    "options": [
+      "A swimming costume",
+      "Shorts and sandals",
+      "A warm coat, a hat and gloves",
+      "A thin summer shirt"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** What we wear depends on the weather. Warm clothes keep body heat in when the air is cold.\n\n**Key concept:** Weather and what we wear",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q27",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Big grey clouds cover the sky. What is most likely to happen soon?",
+    "options": [
+      "The Sun will shine brightly",
+      "It will rain",
+      "It will get much hotter",
+      "Nothing will change all day"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Thick grey clouds hold a lot of water, so rain often follows.\n\n**Key concept:** Clouds and rain",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q28",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where can you find water on Earth?",
+    "options": [
+      "In oceans, rivers, lakes and clouds",
+      "Only in a tap",
+      "Only in the ocean",
+      "Only in bottles"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Water is found in many places, and it moves between them. Some is liquid, some is frozen and some is in the air.\n\n**Key concept:** Water on Earth",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q29",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water is put into a freezer. What does it become?",
+    "options": [
+      "Air",
+      "Steam",
+      "Sand",
+      "Ice"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** When water gets cold enough it freezes into ice, which is water in its solid form.\n\n**Key concept:** Water can freeze",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q30",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is **soil** made of?",
+    "options": [
+      "Only tiny stones",
+      "Only water",
+      "Tiny pieces of rock mixed with bits of old leaves",
+      "Only dead leaves"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Soil is a mixture. Plants need both the rock pieces and the old plant bits to grow well.\n\n**Key concept:** What soil is made of",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q31",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How can you tell two rocks apart?",
+    "options": [
+      "By listening to them",
+      "By looking at their colour, size and shape",
+      "By asking them",
+      "Rocks always look the same"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Rocks can be described and sorted by properties you can see and feel, like colour, size, shape and how rough they are.\n\n**Key concept:** Describing rocks",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q32",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best way to **reuse** a glass jar instead of throwing it away?",
+    "options": [
+      "Wash it and keep pencils in it",
+      "Put it straight in the bin",
+      "Break it into pieces",
+      "Leave it outside in the rain"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Reusing means using something again for a new job instead of throwing it away.\n\n**Key concept:** Reusing things",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q33",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Why should we turn off the tap while we scrub our hands?",
+    "options": [
+      "So the sink stays dry",
+      "Because taps break if they run too long",
+      "Because water is not important",
+      "To save water, because clean water is a resource we all need"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Clean water is a natural resource that people, animals and plants all need. Using only what we need leaves more for everyone.\n\n**Key concept:** Saving water",
+    "source": "authored",
+    "needsReview": false
   }
 ]

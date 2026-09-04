@@ -7,7 +7,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Fractions\nSarah has 3/4 of a pizza. She gives 2/5 of her pizza to her brother. What fraction of the whole pizza does Sarah have left?",
+    "question": "Sarah has 3/4 of a pizza. She gives 2/5 of her pizza to her brother. What fraction of the whole pizza does Sarah have left?",
     "options": [
       "1/20",
       "7/20",
@@ -27,7 +27,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Fractions\nA recipe calls for 2 1/3 cups of flour. Marcus wants to make 1 1/2 times the recipe. How many cups of flour does Marcus need?",
+    "question": "A recipe calls for 2 1/3 cups of flour. Marcus wants to make 1 1/2 times the recipe. How many cups of flour does Marcus need?",
     "options": [
       "3 1/2 cups",
       "3 5/6 cups",
@@ -47,7 +47,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Fractions\nDivide: 4/5 ÷ 2/3 = ?",
+    "question": "Divide: 4/5 ÷ 2/3 = ?",
     "options": [
       "8/15",
       "6/5",
@@ -67,7 +67,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Decimals\nA store sells notebooks for $2.75 each. If Jasmine buys 8 notebooks, how much does she spend in total?",
+    "question": "A store sells notebooks for $2.75 each. If Jasmine buys 8 notebooks, how much does she spend in total?",
     "options": [
       "$22.00",
       "$21.00",
@@ -87,7 +87,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Decimals\nWhat is 15.6 ÷ 0.4?",
+    "question": "What is 15.6 ÷ 0.4?",
     "options": [
       "3.9",
       "39",
@@ -107,7 +107,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Multi-digit Multiplication\nA theater has 24 rows of seats. Each row has 32 seats. How many total seats are in the theater?",
+    "question": "A theater has 24 rows of seats. Each row has 32 seats. How many total seats are in the theater?",
     "options": [
       "648 seats",
       "728 seats",
@@ -127,7 +127,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Fractions\nA water tank is 5/8 full. After using 1/3 of the tank for irrigation, what fraction of the tank still has water?",
+    "question": "A water tank is 5/8 full. After using 1/3 of the tank for irrigation, what fraction of the tank still has water?",
     "options": [
       "7/24",
       "11/24",
@@ -147,7 +147,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Fractions\nEmma is making friendship bracelets. Each bracelet requires 3/4 foot of string. If Emma has 6 1/2 feet of string, how many complete bracelets can she make?",
+    "question": "Emma is making friendship bracelets. Each bracelet requires 3/4 foot of string. If Emma has 6 1/2 feet of string, how many complete bracelets can she make?",
     "options": [
       "7 bracelets",
       "8 bracelets",
@@ -167,7 +167,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Decimals\nThe table shows the weights of packages at a shipping center.\n\n| Package | Weight (pounds) |\n|---------|-----------------|\n| A | 3.75 |\n| B | 2.48 |\n| C | 4.06 |\n| D | 1.89 |\n\nWhat is the total weight of all four packages?",
+    "question": "The table shows the weights of packages at a shipping center.\n\n| Package | Weight (pounds) |\n|---------|-----------------|\n| A | 3.75 |\n| B | 2.48 |\n| C | 4.06 |\n| D | 1.89 |\n\nWhat is the total weight of all four packages?",
     "options": [
       "12.18 pounds",
       "11.18 pounds",
@@ -187,7 +187,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Decimals\nA roll of fabric is 18.9 meters long. A tailor cuts it into pieces that are each 0.7 meters long. How many pieces can be cut from the roll?",
+    "question": "A roll of fabric is 18.9 meters long. A tailor cuts it into pieces that are each 0.7 meters long. How many pieces can be cut from the roll?",
     "options": [
       "25 pieces",
       "26 pieces",
@@ -207,7 +207,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "- Multi-digit Division\nA warehouse has 7,854 items to distribute equally among 18 stores. How many items will each store receive, and how many items will be left over?",
+    "question": "A warehouse has 7,854 items to distribute equally among 18 stores. How many items will each store receive, and how many items will be left over?",
     "options": [
       "436 items with 6 left over",
       "436 items with 0 left over",
@@ -227,7 +227,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-digit Multiplication / Income\nA company earns $5,475 per day. How much money does the company earn in 18 days?",
+    "question": "A company earns $5,475 per day. How much money does the company earn in 18 days?",
     "options": [
       "$88,400",
       "$98,550",
@@ -235,7 +235,7 @@
       "$97,050"
     ],
     "correctIndex": 1,
-    "explanation": "Multiply daily earnings by the number of days: \\(5,475 × 18 = **\\)98,550**.",
+    "explanation": "Multiply daily earnings by the number of days: $5,475 × 18 = **$98,550**.",
     "source": "authored",
     "needsReview": false
   },
@@ -247,7 +247,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-digit Division\nA warehouse receives 6,528 items to be divided equally among 24 stores. How many items will each store receive?",
+    "question": "A warehouse receives 6,528 items to be divided equally among 24 stores. How many items will each store receive?",
     "options": [
       "252 items",
       "262 items",
@@ -267,7 +267,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Digit Whole Number Multiplication\nA delivery warehouse receives 348 boxes every day. How many boxes does the warehouse receive in 26 days?",
+    "question": "A delivery warehouse receives 348 boxes every day. How many boxes does the warehouse receive in 26 days?",
     "options": [
       "8,696",
       "8,748",
@@ -287,7 +287,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Digit Whole Number Division\nA factory produced 4,536 water bottles. The bottles were packed equally into 18 crates. How many water bottles were placed in each crate?",
+    "question": "A factory produced 4,536 water bottles. The bottles were packed equally into 18 crates. How many water bottles were placed in each crate?",
     "options": [
       "242",
       "250",
@@ -307,7 +307,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Prime vs. Composite Numbers\nWhich of the following numbers is a **prime** number?",
+    "question": "Which of the following numbers is a **prime** number?",
     "options": [
       "21",
       "27",
@@ -327,7 +327,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Simplifying Numerical Expressions **[Readiness]**\nEvaluate the expression using the correct order of operations.\n\n**24 − (3 + 5) × 2 + 6 = ?**",
+    "question": "Evaluate the expression using the correct order of operations.\n\n**24 − (3 + 5) × 2 + 6 = ?**",
     "options": [
       "12",
       "14",
@@ -347,7 +347,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Digit Multiplication\nA school is ordering **475 books** for each of its **32 classrooms**. How many total books are being ordered?",
+    "question": "A school is ordering **475 books** for each of its **32 classrooms**. How many total books are being ordered?",
     "options": [
       "14,400",
       "15,000",
@@ -367,7 +367,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Digit Division\nA baker made **2,856 muffins** over one week and packaged them equally into boxes of **24**. How many full boxes did he fill?",
+    "question": "A baker made **2,856 muffins** over one week and packaged them equally into boxes of **24**. How many full boxes did he fill?",
     "options": [
       "117",
       "118",
@@ -387,7 +387,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Prime vs. Composite\nWhich of the following numbers is a **composite** number?",
+    "question": "Which of the following numbers is a **composite** number?",
     "options": [
       "23",
       "31",
@@ -407,7 +407,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Expanded Notation: Zeros as Placeholders\nWhich expression shows **709.045** written in expanded notation?\n\n*(Note: Zeros that hold a place are NOT written as addends.)*",
+    "question": "Which expression shows **709.045** written in expanded notation?\n\n*(Note: Zeros that hold a place are NOT written as addends.)*",
     "options": [
       "700 + 9 + 0.04 + 0.005",
       "700 + 0 + 9 + 0.0 + 0.04 + 0.005",
@@ -427,7 +427,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Expanded Notation to Standard Form\nWhich number is represented by the expression below?\n\n**400 + 80 + 3 + 0.6 + 0.007**",
+    "question": "Which number is represented by the expression below?\n\n**400 + 80 + 3 + 0.6 + 0.007**",
     "options": [
       "483.607",
       "483.67",
@@ -447,7 +447,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Word Form to Standard Form\nWhich number represents **\"five hundred two and thirty-six thousandths\"**?",
+    "question": "Which number represents **\"five hundred two and thirty-six thousandths\"**?",
     "options": [
       "502.36",
       "502.036",
@@ -467,7 +467,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Comparing and Ordering Decimals [R]\nWhich list shows the decimals in order from **least to greatest**?\n\n**12.304, 12.034, 12.34, 12.043**",
+    "question": "Which list shows the decimals in order from **least to greatest**?\n\n**12.304, 12.034, 12.34, 12.043**",
     "options": [
       "12.034, 12.043, 12.304, 12.34",
       "12.034, 12.043, 12.34, 12.304",
@@ -487,7 +487,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Digit Multiplication\nA warehouse receives **1,248 crates** of goods each week. How many crates does the warehouse receive in **36 weeks**?",
+    "question": "A warehouse receives **1,248 crates** of goods each week. How many crates does the warehouse receive in **36 weeks**?",
     "options": [
       "43,728",
       "44,128",
@@ -507,7 +507,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Division with Remainder Interpretation\nA school has **547 students** who need to be seated in rows of **24** for an assembly. How many **complete rows** can be filled, and how many students will be in the **incomplete last row**?",
+    "question": "A school has **547 students** who need to be seated in rows of **24** for an assembly. How many **complete rows** can be filled, and how many students will be in the **incomplete last row**?",
     "options": [
       "22 complete rows, with 15 students left over",
       "22 complete rows, with 19 students left over",
@@ -527,7 +527,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Identifying Composite Numbers\nWhich of the following statements is **TRUE**?",
+    "question": "Which of the following statements is **TRUE**?",
     "options": [
       "51 is a prime number because it ends in 1.",
       "57 is a prime number because it is an odd number.",
@@ -547,7 +547,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Order of Operations: Two Levels of Grouping [R]\nEvaluate the expression using the correct order of operations.\n\n**45 ÷ [9 − (2 × 3)] + 7 = ?**",
+    "question": "Evaluate the expression using the correct order of operations.\n\n**45 ÷ [9 − (2 × 3)] + 7 = ?**",
     "options": [
       "12",
       "17",
@@ -567,7 +567,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "— Selecting the Correct Expression [R]\nA classroom has **6 tables**. Each table has **4 students**. The teacher adds **3 more students** to the class. Which expression correctly represents the total number of students?",
+    "question": "A classroom has **6 tables**. Each table has **4 students**. The teacher adds **3 more students** to the class. Which expression correctly represents the total number of students?",
     "options": [
       "6 + 4 × 3",
       "6 × (4 + 3)",

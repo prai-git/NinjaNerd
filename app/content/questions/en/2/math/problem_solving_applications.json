@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\nOnly pens are asked for: 18 + 12 = 30. The 9 notebooks are deliberately irrelevant.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q51",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 6 baskets with 5 apples in each. How many apples are there in total?",
+    "options": [
+      "11",
+      "30",
+      "25",
+      "36"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Six groups of 5 is 5 + 5 + 5 + 5 + 5 + 5 = 30, which is the same as 6 × 5.\n\n**Key concept:** Equal groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q52",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tray holds 4 rows of 7 muffins. How many muffins are on the tray?",
+    "options": [
+      "28",
+      "11",
+      "21",
+      "32"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Four rows of 7 is 7 + 7 + 7 + 7 = 28 muffins.\n\n**Key concept:** Rows and columns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q53",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "18 pencils are shared equally among 3 children. How many pencils does each child get?",
+    "options": [
+      "9",
+      "15",
+      "21",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Sharing 18 into 3 equal groups gives 6 in each group, because 6 + 6 + 6 = 18.\n\n**Key concept:** Sharing equally",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q54",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "20 stickers are put into bags of 4. How many bags are filled?",
+    "options": [
+      "24",
+      "16",
+      "5",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Ask how many groups of 4 fit into 20. Since 4 + 4 + 4 + 4 + 4 = 20, the answer is 5 bags.\n\n**Key concept:** Making equal groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q55",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ana has 32 marbles and Ben has 19. How many **more** marbles does Ana have?",
+    "options": [
+      "51",
+      "13",
+      "23",
+      "11"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** \"How many more\" means find the difference: 32 − 19 = 13 marbles.\n\n**Key concept:** Comparison problems",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q56",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class has 24 girls and 18 boys. How many more girls than boys are there?",
+    "options": [
+      "6",
+      "42",
+      "8",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Subtract to compare: 24 − 18 = 6 more girls.\n\n**Key concept:** Comparing two amounts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q57",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Sam had 45 baseball cards. He gave 17 to his cousin and then bought 12 more. How many does he have now?",
+    "options": [
+      "50",
+      "74",
+      "28",
+      "40"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Take away first: 45 − 17 = 28. Then add the new ones: 28 + 12 = 40 cards.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q58",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jar had some sweets. After 23 were eaten, 38 were left. How many were in the jar to start?",
+    "options": [
+      "51",
+      "15",
+      "61",
+      "23"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Work backwards by adding what was eaten to what is left: 38 + 23 = 61 sweets.\n\n**Key concept:** Working backwards",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q59",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pencil costs 35 cents and an eraser costs 20 cents. How much do both cost together?",
+    "options": [
+      "15 cents",
+      "55 cents",
+      "45 cents",
+      "65 cents"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Add the two prices: 35 + 20 = 55 cents.\n\n**Key concept:** Adding money",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q60",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Nina has 80 cents. She buys a sticker for 45 cents. How much change does she get?",
+    "options": [
+      "35 cents",
+      "125 cents",
+      "45 cents",
+      "25 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Subtract the price from what she had: 80 − 45 = 35 cents.\n\n**Key concept:** Money change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q61",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Three friends each pay 25 cents for a bus ride. How much do they pay altogether?",
+    "options": [
+      "100 cents",
+      "28 cents",
+      "50 cents",
+      "75 cents"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Three groups of 25 cents is 25 + 25 + 25 = 75 cents.\n\n**Key concept:** Equal amounts of money",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q62",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rope is 60 cm long. Two pieces of 15 cm each are cut off. How much rope is left?",
+    "options": [
+      "90 cm",
+      "45 cm",
+      "30 cm",
+      "15 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The two pieces together are 15 + 15 = 30 cm, so 60 − 30 = 30 cm is left.\n\n**Key concept:** Two-step measurement problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q63",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A book is 24 cm tall and a shelf opening is 30 cm tall. How much space is above the book?",
+    "options": [
+      "54 cm",
+      "6 cm",
+      "4 cm",
+      "14 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Subtract the book’s height from the opening: 30 − 24 = 6 cm of space.\n\n**Key concept:** Measurement comparison",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q64",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which operation should you use to find how many legs 7 dogs have altogether, if each dog has 4 legs?",
+    "options": [
+      "Multiplication, or repeated addition",
+      "Subtraction",
+      "Division",
+      "Comparison"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Equal groups of the same size are combined by repeated addition, which is multiplication: 7 groups of 4 is 28.\n\n**Key concept:** Choosing the operation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q65",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which operation should you use to find how many cookies are left after some are eaten?",
+    "options": [
+      "Sharing into groups",
+      "Addition",
+      "Multiplication",
+      "Subtraction"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Taking some away from a total means subtracting.\n\n**Key concept:** Choosing subtraction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q66",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A shop had 90 balloons and sold 55. Then 20 more were delivered. How many balloons are there now?",
+    "options": [
+      "75",
+      "35",
+      "55",
+      "165"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Subtract the ones sold: 90 − 55 = 35. Then add the delivery: 35 + 20 = 55 balloons.\n\n**Key concept:** Two-step problem with a delivery",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q67",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 5 tables with 6 chairs each. Two chairs are taken away. How many chairs are left?",
+    "options": [
+      "30",
+      "28",
+      "11",
+      "32"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Find the total first: 5 groups of 6 is 30. Then subtract: 30 − 2 = 28 chairs.\n\n**Key concept:** Groups then subtract",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q68",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Marco has 4 boxes with 8 crayons in each. He gives away 1 whole box. How many crayons does he have left?",
+    "options": [
+      "24",
+      "32",
+      "7",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** He keeps 3 boxes, and 3 groups of 8 is 24 crayons. You can also work it as 32 − 8 = 24.\n\n**Key concept:** Two ways to reach the same answer",
+    "source": "authored",
+    "needsReview": false
   }
 ]

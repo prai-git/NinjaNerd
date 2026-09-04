@@ -31,11 +31,11 @@
     "options": [
       "\\(7+8=15\\)",
       "\\(8-7=1\\)",
-      "\\(7\times8=56\\)",
+      "\\(7\\times8=56\\)",
       "\\(56\\div8=9\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Worked solution:** Seven equal rows of eight are 7 groups of 8, or \\(7\times8=56\\).\n\n**Key concept:** Multiplication facts",
+    "explanation": "**Worked solution:** Seven equal rows of eight are 7 groups of 8, or \\(7\\times8=56\\).\n\n**Key concept:** Multiplication facts",
     "source": "authored",
     "needsReview": false
   },
@@ -67,7 +67,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which array represents \\(4\times6\\)?",
+    "question": "Which array represents \\(4\\times6\\)?",
     "options": [
       "4 rows of 6 tiles",
       "4 tiles with 6 left over",
@@ -75,7 +75,7 @@
       "4 groups sharing 6 tiles"
     ],
     "correctIndex": 0,
-    "explanation": "**Worked solution:** An array for \\(4\times6\\) has 4 equal rows with 6 tiles in each row.\n\n**Key concept:** Arrays as multiplication models",
+    "explanation": "**Worked solution:** An array for \\(4\\times6\\) has 4 equal rows with 6 tiles in each row.\n\n**Key concept:** Arrays as multiplication models",
     "source": "authored",
     "needsReview": false
   },
@@ -87,7 +87,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which division equation is related to \\(9\times5=45\\)?",
+    "question": "Which division equation is related to \\(9\\times5=45\\)?",
     "options": [
       "\\(45\\div9=5\\)",
       "\\(45+9=54\\)",
@@ -115,7 +115,7 @@
       "\\(77\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** First find markers in boxes: \\(6\times7=42\\). Add 5 loose markers: \\(42+5=47\\).\n\n**Key concept:** Two-step problem with multiplication and addition",
+    "explanation": "**Worked solution:** First find markers in boxes: \\(6\\times7=42\\). Add 5 loose markers: \\(42+5=47\\).\n\n**Key concept:** Two-step problem with multiplication and addition",
     "source": "authored",
     "needsReview": false
   },
@@ -147,7 +147,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which group of bills and coins has a value of \\($47\\)?",
+    "question": "Which group of bills and coins has a value of \\(\\$47\\)?",
     "options": [
       "4 ten-dollar bills and 7 one-dollar bills",
       "4 five-dollar bills and 7 dimes",
@@ -155,7 +155,7 @@
       "47 one-dollar bills and 7 dimes"
     ],
     "correctIndex": 0,
-    "explanation": "**Worked solution:** Four ten-dollar bills are \\(40\\), and seven one-dollar bills are \\(7\\). \\(40+\\)7=\\(47\\).\n\n**Key concept:** Value of money",
+    "explanation": "**Worked solution:** Four ten-dollar bills are \\(40\\), and seven one-dollar bills are \\(7\\). $40+$7=\\(47\\).\n\n**Key concept:** Value of money",
     "source": "authored",
     "needsReview": false
   },
@@ -167,7 +167,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "What value makes the equation true? \\(8\times\\Box=56\\)",
+    "question": "What value makes the equation true? \\(8\\times\\Box=56\\)",
     "options": [
       "\\(6\\)",
       "\\(7\\)",
@@ -175,7 +175,7 @@
       "\\(9\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** Use the related fact \\(8\times7=56\\), so the missing number is 7.\n\n**Key concept:** Unknown factor",
+    "explanation": "**Worked solution:** Use the related fact \\(8\\times7=56\\), so the missing number is 7.\n\n**Key concept:** Unknown factor",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which expression has the same value as \\(6\times7\\)?",
+    "question": "Which expression has the same value as \\(6\\times7\\)?",
     "options": [
-      "\\(6\times(5+2)\\)",
+      "\\(6\\times(5+2)\\)",
       "\\(6+(5+2)\\)",
-      "\\((6+5)\times2\\)",
-      "\\(7\times(6-1)\\)"
+      "\\((6+5)\\times2\\)",
+      "\\(7\\times(6-1)\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Worked solution:** \\(6\times(5+2)=6\times7=42\\), the same as \\(6\times7\\).\n\n**Key concept:** Distributive property",
+    "explanation": "**Worked solution:** \\(6\\times(5+2)=6\\times7=42\\), the same as \\(6\\times7\\).\n\n**Key concept:** Distributive property",
     "source": "authored",
     "needsReview": false
   },
@@ -210,12 +210,12 @@
     "question": "Milo has 4 packs of 9 trading cards. He gives 6 cards away. Which equation can be used to find the number, \\(c\\), of cards he has left?",
     "options": [
       "\\(c=4+9-6\\)",
-      "\\(c=4\times9-6\\)",
+      "\\(c=4\\times9-6\\)",
       "\\(c=9\\div4+6\\)",
-      "\\(c=4\times(9-6)\\)"
+      "\\(c=4\\times(9-6)\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** Four packs of 9 make \\(4\times9\\). Giving away 6 means subtract 6, so \\(c=4\times9-6\\).\n\n**Key concept:** Representing a problem with an equation",
+    "explanation": "**Worked solution:** Four packs of 9 make \\(4\\times9\\). Giving away 6 means subtract 6, so \\(c=4\\times9-6\\).\n\n**Key concept:** Representing a problem with an equation",
     "source": "authored",
     "needsReview": false
   },
@@ -231,7 +231,7 @@
     "options": [
       "\\(63+7=\\Box\\)",
       "\\(63-7=\\Box\\)",
-      "\\(63\times7=\\Box\\)",
+      "\\(63\\times7=\\Box\\)",
       "\\(63\\div7=\\Box\\)"
     ],
     "correctIndex": 3,
@@ -255,7 +255,7 @@
       "Omar picked 2 shells."
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** “3 times as many as 5” means \\(3\times5=15\\).\n\n**Key concept:** Multiplicative comparison",
+    "explanation": "**Worked solution:** “3 times as many as 5” means \\(3\\times5=15\\).\n\n**Key concept:** Multiplicative comparison",
     "source": "authored",
     "needsReview": false
   },
@@ -275,7 +275,7 @@
       "Multiply by 3"
     ],
     "correctIndex": 3,
-    "explanation": "**Worked solution:** Each output is 3 times its input: \\(2\times3=6\\), \\(4\times3=12\\), and so on.\n\n**Key concept:** Input-output patterns",
+    "explanation": "**Worked solution:** Each output is 3 times its input: \\(2\\times3=6\\), \\(4\\times3=12\\), and so on.\n\n**Key concept:** Input-output patterns",
     "source": "authored",
     "needsReview": false
   },
@@ -307,7 +307,7 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which value makes \\(\\Box\times6=48\\) true?",
+    "question": "Which value makes \\(\\Box\\times6=48\\) true?",
     "options": [
       "\\(6\\)",
       "\\(7\\)",
@@ -315,7 +315,7 @@
       "\\(42\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Worked solution:** Since \\(8\times6=48\\), the unknown factor is 8.\n\n**Key concept:** Unknown factor",
+    "explanation": "**Worked solution:** Since \\(8\\times6=48\\), the unknown factor is 8.\n\n**Key concept:** Unknown factor",
     "source": "authored",
     "needsReview": false
   },

@@ -70,12 +70,12 @@
     "question": "A rectangular game board is 8 squares long and 5 squares wide. Which calculation gives the number of squares that cover the board?",
     "options": [
       "\\(8+5\\)",
-      "\\(8\times5\\)",
+      "\\(8\\times5\\)",
       "\\(8-5\\)",
       "\\(8\\div5\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** A rectangle’s covering is found by rows times columns: \\(8\times5=40\\) squares.\n\n**Key concept:** Area formula",
+    "explanation": "**Worked solution:** A rectangle’s covering is found by rows times columns: \\(8\\times5=40\\) squares.\n\n**Key concept:** Area formula",
     "source": "authored",
     "needsReview": false
   },
@@ -95,7 +95,7 @@
       "\\(84\\) meters"
     ],
     "correctIndex": 2,
-    "explanation": "**Worked solution:** Perimeter is all sides: \\(12+7+12+7=38\\) meters, or \\(2\times(12+7)\\).\n\n**Key concept:** Perimeter of a rectangle",
+    "explanation": "**Worked solution:** Perimeter is all sides: \\(12+7+12+7=38\\) meters, or \\(2\\times(12+7)\\).\n\n**Key concept:** Perimeter of a rectangle",
     "source": "authored",
     "needsReview": false
   },
@@ -110,12 +110,12 @@
     "question": "A 6-by-7 rectangle is split into a 6-by-3 rectangle and a 6-by-4 rectangle. Which equation shows the total area?",
     "options": [
       "\\(6+3+4=13\\)",
-      "\\(6\times3+6\times4=42\\)",
-      "\\(7\times4=28\\)",
-      "\\(6\times7+3=45\\)"
+      "\\(6\\times3+6\\times4=42\\)",
+      "\\(7\\times4=28\\)",
+      "\\(6\\times7+3=45\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** The two smaller rectangles have areas \\(6\times3=18\\) and \\(6\times4=24\\). \\(18+24=42\\), equal to \\(6\times7\\).\n\n**Key concept:** Decomposing area",
+    "explanation": "**Worked solution:** The two smaller rectangles have areas \\(6\\times3=18\\) and \\(6\\times4=24\\). \\(18+24=42\\), equal to \\(6\\times7\\).\n\n**Key concept:** Decomposing area",
     "source": "authored",
     "needsReview": false
   },

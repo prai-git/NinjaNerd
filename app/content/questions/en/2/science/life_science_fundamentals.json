@@ -258,5 +258,245 @@
     "explanation": "**Explanation:** The question tests **ecosystem needs**. The given evidence or condition supports “Habitat R, with shelter and food,” which directly applies the aligned Grade 2 standard.\n**Why other answers are wrong:**\n- * “Habitat S, where lizards need no food” is not supported by the question’s evidence or does not apply the required science idea.\n- * “Both are identical” is not supported by the question’s evidence or does not apply the required science idea.\n- * “Neither has rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- * This is correct because it matches both the evidence and the science concept.\n**Key concept:** Ecosystem needs.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q45",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which FOUR things do most plants need to live and grow?",
+    "options": [
+      "Water, sand, meat and darkness",
+      "Water, milk, light and soil",
+      "Air, sugar, light and shade",
+      "Water, air, light and space to grow"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Plants make their own food from water, air and light, and each needs room for its roots and leaves.\n\n**Key concept:** What plants need",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q46",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these do animals need that plants do NOT?",
+    "options": [
+      "Air to breathe",
+      "Water to drink",
+      "Food they find or catch, because they cannot make their own",
+      "A place to live"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Plants make their own food using light. Animals must eat other living things. Both need water, air and a place to live.\n\n**Key concept:** What animals need",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q47",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **living** thing?",
+    "options": [
+      "A rock",
+      "An oak tree",
+      "A plastic cup",
+      "A puddle of water"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Living things grow, need food, water and air, and can make more of their own kind. A rock, a cup and a puddle do none of those.\n\n**Key concept:** Living and non-living",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q48",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why is a **seed** described as living?",
+    "options": [
+      "It can grow into a new plant when it has water, air and warmth",
+      "It is hard and dry",
+      "It can be held in your hand",
+      "It is smaller than a leaf"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A seed contains a tiny plant that can begin to grow when the conditions are right, so it is living even when it looks still.\n\n**Key concept:** Seeds are living",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q49",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A kitten has stripes just like its mother’s. What does this show?",
+    "options": [
+      "The kitten will lose its stripes as it grows",
+      "The kitten learned to have stripes",
+      "All cats have stripes",
+      "Young animals often look like their parents"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Offspring inherit traits from their parents, which is why they resemble them but are not identical.\n\n**Key concept:** Offspring resemble their parents",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q50",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is something a young dog **learns**, not something it is born with?",
+    "options": [
+      "The shape of its ears",
+      "The colour of its fur",
+      "Coming when its name is called",
+      "How many legs it has"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Learned behaviours come from practice or training. Fur colour, ear shape and body parts are inherited.\n\n**Key concept:** Learned and inherited",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q51",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of animals has **feathers** and lays eggs?",
+    "options": [
+      "Fish",
+      "Birds",
+      "Insects",
+      "Mammals"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Feathers are found only on birds. Fish have scales, insects have hard outer coverings, and most mammals have fur or hair.\n\n**Key concept:** Animal groups: birds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q52",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which body part helps a fish move through water?",
+    "options": [
+      "Its fins and tail",
+      "Its ears",
+      "Its legs",
+      "Its wings"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Fins and a tail push against the water. Fish also have gills to take oxygen from the water.\n\n**Key concept:** Body parts for moving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q53",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a forest, mushrooms and worms break down fallen leaves. Why is this important?",
+    "options": [
+      "It turns the leaves into rocks",
+      "It makes the forest colder",
+      "It stops new trees from growing",
+      "It puts nutrients back into the soil for plants to use"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Decomposers recycle the material in dead plants and animals so that living plants can use it again.\n\n**Key concept:** Decomposers recycle material",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q54",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Some birds fly far south before winter. Why?",
+    "options": [
+      "To grow new feathers in the cold",
+      "Because they get lost every year",
+      "To find food and warmer weather they cannot get in winter",
+      "Because the ground pushes them away"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Migration is moving to another place when conditions change. It lets an animal reach food and a survivable temperature.\n\n**Key concept:** Migration",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q55",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bear eats a great deal in autumn and then sleeps deeply for most of the winter. What is this behaviour called?",
+    "options": [
+      "Migration",
+      "Hibernation",
+      "Pollination",
+      "Camouflage"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Hibernating is a long, deep sleep that lets an animal survive a season when food is scarce, using the fat it stored.\n\n**Key concept:** Hibernation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q56",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A rabbit’s brown summer fur turns white in winter where it snows. How does this help the rabbit survive?",
+    "options": [
+      "It is harder for animals that hunt it to see the rabbit against the snow",
+      "White fur is warmer than brown fur in every season",
+      "It helps the rabbit find its own food more easily",
+      "It makes the rabbit run faster on snow"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Blending into the surroundings is camouflage, which makes an animal harder to spot. The colour matches whatever the season provides.\n\n**Key concept:** Camouflage changes with the season",
+    "source": "authored",
+    "needsReview": false
   }
 ]

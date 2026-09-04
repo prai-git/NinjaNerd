@@ -198,5 +198,305 @@
     "explanation": "**Explanation:** The blocked drain is one component of a drainage system. Blocking it changes where rainwater can flow.\n**Key concept:** A change in one system component can affect the whole system.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q61",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class tests how the **length of a pendulum string** affects how long one swing takes. What is the variable they deliberately change?",
+    "options": [
+      "The place the test is done",
+      "The time for one swing",
+      "The mass of the weight",
+      "The length of the string"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The variable the investigators change on purpose is the independent variable. The time for one swing is what they measure as a result.\n\n**Key concept:** The variable that is changed",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q62",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the pendulum test above, what is the variable they **measure**?",
+    "options": [
+      "The colour of the string",
+      "The length of the string",
+      "The time for one swing",
+      "The height of the table"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The measured result is the dependent variable, because it depends on the change the investigators made.\n\n**Key concept:** The variable that is measured",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q63",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class tests whether fertiliser helps bean plants grow taller. Which variables should be kept the **same** for both groups?",
+    "options": [
+      "The amount of fertiliser and the amount of water",
+      "The amount of water, the amount of light and the type of soil",
+      "The type of plant and the amount of fertiliser",
+      "Nothing needs to be kept the same"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Everything except the one variable being tested must be held constant, or you cannot tell which difference caused the result.\n\n**Key concept:** Controlled variables",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q64",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In the fertiliser test above, what is the purpose of a group of plants that gets **no fertiliser**?",
+    "options": [
+      "It is the control, used to compare against the plants that did get fertiliser",
+      "It shows that plants do not need water",
+      "It doubles the amount of data collected",
+      "It makes the test finish faster"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A control group receives no treatment, so any difference in the treated group can be attributed to the treatment.\n\n**Key concept:** The purpose of a control group",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q65",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool and unit should a student use to measure the **temperature** of pond water?",
+    "options": [
+      "A metre stick, in centimetres",
+      "A balance, in grams",
+      "A graduated cylinder, in millilitres",
+      "A thermometer, in degrees Celsius"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each quantity has its own tool and unit. Temperature is measured with a thermometer in degrees Celsius.\n\n**Key concept:** Matching tool and unit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q66",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool and unit should a student use to measure the **volume** of a liquid?",
+    "options": [
+      "A thermometer, in degrees Celsius",
+      "A balance, in grams",
+      "A graduated cylinder, in millilitres",
+      "A stopwatch, in seconds"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Volume is how much space a liquid takes up, measured with a graduated cylinder in millilitres or litres.\n\n**Key concept:** Measuring volume",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q67",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is heating water on a hot plate. Which safety step is MOST important?",
+    "options": [
+      "Lean over the hot plate to see the water better",
+      "Wear safety goggles and keep hands away from the hot surface",
+      "Move the hot plate to the edge of the bench",
+      "Taste the water once it has warmed up"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Goggles protect the eyes from steam and splashes, and keeping hands clear prevents burns. Never taste anything in a science investigation.\n\n**Key concept:** Laboratory safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q68",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student rolls a car down a ramp and records the distance once. Why should she repeat the trial at least three times?",
+    "options": [
+      "To see whether the result is consistent and to spot an unusual measurement",
+      "To make the car travel further each time",
+      "Because one trial is always wrong",
+      "To change the question being investigated"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Repeated trials reveal whether a result is dependable and make an error stand out as different from the rest.\n\n**Key concept:** Repeated trials",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q69",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at the data below.\n\n| Ramp height | Distance travelled |\n|---|---|\n| 10 cm | 42 cm |\n| 20 cm | 78 cm |\n| 30 cm | 121 cm |\n\nWhich conclusion is supported by these data?",
+    "options": [
+      "The car always travels exactly 100 cm",
+      "Ramp height has no effect on distance travelled",
+      "As the ramp height increases, the distance travelled decreases",
+      "As the ramp height increases, the distance travelled increases"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each increase in height goes with a larger distance, so the data show a clear increasing pattern. A conclusion must follow from the data recorded.\n\n**Key concept:** Drawing a conclusion from data",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q70",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student measures the mass of five identical marbles as 5 g, 5 g, 5 g, **19 g** and 5 g. What should she do about the 19 g reading?",
+    "options": [
+      "Throw the marble away without checking",
+      "Record 19 g as the correct mass of all the marbles",
+      "Check the balance and measure that marble again, because the reading does not fit the pattern",
+      "Change all the other readings to 19 g"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A measurement far outside the pattern usually signals a mistake. Re-measuring checks it, rather than accepting or hiding it.\n\n**Key concept:** Identifying an unusual measurement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q71",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which graph is BEST for showing how a seedling’s height changed **over ten days**?",
+    "options": [
+      "A pie chart, because it shows parts of a whole",
+      "A line graph, because it shows change over time",
+      "A picture of the seedling on day ten",
+      "A list of the numbers with no graph"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A line graph plots a measurement against time and makes a trend visible. A pie chart shows how a whole divides up, which is a different question.\n\n**Key concept:** Choosing a graph",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q72",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: \"The soil in pot B is darker. **Pot B holds more water than pot A.**\" What is the bolded sentence?",
+    "options": [
+      "An inference, because it explains a possible reason rather than reporting what was seen",
+      "An observation, because the student saw the soil",
+      "A measurement, because it names two pots",
+      "A controlled variable in the test"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The observation is that the soil looks darker. Saying why goes beyond what was seen, and could be wrong — darker soil may simply be a different type.\n\n**Key concept:** Observation vs inference",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q73",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class builds a model of the Sun, Earth and Moon using three balls on sticks. What is one **limitation** of this model?",
+    "options": [
+      "It shows too much detail to be helpful",
+      "It cannot show that the Moon orbits Earth",
+      "Models are never useful in science",
+      "The sizes and distances are not to scale"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A model is a simplified version of the real thing. This one shows the arrangement and motion well, but real distances are far too large to represent at that size.\n\n**Key concept:** Models have limitations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q74",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **testable** question?",
+    "options": [
+      "Should everyone learn to make paper aeroplanes?",
+      "Which paper aeroplane is the prettiest?",
+      "Does a paper aeroplane fly further with a wider wing?",
+      "What is the best colour for a paper aeroplane?"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A testable question can be answered by making a measurement. Questions about what is prettiest, best or what people should do are matters of opinion.\n\n**Key concept:** Testable questions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q75",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Two classes test the same question and get different results. What is the BEST next step?",
+    "options": [
+      "Accept whichever result came from the larger class",
+      "Compare the two procedures to find what was done differently, then test again",
+      "Average the two results and report that",
+      "Decide the question cannot be answered"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Different results usually mean the procedures differed in some way. Finding and fixing that difference is how science resolves a disagreement — averaging hides it.\n\n**Key concept:** Comparing procedures when results disagree",
+    "source": "authored",
+    "needsReview": false
   }
 ]

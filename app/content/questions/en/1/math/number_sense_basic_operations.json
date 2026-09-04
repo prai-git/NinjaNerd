@@ -198,5 +198,305 @@
     "explanation": "**Work:** \\(20+9=29\\).\n**Key concept:** Representing tens and ones.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q43",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is **fifty-six**?",
+    "options": [
+      "65",
+      "56",
+      "506",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Fifty-six means 5 tens and 6 ones, which is written 56.\n\n**Key concept:** Number words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q44",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number has **8 tens and 3 ones**?",
+    "options": [
+      "83",
+      "38",
+      "803",
+      "11"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The tens digit comes first, so 8 tens and 3 ones is 83.\n\n**Key concept:** Tens and ones",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q45",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **tens** are in the number 47?",
+    "options": [
+      "0",
+      "7",
+      "47",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** In 47 the first digit shows the tens, so there are 4 tens and 7 ones.\n\n**Key concept:** Reading place value",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q46",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which comparison of two-digit numbers is **true**?",
+    "options": [
+      "\\(38 = 42\\)",
+      "\\(38 > 42\\)",
+      "\\(38 < 42\\)",
+      "\\(42 < 38\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 38 comes before 42 when counting, so 38 is less than 42.\n\n**Key concept:** Comparing two numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q47",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Put these numbers in order from **least to greatest**.\n\n> 61, 16, 66, 46",
+    "options": [
+      "16, 61, 46, 66",
+      "16, 46, 61, 66",
+      "66, 61, 46, 16",
+      "46, 16, 61, 66"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Compare the tens first: 16 has 1 ten, 46 has 4, and 61 and 66 have 6. Between 61 and 66, compare the ones.\n\n**Key concept:** Ordering numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q48",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is **1 more** than 79?",
+    "options": [
+      "80",
+      "78",
+      "89",
+      "70"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One more than 79 is 80, because 9 ones plus 1 more makes a new ten.\n\n**Key concept:** One more",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q49",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which number is **1 less** than 40?",
+    "options": [
+      "49",
+      "41",
+      "30",
+      "39"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Counting back one from 40 gives 39.\n\n**Key concept:** One less",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q50",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(8 + 5\\)?",
+    "options": [
+      "14",
+      "12",
+      "13",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Make ten first: 8 + 2 = 10, and 3 more makes 13.\n\n**Key concept:** Adding past ten",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q51",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(9 + 7\\)?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Make ten first: 9 + 1 = 10, and 6 more makes 16.\n\n**Key concept:** Making ten to add",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q52",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(15 - 6\\)?",
+    "options": [
+      "9",
+      "8",
+      "11",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Count back from 15 six times: 14, 13, 12, 11, 10, 9. Check it: 9 + 6 = 15.\n\n**Key concept:** Subtracting within twenty",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q53",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(14 - 7\\)?",
+    "options": [
+      "21",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A double fact helps here: 7 + 7 = 14, so 14 − 7 = 7.\n\n**Key concept:** Using doubles to subtract",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q54",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is \\(6 + 6 + 3\\)?",
+    "options": [
+      "14",
+      "12",
+      "15",
+      "16"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Add the double first: 6 + 6 = 12. Then 12 + 3 = 15.\n\n**Key concept:** Adding three numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q55",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Count by **twos**. What comes next?\n\n> 12, 14, 16, 18, \\_\\_\\_\\_",
+    "options": [
+      "19",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Counting by twos adds 2 each time, so 18 + 2 = 20.\n\n**Key concept:** Counting by twos",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q56",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Count by **tens**. What comes next?\n\n> 30, 40, 50, 60, \\_\\_\\_\\_",
+    "options": [
+      "70",
+      "61",
+      "65",
+      "80"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Counting by tens adds 10 each time, so the tens digit goes up by one: 60 + 10 = 70.\n\n**Key concept:** Counting by tens",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q57",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Number Sense & Basic Operations",
+    "subtopic": "number_sense_basic_operations",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A number is **greater than 84** but **less than 87**, and it has **5 ones**. What is the number?",
+    "options": [
+      "87",
+      "84",
+      "86",
+      "85"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The numbers between 84 and 87 are 85 and 86. Only 85 has 5 ones.\n\n**Key concept:** Using two clues together",
+    "source": "authored",
+    "needsReview": false
   }
 ]

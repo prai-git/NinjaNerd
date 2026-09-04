@@ -67,15 +67,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A show begins at \\(2{:}35\text{ p.m.}\\) and lasts \\(40\\) minutes. When does it end?",
+    "question": "A show begins at \\(2{:}35\\text{ p.m.}\\) and lasts \\(40\\) minutes. When does it end?",
     "options": [
-      "\\(2{:}65\text{ p.m.}\\)",
-      "\\(3{:}05\text{ p.m.}\\)",
-      "\\(3{:}15\text{ p.m.}\\)",
-      "\\(4{:}15\text{ p.m.}\\)"
+      "\\(2{:}65\\text{ p.m.}\\)",
+      "\\(3{:}05\\text{ p.m.}\\)",
+      "\\(3{:}15\\text{ p.m.}\\)",
+      "\\(4{:}15\\text{ p.m.}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).\n**Why the other answers are wrong:** A. \\(2{:}65\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). B. \\(3{:}05\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\). D. \\(4{:}15\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\text{ p.m.}\\).\n**Key concept:** elapsed time",
+    "explanation": "**Explanation:** \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\\text{ p.m.}\\).\n**Why the other answers are wrong:** A. \\(2{:}65\\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\\text{ p.m.}\\). B. \\(3{:}05\\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\\text{ p.m.}\\). D. \\(4{:}15\\text{ p.m.}\\) — it does not fit because \\(25\\) minutes reaches \\(3{:}00\\); \\(15\\) more reaches \\(3{:}15\\text{ p.m.}\\).\n**Key concept:** elapsed time",
     "source": "authored",
     "needsReview": false
   },
@@ -155,7 +155,7 @@
       "\\(24\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).\n**Why the other answers are wrong:** A. \\(8\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). B. \\(16\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\). D. \\(24\\) — it does not fit because Whole area: \\(6\times4=24\\). Cut-out: \\(2\times2=4\\). Remaining: \\(24-4=20\\).\n**Key concept:** decomposing area",
+    "explanation": "**Explanation:** Whole area: \\(6\\times4=24\\). Cut-out: \\(2\\times2=4\\). Remaining: \\(24-4=20\\).\n**Why the other answers are wrong:** A. \\(8\\) — it does not fit because Whole area: \\(6\\times4=24\\). Cut-out: \\(2\\times2=4\\). Remaining: \\(24-4=20\\). B. \\(16\\) — it does not fit because Whole area: \\(6\\times4=24\\). Cut-out: \\(2\\times2=4\\). Remaining: \\(24-4=20\\). D. \\(24\\) — it does not fit because Whole area: \\(6\\times4=24\\). Cut-out: \\(2\\times2=4\\). Remaining: \\(24-4=20\\).\n**Key concept:** decomposing area",
     "source": "authored",
     "needsReview": false
   },
@@ -195,7 +195,307 @@
       "\\(30\\) square units"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** \\(5\times3=15\\) tiles cover the rectangle with no gaps.\n**Why the other answers are wrong:** A. \\(8\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. B. \\(12\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps. D. \\(30\\) square units — it does not fit because \\(5\times3=15\\) tiles cover the rectangle with no gaps.\n**Key concept:** area",
+    "explanation": "**Explanation:** \\(5\\times3=15\\) tiles cover the rectangle with no gaps.\n**Why the other answers are wrong:** A. \\(8\\) square units — it does not fit because \\(5\\times3=15\\) tiles cover the rectangle with no gaps. B. \\(12\\) square units — it does not fit because \\(5\\times3=15\\) tiles cover the rectangle with no gaps. D. \\(30\\) square units — it does not fit because \\(5\\times3=15\\) tiles cover the rectangle with no gaps.\n**Key concept:** area",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q16",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **sides** and **vertices** does a hexagon have?",
+    "options": [
+      "6 sides and 6 vertices",
+      "5 sides and 5 vertices",
+      "6 sides and 5 vertices",
+      "8 sides and 8 vertices"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A hexagon has six straight sides, and a polygon always has as many vertices, or corners, as sides.\n\n**Key concept:** Naming polygons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q17",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **4 sides** that are all the same length and **4 square corners**?",
+    "options": [
+      "A pentagon",
+      "A rectangle that is not a square",
+      "A triangle",
+      "A square"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A square has four equal sides and four right-angle corners. A rectangle has square corners but its sides are not all equal unless it is a square.\n\n**Key concept:** Squares",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q18",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape is a **quadrilateral**?",
+    "options": [
+      "A pentagon",
+      "A triangle",
+      "A trapezoid",
+      "A hexagon"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A quadrilateral is any closed shape with exactly four straight sides. A trapezoid has four; a triangle has three.\n\n**Key concept:** Quadrilaterals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q19",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **vertices** does a triangle have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A triangle has three sides and three corners, or vertices.\n\n**Key concept:** Vertices of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q20",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **no** straight sides and **no** vertices?",
+    "options": [
+      "A circle",
+      "A square",
+      "A triangle",
+      "A pentagon"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A circle is one continuous curve, so it has no straight sides and no corners.\n\n**Key concept:** Circles have no vertices",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q21",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **8 sides**?",
+    "options": [
+      "A quadrilateral",
+      "A hexagon",
+      "A pentagon",
+      "An octagon"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An octagon has eight sides. A hexagon has six, a pentagon five and a quadrilateral four.\n\n**Key concept:** Octagons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q22",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **flat faces** does a cube have?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A cube has six square faces — top, bottom and four sides. It also has 8 vertices and 12 edges.\n\n**Key concept:** Faces of a cube",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q23",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which solid has **one** flat circular face and comes to a point?",
+    "options": [
+      "A cylinder",
+      "A cone",
+      "A sphere",
+      "A cube"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A cone has one circular face and a single point, or apex. A cylinder has two circular faces and no point.\n\n**Key concept:** Cones",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q24",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which solid has **no** flat faces at all?",
+    "options": [
+      "A sphere",
+      "A cube",
+      "A cone",
+      "A cylinder"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A sphere is completely curved, like a ball, so it has no flat faces. A cone and a cylinder each have at least one.\n\n**Key concept:** Spheres",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q25",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which solid has **6 rectangular faces** and is shaped like a shoebox?",
+    "options": [
+      "A pyramid",
+      "A cube with square faces only",
+      "A cylinder",
+      "A rectangular prism"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A rectangular prism has six rectangular faces. A cube is a special prism whose faces are all squares.\n\n**Key concept:** Rectangular prisms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q26",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A paper square is folded so that the two halves match exactly. What has the fold line shown?",
+    "options": [
+      "The perimeter of the square",
+      "The area of the square",
+      "A line of symmetry",
+      "A vertex of the square"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A line of symmetry divides a shape into two halves that match exactly when folded along it.\n\n**Key concept:** Lines of symmetry",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q27",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangle is cut into **4 equal parts**. What is one part called?",
+    "options": [
+      "One half",
+      "One fourth",
+      "One third",
+      "One whole"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When a whole is split into four equal parts, each part is one fourth. Two of those parts make one half.\n\n**Key concept:** Fourths",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q28",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pizza is cut into **3 equal slices** and Sam eats one. What fraction has he eaten?",
+    "options": [
+      "One third",
+      "One half",
+      "One fourth",
+      "Three wholes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Three equal parts means each is one third. The number of equal parts names the fraction.\n\n**Key concept:** Thirds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q29",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which picture shows **one half** shaded?",
+    "options": [
+      "A rectangle split into 3 equal parts with 1 part shaded",
+      "A rectangle split into 2 unequal parts with the bigger part shaded",
+      "A rectangle split into 4 equal parts with 1 part shaded",
+      "A rectangle split into 2 equal parts with 1 part shaded"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Halves must be *equal* parts. Two unequal parts are not halves, no matter which one is shaded.\n\n**Key concept:** Halves must be equal",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q30",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Two identical squares are pushed together side by side. What new shape do they make?",
+    "options": [
+      "A triangle",
+      "A larger square",
+      "A rectangle",
+      "A pentagon"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Joining two squares along one full side makes a shape twice as long as it is tall — a rectangle, not a square.\n\n**Key concept:** Composing shapes",
     "source": "authored",
     "needsReview": false
   }

@@ -318,5 +318,185 @@
     "explanation": "**Explanation:** The question tests **systems explanation**. The given evidence or condition supports “One changed part caused water to collect elsewhere,” which directly applies the aligned Grade 2 standard.\n**Why other answers are wrong:**\n- * “The drain turned leaves to rocks” is not supported by the question’s evidence or does not apply the required science idea.\n- * This is correct because it matches both the evidence and the science concept.\n- * “Leaves turned rain into sunlight” is not supported by the question’s evidence or does not apply the required science idea.\n- * “The garden needs no water” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Systems explanation.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q57",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool would you use to find out **how long** a table is?",
+    "options": [
+      "A magnet",
+      "A thermometer",
+      "A balance",
+      "A metre stick or ruler"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Length is measured with a ruler or metre stick. A thermometer measures temperature and a balance compares mass.\n\n**Key concept:** Choosing a measuring tool",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q58",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool would you use to measure **how long a race takes**?",
+    "options": [
+      "A balance",
+      "A ruler",
+      "A stopwatch",
+      "A hand lens"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Time is measured with a stopwatch or a clock. The other three tools measure length, mass and small details.\n\n**Key concept:** Measuring time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q59",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student puts the end of a leaf at the **0** mark of a ruler and its tip reaches **7**. How long is the leaf?",
+    "options": [
+      "6 centimetres",
+      "7 centimetres",
+      "8 centimetres",
+      "0 centimetres"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When you line an object up with 0, the number at the far end is its length. Starting at 1 instead of 0 gives a wrong answer.\n\n**Key concept:** Measuring from zero",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q60",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class is using scissors and glue for an investigation. Which action is safest?",
+    "options": [
+      "Carry the scissors with the points down and hand them over handle first",
+      "Run across the room while holding the open scissors",
+      "Point the scissors at a partner to pass them",
+      "Taste the glue to see what it is made of"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Safety rules keep sharp tools pointed away from people, and nothing in an investigation is ever tasted.\n\n**Key concept:** Investigation safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q61",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question could a class answer by **doing a test**?",
+    "options": [
+      "What is the nicest colour for paper?",
+      "Which paper aeroplane is the prettiest?",
+      "Should everyone make paper aeroplanes?",
+      "Does a paper aeroplane fly further with a wider wing?"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A testable question can be answered by measuring something. Questions about what is prettiest or nicest are matters of opinion.\n\n**Key concept:** Testable questions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q62",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class wants to know whether a plant grows better in sunlight or in a cupboard. What must stay the **same** for both plants?",
+    "options": [
+      "The kind of plant and the amount of light",
+      "The amount of light each plant gets",
+      "The amount of water and the kind of plant",
+      "Nothing has to stay the same"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Only the one thing being tested — the light — should be different. Everything else must match, or you cannot tell what caused the result.\n\n**Key concept:** A fair test",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q63",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class measures the height of a bean plant every three days for two weeks. What is the BEST way to keep the measurements?",
+    "options": [
+      "In their heads until the end of the two weeks",
+      "In a table, with the day and the height side by side",
+      "On loose scraps of paper spread around the room",
+      "As one drawing made on the last day"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A table keeps each measurement next to the day it belongs to, so a pattern over time can be seen.\n\n**Key concept:** Recording data in a table",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q64",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student rolls a ball down a ramp once and measures how far it goes. Why should she roll it again a few times?",
+    "options": [
+      "To find out whether the same thing happens each time",
+      "To make the ball roll further each time",
+      "To use up the rest of the lesson",
+      "To change what she is testing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Doing a test more than once shows whether the result is dependable and helps a mistake stand out.\n\n**Key concept:** Repeating a test",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q65",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student writes: \"The soil in this pot feels wet. **Someone watered this plant today.**\" What is the second sentence?",
+    "options": [
+      "A question she plans to test",
+      "Something she observed directly with her senses",
+      "A measurement she took with a tool",
+      "A guess that explains why, which could turn out to be wrong"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** What she observed is that the soil feels wet. Saying why goes beyond what she saw — rain or spilled water would explain it too.\n\n**Key concept:** Observing and explaining are different",
+    "source": "authored",
+    "needsReview": false
   }
 ]

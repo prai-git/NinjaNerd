@@ -178,5 +178,325 @@
     "explanation": "**Explanation:** Water, soil, plants, insects, and rocks have connected roles in the rain garden, so a change to one part can affect others.\n**Key concept:** Interdependence within a system.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q20",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What happens during **evaporation** in the water cycle?",
+    "options": [
+      "Liquid water changes into water vapour and rises into the air",
+      "Water vapour cools and forms clouds",
+      "Water falls from clouds as rain",
+      "Water soaks down into the soil"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Evaporation is the change from liquid to gas. Cooling into clouds is condensation, and falling water is precipitation.\n\n**Key concept:** Evaporation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q21",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water vapour high in the sky cools and turns into tiny droplets that form a cloud. What is this process called?",
+    "options": [
+      "Runoff",
+      "Evaporation",
+      "Precipitation",
+      "Condensation"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Condensation is gas changing back into liquid. It is the step that builds clouds out of invisible water vapour.\n\n**Key concept:** Condensation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q22",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Rain, snow, sleet and hail are all forms of which part of the water cycle?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Precipitation",
+      "Collection"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Precipitation is any form of water falling from clouds to the ground, whether liquid or frozen.\n\n**Key concept:** Precipitation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q23",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement best describes **soil**?",
+    "options": [
+      "Only tiny pieces of broken rock",
+      "A mixture of broken-down rock, water, air and material from dead plants and animals",
+      "Only decayed plant material",
+      "A solid layer of rock just under the grass"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Soil is a mixture. Both the mineral pieces from rock and the organic material from once-living things are needed for plants to grow well.\n\n**Key concept:** Soil is a mixture",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q24",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two pots are filled with different soils and the same amount of water is poured into each. The water runs straight through the **sandy** soil but sits on top of the **clay** soil. What does this show?",
+    "options": [
+      "Water passes through sandy soil more easily than through clay soil",
+      "Clay soil contains no water at all",
+      "Sandy soil holds more water than clay soil",
+      "The two soils are really the same"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Sandy soil has larger spaces between its particles, so water drains through quickly. Clay particles are tiny and packed tightly, so water moves slowly.\n\n**Key concept:** Soils differ in how water moves through them",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q25",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What causes **day and night** on Earth?",
+    "options": [
+      "The Moon blocks the Sun each night",
+      "Earth travels around the Sun once each year",
+      "The Sun moves around Earth once each day",
+      "Earth spins on its axis about once every 24 hours"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** One rotation of Earth turns each place toward and then away from the Sun, giving day and night. Earth’s orbit around the Sun takes a year, not a day.\n\n**Key concept:** Rotation causes day and night",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q26",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How long does it take Earth to travel **once around the Sun**?",
+    "options": [
+      "About one month",
+      "About one day",
+      "About one year",
+      "About one week"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** One orbit around the Sun is one year, about 365 days. One spin on its axis is one day, and the Moon takes about a month to orbit Earth.\n\n**Key concept:** One orbit is one year",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q27",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In Texas, the days are long and hot in July and short and cool in January. What causes this yearly pattern?",
+    "options": [
+      "Earth moves much closer to the Sun in July",
+      "Earth is tilted, so the amount of sunlight a place receives changes through the year",
+      "The Sun gives off more light in July than in January",
+      "Clouds block more sunlight in January"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Earth’s tilt means each hemisphere leans toward the Sun for part of the year and away for another part, changing day length and how directly the sunlight arrives.\n\n**Key concept:** The tilt causes the seasons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q28",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Melted rock cools and hardens into solid rock. Which type of rock forms this way?",
+    "options": [
+      "Igneous rock",
+      "Sedimentary rock",
+      "Metamorphic rock",
+      "Fossil rock"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Igneous rock forms when magma or lava cools and hardens. Sedimentary rock forms from pressed layers, and metamorphic rock forms under heat and pressure.\n\n**Key concept:** Igneous rock",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q29",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Layers of sand and mud settle at the bottom of a lake and are pressed together over many years. Which type of rock forms?",
+    "options": [
+      "Melted rock",
+      "Igneous rock",
+      "Metamorphic rock",
+      "Sedimentary rock"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Sedimentary rock forms from layers of sediment pressed and cemented together. Fossils are most often found in this type of rock.\n\n**Key concept:** Sedimentary rock",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q30",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which question is about **climate** rather than about weather?",
+    "options": [
+      "\"How windy will it be this afternoon?\"",
+      "\"Is it raining outside right now?\"",
+      "\"Are summers in this city usually hot and dry?\"",
+      "\"Did it snow here yesterday?\""
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Climate is the usual pattern of conditions over many years. Weather is what is happening now or over a few days.\n\n**Key concept:** Weather vs climate",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q31",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which weather instrument measures how **fast the wind is blowing**?",
+    "options": [
+      "A rain gauge",
+      "An anemometer",
+      "A thermometer",
+      "A wind vane"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An anemometer measures wind speed. A wind vane shows the direction the wind comes from, a rain gauge measures rainfall, and a thermometer measures temperature.\n\n**Key concept:** Weather instruments",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q32",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class records 12 millimetres of rain in their rain gauge on Monday and 8 millimetres on Tuesday. How much rain fell over the two days?",
+    "options": [
+      "20 millimetres",
+      "4 millimetres",
+      "96 millimetres",
+      "12 millimetres"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Adding the two daily totals gives 12 + 8 = 20 millimetres of rain over the two days.\n\n**Key concept:** Reading and combining weather data",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q33",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Tall, dark clouds build up over a town in the afternoon. What weather is most likely to follow?",
+    "options": [
+      "A sudden drop in wind and no change in the sky",
+      "Clear skies for the rest of the day",
+      "Colder temperatures with no clouds",
+      "Rain, possibly with thunder"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Tall, dark clouds hold a great deal of water, so they usually bring rain and sometimes thunderstorms. Clouds are one of the clues used to predict weather.\n\n**Key concept:** Clouds help predict weather",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q34",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action is the best example of **conserving** water?",
+    "options": [
+      "Rinsing dishes under running water for a long time",
+      "Leaving a sprinkler running all afternoon",
+      "Turning off the tap while brushing your teeth",
+      "Filling a bath to the top for a short wash"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Conserving means using less of a resource. Turning off the tap while brushing uses only the water needed and wastes none.\n\n**Key concept:** Conserving a resource",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g3_2026-09-04_02-10_q35",
+    "grade": 3,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Wind is used to turn turbines that make electricity. Why is wind called a **renewable** resource?",
+    "options": [
+      "It can be stored in tanks and saved for later",
+      "It is replaced by nature continuously, so using it does not use it up",
+      "It is found only in a few places on Earth",
+      "It makes more electricity than any other resource"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A renewable resource is naturally replaced as fast as it is used. Wind keeps blowing whether or not turbines use it, unlike coal or oil, which take millions of years to form.\n\n**Key concept:** Renewable resources are replaced naturally",
+    "source": "authored",
+    "needsReview": false
   }
 ]

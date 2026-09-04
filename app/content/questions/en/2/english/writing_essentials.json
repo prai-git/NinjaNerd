@@ -158,5 +158,345 @@
     "explanation": "**Explanation:**\nA closing sentence reflects on the experience as a whole rather than adding a new fact.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q35",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to make her classmates laugh with a story about her cat. What is her **reason for writing**?",
+    "options": [
+      "To sell them something",
+      "To entertain them",
+      "To teach them to cook",
+      "To ask for help"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A funny story shared for enjoyment is written to entertain.\n\n**Key concept:** Reason for writing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q36",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes a note asking her teacher for extra library time. What is she trying to do?",
+    "options": [
+      "Persuade the teacher to say yes",
+      "Tell a funny story",
+      "Describe the library",
+      "List the books she has read"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Asking someone to agree to something is persuading. The note may give reasons, but the goal is a yes.\n\n**Key concept:** Writing to persuade",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q37",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is writing directions for a **younger** child on how to tie a shoe. Which sentence fits that reader BEST?",
+    "options": [
+      "Loop formation must precede the crossing stage.",
+      "Form bilateral loops and intersect them symmetrically.",
+      "Execute the standard bow-tying procedure.",
+      "Make two loops and cross them over each other."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A younger reader needs short sentences and simple words. The other three say the same thing with words a young child would not know.\n\n**Key concept:** Writing for a reader",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q38",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the BEST **beginning** for a story about a lost mitten?",
+    "options": [
+      "I will tell you about a mitten now.",
+      "This story is about a mitten.",
+      "My red mitten slipped out of my pocket on the way to school.",
+      "A mitten is something you wear on your hand."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A good beginning starts the story right away. Telling the reader that a story is coming just delays it.\n\n**Key concept:** Story beginnings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q39",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the BEST **topic sentence** for a paragraph about why dogs make good pets?",
+    "options": [
+      "Dogs have four legs and a tail.",
+      "Dogs make good pets because they are loyal and easy to train.",
+      "There are many kinds of animals in the world.",
+      "My neighbour has a very old cat."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A topic sentence tells what the whole paragraph will be about. The other sentences are true but do not name that idea.\n\n**Key concept:** Topic sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q40",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> Penguins are good swimmers. Their wings work like paddles. **Penguins live where it is cold.** They can dive very deep.\n\nWhich sentence does NOT belong?",
+    "options": [
+      "Penguins live where it is cold.",
+      "Penguins are good swimmers.",
+      "Their wings work like paddles.",
+      "They can dive very deep."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Every sentence should be about the paragraph’s one idea, which here is swimming. Where penguins live is true but about something else.\n\n**Key concept:** Staying on topic",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q41",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: **\"Our class needs a class pet.\"** Which sentence best **supports** that idea?",
+    "options": [
+      "I like our classroom the way it is.",
+      "My cousin has a pet iguana at home.",
+      "There are many animals at the zoo.",
+      "Caring for a pet would teach us to be responsible every day."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A supporting sentence gives a reason for the idea. The others are about other animals or say the opposite.\n\n**Key concept:** Supporting an idea",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q42",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word BEST fills the blank?\n\n> First we washed the brushes. \\_\\_\\_\\_\\_\\_, we put them away.",
+    "options": [
+      "However",
+      "But",
+      "Next",
+      "Instead"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Next* shows what happened after. The other three signal a change or a surprise.\n\n**Key concept:** Order words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q43",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word BEST fills the blank?\n\n> It rained all morning. \\_\\_\\_\\_\\_\\_, the game was cancelled.",
+    "options": [
+      "But",
+      "So",
+      "Or",
+      "Although"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The second part happened because of the first, so the joining word must show a result: *So*.\n\n**Key concept:** Words that show a result",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q44",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best **combines** these two?\n\n> The wind blew hard. The kite flew high.",
+    "options": [
+      "The wind blew hard, so the kite flew high.",
+      "The wind blew hard, the kite flew high.",
+      "The wind blew hard and the kite flew high and it was fun.",
+      "The wind blew hard. And the kite flew high."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Joining with *so* shows that the wind caused the kite to fly high. A comma alone between two whole thoughts is not enough.\n\n**Key concept:** Combining sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q45",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **most exact** words?",
+    "options": [
+      "The bird really went across the grass.",
+      "The bird went across the grass.",
+      "The bird moved across the wet grass fast.",
+      "The robin hopped across the wet grass."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Exact words like *robin* and *hopped* let the reader picture it. *Bird* and *went* could mean almost anything.\n\n**Key concept:** Exact words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q46",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The soup was good.\n\nWhich revision adds the most helpful detail?",
+    "options": [
+      "The soup was really good.",
+      "The soup was very good.",
+      "The warm tomato soup tasted a little sweet.",
+      "The soup was good and nice."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Telling what kind of soup and what it tasted like gives the reader real information. *Very* and *really* add no new detail.\n\n**Key concept:** Adding detail",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q47",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is writing about how a caterpillar becomes a butterfly. Where should this sentence go?\n\n> It spins a hard case around itself.",
+    "options": [
+      "At the very beginning, before the egg is mentioned",
+      "After the sentence about the caterpillar eating leaves",
+      "After the sentence about the butterfly flying away",
+      "In the title of the paragraph"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Steps must be written in the order they happen. The caterpillar eats and grows first, then makes its case.\n\n**Key concept:** Putting steps in order",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q48",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Before she writes, a student draws pictures of what will happen first, next and last in her story. What is she doing?",
+    "options": [
+      "Planning her writing",
+      "Checking her spelling",
+      "Reading a library book",
+      "Finishing her writing"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Thinking about and organising ideas before writing is planning. Checking spelling comes later.\n\n**Key concept:** Planning before writing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q49",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student has finished writing and now checks that each sentence starts with a capital letter. What is she doing?",
+    "options": [
+      "Reading someone else’s work",
+      "Choosing a new topic",
+      "Planning her story",
+      "Fixing her writing, or editing"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Checking capital letters, periods and spelling after writing is editing.\n\n**Key concept:** Editing after writing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q50",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wrote about a school picnic. Which is the BEST **ending**?",
+    "options": [
+      "The picnic was on a Tuesday in May.",
+      "That is all about the picnic.",
+      "By the time the bus came back, my shoes were muddy and my face hurt from laughing.",
+      "I hope you liked reading my story."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A good ending leaves the reader with a picture or a feeling. Announcing that the story is over does not.\n\n**Key concept:** Story endings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q51",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student writes: **\"Recess should be longer.\"** Which sentence would a reader who disagrees want answered?",
+    "options": [
+      "\"What colour is the playground fence?\"",
+      "\"But wouldn’t a longer recess mean less time for lessons?\"",
+      "\"How many students are in the class?\"",
+      "\"Who is your teacher this year?\""
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Thinking about what someone who disagrees would ask makes writing more convincing. The other three questions have nothing to do with the idea.\n\n**Key concept:** Thinking about the other side",
+    "source": "authored",
+    "needsReview": false
   }
 ]

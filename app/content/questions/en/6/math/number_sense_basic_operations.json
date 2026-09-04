@@ -387,12 +387,12 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "A city's budget is \\($4.8 \\times 10^{8}\\). It is divided equally among \\(1.2 \\times 10^{5}\\) residents. How much per resident?",
+    "question": "A city's budget is \\(\\$4.8 \\times 10^{8}\\). It is divided equally among \\(1.2 \\times 10^{5}\\) residents. How much per resident?",
     "options": [
-      "\\($4{,}000\\)",
-      "\\($400\\)",
-      "\\($40{,}000\\)",
-      "\\($5.76 \\times 10^{13}\\)"
+      "\\(\\$4{,}000\\)",
+      "\\(\\$400\\)",
+      "\\(\\$40{,}000\\)",
+      "\\(\\$5.76 \\times 10^{13}\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n- \\(\\frac{4.8 \\times 10^{8}}{1.2 \\times 10^{5}} = 4 \\times 10^{3} = 4000\\)\n\n**Key concept:** Divide coefficients, subtract exponents.",
@@ -527,12 +527,12 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "A bank account starts at \\($120\\). Six withdrawals of \\($34.50\\) each are made, and one deposit of \\($95\\). What is the final balance?",
+    "question": "A bank account starts at \\(\\$120\\). Six withdrawals of \\(\\$34.50\\) each are made, and one deposit of \\(\\$95\\). What is the final balance?",
     "options": [
-      "\\($8.00\\)",
-      "\\(-$8.00\\)",
-      "\\($122.00\\)",
-      "\\(-$52.00\\)"
+      "\\(\\$8.00\\)",
+      "\\(-\\$8.00\\)",
+      "\\(\\$122.00\\)",
+      "\\(-\\$52.00\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n- Withdrawals: \\(6 \\times 34.50 = 207\\)\n- \\(120 - 207 + 95 = 8\\)\n\n**Key concept:** Order matters only for reading the problem; the net is the signed sum.",

@@ -158,5 +158,345 @@
     "explanation": "**Work:** Each listed shape has corners.\n**Key concept:** Corners and sides.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q26",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **sides** does a square have?",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A square has four straight sides, all the same length, and four corners.\n\n**Key concept:** Sides of a square",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q27",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **corners** does a triangle have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A triangle has three straight sides and three corners.\n\n**Key concept:** Corners of a triangle",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q28",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **no** straight sides and **no** corners?",
+    "options": [
+      "A circle",
+      "A square",
+      "A triangle",
+      "A rectangle"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A circle is one smooth curve all the way round, so it has no straight sides and no corners.\n\n**Key concept:** Circles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q29",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **4 sides** but is **longer than it is tall**?",
+    "options": [
+      "A circle",
+      "A square",
+      "A triangle",
+      "A rectangle that is not a square"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A rectangle has four sides and four square corners. When its sides are not all the same length, it is longer one way than the other.\n\n**Key concept:** Rectangles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q30",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **5 sides**?",
+    "options": [
+      "A square",
+      "A triangle",
+      "A pentagon",
+      "A hexagon"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A pentagon has five sides and five corners. A hexagon has six.\n\n**Key concept:** Pentagons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q31",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which shape has **6 sides**?",
+    "options": [
+      "A pentagon",
+      "A hexagon",
+      "A square",
+      "A triangle"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A hexagon has six straight sides, like the cells in a honeycomb.\n\n**Key concept:** Hexagons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q32",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object is shaped most like a **sphere**?",
+    "options": [
+      "A basketball",
+      "A shoebox",
+      "A party hat",
+      "A can of soup"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A sphere is round all over, like a ball. A shoebox is a box shape, a party hat is a cone and a can is a cylinder.\n\n**Key concept:** Spheres",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q33",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object is shaped most like a **cone**?",
+    "options": [
+      "A book",
+      "A ball",
+      "A shoebox",
+      "An ice cream cone"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A cone has a round bottom and comes to a point at the top.\n\n**Key concept:** Cones",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q34",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How many **flat faces** does a **cube** have?",
+    "options": [
+      "8",
+      "4",
+      "6",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A cube has six flat square faces — the top, the bottom and four sides.\n\n**Key concept:** Faces of a cube",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q35",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which solid can **roll**?",
+    "options": [
+      "A cube",
+      "A ball",
+      "A shoebox",
+      "A brick"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A round surface lets a solid roll. Shapes made only of flat faces slide instead.\n\n**Key concept:** Rolling and sliding",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q36",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A sandwich is cut into **2 equal parts**. What is one part called?",
+    "options": [
+      "One half",
+      "One third",
+      "One fourth",
+      "One whole"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** When something is cut into two equal parts, each part is one half.\n\n**Key concept:** Halves",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q37",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which picture shows **one half** shaded?",
+    "options": [
+      "A circle cut into 3 equal parts with 1 part shaded",
+      "A circle cut into 2 parts that are not equal, with the bigger part shaded",
+      "A circle cut into 4 equal parts with 1 part shaded",
+      "A circle cut into 2 equal parts with 1 part shaded"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Halves must be two parts of exactly the same size. Two unequal parts are not halves.\n\n**Key concept:** Halves must be equal",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q38",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pizza is cut into 4 equal slices and Ana eats 2. How much of the pizza did she eat?",
+    "options": [
+      "One third",
+      "One fourth",
+      "One half",
+      "The whole pizza"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Two of the four equal slices is the same as half the pizza, because 2 out of 4 is half.\n\n**Key concept:** Two fourths make one half",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q39",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The ball is **on top of** the box. Where is the box?",
+    "options": [
+      "On top of the ball",
+      "Under the ball",
+      "Beside the ball",
+      "Inside the ball"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** If one thing is on top, the other is underneath. Position words come in pairs like this.\n\n**Key concept:** Above and below",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q40",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Nia stands **behind** Sam in line. Where is Sam?",
+    "options": [
+      "In front of Nia",
+      "Behind Nia",
+      "Beside Nia",
+      "Under Nia"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** If Nia is behind Sam, then Sam must be in front of Nia.\n\n**Key concept:** In front and behind",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q41",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The cat is **between** the chair and the table. Which is true?",
+    "options": [
+      "The cat is far from both",
+      "The cat is on top of the table",
+      "The cat is under the chair",
+      "The cat has the chair on one side and the table on the other"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Between* means having one thing on each side.\n\n**Key concept:** Between",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q42",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Geometry & Spatial Concepts",
+    "subtopic": "geometry_spatial_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Two squares of the same size are put together side by side. What new shape is made?",
+    "options": [
+      "A triangle",
+      "A bigger square",
+      "A rectangle",
+      "A circle"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Joining two squares along a whole side makes a shape twice as long as it is tall, which is a rectangle.\n\n**Key concept:** Putting shapes together",
+    "source": "authored",
+    "needsReview": false
   }
 ]

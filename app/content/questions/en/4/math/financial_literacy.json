@@ -195,7 +195,7 @@
       "$35"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Profit is income minus cost: \\(115 − \\)80 = $35.\n\n**Key concept:** Profit",
+    "explanation": "**Explanation:** Profit is income minus cost: $115 − $80 = $35.\n\n**Key concept:** Profit",
     "source": "authored",
     "needsReview": false
   },
@@ -215,7 +215,7 @@
       "$65"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** \\(95 − \\)40 = $55 profit.\n\n**Key concept:** Profit",
+    "explanation": "**Explanation:** $95 − $40 = $55 profit.\n\n**Key concept:** Profit",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "12"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** \\(96 ÷ \\)12 = 8 weeks of saving.\n\n**Key concept:** Saving for a goal",
+    "explanation": "**Explanation:** $96 ÷ $12 = 8 weeks of saving.\n\n**Key concept:** Saving for a goal",
     "source": "authored",
     "needsReview": false
   },
@@ -267,7 +267,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Ravi earns \\(45 and spends \\)28. How much can he save?",
+    "question": "Ravi earns $45 and spends $28. How much can he save?",
     "options": [
       "$13",
       "$73",
@@ -275,7 +275,7 @@
       "$17"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(45 − \\)28 = $17 left to save.\n\n**Key concept:** Saving",
+    "explanation": "**Explanation:** $45 − $28 = $17 left to save.\n\n**Key concept:** Saving",
     "source": "authored",
     "needsReview": false
   },
@@ -327,7 +327,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Ben borrows \\(50 and repays \\)58. What is the extra $8?",
+    "question": "Ben borrows $50 and repays $58. What is the extra $8?",
     "options": [
       "The cost of borrowing the money.",
       "A gift from the lender.",
@@ -347,7 +347,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "A family budget lists income of \\(2,400 and expenses of \\)2,150. What is left?",
+    "question": "A family budget lists income of $2,400 and expenses of $2,150. What is left?",
     "options": [
       "$150",
       "$4,550",
@@ -355,7 +355,7 @@
       "$250"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(2,400 − \\)2,150 = $250 remaining.\n\n**Key concept:** Budgeting",
+    "explanation": "**Explanation:** $2,400 − $2,150 = $250 remaining.\n\n**Key concept:** Budgeting",
     "source": "authored",
     "needsReview": false
   },
@@ -427,7 +427,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Sara has \\(34 and wants a \\)70 game. How much more does she need?",
+    "question": "Sara has $34 and wants a $70 game. How much more does she need?",
     "options": [
       "$26",
       "$104",
@@ -435,7 +435,7 @@
       "$36"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** \\(70 − \\)34 = $36 more to save.\n\n**Key concept:** Saving goals",
+    "explanation": "**Explanation:** $70 − $34 = $36 more to save.\n\n**Key concept:** Saving goals",
     "source": "authored",
     "needsReview": false
   },
@@ -455,7 +455,7 @@
       "$22"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** \\(50 − \\)18 = $32 profit.\n\n**Key concept:** Profit",
+    "explanation": "**Explanation:** $50 − $18 = $32 profit.\n\n**Key concept:** Profit",
     "source": "authored",
     "needsReview": false
   },
@@ -487,7 +487,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Two shops sell the same trainers, one at \\(54 and one at \\)47. Which is the better buy?",
+    "question": "Two shops sell the same trainers, one at $54 and one at $47. Which is the better buy?",
     "options": [
       "The $47 pair, because the trainers are identical.",
       "The $54 pair, because it costs more.",

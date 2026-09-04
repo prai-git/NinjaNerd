@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\nThe order is: absorb water, seed coat splits, root grows down, then the stem rises. Leaves\nappear last.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q20",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is writing to the principal to argue for a longer lunch break. Which sentence works BEST as the **claim**?",
+    "options": [
+      "Lunch should be extended to forty minutes, because students need time to eat and to move before afternoon lessons.",
+      "Lunch is an important part of the school day for everyone.",
+      "I want to write about how long lunch should be.",
+      "Many students have different opinions about lunch."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A claim takes a clear position and signals the reasons behind it. The other options announce a topic without arguing anything.\n\n**Key concept:** Stating a claim",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q21",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student claims that school libraries improve reading. Which sentence gives the STRONGEST evidence?",
+    "options": [
+      "Books have been printed for hundreds of years.",
+      "Libraries are quiet places where anyone can sit and read.",
+      "My best friend reads a book every week from our library.",
+      "Students at schools with full-time librarians score higher on reading tests than students at schools without them."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The strongest evidence is specific and directly connects libraries to reading outcomes. One friend’s habit is an anecdote, and the other two are unrelated facts.\n\n**Key concept:** Evidence must support the claim",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q22",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writing about tornadoes finds four sources. Which is the MOST reliable for facts about how tornadoes form?",
+    "options": [
+      "A short story about a tornado in a novel",
+      "A social media post from someone who saw a tornado",
+      "An article on a national weather service website",
+      "An advertisement for storm shelters"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A national weather service is an expert source on weather. An eyewitness post, a work of fiction and an advertisement are not reliable for scientific facts.\n\n**Key concept:** Evaluating sources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q23",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is writing an article about a school fundraiser for **parents**. Which sentence fits that audience BEST?",
+    "options": [
+      "It was so awesome and everyone had a really great time!!!",
+      "The fundraiser raised $1,240, which will pay for new instruments for the school band.",
+      "Fundraising events constitute a mechanism for institutional revenue.",
+      "We did a thing and it went okay I guess."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Parents want clear information about the result and where the money goes. Slang, jargon and vagueness all fail that audience.\n\n**Key concept:** Writing for an audience",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q24",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes a set of instructions for building a birdhouse. What should the writing include that a story would NOT?",
+    "options": [
+      "Numbered steps in the exact order they must be done",
+      "A surprising twist near the end",
+      "Descriptions of how the characters feel",
+      "Dialogue between two people"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Instructional writing is organised by steps in order. A twist, feelings and dialogue belong to narrative writing.\n\n**Key concept:** Form follows purpose",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q25",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is planning a report on the rainforest with these sections: layers of the forest, animals of each layer, and threats to the forest. Where does a section on **what people can do to help** belong?",
+    "options": [
+      "It does not belong in the report",
+      "First, because it is the most important part",
+      "Second, because it is more interesting than animals",
+      "Last, because it follows from knowing what the threats are"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Ideas should be ordered so each rests on what came before. A reader needs to know the threats before solutions make sense.\n\n**Key concept:** Organising a report",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q26",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the BEST **opening** for a report about honeybee decline?",
+    "options": [
+      "Honeybees are insects that live in groups called colonies.",
+      "This report will be about honeybees and their problems.",
+      "In one recent winter, beekeepers in some regions lost nearly half their hives.",
+      "I chose honeybees because my teacher suggested the topic."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A specific, factual detail draws a reader in. Announcing the report, defining the subject, or explaining how the topic was chosen all delay the point.\n\n**Key concept:** Openings for informational writing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q27",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> Sea otters keep kelp forests healthy. They eat sea urchins, which strip kelp bare. Where otters vanished, whole kelp forests disappeared. **Otters sometimes sleep holding hands.**\n\nWhich change would improve the paragraph?",
+    "options": [
+      "Move the last sentence to the front of the paragraph",
+      "Remove the last sentence, because it does not support the paragraph’s idea",
+      "Add two more sentences about how otters sleep",
+      "Remove the third sentence instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A paragraph should keep to one controlling idea, here how otters protect kelp. The sleeping detail is charming but off topic.\n\n**Key concept:** Paragraph unity",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q28",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word or phrase BEST fills the blank?\n\n> The team trained all season. \\_\\_\\_\\_\\_\\_, they were eliminated in the first round.",
+    "options": [
+      "Even so",
+      "As a result",
+      "For instance",
+      "In addition"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The second sentence is the opposite of what the first leads you to expect, so the transition must show contrast. The other three signal agreement or result.\n\n**Key concept:** Contrast transitions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q29",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word or phrase BEST fills the blank?\n\n> Deserts receive very little rain. \\_\\_\\_\\_\\_\\_, few large trees grow there.",
+    "options": [
+      "In contrast",
+      "Nevertheless",
+      "On the other hand",
+      "Consequently"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The second sentence is a consequence of the first, so the transition must show cause and effect. All three wrong options signal contrast.\n\n**Key concept:** Cause-and-effect transitions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q30",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision uses the MOST precise language?\n\n> The man walked into the room and looked at the mess.",
+    "options": [
+      "The man really walked into the room and looked at the mess.",
+      "The man quickly walked into the room and looked at the big mess.",
+      "The landlord strode into the kitchen and surveyed the wreckage.",
+      "The man walked into the room and looked at the very messy mess."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Precise nouns and verbs — *landlord*, *strode*, *kitchen*, *surveyed* — carry more meaning than adding *quickly*, *really* or *very*.\n\n**Key concept:** Precise word choice",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q31",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which revision replaces the vague word with a precise one?\n\n> The storm was bad.",
+    "options": [
+      "The storm was very bad.",
+      "The storm tore shingles from every roof on the street.",
+      "The storm was really quite bad.",
+      "The storm was bad and not good."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Showing what the storm did tells the reader far more than *bad*, however many intensifiers are added.\n\n**Key concept:** Show rather than label",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q32",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the BEST way to combine these two sentences?\n\n> The bridge was closed for repairs. Traffic backed up for two miles.",
+    "options": [
+      "Because the bridge was closed for repairs, traffic backed up for two miles.",
+      "The bridge was closed for repairs, traffic backed up for two miles.",
+      "The bridge was closed for repairs and traffic backed up for two miles and it was slow.",
+      "The bridge was closed for repairs. And traffic backed up for two miles."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The ideas are cause and effect, so *because* shows the relationship. A comma alone between two complete thoughts is a comma splice.\n\n**Key concept:** Combining sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q33",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the BEST way to combine these two sentences?\n\n> Elena writes poetry. Elena also plays the cello.",
+    "options": [
+      "Elena writes poetry. Also playing the cello.",
+      "Elena writes poetry, Elena plays the cello.",
+      "Elena writes poetry, and also she plays the cello too.",
+      "Elena writes poetry and plays the cello."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The subject is the same in both sentences, so one subject can carry both verbs. Repeating the name or stacking *also* and *too* is wordy.\n\n**Key concept:** Compound predicates",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q34",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Before writing a report on volcanoes, a student groups her notes under headings and decides the order of her paragraphs. What stage of writing is this?",
+    "options": [
+      "Publishing",
+      "Editing",
+      "Planning",
+      "Proofreading"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Organising notes and deciding order happens before drafting, in the planning or prewriting stage.\n\n**Key concept:** The writing process: planning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q35",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is part of **revising** rather than editing?",
+    "options": [
+      "Correcting a misspelled word",
+      "Adding a sentence of evidence to a weak paragraph",
+      "Adding a missing comma",
+      "Capitalising a proper noun"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Revising changes ideas, evidence, order and wording. Spelling, punctuation and capitalisation belong to editing.\n\n**Key concept:** Revising vs editing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q36",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence would make the BEST **conclusion** for an essay arguing that the school should plant more trees?",
+    "options": [
+      "Shade lowers the playground temperature, cleans the air, and costs less than a single air conditioner — the trees pay for themselves.",
+      "In conclusion, I have written about planting trees at school.",
+      "There are also many other things the school could improve.",
+      "Trees have existed on Earth for millions of years."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A conclusion restates the position and leaves the reader with the strongest reasons. Announcing the essay, drifting to other topics, or adding unrelated facts all weaken it.\n\n**Key concept:** Conclusions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q37",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student writes: **\"Some people think homework helps students learn.\"** What should the next sentence do in a persuasive essay that argues AGAINST homework?",
+    "options": [
+      "End the essay, since both sides have been given",
+      "Repeat the same view in different words",
+      "Move on to a completely unrelated point",
+      "Answer that view with a reason or piece of evidence against it"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Naming the opposing view — a counterclaim — is only useful if the writer then answers it. Leaving it unanswered strengthens the other side.\n\n**Key concept:** Answering a counterclaim",
+    "source": "authored",
+    "needsReview": false
   }
 ]

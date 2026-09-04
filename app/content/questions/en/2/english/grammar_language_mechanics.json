@@ -158,5 +158,345 @@
     "explanation": "**Explanation:**\nBoth verbs are past tense, so the sentence stays in one time frame.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q1",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The **puppy** slept in the sunny window.\n\nWhich word is a **noun**?",
+    "options": [
+      "in",
+      "slept",
+      "sunny",
+      "puppy"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A noun names a person, place, animal or thing. *Puppy* names an animal. *Slept* is a verb and *sunny* describes.\n\n**Key concept:** Nouns name things",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q2",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Maya **jumped** over the puddle.\n\nWhich word is the **verb**?",
+    "options": [
+      "over",
+      "Maya",
+      "jumped",
+      "puddle"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A verb shows an action. *Jumped* is what Maya did.\n\n**Key concept:** Verbs show action",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q3",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> We picked three **juicy** apples.\n\nWhich word describes the apples?",
+    "options": [
+      "picked",
+      "juicy",
+      "three",
+      "We"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A describing word, or adjective, tells what something is like. *Juicy* tells what the apples are like.\n\n**Key concept:** Adjectives describe",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q4",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> The two dogs \\_\\_\\_\\_\\_\\_ in the yard.",
+    "options": [
+      "run",
+      "runs",
+      "running",
+      "is running"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Dogs* names more than one, so the verb is *run* with no *s*. One dog would *run**s***.\n\n**Key concept:** Verbs agree with plural subjects",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q5",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> My sister \\_\\_\\_\\_\\_\\_ to school every day.",
+    "options": [
+      "are walking",
+      "walk",
+      "walking",
+      "walks"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *My sister* is one person, so the verb takes an *s*: *walks*.\n\n**Key concept:** Verbs agree with singular subjects",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q6",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence tells about **yesterday**?",
+    "options": [
+      "We will bake bread with Grandpa.",
+      "We bake bread with Grandpa.",
+      "We baked bread with Grandpa.",
+      "We are baking bread with Grandpa."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A past-tense verb tells about something already finished. *Baked* ends in *-ed* to show it happened before now.\n\n**Key concept:** Past-tense verbs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q7",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **past tense** of *go*?",
+    "options": [
+      "goed",
+      "went",
+      "goned",
+      "going"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Go* is an irregular verb, so it does not add *-ed*. Its past tense is *went*.\n\n**Key concept:** Irregular past-tense verbs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q8",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **plural** of *child*?",
+    "options": [
+      "children",
+      "childs",
+      "childes",
+      "childrens"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Child* has a special plural, *children*. It does not follow the usual rule of adding *-s*.\n\n**Key concept:** Irregular plurals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q9",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **plural** of *bush*?",
+    "options": [
+      "bush",
+      "bushs",
+      "bushies",
+      "bushes"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Words ending in *sh*, *ch*, *s* or *x* add *-es*: *bush/bushes*, *box/boxes*, *lunch/lunches*.\n\n**Key concept:** Adding -es for plurals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q10",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pronoun can take the place of **Leo and Sam**?",
+    "options": [
+      "he",
+      "them",
+      "they",
+      "it"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *They* stands for two or more people doing something. *Them* is used after a verb, as in \"I saw them.\"\n\n**Key concept:** Pronouns replace nouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q11",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which pronoun correctly completes the sentence?\n\n> Grandma read the story to Tom and \\_\\_\\_\\_\\_\\_.",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The pronoun receives the action, so it is *me*. Say it without *Tom and* to check: \"Grandma read the story to me.\"\n\n**Key concept:** Object pronouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q12",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The cat hid \\_\\_\\_\\_\\_\\_ the bed.\n\nWhich word BEST completes it?",
+    "options": [
+      "under",
+      "quickly",
+      "because",
+      "soft"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Under* tells where the cat hid. Words like *under*, *over*, *behind* and *beside* show position.\n\n**Key concept:** Words that show position",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q13",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> I wanted ice cream, \\_\\_\\_\\_\\_\\_ the shop was closed.\n\nWhich word BEST completes it?",
+    "options": [
+      "or",
+      "and",
+      "so",
+      "but"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The second part is a surprise after the first, so the joining word must show a difference: *but*.\n\n**Key concept:** Joining words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q14",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of words is a **complete sentence**?",
+    "options": [
+      "Floated away quickly.",
+      "The red balloon.",
+      "The red balloon floated away.",
+      "Away over the tall trees."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A complete sentence tells who or what, and what happened. The other three are missing one part.\n\n**Key concept:** Complete sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q15",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct comparing word?\n\n> This rock is \\_\\_\\_\\_\\_\\_ than that one.",
+    "options": [
+      "heaviest",
+      "heavier",
+      "more heavy",
+      "most heavy"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When comparing two things, add *-er*: *heavier*. *Heaviest* is for three or more.\n\n**Key concept:** Comparing two things",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q16",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct word for comparing **three** puppies?",
+    "options": [
+      "Rex is the smallest of the three puppies.",
+      "Rex is the smaller of the three puppies.",
+      "Rex is more small of the three puppies.",
+      "Rex is most smallest of the three puppies."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Comparing three or more takes *-est*: *smallest*. *Smaller* compares only two.\n\n**Key concept:** Comparing three or more",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q17",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Read the sentence.\n\n> Sam and Ana \\_\\_\\_\\_\\_\\_ their lunch boxes on the bench.\n\nWhich words correctly complete it?",
+    "options": [
+      "leafs",
+      "leaves",
+      "leaving",
+      "left"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Two people are the subject, and the action already happened, so the verb is the past tense *left*. *Leaves* would need one person and the present tense.\n\n**Key concept:** Agreement and tense together",
+    "source": "authored",
+    "needsReview": false
   }
 ]

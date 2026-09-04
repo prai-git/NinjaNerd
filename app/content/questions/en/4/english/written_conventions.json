@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\n*believe* (i before e after b), *weather* (the climate, not *whether*), *separate* (there is *a\nrat* in separate), and *forecast* are all correct.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q38",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma correctly in a **compound sentence**?",
+    "options": [
+      "The rain stopped, but, the field was still too wet to play on.",
+      "The rain stopped but, the field was still too wet to play on.",
+      "The rain stopped, but the field was still too wet to play on.",
+      "The rain, stopped but the field was still too wet to play on."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** In a compound sentence the comma goes before the conjunction joining the two complete thoughts, not after it.\n\n**Key concept:** Commas before a conjunction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q39",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma correctly after an **introductory clause**?",
+    "options": [
+      "After the storm passed we swept, the porch.",
+      "After the storm passed, we swept the porch.",
+      "After the storm, passed we swept the porch.",
+      "After the storm passed we, swept the porch."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A comma follows an introductory clause and separates it from the main sentence. It never splits the subject from its verb.\n\n**Key concept:** Commas after introductory clauses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q40",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses commas correctly around **extra information**?",
+    "options": [
+      "My uncle, a retired pilot, still reads the weather every morning.",
+      "My uncle a retired pilot, still reads the weather every morning.",
+      "My uncle, a retired pilot still reads the weather every morning.",
+      "My uncle a retired pilot still reads, the weather every morning."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Extra information that could be removed is set off by a comma on each side. Using only one comma leaves the sentence unbalanced.\n\n**Key concept:** Commas around an appositive",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q41",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence writes the **address** correctly?",
+    "options": [
+      "She moved to, Austin Texas, last spring.",
+      "She moved to Austin Texas last spring.",
+      "She moved to Austin, Texas last spring.",
+      "She moved to Austin, Texas, last spring."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A comma separates the city from the state, and another comma follows the state when the sentence continues.\n\n**Key concept:** Commas in place names",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q42",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **quotation marks** correctly with a divided quotation?",
+    "options": [
+      "\"If we leave now,\" said Dad \"we can still catch the ferry.\"",
+      "\"If we leave now, said Dad, we can still catch the ferry.\"",
+      "\"If we leave now,\" said Dad, \"we can still catch the ferry.\"",
+      "\"If we leave now\", said Dad, \"we can still catch the ferry\"."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each spoken part gets its own quotation marks, with a comma before the speaker tag and a comma after it. End punctuation goes inside the closing marks.\n\n**Key concept:** Divided quotations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q43",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates the **title of a poem** correctly?",
+    "options": [
+      "We memorised The Road Not Taken\" for the assembly.",
+      "We memorised \"The Road Not Taken\" for the assembly.",
+      "We memorised The Road Not Taken for the assembly.",
+      "We memorised \"the road not taken\" for the assembly."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A poem is a short work, so its title takes quotation marks on BOTH sides, and the important words are capitalised. One missing mark, no marks, or lowercase letters are all errors.\n\n**Key concept:** Titles of short works",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q44",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **plural possessive** correctly?",
+    "options": [
+      "The three teachers’ desks were pushed against the wall.",
+      "The three teacher’s desks were pushed against the wall.",
+      "The three teachers desks’ were pushed against the wall.",
+      "The three teachers’s desks were pushed against the wall."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** For a plural noun already ending in *s*, the apostrophe goes after the *s*. The desks belong to three teachers.\n\n**Key concept:** Plural possessives",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q45",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the possessive of an **irregular plural** correctly?",
+    "options": [
+      "The children’s’ coats were hung by the door.",
+      "The childrens’ coats were hung by the door.",
+      "The childrens coats were hung by the door.",
+      "The children’s coats were hung by the door."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Children* is already plural but does not end in *s*, so it takes an apostrophe plus *s*: *children’s*.\n\n**Key concept:** Possessives of irregular plurals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q46",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **colon** correctly?",
+    "options": [
+      "Bring: water, a hat, and sunscreen to the hike.",
+      "Bring three things to the hike, water: a hat, and sunscreen.",
+      "Bring three things to the hike: water, a hat, and sunscreen.",
+      "Bring three things to the hike; water, a hat, and sunscreen."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A colon introduces a list after a complete sentence. It does not come directly after a verb, and a semicolon does a different job.\n\n**Key concept:** Colons before a list",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q47",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses capital letters correctly?",
+    "options": [
+      "Last thanksgiving, Grandma flew from chicago to see us.",
+      "Last Thanksgiving, Grandma flew from Chicago to see us.",
+      "Last Thanksgiving, grandma flew from Chicago to see us.",
+      "Last Thanksgiving, Grandma flew from Chicago to see Us."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Holidays, cities and a family title used as a name are capitalised. A pronoun such as *us* is not.\n\n**Key concept:** Capitalising holidays and names",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q48",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "separate",
+      "seperate",
+      "saperate",
+      "separete"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Separate* has an *a* in the middle: se-**pa**-rate. It is one of the most commonly misspelled words in English.\n\n**Key concept:** Commonly misspelled words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q49",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these words is spelled correctly?",
+    "options": [
+      "nesessary",
+      "neccessary",
+      "necesary",
+      "necessary"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Necessary* has one *c* and two *s* letters. Remembering \"one collar, two sleeves\" helps.\n\n**Key concept:** Spelling with double letters",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q50",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct spelling when **-ing** is added to *begin*?",
+    "options": [
+      "beginnning",
+      "begining",
+      "beginning",
+      "begineing"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** When the stress falls on the last syllable of a word ending in one vowel plus one consonant, double the consonant: *begin/beginning*.\n\n**Key concept:** Doubling the final consonant",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q51",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct spelling when **-ed** is added to *hope*?",
+    "options": [
+      "hopeed",
+      "hoped",
+      "hopped",
+      "hopeded"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A word ending in a silent *e* drops the *e* before *-ed*: *hope/hoped*. *Hopped* comes from *hop*, a different word.\n\n**Key concept:** Dropping a silent e",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q52",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> The team played much better \\_\\_\\_\\_\\_\\_ we expected.",
+    "options": [
+      "than",
+      "then",
+      "thann",
+      "that"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Than* is used for comparing. *Then* refers to time, as in \"We ate, then we left.\"\n\n**Key concept:** Homophones: than and then",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q53",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> You should have brought \\_\\_\\_\\_\\_\\_ jackets on the hike.",
+    "options": [
+      "your’s",
+      "you’re",
+      "yours",
+      "your"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Your* shows possession. *You’re* is short for *you are*, which would not make sense before a noun.\n\n**Key concept:** Homophones: your and you’re",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q54",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the group of words.\n\n> Although the trail was steep and rocky.\n\nWhy is it not a complete sentence?",
+    "options": [
+      "It has no subject",
+      "It has no verb",
+      "It begins with *Although*, so it depends on a main clause that is missing",
+      "It is too short"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The group has a subject and a verb, but *Although* makes it a dependent clause: \"Although the trail was steep and rocky, we reached the top.\"\n\n**Key concept:** Dependent-clause fragments",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q55",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Read the sentence.\n\n> The concert was sold out, we watched it on a screen outside.\n\nWhat error does the sentence contain, and how is it fixed?",
+    "options": [
+      "A fragment; add a subject to the first part",
+      "A comma splice; replace the comma with a semicolon, or add *so* after it",
+      "A spelling error in *concert*",
+      "No error; the sentence is correct"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A comma cannot join two complete thoughts by itself. A semicolon, a period, or a comma plus a conjunction all fix a comma splice.\n\n**Key concept:** Comma splices",
+    "source": "authored",
+    "needsReview": false
   }
 ]

@@ -75,7 +75,7 @@
       "$400"
     ],
     "correctIndex": 1,
-    "explanation": "**Concept:** Net income = gross income − deductions.\n$$$480 - $96 = $384$$\nNet income (take-home pay) is what remains after taxes and deductions are subtracted. **Answer B.**\n- Choice A *adds* the deductions; Choice C is only the deduction amount.",
+    "explanation": "**Concept:** Net income = gross income − deductions.\n$$\\$480 - \\$96 = \\$384$$\nNet income (take-home pay) is what remains after taxes and deductions are subtracted. **Answer B.**\n- Choice A *adds* the deductions; Choice C is only the deduction amount.",
     "source": "authored",
     "needsReview": false
   },
@@ -255,7 +255,7 @@
       "$540"
     ],
     "correctIndex": 0,
-    "explanation": "**Work:** \\(I = Prt = 500 \\times 0.04 \\times 3 = 500 \\times 0.12 = $60\\).\n\n**Key concept:** Simple interest \\(I = Prt\\) (principal × rate × time); interest is separate from the principal.",
+    "explanation": "**Work:** \\(I = Prt = 500 \\times 0.04 \\times 3 = 500 \\times 0.12 = \\$60\\).\n\n**Key concept:** Simple interest \\(I = Prt\\) (principal × rate × time); interest is separate from the principal.",
     "source": "authored",
     "needsReview": false
   },
@@ -295,7 +295,7 @@
       "$2,442"
     ],
     "correctIndex": 0,
-    "explanation": "**Solution:** \\(A = P(1 + r)^t = 2000(1 + 0.10)^2 = 2000(1.21) = $2{,}420\\).\n**Key concept:** Compound interest earns interest on previous interest: multiply by \\((1+r)\\) each year.",
+    "explanation": "**Solution:** \\(A = P(1 + r)^t = 2000(1 + 0.10)^2 = 2000(1.21) = \\$2{,}420\\).\n**Key concept:** Compound interest earns interest on previous interest: multiply by \\((1+r)\\) each year.",
     "source": "authored",
     "needsReview": false
   },
@@ -316,6 +316,186 @@
     ],
     "correctIndex": 0,
     "explanation": "**Solution:** Mean \\(= \\frac{4+6+8+10+12}{5} = \\frac{40}{5} = 8\\). Absolute deviations from 8: \\(4, 2, 0, 2, 4\\); sum \\(= 12\\). MAD \\(= \\frac{12}{5} = 2.4\\).\n**Key concept:** MAD = average distance of the data values from the mean.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q1",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Eight students recorded the number of siblings they have:\n\n$$1, \\quad 3, \\quad 2, \\quad 1, \\quad 4, \\quad 1, \\quad 2, \\quad 3$$\n\nWhat is the **mode** of this data set?",
+    "options": [
+      "3",
+      "2",
+      "2.125",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The mode is the value that appears most often. 1 appears three times, 2 and 3 appear twice each, and 4 appears once, so the mode is 1.\n\n**Key concept:** Mode is the most frequent value",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q2",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A coach records the heights, in centimetres, of six players:\n\n$$142, \\quad 155, \\quad 148, \\quad 160, \\quad 139, \\quad 151$$\n\nWhat is the **range** of the heights?",
+    "options": [
+      "160 cm",
+      "149.2 cm",
+      "21 cm",
+      "12 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The range is the greatest value minus the least: 160 − 139 = 21 cm. That is a measure of spread, not of centre.\n\n**Key concept:** Range measures spread",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q3",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box plot of quiz scores shows a lower quartile (Q1) of **72** and an upper quartile (Q3) of **88**. What is the **interquartile range** of the scores?",
+    "options": [
+      "80",
+      "16",
+      "160",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The interquartile range is Q3 − Q1 = 88 − 72 = 16. It describes the spread of the middle half of the data.\n\n**Key concept:** Interquartile range is Q3 − Q1",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q4",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A histogram groups the ages of visitors to a museum into intervals of ten years. Which statement describes something a histogram shows that a bar graph of favourite colours does **not**?",
+    "options": [
+      "It shows how the data are distributed across intervals of a numerical range",
+      "It shows the exact age of every single visitor",
+      "It shows the mean age of the visitors as a labelled value",
+      "It shows categories that could be reordered without changing the meaning"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A histogram bins numerical data into ordered intervals, so its shape shows the distribution. Bars for colours are categories with no order. A histogram loses individual values and does not label the mean.\n\n**Key concept:** Histograms display numerical distributions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q5",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A circle graph shows how a class of 30 students travels to school. The section labelled **Walk** takes up \\(20\\%\\) of the circle. How many students walk?",
+    "options": [
+      "3 students",
+      "20 students",
+      "15 students",
+      "6 students"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \\(20\\%\\) of 30 is \\(0.20 \\times 30 = 6\\) students. A circle graph shows parts of one whole, so each percent applies to the total of 30.\n\n**Key concept:** Percent of a whole from a circle graph",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q6",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Priya’s pay stub shows **gross pay of $1,240** and **total deductions of $310**. What is her **net pay**?",
+    "options": [
+      "$310",
+      "$1,550",
+      "$930",
+      "$1,240"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Net pay is gross pay minus deductions: \\(\\$1{,}240 - \\$310 = \\$930\\). Gross pay is the amount earned before anything is taken out.\n\n**Key concept:** Net pay is gross pay minus deductions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q7",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is best described as a **variable expense** in a monthly budget?",
+    "options": [
+      "A rent payment fixed at the same amount by a year-long lease",
+      "The amount spent on groceries, which changes from month to month",
+      "A car insurance premium billed at the same amount every month",
+      "A monthly bus pass sold at one set price"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A variable expense changes in amount from month to month. Rent, a fixed premium and a set-price pass are all the same each month, so they are fixed expenses.\n\n**Key concept:** Variable expenses change month to month",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q8",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to know the favourite sport of all 600 students in a school. She surveys only the 24 members of the basketball team. Why are her results **not** trustworthy?",
+    "options": [
+      "The sample is biased, because basketball players are more likely than other students to choose basketball",
+      "The sample is too large to summarise with a mean",
+      "A survey can never be used to describe a whole school",
+      "She should have asked about two sports instead of one"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A sample must represent the whole population. Choosing only basketball players over-represents one preference, so the result is biased no matter how carefully it is counted.\n\n**Key concept:** A sample must represent the population",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g6_2026-09-04_01-31_q9",
+    "grade": 6,
+    "subject": "math",
+    "sourceSubtopic": "Data Analysis & Functions",
+    "subtopic": "data_analysis_functions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The table shows the total cost of renting a kayak for different numbers of hours.\n\n| Hours (h) | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Cost in dollars (c) | 9 | 18 | 27 | 36 |\n\nWhich equation gives the cost \\(c\\) for \\(h\\) hours?",
+    "options": [
+      "\\(c = 36h\\)",
+      "\\(c = h + 8\\)",
+      "\\(c = 9h + 9\\)",
+      "\\(c = 9h\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each extra hour adds $9, and 1 hour costs $9, so the cost is 9 times the hours: \\(c = 9h\\). Check the last column: \\(9 \\times 4 = 36\\). The rule \\(c = h + 8\\) gives 9 for 1 hour but only 12 for 4 hours.\n\n**Key concept:** A constant multiple in a table is a proportional rule",
     "source": "authored",
     "needsReview": false
   }

@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\n*Ancient* means very old, so its opposite is *modern*, meaning of the present time.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q19",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **un-** means *not*. What does **unhappy** mean?",
+    "options": [
+      "Happy again",
+      "Not happy",
+      "Very happy",
+      "Happy before"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Adding *un-* to a word reverses its meaning. The same prefix gives *unkind*, *unfair* and *unsafe*.\n\n**Key concept:** The prefix un-",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q20",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **pre-** means *before*. What does it mean to **preheat** an oven?",
+    "options": [
+      "To heat it before you put the food in",
+      "To heat it a second time",
+      "To let it cool down first",
+      "To heat it very slowly"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Pre-* means before, so *preheat* is to heat beforehand. The same prefix gives *preview* and *prepay*.\n\n**Key concept:** The prefix pre-",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q21",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **dis-** means *not* or *the opposite of*. What does **disagree** mean?",
+    "options": [
+      "To ask for agreement",
+      "To agree strongly",
+      "To agree later",
+      "To not have the same opinion"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Dis-* reverses the meaning of *agree*. It also gives *dislike*, *disappear* and *dishonest*.\n\n**Key concept:** The prefix dis-",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q22",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The prefix **mis-** means *wrongly*. What does it mean to **misspell** a word?",
+    "options": [
+      "To spell it out loud",
+      "To spell it slowly",
+      "To spell it wrongly",
+      "To spell it again"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Mis-* means wrongly or badly, so *misspell* is to spell incorrectly. The same prefix gives *misread* and *misplace*.\n\n**Key concept:** The prefix mis-",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q23",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-ful** means *full of*. A **joyful** song is one that is —",
+    "options": [
+      "without joy",
+      "full of joy",
+      "joyful again",
+      "the most joyful"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Adding *-ful* means full of that quality. The same suffix gives *careful*, *helpful* and *peaceful*.\n\n**Key concept:** The suffix -ful",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q24",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-er** can mean *one who does something*. A **painter** is —",
+    "options": [
+      "a person who paints",
+      "a kind of paint",
+      "a place where paint is kept",
+      "something used to open paint"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The *-er* suffix turns a verb into the person who does it: *teach/teacher*, *farm/farmer*, *paint/painter*.\n\n**Key concept:** The suffix -er",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q25",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The suffix **-able** means *able to be*. Something that is **washable** is —",
+    "options": [
+      "never washed",
+      "washed already",
+      "washed by hand only",
+      "able to be washed"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *-able* means capable of being. The same suffix gives *readable*, *breakable* and *enjoyable*.\n\n**Key concept:** The suffix -able",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q26",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The Greek root **tele** means *far*. A **telescope** is a tool that helps you —",
+    "options": [
+      "send messages quickly",
+      "hear sounds from far away",
+      "see things that are far away",
+      "measure long distances on a map"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Tele* means far and *scope* means to look, so a telescope looks at distant things. *Telephone* uses the same root with *phone*, meaning sound.\n\n**Key concept:** The root tele",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q27",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The root **aqua** means *water*. An **aquarium** is —",
+    "options": [
+      "a machine that dries clothes",
+      "a tank where water animals are kept",
+      "a very tall building",
+      "a book about the ocean"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The root *aqua* points to water, which is the key to *aquarium*, *aquatic* and *aqueduct*.\n\n**Key concept:** The root aqua",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q28",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means about the same as **frightened**?",
+    "options": [
+      "scared",
+      "excited",
+      "curious",
+      "tired"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Synonyms have nearly the same meaning. *Scared* and *frightened* both describe fear. The others describe different feelings.\n\n**Key concept:** Synonyms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q29",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is the **opposite** of **generous**?",
+    "options": [
+      "cheerful",
+      "kind",
+      "wealthy",
+      "selfish"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An antonym has the opposite meaning. A generous person gives freely; a selfish one does not. *Kind* is close in meaning, not opposite.\n\n**Key concept:** Antonyms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q30",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Please **wave** to your grandmother as the train leaves.\n\nWhich meaning of **wave** is used here?",
+    "options": [
+      "A curl in someone’s hair",
+      "A moving ridge of water on the sea",
+      "To move your hand back and forth as a greeting",
+      "A sudden increase, as in a heat wave"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The surrounding words — greeting someone as a train leaves — select the hand-motion meaning. The other meanings are real but do not fit the sentence.\n\n**Key concept:** Multiple-meaning words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q31",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The mechanic used a **light** to look under the car.\n\nWhich meaning of **light** is used here?",
+    "options": [
+      "Not heavy",
+      "A lamp that helps you see",
+      "Pale in colour",
+      "To set on fire"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The mechanic needs to see under the car, so *light* names a lamp. Context, not the word alone, decides the meaning.\n\n**Key concept:** Context decides the meaning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q32",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **compound word**?",
+    "options": [
+      "notebook",
+      "notice",
+      "national",
+      "nothingness"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A compound word is made of two smaller whole words: *note* + *book*. *Notice* and *national* are single words that cannot be split that way.\n\n**Key concept:** Compound words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q33",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The compound word **sunflower** is made of *sun* and *flower*. What does it name?",
+    "options": [
+      "A flower made of paper",
+      "A flower that only grows indoors",
+      "The warmest hour of the day",
+      "A tall flower whose head follows the sun"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The two parts hint at the meaning: a flower connected with the sun. Breaking a compound word into its parts is a good first step.\n\n**Key concept:** Using the parts of a compound word",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q34",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> We could not find \\_\\_\\_\\_\\_\\_ shoes anywhere.",
+    "options": [
+      "they’re",
+      "there",
+      "their",
+      "theyre"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Their* shows possession — the shoes belong to them. *There* names a place and *they’re* means *they are*.\n\n**Key concept:** Homophones: their, there, they’re",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q35",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student reads the word *habitat* in a science book and wants to know what it means. Which part of the book should she use?",
+    "options": [
+      "The title page",
+      "The glossary",
+      "The table of contents",
+      "The dedication"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A glossary lists the special words used in the book with their meanings. The table of contents lists chapters, not word meanings.\n\n**Key concept:** Using a glossary",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q36",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Which list of words is in the correct **alphabetical order**?",
+    "options": [
+      "branch, brave, bread, brick",
+      "branch, bread, brave, brick",
+      "brave, branch, brick, bread",
+      "brick, bread, brave, branch"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** When the first letters match, compare the next letter, and the next. All four begin *br*; the third letters are *a, a, e, i*, and within the two *bra* words, *branch* comes before *brave* because *n* comes before *v*.\n\n**Key concept:** Alphabetical order to the third letter",
+    "source": "authored",
+    "needsReview": false
   }
 ]

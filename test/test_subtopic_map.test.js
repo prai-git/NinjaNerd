@@ -219,14 +219,14 @@ test('no subtopic is empty at any grade', () => {
    worked through (see test_data.test.js). With a 10-question bucket a child exhausts a
    subtopic in one sitting and immediately meets the "starting again" banner.
 
-   `todo` rather than failing: 48 of 145 buckets are still short (686 questions to author).
-   Remove the flag when the authoring is done — then a regression fails the build, exactly as
-   the "no subtopic is empty" gate does now. The assertion message lists every short bucket
-   with its count and its target, so it doubles as the worklist. */
+   This was `todo` while the authoring caught up. Since 2026-09-04 **all 145 buckets meet the
+   floor**, so the flag is gone and a regression fails the build, exactly as the "no subtopic is
+   empty" gate does. The assertion message still lists every short bucket with its count and its
+   target, which is what makes a failure actionable rather than merely red. */
 const MIN_QUESTIONS = 25;
 const minFor = () => MIN_QUESTIONS;
 
-test('every subtopic meets its grade\'s question minimum', { todo: true }, () => {
+test('every subtopic meets its grade\'s question minimum', () => {
   const man = JSON.parse(
     readFileSync(join(repoRoot, 'app/content/questions/en/manifest.json'), 'utf8'));
   const short = [];

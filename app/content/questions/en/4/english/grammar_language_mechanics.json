@@ -118,5 +118,385 @@
     "explanation": "**Text-evidence-based explanation:** The root *spect* supplies “look/examine,” and the prefix *re-* adds “again,” so *reinspect* means examine again.\n**Key concept:** Greek/Latin roots, affixes, and synonyms.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q1",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The **enormous** oak shaded the whole yard.\n\nWhich part of speech is the bolded word?",
+    "options": [
+      "A noun, because it names a thing",
+      "A verb, because it shows what the oak did",
+      "An adverb, because it tells how the oak shaded",
+      "An adjective, because it describes the oak"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An adjective describes a noun. *Enormous* tells what the oak is like. The verb in the sentence is *shaded*.\n\n**Key concept:** Adjectives modify nouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q2",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Priya answered the question **confidently**.\n\nWhat does the bolded word describe?",
+    "options": [
+      "The noun *question*, by telling which one",
+      "The noun *Priya*, by describing what she is like",
+      "The verb *answered*, by telling how she answered",
+      "Nothing in the sentence; it stands alone"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** An adverb modifies a verb, an adjective or another adverb. *Confidently* tells how the answering was done.\n\n**Key concept:** Adverbs modify verbs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q3",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Neither of the twins \\_\\_\\_\\_\\_\\_ ready for the photo.\n\nWhich verb correctly completes the sentence?",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "being"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Neither* is singular, even though *twins* follows it, so the verb is *was*. The phrase *of the twins* describes the subject but does not change it.\n\n**Key concept:** Agreement with neither",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q4",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the verb that agrees with its subject?",
+    "options": [
+      "A bowl of ripe cherries sits on the counter.",
+      "A bowl of ripe cherries sit on the counter.",
+      "A bowls of ripe cherries sits on the counter.",
+      "A bowl of ripe cherries sitting on the counter."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The subject is *bowl*, which is singular, so the verb is *sits*. *Of ripe cherries* describes the bowl and does not make the subject plural.\n\n**Key concept:** Agreement across a prepositional phrase",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q5",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Last winter the pipes \\_\\_\\_\\_\\_\\_ and flooded the basement.\n\nWhich verb correctly completes the sentence?",
+    "options": [
+      "bursts",
+      "bursted",
+      "bursting",
+      "burst"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Burst* is an irregular verb whose past tense is also *burst*. *Bursted* is not a standard form.\n\n**Key concept:** Irregular past-tense verbs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q6",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence keeps the verb tense consistent?",
+    "options": [
+      "The wind rises, the door slammed, and the candle goes out.",
+      "The wind rose, the door slams, and the candle went out.",
+      "The wind rose, the door slammed, and the candle went out.",
+      "The wind rose, the door slammed, and the candle goes out."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** All three events happen at the same time in the past, so all three verbs stay in the past tense.\n\n**Key concept:** Consistent verb tense",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q7",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Amara gave the tickets to Luis and \\_\\_\\_\\_\\_\\_.\n\nWhich pronoun correctly completes the sentence?",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The pronoun receives the action, so it is an object pronoun: *me*. Test it by removing *Luis and*: \"Amara gave the tickets to me.\"\n\n**Key concept:** Object pronouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q8",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Dev and \\_\\_\\_\\_\\_\\_ built the model together.\n\nWhich pronoun correctly completes the sentence?",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The pronoun is part of the subject doing the building, so it is a subject pronoun: *I*. Removing *Dev and* shows it: \"I built the model.\"\n\n**Key concept:** Subject pronouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q9",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Each of the players brought \\_\\_\\_\\_\\_\\_ own racket.\n\nWhich pronoun correctly completes the sentence?",
+    "options": [
+      "its",
+      "their",
+      "them",
+      "his or her"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Each* is singular, so the pronoun that refers back to it is singular. In formal writing this is *his or her*.\n\n**Key concept:** Pronoun-antecedent agreement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q10",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct comparing word?\n\n> Of the three routes, the river path is the \\_\\_\\_\\_\\_\\_.",
+    "options": [
+      "more short",
+      "shorter",
+      "shortest",
+      "most shortest"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Comparing three or more takes the superlative form: *shortest*. *Shorter* compares only two, and *most shortest* doubles the comparison.\n\n**Key concept:** Superlative forms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q11",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct comparing word?\n\n> This puzzle is \\_\\_\\_\\_\\_\\_ than the last one.",
+    "options": [
+      "difficulter",
+      "more difficult",
+      "most difficult",
+      "more difficulter"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Longer adjectives form the comparative with *more*, not *-er*: *more difficult*. *Most difficult* is the superlative, used for three or more.\n\n**Key concept:** Comparatives with more",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q12",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a **compound sentence**?",
+    "options": [
+      "The tide came in, so we packed up the towels.",
+      "The tide came in and covered our sandcastle.",
+      "When the tide came in, we packed up the towels.",
+      "The tide came in quickly that afternoon."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A compound sentence joins two complete thoughts, each with its own subject and verb, with a comma and a conjunction. The third option joins a dependent clause instead.\n\n**Key concept:** Compound sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q13",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a **complex sentence**?",
+    "options": [
+      "The ferry was late and crowded.",
+      "The ferry was late, and we missed the parade.",
+      "The ferry was late that morning.",
+      "Because the ferry was late, we missed the parade."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A complex sentence joins a dependent clause (*Because the ferry was late*) to an independent one. The first option is compound, not complex.\n\n**Key concept:** Complex sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q14",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The runner **who finished first** waved to the crowd.\n\nWhat does the bolded group of words do?",
+    "options": [
+      "It gives the time the action happened",
+      "It states the main action of the sentence",
+      "It tells which runner is meant",
+      "It shows the place the action happened"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The clause identifies which runner. It is a dependent clause and cannot stand alone as a sentence.\n\n**Key concept:** Clauses that identify a noun",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q15",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence corrects the misplaced description?\n\n> Covered in mud, Nina carried the boots inside.",
+    "options": [
+      "Covered in mud, the boots carried Nina inside.",
+      "Nina carried the muddy boots inside.",
+      "Nina carried, covered in mud, the boots inside.",
+      "Nina inside carried covered in mud the boots."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** As written, *covered in mud* seems to describe Nina rather than the boots. Moving the description next to *boots* fixes it.\n\n**Key concept:** Misplaced modifiers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q16",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence has a clear **subject and predicate**?",
+    "options": [
+      "The two youngest kittens hid behind the sofa.",
+      "The two youngest kittens behind the sofa.",
+      "Hid behind the sofa all afternoon.",
+      "Behind the sofa, quietly and out of sight."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A complete sentence needs a subject (*the two youngest kittens*) and a predicate telling what it did (*hid behind the sofa*).\n\n**Key concept:** Subjects and predicates",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q17",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Sam finished the report, \\_\\_\\_\\_\\_\\_ he forgot to print it.\n\nWhich word BEST completes the sentence?",
+    "options": [
+      "because",
+      "and",
+      "so",
+      "but"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The second part contrasts with the first, so the conjunction must show contrast. *So* and *because* would signal a result or a cause.\n\n**Key concept:** Choosing the right conjunction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q18",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **plural** of *knife*?",
+    "options": [
+      "knifs",
+      "knifes",
+      "knives",
+      "knive"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Some nouns ending in *fe* change to *ves*: *knife/knives*, *life/lives*, *wife/wives*.\n\n**Key concept:** Irregular plurals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g4_2026-09-04_02-50_q19",
+    "grade": 4,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Read the sentence.\n\n> The committee **were** divided over the plan.\n\nWhy might a writer choose *were* rather than *was* here?",
+    "options": [
+      "Because *committee* is always a plural noun",
+      "Because the sentence treats the committee as its individual members, who disagree with one another",
+      "Because *were* is more formal than *was* in every sentence",
+      "Because the sentence is about the past"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A collective noun takes a singular verb when the group acts as one and a plural verb when the members act separately. Being divided is something the members do individually.\n\n**Key concept:** Collective nouns",
+    "source": "authored",
+    "needsReview": false
   }
 ]

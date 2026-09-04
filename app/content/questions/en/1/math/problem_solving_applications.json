@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\n18 in 2 equal rows gives 9 per row. Two children leave one row, so that row has 9 − 2 = 7.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q58",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 7 red apples and 6 green apples in a bowl. How many apples are there in all?",
+    "options": [
+      "12",
+      "1",
+      "13",
+      "14"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Putting two groups together means adding: 7 + 6 = 13 apples.\n\n**Key concept:** Joining two groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q59",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plate has 12 grapes. Sam eats 5. How many grapes are left?",
+    "options": [
+      "17",
+      "7",
+      "8",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Taking some away means subtracting: 12 − 5 = 7 grapes.\n\n**Key concept:** Taking away",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q60",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 9 ducks on a pond. Then 4 more ducks land. How many ducks are on the pond now?",
+    "options": [
+      "13",
+      "5",
+      "12",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** More ducks arriving means adding: 9 + 4 = 13 ducks.\n\n**Key concept:** More arriving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q61",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A box holds 15 crayons. 8 are taken out. How many crayons are still in the box?",
+    "options": [
+      "8",
+      "23",
+      "6",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Taking crayons out means subtracting: 15 − 8 = 7 crayons.\n\n**Key concept:** Taking out of a group",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q62",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Mia has 6 shells. Ben has 9 shells. How many **more** shells does Ben have?",
+    "options": [
+      "4",
+      "15",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** \"How many more\" means find the difference: 9 − 6 = 3 shells.\n\n**Key concept:** Comparing two amounts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q63",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 11 boys and 14 girls in a class. How many more girls than boys are there?",
+    "options": [
+      "25",
+      "3",
+      "4",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Subtract to compare: 14 − 11 = 3 more girls.\n\n**Key concept:** How many more",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q64",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Leo has 8 stickers. Ana has 5 **fewer** than Leo. How many stickers does Ana have?",
+    "options": [
+      "3",
+      "13",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Fewer* means take away: 8 − 5 = 3 stickers.\n\n**Key concept:** Fewer means subtract",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q65",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Nia has 4 marbles. Sam has 6 **more** than Nia. How many marbles does Sam have?",
+    "options": [
+      "11",
+      "2",
+      "9",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *More than* means add: 4 + 6 = 10 marbles.\n\n**Key concept:** More than means add",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q66",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 3 bags with 4 apples in each bag. How many apples are there in all?",
+    "options": [
+      "8",
+      "7",
+      "12",
+      "16"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Three groups of 4 is 4 + 4 + 4 = 12 apples.\n\n**Key concept:** Equal groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q67",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "There are 5 plates with 2 cookies on each plate. How many cookies are there?",
+    "options": [
+      "7",
+      "10",
+      "8",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Five groups of 2 is 2 + 2 + 2 + 2 + 2 = 10 cookies.\n\n**Key concept:** Counting equal groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q68",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Six pencils are shared equally between 2 children. How many pencils does each child get?",
+    "options": [
+      "3",
+      "4",
+      "8",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Sharing 6 into 2 equal groups gives 3 in each, because 3 + 3 = 6.\n\n**Key concept:** Sharing equally",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q69",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jar had some sweets. After 4 were eaten, 8 were left. How many sweets were in the jar to start?",
+    "options": [
+      "32",
+      "4",
+      "11",
+      "12"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add back what was eaten: 8 + 4 = 12 sweets.\n\n**Key concept:** Working backwards",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q70",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben had some stickers. He was given 6 more and now has 15. How many did he start with?",
+    "options": [
+      "8",
+      "21",
+      "9",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Take away what he was given: 15 − 6 = 9 stickers.\n\n**Key concept:** Finding the starting amount",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q71",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bus has 10 children on it. At the stop, 3 get off and 5 get on. How many children are on the bus now?",
+    "options": [
+      "18",
+      "12",
+      "8",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Take away first: 10 − 3 = 7. Then add: 7 + 5 = 12 children.\n\n**Key concept:** Two steps in one story",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q72",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tree has 14 birds. 6 fly away and then 2 come back. How many birds are in the tree?",
+    "options": [
+      "10",
+      "22",
+      "8",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Take away first: 14 − 6 = 8. Then add: 8 + 2 = 10 birds.\n\n**Key concept:** Take away then add",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q73",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which should you do to find how many toys are left after some are given away?",
+    "options": [
+      "Share into groups",
+      "Add",
+      "Count by twos",
+      "Subtract"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Giving some away makes the group smaller, so you subtract.\n\n**Key concept:** Choosing to subtract",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q74",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which should you do to find the total number of legs on 4 chairs, if each chair has 4 legs?",
+    "options": [
+      "Count back from 4",
+      "Subtract 4 from 4",
+      "Add 4 four times, or count 4 groups of 4",
+      "Take one chair away"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Equal groups are put together by adding the same number over and over: 4 + 4 + 4 + 4 = 16 legs.\n\n**Key concept:** Choosing to add equal groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q75",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Rosa has 2 bags with 5 apples in each. She gives 3 apples away. How many apples does she have left?",
+    "options": [
+      "10",
+      "7",
+      "2",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Find the total first: 2 groups of 5 is 10. Then take away 3: 10 − 3 = 7 apples.\n\n**Key concept:** Groups then take away",
+    "source": "authored",
+    "needsReview": false
   }
 ]

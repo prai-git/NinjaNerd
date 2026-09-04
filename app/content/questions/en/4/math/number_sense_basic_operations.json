@@ -467,12 +467,12 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Ana saves \\($18\\) each week. How much has she saved after 15 weeks?",
+    "question": "Ana saves \\(\\$18\\) each week. How much has she saved after 15 weeks?",
     "options": [
-      "\\($270\\)",
-      "\\($33\\)",
-      "\\($180\\)",
-      "\\($250\\)"
+      "\\(\\$270\\)",
+      "\\(\\$33\\)",
+      "\\(\\$180\\)",
+      "\\(\\$250\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n\\(18 \\times 15 = 270\\) dollars.\n\n**Key concept:** A repeated weekly amount is multiplication, not addition.",

@@ -178,5 +178,325 @@
     "explanation": "**Explanation:** The question tests **conservation**. The given evidence or condition supports “Use blank sides for notes, then recycle,” which directly applies the aligned Grade 2 standard.\n**Why other answers are wrong:**\n- * “Run water over scraps” is not supported by the question’s evidence or does not apply the required science idea.\n- * “Use new paper for every note” is not supported by the question’s evidence or does not apply the required science idea.\n- * This is correct because it matches both the evidence and the science concept.\n- * “Throw scraps in trash” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Conservation.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q29",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What causes **day and night**?",
+    "options": [
+      "The Moon pushes the Sun away",
+      "The Sun switches itself off at night",
+      "Clouds cover the Sun each night",
+      "Earth spins around once each day"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** As Earth spins, each place turns toward the Sun for day and away from it for night. One full spin takes about 24 hours.\n\n**Key concept:** Earth spins to make day and night",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q30",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object gives Earth most of its **heat and light**?",
+    "options": [
+      "The stars at night",
+      "The Moon",
+      "The Sun",
+      "The clouds"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The Sun is a star close enough to warm and light Earth. The Moon only reflects the Sun’s light and gives no heat.\n\n**Key concept:** The Sun warms Earth",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q31",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where is the Sun in the sky in the **morning**?",
+    "options": [
+      "High overhead",
+      "Low in the east",
+      "Low in the west",
+      "Below the ground where it cannot be seen"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The Sun appears to rise in the east, cross the sky, and set in the west. This apparent movement is caused by Earth spinning.\n\n**Key concept:** The Sun’s daily path",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q32",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which season usually has the **shortest** days and the coldest weather in Texas?",
+    "options": [
+      "Winter",
+      "Summer",
+      "Spring",
+      "Autumn"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** In winter a place receives fewer hours of sunlight and the sunlight arrives at a lower angle, so it is colder.\n\n**Key concept:** Seasons and day length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q33",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool measures how much **rain** has fallen?",
+    "options": [
+      "A hand lens",
+      "A thermometer",
+      "A wind vane",
+      "A rain gauge"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A rain gauge collects rain and shows the depth on a scale. A thermometer measures temperature and a wind vane shows wind direction.\n\n**Key concept:** Weather tools: rain gauge",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q34",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool shows which **direction** the wind is coming from?",
+    "options": [
+      "A balance",
+      "A rain gauge",
+      "A wind vane",
+      "A ruler"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A wind vane turns to point into the wind, showing its direction.\n\n**Key concept:** Weather tools: wind vane",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q35",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool measures how **hot or cold** the air is?",
+    "options": [
+      "A rain gauge",
+      "A thermometer",
+      "A wind vane",
+      "A magnet"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A thermometer measures temperature, usually in degrees Celsius.\n\n**Key concept:** Weather tools: thermometer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q36",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Big, dark grey clouds fill the sky in the afternoon. What weather is most likely coming?",
+    "options": [
+      "Rain",
+      "Bright sunshine all afternoon",
+      "A clear starry evening right away",
+      "No change in the weather"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Dark, thick clouds carry a lot of water, so they usually bring rain. Watching clouds is one way to predict weather.\n\n**Key concept:** Clouds help predict weather",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q37",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class records the weather every day for a month. Why is this useful?",
+    "options": [
+      "It shows how far away the Sun is",
+      "It changes what the weather will be",
+      "It makes the weather warmer",
+      "A pattern in the weather can be seen over many days"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Recording data over time reveals patterns, which is how weather is described and predicted.\n\n**Key concept:** Recording weather over time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q38",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In which THREE forms can water be found on Earth?",
+    "options": [
+      "Only solid, as ice at the poles",
+      "Only liquid, in oceans and rivers",
+      "Solid ice, liquid water and water vapour in the air",
+      "Only gas, in clouds"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Water exists as a solid, a liquid and a gas, and it moves between those forms as it is heated and cooled.\n\n**Key concept:** Water in three forms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q39",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where is **most** of Earth’s water found?",
+    "options": [
+      "In rivers",
+      "In the oceans",
+      "In clouds",
+      "Underground only"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Oceans hold by far the most water on Earth. Rivers, lakes and clouds hold much smaller amounts.\n\n**Key concept:** Most water is in the oceans",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q40",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is **soil** made of?",
+    "options": [
+      "Small pieces of rock mixed with bits of dead plants and animals",
+      "Only tiny pieces of rock",
+      "Only dead leaves",
+      "Solid rock with nothing else in it"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Soil is a mixture. Both the rock pieces and the material from once-living things are needed for plants to grow well.\n\n**Key concept:** Soil is a mixture",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q41",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two pots are filled with different soils and given the same water. The water runs straight through the **sandy** soil but sits on top of the **clay** soil. What does this show?",
+    "options": [
+      "The two soils are the same",
+      "Clay soil holds no water at all",
+      "Sandy soil holds more water than clay",
+      "Water moves through sandy soil more easily than through clay"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Sandy soil has bigger spaces between its grains, so water drains through quickly. Clay grains are tiny and packed tightly.\n\n**Key concept:** Soils differ",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q42",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How can you tell two rocks apart without any tools?",
+    "options": [
+      "By taking their temperature",
+      "By weighing them on a balance",
+      "By looking at their colour, shape and texture",
+      "By pouring them into a measuring cup"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Colour, shape and how rough or smooth a rock feels can all be observed directly. A balance and a thermometer are tools.\n\n**Key concept:** Describing rocks by their properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q43",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action is the BEST example of **saving water**?",
+    "options": [
+      "Letting the tap run the whole time you brush your teeth",
+      "Turning the tap off while you scrub your hands",
+      "Filling the bath to the very top for a quick wash",
+      "Watering a lawn during heavy rain"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Saving water means using only what is needed. Turning the tap off during scrubbing wastes none.\n\n**Key concept:** Conserving water",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q44",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Why should people take care of natural resources such as water and trees?",
+    "options": [
+      "People and animals depend on them, and some take a very long time to be replaced",
+      "They are useful only for making money",
+      "They will never run out no matter how they are used",
+      "They are only important in other countries"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Living things depend on natural resources. Some, like trees, take many years to grow back, and some cannot be replaced at all.\n\n**Key concept:** Why resources matter",
+    "source": "authored",
+    "needsReview": false
   }
 ]

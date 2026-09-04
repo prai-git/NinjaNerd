@@ -218,5 +218,285 @@
     "explanation": "**Explanation:** The least dense liquid, oil (0.90), floats on water (1.00), while the densest liquid, corn syrup (1.33), settles at the bottom.\n**Key concept:** In nonmixing liquids, lower density floats above higher density.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q1",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property of an object is measured with a **balance**?",
+    "options": [
+      "Length",
+      "Volume",
+      "Temperature",
+      "Mass"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A balance compares mass. Volume is measured with a graduated cylinder or by calculation, temperature with a thermometer, and length with a ruler.\n\n**Key concept:** Measurable properties of matter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q2",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to compare how well four materials **conduct heat**. Which test is best?",
+    "options": [
+      "Measure the length of each material with a ruler",
+      "Weigh each material on a balance",
+      "Put one end of each material in hot water and feel how warm the other end becomes",
+      "Look at the colour of each material closely"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A property must be tested by an action that reveals it. Heat conduction shows up as heat travelling through a material, not as mass, length or colour.\n\n**Key concept:** Testing for heat conduction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q3",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which material would be the BEST choice for the handle of a metal cooking pot?",
+    "options": [
+      "Copper, because it conducts heat well",
+      "Wood, because it conducts heat poorly",
+      "Aluminium, because it is light and conducts heat",
+      "Steel, because it is strong and conducts heat"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A handle should stay cool, so it needs a poor conductor — an insulator. All three metals conduct heat well, which is exactly what a handle must not do.\n\n**Key concept:** Insulators keep heat from passing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q4",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student holds a magnet near four objects: an iron nail, an aluminium can, a copper coin and a plastic ruler. Which will the magnet attract?",
+    "options": [
+      "Only the iron nail",
+      "All four objects",
+      "The iron nail and the aluminium can",
+      "The copper coin and the iron nail"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Magnets attract iron, nickel and cobalt. Aluminium, copper and plastic are not magnetic, even though two of them are metals.\n\n**Key concept:** Magnetism is a property of some metals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q5",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement describes the particles in a **solid** compared with the same substance as a **liquid**?",
+    "options": [
+      "They spread out to fill any container",
+      "They are further apart and move faster",
+      "They stop moving completely",
+      "They are held in fixed positions and cannot slide past one another"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** In a solid, particles vibrate in place but hold their positions, which is why a solid keeps its shape. In a liquid they slide past one another.\n\n**Key concept:** Solids, liquids and gases",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q6",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A gas is put into a larger sealed container. What happens to the gas?",
+    "options": [
+      "It keeps its original shape and size",
+      "It settles into a layer at the bottom",
+      "It spreads out to fill the whole container",
+      "It turns into a liquid"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Gas particles move freely and spread to fill whatever space is available. That is why a gas has neither a fixed shape nor a fixed volume.\n\n**Key concept:** A gas fills its container",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q7",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ice is left on a warm counter and becomes liquid water. What is this change of state called?",
+    "options": [
+      "Freezing",
+      "Melting",
+      "Evaporation",
+      "Condensation"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Melting is solid to liquid. Freezing is the reverse, evaporation is liquid to gas, and condensation is gas to liquid.\n\n**Key concept:** Melting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q8",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A puddle on the pavement slowly disappears on a hot, sunny day. What happened to the water?",
+    "options": [
+      "It evaporated into water vapour in the air",
+      "It froze into ice below the pavement",
+      "It was destroyed by the sunlight",
+      "It turned into a solid you cannot see"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Heat gives water particles enough energy to escape as a gas. The water still exists as water vapour; it has changed state, not disappeared.\n\n**Key concept:** Evaporation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q9",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water vapour in warm air touches a cold window and tiny drops appear on the glass. What is this process called?",
+    "options": [
+      "Freezing",
+      "Evaporation",
+      "Melting",
+      "Condensation"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Condensation is gas changing to liquid. The cold surface removes energy from the vapour, so it becomes liquid water.\n\n**Key concept:** Condensation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q10",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student cuts a sheet of paper into twenty small pieces. Which statement is TRUE about the paper?",
+    "options": [
+      "Its total mass is now much greater",
+      "It has become a new substance",
+      "It is still paper, because only its size and shape changed",
+      "It can no longer be called matter"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Cutting is a physical change: the pieces are smaller, but the material is unchanged and the total mass is the same.\n\n**Key concept:** Physical change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q11",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **physical** change rather than the forming of a new substance?",
+    "options": [
+      "Burning a log in a fireplace",
+      "Crushing a can flat",
+      "Rusting an iron nail in water",
+      "Baking a cake from batter"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Crushing changes the shape only. Burning, rusting and baking all produce new substances with different properties.\n\n**Key concept:** Physical vs chemical change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q12",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student measures the mass of a bowl of water, then dissolves a spoonful of sugar in it and measures again. What does she find?",
+    "options": [
+      "The mass increases by the mass of the sugar, because the sugar is still there",
+      "The mass stays exactly the same, because the sugar disappeared",
+      "The mass decreases, because dissolving destroys the sugar",
+      "The mass doubles, because two substances are now present"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Dissolving spreads the sugar through the water but does not destroy it, so the total mass is the mass of the water plus the mass of the sugar.\n\n**Key concept:** Mass is conserved when dissolving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q13",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student needs to separate iron filings from a pile of dry sand. Which method works best?",
+    "options": [
+      "Add water and stir the mixture",
+      "Pour the mixture through a paper filter",
+      "Heat the mixture until the sand melts",
+      "Move a magnet over the mixture to pull out the iron filings"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Using a property only one part of the mixture has — magnetism — separates them cleanly. A filter cannot tell the two grain sizes apart.\n\n**Key concept:** Separating by a property",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q14",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Two identical cups hold 100 grams of water each. One is at 10 °C and the other at 60 °C. A sugar cube is dropped in each. In which cup does the sugar dissolve **faster**, and why?",
+    "options": [
+      "Both at the same rate, because the amount of water is the same",
+      "The 10 °C cup, because cold water holds more sugar",
+      "The 60 °C cup, because the water particles move faster and break the sugar apart more quickly",
+      "Neither cup, because sugar only dissolves in hot water"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Higher temperature means faster-moving particles and more collisions with the sugar, so dissolving happens sooner. The final amount that can dissolve also rises with temperature.\n\n**Key concept:** Temperature affects dissolving rate",
+    "source": "authored",
+    "needsReview": false
   }
 ]

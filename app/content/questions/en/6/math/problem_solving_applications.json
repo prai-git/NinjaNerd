@@ -207,7 +207,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A phone plan charges a $15 monthly fee plus $0.05 per text. Which equation gives the total cost \\(c\\) for \\(t\\) texts?",
+    "question": "A phone plan charges a $15 monthly fee plus $0.05 per text. Which equation gives the total cost $c\\( for \\)t$ texts?",
     "options": [
       "\\(c = 15t + 0.05\\)",
       "\\(c = 0.05t + 15\\)",
@@ -215,7 +215,7 @@
       "\\(c = 15.05t\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:**\nThe $0.05 charge applies per text, so it multiplies $t\\(; the \\)15 fee is charged once, so it is added. Option A attaches the per-text rate to the wrong quantity.\n\n**Key concept:** A rate multiplies the variable; a fixed fee is added.",
+    "explanation": "**Explanation:**\nThe $0.05 charge applies per text, so it multiplies $t$; the $15 fee is charged once, so it is added. Option A attaches the per-text rate to the wrong quantity.\n\n**Key concept:** A rate multiplies the variable; a fixed fee is added.",
     "source": "authored",
     "needsReview": false
   },
@@ -227,12 +227,12 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A jacket originally \\($60\\) is marked up by \\(20\\%\\). What is the new price?",
+    "question": "A jacket originally \\(\\$60\\) is marked up by \\(20\\%\\). What is the new price?",
     "options": [
-      "\\($72\\)",
-      "\\($80\\)",
-      "\\($48\\)",
-      "\\($12\\)"
+      "\\(\\$72\\)",
+      "\\(\\$80\\)",
+      "\\(\\$48\\)",
+      "\\(\\$12\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\nA 20% markup means paying 120%: \\(60 \\times 1.20 = 72\\).\n\n**Key concept:** Markup adds to 100%; discount subtracts from it.",
@@ -287,7 +287,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A student earns \\($540\\) per month and spends \\($135\\) on transport. What percent of income is spent on transport?",
+    "question": "A student earns \\(\\$540\\) per month and spends \\(\\$135\\) on transport. What percent of income is spent on transport?",
     "options": [
       "\\(25\\%\\)",
       "\\(40\\%\\)",
@@ -307,12 +307,12 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Three pencils cost \\($1.35\\). At the same unit rate, what do 11 pencils cost?",
+    "question": "Three pencils cost \\(\\$1.35\\). At the same unit rate, what do 11 pencils cost?",
     "options": [
-      "\\($4.95\\)",
-      "\\($14.85\\)",
-      "\\($4.05\\)",
-      "\\($3.65\\)"
+      "\\(\\$4.95\\)",
+      "\\(\\$14.85\\)",
+      "\\(\\$4.05\\)",
+      "\\(\\$3.65\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n- Unit price: \\(1.35 \\div 3 = 0.45\\)\n- \\(0.45 \\times 11 = 4.95\\)\n\n**Key concept:** Unit rate makes any quantity easy to price.",
@@ -427,12 +427,12 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A bill is \\($48\\) and a \\(18\\%\\) tip is added. What is the total?",
+    "question": "A bill is \\(\\$48\\) and a \\(18\\%\\) tip is added. What is the total?",
     "options": [
-      "\\($56.64\\)",
-      "\\($8.64\\)",
-      "\\($65.00\\)",
-      "\\($50.64\\)"
+      "\\(\\$56.64\\)",
+      "\\(\\$8.64\\)",
+      "\\(\\$65.00\\)",
+      "\\(\\$50.64\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n- Tip: \\(48 \\times 0.18 = 8.64\\)\n- Total: \\(48 + 8.64 = 56.64\\), or directly \\(48 \\times 1.18\\)\n\n**Key concept:** Adding a percent can be done in one step by multiplying by \\(1 + r\\).",
@@ -487,12 +487,12 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account holds \\($800\\) and earns \\(3\\%\\) simple interest per year. How much interest after 2 years?",
+    "question": "A savings account holds \\(\\$800\\) and earns \\(3\\%\\) simple interest per year. How much interest after 2 years?",
     "options": [
-      "\\($48\\)",
-      "\\($24\\)",
-      "\\($824\\)",
-      "\\($4.80\\)"
+      "\\(\\$48\\)",
+      "\\(\\$24\\)",
+      "\\(\\$824\\)",
+      "\\(\\$4.80\\)"
     ],
     "correctIndex": 0,
     "explanation": "**Explanation:**\n\\(I = Prt = 800 \\times 0.03 \\times 2 = 48\\). The $824 option adds only one year of interest to the principal.\n\n**Key concept:** Simple interest is earned on the original principal each year.",

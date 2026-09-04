@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\nCapitalise the first word, the month, and a person's name — and nothing else.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q1",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The **cheerful** children waited by the gate.\n\nWhich word is an **adjective**?",
+    "options": [
+      "gate",
+      "children",
+      "waited",
+      "cheerful"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An adjective describes a noun. *Cheerful* tells what the children are like. *Children* and *gate* are nouns and *waited* is a verb.\n\n**Key concept:** Adjectives describe nouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q2",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Marco spoke **quietly** during the film.\n\nWhich part of speech is the bolded word?",
+    "options": [
+      "An adjective, because it describes Marco",
+      "A noun, because it names a thing",
+      "An adverb, because it tells how Marco spoke",
+      "A verb, because it shows an action"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** An adverb describes a verb by telling how, when or where. *Quietly* tells how the action *spoke* was done.\n\n**Key concept:** Adverbs describe verbs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q3",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The kitten chased a ball of yarn.\n\nWhich word is the **verb**?",
+    "options": [
+      "kitten",
+      "chased",
+      "ball",
+      "yarn"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A verb shows the action. *Chased* is what the kitten did. The other three words name things.\n\n**Key concept:** Verbs show action",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q4",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a **pronoun** in place of the underlined words?\n\n> **Rosa and Dev** carried the boxes upstairs.",
+    "options": [
+      "They carried the boxes upstairs.",
+      "Them carried the boxes upstairs.",
+      "Their carried the boxes upstairs.",
+      "Us carried the boxes upstairs."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *They* replaces two people acting as the subject of the sentence. *Them* and *us* are used after a verb, and *their* shows possession.\n\n**Key concept:** Subject pronouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q5",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **plural** of the word *leaf*?",
+    "options": [
+      "leaf’s",
+      "leafs",
+      "leafes",
+      "leaves"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Some nouns ending in *f* change to *ves* in the plural, like *leaf/leaves* and *wolf/wolves*. *Leaf’s* shows possession, not a plural.\n\n**Key concept:** Irregular plural nouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q6",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct **plural** of the word *mouse*?",
+    "options": [
+      "mousees",
+      "mouses",
+      "mice",
+      "mice’s"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Mouse* has an irregular plural, *mice*. It does not follow the usual rule of adding *-s* or *-es*.\n\n**Key concept:** Irregular plurals do not add -s",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q7",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> Yesterday the class \\_\\_\\_\\_\\_\\_ to the science museum.\n\nWhich verb correctly completes the sentence?",
+    "options": [
+      "goed",
+      "went",
+      "gone",
+      "going"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Go* is an irregular verb: its past tense is *went*. *Gone* needs a helping word like *has*, and *going* needs *is* or *was*.\n\n**Key concept:** Irregular past-tense verbs",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q8",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the verb that agrees with its subject?",
+    "options": [
+      "The two rabbits hop across the lawn.",
+      "The two rabbits hops across the lawn.",
+      "The two rabbit hops across the lawn.",
+      "The two rabbits hopping across the lawn."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Rabbits* is plural, so it takes *hop* with no *-s*. *Hopping* on its own is not a complete verb.\n\n**Key concept:** Subject-verb agreement with a plural subject",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q9",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The birds flew \\_\\_\\_\\_\\_\\_ the tall fence.\n\nWhich word BEST completes the sentence?",
+    "options": [
+      "pretty",
+      "quickly",
+      "because",
+      "over"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Over* is a preposition, which shows the position of one thing in relation to another. *Quickly* is an adverb, *because* joins clauses, and *pretty* describes.\n\n**Key concept:** Prepositions show relationships",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q10",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> I wanted to play outside, \\_\\_\\_\\_\\_\\_ it was raining hard.\n\nWhich word BEST completes the sentence?",
+    "options": [
+      "so",
+      "and",
+      "but",
+      "or"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The two parts of the sentence disagree, so the joining word must show contrast: *but*. *And* adds and *so* shows a result.\n\n**Key concept:** Conjunctions join ideas",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q11",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct **comparing** word?\n\n> This puzzle is \\_\\_\\_\\_\\_\\_ than the one we did yesterday.",
+    "options": [
+      "hardest",
+      "harder",
+      "more harder",
+      "most hard"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When comparing exactly two things, add *-er*: *harder*. *Hardest* compares three or more, and *more harder* doubles the comparison.\n\n**Key concept:** Comparative adjectives",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q12",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct form when comparing **more than two** things?",
+    "options": [
+      "Of all five runners, Nina was the fastest.",
+      "Of all five runners, Nina was the faster.",
+      "Of all five runners, Nina was more fast.",
+      "Of all five runners, Nina was the most fastest."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Comparing three or more takes the superlative, formed with *-est*: *fastest*. *Faster* compares only two.\n\n**Key concept:** Superlative adjectives",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q13",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a **complete sentence** with both a subject and a predicate?",
+    "options": [
+      "In the hallway near the old clock.",
+      "The old clock in the hallway.",
+      "Chimed twelve times in the hallway.",
+      "The old clock in the hallway chimed twelve times."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A complete sentence needs a subject (*the old clock*) and a predicate telling what it did (*chimed twelve times*). The other three are missing one or the other.\n\n**Key concept:** Subjects and predicates",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q14",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the **subject** of this sentence?\n\n> After the game, the tired players drank water.",
+    "options": [
+      "drank water",
+      "After the game",
+      "the tired players",
+      "water"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The subject is who or what the sentence is about and who performs the action. *After the game* tells when, and *drank water* is the predicate.\n\n**Key concept:** Finding the subject",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q15",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is a **compound sentence**?",
+    "options": [
+      "Sam packed the tent and the food.",
+      "Sam packed the tent, and Dana packed the food.",
+      "Sam and Dana packed the tent.",
+      "Sam packed the tent before dark."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A compound sentence joins two complete thoughts, each with its own subject and verb, using a comma and a conjunction. The others have only one complete thought.\n\n**Key concept:** Compound sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q16",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is an **interrogative** sentence?",
+    "options": [
+      "Where did you leave your umbrella?",
+      "Please leave your umbrella by the door.",
+      "I left my umbrella on the bus.",
+      "What a rainy afternoon this is!"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** An interrogative sentence asks a question and ends with a question mark. The others give a command, make a statement and show strong feeling.\n\n**Key concept:** Types of sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q17",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct **possessive noun**?",
+    "options": [
+      "The teacher collected all the students’s notebooks.",
+      "The teacher collected all the students notebooks.",
+      "The teacher collected all the student’s notebooks from the whole class.",
+      "The teacher collected all the students’ notebooks."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** For a plural noun that already ends in *s*, the apostrophe goes after the *s*: *students’*. The notebooks belong to more than one student.\n\n**Key concept:** Plural possessive nouns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q18",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Grammar & Language Mechanics",
+    "subtopic": "grammar_language_mechanics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Read the sentence.\n\n> Neither the map nor the compass \\_\\_\\_\\_\\_\\_ in the backpack.\n\nWhich verb correctly completes the sentence?",
+    "options": [
+      "are",
+      "were",
+      "was",
+      "being"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** With *neither… nor*, the verb agrees with the noun closest to it. *Compass* is singular, so the verb is *was*.\n\n**Key concept:** Agreement with neither/nor",
+    "source": "authored",
+    "needsReview": false
   }
 ]

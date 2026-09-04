@@ -447,11 +447,13 @@ export function parseQuestions(md) {
         _entry: passagesByKey.get(passageKey(passageTitle || '')) || null,
         textLines: [], options: [],
       };
-      const rest = tail
-        .replace(/\[(?:BOY|MOY|EOY)\]/gi, '')
-        .replace(/\*?\(([^)]*)\)\*?/g, '')
-        .trim();
-      if (rest) cur.textLines.push(rest);
+      /* Whatever else sits on the heading line is an AUTHOR'S label, never child-facing text.
+         It was previously pushed as the question's first line, so 66 grade 5 and 6 items opened
+         with "— Multi-Step Equation with Unknown [R]" and 48 carried a bare "[R]". Checked
+         across every practice file: 229 headings carry a tail and all 229 are topic labels
+         ("- Fractions", "— Capacity Conversion") or difficulty markers ("**[stretch]**") — not
+         one is question text, which always begins on the following line. So it is dropped.
+         2026-09-04. */
       continue;
     }
 

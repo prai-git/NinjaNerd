@@ -35,7 +35,7 @@
       "\\(16\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Four symbols at \\(2\\) each represent \\(4\times2=8\\).\n**Why the other answers are wrong:** A. \\(4\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\times2=8\\). B. \\(6\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\times2=8\\). D. \\(16\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\times2=8\\).\n**Key concept:** pictographs",
+    "explanation": "**Explanation:** Four symbols at \\(2\\) each represent \\(4\\times2=8\\).\n**Why the other answers are wrong:** A. \\(4\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\\times2=8\\). B. \\(6\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\\times2=8\\). D. \\(16\\) — it does not fit because Four symbols at \\(2\\) each represent \\(4\\times2=8\\).\n**Key concept:** pictographs",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "Milo sells \\(10\\) key chains for \\($2\\) each. Supplies cost \\($12\\). What remains after costs?",
+    "question": "Milo sells \\(10\\) key chains for \\(\\$2\\) each. Supplies cost \\(\\$12\\). What remains after costs?",
     "options": [
-      "\\($8\\)",
-      "\\($10\\)",
-      "\\($12\\)",
-      "\\($20\\)"
+      "\\(\\$8\\)",
+      "\\(\\$10\\)",
+      "\\(\\$12\\)",
+      "\\(\\$20\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain.\n**Why the other answers are wrong:** B. \\($10\\) — it does not fit because Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain. C. \\($12\\) — it does not fit because Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain. D. \\($20\\) — it does not fit because Sales are \\(10\times2=20\\) dollars; \\(20-12=8\\) dollars remain.\n**Key concept:** producer costs",
+    "explanation": "**Explanation:** Sales are \\(10\\times2=20\\) dollars; \\(20-12=8\\) dollars remain.\n**Why the other answers are wrong:** B. \\(\\$10\\) — it does not fit because Sales are \\(10\\times2=20\\) dollars; \\(20-12=8\\) dollars remain. C. \\(\\$12\\) — it does not fit because Sales are \\(10\\times2=20\\) dollars; \\(20-12=8\\) dollars remain. D. \\(\\$20\\) — it does not fit because Sales are \\(10\\times2=20\\) dollars; \\(20-12=8\\) dollars remain.\n**Key concept:** producer costs",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A jar has \\($4\\) saved. Each week, \\($2\\) is added for \\(3\\) weeks. How much is saved?",
+    "question": "A jar has \\(\\$4\\) saved. Each week, \\(\\$2\\) is added for \\(3\\) weeks. How much is saved?",
     "options": [
-      "\\($5\\)",
-      "\\($6\\)",
-      "\\($8\\)",
-      "\\($10\\)"
+      "\\(\\$5\\)",
+      "\\(\\$6\\)",
+      "\\(\\$8\\)",
+      "\\(\\$10\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$.\n**Why the other answers are wrong:** A. \\($5\\) — it does not fit because Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$. B. \\($6\\) — it does not fit because Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$. C. \\($8\\) — it does not fit because Three additions of \\($2\\) make \\($6\\); $$4+$6=$10$.\n**Key concept:** saving",
+    "explanation": "**Explanation:** Three additions of \\(\\$2\\) make \\(\\$6\\); \\(\\$4+\\$6=\\$10\\).\n**Why the other answers are wrong:** A. \\(\\$5\\) — it does not fit because Three additions of \\(\\$2\\) make \\(\\$6\\); \\(\\$4+\\$6=\\$10\\). B. \\(\\$6\\) — it does not fit because Three additions of \\(\\$2\\) make \\(\\$6\\); \\(\\$4+\\$6=\\$10\\). C. \\(\\$8\\) — it does not fit because Three additions of \\(\\$2\\) make \\(\\$6\\); \\(\\$4+\\$6=\\$10\\).\n**Key concept:** saving",
     "source": "authored",
     "needsReview": false
   },
@@ -196,6 +196,306 @@
     ],
     "correctIndex": 2,
     "explanation": "**Explanation:** \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\).\n**Why the other answers are wrong:** A. \\(500\\) — it does not fit because \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\). B. \\(600\\) — it does not fit because \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\). D. \\(800\\) — it does not fit because \\(478\\) rounds to \\(500\\) and \\(243\\) rounds to \\(200\\); \\(500+200=700\\).\n**Key concept:** estimation",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q31",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is BEST for measuring the length of a **pencil**?",
+    "options": [
+      "Kilometres",
+      "Centimetres",
+      "Metres",
+      "Litres"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A pencil is short, so centimetres give a useful number. Metres and kilometres are for much longer distances, and litres measure liquid.\n\n**Key concept:** Choosing a unit of length",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q32",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is BEST for measuring the distance between **two cities**?",
+    "options": [
+      "Kilometres",
+      "Centimetres",
+      "Millimetres",
+      "Grams"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Cities are far apart, so kilometres keep the number manageable. Grams measure mass, not distance.\n\n**Key concept:** Choosing a large unit",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q33",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which unit is BEST for measuring how much **water** a bottle holds?",
+    "options": [
+      "Minutes",
+      "Centimetres",
+      "Grams",
+      "Millilitres"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** How much a container holds is its capacity, measured in millilitres or litres.\n\n**Key concept:** Units of capacity",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q34",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student lines up a ruler so that one end of a leaf is at the **0** mark and the other end reaches **9**. How long is the leaf?",
+    "options": [
+      "10 centimetres",
+      "8 centimetres",
+      "9 centimetres",
+      "0 centimetres"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Measuring from the 0 mark means the number at the far end is the length. Starting at 1 instead of 0 is a common mistake.\n\n**Key concept:** Measuring from zero",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q35",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A pencil is 14 cm long and a crayon is 8 cm long. How much **longer** is the pencil?",
+    "options": [
+      "22 cm",
+      "6 cm",
+      "7 cm",
+      "2 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Comparing lengths means subtracting: 14 − 8 = 6 cm.\n\n**Key concept:** Comparing lengths",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q36",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is 30 cm long. Nina cuts off 12 cm. How long is the piece that is left?",
+    "options": [
+      "18 cm",
+      "42 cm",
+      "22 cm",
+      "12 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Taking away 12 from 30 leaves 30 − 12 = 18 cm.\n\n**Key concept:** Subtracting lengths",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q37",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What time is shown when the hour hand is just past the **4** and the minute hand points to the **6**?",
+    "options": [
+      "5:30",
+      "6:04",
+      "4:06",
+      "4:30"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The minute hand on the 6 means 30 minutes, and the hour hand just past the 4 means the hour is 4. The time is 4:30.\n\n**Key concept:** Telling time to the half hour",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q38",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What time is shown when the hour hand is between **7** and **8** and the minute hand points to the **3**?",
+    "options": [
+      "7:03",
+      "3:07",
+      "7:15",
+      "8:15"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The minute hand on the 3 means 15 minutes past. The hour is the smaller number the hour hand has passed, which is 7.\n\n**Key concept:** Telling time to the quarter hour",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q39",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A film starts at 2:00 p.m. and lasts 45 minutes. When does it end?",
+    "options": [
+      "2:45 a.m.",
+      "2:45 p.m.",
+      "3:45 p.m.",
+      "2:15 p.m."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Adding 45 minutes to 2:00 gives 2:45, and the afternoon marker p.m. does not change.\n\n**Key concept:** Elapsed time in minutes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q40",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Recess starts at 10:20 a.m. and ends at 10:50 a.m. How long is recess?",
+    "options": [
+      "30 minutes",
+      "20 minutes",
+      "50 minutes",
+      "1 hour 30 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** From 10:20 to 10:50 is 50 − 20 = 30 minutes.\n\n**Key concept:** Finding how long something lasts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q41",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the total value of **2 quarters, 1 dime and 3 pennies**?",
+    "options": [
+      "23 cents",
+      "53 cents",
+      "68 cents",
+      "63 cents"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Two quarters are 50 cents, the dime adds 10 to make 60, and three pennies add 3 more: 63 cents.\n\n**Key concept:** Counting coins",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q42",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Leo has 3 dimes and 4 nickels. How much money does he have?",
+    "options": [
+      "70 cents",
+      "34 cents",
+      "50 cents",
+      "35 cents"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Three dimes are 30 cents and four nickels are 20 cents, so 30 + 20 = 50 cents altogether.\n\n**Key concept:** Counting mixed coins",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q43",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Maya has 75 cents and spends 40 cents on a sticker. How much does she have left?",
+    "options": [
+      "115 cents",
+      "35 cents",
+      "45 cents",
+      "25 cents"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Subtract what she spent: 75 − 40 = 35 cents.\n\n**Key concept:** Money subtraction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q44",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tally chart shows favourite fruits.\n\n| Fruit | Tally |\n|---|---|\n| Apple | \\|\\|\\|\\| \\|\\|\\| |\n| Banana | \\|\\|\\|\\| |\n| Grape | \\|\\|\\|\\| \\|\\| |\n\nHow many students chose **apple**?",
+    "options": [
+      "7",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A group of four marks plus three more single marks is 4 + 3 = 7 students.\n\n**Key concept:** Reading a tally chart",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g2_2026-09-04_03-45_q45",
+    "grade": 2,
+    "subject": "math",
+    "sourceSubtopic": "Measurement & Data",
+    "subtopic": "measurement_data",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Using the tally chart above, how many **more** students chose apple than banana?",
+    "options": [
+      "11",
+      "7",
+      "4",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Apple has 7 and banana has 4, so the difference is 7 − 4 = 3 students. \"How many more\" always means subtract.\n\n**Key concept:** \"How many more\" means subtract",
     "source": "authored",
     "needsReview": false
   }

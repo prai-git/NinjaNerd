@@ -198,5 +198,305 @@
     "explanation": "**Explanation:** Fur color is a physical trait that can be inherited from parents. Responding to a whistle is learned through training and experience.\n**Key concept:** Inherited physical traits and learned behaviors have different sources.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q46",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure allows a plant to move water from the soil up to its leaves?",
+    "options": [
+      "The seed",
+      "The flower",
+      "The stem",
+      "The petal"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The stem contains tubes that carry water upward and food downward. Roots take the water in and leaves use it to make food.\n\n**Key concept:** Plant structures and their functions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q47",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the main function of a flower on a plant?",
+    "options": [
+      "To absorb water from the soil",
+      "To make seeds so new plants can grow",
+      "To hold the plant upright",
+      "To store food through the winter"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A flower is a reproductive structure. Pollination in the flower leads to seeds, each able to grow into a new plant.\n\n**Key concept:** Flowers reproduce",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q48",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A duck has webbed feet. How does this structure help it survive?",
+    "options": [
+      "It pushes more water, helping the duck swim",
+      "It helps the duck grip tree branches",
+      "It keeps the duck warm in cold air",
+      "It helps the duck dig in hard soil"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A wide, webbed foot pushes against more water with each stroke. Structures that suit an environment help an animal survive there.\n\n**Key concept:** Structures suit the environment",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q49",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A hawk has sharp, curved talons. What do these structures help it do?",
+    "options": [
+      "Swim in deep water",
+      "Chew tough plant stems",
+      "Dig burrows underground",
+      "Grip and hold the prey it catches"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Talons are gripping structures used to catch and hold prey. A hawk’s beak, not its talons, tears the food.\n\n**Key concept:** Structures for feeding",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q50",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which structure of a cactus most helps it survive in a desert?",
+    "options": [
+      "Shallow roots that stay near the surface only",
+      "Broad, flat leaves that catch rain",
+      "A thick stem that stores water",
+      "A soft outer layer that lets water out easily"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Storing water lets a cactus survive long dry periods, and spines rather than broad leaves reduce water loss.\n\n**Key concept:** Desert adaptations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q51",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a food web, what do the **arrows** show?",
+    "options": [
+      "The order in which the organisms were discovered",
+      "The direction energy moves as one organism is eaten by another",
+      "Which organism is largest",
+      "Where each organism lives"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An arrow always points from the organism being eaten to the one eating it, because that is the direction the energy travels.\n\n**Key concept:** Reading a food web",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q52",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at this food chain.\n\n> algae → water flea → minnow → bass\n\nWhere does the energy in this chain originally come from?",
+    "options": [
+      "The Sun, captured by the algae",
+      "The water flea, which passes it upward",
+      "The bass, which is at the top",
+      "The water in the pond"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Producers such as algae capture sunlight and store it as food. Every consumer above them is using energy that began as sunlight.\n\n**Key concept:** Energy in a food chain starts with the Sun",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q53",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a forest, earthworms and fungi break down fallen leaves. What role do they play?",
+    "options": [
+      "Pollinators, moving pollen between plants",
+      "Producers, making their own food",
+      "Predators, hunting live animals",
+      "Decomposers, returning nutrients to the soil"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Decomposers break down dead material so its nutrients return to the soil, where plants can use them again.\n\n**Key concept:** Decomposers recycle nutrients",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q54",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which organism in a meadow is a **producer**?",
+    "options": [
+      "The fox",
+      "The rabbit",
+      "The wildflowers",
+      "The mushroom"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Producers make their own food using sunlight. The rabbit and fox are consumers, and the mushroom is a decomposer.\n\n**Key concept:** Identifying a producer",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q55",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sequence correctly shows **complete metamorphosis** in a butterfly?",
+    "options": [
+      "egg → pupa → larva → adult",
+      "egg → larva → pupa → adult",
+      "larva → egg → pupa → adult",
+      "egg → adult → larva → pupa"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Complete metamorphosis passes through four distinct stages in that order, with the greatest change happening inside the pupa.\n\n**Key concept:** Complete metamorphosis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q56",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How does the life cycle of a **grasshopper** differ from that of a butterfly?",
+    "options": [
+      "A grasshopper hatches looking like a small adult and has no pupa stage",
+      "A grasshopper does not hatch from an egg",
+      "A grasshopper has two pupa stages instead of one",
+      "A grasshopper never reaches an adult stage"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A grasshopper undergoes incomplete metamorphosis: egg, nymph, adult. The nymph resembles a small adult and there is no pupa.\n\n**Key concept:** Incomplete metamorphosis",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q57",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which trait of a kitten is **inherited** rather than learned?",
+    "options": [
+      "Avoiding a chair it once fell from",
+      "Coming when its name is called",
+      "Using a litter tray",
+      "The pattern of stripes in its fur"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Inherited traits are passed from parents, such as fur pattern. The other three are behaviours the kitten learns from experience or training.\n\n**Key concept:** Inherited vs learned",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q58",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A long drought dries up most of the ponds in an area. What is most likely to happen to the frog population?",
+    "options": [
+      "It will stay exactly the same, because frogs can live anywhere",
+      "It will increase, because there is less competition for water",
+      "It will decrease, because frogs need water to lay eggs and keep their skin moist",
+      "Frogs will begin eating plants instead of insects"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A habitat change that removes something a species depends on reduces its numbers. Frogs depend on water for reproduction and for their skin.\n\n**Key concept:** Habitat change affects populations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q59",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a pond food web, the number of small fish drops sharply after a disease. What is the most likely effect on the **herons** that eat them?",
+    "options": [
+      "Heron numbers will rise, because there is more space",
+      "Fewer herons will find enough food, so their numbers are likely to fall",
+      "Herons will begin making their own food from sunlight",
+      "Nothing will change, because herons also drink water"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Removing a food source at one level of a web affects every level above it. Herons cannot make their own food, so they must find other prey or decline.\n\n**Key concept:** Change spreads through a food web",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q60",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A non-native plant is introduced to a prairie and spreads quickly, crowding out the native grasses. Why does this threaten the prairie’s animals?",
+    "options": [
+      "Many animals depend on the native grasses for food or shelter, and the new plant may not provide either",
+      "The new plant makes the soil disappear",
+      "Animals cannot live where there are any plants at all",
+      "The new plant produces no oxygen, so animals cannot breathe"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Animals are adapted to the specific plants of their habitat. Replacing those plants removes the food and cover they depend on, even though the area is still covered in green.\n\n**Key concept:** Invasive species disrupt a habitat",
+    "source": "authored",
+    "needsReview": false
   }
 ]

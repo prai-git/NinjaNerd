@@ -158,5 +158,345 @@
     "explanation": "**Explanation:**\n*And* joins two things the writer has, without repeating \"I have\".",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q1",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to make her class laugh with a story about her puppy. Why is she writing?",
+    "options": [
+      "To ask for a snack",
+      "To sell a puppy",
+      "To teach them to read",
+      "To make them laugh"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A funny story is written so other people enjoy it.\n\n**Key concept:** Why we write",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q2",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes a note to ask her mother for a later bedtime. Why is she writing?",
+    "options": [
+      "To draw a picture",
+      "To tell a joke",
+      "To ask for something",
+      "To count to ten"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** When writing asks someone to say yes, the reason for writing is to ask.\n\n**Key concept:** Writing to ask",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q3",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes about her dog for a **friend in her class**. Which sentence fits best?",
+    "options": [
+      "Canine retrieval behaviour is instinctive.",
+      "My dog Bingo can catch a ball in the air.",
+      "The animal performs aerial interception.",
+      "Bingo engages in object acquisition."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Writing for a classmate uses everyday words. The other three use words a first grader would not know.\n\n**Key concept:** Writing for a reader",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q4",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the BEST **first sentence** for a story about a snowy day?",
+    "options": [
+      "I woke up and the whole yard was white.",
+      "This is a story about snow.",
+      "I will tell you about snow now.",
+      "Snow is cold and wet."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A good first sentence starts the story. Saying that a story is coming just makes the reader wait.\n\n**Key concept:** Story beginnings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q5",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word BEST fills the blank?\n\n> First I washed my hands. \\_\\_\\_\\_\\_\\_ I dried them.",
+    "options": [
+      "So",
+      "But",
+      "Or",
+      "Then"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Then* tells what happened next. Order words like *first*, *next* and *last* help a reader follow the steps.\n\n**Key concept:** Order words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q6",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word BEST fills the blank?\n\n> \\_\\_\\_\\_\\_\\_ I put the seed in the cup. Then I added water.",
+    "options": [
+      "Then",
+      "Last",
+      "First",
+      "After that"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *First* names the step that comes at the beginning. The other words all point to a later step.\n\n**Key concept:** The first step",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q7",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence tells about the **last** step in washing a dog?",
+    "options": [
+      "First, I filled the tub with water.",
+      "Last, I dried him with a big towel.",
+      "Next, I rubbed in the soap.",
+      "Then, I rinsed off the soap."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The word *last* names the step at the end. The others use *first*, *next* and *then*.\n\n**Key concept:** The last step",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q8",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: **\"I love the beach.\"** Which sentence tells **more** about that?",
+    "options": [
+      "I like to dig in the warm sand.",
+      "My brother is six years old.",
+      "We have a red car.",
+      "I ate cereal for breakfast."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A sentence that tells more must be about the same idea. The other three change the subject.\n\n**Key concept:** Telling more about an idea",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q9",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentences.\n\n> I have a cat. My cat is grey. **I like pizza.** My cat sleeps on my bed.\n\nWhich sentence does NOT belong?",
+    "options": [
+      "My cat sleeps on my bed.",
+      "I have a cat.",
+      "My cat is grey.",
+      "I like pizza."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** All the sentences should be about the same thing, which here is the cat. Pizza is something different.\n\n**Key concept:** Staying on one idea",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q10",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **most exact** word?",
+    "options": [
+      "The thing was in the tree.",
+      "The bird made a noise in the tree.",
+      "The robin sang in the tree.",
+      "It was in the tree."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Robin* and *sang* tell the reader exactly what happened. *Thing* and *it* tell almost nothing.\n\n**Key concept:** Exact words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q11",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The cake was good.\n\nWhich sentence tells more?",
+    "options": [
+      "The cake was very good.",
+      "The chocolate cake was warm and sweet.",
+      "The cake was really good.",
+      "The cake was good and good."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Telling what kind of cake and how it tasted gives the reader a picture. *Very* and *really* add no new words about the cake.\n\n**Key concept:** Adding detail",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q12",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best puts these two together?\n\n> I have a bat. I have a ball.",
+    "options": [
+      "I have a bat and a ball.",
+      "I have a bat, I have a ball.",
+      "I have a bat and I have a ball and that is all.",
+      "I have a bat. And a ball."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One sentence can name both things with *and*. Saying *I have* twice makes the sentence longer than it needs to be.\n\n**Key concept:** Putting sentences together",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q13",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Before she writes, a student draws a picture of what happens first, next and last. What is she doing?",
+    "options": [
+      "Finishing her story",
+      "Reading a book",
+      "Fixing her spelling",
+      "Planning her story"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Thinking about the order before writing is planning. It helps the story make sense.\n\n**Key concept:** Planning first",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q14",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student has written her story. Now she checks that each sentence starts with a **capital letter**. What is she doing?",
+    "options": [
+      "Planning her story",
+      "Starting a new story",
+      "Fixing her writing",
+      "Drawing a picture"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Checking capital letters and end marks after writing is how a writer fixes her work.\n\n**Key concept:** Fixing writing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q15",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wrote about her birthday party. Which is the BEST **ending**?",
+    "options": [
+      "That is all about my party.",
+      "When everyone went home, I hugged my new teddy bear tight.",
+      "My party was on a Saturday.",
+      "I hope you liked my story."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A good ending leaves the reader with a picture. Saying the story is over does not.\n\n**Key concept:** Story endings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q16",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence **asks** something?",
+    "options": [
+      "Where is my blue hat?",
+      "My blue hat is here.",
+      "I like my blue hat.",
+      "My hat is blue and soft."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A sentence that asks something ends with a question mark. The others tell something.\n\n**Key concept:** Telling and asking",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q17",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student writes: **\"We need a class pet.\"** Which sentence would help someone say yes?",
+    "options": [
+      "I do not want a class pet.",
+      "My aunt has a fish at her house.",
+      "There are lots of animals at the zoo.",
+      "A pet would teach us how to take care of something every day."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** To help someone agree, give a good reason. Talking about other animals or saying the opposite does not help.\n\n**Key concept:** Giving a reason",
+    "source": "authored",
+    "needsReview": false
   }
 ]

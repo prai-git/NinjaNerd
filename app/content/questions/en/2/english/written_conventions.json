@@ -198,5 +198,305 @@
     "explanation": "**Explanation:** A nonfiction source with a bibliography provides researched information Nora can check and name in her report.\n**Key concept:** research sources",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q52",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which end mark belongs at the end of this sentence?\n\n> Where did you put my shoes",
+    "options": [
+      "A question mark (?)",
+      "A period (.)",
+      "An exclamation mark (!)",
+      "A comma (,)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The sentence asks something, so it ends with a question mark.\n\n**Key concept:** End marks: questions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q53",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which end mark belongs at the end of this sentence?\n\n> Look out for that bee",
+    "options": [
+      "No mark at all",
+      "A period (.)",
+      "A question mark (?)",
+      "An exclamation mark (!)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The sentence is a warning shouted quickly, so it takes an exclamation mark. Every sentence needs an end mark.\n\n**Key concept:** End marks: exclamations",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q54",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **capital letters** correctly?",
+    "options": [
+      "On Monday, ravi and i went to Dallas.",
+      "On monday, Ravi and I went to Dallas.",
+      "On Monday, Ravi and I went to Dallas.",
+      "On Monday, Ravi and I went to dallas."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Days of the week, people’s names, city names and the word *I* all begin with capital letters.\n\n**Key concept:** Capital letters",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q55",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence capitalises the **pet’s name** and the **month** correctly?",
+    "options": [
+      "My Dog Pepper hid under the Porch in July.",
+      "My dog Pepper hid under the porch in July.",
+      "My dog pepper hid under the porch in july.",
+      "my dog Pepper hid under the porch in July."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A pet’s name and a month are capitalised, and a sentence starts with a capital. Ordinary words like *dog* and *porch* are not.\n\n**Key concept:** Capitalising names and months",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q56",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **commas** correctly in a list?",
+    "options": [
+      "I packed a hat, a book, and an apple.",
+      "I packed a hat a book, and an apple.",
+      "I packed, a hat, a book, and an apple.",
+      "I packed a hat, a book and, an apple."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Commas go between the things in a list. One does not come right after *packed* or right before *an apple*.\n\n**Key concept:** Commas in a list",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q57",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence writes the **date** correctly?",
+    "options": [
+      "My birthday is June, 9, 2018.",
+      "My birthday is June 9 2018.",
+      "My birthday is june 9, 2018.",
+      "My birthday is June 9, 2018."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A comma goes between the day and the year, and the month begins with a capital letter.\n\n**Key concept:** Commas in dates",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q58",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses an **apostrophe** correctly?",
+    "options": [
+      "We ca’nt reach the top shelf.",
+      "We cant’ reach the top shelf.",
+      "We can’t reach the top shelf.",
+      "We cant reach the top shelf."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** In *can’t*, the apostrophe takes the place of the missing letters in *cannot*.\n\n**Key concept:** Apostrophes in contractions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q59",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence shows that the book belongs to **one** boy?",
+    "options": [
+      "The boys book was on the desk.",
+      "The boy’s book was on the desk.",
+      "The boys’ book was on the desk.",
+      "The boy’s’ book was on the desk."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** For one owner, add an apostrophe and *s*: *boy’s*. Putting the apostrophe after the *s* would mean more than one boy.\n\n**Key concept:** Showing that something belongs to one person",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q60",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates the spoken words correctly?",
+    "options": [
+      "\"I found it!\" shouted Nia.",
+      "I found it! \"shouted Nia.\"",
+      "\"I found it\" shouted Nia!",
+      "\"I found it!\" Shouted Nia."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Quotation marks go around only the words spoken, and the exclamation mark stays inside them. *Shouted* does not need a capital letter.\n\n**Key concept:** Quotation marks",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q61",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "saide",
+      "sed",
+      "sayd",
+      "said"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Said* is a word to remember rather than sound out, because the letters *ai* make a short *e* sound.\n\n**Key concept:** Spelling common words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q62",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which spelling is correct?",
+    "options": [
+      "ther",
+      "thier",
+      "their",
+      "theyr"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Their* is spelled t-h-e-i-r, with *ei* in the middle.\n\n**Key concept:** Spelling their",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q63",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct spelling when **-ing** is added to *hop*?",
+    "options": [
+      "hoping",
+      "hopping",
+      "hopin",
+      "hopeing"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** For a short word ending in one vowel and one consonant, double the consonant: *hop/hopping*. *Hoping* comes from *hope*, a different word.\n\n**Key concept:** Doubling before -ing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q64",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct spelling when **-ed** is added to *smile*?",
+    "options": [
+      "smiled",
+      "smileed",
+      "smilled",
+      "smild"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** When a word ends in a silent *e*, drop the *e* before adding *-ed*: *smile/smiled*.\n\n**Key concept:** Dropping a silent e",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q65",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word correctly completes the sentence?\n\n> The cat licked \\_\\_\\_\\_\\_\\_ paw.",
+    "options": [
+      "it is",
+      "it’s",
+      "its’",
+      "its"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Its* shows that the paw belongs to the cat. *It’s* means *it is*, which would not make sense here.\n\n**Key concept:** its and it’s",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g2_2026-09-04_03-30_q66",
+    "grade": 2,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Which sentence needs a **capital letter** and an **end mark** added?",
+    "options": [
+      "Did we walk home in the rain?",
+      "We walked home in the rain.",
+      "we walked home in the rain",
+      "We walked home in the rain!"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Every sentence begins with a capital letter and ends with a mark. The first option is missing both.\n\n**Key concept:** Every sentence needs both",
+    "source": "authored",
+    "needsReview": false
   }
 ]

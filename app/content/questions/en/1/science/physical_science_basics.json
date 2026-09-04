@@ -298,5 +298,205 @@
     "explanation": "**Explanation:** An adult can use an oven safely to apply heat in cooking.\n**Why the other answers are wrong:** B, C, and D are unsafe uses of heat.\n**Key concept:** Everyday applications and safety of heat.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q1",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which words tell about the **colour and shape** of an object?",
+    "options": [
+      "Old and new",
+      "Loud and fast",
+      "Warm and sunny",
+      "Red and round"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Colour and shape are properties you can see. *Red* is a colour and *round* is a shape.\n\n**Key concept:** Describing objects",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q2",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sense do you use to find out if a rock feels **rough or smooth**?",
+    "options": [
+      "Hearing",
+      "Sight",
+      "Touch",
+      "Smell"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Touching tells you how something feels. Your eyes can guess, but touching makes sure.\n\n**Key concept:** Using your senses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q3",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student sorts blocks into two groups: **big** blocks and **small** blocks. What is she sorting by?",
+    "options": [
+      "Colour",
+      "Size",
+      "Sound",
+      "Smell"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Big and small describe size. Sorting means putting things together that share a property.\n\n**Key concept:** Sorting by size",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q4",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group has only things that are **soft**?",
+    "options": [
+      "A pillow, a teddy bear and a wool sock",
+      "A rock, a spoon and a brick",
+      "A pillow, a rock and a spoon",
+      "A brick, a teddy bear and a nail"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Soft things squash when you press them. Rocks, spoons, bricks and nails are hard.\n\n**Key concept:** Sorting by how things feel",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q5",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object would **float** in a bowl of water?",
+    "options": [
+      "A coin",
+      "A metal key",
+      "A rock",
+      "A cork"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Some things float and some sink. A cork is light for its size, so it stays on top.\n\n**Key concept:** Floating and sinking",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q6",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object would **sink** in a bowl of water?",
+    "options": [
+      "A plastic lid",
+      "A leaf",
+      "A marble",
+      "A feather"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A marble is heavy for its size, so it goes to the bottom.\n\n**Key concept:** Sinking",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q7",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball of clay is squashed flat. What is true about the clay?",
+    "options": [
+      "It has turned into a new thing",
+      "It is still clay",
+      "There is less clay than before",
+      "It has turned into water"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Changing the shape does not change what something is made of.\n\n**Key concept:** Changing shape",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q8",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Water is poured from a tall glass into a wide bowl. What happens?",
+    "options": [
+      "The water changes shape to fit the bowl",
+      "The water turns into ice",
+      "There is more water than before",
+      "The water disappears"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A liquid takes the shape of whatever holds it, but the amount stays the same.\n\n**Key concept:** Liquids take the shape of the container",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q9",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wet paper towel is left on a warm windowsill. Later it feels dry. Where did the water go?",
+    "options": [
+      "It was never there",
+      "It soaked into the glass",
+      "It turned into ice",
+      "It went into the air"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The Sun’s heat changed the water into a gas that spread into the air, where you cannot see it.\n\n**Key concept:** Water can go into the air",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q10",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student wants to find out which of two coats is **warmer**. What is the best way to find out?",
+    "options": [
+      "See which coat is longer",
+      "Look at which coat is a brighter colour",
+      "Wear each coat outside on a cold day and see which one keeps her warmer",
+      "Count the buttons on each coat"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** To learn about a property you have to test it. Colour, length and buttons do not tell you how warm a coat is.\n\n**Key concept:** Testing a property",
+    "source": "authored",
+    "needsReview": false
   }
 ]

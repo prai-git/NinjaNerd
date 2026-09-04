@@ -127,7 +127,7 @@
     "subtopic": "financial_literacy",
     "passage": null,
     "passageTitle": null,
-    "question": "Zoe has \\(5. A notebook costs \\)3, and a snack costs $4. Which choice stays within Zoe's $5?",
+    "question": "Zoe has $5. A notebook costs $3, and a snack costs $4. Which choice stays within Zoe's $5?",
     "options": [
       "buy both items",
       "buy the notebook only",
@@ -155,7 +155,347 @@
       "Give away $10."
     ],
     "correctIndex": 1,
-    "explanation": "**Work:** \\(2+\\)4=\\(6\\), so the whole amount is planned.\n**Key concept:** Saving and planning spending.",
+    "explanation": "**Work:** $2+$4=\\(6\\), so the whole amount is planned.\n**Key concept:** Saving and planning spending.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q9",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which coin is worth **1 cent**?",
+    "options": [
+      "A quarter",
+      "A nickel",
+      "A dime",
+      "A penny"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A penny is worth 1 cent. A nickel is 5, a dime is 10 and a quarter is 25.\n\n**Key concept:** The penny",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q10",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which coin is worth **5 cents**?",
+    "options": [
+      "A dime",
+      "A penny",
+      "A nickel",
+      "A quarter"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A nickel is worth 5 cents, which is the same as five pennies.\n\n**Key concept:** The nickel",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q11",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which coin is worth **25 cents**?",
+    "options": [
+      "A penny",
+      "A quarter",
+      "A nickel",
+      "A dime"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A quarter is worth 25 cents, the most of these four coins.\n\n**Key concept:** The quarter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q12",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which coin is worth the **most**?",
+    "options": [
+      "A quarter",
+      "A penny",
+      "A nickel",
+      "A dime"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A quarter is 25 cents, a dime is 10, a nickel is 5 and a penny is 1. So the quarter is worth the most.\n\n**Key concept:** Comparing coin values",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q13",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How much are **2 nickels** worth altogether?",
+    "options": [
+      "25 cents",
+      "2 cents",
+      "7 cents",
+      "10 cents"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each nickel is 5 cents, so 5 + 5 = 10 cents.\n\n**Key concept:** Counting nickels",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q14",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How much are **3 dimes** worth altogether?",
+    "options": [
+      "13 cents",
+      "3 cents",
+      "30 cents",
+      "15 cents"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each dime is 10 cents, so count by tens: 10, 20, 30 cents.\n\n**Key concept:** Counting dimes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q15",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How much are **4 pennies and 1 dime** worth altogether?",
+    "options": [
+      "5 cents",
+      "14 cents",
+      "41 cents",
+      "11 cents"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The dime is 10 cents and the four pennies are 4 cents, so 10 + 4 = 14 cents.\n\n**Key concept:** Counting mixed coins",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q16",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How much are **1 quarter and 2 pennies** worth altogether?",
+    "options": [
+      "27 cents",
+      "3 cents",
+      "25 cents",
+      "45 cents"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The quarter is 25 cents and two pennies add 2 more, so 25 + 2 = 27 cents.\n\n**Key concept:** Adding to a quarter",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q17",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is worth **more**: 1 dime or 6 pennies?",
+    "options": [
+      "Neither is worth anything",
+      "The 6 pennies, because 6 coins is more than 1 coin",
+      "They are the same",
+      "The dime, because 10 cents is more than 6 cents"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** What matters is the value, not how many coins there are. One dime is 10 cents and six pennies are 6 cents.\n\n**Key concept:** More coins is not always more money",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q18",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is worth **more**: 2 dimes or 1 quarter?",
+    "options": [
+      "They are the same",
+      "The 2 dimes, because there are two coins",
+      "The quarter, because 25 cents is more than 20 cents",
+      "Neither is money"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Two dimes are 10 + 10 = 20 cents. A quarter is 25 cents, so the quarter is worth more.\n\n**Key concept:** Comparing amounts of money",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q19",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **want** rather than a need?",
+    "options": [
+      "Food to eat",
+      "A new toy car",
+      "Water to drink",
+      "A coat in winter"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A need is something you must have to stay healthy and safe. A want is something nice to have but not necessary.\n\n**Key concept:** Needs and wants",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q20",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **need**?",
+    "options": [
+      "A place to live",
+      "A video game",
+      "A bag of sweets",
+      "A balloon"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A place to live keeps a person safe and dry, so it is a need. The others are wants.\n\n**Key concept:** Needs come first",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q21",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Ben has 12 cents. He wants a sticker that costs 20 cents. What is the BEST thing to do?",
+    "options": [
+      "Spend the 12 cents on nothing",
+      "Take the sticker without paying",
+      "Ask for two stickers instead",
+      "Save more money until he has 20 cents"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** When you do not have enough, saving until you do is the right choice.\n\n**Key concept:** Saving toward a goal",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q22",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Mia gets 5 cents each day for helping. How much will she have after 4 days?",
+    "options": [
+      "15 cents",
+      "9 cents",
+      "20 cents",
+      "25 cents"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Count by fives for four days: 5, 10, 15, 20 cents.\n\n**Key concept:** Saving a little each day",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q23",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What does it mean to **save** money?",
+    "options": [
+      "To spend it all right away",
+      "To keep it now so you can use it later",
+      "To give it all away",
+      "To lose it"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Saving means putting money aside instead of spending it, so you have it for something later.\n\n**Key concept:** What saving means",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q24",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Leo borrows 10 cents from his sister. What should he do?",
+    "options": [
+      "Give her 10 cents back",
+      "Keep the money",
+      "Give her 1 cent back",
+      "Borrow 10 cents more"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** When you borrow money you have to pay it back. That is what borrowing means.\n\n**Key concept:** Borrowing and paying back",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q25",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Financial Literacy",
+    "subtopic": "financial_literacy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Sara has 30 cents. She wants a 25-cent pencil and a 10-cent eraser. What can she do?",
+    "options": [
+      "Buy the eraser three times",
+      "Buy both, because 30 cents is enough",
+      "Buy neither, because 30 cents is not money",
+      "Buy the pencil now and save for the eraser"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The two things cost 25 + 10 = 35 cents, which is more than 30. She can afford one now and save the rest.\n\n**Key concept:** Deciding when you cannot buy both",
     "source": "authored",
     "needsReview": false
   }

@@ -238,5 +238,265 @@
     "explanation": "",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q3",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the correct verb to agree with its subject?",
+    "options": [
+      "The box of nails sit on the workbench.",
+      "The box of nails sits on the workbench.",
+      "The boxes of nails sits on the workbench.",
+      "The box of nail sit on the workbench."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The subject is *box*, which is singular, so the verb is *sits*. *Of nails* is a phrase describing the box and does not change the subject.\n\n**Key concept:** Subject-verb agreement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q4",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence keeps the verb tense consistent?",
+    "options": [
+      "Nina opened the window and listened to the rain.",
+      "Nina opened the window and listens to the rain.",
+      "Nina opens the window and listened to the rain.",
+      "Nina will open the window and listened to the rain."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Both actions happen at the same time, so both verbs stay in the past: *opened* and *listened*. Mixing tenses in one sentence confuses when things happened.\n\n**Key concept:** Keep verb tense consistent",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q5",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> Every player brought \\_\\_\\_\\_\\_\\_ own water bottle.\n\nWhich pronoun correctly completes the sentence?",
+    "options": [
+      "them",
+      "their",
+      "they",
+      "his or her"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Every player* is singular, so the pronoun must be singular: *his or her*. In formal written English a singular subject takes a singular pronoun.\n\n**Key concept:** Pronoun-antecedent agreement",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q6",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is written correctly?",
+    "options": [
+      "I didn’t see nobody in the hallway.",
+      "I did not see no one in the hallway.",
+      "I did not see anyone in the hallway.",
+      "I never saw no one in the hallway."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Only one negative word belongs in a sentence. *Did not see no one* is a double negative, which literally says the opposite of what is meant.\n\n**Key concept:** Avoid double negatives",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q7",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses capital letters correctly?",
+    "options": [
+      "In august we drove West to visit aunt Rosa in Denver.",
+      "In August we drove west to visit Aunt Rosa in Denver.",
+      "In August we drove West to visit Aunt Rosa in denver.",
+      "in August we drove west to visit aunt rosa in Denver."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Months (*August*), a title used with a name (*Aunt Rosa*) and cities (*Denver*) are capitalised. A direction like *west* is not capitalised unless it names a region.\n\n**Key concept:** Capitalisation rules",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q8",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence punctuates the dialogue correctly?",
+    "options": [
+      "\"Wait for me,\" called Theo, \"I forgot my coat.\"",
+      "\"Wait for me\" called Theo, \"I forgot my coat.\"",
+      "\"Wait for me,\" called Theo \"I forgot my coat\".",
+      "Wait for me, \"called Theo, I forgot my coat.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A comma ends the spoken part before the speaker tag, and the quotation marks go around only the spoken words, with the final punctuation inside them.\n\n**Key concept:** Punctuating dialogue",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q9",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> The bell rang the students hurried to class.\n\nWhat is wrong with this sentence, and how should it be fixed?",
+    "options": [
+      "Nothing is wrong with it",
+      "It is a fragment; it needs a subject",
+      "It has the wrong verb tense; *rang* should be *rings*",
+      "It is a run-on; it needs a period or a conjunction: \"The bell rang, and the students hurried to class.\""
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Two complete thoughts are joined with no punctuation, which is a run-on. Separating them with a period, or joining them with a comma and *and*, fixes it.\n\n**Key concept:** Fixing a run-on sentence",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q10",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the plural possessive correctly?",
+    "options": [
+      "The girls lockers’ are at the end of the hall.",
+      "The girl’s lockers are at the end of the hall, and all six of them fit.",
+      "The girls’ lockers are at the end of the hall.",
+      "The girls’s lockers are at the end of the hall."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** For a plural noun already ending in *s*, the apostrophe goes after the *s*: *girls’*. The apostrophe attaches to the owner, not to the thing owned.\n\n**Key concept:** Plural possessives",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q11",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **its** and **it’s** correctly?",
+    "options": [
+      "Its clear that the puppy has lost it’s collar.",
+      "It’s clear that the puppy has lost its collar.",
+      "It’s clear that the puppy has lost it’s collar.",
+      "Its’ clear that the puppy has lost its collar."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *It’s* is short for *it is*, and *its* shows possession. The sentence means \"It is clear... has lost the collar belonging to it.\"\n\n**Key concept:** its vs it’s",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q12",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **there**, **their** and **they’re** correctly?",
+    "options": [
+      "They’re leaving their bikes over there by the fence.",
+      "Their leaving there bikes over they’re by the fence.",
+      "There leaving their bikes over they’re by the fence.",
+      "They’re leaving there bikes over their by the fence."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *They’re* means \"they are,\" *their* shows possession, and *there* names a place. Each word appears once in that order in the correct sentence.\n\n**Key concept:** there, their, they’re",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q13",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses a comma correctly in a list?",
+    "options": [
+      "We packed apples, cheese bread, and water, for the hike.",
+      "We packed apples cheese, bread and water for the hike.",
+      "We packed, apples, cheese, bread and water for the hike.",
+      "We packed apples, cheese, bread, and water for the hike."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Commas separate the items in a list and do not come before the first item or after the last one.\n\n**Key concept:** Commas in a series",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q14",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> Because the road was closed.\n\nWhy is this **not** a complete sentence?",
+    "options": [
+      "It has no subject",
+      "It has no verb",
+      "It begins with *because*, which makes it a dependent clause with no main idea attached",
+      "It is too short to be a sentence"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The group has a subject (*the road*) and a verb (*was closed*), but *because* makes it depend on another clause: \"Because the road was closed, we took the bridge.\"\n\n**Key concept:** Fragments from dependent clauses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q15",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Which sentence correctly punctuates a title?",
+    "options": [
+      "Our class read the poem *Stopping by Woods* from the book \"Winter Verses\".",
+      "Our class read the poem \"Stopping by Woods\" from the book *Winter Verses*.",
+      "Our class read the poem Stopping by Woods from the book Winter Verses.",
+      "Our class read the poem \"Stopping by Woods\" from the book \"Winter Verses\"."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A short work such as a poem takes quotation marks, and a long work such as a book is italicised. Mixing them up, or using neither, hides which is which.\n\n**Key concept:** Titles: quotation marks vs italics",
+    "source": "authored",
+    "needsReview": false
   }
 ]

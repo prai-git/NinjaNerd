@@ -7,7 +7,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Money Problem\nRyan bought 3 notebooks at $2.45 each and 2 pens at $1.30 each. He paid with a $20 bill. How much change should Ryan receive?",
+    "question": "Ryan bought 3 notebooks at $2.45 each and 2 pens at $1.30 each. He paid with a $20 bill. How much change should Ryan receive?",
     "options": [
       "$9.95",
       "$10.05",
@@ -15,7 +15,7 @@
       "$11.05"
     ],
     "correctIndex": 1,
-    "explanation": "Notebooks cost 3 × \\(2.45 = \\)7.35 and pens cost 2 × \\(1.30 = \\)2.60; total spent = \\(9.95, so change is \\)20.00 − \\(9.95 = \\)10.05.",
+    "explanation": "Notebooks cost 3 × $2.45 = $7.35 and pens cost 2 × $1.30 = $2.60; total spent = $9.95, so change is $20.00 − $9.95 = $10.05.",
     "source": "authored",
     "needsReview": false
   },
@@ -27,7 +27,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Word Problem\nA school ordered 8 boxes of markers. Each box holds 24 markers. The markers will be shared equally among 6 classrooms. How many markers will each classroom receive?",
+    "question": "A school ordered 8 boxes of markers. Each box holds 24 markers. The markers will be shared equally among 6 classrooms. How many markers will each classroom receive?",
     "options": [
       "28",
       "30",
@@ -47,7 +47,7 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "— Multi-Step Real-World Problem [R]\nA school is planning a field trip. They need to rent **3 vans at $75 each** and **2 buses at $185 each**. The school will pay for **60%** of the total cost. The remaining cost is split **equally among 35 students**. How much does **each student** pay?",
+    "question": "A school is planning a field trip. They need to rent **3 vans at $75 each** and **2 buses at $185 each**. The school will pay for **60%** of the total cost. The remaining cost is split **equally among 35 students**. How much does **each student** pay?",
     "options": [
       "$5.10",
       "$6.80",
@@ -55,7 +55,447 @@
       "$17.00"
     ],
     "correctIndex": 1,
-    "explanation": "**Step-by-step:**\nStep 1 — Total cost of transportation:\n- 3 vans × \\(75 = \\)225\n- 2 buses × \\(185 = \\)370\n- Total = \\(225 + \\)370 = **$595**\n\nStep 2 — Amount school pays (60%):\n- 0.60 × \\(595 = **\\)357**\n\nStep 3 — Amount students pay (remaining 40%):\n- \\(595 − \\)357 = **$238**\n\nStep 4 — Cost per student (÷ 35 students):\n- \\(238 ÷ 35 = **\\)6.80**\n\n**Verification:** \\(6.80 × 35 = \\)238; \\(238 + \\)357 = $595 ✓",
+    "explanation": "**Step-by-step:**\nStep 1 — Total cost of transportation:\n- 3 vans × $75 = $225\n- 2 buses × $185 = $370\n- Total = $225 + $370 = **$595**\n\nStep 2 — Amount school pays (60%):\n- 0.60 × $595 = **$357**\n\nStep 3 — Amount students pay (remaining 40%):\n- $595 − $357 = **$238**\n\nStep 4 — Cost per student (÷ 35 students):\n- $238 ÷ 35 = **$6.80**\n\n**Verification:** $6.80 × 35 = $238; $238 + $357 = $595 ✓",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q1",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bakery makes 156 muffins each day. How many muffins does it make in 7 days?",
+    "options": [
+      "912",
+      "1,062",
+      "1,022",
+      "1,092"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 156 × 7 = 1,092 muffins.\n\n**Key concept:** Multiplication in context",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q2",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A club of 234 students is divided into teams of 9. How many teams are formed?",
+    "options": [
+      "27 teams",
+      "24 teams",
+      "26 teams",
+      "25 teams"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 234 ÷ 9 = 26 teams, with no students left over.\n\n**Key concept:** Division in context",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q3",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A theatre has 32 rows with 28 seats in each row. If 745 tickets are sold, how many seats are empty?",
+    "options": [
+      "896",
+      "151",
+      "161",
+      "745"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** First find the total seats: 32 × 28 = 896. Then subtract the tickets sold: 896 − 745 = 151 empty seats.\n\n**Key concept:** Two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q4",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A school needs to move 500 students in buses that each hold 48 students. How many buses are needed?",
+    "options": [
+      "11 buses",
+      "10 buses",
+      "12 buses",
+      "48 buses"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 500 ÷ 48 = 10 remainder 20. Ten buses leave 20 students behind, so an eleventh bus is needed.\n\n**Key concept:** Interpret the remainder",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q5",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A warehouse packs 1,344 cans into cases of 24. How many full cases does it pack?",
+    "options": [
+      "64 cases",
+      "54 cases",
+      "58 cases",
+      "56 cases"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 1,344 ÷ 24 = 56 cases exactly.\n\n**Key concept:** Division with larger numbers",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q6",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rectangular garden measures 14 m by 9 m. A fence is put all the way around it. How many metres of fencing are needed?",
+    "options": [
+      "23 m",
+      "126 m",
+      "46 m",
+      "32 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Perimeter adds all four sides: 14 + 9 + 14 + 9 = 46 m. Multiplying the sides would give the area instead.\n\n**Key concept:** Perimeter in context",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q7",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A classroom floor is a rectangle 8 m long and 6 m wide. Tiles cover the whole floor. What area do the tiles cover?",
+    "options": [
+      "28 square metres",
+      "48 square metres",
+      "14 square metres",
+      "96 square metres"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Area of a rectangle is length × width: 8 × 6 = 48 square metres.\n\n**Key concept:** Area in context",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q8",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A storage box is a rectangular prism 5 cm by 4 cm by 3 cm. What is its volume?",
+    "options": [
+      "60 cubic centimetres",
+      "12 cubic centimetres",
+      "24 cubic centimetres",
+      "20 cubic centimetres"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Volume of a rectangular prism is length × width × height: 5 × 4 × 3 = 60 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q9",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A charity collects 2,865 tins in March and 1,978 tins in April. It then gives 3,500 tins to a food bank. How many tins does it still have?",
+    "options": [
+      "887",
+      "1,443",
+      "4,843",
+      "1,343"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Add the two months first: 2,865 + 1,978 = 4,843 tins. Then subtract what was given away: 4,843 − 3,500 = 1,343 tins.\n\n**Key concept:** Add before subtracting in a two-step problem",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q10",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A printer prints 24 pages every minute. How many pages does it print in 15 minutes?",
+    "options": [
+      "39 pages",
+      "240 pages",
+      "360 pages",
+      "300 pages"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** 24 × 15 = 360 pages.\n\n**Key concept:** Rate over time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q11",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Six identical notebooks cost $13.50 in total. What does one notebook cost?",
+    "options": [
+      "$2.50",
+      "$2.25",
+      "$7.50",
+      "$2.05"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Divide the total by the number of notebooks: 13.50 ÷ 6 = 2.25, so one notebook costs $2.25.\n\n**Key concept:** Unit rate from a total",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q12",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A car travels 245 kilometres on 5 litres of fuel. How far does it travel on 1 litre, at the same rate?",
+    "options": [
+      "49 km",
+      "50 km",
+      "48 km",
+      "1,225 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 245 ÷ 5 = 49 kilometres for each litre.\n\n**Key concept:** Unit rate",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q13",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A film starts at 3:45 p.m. and lasts 1 hour 50 minutes. At what time does it end?",
+    "options": [
+      "5:95 p.m.",
+      "5:25 p.m.",
+      "4:35 p.m.",
+      "5:35 p.m."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** From 3:45 p.m., one hour later is 4:45 p.m., and 50 minutes more is 5:35 p.m. There is no such time as 5:95.\n\n**Key concept:** Elapsed time",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q14",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A swimmer trains from 6:20 a.m. until 8:05 a.m. How long does she train?",
+    "options": [
+      "1 hour 85 minutes",
+      "2 hours 45 minutes",
+      "1 hour 45 minutes",
+      "1 hour 15 minutes"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** From 6:20 to 8:20 would be two hours, but she stops 15 minutes earlier, at 8:05, so the time is 1 hour 45 minutes.\n\n**Key concept:** Elapsed time backwards",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q15",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A recipe needs 2 litres of milk. How many millilitres is that?",
+    "options": [
+      "200 mL",
+      "2,000 mL",
+      "20 mL",
+      "20,000 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** There are 1,000 millilitres in one litre, so 2 × 1,000 = 2,000 mL.\n\n**Key concept:** Capacity conversion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q16",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A parcel has a mass of 3.5 kilograms. What is its mass in grams?",
+    "options": [
+      "3,500 g",
+      "350 g",
+      "35 g",
+      "35,000 g"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** One kilogram is 1,000 grams, so 3.5 × 1,000 = 3,500 g.\n\n**Key concept:** Mass conversion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q17",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ribbon is 4 metres long. Ana cuts off 135 centimetres. How much ribbon is left, in centimetres?",
+    "options": [
+      "275 cm",
+      "131 cm",
+      "365 cm",
+      "265 cm"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Convert to the same unit first: 4 m = 400 cm. Then 400 − 135 = 265 cm remain.\n\n**Key concept:** Convert before subtracting",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q18",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Lena reads \\(\\frac{1}{4}\\) of a book on Monday and \\(\\frac{3}{8}\\) of it on Tuesday. What fraction of the book has she read?",
+    "options": [
+      "\\(\\frac{1}{2}\\)",
+      "\\(\\frac{4}{12}\\)",
+      "\\(\\frac{5}{8}\\)",
+      "\\(\\frac{3}{32}\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Rewrite with a common denominator: \\(\\frac{1}{4} = \\frac{2}{8}\\). Then \\(\\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}\\) of the book.\n\n**Key concept:** Add fractions with unlike denominators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q19",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A jug holds \\(\\frac{7}{8}\\) of a litre. Marco pours out \\(\\frac{1}{2}\\) of a litre. How much is left?",
+    "options": [
+      "\\(\\frac{6}{6}\\) of a litre",
+      "\\(\\frac{3}{8}\\) of a litre",
+      "\\(\\frac{1}{4}\\) of a litre",
+      "\\(\\frac{7}{16}\\) of a litre"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Rewrite \\(\\frac{1}{2}\\) as \\(\\frac{4}{8}\\), then \\(\\frac{7}{8} - \\frac{4}{8} = \\frac{3}{8}\\) of a litre.\n\n**Key concept:** Subtract fractions with unlike denominators",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q20",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A plank is 2.4 metres long. Six planks are laid end to end. What is the total length?",
+    "options": [
+      "14.4 m",
+      "12.4 m",
+      "8.4 m",
+      "1.44 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** 2.4 × 6 = 14.4 metres.\n\n**Key concept:** Multiply a decimal by a whole number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q21",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Four friends share a bill of $27.60 equally. How much does each pay?",
+    "options": [
+      "$23.60",
+      "$6.15",
+      "$7.90",
+      "$6.90"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** 27.60 ÷ 4 = 6.90, so each friend pays $6.90.\n\n**Key concept:** Divide a decimal by a whole number",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g5_2026-09-04_01-45_q22",
+    "grade": 5,
+    "subject": "math",
+    "sourceSubtopic": "Problem Solving & Applications",
+    "subtopic": "problem_solving_applications",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A shop buys 15 crates of oranges at $8 a crate and sells all the oranges for $186. What is the shop’s profit?",
+    "options": [
+      "$306",
+      "$120",
+      "$66",
+      "$56"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The cost is 15 × 8 = 120 dollars. The profit is what is left after the cost: 186 − 120 = 66, so $66.\n\n**Key concept:** Profit is revenue minus cost",
     "source": "authored",
     "needsReview": false
   }

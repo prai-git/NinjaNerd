@@ -218,5 +218,285 @@
     "explanation": "**Explanation:** Wings are structures many birds use for flying.\n**Why the other answers are wrong:** B, C, and D pair structures with impossible functions.\n**Key concept:** Structure and function.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q34",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **living** thing?",
+    "options": [
+      "A pencil",
+      "A rock",
+      "A tree",
+      "A cup"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Living things grow, need food, water and air, and can make more of their own kind. A rock, a pencil and a cup do not.\n\n**Key concept:** Living and nonliving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q35",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "How can you tell that a puppy is a **living** thing?",
+    "options": [
+      "It is soft to touch",
+      "It grows, eats and needs water",
+      "It is small",
+      "It has four legs"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Growing, eating and needing water are things only living things do. A soft toy is soft and small but not living.\n\n**Key concept:** What living things do",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q36",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which THREE things does a plant need to grow?",
+    "options": [
+      "Water, light and air",
+      "Water, milk and light",
+      "Sugar, air and shade",
+      "Meat, water and darkness"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A plant makes its own food using water, air and light. It does not eat the way animals do.\n\n**Key concept:** What plants need",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q37",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What do animals need that plants do **not**?",
+    "options": [
+      "A place to live",
+      "Water",
+      "Air",
+      "Food to eat, because they cannot make their own"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Plants make their own food using light. Animals must find food. Both need water, air and somewhere to live.\n\n**Key concept:** What animals need",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q38",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which part of a plant takes in water from the soil?",
+    "options": [
+      "The leaf",
+      "The flower",
+      "The roots",
+      "The stem"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Roots grow down into the soil and take in water. They also hold the plant in place.\n\n**Key concept:** Roots take in water",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q39",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which part of a plant makes the seeds?",
+    "options": [
+      "The root",
+      "The flower",
+      "The stem",
+      "The leaf"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Seeds grow in the flower. Each seed can grow into a new plant.\n\n**Key concept:** Flowers make seeds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q40",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which part of a plant holds it up?",
+    "options": [
+      "The stem",
+      "The root",
+      "The flower",
+      "The seed"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The stem holds the plant up and carries water from the roots to the leaves.\n\n**Key concept:** The stem holds the plant up",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q41",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which body part helps a bird **fly**?",
+    "options": [
+      "Its eyes",
+      "Its beak",
+      "Its feet",
+      "Its wings"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Wings push against the air to lift a bird up. Its beak is for eating and its feet for standing or gripping.\n\n**Key concept:** Body parts for moving",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q42",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which body part helps a rabbit **hear** a fox coming?",
+    "options": [
+      "Its nose",
+      "Its tail",
+      "Its long ears",
+      "Its front teeth"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Long ears collect sounds, which helps a rabbit hear danger early and run away.\n\n**Key concept:** Body parts for staying safe",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q43",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which body part helps an elephant pick up food?",
+    "options": [
+      "Its ears",
+      "Its trunk",
+      "Its tail",
+      "Its knees"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An elephant’s trunk can grip and lift, which is how it picks up food and water.\n\n**Key concept:** Body parts for eating",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q44",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A baby duck grows into a duck, not a dog. What does this show?",
+    "options": [
+      "Young animals grow up to be like their parents",
+      "Animals can change into other animals",
+      "Baby animals never grow",
+      "Ducks and dogs are the same"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Young animals grow up to look like the adults they came from, because traits are passed from parents.\n\n**Key concept:** Young grow up like their parents",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q45",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which baby animal is matched **correctly** with its parent?",
+    "options": [
+      "A puppy grows up to be a horse",
+      "A kitten grows up to be a dog",
+      "A chick grows up to be a fish",
+      "A calf grows up to be a cow"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Each young animal grows into the same kind of animal as its parents. A calf becomes a cow, a kitten a cat and a chick a hen.\n\n**Key concept:** Matching young and adult animals",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q46",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where does a **bird** most often build its home?",
+    "options": [
+      "Inside a rock",
+      "Under the water",
+      "In a nest in a tree or on a ledge",
+      "In a hole in the road"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Birds build nests in safe, high places where eggs and chicks are hard for other animals to reach.\n\n**Key concept:** Animal homes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q47",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Life Science Fundamentals",
+    "subtopic": "life_science_fundamentals",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** All the trees are cut down in a wood where squirrels live. Why is this hard for the squirrels?",
+    "options": [
+      "They will grow bigger without trees",
+      "They lose the place where they find food and stay safe",
+      "Squirrels do not use trees at all",
+      "They will learn to swim instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An animal’s home gives it food and shelter. Taking the trees away takes both, so the squirrels must move or struggle.\n\n**Key concept:** Changing a habitat",
+    "source": "authored",
+    "needsReview": false
   }
 ]

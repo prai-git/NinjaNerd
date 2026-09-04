@@ -136,7 +136,34 @@ for (const it of items) {
   const open = (all.match(/\\\(/g) || []).length;
   const close = (all.match(/\\\)/g) || []).length;
   if (open !== close) add('unbalanced-math', it, `${open} \\( vs ${close} \\)`);
-  if (all.includes('\\$')) add('escaped-dollar', it, 'literal \\$ would render a backslash');
+  // `\$` is required INSIDE a maths span (a bare `$` there is a KaTeX parse error that renders
+  // the expression in red) and wrong outside it, where the backslash would show. 2026-09-03.
+  const outsideMath = all.replace(/\\\([\s\S]*?\\\)|\$\$[\s\S]*?\$\$/g, ' ');
+  if (outsideMath.includes('\\$')) add('escaped-dollar', it, 'literal \\$ would render a backslash');
+  for (const span of all.match(/\\\([\s\S]*?\\\)/g) || []) {
+    if (/(^|[^\\])\$/.test(span)) add('bare-dollar-in-math', it, `KaTeX errors on ${span}`);
+    /* A bare `%` opens a KaTeX COMMENT and silently swallows the rest of the span, so the
+       expression renders truncated rather than red — the harder failure to notice. */
+    if (/(^|[^\\])%/.test(span)) add('bare-percent-in-math', it, `KaTeX comments out the rest of ${span}`);
+  }
+  /* A LaTeX command sitting OUTSIDE any maths span renders as raw source in front of a child.
+     27 items shipped reading "3\times25\text{¢}" because `\t`/`\f` had been eaten to a literal
+     tab or form feed when four source files were written. 2026-09-04. */
+  if (/\\(times|frac|dfrac|tfrac|text|div|cdot|sqrt|le|ge|ne|pm|Box|quad)\b/.test(outsideMath))
+    add('latex-outside-math', it, 'a LaTeX command is not inside \\(...\\)');
+  if (/[\t\x08\x0b\x0c\r]/.test(all))
+    add('control-character', it, 'an escape was eaten when the source was written');
+
+  /* Authoring apparatus that must never reach a child. Each of these actually shipped:
+     "— Multi-Step Equation with Unknown [R]" opened 66 questions and 48 carried a bare "[R]",
+     both from the tail of a `## Question N` heading; 5 grade 3 science questions opened with
+     "**MAP vertical-alignment review:**". 2026-09-04. */
+  const stem = String(it.question || '');
+  if (/^\s*[–—-]\s*[A-Z]/.test(stem)) add('artefact-section-label', it, stem.slice(0, 60));
+  if (/\[R\]/.test(all)) add('artefact-review-marker', it, '[R] is an authoring marker');
+  if (/^\s*\*{1,2}[^*\n]*\b(?:TEKS|MAP|NWEA|Readiness)\b[^*\n]*:\s*\*{1,2}/i.test(stem))
+    add('artefact-standards-label', it, stem.slice(0, 60));
+  if (/^\s*(?:Question|Answer)\s+\d+\s*$/m.test(all)) add('artefact-qa-heading', it, '');
 }
 
 const byKind = {};

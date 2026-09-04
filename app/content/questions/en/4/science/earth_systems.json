@@ -178,5 +178,325 @@
     "explanation": "**Explanation:** Weathering creates rock pieces, decayed material contributes to soil, and moving rainwater can erode loose soil downslope.\n**Key concept:** Soil and land surfaces change through connected Earth processes.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q30",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A river carries sand and small stones downstream and drops them where it meets a lake. What is this process called?",
+    "options": [
+      "Erosion",
+      "Weathering",
+      "Deposition",
+      "Evaporation"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Deposition is the dropping of material a river has carried. Weathering breaks rock apart, and erosion moves the pieces away.\n\n**Key concept:** Deposition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q31",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Wind blows across a bare field for many years and carries the loose topsoil away. What is this process called?",
+    "options": [
+      "Deposition",
+      "Erosion",
+      "Condensation",
+      "Cementation"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Erosion is the movement of weathered material from one place to another by wind, water or ice.\n\n**Key concept:** Erosion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q32",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action would BEST reduce erosion on a bare hillside?",
+    "options": [
+      "Planting grasses and shrubs whose roots hold the soil",
+      "Removing all the remaining plants",
+      "Paving the hillside with loose gravel",
+      "Watering the hillside heavily every day"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Roots bind soil particles and slow water running down a slope, so plant cover is the most effective protection. Removing plants and heavy watering both increase erosion.\n\n**Key concept:** Plants reduce erosion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q33",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rock has visible layers containing bits of shell and sand pressed together. Which type of rock is it, and how did it form?",
+    "options": [
+      "Igneous, formed when lava cooled slowly underground",
+      "Igneous, formed when melted rock cooled quickly",
+      "Metamorphic, formed under great heat and pressure",
+      "Sedimentary, formed when layers of sediment were pressed and cemented together"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Layers and embedded fragments are signs of sedimentary rock. Igneous rock forms from cooling melt and rarely holds shells.\n\n**Key concept:** Identifying sedimentary rock",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q34",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Melted rock deep underground cools slowly and forms solid rock with large visible crystals. Which type of rock is it?",
+    "options": [
+      "Metamorphic",
+      "Sedimentary",
+      "Igneous",
+      "Fossil"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Igneous rock forms from cooling magma or lava. Slow cooling underground gives the crystals time to grow large.\n\n**Key concept:** Identifying igneous rock",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q35",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "An existing rock deep in a mountain range is squeezed and heated for millions of years until its minerals rearrange. Which type of rock results?",
+    "options": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Melted"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Metamorphic rock forms when heat and pressure change an existing rock without melting it completely.\n\n**Key concept:** Identifying metamorphic rock",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q36",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Fossils of fish are found in a rock layer near the top of a hill, far from any ocean. What is the best conclusion?",
+    "options": [
+      "That area was once covered by water",
+      "The fish walked up the hill before dying",
+      "Someone carried the fossils there recently",
+      "Fish once lived on dry land"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Fossils record the environment in which the organism lived. Fish fossils in rock mean water covered the area when the sediment was laid down.\n\n**Key concept:** Fossils as evidence of past environments",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q37",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a cliff face, four rock layers are stacked with no disturbance. Which layer holds the **oldest** fossils?",
+    "options": [
+      "All four layers hold fossils of the same age",
+      "The top layer",
+      "The second layer from the top",
+      "The bottom layer"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Sediment settles in layers over time, so undisturbed lower layers were laid down first and hold the oldest fossils.\n\n**Key concept:** Older layers lie beneath newer ones",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q38",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which landform is created when a river cuts downward through rock over a very long time?",
+    "options": [
+      "A sand dune",
+      "A delta",
+      "A canyon",
+      "A volcano"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A canyon is carved by a river eroding downward. A delta is built up by deposition at a river’s mouth, and a dune is built by wind.\n\n**Key concept:** Rivers carve canyons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q39",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which landform is built up by **deposition** where a river empties into the sea?",
+    "options": [
+      "A canyon",
+      "A delta",
+      "A cave",
+      "A cliff"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A delta forms from sediment dropped as the river slows on reaching the sea. Canyons, caves and cliffs are all shaped mainly by removal of material.\n\n**Key concept:** Deltas are built by deposition",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q40",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the **main source** of energy for Earth’s weather and for the water cycle?",
+    "options": [
+      "The Sun",
+      "Earth’s core",
+      "The Moon",
+      "Lightning"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Sunlight warms the air, land and water unevenly, which drives winds and evaporation. The Moon affects tides, not the water cycle.\n\n**Key concept:** The Sun drives weather",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q41",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What causes Earth’s seasons?",
+    "options": [
+      "The Moon blocking sunlight in winter",
+      "Earth moving much closer to the Sun in summer",
+      "The Sun producing more energy in summer",
+      "Earth’s tilt, which changes how directly sunlight strikes each hemisphere through the year"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Earth’s axis is tilted, so each hemisphere leans toward the Sun for part of the year. Earth’s distance from the Sun changes only slightly and does not cause the seasons.\n\n**Key concept:** The tilt causes seasons",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q42",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A weather map shows a large area of low pressure moving toward a town. What weather is most likely?",
+    "options": [
+      "Falling temperatures with no clouds",
+      "Clear skies and no wind",
+      "Clouds and rain",
+      "No change at all"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Low pressure is associated with rising air, cloud formation and precipitation. High pressure usually brings clearer skies.\n\n**Key concept:** Reading a weather map",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q43",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A tornado warning is issued while a class is at school. What is the SAFEST action?",
+    "options": [
+      "Go outside to watch the sky for the tornado",
+      "Move to an interior room on the lowest floor, away from windows",
+      "Stand beside the largest window to see better",
+      "Run to the car park and wait in a car"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An interior room on the lowest floor puts the most walls between people and flying debris. Windows and vehicles offer almost no protection.\n\n**Key concept:** Severe-weather safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q44",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action is the BEST example of **conserving** a natural resource at school?",
+    "options": [
+      "Printing on both sides of each sheet of paper",
+      "Leaving the taps running between hand washes",
+      "Throwing recyclable bottles in the rubbish bin",
+      "Leaving classroom lights on overnight"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Conserving means using less of a resource to do the same job. Using both sides of a sheet halves the paper used.\n\n**Key concept:** Conserving resources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q45",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Earth Systems",
+    "subtopic": "earth_systems",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A hillside is stripped of trees and then a week of heavy rain falls. Which two changes are most likely, and why?",
+    "options": [
+      "Nothing changes, because rain does not move soil",
+      "Less soil washes away and the stream runs clearer, because water drains faster",
+      "The hillside becomes rockier and the stream dries up completely",
+      "More soil washes away and the stream below runs muddy, because there are no roots to hold the soil"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Roots hold soil in place and slow runoff. Without them, rain carries soil into the stream, which is why cleared slopes muddy the water below.\n\n**Key concept:** Removing plants increases erosion",
+    "source": "authored",
+    "needsReview": false
   }
 ]

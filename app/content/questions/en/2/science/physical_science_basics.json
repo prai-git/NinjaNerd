@@ -238,5 +238,265 @@
     "explanation": "**Explanation:** The question tests **cooling**. The given evidence or condition supports “It cools and becomes more solid,” which directly applies the aligned Grade 2 standard.\n**Why other answers are wrong:**\n- * “It disappears” is not supported by the question’s evidence or does not apply the required science idea.\n- * This is correct because it matches both the evidence and the science concept.\n- * “It heats into a gas” is not supported by the question’s evidence or does not apply the required science idea.\n- * “It becomes a different food” is not supported by the question’s evidence or does not apply the required science idea.\n**Key concept:** Cooling.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q1",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which property could you use to sort a pile of buttons **without** any tools?",
+    "options": [
+      "Volume in millilitres",
+      "Mass in grams",
+      "Temperature in degrees",
+      "Colour"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Colour can be seen directly. Mass, temperature and volume all need a measuring tool.\n\n**Key concept:** Observable properties",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q2",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool would you use to find out **how heavy** two rocks are compared with each other?",
+    "options": [
+      "A thermometer",
+      "A ruler",
+      "A balance",
+      "A hand lens"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A balance compares how heavy things are. A ruler measures length and a thermometer measures temperature.\n\n**Key concept:** Using a balance",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q3",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool helps you see the tiny parts of a leaf more clearly?",
+    "options": [
+      "A balance",
+      "A hand lens",
+      "A measuring cup",
+      "A stopwatch"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A hand lens magnifies small details. The other tools measure amounts or time.\n\n**Key concept:** Using a hand lens",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q4",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A block of butter is left in a warm pan. What happens to it?",
+    "options": [
+      "It melts and becomes a liquid",
+      "It freezes and becomes harder",
+      "It turns into a gas right away",
+      "It stays exactly the same"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Adding heat can change a solid into a liquid. That change is called melting.\n\n**Key concept:** Heating can melt a solid",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q5",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Liquid water is put in a freezer overnight. What happens?",
+    "options": [
+      "It becomes a different liquid",
+      "It boils and becomes steam",
+      "It disappears completely",
+      "It freezes and becomes solid ice"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Taking heat away can change a liquid into a solid. That change is called freezing.\n\n**Key concept:** Cooling can freeze a liquid",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q6",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wet shirt is hung outside on a sunny day and later feels dry. Where did the water go?",
+    "options": [
+      "It turned into ice inside the shirt",
+      "It soaked into the shirt forever",
+      "It went into the air as water vapour",
+      "It was destroyed by the sunlight"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The Sun’s heat changed the liquid water into a gas that spread into the air. The water still exists; it just cannot be seen.\n\n**Key concept:** Water can change into a gas",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q7",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is a **liquid**?",
+    "options": [
+      "A wooden block",
+      "Milk",
+      "Air in a balloon",
+      "A metal spoon"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A liquid takes the shape of its container and can be poured. A block and a spoon keep their own shape, and air is a gas.\n\n**Key concept:** Identifying liquids",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q8",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which statement about a **gas** is true?",
+    "options": [
+      "It spreads out to fill the whole container it is in",
+      "It always keeps the same shape",
+      "It can be picked up in your hand",
+      "It can only exist inside a bottle"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A gas has no shape of its own and spreads to fill the space available, which is why a balloon becomes round when you blow into it.\n\n**Key concept:** Gases fill their container",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q9",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball of clay is squashed flat. What is TRUE about the clay?",
+    "options": [
+      "It has turned into a liquid",
+      "It has become a new material",
+      "There is less clay than before",
+      "It is still clay, and there is just as much of it"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Changing the shape of something does not change what it is made of or how much of it there is.\n\n**Key concept:** Changing shape does not change the material",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q10",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wooden block and a metal key are both put in a bowl of water. The block floats and the key sinks. What does this show?",
+    "options": [
+      "Water pushes down on the key",
+      "Wood and metal are the same material",
+      "Some materials float in water and others sink",
+      "Only round things can float"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Whether something floats depends on the material and the shape, not on its size alone.\n\n**Key concept:** Sinking and floating",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q11",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to find out which of two coats keeps a jar of warm water warmer for longer. Which property is she testing?",
+    "options": [
+      "How much each coat weighs",
+      "How well each coat keeps heat in",
+      "What colour each coat is",
+      "How long each coat is"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The test measures how quickly heat escapes, which is a property of the material. Weight, colour and length are different properties.\n\n**Key concept:** Testing how a material holds heat",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q12",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student rubs two blocks of wood together quickly for a minute. What is she most likely to notice?",
+    "options": [
+      "The blocks feel warmer",
+      "The blocks feel colder",
+      "The blocks become heavier",
+      "The blocks change colour"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Rubbing surfaces together produces heat, which is why hands feel warm when you rub them.\n\n**Key concept:** Rubbing produces heat",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q13",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Physical Science Basics",
+    "subtopic": "physical_science_basics",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Salt is stirred into a glass of water until it cannot be seen. What has happened to the salt?",
+    "options": [
+      "It has sunk to the bottom in one lump",
+      "It has disappeared and no longer exists",
+      "It has turned into water",
+      "It has dissolved and is spread all through the water"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Dissolving spreads a solid through a liquid in pieces too small to see. Tasting the water would show the salt is still there — and letting the water evaporate would leave it behind.\n\n**Key concept:** Dissolving",
+    "source": "authored",
+    "needsReview": false
   }
 ]

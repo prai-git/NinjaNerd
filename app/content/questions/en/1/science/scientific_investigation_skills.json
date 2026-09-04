@@ -258,5 +258,245 @@
     "explanation": "**Explanation:** Different wind amounts could explain why identical pinwheels spin differently.\n**Why the other answers are wrong:** B, C, and D are unrelated to pinwheel motion.\n**Key concept:** Testing a cause for a pattern.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q48",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Before starting an investigation with soil and seeds, what should a student do?",
+    "options": [
+      "Listen to the safety rules and put on an apron if asked",
+      "Taste the soil to see what it is",
+      "Throw the seeds across the room",
+      "Start before the teacher explains"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Safety rules come first, and nothing in an investigation is ever tasted.\n\n**Key concept:** Investigation safety",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q49",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student finds an unknown liquid in a cup during a science lesson. What should she do?",
+    "options": [
+      "Pour it on her hands",
+      "Taste a little of it",
+      "Smell it very closely",
+      "Leave it alone and tell an adult"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** You never taste or handle something unknown. Telling an adult is always the safe choice.\n\n**Key concept:** Safety with unknown things",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q50",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sense would you use to find out if a flower **smells** sweet?",
+    "options": [
+      "Hearing",
+      "Sight",
+      "Smell",
+      "Taste"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Your nose tells you about smells. You should never taste a plant to find out about it.\n\n**Key concept:** Using your senses",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q51",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool helps you see the tiny parts of a leaf?",
+    "options": [
+      "A ruler",
+      "A hand lens",
+      "A thermometer",
+      "A cup"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A hand lens makes small things look bigger so you can see details.\n\n**Key concept:** Using a hand lens",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q52",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool would you use to find out **how long** a pencil is?",
+    "options": [
+      "A ruler",
+      "A thermometer",
+      "A cup",
+      "A magnet"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A ruler measures length. A thermometer measures how warm something is.\n\n**Key concept:** Choosing a tool",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q53",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which tool would you use to find out **how warm** the water is?",
+    "options": [
+      "A balance",
+      "A ruler",
+      "A hand lens",
+      "A thermometer"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A thermometer measures temperature, which tells you how warm or cool something is.\n\n**Key concept:** Measuring warmth",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q54",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student sorts leaves into a **big** pile and a **small** pile. What is she doing?",
+    "options": [
+      "Measuring the leaves in centimetres",
+      "Counting the leaves",
+      "Sorting the leaves by size",
+      "Drawing the leaves"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Sorting means putting things into groups that share something. Here the groups share a size.\n\n**Key concept:** Sorting things into groups",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q55",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class counts 4 birds on Monday, 6 on Tuesday and 3 on Wednesday. On which day did they see the **most** birds?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "They saw the same each day"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Comparing the counts shows 6 is the largest, and 6 birds were seen on Tuesday.\n\n**Key concept:** Comparing counts",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q56",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why should a class write down what they see each day instead of just remembering it?",
+    "options": [
+      "Writing it down keeps the information so they can look back at it",
+      "Writing it down changes what happens",
+      "Writing it down makes the plants grow",
+      "Remembering is always better"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Recording what you observe keeps it safe and lets you compare one day with another.\n\n**Key concept:** Writing down what you see",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q57",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A class wants to know whether seeds grow better with water or without. What should be the **same** for both cups?",
+    "options": [
+      "Nothing has to be the same",
+      "The amount of water in each cup",
+      "The kind of seed in each cup only",
+      "The same kind of seed, the same soil and the same light"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Only the one thing being tested — the water — should be different. Everything else must match.\n\n**Key concept:** A fair test",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q58",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student says, \"The grass is wet this morning.\" Is this something she **saw**, or something she **guessed**?",
+    "options": [
+      "Both at once",
+      "Something she guessed",
+      "Something she saw",
+      "Neither one"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Something you notice with your senses is an observation. Saying *why* the grass is wet would be a guess.\n\n**Key concept:** What you see and what you guess",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q59",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Scientific Investigation Skills",
+    "subtopic": "scientific_investigation_skills",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student sees dark clouds in the sky. She says, \"I think it will rain soon.\" What has she done?",
+    "options": [
+      "Made a measurement with a tool",
+      "Made a prediction, which is a guess about what will happen next",
+      "Written a safety rule",
+      "Sorted things into groups"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A prediction uses what you already know to say what might happen. Watching to see if it rains is how you check it.\n\n**Key concept:** Making a prediction",
+    "source": "authored",
+    "needsReview": false
   }
 ]

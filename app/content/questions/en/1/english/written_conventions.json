@@ -198,5 +198,305 @@
     "explanation": "**Explanation:** This question is about seed growth and can guide an investigation.\n**Why the other answers are wrong:** A, C, and D are unrelated to seeds.\n**Key concept:** Generating an inquiry question.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q18",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which mark belongs at the end of this sentence?\n\n> I like to jump rope",
+    "options": [
+      "No mark",
+      "A question mark (?)",
+      "A period (.)",
+      "A comma (,)"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A sentence that tells something ends with a period.\n\n**Key concept:** End marks: telling sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q19",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which mark belongs at the end of this sentence?\n\n> Do you have a pet",
+    "options": [
+      "A period (.)",
+      "A question mark (?)",
+      "A comma (,)",
+      "No mark"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A sentence that asks something ends with a question mark.\n\n**Key concept:** End marks: asking sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q20",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which mark belongs at the end of this sentence?\n\n> Look at that big dog",
+    "options": [
+      "An exclamation mark (!)",
+      "A comma (,)",
+      "No mark",
+      "A question mark (?)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A sentence said with strong feeling, like a warning or a shout, ends with an exclamation mark.\n\n**Key concept:** End marks: strong feeling",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q21",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **capital letters** correctly?",
+    "options": [
+      "My Friend Ana has a Red Bike.",
+      "my friend Ana has a red bike.",
+      "My friend ana has a red bike.",
+      "My friend Ana has a red bike."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A sentence starts with a capital letter, and a person’s name always begins with one. Ordinary words like *friend* and *bike* do not.\n\n**Key concept:** Capital letters for names",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q22",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence writes the word **I** correctly?",
+    "options": [
+      "today i lost my hat.",
+      "Today i lost my hat.",
+      "Today I lost my hat.",
+      "Today I Lost My Hat."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The word *I* is always a capital letter, no matter where it sits in the sentence.\n\n**Key concept:** The word I is always capital",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q23",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **capital letters** correctly for the day and the month?",
+    "options": [
+      "On monday in may we planted beans.",
+      "On Monday in May we planted beans.",
+      "On Monday in may we planted beans.",
+      "on Monday in May we planted beans."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Days of the week and months of the year always begin with a capital letter.\n\n**Key concept:** Capitals for days and months",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q24",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses **commas** correctly in a list?",
+    "options": [
+      "I ate an apple, a pear, and a plum.",
+      "I ate an apple a pear, and a plum.",
+      "I ate, an apple, a pear, and a plum.",
+      "I ate an apple, a pear and, a plum."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Commas go between the things in a list. One does not come right after *ate*.\n\n**Key concept:** Commas in a list",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q25",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means **do not**?",
+    "options": [
+      "dnot",
+      "dont",
+      "do’nt",
+      "don’t"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** In *don’t*, the apostrophe stands for the missing letter *o* in *not*.\n\n**Key concept:** Apostrophes in short forms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q26",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word means **cannot**?",
+    "options": [
+      "ca’nt",
+      "cant",
+      "can’t",
+      "cnat"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The apostrophe in *can’t* takes the place of the letters that were left out of *cannot*.\n\n**Key concept:** Short forms",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q27",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence shows that the hat belongs to **Sam**?",
+    "options": [
+      "Sams hat is blue.",
+      "Sam’s hat is blue.",
+      "Sam hat is blue.",
+      "Sams’ hat is blue."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** To show that something belongs to one person, add an apostrophe and *s* to the name.\n\n**Key concept:** Showing who owns something",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q28",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct way to write **more than one cat**?",
+    "options": [
+      "cats",
+      "cates",
+      "cat’s",
+      "catz"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Most words add *-s* to mean more than one. *Cat’s* shows that something belongs to a cat.\n\n**Key concept:** Making words plural",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q29",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the correct way to write **more than one box**?",
+    "options": [
+      "box’s",
+      "boxs",
+      "boxxes",
+      "boxes"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Words ending in *x*, *s*, *ch* or *sh* add *-es*: *box/boxes*, *bus/buses*, *dish/dishes*.\n\n**Key concept:** Adding -es",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q30",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word is spelled correctly?",
+    "options": [
+      "freind",
+      "frend",
+      "friend",
+      "frind"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Friend* is spelled f-r-i-e-n-d, with *ie* in the middle.\n\n**Key concept:** Spelling friend",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q31",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which group of words is in the right **order** to make a sentence?",
+    "options": [
+      "Ran the dog fast.",
+      "The dog ran fast.",
+      "Fast dog the ran.",
+      "Dog fast ran the."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An English sentence usually names who or what first, then tells what they did.\n\n**Key concept:** Word order",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g1_2026-09-04_04-20_q32",
+    "grade": 1,
+    "subject": "english",
+    "sourceSubtopic": "Written Conventions",
+    "subtopic": "written_conventions",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** Which sentence needs **both** a capital letter and an end mark?",
+    "options": [
+      "we played in the park",
+      "We played in the park.",
+      "Did we play in the park?",
+      "We played in the park!"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Every sentence begins with a capital letter and ends with a mark. The first one is missing both.\n\n**Key concept:** Every sentence needs both",
+    "source": "authored",
+    "needsReview": false
   }
 ]

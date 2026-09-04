@@ -318,5 +318,185 @@
     "explanation": "**Explanation:**\nThe wall blocks motion in one direction, so pushing that way cannot help however hard you push.\nA pull moves the wagon in the opposite direction, where nothing is in the way.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q11",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these makes its **own** light?",
+    "options": [
+      "A mirror",
+      "The Sun",
+      "A shiny spoon",
+      "A white wall"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The Sun makes its own light. A mirror, a spoon and a wall only bounce back light that came from somewhere else.\n\n**Key concept:** Light sources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q12",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these gives off its own light when it is switched on?",
+    "options": [
+      "A lit torch",
+      "A window",
+      "A page of a book",
+      "A puddle"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A torch makes light when it is switched on. The other things only let light pass through or bounce off them.\n\n**Key concept:** Things that make light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q13",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why can you see yourself in a **mirror**?",
+    "options": [
+      "The mirror is flat",
+      "The mirror makes its own light",
+      "The mirror is made of glass",
+      "The mirror bounces light back to your eyes"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A smooth, shiny surface bounces light back, which is how a mirror shows a picture of you.\n\n**Key concept:** Mirrors bounce light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q14",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What happens when you turn off all the lights in a room with no windows?",
+    "options": [
+      "The things in the room disappear",
+      "You can still see everything clearly",
+      "You cannot see, because there is no light",
+      "The room becomes larger"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** You need light to see. Without any light reaching your eyes, you cannot see the things that are still there.\n\n**Key concept:** Light is needed to see",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q15",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student hums with her hand on her throat and feels it **shaking**. What does this show?",
+    "options": [
+      "Her throat is getting hot",
+      "Sound is made by something shaking",
+      "Her hand is making the sound",
+      "Sound comes from the air only"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Sound is made when something vibrates, or shakes quickly. You can feel the shaking that makes the sound.\n\n**Key concept:** Sound comes from shaking",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q16",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action would make a bell sound **quieter**?",
+    "options": [
+      "Tapping it very gently",
+      "Hitting it much harder",
+      "Hitting it twice as fast",
+      "Holding it higher up"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A gentle tap makes a small shake, and a small shake makes a quiet sound.\n\n**Key concept:** Loud and quiet sounds",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q17",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is the best way to warm cold hands **without** using a heater?",
+    "options": [
+      "Wave them slowly in the air",
+      "Hold them still in the cold air",
+      "Put them in cold water",
+      "Rub them together quickly"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Rubbing makes heat. Holding still or using cold water takes heat away instead.\n\n**Key concept:** Rubbing makes heat",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q18",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A bench sits in the sunshine all morning. What happens to it?",
+    "options": [
+      "It gets heavier",
+      "It gets colder",
+      "It gets warmer",
+      "It changes colour"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The Sun gives heat as well as light, so things left in sunlight warm up.\n\n**Key concept:** The Sun gives heat",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g1_2026-09-04_04-50_q19",
+    "grade": 1,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student stands with the Sun behind her and sees her shadow in front of her. What makes the shadow?",
+    "options": [
+      "Her body makes a dark light",
+      "Her body blocks the sunlight from reaching the ground",
+      "The ground is dark in that spot",
+      "The Sun moves behind her"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Light travels in straight lines and cannot go through her, so the ground behind her stays dark. That dark shape is a shadow.\n\n**Key concept:** Shadows form when light is blocked",
+    "source": "authored",
+    "needsReview": false
   }
 ]

@@ -198,5 +198,305 @@
     "explanation": "**Explanation:** The glowing bulb shows light energy, and the warm base shows thermal energy produced by the circuit.\n**Key concept:** A circuit can transform electrical energy into light and thermal energy.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q15",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student pushes a shopping trolley and it moves forward. What is a **force**?",
+    "options": [
+      "The speed at which an object travels",
+      "A push or a pull acting on an object",
+      "The mass of an object",
+      "The distance an object moves"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A force is a push or a pull. Forces can start motion, stop it, or change its direction or speed.\n\n**Key concept:** Forces are pushes and pulls",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q16",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two students pull on opposite ends of a rope with **equal** force and the rope does not move. What does this show?",
+    "options": [
+      "The forces are balanced, so there is no change in motion",
+      "There are no forces acting on the rope",
+      "One student is stronger than the other",
+      "The rope has no mass"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Balanced forces are equal in size and opposite in direction. They act on the object but cancel each other out, so the motion does not change.\n\n**Key concept:** Balanced forces",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q17",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A soccer ball rolls slowly across the grass and then stops. What is the main reason it stops?",
+    "options": [
+      "Air stops existing behind the ball",
+      "The ball runs out of force stored inside it",
+      "Gravity pulls the ball backwards",
+      "Friction between the ball and the grass slows it down"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Friction is a force that acts against motion when two surfaces rub together. It converts the ball’s energy of motion into a small amount of heat.\n\n**Key concept:** Friction opposes motion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q18",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student drops a ball and it falls to the ground. Which force pulls it downward?",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Buoyancy"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Gravity is a pull between objects with mass, and Earth’s gravity pulls everything toward its surface. Buoyancy acts upward in a fluid.\n\n**Key concept:** Gravity pulls objects toward Earth",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q19",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wagon is pushed harder than before, using the same wagon on the same path. What happens to its motion?",
+    "options": [
+      "It slows down",
+      "It speeds up more quickly",
+      "Its motion does not change",
+      "It becomes heavier"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A larger unbalanced force on the same mass produces a larger change in motion, so the wagon accelerates more.\n\n**Key concept:** A larger force changes motion more",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q20",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student winds up a rubber-band car and lets it go. What energy change happens?",
+    "options": [
+      "Stored energy in the stretched rubber band changes into energy of motion",
+      "Energy of motion changes into stored energy in the band",
+      "Light energy changes into sound energy",
+      "Heat energy changes into stored energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A stretched or wound band stores energy. Releasing it transfers that stored energy into the motion of the car.\n\n**Key concept:** Stored energy becomes motion",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q21",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A lamp is switched on. Which energy change happens inside the bulb?",
+    "options": [
+      "Motion energy changes into electrical energy",
+      "Light energy changes into electrical energy",
+      "Sound energy changes into light energy",
+      "Electrical energy changes into light energy and heat energy"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A bulb converts electrical energy mostly into light, with some released as heat, which is why a bulb feels warm.\n\n**Key concept:** Electrical energy becomes light and heat",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q22",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student rubs her hands together quickly and they feel warm. Which energy change explains this?",
+    "options": [
+      "Light energy changes into heat energy",
+      "Heat energy changes into energy of motion",
+      "Energy of motion changes into heat energy through friction",
+      "Sound energy changes into heat energy"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Friction between the moving surfaces converts the energy of motion into heat, which is why the hands warm up.\n\n**Key concept:** Friction produces heat",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q23",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which list gives only **forms of energy**?",
+    "options": [
+      "light, mass, sound, length",
+      "light, sound, heat, electrical",
+      "sound, volume, heat, colour",
+      "heat, distance, electrical, shape"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Light, sound, heat and electricity are all forms of energy. Mass, length, volume, colour, distance and shape are properties, not energy.\n\n**Key concept:** Forms of energy",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q24",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student shines a torch at a mirror and the beam bounces off in a new direction. What is this behaviour of light called?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Absorption",
+      "Transmission"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Reflection is light bouncing off a surface. Refraction is light bending as it passes into a new material, and absorption is light being taken in.\n\n**Key concept:** Reflection of light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q25",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A straw in a glass of water looks bent at the water’s surface. What causes this?",
+    "options": [
+      "The glass reflects the straw twice",
+      "The straw really bends in the water",
+      "The water absorbs all the light from the straw",
+      "Light bends as it passes between water and air"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Refraction is light changing direction as it moves between materials. The straw is straight; the light reaching your eye has been bent.\n\n**Key concept:** Refraction of light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q26",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student holds a black card and a white card in bright sunlight for ten minutes. Which becomes warmer, and why?",
+    "options": [
+      "Both exactly the same, because the sunlight is the same",
+      "The white card, because a light surface absorbs more light energy",
+      "The black card, because a dark surface absorbs more light energy",
+      "Neither, because cards cannot absorb light"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Dark surfaces absorb more light and convert it to heat, while light surfaces reflect more of it away.\n\n**Key concept:** Dark surfaces absorb more light",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q27",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "In a simple circuit with a battery, wires, a bulb and a **switch**, what happens when the switch is opened?",
+    "options": [
+      "The bulb glows more brightly",
+      "The circuit is broken, so the bulb goes out",
+      "The battery drains faster",
+      "The bulb glows only half as brightly"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A circuit must be a complete, unbroken loop for electricity to flow. Opening the switch creates a gap, so the current stops.\n\n**Key concept:** A circuit must be complete",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q28",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which material would work BEST as the wire in a simple circuit?",
+    "options": [
+      "Copper, because it conducts electricity well",
+      "Rubber, because it does not conduct electricity",
+      "Glass, because it is clear and hard",
+      "Dry wood, because it is easy to shape"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A conductor lets electricity flow. Copper is an excellent conductor; rubber, glass and dry wood are insulators, which is why wires are wrapped in rubber.\n\n**Key concept:** Conductors and insulators of electricity",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g4_2026-09-04_03-10_q29",
+    "grade": 4,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student lifts a book from the floor to a high shelf. Where has the energy she used gone?",
+    "options": [
+      "It stayed entirely in the student’s arms",
+      "It has been destroyed and no longer exists",
+      "It has all turned into light in the room",
+      "It is stored in the book because of its raised position, ready to be released if the book falls"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Raising an object stores energy in it because of its position. If the book falls, that stored energy becomes energy of motion. Energy is transferred, never destroyed.\n\n**Key concept:** Position stores energy",
+    "source": "authored",
+    "needsReview": false
   }
 ]

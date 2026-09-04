@@ -396,3 +396,82 @@ test('unescaping NEVER touches maths — it would break 303 items to fix 4', () 
 test('emphasis still works alongside the escape handling', () => {
   assert.equal(renderInline('**bold** and *em*'), '<strong>bold</strong> and <em>em</em>');
 });
+
+/* ---- CORPUS-WIDE RENDER AUDIT (2026-09-04) ------------------------------------------------
+
+   Added after a maths/currency audit found 236 items rendering wrongly on the live site, none
+   of which any unit test could have caught: they needed the REAL renderers run over the REAL
+   authored text. `throwOnError: false` in math-render.js is why the class ships silently — a
+   KaTeX parse error prints the source in red instead of crashing.
+
+   These run the shipped renderers over every item, so a regression fails the build. */
+
+test('every shipped maths span is inside the LaTeX subset KaTeX supports', () => {
+  /* Verified by enumeration rather than by installing KaTeX: the corpus uses exactly 33
+     distinct commands and every one is KaTeX-supported. Anything new has to be added here
+     deliberately, which is the point — an unsupported command renders as red source text. */
+  const OK = new Set(['times', 'div', 'frac', 'dfrac', 'tfrac', 'text', 'cdot', 'sqrt', 'le',
+    'leq', 'ge', 'geq', 'ne', 'neq', 'pm', 'approx', 'circ', 'Box', 'pi', 'quad', 'qquad',
+    'left', 'right', 'mathbf', 'ldots', 'to', 'rightarrow', 'Rightarrow', 'overline',
+    '$', '%', '&', '#', '_', '{', '}', '!', ' ', ',', ';', ':']);
+  const bad = new Map();
+  everyItem((it) => {
+    for (const f of [it.question, it.explanation, it.passage, ...(it.options || [])]) {
+      const t = String(f || '');
+      for (const m of t.matchAll(/\\\(([\s\S]*?)\\\)|\$\$([\s\S]*?)\$\$/g)) {
+        const span = m[1] !== undefined ? m[1] : m[2];
+        for (const c of span.match(/\\([A-Za-z]+|.)/g) || []) {
+          const name = c.slice(1);
+          if (!OK.has(name)) bad.set(c, it.id);
+        }
+        // A bare $ is a parse error; a bare % comments out the rest of the span.
+        assert.ok(!/(^|[^\\])\$/.test(span), `${it.id}: bare $ inside maths: ${span}`);
+        assert.ok(!/(^|[^\\])%/.test(span), `${it.id}: bare % inside maths: ${span}`);
+      }
+      // A command outside a span renders as raw source, not as maths.
+      const outside = t.replace(/\\\([\s\S]*?\\\)|\$\$[\s\S]*?\$\$/g, ' ');
+      assert.ok(!/\\(times|frac|text|div|cdot|sqrt|Box)\b/.test(outside),
+        `${it.id}: LaTeX command outside a maths span`);
+      // A literal tab or form feed means \t or \f was eaten when the source was written.
+      assert.ok(!/[\t\x08\x0b\x0c\r]/.test(t), `${it.id}: control character in content`);
+    }
+  });
+  assert.deepEqual([...bad.keys()], [], `unsupported KaTeX commands: ${[...bad].join(', ')}`);
+});
+
+test('no authoring apparatus reaches a child', () => {
+  /* All four of these shipped. The first two came from the tail of a `## Question N` heading,
+     which parse.mjs used to push into the stem: 66 items opened with "— Multi-Step Equation
+     with Unknown [R]" and 48 carried a bare "[R]". */
+  everyItem((it) => {
+    const stem = String(it.question || '');
+    const all = [it.question, it.explanation, it.passage, ...(it.options || [])].join('\n');
+    assert.ok(!/^\s*[–—-]\s*[A-Z]/.test(stem), `${it.id}: stem opens with a section label`);
+    assert.ok(!/\[R\]/.test(all), `${it.id}: [R] authoring marker`);
+    assert.ok(!/^\s*\*{1,2}[^*\n]*\b(?:TEKS|MAP|NWEA|Readiness)\b[^*\n]*:\s*\*{1,2}/i.test(stem),
+      `${it.id}: standards label on the stem`);
+    assert.ok(!/^\s*(?:Question|Answer)\s+\d+\s*$/m.test(all), `${it.id}: Question/Answer heading`);
+  });
+});
+
+test('the real renderers produce no broken output for any item', () => {
+  everyItem((it) => {
+    for (const [name, raw] of [['question', it.question], ['explanation', it.explanation],
+      ['passage', it.passage], ...(it.options || []).map((o, i) => [`option${i}`, o])]) {
+      const t = String(raw || '');
+      if (!t) continue;
+      const html = name.startsWith('option') ? renderInline(t) : renderBlocks(t);
+      // Unclosed emphasis leaves literal asterisks in front of the child.
+      assert.ok(!html.includes('**'), `${it.id} ${name}: unclosed bold`);
+      // Bootstrap 5 dropped text-left/text-right and fails silently.
+      assert.ok(!/text-(left|right)\b/.test(html), `${it.id} ${name}: Bootstrap 4 alignment class`);
+      // A question renders inside div.h5, so a heading element would be illegal nesting.
+      assert.ok(!/<h[1-6]\b/.test(html), `${it.id} ${name}: heading element in content`);
+      // A pipe table that did not become a <table> renders as a wall of pipes. Fenced code
+      // holds ASCII diagrams whose lines are also pipe-delimited, so exclude those first.
+      const unfenced = t.replace(/```[\s\S]*?```/g, '');
+      const rows = unfenced.split('\n').filter((l) => /^\s*\|.*\|\s*$/.test(l)).length;
+      if (rows >= 2) assert.ok(/<table/.test(html), `${it.id} ${name}: table did not render`);
+    }
+  });
+});

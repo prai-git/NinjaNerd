@@ -387,7 +387,7 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "**[stretch]**\nDeep beneath a mountain range, an existing rock is exposed to intense **heat and pressure** over millions of years. The rock does **not** melt, but its minerals are squeezed into new bands and layers, forming a harder rock. Which type of rock has formed?",
+    "question": "Deep beneath a mountain range, an existing rock is exposed to intense **heat and pressure** over millions of years. The rock does **not** melt, but its minerals are squeezed into new bands and layers, forming a harder rock. Which type of rock has formed?",
     "options": [
       "an igneous rock",
       "a sedimentary rock",
@@ -436,6 +436,66 @@
     ],
     "correctIndex": 1,
     "explanation": "**Explanation:** **Nonrenewable** resources cannot be replaced quickly by nature. Coal and natural gas each take millions of years to form, so **coal and natural gas** are the nonrenewable pair. Solar and wind are renewable.\n**Key concept:** Renewable resources replenish quickly; nonrenewable ones do not.",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-04_01-30_q1",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_space_science",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which process in the water cycle changes liquid water in a lake directly into water vapor in the air?",
+    "options": [
+      "Runoff",
+      "Condensation",
+      "Precipitation",
+      "Evaporation"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Evaporation is the change from liquid to gas. Condensation is the reverse, precipitation is water falling as rain or snow, and runoff is liquid water flowing across land.\n\n**Key concept:** Water cycle processes",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-04_01-30_q2",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_space_science",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Two tectonic plates push **toward** each other and the crust buckles upward over millions of years. Which landform is most likely to result?",
+    "options": [
+      "A flat coastal plain",
+      "A deep ocean trench with no land above it",
+      "A mountain range",
+      "A chain of sandy islands built by waves"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Where two plates converge, the crust is compressed and pushed upward, building mountains. Trenches form where one plate sinks beneath another, and plains and sandbars are built by erosion and deposition, not by plate collision.\n\n**Key concept:** Converging plates build mountains",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g6_2026-09-04_01-30_q3",
+    "grade": 6,
+    "subject": "science",
+    "sourceSubtopic": "Earth & Space Science",
+    "subtopic": "earth_space_science",
+    "passage": null,
+    "passageTitle": null,
+    "question": "From Earth we see the Moon appear to change shape over about a month, from a thin crescent to a full circle and back. What causes this pattern of **phases**?",
+    "options": [
+      "The Moon passes through Earth’s shadow a little more each night",
+      "The Moon orbits Earth, so the amount of its sunlit half we can see from Earth changes",
+      "The Moon makes its own light and dims and brightens on a monthly cycle",
+      "Clouds in Earth’s atmosphere cover part of the Moon each night"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Half the Moon is always lit by the Sun. As the Moon orbits Earth, we view that lit half from a changing angle, so we see a changing fraction of it. Earth’s shadow causes a lunar eclipse, which is rare, not monthly.\n\n**Key concept:** Phases come from the changing viewing angle",
     "source": "authored",
     "needsReview": false
   }

@@ -138,5 +138,365 @@
     "explanation": "**Explanation:**\nThis gives a reason recycling helps, which is exactly what a supporting sentence must do.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q37",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants to tell a funny story about her dog to her classmates. What is her **purpose** for writing?",
+    "options": [
+      "To sell something",
+      "To persuade",
+      "To give instructions",
+      "To entertain"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A funny story written to enjoy together is meant to entertain. Persuading asks readers to agree, and instructions tell how to do something.\n\n**Key concept:** Purpose for writing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q38",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes a note asking her parents to let her join the swim team. What is her **purpose**?",
+    "options": [
+      "To describe a place",
+      "To entertain",
+      "To persuade",
+      "To explain how to swim"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Asking someone to say yes is persuasive writing. The note may include reasons, but the goal is to change a decision.\n\n**Key concept:** Persuasive purpose",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q39",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A third grader is writing directions for a **kindergartener** on how to wash their hands. Which sentence fits that reader BEST?",
+    "options": [
+      "Apply soap and agitate for a minimum of twenty seconds.",
+      "Rub your hands together while you count to twenty.",
+      "Hand hygiene requires thorough friction with a surfactant.",
+      "Ensure adequate lather duration prior to rinsing."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A young reader needs short sentences and simple, familiar words. The other three are accurate but use words a kindergartener would not know.\n\n**Key concept:** Writing for an audience",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q40",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentences below.\n\n> (1) Then pour the batter into the pan. (2) First, mix the flour and eggs. (3) Finally, bake for thirty minutes.\n\nIn what order should they go?",
+    "options": [
+      "2, 1, 3",
+      "1, 2, 3",
+      "3, 2, 1",
+      "2, 3, 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The signal words give the order away: *First* begins, *Then* comes next, and *Finally* ends. Instructions must follow the real sequence of steps.\n\n**Key concept:** Sequence in instructions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q41",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence is the BEST **opening** for a story about a lost kite?",
+    "options": [
+      "Kites are toys that fly in the wind.",
+      "This story is about a kite that got lost one day.",
+      "I am going to tell you about my kite.",
+      "The wind snatched my new kite right out of my hands."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A strong opening drops the reader straight into the action. Announcing the story, or defining a kite, delays it.\n\n**Key concept:** Story openings",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q42",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is writing a paragraph about why the school needs a garden. Which sentence is the BEST **topic sentence**?",
+    "options": [
+      "I really like being outside during the school day.",
+      "Gardens are found in many places around the world.",
+      "A school garden would give every class a place to grow food and learn about plants.",
+      "My grandmother has grown tomatoes for thirty years."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A topic sentence names the paragraph’s idea, here the reason the school needs a garden. The other sentences are true but do not state that idea.\n\n**Key concept:** Topic sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q43",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the paragraph.\n\n> Bats help farmers. One bat can eat thousands of insects in a single night. Fewer insects means less damage to crops. **Bats are mammals with wings.**\n\nWhich change would improve the paragraph?",
+    "options": [
+      "Move the bolded sentence to the beginning",
+      "Remove the bolded sentence, because it does not support the idea that bats help farmers",
+      "Add more sentences about bat wings",
+      "Remove the second sentence instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Every sentence should support the paragraph’s one idea. The fact about wings is true but does not explain how bats help farmers.\n\n**Key concept:** Keeping a paragraph on topic",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q44",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student writes: **\"Winter is my favourite season.\"** Which sentence best **supports** that idea?",
+    "options": [
+      "I love the way fresh snow makes the whole street quiet.",
+      "Summer has the longest days of the year.",
+      "There are four seasons in a year.",
+      "Some people prefer the spring instead."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A supporting sentence gives a reason or detail for the main idea. The other three are about other seasons or facts that do not support the writer’s preference.\n\n**Key concept:** Supporting details",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q45",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word BEST fills the blank?\n\n> Ben practised every day. \\_\\_\\_\\_\\_\\_, he made the team.",
+    "options": [
+      "Instead",
+      "However",
+      "On the other hand",
+      "As a result"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Making the team is the result of practising, so the transition must show cause and effect. The other three signal contrast.\n\n**Key concept:** Cause-and-effect transitions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q46",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which word BEST fills the blank?\n\n> The path looked short. \\_\\_\\_\\_\\_\\_, it took us two hours to walk.",
+    "options": [
+      "Therefore",
+      "Also",
+      "However",
+      "Finally"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The second sentence is a surprise after the first, so the transition must show contrast. *Therefore* would signal a result instead.\n\n**Key concept:** Contrast transitions",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q47",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence best **combines** these two?\n\n> The rain stopped. We went outside.",
+    "options": [
+      "The rain stopped, we went outside.",
+      "When the rain stopped, we went outside.",
+      "The rain stopped and then we went outside and played.",
+      "The rain stopped. And we went outside."
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Joining with *when* shows that one event followed the other. A comma alone between two complete thoughts creates a run-on.\n\n**Key concept:** Combining sentences",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q48",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which sentence uses the **most precise** words?",
+    "options": [
+      "The beagle bolted toward the pond.",
+      "The animal went toward the water.",
+      "The dog moved toward the pond quickly.",
+      "The dog really went toward the water fast."
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Precise nouns and verbs — *beagle*, *bolted* — carry more meaning than *animal* and *went*, and more than adding *really* or *fast*.\n\n**Key concept:** Precise word choice",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q49",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence.\n\n> The cake was good.\n\nWhich revision adds the most useful detail?",
+    "options": [
+      "The cake was good and nice.",
+      "The cake was very good.",
+      "The cake was really quite good.",
+      "The warm chocolate cake tasted of orange peel."
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Adding real detail — what kind of cake, what it tasted of — tells the reader something. *Very* and *really* add emphasis but no information.\n\n**Key concept:** Revising for detail",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q50",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Before writing a report about spiders, a student makes a list of everything she already knows and wants to find out. What is she doing?",
+    "options": [
+      "Publishing",
+      "Editing",
+      "Planning",
+      "Proofreading"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Gathering and organising ideas before writing is planning, sometimes called prewriting. Editing and proofreading happen after a draft exists.\n\n**Key concept:** The writing process: planning",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q51",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student has finished her draft and now checks that every sentence begins with a capital letter and ends with the right mark. What is she doing?",
+    "options": [
+      "Planning",
+      "Editing",
+      "Drafting",
+      "Choosing a topic"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Editing fixes the mechanics of writing — capital letters, punctuation and spelling. Changing ideas or wording is revising.\n\n**Key concept:** The writing process: editing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q52",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which of these is something a writer does when **revising** rather than editing?",
+    "options": [
+      "Adding a sentence that explains a reason more clearly",
+      "Fixing a misspelled word",
+      "Adding a missing question mark",
+      "Changing a lowercase letter to a capital"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Revising changes ideas, order and wording. The other three are mechanical corrections, which belong to editing.\n\n**Key concept:** Revising vs editing",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q53",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student is writing a paragraph about how bees make honey. Where should she add this sentence?\n\n> The bees fan the nectar with their wings until it thickens.",
+    "options": [
+      "In the title of the paragraph",
+      "At the very beginning, before bees are mentioned",
+      "After the ending sentence of the paragraph",
+      "After the sentence describing how bees gather nectar"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A detail belongs where it fits the order of events. Fanning the nectar happens after gathering it, so the sentence goes there.\n\n**Key concept:** Placing a detail in order",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g3_2026-09-04_02-30_q54",
+    "grade": 3,
+    "subject": "english",
+    "sourceSubtopic": "Writing Essentials",
+    "subtopic": "writing_essentials",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student ends a paragraph about recycling with: **\"So that is all about recycling.\"** Which ending is better, and why?",
+    "options": [
+      "\"I hope you liked reading my paragraph.\" — it is polite to the reader.",
+      "\"Recycling is a word that means to use again.\" — it defines the topic.",
+      "\"If every family recycled one bag a week, our town would send far less to the landfill.\" — it leaves the reader with the strongest reason.",
+      "\"There is much more I could say about recycling.\" — it shows there is more to learn."
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A good ending reinforces the point of the paragraph. Announcing that the paragraph is over, defining the topic at the end, or hinting at unwritten ideas all leave the reader with nothing.\n\n**Key concept:** Strong endings",
+    "source": "authored",
+    "needsReview": false
   }
 ]

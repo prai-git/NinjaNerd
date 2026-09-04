@@ -89,13 +89,13 @@
     "passageTitle": null,
     "question": "A tray has 8 equal spaces. Exactly 3 spaces hold a peach. Which fraction of the spaces hold a peach?",
     "options": [
-      "\\(\frac{3}{5}\\)",
-      "\\(\frac{3}{8}\\)",
-      "\\(\frac{5}{8}\\)",
-      "\\(\frac{8}{3}\\)"
+      "\\(\\frac{3}{5}\\)",
+      "\\(\\frac{3}{8}\\)",
+      "\\(\\frac{5}{8}\\)",
+      "\\(\\frac{8}{3}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** There are 8 equal spaces in all and 3 contain a peach, so the fraction is \\(\frac{3}{8}\\).\n\n**Key concept:** Fraction of a set",
+    "explanation": "**Worked solution:** There are 8 equal spaces in all and 3 contain a peach, so the fraction is \\(\\frac{3}{8}\\).\n\n**Key concept:** Fraction of a set",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to \\(\frac{1}{2}\\)?",
+    "question": "Which fraction is equivalent to \\(\\frac{1}{2}\\)?",
     "options": [
-      "\\(\frac{2}{3}\\)",
-      "\\(\frac{2}{4}\\)",
-      "\\(\frac{3}{4}\\)",
-      "\\(\frac{4}{6}\\)"
+      "\\(\\frac{2}{3}\\)",
+      "\\(\\frac{2}{4}\\)",
+      "\\(\\frac{3}{4}\\)",
+      "\\(\\frac{4}{6}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Worked solution:** Two of four equal parts is the same amount as one of two equal parts, so \\(\frac{2}{4}=\frac{1}{2}\\).\n\n**Key concept:** Equivalent fractions",
+    "explanation": "**Worked solution:** Two of four equal parts is the same amount as one of two equal parts, so \\(\\frac{2}{4}=\\frac{1}{2}\\).\n\n**Key concept:** Equivalent fractions",
     "source": "authored",
     "needsReview": false
   },
@@ -127,7 +127,7 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which statement correctly describes \\(\frac{1}{6}\\) of a whole?",
+    "question": "Which statement correctly describes \\(\\frac{1}{6}\\) of a whole?",
     "options": [
       "One of 6 equal parts",
       "Six parts of one whole",
@@ -135,7 +135,7 @@
       "Six whole objects"
     ],
     "correctIndex": 0,
-    "explanation": "**Worked solution:** A unit fraction has numerator 1 and names one equal part of a whole. Therefore \\(\frac{1}{6}\\) is one of 6 equal parts.\n\n**Key concept:** Unit fractions",
+    "explanation": "**Worked solution:** A unit fraction has numerator 1 and names one equal part of a whole. Therefore \\(\\frac{1}{6}\\) is one of 6 equal parts.\n\n**Key concept:** Unit fractions",
     "source": "authored",
     "needsReview": false
   },

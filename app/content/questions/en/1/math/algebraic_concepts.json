@@ -338,5 +338,165 @@
     "explanation": "**Work:** \\(8+10=18\\).\n**Key concept:** Ten more.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q1",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Fill in the box.\n\n> \\(6 + \\Box = 10\\)",
+    "options": [
+      "16",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Count on from 6 to 10: 7, 8, 9, 10 — that is 4 more. Check it: 6 + 4 = 10.\n\n**Key concept:** Making ten",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q2",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Fill in the box.\n\n> \\(\\Box + 8 = 13\\)",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "21"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Count on from 8 to 13: 9, 10, 11, 12, 13 — that is 5 more. Check it: 5 + 8 = 13.\n\n**Key concept:** Missing addend",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q3",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What is the **double** of 7?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Doubling means adding a number to itself: 7 + 7 = 14.\n\n**Key concept:** Doubles",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q4",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "If \\(4 + 9 = 13\\), what is \\(9 + 4\\)?",
+    "options": [
+      "13",
+      "12",
+      "14",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Adding two numbers in either order gives the same total, so 9 + 4 is also 13.\n\n**Key concept:** Order does not change a sum",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q5",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "If \\(5 + 7 = 12\\), which subtraction fact must also be true?",
+    "options": [
+      "\\(5 - 12 = 7\\)",
+      "\\(12 + 7 = 5\\)",
+      "\\(7 - 5 = 12\\)",
+      "\\(12 - 7 = 5\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Adding and subtracting undo each other. Taking 7 away from 12 leaves 5.\n\n**Key concept:** Addition and subtraction go together",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q6",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "What comes next?\n\n> 5, 10, 15, 20, \\_\\_\\_\\_",
+    "options": [
+      "24",
+      "21",
+      "25",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Each number is 5 more than the one before, so the next is 20 + 5 = 25.\n\n**Key concept:** Counting by fives",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q7",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Look at the pattern.\n\n> star, moon, star, moon, star, \\_\\_\\_\\_\n\nWhat comes next?",
+    "options": [
+      "star",
+      "moon",
+      "sun",
+      "nothing"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The pattern repeats two shapes over and over, so after a star comes a moon.\n\n**Key concept:** Repeating patterns",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "math_g1_2026-09-04_04-35_q8",
+    "grade": 1,
+    "subject": "math",
+    "sourceSubtopic": "Algebraic Concepts",
+    "subtopic": "algebraic_concepts",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** There are 12 birds on a fence. Some fly away and 7 are left. Which equation shows how to find how many flew away?",
+    "options": [
+      "\\(12 - \\Box = 7\\)",
+      "\\(12 + \\Box = 7\\)",
+      "\\(7 - \\Box = 12\\)",
+      "\\(\\Box - 12 = 7\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The 12 birds are the whole, and 7 stay, so the missing number is what was taken away: 12 − 7 = 5 birds.\n\n**Key concept:** Writing an equation for a story",
+    "source": "authored",
+    "needsReview": false
   }
 ]

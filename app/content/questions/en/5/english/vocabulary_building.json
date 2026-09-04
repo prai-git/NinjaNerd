@@ -458,5 +458,45 @@
     "explanation": "",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q1",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "The Latin root **aud** means \"to hear.\" Based on this root, what is an **audience**?",
+    "options": [
+      "The printed programme handed out at a performance",
+      "The stage a performance takes place on",
+      "The person who writes a performance",
+      "The people who listen to or watch a performance"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The root *aud* (\"hear\") points to the listeners. The same root gives *audible*, *auditorium* and *audition*.\n\n**Key concept:** Roots unlock unfamiliar words",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "english_g5_2026-09-04_01-55_q2",
+    "grade": 5,
+    "subject": "english",
+    "sourceSubtopic": "Vocabulary Building",
+    "subtopic": "vocabulary_building",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Read the sentence below.\n\n> The path was so **narrow** that the hikers had to walk single file.\n\nWhich word means the OPPOSITE of *narrow* as it is used here?",
+    "options": [
+      "rocky",
+      "steep",
+      "wide",
+      "long"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Narrow* here describes width, so its opposite is *wide*. *Steep*, *rocky* and *long* describe other qualities of a path, not its width.\n\n**Key concept:** An antonym must match the sense used",
+    "source": "authored",
+    "needsReview": false
   }
 ]

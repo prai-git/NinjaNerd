@@ -198,5 +198,305 @@
     "explanation": "**Explanation:**\nAdding books makes the wagon heavier, and a heavier object needs a larger force to move it the\nsame way.",
     "source": "authored",
     "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q14",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A child opens a door by pulling the handle toward herself. Which word describes what she did?",
+    "options": [
+      "A drop",
+      "A push",
+      "A pull",
+      "A spin"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A pull moves something toward you and a push moves it away. Both are forces.\n\n**Key concept:** Pushes and pulls",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q15",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which action is a **push**?",
+    "options": [
+      "Opening a drawer toward you",
+      "Kicking a football forward",
+      "Dragging a sled behind you",
+      "Reeling in a fishing line"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Kicking moves the ball away from you, which is a push. The other three bring something toward the person, so they are pulls.\n\n**Key concept:** Recognising a push",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q16",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A ball is dropped from a table. Which way does it move, and why?",
+    "options": [
+      "Down, because gravity pulls it toward the ground",
+      "Up, because air pushes it",
+      "Sideways, because the table is flat",
+      "It stays still, because nothing pushes it"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Gravity is a pull toward Earth. It acts on everything, which is why dropped objects fall.\n\n**Key concept:** Gravity pulls things down",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q17",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A wagon is given a **harder** push than before on the same path. What happens?",
+    "options": [
+      "It becomes heavier",
+      "It moves slower",
+      "It stops moving",
+      "It moves faster"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A bigger push is a bigger force, and a bigger force makes a bigger change in motion.\n\n**Key concept:** A bigger push, a bigger change",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q18",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A rolling ball hits a wall and bounces back the way it came. What did the wall change?",
+    "options": [
+      "How much the ball weighs",
+      "The colour of the ball",
+      "The direction the ball was moving",
+      "What the ball is made of"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A force can change how fast something moves or which way it moves. Here the wall changed the direction.\n\n**Key concept:** Forces change direction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q19",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A toy car rolls slowly across a thick carpet and stops. Why does it stop?",
+    "options": [
+      "The car runs out of air inside it",
+      "The rough carpet rubs against the wheels and slows the car",
+      "Gravity pulls the car backwards",
+      "The carpet pushes the car forwards"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Rubbing between two surfaces is friction, and friction slows moving things down. A rough surface makes more friction than a smooth one.\n\n**Key concept:** Friction slows things down",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q20",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "On which surface would a marble roll the **farthest** after the same push?",
+    "options": [
+      "A smooth tile floor",
+      "A thick rug",
+      "A patch of sand",
+      "A grassy lawn"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A smooth surface makes the least friction, so the marble keeps moving longer.\n\n**Key concept:** Smooth surfaces make less friction",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q21",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student wants a ball to stop rolling. What should she do?",
+    "options": [
+      "Look at it closely",
+      "Push it harder in the same direction",
+      "Wait for the ball to run out of colour",
+      "Put a force in the opposite direction, such as catching it"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Stopping something moving takes a force acting against its motion, such as a hand, a wall or friction.\n\n**Key concept:** Stopping takes a force too",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q22",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which object is a **source of light**?",
+    "options": [
+      "A silver spoon",
+      "A mirror",
+      "A lit candle",
+      "A white wall"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A source makes its own light. A mirror, a spoon and a wall only bounce light that came from somewhere else.\n\n**Key concept:** Light sources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q23",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Which is a **natural** source of light?",
+    "options": [
+      "A torch",
+      "The Sun",
+      "A lamp",
+      "A computer screen"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The Sun makes its own light and is not made by people. The other three are made by people.\n\n**Key concept:** Natural light sources",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q24",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student shines a torch at a mirror and the light bounces onto the ceiling. What is this called?",
+    "options": [
+      "Reflection",
+      "Melting",
+      "Vibration",
+      "Gravity"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Reflection is light bouncing off a surface. Smooth, shiny surfaces reflect light best.\n\n**Key concept:** Reflection",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q25",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Why can a student see a shadow on a sunny day?",
+    "options": [
+      "Shadows come from the wind",
+      "Her body makes its own dark light",
+      "The ground is always dark in one place",
+      "Her body blocks the sunlight from reaching the ground behind her"
+    ],
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A shadow appears where an object blocks light. Light travels in straight lines and cannot bend around her.\n\n**Key concept:** Shadows form when light is blocked",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q26",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "A student plucks a guitar string and hears a sound. What is the string doing?",
+    "options": [
+      "Growing longer",
+      "Getting hotter and hotter",
+      "Vibrating back and forth quickly",
+      "Changing colour"
+    ],
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Sound is made by vibration. The faster the vibration, the higher the sound.\n\n**Key concept:** Sound comes from vibration",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q27",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "Where does the energy that makes a wind-up toy move come from?",
+    "options": [
+      "The floor the toy sits on",
+      "The spring inside, which stored energy when it was wound up",
+      "The light in the room",
+      "The air the toy pushes"
+    ],
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Winding a spring stores energy in it. Letting it go releases that energy as movement.\n\n**Key concept:** Stored energy makes things move",
+    "source": "authored",
+    "needsReview": false
+  },
+  {
+    "id": "science_g2_2026-09-04_04-00_q28",
+    "grade": 2,
+    "subject": "science",
+    "sourceSubtopic": "Forces & Energy",
+    "subtopic": "forces_energy",
+    "passage": null,
+    "passageTitle": null,
+    "question": "**[stretch]** A student pedals a bicycle up a small hill and it becomes much harder near the top. Why?",
+    "options": [
+      "She must push against gravity, which pulls the bicycle back down the slope",
+      "The bicycle becomes heavier as she climbs",
+      "The wheels become smaller as she climbs",
+      "There is no air at the top of the hill"
+    ],
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Going uphill means working against gravity’s downward pull, so more force is needed than on flat ground. The bicycle’s weight has not changed.\n\n**Key concept:** Working against gravity",
+    "source": "authored",
+    "needsReview": false
   }
 ]
