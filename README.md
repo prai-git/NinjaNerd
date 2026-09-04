@@ -1,7 +1,8 @@
 # NinjaNerd 🥷📚
 
 An educational practice platform for **grades 1–7** — English, Math and Science — plus browser
-games. Students browse freely and sign in only when they start practising.
+games and two Learn-only electronics topics. Students browse freely and sign in only when they
+start practising.
 
 Delivered as a **static site on GitHub Pages** at **[ninjanerd.ai](https://ninjanerd.ai)**.
 
@@ -18,6 +19,12 @@ Delivered as a **static site on GitHub Pages** at **[ninjanerd.ai](https://ninja
   Rules; the web config is public by design and grants nothing on its own.
 - **EmailJS** sends the contact form. There are no payments.
 - Four canvas games ship alongside the practice content.
+- Two **Learn-only** topics teach electronics through animation rather than questions:
+  **Control Logic** (grade 5 up) covers signals, logic gates and truth tables; **Electrical
+  Design** (grade 7) covers the components — resistors, capacitors, inductors, diodes, LEDs,
+  transistors, LDRs and thermistors — then puts them into a real circuit whose microcontroller
+  the student programs by dragging command blocks. Neither records anything, so neither can be
+  failed.
 
 ## Folder structure
 

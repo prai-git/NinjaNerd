@@ -8,7 +8,8 @@ design record** for the implementation as it actually stands.
 ## 1. What this is
 
 NinjaNerd is an educational practice platform for **grades 1–7** in **English, Math and
-Science**, plus browser games and a Learn-only **Control Logic** topic, delivered as a
+Science**, plus browser games and two Learn-only topics — **Control Logic** and
+**Electrical Design** — delivered as a
 **static site on GitHub Pages** at **ninjanerd.ai**.
 
 It was rebuilt from a Flask monolith. The defining constraint of that rebuild: **there is no
@@ -38,7 +39,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 4,175 questions across all 145 subtopics ·
-`npm test` → **330 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
+`npm test` → **352 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
 since 2026-09-03 — is **met by every one of the 145 buckets** as of 2026-09-04, so its test is
 no longer `todo` and a regression now fails the build.
 
@@ -84,12 +85,14 @@ that import the SDK can only be checked as text.
   URL prefix.
   - `index.html` — the public About landing page
   - `pages/` — login, signup, topics, subtopics, explore, learn, practice, statistics,
-    account, audit, contact_us, games, game, control-logic, lesson, privacy, terms
+    account, audit, contact_us, games, game, control-logic, electrical-design, lesson,
+    privacy, terms
   - `js/` — per-page ES modules (see §4)
   - `assets/{css,js,img}/` — site CSS, the three classic scripts, logo
   - `content/questions/en/<grade>/<subject>/<subtopic_id>.json` + `manifest.json`
   - `static/games/` — `geodash`, `mmh`, `tank_attack`, `tejas_thrust`
   - `static/control-logic/` — `common/draw.js` plus one folder per lesson (§5b)
+  - `static/electrical-design/` — `common/{draw,parts}.js` plus one folder per lesson (§5c)
   - `favicon.ico`, `.nojekyll`
   - **`CNAME`** — ships here since the domain went live (2026-09-01). It was staged at the
     repo root as `CNAME.pending` for the whole migration, because Pages reads `app/CNAME` on
@@ -127,6 +130,7 @@ index.html (public)  ── grade ─▶  topics.html?grade=N
               ┌──────────────────────┼──────────────────────┐
               ▼                      ▼                      ▼
  subtopics.html?grade&subject   games.html?grade   control-logic.html?grade
+                                                    electrical-design.html?grade
               │                      │                (grade >= MIN_GRADE)
               ▼                      ▼                      ▼
  explore.html?grade&subject     game.html?slug      lesson.html?lesson&grade
@@ -157,7 +161,9 @@ chose. This is deliberate — an IXL-style "look before you sign up" flow.
 | `subtopics-data.js` | The taxonomy (§5) |
 | `games-data.js` | Game slugs, names, icons, colours |
 | `control-logic-data.js` | The five lessons + `MIN_GRADE`, and the lesson-class contract |
-| `control-logic.js` / `lesson.js` | Lesson list and generic player (mirror `games.js` / `game.js`) |
+| `electrical-design-data.js` | The two lessons + its own `MIN_GRADE = 7` (§5c) |
+| `control-logic.js` / `electrical-design.js` | The two lesson lists (mirror `games.js`) |
+| `lesson.js` | ONE generic player for both topics, routed by `?topic=` (mirrors `game.js`) |
 | `assets/js/layout.js` | Injects one nav + footer string into every page — **a classic script** |
 | `assets/js/auth-state.js` | Display-only cache so the nav paints before Firebase resolves |
 | `assets/js/toast.js` | Replaces Flask flash messages |
@@ -242,6 +248,68 @@ added above it. `control-logic.js` refuses a hand-typed URL below the floor.
   outcome this topic could have.
 
 ---
+
+## 5c. Electrical Design — components, then a circuit the child programs
+
+A sixth tile, grade 7, added 2026-09-04 (prompt 21). Two lessons: **Components** (resistor,
+capacitor, inductor, diode, LED, transistor, LDR, thermistor, and the voltage divider the last
+two rely on) and **Design** (one complete circuit plus a drag-and-drop program).
+
+**It is Control Logic's sibling, not its extension.** Control Logic teaches the digital
+abstraction — signals, gates, truth tables. This teaches the analogue parts underneath it and
+the wiring rules that go with them, which is why it is its own tile rather than three more
+lessons in that one. Same promises: **Learn-only, writes nothing**, no Firestore, no schema or
+rules change, `subtopics-data.js` untouched, `MIN_GRADE` as one exported constant that
+`topics.js` reads. `test_electrical_design.test.js` asserts all of that the way
+`test_control_logic.test.js` does.
+
+**The circuit has to be wireable in real life** — that was the owner's requirement, and it is
+what every design decision in the Design lesson answers to:
+
+| Part on the page | Why it is there |
+|---|---|
+| Each sensor in a **voltage divider** with a fixed 10 kΩ | A resistance is not a voltage. A bare thermistor on a pin is the commonest beginner error, so the divider is drawn in full, both times |
+| A **220 Ω series resistor** on the LED | An LED does not limit its own current |
+| An **NPN transistor** for the fan | A GPIO pin sources ~20 mA; a fan wants ten times that |
+| A **flyback diode** across the motor, cathode to +5 V | A motor is an inductor (lesson 1). It is reverse biased and does nothing until the transistor switches off |
+
+**One shared physics module, `common/parts.js`, and both lessons import it.** The NTC Beta
+equation, the LDR curve, the divider and the LED current live there once. Two copies would let
+one be corrected and the other left wrong, and a child would be taught two different physics in
+two clicks. Both sensors are wired the same way round in both lessons — sensor on the supply
+side — so "hotter" and "brighter" both mean "higher voltage" everywhere.
+
+**The program is drag-and-drop, drawn on the lesson's own canvas.** Nine command blocks
+(`read`, two `if`s, four output writes, `wait`) drop into five slots; the MCU runs them top to
+bottom and loops. `DesignLesson.run()` is a pure interpreter with no canvas, and both the live
+animation and the goal check go through it, so what the child sees and what the lesson says
+about it cannot disagree. An `if` guards **exactly one** line, and a sensor that was never read
+is *no reading*, not a reading of zero — a program that tests A0 without reading it does
+nothing, which is the honest answer.
+
+**Nothing is scored.** The status line describes what the circuit is doing and says so when the
+behaviour matches the goal; there is no failure counterpart, no timer and no attempt count.
+
+**Three things the player needed, all data-driven rather than topic-aware:**
+- a **`topic` URL parameter**. Prompt 21 asked for `lesson.js` to be reused *unchanged*; it
+  could not be, because the manifest and the Back link were named inside it. A registry of two
+  topics was the alternative to forking a near-identical second player. A missing or unknown
+  `topic` still resolves to Control Logic, so every link written before prompt 21 still works.
+- **`canvasHeight`**, because a full schematic plus a block editor does not fit in the 500 px
+  the Control Logic lessons use (Design asks for 690).
+- an input **`type: 'range'`**. A thermistor and an LDR are analogue: the teaching is that the
+  reading *slides*, and a toggle would say the opposite.
+
+**Traps, on top of everything §5b lists:** `ED.npn()` puts its collector and emitter terminals
+at `x + 28`, so the device is drawn 28 px to the LEFT of the branch it switches — line it up
+any other way and the collector wire stops short of the transistor, a gap that still renders
+perfectly. And two nets that touch on screen are one net to a child, so the LDR's tap is routed
+round the outside of the board rather than straight across the thermistor's.
+
+**Verified by rendering, not only by assertion.** The canvas was replayed into SVG and looked
+at, which is what caught the disconnected transistor, a "switch OPEN" label beside an unbroken
+wire, and three labels sitting on top of wires. `npm test` proves the code runs and the
+electronics are right; only a picture proves the picture is right.
 
 ## 6. Content pipeline (dev time only)
 
@@ -459,7 +527,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**330 pass, 0 fail, 0 todo** across 24 test files. Every prompt/task ships with a unit or mock test
+**352 pass, 0 fail, 0 todo** across 25 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
