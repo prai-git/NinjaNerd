@@ -1,21 +1,29 @@
-MIT License
+NinjaNerd
 
-Copyright (c) 2025 Praveen Rai
+Copyright (c) 2025-2026 Praveen Rai
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository is public so that the site it contains can be served from
+GitHub Pages. Publication is not a licence.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+No permission is granted to copy, modify, merge, publish, distribute,
+sublicense, or sell any part of this repository. That covers the source code,
+the educational content the platform serves - the practice questions, answers,
+explanations and lesson material - and the authored sources those are compiled
+from.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The names NinjaNerd, NinjaNerd.ai, NINJANERD and NINJANERD.AI, in any
+capitalisation or spacing, the domain ninjanerd.ai, and the NinjaNerd logo are
+marks used in connection with the service at ninjanerd.ai. Nothing here grants
+any right to use them.
+
+You are welcome to read this code and learn from it. If you would like to use
+any part of it, please ask through the contact form on the site.
+
+PREVIOUS VERSIONS
+
+Until 4 September 2026 this repository carried the MIT License. That grant
+cannot be withdrawn from copies already made under it. It does not apply to
+this version or to any later one.
+
+See also app/pages/terms.html.

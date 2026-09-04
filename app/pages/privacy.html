@@ -30,28 +30,51 @@
             <a href="javascript:history.back()" class="btn btn-light btn-sm"><i class="fas fa-arrow-left me-2"></i>Back</a>
           </div>
           <div class="card-body">
-            <p class="text-muted">Last updated: September 2, 2026</p>
+            <p class="text-muted">Last updated: September 4, 2026</p>
             <p>
-              NinjaNerd.ai ("NinjaNerd", "we", "us", or "our") provides a free educational
-              practice platform for students in grades 1&ndash;7. This Privacy Policy explains what
-              information we collect, how we use it, and the choices available to you and, where
-              applicable, to parents and guardians.
+              NinjaNerd.ai provides a free educational practice platform for students in
+              grades 1&ndash;7. This Privacy Policy explains what information we collect, how we use
+              it, and the choices available to you and, where applicable, to parents and guardians.
+            </p>
+            <!-- The naming clause. Six spellings of the name are in live use across this site,
+                 the domain and the repository; without this only one of them is a defined term,
+                 and the all-caps clauses elsewhere would refer to something undefined. -->
+            <p>
+              In this Policy, <strong>"NinjaNerd"</strong> ("we", "us", or "our") means the service
+              provided at the domain <strong>ninjanerd.ai</strong>, operated by the owner of that
+              domain and of the public source repository named <strong>NinjaNerd</strong>. The
+              service is offered under several forms of the same name &mdash;
+              NinjaNerd, NinjaNerd.ai, NINJANERD, NINJANERD.AI and ninjanerd.ai
+              &mdash; in any capitalisation, spacing or styling. These refer to one and the same service, together with
+              www.ninjanerd.ai and any successor or additional domain we operate.
             </p>
 
             <h2 class="h5 mt-4">1. Information We Collect</h2>
+            <!-- Corrected 2026-09-04 against what the code actually does. Signup asks for an
+                 email, a password and an optional school name; there is no username field, and
+                 the school name (a free-text field that can name a real school) was not listed
+                 at all. See app/js/auth.js signup() and validProfile() in dbmgr/firestore.rules. -->
             <h3 class="h6">1.1 Information You Provide</h3>
             <ul>
-              <li>Account registration details (email address and username)</li>
-              <li>Educational progress and performance data (questions attempted, answers, scores)</li>
-              <li>Any message you send us through our contact form</li>
+              <li>Account registration details: your email address, and a school name if you choose to enter one</li>
+              <li>Educational progress and performance data (questions attempted, the answer given, whether it was correct, and per-topic totals)</li>
+              <li>Any message you send us through our contact form, together with the email address of the account that sent it</li>
             </ul>
+            <!-- Also corrected: this list previously claimed device information and approximate
+                 location. The site has no analytics, no fingerprinting and no geolocation call
+                 anywhere in app/js. Over-stating collection on a COPPA-facing site tells parents
+                 we take more from their children than we do. -->
             <h3 class="h6">1.2 Information Collected Automatically</h3>
             <ul>
-              <li>Usage data and learning activity</li>
-              <li>Device and browser information</li>
-              <li>IP address and general (approximate) location</li>
-              <li>Session and interaction data</li>
+              <li>Your learning activity as you use the platform: the questions you attempt and the answers you give</li>
+              <li>The date and time of your most recent sign-in</li>
+              <li>Sign-in and session information handled by our authentication provider, which processes
+                  technical data such as an IP address in order to keep accounts secure</li>
             </ul>
+            <p>
+              We do not run analytics or advertising, we do not track you across other websites, and
+              we do not collect device fingerprints or location data.
+            </p>
             <p class="mb-0">We do <strong>not</strong> collect payment information &mdash; NinjaNerd is free and has no paid features.</p>
 
             <h2 class="h5 mt-4">2. How We Use Your Information</h2>
@@ -68,7 +91,7 @@
             <h2 class="h5 mt-4">3. How We Share Information</h2>
             <p>We do not sell, trade, or rent your personal information. We share information only in these limited circumstances:</p>
             <ul>
-              <li>With service providers who help us operate the platform (for example, authentication and data-storage providers such as Google Firebase), under obligations of confidentiality and only as needed to provide the service</li>
+              <li>With service providers who help us operate the platform (Google Firebase for authentication and data storage, and EmailJS for delivering messages sent through our contact form), under obligations of confidentiality and only as needed to provide the service</li>
               <li>When required by law, legal process, or to protect our rights, users, or the public</li>
               <li>In connection with a business transfer (such as a merger or acquisition), subject to this Policy</li>
             </ul>
@@ -100,18 +123,27 @@
               please contact us and we will delete it.
             </p>
 
+            <!-- Rewritten 2026-09-04: the site sets no cookies of its own and has no analytics.
+                 What it actually uses is localStorage - Firebase Auth's session record, plus
+                 nn_last_activity / nn_idle_logout for the idle timeout (app/js/idle-timeout.js). -->
             <h2 class="h5 mt-4">6. Cookies and Similar Technologies</h2>
-            <p>We use cookies and similar technologies to:</p>
-            <ul>
-              <li>Keep you signed in and remember your preferences</li>
-              <li>Analyze platform usage and performance</li>
-            </ul>
-            <p class="mb-0">You can control cookies through your browser settings. We do not use advertising or cross-site tracking cookies.</p>
+            <p>
+              NinjaNerd does not set advertising or cross-site tracking cookies, and does not use
+              analytics cookies.
+            </p>
+            <p class="mb-0">
+              To keep you signed in, our authentication provider stores sign-in information in your
+              browser's local storage. We also store a small local record of when you were last
+              active, so that the site can sign you out after a period of inactivity. Clearing your
+              browser storage signs you out and removes both.
+            </p>
 
+            <!-- Each right now names the route that exercises it. There is no in-app delete
+                 control, so promising deletion without saying how would be an empty right. -->
             <h2 class="h5 mt-4">7. Your Rights and Choices</h2>
             <ul>
-              <li>Access and update your personal information</li>
-              <li>Request deletion of your account and associated data</li>
+              <li>Access and update your personal information, from the Account page while you are signed in</li>
+              <li>Request deletion of your account and associated data, by contacting us through the contact form</li>
               <li>File a complaint with a relevant data-protection authority</li>
             </ul>
 
@@ -126,9 +158,10 @@
 
             <h2 class="h5 mt-4">9. Third-Party Services</h2>
             <p class="mb-0">
-              We rely on trusted third-party providers to operate NinjaNerd, including Google Firebase
-              for sign-in (Authentication) and for storing learning progress (Firestore). Your use of
-              these features is also subject to those providers' privacy policies.
+              We rely on trusted third-party providers to operate NinjaNerd: Google Firebase for
+              sign-in (Authentication) and for storing learning progress (Firestore), and EmailJS to
+              deliver messages sent through our contact form. Your use of these features is also
+              subject to those providers' privacy policies.
             </p>
 
             <h2 class="h5 mt-4">10. International Transfers</h2>

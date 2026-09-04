@@ -39,7 +39,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 4,175 questions across all 145 subtopics ·
-`npm test` → **352 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
+`npm test` → **357 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
 since 2026-09-03 — is **met by every one of the 145 buckets** as of 2026-09-04, so its test is
 no longer `todo` and a regression now fails the build.
 
@@ -112,6 +112,56 @@ that import the SDK can only be checked as text.
   source still described a $15.10 monthly PayPal subscription a year after payments were
   dropped. A stale source is worse than none: it is what someone reaches for when rewriting the
   page.
+
+  **The Privacy Policy described a different app than the one that shipped (fixed 2026-09-04).**
+  A correctness review against the code found six statements that were simply untrue, three of
+  them **over-claiming collection** — the worst kind of error on a COPPA-facing site, because it
+  tells a parent we take more from their child than we do:
+  - it listed a **"username"** nobody is ever asked for, and omitted the **school name** that
+    signup *does* collect (`auth.js` `signup()`; `validProfile()` in `firestore.rules` allows
+    exactly `email · school_name · is_admin · created_at · updated_at`);
+  - it claimed **device information** and **approximate location**. There is no analytics, no
+    fingerprinting and no geolocation call anywhere under `app/js/`;
+  - its cookie section described **analytics cookies**. The site sets no cookies of its own; what
+    it uses is `localStorage` — Firebase Auth's session record plus `nn_last_activity` /
+    `nn_idle_logout` for the idle timeout;
+  - **EmailJS was not named** in either the sharing or the third-party section, though every
+    contact message and the sender's account email pass through it (`contact.js`);
+  - it offered a **deletion right with no route**, when there is no in-app delete control and the
+    contact form is the only path.
+
+  Terms §2 also still described only "practice questions, learning content, and educational
+  games", four days after two animation-taught topics shipped.
+
+  **Naming and licensing (owner decisions, 2026-09-04).** Five spellings of the name are in live
+  use — `NinjaNerd`, `NinjaNerd.ai`, `NINJANERD`, `NINJANERD.AI` and `ninjanerd.ai` — and before
+  this only ONE was a defined term, so the all-caps Limitation of Liability clause named
+  something neither document defined. A **naming clause** in both documents now declares all
+  five one service, together with the domain and the repository, and covers unlisted forms with
+  "in any capitalisation, spacing or styling". The two-word `Ninja Nerd` was drafted in and then
+  **deliberately removed** (owner): it appears nowhere on the site, and listing it would have
+  put a never-used spelling on a live page — *spacing* in the catch-all already covers it. The
+  operator is **"the owner of the domain ninjanerd.ai and of the public source repository named
+  NinjaNerd"** rather than the bare brand: that identifies one person, and `LICENSE` names them,
+  so the chain is public without the site carrying it.
+
+  **The repository is ALL RIGHTS RESERVED (2026-09-04); it was MIT until then.** The compiled
+  questions live in the repo, so MIT covered all 4,175 of them while Terms §7 said "may not
+  copy" — and between two published documents the contradiction favours the copier. A
+  code/content split was drafted first and **rejected by the owner**, for a reason specific to
+  this repo: the Control Logic and Electrical Design lessons are **code by location and teaching
+  material by purpose**, so any boundary between them needs redrawing every time a topic is
+  added. Reserving everything removes the boundary instead of maintaining it. `LICENSE` now says
+  publication is not a licence, and states plainly that the earlier MIT grant **cannot be
+  withdrawn from copies already made** — the change binds future copies only.
+
+  Five tests in `test_legal.test.js` hold it: every form listed in all four legal files, a walk
+  of every served file that **fails on a sixth spelling** (Firebase ids and the contact mailbox
+  are excluded — they are identifiers, not ways the service presents itself), the operator line,
+  LICENSE-versus-Terms agreement including that no file still advertises MIT, and the nav brand
+  carrying `&trade;` rather than the `&copy;` it wrongly had (a name is not a copyrightable
+  work; the footer's `&copy;` covers the page content and is correct). No `®` anywhere: no
+  registration exists, and claiming one would be a false statement.
 - **`doc/`** — **entirely git-ignored; nothing under it is tracked.** The plan, the `NN_*`
   prompts, `changelog.md`, `firebase-setup.md`, and `doc/questionnaire/` (the authored
   question source). These are working documents, not reference material — **anything the repo
@@ -527,7 +577,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**352 pass, 0 fail, 0 todo** across 25 test files. Every prompt/task ships with a unit or mock test
+**357 pass, 0 fail, 0 todo** across 25 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,

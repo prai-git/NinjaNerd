@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -120,4 +120,147 @@ test('each legal source and its page share one Last updated date', () => {
     // Editing one without the other is the drift this catches.
     assert.equal(a, b, `data/${rel} and ${page} disagree on Last updated`);
   }
+});
+
+/* ---------------------------------------------------------------------------------------
+   Naming, ownership and licensing (owner decisions, 2026-09-04).
+
+   Five spellings of the name are in live use — NinjaNerd in body copy, NinjaNerd.ai in the
+   opening sentence, NINJANERD in the all-caps liability clause, NINJANERD.AI in the page
+   titles and the footer copyright, and ninjanerd.ai as the domain. Before the naming clause,
+   exactly ONE of those was a defined term, so the clause that caps liability named something
+   neither document defined.
+
+   The second half of this is the licensing split. The repository is MIT-licensed and the
+   compiled questions live inside it, so without an explicit carve-out the Terms' "may not
+   copy" clause contradicts the LICENSE the platform is published under — and a contradiction
+   between two published documents favours whoever is copying. */
+
+/* The five spellings actually in use. The two-word "Ninja Nerd" is deliberately NOT listed
+   (owner, 2026-09-04): it appears nowhere on the site, and listing it would have put a
+   spelling on a live page that has never been used. The clause's "in any capitalisation,
+   spacing or styling" already covers it — spacing is exactly what separates the two forms.
+   The walk below still FAILS if one appears, so adopting a new spelling stays a decision
+   rather than a drift. */
+const NAME_FORMS = ['NinjaNerd', 'NinjaNerd.ai', 'NINJANERD', 'NINJANERD.AI', 'ninjanerd.ai'];
+
+const LEGAL_FILES = [
+  ['data/terms_and_conditions.txt', () => source('terms_and_conditions.txt')],
+  ['data/privacy_policy.txt', () => source('privacy_policy.txt')],
+  ['pages/terms.html', () => read('pages/terms.html')],
+  ['pages/privacy.html', () => read('pages/privacy.html')],
+];
+
+test('both documents define every form of the name that is actually in use', () => {
+  for (const [label, get] of LEGAL_FILES) {
+    // The HTML wraps some forms across a line break, so compare on collapsed whitespace.
+    const text = get().replace(/\s+/g, ' ');
+    for (const form of NAME_FORMS) {
+      assert.ok(text.includes(form), `${label} must list "${form}" in its naming clause`);
+    }
+    assert.match(text, /in any capitalisation, spacing or styling/,
+      `${label} must cover styling variants it does not list one by one`);
+    assert.match(text, /one and the same service/, `${label} must say the names are one service`);
+  }
+});
+
+/* Walk every served file and fail on a SEVENTH spelling. Identifiers that merely contain the
+   name are removed first — the Firebase project id, the emulator id, the npm package name and
+   the contact mailbox are not ways the service presents itself, and folding them into the
+   legal definition would be wrong rather than thorough. */
+test('no spelling of the name escapes the definition', () => {
+  const IDENTIFIERS = /ninjanerd(?:onpi@[\w.]+|-32030|-emulator|-static)/gi;
+  const found = new Map();
+
+  const walk = (dir) => {
+    for (const entry of readdirSync(dir)) {
+      const full = join(dir, entry);
+      if (statSync(full).isDirectory()) { walk(full); continue; }
+      if (!/\.(html|js|css|json|txt|md)$/.test(entry)) continue;
+      const text = readFileSync(full, 'utf8').replace(IDENTIFIERS, '');
+      for (const m of text.matchAll(/ninja ?nerd(?:\.ai)?/gi)) {
+        if (!found.has(m[0])) found.set(m[0], full.slice(repoRoot.length + 1));
+      }
+    }
+  };
+  walk(appDir);
+
+  const uncovered = [...found].filter(([form]) => !NAME_FORMS.includes(form));
+  assert.deepEqual(uncovered, [],
+    'a spelling of the name is served that neither legal document defines — add it to '
+    + 'NAME_FORMS here and to the naming clause in all four legal files');
+});
+
+test('the Terms name an identifiable operator, not just the brand', () => {
+  /* "operated by NinjaNerd" identifies nobody: there is no entity of that name, so who the
+     liability cap protects and who the indemnity runs to was left to inference. Pointing at
+     the owner of the domain and the repository identifies exactly one person, and the
+     repository's LICENSE names them — the chain is public without the site carrying it. */
+  for (const text of [source('terms_and_conditions.txt').replace(/\s+/g, ' '),
+    read('pages/terms.html').replace(/\s+/g, ' ')]) {
+    assert.match(text,
+      /operated by the owner of the domain ninjanerd\.ai and of the public source repository named NinjaNerd/,
+      'the Terms must identify the operator by the assets they own');
+  }
+});
+
+test('the Terms and the LICENSE both reserve everything, and neither licenses the name', () => {
+  /* Owner decision, 2026-09-04: the repository is ALL RIGHTS RESERVED. It had carried MIT since
+     the 2025 Raspberry Pi build, which meant the 4,175 compiled questions under app/content/
+     were MIT-licensed while Terms section 7 said "may not copy" — and between two published
+     documents the contradiction favours whoever is copying.
+
+     A code/content split was drafted first and rejected, for a reason specific to this repo: the
+     Control Logic and Electrical Design lessons are code by location and teaching material by
+     purpose, so any boundary drawn between them needs redrawing every time a topic is added.
+     Reserving everything removes the boundary rather than maintaining it. */
+  const licence = readFileSync(join(repoRoot, 'LICENSE'), 'utf8');
+  assert.match(licence, /All rights reserved\./);
+  assert.match(licence, /Publication is not a licence/,
+    'the LICENSE must say that a public repo is not a grant');
+  assert.match(licence, /No permission is granted to copy/);
+  assert.match(licence, /grants\s+any right to use them/,
+    'the LICENSE must say it does not license the name');
+  // First published 2025 on the Raspberry Pi build; authored continuously since.
+  assert.match(licence, /Copyright \(c\) 2025-2026/, 'the range must keep the 2025 origin');
+  /* An MIT grant already made cannot be withdrawn. Saying so is not a formality — it is the
+     honest statement of what this change does and does not do, and it stops a later reader
+     concluding the earlier grant was revoked. */
+  assert.match(licence, /Until 4 September 2026 this repository carried the MIT License/);
+  assert.match(licence, /cannot be withdrawn from copies already made/);
+  // No stray MIT grant text left behind: the permission paragraph must be gone.
+  assert.ok(!/Permission is hereby granted, free of charge/.test(licence),
+    'the MIT grant paragraph must not survive alongside an all-rights-reserved notice');
+
+  for (const text of [source('terms_and_conditions.txt').replace(/\s+/g, ' '),
+    read('pages/terms.html').replace(/\s+/g, ' ')]) {
+    assert.match(text, /may not copy, distribute, or create derivative works/,
+      'the Terms must reserve the Service');
+    assert.match(text, /That publication is not a license/,
+      'the Terms must say publishing the repository is not a grant');
+    assert.match(text, /are marks used in connection with this Service/,
+      'the Terms must claim the name, domain and logo as marks');
+    // Unregistered rights only: a registration symbol here would be a false claim.
+    assert.ok(!text.includes('\u00ae'), 'the Terms must not use the registered-trademark symbol');
+  }
+
+  // Nothing anywhere may still advertise the repository as MIT-licensed.
+  for (const [label, text] of [['README.md', readFileSync(join(repoRoot, 'README.md'), 'utf8')],
+    ['data/terms_and_conditions.txt', source('terms_and_conditions.txt')],
+    ['pages/terms.html', read('pages/terms.html')]]) {
+    assert.ok(!/MIT Licen[cs]e/.test(text.replace(/carried the MIT License/g, '')),
+      `${label} still offers the repository under the MIT License`);
+  }
+});
+
+test('the nav brand uses the trademark symbol, not the copyright symbol', () => {
+  /* A name is not a copyrightable work, so NINJANERD.AI&copy; was the wrong symbol. The
+     footer's "&copy; <year> NINJANERD.AI. All rights reserved." is correct and stays — that
+     one covers the site's content rather than the name. */
+  const layout = readFileSync(join(appDir, 'assets/js/layout.js'), 'utf8');
+  assert.match(layout, /NINJANERD\.AI<sup>&trade;<\/sup>/, 'the nav brand should carry &trade;');
+  assert.doesNotMatch(layout, /NINJANERD\.AI<sup>&copy;<\/sup>/, 'a name cannot be copyrighted');
+  assert.match(layout, /&copy; ' \+ year \+ ' NINJANERD\.AI\. All rights reserved\./,
+    'the footer copyright line is correct and must stay');
+  assert.ok(!layout.includes('&reg;'), 'no registration exists, so &reg; would be a false claim');
 });

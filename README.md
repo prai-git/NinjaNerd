@@ -35,7 +35,7 @@ app/                  # the published site — the ONLY folder served
 ├── js/               #   page logic (ES modules)
 ├── assets/           #   css, img, shared js
 ├── content/          #   compiled question JSON + manifest
-└── static/games/     #   geodash · mmh · tank_attack · tejas_thrust
+└── static/           #   games/ · control-logic/ · electrical-design/
 
 dbmgr/                # Firestore security rules + indexes
 tools/                # dev-time content build scripts
@@ -106,4 +106,6 @@ which redirects to the apex. `app/CNAME` is what tells Pages the domain.
 
 ## License
 
-Released under the **MIT License** — see [LICENSE](LICENSE).
+**All rights reserved** — see [LICENSE](LICENSE). This repository is public so the site can
+be served from GitHub Pages; publication is not a licence. You are welcome to read the code;
+please ask before using any of it.

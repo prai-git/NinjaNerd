@@ -1,17 +1,19 @@
 NINJANERD.AI EDUCATIONAL PLATFORM
 TERMS AND CONDITIONS OF SERVICE
 
-LAST UPDATED: September 2, 2026
+LAST UPDATED: September 4, 2026
 
 PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THE NINJANERD EDUCATIONAL PLATFORM.
 
-These Terms and Conditions ("Terms") govern your access to and use of the NinjaNerd.ai educational platform (the "Service"), operated by NinjaNerd ("NinjaNerd", "we", "us", or "our").
+These Terms and Conditions ("Terms") govern your access to and use of the NinjaNerd.ai educational platform (the "Service"), operated by the owner of the domain ninjanerd.ai and of the public source repository named NinjaNerd ("NinjaNerd", "we", "us", or "our").
+
+In these Terms, "NinjaNerd" means the service provided at the domain ninjanerd.ai. The service is offered under several forms of the same name - NinjaNerd, NinjaNerd.ai, NINJANERD, NINJANERD.AI and ninjanerd.ai - in any capitalisation, spacing or styling. These refer to one and the same service, together with www.ninjanerd.ai, any successor or additional domain we operate, and the public source repository named NinjaNerd.
 
 1. ACCEPTANCE OF TERMS
 By accessing or using the Service, you agree to be bound by these Terms and by our Privacy Policy. If you do not agree, please do not use the Service. Because the Service is intended for children in grades 1-7, a parent, guardian, or school must review and accept these Terms on the child's behalf.
 
 2. DESCRIPTION OF SERVICE
-NinjaNerd is a FREE educational platform that provides practice questions, learning content, and educational games for students across grades 1-7. The Service has NO PAID FEATURES, SUBSCRIPTIONS, OR PAYMENTS.
+NinjaNerd is a FREE educational platform that provides practice questions, learning content, educational games, and animated electronics lessons for students across grades 1-7. The Service has NO PAID FEATURES, SUBSCRIPTIONS, OR PAYMENTS.
 
 3. ELIGIBILITY AND PARENTAL CONSENT
 - The Service is designed for children and must be used under the supervision of a parent, guardian, or school.
@@ -41,7 +43,11 @@ Practice questions, answers, and learning materials are provided for general edu
 - We reserve the right to modify, suspend, or discontinue any part of the Service, or impose limits on features, at any time without notice.
 
 7. INTELLECTUAL PROPERTY
-All content, features, and functionality of the Service are owned by NinjaNerd or its licensors and are protected by copyright, trademark, and other intellectual property laws. You may use the Service for personal, non-commercial educational purposes only and may not copy, distribute, or create derivative works without our written permission.
+The Service and everything in it - the practice questions, answers, explanations, lesson content and other learning materials, together with the software that delivers them - are owned by NinjaNerd or its licensors and are protected by copyright and other intellectual property laws. You may use the Service for personal, non-commercial educational purposes only, and may not copy, distribute, or create derivative works without our written permission.
+
+The platform's source is published in the public repository named NinjaNerd so that the site can be served from it. That publication is not a license and grants no rights beyond reading. See the LICENSE file in that repository.
+
+"NinjaNerd", in each of the forms listed above, together with the domain ninjanerd.ai and the NinjaNerd logo, are marks used in connection with this Service. Nothing in these Terms or in the publication of that repository grants you any right to use them, or to present another service as NinjaNerd.
 
 8. THIRD-PARTY SERVICES
 The Service relies on third-party providers (for example, Google Firebase for sign-in and data storage). Your use of those features is also subject to the applicable third party's terms and privacy policies, and we are not responsible for third-party services.
@@ -80,4 +86,4 @@ BY USING NINJANERD.AI, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE
 
 ---
 
-Copyright (c) 2025 Praveen Rai. Released under the MIT License; see LICENSE.
+Copyright (c) 2025-2026 Praveen Rai. All rights reserved; see LICENSE and section 7.
