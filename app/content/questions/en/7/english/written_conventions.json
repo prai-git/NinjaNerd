@@ -7,15 +7,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses commas correctly in a series?",
+    "question": "Which sentence is capitalised correctly?",
     "options": [
-      "We packed water, maps, and flashlights.",
-      "We packed, water maps and flashlights.",
-      "We packed water maps, and flashlights.",
-      "We, packed water, maps and flashlights."
+      "\"We drove south along the coast until we reached the south, where the accents changed.\"",
+      "\"We drove South along the coast until we reached the south, where the accents changed.\"",
+      "\"We drove South along the coast until we reached the South, where the accents changed.\"",
+      "\"We drove south along the coast until we reached the South, where the accents changed.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Commas correctly separate items in a series, including the final item.\n**Key concept:** Commas in a series.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A compass direction is lower case; a named region is a proper noun and takes a capital. The sentence uses one of each, in that order.\n\n**Key concept:** Directions versus regions",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly punctuates dialogue?",
+    "question": "Which sentence uses apostrophes correctly?",
     "options": [
-      "\"We should leave now\", said Omar.",
-      "\"We should leave now,\" said Omar.",
-      "\"We should leave now\", Said Omar.",
-      "\"We should leave now.\" said Omar."
+      "\"The witness’s accounts differed, but the judges’ ruling was unanimous in the panel’s view.\"",
+      "\"The witnesses accounts differed, but the judges ruling was unanimous in the panels view.\"",
+      "\"The witnesses’ accounts differed, but the judge’s ruling was unanimous in the panel’s view.\"",
+      "\"The witnesses’s accounts differed, but the judge’s ruling was unanimous in the panels’ view.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The comma belongs inside the quotation marks before the attribution.\n**Key concept:** Dialogue punctuation.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A plural noun ending in *s* takes an apostrophe after the *s* (*witnesses’*); singular nouns take *’s* (*judge’s*, *panel’s*). The third option changes the meaning by making the witness singular and the judge plural.\n\n**Key concept:** Possessive apostrophes",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an apostrophe correctly?",
+    "question": "Which sentence punctuates the introductory element correctly?",
     "options": [
-      "The two teams' schedules overlapped.",
-      "The two team's schedules overlapped.",
-      "The two teams schedules overlapped.",
-      "The two team's' schedules overlapped."
+      "\"After the storm had passed the crews began clearing the road.\"",
+      "\"After the storm had passed, the crews began clearing the road.\"",
+      "\"After, the storm had passed the crews began clearing the road.\"",
+      "\"After the storm, had passed the crews began clearing the road.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The apostrophe follows the plural noun teams to show shared possession.\n**Key concept:** Plural possessives.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An introductory adverbial clause is followed by a comma at the point where the main clause begins. The other placements cut the clause in the wrong place.\n\n**Key concept:** Commas after introductory clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which title is capitalized correctly?",
+    "question": "Which sentence uses commas correctly with a non-essential clause?",
     "options": [
-      "the river between us",
-      "The River Between Us",
-      "The river Between us",
-      "THE RIVER between US"
+      "\"My aunt, who lives in Galveston, sent the photographs.\"",
+      "\"My aunt who lives in Galveston, sent the photographs.\"",
+      "\"My aunt, who lives in Galveston sent the photographs.\"",
+      "\"My aunt who lives in Galveston sent the photographs, yesterday.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Major words in a title are capitalized.\n**Key concept:** Title capitalization.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A non-essential clause is enclosed by a comma at each end. Using one comma leaves the clause half-fenced.\n\n**Key concept:** Paired commas around non-essential clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a colon correctly?",
+    "question": "Which sentence is spelled correctly?",
     "options": [
-      "Bring: gloves, goggles, and boots.",
-      "Bring the following items: gloves, goggles, and boots.",
-      "Bring the following: items gloves, goggles, and boots.",
-      "Bring the: gloves, goggles, and boots."
+      "\"The committee received a seperate recommendation from each departement.\"",
+      "\"The committee recieved a seperate recommendation from each department.\"",
+      "\"The committe received a separate recomendation from each department.\"",
+      "\"The committee received a separate recommendation from each department.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** A complete clause precedes the colon that introduces the list.\n**Key concept:** Colons.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Received* follows the i-before-e rule’s exception after *c*; *separate* has an *a* in the middle; *recommendation* has one *c* and two *m*s.\n\n**Key concept:** Frequently misspelled words",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which spelling is correct?",
+    "question": "A student names a novel and one of her own essays in the same sentence. Which formatting follows standard convention?",
     "options": [
-      "independant",
-      "independent",
-      "independint",
-      "indepedent"
+      "Both titles in italics, since both are complete works",
+      "The novel’s title in quotation marks and the essay’s title in italics",
+      "The novel’s title in italics and the essay’s title in quotation marks",
+      "Both titles in quotation marks, since both have authors"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Independent is spelled with -ent at the end.\n**Key concept:** Spelling.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Long, self-contained works — novels, films, albums — are italicised. Short works published within something larger — essays, articles, poems, songs — take quotation marks. The two must be distinguished, not styled alike.\n\n**Key concept:** Titles of long and short works",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which parenthetical citation best follows a quotation from page 18 of an article by Diaz?",
+    "question": "Which sentence uses a comma correctly before a coordinating conjunction?",
     "options": [
-      "(Diaz 18)",
-      "(page 18 Diaz)",
-      "(18, Diaz)",
-      "(Article 18)"
+      "\"The road was closed for repairs so the bus took the long route.\"",
+      "\"The road was closed for repairs, so the bus took the long route.\"",
+      "\"The road was closed for repairs, and took the long route.\"",
+      "\"The road, was closed for repairs so the bus took the long route.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The citation identifies the author and the page where the quotation appears.\n**Key concept:** Parenthetical citation.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A comma goes before a coordinating conjunction that joins two independent clauses. The second option has no second subject, so no comma is needed there.\n\n**Key concept:** Commas joining independent clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a dash most effectively?",
+    "question": "Which sentence capitalises the title correctly?",
     "options": [
-      "The answer - was hidden in the map.",
-      "The answer was hidden - in the map.",
-      "The answer was hidden in the map—a map nobody had opened.",
-      "The answer was hidden in the map -nobody had opened."
+      "\"Dr Alvarez, the district superintendent, will address the board; Superintendent Alvarez has served since 2019.\"",
+      "\"Dr Alvarez, the District Superintendent, will address the board; superintendent Alvarez has served since 2019.\"",
+      "\"dr Alvarez, the district superintendent, will address the board; Superintendent Alvarez has served since 2019.\"",
+      "\"Dr Alvarez, the District Superintendent, will address the Board; Superintendent Alvarez has served since 2019.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The dash adds an emphatic explanatory detail after a complete statement.\n**Key concept:** Dashes.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A title is capitalised when it precedes a name and lower case when it stands as a description after one. *Board* here is a common noun.\n\n**Key concept:** Capitalising titles of office",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses *its*?",
+    "question": "Which sentence uses the serial comma consistently?",
     "options": [
-      "The machine lost it's instruction manual.",
-      "The machine lost its instruction manual.",
-      "The machine lost its' instruction manual.",
-      "The machine lost it is instruction manual."
+      "\"The kit, contained a compass, a whistle, and a folded map.\"",
+      "\"The kit contained a compass a whistle, and a folded map.\"",
+      "\"The kit contained a compass, a whistle and, a folded map.\"",
+      "\"The kit contained a compass, a whistle, and a folded map.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Its is the possessive form and does not use an apostrophe.\n**Key concept:** Its and it's.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Items in a series are separated by commas, with the last comma before *and* in the serial style. The other options misplace or omit them.\n\n**Key concept:** Commas in a series",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses quotation marks correctly for a short story title?",
+    "question": "Which sentence uses numbers correctly in formal writing?",
     "options": [
-      "We read \"The Last Leaf\" in class.",
-      "We read The Last Leaf in class.",
-      "We read 'The Last Leaf' in class.",
-      "We read [The Last Leaf] in class."
+      "\"23 students enrolled, and 147 applied.\"",
+      "\"23 students enrolled, and one hundred forty-seven applied.\"",
+      "\"Twenty-three students enrolled, and 147 applied.\"",
+      "\"Twenty-three students enrolled, and one hundred forty-seven applied.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Short story titles are placed in quotation marks.\n**Key concept:** Titles of short works.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Formal style spells out numbers that can be written in one or two words and that begin a sentence, and uses figures for longer ones. Only the first follows both rules.\n\n**Key concept:** Numbers in formal prose",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a comma after an introductory phrase?",
+    "question": "Which sentence uses a hyphen correctly?",
     "options": [
-      "In the early morning the harbor was quiet.",
-      "In the early morning, the harbor was quiet.",
-      "In, the early morning the harbor was quiet.",
-      "In the early, morning the harbor was quiet."
+      "\"She turned in a well researched report on a well-known dispute.\"",
+      "\"She turned in a well-researched report on a well-known dispute.\"",
+      "\"She turned in a report that was well-researched on a dispute that was well-known.\"",
+      "\"She turned in a well-researched-report on a well-known-dispute.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The comma follows the introductory prepositional phrase.\n**Key concept:** Introductory phrases.",
+    "explanation": "**Explanation:** A compound modifier is hyphenated when it comes before the noun it modifies and left open when it follows the verb. Only the first option places both before nouns and hyphenates both.\n\n**Key concept:** Hyphenating compound modifiers",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly forms a plural possessive?",
+    "question": "Which sentence is punctuated correctly?",
     "options": [
-      "The musicians instruments were polished.",
-      "The musician's instruments were polished.",
-      "The musicians' instruments were polished.",
-      "The musicians's instruments were polished."
+      "\"Yes, the deadline has moved; no, the requirements have not.\"",
+      "\"Yes the deadline has moved, no the requirements have not.\"",
+      "\"Yes, the deadline has moved, no, the requirements have not.\"",
+      "\"Yes; the deadline has moved, no; the requirements have not.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The apostrophe after musicians shows possession by more than one musician.\n**Key concept:** Plural possessives.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *Yes* and *no* are set off by commas, and the two independent clauses need a stronger break than a comma — here a semicolon.\n\n**Key concept:** Punctuating short introductory words",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses parentheses appropriately?",
+    "question": "Which citation is formatted correctly for a work by one author?",
     "options": [
-      "The conference begins (at noon.",
-      "The conference begins at noon (in the auditorium).",
-      "The conference (begins at noon in the auditorium.",
-      "The conference begins) at noon (in the auditorium."
+      "*Rivers and Roads* by Adaeze Okoye, published 2021 by Meridian Press.",
+      "Adaeze Okoye, Rivers and Roads, Meridian Press 2021",
+      "Okoye, Adaeze: \"Rivers and Roads\", Meridian Press. 2021",
+      "Okoye, Adaeze. *Rivers and Roads*. Meridian Press, 2021."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The parenthetical location is additional, nonessential information.\n**Key concept:** Parentheses.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A works-cited entry inverts the author’s name, italicises the book title, and separates publisher and year with a comma. The alternatives lose the inversion, mark a book with quotation marks, or write a sentence instead of an entry.\n\n**Key concept:** Citation format",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which word is spelled correctly?",
+    "question": "Which sentence spells the plural correctly?",
     "options": [
-      "accomodate",
-      "accommodate",
-      "acommodate",
-      "accomadate"
+      "\"Both analysis relied on data from three laboratories.\"",
+      "\"Both analysises relied on data from three laboratorys.\"",
+      "\"Both analyses relied on data from three laboratories.\"",
+      "\"Both analyses relied on data from three laboratorys.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Accommodate has double c and double m.\n**Key concept:** Spelling.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The plural of *analysis* is *analyses*, and a noun ending in a consonant plus *y* takes *-ies*.\n\n**Key concept:** Irregular and rule-governed plurals",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a hyphen correctly?",
+    "question": "Which sentence uses quotation marks and end punctuation correctly?",
     "options": [
-      "The well known author visited.",
-      "The well-known author visited.",
-      "The well - known author visited.",
-      "The wellknown author visited."
+      "\"The sign read ‘No entry after dark’, but the gate stood open.\"",
+      "\"The sign read ‘No entry after dark,’ but the gate stood open.\"",
+      "\"The sign read ‘No entry after dark.’ but the gate stood open.\"",
+      "\"The sign read No entry after dark, but the gate stood open.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A compound modifier before a noun is hyphenated.\n**Key concept:** Hyphens.",
+    "explanation": "**Explanation:** In American usage the comma goes inside the closing quotation mark, and the sentence continues rather than stopping.\n\n**Key concept:** Commas with quotation marks",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is the best paraphrase practice?",
+    "question": "Which sentence capitalises the seasons and months correctly?",
     "options": [
-      "Copy a sentence and change two words.",
-      "Restate a source's idea in new wording and cite it.",
-      "Use a source without naming it.",
-      "Replace quotations with opinions."
+      "\"Registration opens in August and closes before winter.\"",
+      "\"Registration opens in august and closes before Winter.\"",
+      "\"Registration opens in August and closes before Winter.\"",
+      "\"Registration opens in august and closes before winter.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** A paraphrase uses original wording while crediting the source of the idea.\n**Key concept:** Paraphrasing.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Months are proper nouns and take capitals; seasons are common nouns and do not.\n\n**Key concept:** Capitalising time words",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an ellipsis?",
+    "question": "Which sentence uses an apostrophe correctly in a contraction?",
     "options": [
-      "The witness said, \"I saw the car . . . turn north.\"",
-      "The witness said, \"I saw the car...turn north.\"",
-      "The witness said, \"I saw the car . . .turn north.\"",
-      "The witness said, \"I saw the car.... turn north.\""
+      "\"There certain that the results won’t change who’s eligible.\"",
+      "\"Their certain that the results wont change whose eligible.\"",
+      "\"They’re certain that the results won’t change whose eligible.\"",
+      "\"They’re certain that the results won’t change who’s eligible.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The spaced ellipsis shows omitted or trailing words within the quotation.\n**Key concept:** Ellipses.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *They’re* is *they are*, *won’t* is *will not*, and *who’s* is *who is*. *Whose* is a possessive and does not fit.\n\n**Key concept:** Contractions versus possessives",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses capitalization correctly?",
+    "question": "Which sentence is punctuated correctly with an appositive?",
     "options": [
-      "We visited the Alamo in San Antonio.",
-      "We visited the alamo in San antonio.",
-      "We visited the Alamo in san antonio.",
-      "We visited the alamo in San Antonio."
+      "\"The keynote speaker, a marine biologist from Corpus Christi arrived late.\"",
+      "\"The keynote speaker a marine biologist from Corpus Christi arrived late.\"",
+      "\"The keynote speaker, a marine biologist from Corpus Christi, arrived late.\"",
+      "\"The keynote speaker a marine biologist, from Corpus Christi, arrived late.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The monument and city name are proper nouns.\n**Key concept:** Capitalization.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** An appositive that adds non-essential information is enclosed by commas at both ends.\n\n**Key concept:** Commas around appositives",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a comma correctly with a direct address?",
+    "question": "Which sentence uses capitals correctly for a school subject?",
     "options": [
-      "Maya please close the window.",
-      "Maya, please close the window.",
-      "Maya please, close the window.",
-      "Maya, please, close the window."
+      "\"She takes History, Biology, and spanish this term.\"",
+      "\"She takes history, biology, and Spanish this term.\"",
+      "\"She takes History, Biology, and Spanish this term.\"",
+      "\"She takes history, biology, and spanish this term.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A direct address is separated from the rest of the sentence by a comma.\n**Key concept:** Direct address.",
+    "explanation": "**Explanation:** Subject names are lower case unless they derive from a proper noun — languages always take a capital.\n\n**Key concept:** Capitalising school subjects",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses the correct homophone?",
+    "question": "Which sentence spells the possessive of a name ending in *s* acceptably?",
     "options": [
-      "Their going to present first.",
-      "They're going to present first.",
-      "There going to present first.",
-      "Theyre going to present first."
+      "\"That is Ms Rivers’s office, next to the Joneses’ classroom.\"",
+      "\"That is Ms Rivers’ office, next to the Jones’s classroom.\"",
+      "\"That is Ms Rivers’s office, next to the Jones’ classroom.\"",
+      "\"That is Ms Rivers office, next to the Joneses classroom.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** They're means they are and fits the sentence.\n**Key concept:** Homophones and contractions.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A singular name ending in *s* takes *’s* in most style guides; the plural of *Jones* is *Joneses*, whose possessive adds only an apostrophe.\n\n**Key concept:** Possessives of names ending in s",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which entry gives the most useful source information for a research notebook?",
+    "question": "Which sentence handles the abbreviation correctly?",
     "options": [
-      "\"Interesting website\"",
-      "Title, author, publication date, URL, and access date",
-      "A copied paragraph without a link",
-      "Only the writer's first name"
+      "\"The N.W.S. (National Weather Service) issued a warning; the N.W.S. lifted it at noon.\"",
+      "\"The NWS issued a warning; the National Weather Service (NWS) lifted it at noon.\"",
+      "\"The National Weather Service issued a warning; the NWS lifted it at noon.\"",
+      "\"The National Weather Service (NWS) issued a warning; the NWS lifted it at noon.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Complete publication information lets a writer locate and cite the source accurately.\n**Key concept:** Research documentation.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Spell the term out on first use with the abbreviation in parentheses, then use the abbreviation. Introducing it after first use, or never introducing it, leaves the reader guessing.\n\n**Key concept:** Introducing abbreviations",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses brackets in a quotation?",
+    "question": "Which sentence spells all four abstract nouns correctly?",
     "options": [
-      "\"They [the volunteers] arrived before dawn,\" the report states.",
-      "\"They (the volunteers) arrived before dawn,\" the report states.",
-      "\"They {the volunteers} arrived before dawn,\" the report states.",
-      "\"They -the volunteers- arrived before dawn,\" the report states."
+      "\"There argument was pursuasive, though the evidence was not necessarily conclusive.\"",
+      "\"Their arguement was persuasive, though the evidence was not neccessarily conclusive.\"",
+      "\"Their argument was persuasive, though the evidence was not necessarily conclusive.\"",
+      "\"Their argument was persuasive, though the evidance was not necesarily conclusive.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Brackets show words added within a quotation for clarity.\n**Key concept:** Brackets in quotations.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Argument* drops the *e* of *argue*; *persuasive* begins *per-*; *necessarily* has one *c* and two *s*s; *evidence* ends *-ence*.\n\n**Key concept:** Spelling patterns in abstract nouns",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which word is spelled correctly?",
+    "question": "Which sentence uses a comma correctly with a date and place?",
     "options": [
-      "privilege",
-      "priviledge",
-      "privelege",
-      "privelige"
+      "\"The hearing was held on 14 March, 2024 in Austin Texas and lasted two days.\"",
+      "\"The hearing was held on 14 March 2024, in Austin, Texas, and lasted two days.\"",
+      "\"The hearing was held on 14 March 2024 in Austin, Texas and lasted two days.\"",
+      "\"The hearing was held on 14, March 2024, in Austin, Texas and lasted two days.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Privilege is spelled with -ilege at the end.\n**Key concept:** Spelling.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A city and its state are separated by a comma, and a comma also closes the state before the sentence continues. In the day-month-year form no comma falls inside the date.\n\n**Key concept:** Commas in dates and place names",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a comma before a coordinating conjunction correctly?",
+    "question": "A writer is discussing the word *ubiquitous* itself rather than using it in a sentence. How should the word be presented?",
     "options": [
-      "The wind rose, and the sailors reefed the sails.",
-      "The wind rose and, the sailors reefed the sails.",
-      "The wind, rose and the sailors reefed the sails.",
-      "The wind rose, and, the sailors reefed the sails."
+      "In italics, because a word named as a word is italicised",
+      "In bold, because it is the most important word in the sentence",
+      "In capital letters, to show that it is a technical term",
+      "With no special formatting, since italics are reserved for titles"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The comma precedes and when it joins two independent clauses.\n**Key concept:** Compound-sentence punctuation.",
+    "explanation": "**Explanation:** Italics mark a word being mentioned rather than used — the same convention that distinguishes talking about *cat* from talking about a cat. Bold marks emphasis, and capitals are not a formatting convention for this purpose.\n\n**Key concept:** Italics for words used as words",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "written_conventions",
     "passage": null,
     "passageTitle": null,
-    "question": "Why must a writer cite a source after paraphrasing it?",
+    "question": "Which sentence capitalises the direct quotation correctly?",
     "options": [
-      "Paraphrasing makes the information private.",
-      "The original idea still belongs to the source.",
-      "Citations make every source correct.",
-      "Paraphrases cannot contain facts."
+      "\"The inspector said, The seal was already broken when we arrived.\"",
+      "\"The inspector said, ‘the seal was already broken when we arrived.’\"",
+      "\"The inspector said ‘The seal was already broken when we arrived.’\"",
+      "\"The inspector said, ‘The seal was already broken when we arrived.’\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Changing wording does not change who first developed the idea.\n**Key concept:** Attribution.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A quoted full sentence begins with a capital and is introduced by a comma and enclosed in quotation marks.\n\n**Key concept:** Capitalising direct quotations",
     "source": "authored",
     "needsReview": false
   }

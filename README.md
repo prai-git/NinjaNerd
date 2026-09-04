@@ -8,6 +8,7 @@ Delivered as a **static site on GitHub Pages** at **[ninjanerd.ai](https://ninja
 ## Overview
 
 - **4,175 questions** across 3 subjects × 7 grades, covering all 145 subtopics — every one at or above the 25-question floor.
+- Every bucket is also checked for **variety**, not just count: at least 75% distinct question shapes, and no single shape above a quarter of the bucket. Practice serves the whole bucket, so a set of near-identical items would read as one question repeated.
 - **Learn and Practice** are two modes over the same material; every grade has both.
 - Questions are authored offline and compiled to JSON at **dev time**. The browser loads the
   JSON, shuffles question and option order, and marks answers **client-side** — there is no

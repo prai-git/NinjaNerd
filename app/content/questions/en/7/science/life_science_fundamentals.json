@@ -7,15 +7,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "In a food web, rabbits eat grass and foxes eat rabbits. If rabbits decline sharply, what occurs first?",
+    "question": "Why do muscle cells contain far more mitochondria than skin cells do?",
     "options": [
-      "Foxes have less available food.",
-      "Grass cannot photosynthesize.",
-      "Foxes immediately become producers.",
-      "All insects disappear."
+      "Muscle contraction demands a continuous supply of usable energy, which mitochondria release from food.",
+      "Muscle cells are larger and need more organelles to fill the space.",
+      "Mitochondria store the protein that muscles are built from.",
+      "Skin cells use the nucleus instead of mitochondria for energy."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Ecosystems, cells, and inherited variation",
+    "explanation": "**Explanation:** Organelle counts reflect a cell’s job. Cells with high energy demand carry more mitochondria; the relationship is functional, not a matter of size or storage.\n\n**Key concept:** Structure follows function in cells",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "In a meadow food chain, grass is eaten by grasshoppers, which are eaten by frogs. What role does the grass play?",
+    "question": "Which structure is present in a plant cell but **not** in an animal cell?",
     "options": [
-      "Decomposer.",
-      "Primary consumer.",
-      "Secondary consumer.",
-      "Producer."
+      "Mitochondria",
+      "A cell membrane",
+      "A nucleus",
+      "A cell wall"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Producers make their own food using sunlight and form the base of the chain.\n\n**Key concept:** Food chains",
+    "explanation": "**Explanation:** Plant cells have a rigid cellulose wall outside the membrane, which gives support and shape. The other three are found in both.\n\n**Key concept:** Plant and animal cell structures",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Why is only about ten percent of the energy at one trophic level passed to the next?",
+    "question": "Which sequence orders the levels of organisation from smallest to largest?",
     "options": [
-      "Predators refuse most of their food.",
-      "Energy is destroyed by consumers.",
-      "Most energy is used for life processes or lost as heat.",
-      "Energy converts into new matter."
+      "Tissue, cell, organ, organism, organ system",
+      "Cell, organ, tissue, organ system, organism",
+      "Cell, tissue, organ, organ system, organism",
+      "Organ, cell, tissue, organ system, organism"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Organisms use most captured energy to live and move; only a small share is stored as body tissue.\n\n**Key concept:** Energy pyramids",
+    "explanation": "**Explanation:** Similar cells form tissues, tissues form organs, organs work together as systems, and systems make up an organism.\n\n**Key concept:** Levels of biological organisation",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Fungi and bacteria break down a fallen log. What is their role in the ecosystem?",
+    "question": "A student observes a single-celled organism moving and taking in food. What can be concluded about levels of organisation in this organism?",
     "options": [
-      "Producers that make food from sunlight.",
-      "Decomposers that return nutrients to the soil.",
-      "Predators that hunt living prey.",
-      "Parasites that only harm trees."
+      "The organism must have tissues too small to see.",
+      "One cell carries out every function, so cell and organism are the same level here.",
+      "The organism is not truly alive because it has only one cell.",
+      "The organism has organs but no organ systems."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Decomposers recycle nutrients from dead matter back into the ecosystem.\n\n**Key concept:** Decomposers",
+    "explanation": "**Explanation:** Unicellular organisms perform all life functions within one cell. Tissues and organs require many specialised cells.\n\n**Key concept:** Organisation in unicellular organisms",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A pond loses most of its algae after a chemical spill. What happens first to the animals that eat algae?",
+    "question": "Which pair of body systems works together most directly to deliver oxygen to cells?",
     "options": [
-      "Their population declines because food is scarce.",
-      "Their population grows immediately.",
-      "They become producers.",
-      "They are unaffected."
+      "Respiratory and circulatory",
+      "Digestive and skeletal",
+      "Nervous and muscular",
+      "Excretory and endocrine"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Removing a producer reduces food for the consumers directly above it.\n\n**Key concept:** Ecosystem disruption",
+    "explanation": "**Explanation:** The respiratory system brings oxygen into the blood at the lungs; the circulatory system carries it to every cell.\n\n**Key concept:** Interaction of body systems",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Bees pollinate flowers while collecting nectar. What type of relationship is this?",
+    "question": "What is the primary role of the cell membrane?",
     "options": [
-      "Predation, because the bee consumes the flower.",
-      "Parasitism, because the flower is harmed.",
-      "Competition, because both need nectar.",
-      "Mutualism, because both organisms benefit."
+      "To release energy from food molecules",
+      "To direct all of the cell’s activities",
+      "To provide the cell with its rigid shape",
+      "To control which substances enter and leave the cell"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** In mutualism both species gain: the bee is fed and the flower is pollinated.\n\n**Key concept:** Symbiosis",
+    "explanation": "**Explanation:** The membrane is selectively permeable. Direction of activity is the nucleus’s role, rigidity comes from the cell wall in plants, and energy release happens in mitochondria.\n\n**Key concept:** Function of the cell membrane",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A tick feeds on a deer's blood, weakening the deer. What relationship is this?",
+    "question": "A person’s body temperature stays near 37 °C on a hot day and on a cold one. What does this illustrate?",
     "options": [
-      "Commensalism.",
-      "Mutualism.",
-      "Parasitism.",
-      "Predation."
+      "Metabolism — the total of chemical reactions in the body",
+      "Adaptation — an inherited trait suited to the environment",
+      "Homeostasis — the maintenance of stable internal conditions despite external change",
+      "Respiration — the release of energy from food"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A parasite lives on or in a host and harms it without usually killing it quickly.\n\n**Key concept:** Symbiosis",
+    "explanation": "**Explanation:** Homeostasis names the regulation itself. Sweating and shivering are the mechanisms; the stable result is the concept.\n\n**Key concept:** Homeostasis",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Two species of birds in one forest eat the same insects. What are they most likely doing?",
+    "question": "Which structure stores a cell’s genetic instructions?",
     "options": [
-      "Cooperating to raise young.",
-      "Competing for a shared resource.",
-      "Forming a mutualistic pair.",
-      "Decomposing dead matter."
+      "The ribosome",
+      "The nucleus",
+      "The vacuole",
+      "The cell membrane"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Competition occurs when organisms need the same limited resource.\n\n**Key concept:** Competition",
+    "explanation": "**Explanation:** DNA is held in the nucleus. Ribosomes build proteins using instructions copied from it, and vacuoles store water and other materials.\n\n**Key concept:** The nucleus and genetic information",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A population of rabbits grows until food and space run short, then levels off. What has the population reached?",
+    "question": "Why are the small intestine’s inner walls folded and covered in tiny projections?",
     "options": [
-      "The carrying capacity of its environment.",
-      "Its maximum possible birth rate.",
-      "Complete extinction.",
-      "A new trophic level."
+      "To increase surface area, so more nutrients can be absorbed",
+      "To slow food down so it can be chewed further",
+      "To produce the enzymes that digest protein",
+      "To keep the intestine from collapsing under pressure"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Carrying capacity is the largest population an environment can support with its resources.\n\n**Key concept:** Carrying capacity",
+    "explanation": "**Explanation:** Villi and microvilli multiply the absorptive surface many times over. Surface-area-to-volume relationships explain a great many biological structures.\n\n**Key concept:** Surface area and absorption",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is a biotic factor in a pond ecosystem?",
+    "question": "Chloroplasts allow plant cells to do what?",
     "options": [
-      "The depth of the pond.",
-      "The water temperature.",
-      "The amount of dissolved oxygen.",
-      "The frogs living in the pond."
+      "Copy DNA before the cell divides",
+      "Break down sugars to release energy",
+      "Store water to keep the cell rigid",
+      "Capture light energy and use it to make sugars"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Biotic factors are the living parts of an ecosystem; the others are abiotic.\n\n**Key concept:** Biotic and abiotic factors",
+    "explanation": "**Explanation:** Chloroplasts carry out photosynthesis. Plants also have mitochondria, which do the breaking down — the two processes are complementary, not alternatives.\n\n**Key concept:** Chloroplasts and photosynthesis",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Green plants convert light energy into stored chemical energy. What is this process called?",
+    "question": "Which best describes the relationship between photosynthesis and cellular respiration?",
     "options": [
-      "Digestion.",
-      "Cellular respiration.",
-      "Photosynthesis.",
-      "Transpiration."
+      "Only plants perform photosynthesis and only animals perform respiration.",
+      "They are the same process running in opposite directions in different organisms.",
+      "The products of each are the reactants of the other.",
+      "Respiration occurs at night and photosynthesis during the day, in all organisms."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Photosynthesis uses light, carbon dioxide and water to make sugar and release oxygen.\n\n**Key concept:** Photosynthesis",
+    "explanation": "**Explanation:** Photosynthesis uses carbon dioxide and water to make glucose and oxygen; respiration uses glucose and oxygen and releases carbon dioxide and water. Plants do both, continuously.\n\n**Key concept:** Photosynthesis and respiration as a cycle",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Which gas do plants take in during photosynthesis, and which do they release?",
+    "question": "A cell placed in pure water swells and may burst. What has happened?",
     "options": [
-      "Take in oxygen, release carbon dioxide.",
-      "Take in carbon dioxide, release oxygen.",
-      "Take in nitrogen, release oxygen.",
-      "Take in oxygen, release nitrogen."
+      "The cell actively pumped water inward using energy.",
+      "Water moved into the cell by osmosis, from where it was more concentrated to where it was less so.",
+      "Salt from the cell dissolved and expanded.",
+      "The membrane dissolved on contact with water."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Photosynthesis consumes carbon dioxide and gives off oxygen as a product.\n\n**Key concept:** Photosynthesis",
+    "explanation": "**Explanation:** Osmosis is the passive movement of water across a membrane toward the more concentrated solution. Plant cells resist bursting because of their cell wall.\n\n**Key concept:** Osmosis",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "An owl hunts mice at night. Which pair correctly names their roles?",
+    "question": "Which is a function of the skeletal system beyond support?",
     "options": [
-      "The owl is the predator and the mouse is the prey.",
-      "The mouse is the predator and the owl is the prey.",
-      "Both are producers.",
-      "Both are decomposers."
+      "Producing blood cells in bone marrow",
+      "Filtering waste from the blood",
+      "Producing hormones that control growth",
+      "Digesting proteins in the stomach"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The predator hunts and eats the prey.\n\n**Key concept:** Predator and prey",
+    "explanation": "**Explanation:** Red marrow generates red and white blood cells and platelets. Filtration is the kidneys’ role, hormones come from endocrine glands, and digestion belongs to the digestive system.\n\n**Key concept:** Multiple functions of one system",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Why does removing a top predator often increase plant damage in an ecosystem?",
+    "question": "Why must multicellular organisms have specialised cells?",
     "options": [
-      "Producers become consumers.",
-      "Plants stop making their own food.",
-      "Decomposers begin eating plants.",
-      "Plant-eating populations grow without predator control."
+      "Large organisms have fewer cells, so each must do more.",
+      "Specialised cells reproduce faster than general ones.",
+      "Specialisation prevents cells from dying.",
+      "No single cell type can efficiently carry out every function a large organism needs."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Without predators the herbivore population rises and consumes more vegetation.\n\n**Key concept:** Food webs",
+    "explanation": "**Explanation:** Division of labour lets each cell type be shaped for one task — nerve cells for signalling, red blood cells for transport — which is more efficient than every cell doing everything.\n\n**Key concept:** Cell specialisation",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Which structure allows a cactus to survive in a dry desert?",
+    "question": "What happens to the nutrients absorbed in the small intestine?",
     "options": [
-      "Shallow roots that avoid all water.",
-      "Broad thin leaves with many pores.",
-      "A thick waxy stem that stores water.",
-      "Hollow stems that release water quickly."
+      "They are broken down further in the large intestine.",
+      "They are stored in the intestine until the body needs them.",
+      "They enter the bloodstream and are carried to cells throughout the body.",
+      "They are converted directly into muscle tissue in place."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Water storage and reduced water loss are adaptations to dry conditions.\n\n**Key concept:** Adaptations",
+    "explanation": "**Explanation:** Absorption transfers nutrients into the circulatory system, which distributes them. The large intestine mainly reabsorbs water.\n\n**Key concept:** Digestive and circulatory systems",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A polar bear has thick fur and a layer of fat. What environmental challenge do these address?",
+    "question": "A student compares two cells under a microscope. Cell A has a wall, chloroplasts and a large central vacuole; Cell B has none of these. What is the best conclusion?",
     "options": [
-      "Finding food in complete darkness.",
-      "Retaining body heat in extreme cold.",
-      "Breathing underwater for long periods.",
-      "Avoiding sunburn in summer."
+      "Cell A is an animal cell and Cell B is a plant cell.",
+      "Cell A is a plant cell and Cell B is an animal cell.",
+      "Both are plant cells at different stages.",
+      "Cell B is not a living cell."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Fur and fat are insulation that slows heat loss to a cold environment.\n\n**Key concept:** Adaptations",
+    "explanation": "**Explanation:** Wall, chloroplasts and a large central vacuole are the three classic plant-cell features. Their absence does not make a cell non-living.\n\n**Key concept:** Identifying cell types from structures",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sequence correctly moves from smallest to largest?",
+    "question": "Why does the circulatory system need a pump rather than relying on diffusion alone?",
     "options": [
-      "Cell, tissue, organ, organ system.",
-      "Organ, tissue, cell, organ system.",
-      "Tissue, cell, organ system, organ.",
-      "Organ system, organ, tissue, cell."
+      "Diffusion is far too slow to move materials across the distances in a large organism.",
+      "Blood is too thick to diffuse through tissue.",
+      "Diffusion only works for gases, not for nutrients.",
+      "The heart’s main role is to warm the blood."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Cells group into tissues, tissues into organs, and organs into organ systems.\n\n**Key concept:** Levels of organization",
+    "explanation": "**Explanation:** Diffusion is effective over micrometres, not metres. Bulk transport by a pump is what makes large body size possible.\n\n**Key concept:** Limits of diffusion",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Which body system carries oxygen and nutrients to cells throughout the body?",
+    "question": "What is the role of the nervous system in a reflex, such as pulling a hand from a hot surface?",
     "options": [
-      "The nervous system.",
-      "The skeletal system.",
-      "The digestive system alone.",
-      "The circulatory system."
+      "The circulatory system carries a chemical message to the arm.",
+      "The brain evaluates the danger and then sends a command to the muscles.",
+      "Muscles detect the heat directly and contract without any signal.",
+      "Sensory neurons signal the spinal cord, which triggers a motor response before the brain processes the pain."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Blood moving through vessels delivers oxygen and nutrients and removes wastes.\n\n**Key concept:** Body systems",
+    "explanation": "**Explanation:** A reflex arc routes through the spinal cord to save time. The sensation of pain arrives afterward, which is why the hand moves before it hurts.\n\n**Key concept:** Reflex arcs",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "The digestive and circulatory systems work together in what way?",
+    "question": "Which statement about cell theory is correct?",
     "options": [
-      "Digestion pumps blood to the heart.",
-      "Circulation chews food before digestion begins.",
-      "Digestion breaks food into nutrients the blood then transports.",
-      "The two systems never interact."
+      "Only animals and plants are made of cells.",
+      "Cells can form spontaneously from non-living matter under the right conditions.",
+      "All living things are made of cells, and all cells come from existing cells.",
+      "Cells are the smallest particles of matter."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Nutrients absorbed in the intestine enter the bloodstream for delivery to cells.\n\n**Key concept:** System interactions",
+    "explanation": "**Explanation:** Cell theory has three parts: cells are the basic unit of life, all organisms are made of them, and cells arise only from other cells. Atoms, not cells, are the smallest units of matter.\n\n**Key concept:** Cell theory",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A group of the same species living in one area at one time is called what?",
+    "question": "A plant wilts when its soil dries out. What is happening at the cell level?",
     "options": [
-      "A community.",
-      "A population.",
-      "An ecosystem.",
-      "A biome."
+      "The cell walls dissolve without water to support them.",
+      "Vacuoles lose water, so the cells no longer press against their walls to keep the plant rigid.",
+      "Chloroplasts stop working, which causes the stem to bend.",
+      "The plant’s cells die immediately when water is withheld."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A population is one species; a community includes all species in the area.\n\n**Key concept:** Ecological organization",
+    "explanation": "**Explanation:** Turgor pressure from water-filled vacuoles is what holds a non-woody plant upright. Wilting is reversible if water returns before the cells are damaged.\n\n**Key concept:** Turgor pressure",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "What does a community include that a population does not?",
+    "question": "Which system removes carbon dioxide produced by cells?",
     "options": [
-      "All the different species living in the area.",
-      "Only the largest species present.",
-      "The nonliving soil and water.",
-      "The energy from sunlight."
+      "The respiratory system, working with the circulatory system",
+      "The digestive system alone",
+      "The skeletal system",
+      "The endocrine system"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A community is every population of every species sharing an area.\n\n**Key concept:** Ecological organization",
+    "explanation": "**Explanation:** Blood carries carbon dioxide from the cells to the lungs, where it is exhaled — a two-system process.\n\n**Key concept:** Waste removal",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A lake becomes cloudy with algae after fertilizer runoff, and fish begin to die. What is the most likely cause of the fish deaths?",
+    "question": "Why are red blood cells shaped like flattened discs with a dent on each side?",
     "options": [
-      "Algae block the fish from swimming.",
-      "Algae eat the fish directly.",
-      "Fertilizer freezes the lake surface.",
-      "Decomposing algae use up the dissolved oxygen."
+      "The shape prevents them from dividing.",
+      "The shape allows them to store more nutrients.",
+      "The shape lets them join together into tissue.",
+      "The shape increases surface area for gas exchange and lets the cells bend through narrow capillaries."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The algae bloom dies and decomposers consume oxygen, leaving too little for fish.\n\n**Key concept:** Human impact",
+    "explanation": "**Explanation:** The biconcave form serves two functions at once — more membrane per unit volume and enough flexibility to pass through vessels narrower than the cell itself.\n\n**Key concept:** Form and function in blood cells",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do introduced species sometimes spread rapidly in a new ecosystem?",
+    "question": "What distinguishes a tissue from an organ?",
     "options": [
-      "They cannot find any food.",
-      "They reproduce only once.",
-      "They may have no natural predators there.",
-      "They always need human care."
+      "An organ is made of one cell type and a tissue of many.",
+      "A tissue is larger than an organ.",
+      "A tissue is a group of similar cells with one function; an organ combines different tissues for a larger function.",
+      "Only animals have tissues; only plants have organs."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Without predators or established competitors, an introduced population can grow unchecked.\n\n**Key concept:** Invasive species",
+    "explanation": "**Explanation:** The stomach is an organ because it contains muscle tissue, nerve tissue and lining tissue working together.\n\n**Key concept:** Tissues and organs",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "Which change would most likely increase biodiversity in a damaged forest?",
+    "question": "A student claims that because bacteria have no nucleus, they must not have DNA. What is wrong with this reasoning?",
     "options": [
-      "Planting a single fast-growing species.",
-      "Replanting a variety of native species.",
-      "Removing all fallen logs.",
-      "Paving the forest floor."
+      "Bacteria really do have a small nucleus that is hard to see.",
+      "Bacteria have DNA; it simply floats in the cytoplasm rather than being enclosed in a nucleus.",
+      "Bacteria reproduce without DNA, using only their cell membrane.",
+      "Bacteria are not cells and so the question does not apply."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Biodiversity rises when many different native species can live and interact.\n\n**Key concept:** Biodiversity",
+    "explanation": "**Explanation:** A nucleus is a container, not the genetic material itself. Prokaryotes have genes without the membrane-bound compartment.\n\n**Key concept:** Prokaryotic cells",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "life_science_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "A drought reduces the grass in a field. Which effect on the field's rabbit population is most likely?",
+    "question": "Which observation best supports the claim that the cell membrane is selectively permeable?",
     "options": [
-      "The population decreases as food becomes limited.",
-      "The population increases because rabbits eat less.",
-      "The rabbits become producers.",
-      "The population is unaffected by plants."
+      "Some substances pass through it readily while others of similar size do not.",
+      "The membrane is very thin and difficult to see.",
+      "The cell keeps its shape when placed in water.",
+      "The membrane surrounds every part of the cell."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A limiting resource reduces the population an environment can support.\n\n**Key concept:** Limiting factors",
+    "explanation": "**Explanation:** Selective permeability is defined by differential passage. Thinness, shape and enclosure are true of the membrane but do not test selectivity.\n\n**Key concept:** Evidence for selective permeability",
     "source": "authored",
     "needsReview": false
   }

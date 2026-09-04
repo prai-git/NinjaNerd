@@ -7,15 +7,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which thesis is most effective for an informational essay about urban trees?",
+    "question": "Which detail best creates a reflective narrative voice?",
     "options": [
-      "Trees are everywhere.",
-      "Urban trees cool neighborhoods, filter air, and manage stormwater.",
-      "I saw a tree yesterday.",
-      "Trees have leaves."
+      "\"The bus arrived at 7:15 and left at 7:17.\"",
+      "\"I watched the empty seat beside me for three stops before I understood that I had been saving it for someone who was not coming.\"",
+      "\"I was very sad and thought about a lot of things on the bus.\"",
+      "\"Buses have seats, doors, and a driver at the front.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The thesis makes a clear, informative claim with three supportable points.\n**Key concept:** Informational thesis.",
+    "explanation": "**Explanation:** A reflective voice narrates an action and then turns to what it meant. The second is pure report, the third names the feeling without earning it, and the fourth is unrelated description.\n\n**Key concept:** Establishing narrative voice",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which claim is most arguable and focused?",
+    "question": "A writer describes the same protest for a news report and for an opinion column. What should change between them?",
     "options": [
-      "Music exists.",
-      "Schools should provide a quiet study space during lunch.",
-      "Students have lunches.",
-      "Quiet is a word."
+      "The opinion column may argue for a position; the news report should present the events and attributed statements.",
+      "The opinion column should use shorter sentences than the news report.",
+      "The news report should include more adjectives than the opinion column.",
+      "Only the length should change; the content should be identical."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The statement takes a focused position that can be supported or challenged.\n**Key concept:** Argumentative claim.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The genres differ in what the writer is permitted to assert. Sentence length and adjective count are style choices, not the distinction.\n\n**Key concept:** Genre determines the writer’s stance",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which source is most appropriate for a report on local water restrictions?",
+    "question": "Which sentence establishes the most credible tone in an argumentative essay?",
     "options": [
-      "A current city water department notice",
-      "An anonymous social media post",
-      "A decade-old personal diary",
-      "A fictional novel"
+      "\"I feel very strongly that this policy would be a mistake for our school.\"",
+      "\"Anyone who supports this policy has clearly not thought about it.\"",
+      "\"This policy is obviously the worst idea the board has ever considered.\"",
+      "\"Three of the four districts that tried this policy reversed it within two years — which is a reason for caution, though not a reason to reject it outright.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The local agency publishes authoritative and timely restriction information.\n**Key concept:** Source relevance.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Credibility comes from evidence plus a measured claim, including what the evidence does *not* prove. Insult, exaggeration and unsupported feeling all cost the writer authority.\n\n**Key concept:** Tone and credibility",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which detail best creates a reflective narrative voice?",
+    "question": "A writer must explain a technical process to readers with no background in it. Which strategy is most effective?",
     "options": [
-      "The bus arrived at 7:15.",
-      "I watched the empty seat beside me and realized I had expected my friend to return.",
-      "Buses have seats and doors.",
-      "The route had six stops."
+      "Define every term in a glossary at the end and use them freely in the text.",
+      "Avoid technical terms entirely and describe everything in ordinary words.",
+      "Anchor each new term to something the reader already knows, then use the term consistently.",
+      "Use the technical terms without definition so the writing sounds authoritative."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The observation and realization reveal the narrator's inner response.\n**Key concept:** Reflective narrative voice.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Readers need a bridge and then consistency. Avoiding terms altogether leaves the reader unable to read anything else on the subject; a glossary at the end interrupts; and undefined terms exclude the audience the writer chose.\n\n**Key concept:** Adapting to audience knowledge",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which organizational pattern best fits an essay explaining how a wildfire affects a watershed?",
+    "question": "Which revision shifts the sentence from a detached register to an urgent one without adding information? Original: \"It would appear that the levee may be at some risk of failure.\"",
     "options": [
-      "Cause and effect",
-      "Alphabetical order",
-      "Question and answer only",
-      "Random examples"
+      "\"It appears that the levee could possibly be at risk of a failure event.\"",
+      "\"The levee is failing.\"",
+      "\"There is a question as to whether the levee might fail.\"",
+      "\"Some observers have suggested the levee may be at risk.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The essay must explain how one event produces changes in a watershed.\n**Key concept:** Organizational structure.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Stripping the hedges — *would appear*, *may*, *some risk* — converts the same claim into a direct one. The alternatives add hedges rather than remove them.\n\n**Key concept:** Hedging and register",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which evidence most strongly supports an argument for bike lanes?",
+    "question": "Which sentence best suits a formal complaint to a company?",
     "options": [
-      "A cyclist says lanes look nice.",
-      "A transportation study reports fewer injuries on protected routes.",
-      "Bikes come in several colors.",
-      "Roads were built many years ago."
+      "\"The replacement unit arrived on 3 May and failed within nine days; I am requesting a refund under the warranty terms enclosed.\"",
+      "\"This is the second broken one you have sent me and I am extremely annoyed.\"",
+      "\"I would just like to say that the product was not really what I expected at all.\"",
+      "\"Your company clearly does not care about its customers or their time.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The study offers relevant evidence that directly supports the safety claim.\n**Key concept:** Evidence quality.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A formal complaint states facts, dates and the remedy sought. Expressing annoyance, vagueness, or accusations of motive all weaken the request.\n\n**Key concept:** Register in a formal complaint",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which research question is narrow enough for a short report?",
+    "question": "Which is the most effective use of a concession in an argument?",
     "options": [
-      "Why is history important?",
-      "How did drought restrictions change household water use in Cedar Grove during 2025?",
-      "What is everything about water?",
-      "Are cities good or bad?"
+      "\"The programme is expensive, and I cannot deny that this is a serious problem.\"",
+      "\"The programme is expensive, but that does not matter.\"",
+      "\"Some people say the programme is expensive, but they are wrong.\"",
+      "\"The programme is expensive, and its first year showed no measurable gain — which is what a three-year intervention would predict.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The question identifies a location, time, and measurable relationship.\n**Key concept:** Research questions.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A concession works when the granted point is then absorbed into the argument. The second dismisses it, the third denies it, and the fourth concedes without recovering.\n\n**Key concept:** Concession as an argumentative move",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best adjusts style for a scientific audience?",
+    "question": "A memoir describes a childhood illness in the present tense. What is the most likely effect?",
     "options": [
-      "The experiment was super weird.",
-      "The results indicate that temperature affected the reaction rate.",
-      "The test did a crazy thing.",
-      "It was awesome how fast it changed."
+      "It indicates that the writer is uncertain the events occurred.",
+      "It makes the events easier for the reader to date.",
+      "It removes the distance of hindsight, so the reader experiences the events as unresolved.",
+      "It shows that the illness is still continuing today."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence uses precise, objective language appropriate for scientific writing.\n**Key concept:** Formal style.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Present tense withholds the reassurance that the narrator survived to tell it. It is a choice about immediacy, not about chronology or literal truth.\n\n**Key concept:** Tense as a stylistic choice",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which rebuttal best responds to the claim that digital textbooks always reduce costs?",
+    "question": "Which transition best signals a shift from cause to consequence?",
     "options": [
-      "Books are made of paper.",
-      "Devices, licenses, and replacement costs can offset savings.",
-      "Textbooks are used in school.",
-      "Digital means electronic."
+      "\"Similarly,\"",
+      "\"As a result,\"",
+      "\"In contrast,\"",
+      "\"For example,\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The rebuttal directly challenges the absolute claim about reduced costs.\n**Key concept:** Counterclaim rebuttal.",
+    "explanation": "**Explanation:** Each transition names a different relationship. Only *as a result* points from a cause to what follows from it.\n\n**Key concept:** Transitions name relationships",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which source is most likely biased in a comparison of two sports drinks?",
+    "question": "Which opening line establishes the strongest narrative tension?",
     "options": [
-      "A laboratory report listing methods and data",
-      "An advertisement paid for by one drink company",
-      "A government nutrition database",
-      "A university study disclosing funding"
+      "\"The letter had been on the hall table for six days, and everyone in the house had walked past it.\"",
+      "\"It was a warm Tuesday in the middle of September.\"",
+      "\"This is a story about a letter that arrived at our house.\"",
+      "\"I want to tell you about something that happened to my family.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** A company-funded advertisement has a strong incentive to favor its own product.\n**Key concept:** Bias.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The first line gives a concrete situation and an unexplained avoidance, which raises a question. The others set a scene, announce a topic, or announce an intention to tell.\n\n**Key concept:** Openings that create tension",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best introduces a compare-and-contrast essay?",
+    "question": "Which sentence uses irony?",
     "options": [
-      "Both solar and wind power generate electricity without burning fuel, but their conditions for use differ.",
-      "Electricity is important.",
-      "Wind moves outside.",
-      "The sun is bright."
+      "\"The committee met to discuss the fire code and the safety review.\"",
+      "\"The safety review was postponed until the following month.\"",
+      "\"The safety review found four violations of the fire code.\"",
+      "\"The safety review was postponed because the committee could not find a room that met the fire code.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The sentence introduces both a similarity and a difference for comparison.\n**Key concept:** Compare-and-contrast introduction.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Irony arises when the outcome contradicts the intent — a safety review defeated by a safety rule. The others state facts with no such reversal.\n\n**Key concept:** Recognising situational irony",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which appeal relies most on logic?",
+    "question": "A writer wants to reach readers who currently disagree with her. Which approach is most likely to work?",
     "options": [
-      "Imagine the sadness of a polluted river.",
-      "Experts have studied rivers for decades.",
-      "The report shows trash collection reduced plastic by 38 percent.",
-      "I have always loved rivers."
+      "Open with the strongest statement of her own position.",
+      "Open by listing the mistakes the other side has made.",
+      "Open with a value both sides hold, then show how her position follows from it.",
+      "Open by explaining that the issue is too complex for most readers."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The numerical result is evidence that appeals to logic.\n**Key concept:** Logical appeal.",
+    "explanation": "**Explanation:** Persuasion of an unsympathetic audience begins from shared ground. Attacking, asserting, or condescending all give the reader a reason to stop.\n\n**Key concept:** Persuading a resistant audience",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which note best separates a writer's idea from a source's idea?",
+    "question": "Which sentence best maintains an objective tone in a science report?",
     "options": [
-      "Copy every sentence into one list.",
-      "Label direct quotations and paraphrases with source information.",
-      "Delete all source names after reading.",
-      "Use quotation marks around personal opinions."
+      "\"Amazingly, the treated samples grew far less than the controls did.\"",
+      "\"The treated samples showed a 12 percent reduction in growth compared with the controls.\"",
+      "\"The treated samples were disappointing compared with the controls.\"",
+      "\"As anyone would expect, the treated samples grew less than the controls.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Clear labels distinguish borrowed material from a writer's original thinking.\n**Key concept:** Note-taking and attribution.",
+    "explanation": "**Explanation:** Objectivity means reporting the measurement without evaluating it. *Amazingly*, *disappointing* and *as anyone would expect* all insert the writer’s judgement.\n\n**Key concept:** Objective tone",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which opening most effectively begins a narrative in medias res?",
+    "question": "A speech repeats \"we were told\" at the start of five consecutive sentences. What is the effect?",
     "options": [
-      "I was born in October.",
-      "The rope snapped just as I stepped onto the bridge.",
-      "Bridges are useful structures.",
-      "This story is about an exciting day."
+      "The repeated opening builds rhythm and accumulates the sense of promises made to the audience.",
+      "It shows the speaker has run out of ways to phrase the idea.",
+      "It makes the speech harder to follow.",
+      "It indicates the speaker is quoting a written document."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The opening begins during a dramatic event rather than with background information.\n**Key concept:** In medias res.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Anaphora — repeating an opening phrase — is a deliberate device that builds pressure across a series. It is a mark of control, not of limitation.\n\n**Key concept:** Anaphora",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best explains rather than argues?",
+    "question": "Which sentence is appropriate for a text message to a friend but not for a school essay?",
     "options": [
-      "People must compost immediately.",
-      "Composting turns food scraps into material that can enrich soil.",
-      "Composting is obviously the best habit.",
-      "Only careless people throw scraps away."
+      "\"The event suffered from a lack of clear planning.\"",
+      "\"The process was disorganised in several respects.\"",
+      "\"The organisers failed to publish a schedule until the day before.\"",
+      "\"honestly the whole thing was kind of a mess\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence explains a process without demanding that readers agree.\n**Key concept:** Informative writing.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Register covers capitalisation, hedging fillers and vocabulary. The other three carry the same judgement in a form an essay can use.\n\n**Key concept:** Matching register to context",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which phrase most clearly signals a concession?",
+    "question": "Which sentence best conveys a character’s emotion without naming it?",
     "options": [
-      "In contrast",
-      "For example",
-      "Admittedly",
-      "As a result"
+      "\"She felt a range of powerful emotions on reading the list.\"",
+      "\"She was devastated when she read the list.\"",
+      "\"She read the name on the list twice, then folded the paper into eighths before putting it in her pocket.\"",
+      "\"Reading the list made her the saddest she had ever been.\""
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Admittedly signals that the writer is acknowledging a valid point.\n**Key concept:** Concessions.",
+    "explanation": "**Explanation:** Folding a paper into eighths is a small, controlled action that lets the reader supply the feeling. The others announce it.\n\n**Key concept:** Conveying emotion indirectly",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which question would best guide research on public murals?",
+    "question": "What does a writer achieve by ending a paragraph with a short sentence after several long ones?",
     "options": [
-      "Are murals colorful?",
-      "How have public murals affected community participation in neighborhood events?",
-      "Who likes art?",
-      "What is a wall?"
+      "It signals that the paragraph was too long.",
+      "The contrast in length gives the short sentence emphasis.",
+      "It shows the writer has finished the topic entirely.",
+      "It makes the paragraph easier to translate."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The question is focused and invites researchable evidence about an effect.\n**Key concept:** Inquiry.",
+    "explanation": "**Explanation:** Emphasis in prose is largely relative — a short sentence stands out because of what precedes it.\n\n**Key concept:** Sentence length and emphasis",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision avoids an unsupported overstatement?",
+    "question": "Which sentence commits a logical error?",
     "options": [
-      "The policy will solve every problem.",
-      "The policy may reduce one cause of the problem.",
-      "The policy is the greatest idea ever.",
-      "The policy cannot fail."
+      "\"Every successful athlete trains early in the morning, so training early is what makes athletes successful.\"",
+      "\"Athletes who train early report fewer scheduling conflicts.\"",
+      "\"Most of the athletes surveyed said they preferred morning training.\"",
+      "\"Training early may suit athletes whose competitions are held in the morning.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** May accurately limits the claim to what evidence can reasonably support.\n**Key concept:** Qualified claims.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A pattern shared by successful athletes does not establish that the pattern caused the success. The other three make claims that stay within what their evidence supports.\n\n**Key concept:** Correlation and causation in argument",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence provides a useful definition in an informational essay?",
+    "question": "A report includes a graph showing a rise and text describing \"explosive growth.\" The rise is from 2 percent to 3 percent. What is the problem?",
     "options": [
-      "A watershed is an area of land that drains to a shared body of water.",
-      "Water is wet.",
-      "Watersheds are important, obviously.",
-      "Land has soil."
+      "The text and the graph should never describe the same data.",
+      "The graph should not have been included at all.",
+      "Percentages cannot be shown on a graph.",
+      "The language overstates what the numbers show."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The sentence clearly defines a key term for readers.\n**Key concept:** Definition.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A one-point rise is a fifty percent relative increase but a small absolute change; *explosive* claims more than either figure supports. Graphs and text are supposed to reinforce one another — accurately.\n\n**Key concept:** Matching language to evidence",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which evidence would best answer a counterclaim that school gardens take too much class time?",
+    "question": "Why might a writer choose second person (\"you walk into the room\") for a short piece?",
     "options": [
-      "A teacher says gardens are pretty.",
-      "A schedule showing science lessons conducted in the garden met course goals.",
-      "The garden fence is green.",
-      "Some students like vegetables."
+      "It allows the writer to avoid naming any characters.",
+      "It is the only person permitted in descriptive writing.",
+      "It places the reader inside the experience rather than watching it.",
+      "It makes the piece sound more formal than first person."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The schedule directly addresses whether garden time replaces required learning.\n**Key concept:** Relevant rebuttal evidence.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Second person is a device for implication — the reader is made the subject. It is neither required nor more formal, and characters can still be named.\n\n**Key concept:** Point of view as a stylistic choice",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which search terms are most efficient for researching mangrove restoration?",
+    "question": "Which subject line is most effective for an email requesting a meeting with a teacher?",
     "options": [
-      "trees water",
-      "mangrove restoration shoreline erosion peer reviewed",
-      "cool plants",
-      "everything about oceans"
+      "\"Question\"",
+      "\"Request to meet about the research paper — Tuesday or Thursday?\"",
+      "\"URGENT — please read immediately!!\"",
+      "\"Hello from a student in your fourth-period class who has something to ask\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Specific topic terms and a quality filter narrow results to useful sources.\n**Key concept:** Efficient searching.",
+    "explanation": "**Explanation:** A good subject line states the purpose and the ask in a few words. Vagueness, false urgency and length all make the email harder to act on.\n\n**Key concept:** Effective subject lines",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses sensory detail to develop setting?",
+    "question": "Which sentence uses a qualifier appropriately rather than to avoid commitment?",
     "options": [
-      "The market was busy.",
-      "Cardamom and roasted peppers drifted through the narrow market lane.",
-      "The market opened early.",
-      "Many people visited."
+      "\"In the three districts studied, the policy reduced absences by about six percent.\"",
+      "\"The policy might possibly perhaps reduce absences somewhat.\"",
+      "\"The policy reduces absences everywhere it is tried.\"",
+      "\"It is arguable that the policy may have some kind of effect.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Smell and spatial detail make the setting vivid.\n**Key concept:** Sensory imagery.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** \"In the three districts studied\" and \"about\" limit the claim to what the evidence covers. Stacked hedges say nothing, and the unqualified claim overreaches.\n\n**Key concept:** Qualifiers that carry information",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which concluding sentence best returns to an essay's central idea about accessibility?",
+    "question": "Which revision improves the rhythm of \"The room was small. The window was small. The desk was small.\"?",
     "options": [
-      "Ramps are made of materials.",
-      "Designing spaces for many users benefits the entire community.",
-      "Buildings have doors.",
-      "Accessibility is a long word."
+      "\"The room was small and the window was small and the desk was small.\"",
+      "\"The room, the window, and the desk were all small.\"",
+      "\"Everything in the room was small, including the room.\"",
+      "\"The room was small, and so was everything in it: the window, the desk, the single hard chair.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence broadens and reinforces the essay's central idea about accessibility.\n**Key concept:** Concluding ideas.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The first varies the structure and lets the list build, which the three identical sentences cannot do. The second flattens it into a bare statement, the third is a riddle, and the fourth just replaces full stops with *and*.\n\n**Key concept:** Varying rhythm in prose",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses ethical persuasion?",
+    "question": "Which detail most efficiently establishes a setting’s atmosphere?",
     "options": [
-      "Support this policy because everyone else does.",
-      "Consider how the policy affects residents without reliable transportation.",
-      "Support it because it is trendy.",
-      "Believe me because I am loud."
+      "\"The atmosphere on the platform was eerie and unsettling.\"",
+      "\"The platform was old and had not been maintained well.\"",
+      "\"Someone had swept the platform, but only as far as the shelter.\"",
+      "\"The platform was made of concrete and had a metal shelter.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence asks readers to consider the policy's fairness and human impact.\n**Key concept:** Ethical appeal.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A half-swept platform implies effort, limits and neglect in a single image. Naming the atmosphere tells the reader what to feel, and a plain inventory gives no impression at all.\n\n**Key concept:** Selecting a telling detail",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "advanced_writing_styles",
     "passage": null,
     "passageTitle": null,
-    "question": "Which action best prevents accidental plagiarism?",
+    "question": "A writer must cut a 900-word article to 600 words. What should go first?",
     "options": [
-      "Wait to cite sources until the final draft.",
-      "Record source details while taking notes and mark borrowed language.",
-      "Rely on memory for quotations.",
-      "Change a few words in each source sentence."
+      "The examples that support the main claims",
+      "Sentences that restate a point already made",
+      "The transitions between paragraphs",
+      "The final paragraph, since it comes last"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Tracking sources and exact wording prevents unintentional use without credit.\n**Key concept:** Avoiding plagiarism.",
+    "explanation": "**Explanation:** Cutting begins with redundancy. Examples carry the argument, transitions carry the reader, and the conclusion is where the piece lands.\n\n**Key concept:** Cutting for length",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 7, 9, 11, 13, and 15. What is their mean?",
+    "question": "Five lab measurements are \\(7\\), \\(9\\), \\(11\\), \\(13\\) and \\(15\\). What is their mean?",
     "options": [
-      "13.75",
-      "55",
-      "11",
-      "8"
+      "\\(55\\)",
+      "\\(13.75\\)",
+      "\\(11\\)",
+      "\\(8\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add the five values to get 55, then divide by 5: 55 / 5 = 11.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Add the five values to get \\(55\\), then divide by \\(5\\): \\(55 \\div 5 = 11\\).\n\n**Key concept:** Mean of a data set",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 8, 10, 12, 14, and 16. What is their mean?",
+    "question": "A random sample of \\(80\\) students is selected from every grade in a school. What population can this sample best represent?",
     "options": [
-      "60",
-      "12",
-      "15",
-      "8"
+      "Only the \\(80\\) selected students.",
+      "All students at the school.",
+      "All students in the state.",
+      "Only students who play sports."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add the five values to get 60, then divide by 5: 60 / 5 = 12.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The sample was drawn at random from the whole school, so conclusions extend to that school but no further.\n\n**Key concept:** Population and random sampling",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 9, 11, 13, 15, and 17. What is their mean?",
+    "question": "A survey is given only to students leaving the school library. Why might the results be biased?",
     "options": [
-      "13",
-      "65",
-      "16.25",
-      "8"
+      "Students who use the library are more likely to be included.",
+      "The sample is too large to analyse.",
+      "Surveys cannot measure opinions.",
+      "Random sampling always fails."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add the five values to get 65, then divide by 5: 65 / 5 = 13.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Sampling at one location over-represents the people who go there, so the sample is not representative of the whole school.\n\n**Key concept:** Population and random sampling",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 10, 12, 14, 16, and 18. What is their mean?",
+    "question": "Two random samples of \\(50\\) students each give slightly different mean study times. What best explains the difference?",
     "options": [
-      "8",
-      "70",
-      "17.5",
-      "14"
+      "Random sampling is not valid for this question.",
+      "One sample must have been recorded incorrectly.",
+      "The population mean changed between the samples.",
+      "Natural variation between random samples."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add the five values to get 70, then divide by 5: 70 / 5 = 14.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Different random samples from one population vary a little. That variation is expected, not a mistake.\n\n**Key concept:** Population and random sampling",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "A random sample of 80 students is selected from every grade in a school. What population can this sample best represent?",
+    "question": "A school of \\(900\\) students takes a random sample of \\(60\\). In the sample, \\(15\\) walk to school. About how many of the \\(900\\) walk?",
     "options": [
-      "Only the 80 selected students.",
-      "All students in the state.",
-      "All students at the school.",
-      "Only students who play sports."
+      "About \\(15\\).",
+      "About \\(450\\).",
+      "About \\(225\\).",
+      "About \\(60\\)."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The sample was drawn at random from the whole school, so conclusions extend to that school.\n\n**Key concept:** Population and random sampling",
+    "explanation": "**Explanation:** The sample proportion is \\(\\frac{15}{60} = \\frac{1}{4}\\), and one quarter of \\(900\\) is \\(225\\).\n\n**Key concept:** Population and random sampling",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 11, 13, 15, 17, and 19. What is their mean?",
+    "question": "Which sampling method is most likely to represent all students in a school fairly?",
     "options": [
-      "75",
-      "15",
-      "18.75",
-      "8"
+      "Survey only the seventh-grade classes.",
+      "Assign every student a number and draw numbers at random.",
+      "Ask the first \\(30\\) students who arrive.",
+      "Ask students who volunteer to answer."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add the five values to get 75, then divide by 5: 75 / 5 = 15.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Giving every student an equal chance of selection is what makes a sample representative. The other three methods each favour a particular group.\n\n**Key concept:** Population and random sampling",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 12, 14, 16, 18, and 20. What is their mean?",
+    "question": "A bag holds \\(5\\) red, \\(3\\) blue and \\(4\\) green marbles. One is drawn at random. What is the probability it is **not** blue?",
     "options": [
-      "16",
-      "80",
-      "20",
-      "8"
+      "\\(\\frac{3}{4}\\)",
+      "\\(\\frac{1}{4}\\)",
+      "\\(\\frac{5}{12}\\)",
+      "\\(\\frac{2}{3}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add the five values to get 80, then divide by 5: 80 / 5 = 16.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** There are \\(12\\) marbles and \\(9\\) are not blue, so the probability is \\(\\frac{9}{12} = \\frac{3}{4}\\).\n\n**Key concept:** Complement of an event",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 13, 15, 17, 19, and 21. What is their mean?",
+    "question": "A fair coin is flipped and a fair six-sided die is rolled. What is the probability of heads **and** a number greater than \\(4\\)?",
     "options": [
-      "8",
-      "85",
-      "21.25",
-      "17"
+      "\\(\\frac{2}{3}\\)",
+      "\\(\\frac{1}{3}\\)",
+      "\\(\\frac{5}{12}\\)",
+      "\\(\\frac{1}{6}\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add the five values to get 85, then divide by 5: 85 / 5 = 17.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The events are independent, so multiply: \\(\\frac{1}{2} \\times \\frac{2}{6} = \\frac{2}{12} = \\frac{1}{6}\\).\n\n**Key concept:** Probability of independent compound events",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 14, 16, 18, 20, and 22. What is their mean?",
+    "question": "Two spinners each have \\(4\\) equal sections. How many outcomes are in the sample space when both are spun?",
     "options": [
-      "22.5",
-      "90",
-      "18",
-      "8"
+      "\\(4\\)",
+      "\\(8\\)",
+      "\\(16\\)",
+      "\\(12\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add the five values to get 90, then divide by 5: 90 / 5 = 18.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Each of the \\(4\\) outcomes on the first spinner pairs with each of the \\(4\\) on the second: \\(4 \\times 4 = 16\\).\n\n**Key concept:** Counting a sample space",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "A survey is given only to students leaving the school library. Why might the results be biased?",
+    "question": "A spinner is spun \\(80\\) times and lands on red \\(28\\) times. What is the **experimental** probability of red?",
     "options": [
-      "The sample is too large to analyse.",
-      "Students who use the library are more likely to be included.",
-      "Surveys cannot measure opinions.",
-      "Random sampling always fails."
+      "\\(0.25\\)",
+      "\\(0.35\\)",
+      "\\(2.86\\)",
+      "\\(0.28\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Sampling one location over-represents the people who go there, so the sample is not representative.\n\n**Key concept:** Population and random sampling",
+    "explanation": "**Explanation:** Experimental probability is successes over trials: \\(\\frac{28}{80} = 0.35\\).\n\n**Key concept:** Experimental probability",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 15, 17, 19, 21, and 23. What is their mean?",
+    "question": "A die is rolled \\(30\\) times and a \\(6\\) comes up \\(9\\) times. How does the experimental probability compare with the theoretical probability?",
     "options": [
-      "19",
-      "95",
-      "23.75",
-      "8"
+      "It is higher — \\(0.3\\) against a theoretical \\(\\approx 0.167\\).",
+      "It is lower — \\(0.3\\) against a theoretical \\(0.5\\).",
+      "They are equal.",
+      "Theoretical probability cannot be calculated for a die."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add the five values to get 95, then divide by 5: 95 / 5 = 19.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The theoretical probability of a \\(6\\) is \\(\\frac{1}{6} \\approx 0.167\\), while the experiment gave \\(\\frac{9}{30} = 0.3\\). Over more rolls the experimental value usually drifts toward the theoretical one.\n\n**Key concept:** Experimental versus theoretical probability",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 16, 18, 20, 22, and 24. What is their mean?",
+    "question": "A factory finds that \\(3\\) out of every \\(250\\) items are defective. In a shipment of \\(6{,}000\\) items, about how many defects should be expected?",
     "options": [
-      "8",
-      "100",
-      "25",
-      "20"
+      "\\(2{,}000\\)",
+      "\\(20\\)",
+      "\\(180\\)",
+      "\\(72\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add the five values to get 100, then divide by 5: 100 / 5 = 20.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The rate is \\(\\frac{3}{250} = 0.012\\), and \\(6000 \\times 0.012 = 72\\) items.\n\n**Key concept:** Making a quantitative prediction",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 17, 19, 21, 23, and 25. What is their mean?",
+    "question": "Which simulation best models the chance of rain on each of \\(5\\) days if the daily chance of rain is \\(20\\%\\)?",
     "options": [
-      "26.25",
-      "105",
-      "21",
-      "8"
+      "Roll a die once per day and call a \\(6\\) \"rain\".",
+      "Flip a coin once per day and call heads \"rain\".",
+      "Spin a spinner with \\(5\\) equal sections, one labelled \"rain\", once per day.",
+      "Draw one card from a full deck each day and call a heart \"rain\"."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add the five values to get 105, then divide by 5: 105 / 5 = 21.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The model must match the probability. One section in five is exactly \\(20\\%\\); a coin gives \\(50\\%\\), a die \\(16.7\\%\\) and a heart \\(25\\%\\).\n\n**Key concept:** Designing a fair simulation",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 18, 20, 22, 24, and 26. What is their mean?",
+    "question": "Two cards are drawn from a bag of \\(4\\) cards numbered \\(1\\) to \\(4\\), **without replacement**. What is the probability both are even?",
     "options": [
-      "110",
-      "22",
-      "27.5",
-      "8"
+      "\\(\\frac{1}{4}\\)",
+      "\\(\\frac{1}{6}\\)",
+      "\\(\\frac{1}{2}\\)",
+      "\\(\\frac{1}{3}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add the five values to get 110, then divide by 5: 110 / 5 = 22.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The first draw is even with probability \\(\\frac{2}{4}\\). With that card gone, the second is even with probability \\(\\frac{1}{3}\\). Multiplying gives \\(\\frac{2}{4} \\times \\frac{1}{3} = \\frac{1}{6}\\).\n\n**Key concept:** Dependent events change the second probability",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Two random samples of 50 students each give slightly different mean study times. What best explains the difference?",
+    "question": "Nine test scores are \\(62\\), \\(71\\), \\(74\\), \\(78\\), \\(78\\), \\(83\\), \\(88\\), \\(91\\) and \\(97\\). What is the median?",
     "options": [
-      "Natural variation between random samples.",
-      "One sample must have been recorded incorrectly.",
-      "The population mean changed between samples.",
-      "Random sampling is not valid for this question."
+      "\\(78\\)",
+      "\\(80.2\\)",
+      "\\(83\\)",
+      "\\(35\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Different random samples from one population vary a little; that variation is expected, not an error.\n\n**Key concept:** Population and random sampling",
+    "explanation": "**Explanation:** With nine values in order, the median is the fifth, which is \\(78\\). The mean of about \\(80.2\\) is pulled up by the high scores.\n\n**Key concept:** Median versus mean",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 19, 21, 23, 25, and 27. What is their mean?",
+    "question": "Two box plots show test results. Class A has median \\(74\\) and interquartile range \\(20\\). Class B has median \\(74\\) and interquartile range \\(8\\). What does this say?",
     "options": [
-      "8",
-      "115",
-      "28.75",
-      "23"
+      "Class A has more students than Class B.",
+      "Class A scored higher overall.",
+      "Class B scored higher overall.",
+      "The two classes have the same typical score, but Class A is far more spread out."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add the five values to get 115, then divide by 5: 115 / 5 = 23.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The medians match, so the typical score is the same. The larger interquartile range means the middle half of Class A’s scores covers a much wider band. A box plot says nothing about how many students there are.\n\n**Key concept:** Comparing centre and spread",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 20, 22, 24, 26, and 28. What is their mean?",
+    "question": "Seven daily temperatures are \\(18\\), \\(21\\), \\(19\\), \\(22\\), \\(20\\), \\(19\\) and \\(23\\) degrees. What is the mean absolute deviation, to the nearest tenth?",
     "options": [
-      "30",
-      "120",
-      "24",
-      "8"
+      "\\(2.0\\) degrees",
+      "\\(1.7\\) degrees",
+      "\\(1.5\\) degrees",
+      "\\(5.0\\) degrees"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add the five values to get 120, then divide by 5: 120 / 5 = 24.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The mean is \\(\\frac{142}{7} \\approx 20.29\\). The distances from that mean total about \\(10.29\\), and \\(10.29 \\div 7 \\approx 1.47\\), which rounds to \\(1.5\\) degrees.\n\n**Key concept:** Mean absolute deviation measures spread",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 21, 23, 25, 27, and 29. What is their mean?",
+    "question": "A scatter plot of study hours against test scores rises steadily from left to right with points close to a line. What does it show?",
     "options": [
-      "125",
-      "25",
-      "31.25",
-      "8"
+      "A strong negative association",
+      "A strong positive association",
+      "No association",
+      "A causal proof that studying raises scores"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add the five values to get 125, then divide by 5: 125 / 5 = 25.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Rising from left to right means the two increase together, and points close to a line means the association is strong. An association is not by itself proof of cause.\n\n**Key concept:** Reading a scatter plot",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 22, 24, 26, 28, and 30. What is their mean?",
+    "question": "Two random samples of \\(40\\) are taken, one from each of two schools. School X has a mean commute of \\(22\\) minutes; School Y has \\(21.5\\) minutes. Both have a mean absolute deviation near \\(9\\) minutes. What is a reasonable conclusion?",
     "options": [
-      "26",
-      "130",
-      "32.5",
-      "8"
+      "The commute times of the two schools are probably about the same.",
+      "School X students definitely commute longer.",
+      "The samples were taken incorrectly.",
+      "School Y has fewer students than School X."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add the five values to get 130, then divide by 5: 130 / 5 = 26.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** A half-minute gap is tiny next to a spread of about \\(9\\) minutes, so the difference is well inside ordinary sampling variation.\n\n**Key concept:** Judging a difference against the spread",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "A school of 900 students takes a random sample of 60. In the sample, 15 walk to school. About how many of the 900 walk?",
+    "question": "A spinner has sections numbered \\(1\\) through \\(8\\). What is the probability of landing on a prime number?",
     "options": [
-      "About 450.",
-      "About 15.",
-      "About 60.",
-      "About 225."
+      "\\(\\frac{1}{4}\\)",
+      "\\(\\frac{3}{8}\\)",
+      "\\(\\frac{5}{8}\\)",
+      "\\(\\frac{1}{2}\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The sample proportion is 15/60 = 1/4, and 1/4 of 900 is 225.\n\n**Key concept:** Population and random sampling",
+    "explanation": "**Explanation:** The primes from \\(1\\) to \\(8\\) are \\(2\\), \\(3\\), \\(5\\) and \\(7\\) — four of eight, or \\(\\frac{1}{2}\\). Note that \\(1\\) is not prime.\n\n**Key concept:** Theoretical probability",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 23, 25, 27, 29, and 31. What is their mean?",
+    "question": "A data set has mean \\(50\\). One value of \\(50\\) is replaced by \\(90\\). What happens to the mean and the median?",
     "options": [
-      "33.75",
-      "135",
-      "27",
-      "8"
+      "Both stay the same.",
+      "Both rise by the same amount.",
+      "The mean rises; the median may not change.",
+      "The median rises; the mean stays the same."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add the five values to get 135, then divide by 5: 135 / 5 = 27.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The mean uses every value, so adding \\(40\\) to one of them raises it. The median depends only on position, so it often does not move at all.\n\n**Key concept:** The mean is sensitive to outliers",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 24, 26, 28, 30, and 32. What is their mean?",
+    "question": "A bag has \\(6\\) white and \\(4\\) black counters. A counter is drawn and replaced \\(200\\) times. About how many black counters should be expected?",
     "options": [
-      "140",
-      "28",
-      "35",
-      "8"
+      "About \\(40\\)",
+      "About \\(80\\)",
+      "About \\(120\\)",
+      "About \\(100\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add the five values to get 140, then divide by 5: 140 / 5 = 28.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The probability of black is \\(\\frac{4}{10} = 0.4\\), so \\(200 \\times 0.4 = 80\\) draws are expected to be black.\n\n**Key concept:** Predicting from theoretical probability",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 25, 27, 29, 31, and 33. What is their mean?",
+    "question": "A function table shows \\(f(1) = 5\\), \\(f(2) = 8\\), \\(f(3) = 11\\). What is \\(f(10)\\)?",
     "options": [
-      "29",
-      "145",
-      "36.25",
-      "8"
+      "\\(32\\)",
+      "\\(29\\)",
+      "\\(35\\)",
+      "\\(50\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add the five values to get 145, then divide by 5: 145 / 5 = 29.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** The values rise by \\(3\\) each step, so the rule is \\(f(x) = 3x + 2\\). Then \\(f(10) = 30 + 2 = 32\\).\n\n**Key concept:** Extending a linear rule",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Five lab measurements are 26, 28, 30, 32, and 34. What is their mean?",
+    "question": "A restaurant offers \\(3\\) starters, \\(5\\) mains and \\(2\\) desserts. How many different three-course meals are possible?",
     "options": [
-      "8",
-      "150",
-      "37.5",
-      "30"
+      "\\(60\\)",
+      "\\(10\\)",
+      "\\(15\\)",
+      "\\(30\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add the five values to get 150, then divide by 5: 150 / 5 = 30.\n\n**Key concept:** Mean of a data set",
+    "explanation": "**Explanation:** Multiply the choices at each stage: \\(3 \\times 5 \\times 2 = 30\\).\n\n**Key concept:** Fundamental counting principle",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "data_analysis_functions",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sampling method is most likely to represent all students in a school fairly?",
+    "question": "Which measure of centre best describes a set of house prices where most homes cost near \\(\\$250{,}000\\) but one sold for \\(\\$4\\) million?",
     "options": [
-      "Survey only the seventh-grade classes.",
-      "Ask the first 30 students who arrive.",
-      "Assign every student a number and draw numbers at random.",
-      "Ask students who volunteer to answer."
+      "The range, because it shows the spread.",
+      "The mean, because it uses every value.",
+      "The median, because one extreme value distorts the mean.",
+      "The mode, because it names the most common price."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Giving every student an equal chance of selection is what makes a sample representative.\n\n**Key concept:** Population and random sampling",
+    "explanation": "**Explanation:** A single very large value pulls the mean far above what a typical house costs, while the median stays with the bulk of the data. The range is a measure of spread, not centre.\n\n**Key concept:** Choosing a measure of centre",
     "source": "authored",
     "needsReview": false
   }

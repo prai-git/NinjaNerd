@@ -7,15 +7,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which observation is strongest evidence of a chemical reaction?",
+    "question": "Which organic compound is the body’s primary short-term source of energy?",
     "options": [
-      "Gas forms while the temperature changes.",
-      "A solid is crushed.",
-      "Ice melts.",
-      "Sugar dissolves."
+      "Carbohydrates",
+      "Lipids",
+      "Proteins",
+      "Nucleic acids"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Chemical changes and matter interactions",
+    "explanation": "**Explanation:** Carbohydrates are broken down quickly to glucose. Lipids store energy more densely but are released more slowly; proteins build structures; nucleic acids carry information.\n\n**Key concept:** Organic compounds and their roles",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which substance is an element?",
+    "question": "Which organic compound carries the instructions for building an organism?",
     "options": [
-      "Bronze.",
-      "Water.",
-      "Salt.",
-      "Copper."
+      "Proteins",
+      "Carbohydrates",
+      "Lipids",
+      "Nucleic acids"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** An element contains only one kind of atom; the others are compounds or mixtures.\n\n**Key concept:** Elements and compounds",
+    "explanation": "**Explanation:** DNA and RNA are nucleic acids. Proteins are built from those instructions but do not store them.\n\n**Key concept:** Nucleic acids",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Water is made of hydrogen and oxygen chemically bonded in a fixed ratio. What is water?",
+    "question": "What do all four classes of organic compound have in common?",
     "options": [
-      "A heterogeneous mixture.",
-      "An element.",
-      "A compound.",
-      "A solution of two elements."
+      "They all dissolve readily in water.",
+      "They all contain nitrogen.",
+      "They all contain carbon bonded to hydrogen.",
+      "They are all produced only by animals."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A compound has elements chemically combined in a fixed ratio.\n\n**Key concept:** Elements and compounds",
+    "explanation": "**Explanation:** Carbon’s ability to form four bonds and long chains is what makes the diversity of organic molecules possible. Nitrogen appears in proteins and nucleic acids but not in carbohydrates or most lipids.\n\n**Key concept:** What makes a compound organic",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Sand stirred into water settles into visible layers. What kind of matter is this?",
+    "question": "A molecule is described as C₆H₁₂O₆. How many atoms does one molecule contain in total?",
     "options": [
-      "A compound.",
-      "A heterogeneous mixture.",
-      "An element.",
-      "A solution."
+      "12",
+      "24",
+      "18",
+      "6"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The parts stay visibly separate, so the mixture is heterogeneous.\n\n**Key concept:** Mixtures",
+    "explanation": "**Explanation:** Add the subscripts: 6 carbon + 12 hydrogen + 6 oxygen = 24 atoms. This is glucose, a carbohydrate.\n\n**Key concept:** Reading a chemical formula",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which best describes what happens to the atoms during a chemical reaction?",
+    "question": "What does the subscript 2 in H₂O indicate?",
     "options": [
-      "They are rearranged into new combinations.",
-      "Some are destroyed and disappear.",
-      "New atoms are created from energy.",
-      "They remain in the same combinations."
+      "Two hydrogen atoms are present in each molecule.",
+      "Two water molecules are present.",
+      "The compound has twice the mass of hydrogen.",
+      "Water is the second element in the compound."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Atoms are conserved in a reaction; only their arrangement changes.\n\n**Key concept:** Conservation of mass",
+    "explanation": "**Explanation:** A subscript counts the atoms of the element it follows within one molecule. A number written in front, as in 2H₂O, would count whole molecules.\n\n**Key concept:** Subscripts and coefficients",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "In a sealed flask, 10 g of reactants produce products. What is the mass of the products?",
+    "question": "In the equation 2H₂ + O₂ → 2H₂O, how many oxygen atoms appear on each side?",
     "options": [
-      "It cannot be predicted.",
-      "Less than 10 g, because gas escapes.",
-      "More than 10 g, because atoms are added.",
-      "10 g, because mass is conserved."
+      "Four on the left and two on the right",
+      "Two on the left and one on the right",
+      "One on each side",
+      "Two on each side"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** In a closed system the total mass before and after a reaction is equal.\n\n**Key concept:** Conservation of mass",
+    "explanation": "**Explanation:** The left has one O₂ molecule, which is two oxygen atoms. The right has two water molecules, each with one oxygen — also two. A balanced equation must match on both sides.\n\n**Key concept:** Balanced chemical equations",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which observation best indicates a chemical change?",
+    "question": "Why must a chemical equation be balanced?",
     "options": [
-      "A liquid is poured into a new container.",
-      "A solid is ground into powder.",
-      "A new gas forms with a different smell.",
-      "Ice melts into water."
+      "Because energy must be equal on both sides",
+      "Because equations look neater when the numbers match",
+      "Because atoms are neither created nor destroyed in a chemical reaction",
+      "Because every reaction produces the same number of molecules it consumes"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Producing a new substance signals a chemical change.\n\n**Key concept:** Physical and chemical change",
+    "explanation": "**Explanation:** Balancing is the bookkeeping of conservation of mass. Molecule counts often differ between sides; atom counts never do.\n\n**Key concept:** Balancing and conservation of mass",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is a physical property of a substance?",
+    "question": "Which is a lipid’s main biological role?",
     "options": [
-      "Its ability to rust.",
-      "Its boiling point.",
-      "Its flammability.",
-      "Its reactivity with acid."
+      "Carrying genetic information",
+      "Long-term energy storage and forming cell membranes",
+      "Speeding up chemical reactions as enzymes",
+      "Providing the fastest available energy"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Physical properties can be measured without changing the substance's identity.\n\n**Key concept:** Properties of matter",
+    "explanation": "**Explanation:** Lipids are energy-dense and water-repelling, which suits both storage and the structure of membranes. Enzymes are proteins.\n\n**Key concept:** Lipids",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Iron left outdoors forms reddish rust. What kind of change is this?",
+    "question": "Proteins are built from which smaller units?",
     "options": [
-      "A chemical change, because a new substance forms.",
-      "A physical change, because only color changes.",
-      "No change, because iron remains.",
-      "A change of state from solid to liquid."
+      "Amino acids",
+      "Simple sugars",
+      "Fatty acids",
+      "Nucleotides"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Rust is iron oxide, a different substance from iron.\n\n**Key concept:** Chemical change",
+    "explanation": "**Explanation:** Each class of organic compound has its own building block: amino acids for proteins, simple sugars for carbohydrates, fatty acids and glycerol for lipids, nucleotides for nucleic acids.\n\n**Key concept:** Building blocks of organic compounds",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "On the periodic table, what do elements in the same column share?",
+    "question": "A solution turns blue litmus paper red. What does this indicate?",
     "options": [
-      "The same physical state at all times.",
-      "Exactly the same mass.",
-      "The same number of protons.",
-      "Similar chemical properties."
+      "The solution contains no water.",
+      "The solution is basic.",
+      "The solution is neutral.",
+      "The solution is acidic."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Elements in a group have similar outer electron arrangements and behave similarly.\n\n**Key concept:** Periodic table",
+    "explanation": "**Explanation:** Acids turn blue litmus red; bases turn red litmus blue. A neutral solution leaves both unchanged.\n\n**Key concept:** Acids and bases",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "What does the atomic number of an element tell you?",
+    "question": "On the pH scale, which value indicates the strongest acid?",
     "options": [
-      "The total mass of the atom.",
-      "The number of neutrons in each atom.",
-      "The number of protons in each atom.",
-      "The number of atoms in a sample."
+      "9",
+      "7",
+      "2",
+      "13"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The atomic number is the proton count and identifies the element.\n\n**Key concept:** Atomic structure",
+    "explanation": "**Explanation:** The pH scale runs from 0 to 14, with lower numbers more acidic, 7 neutral, and higher numbers more basic.\n\n**Key concept:** The pH scale",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which particles are found in the nucleus of an atom?",
+    "question": "A substance has pH 3 and another has pH 5. How do they compare?",
     "options": [
-      "Electrons only.",
-      "Protons and neutrons.",
-      "Protons and electrons.",
-      "Neutrons and electrons."
+      "The pH 3 substance is twice as acidic.",
+      "The pH 3 substance is 100 times more acidic, because each unit is a factor of ten.",
+      "The pH 5 substance is more acidic because 5 is larger.",
+      "They are equally acidic, since both are below 7."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The nucleus holds protons and neutrons; electrons occupy the surrounding space.\n\n**Key concept:** Atomic structure",
+    "explanation": "**Explanation:** The pH scale is logarithmic. Two units apart means a hundredfold difference in hydrogen ion concentration.\n\n**Key concept:** The pH scale is logarithmic",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A solution of sugar in water is clear and uniform throughout. What kind of mixture is it?",
+    "question": "Which observation indicates that a chemical reaction has released energy?",
     "options": [
-      "A homogeneous mixture.",
-      "A heterogeneous mixture.",
-      "A compound.",
-      "An element."
+      "The container becomes warm without being heated.",
+      "The mixture changes colour.",
+      "A precipitate forms at the bottom.",
+      "The reaction takes a long time to finish."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** In a homogeneous mixture the components are evenly distributed and not visibly separate.\n\n**Key concept:** Solutions",
+    "explanation": "**Explanation:** An exothermic reaction transfers energy to its surroundings, which registers as a temperature rise. Colour change and precipitation indicate that a reaction happened, not its energy direction.\n\n**Key concept:** Exothermic reactions",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "In a salt water solution, which component is the solvent?",
+    "question": "What is an element’s atomic number?",
     "options": [
-      "Neither component.",
-      "The salt.",
-      "Both equally.",
-      "The water."
+      "The number of electrons in the outer shell",
+      "The total number of protons and neutrons",
+      "The mass of one atom in grams",
+      "The number of protons in one atom of that element"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The solvent is the substance present in the greater amount that does the dissolving.\n\n**Key concept:** Solutions",
+    "explanation": "**Explanation:** The proton count defines the element — change it and you have a different element. Protons plus neutrons give the mass number.\n\n**Key concept:** Atomic number",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which change would make a solid dissolve faster in water?",
+    "question": "Elements in the same column of the periodic table tend to share what?",
     "options": [
-      "Using larger chunks of solid.",
-      "Cooling the water.",
-      "Raising the water temperature.",
-      "Leaving the mixture perfectly still."
+      "The same number of protons",
+      "The same atomic mass",
+      "Similar chemical behaviour, because they have the same number of outer electrons",
+      "The same physical state at room temperature"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Higher temperature increases particle motion and speeds dissolving.\n\n**Key concept:** Rate of dissolving",
+    "explanation": "**Explanation:** Columns are groups, and chemical behaviour is governed by the outer-shell electrons. Same proton count would mean the same element.\n\n**Key concept:** Groups in the periodic table",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A substance turns blue litmus paper red. What is it most likely to be?",
+    "question": "A catalyst is added to a reaction. What does it do?",
     "options": [
-      "A base.",
-      "An acid.",
-      "A neutral substance.",
-      "A pure element."
+      "It increases the amount of product that can be formed.",
+      "It speeds the reaction up without being consumed by it.",
+      "It is used up as the reaction proceeds.",
+      "It raises the temperature of the reaction mixture."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Acids turn blue litmus red; bases turn red litmus blue.\n\n**Key concept:** Acids and bases",
+    "explanation": "**Explanation:** A catalyst provides an easier route to the same products. It changes the rate, not the final amount, and is recoverable at the end.\n\n**Key concept:** Catalysts",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A solution has a pH of 11. How is it best described?",
+    "question": "Which of these is a compound rather than a mixture?",
     "options": [
-      "Basic.",
-      "Acidic.",
-      "Neutral.",
-      "Impossible to classify."
+      "Table salt, sodium chloride",
+      "Sea water",
+      "Air",
+      "Brass"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A pH above 7 is basic, below 7 is acidic, and exactly 7 is neutral.\n\n**Key concept:** pH scale",
+    "explanation": "**Explanation:** A compound has a fixed composition and its elements are chemically bonded. Sea water, air and brass are all mixtures with variable proportions.\n\n**Key concept:** Compounds versus mixtures",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is a sign that a chemical reaction has released energy as heat?",
+    "question": "Why does iron rust more quickly in salt water than in fresh water?",
     "options": [
-      "The color stays the same.",
-      "The container becomes cooler.",
-      "The mass increases.",
-      "The container becomes warmer."
+      "Salt water contains more oxygen than fresh water.",
+      "Salt water is denser and presses harder on the metal.",
+      "Salt physically scratches the metal surface.",
+      "Dissolved salt makes the water conduct better, which speeds the chemical reaction with oxygen."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** An exothermic reaction transfers energy out, warming the surroundings.\n\n**Key concept:** Energy in reactions",
+    "explanation": "**Explanation:** Rusting is an electrochemical process, and dissolved ions accelerate it by carrying charge. Salt water actually holds slightly less dissolved oxygen than fresh water.\n\n**Key concept:** Factors affecting a reaction rate",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Baking soda and vinegar are mixed in an open cup and the mass appears to decrease. What best explains this?",
+    "question": "A student grinds a solid into powder before adding acid, and the reaction goes faster. Why?",
     "options": [
-      "The balance stopped working.",
-      "Atoms were destroyed in the reaction.",
-      "Carbon dioxide gas escaped from the open cup.",
-      "Mass is not conserved in reactions."
+      "Grinding changes the solid into a different substance.",
+      "Grinding raises the temperature of the solid.",
+      "Grinding increases the surface area exposed to the acid.",
+      "Grinding adds energy that is stored in the powder."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** In an open system escaping gas leaves the balance, though total mass is still conserved.\n\n**Key concept:** Conservation of mass",
+    "explanation": "**Explanation:** Reaction rate depends on how often reactant particles meet. More exposed surface means more collision sites at any moment.\n\n**Key concept:** Surface area and reaction rate",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which state of matter has a definite volume but takes the shape of its container?",
+    "question": "What holds the two hydrogen atoms to the oxygen atom in a water molecule?",
     "options": [
-      "Solid.",
-      "Liquid.",
-      "Gas.",
-      "Plasma."
+      "Magnetic attraction between the nuclei",
+      "Chemical bonds formed by shared electrons",
+      "Gravity between the atoms",
+      "The pressure of the surrounding water"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Liquid particles stay close together but slide past one another.\n\n**Key concept:** States of matter",
+    "explanation": "**Explanation:** Covalent bonds arise from electron sharing. Gravity between atoms is negligible, and bonding is electrical rather than magnetic.\n\n**Key concept:** Chemical bonding",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "What happens to the particles of a substance as it changes from solid to liquid?",
+    "question": "Which change would you expect to increase the rate of a reaction between a solid and a liquid?",
     "options": [
-      "They gain energy and move more freely.",
-      "They lose energy and stop moving.",
-      "They change into different atoms.",
-      "They become smaller in size."
+      "Raising the temperature of the liquid",
+      "Cooling the mixture in an ice bath",
+      "Using a larger single lump of the solid",
+      "Adding an inert substance that does not react"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Melting adds energy, letting particles break free of fixed positions.\n\n**Key concept:** Changes of state",
+    "explanation": "**Explanation:** Higher temperature means faster-moving particles, so collisions are more frequent and more energetic. A single large lump reduces surface area.\n\n**Key concept:** Temperature and reaction rate",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Why does a gas fill its entire container?",
+    "question": "A carbohydrate, a lipid and a protein are each burned in a calorimeter. Which is expected to release the most energy per gram?",
     "options": [
-      "Gas particles grow larger over time.",
-      "Its particles are tightly bonded together.",
-      "Gas particles have no motion.",
-      "Its particles move rapidly and are far apart with little attraction."
+      "All three release the same amount",
+      "The carbohydrate",
+      "The protein",
+      "The lipid"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Weak attraction and rapid motion let gas particles spread throughout a container.\n\n**Key concept:** Particle model",
+    "explanation": "**Explanation:** Lipids are the most energy-dense of the three, at roughly nine calories per gram against about four for carbohydrates and proteins — which is why the body uses fat for long-term storage.\n\n**Key concept:** Energy density of organic compounds",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Which method best separates iron filings from a mixture with sand?",
+    "question": "How does a physical property differ from a chemical property in identifying a substance?",
     "options": [
-      "Heat the mixture until it glows.",
-      "Dissolve the mixture in water.",
-      "Use a magnet to attract the iron.",
-      "Add vinegar and stir."
+      "A chemical property applies only to compounds.",
+      "A physical property is always more reliable for identification.",
+      "A physical property can be measured without changing the substance; a chemical property cannot.",
+      "A physical property can only be observed with instruments."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Iron is magnetic and sand is not, so a magnet separates them physically.\n\n**Key concept:** Separating mixtures",
+    "explanation": "**Explanation:** Observing flammability requires burning the sample; observing density does not. Both are useful for identification, but only one leaves the substance intact.\n\n**Key concept:** Physical and chemical properties",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Why is filtering a good way to separate sand from water but not salt from water?",
+    "question": "Two clear liquids are mixed and a solid appears at the bottom. What has most likely happened?",
     "options": [
-      "Salt is heavier than sand.",
-      "Sand particles are too large to pass through the filter, but dissolved salt is not.",
-      "Water dissolves sand but not salt.",
-      "Filters react chemically with salt."
+      "One liquid froze on contact with the other.",
+      "A chemical reaction produced an insoluble product, a precipitate.",
+      "Dust from the air settled into the container.",
+      "One liquid evaporated, leaving a residue."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Filtration separates undissolved solids; dissolved particles pass through with the liquid.\n\n**Key concept:** Separating mixtures",
+    "explanation": "**Explanation:** A precipitate forming on mixing is a classic indicator of a chemical reaction. Freezing would require a temperature change, and evaporation would not act that quickly.\n\n**Key concept:** Precipitation as evidence of reaction",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "chemistry_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A chemical equation shows two hydrogen molecules and one oxygen molecule forming two water molecules. What does this illustrate?",
+    "question": "Why is carbon able to form such a large number of different compounds?",
     "options": [
-      "Atoms are conserved and simply rearranged.",
-      "Two atoms were destroyed.",
-      "One new element was created.",
-      "Mass increased during the reaction."
+      "It forms four stable bonds, allowing long chains, branches and rings.",
+      "It is the most abundant element on Earth.",
+      "It reacts with every other element.",
+      "It has the smallest atoms of any element."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The same atoms appear on both sides in different combinations.\n\n**Key concept:** Balanced equations",
+    "explanation": "**Explanation:** Four bonding sites plus the ability to bond strongly to itself is what gives carbon its structural range. Abundance and atom size do not explain it — hydrogen is smaller and more abundant.\n\n**Key concept:** Carbon’s bonding versatility",
     "source": "authored",
     "needsReview": false
   }

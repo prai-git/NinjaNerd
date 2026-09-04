@@ -7,15 +7,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 4 cm, width 3 cm, and height 2 cm. What is its volume?",
+    "question": "A rectangular prism has length \\(4\\) cm, width \\(3\\) cm, and height \\(2\\) cm. What is its volume?",
     "options": [
-      "24 cubic centimeters",
-      "52 cubic centimeters",
-      "9 cubic centimeters",
-      "12 cubic centimeters"
+      "\\(24\\) cubic centimetres",
+      "\\(52\\) cubic centimetres",
+      "\\(9\\) cubic centimetres",
+      "\\(12\\) cubic centimetres"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Volume is length x width x height: 4 x 3 x 2 = 24 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Volume is length times width times height: \\(4 \\times 3 \\times 2 = 24\\) cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 5 cm, width 4 cm, and height 3 cm. What is its volume?",
+    "question": "A circle has radius \\(3\\) cm. Using \\(3.14\\) for \\(\\pi\\), what is its circumference?",
     "options": [
-      "20 cubic centimeters",
-      "94 cubic centimeters",
-      "12 cubic centimeters",
-      "60 cubic centimeters"
+      "\\(6\\) cm",
+      "\\(28.26\\) cm",
+      "\\(9.42\\) cm",
+      "\\(18.84\\) cm"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Volume is length x width x height: 5 x 4 x 3 = 60 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Circumference is \\(2\\pi r\\): \\(2 \\times 3.14 \\times 3 = 18.84\\) cm. Using \\(\\pi r^2\\) instead would give the area, \\(28.26\\) square centimetres.\n\n**Key concept:** Circumference of a circle",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 6 cm, width 5 cm, and height 4 cm. What is its volume?",
+    "question": "A triangular prism has a base that is a triangle with base \\(6\\) cm and height \\(5\\) cm. The prism is \\(10\\) cm long. What is its volume?",
     "options": [
-      "15 cubic centimeters",
-      "148 cubic centimeters",
-      "120 cubic centimeters",
-      "30 cubic centimeters"
+      "\\(75\\) cubic centimetres",
+      "\\(300\\) cubic centimetres",
+      "\\(150\\) cubic centimetres",
+      "\\(30\\) cubic centimetres"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Volume is length x width x height: 6 x 5 x 4 = 120 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** The triangular face has area \\(\\frac{1}{2} \\times 6 \\times 5 = 15\\) square centimetres. Volume is that area times the length: \\(15 \\times 10 = 150\\) cubic centimetres.\n\n**Key concept:** Volume of a triangular prism",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 7 cm, width 6 cm, and height 5 cm. What is its volume?",
+    "question": "A circular garden has a diameter of \\(14\\) feet. Using \\(\\frac{22}{7}\\) for \\(\\pi\\), what is its area?",
     "options": [
-      "214 cubic centimeters",
-      "210 cubic centimeters",
-      "18 cubic centimeters",
-      "42 cubic centimeters"
+      "\\(44\\) square feet",
+      "\\(154\\) square feet",
+      "\\(616\\) square feet",
+      "\\(88\\) square feet"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Volume is length x width x height: 7 x 6 x 5 = 210 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** The radius is \\(7\\) feet, so the area is \\(\\frac{22}{7} \\times 7^2 = \\frac{22}{7} \\times 49 = 154\\) square feet.\n\n**Key concept:** Area of a circle from a diameter",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A circle has radius 3 cm. Using 3.14 for pi, what is its circumference?",
+    "question": "A rectangular prism has a volume of \\(288\\) cubic inches. Its base is \\(8\\) inches by \\(6\\) inches. What is its height?",
     "options": [
-      "18.84 cm",
-      "28.26 square centimeters",
-      "9.42 cm",
-      "6 cm"
+      "\\(6\\) inches",
+      "\\(48\\) inches",
+      "\\(4\\) inches",
+      "\\(36\\) inches"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Circumference is 2 x pi x radius: 2 x 3.14 x 3 = 18.84 cm.\n\n**Key concept:** Circumference of a circle",
+    "explanation": "**Explanation:** The base area is \\(8 \\times 6 = 48\\) square inches, so the height is \\(288 \\div 48 = 6\\) inches.\n\n**Key concept:** Solving for a missing dimension",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 8 cm, width 7 cm, and height 2 cm. What is its volume?",
+    "question": "A figure is made of a \\(10\\) cm by \\(6\\) cm rectangle with a \\(4\\) cm by \\(3\\) cm rectangle removed from one corner. What is the area of the remaining figure?",
     "options": [
-      "56 cubic centimeters",
-      "172 cubic centimeters",
-      "17 cubic centimeters",
-      "112 cubic centimeters"
+      "\\(23\\) square centimetres",
+      "\\(72\\) square centimetres",
+      "\\(60\\) square centimetres",
+      "\\(48\\) square centimetres"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Volume is length x width x height: 8 x 7 x 2 = 112 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Subtract the removed piece from the whole: \\(10 \\times 6 = 60\\) and \\(4 \\times 3 = 12\\), so \\(60 - 12 = 48\\) square centimetres.\n\n**Key concept:** Area of a composite figure",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 9 cm, width 3 cm, and height 3 cm. What is its volume?",
+    "question": "A running track is a rectangle \\(80\\) m long and \\(50\\) m wide with a semicircle of diameter \\(50\\) m on each short end. Using \\(3.14\\) for \\(\\pi\\), what is the total distance around the track?",
     "options": [
-      "15 cubic centimeters",
-      "126 cubic centimeters",
-      "81 cubic centimeters",
-      "27 cubic centimeters"
+      "\\(160\\) m",
+      "\\(260\\) m",
+      "\\(317\\) m",
+      "\\(437\\) m"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Volume is length x width x height: 9 x 3 x 3 = 81 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** The two semicircles together make one full circle of diameter \\(50\\) m, giving \\(3.14 \\times 50 = 157\\) m. Add the two straight sides: \\(157 + 80 + 80 = 317\\) m. The \\(50\\) m ends are not part of the perimeter.\n\n**Key concept:** Perimeter of a composite figure",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 4 cm, width 5 cm, and height 5 cm. What is its volume?",
+    "question": "A recipe calls for \\(2\\) litres of stock. How many cups is that, if \\(1\\) litre is about \\(4.23\\) cups?",
     "options": [
-      "130 cubic centimeters",
-      "100 cubic centimeters",
-      "14 cubic centimeters",
-      "20 cubic centimeters"
+      "About \\(2.1\\) cups",
+      "About \\(8.5\\) cups",
+      "About \\(0.47\\) cup",
+      "About \\(42.3\\) cups"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Volume is length x width x height: 4 x 5 x 5 = 100 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Multiply by the conversion rate: \\(2 \\times 4.23 = 8.46\\), which rounds to about \\(8.5\\) cups.\n\n**Key concept:** Converting between measurement systems",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 5 cm, width 6 cm, and height 2 cm. What is its volume?",
+    "question": "A car travels \\(90\\) kilometres per hour. About how many miles per hour is that, if \\(1\\) mile is about \\(1.61\\) kilometres?",
     "options": [
-      "60 cubic centimeters",
-      "104 cubic centimeters",
-      "13 cubic centimeters",
-      "30 cubic centimeters"
+      "About \\(56\\) miles per hour",
+      "About \\(145\\) miles per hour",
+      "About \\(91.6\\) miles per hour",
+      "About \\(58\\) miles per hour"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Volume is length x width x height: 5 x 6 x 2 = 60 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Divide by the number of kilometres in a mile: \\(90 \\div 1.61 \\approx 55.9\\) miles per hour. Multiplying instead would give a value larger than the original, which cannot be right because a mile is longer than a kilometre.\n\n**Key concept:** Choosing to multiply or divide when converting",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A circle has radius 5 cm. Using 3.14 for pi, what is its circumference?",
+    "question": "A cube has an edge length of \\(4.5\\) cm. What is its volume?",
     "options": [
-      "10 cm",
-      "78.5 square centimeters",
-      "15.7 cm",
-      "31.4 cm"
+      "\\(121.5\\) cubic centimetres",
+      "\\(20.25\\) cubic centimetres",
+      "\\(13.5\\) cubic centimetres",
+      "\\(91.125\\) cubic centimetres"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Circumference is 2 x pi x radius: 2 x 3.14 x 5 = 31.4 cm.\n\n**Key concept:** Circumference of a circle",
+    "explanation": "**Explanation:** A cube’s volume is the edge cubed: \\(4.5^3 = 4.5 \\times 4.5 \\times 4.5 = 91.125\\) cubic centimetres.\n\n**Key concept:** Volume of a cube",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 6 cm, width 7 cm, and height 3 cm. What is its volume?",
+    "question": "A circular pizza has a radius of \\(9\\) inches. A second pizza has a radius of \\(18\\) inches. How many times as much pizza is the larger one?",
     "options": [
-      "16 cubic centimeters",
-      "162 cubic centimeters",
-      "126 cubic centimeters",
-      "42 cubic centimeters"
+      "\\(3\\) times as much",
+      "\\(2\\) times as much",
+      "\\(4\\) times as much",
+      "\\(8\\) times as much"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Volume is length x width x height: 6 x 7 x 3 = 126 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Area depends on the square of the radius. Doubling the radius multiplies the area by \\(2^2 = 4\\).\n\n**Key concept:** Area grows with the square of the radius",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 7 cm, width 3 cm, and height 4 cm. What is its volume?",
+    "question": "A circle has an area of \\(78.5\\) square centimetres. Using \\(3.14\\) for \\(\\pi\\), what is its radius?",
     "options": [
-      "122 cubic centimeters",
-      "84 cubic centimeters",
-      "14 cubic centimeters",
-      "21 cubic centimeters"
+      "\\(25\\) cm",
+      "\\(5\\) cm",
+      "\\(12.5\\) cm",
+      "\\(10\\) cm"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Volume is length x width x height: 7 x 3 x 4 = 84 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Divide the area by \\(\\pi\\): \\(78.5 \\div 3.14 = 25\\), which is \\(r^2\\). Then \\(r = \\sqrt{25} = 5\\) cm.\n\n**Key concept:** Working backwards from the area of a circle",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 8 cm, width 4 cm, and height 5 cm. What is its volume?",
+    "question": "A fish tank is \\(60\\) cm long, \\(30\\) cm wide and \\(40\\) cm tall. It is filled to a depth of \\(25\\) cm. How many litres of water are in it, if \\(1000\\) cubic centimetres is \\(1\\) litre?",
     "options": [
-      "160 cubic centimeters",
-      "184 cubic centimeters",
-      "17 cubic centimeters",
-      "32 cubic centimeters"
+      "\\(45\\) litres",
+      "\\(72\\) litres",
+      "\\(4.5\\) litres",
+      "\\(180\\) litres"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Volume is length x width x height: 8 x 4 x 5 = 160 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** The water forms a prism \\(60 \\times 30 \\times 25 = 45{,}000\\) cubic centimetres, which is \\(45\\) litres. The tank height of \\(40\\) cm is not used.\n\n**Key concept:** Volume with an extra given value",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 9 cm, width 5 cm, and height 2 cm. What is its volume?",
+    "question": "A trapezoid has parallel sides of \\(12\\) cm and \\(8\\) cm and a height of \\(5\\) cm. What is its area?",
     "options": [
-      "45 cubic centimeters",
-      "146 cubic centimeters",
-      "16 cubic centimeters",
-      "90 cubic centimeters"
+      "\\(25\\) square centimetres",
+      "\\(100\\) square centimetres",
+      "\\(60\\) square centimetres",
+      "\\(50\\) square centimetres"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Volume is length x width x height: 9 x 5 x 2 = 90 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Average the parallel sides and multiply by the height: \\(\\frac{12 + 8}{2} \\times 5 = 10 \\times 5 = 50\\) square centimetres.\n\n**Key concept:** Area of a trapezoid",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A circle has radius 8 cm. Using 3.14 for pi, what is its circumference?",
+    "question": "A parallelogram has an area of \\(84\\) square metres and a base of \\(14\\) metres. What is its height?",
     "options": [
-      "25.12 cm",
-      "200.96 square centimeters",
-      "50.24 cm",
-      "16 cm"
+      "\\(12\\) m",
+      "\\(70\\) m",
+      "\\(6\\) m",
+      "\\(1{,}176\\) m"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Circumference is 2 x pi x radius: 2 x 3.14 x 8 = 50.24 cm.\n\n**Key concept:** Circumference of a circle",
+    "explanation": "**Explanation:** Area is base times height, so the height is \\(84 \\div 14 = 6\\) metres.\n\n**Key concept:** Missing dimension of a parallelogram",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 4 cm, width 6 cm, and height 3 cm. What is its volume?",
+    "question": "How many cubes with edge \\(2\\) cm fit inside a box \\(12\\) cm by \\(8\\) cm by \\(6\\) cm?",
     "options": [
-      "108 cubic centimeters",
-      "72 cubic centimeters",
-      "13 cubic centimeters",
-      "24 cubic centimeters"
+      "\\(288\\) cubes",
+      "\\(72\\) cubes",
+      "\\(36\\) cubes",
+      "\\(144\\) cubes"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Volume is length x width x height: 4 x 6 x 3 = 72 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Each cube has volume \\(8\\) cubic centimetres and the box has volume \\(12 \\times 8 \\times 6 = 576\\). Then \\(576 \\div 8 = 72\\). Every edge divides evenly by \\(2\\), so the cubes fit with no gaps.\n\n**Key concept:** Packing volume with unit cubes",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 5 cm, width 7 cm, and height 4 cm. What is its volume?",
+    "question": "A garden path is \\(1.5\\) m wide and surrounds a rectangular lawn \\(10\\) m by \\(6\\) m. What is the area of the path alone?",
     "options": [
-      "140 cubic centimeters",
-      "166 cubic centimeters",
-      "16 cubic centimeters",
-      "35 cubic centimeters"
+      "\\(57\\) square metres",
+      "\\(60\\) square metres",
+      "\\(117\\) square metres",
+      "\\(48\\) square metres"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Volume is length x width x height: 5 x 7 x 4 = 140 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** The outer rectangle measures \\(13\\) m by \\(9\\) m because the path adds \\(1.5\\) m on each side. Its area is \\(117\\) square metres, and subtracting the lawn’s \\(60\\) leaves \\(57\\) square metres.\n\n**Key concept:** Area of a border region",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 6 cm, width 3 cm, and height 5 cm. What is its volume?",
+    "question": "A wheel has a diameter of \\(70\\) cm. Using \\(\\frac{22}{7}\\) for \\(\\pi\\), how far does it travel in one full turn?",
     "options": [
-      "18 cubic centimeters",
-      "126 cubic centimeters",
-      "14 cubic centimeters",
-      "90 cubic centimeters"
+      "\\(440\\) cm",
+      "\\(110\\) cm",
+      "\\(3{,}850\\) cm",
+      "\\(220\\) cm"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Volume is length x width x height: 6 x 3 x 5 = 90 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** One turn covers one circumference: \\(\\frac{22}{7} \\times 70 = 220\\) cm.\n\n**Key concept:** Circumference as distance rolled",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 7 cm, width 4 cm, and height 2 cm. What is its volume?",
+    "question": "Which change would **double** the area of a circle?",
     "options": [
-      "13 cubic centimeters",
-      "100 cubic centimeters",
-      "56 cubic centimeters",
-      "28 cubic centimeters"
+      "Doubling the circumference",
+      "Doubling the radius",
+      "Multiplying the radius by \\(\\sqrt{2}\\)",
+      "Adding \\(2\\) to the radius"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Volume is length x width x height: 7 x 4 x 2 = 56 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Area is \\(\\pi r^2\\). Multiplying \\(r\\) by \\(\\sqrt{2}\\) multiplies \\(r^2\\) by \\(2\\). Doubling the radius or the circumference would multiply the area by \\(4\\).\n\n**Key concept:** Relating linear change to area change",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A circle has radius 10 cm. Using 3.14 for pi, what is its circumference?",
+    "question": "Two containers hold the same volume. One is a rectangular prism \\(10\\) cm by \\(10\\) cm by \\(18\\) cm. The other is a rectangular prism with a \\(12\\) cm by \\(15\\) cm base. How tall is the second container?",
     "options": [
-      "314 square centimeters",
-      "62.8 cm",
-      "31.4 cm",
-      "20 cm"
+      "\\(18\\) cm",
+      "\\(10\\) cm",
+      "\\(12\\) cm",
+      "\\(15\\) cm"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Circumference is 2 x pi x radius: 2 x 3.14 x 10 = 62.8 cm.\n\n**Key concept:** Circumference of a circle",
+    "explanation": "**Explanation:** The first volume is \\(1{,}800\\) cubic centimetres. Dividing by the second base area, \\(12 \\times 15 = 180\\), gives a height of \\(10\\) cm.\n\n**Key concept:** Equal volumes, different dimensions",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 8 cm, width 5 cm, and height 3 cm. What is its volume?",
+    "question": "A recipe uses \\(750\\) millilitres of milk. How many litres is that?",
     "options": [
-      "120 cubic centimeters",
-      "158 cubic centimeters",
-      "16 cubic centimeters",
-      "40 cubic centimeters"
+      "\\(0.75\\) litre",
+      "\\(7.5\\) litres",
+      "\\(75\\) litres",
+      "\\(0.075\\) litre"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Volume is length x width x height: 8 x 5 x 3 = 120 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** There are \\(1{,}000\\) millilitres in a litre, so \\(750 \\div 1000 = 0.75\\) litre.\n\n**Key concept:** Metric conversion by place value",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 9 cm, width 6 cm, and height 4 cm. What is its volume?",
+    "question": "A composite figure is a \\(6\\) cm square with a semicircle of diameter \\(6\\) cm attached to one side. Using \\(3.14\\) for \\(\\pi\\), what is the total area?",
     "options": [
-      "54 cubic centimeters",
-      "228 cubic centimeters",
-      "19 cubic centimeters",
-      "216 cubic centimeters"
+      "\\(36\\) square centimetres",
+      "\\(64.26\\) square centimetres",
+      "\\(42.26\\) square centimetres",
+      "\\(50.13\\) square centimetres"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Volume is length x width x height: 9 x 6 x 4 = 216 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** The square contributes \\(36\\) square centimetres. The semicircle has radius \\(3\\), so its area is \\(\\frac{1}{2} \\times 3.14 \\times 9 = 14.13\\). The total is \\(36 + 14.13 = 50.13\\) square centimetres.\n\n**Key concept:** Combining a polygon and a circle",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 4 cm, width 7 cm, and height 5 cm. What is its volume?",
+    "question": "A triangle has an area of \\(42\\) square centimetres and a height of \\(7\\) cm. What is the length of its base?",
     "options": [
-      "16 cubic centimeters",
-      "166 cubic centimeters",
-      "140 cubic centimeters",
-      "28 cubic centimeters"
+      "\\(24\\) cm",
+      "\\(6\\) cm",
+      "\\(12\\) cm",
+      "\\(294\\) cm"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Volume is length x width x height: 4 x 7 x 5 = 140 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Area is \\(\\frac{1}{2}bh\\), so \\(42 = \\frac{1}{2} \\times b \\times 7\\). Then \\(84 = 7b\\) and \\(b = 12\\) cm.\n\n**Key concept:** Missing base of a triangle",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A rectangular prism has length 5 cm, width 3 cm, and height 6 cm. What is its volume?",
+    "question": "A cylindrical can has radius \\(5\\) cm and height \\(12\\) cm. Using \\(3.14\\) for \\(\\pi\\), what is its volume?",
     "options": [
-      "126 cubic centimeters",
-      "90 cubic centimeters",
-      "14 cubic centimeters",
-      "15 cubic centimeters"
+      "\\(188.4\\) cubic centimetres",
+      "\\(942\\) cubic centimetres",
+      "\\(376.8\\) cubic centimetres",
+      "\\(1{,}884\\) cubic centimetres"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Volume is length x width x height: 5 x 3 x 6 = 90 cubic centimetres.\n\n**Key concept:** Volume of a rectangular prism",
+    "explanation": "**Explanation:** Volume is the base area times the height: \\(3.14 \\times 5^2 = 78.5\\) square centimetres, and \\(78.5 \\times 12 = 942\\) cubic centimetres.\n\n**Key concept:** Volume of a cylinder",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "measurement_data",
     "passage": null,
     "passageTitle": null,
-    "question": "A circle has radius 12 cm. Using 3.14 for pi, what is its circumference?",
+    "question": "A rectangular room \\(15\\) feet by \\(12\\) feet needs carpet costing \\(\\$4.50\\) per square foot. What is the total cost?",
     "options": [
-      "75.36 cm",
-      "452.16 square centimeters",
-      "37.68 cm",
-      "24 cm"
+      "\\(\\$810\\)",
+      "\\(\\$121.50\\)",
+      "\\(\\$180\\)",
+      "\\(\\$405\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Circumference is 2 x pi x radius: 2 x 3.14 x 12 = 75.36 cm.\n\n**Key concept:** Circumference of a circle",
+    "explanation": "**Explanation:** The floor area is \\(15 \\times 12 = 180\\) square feet, and \\(180 \\times 4.50 = 810\\) dollars.\n\n**Key concept:** Area applied to a unit cost",
     "source": "authored",
     "needsReview": false
   }

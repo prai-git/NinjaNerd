@@ -7,15 +7,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 3 cm wide on the drawing. What is its actual width?",
+    "question": "A scale drawing uses \\(1\\) cm for \\(3\\) m. A rectangular garden is \\(3\\) cm wide on the drawing. What is its actual width?",
     "options": [
-      "6 m",
-      "9 m",
-      "3 m",
-      "18 m"
+      "\\(6\\) m",
+      "\\(9\\) m",
+      "\\(3\\) m",
+      "\\(18\\) m"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 3 x 3 = 9 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Each centimetre on the drawing stands for \\(3\\) m, so \\(3 \\times 3 = 9\\) m.\n\n**Key concept:** Scale drawings",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "question": "A plane slices a rectangular prism parallel to its base. What shape is the cross-section?",
     "options": [
-      "16 m",
-      "8 m",
-      "4 m",
-      "32 m"
+      "A rectangle congruent to the base.",
+      "A circle.",
+      "A triangle.",
+      "A pentagon."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 4 x 4 = 16 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** A slice parallel to a prism base has the same shape and the same size as that base, because the prism does not change width along its height.\n\n**Key concept:** Cross-sections of three-dimensional figures",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 5 cm wide on the drawing. What is its actual width?",
+    "question": "A plane slices a cylinder parallel to its base. What shape is the cross-section?",
     "options": [
-      "50 m",
-      "10 m",
-      "5 m",
-      "25 m"
+      "A triangle.",
+      "An oval longer than the base.",
+      "A rectangle.",
+      "A circle congruent to the base."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 5 x 5 = 25 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Every slice parallel to a cylinder base repeats that base exactly. A slice perpendicular to the base would give a rectangle instead.\n\n**Key concept:** Cross-sections of three-dimensional figures",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 6 cm wide on the drawing. What is its actual width?",
+    "question": "A plane slices a rectangular pyramid parallel to its base, halfway up. What shape is the cross-section?",
     "options": [
-      "6 m",
-      "12 m",
-      "36 m",
-      "72 m"
+      "A rectangle congruent to the base.",
+      "A circle.",
+      "A rectangle smaller than the base.",
+      "A triangle."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 6 x 6 = 36 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** A pyramid narrows toward its apex, so a parallel slice keeps the shape of the base but shrinks it.\n\n**Key concept:** Cross-sections of three-dimensional figures",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A plane slices a rectangular prism parallel to its base. What shape is the cross-section?",
+    "question": "A plane slices a cube perpendicular to its base and parallel to one pair of faces. What shape is the cross-section?",
     "options": [
-      "A circle.",
-      "A rectangle congruent to the base.",
+      "A hexagon.",
+      "A square congruent to a face.",
       "A triangle.",
-      "A pentagon."
+      "A circle."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A slice parallel to a prism base has the same shape and size as that base.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "explanation": "**Explanation:** The cut runs straight through two parallel square faces, so the section matches a face exactly.\n\n**Key concept:** Cross-sections of three-dimensional figures",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 8 cm wide on the drawing. What is its actual width?",
+    "question": "A plane slices a cone parallel to its base, above the base. What shape is the cross-section?",
     "options": [
-      "24 m",
-      "11 m",
-      "8 m",
-      "3 m"
+      "A circle smaller than the base.",
+      "A circle congruent to the base.",
+      "A triangle.",
+      "A rectangle."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 8 x 3 = 24 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** A cone narrows toward its apex, so a slice parallel to the base is a circle with a smaller radius.\n\n**Key concept:** Cross-sections of three-dimensional figures",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 9 cm wide on the drawing. What is its actual width?",
+    "question": "On a map, \\(2.5\\) cm represents \\(15\\) km. Two towns are \\(41\\) km apart. How far apart are they on the map, to the nearest tenth of a centimetre?",
     "options": [
-      "4 m",
-      "13 m",
-      "9 m",
-      "36 m"
+      "\\(2.7\\) cm",
+      "\\(6.2\\) cm",
+      "\\(16.4\\) cm",
+      "\\(6.8\\) cm"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 9 x 4 = 36 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** The scale is \\(15 \\div 2.5 = 6\\) km per centimetre, so \\(41 \\div 6 \\approx 6.83\\), which rounds to \\(6.8\\) cm.\n\n**Key concept:** Using a scale as a unit rate",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 3 cm wide on the drawing. What is its actual width?",
+    "question": "Triangle ABC has sides \\(6\\), \\(8\\) and \\(10\\). Triangle DEF is similar, and its shortest side is \\(15\\). What is the perimeter of triangle DEF?",
     "options": [
-      "3 m",
-      "8 m",
-      "15 m",
-      "5 m"
+      "\\(24\\)",
+      "\\(33\\)",
+      "\\(60\\)",
+      "\\(45\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 3 x 5 = 15 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** The scale factor is \\(15 \\div 6 = 2.5\\). The original perimeter is \\(24\\), so the new perimeter is \\(24 \\times 2.5 = 60\\). Perimeter scales by the same factor as the sides.\n\n**Key concept:** Similar figures scale perimeter linearly",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "question": "A photograph \\(4\\) inches wide and \\(6\\) inches tall is enlarged so that its width becomes \\(10\\) inches. What is the new height?",
     "options": [
-      "10 m",
-      "24 m",
-      "4 m",
-      "6 m"
+      "\\(12\\) inches",
+      "\\(15\\) inches",
+      "\\(16\\) inches",
+      "\\(8\\) inches"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 4 x 6 = 24 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Similar figures keep the same ratio: \\(\\frac{4}{6} = \\frac{10}{h}\\) gives \\(4h = 60\\) and \\(h = 15\\) inches.\n\n**Key concept:** Proportional reasoning with similar figures",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A plane slices a cylinder parallel to its base. What shape is the cross-section?",
+    "question": "A model car is built at a scale of \\(1:24\\). The model is \\(7.5\\) inches long. How long is the real car?",
     "options": [
-      "A circle congruent to the base.",
-      "An oval longer than the base.",
-      "A rectangle.",
-      "A triangle."
+      "\\(15\\) feet",
+      "\\(180\\) feet",
+      "\\(3.125\\) feet",
+      "\\(24\\) feet"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Every slice parallel to a cylinder base repeats that base exactly.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "explanation": "**Explanation:** The real car is \\(7.5 \\times 24 = 180\\) inches. Dividing by \\(12\\) converts that to \\(15\\) feet.\n\n**Key concept:** Scale factors and unit conversion",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 6 cm wide on the drawing. What is its actual width?",
+    "question": "Two angles are **vertical** angles. One measures \\((3x + 10)\\) degrees and the other measures \\((5x - 20)\\) degrees. What is \\(x\\)?",
     "options": [
-      "3 m",
-      "9 m",
-      "6 m",
-      "18 m"
+      "\\(30\\)",
+      "\\(11.25\\)",
+      "\\(23.75\\)",
+      "\\(15\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 6 x 3 = 18 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Vertical angles are equal, so \\(3x + 10 = 5x - 20\\). Then \\(30 = 2x\\) and \\(x = 15\\).\n\n**Key concept:** Vertical angles are congruent",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 7 cm wide on the drawing. What is its actual width?",
+    "question": "Angle P and angle Q are **complementary**. Angle P measures \\((2x + 5)\\) degrees and angle Q measures \\((3x)\\) degrees. What is the measure of angle Q?",
     "options": [
-      "7 m",
-      "11 m",
-      "28 m",
-      "4 m"
+      "\\(39\\) degrees",
+      "\\(17\\) degrees",
+      "\\(51\\) degrees",
+      "\\(105\\) degrees"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 7 x 4 = 28 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Complementary angles sum to \\(90\\): \\(2x + 5 + 3x = 90\\) gives \\(5x = 85\\) and \\(x = 17\\). Angle Q is \\(3 \\times 17 = 51\\) degrees.\n\n**Key concept:** Writing equations from angle relationships",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 8 cm wide on the drawing. What is its actual width?",
+    "question": "Three angles form a straight line. Two of them measure \\(48\\) degrees and \\(67\\) degrees. What is the third angle?",
     "options": [
-      "13 m",
-      "40 m",
-      "8 m",
-      "5 m"
+      "\\(115\\) degrees",
+      "\\(65\\) degrees",
+      "\\(245\\) degrees",
+      "\\(25\\) degrees"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 8 x 5 = 40 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Angles on a straight line sum to \\(180\\) degrees: \\(180 - 48 - 67 = 65\\) degrees.\n\n**Key concept:** Adjacent angles on a line",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 9 cm wide on the drawing. What is its actual width?",
+    "question": "Which statement correctly describes \\(\\pi\\)?",
     "options": [
-      "54 m",
-      "15 m",
-      "9 m",
-      "6 m"
+      "It is the ratio of a circle’s circumference to its diameter.",
+      "It is the ratio of a circle’s area to its radius.",
+      "It is exactly \\(\\frac{22}{7}\\).",
+      "It is the ratio of a circle’s diameter to its radius."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 9 x 6 = 54 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** For every circle, dividing the circumference by the diameter gives the same value, \\(\\pi\\). \\(\\frac{22}{7}\\) is only an approximation, and diameter divided by radius is always \\(2\\).\n\n**Key concept:** Pi as a constant ratio",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A plane slices a rectangular pyramid parallel to its base, halfway up. What shape is the cross-section?",
+    "question": "A rectangle is enlarged by a scale factor of \\(3\\). How does its **area** change?",
     "options": [
-      "A circle.",
-      "A rectangle congruent to the base.",
-      "A triangle.",
-      "A rectangle smaller than the base."
+      "The area stays the same.",
+      "The area becomes \\(3\\) times as large.",
+      "The area becomes \\(6\\) times as large.",
+      "The area becomes \\(9\\) times as large."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A pyramid narrows toward its apex, so a parallel slice keeps the shape but shrinks it.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "explanation": "**Explanation:** Both dimensions triple, so the area is multiplied by \\(3 \\times 3 = 9\\). Area scales by the square of the linear scale factor.\n\n**Key concept:** Area scales by the square of the scale factor",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "question": "A plane slices a cylinder **perpendicular** to its base, through the centre. What shape is the cross-section?",
     "options": [
-      "4 m",
-      "7 m",
-      "12 m",
-      "3 m"
+      "A triangle.",
+      "A circle.",
+      "A rectangle.",
+      "An ellipse."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 4 x 3 = 12 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Cutting straight down through a cylinder produces a flat face bounded by two straight sides on the curved surface and two straight edges across the bases — a rectangle.\n\n**Key concept:** Cross-sections depend on the direction of the cut",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 5 cm wide on the drawing. What is its actual width?",
+    "question": "Two rectangles are similar. The smaller has dimensions \\(4\\) cm by \\(7\\) cm; the larger has a width of \\(10\\) cm. What is the area of the larger rectangle?",
     "options": [
-      "9 m",
-      "20 m",
-      "5 m",
-      "4 m"
+      "\\(70\\) square centimetres",
+      "\\(175\\) square centimetres",
+      "\\(28\\) square centimetres",
+      "\\(105\\) square centimetres"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 5 x 4 = 20 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** The scale factor is \\(10 \\div 4 = 2.5\\), so the longer side is \\(7 \\times 2.5 = 17.5\\) cm and the area is \\(10 \\times 17.5 = 175\\) square centimetres.\n\n**Key concept:** Combining scale factor with area",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 6 cm wide on the drawing. What is its actual width?",
+    "question": "A rectangular gate is \\(9\\) feet wide and \\(12\\) feet tall. A diagonal brace runs corner to corner. How long is the brace?",
     "options": [
-      "30 m",
-      "11 m",
-      "6 m",
-      "5 m"
+      "\\(15\\) feet",
+      "\\(21\\) feet",
+      "\\(10.8\\) feet",
+      "\\(225\\) feet"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 6 x 5 = 30 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** The brace is the hypotenuse of a right triangle: \\(9^2 + 12^2 = 81 + 144 = 225\\), and \\(\\sqrt{225} = 15\\) feet.\n\n**Key concept:** Pythagorean Theorem",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 7 cm wide on the drawing. What is its actual width?",
+    "question": "A ladder \\(17\\) feet long leans against a wall with its foot \\(8\\) feet from the base. How high up the wall does it reach?",
     "options": [
-      "6 m",
-      "13 m",
-      "7 m",
-      "42 m"
+      "\\(25\\) feet",
+      "\\(9\\) feet",
+      "\\(18.8\\) feet",
+      "\\(15\\) feet"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 7 x 6 = 42 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Use \\(a^2 + b^2 = c^2\\) with \\(c = 17\\): \\(17^2 - 8^2 = 289 - 64 = 225\\), and \\(\\sqrt{225} = 15\\) feet.\n\n**Key concept:** Finding a leg with the Pythagorean Theorem",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A plane slices a cube perpendicular to its base and parallel to one pair of faces. What shape is the cross-section?",
+    "question": "On a blueprint, a room measures \\(3\\frac{1}{2}\\) inches by \\(5\\) inches at a scale of \\(\\frac{1}{4}\\) inch to \\(1\\) foot. What is the actual floor area?",
     "options": [
-      "A hexagon.",
-      "A triangle.",
-      "A square congruent to a face.",
-      "A circle."
+      "\\(70\\) square feet",
+      "\\(17.5\\) square feet",
+      "\\(280\\) square feet",
+      "\\(1{,}120\\) square feet"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The cut runs straight through two parallel square faces, so it matches a face.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "explanation": "**Explanation:** Each \\(\\frac{1}{4}\\) inch is \\(1\\) foot, so multiply each length by \\(4\\): the room is \\(14\\) feet by \\(20\\) feet, giving \\(280\\) square feet.\n\n**Key concept:** Scale drawings and area",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 3 m. A rectangular garden is 9 cm wide on the drawing. What is its actual width?",
+    "question": "In a triangle, one angle measures \\(x\\) degrees, a second measures \\(2x\\) degrees, and the third measures \\((x + 20)\\) degrees. What is the largest angle?",
     "options": [
-      "12 m",
-      "27 m",
-      "9 m",
-      "3 m"
+      "\\(40\\) degrees",
+      "\\(80\\) degrees",
+      "\\(60\\) degrees",
+      "\\(100\\) degrees"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Each centimetre stands for 3 m, so 9 x 3 = 27 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** The angles sum to \\(180\\): \\(x + 2x + x + 20 = 180\\) gives \\(4x = 160\\) and \\(x = 40\\). The three angles are \\(40\\), \\(80\\) and \\(60\\) degrees.\n\n**Key concept:** Angle sum of a triangle",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 4 m. A rectangular garden is 3 cm wide on the drawing. What is its actual width?",
+    "question": "Which set of three lengths **cannot** form a triangle?",
     "options": [
-      "12 m",
-      "7 m",
-      "3 m",
-      "4 m"
+      "\\(4\\) cm, \\(5\\) cm, \\(9\\) cm",
+      "\\(4\\) cm, \\(5\\) cm, \\(8\\) cm",
+      "\\(6\\) cm, \\(6\\) cm, \\(6\\) cm",
+      "\\(7\\) cm, \\(9\\) cm, \\(12\\) cm"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Each centimetre stands for 4 m, so 3 x 4 = 12 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Two sides must together be strictly longer than the third. Here \\(4 + 5 = 9\\), which only just reaches the third side, so the three lengths lie flat instead of closing a triangle.\n\n**Key concept:** Triangle inequality",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 5 m. A rectangular garden is 4 cm wide on the drawing. What is its actual width?",
+    "question": "A triangle has a vertex at \\((3, -2)\\). The triangle is reflected across the \\(x\\)-axis. Where does that vertex land?",
     "options": [
-      "5 m",
-      "9 m",
-      "4 m",
-      "20 m"
+      "\\((-2, 3)\\)",
+      "\\((-3, -2)\\)",
+      "\\((-3, 2)\\)",
+      "\\((3, 2)\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Each centimetre stands for 5 m, so 4 x 5 = 20 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Reflecting across the \\(x\\)-axis keeps the \\(x\\)-coordinate and reverses the sign of the \\(y\\)-coordinate.\n\n**Key concept:** Reflections on the coordinate plane",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A scale drawing uses 1 cm for 6 m. A rectangular garden is 5 cm wide on the drawing. What is its actual width?",
+    "question": "A figure is translated \\(5\\) units left and \\(3\\) units up. A point originally at \\((-1, 4)\\) moves to which location?",
     "options": [
-      "5 m",
-      "11 m",
-      "30 m",
-      "6 m"
+      "\\((-6, 1)\\)",
+      "\\((4, 7)\\)",
+      "\\((-6, 7)\\)",
+      "\\((-1, 7)\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Each centimetre stands for 6 m, so 5 x 6 = 30 m.\n\n**Key concept:** Scale drawings",
+    "explanation": "**Explanation:** Left subtracts from \\(x\\) and up adds to \\(y\\): \\((-1 - 5,; 4 + 3) = (-6, 7)\\).\n\n**Key concept:** Translations on the coordinate plane",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "geometry_spatial_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "A plane slices a cone parallel to its base, above the base. What shape is the cross-section?",
+    "question": "A drawing of a bridge uses a scale of \\(1\\) cm to \\(8\\) m. The real bridge is \\(340\\) m long. The drawing must fit on paper \\(40\\) cm wide. Will it fit?",
     "options": [
-      "A circle congruent to the base.",
-      "A circle smaller than the base.",
-      "A triangle.",
-      "A rectangle."
+      "Yes — the drawing would be \\(42.5\\) cm long.",
+      "No — the drawing would be \\(42.5\\) cm long.",
+      "Yes — the drawing would be \\(38\\) cm long.",
+      "No — the drawing would be \\(2{,}720\\) cm long."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A cone narrows toward its apex, so a parallel slice is a smaller circle.\n\n**Key concept:** Cross-sections of three-dimensional figures",
+    "explanation": "**Explanation:** The drawing length is \\(340 \\div 8 = 42.5\\) cm, which is longer than the \\(40\\) cm of paper, so it does not fit.\n\n**Key concept:** Interpreting a scale in context",
     "source": "authored",
     "needsReview": false
   }

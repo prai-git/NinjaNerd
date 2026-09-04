@@ -7,15 +7,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A team claims chlorine reduces bacteria in pond water. What control is needed?",
+    "question": "Which statement is a scientific **hypothesis** rather than a prediction or an opinion?",
     "options": [
-      "Identical pond-water samples with no chlorine added.",
-      "Distilled water with no bacteria.",
-      "Pond water with extra sand.",
-      "Chlorine measured before mixing."
+      "Blue light is the most beautiful light for growing plants.",
+      "Plants will grow taller in blue light than in red light.",
+      "Plants grow taller in blue light because chlorophyll absorbs blue wavelengths most efficiently.",
+      "Someone should test whether light colour affects plants."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Controls, models, and scientific explanations",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A hypothesis proposes a testable explanation — it states not just what will happen but why. The second is the prediction that follows from it.\n\n**Key concept:** Hypothesis versus prediction",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "An advertisement claims a drink 'boosts brain power' but cites no study. How should this claim be treated?",
+    "question": "A model of the solar system shows planets as beads on wires. What is the main limitation of this model?",
     "options": [
-      "As true because it appears in an advertisement.",
-      "As unsupported until evidence is provided.",
-      "As false because all advertisements lie.",
-      "As proven if many people buy the drink."
+      "It shows the planets in the wrong order.",
+      "It cannot represent the true distances and sizes to the same scale.",
+      "It leaves out the Sun, which is the largest object.",
+      "Models are not used in real science."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A claim without evidence is neither proven nor disproven; it is simply unsupported.\n\n**Key concept:** Evaluating claims",
+    "explanation": "**Explanation:** Every model simplifies. A bead model conveys order and relative motion but must distort scale, because a true-to-scale model would be kilometres across.\n\n**Key concept:** Limitations of models",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do scientists publish their methods along with their results?",
+    "question": "A study finds that towns with more ice cream shops have more drownings. What is the most likely explanation?",
     "options": [
-      "So other scientists can repeat the work and check it.",
-      "So the results become impossible to question.",
-      "So the data can be kept private.",
-      "So no further studies are needed."
+      "A third factor — hot weather — increases both.",
+      "Eating ice cream causes people to drown.",
+      "Drownings cause towns to open more ice cream shops.",
+      "The study must contain an arithmetic error."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Transparency about methods is what makes independent verification possible.\n\n**Key concept:** Peer review",
+    "explanation": "**Explanation:** Two variables can move together because both respond to something else. Finding the confounding variable is the standard resolution of a spurious correlation.\n\n**Key concept:** Correlation is not causation",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A study is funded by the company selling the product being tested. Why is this worth noting?",
+    "question": "What makes a scientific claim testable?",
     "options": [
-      "It removes the need for a control group.",
-      "It proves the results are false.",
-      "It makes the study more accurate.",
-      "It is a potential source of bias that readers should weigh."
+      "Most people who study the subject agree with it.",
+      "It is stated by a scientist with relevant qualifications.",
+      "It has been published in more than one place.",
+      "It is possible to describe an observation that would show it to be wrong."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A conflict of interest does not disprove results but must be disclosed and considered.\n\n**Key concept:** Bias",
+    "explanation": "**Explanation:** Testability requires that the claim rule something out. A claim compatible with every possible observation cannot be checked.\n\n**Key concept:** Falsifiability",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the main purpose of a scientific model?",
+    "question": "A researcher’s results contradict her hypothesis. What is the appropriate response?",
     "options": [
-      "To prove a hypothesis is always true.",
-      "To replace the need for observation.",
-      "To represent a system so it can be studied and explained.",
-      "To make a system look attractive."
+      "Withhold the results, since they do not support the hypothesis.",
+      "Repeat the experiment until the expected result appears.",
+      "Report the results and revise the hypothesis to account for them.",
+      "Change the hypothesis afterward to claim she predicted the outcome."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Models simplify complex systems so scientists can test and communicate ideas.\n\n**Key concept:** Scientific models",
+    "explanation": "**Explanation:** A disconfirmed hypothesis is a result, not a failure. Repeating until the desired answer appears, and rewriting predictions after the fact, both destroy the value of the test.\n\n**Key concept:** Responding to disconfirming evidence",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A physical model of the solar system shows planet order but not true distances. What does this show about models?",
+    "question": "Why do scientific journals send submitted papers to other researchers before publishing?",
     "options": [
-      "Models are always wrong and should be avoided.",
-      "Every model has limitations as well as useful features.",
-      "A model must match reality in every way.",
-      "Models cannot show order correctly."
+      "To make sure the paper agrees with what is already accepted.",
+      "Independent specialists can find errors and unsupported claims the authors missed.",
+      "To decide whether the topic is interesting enough for readers.",
+      "To confirm that the researchers repeated the experiment enough times."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Models highlight some features and simplify others; knowing the limits matters.\n\n**Key concept:** Limitations of models",
+    "explanation": "**Explanation:** Peer review is a check on reasoning and method. It is not a test of agreement with existing views — findings that overturn them are exactly what advances the field.\n\n**Key concept:** Peer review",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Two research teams get the same result using different methods. What does this strengthen?",
+    "question": "Two laboratories obtain different results from the same procedure. What does this most likely indicate?",
     "options": [
-      "Confidence in the conclusion.",
-      "The need to discard both studies.",
-      "The claim that methods do not matter.",
-      "The certainty that no further work is possible."
+      "Some difference in materials, conditions or technique needs to be identified.",
+      "One laboratory must have falsified its data.",
+      "The phenomenon does not exist.",
+      "Scientific results are a matter of opinion."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Agreement from independent approaches makes a conclusion more trustworthy.\n\n**Key concept:** Reproducibility",
+    "explanation": "**Explanation:** Non-replication is a prompt to compare procedures in detail. It is common and often productive — the discrepancy itself frequently reveals an important variable.\n\n**Key concept:** Replication across laboratories",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "What distinguishes a scientific theory from a hypothesis?",
+    "question": "Which is the best description of a scientific theory?",
     "options": [
-      "A theory cannot be revised.",
-      "A theory is a guess that has not been tested.",
-      "A theory is less certain than a hypothesis.",
-      "A theory is a well-tested explanation supported by much evidence."
+      "An idea one scientist believes but others reject",
+      "A guess that has not yet been tested",
+      "A law of nature stated in mathematical form",
+      "A well-supported explanation that accounts for a wide range of observations"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** In science a theory is a broad explanation repeatedly supported by evidence.\n\n**Key concept:** Theories and hypotheses",
+    "explanation": "**Explanation:** In science, \"theory\" marks the strongest level of explanation, not the weakest. The everyday sense of the word — a hunch — is the source of persistent confusion.\n\n**Key concept:** What a scientific theory is",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "New evidence contradicts a long-accepted scientific explanation. What should happen?",
+    "question": "A website promoting a supplement cites \"a study\" without naming it. What is the main problem?",
     "options": [
-      "The explanation is kept because it is old.",
-      "The new evidence is ignored.",
-      "The explanation is re-examined and revised if the evidence holds up.",
-      "Science stops investigating the topic."
+      "Studies about supplements are always unreliable.",
+      "Websites are never acceptable as sources.",
+      "An unidentifiable source cannot be checked, so the claim cannot be evaluated.",
+      "One study is never enough to support anything."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Scientific knowledge is revised when reliable new evidence requires it.\n\n**Key concept:** Nature of science",
+    "explanation": "**Explanation:** Traceability is the minimum requirement. A named study can be located, read and judged; an anonymous one asks the reader to take the claim on trust.\n\n**Key concept:** Evaluating sources",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A graph's vertical axis begins at 90 instead of 0, making a small change look large. What is this an example of?",
+    "question": "A scientist studying a drug is funded by the company that makes it. What is the appropriate response?",
     "options": [
-      "An accurate way to show all data.",
-      "A misleading data display.",
-      "A required graphing rule.",
-      "A control variable."
+      "Reject the study, since funded research cannot be trusted.",
+      "Disclose the funding, and weigh the results alongside independent studies.",
+      "Ignore the funding, since it has no bearing on the data.",
+      "Accept the study only if the results favour the company."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Truncating an axis exaggerates differences and can mislead the reader.\n\n**Key concept:** Interpreting displays",
+    "explanation": "**Explanation:** A conflict of interest is a reason for scrutiny and disclosure, not automatic dismissal. Independent replication is what resolves the question.\n\n**Key concept:** Conflicts of interest",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Which source is most likely to give reliable scientific information?",
+    "question": "Which change would most strengthen a study on a new teaching method tested in one classroom of 22 students?",
     "options": [
-      "A peer-reviewed research journal.",
-      "An anonymous social media post.",
-      "A product package.",
-      "A personal opinion blog."
+      "Repeating it across many classrooms in different schools",
+      "Extending the study from six weeks to eight",
+      "Having the same teacher deliver both conditions",
+      "Publishing the results more quickly"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Peer review subjects work to expert scrutiny before publication.\n\n**Key concept:** Source evaluation",
+    "explanation": "**Explanation:** A single classroom cannot separate the method from that teacher, those students and that school. Breadth of sampling is what allows generalisation.\n\n**Key concept:** Generalising from a sample",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A survey of 12 friends is used to describe the opinions of a whole city. What is the flaw?",
+    "question": "What role does a model play when the real system cannot be observed directly?",
     "options": [
-      "The sample was chosen randomly.",
-      "The survey asked too many questions.",
-      "Surveys cannot measure opinion.",
-      "The sample is too small and not representative."
+      "It is used only for teaching, not for research.",
+      "It replaces the need for evidence about the real system.",
+      "It proves what the real system must be like.",
+      "It lets scientists reason about and test ideas that observation alone cannot reach."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A small, self-selected group cannot represent a large diverse population.\n\n**Key concept:** Sampling",
+    "explanation": "**Explanation:** Models of atoms, climates and the deep Earth generate predictions that can then be checked against measurable consequences. They are tools for inference, not substitutes for it.\n\n**Key concept:** The function of scientific models",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Why is it important to distinguish correlation from causation?",
+    "question": "A claim states that a treatment \"may help support overall wellness.\" Why is this difficult to evaluate scientifically?",
     "options": [
-      "Causation is easier to measure than correlation.",
-      "Correlation always proves causation.",
-      "Two things can change together without one causing the other.",
-      "Neither idea is used in science."
+      "The claim concerns health, which science cannot study.",
+      "The claim is written in language that is too technical.",
+      "Neither \"help support\" nor \"wellness\" is defined in a way that could be measured.",
+      "The claim is too specific to apply to most people."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A third factor or coincidence can produce a correlation with no causal link.\n\n**Key concept:** Correlation and causation",
+    "explanation": "**Explanation:** A testable claim names something measurable. Vague terms make the statement compatible with any outcome, which is precisely why such phrasing is used.\n\n**Key concept:** Vague claims resist testing",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Ice cream sales and swimming pool use both rise in the same months. What is the most reasonable explanation?",
+    "question": "Why should a scientific report describe the method in enough detail to be repeated?",
     "options": [
-      "Eating ice cream causes swimming.",
-      "Warm weather increases both independently.",
-      "Swimming causes ice cream sales.",
-      "The two are unrelated by chance alone."
+      "So readers can judge how much effort the research required.",
+      "So others can reproduce the work and verify or challenge the conclusions.",
+      "So the report meets the minimum required length.",
+      "So the researcher can remember what was done."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A shared cause, warm weather, explains the correlation.\n\n**Key concept:** Correlation and causation",
+    "explanation": "**Explanation:** The method section exists to make the claim checkable by strangers. That is the mechanism by which science corrects itself.\n\n**Key concept:** Communicating methods",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "What role does a scientific argument play in research?",
+    "question": "A theory has been supported by evidence for eighty years. New evidence contradicts part of it. What should happen?",
     "options": [
-      "It links a claim to evidence with clear reasoning.",
-      "It is a personal disagreement between scientists.",
-      "It replaces the need for data.",
-      "It is a way to avoid publishing results."
+      "The theory should be revised or replaced to account for all the evidence.",
+      "The new evidence should be disregarded because the theory is well established.",
+      "The theory should be abandoned entirely and immediately.",
+      "Both the old theory and the contradiction should be accepted as equally true."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A scientific argument connects claim, evidence and reasoning.\n\n**Key concept:** Scientific argumentation",
+    "explanation": "**Explanation:** Scientific knowledge is durable but revisable. Longevity is evidence of past success, not immunity from new data — and a single contradiction usually refines a theory rather than destroying it.\n\n**Key concept:** How theories change",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A student reports only the trials that supported the hypothesis. Why is this wrong?",
+    "question": "Which question can science address?",
     "options": [
-      "Reporting all data is optional.",
-      "Extra trials always waste time.",
-      "Only failed trials should be reported.",
-      "Leaving out data misrepresents what the investigation found."
+      "Should farmers be required to use less fertiliser?",
+      "Is it right to use fertiliser on food crops?",
+      "Which tomato variety tastes best?",
+      "Does this fertiliser increase tomato yield under greenhouse conditions?"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Selective reporting distorts the evidence and is a form of dishonesty.\n\n**Key concept:** Scientific integrity",
+    "explanation": "**Explanation:** Science answers questions about what is measurable. Questions of ethics, preference and policy draw on scientific evidence but are not settled by it.\n\n**Key concept:** The scope of scientific questions",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Which question can science investigate directly?",
+    "question": "A student reads that \"scientists now believe\" something, with no source. What should she do first?",
     "options": [
-      "Should students study art or music?",
-      "Which painting is the most beautiful?",
-      "Does salt lower the freezing point of water?",
-      "What is the meaning of friendship?"
+      "Reject it, since no source is given.",
+      "Accept it, since it is presented as a scientific consensus.",
+      "Look for the original research and see what it actually reported.",
+      "Search for other websites that repeat the same statement."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Scientific questions can be answered with measurable evidence.\n\n**Key concept:** Scientific questions",
+    "explanation": "**Explanation:** Going to the source is the only way to check whether a claim survived the trip through secondary reporting. Finding the same summary repeated elsewhere is not independent confirmation.\n\n**Key concept:** Tracing a claim to its source",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A computer simulation predicts a hurricane path. What limits its accuracy?",
+    "question": "What is the difference between an observation and an inference?",
     "options": [
-      "Simulations cannot use real data.",
-      "The simplifications and data quality built into the model.",
-      "Computers cannot process weather data.",
-      "Predictions are never useful."
+      "An observation uses instruments; an inference uses only the senses.",
+      "An observation is what is directly detected; an inference is a conclusion drawn from it.",
+      "An observation is always correct; an inference is always uncertain.",
+      "An observation is qualitative; an inference is quantitative."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A simulation is only as good as its assumptions and input data.\n\n**Key concept:** Computational models",
+    "explanation": "**Explanation:** \"The ground is wet\" is an observation; \"it rained last night\" is an inference — one of several explanations consistent with the same observation.\n\n**Key concept:** Observation and inference",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do scientists use standard units such as metres and grams?",
+    "question": "A study reports that a treatment produced \"a statistically significant improvement of 0.4 percent.\" What should a careful reader ask?",
     "options": [
-      "So measurements can be compared and repeated worldwide.",
-      "So calculations are never needed.",
-      "So results stay within one country.",
-      "So instruments become unnecessary."
+      "Whether an effect that small matters in practice, even if it is real",
+      "Whether the researchers used the right kind of graph",
+      "Whether 0.4 percent is a large enough number to be measured",
+      "Whether statistics can be used in science at all"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A shared measurement system makes results comparable across labs.\n\n**Key concept:** Standard units",
+    "explanation": "**Explanation:** Statistical significance says the effect is probably not chance; it says nothing about whether the effect is big enough to matter. The two questions are separate.\n\n**Key concept:** Significance versus importance",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "What does it mean to say a measurement is precise but not accurate?",
+    "question": "Why is anecdotal evidence — \"it worked for my cousin\" — weak support for a claim?",
     "options": [
-      "The measurement was taken only once.",
-      "Readings scatter widely around the true value.",
-      "The instrument has no scale.",
-      "Repeated readings agree closely but miss the true value."
+      "One case is too small a number to calculate an average.",
+      "Personal experience is never accurate.",
+      "Anecdotes cannot be written down precisely.",
+      "A single case cannot rule out coincidence, other causes, or cases where it did not work."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Precision is agreement among readings; accuracy is closeness to the true value.\n\n**Key concept:** Precision and accuracy",
+    "explanation": "**Explanation:** Anecdotes are unsystematic: the cases that did not work are not collected, and no comparison group exists. That is what makes them weak, not their being personal.\n\n**Key concept:** Anecdotal evidence",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "An engineer tests a bridge design, finds a weakness, and redesigns it. What part of the design process is this?",
+    "question": "Two competing explanations fit the available data equally well. What should scientists do?",
     "options": [
-      "Choosing a design at random.",
-      "Skipping the testing stage.",
-      "Iteration based on test results.",
-      "Publishing before testing."
+      "Accept both explanations as equally correct.",
+      "Choose whichever explanation is simpler and stop investigating.",
+      "Design an observation or experiment whose result would differ between them.",
+      "Wait until one becomes more popular among researchers."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Engineering design repeats test-and-improve cycles.\n\n**Key concept:** Engineering design",
+    "explanation": "**Explanation:** A discriminating test is what breaks the tie. Simplicity is a guide to which to try first, not a verdict.\n\n**Key concept:** Testing between rival explanations",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is the best reason to define terms clearly in a research report?",
+    "question": "A graph in a report has no units on either axis. Why does this matter?",
     "options": [
-      "So the report is longer.",
-      "So readers interpret the findings the same way the author intended.",
-      "So the data can be changed later.",
-      "So the methods can be omitted."
+      "Graphs without units are harder to print clearly.",
+      "The numbers cannot be interpreted, so the graph supports no conclusion.",
+      "The reader cannot tell which variable is independent.",
+      "The graph will not fit the journal’s formatting rules."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Shared definitions prevent ambiguity in interpreting results.\n\n**Key concept:** Scientific communication",
+    "explanation": "**Explanation:** A quantity without a unit is not a measurement. A rise \"from 3 to 9\" means nothing until the reader knows of what.\n\n**Key concept:** Units make data meaningful",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "A researcher notices an unexpected result and investigates further. Why is this valuable?",
+    "question": "What does it mean to say a measurement has uncertainty?",
     "options": [
-      "Unexpected results often lead to new discoveries.",
-      "Unexpected results should always be deleted.",
-      "Only expected results are scientific.",
-      "It guarantees the hypothesis was right."
+      "The true value lies within a stated range around the measurement.",
+      "The measurement was taken carelessly.",
+      "The scientist is unsure whether to trust the instrument.",
+      "The measurement should be repeated until the uncertainty disappears."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Anomalies frequently point toward something not yet understood.\n\n**Key concept:** Nature of science",
+    "explanation": "**Explanation:** Uncertainty is a property of every measurement, not a mistake. Reporting it honestly is what allows two results to be meaningfully compared.\n\n**Key concept:** Measurement uncertainty",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "What makes a conclusion valid?",
+    "question": "A hypothesis survives ten separate tests. What can be concluded?",
     "options": [
-      "It is stated with great confidence.",
-      "It matches the original hypothesis.",
-      "It agrees with popular opinion.",
-      "It follows logically from the evidence collected."
+      "No further testing of it is worthwhile.",
+      "It has been proved true beyond any possibility of revision.",
+      "It has become a scientific law.",
+      "It has strong support, though further evidence could still overturn it."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Validity depends on the reasoning connecting evidence to conclusion.\n\n**Key concept:** Drawing conclusions",
+    "explanation": "**Explanation:** Support accumulates; proof in the mathematical sense does not apply. Laws describe regularities and are not simply well-tested hypotheses promoted.\n\n**Key concept:** What repeated confirmation establishes",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "scientific_methods_research",
     "passage": null,
     "passageTitle": null,
-    "question": "Why is it useful for scientists from different countries to study the same problem?",
+    "question": "A researcher decides in advance exactly what result would count as a failure of her idea. Why is this valuable?",
     "options": [
-      "It reduces the amount of evidence needed.",
-      "It ensures everyone reaches the same answer.",
-      "Independent work from many groups tests ideas more thoroughly.",
-      "It removes the need for publication."
+      "It guarantees the hypothesis will be supported.",
+      "It makes the experiment run faster.",
+      "It prevents her from reinterpreting any outcome as a success after the fact.",
+      "It is required before any experiment may be published."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Diverse independent investigation strengthens or corrects conclusions.\n\n**Key concept:** Scientific community",
+    "explanation": "**Explanation:** Committing to what would disconfirm the idea is the practical form of falsifiability, and it is the main defence against unconscious bias in interpretation.\n\n**Key concept:** Pre-specifying what counts as failure",
     "source": "authored",
     "needsReview": false
   }

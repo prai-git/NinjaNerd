@@ -38,7 +38,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 4,175 questions across all 145 subtopics ·
-`npm test` → **327 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
+`npm test` → **330 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
 since 2026-09-03 — is **met by every one of the 145 buckets** as of 2026-09-04, so its test is
 no longer `todo` and a regression now fails the build.
 
@@ -191,6 +191,13 @@ uncapped-session finding, is in `test_subtopic_map.test.js`.
 > filled, every one at or above the 25 floor**, and two tests — *"no subtopic is empty at any
 > grade"* and *"every subtopic meets its grade's question minimum"* — make a regression a build
 > failure.
+
+**Filling a bucket is not the same as filling it with different questions.** Because
+`practice.js` serves the whole bucket, twenty-five near-identical items read as one question
+asked twenty-five times. `test_question_variety.test.js` therefore enforces a second floor
+alongside the count: at least **75% distinct question shapes** per bucket, and no single shape
+above **25%** of it, measured with digits normalised away. See §12b for the failure that
+prompted it.
 
 Grades 1–5 math carries two owner-approved additions beyond the legacy set
 (`algebraic_concepts`, `financial_literacy`) — a deliberate, recorded divergence.
@@ -452,7 +459,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**327 pass, 0 fail, 0 todo** across 23 test files. Every prompt/task ships with a unit or mock test
+**330 pass, 0 fail, 0 todo** across 24 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
@@ -509,6 +516,55 @@ the deliberately-narrow explanation cleanup — leaking `TEKS 6.8C / 6.8D` into 
 explanations. Found by diffing against the committed build. The 5 affected questions were fixed in
 their source file instead. **That rule is carefully scoped; do not widen it without diffing the
 whole corpus before and after.**
+
+## 12b. Grade 7 rebuilt — templated content, and the difficulty gap (2026-09-04)
+
+The owner reported that grade 7 maths served five near-identical questions in a row. The cause
+was specific and measurable: **the grade-7 maths source file had been generated from numeric
+templates, not authored.** `practice_questions_math_staar_2026-09-01_20-31-g7.md` held 250
+questions across ten sections, and each section was **20 copies of one template plus 5 of a
+second**, with only the numbers cycling:
+
+```
+geometry_spatial_concepts   x20  A scale drawing uses # cm for # m. A rectangular garden is
+                                 # cm wide on the drawing. What is its actual width?
+                            x 5  A plane slices a {prism|cylinder|pyramid|cube|cone} ...
+```
+
+**250 items, ~21 distinct question forms.** A corpus scan isolated it exactly: grades 1–6
+averaged **0.98** distinct stems per item and grade 7 english and science **0.99–1.00**, while
+all ten grade-7 maths buckets ran **0.08–0.24**. Nothing else in the corpus was affected.
+
+**The fix, on the owner's decision (both points asked and answered before any content moved):**
+1. Keep one instance of each of the 28 distinct forms — they were correct, only repeated — delete
+   the numeric clones, and author the rest at accelerated STAAR/MAP difficulty.
+2. Rewrite grade 7 **english and science** to honors level in the same pass. Both were
+   structurally varied, but their distractors were throwaway ("Trees have leaves.", "Music
+   exists.", "Quiet is a word."), so items could be answered by elimination without reading, and
+   science leaned on single-fact recall.
+
+All three grade-7 source pairs were **rewritten in place at their original stamps**, so no file
+was deleted and item ids stayed in the same namespace. Result: **750 grade-7 items, 30 buckets,
+25 distinct stems in every one**, no `needsReview`, no item without an explanation, and keys
+spread evenly across the four positions (186/186/189/189).
+
+**The guard that makes this permanent** is `test/test_question_variety.test.js`, described in §5.
+Run against the pre-fix corpus it fails exactly the ten grade-7 maths buckets and nothing else,
+which is the check that the thresholds are set where the evidence puts them.
+
+**A deviation worth knowing about: grade-7 science TEKS codes are labelled at the STRAND level**
+(`7.6`, `7.7`, `7.10`, …) rather than with sub-letters. The generated file had stamped exactly one
+sub-code per section — 25× `7.6A`, 25× `7.6B`, and so on — which is a mechanical label, not an
+alignment. Verified sub-letters for §112.27 were not to hand, and a guessed letter would be an
+invented standard in front of a child. A strand code is a real TEKS reference; the letters can be
+added later against the published standards.
+
+**Two known limits, stated plainly.** The 28 kept maths forms sit at the easy end of the new set
+(a jacket discounted 15% from $100 is not an accelerated item) — they were kept because the owner
+chose to keep them, and the 222 new items carry the rigour. And as in §12a, the *semantics* of the
+new english and science items — whether an inference item is pedagogically right — is not
+machine-verifiable and was not machine-verified; structure, rendering, key placement and stated
+arithmetic were.
 
 ## 13. Deploy
 

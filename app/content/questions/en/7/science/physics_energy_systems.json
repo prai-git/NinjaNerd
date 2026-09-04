@@ -7,15 +7,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Wave X has greater amplitude than Wave Y, while Y has greater frequency. Which comparison is correct?",
+    "question": "Wave X has greater amplitude than Wave Y; Wave Y has greater frequency. If both are sound waves, which comparison is correct?",
     "options": [
-      "X is louder and Y has higher pitch.",
+      "X travels faster than Y through the same air.",
       "X is higher pitched and Y is louder.",
-      "They have identical pitch and loudness.",
-      "X cannot transfer energy."
+      "X and Y have the same pitch and loudness.",
+      "X is louder and Y is higher pitched."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Energy transfer, waves, and system behavior",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Amplitude determines loudness and frequency determines pitch. In the same medium, sound waves travel at the same speed regardless of either.\n\n**Key concept:** Amplitude, frequency and sound",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What does the amplitude of a sound wave determine?",
+    "question": "A hot metal spoon is left in cold water. Describe the energy transfer.",
     "options": [
-      "How fast the sound travels.",
-      "How high or low the pitch is.",
-      "How loud the sound is.",
-      "The direction of the sound."
+      "The spoon loses temperature, which the water absorbs as mass.",
+      "Cold moves from the water into the spoon.",
+      "Thermal energy moves from the spoon to the water until both reach the same temperature.",
+      "Energy moves both ways equally, so nothing changes."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Greater amplitude carries more energy and is heard as greater loudness.\n\n**Key concept:** Wave properties",
+    "explanation": "**Explanation:** Heat flows from higher to lower temperature until thermal equilibrium is reached. \"Cold\" is not a substance that moves; it is the absence of thermal energy.\n\n**Key concept:** Direction of heat transfer",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What does the frequency of a sound wave determine?",
+    "question": "Which describes energy transfer by **convection**?",
     "options": [
-      "The loudness of the sound.",
-      "The pitch of the sound.",
-      "The speed of the sound in air.",
-      "The temperature of the air."
+      "A metal spoon’s handle becoming hot while resting in soup",
+      "Warm water rises and cooler water sinks, circulating heat through a pot",
+      "Warmth felt on the face from a fire across the room",
+      "A microwave heating food from the inside"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Higher frequency means more vibrations per second and a higher pitch.\n\n**Key concept:** Wave properties",
+    "explanation": "**Explanation:** Convection moves energy by the bulk motion of a fluid. The spoon is conduction and the fire across the room is radiation.\n\n**Key concept:** Convection, conduction and radiation",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Sound cannot travel through the vacuum of space. Why not?",
+    "question": "Why can radiation transfer energy from the Sun to Earth but conduction cannot?",
     "options": [
-      "Sound needs particles of a medium to carry the vibration.",
-      "Sound is too weak to cross space.",
-      "Space is too cold for sound.",
-      "Sound travels only through metal."
+      "Radiation travels as electromagnetic waves and needs no medium; conduction requires matter in contact.",
+      "Radiation is much faster than conduction over any distance.",
+      "Conduction only works upward, and the Sun is above Earth.",
+      "Space is too cold for conduction to operate."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Sound is a mechanical wave and requires a material medium.\n\n**Key concept:** Mechanical waves",
+    "explanation": "**Explanation:** The near-vacuum between Sun and Earth has almost no particles to pass energy along, which rules out conduction and convection but not radiation.\n\n**Key concept:** Energy transfer through a vacuum",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Light from the Sun reaches Earth across empty space. What does this show about light?",
+    "question": "A ball is held at the top of a ramp, released, and rolls to the bottom. Describe the energy change.",
     "options": [
-      "Light moves faster in a vacuum than it can exist.",
-      "Light travels only through air.",
-      "Light is a mechanical wave.",
-      "Light does not need a medium to travel."
+      "Energy is created as the ball begins to move.",
+      "Kinetic energy converts to potential energy as it descends.",
+      "Chemical energy converts to kinetic energy.",
+      "Gravitational potential energy converts to kinetic energy as it descends."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Electromagnetic waves such as light can travel through a vacuum.\n\n**Key concept:** Electromagnetic waves",
+    "explanation": "**Explanation:** Height stores gravitational potential energy; losing height converts it to motion. Energy is never created — only transformed.\n\n**Key concept:** Potential to kinetic conversion",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A straw appears bent where it enters a glass of water. Which behavior of light causes this?",
+    "question": "In a torch, what is the sequence of energy transformations?",
     "options": [
-      "Absorption by the water.",
-      "Reflection off the glass surface.",
-      "Refraction as light changes speed between materials.",
-      "Diffraction around the straw."
+      "Light to electrical to chemical",
+      "Electrical to chemical to light",
+      "Chemical to electrical to light and thermal",
+      "Thermal to chemical to electrical"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Light bends when its speed changes as it passes from water into air.\n\n**Key concept:** Refraction",
+    "explanation": "**Explanation:** The battery stores chemical energy, which drives an electric current, which the bulb converts to light and unavoidably to heat.\n\n**Key concept:** Energy transformation chains",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Why can you see yourself in a flat mirror?",
+    "question": "Why is no energy transformation 100 percent efficient?",
     "options": [
-      "The mirror produces its own light.",
-      "Light reflects off the smooth surface in a regular pattern.",
-      "The mirror absorbs all the light.",
-      "Light passes straight through the mirror."
+      "Some energy is destroyed during every transformation.",
+      "Some energy always disperses as thermal energy to the surroundings.",
+      "Machines are not built precisely enough.",
+      "Energy can only move in one direction."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A smooth surface reflects light rays in an orderly way, forming an image.\n\n**Key concept:** Reflection",
+    "explanation": "**Explanation:** Energy is conserved, but not all of it ends up in the useful form. Friction and electrical resistance spread some of it as heat, which is difficult to recover.\n\n**Key concept:** Efficiency and waste heat",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A red shirt appears red in white light. What is happening to the light?",
+    "question": "Two identical bulbs are wired in **series**. One bulb is removed. What happens?",
     "options": [
-      "Red light is reflected and other colors are absorbed.",
-      "Red light is absorbed and other colors reflected.",
-      "All colors are reflected equally.",
-      "The shirt produces red light."
+      "The other bulb goes out, because the circuit is broken.",
+      "The other bulb becomes brighter.",
+      "The other bulb is unaffected.",
+      "The other bulb flickers but stays lit."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** An object's color is the light it reflects rather than absorbs.\n\n**Key concept:** Color and light",
+    "explanation": "**Explanation:** A series circuit has one path. Breaking it anywhere stops the current everywhere. In a parallel circuit the other bulb would stay lit.\n\n**Key concept:** Series circuits",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "In a series circuit with one path, what happens when one bulb burns out?",
+    "question": "Two identical bulbs are wired in **parallel**. One is removed. What happens?",
     "options": [
-      "The circuit current doubles.",
-      "The other bulbs get brighter.",
-      "Only the burned-out bulb is affected.",
-      "All the bulbs go out because the path is broken."
+      "The battery immediately runs flat.",
+      "The other goes out, because the circuit is broken.",
+      "The other becomes dimmer.",
+      "The other stays lit, because each bulb has its own path to the source."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A series circuit has a single path, so any break stops the current everywhere.\n\n**Key concept:** Series circuits",
+    "explanation": "**Explanation:** Parallel branches are independent, which is why household wiring is parallel — one appliance failing does not darken the house.\n\n**Key concept:** Parallel circuits",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "In a parallel circuit, one bulb burns out. What happens to the others?",
+    "question": "What is the role of a conductor in a circuit?",
     "options": [
-      "They become dimmer and then fail.",
-      "They all go out immediately.",
-      "They stay lit because each has its own path.",
-      "They reverse direction."
+      "To convert electrical energy into light",
+      "To store the charge until it is needed",
+      "To provide a path along which electric charge can move easily",
+      "To prevent charge from escaping the circuit"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Parallel branches provide independent paths for current.\n\n**Key concept:** Parallel circuits",
+    "explanation": "**Explanation:** Conductors carry current; insulators confine it; the bulb converts the energy. Storage would be the battery or a capacitor.\n\n**Key concept:** Conductors and insulators",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which material is the best electrical conductor?",
+    "question": "Light passes from air into water and bends. What is this called, and why does it happen?",
     "options": [
-      "Dry wood.",
-      "Copper wire.",
-      "Rubber tubing.",
-      "Glass rod."
+      "Reflection, caused by the surface bouncing the light back",
+      "Refraction, caused by the change in the light’s speed as it enters a different medium",
+      "Absorption, caused by the water taking in the light energy",
+      "Diffraction, caused by the light spreading around the water’s edge"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Metals such as copper allow electrons to move freely.\n\n**Key concept:** Conductors and insulators",
+    "explanation": "**Explanation:** Refraction is bending at a boundary. The change in speed between media is what produces the change in direction.\n\n**Key concept:** Refraction",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Why is rubber used to coat electrical wires?",
+    "question": "Why does a red shirt appear red in white light?",
     "options": [
-      "It is an insulator that resists the flow of charge.",
-      "It is a better conductor than copper.",
-      "It increases the current in the wire.",
-      "It stores electrical energy."
+      "It reflects red wavelengths and absorbs the others.",
+      "It produces red light of its own.",
+      "It absorbs red wavelengths and reflects the others.",
+      "It changes all incoming light into red light."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Insulators prevent current from leaving the wire and reaching people.\n\n**Key concept:** Conductors and insulators",
+    "explanation": "**Explanation:** The colour we see is the light that bounces back. A shirt that absorbed red would look cyan.\n\n**Key concept:** Colour and selective reflection",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A wire carrying current is wrapped around an iron nail, making it magnetic. What is this device called?",
+    "question": "Sound travels faster in steel than in air. What explains this?",
     "options": [
-      "A resistor.",
-      "A permanent magnet.",
-      "A generator.",
-      "An electromagnet."
+      "Sound waves travel best where there are fewest particles.",
+      "Steel is heavier, so it pushes the sound along faster.",
+      "Air resists sound waves because it contains oxygen.",
+      "The particles in a solid are closer together, so a vibration passes between them more quickly."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Current through a coil produces a magnetic field that magnetizes the core.\n\n**Key concept:** Electromagnetism",
+    "explanation": "**Explanation:** Mechanical waves depend on particle interaction. Tighter packing means each particle transmits the disturbance to the next sooner.\n\n**Key concept:** Wave speed and the medium",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "How could you make an electromagnet stronger?",
+    "question": "What happens to the pitch of a sound if the frequency doubles?",
     "options": [
-      "Disconnect the battery.",
-      "Use fewer coils of wire.",
-      "Add more coils of wire around the core.",
-      "Replace the iron core with plastic."
+      "The loudness doubles instead",
+      "The pitch falls",
+      "The pitch rises",
+      "Nothing changes, since pitch depends on amplitude"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** More turns of wire and more current both increase the magnetic field.\n\n**Key concept:** Electromagnetism",
+    "explanation": "**Explanation:** Frequency and pitch are directly related. Loudness is governed by amplitude, a separate property of the wave.\n\n**Key concept:** Frequency and pitch",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A metal spoon in hot soup becomes hot at the handle. Which type of heat transfer is this?",
+    "question": "A dark-coloured car and a white car sit in the same sunlight. Which becomes hotter inside, and why?",
     "options": [
-      "Convection.",
-      "Conduction.",
-      "Radiation.",
-      "Evaporation."
+      "The white car, because white reflects light into the interior.",
+      "The dark car, because dark surfaces absorb more of the radiation that reaches them.",
+      "They reach the same temperature, since both receive the same sunlight.",
+      "The dark car, because dark paint conducts heat better."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Conduction transfers energy through direct contact between particles.\n\n**Key concept:** Heat transfer",
+    "explanation": "**Explanation:** Absorption depends on the surface. A dark surface converts more of the incoming radiation to thermal energy rather than reflecting it away.\n\n**Key concept:** Absorption of radiation",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Warm water rises and cool water sinks in a heated pot. Which type of heat transfer is this?",
+    "question": "Which is the best evidence that sound requires a medium?",
     "options": [
-      "Convection.",
-      "Conduction.",
-      "Radiation.",
-      "Insulation."
+      "A ringing bell inside a jar becomes silent as the air is pumped out.",
+      "Sound travels farther on a quiet night than on a windy one.",
+      "Sound echoes off a hard wall.",
+      "Loud sounds can be felt as vibrations in the chest."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Convection moves energy through the bulk motion of a fluid.\n\n**Key concept:** Heat transfer",
+    "explanation": "**Explanation:** The bell-jar demonstration removes the medium while keeping the source running, isolating the variable. The other observations are true but do not test the requirement.\n\n**Key concept:** Mechanical waves need a medium",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "You feel warmth from a campfire without touching it or the air between. Which transfer is this?",
+    "question": "What distinguishes a transverse wave from a longitudinal wave?",
     "options": [
-      "Condensation.",
-      "Conduction.",
-      "Convection.",
-      "Radiation."
+      "Longitudinal waves carry more energy than transverse waves.",
+      "Transverse waves travel faster than longitudinal waves.",
+      "Transverse waves need a medium and longitudinal waves do not.",
+      "In a transverse wave the medium moves perpendicular to the wave’s travel; in a longitudinal wave it moves along the same direction."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Radiation carries energy as electromagnetic waves and needs no medium.\n\n**Key concept:** Heat transfer",
+    "explanation": "**Explanation:** The distinction is the direction of particle motion relative to wave motion. Sound is longitudinal; a wave on a rope is transverse.\n\n**Key concept:** Types of waves",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Energy flows from a hot object to a cold one when they touch. In which direction does it flow?",
+    "question": "Why does a spoon in a glass of water appear bent at the surface?",
     "options": [
-      "Equally in both directions at all times.",
-      "From lower temperature to higher temperature.",
-      "From higher temperature to lower temperature.",
-      "No energy flows between them."
+      "The glass magnifies the lower part of the spoon.",
+      "The water’s pressure physically bends the spoon.",
+      "Light from the submerged part changes direction as it leaves the water.",
+      "The spoon reflects light differently under water."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Thermal energy always transfers from warmer to cooler until temperatures equalize.\n\n**Key concept:** Thermal energy",
+    "explanation": "**Explanation:** The apparent bend is refraction at the water-air boundary, which shifts where the eye judges the submerged portion to be.\n\n**Key concept:** Refraction in everyday observation",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A battery-powered flashlight is switched on. Which energy conversion occurs?",
+    "question": "An electric heater converts 1,000 J of electrical energy and produces 950 J of heat and 50 J of light. What is the total energy output?",
     "options": [
-      "Light energy to chemical energy.",
-      "Chemical energy to electrical energy to light and thermal energy.",
-      "Nuclear energy to sound energy.",
-      "Thermal energy to chemical energy."
+      "950 J, because only the heat is useful",
+      "1,000 J, because energy is conserved",
+      "1,050 J, because the heater adds energy",
+      "50 J, because light is the only output that leaves the heater"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The battery's stored chemical energy drives current that the bulb converts to light and heat.\n\n**Key concept:** Energy transformation",
+    "explanation": "**Explanation:** Conservation of energy means the outputs sum to the input. Efficiency describes how much of that total appears in the desired form.\n\n**Key concept:** Conservation of energy in a device",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A wind turbine turns and lights a bulb. What conversion is taking place?",
+    "question": "What determines the amount of gravitational potential energy an object has?",
     "options": [
-      "Kinetic energy to electrical energy.",
-      "Electrical energy to kinetic energy.",
-      "Chemical energy to nuclear energy.",
-      "Sound energy to light energy."
+      "Its mass and its height above a reference point",
+      "Its speed and its mass",
+      "Its temperature and its volume",
+      "Its shape and the material it is made from"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Moving air spins the turbine, and the generator produces electricity.\n\n**Key concept:** Energy transformation",
+    "explanation": "**Explanation:** Gravitational potential energy rises with both mass and height. Speed contributes to kinetic energy instead.\n\n**Key concept:** Gravitational potential energy",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Energy is never created or destroyed in these conversions. What law states this?",
+    "question": "A thermos keeps liquids hot by minimising all three modes of heat transfer. Which feature blocks radiation?",
     "options": [
-      "The law of reflection.",
-      "The law of conservation of mass only.",
-      "Newton's first law of motion.",
-      "The law of conservation of energy."
+      "The plastic outer casing",
+      "The vacuum between the walls",
+      "The tight-fitting stopper at the top",
+      "The silvered inner surface, which reflects thermal radiation back"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Energy changes form but the total amount stays the same.\n\n**Key concept:** Conservation of energy",
+    "explanation": "**Explanation:** The vacuum blocks conduction and convection, and the stopper limits convection at the opening. Radiation crosses a vacuum, so only a reflective surface addresses it.\n\n**Key concept:** Designing against heat transfer",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Two waves have the same speed, but Wave A has a longer wavelength. What must be true of its frequency?",
+    "question": "A wave has a wavelength of 2 m and a frequency of 3 Hz. What is its speed?",
     "options": [
-      "Both waves have equal frequency.",
-      "Wave A has a higher frequency.",
-      "Wave A has a lower frequency.",
-      "Frequency does not depend on wavelength."
+      "0.67 m/s",
+      "1.5 m/s",
+      "6 m/s",
+      "5 m/s"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** At a fixed speed, wavelength and frequency are inversely related.\n\n**Key concept:** Wave relationships",
+    "explanation": "**Explanation:** Wave speed equals wavelength times frequency: 2 × 3 = 6 metres per second.\n\n**Key concept:** The wave equation",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is transferred by a wave travelling across a pond?",
+    "question": "Why does a metal railing feel colder than a wooden bench at the same temperature?",
     "options": [
-      "The water itself, from one shore to the other.",
-      "Energy, while the water mostly moves up and down.",
-      "Mass from the wave to the shore.",
-      "Nothing is transferred."
+      "Metal is genuinely colder than wood in the same conditions.",
+      "Metal conducts heat away from the skin faster than wood does.",
+      "Wood produces a small amount of heat of its own.",
+      "Metal reflects body heat back to the surroundings."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Waves carry energy through a medium without transporting the medium along with them.\n\n**Key concept:** Wave energy",
+    "explanation": "**Explanation:** The sensation of cold reports the rate of heat loss from the skin, not the object’s temperature. A good conductor draws heat away quickly.\n\n**Key concept:** Conduction and the sensation of cold",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which change would increase the thermal insulation of a house wall?",
+    "question": "Which energy resource is renewable **and** produces no combustion emissions during operation?",
     "options": [
-      "Adding a layer of material that traps still air.",
-      "Replacing the wall with a thin metal sheet.",
-      "Removing the wall covering entirely.",
-      "Painting the interior a darker color."
+      "Wind",
+      "Natural gas",
+      "Coal",
+      "Petrol"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Trapped air is a poor conductor, so it slows heat transfer.\n\n**Key concept:** Insulation",
+    "explanation": "**Explanation:** A wind turbine converts kinetic energy of moving air with no fuel burned. The other three are fossil fuels, which are non-renewable and release carbon dioxide when burned.\n\n**Key concept:** Renewable energy resources",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "physics_energy_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A solar panel powers a small motor. Trace the energy conversion.",
+    "question": "A student claims a solar panel \"creates\" electrical energy. What is the accurate description?",
     "options": [
-      "Thermal energy to nuclear energy.",
-      "Mechanical energy to radiant energy to electrical energy.",
-      "Chemical energy to radiant energy only.",
-      "Radiant energy to electrical energy to mechanical energy."
+      "It removes heat from the air and turns it into electricity.",
+      "It creates electrical energy from nothing.",
+      "It stores electrical energy that was already inside it.",
+      "It converts radiant energy from the Sun into electrical energy."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Sunlight becomes electricity, which the motor converts into motion.\n\n**Key concept:** Energy transformation",
+    "explanation": "**Explanation:** No device creates energy. A solar cell transforms one form into another, which is why its output depends entirely on the sunlight reaching it.\n\n**Key concept:** Energy is transformed, not created",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $120 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "question": "A savings account holds \\(\\$120\\) at simple interest of \\(4\\%\\) per year for \\(3\\) years. How much interest is earned?",
     "options": [
-      "$1440",
-      "$4.80",
-      "$134.40",
-      "$14.40"
+      "\\(\\$134.40\\)",
+      "\\(\\$1{,}440\\)",
+      "\\(\\$4.80\\)",
+      "\\(\\$14.40\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use I = Prt: 120 x 0.04 x 3 = 14.4, so $14.40 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Simple interest is \\(I = Prt\\): \\(120 \\times 0.04 \\times 3 = 14.4\\), so \\(\\$14.40\\).\n\n**Key concept:** Simple interest",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $140 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "question": "A store adds \\(8\\%\\) sales tax to a \\(\\$110\\) purchase. What is the total cost?",
     "options": [
-      "$168",
-      "$7",
-      "$28",
-      "$2800"
+      "\\(\\$8.80\\)",
+      "\\(\\$880\\)",
+      "\\(\\$118.80\\)",
+      "\\(\\$101.20\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use I = Prt: 140 x 0.05 x 4 = 28, so $28 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** The tax is \\(110 \\times 0.08 = 8.80\\), so the total is \\(110 + 8.80 = 118.80\\) dollars.\n\n**Key concept:** Sales tax",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $160 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "question": "\\(\\$800\\) is invested at \\(5\\%\\) **compound** interest for \\(2\\) years, compounded annually. How much interest is earned?",
     "options": [
-      "$9.60",
-      "$19.20",
-      "$179.20",
-      "$1920"
+      "\\(\\$80\\)",
+      "\\(\\$82\\)",
+      "\\(\\$882\\)",
+      "\\(\\$40\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use I = Prt: 160 x 0.06 x 2 = 19.2, so $19.20 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** After one year the balance is \\(800 \\times 1.05 = 840\\). After the second year it is \\(840 \\times 1.05 = 882\\). The interest earned is \\(882 - 800 = 82\\) dollars, which is \\(\\$2\\) more than simple interest because the second year earns interest on the first year’s interest.\n\n**Key concept:** Compound interest earns interest on interest",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $180 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "question": "Which account earns **more** over \\(3\\) years on a \\(\\$1{,}000\\) deposit: \\(6\\%\\) simple interest, or \\(6\\%\\) compounded annually?",
     "options": [
-      "$16.20",
-      "$5.40",
-      "$196.20",
-      "$1620"
+      "The compounded account, because interest is added to the balance each year.",
+      "The simple-interest account, because the rate is applied to a larger amount.",
+      "They earn exactly the same, because the rate is the same.",
+      "The simple-interest account, because compounding only helps over ten years or more."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use I = Prt: 180 x 0.03 x 3 = 16.2, so $16.20 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Simple interest pays \\(1000 \\times 0.06 \\times 3 = \\$180\\). Compounding gives \\(1000 \\times 1.06^3 \\approx \\$1{,}191.02\\), or about \\(\\$191\\) of interest, because each year’s interest joins the principal.\n\n**Key concept:** Comparing simple and compound interest",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A store adds 8% sales tax to a $110 purchase. What is the total cost?",
+    "question": "Maya owns a car worth \\(\\$6{,}500\\) and has \\(\\$1{,}200\\) in savings. She owes \\(\\$4{,}800\\) on the car loan and \\(\\$350\\) on a credit card. What is her net worth?",
     "options": [
-      "$880",
-      "$8.80",
-      "$101.20",
-      "$118.80"
+      "\\(\\$12{,}850\\)",
+      "\\(\\$7{,}700\\)",
+      "\\(\\$5{,}150\\)",
+      "\\(\\$2{,}550\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The tax is 110 x 0.08 = 8.8, so the total is 110 + 8.8 = 118.8.\n\n**Key concept:** Sales tax",
+    "explanation": "**Explanation:** Net worth is assets minus liabilities: \\((6500 + 1200) - (4800 + 350) = 7700 - 5150 = 2550\\) dollars.\n\n**Key concept:** Net worth is assets minus liabilities",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $200 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "question": "A monthly budget lists income of \\(\\$2{,}400\\), fixed expenses of \\(\\$1{,}550\\) and variable expenses of \\(\\$620\\). How much is left to save?",
     "options": [
-      "$224",
-      "$8",
-      "$24",
-      "$2400"
+      "\\(\\$1{,}780\\)",
+      "\\(\\$850\\)",
+      "\\(\\$230\\)",
+      "\\(\\$4{,}570\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use I = Prt: 200 x 0.04 x 3 = 24, so $24 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Subtract both kinds of expense from income: \\(2400 - 1550 - 620 = 230\\) dollars.\n\n**Key concept:** Balancing a budget",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $220 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "question": "Which of these is a **fixed** expense in a monthly budget?",
     "options": [
-      "$11",
-      "$44",
-      "$264",
-      "$4400"
+      "Groceries, which cost more in some months",
+      "A rent payment of the same amount each month",
+      "Petrol for the car, which depends on driving",
+      "A gift bought for a friend’s birthday"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use I = Prt: 220 x 0.05 x 4 = 44, so $44 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** A fixed expense is the same amount every period regardless of use. Groceries, petrol and gifts all vary from month to month.\n\n**Key concept:** Fixed versus variable expenses",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $240 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "question": "A jacket is marked down \\(30\\%\\) from \\(\\$85\\), and then \\(7\\%\\) sales tax is added. What is the final price?",
     "options": [
-      "$28.80",
-      "$14.40",
-      "$268.80",
-      "$2880"
+      "\\(\\$63.67\\)",
+      "\\(\\$59.50\\)",
+      "\\(\\$53.55\\)",
+      "\\(\\$67.15\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use I = Prt: 240 x 0.06 x 2 = 28.8, so $28.80 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** The sale price is \\(85 \\times 0.70 = 59.50\\). Adding tax gives \\(59.50 \\times 1.07 = 63.665\\), which rounds to \\(\\$63.67\\).\n\n**Key concept:** Discount then tax",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $260 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "question": "A restaurant bill is \\(\\$46.80\\) before an \\(18\\%\\) tip. What is the total?",
     "options": [
-      "$2340",
-      "$7.80",
-      "$283.40",
-      "$23.40"
+      "\\(\\$64.80\\)",
+      "\\(\\$8.42\\)",
+      "\\(\\$38.38\\)",
+      "\\(\\$55.22\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use I = Prt: 260 x 0.03 x 3 = 23.4, so $23.40 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** The tip is \\(46.80 \\times 0.18 = 8.424\\). Adding it gives \\(46.80 + 8.42 = 55.22\\) dollars.\n\n**Key concept:** Percent added to a total",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A store adds 8% sales tax to a $160 purchase. What is the total cost?",
+    "question": "Ravi earns \\(\\$3{,}200\\) per month. His employer withholds \\(12\\%\\) for income tax and \\(7.65\\%\\) for payroll tax. What is his monthly take-home pay?",
     "options": [
-      "$147.20",
-      "$12.80",
-      "$172.80",
-      "$1280"
+      "\\(\\$2{,}955.20\\)",
+      "\\(\\$2{,}816\\)",
+      "\\(\\$2{,}571.20\\)",
+      "\\(\\$628.80\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The tax is 160 x 0.08 = 12.8, so the total is 160 + 12.8 = 172.8.\n\n**Key concept:** Sales tax",
+    "explanation": "**Explanation:** Total withheld is \\(12\\% + 7.65\\% = 19.65\\%\\), so \\(3200 \\times 0.1965 = 628.80\\). Take-home pay is \\(3200 - 628.80 = 2571.20\\) dollars.\n\n**Key concept:** Gross pay minus deductions",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $280 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "question": "A student compares two colleges. College A costs \\(\\$12{,}000\\) per year for \\(4\\) years. College B costs \\(\\$8{,}000\\) per year but needs \\(5\\) years. Which costs less in total, and by how much?",
     "options": [
-      "$11.20",
-      "$33.60",
-      "$313.60",
-      "$3360"
+      "College A, by \\(\\$8{,}000\\)",
+      "College B, by \\(\\$8{,}000\\)",
+      "College B, by \\(\\$4{,}000\\)",
+      "They cost the same."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use I = Prt: 280 x 0.04 x 3 = 33.6, so $33.60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** College A totals \\(12000 \\times 4 = \\$48{,}000\\) and College B totals \\(8000 \\times 5 = \\$40{,}000\\). The difference is \\(\\$8{,}000\\) in College B’s favour.\n\n**Key concept:** Comparing total cost, not yearly cost",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $300 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "question": "A family of four estimates \\(\\$180\\) per week for groceries. About how much should they budget for a \\(4\\)-week month, plus a \\(10\\%\\) cushion for price rises?",
     "options": [
-      "$60",
-      "$15",
-      "$360",
-      "$6000"
+      "\\(\\$792\\)",
+      "\\(\\$720\\)",
+      "\\(\\$648\\)",
+      "\\(\\$1{,}980\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use I = Prt: 300 x 0.05 x 4 = 60, so $60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Four weeks cost \\(180 \\times 4 = 720\\) dollars. A \\(10\\%\\) cushion adds \\(72\\), giving \\(\\$792\\).\n\n**Key concept:** Estimating a household budget",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $320 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "question": "A phone plan charges \\(\\$25\\) per month plus \\(\\$0.06\\) per minute over \\(500\\) minutes. Last month the bill was \\(\\$40.60\\). How many minutes were used?",
     "options": [
-      "$3840",
-      "$19.20",
-      "$358.40",
-      "$38.40"
+      "\\(1{,}260\\) minutes",
+      "\\(260\\) minutes",
+      "\\(676\\) minutes",
+      "\\(760\\) minutes"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use I = Prt: 320 x 0.06 x 2 = 38.4, so $38.40 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** The overage charge was \\(40.60 - 25 = 15.60\\) dollars, which is \\(15.60 \\div 0.06 = 260\\) extra minutes. Adding the \\(500\\) included minutes gives \\(760\\).\n\n**Key concept:** Two-step cost model",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $340 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "question": "A worker is paid \\(\\$18\\) per hour for the first \\(40\\) hours and time-and-a-half beyond that. What is the gross pay for a \\(46\\)-hour week?",
     "options": [
-      "$370.60",
-      "$10.20",
-      "$30.60",
-      "$3060"
+      "\\(\\$1{,}242\\)",
+      "\\(\\$828\\)",
+      "\\(\\$882\\)",
+      "\\(\\$720\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use I = Prt: 340 x 0.03 x 3 = 30.6, so $30.60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Regular pay is \\(40 \\times 18 = 720\\) dollars. Overtime pays \\(18 \\times 1.5 = \\$27\\) per hour for \\(6\\) hours, adding \\(162\\). The total is \\(\\$882\\).\n\n**Key concept:** Overtime pay",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A store adds 8% sales tax to a $210 purchase. What is the total cost?",
+    "question": "A television’s price rose from \\(\\$450\\) to \\(\\$522\\). What was the percent increase?",
     "options": [
-      "$16.80",
-      "$226.80",
-      "$193.20",
-      "$1680"
+      "\\(13.8\\%\\)",
+      "\\(16\\%\\)",
+      "\\(72\\%\\)",
+      "\\(116\\%\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The tax is 210 x 0.08 = 16.8, so the total is 210 + 16.8 = 226.8.\n\n**Key concept:** Sales tax",
+    "explanation": "**Explanation:** Percent change divides by the **original** value: \\(\\frac{522 - 450}{450} = \\frac{72}{450} = 0.16\\), or \\(16\\%\\).\n\n**Key concept:** Percent increase uses the original amount",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $360 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "question": "A credit card charges \\(1.5\\%\\) interest per month on the unpaid balance. A balance of \\(\\$600\\) is left unpaid for one month, then \\(\\$100\\) is repaid. What is owed after that payment?",
     "options": [
-      "$43.20",
-      "$14.40",
-      "$403.20",
-      "$4320"
+      "\\(\\$509\\)",
+      "\\(\\$500\\)",
+      "\\(\\$491\\)",
+      "\\(\\$609\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use I = Prt: 360 x 0.04 x 3 = 43.2, so $43.20 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Interest for the month is \\(600 \\times 0.015 = 9\\) dollars, making the balance \\(\\$609\\). After the \\(\\$100\\) payment, \\(\\$509\\) remains.\n\n**Key concept:** Credit balances grow before payments",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $380 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "question": "A tank is filled at \\(12\\) litres per minute for \\(8\\) minutes, then drained at \\(15\\) litres per minute for \\(4\\) minutes. How much water remains?",
     "options": [
-      "$7600",
-      "$19",
-      "$456",
-      "$76"
+      "\\(21\\) litres",
+      "\\(156\\) litres",
+      "\\(60\\) litres",
+      "\\(36\\) litres"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use I = Prt: 380 x 0.05 x 4 = 76, so $76 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Filling adds \\(12 \\times 8 = 96\\) litres and draining removes \\(15 \\times 4 = 60\\). The difference is \\(36\\) litres.\n\n**Key concept:** Combining rates in opposite directions",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $400 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "question": "After a \\(25\\%\\) discount, a bicycle costs \\(\\$210\\). What was the original price?",
     "options": [
-      "$448",
-      "$24",
-      "$48",
-      "$4800"
+      "\\(\\$235\\)",
+      "\\(\\$262.50\\)",
+      "\\(\\$280\\)",
+      "\\(\\$840\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use I = Prt: 400 x 0.06 x 2 = 48, so $48 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** The sale price is \\(75\\%\\) of the original, so the original is \\(210 \\div 0.75 = 280\\) dollars. Adding \\(25\\%\\) back to \\(\\$210\\) would give the wrong answer because the percent applies to a different base.\n\n**Key concept:** Working backwards from a discounted price",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $420 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "question": "Which change would **increase** a person’s net worth?",
     "options": [
-      "$12.60",
-      "$37.80",
-      "$457.80",
-      "$3780"
+      "Borrowing \\(\\$500\\) to buy a phone that costs \\(\\$500\\)",
+      "Receiving a \\(\\$500\\) bonus and depositing it in savings",
+      "Moving \\(\\$200\\) from a savings account to a chequing account",
+      "Charging a \\(\\$300\\) holiday to a credit card"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use I = Prt: 420 x 0.03 x 3 = 37.8, so $37.80 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Net worth is assets minus liabilities. The bonus adds \\(\\$500\\) to assets with no matching debt. Borrowing adds an asset and an equal liability, so the total is unchanged. Moving money between two accounts leaves both sides alone. Charging a holiday adds a liability with nothing lasting on the asset side.\n\n**Key concept:** Net worth is assets minus liabilities",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A store adds 8% sales tax to a $260 purchase. What is the total cost?",
+    "question": "Three friends share a \\(\\$78\\) bill. One pays \\(\\$30\\) and the other two split the rest equally. How much does each of the other two pay?",
     "options": [
-      "$280.80",
-      "$20.80",
-      "$239.20",
-      "$2080"
+      "\\(\\$24\\)",
+      "\\(\\$26\\)",
+      "\\(\\$48\\)",
+      "\\(\\$16\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The tax is 260 x 0.08 = 20.8, so the total is 260 + 20.8 = 280.8.\n\n**Key concept:** Sales tax",
+    "explanation": "**Explanation:** The remaining amount is \\(78 - 30 = 48\\) dollars, and \\(48 \\div 2 = 24\\) dollars each.\n\n**Key concept:** Multi-step sharing",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $440 at simple interest of 4% per year for 3 years. How much interest is earned?",
+    "question": "A shop marks up its cost by \\(40\\%\\) to set the selling price. An item sells for \\(\\$63\\). What did the shop pay for it?",
     "options": [
-      "$5280",
-      "$17.60",
-      "$492.80",
-      "$52.80"
+      "\\(\\$88.20\\)",
+      "\\(\\$37.80\\)",
+      "\\(\\$25.20\\)",
+      "\\(\\$45\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use I = Prt: 440 x 0.04 x 3 = 52.8, so $52.80 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** The selling price is \\(140\\%\\) of cost, so the cost is \\(63 \\div 1.4 = 45\\) dollars.\n\n**Key concept:** Reversing a markup",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $460 at simple interest of 5% per year for 4 years. How much interest is earned?",
+    "question": "Two job offers: Job A pays \\(\\$15\\) per hour for \\(30\\) hours a week. Job B pays a salary of \\(\\$1{,}900\\) per month. Assuming \\(4\\) weeks in a month, which pays more, and by how much per month?",
     "options": [
-      "$552",
-      "$23",
-      "$92",
-      "$9200"
+      "Job B, by \\(\\$450\\)",
+      "Job A, by \\(\\$100\\)",
+      "Job B, by \\(\\$100\\)",
+      "They pay the same."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use I = Prt: 460 x 0.05 x 4 = 92, so $92 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Job A pays \\(15 \\times 30 \\times 4 = \\$1{,}800\\) per month, which is \\(\\$100\\) less than Job B’s \\(\\$1{,}900\\).\n\n**Key concept:** Comparing hourly and salaried pay",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $480 at simple interest of 6% per year for 2 years. How much interest is earned?",
+    "question": "A printer produces \\(24\\) pages per minute. A second printer produces \\(16\\) pages per minute. Working together, how long do they take to print \\(600\\) pages?",
     "options": [
-      "$28.80",
-      "$57.60",
-      "$537.60",
-      "$5760"
+      "\\(25\\) minutes",
+      "\\(15\\) minutes",
+      "\\(37.5\\) minutes",
+      "\\(10\\) minutes"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use I = Prt: 480 x 0.06 x 2 = 57.6, so $57.60 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Together they print \\(24 + 16 = 40\\) pages per minute, so \\(600 \\div 40 = 15\\) minutes.\n\n**Key concept:** Combined rates",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A savings account has $500 at simple interest of 3% per year for 3 years. How much interest is earned?",
+    "question": "A savings account pays \\(3\\%\\) simple interest per year. How long does it take \\(\\$1{,}500\\) to earn \\(\\$270\\) in interest?",
     "options": [
-      "$45",
-      "$15",
-      "$545",
-      "$4500"
+      "\\(6\\) years",
+      "\\(4\\) years",
+      "\\(9\\) years",
+      "\\(18\\) years"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use I = Prt: 500 x 0.03 x 3 = 45, so $45 of interest is earned.\n\n**Key concept:** Simple interest",
+    "explanation": "**Explanation:** Use \\(I = Prt\\): \\(270 = 1500 \\times 0.03 \\times t\\) gives \\(270 = 45t\\), so \\(t = 6\\) years.\n\n**Key concept:** Solving the interest formula for time",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "problem_solving_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "A store adds 8% sales tax to a $310 purchase. What is the total cost?",
+    "question": "A population of \\(2{,}400\\) fish falls by \\(15\\%\\) one year and then by another \\(20\\%\\) the next. What is the population after two years?",
     "options": [
-      "$2480",
-      "$24.80",
-      "$285.20",
-      "$334.80"
+      "\\(2{,}040\\)",
+      "\\(1{,}560\\)",
+      "\\(1{,}800\\)",
+      "\\(1{,}632\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The tax is 310 x 0.08 = 24.8, so the total is 310 + 24.8 = 334.8.\n\n**Key concept:** Sales tax",
+    "explanation": "**Explanation:** After the first year: \\(2400 \\times 0.85 = 2040\\). After the second: \\(2040 \\times 0.80 = 1632\\). The two percents cannot simply be added, because the second applies to the reduced number.\n\n**Key concept:** Successive percent decreases",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision best gives a paragraph about repairing bicycles a focused topic sentence?",
+    "question": "Which thesis is most effective for an informational essay about urban trees?",
     "options": [
-      "Bicycles have wheels and seats.",
-      "Repairing a bicycle begins with a careful inspection.",
-      "My neighbor owns three bicycles.",
-      "Tools can be shiny or dull."
+      "Cities should immediately plant one million trees, whatever the objections.",
+      "Urban trees are an important and interesting part of any city, and this essay will explore them.",
+      "Street trees lower summer temperatures, absorb storm runoff, and raise nearby property values — benefits that repay their planting cost within fifteen years.",
+      "Street trees provide shade, and shade is pleasant on a hot day."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** This sentence introduces the paragraph's process and focus.\n**Key concept:** Topic sentence.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A strong informational thesis names the specific points the essay will develop. The second option announces a topic without a claim, the third is argumentative rather than informational, and the fourth is too narrow to organise an essay.\n\n**Key concept:** Thesis statements in informational writing",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which transition best completes the sentence? \"The route was shorter than expected; ______, the trail was steep and required frequent rests.\"",
+    "question": "Which claim is most arguable and focused enough for a short argumentative essay?",
     "options": [
-      "similarly",
-      "however",
-      "for example",
-      "therefore"
+      "Education is one of the most important issues facing society today.",
+      "Our school should replace the twenty-minute homeroom with a supervised study period.",
+      "Homeroom takes place every morning at our school.",
+      "Everyone knows that students are under too much pressure."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The transition signals a contrast between short distance and steep difficulty.\n**Key concept:** Transitions.",
+    "explanation": "**Explanation:** An arguable claim is one a reasonable person could dispute, and a focused one is small enough to support in a few paragraphs. The second is too broad, the third is a verifiable fact, and the fourth assumes agreement instead of arguing for it.\n\n**Key concept:** Formulating an arguable claim",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which detail is least relevant in an essay explaining how a food bank operates?",
+    "question": "A draft reads: \"The experiment was conducted by our group and the results were recorded by us and then they were analysed.\" How is it best revised?",
     "options": [
-      "Volunteers sort donated items by type.",
-      "Families choose from available food.",
-      "The building was painted blue ten years ago.",
-      "Delivery drivers bring supplies weekly."
+      "\"Our group conducted the experiment, recorded the results, and analysed them.\"",
+      "\"The experiment was conducted, the results recorded, and then analysed by our group.\"",
+      "\"By our group the experiment was conducted and the results recorded and analysed.\"",
+      "\"Our group conducted the experiment. Our group recorded the results. Our group analysed them.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The building color does not explain the food bank's operations.\n**Key concept:** Relevant details.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Moving to the active voice and to one parallel series removes the repetition and the passive strings. The second and third keep the passive constructions, and the fourth trades wordiness for three choppy repetitions.\n\n**Key concept:** Revising for voice and concision",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best concludes an argument that schools should add refill stations?",
+    "question": "Which detail best develops the claim that the library is overcrowded at lunchtime?",
     "options": [
-      "Water has no color.",
-      "Refill stations can reduce waste while making water easier to get.",
-      "Some students carry backpacks.",
-      "Bottles are sold in many stores."
+      "The library has been part of the school since it opened in 1974.",
+      "The library is a very popular place for students to spend their lunch break.",
+      "Many students say the library feels too crowded during lunch.",
+      "On four days last week, every seat was taken by 12:10 and eleven students sat on the floor."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The conclusion restates the argument's benefits in a meaningful way.\n**Key concept:** Concluding statement.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Specific counts and times are evidence; the second and third restate the claim in other words, and the fourth is irrelevant background.\n\n**Key concept:** Developing a claim with specific evidence",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision makes the wording most precise?\n\"The scientist did stuff to the samples.\"",
+    "question": "Before drafting an argumentative essay, which planning step is most useful?",
     "options": [
-      "The scientist examined the samples under a microscope.",
-      "The scientist was near the samples.",
-      "The scientist had samples.",
-      "The scientist liked the samples."
+      "Deciding how many paragraphs the essay will have",
+      "Choosing a title that will catch the reader’s attention",
+      "Listing the strongest objection to your position and deciding how you will answer it",
+      "Selecting a font and spacing for the final copy"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Specific verbs and details replace vague wording.\n**Key concept:** Precise word choice.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Anticipating the counterargument shapes what the essay must actually do. Titles, paragraph counts and formatting are decisions that follow the thinking rather than guide it.\n\n**Key concept:** Planning an argument",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which order is most logical for an explanatory paragraph about eclipses?",
+    "question": "A narrative ends: \"And then I woke up and it had all been a dream.\" Why is this ending usually considered weak?",
     "options": [
-      "effect, definition, cause",
-      "definition, cause, observable effect",
-      "opinion, conclusion, evidence",
-      "question, unrelated fact, example"
+      "It is too short to serve as a conclusion.",
+      "It cancels the events of the story, so nothing that happened can carry meaning.",
+      "Dreams are not a permitted subject in narrative writing.",
+      "It uses the first person, which narratives should avoid."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Readers first need to know what an eclipse is before learning its cause and results.\n**Key concept:** Logical organization.",
+    "explanation": "**Explanation:** If the events did not occur, the choices and consequences the narrative built lose their weight. Length, subject matter and person are not the problem.\n\n**Key concept:** Effective narrative endings",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses evidence most effectively in a claim about later school start times?",
+    "question": "Which revision best strengthens the transition between these sentences? \"The town installed the new filtration plant in 2019. Complaints about the water’s taste fell by 80 percent.\"",
     "options": [
-      "Later starts are obviously best.",
-      "I dislike waking early.",
-      "A district survey found fewer first-period absences after a later start.",
-      "Everyone knows teens are tired."
+      "\"The town installed the new filtration plant in 2019. Within a year, complaints about the water’s taste had fallen by 80 percent.\"",
+      "\"The town installed the new filtration plant in 2019, and complaints about the water’s taste fell by 80 percent.\"",
+      "\"The town installed the new filtration plant in 2019. Also, complaints about the water’s taste fell by 80 percent.\"",
+      "\"The town installed the new filtration plant in 2019. However, complaints about the water’s taste fell by 80 percent.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The survey supplies relevant, measurable evidence for the claim.\n**Key concept:** Evidence selection.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Adding \"Within a year\" supplies the time relationship the reader needs to connect the two facts. \"And\" and \"Also\" merely join them, and \"However\" signals a contrast that is not there.\n\n**Key concept:** Transitions that carry meaning",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best introduces a paragraph about restoring a prairie?",
+    "question": "Which introduction best suits a report on local water restrictions?",
     "options": [
-      "Prairies contain grasses.",
-      "Restoring a prairie requires rebuilding relationships among soil, plants, and animals.",
-      "My cousin visited a prairie.",
-      "Plants need water."
+      "I have always been interested in how towns manage their water supply.",
+      "Water is essential to life. Without it, no plant or animal on Earth could survive.",
+      "Have you ever wondered what would happen if the taps simply stopped running one day?",
+      "Reservoir levels in the county fell to 31 percent of capacity this July, the lowest reading since records began in 1958. In response, the water board imposed three tiers of restriction."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence establishes the complex process the paragraph can explain.\n**Key concept:** Focused introduction.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A report opens by establishing the specific situation it will explain. The second is a generic truism, the third a hook with no content, and the fourth is about the writer rather than the subject.\n\n**Key concept:** Openings for informational reports",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision combines the ideas most effectively?\n\"The lantern went out. The hikers stopped. They waited for moonlight.\"",
+    "question": "Which sentence is correctly edited for standard English conventions?",
     "options": [
-      "The lantern went out, and the hikers stopped to wait for moonlight.",
-      "The lantern and hikers were out.",
-      "The hikers waited, and the moonlight stopped.",
-      "The lantern stopped the hikers out."
+      "\"Neither the coach or the players were satisfied with the result.\"",
+      "\"Neither the coach nor the players was satisfied with the result.\"",
+      "\"Neither the coach nor the players were satisfied with the result.\"",
+      "\"Neither the coach nor the players are satisfied with the result, yesterday.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The revision joins the related ideas clearly and preserves their sequence.\n**Key concept:** Sentence combining.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** With \"neither... nor\", the verb agrees with the nearer subject, \"players\", so \"were\" is correct. \"Neither\" must pair with \"nor\", and the last option mixes a present-tense verb with \"yesterday\".\n\n**Key concept:** Agreement with correlative conjunctions",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence provides the strongest counterclaim in an essay favoring public transit?",
+    "question": "An essay argues for later school start times. Which paragraph best handles the counterargument?",
     "options": [
-      "Buses are blue in some cities.",
-      "Some riders may find routes less convenient than driving directly.",
-      "Transit is always perfect.",
-      "Cars have four wheels."
+      "Critics say later starts cause problems, but they are wrong and have not thought it through.",
+      "Critics point out that later starts complicate bus scheduling and after-school jobs. Districts that have made the change met this by staggering elementary and secondary routes, which raised transport costs by about four percent.",
+      "Some people disagree with later start times for a variety of reasons.",
+      "It is true that later starts cause scheduling problems, and there is no good answer to that."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** This sentence presents a reasonable objection to the argument.\n**Key concept:** Counterclaim.",
+    "explanation": "**Explanation:** A counterargument is handled by stating it accurately and then answering it with evidence. Dismissal, vagueness and surrender all fail — the last one concedes the point without recovering the argument.\n\n**Key concept:** Addressing a counterargument",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision removes repetition?\n\"The final outcome was the end result of the experiment.\"",
+    "question": "A paragraph contains six sentences, five about the cost of the stadium and one about the architect’s previous buildings. What is the best revision?",
     "options": [
-      "The final outcome was the end result.",
-      "The experiment had an outcome.",
-      "The outcome was final.",
-      "The experiment's result was recorded."
+      "Move the sentence about previous buildings to a paragraph on the architect, or cut it.",
+      "Add three more sentences about the architect so the paragraph is balanced.",
+      "Leave it, since variety keeps the reader interested.",
+      "Move the sentence about previous buildings to the start so it introduces the paragraph."
     ],
-    "correctIndex": 3,
-    "explanation": "**Explanation:** The revision removes the repeated meanings of final, outcome, and end result.\n**Key concept:** Concision.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A paragraph should develop one idea. The stray sentence belongs elsewhere or nowhere; expanding it would split the paragraph in two, and moving it to the front would misannounce what follows.\n\n**Key concept:** Paragraph unity",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which source would best support a claim about local air quality?",
+    "question": "Which closing best suits a formal letter requesting permission to interview a city official?",
     "options": [
-      "A neighbor's unsigned blog post",
-      "A city environmental agency's annual measurements",
-      "A fictional story about smog",
-      "An advertisement for air freshener"
+      "\"If I do not hear from you within a week, I will assume you have agreed.\"",
+      "\"Thanks a lot — let me know soon, because my project is due Friday!\"",
+      "\"I hope you will say yes, because this interview means a great deal to me personally.\"",
+      "\"Thank you for considering this request. I can be reached at the address above and am available at any time convenient to your office.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Official recurring measurements are directly relevant and verifiable.\n**Key concept:** Reliable evidence.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A formal request closes by thanking the reader and making a reply easy. The second is too casual and makes the writer’s deadline the reader’s problem, the third substitutes feeling for professionalism, and the fourth is presumptuous.\n\n**Key concept:** Register in formal correspondence",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which word best creates a cautious academic tone?\n\"The evidence ______ that the treatment may help.\"",
+    "question": "Which sentence provides the most precise supporting detail?",
     "options": [
-      "proves",
-      "suggests",
-      "shouts",
-      "guarantees"
+      "\"Scientists are worried about what is happening to the glacier.\"",
+      "\"The glacier has retreated a great deal over the last several decades.\"",
+      "\"The glacier retreated 1.2 kilometres between 1980 and 2020, leaving a lake where the ice front had been.\"",
+      "\"The glacier is much smaller now than it used to be in the past.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The word expresses a limited conclusion that matches uncertain evidence.\n**Key concept:** Academic tone.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Precision means measurable specifics — a distance, a period, an observable result. The other three are vague, second-hand, or redundant.\n\n**Key concept:** Precision in supporting detail",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best supports the claim that community gardens strengthen neighborhoods?",
+    "question": "A student is publishing a research report on the school website. Which step matters most before posting?",
     "options": [
-      "Gardens come in many sizes.",
-      "Gardeners share tools, knowledge, and harvests.",
-      "Soil can be brown or black.",
-      "Tomatoes are fruits."
+      "Choosing a colour scheme that matches the school logo",
+      "Checking that every source is cited and that quotations are marked and accurate",
+      "Making sure the report is at least five pages long",
+      "Adding as many images as the page will hold"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Shared work and resources demonstrate how gardens build relationships.\n**Key concept:** Supporting evidence.",
+    "explanation": "**Explanation:** Publishing makes the work public, so accuracy and attribution become the responsibility that matters most. Design, length and images are secondary.\n\n**Key concept:** Responsibilities of publishing",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision most clearly states a claim?\n\"There are many thoughts about homework.\"",
+    "question": "In a personal narrative, which sentence best shows rather than tells?",
     "options": [
-      "Homework exists in schools.",
-      "Schools should limit nightly homework to work with a clear learning purpose.",
-      "Homework can involve paper.",
-      "Teachers assign homework."
+      "\"I read the message three times, then put the phone face-down on the table and asked what was for dinner.\"",
+      "\"I was extremely upset when I read the message.\"",
+      "\"The message made me feel a lot of different emotions at once.\"",
+      "\"It was the worst news I had ever received in my entire life.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The revision makes a specific position that can be defended with evidence.\n**Key concept:** Claim writing.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Concrete actions let the reader infer the feeling. The other three name the emotion directly, which is telling.\n\n**Key concept:** Showing versus telling",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which transition signals an example?",
+    "question": "Which revision removes the redundancy from \"In my personal opinion, I think the plan will probably fail\"?",
     "options": [
-      "nevertheless",
-      "consequently",
-      "for instance",
-      "meanwhile"
+      "\"It is my personal opinion that the plan will probably fail.\"",
+      "\"In my opinion, I think the plan will fail.\"",
+      "\"Personally, I think that in my view the plan will fail.\"",
+      "\"The plan will probably fail.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** This phrase introduces a particular example.\n**Key concept:** Transition function.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** \"In my personal opinion\" and \"I think\" say the same thing, and the sentence is already the writer’s. Removing both leaves the claim, with \"probably\" preserving the original hedge.\n\n**Key concept:** Cutting redundancy",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best addresses an opposing view about planting native species?",
+    "question": "Which is the strongest concluding sentence for an argument that the town should fund a night bus?",
     "options": [
-      "Native species are plants.",
-      "Although native plants may cost more initially, they often need less water later.",
-      "Every plant needs sunlight.",
-      "Gardening is enjoyable."
+      "\"So as you can see, I have proved that a night bus is a good idea.\"",
+      "\"In conclusion, the town should definitely fund a night bus service.\"",
+      "\"A route that runs until one in the morning would cost the town about $180,000 a year — roughly what it spends resurfacing two streets — and would let shift workers get home.\"",
+      "\"There are many reasons why a night bus would be helpful to everyone.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence acknowledges a concern and answers it with a long-term benefit.\n**Key concept:** Counterargument and rebuttal.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A strong conclusion leaves the reader with the argument’s weight, here a cost comparison and a beneficiary. The others announce that a conclusion is happening without adding anything.\n\n**Key concept:** Effective conclusions",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence belongs in an introduction to a procedural article about emergency kits?",
+    "question": "Which sentence uses parallel structure correctly?",
     "options": [
-      "Keep a kit where household members can reach it quickly.",
-      "I saw a storm once.",
-      "Kits have objects.",
-      "Emergencies are surprising."
+      "\"The committee agreed to review the budget, interviewing the staff, and it would publish its findings.\"",
+      "\"The committee agreed to review the budget, interview the staff, and publish its findings.\"",
+      "\"The committee agreed to review the budget, the interviewing of staff, and publication of findings.\"",
+      "\"The committee agreed on reviewing the budget, to interview the staff, and publishing its findings.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** This sentence directly introduces practical guidance about emergency-kit placement.\n**Key concept:** Purposeful introduction.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** All three items must take the same grammatical form. Only the first keeps three infinitives — review, interview, publish.\n\n**Key concept:** Parallel structure in a series",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision uses the most effective formal style?\n\"Kids should get to use phones cuz they need them.\"",
+    "question": "A writer has gathered far more material than the essay can hold. What is the best response?",
     "options": [
-      "Students need phones, okay?",
-      "Students should be permitted to use phones when a task requires them.",
-      "Phones are cool for kids.",
-      "Kids gotta have phones."
+      "Decide what the essay is arguing, then keep only the material that serves that argument.",
+      "Include everything, since more evidence always makes an argument stronger.",
+      "Keep the material that was hardest to find, since it took the most work.",
+      "Cut material at random until the essay reaches the required length."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The revision uses formal vocabulary and defines a reasonable condition.\n**Key concept:** Formal style.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Selection follows purpose: the claim decides what is relevant. Volume does not equal strength, effort spent gathering is not a reason to keep something, and random cutting is not a decision at all.\n\n**Key concept:** Selecting from gathered material",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which detail most effectively develops a narrative about persistence?",
+    "question": "Which sentence best states the organising principle of a compare-and-contrast essay on two energy sources?",
     "options": [
-      "The clock was round.",
-      "After six failed designs, Mara tested a seventh bridge model.",
-      "The lab had windows.",
-      "Mara owned a pencil."
+      "\"Solar power is better than wind power in almost every way.\"",
+      "\"Solar and wind power are both renewable sources of energy.\"",
+      "\"This essay will compare and contrast solar power and wind power.\"",
+      "\"Solar and wind power differ most in where they can be sited, how steadily they generate, and what they cost to maintain.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Repeated testing after failures demonstrates persistence.\n**Key concept:** Relevant narrative detail.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The first names the three axes of comparison, which is what organises such an essay. The second states a shared trait, the third announces the form without content, and the fourth is a thesis for an argument, not a comparison.\n\n**Key concept:** Organising a comparison",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision improves coherence?\n\"The creek flooded. The volunteers filled sandbags. My favorite snack is oranges.\"",
+    "question": "A draft sentence reads: \"Because of the fact that the road was closed, we were late.\" What is the best revision?",
     "options": [
-      "Remove the sentence about oranges.",
-      "Add more details about oranges.",
-      "Move the first sentence to the end.",
-      "Replace creek with snack."
+      "\"The road was closed, because of that we were late.\"",
+      "\"Due to the fact of the road being closed, we were late.\"",
+      "\"Because the road was closed, we were late.\"",
+      "\"On account of the fact that the road closed, we were late.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The orange sentence interrupts the flood-response sequence.\n**Key concept:** Coherence.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** \"Because of the fact that\" is a four-word way of saying \"because\". The alternatives keep or lengthen the padding, and one of them also creates a comma splice.\n\n**Key concept:** Eliminating wordy connectives",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence gives a reason for a claim rather than merely restating it?\nClaim: Schools should preserve art programs.",
+    "question": "Which evidence would most strengthen the claim that the new bicycle lane has made the road safer?",
     "options": [
-      "Art programs should stay.",
-      "Art programs allow students to practice observing, revising, and communicating ideas.",
-      "Art is art.",
-      "Schools have programs."
+      "Several cyclists have said they feel much safer using the new lane.",
+      "Recorded collisions involving cyclists on that road fell from 14 to 3 in the two years after the lane opened.",
+      "The lane was designed by engineers who specialise in road safety.",
+      "Bicycle lanes are widely used in cities across northern Europe."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence explains a concrete benefit rather than repeating the claim.\n**Key concept:** Reasoning.",
+    "explanation": "**Explanation:** A before-and-after count of the outcome in question is direct evidence. Feelings, designer credentials and practice elsewhere are all indirect.\n\n**Key concept:** Choosing the strongest evidence",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which phrase is most appropriate for a formal letter to a principal?",
+    "question": "A student emails a scientist to ask about her research. Which opening is most appropriate?",
     "options": [
-      "Hey, I have a thing.",
-      "I am writing to recommend a change to the lunch schedule.",
-      "You need to fix lunch now.",
-      "Lunch is weird."
+      "\"Dear Dr Ramos, I am a seventh-grade student at Denton Middle School writing a report on soil carbon, and I read your 2023 paper on cover crops.\"",
+      "\"Hi! I need some information about soil for a project that is due soon.\"",
+      "\"To whom it may concern: please send me everything you have written about soil.\"",
+      "\"Dear Dr Ramos, I am sure you get a lot of emails so I will not waste your time.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence is respectful, direct, and appropriate for a principal.\n**Key concept:** Audience and register.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A good opening identifies the writer, the purpose, and a specific point of contact with the reader’s work. The others are vague, demanding, or spend their opening apologising.\n\n**Key concept:** Opening a professional email",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best links evidence to a claim?",
+    "question": "Which sentence correctly integrates a quotation?",
     "options": [
-      "The data are numbers.",
-      "Because the survey showed fewer missed assignments, the tutoring program should continue.",
-      "Tutoring is after school.",
-      "Assignments can be missed."
+      "As Okoye notes: the reforms \"arrived a decade after the crisis, they were meant to prevent.\"",
+      "As Okoye notes, \"The reforms arrived a decade after the crisis they were meant to prevent\".",
+      "Okoye said quote the reforms arrived a decade after the crisis unquote.",
+      "As Okoye notes, the reforms \"arrived a decade after the crisis they were meant to prevent.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence explains how the survey evidence supports the recommendation.\n**Key concept:** Linking evidence to claim.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A quotation should run grammatically into the sentence, with the closing punctuation and quotation marks placed correctly. The second misplaces the full stop outside the quotation mark in a way that changes the quoted material, the third abandons punctuation altogether, and the fourth inserts a comma splice inside the quotation.\n\n**Key concept:** Integrating quotations",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "writing_essentials",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision makes the conclusion strongest?\n\"That is why recycling is good.\"",
+    "question": "Which version has the clearest sentence variety?",
     "options": [
-      "Recycling has been discussed.",
-      "By conserving materials and reducing landfill waste, recycling is a practical community responsibility.",
-      "Recycling uses bins.",
-      "Good things are good."
+      "\"The storm arrived at dusk and within an hour three streets were under water and the pumping station which was built in 1961 and never upgraded had failed and nobody had expected that.\"",
+      "\"The storm arrived at dusk. Three streets flooded. The pumping station failed. Nobody expected it.\"",
+      "\"The storm arrived at dusk. Within an hour, three streets were under water, and the pumping station — built in 1961 and never upgraded — had failed. Nobody had expected that.\"",
+      "\"At dusk the storm arrived, and within an hour under water were three streets, and failed had the pumping station.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The conclusion reinforces the claim using its main reasons.\n**Key concept:** Effective conclusion.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The first mixes a short sentence, a longer one with an embedded clause, and a short closer. The second is uniformly clipped, the third is one run-on, and the fourth inverts word order to no purpose.\n\n**Key concept:** Sentence variety",
     "source": "authored",
     "needsReview": false
   }

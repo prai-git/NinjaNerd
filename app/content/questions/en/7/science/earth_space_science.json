@@ -7,15 +7,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do mangrove roots reduce sediment in coastal water after storms?",
+    "question": "Why does Earth have seasons?",
     "options": [
-      "They slow water and hold soil, reducing erosion.",
-      "They increase wave speed.",
-      "They prevent all weathering.",
-      "They create sediment from light."
+      "The Sun produces more energy during summer months.",
+      "Earth is closer to the Sun in summer and farther in winter.",
+      "Its axis is tilted, so each hemisphere receives sunlight at a different angle through the year.",
+      "Earth rotates more slowly in winter, so nights are longer."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Earth materials, weather, and space interactions",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The tilt changes both the directness of sunlight and the length of the day. Earth is in fact slightly closer to the Sun during the northern winter, which rules out the distance explanation.\n\n**Key concept:** The cause of seasons",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What causes the seasons on Earth?",
+    "question": "The Moon shows phases because of what?",
     "options": [
-      "Earth's changing distance from the Sun.",
-      "The tilt of Earth's axis as it orbits the Sun.",
-      "The Moon blocking sunlight.",
-      "Changes in the Sun's output each month."
+      "Earth’s shadow falls across different parts of the Moon each night.",
+      "We see varying portions of its sunlit half as it orbits Earth.",
+      "The Moon produces its own light in varying amounts.",
+      "Clouds in Earth’s atmosphere block part of the Moon."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The tilt changes how directly sunlight strikes each hemisphere through the year.\n\n**Key concept:** Seasons",
+    "explanation": "**Explanation:** Half the Moon is always lit; the phase is how much of that lit half faces us. Earth’s shadow on the Moon is a lunar eclipse, which is a separate and rarer event.\n\n**Key concept:** Moon phases",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "It is summer in the Northern Hemisphere. What is happening in the Southern Hemisphere?",
+    "question": "What causes ocean tides?",
     "options": [
-      "It is winter there.",
-      "It is also summer there.",
-      "It is spring there.",
-      "Seasons do not occur there."
+      "The gravitational pull of the Moon, and to a lesser extent the Sun, on Earth’s oceans",
+      "Earth’s rotation flinging water toward the equator",
+      "Winds pushing water toward the shore twice a day",
+      "The Moon’s magnetic field attracting salt water"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The hemisphere tilted away from the Sun receives less direct light and has winter.\n\n**Key concept:** Seasons",
+    "explanation": "**Explanation:** The Moon’s gravity raises a bulge on the near side and, through the difference in pull across Earth, another on the far side — which is why most coasts see two high tides a day.\n\n**Key concept:** Tides",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What causes day and night on Earth?",
+    "question": "Two tectonic plates move apart beneath the ocean. What forms?",
     "options": [
-      "The tilt of Earth's axis.",
-      "Earth's revolution around the Sun.",
-      "The Moon's orbit around Earth.",
-      "Earth's rotation on its axis."
+      "A transform fault with frequent shallow earthquakes",
+      "A deep trench where one plate sinks beneath the other",
+      "A mountain range built by crustal compression",
+      "A mid-ocean ridge, where magma rises and creates new crust"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** One rotation takes about 24 hours, turning each place toward and away from the Sun.\n\n**Key concept:** Rotation and revolution",
+    "explanation": "**Explanation:** Divergent boundaries create crust. Trenches form at convergent boundaries and mountain ranges where two continental plates collide.\n\n**Key concept:** Divergent plate boundaries",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "How long does one revolution of Earth around the Sun take?",
+    "question": "Fossils of the same freshwater reptile are found in both South America and Africa. What does this support?",
     "options": [
-      "About one month.",
-      "About one day.",
-      "About one year.",
-      "About 28 days."
+      "The same species evolved twice independently.",
+      "The reptile swam across the Atlantic Ocean.",
+      "The two continents were once joined and have since separated.",
+      "The fossils were carried by ocean currents."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A revolution is one complete orbit, which defines the year.\n\n**Key concept:** Rotation and revolution",
+    "explanation": "**Explanation:** A freshwater animal could not cross an ocean, and matching fossil distributions across now-separated continents were among the first lines of evidence for continental drift.\n\n**Key concept:** Evidence for plate tectonics",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What causes the phases of the Moon?",
+    "question": "Which sequence describes how sedimentary rock becomes metamorphic rock?",
     "options": [
-      "Earth's shadow falling on the Moon each night.",
-      "The changing amount of the lit half we can see as the Moon orbits Earth.",
-      "The Moon producing its own light in cycles.",
-      "Clouds covering part of the Moon."
+      "It melts and then cools slowly underground.",
+      "Heat and pressure change it without melting it.",
+      "It is weathered into sediment and then compacted.",
+      "It cools quickly at Earth’s surface after erupting."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** We see varying fractions of the sunlit half as the Moon moves around Earth.\n\n**Key concept:** Moon phases",
+    "explanation": "**Explanation:** Metamorphism changes rock in the solid state. Melting and cooling produces igneous rock; compaction of sediment produces sedimentary rock.\n\n**Key concept:** The rock cycle",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "During a solar eclipse, what is the correct order of the three bodies?",
+    "question": "An igneous rock has very large crystals. What does that suggest about how it formed?",
     "options": [
-      "Sun, Moon, Earth.",
-      "Sun, Earth, Moon.",
-      "Moon, Sun, Earth.",
-      "Earth, Sun, Moon."
+      "It cooled slowly, deep underground, giving crystals time to grow.",
+      "It cooled quickly at the surface after an eruption.",
+      "It was compacted from sediment over long periods.",
+      "It was reshaped by heat and pressure without melting."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The Moon passes between the Sun and Earth, casting a shadow on Earth.\n\n**Key concept:** Eclipses",
+    "explanation": "**Explanation:** Crystal size records cooling rate. Rapid cooling at the surface produces fine-grained or glassy rock such as obsidian.\n\n**Key concept:** Crystal size and cooling rate",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "During a lunar eclipse, what falls on the Moon?",
+    "question": "Why do most earthquakes occur along plate boundaries?",
     "options": [
-      "A shadow from another planet.",
-      "The Moon's own shadow.",
-      "The Sun's shadow.",
-      "Earth's shadow."
+      "The mantle is hottest directly under plate boundaries.",
+      "Plate boundaries have the thinnest crust anywhere on Earth.",
+      "Volcanoes at boundaries shake the ground as they erupt.",
+      "Stress builds where plates grind against one another and is released suddenly."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Earth moves between the Sun and Moon, and its shadow darkens the Moon.\n\n**Key concept:** Eclipses",
+    "explanation": "**Explanation:** Earthquakes are the release of accumulated elastic strain. Boundaries are where plates interact and therefore where that strain concentrates.\n\n**Key concept:** Earthquakes and plate boundaries",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the main cause of ocean tides on Earth?",
+    "question": "A rock layer containing fossil shells is found high in a mountain range. What is the best explanation?",
     "options": [
-      "Earth's magnetic field.",
-      "The rotation of the Sun.",
-      "The gravitational pull of the Moon.",
-      "Wind blowing across the ocean."
+      "The shells were carried up the mountain by a flood.",
+      "Sea levels were once high enough to cover the mountains.",
+      "The layer formed under water and was later uplifted by tectonic forces.",
+      "The animals lived in mountain streams rather than the sea."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The Moon's gravity raises tidal bulges, with a smaller contribution from the Sun.\n\n**Key concept:** Tides",
+    "explanation": "**Explanation:** Marine sedimentary layers now at altitude record both their environment of deposition and the subsequent uplift. This is standard evidence of mountain-building.\n\n**Key concept:** Interpreting rock layers",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Which force keeps the planets in orbit around the Sun?",
+    "question": "In an undisturbed sequence of sedimentary layers, which is the oldest?",
     "options": [
-      "Friction.",
-      "Gravity.",
-      "Magnetism.",
-      "Air resistance."
+      "The top layer",
+      "The bottom layer",
+      "The thickest layer",
+      "The layer with the most fossils"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The Sun's gravitational pull continuously curves each planet's path into an orbit.\n\n**Key concept:** Gravity and orbits",
+    "explanation": "**Explanation:** The law of superposition: layers accumulate from the bottom up, so the deepest undisturbed layer is the oldest. Thickness reflects deposition rate, not age.\n\n**Key concept:** Superposition",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do the outer planets take longer to orbit the Sun than the inner planets?",
+    "question": "Why does a solar eclipse not occur every month, even though the Moon orbits Earth monthly?",
     "options": [
-      "They travel a much longer path at a slower speed.",
-      "They are more massive and heavier.",
-      "They rotate more slowly on their axes.",
-      "They have more moons to carry."
+      "The Moon’s orbit is tilted, so it usually passes above or below the line between Earth and the Sun.",
+      "The Moon moves too quickly to block the Sun most months.",
+      "Earth’s atmosphere prevents eclipses except in certain seasons.",
+      "The Moon is only large enough to block the Sun once a year."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Greater orbital distance means a longer path and a slower orbital speed.\n\n**Key concept:** Orbital periods",
+    "explanation": "**Explanation:** A roughly five-degree tilt means the three bodies line up precisely only occasionally, at the points where the orbits intersect.\n\n**Key concept:** Eclipse geometry",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Which group correctly lists the inner, rocky planets?",
+    "question": "What distinguishes a meteoroid, a meteor and a meteorite?",
     "options": [
-      "Venus, Earth, Neptune, Mars.",
-      "Jupiter, Saturn, Uranus, Neptune.",
-      "Earth, Mars, Jupiter, Saturn.",
-      "Mercury, Venus, Earth, Mars."
+      "A meteorite burns up entirely and a meteor survives to the surface.",
+      "They are three names for the same object at different sizes.",
+      "A meteor orbits the Sun, a meteoroid orbits a planet, and a meteorite orbits the Moon.",
+      "A meteoroid is in space, a meteor is the streak of light as it burns in the atmosphere, and a meteorite is what reaches the ground."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The four planets closest to the Sun are small and rocky.\n\n**Key concept:** Solar system",
+    "explanation": "**Explanation:** The three terms mark three stages of one object’s journey, distinguished by location rather than by size.\n\n**Key concept:** Meteoroids, meteors and meteorites",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the main difference between the inner and outer planets?",
+    "question": "Why are the inner planets rocky and the outer planets gaseous?",
     "options": [
-      "Outer planets have no moons at all.",
-      "Inner planets are larger and colder.",
-      "Inner planets are small and rocky; outer planets are large and gaseous.",
-      "Inner planets orbit more slowly."
+      "Gravity pulled all the heavy elements toward the outer solar system.",
+      "The outer planets are older and have had time to collect gas.",
+      "Close to the young Sun it was too hot for light gases to condense, so only rock and metal remained.",
+      "The outer planets formed from a different star’s material."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Composition and size separate the terrestrial planets from the gas giants.\n\n**Key concept:** Solar system",
+    "explanation": "**Explanation:** The frost line in the early solar nebula separated a hot inner region where volatiles were driven off from a cold outer region where ices and gases could accumulate.\n\n**Key concept:** Formation of the solar system",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the Sun mostly made of?",
+    "question": "A volcano erupts explosively rather than flowing gently. What property of the magma best explains this?",
     "options": [
-      "Rock and iron.",
-      "Hydrogen and helium gas.",
-      "Liquid water.",
-      "Solid carbon."
+      "The magma is unusually hot.",
+      "Thick, sticky magma traps gas until the pressure is released suddenly.",
+      "The volcano sits at a divergent boundary.",
+      "The magma contains no dissolved gas at all."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The Sun is a ball of hot plasma composed mainly of hydrogen and helium.\n\n**Key concept:** Stars",
+    "explanation": "**Explanation:** Viscosity controls whether gas escapes gradually or accumulates. Fluid basaltic magma releases gas steadily and produces flowing eruptions.\n\n**Key concept:** Magma viscosity and eruption style",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Where does the Sun's energy come from?",
+    "question": "Which best describes the relationship between weathering and erosion?",
     "options": [
-      "Nuclear fusion in its core.",
-      "Burning of fuel like a fire.",
-      "Friction with the solar wind.",
-      "Reflection of light from planets."
+      "Weathering breaks rock down in place; erosion carries the pieces away.",
+      "Weathering carries rock away; erosion breaks it down.",
+      "They are two words for the same process.",
+      "Weathering affects only soil and erosion only solid rock."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Fusion of hydrogen into helium releases enormous energy.\n\n**Key concept:** Stars",
+    "explanation": "**Explanation:** The distinction is between breakdown and transport. Both must occur for a landscape to change shape.\n\n**Key concept:** Weathering and erosion",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Why does the Sun appear far brighter than any other star?",
+    "question": "Why does the Moon always show the same face to Earth?",
     "options": [
-      "It reflects light from Earth.",
-      "It is the largest star in the universe.",
-      "Other stars produce no light.",
-      "It is far closer to Earth than other stars."
+      "The far side is always in shadow and cannot be seen.",
+      "It does not rotate at all.",
+      "Earth’s gravity holds one side permanently still.",
+      "It rotates once on its axis in the same time it takes to orbit Earth once."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Apparent brightness drops sharply with distance, and the Sun is by far the nearest star.\n\n**Key concept:** Apparent brightness",
+    "explanation": "**Explanation:** This is tidal locking. The far side receives just as much sunlight as the near side over a lunar month; it is simply never turned toward us.\n\n**Key concept:** Tidal locking",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What is a light-year a measure of?",
+    "question": "A seismograph station records P waves but no S waves from a distant earthquake. What does this indicate?",
     "options": [
-      "Mass.",
-      "Time.",
-      "Distance.",
-      "Brightness."
+      "The station’s instruments were faulty.",
+      "The earthquake was too weak to produce S waves.",
+      "The waves passed through Earth’s liquid outer core, which S waves cannot cross.",
+      "S waves travel too slowly to have arrived yet."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A light-year is the distance light travels in one year.\n\n**Key concept:** Astronomical distances",
+    "explanation": "**Explanation:** S waves are transverse and cannot propagate through liquid. The resulting shadow zone is the main evidence that the outer core is molten.\n\n**Key concept:** Seismic waves and Earth’s interior",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Which object is at the center of our solar system?",
+    "question": "Which layer of Earth is the thickest by volume?",
     "options": [
-      "Earth.",
-      "The Sun.",
-      "The Moon.",
-      "Jupiter."
+      "The crust",
+      "The mantle",
+      "The outer core",
+      "The inner core"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The planets orbit the Sun, which holds most of the system's mass.\n\n**Key concept:** Solar system",
+    "explanation": "**Explanation:** The mantle extends roughly 2,900 km and makes up about 84 percent of Earth’s volume. The crust is a thin skin by comparison.\n\n**Key concept:** Earth’s internal structure",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "An asteroid belt lies between which two planets?",
+    "question": "Ice wedges into a crack in a rock, freezes, and expands. Over many cycles the rock splits. What is this?",
     "options": [
-      "Mars and Jupiter.",
-      "Earth and Mars.",
-      "Jupiter and Saturn.",
-      "Venus and Earth."
+      "Mechanical weathering, because the rock is broken without changing chemically",
+      "Chemical weathering, because water reacted with the rock",
+      "Erosion, because the rock fragments moved apart",
+      "Deposition, because new material was added to the crack"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Most asteroids orbit in a belt between Mars and Jupiter.\n\n**Key concept:** Small bodies",
+    "explanation": "**Explanation:** Freeze-thaw breaks rock by physical force. No new substance is formed, which is what separates mechanical from chemical weathering.\n\n**Key concept:** Mechanical weathering",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "A small icy body develops a glowing tail as it nears the Sun. What is it?",
+    "question": "Why does the North Star appear nearly stationary while other stars circle through the night?",
     "options": [
-      "A planet.",
-      "An asteroid.",
-      "A moon.",
-      "A comet."
+      "It orbits Earth at the same rate Earth rotates.",
+      "It is much closer to Earth than other stars.",
+      "It is the brightest star in the sky.",
+      "It lies almost directly above Earth’s axis of rotation."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Solar heating vaporizes a comet's ice, forming a tail that points away from the Sun.\n\n**Key concept:** Small bodies",
+    "explanation": "**Explanation:** Earth’s rotation makes the sky appear to turn about the axis. A star near that axis traces only a tiny circle.\n\n**Key concept:** Apparent motion of the stars",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "A rock from space burns up as a streak of light in Earth's atmosphere. What is this called?",
+    "question": "A hurricane weakens rapidly after moving over land. Why?",
     "options": [
-      "A comet.",
-      "A meteorite.",
-      "A meteor.",
-      "A satellite."
+      "Mountains reflect the storm back out to sea.",
+      "Land is cooler, which strengthens the pressure gradient.",
+      "It loses the warm ocean water that supplied its energy.",
+      "Air over land contains less oxygen."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** It is a meteor while in the atmosphere and a meteorite only if it reaches the ground.\n\n**Key concept:** Small bodies",
+    "explanation": "**Explanation:** Hurricanes are driven by evaporation from warm sea surfaces. Cut off from that supply, and slowed by friction over land, they decay quickly.\n\n**Key concept:** Energy source of a hurricane",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Why can astronauts jump higher on the Moon than on Earth?",
+    "question": "What evidence most directly supports sea-floor spreading?",
     "options": [
-      "The Moon has no mass.",
-      "The Moon's gravitational pull is weaker.",
-      "Astronauts are lighter in mass on the Moon.",
-      "The Moon spins much faster."
+      "The presence of deep trenches near continental margins",
+      "Symmetrical bands of magnetic reversals recorded in the crust on either side of a mid-ocean ridge",
+      "The similar shapes of the African and South American coastlines",
+      "The location of most volcanoes around the Pacific"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Weaker surface gravity means less downward force on the same mass.\n\n**Key concept:** Gravity",
+    "explanation": "**Explanation:** The magnetic stripes are symmetrical about the ridge and record reversals in order, which shows new crust forming at the ridge and moving outward.\n\n**Key concept:** Sea-floor spreading",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "What happens to an object's mass and weight if it is taken to the Moon?",
+    "question": "Why do craters remain visible on the Moon for billions of years but not on Earth?",
     "options": [
-      "Mass stays the same and weight decreases.",
-      "Both mass and weight decrease.",
-      "Mass decreases and weight stays the same.",
-      "Both stay exactly the same."
+      "The Moon has no atmosphere or liquid water, so weathering and erosion are negligible.",
+      "The Moon is struck by far more objects than Earth is.",
+      "Lunar rock is much harder than terrestrial rock.",
+      "Earth’s gravity fills craters in with rock over time."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Mass is the amount of matter; weight depends on local gravity.\n\n**Key concept:** Mass and weight",
+    "explanation": "**Explanation:** Earth’s craters are erased by erosion, plate tectonics and vegetation. On the Moon there is almost nothing to erase them.\n\n**Key concept:** Surface processes and crater preservation",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do scientists use space telescopes above Earth's atmosphere?",
+    "question": "A layer of volcanic ash is found between two rock layers at sites hundreds of kilometres apart. How is this useful?",
     "options": [
-      "Stars are only visible from orbit.",
-      "Telescopes cannot be built on the ground.",
-      "Space telescopes need no power source.",
-      "The atmosphere blurs and blocks some incoming light."
+      "It allows the exact age of the rock beneath to be measured by counting the ash grains.",
+      "It proves the two sites were once adjacent.",
+      "It shows that both sites were volcanic.",
+      "It marks the same moment in time at both sites, allowing the layers to be correlated."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Observing above the atmosphere avoids distortion and absorption of light.\n\n**Key concept:** Space exploration",
+    "explanation": "**Explanation:** A widespread ash fall is deposited essentially instantaneously across a region, which makes it an ideal marker bed for correlating separated sequences.\n\n**Key concept:** Correlating rock layers",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "earth_space_science",
     "passage": null,
     "passageTitle": null,
-    "question": "Our solar system is part of which larger structure?",
+    "question": "What is the most likely long-term effect of a plate boundary where two continental plates converge?",
     "options": [
-      "The asteroid belt.",
-      "A single constellation.",
-      "The Milky Way galaxy.",
-      "A nebula inside the Sun."
+      "New crust is created and the continents move apart.",
+      "A deep ocean trench forms as one plate sinks.",
+      "A mountain range builds as the crust is compressed and thickened.",
+      "The plates slide past each other with no vertical change."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A galaxy is a vast collection of stars, gas and dust bound by gravity.\n\n**Key concept:** Galaxies",
+    "explanation": "**Explanation:** Continental crust is too buoyant to subduct readily, so a continent-continent collision crumples and thickens the crust — the Himalayas are the standard example.\n\n**Key concept:** Convergent continental boundaries",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an appositive correctly?",
+    "question": "Which group of words is a **fragment**?",
     "options": [
-      "My brother a skilled mechanic repaired the radio.",
-      "My brother, a skilled mechanic, repaired the radio.",
-      "My brother, a skilled mechanic repaired, the radio.",
-      "My brother a skilled, mechanic, repaired the radio."
+      "\"Although the committee had already voted twice that week.\"",
+      "\"The committee had already voted twice that week.\"",
+      "\"The committee voted twice; the result did not change.\"",
+      "\"Voting twice, the committee reached the same result.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The nonessential appositive is set off with commas.\n**Key concept:** Appositives.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** \"Although\" turns the clause into a subordinate one, which cannot stand alone. The last option opens with a participial phrase but still has a subject and a main verb.\n\n**Key concept:** Recognising fragments",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence is a compound-complex sentence?",
+    "question": "Which sentence is a **comma splice**?",
     "options": [
-      "The bell rang.",
-      "The bell rang, and students left.",
-      "When the bell rang, students left.",
-      "When the bell rang, students left, and the hallway filled quickly."
+      "\"The gate was locked; we climbed the fence.\"",
+      "\"The gate was locked, so we climbed the fence.\"",
+      "\"Because the gate was locked, we climbed the fence.\"",
+      "\"The gate was locked, we climbed the fence.\""
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The sentence contains a dependent clause and two independent clauses.\n**Key concept:** Compound-complex sentences.",
+    "explanation": "**Explanation:** Two independent clauses joined by a comma alone is a splice. Adding a coordinating conjunction, subordinating one clause, or using a semicolon all repair it.\n\n**Key concept:** Comma splices",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision creates the clearest sentence?\n\"The model was built by Kira after studying the plans carefully it was tested.\"",
+    "question": "Which sentence best combines \"The bridge was built in 1931.\" and \"It has never been resurfaced.\"?",
     "options": [
-      "After studying the plans carefully, Kira built and tested the model.",
-      "Kira, after studying, the plans built the model tested.",
-      "The model built Kira after plans tested.",
-      "After the plans, Kira was built by the model."
+      "\"The bridge was built in 1931, it has never been resurfaced.\"",
+      "\"The bridge was built in 1931 and it has never been resurfaced.\"",
+      "\"The bridge, built in 1931, has never been resurfaced.\"",
+      "\"The bridge was built in 1931. Never resurfaced.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The revision gives Kira clear actions in a logical sequence.\n**Key concept:** Sentence clarity.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Reducing the first fact to an appositive phrase subordinates background to the point. The second is correct but flat, the third is a splice, and the fourth leaves a fragment.\n\n**Key concept:** Combining by subordination",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a participial phrase correctly?",
+    "question": "Which sentence contains a **run-on**?",
     "options": [
-      "Glowing in the dark, we found the trail markers.",
-      "Glowing in the dark, the trail markers guided us.",
-      "We found glowing in the dark, the trail markers.",
-      "The trail markers, we found, glowing in the dark."
+      "\"The meeting ran late because nobody had prepared the figures.\"",
+      "\"The meeting ran late nobody had prepared the figures.\"",
+      "\"The meeting ran late; nobody had prepared the figures.\"",
+      "\"Nobody had prepared the figures, so the meeting ran late.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The participial phrase properly describes the trail markers.\n**Key concept:** Participial phrases.",
+    "explanation": "**Explanation:** Two independent clauses with no punctuation or conjunction between them form a run-on.\n\n**Key concept:** Run-on sentences",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence varies sentence beginnings most effectively?",
+    "question": "Which revision makes the relationship between the ideas clearest? \"The road was resurfaced. Complaints stopped.\"",
     "options": [
-      "We measured the bridge. We measured the road. We measured the river.",
-      "First we measured the bridge. Then we measured the road. Then we measured the river.",
-      "We measured the bridge; afterward, the road and river were measured.",
-      "The bridge was measured. The road was measured. The river was measured."
+      "\"After the road was resurfaced, complaints stopped.\"",
+      "\"The road was resurfaced, and complaints stopped.\"",
+      "\"The road was resurfaced; complaints stopped.\"",
+      "\"The road was resurfaced, complaints stopped.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The revision varies structure while retaining a clear sequence.\n**Key concept:** Sentence variety.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A subordinating conjunction names the relationship — here, sequence. Coordination and a semicolon place the clauses side by side without saying how they connect, and the last option is a splice.\n\n**Key concept:** Subordination clarifies relationships",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a dependent clause?",
+    "question": "Which sentence is a **complex** sentence?",
     "options": [
-      "Because the evidence was incomplete.",
-      "The evidence was incomplete because the final sample was missing.",
-      "Because the evidence, was incomplete.",
-      "The evidence because incomplete."
+      "\"The alarm sounded loudly at three in the morning.\"",
+      "\"The alarm sounded and the technicians climbed to the roof.\"",
+      "\"The alarm sounded; the technicians climbed to the roof.\"",
+      "\"When the alarm sounded, the technicians were already on the roof.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The dependent clause is attached to a complete main clause.\n**Key concept:** Dependent clauses.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A complex sentence has one independent and at least one subordinate clause. The first two are compound and the last is simple.\n\n**Key concept:** Sentence types",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision best combines the sentences?\n\"The storm passed. The sky remained gray. The crew resumed work.\"",
+    "question": "Which sentence places the emphasis on the *result* rather than the cause?",
     "options": [
-      "The storm passed, the sky remained gray, the crew resumed work.",
-      "Although the sky remained gray after the storm passed, the crew resumed work.",
-      "The storm passed because the crew resumed work gray.",
-      "The gray crew stormed past work."
+      "\"The opening was postponed because the shipment was delayed.\"",
+      "\"The shipment was delayed, so the opening was postponed.\"",
+      "\"Because the shipment was delayed, the opening was postponed.\"",
+      "\"The shipment was delayed and the opening was postponed.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence preserves the contrast and joins all ideas smoothly.\n**Key concept:** Combining sentences.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Putting the subordinate clause first leaves the main clause — the result — in the emphatic final position. Reversing the order shifts the weight onto the cause.\n\n**Key concept:** Clause order and emphasis",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence contains a nonrestrictive clause?",
+    "question": "Which sentence uses a semicolon correctly between clauses?",
     "options": [
-      "The instrument that has a cracked reed needs repair.",
-      "The instrument, which has a cracked reed, needs repair.",
-      "The instrument has that a cracked reed needs repair.",
-      "The instrument which needs repair has a cracked reed."
+      "\"The vote was unanimous; because the debate had lasted nine hours.\"",
+      "\"The vote was unanimous; the debate had lasted nine hours.\"",
+      "\"The vote was unanimous; and the debate had lasted nine hours.\"",
+      "\"The vote, which was unanimous; came after nine hours of debate.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The clause adds extra information and is correctly enclosed by commas.\n**Key concept:** Nonrestrictive clauses.",
+    "explanation": "**Explanation:** A semicolon joins two independent clauses. It cannot precede a subordinating or coordinating conjunction, and it cannot interrupt a single clause.\n\n**Key concept:** Semicolons between independent clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses parallel phrases?",
+    "question": "Which sentence uses a periodic structure, holding its main point until the end?",
     "options": [
-      "The team trained before sunrise, after school, and on weekends.",
-      "The team trained before sunrise, after school, and to practice weekends.",
-      "The team trained before sunrise, practicing after school, and weekends.",
-      "The team trained before sunrise, after school, and they practiced weekends."
+      "\"After three delays, two redesigns, and a change of contractor, the bridge opened.\"",
+      "\"The bridge opened after three delays, two redesigns, and a change of contractor.\"",
+      "\"The bridge opened, and there had been three delays, two redesigns, and a change of contractor.\"",
+      "\"There were three delays and two redesigns, and the contractor changed, and the bridge opened.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Each list item is a parallel prepositional phrase.\n**Key concept:** Parallel phrases.",
+    "explanation": "**Explanation:** A periodic sentence suspends its main clause until the close, which is what makes the ending land. The others state the outcome first or string clauses together.\n\n**Key concept:** Periodic sentences",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best emphasizes the contrast?",
+    "question": "Which sentence correctly uses a subordinate clause as the subject?",
     "options": [
-      "The cave was dark, and the lantern was bright.",
-      "Though the cave was dark, the lantern made each painted symbol visible.",
-      "The cave was dark because lanterns exist.",
-      "The lantern darkened the cave."
+      "\"What the report omitted it mattered more than what it contained.\"",
+      "\"What the report omitted, mattered more than what it contained.\"",
+      "\"What the report omitted. Mattered more than what it contained.\"",
+      "\"What the report omitted mattered more than what it contained.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Though highlights the contrast between darkness and visibility.\n**Key concept:** Subordination for contrast.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A noun clause can serve as a subject and takes no comma before its verb. The third splits the sentence into a fragment and the fourth adds a redundant pronoun subject.\n\n**Key concept:** Noun clauses as subjects",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a gerund as the subject?",
+    "question": "Which sentence combines the ideas with the least loss of information? \"The lab closed. It reopened in April. Funding had been restored.\"",
     "options": [
-      "To study requires patience.",
-      "Studying requires patience.",
-      "The student studied patiently.",
-      "The study was patient."
+      "\"The lab closed, reopened in April, and funding was restored.\"",
+      "\"The lab closed and reopened in April with restored funding.\"",
+      "\"The lab, which had closed, reopened in April once funding was restored.\"",
+      "\"Closing and reopening in April, the lab had funding.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Studying functions as a noun and serves as the sentence subject.\n**Key concept:** Gerunds.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The first keeps the sequence and marks the causal link with *once*. The second and third lose the causal relationship, and the fourth loses both the sequence and the cause.\n\n**Key concept:** Combining without losing meaning",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision removes the run-on while preserving the relationship between the ideas?\n\"The temperature dropped quickly the lake froze overnight.\"",
+    "question": "Which sentence uses a relative clause correctly?",
     "options": [
-      "The temperature dropped quickly, the lake froze overnight.",
-      "The temperature dropped quickly; the lake froze overnight.",
-      "The temperature dropped quickly because the lake froze overnight.",
-      "The temperature, dropped quickly the lake, froze overnight."
+      "\"The proposal, that the board rejected, has been resubmitted.\"",
+      "\"The proposal that the board rejected has been resubmitted.\"",
+      "\"The proposal what the board rejected has been resubmitted.\"",
+      "\"The proposal which the board rejected it has been resubmitted.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The semicolon correctly separates two related independent clauses.\n**Key concept:** Run-ons and semicolons.",
+    "explanation": "**Explanation:** An essential relative clause introduced by *that* takes no commas. *What* cannot introduce a relative clause here, and the last option repeats the object with *it*.\n\n**Key concept:** Essential relative clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence creates the most suspense?",
+    "question": "Which sentence uses coordination where subordination would serve better?",
     "options": [
-      "The door opened.",
-      "The door opened slowly after the third knock.",
-      "The door is made of wood.",
-      "The door was opened by someone."
+      "\"The instructions were unclear and the assembly took four hours.\"",
+      "\"Because the instructions were unclear, the assembly took four hours.\"",
+      "\"The assembly took four hours because the instructions were unclear.\"",
+      "\"Unclear instructions turned a short assembly into a four-hour job.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The timing and gradual action build anticipation.\n**Key concept:** Pacing.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *And* only lists the two facts, though the sentence plainly means one caused the other. The other three make the relationship explicit.\n\n**Key concept:** Choosing between coordination and subordination",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an infinitive phrase correctly?",
+    "question": "Which sentence has a **compound-complex** structure?",
     "options": [
-      "The team met to plan the expedition.",
-      "The team met planning to the expedition.",
-      "The team met to planning the expedition.",
-      "The team met plan the expedition."
+      "\"The power failed and the generators started.\"",
+      "\"When the power failed, the generators started.\"",
+      "\"The generators started, but the servers had already rebooted.\"",
+      "\"When the power failed, the generators started, but the servers had already rebooted.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** To plan is an infinitive phrase explaining the purpose of meeting.\n**Key concept:** Infinitive phrases.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A compound-complex sentence has at least two independent clauses and at least one subordinate clause. Only the first has all three.\n\n**Key concept:** Compound-complex sentences",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best combines the details without changing meaning?\n\"Nora found the error. She corrected it. She submitted the report.\"",
+    "question": "Which sentence corrects the faulty parallelism in \"She enjoys hiking, to swim, and cycling\"?",
     "options": [
-      "Finding the error, Nora corrected it before submitting the report.",
-      "Nora found the report before it corrected her.",
-      "The error submitted Nora after correction.",
-      "Nora submitted, finding, the corrected error."
+      "\"She enjoys hiking, to swim, and to cycle.\"",
+      "\"She enjoys to hike, swimming, and cycling.\"",
+      "\"She enjoys hiking, swimming, and cycling.\"",
+      "\"She enjoys hiking and swimming and to cycle.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The revision maintains the original order while combining related actions.\n**Key concept:** Concise sentence combining.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** All three items in a series must take the same form. Only the first uses three gerunds.\n\n**Key concept:** Parallel structure in a series",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a rhetorical question effectively in an argument?",
+    "question": "Which sentence uses an absolute phrase correctly?",
     "options": [
-      "How many more warnings must pass before we protect the shoreline?",
-      "What is your favorite color?",
-      "Did the bell ring at noon?",
-      "Can you hand me a pencil?"
+      "\"The votes counted the chair announced the result.\"",
+      "\"The votes counted, the chair announced the result.\"",
+      "\"The votes counted, and the chair, announced the result.\"",
+      "\"Counting the votes, the result was announced by the chair.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The question urges reflection and strengthens an argument rather than seeking a reply.\n**Key concept:** Rhetorical questions.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An absolute phrase has a noun and a participle and modifies the whole sentence, set off by a comma. The last option dangles: the result did not count the votes.\n\n**Key concept:** Absolute phrases",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has the clearest antecedent for *they*?",
+    "question": "Which sentence uses a cumulative structure, adding detail after the main clause?",
     "options": [
-      "When the players thanked the coaches, they smiled.",
-      "The coaches smiled after the players thanked them.",
-      "The players thanked the coaches because they were grateful.",
-      "The players and coaches smiled because they won."
+      "\"The engine started, coughing twice, settling into a rhythm, holding it.\"",
+      "\"Coughing twice and settling into a rhythm, the engine started.\"",
+      "\"After coughing twice and settling into a rhythm, the engine started.\"",
+      "\"The engine coughed twice, settled into a rhythm, and held it.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Them clearly refers to coaches, and the sentence names who smiled.\n**Key concept:** Pronoun clarity.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A cumulative sentence states its main clause first and then accumulates modifiers. The first two front-load the modifiers; the last is a simple compound predicate.\n\n**Key concept:** Cumulative sentences",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence is written in an effective active voice?",
+    "question": "Which sentence is punctuated correctly with a conjunctive adverb?",
     "options": [
-      "The final vote was counted by the clerk.",
-      "The clerk counted the final vote.",
-      "The final vote had been counting.",
-      "The clerk was counted by the vote."
+      "\"The data were incomplete however; the conclusion held.\"",
+      "\"The data were incomplete, however, the conclusion held.\"",
+      "\"The data were incomplete; however the conclusion held.\"",
+      "\"The data were incomplete; however, the conclusion held.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The subject performs the action directly and clearly.\n**Key concept:** Active voice.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *However* joining two independent clauses needs a semicolon before it and a comma after it. A comma alone produces a splice.\n\n**Key concept:** Conjunctive adverbs",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an absolute phrase?",
+    "question": "Which revision fixes the fragment \"Which explains why the door was left open.\"?",
     "options": [
-      "Her hands shaking, Nola opened the envelope.",
-      "Shaking her hands, the envelope opened Nola.",
-      "Nola, her hands, shaking opened the envelope.",
-      "The envelope shook Nola's hands."
+      "\"Which is what explains why the door was left open.\"",
+      "\"Which explains why the door was left open, therefore.\"",
+      "\"That detail explains why the door was left open.\"",
+      "\"Which explains, why the door was left open.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The absolute phrase adds a condition that accompanies Nola's action.\n**Key concept:** Absolute phrases.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The fragment has no subject of its own — *which* is looking for an antecedent in a previous sentence. Supplying a subject makes it a sentence.\n\n**Key concept:** Repairing a relative-clause fragment",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision gives the sentence the most concise structure?\n\"Due to the fact that the rain was heavy, practice was canceled.\"",
+    "question": "Which sentence correctly uses an infinitive phrase as the subject?",
     "options": [
-      "Because it rained heavily, practice was canceled.",
-      "Due to rain, it was heavy and practice was canceled.",
-      "The fact was rain had heavy practice canceled.",
-      "Practice was canceled due to the fact rain."
+      "\"To finish the survey before term ends, will require two more volunteers.\"",
+      "\"To finish the survey before term ends will require two more volunteers.\"",
+      "\"To finish the survey before term ends. Will require two more volunteers.\"",
+      "\"To finishing the survey before term ends will require two more volunteers.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The revision removes the wordy phrase due to the fact that.\n**Key concept:** Concision.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An infinitive phrase can head a sentence as its subject, with no comma before the verb.\n\n**Key concept:** Infinitive phrases as subjects",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a colon to introduce a list after a complete clause?",
+    "question": "Which sentence is the clearest revision of \"There were many students who had not yet submitted their forms\"?",
     "options": [
-      "The kit includes: water, food, and a whistle.",
-      "The kit includes three essentials: water, food, and a whistle.",
-      "The kit: includes water, food, and a whistle.",
-      "The kit includes three: essentials water, food, and a whistle."
+      "\"Many students had not yet submitted their forms.\"",
+      "\"There were many students that had not submitted forms yet.\"",
+      "\"Many students there were who had not yet submitted forms.\"",
+      "\"It was the case that many students had not submitted their forms.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** A complete clause introduces the list after the colon.\n**Key concept:** Colons.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Removing the empty *there were... who* construction leaves a direct subject and verb.\n\n**Key concept:** Eliminating expletive constructions",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best controls pacing in a tense scene?",
+    "question": "Which sentence correctly places a nonessential participial phrase?",
     "options": [
-      "Mara ran. She fell. She rose. She ran again.",
-      "Mara was running in a way that was fast.",
-      "Mara had a run that continued.",
-      "The running of Mara was taking place."
+      "\"Written in three months, the manuscript, runs to 400 pages.\"",
+      "\"The manuscript written in three months, runs to 400 pages.\"",
+      "\"The manuscript, written in three months runs to 400 pages.\"",
+      "\"The manuscript, written in three months, runs to 400 pages.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Short, clipped sentences speed the action and create urgency.\n**Key concept:** Pacing through syntax.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A nonessential phrase is enclosed by commas at both ends, and no comma separates a subject from its verb.\n\n**Key concept:** Punctuating participial phrases",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a conditional construction correctly?",
+    "question": "Which sentence best subordinates the less important idea? Facts: the hall seats 400; the concert sold out in an hour.",
     "options": [
-      "If the alarm rings, leave by the nearest exit.",
-      "If the alarm will ring, leave by the nearest exit.",
-      "If the alarm ringing, leave by the nearest exit.",
-      "If rings the alarm, leave by the nearest exit."
+      "\"The hall, where the concert sold out in an hour, seats 400.\"",
+      "\"The hall seats 400, and the concert sold out in an hour.\"",
+      "\"The concert, in a hall seating 400, sold out in an hour.\"",
+      "\"Seating 400, the hall had a concert that sold out in an hour.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The present-tense condition is correctly followed by an imperative result.\n**Key concept:** Conditional sentences.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The newsworthy fact is the speed of the sale, so the capacity should sit in a modifying phrase. The third reverses the emphasis and the fourth buries the sale inside a relative clause.\n\n**Key concept:** Subordination and emphasis",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence avoids wordiness?",
+    "question": "Which sentence avoids a split that obscures meaning?",
     "options": [
-      "At this point in time, we are currently ready.",
-      "We are ready now.",
-      "We are ready at this current point in time.",
-      "Currently, at this time, we are ready now."
+      "\"The board decided to quickly, before the deadline, reconsider the proposal.\"",
+      "\"The board decided to reconsider the proposal quickly.\"",
+      "\"The board decided to, quickly, reconsider the proposal.\"",
+      "\"The board quickly decided to, reconsider the proposal.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The sentence communicates the same meaning without repeated time phrases.\n**Key concept:** Wordiness.",
+    "explanation": "**Explanation:** The problem is not splitting an infinitive as such but inserting so much between *to* and its verb that the sentence stalls. The first keeps the phrase intact.\n\n**Key concept:** Keeping verb phrases intact",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "sentence_craft_structure",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence best uses an em dash for emphasis?",
+    "question": "Which sentence uses a colon correctly to introduce an explanation?",
     "options": [
-      "One fact changed our decision—the bridge was unsafe.",
-      "One fact changed our decision -the bridge was unsafe.",
-      "One fact changed our decision--the bridge was unsafe.",
-      "One fact changed our decision- the bridge was unsafe."
+      "\"The delay had one cause: the survey data arrived three weeks late.\"",
+      "\"The delay had one cause; the survey data arrived three weeks late, and it was late.\"",
+      "\"The delay had: one cause, the survey data arriving three weeks late.\"",
+      "\"The delay had one cause, the survey data: arrived three weeks late.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The dash emphasizes the revealing final detail.\n**Key concept:** Dashes for emphasis.",
+    "explanation": "**Explanation:** A colon follows a complete independent clause and introduces what explains it. It should not separate a verb from its object.\n\n**Key concept:** Colons introducing explanations",
     "source": "authored",
     "needsReview": false
   }

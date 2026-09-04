@@ -7,15 +7,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Before dawn, Inez returned the borrowed compass to its case. She had found the trail without it, but she wanted the next hiker to have a fair chance.\n\nWhich theme is best supported?",
+    "question": "> Before dawn, Inez returned the borrowed compass to its case and set it on the ranger’s desk with a note giving the bearing that had failed her. She had found the trail anyway, by watching where the deer had broken the frost. It would have been simpler to leave the compass in her pack and say nothing; the ranger would not have checked it for weeks.\n\nWhich theme does the passage best support?",
     "options": [
-      "Skill matters more than tools.",
-      "Success should be shared responsibly.",
-      "Hiking is safer before dawn.",
-      "Borrowing always causes conflict."
+      "Borrowing equipment from others usually leads to trouble.",
+      "Traditional skills are more reliable than modern instruments.",
+      "Integrity is what a person does when no one would notice the alternative.",
+      "Careful planning is the most important part of any journey."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Inez returns the compass so another hiker can benefit from it.\n**Key concept:** Theme.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The last sentence exists to establish that nobody would have known — which makes the return, and the note, a choice about character rather than about equipment. The deer tracks are how she survived, not the point of the passage.\n\n**Key concept:** Inferring theme from a deliberate detail",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Theo hid the cracked trophy behind the curtain. When his sister asked about the noise, he pointed toward the open window as if the wind had entered the room.\n\nWhat conflict is Theo facing?",
+    "question": "> Theo hid the cracked trophy behind the curtain. When his sister asked about the noise, he pointed toward the open window as though the wind had come in. Then he stood where he could see the curtain for the rest of the afternoon, answering questions a beat later than usual.\n\nWhat does the final sentence add to the reader’s understanding of Theo?",
     "options": [
-      "A struggle between honesty and fear of consequences",
-      "A disagreement about the weather",
-      "A competition for a trophy",
-      "A need to repair a curtain"
+      "It shows that he has forgotten about the trophy.",
+      "It shows the lie costing him something, which the act of lying alone would not have shown.",
+      "It shows that his sister suspects him of breaking it.",
+      "It reveals that the wind really did knock the trophy over."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Theo hides the damage and invents an excuse instead of admitting what happened.\n**Key concept:** Internal conflict.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Watching the curtain and answering slowly are the aftershocks of the lie — the reader sees the strain rather than being told about it. The sister’s state of mind is not described, and the wind was Theo’s invention.\n\n**Key concept:** Character revealed through behaviour",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> At first, Asha refused to join the orchestra because she disliked being noticed. After the concert, she stayed to help younger players tune their instruments.\n\nHow has Asha changed?",
+    "question": "> The abandoned station stood at the edge of town, its clock stopped at 4:12. Every character in the novel passes it at least once, and each remembers a different departure: a brother, a job, a version of themselves they did not keep.\n\nHow does the setting function in the novel?",
     "options": [
-      "She has become less interested in music.",
-      "She has grown more confident and generous.",
-      "She has decided to perform alone.",
-      "She has stopped helping others."
+      "It works as a symbol that gathers the separate losses of many characters into one image.",
+      "It establishes the historical period in which the novel takes place.",
+      "It creates suspense about what will happen at 4:12.",
+      "It shows that the town’s economy has declined over many years."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Asha moves from avoiding attention to helping less experienced musicians.\n**Key concept:** Character development.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The station means something different to each character but the same *kind* of thing — a departure — which is how a symbol works. The stopped clock is not a countdown, and the passage is about memory rather than economics.\n\n**Key concept:** Setting as symbol",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> The abandoned train station stood at the edge of town, its broken clock fixed at 4:12. Every character who passed it remembered a different goodbye.\n\nHow does the setting contribute to the story?",
+    "question": "> For two hundred pages the reader believes the letters were written by the widow. On page 203 a clerk mentions, in passing, that she could not read. Nothing in the plot changes; everything in the reader’s understanding does.\n\nWhat element of the plot does the passage describe?",
     "options": [
-      "It creates a symbol of remembered departures.",
-      "It proves trains still run on time.",
-      "It makes the story humorous.",
-      "It explains how clocks are repaired."
+      "A flashback that fills in a character’s history",
+      "A rising action that builds toward a climax",
+      "A resolution that settles the conflict",
+      "A revelation that reorganises the meaning of events already narrated"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The frozen clock and different goodbyes make the station represent loss and memory.\n**Key concept:** Setting and symbolism.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The last sentence is precise: the events stay put and their meaning changes. That is a revelation, not an escalation, a settlement or a shift in time.\n\n**Key concept:** Plot structure and revelation",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> \"The river kept its counsel,\" Grandfather said, watching the water slide past the dock.\n\nWhat does the personification suggest?",
+    "question": "> The general’s tent was \"a small canvas kingdom,\" and by the third chapter his aides had become \"courtiers,\" his maps \"borders,\" and his supply lists \"treasuries.\"\n\nWhat is the effect of the sustained comparison?",
     "options": [
-      "The river is noisy and crowded.",
-      "The river seems to hold unspoken knowledge.",
-      "Grandfather cannot hear the river.",
-      "The dock is unsafe to use."
+      "It creates personification by giving the tent human qualities.",
+      "It uses hyperbole to show that the general is a skilled commander.",
+      "It builds an extended metaphor that casts the general as a monarch, preparing the reader to judge his authority.",
+      "It provides historical detail about how armies were organised."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Keeping counsel is a human action that suggests silent wisdom.\n**Key concept:** Personification.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A single comparison carried across several elements is an extended metaphor. Nothing is exaggerated for effect, and the tent is not given human traits.\n\n**Key concept:** Extended metaphor",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> In the tale, a fox offers a crow a jeweled seed, promising it will grow into a tree of gold. The crow plants it, but the seed becomes an ordinary acorn.\n\nWhich feature identifies this as a folk tale?",
+    "question": "> *The kettle keeps its one long note*\n> *through every argument downstairs,*\n> *indifferent as a witness*\n> *who has been called too many times.*\n\nWhat does the simile in the last two lines accomplish?",
     "options": [
-      "It uses an animal character to convey a lesson.",
-      "It reports documented events.",
-      "It provides scientific evidence.",
-      "It uses a first-person narrator."
+      "It shows that the kettle is broken and cannot be turned off.",
+      "It gives the kettle’s steadiness a chill, suggesting the household’s arguments are routine.",
+      "It compares the family’s arguments to a courtroom trial.",
+      "It suggests that someone in the house has been to court."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Animal characters and an implied warning about greed are features of folk tales.\n**Key concept:** Genre characteristics.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** \"Called too many times\" carries the weariness of repetition and transfers it to the arguments below. The courtroom is the vehicle of the comparison, not the subject.\n\n**Key concept:** Analysing a simile in poetry",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> The hallway was a tunnel of whispers, and each locker door snapped like a small thunderclap.\n\nWhich effect is created by the imagery?",
+    "question": "> Sentence A: \"The committee met, deliberated, adjourned.\"\n> Sentence B: \"The committee met, and it deliberated for some time, and eventually it adjourned.\"\n\nWhat is the effect of the syntax in Sentence A?",
     "options": [
-      "A tense, uneasy mood",
-      "A cheerful celebration",
-      "A peaceful natural setting",
-      "A humorous misunderstanding"
+      "The clipped list makes the process sound brisk and mechanical.",
+      "The clipped list makes the process sound uncertain and drawn out.",
+      "The clipped list emphasises how carefully each stage was considered.",
+      "The clipped list creates suspense about the committee’s decision."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Whispers, tunnels, snaps, and thunderclaps create nervous anticipation.\n**Key concept:** Imagery and mood.",
+    "explanation": "**Explanation:** Three bare verbs with no connectives compress the meeting into a procedure. Sentence B’s repeated \"and\" is what makes a process feel long.\n\n**Key concept:** Syntax and pacing",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Mina saved every failed seedling in a notebook, recording the soil, light, and water. By autumn, one page held a thriving plant.\n\nWhich theme is developed?",
+    "question": "> At first Asha refused to join the orchestra: she disliked being looked at, and a stage was nothing but looking. After the winter concert she stayed behind, not to be congratulated but to show two younger players how to tune without the electronic box.\n\nWhat does the change reveal about Asha?",
     "options": [
-      "Careful learning can grow from failure.",
-      "Plants cannot survive indoors.",
-      "Notebooks are more valuable than gardens.",
-      "Autumn ends all growth."
+      "She has decided that electronic tuners should not be used.",
+      "She has become less interested in music than she was.",
+      "She has discovered that she enjoys performing for an audience.",
+      "Her attention has moved outward, from how she is seen to what she can give."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Mina studies failed seedlings and uses what she learns to succeed.\n**Key concept:** Theme.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The passage is careful to say she stayed \"not to be congratulated\" — the change is not that she now likes attention, but that attention has stopped being the question.\n\n**Key concept:** Tracing character development",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> [A lantern flickers. JON steps back from the doorway.]\n> JON: I heard someone call my name.\n> ELLA: Then we should not pretend the house is empty.\n\nWhat do the stage directions add?",
+    "question": "> \"We are not asking for a new building. We are asking for the one we were promised in 1998, in 2004, and again last spring.\"\n\nWhich rhetorical device does the speaker use, and to what end?",
     "options": [
-      "Details about the characters' nervous actions",
-      "Facts about the house's construction",
-      "A summary of the entire plot",
-      "A list of costume prices"
+      "An understatement, to make the request seem modest",
+      "A rhetorical question, to invite the audience to answer",
+      "Repetition of the dates, to make a pattern of broken promises audible",
+      "An analogy, to compare the building to something familiar"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The flickering lantern and Jon's movement communicate fear visually.\n**Key concept:** Drama conventions.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The three dates in parallel are the device, and their accumulation is the argument. No question is asked, no comparison is drawn, and the request is stated plainly rather than downplayed.\n\n**Key concept:** Rhetorical devices in persuasive speech",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Snow stitched the footprints shut behind us.\n\nWhat does this metaphor emphasize?",
+    "question": "> STAGE DIRECTION: *Marta continues folding laundry throughout the following exchange. She does not look up.*\n> MARTA: Of course I forgive him.\n\nWhat does the stage direction contribute?",
     "options": [
-      "The snow is warm enough to sew.",
-      "The travelers' route is being erased.",
-      "The footprints are made of cloth.",
-      "The travelers are walking indoors."
+      "It tells the actor how loudly to deliver the line.",
+      "It sets the action against the line, suggesting the forgiveness is not felt.",
+      "It establishes that the scene takes place in a laundry.",
+      "It indicates that Marta is too busy to have this conversation."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Snow is compared to thread closing the marks left by the travelers.\n**Key concept:** Metaphor.",
+    "explanation": "**Explanation:** In drama, what a character does while speaking can contradict what she says. Refusing to look up while granting forgiveness undercuts the line — that tension is the direction’s purpose.\n\n**Key concept:** Stage directions as characterisation",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Rohan had practiced his apology all morning. At the door, he heard laughter from inside and nearly turned away, but he knocked anyway.\n\nWhat is the climax of this brief scene?",
+    "question": "> The village rebuilt the bridge four times. After the fourth flood the council voted to move the road instead, and the oldest member, who had helped build all four, seconded the motion.\n\nWhich theme is best supported?",
     "options": [
-      "Rohan practices his apology.",
-      "Rohan hears laughter.",
-      "Rohan decides to knock.",
-      "Rohan turns away."
+      "Persistence becomes wisdom only when it knows when to stop.",
+      "Older people are more resistant to change than younger people.",
+      "Natural disasters cannot be prevented by human effort.",
+      "Councils make better decisions than individuals do."
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** Choosing to act despite fear is the decisive turning point.\n**Key concept:** Plot climax.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The detail that the *builder* seconded the motion is the point: the person with the most invested in rebuilding is the one who ends it. That reverses the expectation the passage sets up.\n\n**Key concept:** Theme from a reversal of expectation",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> My mother says the first winter after we moved north, I measured snowdrifts with a ruler and mailed the numbers to my grandmother.\n\nWhich genre characteristic is most evident?",
+    "question": "> \"The corridor swallowed the sound of her shoes.\"\n\nWhat does the figurative language accomplish?",
     "options": [
-      "A personal memory told in first person",
-      "An argument supported by statistics",
-      "A fantasy quest with magic",
-      "A procedure with numbered steps"
+      "It compares the corridor to a person she is afraid of.",
+      "It states literally that the corridor was soundproofed.",
+      "It suggests that the woman was walking very slowly.",
+      "It makes the corridor feel active and absorbing rather than merely long."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The speaker recounts a remembered family event using personal perspective.\n**Key concept:** Literary nonfiction.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Giving the corridor the act of swallowing is personification, and it turns an empty space into something that takes. It is not a literal claim, says nothing about pace, and names no person.\n\n**Key concept:** Personification and its effect",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> The narrator describes the principal's office as \"a courtroom with softer chairs\" before admitting she had broken no rule.\n\nWhat is the narrator's tone?",
+    "question": "> The story is told entirely by the younger brother, who was six at the time and who repeats several times that he \"does not remember the shouting.\"\n\nWhat does the narrative choice most likely signal?",
     "options": [
-      "Anxious and slightly humorous",
-      "Detached and scientific",
-      "Joyful and triumphant",
-      "Angry and vengeful"
+      "The shouting did not happen.",
+      "The narrator is lying deliberately to protect his brother.",
+      "The reader is meant to weigh the narrator’s account rather than accept it.",
+      "The story is set at a time before the narrator was born."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The courtroom comparison reveals nervousness but softens it with humor.\n**Key concept:** Tone.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A six-year-old who insists on what he does not remember is an unreliable narrator — not necessarily dishonest, but limited. The insistence is a signal to read around him.\n\n**Key concept:** Unreliable narration",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> \"Take the lead,\" said Dev's aunt. Dev handed the map to his younger cousin, then walked beside her while she chose the route.\n\nWhat does Dev's action reveal?",
+    "question": "> Chapter 1 ends with the letter unopened on the hall table. Chapters 2 through 9 cover the eleven years before it arrived. Chapter 10 opens with a hand reaching for it.\n\nWhat structural technique does the novel use?",
     "options": [
-      "He understands leadership can include supporting another person.",
-      "He wants to avoid reaching the destination.",
-      "He does not know how to read maps.",
-      "He believes children should never lead."
+      "A subplot that runs parallel to the main story.",
+      "A frame: the present is interrupted by an extended flashback and then resumed.",
+      "Foreshadowing that hints at the letter’s contents.",
+      "A shift in narrator between the first and last chapters."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Dev gives the cousin responsibility while staying nearby to assist.\n**Key concept:** Character motivation.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The story opens and closes at the same moment with the past filling the middle — a frame narrative. Nothing indicates a second plot line, a hint about contents, or a change of narrator.\n\n**Key concept:** Narrative structure",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> The last streetlight blinked awake,\n> A single eye above the rain;\n> The city held its breath a while,\n> Then hummed itself to life again.\n\nWhat does the speaker most likely mean by \"held its breath\"?",
+    "question": "> The pamphlet describes the plant’s emissions with three decimals of precision and the health complaints of the neighbourhood as \"reports of concern from some residents.\"\n\nWhat does the contrast in the author’s language reveal about purpose?",
     "options": [
-      "The city became briefly quiet and expectant.",
-      "The city stopped using electricity forever.",
-      "People were unable to breathe.",
-      "Rain covered every streetlight."
+      "The precision on one side and vagueness on the other work to make the emissions seem controlled and the complaints seem soft.",
+      "The author lacked reliable data about the health complaints.",
+      "The author intended to give equal weight to both kinds of information.",
+      "The author was writing for an audience of scientists."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Holding its breath figuratively describes a pause before the city becomes active.\n**Key concept:** Personification.",
+    "explanation": "**Explanation:** The mismatch is the message: exactness lends authority, and hedged language withholds it. Whether data existed is not stated, and equal weight is precisely what the language avoids giving.\n\n**Key concept:** Diction and author’s purpose",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> The story opens in a crowded apartment where every conversation can be overheard. When the family later visits a silent canyon, the main character finally admits what she wants.\n\nHow does the change in setting affect the plot?",
+    "question": "> *I have measured out my patience*\n> *in the ticking of a kettle,*\n> *in the seven trains I did not take.*\n\nWhat does the imagery of measurement suggest?",
     "options": [
-      "The quiet setting makes honest speech possible.",
-      "The canyon makes the family forget the conflict.",
-      "The apartment is more dangerous than the canyon.",
-      "The plot becomes a mystery."
+      "That the speaker has been ill for a long time.",
+      "That the speaker is precise and enjoys keeping records.",
+      "That the speaker works on the railway.",
+      "That the speaker experiences waiting as an accumulation of small, countable refusals."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The character admits a desire only after leaving the crowded, overheard apartment.\n**Key concept:** Setting's effect on plot.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Kettles and missed trains are ordinary units that add up; the poem turns patience into something tallied rather than felt. The other readings take the images literally.\n\n**Key concept:** Imagery in poetry",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> ACT II, SCENE 1\n> [MRS. VALE folds the letter twice, then places it beneath a vase.]\n> MRS. VALE: We will discuss this after dinner.\n\nWhat does the action most strongly suggest?",
+    "question": "> The novel’s three sections take place in the same kitchen: in 1954 with six chairs at the table, in 1978 with four, and in 2001 with two.\n\nWhat does the unchanging setting accomplish?",
     "options": [
-      "Mrs. Vale wants to delay revealing information.",
-      "Mrs. Vale has finished writing a letter.",
-      "Dinner has been canceled.",
-      "The vase is valuable evidence."
+      "It suggests that the kitchen is haunted by the past.",
+      "It shows that the family never moved house.",
+      "It isolates change by holding everything else still, so the reader notices what has been subtracted.",
+      "It indicates that the novel has a circular plot."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Hiding the letter and postponing discussion show deliberate withholding.\n**Key concept:** Stage directions and inference.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Keeping the room constant makes the falling chair count the only variable, and therefore the point. The literal fact that they stayed put is true but is not what the structure is doing.\n\n**Key concept:** Setting used as a control",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> His promise was a bridge: narrow, unfinished, but reaching toward her.\n\nWhat does the metaphor suggest about the promise?",
+    "question": "> \"The debate lasted four hours, which is to say it lasted four hours and settled nothing.\"\n\nWhat is the effect of the repetition?",
     "options": [
-      "It is a literal construction project.",
-      "It is an imperfect attempt to rebuild trust.",
-      "It is too strong to change.",
-      "It was made near a river."
+      "It corrects an error in the first half of the sentence.",
+      "It turns a neutral fact into a judgement by restating it with an added clause.",
+      "It emphasises how long four hours is.",
+      "It shows that the writer was present at the debate."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The narrow, unfinished bridge represents a fragile connection being rebuilt.\n**Key concept:** Metaphor.",
+    "explanation": "**Explanation:** The second \"four hours\" is identical; only what follows it is new. The repetition sets up the reversal so the judgement lands on an established fact.\n\n**Key concept:** Repetition for rhetorical effect",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> The fisherman released the largest fish he had ever caught because its silver tag showed it had been tracked for years by researchers.\n\nWhich theme is best supported?",
+    "question": "> Every character in the novel lies to Ivan, and every one of them believes it is a kindness. Ivan, who is not deceived by any of it, allows each of them to think it has worked.\n\nWhat does this arrangement reveal?",
     "options": [
-      "Responsibility can require giving up a personal reward.",
-      "Fishing is easy with modern equipment.",
-      "Researchers should avoid tagging animals.",
-      "Large fish are always dangerous."
+      "The characters’ care for Ivan and Ivan’s care for them both take the form of a pretence neither side breaks.",
+      "Ivan is more intelligent than the other characters.",
+      "The other characters are cruel and enjoy deceiving him.",
+      "Ivan is planning to expose the lies at the end of the novel."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The fisherman sacrifices an impressive catch to protect scientific research.\n**Key concept:** Theme.",
+    "explanation": "**Explanation:** Both halves are motivated by consideration — theirs in lying, his in not exposing it. The passage says the lies are meant kindly, which rules out cruelty, and says nothing about a plan.\n\n**Key concept:** Reciprocal characterisation",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> In the myth, the mountain spirit gives a village a bell that rings only when someone speaks a truth no one wants to hear.\n\nWhat is a likely purpose of the magical bell?",
+    "question": "> Genre A opens with a problem and reaches a solution in the final scene. Genre B opens with a solution already in place and spends its length showing what it cost.\n\nWhat distinguishes the two?",
     "options": [
-      "To symbolize the cost of honesty",
-      "To explain how bells are made",
-      "To provide a historical record",
-      "To make the village wealthy"
+      "Genre A has a plot and Genre B does not.",
+      "Genre A is fiction and Genre B is non-fiction.",
+      "Genre B is longer than Genre A.",
+      "They order the same material differently, which changes what the reader is asked to attend to."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The bell sounds when an uncomfortable truth is spoken, making honesty consequential.\n**Key concept:** Symbolism in myth.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The contrast described is purely structural — where the resolution sits — and structure directs attention. Neither form is assigned to fact or fiction, and both plainly have plots.\n\n**Key concept:** Genre and structure",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> \"Of course I volunteered,\" Len said, glancing at the muddy riverbank. \"I have always wanted to spend Saturday rescuing trash.\"\n\nWhat does Len's statement reveal?",
+    "question": "> \"He said he would come. He said it in March. He said it again in June. He is not coming.\"\n\nWhat does the sentence structure convey?",
     "options": [
-      "Sincere excitement",
-      "Verbal irony",
-      "A factual report",
-      "A command"
+      "Anger directed at the reader rather than at the absent person.",
+      "Confusion about whether the promise was ever made.",
+      "Mounting repetition that collapses into a flat conclusion, enacting the speaker’s loss of hope.",
+      "Uncertainty about whether he will arrive later."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Len says the opposite of what the muddy setting and wording imply.\n**Key concept:** Irony.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Three parallel sentences build an expectation that the fourth, shorter and unadorned, refuses. The form performs what the content states.\n\n**Key concept:** Syntax enacting meaning",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Rosa finds an unopened letter addressed to her father. She wants to read it, but she leaves it on his desk and asks him about it that evening.\n\nWhich internal conflict shapes Rosa's choice?",
+    "question": "> The prize went to the student who had entered every year and never placed. In her acceptance she thanked, by name, the six who had beaten her, and said she had learned more from watching them than from winning.\n\nWhich theme does the passage support?",
     "options": [
-      "Curiosity versus respect for privacy",
-      "Hunger versus thirst",
-      "Courage versus physical danger",
-      "Friendship versus competition"
+      "Persistence always leads to eventual success.",
+      "What is gained along the way can matter more than the result that finally arrives.",
+      "Competitions are unfair to students who enter repeatedly.",
+      "Winners should be modest when they accept a prize."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Rosa wants information but chooses not to invade her father's private letter.\n**Key concept:** Internal conflict.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The speech relocates the value of the years of losing into learning rather than into the win. \"Persistence always leads to success\" is the sentimental reading the passage declines by making the learning, not the prize, the point.\n\n**Key concept:** Distinguishing theme from moral",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Rust-red leaves rattled along the curb,\n> restless as coins in a pocket.\n\nWhich sound device is most apparent?",
+    "question": "> ACT II. The same room. The clock, which struck twelve in Act I, now reads five minutes past. The characters have aged twenty years.\n\nWhat is the effect of this staging?",
     "options": [
-      "Alliteration in repeated r sounds",
-      "End rhyme in every line",
-      "A pun on currency",
-      "A refrain after each stanza"
+      "It makes the audience hold two timescales at once, so the years feel like an instant.",
+      "It shows that the clock in the room is broken.",
+      "It signals that Act II is a dream sequence.",
+      "It establishes that the play is a comedy."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Rust-red, rattled, restless, and curb create repeated consonant sounds.\n**Key concept:** Alliteration.",
+    "explanation": "**Explanation:** The near-motionless clock against twenty years of ageing is a deliberate contradiction the audience must hold, which is how the passage of a life can be made to feel brief.\n\n**Key concept:** Dramatic convention and time",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> My hands shook as I carried the first tray of bread from the bakery oven. The smell filled the room, and suddenly I understood why my father woke before sunrise.\n\nWhat makes this literary nonfiction?",
+    "question": "> The article never states that the mayor was responsible. It quotes six people who believe he was, describes the two occasions he declined to comment, and closes with a photograph of his empty chair at the hearing.\n\nWhat is the author doing?",
     "options": [
-      "It recounts a personal experience using narrative details.",
-      "It invents a magical bakery.",
-      "It explains a recipe in numbered steps.",
-      "It argues against early work hours."
+      "Defending the mayor against unfounded criticism.",
+      "Reporting neutrally without shaping the reader’s conclusion.",
+      "Making an explicit accusation supported by evidence.",
+      "Building an implication through selection while leaving the claim unstated."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The first-person memory uses sensory details while describing a real experience.\n**Key concept:** Literary nonfiction.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Every element chosen points one way, and the conclusion is left for the reader to draw — which is not the same as neutrality, and not the same as an accusation the author would have to defend.\n\n**Key concept:** Implication through selection",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "literary_analysis_comprehension",
     "passage": null,
     "passageTitle": null,
-    "question": "> Near the end of the story, the author repeats the image of a locked gate that appeared in the opening scene.\n\nWhat is the most likely effect of this repeated image?",
+    "question": "> The reader learns on page 12 that the ship sinks. The remaining three hundred pages describe the voyage.\n\nWhat effect does telling the ending early most likely have?",
     "options": [
-      "It reinforces a continuing barrier the character must confront.",
-      "It changes the story into a poem.",
-      "It proves the gate is broken.",
-      "It explains the setting's weather."
+      "It signals that the sinking is not important to the story.",
+      "It removes all tension from the novel.",
+      "It shifts the reader’s attention from what will happen to how and to whom.",
+      "It shows that the author has made a structural error."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Repeating the locked gate connects the opening problem to the ending.\n**Key concept:** Motif.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Knowing the outcome converts suspense about events into attention to character and cause — a well-established technique rather than a mistake, and one that makes the sinking more present, not less.\n\n**Key concept:** Effect of withholding versus revealing",
     "source": "authored",
     "needsReview": false
   }

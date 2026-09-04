@@ -7,15 +7,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 4x - 4 = 4. What is x?",
+    "question": "Solve \\(4x - 4 = 4\\). What is \\(x\\)?",
     "options": [
-      "0",
-      "2",
-      "1",
-      "8"
+      "\\(0\\)",
+      "\\(2\\)",
+      "\\(1\\)",
+      "\\(8\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add 4 to both sides to get 4x = 8, then divide by 4: x = 2.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Add \\(4\\) to both sides to get \\(4x = 8\\), then divide by \\(4\\): \\(x = 2\\).\n\n**Key concept:** Solving two-step equations",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 5x - 5 = 10. What is x?",
+    "question": "Solve \\(3x + 5 > 32\\). Which values of \\(x\\) make it true?",
     "options": [
-      "3",
-      "1",
-      "2",
-      "15"
+      "\\(x > 9\\)",
+      "\\(x > 10.67\\)",
+      "\\(x > 32\\)",
+      "\\(x > 12.33\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add 5 to both sides to get 5x = 15, then divide by 5: x = 3.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Subtract \\(5\\) from both sides to get \\(3x > 27\\), then divide by the positive \\(3\\): \\(x > 9\\). Dividing by a positive number keeps the inequality pointing the same way.\n\n**Key concept:** Solving two-step inequalities",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 6x - 6 = 18. What is x?",
+    "question": "Solve \\(-5x + 12 \\ge 37\\).",
     "options": [
-      "24",
-      "2",
-      "3",
-      "4"
+      "\\(x \\ge 9.8\\)",
+      "\\(x \\ge -5\\)",
+      "\\(x \\le 5\\)",
+      "\\(x \\le -5\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add 6 to both sides to get 6x = 24, then divide by 6: x = 4.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Subtract \\(12\\): \\(-5x \\ge 25\\). Dividing by \\(-5\\) **reverses** the inequality, giving \\(x \\le -5\\).\n\n**Key concept:** Dividing by a negative reverses an inequality",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 7x - 7 = 28. What is x?",
+    "question": "Which situation is modelled by \\(2x + 15 = 47\\)?",
     "options": [
-      "4",
-      "3",
-      "5",
-      "35"
+      "A \\(\\$47\\) budget is split between \\(2\\) people after \\(\\$15\\) is spent.",
+      "A membership costs \\(\\$2\\) plus \\(\\$15\\) per visit, and the total was \\(\\$47\\).",
+      "A membership costs \\(\\$15\\) plus \\(\\$2\\) per visit, and the total was \\(\\$47\\).",
+      "Two items cost \\(\\$15\\) each and \\(\\$47\\) is left over."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add 7 to both sides to get 7x = 35, then divide by 7: x = 5.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** In \\(2x + 15\\), the \\(2\\) multiplies the changing quantity (visits) and the \\(15\\) is the one-time fee. Swapping them would give \\(15x + 2\\).\n\n**Key concept:** Matching an equation to a situation",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the inequality 3x + 5 > 32. Which value must x be greater than?",
+    "question": "A taxi charges a \\(\\$3.50\\) flag fee plus \\(\\$1.75\\) per mile. A ride cost \\(\\$19.25\\). How many miles was it?",
     "options": [
-      "10.67",
-      "9",
-      "32",
-      "12.33"
+      "\\(11\\) miles",
+      "\\(9\\) miles",
+      "\\(13\\) miles",
+      "\\(7\\) miles"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 9.\n\n**Key concept:** Solving inequalities",
+    "explanation": "**Explanation:** Write \\(1.75m + 3.50 = 19.25\\). Subtracting gives \\(1.75m = 15.75\\), and \\(15.75 \\div 1.75 = 9\\) miles.\n\n**Key concept:** Writing a two-step equation from context",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 4x - 8 = 16. What is x?",
+    "question": "Which value of \\(x\\) makes \\(-2x + 7 = 15\\) true?",
     "options": [
-      "6",
-      "2",
-      "4",
-      "24"
+      "\\(-4\\)",
+      "\\(4\\)",
+      "\\(-11\\)",
+      "\\(11\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add 8 to both sides to get 4x = 24, then divide by 4: x = 6.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Subtract \\(7\\) to get \\(-2x = 8\\), then divide by \\(-2\\): \\(x = -4\\). Substituting back: \\(-2(-4) + 7 = 8 + 7 = 15\\).\n\n**Key concept:** Checking a solution by substitution",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 5x - 9 = 26. What is x?",
+    "question": "A line passes through \\((0, 5)\\) and rises \\(3\\) units for every \\(2\\) units right. What is its equation?",
     "options": [
-      "35",
-      "3.4",
-      "5.2",
-      "7"
+      "\\(y = \\frac{3}{2}x - 5\\)",
+      "\\(y = \\frac{2}{3}x + 5\\)",
+      "\\(y = 5x + \\frac{3}{2}\\)",
+      "\\(y = \\frac{3}{2}x + 5\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add 9 to both sides to get 5x = 35, then divide by 5: x = 7.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** The slope is rise over run, \\(\\frac{3}{2}\\), and the point \\((0, 5)\\) is the \\(y\\)-intercept.\n\n**Key concept:** Slope-intercept form",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 6x - 4 = 44. What is x?",
+    "question": "A pool contains \\(240\\) litres and drains at \\(15\\) litres per minute. Which equation gives the amount left after \\(t\\) minutes?",
     "options": [
-      "7.33",
-      "6.67",
-      "8",
-      "48"
+      "\\(y = 15t - 240\\)",
+      "\\(y = 240 + 15t\\)",
+      "\\(y = 240 - 15t\\)",
+      "\\(y = 15 - 240t\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add 4 to both sides to get 6x = 48, then divide by 6: x = 8.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** The starting amount \\(240\\) is the \\(y\\)-intercept and the draining rate is a **negative** slope of \\(-15\\) litres per minute.\n\n**Key concept:** Negative rate of change",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 7x - 5 = 9. What is x?",
+    "question": "Which number line shows the solution to \\(x \\le -2\\)?",
     "options": [
-      "0.57",
-      "2",
-      "1.29",
-      "14"
+      "An open circle at \\(-2\\) with shading to the left",
+      "A closed circle at \\(-2\\) with shading to the left",
+      "A closed circle at \\(-2\\) with shading to the right",
+      "An open circle at \\(-2\\) with shading to the right"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add 5 to both sides to get 7x = 14, then divide by 7: x = 2.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** The symbol \\(\\le\\) includes \\(-2\\) itself, so the circle is filled in, and \"less than\" shades toward smaller values on the left.\n\n**Key concept:** Graphing inequality solutions",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the inequality 3x + 5 > 47. Which value must x be greater than?",
+    "question": "A student needs a mean of at least \\(85\\) on four tests. The first three scores are \\(82\\), \\(88\\) and \\(79\\). What is the lowest score needed on the fourth test?",
     "options": [
-      "14",
-      "15.67",
-      "47",
-      "17.33"
+      "\\(91\\)",
+      "\\(85\\)",
+      "\\(89\\)",
+      "\\(83\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 14.\n\n**Key concept:** Solving inequalities",
+    "explanation": "**Explanation:** The four scores must total at least \\(4 \\times 85 = 340\\). The first three sum to \\(249\\), so the fourth must be at least \\(340 - 249 = 91\\).\n\n**Key concept:** Inequalities with averages",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 4x - 6 = 6. What is x?",
+    "question": "Solve \\(\\frac{x}{3} - 7 = -2\\).",
     "options": [
-      "12",
-      "0",
-      "1.5",
-      "3"
+      "\\(\\frac{5}{3}\\)",
+      "\\(-27\\)",
+      "\\(-15\\)",
+      "\\(15\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add 6 to both sides to get 4x = 12, then divide by 4: x = 3.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Add \\(7\\) to both sides: \\(\\frac{x}{3} = 5\\). Multiplying by \\(3\\) gives \\(x = 15\\).\n\n**Key concept:** Two-step equations with division",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 5x - 7 = 13. What is x?",
+    "question": "Solve \\(5(x - 3) = 2x + 6\\).",
     "options": [
-      "2.6",
-      "1.2",
-      "4",
-      "20"
+      "\\(-7\\)",
+      "\\(3\\)",
+      "\\(7\\)",
+      "\\(1\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add 7 to both sides to get 5x = 20, then divide by 5: x = 4.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Distribute: \\(5x - 15 = 2x + 6\\). Subtract \\(2x\\): \\(3x - 15 = 6\\). Then \\(3x = 21\\) and \\(x = 7\\).\n\n**Key concept:** Variables on both sides",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 6x - 8 = 22. What is x?",
+    "question": "For which value of \\(x\\) is the inequality \\(4 - 3x < 10\\) **false**?",
     "options": [
-      "2.33",
-      "5",
-      "3.67",
-      "30"
+      "\\(0\\)",
+      "\\(-3\\)",
+      "\\(2\\)",
+      "\\(-1\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add 8 to both sides to get 6x = 30, then divide by 6: x = 5.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Solving gives \\(-3x < 6\\), so \\(x > -2\\). Any value at or below \\(-2\\) makes the statement false, and \\(-3\\) is the only such option.\n\n**Key concept:** Testing values in an inequality",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 7x - 9 = 33. What is x?",
+    "question": "What is the slope of the line through \\((-2, 7)\\) and \\((4, -5)\\)?",
     "options": [
-      "6",
-      "3.43",
-      "4.71",
-      "42"
+      "\\(-2\\)",
+      "\\(2\\)",
+      "\\(-\\frac{1}{2}\\)",
+      "\\(\\frac{1}{2}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add 9 to both sides to get 7x = 42, then divide by 7: x = 6.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Slope is the change in \\(y\\) over the change in \\(x\\): \\(\\frac{-5 - 7}{4 - (-2)} = \\frac{-12}{6} = -2\\).\n\n**Key concept:** Slope from two points",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the inequality 3x + 5 > 62. Which value must x be greater than?",
+    "question": "Two phone plans cost \\(y = 20 + 0.10x\\) and \\(y = 35 + 0.05x\\) dollars for \\(x\\) minutes. At how many minutes do they cost the same?",
     "options": [
-      "22.33",
-      "20.67",
-      "62",
-      "19"
+      "\\(500\\) minutes",
+      "\\(150\\) minutes",
+      "\\(55\\) minutes",
+      "\\(300\\) minutes"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 19.\n\n**Key concept:** Solving inequalities",
+    "explanation": "**Explanation:** Set them equal: \\(20 + 0.10x = 35 + 0.05x\\). Then \\(0.05x = 15\\) and \\(x = 300\\) minutes. That is the point where the two lines intersect.\n\n**Key concept:** Solution of a system as an intersection",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 4x - 4 = 24. What is x?",
+    "question": "A number is tripled and then decreased by \\(8\\), giving \\(31\\). Which equation models this?",
     "options": [
-      "6",
-      "5",
-      "7",
-      "28"
+      "\\(\\frac{n}{3} - 8 = 31\\)",
+      "\\(3(n - 8) = 31\\)",
+      "\\(3n - 8 = 31\\)",
+      "\\(3n + 8 = 31\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add 4 to both sides to get 4x = 28, then divide by 4: x = 7.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** \"Tripled\" multiplies by \\(3\\) first, and the subtraction happens after. Grouping the subtraction inside parentheses would change the order of operations.\n\n**Key concept:** Translating words to symbols",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 5x - 5 = 35. What is x?",
+    "question": "A club has \\(\\$500\\) and spends \\(\\$35\\) per week. Which inequality shows the weeks \\(w\\) it can run without going below \\(\\$150\\)?",
     "options": [
-      "6",
-      "8",
-      "7",
-      "40"
+      "\\(500 + 35w \\ge 150\\)",
+      "\\(500 - 35w \\ge 150\\)",
+      "\\(500 - 35w \\le 150\\)",
+      "\\(35w - 500 \\ge 150\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add 5 to both sides to get 5x = 40, then divide by 5: x = 8.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** The balance falls by \\(35\\) each week and must stay at or above \\(150\\). Solving gives \\(w \\le 10\\) weeks.\n\n**Key concept:** Modelling a constraint with an inequality",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 6x - 6 = 6. What is x?",
+    "question": "A table shows \\(y = 4, 7, 10, 13\\) when \\(x = 1, 2, 3, 4\\). What is the rule?",
     "options": [
-      "2",
-      "0",
-      "1",
-      "12"
+      "\\(y = 3x + 1\\)",
+      "\\(y = 4x\\)",
+      "\\(y = x + 3\\)",
+      "\\(y = 3x + 4\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add 6 to both sides to get 6x = 12, then divide by 6: x = 2.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** The \\(y\\)-values rise by \\(3\\) each time \\(x\\) rises by \\(1\\), so the slope is \\(3\\). Checking \\(x = 1\\): \\(3(1) + 1 = 4\\).\n\n**Key concept:** Finding a rule from a table",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 7x - 7 = 14. What is x?",
+    "question": "Which relationship is **proportional**?",
     "options": [
-      "21",
-      "1",
-      "2",
-      "3"
+      "\\(y = x^2\\)",
+      "\\(y = 2.5x + 1\\)",
+      "\\(y = \\frac{2.5}{x}\\)",
+      "\\(y = 2.5x\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add 7 to both sides to get 7x = 21, then divide by 7: x = 3.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** A proportional relationship passes through the origin and has the form \\(y = kx\\). Adding a constant shifts the line off the origin.\n\n**Key concept:** Proportional relationships pass through the origin",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the inequality 3x + 5 > 77. Which value must x be greater than?",
+    "question": "Solve \\(0.4x + 2.6 = 5\\).",
     "options": [
-      "77",
-      "25.67",
-      "24",
-      "27.33"
+      "\\(19\\)",
+      "\\(1.9\\)",
+      "\\(6\\)",
+      "\\(0.6\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 24.\n\n**Key concept:** Solving inequalities",
+    "explanation": "**Explanation:** Subtract \\(2.6\\) to get \\(0.4x = 2.4\\), then divide: \\(2.4 \\div 0.4 = 6\\).\n\n**Key concept:** Two-step equations with decimals",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 4x - 8 = 8. What is x?",
+    "question": "Solve \\(\\frac{2x - 1}{5} \\le 3\\).",
     "options": [
-      "0",
-      "4",
-      "2",
-      "16"
+      "\\(x \\le 7\\)",
+      "\\(x \\le 8\\)",
+      "\\(x \\ge 8\\)",
+      "\\(x \\le 3\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Add 8 to both sides to get 4x = 16, then divide by 4: x = 4.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Multiply both sides by \\(5\\): \\(2x - 1 \\le 15\\). Then \\(2x \\le 16\\) and \\(x \\le 8\\).\n\n**Key concept:** Clearing a denominator in an inequality",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 5x - 9 = 16. What is x?",
+    "question": "A line has equation \\(2x + 3y = 12\\). What is its \\(y\\)-intercept?",
     "options": [
-      "5",
-      "1.4",
-      "3.2",
-      "25"
+      "\\((0, 4)\\)",
+      "\\((0, 12)\\)",
+      "\\((6, 0)\\)",
+      "\\((0, -4)\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Add 9 to both sides to get 5x = 25, then divide by 5: x = 5.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** Set \\(x = 0\\): \\(3y = 12\\), so \\(y = 4\\). The point \\((6, 0)\\) is the \\(x\\)-intercept instead.\n\n**Key concept:** Intercepts from standard form",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 6x - 4 = 32. What is x?",
+    "question": "The perimeter of a rectangle is \\(64\\) cm. Its length is \\(4\\) cm more than twice its width. What is the width?",
     "options": [
-      "36",
-      "4.67",
-      "5.33",
-      "6"
+      "\\(24\\) cm",
+      "\\(10\\) cm",
+      "\\(14\\) cm",
+      "\\(\\frac{28}{3}\\) cm"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Add 4 to both sides to get 6x = 36, then divide by 6: x = 6.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** With width \\(w\\), the length is \\(2w + 4\\), so \\(2(w + 2w + 4) = 64\\). That gives \\(6w + 8 = 64\\), \\(6w = 56\\), and \\(w = \\frac{28}{3}\\) cm, or about \\(9.33\\) cm.\n\n**Key concept:** Setting up an equation from a geometric constraint",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the equation 7x - 5 = 44. What is x?",
+    "question": "Which value satisfies **both** \\(x > -3\\) and \\(x \\le 2\\)?",
     "options": [
-      "6.29",
-      "5.57",
-      "7",
-      "49"
+      "\\(3\\)",
+      "\\(-4\\)",
+      "\\(0\\)",
+      "\\(-3\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Add 5 to both sides to get 7x = 49, then divide by 7: x = 7.\n\n**Key concept:** Solving two-step equations",
+    "explanation": "**Explanation:** The two conditions describe every number greater than \\(-3\\) and no greater than \\(2\\). Only \\(0\\) lies in that range; \\(-3\\) itself is excluded by the strict inequality.\n\n**Key concept:** Compound inequalities",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "algebraic_concepts",
     "passage": null,
     "passageTitle": null,
-    "question": "Solve the inequality 3x + 5 > 92. Which value must x be greater than?",
+    "question": "Twice a number added to \\(9\\) equals the number subtracted from \\(24\\). What is the number?",
     "options": [
-      "30.67",
-      "29",
-      "92",
-      "32.33"
+      "\\(11\\)",
+      "\\(5\\)",
+      "\\(-5\\)",
+      "\\(15\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Subtract 5 from both sides, then divide by positive 3: x > 29.\n\n**Key concept:** Solving inequalities",
+    "explanation": "**Explanation:** Write \\(2n + 9 = 24 - n\\). Adding \\(n\\) to both sides gives \\(3n + 9 = 24\\), so \\(3n = 15\\) and \\(n = 5\\).\n\n**Key concept:** Translating a two-sided word problem",
     "source": "authored",
     "needsReview": false
   }

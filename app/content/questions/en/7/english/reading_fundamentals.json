@@ -7,15 +7,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Lian erased the first three openings of her speech. Then she placed the shortest version on the podium and practiced it twice without looking down.\n\nWhat can the reader infer about Lian?",
+    "question": "> For thirty years the Aral Sea shrank while the cotton fields beside it flourished. Engineers had diverted two rivers to irrigate the crop, and by every measure they were asked to report on, the project succeeded: yields rose, exports climbed, and villages that had been poor were suddenly not. What nobody was asked to report was the fishing fleet, which by 1990 sat on dry sand twenty miles from any water.\n\nWhich statement best expresses the central idea of the passage?",
     "options": [
-      "She values clarity over decoration.",
-      "She has forgotten her topic.",
-      "She dislikes speaking aloud.",
-      "She expects to read every word."
+      "The Aral Sea shrank because of a long drought that engineers could not predict.",
+      "Irrigation projects usually fail because engineers do not plan carefully enough.",
+      "Cotton farming is more valuable to a region than fishing is.",
+      "A project can meet every goal it is measured against and still cause serious harm that no one measured."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Revising toward a shorter speech and practicing without notes shows a focus on clear delivery.\n**Key concept:** Inference from actions.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The passage sets the reported successes against an unreported loss, and the final sentence makes the point that the fleet was simply outside the measurements. It never says the project was badly planned, never ranks cotton above fishing, and names diversion rather than drought as the cause.\n\n**Key concept:** Central idea from contrast",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> The town repaired cracked sidewalks, added shaded benches, and painted crosswalks near the library. Within a month, more residents were walking to errands.\n\nWhich central idea is best supported?",
+    "question": "> Most guides to bird migration open with a map. This one opens with a question: why would an animal that can survive a Canadian winter leave anyway? Only after two chapters of possible answers — daylight, food supply, ancestry — does the author finally unfold the map, and by then the reader has a reason to care where the lines go.\n\nWhat is the effect of the organizational choice the author describes?",
     "options": [
-      "Libraries should remain open later.",
-      "Small design changes can encourage walking.",
-      "Paint is the cheapest town expense.",
-      "Errands are easier in summer."
+      "Opening with a question shows that the author does not know why birds migrate.",
+      "Delaying the map makes the book harder to use as a quick reference.",
+      "Delaying the map turns a reference diagram into the answer to a question the reader now wants answered.",
+      "Placing the map at the end proves that maps are less important than text."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The repairs and added amenities are connected to more residents walking.\n**Key concept:** Central idea.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The last clause — \"by then the reader has a reason to care\" — states the effect directly. The passage treats the delay as a deliberate and successful choice, not as a flaw, an admission of ignorance, or a claim about maps in general.\n\n**Key concept:** Analysing an organisational pattern",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> After engineers installed fish ladders beside the dam, salmon reached upstream nesting grounds that had been blocked for decades.\n\nWhich is the best paraphrase?",
+    "question": "> The city council voted to close Weller Street to cars on Saturdays. Shop owners had opposed the plan for a year, predicting empty tills. In the first three months of the closure, foot traffic on Weller rose by 41 percent and total sales rose by 12 percent. Two shop owners nevertheless report that their own takings have fallen, both of them businesses that had relied on drivers stopping briefly on their way elsewhere.\n\nWhich evidence from the passage best supports the claim that the closure helped the street overall while hurting some businesses?",
     "options": [
-      "Salmon built ladders beside an old dam.",
-      "Engineers removed every dam upstream.",
-      "A structure helped salmon pass a barrier.",
-      "Nesting grounds were moved downstream."
+      "\"Shop owners had opposed the plan for a year, predicting empty tills.\"",
+      "\"Foot traffic on Weller rose by 41 percent and total sales rose by 12 percent,\" together with the report of two owners whose takings fell.",
+      "\"The city council voted to close Weller Street to cars on Saturdays.\"",
+      "\"Two shop owners nevertheless report that their own takings have fallen.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** A fish ladder is a structure that lets salmon move past the dam.\n**Key concept:** Paraphrasing.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The claim has two halves, so the evidence must have two halves. The prediction sentence describes what owners expected, not what happened; the vote sentence is background; and the last sentence alone supports only the harm.\n\n**Key concept:** Selecting evidence for a two-part claim",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Mateo packed an extra charger, printed the map, and wrote his sister's number on paper before the storm weakened the cell signal.\n\nWhat does Mateo's preparation reveal?",
+    "question": "> Sourdough bread rises without commercial yeast because a flour-and-water mixture left in the open collects wild yeasts and bacteria from the air and the grain itself. These organisms feed on sugars in the flour and release carbon dioxide, which is trapped by the gluten network and forms the bubbles that lift the loaf. The bacteria also produce acids, which is why the bread tastes sour and why it resists mould longer than ordinary bread does.\n\nWhich is the best summary of the passage?",
     "options": [
-      "He expects the storm to cancel school.",
-      "He is planning for possible communication problems.",
-      "He does not trust electronic maps.",
-      "He intends to leave his phone behind."
+      "Wild yeasts and bacteria in a flour-and-water starter produce gas that raises sourdough and acids that give it flavour and keeping quality.",
+      "Sourdough bread is better than ordinary bread because it lasts longer and tastes sour.",
+      "Gluten traps carbon dioxide, which is what makes all bread rise.",
+      "Bakers leave flour and water in the open air so that wild yeast can get into it."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Paper maps, a written phone number, and a charger prepare for weak service.\n**Key concept:** Inference from details.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A summary keeps the main relationships and drops the detail. The first option carries both the gas and the acids and what each does. The second adds a judgement the passage does not make, the third generalises to all bread, and the fourth reports only the setup.\n\n**Key concept:** Summarising an explanatory text",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> A study of city trees found lower afternoon temperatures on blocks with broad canopies. The researchers also recorded fewer heat-related emergency calls there.\n\nWhich detail best develops the study's main point?",
+    "question": "> Opponents of the new bridge argue that it will cost too much. This is true, if you count only construction. It ignores the 90 minutes each commuter now loses every day to the ferry queue, the fuel burned idling in that queue, and the businesses that will not open on the north bank while it takes an hour to reach. A cost that is counted is not the same thing as the whole cost.\n\nWhich rhetorical strategy does the writer use in this paragraph?",
     "options": [
-      "The trees were planted in spring.",
-      "Broad canopies were measured at noon.",
-      "Cooler blocks had fewer heat emergencies.",
-      "Researchers worked in several cities."
+      "Appealing to the reader’s fear of an unlikely disaster",
+      "Attacking the character of the people who oppose the bridge",
+      "Offering statistics from a named expert source",
+      "Conceding a point and then reframing it as incomplete"
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** This detail directly connects tree canopy, lower temperatures, and health effects.\n**Key concept:** Supporting detail.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The writer grants the opponents’ claim (\"This is true\") and then argues that it measures only part of the cost. No opponent is characterised, no source is named, and no fear is invoked.\n\n**Key concept:** Identifying a rhetorical strategy",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Source 1 says rooftop gardens absorb rainwater. Source 2 reports that gardens also provide habitat for pollinators.\n\nWhat conclusion combines both sources?",
+    "question": "> **Source 1:** A 2019 study found that students who wrote notes by hand recalled more of a lecture a week later than students who typed.\n> **Source 2:** A 2022 replication found the same gap, but only among students who were not allowed to review their notes before the test. When review was permitted, typists did slightly better, because they had recorded more.\n\nWhat do the two sources together support?",
     "options": [
-      "Rooftop gardens should replace all parks.",
-      "Rooftop gardens can serve more than one urban need.",
-      "Pollinators cause most flooding.",
-      "Rainwater harms garden plants."
+      "The 2019 study was mistaken and the 2022 study corrected it.",
+      "Handwriting is always better than typing for learning.",
+      "Handwriting helps recall, but the advantage depends on whether students can review what they wrote.",
+      "Typing is better than handwriting whenever students take more notes."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The sources show both water-management and habitat benefits.\n**Key concept:** Synthesis.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Source 2 reproduces the finding and then adds a condition that limits it, so the two together give a conditional conclusion. It does not overturn Source 1, and it does not make typing better in general.\n\n**Key concept:** Synthesising two sources",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> For each invention, the museum exhibit identifies a change in daily work that resulted from it.\n\nWhich text structure is used most clearly?",
+    "question": "> The lighthouse keeper had not spoken to anyone in nine weeks. He had stopped winding the clock in the hallway, not because it had broken but because the sound of it had begun to feel like company he had not invited. When the supply boat finally appeared on the horizon, he found that he was watching it with something closer to dread than relief.\n\nWhat can the reader infer about the keeper?",
     "options": [
-      "Cause and effect",
-      "Problem and solution",
-      "Compare and contrast",
-      "Description by categories"
+      "He is angry at the supply boat for arriving so late in the season.",
+      "Long isolation has changed him, so that contact with others now feels like an intrusion.",
+      "He has decided to leave the lighthouse as soon as the boat lands.",
+      "He is frightened because he believes the boat carries bad news."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The exhibit links each invention to changes in daily work.\n**Key concept:** Text structure.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The uninvited \"company\" of the clock and the dread at the sight of the boat both point to a person who has adapted to solitude. Nothing in the passage mentions lateness, a decision to leave, or news.\n\n**Key concept:** Inference from indirect detail",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Nia smiled when her teammate volunteered to organize the supplies, but she quietly moved the fragile samples to a separate box.\n\nWhat can be inferred about Nia?",
+    "question": "> Wind turbines kill an estimated 500,000 birds a year in the United States. Domestic cats kill between one and four billion. Buildings kill about 600 million. These numbers are not an argument that turbines are harmless; they are an argument about proportion, and about which threats a conservation budget can actually reduce.\n\nWhat is the author’s purpose in listing the three figures?",
     "options": [
-      "She thinks the teammate is careless with delicate items.",
-      "She wants to organize every task herself.",
-      "She plans to discard the samples.",
-      "She does not understand the assignment."
+      "To place the turbine figure in a scale that shows where conservation effort would do the most good",
+      "To prove that wind turbines do not harm birds at all",
+      "To argue that domestic cats should not be allowed outdoors",
+      "To show that buildings are the greatest danger birds face"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Separating the fragile samples suggests Nia wants to protect them from mishandling.\n**Key concept:** Character inference.",
+    "explanation": "**Explanation:** The final sentence states the purpose outright: proportion and where a budget can act. The author explicitly refuses the claim that turbines are harmless, and cats and buildings are comparisons, not the subject.\n\n**Key concept:** Author’s purpose in an informational text",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> A report explains that beavers build dams, dams slow water, and slower water creates wetlands used by many species.\n\nWhat is the report's central idea?",
+    "question": "> The report’s first half describes what happened at the plant on the night of the failure, hour by hour. Its second half asks why each of those hours had been allowed to arrive: why the alarm threshold had been raised in 2018, why the night shift had been cut from four to two, why the last inspection had been signed off remotely.\n\nWhich organisational pattern does the report use?",
     "options": [
-      "Beavers are difficult to observe.",
-      "Wetlands contain only aquatic species.",
-      "Beaver activity can reshape an ecosystem.",
-      "Dams always damage rivers."
+      "Description followed by classification",
+      "Compare and contrast throughout",
+      "Problem and solution",
+      "Sequence followed by cause and effect"
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The report traces beaver dams through changes in water and habitat.\n**Key concept:** Central idea.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The first half is an hour-by-hour sequence; the second traces the causes behind that sequence. No solution is proposed and nothing is sorted into categories.\n\n**Key concept:** Recognising text structure",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> First, the archive scans brittle letters. Next, it adds searchable labels. Finally, it stores the originals in climate-controlled boxes.\n\nWhy is this sequence important?",
+    "question": "> Every account of the 1889 flood mentions the dam. Fewer mention that the dam had been sold three times in eleven years, that each owner had lowered its spillway to widen the carriage road on top, and that the fish screens installed to protect the private lake had never once been cleared.\n\nWhat does the second sentence add to the first?",
     "options": [
-      "It shows how archives sell documents.",
-      "It explains a process for access and preservation.",
-      "It compares digital and handwritten letters.",
-      "It proves old letters are inaccurate."
+      "It proves that the dam was not actually responsible for the flood.",
+      "It corrects a factual error about the year of the flood.",
+      "It shifts the cause from a single structure to a series of human decisions about that structure.",
+      "It shows that the flood was smaller than most accounts claim."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Scanning and labeling provide access, while controlled storage protects originals.\n**Key concept:** Sequence structure.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The list of ownership changes, lowered spillways and neglected screens turns \"the dam\" into the choices people made about it. The sentence does not dispute the year, exonerate the dam, or address the flood’s size.\n\n**Key concept:** How a detail reframes a claim",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> When the debate ended, Arjun asked the opposing team for its sources instead of celebrating his own team's score.\n\nWhat does Arjun's action suggest?",
+    "question": "> A paraphrase restates a source in your own words and is roughly as long as the original. A summary compresses it and is much shorter. A quotation reproduces the source exactly and is marked. All three require a citation; only the last requires quotation marks.\n\nA student rewrites a whole paragraph in her own words, keeps it about the same length, and adds a citation. What has she produced?",
     "options": [
-      "He wants to continue learning from the issue.",
-      "He believes his team lost the debate.",
-      "He plans to copy the other team's speech.",
-      "He does not care about evidence."
+      "A summary, which does not need a citation",
+      "A paraphrase, correctly handled",
+      "A quotation, which needs quotation marks",
+      "Plagiarism, because she did not quote the source"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Asking for opposing evidence shows intellectual curiosity after the competition.\n**Key concept:** Inference.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Same length plus her own wording is the definition of a paraphrase, and the passage says all three forms require a citation, which she gave. Quotation marks are needed only for exact reproduction.\n\n**Key concept:** Paraphrase, summary and quotation",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> One article describes electric buses as quieter. Another notes that quieter streets may make it easier for people to hear approaching bicycles.\n\nWhich synthesis is strongest?",
+    "question": "> The graph beside the article plots average global temperature from 1880 to 2020. The article’s text discusses only the years since 1998. A reader who looks at the graph sees a long rise; a reader who reads only the text sees a period the author describes as a \"pause.\"\n\nWhat does the mismatch between graph and text most likely show?",
     "options": [
-      "Electric buses eliminate bicycle traffic.",
-      "Reduced noise can create a new safety concern.",
-      "Bicycles make buses louder.",
-      "Quiet streets need no traffic rules."
+      "The choice of time window can change what the same data appears to say.",
+      "The graph contains an error that the text corrects.",
+      "Graphs are more reliable than written explanations.",
+      "The author did not have access to data before 1998."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Quieter buses may make approaching bicycles harder to hear.\n**Key concept:** Synthesis across sources.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The same data supports two impressions because the text selects a narrower window. Nothing indicates an error, a general rule about graphs, or missing data — the graph itself goes back to 1880.\n\n**Key concept:** Analysing graphic and print features together",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> The author lists the cost of repairing a phone, the price of a new phone, and the amount of electronic waste produced each year.\n\nWhat is the author's likely purpose?",
+    "question": "> A museum label reads: \"Bronze figure, c. 200 BCE, acquired 1897.\" A second label beside it, added in 2021, reads: \"Removed from a temple complex during a punitive expedition; the community of origin has requested its return.\"\n\nWhat is the effect of displaying both labels?",
     "options": [
-      "To entertain readers with a personal story",
-      "To persuade readers to consider repairing devices",
-      "To explain how phones are manufactured",
-      "To describe a new phone model"
+      "It suggests that the figure is less valuable than previously believed.",
+      "It proves that the first label contained false information.",
+      "It shows that the museum plans to return the figure.",
+      "It lets the visitor see the object’s history of acquisition alongside its description as an artefact."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Cost and waste evidence supports an argument for repair instead of replacement.\n**Key concept:** Author's purpose.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The second label adds context the first omitted without contradicting it — the date and material are still accurate. Nothing states a plan to return the object or a change in its value.\n\n**Key concept:** Evaluating how presentation shapes meaning",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Selene reread the instructions, circled the word \"estimate,\" and changed her exact answer to a reasonable range.\n\nWhy did Selene revise her response?",
+    "question": "> \"Students should not be given homework in primary school,\" the writer argues, \"because studies show no link between primary homework and later achievement.\" A reader might reasonably ask what the studies measured, over how long, and whether \"achievement\" meant test scores, graduation rates or something else.\n\nWhat weakness in the argument does the reader’s question expose?",
     "options": [
-      "She noticed the task required an approximation.",
-      "She could not complete the calculation.",
-      "She wanted a less accurate answer.",
-      "She misunderstood the word \"range.\""
+      "The writer contradicts an earlier claim in the same paragraph.",
+      "The writer has used an emotional appeal instead of evidence.",
+      "The evidence is described too vaguely to be evaluated.",
+      "The writer relies on a personal anecdote rather than research."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Circling \"estimate\" explains why she replaced an exact answer with a range.\n**Key concept:** Inference from vocabulary.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The reader’s questions are all about what the cited studies actually contain. The argument does cite research and does not contradict itself or lean on a story.\n\n**Key concept:** Evaluating the quality of evidence",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Although the expedition faced freezing rain and a broken radio, the team reached the research station after following marked trail posts.\n\nWhich summary is most accurate?",
+    "question": "> Marisol read the acceptance letter twice, then folded it into the pocket of the coat she had been meaning to give away. At dinner she talked about the weather and the neighbour’s roof. It was three days before she told anyone, and when she did, she began by listing the reasons she might not go.\n\nWhat does Marisol’s behaviour most strongly suggest?",
     "options": [
-      "The team enjoyed a simple hike in clear weather.",
-      "The expedition overcame setbacks by using trail markers.",
-      "A radio guided the team to the station.",
-      "Freezing rain destroyed the research station."
+      "She is disappointed by the contents of the letter.",
+      "She is uncertain about the opportunity and is protecting herself from having to explain it.",
+      "She is planning a surprise announcement for her family.",
+      "She does not understand what the letter says."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The summary includes the main obstacles and the action that led to success.\n**Key concept:** Summarizing.",
+    "explanation": "**Explanation:** Hiding the letter, filling dinner with small talk, and opening with reasons not to go all point to ambivalence rather than disappointment. She reads it twice and later discusses it, so she understands it, and a surprise would not be delayed with reluctance.\n\n**Key concept:** Inferring a character’s state of mind",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> In a survey, students who slept at least eight hours reported greater focus in morning classes. The survey does not prove that sleep alone caused the difference.\n\nWhich statement is best supported?",
+    "question": "> The essay opens by describing a single abandoned orchard in Kent, then widens to the loss of orchards across southern England, then widens again to what happens to a landscape when the crops that shaped it stop being profitable.\n\nWhich statement best describes the essay’s movement?",
     "options": [
-      "Sleep guarantees high grades.",
-      "Focus causes students to sleep longer.",
-      "Adequate sleep is associated with reported focus.",
-      "Morning classes should begin at noon."
+      "It moves from a specific case outward to a general principle.",
+      "It moves from a general principle inward to a specific case.",
+      "It alternates between two contrasting examples.",
+      "It presents a problem and then proposes a solution."
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The survey shows a relationship but does not establish a cause.\n**Key concept:** Evaluating evidence.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Each stage covers more ground than the one before: one orchard, then a region, then landscapes in general. That is a specific-to-general movement.\n\n**Key concept:** Tracing the movement of an argument",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> A local historian uses diary entries from 1910. A second source uses a textbook published in 2024 that cites those entries.\n\nWhich source is primary?",
+    "question": "> Fact: The bridge was completed in 1932.\n> Fact: It carries about 40,000 vehicles a day.\n> Opinion: It is the most beautiful structure in the county.\n> Reasoned judgement: Its steel is corroding faster than scheduled maintenance can address, so it will need major work within a decade.\n\nWhat distinguishes the reasoned judgement from the opinion?",
     "options": [
-      "The textbook because it is newer",
-      "The diary entries because they were created at the time",
-      "Both sources because they discuss history",
-      "Neither source because the event is old"
+      "It was written by an engineer rather than a member of the public.",
+      "It is longer and uses more technical words.",
+      "It concerns the future, while the opinion concerns the present.",
+      "It rests on stated evidence and could be shown wrong by further evidence."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Primary sources originate during or close to the events they document.\n**Key concept:** Primary sources.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A reasoned judgement is defensible and falsifiable — it names corrosion and a maintenance schedule that could be checked. Length, tense and the writer’s job do not decide the category.\n\n**Key concept:** Fact, opinion and reasoned judgement",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> The coach said, \"We will review the film tomorrow,\" but after practice she stayed late labeling each player's strongest decision.\n\nWhat does the coach's action emphasize?",
+    "question": "> Three witnesses described the car. The first said it was dark blue and moving fast. The second said it was black and had a dented rear door. The third, who had been looking at her phone, said only that it was \"a dark car, going normally.\"\n\nWhich conclusion is best supported by all three accounts together?",
     "options": [
-      "Individual growth through specific feedback",
-      "A need to cancel tomorrow's meeting",
-      "Frustration with the team's effort",
-      "Preference for written tests"
+      "The third witness is unreliable and should be disregarded.",
+      "The car was black with a dented rear door.",
+      "The car was dark in colour, but the accounts differ on its speed and its details.",
+      "The car was moving faster than the speed limit allowed."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Labeling each player's strongest decision provides targeted feedback.\n**Key concept:** Inference from actions.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Only \"dark\" appears in every account. Speed is contested and the dent is reported once. The third witness’s distraction is a reason to weigh her account, not to delete it, and no speed limit is mentioned.\n\n**Key concept:** Drawing a conclusion supported by all sources",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> A guide compares the water use of grass lawns, native plants, and artificial turf before discussing maintenance costs.\n\nWhich organizational pattern is most evident?",
+    "question": "> The instructions for the shelf list every part first, then every tool, then the twelve steps. The instructions for the desk interleave them: at each step it names the parts and the tool that step needs. Testers assembled the desk faster and with fewer errors.\n\nWhat does the result suggest about organising instructions?",
     "options": [
-      "Chronological order",
-      "Compare and contrast",
-      "Problem and solution",
-      "Definition and example"
+      "Longer instructions are always clearer than shorter ones.",
+      "Placing information at the moment it is needed can reduce errors.",
+      "Lists of parts and tools are unnecessary in instructions.",
+      "Desks are simpler to assemble than shelves."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The guide examines differences among three lawn choices.\n**Key concept:** Text structure.",
+    "explanation": "**Explanation:** The only difference described is where the information sits, and the interleaved version performed better. The passage says nothing about overall length, and it does not compare the difficulty of the two objects.\n\n**Key concept:** Organisational choices serve the reader",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> A scientist's website is maintained by a university. A popular video gives the same claim but names no author or sources.\n\nWhich source is more credible for research?",
+    "question": "> An advertisement claims a toothpaste is \"recommended by 4 out of 5 dentists.\" The survey behind the claim asked dentists to name any brands they would recommend, and most named several. The company’s brand appeared on 80 percent of the lists.\n\nWhat does the fine print reveal about the claim?",
     "options": [
-      "The video because it is easier to understand",
-      "The website because its expertise and authorship are identifiable",
-      "Both because they make the same claim",
-      "Neither because science changes"
+      "Dentists could recommend more than one brand, so the claim does not mean most prefer this one.",
+      "The survey was too small to support any conclusion.",
+      "The claim is a lie, because no dentists were surveyed.",
+      "Competing brands were left off the survey entirely."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Identifiable expertise, authorship, and institutional support make the website more verifiable.\n**Key concept:** Source credibility.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Appearing on 80 percent of lists is compatible with several rival brands also appearing on 80 percent. Sample size is never given, dentists clearly were surveyed, and nothing says rivals were excluded.\n\n**Key concept:** Examining a source for misleading framing",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> The article explains that soil can store carbon, but only when roots, microbes, and farming practices work together.\n\nWhich statement preserves the article's meaning?",
+    "question": "> Every argument for the school’s new phone policy has been about focus in class. But the strongest reason is one nobody mentions: the policy removes the need for each student to negotiate, alone and every hour, whether to look. Rules of that kind are not restrictions on choice. They are a way of not having to make the same choice forty times a day.\n\nWhat is the writer’s main claim?",
     "options": [
-      "Soil stores carbon automatically in every condition.",
-      "Carbon storage in soil depends on interacting factors.",
-      "Farmers should avoid growing plants with roots.",
-      "Microbes prevent carbon from entering soil."
+      "School rules are usually restrictions on students’ freedom.",
+      "Phones do not actually harm focus in class.",
+      "Students should be trusted to make their own choices about phones.",
+      "The policy’s real value is in removing a repeated decision rather than in improving classroom focus."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The article explicitly states that several elements must work together.\n**Key concept:** Accurate paraphrase.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The writer sets aside the focus argument to advance a different one, and the last two sentences state it. The writer neither denies that phones harm focus nor argues for student discretion, and explicitly rejects the \"restriction\" framing.\n\n**Key concept:** Identifying an unexpected claim",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Before choosing a candidate, Rafi checked whether the campaign chart used percentages, raw totals, or both.\n\nWhat does Rafi understand?",
+    "question": "> The recipe had belonged to his grandmother, and he had made it perhaps two hundred times. He knew the weight of the dough in his hands better than he knew most people’s faces. So when he read the printed version in the family cookbook — 500 grams of flour, exactly — he was surprised to find that he did not entirely believe it.\n\nWhat does the last sentence reveal?",
     "options": [
-      "Graph design can affect how evidence is interpreted.",
-      "Campaigns should never use numbers.",
-      "Percentages are always misleading.",
-      "Raw totals are always fairer."
+      "He has forgotten how his grandmother actually made the dish.",
+      "He suspects that someone has changed the recipe in the cookbook.",
+      "His practised, physical knowledge of the recipe carries more authority for him than the written measurement.",
+      "He believes printed recipes are generally unreliable."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Checking units and totals shows awareness that numerical displays require careful reading.\n**Key concept:** Evaluating graphics.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The passage builds his knowledge through the hands — the weight of the dough — and then sets it against a number on a page. Nothing suggests tampering, forgetting, or a general view of cookbooks.\n\n**Key concept:** Inference about how a character knows things",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> The article opens with a stranded sea turtle, explains plastic pollution, and ends with actions readers can take.\n\nWhy does the author begin with the turtle?",
+    "question": "> Caption A: \"Protesters gather outside the courthouse.\"\n> Caption B: \"A crowd blocks the courthouse entrance.\"\n> Both captions accompany the same photograph.\n\nWhat does the difference between the captions show?",
     "options": [
-      "To provide a personal connection to a broader problem",
-      "To prove every turtle is stranded",
-      "To replace the need for evidence",
-      "To explain how turtles migrate"
+      "One of the two captions must be factually false.",
+      "Word choice can shape how a reader interprets an image without altering the image.",
+      "Photographs cannot be trusted as evidence.",
+      "Caption B was written by someone who was present."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The turtle story draws readers into the wider issue of plastic pollution.\n**Key concept:** Author's craft.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** \"Gather\" and \"block\" describe the same scene with different implications about intent and effect. Both may be accurate; the point is framing, not falsehood, and nothing indicates who wrote either caption.\n\n**Key concept:** Diction shapes interpretation",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> Passage A calls uniforms practical because they simplify mornings. Passage B argues that uniforms can limit personal expression.\n\nHow do the passages differ?",
+    "question": "> Read the introduction to a research report: \"This paper examines whether after-school tutoring raised reading scores at Denton Middle School between 2021 and 2024. It does not address writing, and it does not compare Denton with other schools.\"\n\nWhy might the writer state what the paper does *not* cover?",
     "options": [
-      "Only Passage A discusses school.",
-      "They offer opposing evaluations of uniforms.",
-      "They agree uniforms are too expensive.",
-      "Only Passage B gives a reasoned claim."
+      "To define the limits of the study so readers do not draw conclusions it cannot support",
+      "To admit that the research was carried out carelessly",
+      "To make the paper appear longer and more thorough",
+      "To discourage other researchers from studying writing"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** One passage emphasizes convenience while the other emphasizes limited expression.\n**Key concept:** Comparing arguments.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Naming the boundaries of a study is a way of controlling what may fairly be concluded from it. It is a statement of scope, not an apology, padding, or a warning to others.\n\n**Key concept:** Understanding scope statements",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "reading_fundamentals",
     "passage": null,
     "passageTitle": null,
-    "question": "> A writer claims a new park improved health but cites only one resident's opinion and no community data.\n\nWhat is the strongest evaluation of the evidence?",
+    "question": "> The team’s record improved from 4 wins to 11 in a single season. In the same year they hired a new coach, moved to a new stadium, and signed two experienced players. A local column credited the coach alone.\n\nWhat is the weakness in the column’s reasoning?",
     "options": [
-      "It is conclusive because a resident experienced it.",
-      "It is weak because one anecdote cannot establish a broad effect.",
-      "It is reliable because parks are healthy.",
-      "It is unbiased because the writer uses one source."
+      "A coach cannot influence a team’s record at all.",
+      "The column used numbers that were not accurate.",
+      "Eleven wins is not a meaningful improvement over four.",
+      "Several changes happened at once, so the improvement cannot be assigned to one of them."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** A single opinion cannot adequately support a claim about community health.\n**Key concept:** Sufficiency of evidence.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** With three simultaneous changes, no single cause can be isolated from the record alone. The figures are not disputed, the improvement is real, and coaching plainly can matter — the flaw is attributing everything to it.\n\n**Key concept:** Confounded causes in an argument",
     "source": "authored",
     "needsReview": false
   }

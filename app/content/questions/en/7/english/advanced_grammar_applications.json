@@ -7,15 +7,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses the subjunctive mood?",
+    "question": "In \"Swimming every morning improved her stamina,\" what is the function of *swimming*?",
     "options": [
-      "If I was the mayor, I would expand the library.",
-      "If I were the mayor, I would expand the library.",
-      "If I am the mayor, I would expand the library.",
-      "If I be the mayor, I would expand the library."
+      "An infinitive acting as an adverb",
+      "A participle modifying *stamina*",
+      "A present-tense main verb",
+      "A gerund serving as the subject of the sentence"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Were is the standard subjunctive form for a hypothetical condition.\n**Key concept:** Subjunctive mood.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A gerund is an *-ing* form used as a noun. Here it names the activity that did the improving, so it is the subject. A participle would modify a noun instead.\n\n**Key concept:** Gerunds",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has correct agreement with a collective noun?",
+    "question": "In \"Exhausted by the climb, the team made camp,\" what is the function of the opening phrase?",
     "options": [
-      "The jury delivers their verdict.",
-      "The jury delivers its verdict.",
-      "The jury deliver its verdict.",
-      "The jury delivers it's verdict."
+      "An infinitive phrase serving as an object",
+      "A gerund phrase serving as the subject",
+      "A participial phrase modifying *team*",
+      "An independent clause"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Jury is treated as one unit, so it takes singular verb and pronoun forms.\n**Key concept:** Collective nouns.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Exhausted* is a past participle, and the phrase describes the team. It has no subject or finite verb of its own, so it is not a clause.\n\n**Key concept:** Participial phrases",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses *whom* correctly?",
+    "question": "Which sentence uses the passive voice appropriately rather than evasively?",
     "options": [
-      "Whom is leading the tour?",
-      "Whom did the guide thank after the tour?",
-      "Whom arrived first at the museum?",
-      "Whom wrote the article?"
+      "\"Mistakes were made in the handling of the samples.\"",
+      "\"The samples were stored at four degrees for seventy-two hours.\"",
+      "\"It was decided that the samples would be discarded.\"",
+      "\"The samples were felt to be problematic by some.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Whom functions as the object of thanked.\n**Key concept:** Who and whom.",
+    "explanation": "**Explanation:** Passive voice is appropriate when the actor is irrelevant, as in a methods section. The other three use it to keep responsibility unnamed.\n\n**Key concept:** When passive voice is justified",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an adjective clause?",
+    "question": "Which sentence converts \"The committee was informed of the error by the auditor\" to the active voice?",
     "options": [
-      "The scientist which discovered the comet spoke.",
-      "The scientist who discovered the comet spoke.",
-      "The scientist whom discovered the comet spoke.",
-      "The scientist whose discovered the comet spoke."
+      "\"The auditor informed the committee of the error.\"",
+      "\"The committee informed the auditor of the error.\"",
+      "\"The error was informed to the committee by the auditor.\"",
+      "\"The auditor was informed of the error by the committee.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Who correctly refers to the person performing the action in the clause.\n**Key concept:** Relative pronouns.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Active voice puts the actor — the auditor — in the subject position and keeps the same meaning. The others reverse who did what.\n\n**Key concept:** Converting passive to active",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence maintains consistent verb tense?",
+    "question": "Which sentence uses the imperative mood?",
     "options": [
-      "We packed the tent and hike to the lake.",
-      "We packed the tent and hiked to the lake.",
-      "We had packed the tent and hike to the lake.",
-      "We pack the tent and hiked to the lake."
+      "\"If you record the temperature, you may open the valve.\"",
+      "\"You should record the temperature before opening the valve.\"",
+      "\"The temperature is recorded before the valve is opened.\"",
+      "\"Record the temperature before opening the valve.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Both verbs are in the past tense and describe the same completed time.\n**Key concept:** Tense consistency.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The imperative gives a direct instruction with an understood subject *you*. The others advise, describe or set a condition.\n\n**Key concept:** Imperative mood",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses *fewer*?",
+    "question": "Which sentence uses the correct verb form after *recommend*?",
     "options": [
-      "The new route has less turns.",
-      "The new route has fewer turns.",
-      "The new route has fewer traffic.",
-      "The new route has less intersections."
+      "\"The engineer recommended that the valve was replaced.\"",
+      "\"The engineer recommended that the valve is replaced.\"",
+      "\"The engineer recommended that the valve be replaced.\"",
+      "\"The engineer recommended that the valve will be replaced.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Turns are countable, so fewer is the correct comparative word.\n**Key concept:** Fewer and less.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Verbs of recommendation, request and insistence take the subjunctive in the clause that follows: the base form *be*, without tense agreement.\n\n**Key concept:** Subjunctive after verbs of recommendation",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a restrictive clause without unnecessary commas?",
+    "question": "In \"She hoped to finish before dark,\" what is *to finish*?",
     "options": [
-      "Students, who submit forms early, receive a response first.",
-      "Students who submit forms early receive a response first.",
-      "Students who submit forms, early receive a response first.",
-      "Students, who submit forms early receive a response, first."
+      "A gerund functioning as the subject",
+      "An infinitive functioning as the object of *hoped*",
+      "A participle modifying *she*",
+      "A prepositional phrase"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The clause identifies which students receive the response and needs no commas.\n**Key concept:** Restrictive clauses.",
+    "explanation": "**Explanation:** *To* plus a base verb forms an infinitive; here it answers \"hoped what?\", so it is the object. *To* is not a preposition in this construction.\n\n**Key concept:** Infinitives",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses the correct comparative form?",
+    "question": "Which sentence corrects the faulty pronoun reference in \"The report criticised the board, which was released on Friday\"?",
     "options": [
-      "Of the two routes, this one is shortest.",
-      "Of the two routes, this one is shorter.",
-      "Of the two routes, this one is more shortest.",
-      "Of the two routes, this one is most short."
+      "\"The report, which was released on Friday, criticised the board.\"",
+      "\"The report criticised the board, and it was released on Friday.\"",
+      "\"Released on Friday, the board was criticised by the report.\"",
+      "\"The report criticised the board which was released on Friday.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Shorter is the comparative form used for exactly two items.\n**Key concept:** Comparative forms.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** As written, *which* attaches to *board*. Moving the clause beside *report* fixes the reference; the second leaves *it* ambiguous and the third makes the board the thing released.\n\n**Key concept:** Relative pronoun reference",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has correct parallelism after *either...or*?",
+    "question": "Which sentence uses *lay* correctly?",
     "options": [
-      "Either we will repair the roof or replacing it.",
-      "Either we will repair the roof or replace it.",
-      "Either repairing the roof or we will replace it.",
-      "Either we repair the roof or replacing it."
+      "\"Please laid the specimens on the tray before you leave.\"",
+      "\"Please lie the specimens on the tray before you leave.\"",
+      "\"Please lain the specimens on the tray before you leave.\"",
+      "\"Please lay the specimens on the tray before you leave.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Both parts use parallel verb phrases.\n**Key concept:** Correlative conjunctions.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Lay* is transitive and takes an object — here, the specimens. *Lie* takes no object, and *lain* and *laid* are past forms that cannot follow *please* as commands.\n\n**Key concept:** Transitive lay versus intransitive lie",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an antecedent clearly?",
+    "question": "Which sentence maintains agreement with a subject joined by *or*?",
     "options": [
-      "The engineers reviewed the plans with the architects before they were approved.",
-      "Before the architects approved them, the engineers reviewed the plans.",
-      "The plans reviewed the engineers before they approved them.",
-      "The architects approved them before they reviewed plans."
+      "\"Either the technicians or the supervisor were responsible for the log.\"",
+      "\"Either the technicians or the supervisor are responsible for the log.\"",
+      "\"Either the technicians or the supervisor is responsible for the log.\"",
+      "\"Either the technicians or the supervisor have been responsible for the log.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Them clearly refers to plans, while architects are named as approvers.\n**Key concept:** Clear antecedents.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** With *or* or *nor*, the verb agrees with the nearer subject — here the singular *supervisor*.\n\n**Key concept:** Agreement with disjunctive subjects",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence is in passive voice?",
+    "question": "Which sentence uses a gerund with the correct possessive?",
     "options": [
-      "The council approved the proposal.",
-      "The proposal was approved by the council.",
-      "The council will approve the proposal.",
-      "The council approves proposals."
+      "\"The committee objected to him leaving before the vote.\"",
+      "\"The committee objected to his leaving before the vote.\"",
+      "\"The committee objected to he leaving before the vote.\"",
+      "\"The committee objected to himself leaving before the vote.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The proposal receives the action instead of performing it.\n**Key concept:** Passive voice.",
+    "explanation": "**Explanation:** What the committee objected to was the leaving, not the person, so the gerund takes a possessive modifier: *his leaving*.\n\n**Key concept:** Possessives before gerunds",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a correlative conjunction correctly?",
+    "question": "Which sentence corrects the shift in voice? \"The samples were collected by the team, and then they analysed them.\"",
     "options": [
-      "Neither the rain nor the wind were expected.",
-      "Neither the rain nor the wind was expected.",
-      "Neither the rain or the wind was expected.",
-      "Neither rain nor the wind were expected."
+      "\"The team collected the samples and then analysed them.\"",
+      "\"The samples were collected by the team and then were analysed by them.\"",
+      "\"The team collected the samples, and then they were analysed.\"",
+      "\"The samples were collected, and then the team analysed them.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The verb agrees with the nearer singular subject wind.\n**Key concept:** Correlative conjunction agreement.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Keeping both verbs active with one subject removes the shift and the ambiguous *they*. The alternatives keep one half passive or leave the actor unstated.\n\n**Key concept:** Consistency of voice",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an interrogative pronoun?",
+    "question": "Which sentence uses the past perfect correctly?",
     "options": [
-      "Which of these tools fits the bolt?",
-      "Which tool fits the bolt, it?",
-      "The tool which fits the bolt?",
-      "Which the bolt fits tool?"
+      "\"By the time the inspector arrives, the crew had already sealed the tank.\"",
+      "\"By the time the inspector arrived, the crew has already sealed the tank.\"",
+      "\"By the time the inspector had arrived, the crew sealed the tank.\"",
+      "\"By the time the inspector arrived, the crew had already sealed the tank.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Which correctly introduces a question identifying one item from a group.\n**Key concept:** Interrogative pronouns.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The past perfect marks the earlier of two past events. The sealing came first, so it takes *had sealed*, while the arrival stays in the simple past.\n\n**Key concept:** Past perfect for the earlier event",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses the correct form of *lie*?",
+    "question": "Which sentence uses *whoever* or *whomever* correctly?",
     "options": [
-      "Yesterday, I laid down for an hour.",
-      "Yesterday, I lay down for an hour.",
-      "Yesterday, I have lain down for an hour.",
-      "Yesterday, I lying down for an hour."
+      "\"The grant goes to whomever the strongest proposal is submitted.\"",
+      "\"The grant goes to whomever submits the strongest proposal.\"",
+      "\"The grant goes to whoever submits the strongest proposal.\"",
+      "\"The grant goes to whoever the committee selects them.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Lay is the simple past tense of lie when it means recline.\n**Key concept:** Lie and lay.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The pronoun is the subject of *submits*, so it takes the subject form, even though the whole clause is the object of *to*.\n\n**Key concept:** Case inside a noun clause",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has a correct antecedent for the singular pronoun?",
+    "question": "Which sentence uses an appositive correctly to add information?",
     "options": [
-      "Every robot returned to its charging station.",
-      "Every robot returned to their charging station.",
-      "Every robots returned to its charging station.",
-      "Every robot returned to our charging station."
+      "\"Dr Farouk the district’s only hydrologist reviewed the plan.\"",
+      "\"Dr Farouk, the district’s only hydrologist, reviewed the plan.\"",
+      "\"Dr Farouk, the district’s only hydrologist reviewed the plan.\"",
+      "\"Dr Farouk, who is the district’s only hydrologist, and reviewed the plan.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The singular pronoun its agrees with the singular subject every robot.\n**Key concept:** Pronoun agreement.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A nonessential appositive is enclosed by commas at both ends and does not require its own verb. The last option adds *and*, which leaves the sentence without a main clause.\n\n**Key concept:** Appositives",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a predicate adjective?",
+    "question": "Which sentence uses the correct pronoun after a comparison?",
     "options": [
-      "The soup tastes deliciously.",
-      "The soup tastes delicious.",
-      "The soup tastes deliciousness.",
-      "The soup tastes more deliciously."
+      "\"She has read more of the report than I have.\"",
+      "\"She has read more of the report than me have.\"",
+      "\"She has read more of the report than myself.\"",
+      "\"She has read more of the report than her.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Delicious is an adjective that describes soup after the linking verb tastes.\n**Key concept:** Predicate adjectives.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The comparison completes an implied clause — *than I have read* — so the pronoun is a subject and takes *I*.\n\n**Key concept:** Pronoun case in comparisons",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision corrects the faulty comparison with the most concise wording?\n\"The climate here is wetter than Phoenix.\"",
+    "question": "In \"The valve, having failed twice, was replaced,\" what is *having failed twice*?",
     "options": [
-      "The climate here is wetter than Phoenix.",
-      "The climate here is wetter than Phoenix's climate.",
-      "The climate here is wetter than in Phoenix.",
-      "The climate here is wetter than Phoenix is climate."
+      "An infinitive phrase of purpose",
+      "A gerund phrase serving as the object",
+      "An independent clause",
+      "A perfect participial phrase modifying *valve*"
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The comparison properly compares climate in one location to climate in another.\n**Key concept:** Faulty comparisons.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Having* plus a past participle forms a perfect participle, which describes an action completed before the main verb. It modifies the noun it sits beside.\n\n**Key concept:** Perfect participles",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses *affect* correctly?",
+    "question": "Which sentence avoids an illogical shift in mood?",
     "options": [
-      "The storm's affect was widespread.",
-      "The storm may affect tomorrow's flight.",
-      "The storm may effect tomorrow's flight.",
-      "The storm's affect may effect flights."
+      "\"You should read the instructions, then check the seal before you begin.\"",
+      "\"Read the instructions, then you should check the seal before you begin.\"",
+      "\"Read the instructions, then check the seal before you begin.\"",
+      "\"Reading the instructions, then check the seal before you begin.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Affect is the verb meaning to influence.\n**Key concept:** Affect and effect.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Both instructions should be imperatives. Mixing an imperative with *you should* shifts the mood mid-sentence.\n\n**Key concept:** Consistency of mood",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a reciprocal pronoun?",
+    "question": "Which sentence correctly uses *that* and *which*?",
     "options": [
-      "The partners reviewed each other's notes.",
-      "The partners reviewed each other notes.",
-      "The partners reviewed each others' notes.",
-      "The partners reviewed one anothers notes."
+      "\"The document which arrived on Tuesday, that nobody has read, contains the figures.\"",
+      "\"The document that arrived on Tuesday, which nobody has read, contains the figures.\"",
+      "\"The document, that arrived on Tuesday, which nobody has read contains the figures.\"",
+      "\"The document that arrived on Tuesday that nobody has read contains the figures.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Each other's is the correct reciprocal possessive form.\n**Key concept:** Reciprocal pronouns.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *That* introduces the essential clause identifying which document, with no commas; *which* introduces the nonessential clause, set off by commas.\n\n**Key concept:** That versus which",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an adverbial clause?",
+    "question": "Which sentence uses a correlative construction with parallel elements?",
     "options": [
-      "We waited until the fog lifted.",
-      "We waited until the fog lifting.",
-      "We waited until lifted the fog.",
-      "We waited the fog until lifted."
+      "\"The board is responsible not only for approving the budget but also for auditing it.\"",
+      "\"The board is not only responsible for approving the budget but also it audits it.\"",
+      "\"The board not only is responsible for approving the budget but also for auditing it.\"",
+      "\"The board is responsible not only for approving the budget but it also audits it.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Until introduces a complete clause that tells when the waiting ended.\n**Key concept:** Adverbial clauses.",
+    "explanation": "**Explanation:** Whatever follows *not only* must match in form what follows *but also* — here, two prepositional phrases beginning *for*.\n\n**Key concept:** Correlative conjunctions and parallelism",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a semicolon between closely related independent clauses?",
+    "question": "Which sentence corrects the dangling participle in \"Having reviewed the data, the conclusion seemed premature\"?",
     "options": [
-      "The forecast improved; the race continued.",
-      "The forecast improved; because the race continued.",
-      "The forecast; improved the race continued.",
-      "The forecast improved; and the race continued."
+      "\"Having been reviewed, the data made the conclusion seem premature.\"",
+      "\"Having reviewed the data, the conclusion was seeming premature.\"",
+      "\"The conclusion, having reviewed the data, seemed premature.\"",
+      "\"Having reviewed the data, we found the conclusion premature.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** A semicolon joins the two closely related complete thoughts.\n**Key concept:** Semicolons.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The participial phrase must describe the subject of the main clause. Only the first supplies a subject that could have done the reviewing.\n\n**Key concept:** Dangling participles",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses *whoever*?",
+    "question": "Which sentence uses reflexive pronouns correctly?",
     "options": [
-      "Give the award to whoever submitted the strongest design.",
-      "Give the award to whomever submitted the strongest design.",
-      "Give the award whoever submitted the strongest design to.",
-      "Give the award to who submitted the strongest design."
+      "\"The director introduced her and then introduced her deputy to myself.\"",
+      "\"The director introduced herself and then introduced her deputy to myself.\"",
+      "\"The director introduced herself and then introduced her deputy to me.\"",
+      "\"Myself and the director introduced her deputy to me.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Whoever is the subject of submitted within the clause.\n**Key concept:** Whoever and whomever.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A reflexive pronoun requires an antecedent in the same clause — *herself* refers back to *the director*. *Myself* has no such antecedent here, so *me* is correct.\n\n**Key concept:** Reflexive pronouns",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence properly places the modifier?",
+    "question": "Which sentence uses the conditional correctly?",
     "options": [
-      "Nearly she painted every panel.",
-      "She painted nearly every panel.",
-      "She nearly painted every panel carefully.",
-      "She painted every nearly panel."
+      "\"If the sensor would have been calibrated, the reading would have been accurate.\"",
+      "\"If the sensor had been calibrated, the reading would have been accurate.\"",
+      "\"If the sensor was calibrated, the reading would have been accurate.\"",
+      "\"If the sensor had been calibrated, the reading would be accurate then.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Nearly directly modifies every panel, showing that a small number were not painted.\n**Key concept:** Modifier placement.",
+    "explanation": "**Explanation:** A past unreal condition takes *had* plus a past participle in the *if* clause and *would have* in the main clause. *Would have* does not belong in the *if* clause.\n\n**Key concept:** Past unreal conditionals",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses *good* or *well* correctly?",
+    "question": "Which sentence corrects the faulty predication in \"The reason for the delay was because the parts were late\"?",
     "options": [
-      "The microscope works good.",
-      "The microscope works well.",
-      "The microscope is working goodly.",
-      "The microscope is well at work."
+      "\"The reason for the delay was that the parts were late.\"",
+      "\"The reason for the delay was because of the parts being late.\"",
+      "\"The reason why the delay happened was because the parts were late.\"",
+      "\"Because the parts were late was the reason for the delay.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Well is an adverb that correctly modifies works.\n**Key concept:** Good and well.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** *The reason... was because* repeats the idea of cause twice. A noun clause beginning with *that* completes the subject correctly.\n\n**Key concept:** Faulty predication",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "advanced_grammar_applications",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence maintains parallel verb forms?",
+    "question": "Which sentence uses a verbal phrase to open without ambiguity?",
     "options": [
-      "The guide asked us to listen, observe, and recording.",
-      "The guide asked us to listen, observe, and record.",
-      "The guide asked us listening, observing, and record.",
-      "The guide asked us to listen, observing, and record."
+      "\"Qualifying for the grant, two references are required.\"",
+      "\"To qualify for the grant, two references must be submitted.\"",
+      "\"To qualify for the grant, the references must be two.\"",
+      "\"To qualify for the grant, an applicant must submit two references.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The three infinitive verbs have matching forms.\n**Key concept:** Parallel verb forms.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An opening infinitive of purpose must attach to the person who acts. References cannot qualify for a grant; an applicant can.\n\n**Key concept:** Infinitive phrases and logical subjects",
     "source": "authored",
     "needsReview": false
   }

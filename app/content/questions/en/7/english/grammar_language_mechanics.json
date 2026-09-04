@@ -7,15 +7,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has correct subject-verb agreement?",
+    "question": "Which sentence agrees correctly across the prepositional phrase?",
     "options": [
-      "The box of old maps were donated.",
-      "Neither the keys nor the lock work.",
-      "Each of the runners trains daily.",
-      "The committee have chose a date."
+      "\"The box of old photographs was left on the porch.\"",
+      "\"The box of old photographs were left on the porch.\"",
+      "\"The box of old photographs have been left on the porch.\"",
+      "\"The boxes of old photograph was left on the porch.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The singular subject each requires the singular verb trains.\n**Key concept:** Subject-verb agreement.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The subject is *box*, singular; *of old photographs* is a prepositional phrase and cannot supply the subject. A plural noun sitting next to the verb is the commonest trap in agreement.\n\n**Key concept:** Agreement across an intervening phrase",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision corrects the pronoun error?\n\"Maya and me presented the findings.\"",
+    "question": "Which sentence uses the pronoun correctly?",
     "options": [
-      "Maya and I presented the findings.",
-      "Me and Maya presented the findings.",
-      "Maya and myself presented findings.",
-      "I and Maya presented the findings."
+      "\"The award was shared between she and I.\"",
+      "\"The award was shared between Priya and I.\"",
+      "\"The award was shared between Priya and myself.\"",
+      "\"The award was shared between Priya and me.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** I is the correct subject pronoun in a compound subject.\n**Key concept:** Pronoun case.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** After the preposition *between*, pronouns take the object form: *me*, not *I*. *Myself* is reflexive and needs an earlier *I* in the same clause to refer back to.\n\n**Key concept:** Pronoun case after a preposition",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a coordinating conjunction correctly?",
+    "question": "Which sentence corrects the dangling modifier in \"Running for the bus, the strap on my bag broke\"?",
     "options": [
-      "We left early, because traffic was heavy.",
-      "We left early, but traffic was heavy.",
-      "We left early, so traffic was heavy.",
-      "We left early, yet traffic were heavy."
+      "\"The strap on my bag broke, running for the bus.\"",
+      "\"Running for the bus, the strap broke on my bag.\"",
+      "\"As I ran for the bus, the strap on my bag broke.\"",
+      "\"Running for the bus, my bag’s strap broke.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** But correctly links two independent clauses that contrast.\n**Key concept:** Coordinating conjunctions.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The opening phrase must describe the subject of the main clause. As written, the strap is doing the running. Turning the phrase into a clause with its own subject, *I*, fixes it; simply moving words does not.\n\n**Key concept:** Dangling modifiers",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence avoids a misplaced modifier?",
+    "question": "Which sentence keeps a consistent verb tense?",
     "options": [
-      "Running through the rain, the backpack soaked Eli.",
-      "Eli soaked the backpack running through the rain.",
-      "Running through the rain, Eli soaked the backpack.",
-      "The backpack, running through the rain, soaked Eli."
+      "\"She opened the file, reads the first page, and closed it again.\"",
+      "\"She opened the file, read the first page, and closed it again.\"",
+      "\"She opens the file, read the first page, and closes it again.\"",
+      "\"She had opened the file, reads the first page, and will close it again.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The opening phrase clearly modifies Eli, who is doing the running.\n**Key concept:** Misplaced modifiers.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Three actions in one sequence take the same tense unless there is a reason to shift. Only the first option keeps all three in the simple past.\n\n**Key concept:** Consistent tense in a series",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an adverb correctly?",
+    "question": "Which sentence has a clear pronoun reference?",
     "options": [
-      "The violinist played beautiful.",
-      "The violinist played beautifully.",
-      "The violinist was beautifully at rehearsal.",
-      "The violinist played more beautiful."
+      "\"When Nadia met Rosa, Nadia had just finished her shift.\"",
+      "\"When Nadia met Rosa, she had just finished her shift.\"",
+      "\"When Nadia met Rosa, she had just finished hers.\"",
+      "\"When Nadia met Rosa, they had just finished her shift.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The adverb beautifully modifies the verb played.\n**Key concept:** Adjectives and adverbs.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** With two women in the sentence, *she* could refer to either. Repeating the name removes the ambiguity; the other repairs leave it in place or add a new one.\n\n**Key concept:** Ambiguous pronoun reference",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has parallel structure?",
+    "question": "Which sentence uses the correct verb after an indefinite pronoun?",
     "options": [
-      "The job requires planning, patience, and to communicate.",
-      "The job requires planning, being patient, and communication.",
-      "The job requires planning, patience, and clear communication.",
-      "The job requires to plan, patience, and communicating."
+      "\"Each of the students were submitting a draft.\"",
+      "\"Each of the students have submitted a draft.\"",
+      "\"Each of the students are submitting a draft.\"",
+      "\"Each of the students has submitted a draft.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** All three items are parallel noun phrases.\n**Key concept:** Parallel structure.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Each* is singular, so it takes *has*, regardless of the plural noun in the phrase that follows.\n\n**Key concept:** Indefinite pronouns that are always singular",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses the past perfect tense?",
+    "question": "Which sentence places the modifier correctly?",
     "options": [
-      "By noon, the crew completed the bridge.",
-      "By noon, the crew had completed the bridge.",
-      "By noon, the crew has completed the bridge.",
-      "By noon, the crew completing the bridge."
+      "\"Only the council approved the first of the three proposals.\"",
+      "\"The council only approved the first of the three proposals.\"",
+      "\"The council approved only the first of the three proposals.\"",
+      "\"The council approved the first of the three proposals only.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Had completed shows an action finished before a past reference time.\n**Key concept:** Verb tense.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Only* should sit immediately before what it limits. Here the limit is on which proposal, so *only* belongs before *the first*. The other placements limit the council, the act of approving, or the whole sentence.\n\n**Key concept:** Placement of limiting modifiers",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has a clear pronoun reference?",
+    "question": "Which sentence uses *who* or *whom* correctly?",
     "options": [
-      "When Jada spoke to Amina, she was frustrated.",
-      "The robot followed the cart until it stopped.",
-      "After the bell rang, Marcus packed his notebook.",
-      "Tessa gave the poster to Noor because it was colorful."
+      "\"The candidate who the committee interviewed withdrew this morning.\"",
+      "\"The candidate whom the committee interviewed withdrew this morning.\"",
+      "\"The candidate whom interviewed the committee withdrew this morning.\"",
+      "\"The candidate whomever the committee interviewed withdrew this morning.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** His clearly refers to Marcus, the only possible antecedent.\n**Key concept:** Clear pronoun reference.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The pronoun is the object of *interviewed* — the committee interviewed *him* — so *whom* is correct. Substituting *he* or *him* into the clause is the quickest test.\n\n**Key concept:** Who versus whom",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a subordinating conjunction?",
+    "question": "Which sentence agrees correctly with *neither*?",
     "options": [
-      "Although the road was icy, the bus arrived on time.",
-      "Although the road was icy, but the bus arrived on time.",
-      "The road was icy, although, the bus arrived on time.",
-      "Although the road was icy the bus, arrived on time."
+      "\"Neither of the answers seems complete.\"",
+      "\"Neither of the answers seem complete.\"",
+      "\"Neither of the answers are complete.\"",
+      "\"Neither of the answers were complete.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Although introduces a dependent clause followed by a complete independent clause.\n**Key concept:** Subordinating conjunctions.",
+    "explanation": "**Explanation:** *Neither* is singular and controls the verb; *of the answers* is a prepositional phrase.\n\n**Key concept:** Agreement with neither",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which revision corrects the fragment?\n\"Because the batteries were dead.\"",
+    "question": "Which sentence uses the past participle correctly?",
     "options": [
-      "Because the batteries were dead, the flashlight failed.",
-      "Because the batteries were dead.",
-      "The batteries because were dead.",
-      "Dead because the batteries."
+      "\"He had laid himself down for an hour before the call came, quietly.\"",
+      "\"He had laid down for an hour before the call came.\"",
+      "\"He had lay down for an hour before the call came.\"",
+      "\"He had lain down for an hour before the call came.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The added independent clause completes the thought.\n**Key concept:** Sentence fragments.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Lie* (to recline) has the past participle *lain*; *lay* (to place something) has *laid* and always takes an object. Nothing is being placed here.\n\n**Key concept:** Lie versus lay",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an intensive pronoun?",
+    "question": "Which sentence avoids the double negative?",
     "options": [
-      "The captain herself checked the ropes.",
-      "The captain checked the ropes herself's.",
-      "The captain checked herself the ropes.",
-      "The captain herself checked the ropes themselves."
+      "\"The witness couldn’t hardly remember anything about the car.\"",
+      "\"The witness couldn’t hardly remember nothing about the car.\"",
+      "\"The witness could hardly remember anything about the car.\"",
+      "\"The witness could hardly remember nothing about the car.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Herself intensifies the noun captain and is used correctly.\n**Key concept:** Intensive pronouns.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Hardly* is already negative, so pairing it with *couldn’t* or *nothing* creates a double negative. Only the first option carries a single negation.\n\n**Key concept:** Double negatives",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses comparative language correctly?",
+    "question": "Which sentence maintains agreement with a collective noun acting as one unit?",
     "options": [
-      "This route is more safer than the old one.",
-      "This route is safest than the old one.",
-      "This route is safer than the old one.",
-      "This route is the safer of all routes."
+      "\"The jury have reached its verdict.\"",
+      "\"The jury has reached its verdict.\"",
+      "\"The jury has reached their verdict.\"",
+      "\"The jury have reached they’re verdict.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** Safer is the correct comparative form for comparing two routes.\n**Key concept:** Comparative adjectives.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** When a collective noun acts as a single body, both the verb and the possessive stay singular: *has* and *its*. Mixing the two is the error in the second and third options.\n\n**Key concept:** Collective nouns",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an indefinite pronoun?",
+    "question": "Which sentence correctly uses the comparative form?",
     "options": [
-      "Everyone should bring our permission slip.",
-      "Everyone should bring his or her permission slip.",
-      "Everyone should bring themselves permission slip.",
-      "Everyone should bring its permission slip."
+      "\"Of the two routes, the coastal one is longer.\"",
+      "\"Of the two routes, the coastal one is longest.\"",
+      "\"Of the two routes, the coastal one is more longer.\"",
+      "\"Of the two routes, the coastal one is the most long.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The singular indefinite pronoun everyone agrees with the singular pronoun phrase.\n**Key concept:** Pronoun-antecedent agreement.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Two things take the comparative (*longer*); three or more take the superlative. *More longer* doubles the comparison, and *most long* is not standard for a one-syllable adjective.\n\n**Key concept:** Comparative versus superlative",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses the active voice?",
+    "question": "Which sentence uses the subjunctive correctly?",
     "options": [
-      "The experiment was designed by Leena.",
-      "The results were reviewed by the team.",
-      "Leena designed the experiment.",
-      "A conclusion was reached by everyone."
+      "\"If I would be the organiser, I would move the deadline.\"",
+      "\"If I was the organiser, I would move the deadline.\"",
+      "\"If I am the organiser, I would move the deadline.\"",
+      "\"If I were the organiser, I would move the deadline.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The subject performs the action directly.\n**Key concept:** Active voice.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** A condition contrary to fact takes *were* for every subject. *Was* states a real past possibility, and *would* does not belong in the *if* clause.\n\n**Key concept:** Subjunctive mood",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly combines the ideas?\n\"The speaker paused. The audience considered the question.\"",
+    "question": "Which sentence keeps the pronoun and antecedent in agreement?",
     "options": [
-      "The speaker paused, the audience considered the question.",
-      "The speaker paused while the audience considered the question.",
-      "The speaker paused, while, the audience considered the question.",
-      "The speaker paused and because the audience considered the question."
+      "\"Every student must bring its own calculator.\"",
+      "\"Every student must bring their own calculator, and they must be labelled.\"",
+      "\"Every student must bring his or her own calculator.\"",
+      "\"Every students must bring his or her own calculator.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** While correctly connects the simultaneous actions in one complete sentence.\n**Key concept:** Sentence combining.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Every student* is singular, so a formal edit uses *his or her*. The second option shifts to a plural pronoun and then to a plural verb with an unclear antecedent, and *its* is not used of people.\n\n**Key concept:** Pronoun-antecedent agreement",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has correct verb tense?",
+    "question": "Which sentence uses *fewer* and *less* correctly?",
     "options": [
-      "Last week, we analyze the data.",
-      "Last week, we had analyze the data.",
-      "Last week, we analyzed the data.",
-      "Last week, we are analyzing the data."
+      "\"Less cars on the road means fewer noise at night.\"",
+      "\"Fewer cars on the road means less noise at night.\"",
+      "\"Fewer cars on the road means fewer noise at night.\"",
+      "\"Less cars on the road means less noise at night.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** Analyzed is the simple past form that matches last week.\n**Key concept:** Verb tense consistency.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** *Fewer* counts separate items (cars); *less* measures an uncountable quantity (noise).\n\n**Key concept:** Fewer versus less",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence contains a restrictive clause?",
+    "question": "Which sentence corrects the misplaced modifier in \"She served sandwiches to the children on paper plates\"?",
     "options": [
-      "My aunt, who lives in Austin, restores bicycles.",
-      "The book that won the prize is on the shelf.",
-      "The library, which opened in 1920, has a dome.",
-      "Ms. Ortiz, whose class I take, directs the play."
+      "\"She served the children sandwiches on paper plates.\"",
+      "\"She served sandwiches on paper plates to the children on the floor.\"",
+      "\"On paper plates she served sandwiches to the children.\"",
+      "\"She served to the children sandwiches on paper plates.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The clause identifies which book, so it is essential to the meaning.\n**Key concept:** Restrictive clauses.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The phrase *on paper plates* should sit beside *sandwiches*, what it describes. Moving it to the front makes it modify the whole sentence, and the last option produces awkward word order without fixing anything.\n\n**Key concept:** Misplaced modifiers",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a prepositional phrase correctly?",
+    "question": "Which sentence uses the correct verb form after a compound subject joined by *and*?",
     "options": [
-      "The team practiced between Monday and Wednesday.",
-      "The team practiced among Monday and Wednesday.",
-      "The team practiced beside Monday and Wednesday.",
-      "The team practiced through Monday and Wednesday."
+      "\"The director and the producer is disagreeing about the ending.\"",
+      "\"The director and the producer disagrees about the ending.\"",
+      "\"The director and the producer has disagreed about the ending.\"",
+      "\"The director and the producer disagree about the ending.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Between correctly identifies the limits of a range involving two points.\n**Key concept:** Prepositions.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Two subjects joined by *and* form a plural subject and take a plural verb.\n\n**Key concept:** Compound subjects",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a reflexive pronoun?",
+    "question": "Which sentence correctly uses *affect* or *effect*?",
     "options": [
-      "The twins taught themselves to juggle.",
-      "The twins taught theirselves to juggle.",
-      "The twins taught them to juggle themselves.",
-      "The twins taught theirself to juggle."
+      "\"The delay did not affect the outcome, but it had one useful affect.\"",
+      "\"The delay did not effect the outcome, but it had one useful affect.\"",
+      "\"The delay did not affect the outcome, but it had one useful effect.\"",
+      "\"The delay did not effect the outcome, but it had one useful effect.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The plural reflexive pronoun themselves refers back to twins.\n**Key concept:** Reflexive pronouns.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Affect* is normally the verb, *effect* normally the noun. Only the first option uses each in its usual role.\n\n**Key concept:** Affect versus effect",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has a compound predicate?",
+    "question": "Which sentence is free of a shift in person?",
     "options": [
-      "The river flooded the field.",
-      "The river rose and flooded the field.",
-      "The river that rose flooded the field.",
-      "The river, rising, flooded the field."
+      "\"If a reader wants to understand the argument, you must follow the footnotes.\"",
+      "\"If a reader wants to understand the argument, he or she must follow the footnotes.\"",
+      "\"If you want to understand the argument, one must follow the footnotes.\"",
+      "\"If readers want to understand the argument, he must follow the footnotes.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** One subject performs two coordinated actions.\n**Key concept:** Compound predicates.",
+    "explanation": "**Explanation:** A sentence should stay in one person. The first keeps the third person throughout; the others switch between third and second, or between plural and singular.\n\n**Key concept:** Consistency of person",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a modal verb to express necessity?",
+    "question": "Which sentence uses the correct verb with an inverted subject?",
     "options": [
-      "You might bring a jacket.",
-      "You can bring a jacket.",
-      "You must bring a jacket.",
-      "You would bring a jacket."
+      "\"On the table were three unopened letters.\"",
+      "\"On the table was three unopened letters.\"",
+      "\"On the table is three unopened letters.\"",
+      "\"On the table has been three unopened letters.\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** Must expresses a requirement rather than possibility or ability.\n**Key concept:** Modal verbs.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The subject is *three unopened letters*, which is plural, even though it follows the verb.\n\n**Key concept:** Agreement with inverted word order",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses *who*?",
+    "question": "Which sentence uses *its* and *it’s* correctly?",
     "options": [
-      "Who interviewed the reporter?",
-      "Who did the reporter give the notes to?",
-      "The scientist who the team thanked arrived.",
-      "To who were the letters addressed?"
+      "\"Its clear that the committee has changed its position.\"",
+      "\"Its clear that the committee has changed it’s position.\"",
+      "\"It’s clear that the committee has changed it’s position.\"",
+      "\"It’s clear that the committee has changed its position.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Who is correctly used as the subject in the embedded clause.\n**Key concept:** Interrogative pronouns.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *It’s* is the contraction of *it is*; *its* is the possessive. The sentence needs one of each, in that order.\n\n**Key concept:** Its versus it’s",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has no dangling modifier?",
+    "question": "Which sentence corrects the faulty comparison in \"Our stadium is larger than any stadium in the league\"?",
     "options": [
-      "After reading the article, the argument seemed weak.",
-      "After reading the article, Priya found the argument weak.",
-      "After reading the article, the weak argument changed.",
-      "After reading the article, there was a weak argument."
+      "\"Our stadium is the larger stadium in the league.\"",
+      "\"Our stadium is larger than all stadiums in the league.\"",
+      "\"Our stadium is larger than any other stadium in the league.\"",
+      "\"Our stadium is more large than any stadium in the league.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Priya is clearly the person who read the article.\n**Key concept:** Dangling modifiers.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** As written, the sentence asks the stadium to be larger than itself. Adding *other* excludes it from the comparison group.\n\n**Key concept:** Illogical comparisons",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a semicolon appropriately?",
+    "question": "Which sentence uses the correct form of the irregular verb?",
     "options": [
-      "The rain stopped; and we resumed practice.",
-      "The rain stopped; we resumed practice.",
-      "The rain; stopped we resumed practice.",
-      "The rain stopped; because we resumed practice."
+      "\"The choir has sang that piece at every concert this year.\"",
+      "\"The choir has sung that piece at every concert this year.\"",
+      "\"The choir have sung that piece at every concert this year, yesterday.\"",
+      "\"The choir has singed that piece at every concert this year.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A semicolon correctly joins two closely related independent clauses.\n**Key concept:** Semicolons.",
+    "explanation": "**Explanation:** The participle of *sing* is *sung*, used after *has*. *Sang* is the simple past and cannot follow *has*.\n\n**Key concept:** Irregular verb forms",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "grammar_language_mechanics",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has a properly formed complex sentence?",
+    "question": "Which sentence uses the correct verbs in a *there*-construction?",
     "options": [
-      "Since the power failed, the rehearsal continued outside.",
-      "Since the power failed, but rehearsal continued outside.",
-      "The power failed, since, rehearsal continued outside.",
-      "Since the power failed rehearsal, continued outside."
+      "\"There are more applicants this year than there were last year.\"",
+      "\"There is more applicants this year than there was last year.\"",
+      "\"There are more applicants this year than there was last year.\"",
+      "\"Their are more applicants this year than there were last year.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The dependent clause is followed by a complete main clause and correct punctuation.\n**Key concept:** Complex sentences.",
+    "explanation": "**Explanation:** Both clauses have plural subjects (*applicants*, understood in the second), so both verbs are plural. *Their* is a possessive and cannot begin the sentence here.\n\n**Key concept:** Agreement in there-constructions",
     "source": "authored",
     "needsReview": false
   }

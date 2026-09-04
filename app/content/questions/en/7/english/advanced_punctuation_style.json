@@ -7,15 +7,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a semicolon correctly?",
+    "question": "Which sentence uses a semicolon correctly to separate items that already contain commas?",
     "options": [
-      "The trail was closed; hikers chose another route.",
-      "The trail was closed; and hikers chose another route.",
-      "The trail; was closed hikers chose another route.",
-      "The trail was closed; because hikers chose another route."
+      "\"The delegates came from Austin; Texas, Reno; Nevada, and Mobile; Alabama.\"",
+      "\"The delegates came from Austin, Texas, Reno, Nevada, and Mobile, Alabama.\"",
+      "\"The delegates came from Austin, Texas; Reno, Nevada; and Mobile, Alabama.\"",
+      "\"The delegates came from Austin, Texas: Reno, Nevada: and Mobile, Alabama.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The semicolon correctly joins two complete, related statements.\n**Key concept:** Semicolons.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** When list items contain internal commas, semicolons mark the boundaries between items so the reader can tell where each one ends.\n\n**Key concept:** Semicolons in a complex series",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly punctuates a nonrestrictive clause?",
+    "question": "Which sentence uses a colon correctly?",
     "options": [
-      "Dr. Chen who studies bats, presented the findings.",
-      "Dr. Chen, who studies bats, presented the findings.",
-      "Dr. Chen, who studies bats presented, the findings.",
-      "Dr. Chen who studies bats presented, the findings."
+      "\"The kit contains: a compass, a whistle, and a map.\"",
+      "\"The kit contains three items: a compass, a whistle, and a map.\"",
+      "\"The kit contains three items, a compass, a whistle: and a map.\"",
+      "\"The kit: contains three items, a compass, a whistle, and a map.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The clause adds nonessential information about Dr. Chen and needs commas.\n**Key concept:** Nonrestrictive clauses.",
+    "explanation": "**Explanation:** A colon follows a complete independent clause. It must not stand between a verb and its object.\n\n**Key concept:** Colons after complete clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a colon correctly?",
+    "question": "What is the effect of the dashes in \"The proposal — all four hundred pages of it — arrived on Friday\"?",
     "options": [
-      "The vote had one result: the proposal passed.",
-      "The vote: had one result the proposal passed.",
-      "The vote had: one result the proposal passed.",
-      "The vote had one: result the proposal passed."
+      "They set off an interruption more emphatically than commas or parentheses would.",
+      "They indicate that words have been omitted from a quotation.",
+      "They join two independent clauses that could stand alone.",
+      "They mark a range of numbers."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The complete statement before the colon introduces its result.\n**Key concept:** Colons.",
+    "explanation": "**Explanation:** Dashes give an aside more force than commas and more prominence than parentheses. Omission is marked by ellipses, and a range uses an en dash without spaces.\n\n**Key concept:** Dashes for emphatic interruption",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an em dash?",
+    "question": "Which sentence uses parentheses appropriately?",
     "options": [
-      "The forecast offered one surprise—snow in April.",
-      "The forecast offered one surprise- snow in April.",
-      "The forecast offered one surprise--snow in April.",
-      "The forecast offered one surprise -snow in April."
+      "\"(The survey conducted in March) reached 1,200 households.\"",
+      "\"The survey (conducted in March reached 1,200 households).\"",
+      "\"The survey conducted in March (reached 1,200 households.\"",
+      "\"The survey (conducted in March) reached 1,200 households.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The dash introduces an emphasized explanation of the surprise.\n**Key concept:** Dashes.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Parentheses enclose a complete parenthetical unit and leave the main sentence grammatical when they are removed. The others swallow parts of the main clause or leave a bracket unclosed.\n\n**Key concept:** Parentheses for supplementary information",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly punctuates a quotation interrupted by attribution?",
+    "question": "Which use of an ellipsis is correct?",
     "options": [
-      "\"We will leave,\" said Ava \"after lunch.\"",
-      "\"We will leave,\" said Ava, \"after lunch.\"",
-      "\"We will leave\" said Ava, \"after lunch.\"",
-      "\"We will leave,\" said Ava. \"after lunch.\""
+      "\"The report concluded that the levee ... ... had never been inspected.\"",
+      "\"The report concluded that the levee...........had never been inspected.\"",
+      "\"The report concluded that the levee ... had never been inspected.\"",
+      "\"The report concluded that the levee had never been inspected ...\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Commas separate the quoted parts from the interrupting attribution.\n**Key concept:** Interrupted quotations.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Three spaced dots mark words omitted from within a quotation. A row of dots or a doubled ellipsis is not standard, and the fourth changes the meaning by suggesting the sentence trails off.\n\n**Key concept:** Ellipses in quotations",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a comma correctly after an introductory dependent clause?",
+    "question": "Which sentence handles a quotation within a quotation correctly?",
     "options": [
-      "While the paint dried we cleaned the brushes.",
-      "While the paint dried, we cleaned the brushes.",
-      "While, the paint dried we cleaned the brushes.",
-      "While the paint, dried, we cleaned the brushes."
+      "\"The clerk testified, ‘He said, ‘The gate was open,’ and then he left.’\"",
+      "\"The clerk testified, ‘He said, \"The gate was open,\" and then he left.’\"",
+      "\"The clerk testified, \"He said, \"The gate was open,\" and then he left.\"\"",
+      "\"The clerk testified: He said, \"The gate was open\" and then he left.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A comma follows the introductory dependent clause.\n**Key concept:** Introductory clauses.",
+    "explanation": "**Explanation:** An inner quotation alternates marks with the outer one, so the reader can see where each begins and ends. Using the same mark for both makes the nesting unreadable.\n\n**Key concept:** Nested quotations",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses an apostrophe with a plural noun?",
+    "question": "Which sentence uses square brackets correctly?",
     "options": [
-      "The teachers lounge was renovated.",
-      "The teacher's lounge was renovated.",
-      "The teachers' lounge was renovated.",
-      "The teachers's lounge was renovated."
+      "\"The memo stated that \"[the plant] had exceeded its permit for eleven months.\"\"",
+      "\"The memo stated that \"(the plant) had exceeded its permit for eleven months.\"\"",
+      "\"The memo stated that \"the plant [had exceeded its permit] for eleven months.\"\"",
+      "\"The memo stated that the plant [had exceeded its permit for eleven months].\""
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The apostrophe after the plural noun shows that the lounge belongs to multiple teachers.\n**Key concept:** Plural possessives.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Square brackets mark the writer’s own insertion into quoted material — here, replacing a pronoun with the noun it referred to. Parentheses inside a quotation would appear to be the source’s own.\n\n**Key concept:** Brackets for editorial insertions",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses parentheses for nonessential information?",
+    "question": "Which sentence uses a semicolon rather than a colon correctly?",
     "options": [
-      "The observatory opens at 8 p.m. (weather permitting).",
-      "The observatory (opens at 8 p.m. weather permitting.",
-      "The observatory opens at (8 p.m. weather permitting).",
-      "The observatory opens) at 8 p.m. (weather permitting."
+      "\"The vote failed; and three members had already left the building.\"",
+      "\"The vote failed: three members had already left the building; and the chair adjourned.\"",
+      "\"The vote failed; because three members had already left the building.\"",
+      "\"The vote failed; three members had already left the building.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The parenthetical phrase adds extra information without interrupting the main sentence.\n**Key concept:** Parentheses.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Two independent clauses of equal weight take a semicolon, with no conjunction after it. A colon would signal that the second clause explains the first, which is a different relationship.\n\n**Key concept:** Semicolon versus colon",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a hyphen correctly in a compound modifier?",
+    "question": "Which sentence punctuates the interrupted quotation correctly?",
     "options": [
-      "We attended a three day workshop.",
-      "We attended a three-day workshop.",
-      "We attended a three- day workshop.",
-      "We attended a threeday workshop."
+      "\"‘The seal was intact.’ the inspector said, ‘when we arrived.’\"",
+      "\"‘The seal was intact,’ the inspector said, ‘When we arrived.’\"",
+      "\"‘The seal was intact,’ the inspector said, ‘when we arrived.’\"",
+      "\"‘The seal was intact’, the inspector said ‘when we arrived.’\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Three-day is a compound modifier placed before workshop.\n**Key concept:** Hyphens.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** When a single quoted sentence is interrupted, the second half resumes in lower case and the attribution is set off by commas.\n\n**Key concept:** Interrupted quotations",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly punctuates a direct question?",
+    "question": "What does an em dash accomplish in \"She had one requirement — silence\"?",
     "options": [
-      "The guide asked, \"Are we ready to begin?\"",
-      "The guide asked \"Are we ready to begin?\"",
-      "The guide asked, \"Are we ready to begin\".",
-      "The guide asked \"Are we ready to begin\"."
+      "It shows that the sentence is incomplete.",
+      "It isolates the final word for emphasis, delaying and then delivering it.",
+      "It indicates a range between two values.",
+      "It replaces a semicolon between two independent clauses."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The direct question begins with a capital letter and keeps its question mark inside quotation marks.\n**Key concept:** Direct quotations.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** A dash before a single word gives it the weight of an arrival. *Silence* is not a clause, so no semicolon is possible here.\n\n**Key concept:** Dash for delayed emphasis",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an ellipsis to show omitted words?",
+    "question": "Which sentence uses a comma and a coordinating conjunction correctly?",
     "options": [
-      "The article states, \"The river . . . supports many species.\"",
-      "The article states, \"The river. . . supports many species.\"",
-      "The article states, \"The river . . .supports many species.\"",
-      "The article states, \"The river... supports many species.\""
+      "\"The pumps were tested in April, but the valves were not.\"",
+      "\"The pumps were tested in April but, the valves were not.\"",
+      "\"The pumps were tested in April, but, the valves were not.\"",
+      "\"The pumps were tested in April; but the valves were not.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The ellipsis marks words omitted from the middle of the quotation.\n**Key concept:** Ellipses.",
+    "explanation": "**Explanation:** The comma goes before the conjunction, not after it, when two independent clauses are joined.\n\n**Key concept:** Comma placement with coordinating conjunctions",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a comma to avoid misreading?",
+    "question": "Which sentence uses an apostrophe correctly in a plural abbreviation or figure?",
     "options": [
-      "After eating the dogs rested.",
-      "After eating, the dogs rested.",
-      "After, eating the dogs rested.",
-      "After eating the, dogs rested."
+      "\"The report covers the 1990’s and lists three PhDs on the panel.\"",
+      "\"The report covers the 1990’s and lists three PhD’s on the panel.\"",
+      "\"The report covers the 1990s and lists three PhD’s on the panel.\"",
+      "\"The report covers the 1990s and lists three PhDs on the panel.\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The comma clarifies that the dogs ate rather than were eaten.\n**Key concept:** Commas for clarity.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Plurals of decades and abbreviations take a plain *s* with no apostrophe; the apostrophe would signal possession.\n\n**Key concept:** Plurals of figures and abbreviations",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence capitalizes a proper adjective correctly?",
+    "question": "Which sentence correctly uses a colon before a quotation?",
     "options": [
-      "We studied french poetry.",
-      "We studied French poetry.",
-      "We studied French Poetry.",
-      "We studied french Poetry."
+      "\"The chair said only this, ‘we will vote again in March.’\"",
+      "\"The chair said: only this ‘We will vote again in March.’\"",
+      "\"The chair said only this: ‘We will vote again in March.’\"",
+      "\"The chair: said only this ‘We will vote again in March.’\""
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** French is a proper adjective derived from a place name.\n**Key concept:** Capitalization.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A colon may introduce a quotation when what precedes it is a complete clause, and a quoted sentence begins with a capital.\n\n**Key concept:** Colons introducing quotations",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a slash?",
+    "question": "Which sentence uses a hyphen, en dash and em dash appropriately?",
     "options": [
-      "Bring a parent/guardian signature.",
-      "Bring a parent / guardian signature.",
-      "Bring a parent/ guardian signature.",
-      "Bring a parent /guardian signature."
+      "\"The 2019-2021 study – a three—year effort – covered forty sites.\"",
+      "\"The 2019–2021 study — a three-year effort — covered forty sites.\"",
+      "\"The 2019—2021 study - a three–year effort - covered forty sites.\"",
+      "\"The 2019 – 2021 study—a three - year effort—covered forty sites.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The slash correctly shows that either a parent or guardian may sign.\n**Key concept:** Slashes.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** An en dash marks a range, a hyphen joins a compound modifier, and em dashes set off the aside. Each mark has one job.\n\n**Key concept:** Distinguishing the three dashes",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence has correct punctuation for a compound sentence?",
+    "question": "Which revision best replaces the comma splice in \"The tank was empty, nobody had logged the transfer\"?",
     "options": [
-      "The sun set, and the temperature fell.",
-      "The sun set and, the temperature fell.",
-      "The sun, set and the temperature fell.",
-      "The sun set, and, the temperature fell."
+      "\"The tank was empty; nobody had logged the transfer.\"",
+      "\"The tank was empty, however nobody had logged the transfer.\"",
+      "\"The tank was empty, nobody, had logged the transfer.\"",
+      "\"The tank was empty: nobody had logged the transfer, and so on.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The comma and conjunction link two independent clauses.\n**Key concept:** Compound sentences.",
+    "explanation": "**Explanation:** A semicolon joins two closely related independent clauses. Adding *however* without a semicolon leaves the splice in place.\n\n**Key concept:** Repairing a comma splice",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a dash to add an abrupt final detail?",
+    "question": "Which sentence uses quotation marks correctly for a term being introduced?",
     "options": [
-      "We checked every room—except the attic.",
-      "We checked every room- except the attic.",
-      "We checked every room--except the attic.",
-      "We checked every room -except the attic."
+      "\"Engineers call this \"failure mode creep,\" and it is slow by definition.\"",
+      "\"Engineers call this failure mode creep, and it is slow by definition.\"",
+      "\"Engineers call this failure mode \"creep\", and it is slow by definition.\"",
+      "\"Engineers call this failure mode \"creep,\" and it is slow by definition.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The dash adds an abrupt, emphatic exception.\n**Key concept:** Dashes for interruption.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Quotation marks can introduce a term, and in American usage the following comma sits inside the closing mark. The fourth option encloses the wrong span.\n\n**Key concept:** Quotation marks for introduced terms",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence punctuates a book title correctly?",
+    "question": "What is the stylistic difference between \"The plan failed, and the funding was withdrawn\" and \"The plan failed; the funding was withdrawn\"?",
     "options": [
-      "I borrowed The House on Mango Street from the library.",
-      "I borrowed \"The House on Mango Street\" from the library.",
-      "I borrowed 'The House on Mango Street' from the library.",
-      "I borrowed THE HOUSE ON MANGO STREET from the library."
+      "The semicolon version means the two events were unrelated.",
+      "The semicolon version is grammatically incorrect.",
+      "The semicolon leaves the connection for the reader to infer; *and* states it flatly.",
+      "The two versions are identical in every respect."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** A book title is capitalized and conventionally italicized in published writing.\n**Key concept:** Titles of books.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Both are correct. Choosing a semicolon removes the connective and asks the reader to supply the relationship, which tightens the prose.\n\n**Key concept:** Punctuation as a stylistic choice",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses a comma with a direct address?",
+    "question": "Which sentence uses a comma correctly with coordinate adjectives?",
     "options": [
-      "Please submit your draft, Jordan.",
-      "Please, submit your draft Jordan.",
-      "Please submit, your draft Jordan.",
-      "Please, submit your draft, Jordan."
+      "\"It was a long difficult, negotiation.\"",
+      "\"It was a long, difficult negotiation.\"",
+      "\"It was a long, difficult, negotiation.\"",
+      "\"It was a, long difficult negotiation.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The comma separates the person's name in a direct address.\n**Key concept:** Direct address.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Coordinate adjectives — those that could be reversed or joined by *and* — are separated by a comma, but no comma falls between the last adjective and the noun.\n\n**Key concept:** Commas between coordinate adjectives",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a colon to introduce an explanation?",
+    "question": "Which sentence uses a colon correctly between two independent clauses?",
     "options": [
-      "The answer was clear: the valve had been closed.",
-      "The answer: was clear the valve had been closed.",
-      "The answer was: clear the valve had been closed.",
-      "The answer was clear the valve: had been closed."
+      "\"The result surprised nobody: the same test had failed twice before.\"",
+      "\"The result surprised nobody: and the same test had failed twice before.\"",
+      "\"The result surprised nobody: the same test, had failed twice before.\"",
+      "\"The result: surprised nobody, the same test had failed twice before.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The complete clause introduces an explanation after the colon.\n**Key concept:** Colons.",
+    "explanation": "**Explanation:** A colon may join two independent clauses when the second explains or amplifies the first. No conjunction follows it.\n\n**Key concept:** Colons between clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses quotation marks correctly for an article title?",
+    "question": "Which sentence handles an omission at the end of a quoted sentence correctly?",
     "options": [
-      "We discussed \"How Wetlands Work\" in science.",
-      "We discussed How Wetlands Work in science.",
-      "We discussed 'How Wetlands Work' in science.",
-      "We discussed [How Wetlands Work] in science."
+      "\"The clause reads, ‘All parties shall be notified in writing …….’\"",
+      "\"The clause reads, ‘All parties shall be notified in writing..’\"",
+      "\"The clause reads, ‘All parties shall be notified in writing ..’\"",
+      "\"The clause reads, ‘All parties shall be notified in writing ....’\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Article titles are placed in quotation marks.\n**Key concept:** Titles of short works.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** An omission at the end of a quoted sentence takes the sentence’s own full stop followed by the three-dot ellipsis — four dots in all.\n\n**Key concept:** Ellipsis at the end of a sentence",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly uses commas around an interrupter?",
+    "question": "Which sentence uses a comma correctly with a direct address?",
     "options": [
-      "The plan, however, required more funding.",
-      "The plan however required, more funding.",
-      "The plan however, required more funding.",
-      "The plan, however required more funding."
+      "\"Members, of the board the figures on page four are provisional.\"",
+      "\"Members of the board the figures on page four are provisional.\"",
+      "\"Members of the board, the figures on page four are provisional.\"",
+      "\"Members of the board the figures, on page four are provisional.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Commas correctly set off the interrupting adverb however.\n**Key concept:** Interrupters.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A noun of direct address is set off from the rest of the sentence by a comma.\n\n**Key concept:** Commas with direct address",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an apostrophe correctly in a contraction?",
+    "question": "Which sentence uses a slash appropriately in formal writing?",
     "options": [
-      "The robotics team doesnt meet today.",
-      "The robotics team doesn't meet today.",
-      "The robotics team doesnt' meet today.",
-      "The robotics team does'nt meet today."
+      "\"Each applicant must supply his/her/their transcript.\"",
+      "\"Each applicant must supply his/her transcript\" is better rewritten as \"Applicants must supply their transcripts.\"",
+      "\"Each applicant must supply his / her transcript.\"",
+      "\"Each applicant must supply his/her transcript, and/or a reference.\""
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Doesn't correctly contracts does not with the apostrophe replacing omitted letters.\n**Key concept:** Contractions.",
+    "explanation": "**Explanation:** The slash is a shortcut that formal prose usually avoids; recasting the sentence in the plural removes the need for it. Stacking more slashes makes the problem worse.\n\n**Key concept:** Avoiding the slash in formal prose",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence correctly punctuates a sentence with two adjectives before a noun?",
+    "question": "Which sentence punctuates a nonrestrictive clause correctly?",
     "options": [
-      "We crossed a narrow, rocky ridge.",
-      "We crossed a narrow rocky, ridge.",
-      "We crossed, a narrow rocky ridge.",
-      "We crossed a, narrow, rocky ridge."
+      "\"The final report, which ran to 300 pages, was never published.\"",
+      "\"The final report which ran to 300 pages, was never published.\"",
+      "\"The final report, which ran to 300 pages was never published.\"",
+      "\"The final report which ran to 300 pages was never published, sadly.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Narrow and rocky are coordinate adjectives that equally describe ridge.\n**Key concept:** Commas between adjectives.",
+    "explanation": "**Explanation:** A nonrestrictive clause is enclosed by commas at both ends. One comma leaves the clause half-fenced; none makes it restrictive.\n\n**Key concept:** Commas with nonrestrictive clauses",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence punctuates an indirect question correctly?",
+    "question": "A writer uses seven dashes in one paragraph. What is the most likely problem?",
     "options": [
-      "I asked whether the museum was open?",
-      "I asked whether the museum was open.",
-      "I asked, whether the museum was open?",
-      "I asked, whether the museum was open."
+      "A paragraph may contain at most two punctuation marks of any kind.",
+      "Dashes are not permitted in formal writing.",
+      "Dashes must always come in pairs.",
+      "Overuse drains the dash of the emphasis that makes it useful."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** An indirect question is reported as a statement and ends with a period.\n**Key concept:** Indirect questions.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The dash works by interruption, and an interruption that happens constantly stops registering. Dashes are perfectly formal and may appear singly.\n\n**Key concept:** Restraint with emphatic punctuation",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "advanced_punctuation_style",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses a semicolon correctly to separate complex list items?",
+    "question": "Which sentence correctly punctuates an introductory prepositional phrase that needs no comma?",
     "options": [
-      "The route includes Austin, Texas; Tulsa, Oklahoma; and Denver, Colorado.",
-      "The route includes Austin, Texas,; Tulsa, Oklahoma,; and Denver, Colorado.",
-      "The route includes: Austin, Texas; Tulsa, Oklahoma; and Denver, Colorado.",
-      "The route includes Austin; Texas, Tulsa; Oklahoma, and Denver; Colorado."
+      "\"In March, the committee, met twice.\"",
+      "\"In, March the committee met twice.\"",
+      "\"In March the committee met twice.\"",
+      "\"In March the committee, met twice.\""
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Semicolons separate list items that already contain internal commas.\n**Key concept:** Semicolons in complex series.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** A short introductory phrase may go without a comma, but a comma must never separate a subject from its verb.\n\n**Key concept:** Optional and forbidden commas",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.111...?",
+    "question": "Which fraction is equivalent to the repeating decimal \\(0.\\overline{1}\\)?",
     "options": [
-      "1/100",
-      "1/10",
-      "1/9",
-      "2/9"
+      "\\(\\frac{1}{10}\\)",
+      "\\(\\frac{1}{100}\\)",
+      "\\(\\frac{1}{9}\\)",
+      "\\(\\frac{2}{9}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 1/9 = 1/9.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** A single digit repeating forever equals that digit over \\(9\\), so \\(0.111\\ldots = \\frac{1}{9}\\). Because it can be written as a ratio of integers, it is rational.\n\n**Key concept:** Repeating decimals are rational",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.222...?",
+    "question": "What is \\(10^4 \\times 0.01\\)?",
     "options": [
-      "1/5",
-      "2/9",
-      "1/50",
-      "1/3"
+      "\\(10{,}000\\)",
+      "\\(100\\)",
+      "\\(1{,}000{,}000\\)",
+      "\\(0.01\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 2/9 = 2/9.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** \\(0.01 = 10^{-2}\\), so the product is \\(10^{4-2} = 10^2 = 100\\). Multiplying powers of the same base adds the exponents.\n\n**Key concept:** Powers of ten",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.333...?",
+    "question": "Which of these numbers belongs to the set of **integers** but **not** the set of whole numbers?",
     "options": [
-      "1/3",
-      "3/10",
-      "3/100",
-      "4/9"
+      "\\(-7\\)",
+      "\\(0\\)",
+      "\\(3.5\\)",
+      "\\(\\frac{1}{2}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 3/9 = 1/3.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Whole numbers start at \\(0\\) and go up. Integers add the negatives, so \\(-7\\) is an integer but not a whole number. The two fractions are rational but not integers.\n\n**Key concept:** Subsets of the rational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.444...?",
+    "question": "Every integer is also which of the following?",
     "options": [
-      "5/9",
-      "2/5",
-      "1/25",
-      "4/9"
+      "A natural number",
+      "An irrational number",
+      "A whole number",
+      "A rational number"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 4/9 = 4/9.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Any integer \\(n\\) can be written as \\(\\frac{n}{1}\\), so it is rational. Negative integers are neither whole nor natural numbers.\n\n**Key concept:** Integers are a subset of the rationals",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is 10 to the power of 4 multiplied by 0.01?",
+    "question": "What is \\(3^4 \\times 3^{-2}\\)?",
     "options": [
-      "10000",
-      "1000000",
-      "100",
-      "0.01"
+      "\\(81\\)",
+      "\\(3^{-8}\\)",
+      "\\(9\\)",
+      "\\(\\frac{1}{9}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** 0.01 equals 10 to the power of -2, so the product is 10 to the power of 2, or 100.\n\n**Key concept:** Powers of ten",
+    "explanation": "**Explanation:** Multiplying powers of the same base adds exponents: \\(3^{4 + (-2)} = 3^2 = 9\\).\n\n**Key concept:** Product rule for exponents",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.555...?",
+    "question": "What is \\(\\frac{5^6}{5^8}\\)?",
     "options": [
-      "1/2",
-      "5/9",
-      "1/20",
-      "2/3"
+      "\\(25\\)",
+      "\\(\\frac{1}{25}\\)",
+      "\\(5^{14}\\)",
+      "\\(-25\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 5/9 = 5/9.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Dividing subtracts exponents: \\(5^{6-8} = 5^{-2} = \\frac{1}{5^2} = \\frac{1}{25}\\). A negative exponent gives a reciprocal, not a negative number.\n\n**Key concept:** Negative exponents give reciprocals",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.666...?",
+    "question": "What is \\(\\left(2^3\\right)^2\\)?",
     "options": [
-      "2/3",
-      "3/5",
-      "3/50",
-      "7/9"
+      "\\(64\\)",
+      "\\(32\\)",
+      "\\(12\\)",
+      "\\(2^5\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 6/9 = 2/3.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** A power raised to a power multiplies the exponents: \\(2^{3 \\times 2} = 2^6 = 64\\).\n\n**Key concept:** Power of a power",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.777...?",
+    "question": "Write \\(0.00042\\) in scientific notation.",
     "options": [
-      "8/9",
-      "7/10",
-      "7/100",
-      "7/9"
+      "\\(0.42 \\times 10^{-3}\\)",
+      "\\(4.2 \\times 10^{4}\\)",
+      "\\(42 \\times 10^{-5}\\)",
+      "\\(4.2 \\times 10^{-4}\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 7/9 = 7/9.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Move the decimal point four places right to get \\(4.2\\), so the exponent is \\(-4\\). Scientific notation requires exactly one non-zero digit before the decimal point, which rules out \\(42\\) and \\(0.42\\).\n\n**Key concept:** Scientific notation for small numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.888...?",
+    "question": "Which value is **largest**?",
     "options": [
-      "2/25",
-      "4/5",
-      "8/9",
-      "1"
+      "\\(3.4 \\times 10^{4}\\)",
+      "\\(9.8 \\times 10^{5}\\)",
+      "\\(2.1 \\times 10^{6}\\)",
+      "\\(7.7 \\times 10^{5}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A single digit repeated forever is that digit over 9: 8/9 = 8/9.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Compare the exponents first. \\(10^6\\) beats every \\(10^5\\) and \\(10^4\\) here, regardless of the leading digits.\n\n**Key concept:** Comparing numbers in scientific notation",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is 10 to the power of 3 multiplied by 0.01?",
+    "question": "A red blood cell is about \\(7 \\times 10^{-6}\\) metre across. A grain of sand is about \\(5 \\times 10^{-4}\\) metre. About how many times wider is the grain of sand?",
     "options": [
-      "100000",
-      "10",
-      "1000",
-      "0.01"
+      "About \\(35\\) times",
+      "About \\(71\\) times",
+      "About \\(100\\) times",
+      "About \\(1.4\\) times"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** 0.01 equals 10 to the power of -2, so the product is 10 to the power of 1, or 10.\n\n**Key concept:** Powers of ten",
+    "explanation": "**Explanation:** Divide: \\(\\frac{5 \\times 10^{-4}}{7 \\times 10^{-6}} = \\frac{5}{7} \\times 10^{2} \\approx 0.714 \\times 100 \\approx 71\\).\n\n**Key concept:** Dividing in scientific notation",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.1212...?",
+    "question": "Which number is between \\(\\sqrt{20}\\) and \\(\\sqrt{30}\\)?",
     "options": [
-      "4/33",
-      "3/25",
-      "3/250",
-      "13/99"
+      "\\(5\\)",
+      "\\(4\\)",
+      "\\(6\\)",
+      "\\(25\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 12/99 = 4/33.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** \\(\\sqrt{20} \\approx 4.47\\) and \\(\\sqrt{30} \\approx 5.48\\). Only \\(5\\) lies between them.\n\n**Key concept:** Locating irrational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.1515...?",
+    "question": "Which statement is **false**?",
     "options": [
-      "16/99",
-      "3/20",
-      "3/200",
-      "5/33"
+      "Every natural number is a whole number.",
+      "Every integer is a rational number.",
+      "Every whole number is an integer.",
+      "Every rational number is an integer."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 15/99 = 5/33.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** \\(\\frac{1}{2}\\) is rational but is not an integer, so the first statement fails. The other three describe correct subset relationships.\n\n**Key concept:** Relationships between number sets",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.1818...?",
+    "question": "Which fraction equals \\(0.\\overline{27}\\)?",
     "options": [
-      "9/500",
-      "9/50",
-      "2/11",
-      "19/99"
+      "\\(\\frac{27}{90}\\)",
+      "\\(\\frac{27}{100}\\)",
+      "\\(\\frac{3}{11}\\)",
+      "\\(\\frac{27}{999}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 18/99 = 2/11.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** A two-digit repeating block sits over \\(99\\): \\(\\frac{27}{99}\\), which reduces to \\(\\frac{3}{11}\\). Using \\(100\\) gives the terminating \\(0.27\\), \\(90\\) is the pattern for one repeating digit after a fixed digit, and \\(999\\) is for a three-digit block.\n\n**Key concept:** Converting repeating decimals to fractions",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.2121...?",
+    "question": "What is \\(\\left(\\frac{2}{3}\\right)^{-2}\\)?",
     "options": [
-      "21/100",
-      "7/33",
-      "21/1000",
-      "2/9"
+      "\\(\\frac{4}{9}\\)",
+      "\\(\\frac{9}{4}\\)",
+      "\\(-\\frac{4}{9}\\)",
+      "\\(\\frac{3}{2}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 21/99 = 7/33.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** A negative exponent flips the fraction: \\(\\left(\\frac{3}{2}\\right)^{2} = \\frac{9}{4}\\).\n\n**Key concept:** Negative exponent on a fraction",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is 10 to the power of 2 multiplied by 0.01?",
+    "question": "The distance from Earth to the Sun is about \\(1.5 \\times 10^{8}\\) km. Light travels about \\(3 \\times 10^{5}\\) km per second. About how long does sunlight take to reach Earth?",
     "options": [
-      "1",
-      "10000",
-      "100",
-      "0.01"
+      "About \\(500\\) seconds",
+      "About \\(50\\) seconds",
+      "About \\(5{,}000\\) seconds",
+      "About \\(4.5 \\times 10^{13}\\) seconds"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** 0.01 equals 10 to the power of -2, so the product is 10 to the power of 0, or 1.\n\n**Key concept:** Powers of ten",
+    "explanation": "**Explanation:** Time is distance divided by speed: \\(\\frac{1.5 \\times 10^{8}}{3 \\times 10^{5}} = 0.5 \\times 10^{3} = 500\\) seconds, a little over eight minutes.\n\n**Key concept:** Scientific notation in a rate problem",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.2424...?",
+    "question": "Which is the best estimate of \\(\\sqrt{85}\\) to the nearest tenth?",
     "options": [
-      "25/99",
-      "6/25",
-      "3/125",
-      "8/33"
+      "\\(42.5\\)",
+      "\\(8.5\\)",
+      "\\(9.5\\)",
+      "\\(9.2\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 24/99 = 8/33.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** \\(9^2 = 81\\) and \\(9.2^2 = 84.64\\), while \\(9.3^2 = 86.49\\). So \\(\\sqrt{85}\\) is closest to \\(9.2\\).\n\n**Key concept:** Approximating a square root",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.2727...?",
+    "question": "Which set contains **only** irrational numbers?",
     "options": [
-      "27/1000",
-      "27/100",
-      "3/11",
-      "28/99"
+      "\\(\\sqrt{16},; \\sqrt{25},; \\sqrt{36}\\)",
+      "\\(\\pi,; \\sqrt{9},; 0.\\overline{3}\\)",
+      "\\(\\pi,; \\sqrt{2},; \\sqrt{15}\\)",
+      "\\(0.5,; \\frac{7}{8},; \\sqrt{4}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 27/99 = 3/11.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** \\(\\pi\\) never terminates or repeats, and neither \\(2\\) nor \\(15\\) is a perfect square. In the other sets, \\(\\sqrt{9} = 3\\), \\(\\sqrt{16} = 4\\) and \\(\\sqrt{4} = 2\\) are all rational.\n\n**Key concept:** Identifying irrational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.3636...?",
+    "question": "Simplify \\(\\frac{4^5 \\times 4^{-3}}{4^{-1}}\\).",
     "options": [
-      "9/25",
-      "4/11",
-      "9/250",
-      "37/99"
+      "\\(16\\)",
+      "\\(64\\)",
+      "\\(4\\)",
+      "\\(\\frac{1}{64}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 36/99 = 4/11.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Add the exponents in the numerator: \\(4^{5-3} = 4^{2}\\). Dividing by \\(4^{-1}\\) subtracts \\(-1\\), giving \\(4^{2-(-1)} = 4^{3} = 64\\).\n\n**Key concept:** Combining exponent rules",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.4242...?",
+    "question": "Which expression equals \\(6.4 \\times 10^{3}\\)?",
     "options": [
-      "14/33",
-      "21/50",
-      "21/500",
-      "43/99"
+      "\\(64 \\times 10^{2}\\)",
+      "\\(6.4 \\times 10^{-3}\\)",
+      "\\(0.64 \\times 10^{2}\\)",
+      "\\(640 \\times 10^{2}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 42/99 = 14/33.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Moving the decimal one place right multiplies by \\(10\\), so the exponent drops by one: \\(6.4 \\times 10^3 = 64 \\times 10^2 = 6{,}400\\).\n\n**Key concept:** Equivalent forms of scientific notation",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is 10 to the power of 5 multiplied by 0.001?",
+    "question": "Where does \\(-\\frac{11}{4}\\) belong on a number line?",
     "options": [
-      "0",
-      "100000000",
-      "100000",
-      "100"
+      "Between \\(-12\\) and \\(-11\\)",
+      "Between \\(-3\\) and \\(-2\\), closer to \\(-2\\)",
+      "Between \\(2\\) and \\(3\\)",
+      "Between \\(-3\\) and \\(-2\\), closer to \\(-3\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** 0.001 equals 10 to the power of -3, so the product is 10 to the power of 2, or 100.\n\n**Key concept:** Powers of ten",
+    "explanation": "**Explanation:** \\(-\\frac{11}{4} = -2.75\\), which sits three-quarters of the way from \\(-2\\) toward \\(-3\\).\n\n**Key concept:** Placing rationals on a number line",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.4545...?",
+    "question": "What is \\(\\left(-3\\right)^{0} + 5^{0}\\)?",
     "options": [
-      "9/200",
-      "9/20",
-      "5/11",
-      "46/99"
+      "\\(1\\)",
+      "\\(0\\)",
+      "\\(2\\)",
+      "\\(8\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 45/99 = 5/11.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Any non-zero number raised to the power \\(0\\) equals \\(1\\), so the sum is \\(1 + 1 = 2\\).\n\n**Key concept:** Zero exponent",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.5454...?",
+    "question": "A country’s national debt is about \\(3.1 \\times 10^{13}\\) dollars and its population is about \\(3.4 \\times 10^{8}\\). About how much is that per person?",
     "options": [
-      "27/50",
-      "6/11",
-      "27/500",
-      "5/9"
+      "About \\(\\$9{,}100\\)",
+      "About \\(\\$91{,}000\\)",
+      "About \\(\\$910{,}000\\)",
+      "About \\(\\$1.05 \\times 10^{22}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 54/99 = 6/11.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Divide: \\(\\frac{3.1}{3.4} \\approx 0.91\\) and \\(\\frac{10^{13}}{10^{8}} = 10^{5}\\), so \\(0.91 \\times 100{,}000 \\approx 91{,}000\\) dollars.\n\n**Key concept:** Per-unit values in scientific notation",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.5757...?",
+    "question": "Which decimal is equivalent to \\(\\frac{5}{11}\\)?",
     "options": [
-      "19/33",
-      "57/100",
-      "57/1000",
-      "58/99"
+      "\\(0.\\overline{45}\\)",
+      "\\(0.45\\)",
+      "\\(0.4\\overline{5}\\)",
+      "\\(0.5\\overline{4}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 57/99 = 19/33.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** Dividing \\(5\\) by \\(11\\) gives \\(0.454545\\ldots\\), with the whole block \\(45\\) repeating rather than a single digit.\n\n**Key concept:** Long division reveals the repeating block",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which fraction is equivalent to the repeating decimal 0.6363...?",
+    "question": "Between which two consecutive integers does \\(\\sqrt{130}\\) lie?",
     "options": [
-      "64/99",
-      "63/100",
-      "63/1000",
-      "7/11"
+      "\\(64\\) and \\(65\\)",
+      "\\(10\\) and \\(11\\)",
+      "\\(12\\) and \\(13\\)",
+      "\\(11\\) and \\(12\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A two-digit block repeated forever is that block over 99: 63/99 = 7/11.\n\n**Key concept:** Repeating decimals as rational numbers",
+    "explanation": "**Explanation:** \\(11^2 = 121\\) and \\(12^2 = 144\\), and \\(121 < 130 < 144\\).\n\n**Key concept:** Bounding a square root by perfect squares",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "advanced_number_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is 10 to the power of 3 multiplied by 0.0001?",
+    "question": "A square has area \\(2\\) square metres. What is the exact length of one side?",
     "options": [
-      "1000",
-      "10000000",
-      "0.1",
-      "0"
+      "\\(4\\) m",
+      "\\(1\\) m",
+      "\\(\\sqrt{2}\\) m",
+      "\\(0.5\\) m"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** 0.0001 equals 10 to the power of -4, so the product is 10 to the power of -1, or 0.1.\n\n**Key concept:** Powers of ten",
+    "explanation": "**Explanation:** The side is the square root of the area. Because \\(2\\) is not a perfect square, \\(\\sqrt{2}\\) is irrational and cannot be written exactly as a decimal or a fraction.\n\n**Key concept:** Irrational lengths arise from real measurements",
     "source": "authored",
     "needsReview": false
   }

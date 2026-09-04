@@ -7,15 +7,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The principal's response was **measured**; she listened to each complaint before offering a careful reply.\n\nWhat does measured mean in this context?",
+    "question": "> The principal’s response was **measured**: she heard every complaint to its end, asked two questions, and only then said what she intended to do.\n\nWhat does *measured* mean in this context?",
     "options": [
-      "timed with a clock",
-      "calm and deliberate",
-      "extremely loud",
-      "impossible to count"
+      "exactly quantified",
+      "deliberate and carefully controlled",
+      "reluctant and grudging",
+      "unusually brief"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Listening carefully and replying thoughtfully show a controlled response.\n**Key concept:** Context clues.",
+    "explanation": "**Explanation:** The surrounding actions — hearing each complaint fully, asking before answering — describe restraint and care. The literal sense of measuring quantity does not fit a response, and nothing suggests reluctance or brevity.\n\n**Key concept:** Context clues for a familiar word in an unfamiliar sense",
     "source": "authored",
     "needsReview": false
   },
@@ -27,7 +27,7 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The root *cred* means \"believe.\" Which word most nearly means \"able to be believed\"?",
+    "question": "The root *cred* means \"believe\". Which word most nearly means \"able to be believed\"?",
     "options": [
       "credible",
       "creditable",
@@ -35,7 +35,7 @@
       "credential"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The suffix and root combine to mean worthy of belief.\n**Key concept:** Greek and Latin roots.",
+    "explanation": "**Explanation:** The suffix *-ible* means \"able to be\", so *credible* is \"able to be believed\". *Creditable* means deserving of praise, a *creditor* is one owed money, and a *credential* is a document that establishes a claim.\n\n**Key concept:** Using roots and suffixes together",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The committee rejected the **superficial** proposal because it named a problem but offered no workable details.\n\nWhat does superficial mean?",
+    "question": "> The committee rejected the proposal as **superficial**: it named the problem accurately, but every remedy it offered stopped at the level of appearances.\n\nWhat does *superficial* mean here?",
     "options": [
-      "deeply researched",
-      "limited to the surface",
-      "carefully organized",
-      "widely accepted"
+      "excessively long",
+      "deliberately dishonest",
+      "poorly researched",
+      "concerned only with the surface"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The proposal names an issue without the depth of workable details.\n**Key concept:** Contextual meaning.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The colon introduces the definition: remedies that stop at appearances. The passage credits the proposal with naming the problem accurately, so it is neither dishonest nor badly researched.\n\n**Key concept:** Definition signalled by punctuation",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "Which sentence uses an allusion to suggest that a task is extremely difficult?",
+    "question": "The prefix *ambi-* means \"both\". What does *ambivalent* most nearly mean?",
     "options": [
-      "The puzzle was a Herculean challenge.",
-      "The puzzle had twelve pieces.",
-      "The puzzle was on the table.",
-      "The puzzle used blue ink."
+      "unable to make any decision",
+      "strongly opposed to something",
+      "having conflicting feelings at the same time",
+      "easily persuaded by others"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The allusion to Hercules suggests extraordinary strength or effort.\n**Key concept:** Allusion.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Ambi-* (\"both\") plus *valent* (\"strength\" or \"worth\") gives feelings pulling in both directions at once. That is different from opposition, from indecision generally, and from being easily swayed.\n\n**Key concept:** Prefix meaning applied to an abstract word",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The prefix *inter-* most nearly means \"between.\" Which word refers to action between nations?",
+    "question": "> Rain had **eroded** the argument as surely as it had eroded the path: not by any single blow, but by returning to the same place a thousand times.\n\nHow does the sentence use *eroded*?",
     "options": [
-      "internal",
-      "international",
-      "interrupt",
-      "interval"
+      "Literally, to describe soil washed off a hillside",
+      "Figuratively, to describe something worn away by repeated small pressures",
+      "Figuratively, to describe something destroyed in a single event",
+      "Literally, to describe a path built by rain"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** International describes relationships or actions among nations.\n**Key concept:** Prefix meaning.",
+    "explanation": "**Explanation:** The second half of the sentence rules out a single blow and insists on repetition. Applying the word to an argument is figurative, and the path comparison is the literal anchor for it.\n\n**Key concept:** Figurative extension of a literal word",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The witness gave a **reluctant** answer, pausing so long that the judge repeated the question.\n\nWhat does reluctant mean?",
+    "question": "The word *plateau* entered English from French. In \"the runner’s times reached a plateau\", what does it mean?",
     "options": [
-      "eager",
-      "unwilling",
-      "truthful",
-      "detailed"
+      "a level stretch where no further change occurs",
+      "a sudden and sharp decline",
+      "a personal record",
+      "a period of rapid improvement"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The long pause shows hesitation rather than eagerness.\n**Key concept:** Context clues.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** A plateau is literally a level tableland, and the figurative sense keeps the flatness: progress stops changing. Decline, records and rapid gains all involve movement.\n\n**Key concept:** Words adopted from other languages",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The suffix *-logy* means \"the study of.\" What does geology study?",
+    "question": "Which word contains a root meaning \"to carry\"?",
     "options": [
-      "written language",
-      "living cells",
-      "Earth and its materials",
-      "government laws"
+      "transcribe",
+      "transparent",
+      "transition",
+      "transport"
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** Geology is the study of Earth, rocks, and related materials.\n**Key concept:** Suffix meaning.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** *Port* means \"to carry\", so *transport* is \"to carry across\". *Transparent* comes from *parere* (to appear), *transition* from *ire* (to go), and *transcribe* from *scribere* (to write).\n\n**Key concept:** Distinguishing roots within a shared prefix",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "\"The reporter was a watchdog for the public\" most nearly means the reporter",
+    "question": "> He described the plan as **audacious**, and he did not entirely mean it as a compliment.\n\nWhat does the second clause tell the reader about *audacious*?",
     "options": [
-      "trained animals for city work.",
-      "monitored those in power for wrongdoing.",
-      "wrote only about pets.",
-      "protected a building at night."
+      "It is a purely negative word in every context.",
+      "It means the same as \"dishonest\".",
+      "It can carry admiration for boldness and criticism of recklessness at once.",
+      "It refers only to the size of a plan, not its nature."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** A watchdog reporter investigates and holds powerful people accountable.\n**Key concept:** Figurative language.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The concession \"not entirely\" signals that some of the praise survives. *Audacious* means daring; whether that daring is admirable or foolish depends on context.\n\n**Key concept:** Connotation shifts with context",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The coach's **stern** look ended the joking before she said a word.\n\nWhich synonym best fits stern?",
+    "question": "What does *incontrovertible* most nearly mean?",
     "options": [
-      "playful",
-      "severe",
-      "uncertain",
-      "sleepy"
+      "difficult to understand",
+      "impossible to argue against",
+      "open to several interpretations",
+      "not yet proven"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The coach's look stops joking, indicating strict seriousness.\n**Key concept:** Synonyms in context.",
+    "explanation": "**Explanation:** Break it apart: *in-* (not) + *contro-* (against) + *vert* (turn) + *-ible* (able to be). Something that cannot be turned against is beyond dispute.\n\n**Key concept:** Decoding a long word from its parts",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The root *bene* means \"good.\" Which word means \"showing kindness\"?",
+    "question": "> The treaty was **nominally** an agreement between equals; in practice one side wrote every clause.\n\nWhat does *nominally* mean here?",
     "options": [
-      "benefit",
-      "benevolent",
-      "beneficiary",
-      "benignly"
+      "in name only",
+      "officially and bindingly",
+      "from the beginning",
+      "without exception"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Benevolent describes someone who is kind and well meaning.\n**Key concept:** Root meaning.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** The semicolon sets up a contrast between what the treaty was called and what it was. *Nominally* comes from *nomen*, \"name\".\n\n**Key concept:** Contrast as a context clue",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The historian called the photograph **invaluable** because it revealed details no written record preserved.\n\nWhat does invaluable mean?",
+    "question": "A student meets the word *tenuous* while reading and wants both its meaning and its origin. Which reference is most appropriate?",
     "options": [
-      "worthless",
-      "too costly to buy",
-      "extremely useful",
-      "impossible to measure"
+      "A spell-checker, which confirms the word is correctly spelled",
+      "A thesaurus, which lists words of similar meaning",
+      "A glossary at the back of the textbook",
+      "An etymological dictionary entry, which gives the definition and traces the word’s history"
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** The photograph provides information unavailable from any written record.\n**Key concept:** Contextual meaning.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Only an etymological dictionary supplies both parts of what the student wants. A thesaurus gives synonyms without definitions, a glossary is limited to the book’s own terms, and a spell-checker addresses neither.\n\n**Key concept:** Choosing an appropriate reference",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "Which word has the most positive connotation for describing a leader?",
+    "question": "> Her praise was **grudging**, arriving three days late and wrapped in a criticism.\n\nWhat does *grudging* mean?",
     "options": [
-      "controlling",
-      "forceful",
-      "domineering",
-      "tyrannical"
+      "given publicly",
+      "given generously",
+      "given unwillingly",
+      "given in writing"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Forceful can describe strong leadership without the strongly negative sense of controlling or tyrannical.\n**Key concept:** Connotation.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** The delay and the wrapping in criticism show reluctance. Nothing in the sentence concerns generosity, an audience, or a medium.\n\n**Key concept:** Inferring meaning from accompanying detail",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The root *spect* means \"look.\" Which word means \"to examine closely\"?",
+    "question": "The suffix *-ous* forms adjectives meaning \"full of\" or \"characterised by\". What does *tenacious* describe?",
     "options": [
-      "inspect",
-      "respect",
-      "spectacle",
-      "prospect"
+      "someone who is easily discouraged",
+      "someone who holds on and will not let go",
+      "someone who is unusually delicate",
+      "someone who acts without thinking"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** To inspect is to look at or examine something closely.\n**Key concept:** Root words.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The root *ten* means \"to hold\", as in *tenant* and *retain*. Adding *-ous* gives \"characterised by holding on\".\n\n**Key concept:** Suffix plus root",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The map was **obsolete**, so the hikers downloaded one showing the new trail closures.\n\nWhat does obsolete mean?",
+    "question": "Which sentence uses an allusion to suggest that a task is extremely difficult?",
     "options": [
-      "outdated",
-      "detailed",
-      "waterproof",
-      "folded"
+      "\"Sorting the archive was a Herculean undertaking.\"",
+      "\"Sorting the archive took most of a fortnight.\"",
+      "\"Sorting the archive required patience and a good filing system.\"",
+      "\"Sorting the archive was the least popular job in the department.\""
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The map lacks current trail closures, so it is no longer up to date.\n**Key concept:** Context clues.",
+    "explanation": "**Explanation:** An allusion borrows meaning from a known story — here the labours of Hercules. The others report duration, requirements or popularity without invoking anything.\n\n**Key concept:** Recognising allusion",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "Which analogy has the same relationship as \"editor: manuscript\"?",
+    "question": "> The senator’s speech was full of **platitudes**: every sentence was true, and not one of them told the audience anything they had not already assumed.\n\nWhat does *platitudes* mean?",
     "options": [
-      "conductor : orchestra",
-      "compass : direction",
-      "seed : soil",
-      "page : chapter"
+      "insults directed at political opponents",
+      "statements that are deliberately misleading",
+      "arguments supported by detailed evidence",
+      "remarks that are unarguably true and completely unremarkable"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** An editor works with a manuscript as a conductor works with an orchestra.\n**Key concept:** Analogies.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The colon defines the term: true but empty. The passage explicitly says the sentences were true, ruling out deception, and unremarkable, ruling out detailed support.\n\n**Key concept:** Definition by elaboration",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The prefix *anti-* changes *social* to *antisocial*. What meaning does the prefix add?",
+    "question": "Which pair of words share a root meaning \"to write\"?",
     "options": [
-      "before",
-      "against",
-      "again",
-      "under"
+      "*scribble* and *scrabble*",
+      "*describe* and *description*",
+      "*inscribe* and *manuscript*",
+      "*script* and *scrap*"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** The prefix anti- means opposed to or against.\n**Key concept:** Prefixes.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Both *inscribe* and *manuscript* contain *scrib*/*script* from Latin *scribere*, \"to write\". *Describe* and *description* are the same word in two forms rather than two words sharing a root, and *scrabble* and *scrap* are unrelated.\n\n**Key concept:** Identifying a shared root across word families",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The ambassador used **diplomatic** language to disagree without insulting the other nation.\n\nWhat does diplomatic mean?",
+    "question": "Which word has the most **negative** connotation while keeping roughly the same denotation as \"thin\"?",
     "options": [
-      "tactful",
-      "secretive",
-      "emotional",
-      "accidental"
+      "slender",
+      "scrawny",
+      "lean",
+      "slim"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Diplomatic speech handles disagreement carefully and respectfully.\n**Key concept:** Contextual vocabulary.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** All four describe low body mass. *Scrawny* adds a suggestion of underfeeding or frailty, while the other three are neutral or complimentary.\n\n**Key concept:** Connotation within a synonym set",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "Which phrase is an example of a pun?",
+    "question": "The phrase *status quo* comes from Latin. What does it mean?",
     "options": [
-      "The baker said his job was a piece of cake.",
-      "The baker measured flour carefully.",
-      "The baker opened before dawn.",
-      "The baker sold bread."
+      "the existing state of affairs",
+      "a formal legal complaint",
+      "a temporary arrangement",
+      "a position of high rank"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The phrase humorously uses cake both literally and idiomatically.\n**Key concept:** Puns.",
+    "explanation": "**Explanation:** *Status* is \"state\" and *quo* is \"in which\", so the phrase names things as they currently stand — which is why it appears in arguments about whether to change something.\n\n**Key concept:** Latin phrases in English",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The suffix *-phobia* means \"fear.\" Which word means fear of heights?",
+    "question": "> Nothing in the report was false. Its **omissions**, however, made a mine that had failed four inspections sound like an unlucky accident.\n\nWhat does *omissions* mean?",
     "options": [
-      "acrophobia",
-      "biography",
-      "geography",
-      "bibliography"
+      "things repeated",
+      "things exaggerated",
+      "things invented",
+      "things left out"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** Acro- refers to height, so the word names fear of heights.\n**Key concept:** Roots and suffixes.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The first sentence rules out falsehood, so the distortion must come from what is absent. *Omission* is from *omittere*, \"to leave out\".\n\n**Key concept:** Meaning constrained by a preceding sentence",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The jury found the testimony **compelling**, and several members asked to review it again.\n\nWhat does compelling mean?",
+    "question": "What does *retrospective* most nearly mean?",
     "options": [
-      "confusing",
-      "convincing",
-      "ordinary",
-      "incomplete"
+      "happening very quickly",
+      "planning for future events",
+      "looking back on past events",
+      "occurring at regular intervals"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Compelling testimony is strong enough to persuade listeners.\n**Key concept:** Context clues.",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** *Retro-* means \"backward\" and *spect* means \"to look\" — the same root as in *spectator* and *inspect*.\n\n**Key concept:** Prefix and root combined",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "Which word has the most negative connotation?",
+    "question": "> The coach’s optimism was **unwarranted**: the team had lost nine straight, its captain was injured, and the next three opponents were all ranked above it.\n\nWhat does *unwarranted* mean?",
     "options": [
-      "thrifty",
-      "economical",
-      "miserly",
-      "careful"
+      "not expressed out loud",
+      "not justified by the facts",
+      "not shared by others",
+      "not permitted by the rules"
     ],
-    "correctIndex": 2,
-    "explanation": "**Explanation:** Miserly suggests an unpleasant unwillingness to spend or share.\n**Key concept:** Connotation.",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** The colon introduces three facts that give no support to the optimism. A *warrant* is a justification, so *unwarranted* means lacking one.\n\n**Key concept:** Evidence as a context clue",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The root *dict* means \"say.\" Which word means \"to say something will happen\"?",
+    "question": "Two dictionary entries for *sanction* give \"official approval\" and \"a penalty imposed to force compliance\". What should a reader do?",
     "options": [
-      "contradict",
-      "predict",
-      "diction",
-      "verdict"
+      "Use the surrounding sentence to decide which sense the writer intends.",
+      "Choose the first entry, since dictionaries list the most common sense first.",
+      "Treat the word as an error, since a word cannot mean opposite things.",
+      "Choose whichever meaning makes the sentence more positive."
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Predict means to say in advance what may happen.\n**Key concept:** Root words.",
+    "correctIndex": 0,
+    "explanation": "**Explanation:** Some words carry contradictory senses, and only context resolves them. Entry order varies between dictionaries, and no rule favours the more positive reading.\n\n**Key concept:** Resolving a word with opposed senses",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "> The artist made a **subtle** change to the mural, replacing one dull gray with a warmer shade.\n\nWhat does subtle mean?",
+    "question": "> The bridge’s design was **elegant** — not ornamented, but stripped to the fewest members that could carry the load.\n\nWhat does *elegant* mean in this context?",
     "options": [
-      "obvious",
-      "slight",
-      "permanent",
-      "colorful"
+      "unusually large in scale",
+      "richly decorated and expensive",
+      "fashionable for its period",
+      "achieving its purpose with economy and no waste"
     ],
-    "correctIndex": 1,
-    "explanation": "**Explanation:** Replacing one shade with a nearby color is a small, not obvious, change.\n**Key concept:** Contextual meaning.",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** The dash explicitly excludes ornament and defines the word by economy of means, which is how *elegant* is used of designs and proofs.\n\n**Key concept:** Technical sense of an everyday word",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "Which allusion would best describe someone who ignores a warning through overconfidence?",
+    "question": "Which word means the **opposite** of *benevolent*?",
     "options": [
-      "opening Pandora's box",
-      "having an Achilles' heel",
-      "flying too close to the sun",
-      "finding a needle in a haystack"
+      "prevalent",
+      "ambivalent",
+      "malevolent",
+      "equivalent"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The Icarus allusion warns against reckless overconfidence despite danger.\n**Key concept:** Allusion.",
+    "explanation": "**Explanation:** *Bene-* means \"well\" and *mal-* means \"badly\", both attached to *volent*, \"wishing\". The other three share the *-valent* ending but not the *volent* root.\n\n**Key concept:** Antonyms formed by opposing prefixes",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "vocabulary_building",
     "passage": null,
     "passageTitle": null,
-    "question": "The Latin root *port* means \"carry.\" Which word means \"to carry goods into a country\"?",
+    "question": "> She had expected the museum to be **austere**, and it was: grey stone, no signage beyond the necessary, and a single bench in each room.\n\nWhat does *austere* mean?",
     "options": [
-      "transport",
-      "import",
-      "portable",
-      "deport"
+      "crowded and noisy",
+      "severely plain and without decoration",
+      "warm and welcoming",
+      "ancient and crumbling"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Importing brings goods into a country.\n**Key concept:** Latin roots.",
+    "explanation": "**Explanation:** The three details after the colon all describe plainness and restraint. Nothing concerns crowds, warmth or physical decay.\n\n**Key concept:** Cumulative detail defines a word",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do muscle cells contain many mitochondria?",
+    "question": "A population of beetles lives on grey bark. A few are dark and most are light. Birds hunt by sight. After a factory darkens the bark, what is expected over many generations?",
     "options": [
-      "They release usable energy from food for cell activities.",
-      "They store all cell waste.",
-      "They control cell entry and exit.",
-      "They make sunlight."
+      "Light beetles change colour during their lifetimes to match the bark.",
+      "Dark beetles survive to reproduce more often, so the proportion of dark beetles rises.",
+      "Birds learn to ignore beetle colour, so nothing changes.",
+      "All the light beetles die at once and the population collapses."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Cell systems, adaptation, and population change",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Natural selection acts on existing variation across generations. Individuals do not change their inherited traits, and selection shifts proportions rather than eliminating a form instantly.\n\n**Key concept:** Natural selection",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Which structure controls what enters and leaves an animal cell?",
+    "question": "What is the key difference between asexual and sexual reproduction?",
     "options": [
-      "The cell membrane.",
-      "The nucleus.",
-      "The mitochondrion.",
-      "The vacuole."
+      "Asexual reproduction produces offspring genetically identical to the parent; sexual reproduction combines genetic material from two parents.",
+      "Asexual reproduction occurs only in plants and sexual only in animals.",
+      "Asexual reproduction is always faster than sexual reproduction.",
+      "Asexual reproduction requires two parents of the same type."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The cell membrane is selectively permeable and regulates transport.\n\n**Key concept:** Cell structure",
+    "explanation": "**Explanation:** The distinction is genetic. Sexual reproduction generates variation, which is the raw material selection acts on; asexual reproduction preserves a successful genotype exactly.\n\n**Key concept:** Sexual and asexual reproduction",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Which structure stores the cell's genetic instructions?",
+    "question": "In pea plants, tall (T) is dominant over short (t). Two plants with genotype Tt are crossed. What proportion of offspring is expected to be short?",
     "options": [
-      "The cell wall.",
-      "The cell membrane.",
-      "The ribosome.",
-      "The nucleus."
+      "None",
+      "One half",
+      "Three quarters",
+      "One quarter"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** DNA is housed in the nucleus of a eukaryotic cell.\n\n**Key concept:** Cell structure",
+    "explanation": "**Explanation:** The cross gives TT, Tt, Tt and tt. Only tt is short, so one in four. Three quarters are tall, but only one quarter are TT.\n\n**Key concept:** Monohybrid cross",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Which pair of structures is found in plant cells but not animal cells?",
+    "question": "A plant with genotype Tt is tall. What is its phenotype and what does the t allele do?",
     "options": [
-      "Mitochondrion and membrane.",
-      "Nucleus and ribosome.",
-      "Cell wall and chloroplast.",
-      "Cytoplasm and nucleus."
+      "The phenotype is medium height, blending the two alleles.",
+      "The phenotype is short, because t is present.",
+      "The phenotype is tall; the recessive t allele is present but masked by T.",
+      "The t allele is destroyed by the dominant allele."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Only plant cells have a rigid cell wall and chloroplasts for photosynthesis.\n\n**Key concept:** Plant and animal cells",
+    "explanation": "**Explanation:** A recessive allele is carried and can be passed on even when it is not expressed — which is why two tall plants can produce a short offspring.\n\n**Key concept:** Genotype and phenotype",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the main function of chloroplasts?",
+    "question": "Which trait is an **adaptation** rather than an acquired characteristic?",
     "options": [
-      "To break down sugar for energy release.",
-      "To capture light energy for photosynthesis.",
-      "To store genetic material.",
-      "To remove waste from the cell."
+      "A tree scarred by a lightning strike",
+      "A cactus’s thick waxy stem that stores water",
+      "A dog trained to sit on command",
+      "A weightlifter’s enlarged muscles"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Chloroplasts contain chlorophyll and carry out photosynthesis.\n\n**Key concept:** Organelles",
+    "explanation": "**Explanation:** Adaptations are inherited and arise through selection over generations. Scars, training and muscle growth are acquired during one lifetime and are not passed on genetically.\n\n**Key concept:** Adaptations versus acquired traits",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Cellular respiration releases energy from sugar. Which organelle carries this out?",
+    "question": "In a food web, energy passes from grass to grasshoppers to frogs to hawks. Roughly what happens to the energy at each step?",
     "options": [
-      "The mitochondrion.",
-      "The chloroplast.",
-      "The nucleus.",
-      "The cell wall."
+      "About 90 percent is lost as heat and life processes, so only about 10 percent passes on.",
+      "Energy is conserved perfectly, so each level holds the same amount.",
+      "Energy increases at each level because predators are larger.",
+      "Energy is recycled back to the grass by the hawks directly."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Mitochondria convert stored chemical energy into a form the cell can use.\n\n**Key concept:** Organelles",
+    "explanation": "**Explanation:** The ten percent rule explains why food chains are short and why top predators are rare: the energy available shrinks by roughly an order of magnitude at each transfer.\n\n**Key concept:** Energy flow through trophic levels",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "How are photosynthesis and cellular respiration related?",
+    "question": "Removing a top predator from an ecosystem often causes plant populations to decline. Why?",
     "options": [
-      "Neither process involves gases.",
-      "They are the same process under two names.",
-      "Only plants perform respiration.",
-      "The products of one are the reactants of the other."
+      "The loss of a predator reduces the sunlight reaching plants.",
+      "Predators had been fertilising the soil directly.",
+      "Plants depend on predators for pollination.",
+      "Herbivore numbers rise without predation and consume more vegetation."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Photosynthesis makes sugar and oxygen; respiration consumes them and releases carbon dioxide and water.\n\n**Key concept:** Energy in cells",
+    "explanation": "**Explanation:** This is a trophic cascade: an effect at one level propagates down through the levels below it, which is why ecosystems are studied as systems rather than as lists of species.\n\n**Key concept:** Trophic cascades",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "A pea plant inherits one allele for flower color from each parent. What is this pair called?",
+    "question": "What role do decomposers play that producers and consumers cannot?",
     "options": [
-      "Its species.",
-      "Its phenotype for that trait.",
-      "Its genotype for that trait.",
-      "Its adaptation."
+      "They control the population sizes of large herbivores.",
+      "They convert sunlight into chemical energy.",
+      "They return nutrients locked in dead matter to the soil for reuse.",
+      "They produce the oxygen that animals breathe."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The genotype is the combination of alleles; the phenotype is the trait shown.\n\n**Key concept:** Genotype and phenotype",
+    "explanation": "**Explanation:** Without decomposition, nutrients would remain bound in dead tissue and the system would run down. Producers capture energy; decomposers recycle matter.\n\n**Key concept:** Decomposers and nutrient cycling",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "A plant with genotype Tt is tall, and tt is short. What does this show about the T allele?",
+    "question": "Two isolated populations of the same species diverge over thousands of generations until they can no longer interbreed. What has occurred?",
     "options": [
-      "t is dominant over T.",
-      "T is dominant over t.",
-      "Neither allele is expressed.",
-      "Both alleles blend equally."
+      "Adaptation within a single species",
+      "Speciation",
+      "Extinction of the original species",
+      "Migration"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** A dominant allele is expressed even when only one copy is present.\n\n**Key concept:** Dominant and recessive",
+    "explanation": "**Explanation:** Reproductive isolation is the standard criterion for a new species. Geographic separation removes gene flow, and selection and chance then push the populations apart.\n\n**Key concept:** Speciation",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Two Tt parents are crossed. What fraction of offspring is expected to be short (tt)?",
+    "question": "A student claims that a bodybuilder’s children will be born unusually muscular. What is wrong?",
     "options": [
-      "One fourth.",
-      "One half.",
-      "Three fourths.",
-      "None."
+      "Muscle developed through training is not encoded in the parent’s genes, so it is not inherited.",
+      "Muscle is inherited only from the mother.",
+      "Children always inherit the opposite of a parent’s traits.",
+      "Muscle is inherited but only after several generations."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A Punnett square for Tt x Tt gives TT, Tt, Tt, tt, so one of four is tt.\n\n**Key concept:** Punnett squares",
+    "explanation": "**Explanation:** Only changes to the genetic material are passed on. Traits built during a lifetime are not written back into the reproductive cells.\n\n**Key concept:** Acquired traits are not inherited",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "What fraction of offspring from a Tt x Tt cross is expected to show the tall phenotype?",
+    "question": "Two species of bird feed on the same insects in the same tree. What relationship is this?",
     "options": [
-      "All of them.",
-      "One fourth.",
-      "One half.",
-      "Three fourths."
+      "Parasitism",
+      "Mutualism",
+      "Commensalism",
+      "Competition"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** TT, Tt and Tt all appear tall; only tt is short.\n\n**Key concept:** Punnett squares",
+    "explanation": "**Explanation:** Both species are harmed by the other’s presence because the shared resource is limited. The other three relationships involve at least one species benefiting from the other.\n\n**Key concept:** Competition",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Which term describes an organism with two identical alleles for a trait?",
+    "question": "A bee gathers nectar and, in doing so, carries pollen between flowers. What relationship is this?",
     "options": [
-      "Dominant.",
-      "Heterozygous.",
-      "Homozygous.",
-      "Recessive."
+      "Parasitism, because the bee takes from the plant",
+      "Commensalism, because only the bee benefits",
+      "Mutualism, because both the bee and the plant benefit",
+      "Competition, because both need the same resources"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Homozygous means both alleles are the same; heterozygous means they differ.\n\n**Key concept:** Heredity vocabulary",
+    "explanation": "**Explanation:** The bee gains food and the plant gains pollination. That both benefit is what distinguishes mutualism from the other symbiotic relationships.\n\n**Key concept:** Mutualism",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do offspring produced sexually differ from both parents?",
+    "question": "Which correctly describes DNA’s role?",
     "options": [
-      "They receive an exact copy of one parent's DNA.",
-      "They receive a new combination of alleles from two parents.",
-      "Their traits are decided by the environment alone.",
-      "Sexual reproduction does not involve DNA."
+      "It is the protein from which cells are constructed.",
+      "It carries the instructions for building proteins, which determine an organism’s traits.",
+      "It supplies energy directly to the cell.",
+      "It surrounds the cell and controls what enters it."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Combining alleles from two parents produces genetic variation.\n\n**Key concept:** Sexual reproduction",
+    "explanation": "**Explanation:** DNA is an information molecule. Proteins are built from its instructions and do the structural and enzymatic work.\n\n**Key concept:** DNA and protein synthesis",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "A strawberry plant grows a runner that develops into a genetically identical plant. What kind of reproduction is this?",
+    "question": "Antibiotic use leads to bacteria that the antibiotic no longer kills. How does this happen?",
     "options": [
-      "Asexual reproduction.",
-      "Sexual reproduction.",
-      "Cross-pollination.",
-      "Fertilization."
+      "A few bacteria already carried resistance; the antibiotic removed the rest, leaving those to multiply.",
+      "The antibiotic taught the bacteria how to resist it.",
+      "Bacteria decided to change in response to the threat.",
+      "The antibiotic became weaker each time it was used."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Asexual reproduction involves one parent and produces genetically identical offspring.\n\n**Key concept:** Asexual reproduction",
+    "explanation": "**Explanation:** Resistance arises from pre-existing variation, and the antibiotic acts as the selective agent. This is natural selection running on a timescale short enough to observe.\n\n**Key concept:** Selection for antibiotic resistance",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Which is an inherited trait rather than a learned behavior?",
+    "question": "What limits the size of a population in a given habitat?",
     "options": [
-      "Playing the piano.",
-      "Speaking a second language.",
-      "Riding a bicycle.",
-      "Natural eye color."
+      "Nothing, as long as reproduction continues",
+      "The number of predators alone",
+      "The length of the growing season alone",
+      "The carrying capacity set by food, water, space and other resources"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Inherited traits are passed through genes; learned behaviors are acquired.\n\n**Key concept:** Inherited and acquired traits",
+    "explanation": "**Explanation:** Carrying capacity is the population a habitat can sustain given all its limiting factors together. Any one factor may be the binding constraint at a given time.\n\n**Key concept:** Carrying capacity",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "In a population of beetles, the green ones are eaten less often on green leaves. Over many generations, what is likely?",
+    "question": "Two brown-eyed parents have a blue-eyed child. What does this show, if brown is dominant?",
     "options": [
-      "Color stops being inherited.",
-      "Brown beetles become more common.",
-      "Green beetles become more common.",
-      "All beetles become the same size."
+      "Brown eyes cannot really be dominant.",
+      "A mutation must have occurred in the child.",
+      "Both parents carried a recessive allele for blue eyes without expressing it.",
+      "One parent must actually have blue eyes."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Traits that improve survival are passed on more often, shifting the population.\n\n**Key concept:** Natural selection",
+    "explanation": "**Explanation:** Each parent must be heterozygous, carrying one dominant and one recessive allele. Their child received the recessive allele from each.\n\n**Key concept:** Carriers of recessive alleles",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "What must exist in a population for natural selection to act on it?",
+    "question": "Why does a population with low genetic variation face greater risk from a new disease?",
     "options": [
-      "Identical individuals.",
-      "Inherited variation in traits.",
-      "An unchanging environment.",
-      "A complete absence of predators."
+      "Low variation makes individuals physically weaker.",
+      "If one individual is susceptible, most others are likely to be susceptible in the same way.",
+      "Diseases spread faster among genetically similar organisms because they live closer together.",
+      "Low variation prevents a population from reproducing."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Selection requires heritable differences that affect survival or reproduction.\n\n**Key concept:** Natural selection",
+    "explanation": "**Explanation:** Variation is a population’s insurance. A uniform population offers a pathogen no individuals with a different defence, which is why monocultures are vulnerable.\n\n**Key concept:** Genetic variation and resilience",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Some bacteria survive an antibiotic and reproduce. Why does the medicine become less effective over time?",
+    "question": "An invasive plant with no local predators is introduced to a meadow. What is the most likely result?",
     "options": [
-      "The surviving resistant bacteria pass resistance to offspring.",
-      "The antibiotic teaches bacteria to resist.",
-      "Bacteria choose to become resistant.",
-      "The antibiotic changes into a nutrient."
+      "It spreads rapidly and displaces native plants that are held in check by their own predators.",
+      "It quickly dies out because it is not adapted to the area.",
+      "It joins the ecosystem without changing the balance.",
+      "Native predators immediately adapt and control it."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Resistant individuals survive and reproduce, so resistance spreads through the population.\n\n**Key concept:** Adaptation over time",
+    "explanation": "**Explanation:** Release from natural enemies is the main mechanism behind invasiveness. Local species remain under predation pressure that the newcomer escapes.\n\n**Key concept:** Invasive species",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "A fossil sequence shows a limb bone changing shape gradually across millions of years. What does this provide evidence of?",
+    "question": "What determines whether a trait appears in an offspring, when one allele is dominant and one recessive?",
     "options": [
-      "An error in the fossil record.",
-      "A single unchanging species.",
-      "A sudden creation of all species.",
-      "Change in a species over time."
+      "Whichever allele the offspring receives first is expressed.",
+      "The two alleles blend, producing an intermediate trait.",
+      "The allele from the mother is always expressed.",
+      "The dominant allele is expressed whenever it is present; the recessive appears only when both alleles are recessive."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Gradual change in fossil structures documents descent with modification.\n\n**Key concept:** Fossil evidence",
+    "explanation": "**Explanation:** This is complete dominance. Blending is a different pattern (incomplete dominance) and does not apply to the classic dominant-recessive case.\n\n**Key concept:** Dominant and recessive expression",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do a whale's flipper and a human arm have a similar bone arrangement?",
+    "question": "A cave-dwelling fish species has non-functional eyes. What is the most likely explanation?",
     "options": [
-      "They developed by pure coincidence.",
-      "They perform exactly the same task.",
-      "They share a common ancestor.",
-      "Whales are a type of human."
+      "The fish chose to develop other senses instead.",
+      "The fish stopped using their eyes and so lost them within their lifetimes.",
+      "In total darkness there was no selective advantage to maintaining eyes, so the trait degraded over generations.",
+      "Eyes are harmful in caves, so the fish removed them."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Homologous structures reflect shared ancestry despite different uses.\n\n**Key concept:** Homologous structures",
+    "explanation": "**Explanation:** Traits are maintained by selection. Where a structure confers no advantage, mutations that impair it are not weeded out, and the structure is gradually lost.\n\n**Key concept:** Loss of unused structures",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Which body systems work together to deliver oxygen to muscle cells?",
+    "question": "Which describes a niche?",
     "options": [
-      "The skeletal and digestive systems.",
-      "The respiratory and circulatory systems.",
-      "The nervous and excretory systems.",
-      "The digestive and skeletal systems."
+      "The physical burrow or nest an animal occupies",
+      "The role an organism plays in its ecosystem, including what it eats and where it lives",
+      "The total number of individuals a habitat can support",
+      "The geographic range of an entire species"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** The lungs take in oxygen and the blood transports it to cells.\n\n**Key concept:** System interactions",
+    "explanation": "**Explanation:** A niche is functional, not just spatial. Two species can share a habitat while occupying different niches — which is how they avoid direct competition.\n\n**Key concept:** Ecological niche",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "The nervous system senses danger and the muscular system moves the body away. What does this show?",
+    "question": "Why does sexual reproduction produce more variation than asexual reproduction?",
     "options": [
-      "Body systems interact to respond to stimuli.",
-      "Each system works in complete isolation.",
-      "Only one system is needed for a response.",
-      "Muscles sense danger directly."
+      "Offspring receive a new combination of alleles from two parents.",
+      "Sexual reproduction causes more mutations.",
+      "Asexual reproduction always produces damaged offspring.",
+      "Sexual reproduction produces more offspring in total."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** A stimulus-response depends on several systems working together.\n\n**Key concept:** System interactions",
+    "explanation": "**Explanation:** Recombination shuffles existing alleles into new combinations at every generation. Mutation supplies new alleles in both modes, but recombination is what sexual reproduction adds.\n\n**Key concept:** Source of genetic variation",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the role of the excretory system?",
+    "question": "A pond ecosystem loses all its producers. What happens to the consumers?",
     "options": [
-      "To produce sound for communication.",
-      "To digest proteins into amino acids.",
-      "To pump blood through vessels.",
-      "To remove waste products from the body."
+      "Decomposers take over the role of producers.",
+      "They switch to obtaining energy directly from sunlight.",
+      "They are unaffected, since they eat other animals.",
+      "They decline and eventually disappear, because all energy in the system originates with producers."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** The excretory system filters and eliminates metabolic wastes.\n\n**Key concept:** Body systems",
+    "explanation": "**Explanation:** Every food web traces back to producers. Even a carnivore depends on them indirectly, through its prey.\n\n**Key concept:** Producers as the base of a food web",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "Cells with a similar structure and function working together form what?",
+    "question": "Three finch populations on separate islands develop different beak shapes suited to different foods. What does this illustrate?",
     "options": [
-      "A single organelle.",
-      "An organ system.",
-      "A tissue.",
-      "A whole organism."
+      "Random variation with no relationship to the environment",
+      "Individual birds changing their beaks to suit available food",
+      "Selection shaping populations differently in response to different environments",
+      "Birds inheriting beak shapes from the food they eat"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Tissue is the level of organization directly above the cell.\n\n**Key concept:** Levels of organization",
+    "explanation": "**Explanation:** The same ancestral variation is filtered differently by each island’s conditions. Selection is the link between environment and inherited trait.\n\n**Key concept:** Divergent selection",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "advanced_biology",
     "passage": null,
     "passageTitle": null,
-    "question": "A seed sprouts and grows toward a light source at the window. What is this response called?",
+    "question": "What is a mutation, and why does it matter for a population?",
     "options": [
-      "Random growth unrelated to light.",
-      "A tropism, a growth response to a stimulus.",
-      "A learned behavior.",
-      "An inherited disease."
+      "A trait an organism develops in response to its environment.",
+      "A change in the genetic material, which supplies the new variation that selection can act on.",
+      "A trait that always harms the organism carrying it.",
+      "The blending of two parents’ traits in an offspring."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Phototropism is directional growth toward light.\n\n**Key concept:** Plant responses",
+    "explanation": "**Explanation:** Most mutations are neutral or harmful, but they are the ultimate source of all new alleles. Without them, variation would only be reshuffled, never added to.\n\n**Key concept:** Mutation as a source of variation",
     "source": "authored",
     "needsReview": false
   }

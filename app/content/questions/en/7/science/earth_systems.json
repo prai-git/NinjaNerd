@@ -7,15 +7,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "In undisturbed sedimentary rock, a fern fossil is below a mammal fossil. Which is older?",
+    "question": "Rain falls on a hillside. Which factor most increases the share that becomes **runoff** rather than infiltrating?",
     "options": [
-      "The fern fossil.",
-      "The mammal fossil.",
-      "They must have the same age.",
-      "Neither fossil can be dated relatively."
+      "Deep, loose soil with many plant roots",
+      "A paved surface at the base of the slope",
+      "A long period of dry weather before the rain",
+      "A gentle rather than a steep slope"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Earth processes, resources, and surface change",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Impermeable surfaces prevent water entering the ground, so nearly all of it runs off. Loose rooted soil, dry ground and gentle slopes all favour infiltration.\n\n**Key concept:** Runoff versus infiltration",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A river slows as it enters a lake and drops its sediment. Which process is this?",
+    "question": "A town draws its water from an aquifer and withdrawal exceeds recharge for a decade. What is the most likely consequence?",
     "options": [
-      "Deposition.",
-      "Weathering.",
-      "Erosion.",
-      "Condensation."
+      "The water table falls and shallow wells begin to run dry.",
+      "The aquifer refills faster to compensate for the demand.",
+      "The water becomes purer as the older water is drawn out.",
+      "Rainfall in the area increases to balance the withdrawal."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Deposition is the dropping of transported sediment when moving water loses energy.\n\n**Key concept:** Deposition",
+    "explanation": "**Explanation:** An aquifer is a reservoir with inputs and outputs. Taking more than enters lowers the stored volume, and the shallowest wells are affected first.\n\n**Key concept:** Groundwater budgets",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Rainwater seeps into a crack in granite, freezes, and widens the crack. Which process is this?",
+    "question": "What defines a watershed?",
     "options": [
-      "Erosion by wind.",
-      "Chemical weathering by acid.",
-      "Deposition of new minerals.",
-      "Physical weathering by ice wedging."
+      "The boundary where fresh water meets salt water",
+      "The channel of a river between two towns",
+      "The underground layer that stores water",
+      "All the land from which water drains to a single body of water"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Water expands as it freezes, prying the crack wider without changing the rock's composition.\n\n**Key concept:** Physical weathering",
+    "explanation": "**Explanation:** A watershed is defined by topography — every point in it drains to the same outlet — which is why pollution far from a river can still reach it.\n\n**Key concept:** Watersheds",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Acidic rain slowly dissolves a limestone statue. What kind of change is this?",
+    "question": "Fertiliser from farms enters a lake, causing a large algal bloom. When the algae die, what happens to the lake?",
     "options": [
-      "Erosion, because material is carried away.",
-      "Physical weathering, because only the shape changes.",
-      "Chemical weathering, because a new substance forms.",
-      "Deposition, because material is added."
+      "The lake becomes clearer because the algae have settled.",
+      "The extra algae permanently increase the oxygen available to fish.",
+      "Decomposers consume oxygen as they break down the algae, and fish die from oxygen loss.",
+      "The fertiliser directly poisons the fish on contact."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** The acid reacts with the limestone, so the rock's chemical makeup changes.\n\n**Key concept:** Chemical weathering",
+    "explanation": "**Explanation:** This is eutrophication. The bloom itself is not the killer — the oxygen demand created by decomposing it is.\n\n**Key concept:** Eutrophication",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "What is the difference between weathering and erosion?",
+    "question": "Which sequence correctly orders the processes that turn a mountain into sediment on a delta?",
     "options": [
-      "Weathering moves rock; erosion breaks it apart.",
-      "Weathering breaks rock apart; erosion moves the pieces away.",
-      "They are two names for the same process.",
-      "Weathering happens only underwater."
+      "Erosion, weathering, deposition, transport",
+      "Weathering, erosion, transport, deposition",
+      "Deposition, transport, weathering, erosion",
+      "Transport, deposition, erosion, weathering"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Weathering is breakdown in place, while erosion is transport by water, wind, ice or gravity.\n\n**Key concept:** Weathering and erosion",
+    "explanation": "**Explanation:** Rock must first be broken down in place (weathering), then removed (erosion), carried (transport), and finally dropped where the current slows (deposition).\n\n**Key concept:** The sequence of surface processes",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Buried sediment is compacted and cemented over long periods. Which rock type forms?",
+    "question": "A river slows as it enters a lake. What happens to the sediment it carries?",
     "options": [
-      "Sedimentary rock.",
-      "Igneous rock.",
-      "Metamorphic rock.",
-      "Molten magma."
+      "The largest particles settle first, then progressively smaller ones.",
+      "All particles settle at once in a uniform layer.",
+      "The smallest particles settle first because they are lighter.",
+      "The sediment stays suspended because lake water is still."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Compaction and cementation of sediment layers produce sedimentary rock.\n\n**Key concept:** Rock cycle",
+    "explanation": "**Explanation:** A slowing current loses the energy to carry heavy particles first. This is why deltas grade from coarse near the mouth to fine offshore.\n\n**Key concept:** Sorting during deposition",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Deep underground, heat and pressure change shale into slate without melting it. Which rock type forms?",
+    "question": "Which human activity would most directly reduce the recharge of an aquifer?",
     "options": [
-      "Loose sediment.",
-      "Sedimentary rock.",
-      "Igneous rock.",
-      "Metamorphic rock."
+      "Increasing the depth of existing wells",
+      "Planting a windbreak of trees along a field edge",
+      "Building a dam on a river downstream of the aquifer",
+      "Replacing fields with parking lots across a large area"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Metamorphic rock forms when existing rock is changed by heat and pressure while staying solid.\n\n**Key concept:** Rock cycle",
+    "explanation": "**Explanation:** Recharge depends on water reaching the ground. Paving blocks it over the whole area; deeper wells change withdrawal, not recharge, and a downstream dam does not affect what soaks in upstream.\n\n**Key concept:** Human impact on groundwater",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Two continental plates push together over millions of years. What landform is most likely?",
+    "question": "Why does removing streamside vegetation increase erosion?",
     "options": [
-      "A flat coastal plain.",
-      "A deep ocean trench with no uplift.",
-      "A mountain range.",
-      "A river delta."
+      "Bare soil is denser and therefore heavier to move.",
+      "Plants absorb sediment, so their removal releases it.",
+      "Roots no longer bind the soil and stems no longer slow the water.",
+      "Vegetation adds weight that holds the bank in place."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Colliding continental plates crumple and uplift the crust into mountains.\n\n**Key concept:** Plate boundaries",
+    "explanation": "**Explanation:** Riparian plants stabilise banks mechanically through roots and hydraulically by reducing flow velocity at the edge. Both effects are lost when they are cleared.\n\n**Key concept:** Vegetation and bank stability",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "New ocean floor forms along a mid-ocean ridge. What type of plate boundary is this?",
+    "question": "Which statement about the water cycle is accurate?",
     "options": [
-      "A convergent boundary.",
-      "A divergent boundary.",
-      "A transform boundary.",
-      "A stationary boundary."
+      "New water is continuously created by rainfall.",
+      "The total amount of water on Earth stays essentially constant; only its location and state change.",
+      "Water is destroyed when it evaporates and re-created when it rains.",
+      "Most of Earth’s fresh water is in rivers and lakes."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Plates move apart at a divergent boundary and magma rises to form new crust.\n\n**Key concept:** Plate boundaries",
+    "explanation": "**Explanation:** The cycle moves and transforms a fixed supply. Most fresh water is locked in ice and groundwater, not surface water.\n\n**Key concept:** Conservation in the water cycle",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Two plates slide past each other, producing frequent earthquakes but little new crust. What boundary is this?",
+    "question": "A soil sample drains very quickly and holds little water. What is its likely composition?",
     "options": [
-      "A transform boundary.",
-      "A divergent boundary.",
-      "A convergent boundary.",
-      "A hot spot."
+      "Mostly sand, with large particles and large spaces between them",
+      "Mostly clay, with very fine particles",
+      "Mostly humus, rich in decomposed organic matter",
+      "An even mixture of sand, silt and clay"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** At a transform boundary plates grind sideways, releasing energy as earthquakes.\n\n**Key concept:** Plate boundaries",
+    "explanation": "**Explanation:** Particle size controls pore size. Large sand grains leave wide channels that drain freely; clay holds water tightly in tiny spaces.\n\n**Key concept:** Soil texture and drainage",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which layer of soil contains the most decayed plant and animal material?",
+    "question": "Which is the strongest evidence that a stream has been polluted by a nearby industrial site rather than by farm runoff?",
     "options": [
-      "The parent rock layer.",
-      "The bedrock.",
-      "The subsoil below the roots.",
-      "The topsoil."
+      "A decline in the number of fish over five years",
+      "Elevated nitrogen levels downstream of the site",
+      "Cloudy water after heavy rain",
+      "High concentrations of a heavy metal used only in that industry"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Topsoil is the upper horizon enriched by humus from decayed organisms.\n\n**Key concept:** Soil formation",
+    "explanation": "**Explanation:** A contaminant unique to one source identifies it. Nitrogen, turbidity and fish decline are all consistent with several causes.\n\n**Key concept:** Attributing a pollution source",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Water moves easily through a layer of loose sand but barely through packed clay. Which property explains this?",
+    "question": "Why does a city centre often stay several degrees warmer at night than the surrounding countryside?",
     "options": [
-      "Mass.",
-      "Color.",
-      "Permeability.",
-      "Temperature."
+      "Car exhaust directly heats the air more than sunlight does.",
+      "Cities are usually at a lower elevation than farmland.",
+      "Pavement and buildings absorb heat during the day and release it slowly after dark.",
+      "There is less oxygen in cities to carry heat away."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Permeability describes how easily water passes through the connected spaces in a material.\n\n**Key concept:** Groundwater",
+    "explanation": "**Explanation:** This is the urban heat island effect, driven by the thermal properties of concrete and asphalt and by the loss of evaporative cooling from vegetation.\n\n**Key concept:** Urban heat island",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Plants release water vapor to the atmosphere through their leaves. What is this step of the water cycle called?",
+    "question": "A wetland is drained and replaced with housing. What flood-control function is lost?",
     "options": [
-      "Condensation.",
-      "Transpiration.",
-      "Precipitation.",
-      "Runoff."
+      "The wetland’s ability to stop rain from falling",
+      "The wetland’s capacity to store and slowly release large volumes of storm water",
+      "The wetland’s role in raising the level of nearby rivers",
+      "The wetland’s effect of increasing runoff speed"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Transpiration is water loss from plant leaves as vapor.\n\n**Key concept:** Water cycle",
+    "explanation": "**Explanation:** Wetlands act as buffers, absorbing a surge and releasing it gradually. Removing one sends the same water downstream faster and all at once.\n\n**Key concept:** Wetlands and flood control",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which pair lists a renewable and a nonrenewable resource in that order?",
+    "question": "Two wells 200 m apart draw from the same aquifer. One is contaminated. What determines whether the second will be too?",
     "options": [
-      "Wind and coal.",
-      "Coal and wind.",
-      "Oil and natural gas.",
-      "Coal and petroleum."
+      "The direction and speed of groundwater flow between them",
+      "Which well was drilled first",
+      "The depth of the topsoil above each well",
+      "The distance alone, regardless of flow direction"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Wind is replaced continuously; coal takes millions of years to form and is used far faster.\n\n**Key concept:** Natural resources",
+    "explanation": "**Explanation:** Groundwater moves, slowly, in a definite direction. A well upgradient of the contamination may never be affected, whatever the distance.\n\n**Key concept:** Groundwater flow and contamination",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Coal forms from buried plant material over millions of years. Why is it called nonrenewable?",
+    "question": "Which change to a river would most increase its ability to erode its bed?",
     "options": [
-      "It is found only in one country.",
-      "It cannot be burned more than once.",
-      "It contains no stored energy.",
-      "It forms far more slowly than people use it."
+      "A longer path across flat ground",
+      "A wider channel with slower flow",
+      "A greater load of sediment already being carried",
+      "A steeper gradient, which increases the water’s speed"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A resource is nonrenewable when its replacement rate is far slower than its rate of use.\n\n**Key concept:** Natural resources",
+    "explanation": "**Explanation:** Erosive power rises sharply with velocity, and velocity rises with gradient. Widening and flattening both slow the flow.\n\n**Key concept:** Stream velocity and erosion",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A widespread fossil species existed for only a short span of time. Why is it useful to geologists?",
+    "question": "What is the most important reason to protect a watershed’s upper reaches?",
     "options": [
-      "It shows the rock is igneous.",
-      "It proves the rock formed underwater.",
-      "It helps match the ages of rock layers in different places.",
-      "It measures the rock's density."
+      "Rain falls more heavily at higher elevations everywhere.",
+      "Upper reaches contain the largest volume of water.",
+      "Everything that enters the water there is carried to every point downstream.",
+      "Water flows more slowly at the top of a watershed."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** An index fossil is widespread but short-lived, so layers containing it are close in age.\n\n**Key concept:** Index fossils",
+    "explanation": "**Explanation:** A watershed is a one-way system: an upstream input affects the whole network below it, while a downstream input affects only the outlet.\n\n**Key concept:** Upstream and downstream in a watershed",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A hillside is stripped of vegetation before heavy rain. What is the most likely result?",
+    "question": "Which process forms a cave in limestone?",
     "options": [
-      "Increased soil formation.",
-      "Increased soil erosion.",
-      "Decreased runoff.",
-      "No change to the hillside."
+      "Wind scouring the rock from the inside",
+      "Slightly acidic groundwater dissolving the rock over long periods",
+      "Heat from Earth’s interior melting the limestone",
+      "Plant roots physically pushing the rock apart"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Roots hold soil and slow runoff, so removing plants lets rain carry soil away.\n\n**Key concept:** Erosion control",
+    "explanation": "**Explanation:** Rainwater picks up carbon dioxide and becomes weakly acidic, which dissolves calcium carbonate. This is chemical weathering, and it is why caves form in limestone rather than granite.\n\n**Key concept:** Chemical weathering",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A canyon and a delta are both shaped by a river. Which process dominates at each?",
+    "question": "A coastal town builds a sea wall. Beaches to one side begin to disappear. Why?",
     "options": [
-      "Erosion at the canyon and deposition at the delta.",
-      "Deposition at the canyon and erosion at the delta.",
-      "Weathering at both.",
-      "Condensation at both."
+      "The wall interrupts the longshore movement of sand that had been replenishing them.",
+      "The wall causes the sea level to rise on that side.",
+      "The wall increases rainfall, which washes sand away.",
+      "The wall makes the water saltier, dissolving the sand."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Fast water cuts down to form a canyon; slow water drops sediment to build a delta.\n\n**Key concept:** Erosion and deposition",
+    "explanation": "**Explanation:** Beaches are maintained by sediment travelling along the shore. A structure that traps or diverts that supply starves the beaches downdrift of it.\n\n**Key concept:** Coastal sediment transport",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Which observation is the best evidence that a glacier once covered a valley?",
+    "question": "Which is a renewable resource that can still be exhausted?",
     "options": [
-      "A delta at the valley mouth.",
-      "A narrow V-shaped valley with rounded pebbles.",
-      "Evenly sorted sand layers.",
-      "A U-shaped valley with scratched bedrock and unsorted deposits."
+      "Natural gas trapped in shale",
+      "Coal, which forms over millions of years",
+      "Sunlight reaching Earth’s surface",
+      "Groundwater, if withdrawn faster than it recharges"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Glaciers carve broad U-shaped valleys, scratch bedrock, and leave unsorted till.\n\n**Key concept:** Glacial evidence",
+    "explanation": "**Explanation:** \"Renewable\" describes the rate of replacement, not an unlimited supply. Groundwater renews on a human timescale but can be over-drawn; coal and gas are not renewable at all.\n\n**Key concept:** Renewable resources and rates of use",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Fertilizer from farm fields washes into a stream. Which part of the water system carried it?",
+    "question": "A student measures a stream’s turbidity before and after a rainstorm and finds it much higher afterwards. What is the most likely explanation?",
     "options": [
-      "Condensation in clouds.",
-      "Transpiration from crops.",
-      "Surface runoff within the watershed.",
-      "Evaporation from the soil."
+      "The stream temperature rose, which increases turbidity.",
+      "Rain diluted the stream, making it clearer.",
+      "Runoff carried soil particles into the stream.",
+      "Fish became more active and stirred the bed."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Runoff drains across the land into streams, carrying dissolved and suspended material.\n\n**Key concept:** Watersheds",
+    "explanation": "**Explanation:** Turbidity measures suspended particles. Storm runoff moving across bare or disturbed ground is the standard source of a post-rain spike.\n\n**Key concept:** Turbidity as an indicator",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A river deposits gravel first, then sand, then silt as it slows. What explains this order?",
+    "question": "Which describes the relationship between soil and the rock beneath it?",
     "options": [
-      "Smaller particles are always heavier.",
-      "Larger, heavier particles settle first as water loses energy.",
-      "All particles settle at the same speed.",
-      "Silt dissolves before it settles."
+      "Soil and rock are unrelated materials that happen to be layered.",
+      "Soil forms in part from the weathering of the underlying rock, mixed with organic matter.",
+      "Rock forms from soil that has been compressed by rainfall.",
+      "Soil is deposited only by rivers and never forms in place."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Settling depends on particle size and water energy; the largest drop out first.\n\n**Key concept:** Sediment sorting",
+    "explanation": "**Explanation:** Residual soil develops from its parent rock over long periods, with plant and animal remains added. Some soil is transported, but the general relationship holds.\n\n**Key concept:** Soil formation",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A seismograph records shaking at three widely separated stations. What can scientists determine?",
+    "question": "A town proposes to line a drainage canal with concrete to move storm water away faster. What downstream risk does this create?",
     "options": [
-      "The location of the earthquake's epicenter.",
-      "The exact time the fault first formed.",
-      "The chemical makeup of the mantle.",
-      "The future date of the next quake."
+      "Water arrives downstream more quickly and in a larger surge, raising flood risk there.",
+      "Downstream areas will receive less water overall.",
+      "The concrete will chemically neutralise pollutants.",
+      "The faster flow will deposit more sediment upstream."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Comparing wave arrival times at three or more stations pinpoints the epicenter.\n\n**Key concept:** Earthquakes",
+    "explanation": "**Explanation:** Speeding water through one section does not reduce the volume — it concentrates the arrival in time, which is exactly what produces a flood peak.\n\n**Key concept:** Unintended consequences in a system",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A chain of volcanic islands forms as a plate moves over a fixed source of magma. What is this source called?",
+    "question": "Which best explains why deforestation on a slope often leads to landslides?",
     "options": [
-      "A mid-ocean ridge.",
-      "A transform fault.",
-      "A subduction trench.",
-      "A hot spot."
+      "Deforestation increases the steepness of the slope.",
+      "Trees are heavy, so removing them makes the slope unstable.",
+      "Bare soil absorbs less sunlight and becomes brittle.",
+      "Roots that had held the soil together decay, and more water infiltrates and adds weight."
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** A stationary hot spot melts through a moving plate, leaving a trail of volcanoes.\n\n**Key concept:** Volcanism",
+    "explanation": "**Explanation:** Root networks provide mechanical cohesion and living trees remove water through transpiration. Losing both weakens and loads the slope at once.\n\n**Key concept:** Vegetation and slope stability",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "A region pumps groundwater faster than rain can refill the aquifer. What is a likely consequence?",
+    "question": "Why is monitoring a stream over several years more useful than a single measurement?",
     "options": [
-      "Rainfall in the region increases.",
-      "The aquifer refills more quickly.",
-      "The land surface sinks as the aquifer compacts.",
-      "The water becomes less salty."
+      "It allows scientists to use more expensive equipment.",
+      "It guarantees the measurements will be more accurate.",
+      "It distinguishes a real trend from ordinary seasonal variation.",
+      "A single measurement is always taken incorrectly."
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Removing water lets the pore spaces collapse, lowering the land surface.\n\n**Key concept:** Groundwater depletion",
+    "explanation": "**Explanation:** Natural systems vary from season to season. Only repeated measurement can separate a signal from that background variation.\n\n**Key concept:** Long-term monitoring",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "earth_systems",
     "passage": null,
     "passageTitle": null,
-    "question": "Why do farmers plow across a slope rather than up and down it?",
+    "question": "Salt water intrudes into a coastal aquifer after years of heavy pumping. What is the mechanism?",
     "options": [
-      "Rows across a slope receive more sunlight.",
-      "Cross-slope rows slow runoff and hold soil in place.",
-      "Plowing downhill removes weeds faster.",
-      "It has no effect on soil loss."
+      "Pumping physically pulls sea water through solid rock.",
+      "Lowering the fresh-water level reduces the pressure that had been holding sea water back.",
+      "Salt in the soil dissolves and enters the aquifer.",
+      "Rising sea temperatures push salt water inland."
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Contour plowing creates ridges that trap water and reduce erosion.\n\n**Key concept:** Soil conservation",
+    "explanation": "**Explanation:** Fresh groundwater sits above and pushes against denser sea water. Removing fresh water lowers that pressure and the boundary moves inland.\n\n**Key concept:** Saltwater intrusion",
     "source": "authored",
     "needsReview": false
   }

@@ -7,15 +7,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -9, -6, 4, or 11?",
+    "question": "On a number line, which value is farthest to the left: \\(-9\\), \\(-6\\), \\(4\\), or \\(11\\)?",
     "options": [
-      "11",
-      "-6",
-      "4",
-      "-9"
+      "\\(4\\)",
+      "\\(11\\)",
+      "\\(-6\\)",
+      "\\(-9\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Among the listed values, -9 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Farther left means smaller. Among these, \\(-9\\) has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -10, -7, 5, or 12?",
+    "question": "Which number is irrational?",
     "options": [
-      "5",
-      "-7",
-      "-10",
-      "12"
+      "\\(3.5\\)",
+      "\\(0.125\\)",
+      "\\(\\sqrt{10}\\)",
+      "\\(\\frac{9}{3}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Among the listed values, -10 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** \\(10\\) is not a perfect square, so \\(\\sqrt{10}\\) cannot be written as a ratio of integers. \\(0.125\\) terminates, \\(3.5\\) terminates, and \\(\\frac{9}{3} = 3\\) is an integer.\n\n**Key concept:** Rational and irrational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -11, -8, 6, or 13?",
+    "question": "Which list is ordered from **least to greatest**?",
     "options": [
-      "-8",
-      "-11",
-      "6",
-      "13"
+      "\\(-\\frac{9}{4},; -\\frac{7}{3},; -2.35,; -2.4\\)",
+      "\\(-2.4,; -2.35,; -\\frac{7}{3},; -\\frac{9}{4}\\)",
+      "\\(-2.35,; -2.4,; -\\frac{7}{3},; -\\frac{9}{4}\\)",
+      "\\(-\\frac{7}{3},; -2.4,; -2.35,; -\\frac{9}{4}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Among the listed values, -11 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Write each as a decimal: \\(-\\frac{7}{3} \\approx -2.333\\) and \\(-\\frac{9}{4} = -2.25\\). Ordering \\(-2.4 < -2.35 < -2.333 < -2.25\\) gives the listed order. With negatives, the number with the larger digits is the smaller number.\n\n**Key concept:** Comparing negative rationals",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -12, -9, 7, or 14?",
+    "question": "At 6 a.m. the temperature was \\(-8.5^\\circ\\)C. By noon it had reached \\(4.25^\\circ\\)C. How many degrees did the temperature rise?",
     "options": [
-      "-12",
-      "-9",
-      "7",
-      "14"
+      "\\(12.75^\\circ\\)C",
+      "\\(4.25^\\circ\\)C",
+      "\\(-4.25^\\circ\\)C",
+      "\\(12.25^\\circ\\)C"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Among the listed values, -12 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** The rise is the distance between the two readings: \\(4.25 - (-8.5) = 4.25 + 8.5 = 12.75\\) degrees.\n\n**Key concept:** Subtracting a negative is adding",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which number is irrational?",
+    "question": "A diver descends \\(12.5\\) m from the surface, rises \\(4\\frac{3}{4}\\) m, then descends another \\(3.25\\) m. What is the diver’s position relative to the surface?",
     "options": [
-      "0.125",
-      "3.5",
-      "9/3",
-      "square root of 10"
+      "\\(-11.5\\) m",
+      "\\(-20.5\\) m",
+      "\\(-4.5\\) m",
+      "\\(-11\\) m"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Square root of 10 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "explanation": "**Explanation:** Take down as negative: \\(-12.5 + 4.75 - 3.25 = -11\\). The diver is \\(11\\) m below the surface.\n\n**Key concept:** Adding and subtracting signed rationals",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -13, -10, 8, or 15?",
+    "question": "Which product is **positive**?",
     "options": [
-      "8",
-      "-10",
-      "-13",
-      "15"
+      "\\((2)(-3)(4)(5)\\)",
+      "\\((-2)(3)(-4)(-5)\\)",
+      "\\((-2)(-3)(-4)(-5)\\)",
+      "\\((-2)(-3)(-4)(5)\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Among the listed values, -13 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** A product is positive when the number of negative factors is even. The first expression has four negatives; the others have three, one and three.\n\n**Key concept:** Sign of a product",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -14, -11, 9, or 16?",
+    "question": "Which fraction can be written as a **terminating** decimal?",
     "options": [
-      "-11",
-      "-14",
-      "9",
-      "16"
+      "\\(\\frac{5}{12}\\)",
+      "\\(\\frac{9}{40}\\)",
+      "\\(\\frac{7}{15}\\)",
+      "\\(\\frac{4}{21}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Among the listed values, -14 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** A fraction in lowest terms terminates when its denominator has only \\(2\\)s and \\(5\\)s as prime factors. \\(40 = 2^3 \\times 5\\), so \\(\\frac{9}{40} = 0.225\\). The others have factors of \\(3\\) or \\(7\\) and repeat.\n\n**Key concept:** Terminating versus repeating decimals",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -15, -12, 10, or 17?",
+    "question": "What is the value of \\(|-3.5 - 2.25|\\)?",
     "options": [
-      "-15",
-      "-12",
-      "10",
-      "17"
+      "\\(5.75\\)",
+      "\\(1.25\\)",
+      "\\(-5.75\\)",
+      "\\(-1.25\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Among the listed values, -15 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Work inside the bars first: \\(-3.5 - 2.25 = -5.75\\). The absolute value of \\(-5.75\\) is \\(5.75\\).\n\n**Key concept:** Absolute value as distance",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -16, -13, 11, or 18?",
+    "question": "Between which two consecutive whole numbers does \\(\\sqrt{58}\\) lie?",
     "options": [
-      "18",
-      "-13",
-      "11",
-      "-16"
+      "\\(28\\) and \\(30\\)",
+      "\\(6\\) and \\(7\\)",
+      "\\(8\\) and \\(9\\)",
+      "\\(7\\) and \\(8\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Among the listed values, -16 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** \\(7^2 = 49\\) and \\(8^2 = 64\\). Since \\(49 < 58 < 64\\), the square root of \\(58\\) is between \\(7\\) and \\(8\\).\n\n**Key concept:** Estimating square roots",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which number is irrational?",
+    "question": "A city has about \\(3.4 \\times 10^{5}\\) residents. A nearby town has about \\(8.5 \\times 10^{3}\\). About how many times as many people live in the city?",
     "options": [
-      "16/4",
-      "4.5",
-      "square root of 17",
-      "0.75"
+      "\\(400\\) times as many",
+      "\\(4\\) times as many",
+      "\\(40\\) times as many",
+      "\\(25\\) times as many"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Square root of 17 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "explanation": "**Explanation:** Divide the parts separately: \\(\\frac{3.4}{8.5} = 0.4\\) and \\(\\frac{10^{5}}{10^{3}} = 10^{2}\\). Then \\(0.4 \\times 100 = 40\\).\n\n**Key concept:** Dividing numbers in scientific notation",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -17, -14, 12, or 19?",
+    "question": "Evaluate \\(-6 + 3(-2)^2 \\div 4\\).",
     "options": [
-      "-14",
-      "-17",
-      "12",
-      "19"
+      "\\(-9\\)",
+      "\\(-3\\)",
+      "\\(3\\)",
+      "\\(-15\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Among the listed values, -17 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Exponent first: \\((-2)^2 = 4\\). Then multiply and divide left to right: \\(3 \\times 4 = 12\\) and \\(12 \\div 4 = 3\\). Finally \\(-6 + 3 = -3\\).\n\n**Key concept:** Order of operations with signed numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -18, -15, 13, or 20?",
+    "question": "Which statement about \\(\\sqrt{49}\\) and \\(\\sqrt{50}\\) is true?",
     "options": [
-      "-18",
-      "-15",
-      "13",
-      "20"
+      "\\(\\sqrt{49}\\) is rational and \\(\\sqrt{50}\\) is irrational.",
+      "Both are rational because both are square roots.",
+      "Both are irrational because \\(50\\) is not a perfect square.",
+      "\\(\\sqrt{49}\\) is irrational and \\(\\sqrt{50}\\) is rational."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Among the listed values, -18 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** \\(\\sqrt{49} = 7\\), an integer, so it is rational. \\(50\\) is not a perfect square, so \\(\\sqrt{50}\\) cannot be written as a ratio of integers.\n\n**Key concept:** Perfect squares have rational roots",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -19, -16, 14, or 21?",
+    "question": "Which value is **greatest**?",
     "options": [
-      "21",
-      "-16",
-      "14",
-      "-19"
+      "\\(0.3\\)",
+      "\\(0.363\\)",
+      "\\(0.36\\)",
+      "\\(\\frac{4}{11}\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Among the listed values, -19 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** \\(\\frac{4}{11} = 0.3636\\ldots\\), which continues past \\(0.363\\) with another \\(6\\). Comparing place by place, \\(0.3636 > 0.3630 > 0.36 > 0.3\\).\n\n**Key concept:** Comparing repeating and terminating decimals",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -20, -17, 15, or 22?",
+    "question": "The lowest point in a state is \\(85\\) feet **below** sea level and the highest is \\(8{,}749\\) feet above. What is the difference in elevation?",
     "options": [
-      "15",
-      "-17",
-      "-20",
-      "22"
+      "\\(8{,}749\\) feet",
+      "\\(8{,}664\\) feet",
+      "\\(8{,}834\\) feet",
+      "\\(8{,}824\\) feet"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Among the listed values, -20 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Below sea level is negative: \\(8{,}749 - (-85) = 8{,}749 + 85 = 8{,}834\\) feet.\n\n**Key concept:** Difference of a positive and a negative value",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which number is irrational?",
+    "question": "What is the reciprocal of \\(-2\\frac{1}{3}\\)?",
     "options": [
-      "5.5",
-      "square root of 26",
-      "25/5",
-      "0.2"
+      "\\(\\frac{3}{7}\\)",
+      "\\(-\\frac{3}{7}\\)",
+      "\\(-\\frac{7}{3}\\)",
+      "\\(2\\frac{1}{3}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Square root of 26 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "explanation": "**Explanation:** First write the mixed number as \\(-\\frac{7}{3}\\). The reciprocal inverts the fraction and keeps the sign: \\(-\\frac{3}{7}\\), because \\(-\\frac{7}{3} \\times -\\frac{3}{7} = 1\\).\n\n**Key concept:** Multiplicative inverse",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -21, -18, 16, or 23?",
+    "question": "What is \\(-\\frac{3}{4} \\div \\frac{6}{5}\\)?",
     "options": [
-      "-21",
-      "-18",
-      "16",
-      "23"
+      "\\(-\\frac{5}{8}\\)",
+      "\\(-\\frac{9}{10}\\)",
+      "\\(-\\frac{18}{20}\\)",
+      "\\(\\frac{5}{8}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Among the listed values, -21 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Dividing means multiplying by the reciprocal: \\(-\\frac{3}{4} \\times \\frac{5}{6} = -\\frac{15}{24}\\), which simplifies to \\(-\\frac{5}{8}\\).\n\n**Key concept:** Dividing rational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -22, -19, 17, or 24?",
+    "question": "Which number lies **between** \\(\\frac{5}{8}\\) and \\(\\frac{2}{3}\\)?",
     "options": [
-      "24",
-      "-19",
-      "17",
-      "-22"
+      "\\(0.68\\)",
+      "\\(0.6\\)",
+      "\\(0.625\\)",
+      "\\(0.64\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Among the listed values, -22 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** \\(\\frac{5}{8} = 0.625\\) and \\(\\frac{2}{3} \\approx 0.667\\). Only \\(0.64\\) falls strictly between them; \\(0.625\\) equals the lower endpoint rather than lying between.\n\n**Key concept:** Density of the rational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -23, -20, 18, or 25?",
+    "question": "Which value is **closest to zero**?",
     "options": [
-      "18",
-      "-20",
-      "-23",
-      "25"
+      "\\(0.2\\)",
+      "\\(-\\frac{1}{8}\\)",
+      "\\(-0.09\\)",
+      "\\(\\frac{3}{20}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Among the listed values, -23 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Compare absolute values: \\(0.09 < 0.125 < 0.15 < 0.2\\). Distance from zero ignores sign, so \\(-0.09\\) is nearest.\n\n**Key concept:** Absolute value compares distance from zero",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -24, -21, 19, or 26?",
+    "question": "Two warning lights start together. One flashes every \\(18\\) seconds and the other every \\(24\\) seconds. After how many seconds will they next flash at the same moment?",
     "options": [
-      "-21",
-      "-24",
-      "19",
-      "26"
+      "\\(42\\) seconds",
+      "\\(72\\) seconds",
+      "\\(432\\) seconds",
+      "\\(6\\) seconds"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Among the listed values, -24 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** They coincide at the least common multiple. \\(18 = 2 \\times 3^2\\) and \\(24 = 2^3 \\times 3\\), so the LCM is \\(2^3 \\times 3^2 = 72\\).\n\n**Key concept:** Least common multiple in context",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which number is irrational?",
+    "question": "Which list of fractions, decimals and percents is ordered from **least to greatest**?",
     "options": [
-      "square root of 5",
-      "2.5",
-      "4/2",
-      "0.6"
+      "\\(0.58,; \\frac{3}{5},; 0.605,; 61\\%\\)",
+      "\\(\\frac{3}{5},; 0.58,; 61\\%,; 0.605\\)",
+      "\\(0.58,; 0.605,; \\frac{3}{5},; 61\\%\\)",
+      "\\(61\\%,; 0.605,; \\frac{3}{5},; 0.58\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Square root of 5 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "explanation": "**Explanation:** Convert everything to decimals: \\(\\frac{3}{5} = 0.6\\) and \\(61\\% = 0.61\\). Then \\(0.58 < 0.6 < 0.605 < 0.61\\).\n\n**Key concept:** Comparing fractions, decimals and percents",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -25, -22, 20, or 27?",
+    "question": "What is the value of \\((-2)^5\\)?",
     "options": [
-      "27",
-      "-22",
-      "20",
-      "-25"
+      "\\(-25\\)",
+      "\\(32\\)",
+      "\\(-10\\)",
+      "\\(-32\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Among the listed values, -25 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** An odd number of negative factors gives a negative result: \\((-2)^5 = -(2^5) = -32\\).\n\n**Key concept:** Powers of a negative base",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -26, -23, 21, or 28?",
+    "question": "A submarine sits at \\(-240\\) feet. It rises at a steady \\(15\\) feet per minute for \\(6\\) minutes. What is its new position?",
     "options": [
-      "21",
-      "-23",
-      "-26",
-      "28"
+      "\\(-90\\) feet",
+      "\\(-330\\) feet",
+      "\\(-150\\) feet",
+      "\\(150\\) feet"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Among the listed values, -26 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Rising adds: \\(15 \\times 6 = 90\\) feet gained, so \\(-240 + 90 = -150\\) feet. The submarine is still below the surface.\n\n**Key concept:** Signed rates in context",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -27, -24, 22, or 29?",
+    "question": "What is \\(\\sqrt{\\frac{9}{16}}\\)?",
     "options": [
-      "-24",
-      "-27",
-      "22",
-      "29"
+      "\\(\\frac{9}{8}\\)",
+      "\\(\\frac{3}{4}\\)",
+      "\\(\\frac{81}{256}\\)",
+      "\\(\\frac{4}{3}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Among the listed values, -27 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Take the square root of the numerator and the denominator separately: \\(\\sqrt{9} = 3\\) and \\(\\sqrt{16} = 4\\), giving \\(\\frac{3}{4}\\).\n\n**Key concept:** Square root of a fraction",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "On a number line, which value is farthest to the left: -28, -25, 23, or 30?",
+    "question": "If \\(|x| = 7.5\\), which statement describes all the values of \\(x\\)?",
     "options": [
-      "-28",
-      "-25",
-      "23",
-      "30"
+      "\\(x = 7.5\\) or \\(x = -7.5\\)",
+      "\\(x = 7.5\\) only",
+      "\\(x = -7.5\\) only",
+      "\\(x\\) is any number between \\(-7.5\\) and \\(7.5\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Among the listed values, -28 has the least value, so it sits farthest to the left.\n\n**Key concept:** Ordering rational numbers",
+    "explanation": "**Explanation:** Absolute value is distance from zero, and two points sit \\(7.5\\) units from zero — one on each side.\n\n**Key concept:** Absolute value equations have two solutions",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "number_sense_basic_operations",
     "passage": null,
     "passageTitle": null,
-    "question": "Which number is irrational?",
+    "question": "Which value is **not** equivalent to \\(-\\frac{3}{4}\\)?",
     "options": [
-      "0.05",
-      "6.5",
-      "36/6",
-      "square root of 38"
+      "\\(-\\frac{9}{12}\\)",
+      "\\(-0.75\\)",
+      "\\(-\\frac{6}{8}\\)",
+      "\\(-0.34\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Square root of 38 is not the square root of a perfect square, so it cannot be written as a ratio of integers.\n\n**Key concept:** Rational and irrational numbers",
+    "explanation": "**Explanation:** \\(-\\frac{3}{4} = -0.75\\), and both \\(-\\frac{6}{8}\\) and \\(-\\frac{9}{12}\\) reduce to \\(-\\frac{3}{4}\\). \\(-0.34\\) is a different number entirely.\n\n**Key concept:** Equivalent forms of a rational number",
     "source": "authored",
     "needsReview": false
   }

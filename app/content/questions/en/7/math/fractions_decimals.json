@@ -7,15 +7,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -7/10 kilometer and then by 2/10 kilometer. What is the net change in depth?",
+    "question": "A submarine changes depth by \\(-\\frac{7}{10}\\) kilometre and then by \\(\\frac{2}{10}\\) kilometre. What is the net change in depth?",
     "options": [
-      "-9/10",
-      "1/2",
-      "-1/2",
-      "9/10"
+      "\\(\\frac{1}{2}\\) km",
+      "\\(-\\frac{9}{10}\\) km",
+      "\\(-\\frac{1}{2}\\) km",
+      "\\(\\frac{9}{10}\\) km"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use a common denominator: -7/10 + 2/10 = -1/2.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** The denominators already match: \\(-\\frac{7}{10} + \\frac{2}{10} = -\\frac{5}{10} = -\\frac{1}{2}\\). The submarine ends up deeper than it started.\n\n**Key concept:** Adding rational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -8/10 kilometer and then by 3/10 kilometer. What is the net change in depth?",
+    "question": "What is \\(\\left(-\\frac{8}{4}\\right) \\times \\frac{8}{3}\\)?",
     "options": [
-      "1/2",
-      "-1/2",
-      "-11/10",
-      "11/10"
+      "\\(-16\\)",
+      "\\(-\\frac{16}{3}\\)",
+      "\\(\\frac{16}{3}\\)",
+      "\\(\\frac{2}{3}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use a common denominator: -8/10 + 3/10 = -1/2.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Simplify first: \\(-\\frac{8}{4} = -2\\). Then \\(-2 \\times \\frac{8}{3} = -\\frac{16}{3}\\).\n\n**Key concept:** Multiplying rational numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -9/10 kilometer and then by 4/10 kilometer. What is the net change in depth?",
+    "question": "A recipe calls for \\(2\\frac{1}{3}\\) cups of flour. Priya has already added \\(\\frac{7}{8}\\) cup. How much more flour does she need?",
     "options": [
-      "-1/2",
-      "1/2",
-      "-13/10",
-      "13/10"
+      "\\(1\\frac{11}{24}\\) cups",
+      "\\(1\\frac{5}{24}\\) cups",
+      "\\(3\\frac{5}{24}\\) cups",
+      "\\(2\\frac{11}{24}\\) cups"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use a common denominator: -9/10 + 4/10 = -1/2.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Use a common denominator of \\(24\\): \\(2\\frac{1}{3} = \\frac{56}{24}\\) and \\(\\frac{7}{8} = \\frac{21}{24}\\). Then \\(\\frac{56}{24} - \\frac{21}{24} = \\frac{35}{24} = 1\\frac{11}{24}\\).\n\n**Key concept:** Subtracting mixed numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -10/10 kilometer and then by 5/10 kilometer. What is the net change in depth?",
+    "question": "A runner covers \\(\\frac{3}{4}\\) mile in \\(\\frac{1}{6}\\) hour. What is the runner’s speed in miles per hour?",
     "options": [
-      "3/2",
-      "1/2",
-      "-3/2",
-      "-1/2"
+      "\\(8\\) miles per hour",
+      "\\(0.125\\) miles per hour",
+      "\\(\\frac{1}{8}\\) mile per hour",
+      "\\(4.5\\) miles per hour"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use a common denominator: -10/10 + 5/10 = -1/2.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** A unit rate divides distance by time: \\(\\frac{3}{4} \\div \\frac{1}{6} = \\frac{3}{4} \\times 6 = \\frac{18}{4} = 4.5\\).\n\n**Key concept:** Unit rates from ratios of fractions",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "What is (-8/4) multiplied by (8/3)?",
+    "question": "What is \\(-3\\frac{1}{2} \\div \\frac{7}{8}\\)?",
     "options": [
-      "-16",
-      "16/3",
-      "-16/3",
-      "2/3"
+      "\\(4\\)",
+      "\\(-\\frac{49}{16}\\)",
+      "\\(-4\\)",
+      "\\(-3\\frac{1}{16}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Multiply numerators and denominators, then simplify: (-8/4)(8/3) = -16/3.\n\n**Key concept:** Multiplying rational numbers",
+    "explanation": "**Explanation:** Write the mixed number as \\(-\\frac{7}{2}\\), then multiply by the reciprocal: \\(-\\frac{7}{2} \\times \\frac{8}{7} = -\\frac{56}{14} = -4\\).\n\n**Key concept:** Dividing mixed numbers",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -11/10 kilometer and then by 2/10 kilometer. What is the net change in depth?",
+    "question": "A stock closed down \\(\\$1.35\\) on Monday, up \\(\\$0.80\\) on Tuesday, and down \\(\\$0.45\\) on Wednesday. What was the total change over the three days?",
     "options": [
-      "9/10",
-      "-9/10",
-      "-13/10",
-      "13/10"
+      "A decrease of \\(\\$2.60\\)",
+      "A decrease of \\(\\$1.00\\)",
+      "An increase of \\(\\$1.00\\)",
+      "A decrease of \\(\\$0.10\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use a common denominator: -11/10 + 2/10 = -9/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Add the signed changes: \\(-1.35 + 0.80 - 0.45 = -1.00\\). A negative total is a decrease.\n\n**Key concept:** Adding signed decimals",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -12/10 kilometer and then by 3/10 kilometer. What is the net change in depth?",
+    "question": "Which expression is equivalent to \\(\\frac{\\frac{2}{3}}{\\frac{5}{6}}\\)?",
     "options": [
-      "-9/10",
-      "9/10",
-      "-3/2",
-      "3/2"
+      "\\(\\frac{2}{3} \\times \\frac{6}{5}\\)",
+      "\\(\\frac{2}{3} \\times \\frac{5}{6}\\)",
+      "\\(\\frac{3}{2} \\times \\frac{6}{5}\\)",
+      "\\(\\frac{5}{6} \\div \\frac{2}{3}\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use a common denominator: -12/10 + 3/10 = -9/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** A fraction bar means divide, and dividing by \\(\\frac{5}{6}\\) is multiplying by its reciprocal \\(\\frac{6}{5}\\). The value is \\(\\frac{12}{15} = \\frac{4}{5}\\).\n\n**Key concept:** Complex fractions as division",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -13/10 kilometer and then by 4/10 kilometer. What is the net change in depth?",
+    "question": "A tank holds \\(\\frac{5}{8}\\) of its capacity. After \\(12\\) gallons are drained it holds \\(\\frac{1}{4}\\) of its capacity. What is the full capacity of the tank?",
     "options": [
-      "17/10",
-      "9/10",
-      "-17/10",
-      "-9/10"
+      "\\(16\\) gallons",
+      "\\(24\\) gallons",
+      "\\(48\\) gallons",
+      "\\(32\\) gallons"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use a common denominator: -13/10 + 4/10 = -9/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** The \\(12\\) gallons removed equal \\(\\frac{5}{8} - \\frac{1}{4} = \\frac{3}{8}\\) of the tank. If \\(\\frac{3}{8}\\) of the capacity is \\(12\\), then \\(\\frac{1}{8}\\) is \\(4\\) and the full tank is \\(32\\) gallons.\n\n**Key concept:** Finding a whole from a fractional part",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -14/10 kilometer and then by 5/10 kilometer. What is the net change in depth?",
+    "question": "What is \\(0.6 \\times \\left(-\\frac{5}{12}\\right)\\)?",
     "options": [
-      "-19/10",
-      "9/10",
-      "-9/10",
-      "19/10"
+      "\\(0.25\\)",
+      "\\(-0.5\\)",
+      "\\(-0.25\\)",
+      "\\(-2.4\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use a common denominator: -14/10 + 5/10 = -9/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Write \\(0.6\\) as \\(\\frac{3}{5}\\): \\(\\frac{3}{5} \\times -\\frac{5}{12} = -\\frac{15}{60} = -\\frac{1}{4} = -0.25\\).\n\n**Key concept:** Mixing fraction and decimal forms",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "What is (-13/4) multiplied by (8/3)?",
+    "question": "A hiker descends \\(\\frac{3}{5}\\) of a \\(1.5\\) kilometre trail, rests, then descends \\(0.35\\) kilometre more. How far has the hiker descended in total?",
     "options": [
-      "26/3",
-      "-26/3",
-      "-26",
-      "13/12"
+      "\\(0.9\\) km",
+      "\\(1.25\\) km",
+      "\\(1.85\\) km",
+      "\\(0.95\\) km"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Multiply numerators and denominators, then simplify: (-13/4)(8/3) = -26/3.\n\n**Key concept:** Multiplying rational numbers",
+    "explanation": "**Explanation:** First leg: \\(\\frac{3}{5} \\times 1.5 = 0.9\\) km. Adding the second leg gives \\(0.9 + 0.35 = 1.25\\) km.\n\n**Key concept:** Multi-step operations with rationals",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -15/10 kilometer and then by 2/10 kilometer. What is the net change in depth?",
+    "question": "Which comparison is true?",
     "options": [
-      "-13/10",
-      "13/10",
-      "-17/10",
-      "17/10"
+      "\\(-\\frac{7}{12} > -\\frac{5}{8}\\)",
+      "\\(-\\frac{7}{12} < -\\frac{5}{8}\\)",
+      "\\(-\\frac{7}{12} = -\\frac{5}{8}\\)",
+      "\\(\\left|-\\frac{7}{12}\\right| > \\left|-\\frac{5}{8}\\right|\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use a common denominator: -15/10 + 2/10 = -13/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Use a denominator of \\(24\\): \\(-\\frac{14}{24}\\) and \\(-\\frac{15}{24}\\). Since \\(-14 > -15\\), the first fraction is greater, and its absolute value is smaller.\n\n**Key concept:** Comparing negative fractions",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -16/10 kilometer and then by 3/10 kilometer. What is the net change in depth?",
+    "question": "Three friends share \\(\\frac{7}{8}\\) of a pizza equally. What fraction of a whole pizza does each receive?",
     "options": [
-      "19/10",
-      "13/10",
-      "-19/10",
-      "-13/10"
+      "\\(\\frac{8}{21}\\)",
+      "\\(\\frac{3}{8}\\)",
+      "\\(\\frac{21}{8}\\)",
+      "\\(\\frac{7}{24}\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use a common denominator: -16/10 + 3/10 = -13/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Sharing equally means dividing: \\(\\frac{7}{8} \\div 3 = \\frac{7}{8} \\times \\frac{1}{3} = \\frac{7}{24}\\).\n\n**Key concept:** Dividing a fraction by a whole number",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -17/10 kilometer and then by 4/10 kilometer. What is the net change in depth?",
+    "question": "What is \\(-2.4 - (-5.75)\\)?",
     "options": [
-      "-21/10",
-      "13/10",
-      "-13/10",
-      "21/10"
+      "\\(-3.35\\)",
+      "\\(-8.15\\)",
+      "\\(3.35\\)",
+      "\\(8.15\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use a common denominator: -17/10 + 4/10 = -13/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Subtracting a negative adds: \\(-2.4 + 5.75 = 3.35\\).\n\n**Key concept:** Subtracting negative decimals",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -18/10 kilometer and then by 5/10 kilometer. What is the net change in depth?",
+    "question": "A machine fills \\(\\frac{2}{5}\\) of a crate in \\(\\frac{3}{4}\\) minute. How many crates can it fill in one minute?",
     "options": [
-      "13/10",
-      "-13/10",
-      "-23/10",
-      "23/10"
+      "\\(\\frac{3}{10}\\) crate",
+      "\\(\\frac{8}{15}\\) crate",
+      "\\(\\frac{15}{8}\\) crates",
+      "\\(\\frac{6}{20}\\) crate"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use a common denominator: -18/10 + 5/10 = -13/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Divide the amount by the time: \\(\\frac{2}{5} \\div \\frac{3}{4} = \\frac{2}{5} \\times \\frac{4}{3} = \\frac{8}{15}\\).\n\n**Key concept:** Unit rate as a complex fraction",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "What is (-18/4) multiplied by (8/3)?",
+    "question": "A board \\(4\\frac{1}{2}\\) feet long is cut into pieces \\(\\frac{3}{8}\\) foot long. How many whole pieces can be cut?",
     "options": [
-      "-12",
-      "12",
-      "-36",
-      "3/2"
+      "\\(12\\) pieces",
+      "\\(11\\) pieces",
+      "\\(13\\) pieces",
+      "\\(9\\) pieces"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Multiply numerators and denominators, then simplify: (-18/4)(8/3) = -12.\n\n**Key concept:** Multiplying rational numbers",
+    "explanation": "**Explanation:** \\(4\\frac{1}{2} = \\frac{9}{2}\\), and \\(\\frac{9}{2} \\div \\frac{3}{8} = \\frac{9}{2} \\times \\frac{8}{3} = 12\\). The division comes out even, so exactly \\(12\\) pieces are cut.\n\n**Key concept:** Division as repeated subtraction",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -19/10 kilometer and then by 2/10 kilometer. What is the net change in depth?",
+    "question": "Which value of the missing number makes \\(-\\frac{3}{5} + \\Box = -\\frac{1}{10}\\) true?",
     "options": [
-      "21/10",
-      "17/10",
-      "-21/10",
-      "-17/10"
+      "\\(-\\frac{7}{10}\\)",
+      "\\(-\\frac{1}{2}\\)",
+      "\\(\\frac{7}{10}\\)",
+      "\\(\\frac{1}{2}\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use a common denominator: -19/10 + 2/10 = -17/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Solve by subtracting: \\(-\\frac{1}{10} - \\left(-\\frac{3}{5}\\right) = -\\frac{1}{10} + \\frac{6}{10} = \\frac{5}{10} = \\frac{1}{2}\\).\n\n**Key concept:** Solving for a missing addend",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -20/10 kilometer and then by 3/10 kilometer. What is the net change in depth?",
+    "question": "A thermometer falls \\(2.75\\) degrees each hour for \\(4\\) hours from a starting reading of \\(6.5\\) degrees. What is the final reading?",
     "options": [
-      "-23/10",
-      "17/10",
-      "-17/10",
-      "23/10"
+      "\\(-11\\) degrees",
+      "\\(4.5\\) degrees",
+      "\\(-4.5\\) degrees",
+      "\\(-2.75\\) degrees"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use a common denominator: -20/10 + 3/10 = -17/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** The total fall is \\(2.75 \\times 4 = 11\\) degrees, so the reading is \\(6.5 - 11 = -4.5\\) degrees.\n\n**Key concept:** Repeated signed change",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -21/10 kilometer and then by 4/10 kilometer. What is the net change in depth?",
+    "question": "Which expression has the **greatest** value?",
     "options": [
-      "17/10",
-      "-17/10",
-      "-5/2",
-      "5/2"
+      "\\(\\frac{3}{4} \\times \\frac{1}{2}\\)",
+      "\\(\\frac{3}{4} \\div \\frac{1}{2}\\)",
+      "\\(\\frac{3}{4} - \\frac{1}{2}\\)",
+      "\\(\\frac{1}{2} \\div \\frac{3}{4}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use a common denominator: -21/10 + 4/10 = -17/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** The four values are \\(1.5\\), \\(0.375\\), \\(0.25\\) and about \\(0.667\\). Dividing by a number less than one makes the result larger than the original.\n\n**Key concept:** Effect of operations on size",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -22/10 kilometer and then by 5/10 kilometer. What is the net change in depth?",
+    "question": "A pipe leaks \\(0.375\\) litre every \\(\\frac{1}{4}\\) hour. How many litres leak in \\(2\\frac{1}{2}\\) hours?",
     "options": [
-      "-17/10",
-      "17/10",
-      "-27/10",
-      "27/10"
+      "\\(3.75\\) litres",
+      "\\(0.9375\\) litre",
+      "\\(1.5\\) litres",
+      "\\(15\\) litres"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use a common denominator: -22/10 + 5/10 = -17/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** The rate is \\(0.375 \\div \\frac{1}{4} = 1.5\\) litres per hour, so \\(1.5 \\times 2.5 = 3.75\\) litres.\n\n**Key concept:** Rate applied over time",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "What is (-23/4) multiplied by (8/3)?",
+    "question": "Which comparison of \\(0.4\\overline{5}\\) and \\(0.45\\) is correct?",
     "options": [
-      "23/12",
-      "46/3",
-      "-46",
-      "-46/3"
+      "\\(0.4\\overline{5}\\) equals \\(0.4\\)",
+      "\\(0.4\\overline{5}\\) is less than \\(0.45\\)",
+      "\\(0.4\\overline{5}\\) equals \\(0.45\\)",
+      "\\(0.4\\overline{5}\\) is greater than \\(0.45\\)"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Multiply numerators and denominators, then simplify: (-23/4)(8/3) = -46/3.\n\n**Key concept:** Multiplying rational numbers",
+    "explanation": "**Explanation:** \\(0.4\\overline{5} = 0.4555\\ldots\\). Compared with \\(0.4500\\), the digits agree until the thousandths place, where \\(5 > 0\\).\n\n**Key concept:** Repeating decimals and place value",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -23/10 kilometer and then by 2/10 kilometer. What is the net change in depth?",
+    "question": "What is \\(\\left(-\\frac{2}{3}\\right)^3\\)?",
     "options": [
-      "-5/2",
-      "21/10",
-      "-21/10",
-      "5/2"
+      "\\(-\\frac{6}{9}\\)",
+      "\\(\\frac{8}{27}\\)",
+      "\\(-\\frac{8}{27}\\)",
+      "\\(-2\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Use a common denominator: -23/10 + 2/10 = -21/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Cube the numerator and the denominator: \\((-2)^3 = -8\\) and \\(3^3 = 27\\). An odd power keeps the negative sign.\n\n**Key concept:** Powers of a fraction",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -24/10 kilometer and then by 3/10 kilometer. What is the net change in depth?",
+    "question": "Marcus spends \\(\\frac{1}{3}\\) of his money on a book and \\(\\frac{1}{4}\\) of what is **left** on lunch. What fraction of his original money remains?",
     "options": [
-      "21/10",
-      "-21/10",
-      "-27/10",
-      "27/10"
+      "\\(\\frac{5}{12}\\)",
+      "\\(\\frac{1}{2}\\)",
+      "\\(\\frac{2}{3}\\)",
+      "\\(\\frac{7}{12}\\)"
     ],
     "correctIndex": 1,
-    "explanation": "**Explanation:** Use a common denominator: -24/10 + 3/10 = -21/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** After the book, \\(\\frac{2}{3}\\) remains. Lunch takes \\(\\frac{1}{4}\\) of that, leaving \\(\\frac{3}{4} \\times \\frac{2}{3} = \\frac{1}{2}\\). The second fraction applies to the remainder, not to the original amount.\n\n**Key concept:** Successive fractional parts",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -25/10 kilometer and then by 4/10 kilometer. What is the net change in depth?",
+    "question": "Which decimal is equivalent to \\(\\frac{17}{40}\\)?",
     "options": [
-      "-21/10",
-      "21/10",
-      "-29/10",
-      "29/10"
+      "\\(0.425\\)",
+      "\\(0.4\\overline{25}\\)",
+      "\\(0.235\\)",
+      "\\(1.740\\)"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** Use a common denominator: -25/10 + 4/10 = -21/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** \\(40 \\times 25 = 1000\\), so multiply numerator and denominator by \\(25\\): \\(\\frac{425}{1000} = 0.425\\). The denominator has only \\(2\\)s and \\(5\\)s, so it terminates.\n\n**Key concept:** Converting fractions to decimals",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "A submarine changes depth by -26/10 kilometer and then by 5/10 kilometer. What is the net change in depth?",
+    "question": "A jar contains \\(1\\frac{7}{8}\\) kilograms of rice. A cook removes \\(\\frac{5}{6}\\) kilogram and then adds \\(0.5\\) kilogram. How much rice is in the jar?",
     "options": [
-      "31/10",
-      "21/10",
-      "-31/10",
-      "-21/10"
+      "\\(\\frac{13}{24}\\) kg",
+      "\\(1\\frac{1}{24}\\) kg",
+      "\\(2\\frac{13}{24}\\) kg",
+      "\\(1\\frac{13}{24}\\) kg"
     ],
     "correctIndex": 3,
-    "explanation": "**Explanation:** Use a common denominator: -26/10 + 5/10 = -21/10.\n\n**Key concept:** Adding rational numbers",
+    "explanation": "**Explanation:** Use twenty-fourths: \\(\\frac{45}{24} - \\frac{20}{24} + \\frac{12}{24} = \\frac{37}{24} = 1\\frac{13}{24}\\) kilograms.\n\n**Key concept:** Multi-step rational arithmetic",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "fractions_decimals",
     "passage": null,
     "passageTitle": null,
-    "question": "What is (-28/4) multiplied by (8/3)?",
+    "question": "A number is multiplied by \\(-\\frac{4}{5}\\) and the result is \\(\\frac{12}{25}\\). What is the number?",
     "options": [
-      "-56",
-      "56/3",
-      "-56/3",
-      "7/3"
+      "\\(-\\frac{48}{125}\\)",
+      "\\(\\frac{3}{5}\\)",
+      "\\(-\\frac{3}{5}\\)",
+      "\\(-\\frac{15}{12}\\)"
     ],
     "correctIndex": 2,
-    "explanation": "**Explanation:** Multiply numerators and denominators, then simplify: (-28/4)(8/3) = -56/3.\n\n**Key concept:** Multiplying rational numbers",
+    "explanation": "**Explanation:** Divide to undo the multiplication: \\(\\frac{12}{25} \\div \\left(-\\frac{4}{5}\\right) = \\frac{12}{25} \\times \\left(-\\frac{5}{4}\\right) = -\\frac{3}{5}\\). A negative result from a negative factor means the number itself is negative.\n\n**Key concept:** Inverse operations with rationals",
     "source": "authored",
     "needsReview": false
   }

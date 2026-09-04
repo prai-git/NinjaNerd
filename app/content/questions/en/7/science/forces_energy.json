@@ -7,15 +7,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A cart has 45 N east, 20 N west, and 5 N west from friction. What is the net force?",
+    "question": "A box is pushed with 30 N to the right while friction opposes it with 30 N. The box is already moving at 2 m/s. What happens?",
     "options": [
-      "20 N east.",
-      "20 N west.",
-      "70 N east.",
-      "0 N."
+      "It speeds up, because a push is being applied.",
+      "It stops immediately, because the forces cancel.",
+      "It continues at 2 m/s, because the forces are balanced and there is no acceleration.",
+      "It slows down gradually, because friction always wins."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Balanced forces produce zero net force and therefore zero acceleration — which means constant velocity, not zero velocity. An object already moving keeps moving.\n\n**Key concept:** Balanced forces and constant velocity",
     "source": "authored",
     "needsReview": false
   },
@@ -27,15 +27,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A robot travels 30 m in 12 s, including a 2 s pause. What is its average speed?",
+    "question": "A car travels 240 km in 3 hours, but stops for 30 minutes partway. What is its average speed for the whole trip?",
     "options": [
-      "2.5 m/s.",
-      "3.0 m/s.",
-      "15 m/s.",
-      "1.5 m/s."
+      "96 km/h",
+      "80 km/h",
+      "120 km/h",
+      "48 km/h"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Average speed uses total distance over total time, including stops: 240 ÷ 3 = 80 km/h. Excluding the stop would give the average speed while moving, a different quantity.\n\n**Key concept:** Average speed includes stopped time",
     "source": "authored",
     "needsReview": false
   },
@@ -47,15 +47,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A skateboarder descends a ramp with little friction. What energy change occurs?",
+    "question": "What distinguishes velocity from speed?",
     "options": [
-      "Gravitational potential energy changes mainly to kinetic energy.",
-      "Kinetic energy changes mainly to gravitational potential energy.",
-      "Matter is created as energy changes.",
-      "Thermal energy is destroyed."
+      "Velocity includes direction; speed does not.",
+      "Velocity is measured over longer distances than speed.",
+      "Velocity applies only to objects that are accelerating.",
+      "Velocity is always larger than speed for the same motion."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "explanation": "**Explanation:** Speed is a magnitude; velocity is a magnitude with a direction. A car going in a circle at a steady 30 km/h has constant speed and changing velocity.\n\n**Key concept:** Speed versus velocity",
     "source": "authored",
     "needsReview": false
   },
@@ -67,15 +67,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Two equal forces act in opposite directions on a box. What happens?",
+    "question": "A cyclist changes from 4 m/s to 10 m/s over 3 seconds. What is the acceleration?",
     "options": [
-      "The net force is zero, so its motion does not change.",
-      "The box must accelerate east.",
-      "The box must accelerate west.",
-      "Its mass becomes zero."
+      "0.5 m/s²",
+      "6 m/s²",
+      "14 m/s²",
+      "2 m/s²"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Acceleration is the change in velocity over the time taken: (10 − 4) ÷ 3 = 2 m/s².\n\n**Key concept:** Calculating acceleration",
     "source": "authored",
     "needsReview": false
   },
@@ -87,15 +87,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Why does a seat belt protect a passenger during a sudden stop?",
+    "question": "A satellite orbits Earth at a constant speed. Is it accelerating?",
     "options": [
-      "It provides a force that changes the passenger motion with the car.",
-      "It removes the passengers inertia.",
-      "It increases the passengers mass.",
-      "It creates gravity."
+      "No, because there is no air resistance in space.",
+      "No, because its speed does not change.",
+      "Yes, because its direction is constantly changing.",
+      "Yes, because it is gradually speeding up as it falls."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Acceleration is any change in velocity, and velocity includes direction. Circular motion at constant speed involves continuous acceleration toward the centre.\n\n**Key concept:** Acceleration without a change in speed",
     "source": "authored",
     "needsReview": false
   },
@@ -107,15 +107,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A cyclist doubles speed with the same travel time. What happens to distance traveled?",
+    "question": "Two students push a crate in opposite directions with 60 N and 45 N. What is the net force?",
     "options": [
-      "It doubles.",
-      "It is cut in half.",
-      "It remains unchanged.",
-      "It becomes zero."
+      "105 N in the direction of the larger push",
+      "15 N in the direction of the larger push",
+      "15 N in the direction of the smaller push",
+      "0 N, because the pushes oppose each other"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Opposing forces subtract: 60 − 45 = 15 N, acting the way the larger force points.\n\n**Key concept:** Net force from opposing forces",
     "source": "authored",
     "needsReview": false
   },
@@ -127,15 +127,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Which change increases friction between shoes and a wet floor?",
+    "question": "A book rests on a table. Which pair describes an action-reaction pair under Newton’s third law?",
     "options": [
-      "Using shoes with deeper tread.",
-      "Polishing the soles smooth.",
-      "Adding oil to the floor.",
-      "Reducing the contact force to zero."
+      "The book pushes down on the table; the table pushes up on the book.",
+      "Gravity pulls the book down; the table pushes the book up.",
+      "The book’s weight acts down; the book’s mass resists motion.",
+      "The book pushes down on the table; gravity pulls the book down."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "explanation": "**Explanation:** An action-reaction pair acts on two different objects and involves the same interaction. Gravity and the normal force both act on the book, so they are balanced forces, not a third-law pair.\n\n**Key concept:** Newton’s third law",
     "source": "authored",
     "needsReview": false
   },
@@ -147,15 +147,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A book rests on a table. Which forces are balanced?",
+    "question": "A 4 kg object and a 12 kg object are pushed with the same force on the same surface. What is expected?",
     "options": [
-      "The upward support force and downward gravitational force.",
-      "The books mass and its volume.",
-      "Friction and speed.",
-      "Kinetic and chemical energy."
+      "Neither accelerates, because mass resists motion.",
+      "Both accelerate equally, since the force is the same.",
+      "The 12 kg object accelerates three times as much.",
+      "The 4 kg object accelerates three times as much."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Acceleration equals force divided by mass, so tripling the mass divides the acceleration by three.\n\n**Key concept:** Newton’s second law",
     "source": "authored",
     "needsReview": false
   },
@@ -167,15 +167,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A 4 kg object accelerates when an unbalanced force acts. What change would produce greater acceleration with the same force?",
+    "question": "A worker lifts a 20 N box 1.5 m onto a shelf. How much work is done?",
     "options": [
-      "Decrease the objects mass.",
-      "Increase the objects mass.",
-      "Eliminate its kinetic energy.",
-      "Increase gravity to zero."
+      "21.5 J",
+      "13.3 J",
+      "30 J",
+      "300 J"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Work is force times distance moved in the direction of the force: 20 × 1.5 = 30 joules.\n\n**Key concept:** Calculating work",
     "source": "authored",
     "needsReview": false
   },
@@ -187,15 +187,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Which example shows Newtons third law?",
+    "question": "A person pushes hard against a wall for two minutes and the wall does not move. How much work has been done on the wall?",
     "options": [
-      "A swimmer pushes water backward, and water pushes the swimmer forward.",
-      "A ball slows because it loses all mass.",
-      "A car moves because the road has no force on it.",
-      "A falling object has no force acting on it."
+      "A great deal, because a large force was applied.",
+      "None, because the wall did not move.",
+      "Half as much as if the wall had moved.",
+      "It cannot be determined without knowing the force."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** In physics, work requires displacement in the direction of the force. A large force over zero distance does zero work, however tiring it feels.\n\n**Key concept:** Work requires displacement",
     "source": "authored",
     "needsReview": false
   },
@@ -207,15 +207,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A flashlight converts battery energy to light and heat. What principle applies?",
+    "question": "A ramp lets a worker raise a 400 N crate to a height of 1 m using 100 N of force along a 4 m slope. What does the ramp change?",
     "options": [
-      "Energy is transformed but conserved.",
-      "Energy is created by the bulb.",
-      "Matter is destroyed as light forms.",
-      "Heat has no energy."
+      "It reduces the force needed while increasing the distance, so the work stays about the same.",
+      "It reduces the total work required to raise the crate.",
+      "It increases the force available so less energy is used.",
+      "It removes the effect of gravity on the crate."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "explanation": "**Explanation:** A simple machine trades force for distance. Ignoring friction, 400 N × 1 m equals 100 N × 4 m — the same 400 J of work.\n\n**Key concept:** Mechanical advantage of an inclined plane",
     "source": "authored",
     "needsReview": false
   },
@@ -227,15 +227,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Which surface absorbs the most radiant energy on a sunny day?",
+    "question": "A ball rolls down a ramp and slows to a stop on a level carpet. Where has its kinetic energy gone?",
     "options": [
-      "A dark, dull surface.",
-      "A light, shiny surface.",
-      "A transparent vacuum.",
-      "A surface with no particles."
+      "It has been stored in the carpet as elastic energy.",
+      "It has been destroyed, since the ball is no longer moving.",
+      "It has all been converted back into gravitational potential energy.",
+      "Mostly to thermal energy through friction between the ball and the carpet."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Energy is conserved. Friction converts kinetic energy into small amounts of heat and sound spread through the ball, the carpet and the air.\n\n**Key concept:** Energy conversion by friction",
     "source": "authored",
     "needsReview": false
   },
@@ -247,15 +247,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A spring is compressed and released. Before release, it has mainly which energy?",
+    "question": "Which change would most increase a moving car’s kinetic energy?",
     "options": [
-      "Elastic potential energy.",
-      "Chemical energy.",
-      "Nuclear energy.",
-      "No energy."
+      "Halving its mass",
+      "Doubling its mass",
+      "Doubling its speed",
+      "Doubling the distance it travels"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Kinetic energy depends on the square of the speed but only on the first power of mass, so doubling speed multiplies the energy by four while doubling mass multiplies it by two.\n\n**Key concept:** Kinetic energy depends on speed squared",
     "source": "authored",
     "needsReview": false
   },
@@ -267,15 +267,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Why does a heavier cart require more force than a lighter cart for the same acceleration?",
+    "question": "A pendulum swings. At which point is its gravitational potential energy greatest?",
     "options": [
-      "Greater mass resists changes in motion more.",
-      "Heavier carts have no inertia.",
-      "Mass removes friction completely.",
-      "Weight is unrelated to force."
+      "At the lowest point, where it moves fastest",
+      "At the highest point of its swing, where its speed is momentarily zero",
+      "Midway through the swing, where both energies are equal",
+      "It is the same at every point, because energy is conserved"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Potential energy rises with height and kinetic energy with speed. The two trade back and forth, and their total is what stays constant.\n\n**Key concept:** Energy transfer in a pendulum",
     "source": "authored",
     "needsReview": false
   },
@@ -287,15 +287,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A car travels around a curve at constant speed. Why is its motion changing?",
+    "question": "Two identical sleds are pulled the same distance, one over ice and one over gravel. Which requires more work, and why?",
     "options": [
-      "Its direction changes, so its velocity changes.",
-      "Its mass changes.",
-      "It has no acceleration.",
-      "Time stops during turns."
+      "The gravel, because greater friction means a larger force is needed over the same distance.",
+      "The ice, because sleds slide faster on ice.",
+      "They require the same work, since the distance is identical.",
+      "The gravel, because the sled travels a longer path."
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "explanation": "**Explanation:** Work is force times distance. The distances match, so the surface with more friction demands the larger force and therefore more work.\n\n**Key concept:** Friction and work",
     "source": "authored",
     "needsReview": false
   },
@@ -307,15 +307,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "What does a distance-time graph with a horizontal line show?",
+    "question": "What does an object’s inertia depend on?",
     "options": [
-      "The object is not changing position.",
-      "The object is speeding up.",
-      "The object is moving backward faster.",
-      "The object has no mass."
+      "The force applied to it",
+      "Its speed",
+      "Its weight on the Moon",
+      "Its mass"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Inertia is the resistance to a change in motion and is determined by mass alone. Weight varies with location; inertia does not.\n\n**Key concept:** Inertia and mass",
     "source": "authored",
     "needsReview": false
   },
@@ -327,15 +327,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A parachute increases air resistance. What is the result for a falling skydiver?",
+    "question": "A graph of distance against time is a straight line sloping upward. What does this describe?",
     "options": [
-      "The upward drag reduces the downward net force.",
-      "Gravity disappears.",
-      "The skydiver gains mass.",
-      "The ground pushes before contact."
+      "An object at rest",
+      "Constant acceleration",
+      "Constant speed",
+      "An object slowing down"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** On a distance-time graph, a straight line means equal distance in equal time. Acceleration would show as a curve.\n\n**Key concept:** Interpreting a distance-time graph",
     "source": "authored",
     "needsReview": false
   },
@@ -347,15 +347,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Which transfer warms a spoon handle in hot soup?",
+    "question": "A skydiver reaches terminal velocity. What is true at that moment?",
     "options": [
-      "Conduction through the metal.",
-      "Convection through empty space.",
-      "Radiation only from the handle.",
-      "Evaporation of the spoon."
+      "Gravity has stopped acting on the skydiver.",
+      "Air resistance upward equals weight downward, so the net force is zero.",
+      "Air resistance has become greater than weight.",
+      "The skydiver has stopped moving."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** Terminal velocity is a balanced-force condition: the diver continues falling at a constant, unchanging speed rather than stopping.\n\n**Key concept:** Terminal velocity",
     "source": "authored",
     "needsReview": false
   },
@@ -367,15 +367,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A roller coaster climbs a hill. What energy change is occurring?",
+    "question": "A spring is compressed and held. What form of energy is stored?",
     "options": [
-      "Kinetic energy is changing into gravitational potential energy.",
-      "Potential energy is changing into mass.",
-      "Heat is changing into matter.",
-      "Sound is changing into gravity."
+      "Elastic potential energy",
+      "Kinetic energy",
+      "Thermal energy",
+      "Chemical potential energy"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "explanation": "**Explanation:** Deforming an elastic object stores energy in the arrangement of its material, which is released when it returns to shape.\n\n**Key concept:** Elastic potential energy",
     "source": "authored",
     "needsReview": false
   },
@@ -387,15 +387,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A force of 12 N acts east and 12 N acts west. Which claim is correct?",
+    "question": "A student claims a heavier ball must fall faster. Ignoring air resistance, what actually happens?",
     "options": [
-      "The forces are balanced.",
-      "The net force is 24 N east.",
-      "The net force is 12 N west.",
-      "The object must be moving east."
+      "Neither falls unless it is pushed.",
+      "The heavier ball falls faster because gravity pulls it harder.",
+      "The lighter ball falls faster because it has less inertia.",
+      "Both fall with the same acceleration, because the greater force on the heavier ball acts on a proportionally greater mass."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** Gravitational force is proportional to mass, and acceleration is force divided by mass, so the mass cancels. In air, shape and air resistance produce the differences we usually observe.\n\n**Key concept:** Free fall is independent of mass",
     "source": "authored",
     "needsReview": false
   },
@@ -407,15 +407,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Why is a ramp useful for moving a crate into a truck?",
+    "question": "A 5 N force moves an object 4 m in 2 seconds. What is the power output?",
     "options": [
-      "It allows a smaller force to act over a longer distance.",
-      "It eliminates the need for energy.",
-      "It decreases the crates mass.",
-      "It removes gravity."
+      "40 W",
+      "20 W",
+      "10 W",
+      "2.5 W"
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Work is 5 × 4 = 20 J, and power is work over time: 20 ÷ 2 = 10 watts.\n\n**Key concept:** Calculating power",
     "source": "authored",
     "needsReview": false
   },
@@ -427,15 +427,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A moving bowling ball strikes pins. Which property helps it transfer energy?",
+    "question": "Two cars collide head-on. Which statement about the forces between them is correct?",
     "options": [
-      "Its kinetic energy from motion.",
-      "Its lack of mass.",
-      "Its zero inertia.",
-      "Its absence of force."
+      "The heavier car exerts a greater force on the lighter one.",
+      "Each car exerts an equal and opposite force on the other, regardless of their masses.",
+      "The faster car exerts a greater force on the slower one.",
+      "The forces depend on which car braked first."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 1,
+    "explanation": "**Explanation:** By Newton’s third law the interaction forces are always equal and opposite. The damage differs because the same force produces more acceleration on the smaller mass.\n\n**Key concept:** Equal forces, unequal effects",
     "source": "authored",
     "needsReview": false
   },
@@ -447,15 +447,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "Which change best reduces heat transfer by conduction through a wall?",
+    "question": "Which situation shows unbalanced forces?",
     "options": [
-      "Add an insulating material with trapped air.",
-      "Use a thicker metal sheet.",
-      "Paint the wall darker only.",
-      "Remove all wall material."
+      "A ball at the top of its flight, momentarily still but still accelerating downward",
+      "A book resting on a level shelf",
+      "A car moving at a steady 60 km/h on a straight road",
+      "A lamp hanging motionless from a ceiling"
     ],
     "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "explanation": "**Explanation:** Unbalanced forces mean a non-zero net force and therefore acceleration. The ball at its apex has zero velocity but gravity still acts unopposed; the other three are all balanced.\n\n**Key concept:** Identifying unbalanced forces",
     "source": "authored",
     "needsReview": false
   },
@@ -467,15 +467,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "An object moves at 6 m/s for 5 s. How far does it travel?",
+    "question": "Why do the tyres of a racing car have no tread?",
     "options": [
-      "30 m.",
-      "11 m.",
-      "1.2 m.",
-      "60 m."
+      "Smooth tyres reduce friction, which lets the car accelerate faster.",
+      "Less rubber makes the car lighter and therefore faster.",
+      "Tread would create too much air resistance at high speed.",
+      "A smooth surface maximises contact with dry track, increasing the friction that grips the road."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 3,
+    "explanation": "**Explanation:** On a dry track, more contact area means more grip. Tread exists to channel water away, which is why racing teams change tyres when it rains.\n\n**Key concept:** Friction as a useful force",
     "source": "authored",
     "needsReview": false
   },
@@ -487,15 +487,15 @@
     "subtopic": "forces_energy",
     "passage": null,
     "passageTitle": null,
-    "question": "A magnetic force acts without direct contact. Which is another noncontact force?",
+    "question": "A cart is given a push and rolls to a stop. Which explanation is best supported by Newton’s first law?",
     "options": [
-      "Gravitational force.",
-      "Frictional force.",
-      "Support force.",
-      "Tension in a rope."
+      "The cart stopped because objects naturally come to rest.",
+      "The cart stopped because the force from the push was used up.",
+      "The cart stopped because friction acted on it, not because the push ran out.",
+      "The cart stopped because its inertia decreased as it slowed."
     ],
-    "correctIndex": 0,
-    "explanation": "**Explanation:** The evidence and relationships in the scenario support this conclusion.\n\n**Key concept:** Forces, motion, and energy transfer",
+    "correctIndex": 2,
+    "explanation": "**Explanation:** Newton’s first law says motion continues unless an outside force acts. The push ended at the moment of release; friction is what changed the motion afterwards.\n\n**Key concept:** Newton’s first law applied",
     "source": "authored",
     "needsReview": false
   }
