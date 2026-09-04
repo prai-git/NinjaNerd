@@ -162,6 +162,14 @@ that import the SDK can only be checked as text.
   carrying `&trade;` rather than the `&copy;` it wrongly had (a name is not a copyrightable
   work; the footer's `&copy;` covers the page content and is correct). No `®` anywhere: no
   registration exists, and claiming one would be a false statement.
+
+  **That symbol test was first written against `layout.js` alone, and it was wrong to be.** It
+  passed while `index.html` still read *"Welcome to NINJANERD.AI&copy;"* — the owner found it by
+  eye, four commits later. It now walks **every served `.html`/`.js`** and rejects the name
+  followed by any symbol, while still permitting the footer's `&copy; <year> NINJANERD.AI`,
+  where the symbol opens a copyright notice and the name follows it as the owner. **A guard
+  narrower than the mistake it guards against is worth very little** — the same lesson §12a
+  records about unit-testing `normaliseMath` in isolation.
 - **`doc/`** — **entirely git-ignored; nothing under it is tracked.** The plan, the `NN_*`
   prompts, `changelog.md`, `firebase-setup.md`, and `doc/questionnaire/` (the authored
   question source). These are working documents, not reference material — **anything the repo

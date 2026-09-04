@@ -253,14 +253,44 @@ test('the Terms and the LICENSE both reserve everything, and neither licenses th
   }
 });
 
-test('the nav brand uses the trademark symbol, not the copyright symbol', () => {
-  /* A name is not a copyrightable work, so NINJANERD.AI&copy; was the wrong symbol. The
-     footer's "&copy; <year> NINJANERD.AI. All rights reserved." is correct and stays — that
-     one covers the site's content rather than the name. */
+test('no served page puts a copyright symbol on the name', () => {
+  /* A name is not a copyrightable work, so "NINJANERD.AI&copy;" is the wrong symbol; the mark
+     is claimed with &trade;, matching Terms section 7.
+
+     This walks EVERY served file rather than just layout.js. The first version of this test
+     read layout.js alone, so it passed while the landing page still said
+     "Welcome to NINJANERD.AI<sup>&copy;</sup>" — a guard narrower than the mistake it is
+     guarding against is worth very little.
+
+     What stays legal is the footer's "&copy; <year> NINJANERD.AI. All rights reserved.": there
+     the symbol opens a copyright notice about the page's content and the name follows it as the
+     owner, which is the standard form. The pattern below only rejects the name FOLLOWED by a
+     symbol. */
+  const NAME = '(?:NINJANERD\\.AI|NinjaNerd\\.ai|NINJANERD|NinjaNerd)';
+  const NAME_THEN_SYMBOL = new RegExp(`${NAME}\\s*(?:<sup>)?\\s*(?:&copy;|©|&reg;|®)`, 'g');
+  const offenders = [];
+
+  const walk = (dir) => {
+    for (const entry of readdirSync(dir)) {
+      const full = join(dir, entry);
+      if (statSync(full).isDirectory()) { walk(full); continue; }
+      if (!/\.(html|js)$/.test(entry)) continue;
+      const text = readFileSync(full, 'utf8');
+      for (const m of text.matchAll(NAME_THEN_SYMBOL)) {
+        offenders.push(`${full.slice(repoRoot.length + 1)}: ${m[0]}`);
+      }
+      // No registration exists, so a registered-trademark symbol anywhere would be a false claim.
+      if (/&reg;|®/.test(text)) offenders.push(`${full.slice(repoRoot.length + 1)}: registered symbol`);
+    }
+  };
+  walk(appDir);
+  assert.deepEqual(offenders, [], 'use &trade; after the name; &copy; belongs before a year');
+
+  // And the two places that must keep their symbols, so a later tidy-up cannot strip them.
   const layout = readFileSync(join(appDir, 'assets/js/layout.js'), 'utf8');
   assert.match(layout, /NINJANERD\.AI<sup>&trade;<\/sup>/, 'the nav brand should carry &trade;');
-  assert.doesNotMatch(layout, /NINJANERD\.AI<sup>&copy;<\/sup>/, 'a name cannot be copyrighted');
   assert.match(layout, /&copy; ' \+ year \+ ' NINJANERD\.AI\. All rights reserved\./,
     'the footer copyright line is correct and must stay');
-  assert.ok(!layout.includes('&reg;'), 'no registration exists, so &reg; would be a false claim');
+  assert.match(readFileSync(join(appDir, 'index.html'), 'utf8'),
+    /Welcome to NINJANERD\.AI<sup>&trade;<\/sup>/, 'the landing page heading should carry &trade;');
 });
