@@ -1,11 +1,12 @@
 /* Topics page (mirrors legacy topics.html): grade → subject cards.
    Public — no login required to browse. Scope: English/Math/Science + Games, plus
-   Control Logic from its own MIN_GRADE up (prompt 20), and Electrical Design from its own
-   (prompt 21). */
+   Control Logic from its own MIN_GRADE up (prompt 20), Electrical Design from its own
+   (prompt 21), and Programming from its own (2026-10-30). */
 import { loadManifest, subjectsFor } from './content-loader.js';
 import { param, SUBJECTS, isValidGrade } from './flow.js';
 import { MIN_GRADE as CONTROL_LOGIC_MIN_GRADE } from './control-logic-data.js';
 import { MIN_GRADE as ELECTRICAL_DESIGN_MIN_GRADE } from './electrical-design-data.js';
+import { MIN_GRADE as PROGRAMMING_MIN_GRADE } from './programming-data.js';
 
 function card({ icon, color, title, desc }, onclick) {
   const col = document.createElement('div');
@@ -70,6 +71,19 @@ async function init(root) {
       { icon: 'fa-bolt', color: 'warning', title: 'Electrical Design',
         desc: 'Resistors to microcontrollers: build a real circuit and program it yourself' },
       () => { location.href = `pages/electrical-design.html?grade=${grade}`; },
+    ));
+  }
+
+  /* Programming (2026-10-30) — a seventh tile, after Electrical Design. Learn-only and the
+     Games flow again (topics -> programming -> lesson). Control Logic teaches the digital
+     abstraction and Electrical Design the analogue parts under it; this one teaches the
+     SOFTWARE that runs on them, which is why it is its own tile rather than more lessons in
+     either. Its floor is its own constant, read here rather than hardcoded, exactly as above. */
+  if (grade >= PROGRAMMING_MIN_GRADE) {
+    grid.appendChild(card(
+      { icon: 'fa-laptop-code', color: 'success', title: 'Programming',
+        desc: 'Variables, decisions and loops: watch a program run, then build it yourself' },
+      () => { location.href = `pages/programming.html?grade=${grade}`; },
     ));
   }
 

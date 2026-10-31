@@ -7,6 +7,7 @@
   "scripts": {
     "test": "node --test",
     "build:content": "node tools/build-content.mjs",
+    "serve": "node tools/serve.mjs",
     "emulator": "firebase emulators:start --only auth,firestore --project ninjanerd-emulator",
     "test:rules": "firebase emulators:exec --only auth,firestore --project ninjanerd-emulator \"node --test test/test_firestore_rules.test.js\"",
     "check:arithmetic": "node tools/check-arithmetic.mjs",

@@ -1,8 +1,8 @@
 # NinjaNerd 🥷📚
 
 An educational practice platform for **grades 1–7** — English, Math and Science — plus browser
-games and two Learn-only electronics topics. Students browse freely and sign in only when they
-start practising.
+games and three Learn-only topics taught by animation. Students browse freely and sign in only
+when they start practising.
 
 Delivered as a **static site on GitHub Pages** at **[ninjanerd.ai](https://ninjanerd.ai)**.
 
@@ -19,12 +19,14 @@ Delivered as a **static site on GitHub Pages** at **[ninjanerd.ai](https://ninja
   Rules; the web config is public by design and grants nothing on its own.
 - **EmailJS** sends the contact form. There are no payments.
 - Four canvas games ship alongside the practice content.
-- Two **Learn-only** topics teach electronics through animation rather than questions:
+- Three **Learn-only** topics teach through animation rather than questions:
   **Control Logic** (grade 5 up) covers signals, logic gates and truth tables; **Electrical
   Design** (grade 7) covers the components — resistors, capacitors, inductors, diodes, LEDs,
   transistors, LDRs and thermistors — then puts them into a real circuit whose microcontroller
-  the student programs by dragging command blocks. Neither records anything, so neither can be
-  failed.
+  the student programs by dragging command blocks; **Programming** (grade 6 up) covers
+  variables, conditionals and loops in language-neutral pseudocode the student runs one line at
+  a time and then builds themselves, and finishes with the real toolchain that turns source
+  code into a running program. None of them records anything, so none can be failed.
 
 ## Folder structure
 
@@ -35,7 +37,7 @@ app/                  # the published site — the ONLY folder served
 ├── js/               #   page logic (ES modules)
 ├── assets/           #   css, img, shared js
 ├── content/          #   compiled question JSON + manifest
-└── static/           #   games/ · control-logic/ · electrical-design/
+└── static/           #   games/ · control-logic/ · electrical-design/ · programming/
 
 dbmgr/                # Firestore security rules + indexes
 tools/                # dev-time content build scripts
@@ -60,8 +62,13 @@ npm run build:content    # recompile question JSON from the authored source
 To preview the site locally:
 
 ```bash
-cd app && python3 -m http.server 8000    # then open http://localhost:8000
+npm run serve            # http://127.0.0.1:8000
+npm run serve -- 8010    # or any other port
 ```
+
+`tools/serve.mjs` sends `Cache-Control: no-store` and no `Last-Modified`. That matters: lesson
+scripts are injected with `createElement('script')`, and a browser will serve those from cache
+even on a hard reload — so a plain static server can show you code that is no longer on disk.
 
 ### Testing
 

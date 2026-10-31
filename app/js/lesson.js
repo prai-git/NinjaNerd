@@ -6,7 +6,7 @@
    a game — nothing is scored, timed or failed — so the controls are Reset, Step, and the
    inputs the child toggles. For gates and truth tables the poking IS the learning.
 
-   ONE PLAYER, TWO TOPICS (prompt 21). Prompt 21 asked for this page to be reused unchanged;
+   ONE PLAYER, THREE TOPICS (two at prompt 21, Programming added 2026-10-30). Prompt 21 asked for this page to be reused unchanged;
    it could not be, because the data module and the Back link were named here rather than
    passed in. Rather than fork a near-identical second player — which would then have to be
    fixed twice for ever — the module and the link became a `topic` URL parameter, and the
@@ -16,14 +16,20 @@
    doc/changelog.md. */
 import * as controlLogic from './control-logic-data.js';
 import * as electricalDesign from './electrical-design-data.js';
+import * as programming from './programming-data.js';
 import { param, isValidGrade } from './flow.js';
 
+/* The registry is the ONLY thing here that knows how many topics exist — adding the third one
+   was this object plus an import, which is what the `topic` parameter was introduced for. */
 const TOPICS = {
   'control-logic': {
     data: controlLogic, page: 'pages/control-logic.html', label: 'Control Logic',
   },
   'electrical-design': {
     data: electricalDesign, page: 'pages/electrical-design.html', label: 'Electrical Design',
+  },
+  programming: {
+    data: programming, page: 'pages/programming.html', label: 'Programming',
   },
 };
 

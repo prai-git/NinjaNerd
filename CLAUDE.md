@@ -8,8 +8,8 @@ design record** for the implementation as it actually stands.
 ## 1. What this is
 
 NinjaNerd is an educational practice platform for **grades 1–7** in **English, Math and
-Science**, plus browser games and two Learn-only topics — **Control Logic** and
-**Electrical Design** — delivered as a
+Science**, plus browser games and three Learn-only topics — **Control Logic**,
+**Electrical Design** and **Programming** — delivered as a
 **static site on GitHub Pages** at **ninjanerd.ai**.
 
 It was rebuilt from a Flask monolith. The defining constraint of that rebuild: **there is no
@@ -39,7 +39,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 4,175 questions across all 145 subtopics ·
-`npm test` → **377 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
+`npm test` → **414 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
 since 2026-09-03 — is **met by every one of the 145 buckets** as of 2026-09-04, so its test is
 no longer `todo` and a regression now fails the build.
 
@@ -85,14 +85,15 @@ that import the SDK can only be checked as text.
   URL prefix.
   - `index.html` — the public About landing page
   - `pages/` — login, signup, topics, subtopics, explore, learn, practice, statistics,
-    account, audit, contact_us, games, game, control-logic, electrical-design, lesson,
-    privacy, terms
+    account, audit, contact_us, games, game, control-logic, electrical-design, programming,
+    lesson, privacy, terms
   - `js/` — per-page ES modules (see §4)
   - `assets/{css,js,img}/` — site CSS, the three classic scripts, logo
   - `content/questions/en/<grade>/<subject>/<subtopic_id>.json` + `manifest.json`
   - `static/games/` — `geodash`, `mmh`, `tank_attack`, `tejas_thrust`
   - `static/control-logic/` — `common/draw.js` plus one folder per lesson (§5b)
   - `static/electrical-design/` — `common/{draw,parts}.js` plus one folder per lesson (§5c)
+  - `static/programming/` — `common/draw.js` plus one folder per lesson (§5d)
   - `favicon.ico`, `.nojekyll`
   - **`CNAME`** — ships here since the domain went live (2026-09-01). It was staged at the
     repo root as `CNAME.pending` for the whole migration, because Pages reads `app/CNAME` on
@@ -189,7 +190,8 @@ index.html (public)  ── grade ─▶  topics.html?grade=N
               ▼                      ▼                      ▼
  subtopics.html?grade&subject   games.html?grade   control-logic.html?grade
                                                     electrical-design.html?grade
-              │                      │                (grade >= MIN_GRADE)
+                                                    programming.html?grade
+              │                      │                (grade >= its own MIN_GRADE)
               ▼                      ▼                      ▼
  explore.html?grade&subject     game.html?slug      lesson.html?lesson&grade
    &subtopic
@@ -220,8 +222,9 @@ chose. This is deliberate — an IXL-style "look before you sign up" flow.
 | `games-data.js` | Game slugs, names, icons, colours |
 | `control-logic-data.js` | The five lessons + `MIN_GRADE`, and the lesson-class contract |
 | `electrical-design-data.js` | The two lessons + its own `MIN_GRADE = 7` (§5c) |
-| `control-logic.js` / `electrical-design.js` | The two lesson lists (mirror `games.js`) |
-| `lesson.js` | ONE generic player for both topics, routed by `?topic=` (mirrors `game.js`) |
+| `programming-data.js` | The four lessons + its own `MIN_GRADE = 6` (§5d) |
+| `control-logic.js` / `electrical-design.js` / `programming.js` | The three lesson lists (mirror `games.js`) |
+| `lesson.js` | ONE generic player for all three topics, routed by `?topic=` (mirrors `game.js`) |
 | `assets/js/layout.js` | Injects one nav + footer string into every page — **a classic script** |
 | `assets/js/auth-state.js` | Display-only cache so the nav paints before Firebase resolves |
 | `assets/js/toast.js` | Replaces Flask flash messages |
@@ -368,6 +371,153 @@ round the outside of the board rather than straight across the thermistor's.
 at, which is what caught the disconnected transistor, a "switch OPEN" label beside an unbroken
 wire, and three labels sitting on top of wires. `npm test` proves the code runs and the
 electronics are right; only a picture proves the picture is right.
+
+## 5d. Programming — pseudocode a child runs, then builds
+
+A seventh tile, **grades 6 and up**, added 2026-10-30. Four lessons: **Variables**,
+**Conditional Statements**, **Loops**, and **How Code Is Built**.
+
+**Third sibling, not an extension.** Control Logic teaches the digital abstraction, Electrical
+Design the analogue parts under it; this teaches the **software that runs on them**. Same
+promises as both: **Learn-only, writes nothing**, no Firestore, no schema or rules change,
+`subtopics-data.js` untouched, `MIN_GRADE` as one exported constant that `topics.js` reads.
+`test_programming.test.js` asserts all of that the way its two siblings do.
+
+**`MIN_GRADE = 6`**, written as a FLOOR like both siblings, so it picks up any grade added
+above it. Grade 7 is the top grade today, so the floor and the owner's "6th and 7th" are the
+same set today. Adding the topic needed **no player change beyond one registry entry** — which
+is exactly what the `?topic=` parameter was introduced for in prompt 21.
+
+### Two owner decisions, both against the obvious
+
+**1. The code on screen is language-neutral PSEUDOCODE** (owner, shown C / Python /
+pseudocode). The cost is real and is paid deliberately: `switch`/`case` and `do`/`while` are C
+keywords and pseudocode has neither, yet the owner asked for both concepts **by name**. They
+are taught as **shapes** — `CHOOSE … WHEN … OTHERWISE` and `REPEAT … UNTIL` — with
+`PG.realName` printing the real keyword beside each (`→ switch / case`). Dropping that pairing
+would quietly drop half the ask.
+
+**2. Every concept lesson has TWO modes: watch, then build.** The child runs a finished program
+line by line watching memory change, then switches to Build and assembles the key statement
+from dragged blocks. Watch is Control Logic's idiom; Build is Electrical Design's Design
+lesson. Both were asked for, so `mode` is an *input* on lessons 1-3 rather than two separate
+lessons each.
+
+### What each lesson is actually built to show
+
+| Lesson | The thing that is hard to say in words |
+|---|---|
+| Variables | Assignment **replaces**. The old value is struck through above the new one, and `SHOW` proves reading does not empty the box. The sliders re-run the same code with different numbers — the code never changes, the values do |
+| Conditionals | Tests run **in order** and the first true one wins; branches below it are never evaluated. Tried-and-failed branches are dimmed. `ELSE` has no condition because it is not a test |
+| Loops | Counting checks **before** the body, so it can run **zero** times; repeat-until checks **after**, so it always runs **at least once**. That one-pass difference is the whole lesson |
+| How Code Is Built | The thing being carried **changes shape** at every arrow: `.c` → expanded `.i` → `.o` with holes → linked executable → output |
+
+**The build lesson's fault control is the sharpest thing in the topic.** A missing `#include`
+dies in the preprocessor, a typo in the compiler, and a function declared-but-never-written
+gets all the way to the **linker** before anything complains. That last one is why *"it
+compiled"* and *"it built"* are different sentences. Nothing is scored — the child picks which
+fault to watch.
+
+### A DELIBERATE DIVERGENCE, flagged rather than hidden
+
+**Lesson 4 shows real C, not pseudocode.** `#include` *is* the preprocessor's input, an object
+file *is* what a compiler emits, and an unresolved symbol *is* what a linker complains about.
+Pseudocode has no preprocessor, no object files and no linker, so a pseudocode toolchain would
+be **invented rather than taught** — the opposite of the point. The owner's own subtopic named
+"programming language → pre-processor → compiler → linker → machine code", which is the C build
+verbatim. The screen says *"This is C — one real language"* so the child is not left thinking
+pseudocode compiles, and the test pins both halves: that the sentence is there, and that
+lessons 1-3 have **not** drifted into C syntax.
+
+### Traps, on top of everything §5b and §5c list
+
+- **A manifest input key can collide with the lesson contract.** The Variables slider was
+  keyed `start`, the lesson stored it as `this.start`, and that **shadowed the contract's
+  `start()` method** — `lesson.start()` threw and the lesson never animated. The test caught
+  it; the browser would have shown a still frame and no error anyone would look for. The key is
+  `startScore` now, renamed in the manifest too so nobody re-creates the collision.
+- **`vm` arrays are cross-realm.** `assert.deepStrictEqual` fails on an array built inside the
+  vm even when the contents match, because its `Array.prototype` differs. Spread it first
+  (`[...vmArray]`) — the same idiom `test_electrical_design.test.js` already uses.
+- **A source-text assertion can match the comment that documents the promise.** A mutation
+  deleting `&topic=programming` from the link **passed**, because the regex matched the header
+  comment explaining the parameter. `stripComments` first — the same reason the writes-nothing
+  scan does it.
+- **Canvas text neither clips nor complains.** A one-line caption centred in a 560 px box ran
+  **off the left edge of the canvas** and across the OUTPUT panel once the sentence reached 71
+  characters, and two keyword badges on one row overlapped by 35 px. `PG.caption` wraps and
+  `PG.realName` is compact for exactly these reasons.
+
+**Verified by replaying the geometry, not only by assertion** — §5c's lesson applied again. The
+draw calls are replayed with real coordinates across 18 lesson states and audited for
+out-of-bounds drawing, overlapping labels and **overlapping panels**; `npm test` proved the code
+runs and the semantics are right, and said nothing about the picture.
+
+### Four more defects the owner found by looking, and a guard that was wrong first
+
+The first round of layout work shipped three defects that all 21 tests passed through, because
+every one of them was about what the child SEES:
+
+- **The OUTPUT console was painted over.** It sat at `y=344 h=120`, ending at 464, while the
+  panel below starts at 424 and is drawn *after* it — so 54px of the console was covered and
+  `SHOW name` sat 6px from the covering edge. Relaid out to `y=318 h=98`.
+- **`SHOW` printed nowhere in Conditionals.** The listing says `SHOW "fan on"` on every branch
+  and there was no console on screen at all. A lesson whose code claims to output something and
+  visibly does not teaches the child to distrust the listing. Only the branch that was *taken*
+  prints, which restates the lesson.
+- **The build faults were invisible in the source.** Choosing *Typo* showed clean source and
+  then a compiler error out of nowhere; choosing *Function never written* reported `undefined
+  reference to bonus_points` when nothing on screen mentioned `bonus_points`. The artefacts are
+  fault-aware now: the typo is a real missing semicolon that **survives the preprocessor**
+  (which moves text without reading it), and the missing function is declared, called, and
+  named in the object code's hole.
+- **Watch mode could never finish.** Line 4 was `needsPick`, and `pick` is null outside Build
+  mode, so the program halted at line 3 for ever while the caption asked for a block from a
+  palette that watch mode does not show. `effectivePick` defaults it to `score + bonus` —
+  "watch it run" means watching a *finished* program.
+
+### Round three: three more defects, and the reason the suite kept missing them
+
+The owner then found, on Conditionals and on Loops alike: the **`BUILD IT YOURSELF` panel title
+crowding the Goal line** beneath it; **CHOOSE / WHEN showing `IF … THEN fan on`** in its build
+slot; and **no discernible difference between Watch and Build** at all.
+
+All three were real, and the third was the root of the other two. Build mode had been built as a
+*widget under the same program* rather than as a different program: the four-branch chain was
+drawn in both modes, the slot below it was wired to nothing the listing showed, and Loops applied
+a dropped block in watch mode too. **Build mode now replaces the listing with a shorter program
+that has a visible hole in it** — the pattern Variables already used for its line 4 — and both
+shapes of both lessons have their own palette and their own goal. Switching shape clears a pick
+belonging to the other palette, and `REPEAT … UNTIL` builds the UNTIL condition rather than
+telling the child to switch back.
+
+**Why 27 tests saw none of it, stated plainly, because the pattern is the lesson:**
+
+| What the suite asserted | What it could not see |
+|---|---|
+| `mode.choices === ['watch','build']` | whether the two modes *draw* differently |
+| the interpreters, against the semantics | whether the control wired to them does anything |
+| ≥60 draw calls, no `NaN` coordinate | a completely wrong picture satisfies both |
+| one frame, in isolation | a defect that **is** a difference between two frames |
+| a fresh instance per test | "drop a block, then switch mode" — the whole bug |
+| text overlap on a shared baseline | a title 9px above the line it crowds |
+
+Four guards now close those: **every declared value of every control must render a distinct
+frame** (scoped by `activeInputs()`, or a control is probed where it correctly does nothing);
+**watch and build must differ**, and build must announce the hole; **watch must render
+identically whether or not something was built** — a stateful sequence a fresh instance cannot
+express; and the overlap rule intersects **full bounding boxes in both axes**. `/fix-or-ferment`
+§4 carries the general form of all seven rules.
+
+**And the guard written for the first of those was wrong.** A "is the text's centre covered by a
+later fill" rule did not catch it: the panel edge lands just below the name's centre, so only
+the glyph's lower half is lost. Re-introducing the bug **passed**. What distinguishes a correct
+layout is that the **panels** do not overlap, so that is what is asserted — large fills only,
+with the canvas background excluded because it legitimately contains everything. *A guard
+narrower than the mistake it guards against is worth very little* (§3), demonstrated for the
+third time in this repo.
+
+---
 
 ## 6. Content pipeline (dev time only)
 
@@ -585,7 +735,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**377 pass, 0 fail, 0 todo** across 26 test files. Every prompt/task ships with a unit or mock test
+**414 pass, 0 fail, 0 todo** across 27 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,

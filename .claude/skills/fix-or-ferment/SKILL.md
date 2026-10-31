@@ -114,8 +114,8 @@ Do not accept a subagent's conclusion. Re-derive each from the returned numbers:
 
 1. **Tests:** `fail == 0` **and** `pass == tests`. A run with `skipped > 0` or `todo > 0`
    is *not* automatically red, but **report the counts** — a feature "verified" by a
-   skipped test is not verified. Reference: `377 pass / 0 fail / 0 skipped / 0 todo`
-   across 26 files as of 2026-10-30.
+   skipped test is not verified. Reference: `414 pass / 0 fail / 0 skipped / 0 todo`
+   across 27 files as of 2026-10-30.
 2. **Content:** `No findings.` over `Checked 4175 items.` Any finding is RED.
 3. **Arithmetic:** `WRONG 0` and exit 0. The frozen 30-id allowlist is **gone** — as of
    2026-10-30 the five classes of statement the evaluator cannot read are classified
@@ -270,6 +270,158 @@ node --test test/<the-new-file>.test.js    # MUST pass again
 If a mutation cannot be reverted cleanly, do the mutation in a scratchpad copy of the repo
 instead. **Never leave a deliberate mutation in the working tree** — confirm with `git diff`
 before moving on, and report the mutation and its revert in the summary.
+
+**When fixing a defect the owner reported, mutate back to THEIR defect, not to an
+approximation of it.** This is the step that keeps being skipped, and it has now failed four
+times in this repo. A guard written for "the OUTPUT box is covered" checked whether a text's
+*centre* was overlapped — re-introducing the real bug passed it, because the panel edge landed
+just below the centre. A guard written for "the modes look identical" compared two freshly
+built instances — re-introducing the real bug passed it, because the defect only appears after
+the child has dropped a block. In both cases the guard looked reasonable and was worth nothing.
+Revert to the exact reported behaviour, watch the new test fail, and only then keep it.
+
+### V. The verification sweep — MANDATORY for canvas, page or control work
+
+**The do-verify loop does not close until every row below has run and produced its evidence.**
+Not "consider doing this". Run it, paste the numbers, and if a row is red, fix the code — never
+the invariant.
+
+Why it is mechanical rather than advisory: across four review rounds the owner found **eleven**
+defects on one topic that a 21-, then 27-, then 33-test suite passed straight through. Each
+round I added a bespoke test for the exact thing reported, which is why there was a next round.
+The cause was never forgetfulness — it was that the states under test were a **hand-written
+list**: 18 of the 592 that the manifest described, about **3%**. Every defect lived in a
+combination that was not on the list.
+
+Worked example throughout: `test/test_programming.test.js` + `test/helpers/lesson-harness.js`.
+
+---
+
+**V0 — PRECONDITION: a shared harness, not a per-test recording canvas**
+
+| | |
+|---|---|
+| Action | Use `test/helpers/lesson-harness.js`. Extend it; do not re-implement a recording context inside a test file. |
+| Assert | The test file contains no local `function geometry(`, no `const STATES = [`, no per-file recorder. |
+| Command | `grep -nE "^(function geometry|const STATES)" test/test_<topic>.test.js` |
+| Evidence | Empty output. |
+| Red | A hand-written state list is present → delete it and call `enumerate()`. |
+
+**V1 — ENUMERATE the state space from the manifest**
+
+| | |
+|---|---|
+| Action | `enumerate(lesson)` — every choice value × every toggle × 3 range samples (min/mid/max) × steps 0..7. Never a curated list. |
+| Assert | `frames === enumerate(lesson).length` for every lesson, and the total does not fall. |
+| Command | `node --test test/test_<topic>.test.js` (the test *"the sweep visits every state the manifests declare"*) |
+| Evidence | Frames per lesson and the total. Programming: 144 / 288 / 96 / 64 = **592**. |
+| Red | Total below the previously recorded figure → the sweep shrank; find what stopped being enumerated. |
+
+**V2 — SWEEP the layout battery over all of it**
+
+| | |
+|---|---|
+| Action | `sweep(lesson, served)` runs `LAYOUT_INVARIANTS` on every frame. |
+| Assert | Zero failures for each of I1–I6, asserted **one test per invariant** so a failure names the defect class. |
+| Command | `node --test test/test_<topic>.test.js` |
+| Evidence | Per-invariant failure counts, all 0, and the frame count they ran over. |
+| Red | Fix the drawing. **Widening the tolerance to make a row pass is forbidden** — see the mutation rule below. |
+
+| | Invariant | Reported defect it closes |
+|---|---|---|
+| I1 | nothing drawn outside the canvas | caption ran off the left edge (x = −14) |
+| I2 | no two panels overlap | OUTPUT console painted over by the panel below |
+| I3 | no two labels overlap — **full bbox, both axes** | `BUILD IT YOURSELF` crowding the Goal line 9px under it |
+| I4 | no text fully covered by a later fill | — (kept; I2 is what actually catches the console) |
+| I5 | no non-finite coordinate | canvas draws nothing for `NaN` and raises nothing |
+| I6 | the frame is not blank | a lesson that constructs but never draws |
+
+**V3 — INTERACTION SWEEP: controls, modes, palettes**
+
+| | |
+|---|---|
+| Action | `interactionSweep(lesson, served)`. Feature-detected, so a topic with no build mode contributes fewer checks rather than failing. |
+| Assert | Zero failures for B1, B2, B6, B8, B9; `checks >= ` the previously recorded figure. |
+| Command | `node --test test/test_<topic>.test.js` |
+| Evidence | Check count (Programming: **42**) and per-invariant failures, all 0. |
+| Red | A control that changes nothing is a bug in the control or a dead value — not a test to relax. |
+
+| | Invariant | Reported defect it closes |
+|---|---|---|
+| B1 | every value of every **reachable** control changes the frame (scoped by `activeInputs()`) | Shape=CHOOSE left the build panel showing `IF … THEN fan on` |
+| B2 | modes differ, and build announces its hole | watch and build drew the identical program |
+| B6 | a palette that is **drawn** is draggable — looped over **every** shape, never the default | repeat-until's palette rendered and refused to move |
+| B8 | exactly one offered block satisfies the goal | the until goal accepted both `total >= limit` and `total = limit` |
+| B9 | watch renders the same whether or not something was built (**stateful**, via `drive`) | a block dropped in build still drove the watched program |
+
+**V4 — THE DEFECT LEDGER: every past defect, re-reverted**
+
+| | |
+|---|---|
+| Action | Revert each row of the DEFECT LEDGER (below V5), one at a time, and record which test fires. |
+| Assert | **Every row is caught.** A `SURVIVED` row means the battery does not cover it. |
+| Command | revert one row, `node --test test/test_<topic>.test.js`, restore from a backup copy, repeat |
+| Evidence | The ledger table with the catching test named per row, and `diff -rq` proving the tree was restored. |
+| Red | A survivor → **extend an invariant**. Adding a one-off test for that defect alone is NOT an acceptable close; that is the habit which produced four rounds. |
+
+Mutate back to the owner's **exact** reported behaviour, not an approximation. This has failed
+four times: a "text centre covered" rule passed when the real over-paint was re-introduced, and
+a fresh-instance mode comparison passed when the real watch-after-build bug was re-introduced.
+Both guards looked reasonable and were worth nothing.
+
+**V5 — HAND-OFF: serve it with caching made impossible**
+
+| | |
+|---|---|
+| Action | Serve the site and give the owner URLs plus a per-feature checklist. |
+| Command | `npm run serve -- 8010` (`tools/serve.mjs`) — sends `Cache-Control: no-store` and emits no `Last-Modified`/`ETag`. |
+| Assert | `curl -sI <url> \| grep -i cache-control` shows `no-store`; `curl -s <file> \| grep <the fix>` shows the new code is what is being served. |
+| Evidence | The header, the served-content grep, and the checklist given. |
+| Red | — |
+
+**Use a fresh port after any fix, and never tell the owner to hard-reload instead.** Lesson
+scripts are injected with `createElement('script')` and are served from browser cache even on a
+hard reload. The owner re-reported an already-fixed defect twice because of this, and both times
+the file on disk and the file on the wire were correct. A different port is a different cache
+key; it removes the variable rather than arguing about it.
+
+**A visual change is not done when the suite is green. It is done when the owner has looked.**
+
+---
+
+### THE DEFECT LEDGER
+
+Every defect the owner has reported on this topic, and the invariant that now covers it. **This
+table is the close criterion for V4.** All eleven were re-reverted on 2026-10-30 and every one
+was caught.
+
+| # | Round | Defect as reported | Invariant | Caught by |
+|---|---|---|---|---|
+| 1 | 1 | OUTPUT box misaligned; `SHOW name` covered by the box below | I2 | *no two panels overlap* |
+| 2 | 1 | Conditionals prints nothing — `SHOW` goes nowhere | B-semantic | *SHOW actually prints* |
+| 3 | 1 | "Typo" shows clean source, then a compiler error | B-semantic | *each build fault is VISIBLE* |
+| 4 | 1 | Linker blames `bonus_points`, absent from the source | B-semantic | *each build fault is VISIBLE* |
+| 5 | 1 | Watch mode halts at line 3 and never prints | B-semantic | *SHOW actually prints* |
+| 6 | 3 | `BUILD IT YOURSELF` title overlaps the Goal line | I3 | *no two labels overlap* |
+| 7 | 3 | CHOOSE / WHEN shows `IF … THEN fan on` | B1 / B6 | *a block can be dropped in EVERY shape* |
+| 8 | 3 | No difference between Watch and Build | B2 | *watch and build are visibly DIFFERENT modes* |
+| 9 | 3 | A block built in Build still drives Watch | B9 | *switching back to Watch shows the WRITTEN program* |
+| 10 | 4 | Repeat-until: nothing can be dragged | B6 | *a block can be dropped in EVERY shape* |
+| 11 | 4 | Repeat-until offers `i >= limit` | B7 | *every condition offered tests its own shape's value* |
+| 12 | 4 | The until goal accepted two different answers | B8 | *a block can be dropped in EVERY shape* |
+
+**Rules that bind this table:**
+
+- A new defect report **must** add a row, and the row must name an invariant. If no invariant
+  covers it, **extend the battery** — a bespoke test for that one defect is not an acceptable
+  close. Four rounds of bespoke tests is what produced this table.
+- A row may never be removed. A test name may be consolidated into the battery only when the
+  ledger still shows it caught, proven by re-reverting.
+- `comm -23` in step 5 covers the other direction: no test name silently disappears.
+
+**What this still cannot do.** The battery raises the floor from 3% of states to all 592, and it
+cannot judge whether a lesson *teaches* well. That is why V5 exists and why the owner's eye
+remains the last gate.
 
 ### While implementing
 
@@ -482,7 +634,7 @@ plainly here rather than in a footnote.
 
 | Gate | Baseline | Post-change | Verdict |
 |---|---|---|---|
-| `npm test` | 377 pass / 0 fail / 0 skipped / 0 todo | <N> pass / 0 fail / 0 skipped / 0 todo | GREEN (+<n> tests) |
+| `npm test` | 414 pass / 0 fail / 0 skipped / 0 todo | <N> pass / 0 fail / 0 skipped / 0 todo | GREEN (+<n> tests) |
 | `npm run check:content` | No findings, 4,175 items | No findings, <N> items | GREEN |
 | `npm run check:arithmetic` | WRONG 0, exit 0, <N> checked | WRONG 0, exit 0, <N> checked | GREEN |
 | firestore rules (20) | skipped locally — emulator unusable | unchanged / touched → CI gates it | n/a |
@@ -492,7 +644,7 @@ plainly here rather than in a footnote.
 | Check | Result |
 |---|---|
 | Baseline tests still present (`comm -23`) | <empty / list> |
-| Test count | 377 → <N>, monotonic |
+| Test count | 414 → <N>, monotonic |
 | skipped / todo | 0 / 0 → 0 / 0, not increased |
 | New test proven to fail against a broken implementation | <what was mutated, and that `git diff` confirmed the revert> |
 | `git status` | only the <n> intended files |

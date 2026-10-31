@@ -1,7 +1,7 @@
 # Frozen GREEN baseline
 
-Captured **2026-10-30** on branch `ninjanerd-static`, at `7efc3dd` plus the
-`check-arithmetic` gate change of the same day.
+Captured **2026-10-30** on branch `ninjanerd-static`, at `7c00774` plus the uncommitted
+Programming topic of the same day.
 
 `/fix-or-ferment` steps 2 and 5 compare against this file. **Update it deliberately**, as
 part of a change that legitimately moves a number — never to make a red run look green.
@@ -11,17 +11,17 @@ part of a change that legitimately moves a number — never to make a red run lo
 ## 1. `npm test`
 
 ```
-ℹ tests 377
+ℹ tests 414
 ℹ suites 1
-ℹ pass 377
+ℹ pass 414
 ℹ fail 0
 ℹ skipped 0
 ℹ todo 0
 ```
 
-26 test files. `suites 1` is the `describe('firestore security rules', { skip })` block —
-its 20 cases are not counted locally. The TAP name capture yields **378** lines because the
-skipped suite emits its own `ok`; that is expected and does not indicate a 378th test.
+27 test files. `suites 1` is the `describe('firestore security rules', { skip })` block —
+its 20 cases are not counted locally. The TAP name capture yields **415** lines because the
+skipped suite emits its own `ok`; that is expected and does not indicate a 415th test.
 
 **GREEN = `fail 0` and `pass == tests`.** Report `skipped`/`todo` whenever either is
 non-zero — a feature verified only by a skipped test is not verified.
