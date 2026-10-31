@@ -68,6 +68,16 @@ cd app && python3 -m http.server 8000    # then open http://localhost:8000
 `npm test` runs every suite under `test/`. No test touches the network — OpenAI and EmailJS
 calls are mocked.
 
+Two corpus audits also run as commands, and both exit non-zero on a finding:
+
+```bash
+npm run check:content      # structure/rendering audit over every compiled item
+npm run check:arithmetic   # recomputes every arithmetic chain stated in an explanation
+```
+
+`check:arithmetic` is also gated by `npm test` (`test/test_arithmetic.test.js`), so a wrong sum
+in an explanation fails the suite rather than waiting for someone to run the command.
+
 Firestore rules are verified against the Firebase emulator, which runs **in CI only**
 (`.github/workflows/rules.yml`). Those cases skip locally so `npm test` stays green without a
 Java install:

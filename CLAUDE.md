@@ -39,7 +39,7 @@ collections are default-deny).
 certificate covers the apex and `www`, which redirects to the apex) · Firebase project
 **`ninjanerd-32030`** with Email/Password auth and Firestore (Standard edition, Production
 mode, `nam7`) · **grades 1–7** · 4,175 questions across all 145 subtopics ·
-`npm test` → **357 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
+`npm test` → **377 pass, 0 fail, 0 todo**. The per-subtopic question floor — **25 uniform**
 since 2026-09-03 — is **met by every one of the 145 buckets** as of 2026-09-04, so its test is
 no longer `todo` and a regression now fails the build.
 
@@ -585,7 +585,7 @@ would be an open relay on the owner's Gmail.
 npm test          # node --test — runs test/*.test.js
 ```
 
-**357 pass, 0 fail, 0 todo** across 25 test files. Every prompt/task ships with a unit or mock test
+**377 pass, 0 fail, 0 todo** across 26 test files. Every prompt/task ships with a unit or mock test
 as part of its done-criteria. **No test touches the network** — OpenAI and EmailJS are mocked.
 
 **Firestore rules are tested against the emulator in CI only** (`.github/workflows/rules.yml`,
@@ -620,10 +620,38 @@ and every pipe table actually becoming a `<table>`.
 
 **Answers — 1,035 numeric keys machine-checked, zero wrong.** A key is checkable when the correct
 option is a single value and the explanation states it; that covers 1,035 of 4,175. Separately
-`tools/check-arithmetic.mjs` evaluates **1,039 arithmetic statements** in explanations. It found
+`tools/check-arithmetic.mjs` evaluates the arithmetic statements in explanations. It found
 **one real error** — a grade 2 item asserting `14+9+5=30`, whose scenario was also inconsistent
 (a frog at 23 cm cannot be 5 cm short of 30); fixed at source to `14+9+7=30`. Every other flag in
 both tools was read by hand and confirmed correct.
+
+**`check-arithmetic.mjs` became a GATE on 2026-10-30, and that is a change of kind.** It was
+written **reporting-only** — it printed its findings and never set an exit code — because 31 of
+the statements it flagged were correct and a non-zero exit would have been permanently red. Its
+header rejected the obvious fix, "whitelisting sixteen strings, which rots", and was right to;
+by the time anyone looked again the count had drifted **16 → 31**, proving the point.
+
+What changed is the **classifier, not a whitelist.** Every one of the 31 was a case where the
+extracted substring was not the author's expression, in five structural classes — a `\frac`
+whose parts carry an operator (`\frac{15-3}{6-2}` linearised to `15 - 3/6 - 2`), an exponent
+that is itself an expression or negative (`10^{4+3}`, `3^{-2}`), a macro that *transforms* its
+argument being stripped by the blanket `\[a-zA-Z]+` rule (`\sqrt{6^2+8^2}` compared 36+64 to
+10), and fragments where the expression continues past a variable or paren to the left
+(`s − 15 + 28 = 67`) or into a mixed number to the right (`6÷4=1\frac12`). The first three are
+marked unevaluable in `prep`; the last two are caught by `FRAG_BEFORE`/`FRAG_AFTER`. Net:
+**1,083 → 1,030 statements still checked, and `WRONG` now means wrong**, so the one missing line
+— `process.exitCode = wrong.length ? 1 : 0` — is finally safe to add.
+
+**Markdown is not arithmetic, and that cost 188 sound statements on the first attempt.** Keying
+the fragment test on bare operator characters treated the trailing `**` of `**Step:**` as a
+product and the leading `- ` of a list item as a minus, skipping a fifth of the corpus. The
+guards therefore key on *an operand followed by an operator*, never on an operator alone, and
+`test_arithmetic.test.js` asserts a wrong sum is still caught **inside bold and inside a
+bullet** for exactly this reason.
+
+The tool is now importable (`checkArithmetic`, `collectItems`, `CORPUS`), with its CLI behind a
+direct-invocation guard and an optional corpus-path argument so the test can drive the real
+exit-1 path against a fixture rather than grep the source for `? 1 : 0`.
 
 **What is NOT machine-verified, stated plainly:** the semantics of the other 3,140 items — whether
 a grade 4 reading inference or a science explanation is *pedagogically* right — cannot be checked
